@@ -2,6 +2,9 @@
 ##  Knowledge:
 ##########################################################################################
 
+I put a * at the beginning of a line when I'm done with it. When all sub-items are done, I put a * the top level,
+meaning the entire block is done.
+
 * - how computers process a program:
     * - https://www.youtube.com/watch?v=42KTvGYQYnA
     * - https://www.youtube.com/watch?v=Mv2XQgpbTNE
@@ -55,6 +58,7 @@ Each day I take one subject from the list below, watch videos about that subject
     C++ - using built-in types, like STL's std::list for a linked list
     Python - without using built-in types
     and write tests to ensure I'm doing it right
+Each subject does not require a whole day to be able to understand it fully.
 Why code in all of these?
     Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
     Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
@@ -62,23 +66,18 @@ Why code in all of these?
 
 ----------------------------------------------------------------
 
-linked lists
-    - singly-linked
-        * - Description: https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
-        * - C Code (can jump to 6 minutes in): https://www.youtube.com/watch?v=KjtPAW5jyo8
-        - Java Code: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/uwobd/core-java-code-for-a-linked-list
-    - doubly-linked
-        - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
-    - reverse a singly-linked list
-    - why you should avoid linked lists:
-        - https://www.youtube.com/watch?v=YQs6IC-vgmo
-stacks
-    - see: https://class.coursera.org/algs4partI-010/lecture
-    - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
-queues
-    - see: https://class.coursera.org/algs4partI-010/lecture
-    - https://www.coursera.org/learn/data-structures/lecture/EShpq/queues
 arrays
+    - No need to spend a day on this.
+    - Implement:
+        - raw data array with allocated memory
+        - at(index) - returns item at given index
+        - append(item)
+        - insert(index, item)
+        - prepend(item) - can use insert above at index 0
+        - delete(index)
+        - remove(item)
+        - find(item)
+    - Nothing to implement, but practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
     - https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays
     - https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays
     - Time
@@ -87,6 +86,40 @@ arrays
     - Space
         - contiguous in memory, so proximity helps performance
         - space needed = size of object * number of items to store
+linked lists
+    - singly-linked
+        * - Description: https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
+        * - Lynda.com:
+            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Introduction-lists/149042/177115-4.html
+            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-basic-list-implementations/149042/177116-4.html
+            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-singly-doubly-linked-lists/149042/177117-4.html
+            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/List-support-across-languages/149042/177118-4.html
+        * - C Code: https://www.youtube.com/watch?v=QN6FPiD0Gzo
+            - not the whole video, just portions about Node struct and memory allocation.
+        * - why you should avoid linked lists:
+            - https://www.youtube.com/watch?v=YQs6IC-vgmo
+        - implement (with tail pointer), item is the data item in a node:
+            - push_front
+            - get_front
+            - pop_front
+            - push_back
+            - get_back
+            - pop_back
+            - insert_before(node, item)
+            - insert_after(node, item)
+            - size()
+            - is_empty()
+            - find(item) - assume each item is unique
+            - remove(item) - assume each item is unique
+    - doubly-linked list
+        - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
+    - reverse a singly-linked list
+stacks
+    - see: https://class.coursera.org/algs4partI-010/lecture
+    - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
+queues
+    - see: https://class.coursera.org/algs4partI-010/lecture
+    - https://www.coursera.org/learn/data-structures/lecture/EShpq/queues
 Vectors
     - Vector calculus ?
 heaps

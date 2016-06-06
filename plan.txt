@@ -159,6 +159,8 @@ design patterns:
     - adapter
     - prototype
     - decorator
+    - visitor
+    - factory
 Combinatorics (n choose k)
 Probability
 Dynamic Programming
@@ -204,6 +206,9 @@ Information theory:
 Bloom Filter
     - https://www.youtube.com/watch?v=-SuTGoFYjZs
     - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
+
+Fast Fourier Transform
+    - http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
 C (for basis of C)
 C++ (for interview answers)

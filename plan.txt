@@ -15,12 +15,14 @@ to use this the same way. If you search/replace, there are a couple of places to
 * - Videos:
     * - https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be
     * - https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be
+    - https://www.youtube.com/watch?v=8npJLXkcmu8
 
 Articles:
-    - http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html
-    - http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
-    - http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
     - http://www.google.com/about/careers/lifeatgoogle/hiringprocess/
+    * - http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
+        - all the things he mentions that you need to know are listed below
+    * - (very dated) http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html
+    - http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
 
 Additional (not suggested by Google but I added):
     - https://courses.csail.mit.edu/iap/interview/materials.php
@@ -241,14 +243,15 @@ Graphs:
         - matrix
         - adjacency list
     - familiarize yourself with each representation and its pros & cons
-    - now their computational complexity, their tradeoffs, and how to implement them in real code
+    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - If you get a chance, try to study up on fancier algorithms:
         - Dijkstra
         - A*
+    - when asked a question, look for a graph-based solution first, then move on if none.
 Other data structures:
     - You should study up on as many other data structures and algorithms as possible
     - You should especially know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
-    - Find out what NP-complete means.
+    - Know what NP-complete means.
 Recursion
     -  when it is appropriate to use it
 Algorithmic complexity

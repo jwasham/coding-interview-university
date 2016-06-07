@@ -30,10 +30,9 @@ Additional (not suggested by Google but I added):
     * - https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1
     * - http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture
     * - http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/
-    - https://www.youtube.com/watch?v=rEJzOhC5ZtQ
-    - https://www.youtube.com/watch?v=aClxtDcdpsQ
-    - https://www.youtube.com/watch?v=2cf9xo1S134
-    - https://www.youtube.com/watch?v=YJZCUhxNCv8
+    - Gayle L McDowell - Cracking The Coding Interview: https://www.youtube.com/watch?v=rEJzOhC5ZtQ
+    - Cracking the Coding Interview: https://www.youtube.com/watch?v=aClxtDcdpsQ
+    * - How to Get a Job at the Big 4: https://www.youtube.com/watch?v=YJZCUhxNCv8
 
 ##########################################################################################
 ##  Knowledge:

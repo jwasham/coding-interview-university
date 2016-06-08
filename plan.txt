@@ -389,6 +389,8 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - How large is your team?
     - What is your dev cycle look like? Do you do sprints/agile?
     - How are decisions made in your team?
+    - How many meetings do you have per week?
+    - Do you feel your work environment helps you concentrate?
     - What are you working on?
     - What do you like about it?
     - What is the work life like?

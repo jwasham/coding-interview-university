@@ -92,7 +92,7 @@ There are a few books involved, see the bottom
 
 ----------------------------------------------------------------
 
-The Gauntlet:
+The Daily Plan:
 
 Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
     C - using structs and functions that take a struct * and something else as args.
@@ -174,7 +174,6 @@ queues
     - see: https://class.coursera.org/algs4partI-010/lecture
     - https://www.coursera.org/learn/data-structures/lecture/EShpq/queues
 Vectors
-    - Vector calculus ?
 heaps
     - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
     - min heap

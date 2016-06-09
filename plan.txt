@@ -435,7 +435,9 @@ Additional (not suggested by Google but I added):
 ##
 ##
 ##
-##  Everything below is my recommendation, not Google's
+##  Everything below is my recommendation, not Google's, and
+##      you may not have enough time to watch or read them all.
+##      That's ok. I may not either.
 ##
 ##
 ##

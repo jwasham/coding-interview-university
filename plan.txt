@@ -45,7 +45,9 @@ They will sometimes make an exception and let you use Python or some other langu
 must be mainstream and allow you write your code low-level enough to solve the problems.
 You'll see some C, C++ learning included below.
 
-There are a few books involved, see the bottom
+There are a few books involved, see the bottom.
+
+Some videos are available only by enrolling in a Coursera or EdX class. It is free to do so.
 
 * - how computers process a program:
     * - https://www.youtube.com/watch?v=42KTvGYQYnA
@@ -114,13 +116,25 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 ----------------------------------------------------------------
 
-Algorithmic complexity
+* - Before you get started:
+    The myth of the Genius Programmer: https://www.youtube.com/watch?v=0SARbwvhupQ
+    Google engineers are smart, but many have an insecurity that they aren't smart enough.
+
+* - Algorithmic complexity / Big O / Asymptotic analysis
     - nothing to implement
-    - math explanation: https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
-    - https://www.youtube.com/watch?v=V6mKVRU1evU
-    - http://discrete.gr/complexity/
+    - Harvard CS50 - Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
+    - Big O Notations (general quick tutorial) - https://www.youtube.com/watch?v=V6mKVRU1evU
+    - Big O Notation (and Omega and Theta):
+        - https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
+    - Skiena:
+        - video: https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+        - slides: http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf
+    - A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
+    - Orders of Growth: https://class.coursera.org/algorithmicthink1-004/lecture/59
+    - Asymptotics: https://class.coursera.org/algorithmicthink1-004/lecture/61
+    - Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
     - http://bigocheatsheet.com/
-arrays
+Arrays
     * - Description:
         - Arrays: https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays
         - Dynamic Arrays: https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays

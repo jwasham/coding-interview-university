@@ -391,9 +391,62 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - What do you like about it?
     - What is the work life like?
 
+
+##########################################################################################
+##  Books:
+##########################################################################################
+
+Mentioned in Coaching:
+
+    The Algorithm Design Manual
+        http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
+
+    Algorithms and Programming: Problems and Solutions:
+        http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
+
+    Read first:
+    Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:
+        http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html
+
+    Read second:
+    Cracking the Coding Interview, Fourth Edition:
+        - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
+
+Additional (not suggested by Google but I added):
+
+    * - C Programming Language, Vol 2
+
+    * - C++ Primer Plus, 6th Edition
+
+    Programming Pearls:
+        - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
+
+    If you see people reference "The Google Resume", it was replaced by "Cracking the Coding Interview".
+
+    Clean Code
+
+    Code Complete
+
+    Introduction to Algorithms
+
+
+##########################################################################################
+##########################################################################################
+##
+##
+##
+##  Everything below is my recommendation, not Google's
+##
+##
+##
+##########################################################################################
+
 ##########################################################################################
 ##  Videos:
 ##########################################################################################
+
+CSE373 - Analysis of Algorithms
+    - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
 
 6.042: Math for CS (25 videos):
     - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
@@ -454,50 +507,13 @@ AddressSanitizer: A Fast Address Sanity Checker
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
 
 ##########################################################################################
-##  Books:
-##########################################################################################
-
-Mentioned in Coaching:
-
-    The Algorithm Design Manual
-        http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
-
-    Algorithms and Programming: Problems and Solutions:
-        http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
-
-    Read first:
-    Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:
-        http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html
-
-    Read second:
-    Cracking the Coding Interview, Fourth Edition:
-        - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
-
-Additional (not suggested by Google but I added):
-
-    * - C Programming Language, Vol 2
-
-    * - C++ Primer Plus, 6th Edition
-
-    Programming Pearls:
-        - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
-
-    If you see people reference "The Google Resume", it was replaced by "Cracking the Coding Interview".
-
-    Clean Code
-
-    Code Complete
-
-    Introduction to Algorithms
-
-##########################################################################################
 ##  Coding exercises/challenges:
 ##########################################################################################
 
 - https://courses.csail.mit.edu/iap/interview/materials.php
 
-Recommended: LeetCode: https://leetcode.com/
-             TopCoder: https://www.topcoder.com/
+LeetCode: https://leetcode.com/
+TopCoder: https://www.topcoder.com/
 
 More:
 HackerRank: https://www.hackerrank.com/

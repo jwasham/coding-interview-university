@@ -409,7 +409,7 @@ Mentioned in Coaching:
         http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html
 
     Read second:
-    Cracking the Coding Interview, Fourth Edition:
+    Cracking the Coding Interview, 6th Edition:
         - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
 
 Additional (not suggested by Google but I added):
@@ -417,6 +417,8 @@ Additional (not suggested by Google but I added):
     * - C Programming Language, Vol 2
 
     * - C++ Primer Plus, 6th Edition
+
+    Introduction to Algorithms
 
     Programming Pearls:
         - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
@@ -426,8 +428,6 @@ Additional (not suggested by Google but I added):
     Clean Code
 
     Code Complete
-
-    Introduction to Algorithms
 
 
 ##########################################################################################
@@ -447,7 +447,7 @@ Additional (not suggested by Google but I added):
 ##  Videos:
 ##########################################################################################
 
-CSE373 - Analysis of Algorithms
+CSE373 - Analysis of Algorithms (25 videos):
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
 
 6.042: Math for CS (25 videos):
@@ -494,7 +494,7 @@ Stanford: Programming Paradigms (17 videos)
 ##########################################################################################
 
 Computing Weak Consistency in Polynomial Time
-    - http://delivery.acm.org/10.1145/2770000/2767407/p395-golab.pdf?ip=104.200.154.80&id=2767407&acc=OA&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E5945DC2EABF3343C&CFID=769944592&CFTOKEN=71654301&__acm__=1460506755_42d28e3f230cc8e733e2e9ed1ebe3605
+    - http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
 
 How Developers Search for Code: A Case Study
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
@@ -523,6 +523,12 @@ Codility: https://codility.com/programmers/
 Project Euler: https://projecteuler.net/index.php?section=problems
 InterviewCake: https://www.interviewcake.com/
 InterviewBit: https://www.interviewbit.com/invite/icjf
+
+##########################################################################################
+##  Maybe:
+##########################################################################################
+
+http://www.gainlo.co/ - Mock interviewers from big companies
 
 ##########################################################################################
 ##  Code References:

@@ -4,9 +4,10 @@
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
-I put an asterisk * at the beginning of a line when I'm done with it. When all sub-items are done,
+I put an asterisk/star (*) at the beginning of a line when I'm done with it. When all sub-items are done,
 I put a * at the top level, meaning the entire block is done. Sorry you have to remove all my *
 to use this the same way. If you search/replace, there are a couple of places to look out for.
+Sometimes I just put a * at top level if I know I've done all the subtasks, to cut down on * clutter.
 
 ##########################################################################################
 ##  Interview Prep:
@@ -40,6 +41,8 @@ to use this the same way. If you search/replace, there are a couple of places to
 ##  Knowledge:
 ##########################################################################################
 
+This short section were prerequisites/interesting info I wanted to learn before getting started on the daily plan.
+
 You need to know C, C++, or Java to do the coding part of the interview.
 They will sometimes make an exception and let you use Python or some other language, but the language
 must be mainstream and allow you write your code low-level enough to solve the problems.
@@ -55,15 +58,6 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
 
 * - Computer Arch Intro:
     (first video only - interesting but not required) https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1
-
-* - Parity & Hamming Code:
-    Parity:
-        https://www.youtube.com/watch?v=DdMcAUlxh1M
-    Hamming Code:
-        https://www.youtube.com/watch?v=1A_NcXxdoCc
-        https://www.youtube.com/watch?v=JAMLuxdHH8o
-    Error Checking:
-        https://www.youtube.com/watch?v=wbH2VxzmoZk
 
 * - C
     * - K&R C book (ANSI C)
@@ -96,14 +90,16 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
 
 The Daily Plan:
 
+Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day.
+
 Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
     C - using structs and functions that take a struct * and something else as args.
     C++ - without using built-in types
     C++ - using built-in types, like STL's std::list for a linked list
-    Python - without using built-in types
-    and write tests to ensure I'm doing it right, keep it simple with just assert() statements
+    Python - without using built-in types (to keep practicing Python)
+    and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
     You may do Java or something else, this is just my thing.
-Each subject does not require a whole day to be able to understand it fully.
+
 Why code in all of these?
     Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
     Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
@@ -124,7 +120,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - nothing to implement
     - Harvard CS50 - Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
     - Big O Notations (general quick tutorial) - https://www.youtube.com/watch?v=V6mKVRU1evU
-    - Big O Notation (and Omega and Theta):
+    - Big O Notation (and Omega and Theta) - best mathematical explanation:
         - https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
     - Skiena:
         - video: https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
@@ -132,8 +128,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
     - Orders of Growth: https://class.coursera.org/algorithmicthink1-004/lecture/59
     - Asymptotics: https://class.coursera.org/algorithmicthink1-004/lecture/61
+    - UC Berkeley Big O: https://youtu.be/VIS4YDpuP98
+    - UC Berkeley Big Omega: https://youtu.be/ca3e7UVmeUc
+    - Amortized Analysis: https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
     - Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
-    - http://bigocheatsheet.com/
+    - Cheat sheet: http://bigocheatsheet.com/
 Arrays
     * - Description:
         - Arrays: https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays
@@ -222,8 +221,16 @@ Circular buffer/FIFO:
 Bit operations
     - count on bits
         - https://youtu.be/Hzuzo9NJrlc
-    - max run of off bits
+    - max run of on/off bits
     - bit shifting
+* - Parity & Hamming Code:
+    Parity:
+        https://www.youtube.com/watch?v=DdMcAUlxh1M
+    Hamming Code:
+        https://www.youtube.com/watch?v=1A_NcXxdoCc
+        https://www.youtube.com/watch?v=JAMLuxdHH8o
+    Error Checking:
+        https://www.youtube.com/watch?v=wbH2VxzmoZk
 binary search
 Sorting
     - no bubble sort - it's terrible
@@ -375,6 +382,9 @@ Machine Learning:
     - http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
     - http://www.dataschool.io/
 
+Parallel Programming:
+    - https://www.coursera.org/learn/parprog1/home/week/1
+
 ------------------------
 
 Be thinking of for when the interview comes:
@@ -422,6 +432,9 @@ Mentioned in Coaching:
 
     Algorithms and Programming: Problems and Solutions:
         http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
+
+    Once you've understood everything in the daily plan:
+        read and do exercises from the books below. Then move to coding challenges (below)
 
     Read first:
     Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:

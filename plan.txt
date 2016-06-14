@@ -175,7 +175,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     * - Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
-Singly Linked List
+Linked Lists
     * - Description:
         * - https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
         * - Lynda.com:
@@ -196,15 +196,16 @@ Singly Linked List
         * - pop_front() - remove front item
         * - push_back(value) - adds an item at the end
         * - pop_back() - removes end item
-        - insert(index, value) - insert value at index, so current item at that index is pointed to by next at index
-        - erase(index) - removes node at given index
+        * - value_at(index) - returns the value of the nth item
+        * - insert(index, value) - insert value at index, so current item at that index is pointed to by next at index
+        * - erase(index) - removes node at given index
+        - value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - reverse() - reverses the list
         - remove(value) - remove all elements with this value
         - find(value) - return pointer to the node that has this value
-        - reverse() - reverses the list
-Doubly-linked List
+    Doubly-linked List
         - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
-        - implement:
-            - same as above for singly linked list
+        - No need to implement
 Stacks
     - see: https://class.coursera.org/algs4partI-010/lecture
     - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
@@ -302,12 +303,15 @@ Graphs:
     - familiarize yourself with each representation and its pros & cons
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - If you get a chance, try to study up on fancier algorithms:
-        - Dijkstra
+        - Dijkstra's algorithm
+            - https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
         - A*
+            - https://en.wikipedia.org/wiki/A*_search_algorithm
     - when asked a question, look for a graph-based solution first, then move on if none.
 Other data structures:
     - You should study up on as many other data structures and algorithms as possible
-    - You should especially know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
+    - You should especially know about the most famous classes of NP-complete problems, such as traveling salesman
+            and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
 Recursion
     -  when it is appropriate to use it

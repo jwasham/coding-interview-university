@@ -210,7 +210,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
         - No need to implement
 Stacks
-    - see: https://class.coursera.org/algs4partI-010/lecture
     - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
     - https://class.coursera.org/algs4partI-010/lecture/18
 Queues

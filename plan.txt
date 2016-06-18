@@ -184,7 +184,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
             - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-singly-doubly-linked-lists/149042/177117-4.html
             - https://www.lynda.com/Developer-Programming-Foundations-tutorials/List-support-across-languages/149042/177118-4.html
     * - C Code: https://www.youtube.com/watch?v=QN6FPiD0Gzo
-        - not the whole video, just portions about Node struct and memory allocation.
+            - not the whole video, just portions about Node struct and memory allocation.
+    * - Linked List vs Arrays:
+        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays
+        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays
     * - why you should avoid linked lists:
         - https://www.youtube.com/watch?v=YQs6IC-vgmo
     * - Gotcha: you need pointer to pointer knowledge:
@@ -209,26 +212,15 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     * - Doubly-linked List
         - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
         - No need to implement
-Stacks
+* - Stacks
     - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
     - https://class.coursera.org/algs4partI-010/lecture/18
+    - https://class.coursera.org/algs4partI-010/lecture/19
+    - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
 Queues
     - see: https://class.coursera.org/algs4partI-010/lecture
-    - https://www.coursera.org/learn/data-structures/lecture/EShpq/queues
-Heaps
-    - Description:
-        - https://en.wikipedia.org/wiki/Heap_(data_structure)
-        - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
-    - min heap
-    - max heap
-Priority Queue
-    - https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
-    - see: https://class.coursera.org/algs4partI-010/lecture
-    - https://class.coursera.org/algs4partI-010/lecture/39
-    - https://en.wikipedia.org/wiki/Priority_queue
-Disjoint Sets:
-    - https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
-    - https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
+    - https://www.coursera.org/learn/data-structures/lecture/EShpq/queue
+    - Circular buffer/FIFO: https://en.wikipedia.org/wiki/Circular_buffer
 Hash tables
     - https://www.youtube.com/watch?v=C4Kc8xzcA68
     - https://class.coursera.org/algs4partI-010/lecture/52
@@ -238,9 +230,29 @@ Hash tables
     - test: implement with only arrays
 Tries
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
-Circular buffer/FIFO:
-    - https://en.wikipedia.org/wiki/Circular_buffer
+Disjoint Sets:
+    - https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
+    - https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
+    - https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
+    - https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
+    - https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
+    - https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
+Heap (data structure):
+    - https://en.wikipedia.org/wiki/Heap_(data_structure)
+    - https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
+    - https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations
+    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
+    - https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark
+    - https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
+    - https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
+    - https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
+
+    - see: https://class.coursera.org/algs4partI-010/lecture
+    - https://class.coursera.org/algs4partI-010/lecture/39
+Priority Queue
+    - https://en.wikipedia.org/wiki/Priority_queue
 Bit operations
+    - http://graphics.stanford.edu/~seander/bithacks.html
     - count on bits
         - https://youtu.be/Hzuzo9NJrlc
     - max run of on/off bits
@@ -267,13 +279,17 @@ Sorting
     - no bubble sort - it's terrible at O(n^2)
 Caches
     - LRU cache
+Binary trees:
+    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
+Binary Heap:
+    Min Heap / Max Heap
 Trees
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
     - see: https://class.coursera.org/algs4partI-010/lecture
     - basic tree construction
     - traversal
     - manipulation algorithms
-    - binary search trees BSTs
+    - Binary search trees: BSTs
         - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
         - applications:
             - https://class.coursera.org/algs4partI-010/lecture/57
@@ -608,6 +624,9 @@ For review questions in C book:
 ##########################################################################################
 ##  Once you've got the job (this is mainly for me):
 ##########################################################################################
+
+* - C++ Seasoning:
+    - https://www.youtube.com/watch?v=qH6sSOr-yk8
 
 C++ Talks at CPPCon:
     - https://www.youtube.com/watch?v=hEx5DNLWGgA&index=2&list=PLHTh1InhhwT75gykhs7pqcR_uSiG601oh

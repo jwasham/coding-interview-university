@@ -628,6 +628,9 @@ For review questions in C book:
 * - C++ Seasoning:
     - https://www.youtube.com/watch?v=qH6sSOr-yk8
 
+* - Better Code: Data Structures:
+    - https://www.youtube.com/watch?v=sWgDk-o-6ZE
+
 C++ Talks at CPPCon:
     - https://www.youtube.com/watch?v=hEx5DNLWGgA&index=2&list=PLHTh1InhhwT75gykhs7pqcR_uSiG601oh
 

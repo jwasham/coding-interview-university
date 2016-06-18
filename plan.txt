@@ -480,7 +480,8 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 Mentioned in Coaching:
 
     The Algorithm Design Manual
-        http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
+        - Book (can rent on kindle): http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
+        - Answers: http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
 
     Algorithms and Programming: Problems and Solutions:
         http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
@@ -508,11 +509,6 @@ Additional (not suggested by Google but I added):
         - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
 
     If you see people reference "The Google Resume", it was replaced by "Cracking the Coding Interview".
-
-    Clean Code
-
-    Code Complete
-
 
 ##########################################################################################
 ##########################################################################################
@@ -624,6 +620,10 @@ For review questions in C book:
 ##########################################################################################
 ##  Once you've got the job (this is mainly for me):
 ##########################################################################################
+
+Books:
+    Clean Code
+    Code Complete
 
 * - C++ Seasoning:
     - https://www.youtube.com/watch?v=qH6sSOr-yk8

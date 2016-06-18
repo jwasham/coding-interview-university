@@ -523,6 +523,14 @@ Additional (not suggested by Google but I added):
 ##
 ##########################################################################################
 
+String search algorithm:
+    Knuth-Morris-Pratt (KMP):
+        - https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
+        - https://www.youtube.com/watch?v=2ogqPWJSftE
+    Boyer–Moore string search algorithm
+        - https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
+        - https://www.youtube.com/watch?v=xYBM0_dChRE
+
 ##########################################################################################
 ##  Videos:
 ##########################################################################################

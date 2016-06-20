@@ -213,15 +213,15 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
         - No need to implement
 * - Stacks
-    - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
-    - https://class.coursera.org/algs4partI-010/lecture/18
-    - https://class.coursera.org/algs4partI-010/lecture/19
-    - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
-    - Will not implement. Implementing with array is trivial.
+    * - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
+    * - https://class.coursera.org/algs4partI-010/lecture/18
+    * - https://class.coursera.org/algs4partI-010/lecture/19
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
+    * - Will not implement. Implementing with array is trivial.
 Queues
-    - https://class.coursera.org/algs4partI-010/lecture/20
-    - https://www.coursera.org/learn/data-structures/lecture/EShpq/queue
-    - Circular buffer/FIFO: https://en.wikipedia.org/wiki/Circular_buffer
+    * - https://class.coursera.org/algs4partI-010/lecture/20
+    * - https://www.coursera.org/learn/data-structures/lecture/EShpq/queue
+    * - Circular buffer/FIFO: https://en.wikipedia.org/wiki/Circular_buffer
     - Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -230,7 +230,8 @@ Queues
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
-    - Cost:
+        - full()
+    * - Cost:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
         enqueue: O(1) (linked list and array)

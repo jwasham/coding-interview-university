@@ -56,6 +56,11 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
     * - https://www.youtube.com/watch?v=42KTvGYQYnA
     * - https://www.youtube.com/watch?v=Mv2XQgpbTNE
 
+* - how floating point numbers are stored:
+    * - simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
+    * - 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU
+    * - 64 bit: https://www.youtube.com/watch?v=50ZYcZebIec
+
 * - Computer Arch Intro:
     (first video only - interesting but not required) https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1
 

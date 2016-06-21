@@ -219,10 +219,12 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
     * - Will not implement. Implementing with array is trivial.
 * - Queues
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html
     * - https://class.coursera.org/algs4partI-010/lecture/20
     * - https://www.coursera.org/learn/data-structures/lecture/EShpq/queue
     * - Circular buffer/FIFO: https://en.wikipedia.org/wiki/Circular_buffer
     * - https://class.coursera.org/algs4partI-010/lecture/23
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html
     * - Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -239,10 +241,17 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         dequeue: O(1) (linked list and array)
         empty: O(1) (linked list and array)
 Hash tables
-    - https://www.youtube.com/watch?v=C4Kc8xzcA68
-    - https://class.coursera.org/algs4partI-010/lecture/52
-    - https://www.coursera.org/learn/data-structures/home/week/3
-    - see: https://class.coursera.org/algs4partI-010/lecture
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html?
+    * - https://www.youtube.com/watch?v=C4Kc8xzcA68
+    * - https://class.coursera.org/algs4partI-010/lecture/52
+    * - https://class.coursera.org/algs4partI-010/lecture/53
+    * - https://class.coursera.org/algs4partI-010/lecture/55
+    * - https://class.coursera.org/algs4partI-010/lecture/56
+    * - https://www.coursera.org/learn/data-structures/home/week/3
+    - https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables
     - test: implement with only arrays
 Tries

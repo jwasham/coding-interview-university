@@ -398,9 +398,7 @@ Operating Systems (25 videos):
     Covers:
         Processes, Threads, Concurrency issues
             - difference
-            - threads:
-                https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
-                - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
+            - threads
             - locks
             - mutexes
             - semaphores
@@ -415,6 +413,9 @@ Operating Systems (25 videos):
         Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         Context switching
             - How context switching is initiated by the operating system and underlying hardware
+    - threads in C++:
+        https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
+        - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
 Scheduling
 Weighted random sampling
 Implement system routines

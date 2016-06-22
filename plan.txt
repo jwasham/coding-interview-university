@@ -393,23 +393,26 @@ design patterns:
 Combinatorics (n choose k)
 Probability
 Dynamic Programming
-Processes, Threads, Concurrency issues
-    - difference: https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
-    - threads: https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
-        - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
-    - locks
-    - mutexes
-    - semaphores
-    - monitors
-    - how they work
-    - deadlock
-    - livelock
 Operating Systems (25 videos):
     - https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     Covers:
+        Processes, Threads, Concurrency issues
+            - difference
+            - threads:
+                https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
+                - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
+            - locks
+            - mutexes
+            - semaphores
+            - monitors
+            - how they work
+            - deadlock
+            - livelock
+        CPU activity, interrupts, context switching
         Modern concurrency constructs with multicore processors
-        Process resource needs
-        Thread resource needs
+        Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
+        Thread resource needs (shares above with other threads in same process but each has its own pc, stack counter, registers and stack)
+        Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         Context switching
             - How context switching is initiated by the operating system and underlying hardware
 Scheduling

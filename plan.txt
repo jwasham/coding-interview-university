@@ -242,7 +242,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     * - Cost:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
-        enqueue: O(1) (linked list and array)
+        enqueue: O(1) (amortized, linked list and array [probing])
         dequeue: O(1) (linked list and array)
         empty: O(1) (linked list and array)
 Hash tables
@@ -380,7 +380,10 @@ Recursion
 open-ended problems
     - manipulate strings
     - manipulate patterns
-design patterns:
+Scheduling
+Weighted random sampling
+Implement system routines
+Design patterns:
     - description:
         - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
     - strategy
@@ -397,7 +400,8 @@ Operating Systems (25 videos):
     - https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     Covers:
         Processes, Threads, Concurrency issues
-            - difference
+            - difference between processes and threads
+            - processes
             - threads
             - locks
             - mutexes
@@ -416,9 +420,6 @@ Operating Systems (25 videos):
     - threads in C++:
         https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
         - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
-Scheduling
-Weighted random sampling
-Implement system routines
 Distill large data sets to single values
 Transform one data set to another
 Handling obscenely large amounts of data
@@ -707,6 +708,9 @@ Books:
 
 C++ Talks at CPPCon:
     - https://www.youtube.com/watch?v=hEx5DNLWGgA&index=2&list=PLHTh1InhhwT75gykhs7pqcR_uSiG601oh
+
+MIT CMS.611J Creating Video Games, Fall 2014
+    - https://www.youtube.com/watch?v=pfDfriSjFbY&list=PLUl4u3cNGP61V4W6yRm1Am5zI94m33dXk
 
 Compilers:
     - https://class.coursera.org/compilers-004/lecture

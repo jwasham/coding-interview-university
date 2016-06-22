@@ -249,16 +249,28 @@ Hash tables
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html
-    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html?
+    * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html
+    * - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables
     * - https://www.youtube.com/watch?v=C4Kc8xzcA68
     * - https://class.coursera.org/algs4partI-010/lecture/52
     * - https://class.coursera.org/algs4partI-010/lecture/53
     * - https://class.coursera.org/algs4partI-010/lecture/55
     * - https://class.coursera.org/algs4partI-010/lecture/56
     * - https://www.coursera.org/learn/data-structures/home/week/3
-    - https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem
-    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables
-    - test: implement with only arrays
+    * - https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem
+    * - distributed hash tables:
+        - https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox
+        - https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables
+    * - MIT:
+        https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
+        https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+        https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - implement with array using linear probing
+        - add(key, value)
+        - exists(key)
+        - get(key)
+        - remove(key)
+        - upsert(key, value) - adds key if it doesn't exist, or updates value if it does
 Tries
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
 Disjoint Sets:
@@ -282,12 +294,6 @@ Heap (data structure):
     - https://class.coursera.org/algs4partI-010/lecture/39
 Priority Queue
     - https://en.wikipedia.org/wiki/Priority_queue
-Bit operations
-    - http://graphics.stanford.edu/~seander/bithacks.html
-    - count on bits
-        - https://youtu.be/Hzuzo9NJrlc
-    - max run of on/off bits
-    - bit shifting
 * - Parity & Hamming Code:
     Parity:
         https://www.youtube.com/watch?v=DdMcAUlxh1M
@@ -296,6 +302,12 @@ Bit operations
         https://www.youtube.com/watch?v=JAMLuxdHH8o
     Error Checking:
         https://www.youtube.com/watch?v=wbH2VxzmoZk
+Bit operations
+    - http://graphics.stanford.edu/~seander/bithacks.html
+    - count on bits
+        - https://youtu.be/Hzuzo9NJrlc
+    - max run of on/off bits
+    - bit shifting
 Binary search
 Sorting
     - stability in sorting algorithms:
@@ -392,13 +404,14 @@ Processes, Threads, Concurrency issues
     - how they work
     - deadlock
     - livelock
-Process resource needs
-Thread resource needs
-Modern concurrency constructs with multicore processors
-Operating Systems:
+Operating Systems (25 videos):
     - https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
-Context switching
-    - How context switching is initiated by the operating system and underlying hardware
+    Covers:
+        Modern concurrency constructs with multicore processors
+        Process resource needs
+        Thread resource needs
+        Context switching
+            - How context switching is initiated by the operating system and underlying hardware
 Scheduling
 Weighted random sampling
 Implement system routines
@@ -569,23 +582,41 @@ String search algorithm:
 CSE373 - Analysis of Algorithms (25 videos):
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
 
-6.042: Math for CS (25 videos):
+MIT 6.042: Math for CS (25 videos):
     - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
 
-6.006: Intro to Algorithms (47 videos):
+MIT 6.006: Intro to Algorithms (47 videos):
     - https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False
 
-6.033: Computer System Engineering (22 videos):
+MIT 6.033: Computer System Engineering (22 videos):
     - https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484
 
-6.046: Design and Analysis of Algorithms (34 videos):
+MIT 6.046: Design and Analysis of Algorithms (34 videos):
     - https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
-6.851: Advanced Data Structures (22 videos):
-    - https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
+MIT 6.858 Computer Systems Security, Fall 2014 ():
+    - https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
+
+MIT 6.851: Advanced Data Structures (22 videos):
+    - https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1
 
 Stanford: Programming Paradigms (17 videos)
     - https://www.youtube.com/watch?v=jTSvthW34GU&list=PLC0B8B318B7394B6F&nohtml5=False
+
+MIT 6.050J Information and Entropy, Spring 2008 ()
+    - https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
+
+Introduction to Cryptography:
+    - https://www.youtube.com/watch?v=2aHkqB2-46k&feature=youtu.be
+
+##########################################################################################
+##  Google:
+##########################################################################################
+
+- How Search Works:
+    https://www.google.com/insidesearch/howsearchworks/thestory/
+    https://www.youtube.com/watch?v=BNHR6IQJGZs
+    https://www.google.com/insidesearch/howsearchworks/
 
 ##########################################################################################
 ##  Articles:

@@ -245,7 +245,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         enqueue: O(1) (amortized, linked list and array [probing])
         dequeue: O(1) (linked list and array)
         empty: O(1) (linked list and array)
-Hash tables
+* - Hash tables
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html
@@ -265,12 +265,12 @@ Hash tables
         https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
         https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
         https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - implement with array using linear probing
-        - add(key, value)
+    * - implement with array using linear probing
+        - hash(k, m) - m is size of hash table
+        - add(key, value) - if key already exists, update value
         - exists(key)
         - get(key)
         - remove(key)
-        - upsert(key, value) - adds key if it doesn't exist, or updates value if it does
 Tries
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
 Disjoint Sets:

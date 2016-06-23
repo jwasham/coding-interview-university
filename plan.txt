@@ -88,7 +88,7 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
         * - Google uses clang-format (there is a command line "style" argument: -style=google)
     * - Efficiency with Algorithms, Performance with Data Structures: https://youtu.be/fHNmRkzxHWs
     - C++ Core Guidelines: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
-    - review of C++ concepts: https://www.youtube.com/watch?v=Rub-JsjMhWY
+    * - review of C++ concepts: https://www.youtube.com/watch?v=Rub-JsjMhWY
 
 * - compilers:
     * - https://class.coursera.org/compilers-004/lecture/1
@@ -145,6 +145,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - Amortized Analysis: https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
     - Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
     - Cheat sheet: http://bigocheatsheet.com/
+
+-----------------------------------------------------
+    Trees
+-----------------------------------------------------
+
 * - Arrays: (Implement an automatically resizing vector)
     * - Description:
         - Arrays: https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays
@@ -180,6 +185,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     * - Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+
 * - Linked Lists
     * - Description:
         * - https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
@@ -217,12 +223,14 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     * - Doubly-linked List
         - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
         - No need to implement
+
 * - Stacks
     * - https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
     * - https://class.coursera.org/algs4partI-010/lecture/18
     * - https://class.coursera.org/algs4partI-010/lecture/19
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
     * - Will not implement. Implementing with array is trivial.
+
 * - Queues
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html
     * - https://class.coursera.org/algs4partI-010/lecture/20
@@ -245,6 +253,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         enqueue: O(1) (amortized, linked list and array [probing])
         dequeue: O(1) (linked list and array)
         empty: O(1) (linked list and array)
+
 * - Hash tables
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html
     * - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html
@@ -271,29 +280,35 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - exists(key)
         - get(key)
         - remove(key)
-Tries
-    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
-Disjoint Sets:
-    - https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
-    - https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
-    - https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
-    - https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
-    - https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
-    - https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
-Heap (data structure):
-    - https://en.wikipedia.org/wiki/Heap_(data_structure)
-    - https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
-    - https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations
-    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
-    - https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark
-    - https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
-    - https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
-    - https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
 
-    - see: https://class.coursera.org/algs4partI-010/lecture
-    - https://class.coursera.org/algs4partI-010/lecture/39
-Priority Queue
-    - https://en.wikipedia.org/wiki/Priority_queue
+-----------------------------------------------------
+    More Knowledge
+-----------------------------------------------------
+
+- Binary search:
+    - https://www.youtube.com/watch?v=D5SrAga1pno
+    - detail: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
+
+- Bit operations
+    - Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+        - https://en.wikipedia.org/wiki/Bit_manipulation
+        - http://graphics.stanford.edu/~seander/bithacks.html
+        - http://bits.stephan-brumme.com/
+        - http://bits.stephan-brumme.com/interactive.html
+    - count "on" bits
+        - https://youtu.be/Hzuzo9NJrlc
+        - https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan
+        - http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer
+    - round to next power of 2:
+        - http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html
+    - max run of on/off bits
+    - swap values:
+        - http://bits.stephan-brumme.com/swap.html
+    - bit shifting
+        - https://www.youtube.com/watch?v=Ix9U1qR3c3Q
+    - absolute value:
+        - http://bits.stephan-brumme.com/absInteger.html
+
 * - Parity & Hamming Code:
     Parity:
         https://www.youtube.com/watch?v=DdMcAUlxh1M
@@ -302,87 +317,153 @@ Priority Queue
         https://www.youtube.com/watch?v=JAMLuxdHH8o
     Error Checking:
         https://www.youtube.com/watch?v=wbH2VxzmoZk
-Bit operations
-    - http://graphics.stanford.edu/~seander/bithacks.html
-    - count on bits
-        - https://youtu.be/Hzuzo9NJrlc
-    - max run of on/off bits
-    - bit shifting
-Binary search
-Sorting
-    - stability in sorting algorithms:
-        - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
-        - http://www.geeksforgeeks.org/stability-in-sorting-algorithms/
-    - Which algorithms can be used on linked lists? Which on arrays? Which on both? Is Quicksort stable?
-    - Implement & know best case/worst case, average complexity of each:
-        - mergesort
-        - quicksort
-        - insertion sort
-        - selection sort
-    - no bubble sort - it's terrible at O(n^2)
-Caches
-    - LRU cache
-Binary trees:
-    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
-Binary Heap:
-    Min Heap / Max Heap
-Trees
+
+-----------------------------------------------------
+    Trees
+-----------------------------------------------------
+Notes:
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
-    - see: https://class.coursera.org/algs4partI-010/lecture
+    - https://class.coursera.org/algs4partI-010/lecture
     - basic tree construction
     - traversal
     - manipulation algorithms
-    - Binary search trees: BSTs
-        - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
-        - applications:
-            - https://class.coursera.org/algs4partI-010/lecture/57
-    - n-ary trees
-    - trie-trees
-    - at least one type of balanced binary tree (and know how it's implemented):
-        - red/black tree
-            - https://class.coursera.org/algs4partI-010/lecture/50
-        - splay trees
-            - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
-        - AVL trees
-            - https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
-            - https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
-            - https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
-        - 2-3 Search Trees
-            - https://class.coursera.org/algs4partI-010/lecture/49
-        - B-Trees:
-            - https://class.coursera.org/algs4partI-010/lecture/51
     - BFS (breadth-first search)
     - DFS (depth-first search)
     - know the difference between
         - inorder
         - postorder
         - preorder
-Graphs:
+
+- Binary trees:
+    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
+
+- Binary search trees: BSTs
+    - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
+    - https://www.youtube.com/watch?v=pYT9F8_LFTM
+    - applications:
+        - https://class.coursera.org/algs4partI-010/lecture/57
+
+- N-ary trees
+    - https://en.wikipedia.org/wiki/K-ary_tree
+
+- Tries
+    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
+    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
+    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
+
+- Heap (data structure):
+    - https://en.wikipedia.org/wiki/Heap_(data_structure)
+    - https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
+    - https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations
+    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
+    - https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark
+    - https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
+    - https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
+    - https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
+    - see: https://class.coursera.org/algs4partI-010/lecture
+    - https://class.coursera.org/algs4partI-010/lecture/39
+
+- Binary Heap:
+    Min Heap / Max Heap
+
+- Disjoint Sets:
+    - https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
+    - https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
+    - https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
+    - https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
+    - https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
+    - https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
+
+- Priority Queue
+    - https://en.wikipedia.org/wiki/Priority_queue
+
+Know least one type of balanced binary tree (and know how it's implemented):
+    - red/black tree
+        - https://class.coursera.org/algs4partI-010/lecture/50
+    - splay trees
+        - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
+    - AVL trees
+        - https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
+        - https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
+        - https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
+    - 2-3 Search Trees
+        - https://class.coursera.org/algs4partI-010/lecture/49
+    - B-Trees:
+        - https://class.coursera.org/algs4partI-010/lecture/51
+
+-----------------------------------------------------
+    Graphs
+-----------------------------------------------------
+Notes:
     There are three basic ways to represent a graph in memory:
         - objects and pointers
         - matrix
         - adjacency list
-    - familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - If you get a chance, try to study up on fancier algorithms:
+    Familiarize yourself with each representation and its pros & cons
+    BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
+    If you get a chance, try to study up on fancier algorithms:
         - Dijkstra's algorithm
             - https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
         - A*
             - https://en.wikipedia.org/wiki/A*_search_algorithm
-    - when asked a question, look for a graph-based solution first, then move on if none.
-Other data structures:
-    - You should study up on as many other data structures and algorithms as possible
-    - You should especially know about the most famous classes of NP-complete problems, such as traveling salesman
-            and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
+    When asked a question, look for a graph-based solution first, then move on if none.
+
+Implement:
+
+    Dijkstra's algorithm
+    A*
+
+You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+
+-----------------------------------------------------
+    Sorting
+-----------------------------------------------------
+Notes:
+    - Implement & know best case/worst case, average complexity of each:
+        - no bubble sort - it's terrible - O(n^2)
+    - stability in sorting algorithms:
+        - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
+        - http://www.geeksforgeeks.org/stability-in-sorting-algorithms/
+    - Which algorithms can be used on linked lists? Which on arrays? Which on both? Is Quicksort stable?
+
+Implement:
+
+    Mergesort
+    Quicksort
+    Insertion Sort
+    Selection Sort
+
+-----------------------------------------------------
+    More Knowledge
+-----------------------------------------------------
+
+Caches
+    - LRU cache
+
+NP and NP Complete
+    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
+        and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
+
 Recursion
     -  when it is appropriate to use it
+
 open-ended problems
     - manipulate strings
     - manipulate patterns
+
+Combinatorics (n choose k)
+
+Probability
+
+Dynamic Programming
+
 Scheduling
+
 Weighted random sampling
+
 Implement system routines
+
 Design patterns:
     - description:
         - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
@@ -393,9 +474,7 @@ Design patterns:
     - decorator
     - visitor
     - factory
-Combinatorics (n choose k)
-Probability
-Dynamic Programming
+
 Operating Systems (25 videos):
     - https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     Covers:
@@ -420,9 +499,13 @@ Operating Systems (25 videos):
     - threads in C++:
         https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
         - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
-Distill large data sets to single values
-Transform one data set to another
-Handling obscenely large amounts of data
+
+Data handling:
+    - see scalability options below
+    Distill large data sets to single values
+    Transform one data set to another
+    Handling obscenely large amounts of data
+
 System design:
     - features sets
     - interfaces
@@ -430,8 +513,9 @@ System design:
     - designing a system under certain constraints
     - simplicity and robustness
     - tradeoffs
-Performance analysis and optimization
-Familiarize yourself with unix-based souped-up code editor: emacs & vi(m)
+    - performance analysis and optimization
+
+Familiarize yourself with a unix-based code editor: emacs & vi(m)
     vi(m):
         - https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr
         - set of 4:
@@ -486,6 +570,14 @@ Machine Learning:
 Parallel Programming:
     - https://www.coursera.org/learn/parprog1/home/week/1
 
+String search algorithm:
+    Knuth-Morris-Pratt (KMP):
+        - https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
+        - https://www.youtube.com/watch?v=2ogqPWJSftE
+    Boyer–Moore string search algorithm
+        - https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
+        - https://www.youtube.com/watch?v=xYBM0_dChRE
+
 ------------------------
 
 Be thinking of for when the interview comes:
@@ -513,7 +605,8 @@ Have questions for the interviewer.
 
 Some of mine (I already may know answer to but want their opinion or team perspective):
     - How large is your team?
-    - What is your dev cycle look like? Do you do sprints/agile?
+    - What is your dev cycle look like? Do you do waterfall/sprints/agile?
+    - Are rushes to deadlines common? Or is there flexibility?
     - How are decisions made in your team?
     - How many meetings do you have per week?
     - Do you feel your work environment helps you concentrate?
@@ -528,7 +621,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 Mentioned in Coaching:
 
-    The Algorithm Design Manual
+    The Algorithm Design Manual (Skiena)
         - Book (can rent on kindle): http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
         - Answers: http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
 
@@ -553,11 +646,12 @@ Additional (not suggested by Google but I added):
     * - C++ Primer Plus, 6th Edition
 
     Introduction to Algorithms
+        - https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
 
     Programming Pearls:
         - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
 
-    If you see people reference "The Google Resume", it was replaced by "Cracking the Coding Interview".
+    If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
 ##########################################################################################
 ##########################################################################################
@@ -571,14 +665,6 @@ Additional (not suggested by Google but I added):
 ##
 ##
 ##########################################################################################
-
-String search algorithm:
-    Knuth-Morris-Pratt (KMP):
-        - https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
-        - https://www.youtube.com/watch?v=2ogqPWJSftE
-    Boyer–Moore string search algorithm
-        - https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
-        - https://www.youtube.com/watch?v=xYBM0_dChRE
 
 ##########################################################################################
 ##  Videos:

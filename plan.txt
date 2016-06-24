@@ -71,7 +71,7 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
         - https://www.youtube.com/watch?v=USPvePv1uzE
         - https://www.youtube.com/watch?v=y5JmQItfFck
       - Valgrind: https://www.youtube.com/watch?v=fvTsFjDuag8
-- C++
+* - C++
     * - basics
     * - pointers
     * - functions
@@ -87,8 +87,11 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
     * - Google C++ Style Guide: https://google.github.io/styleguide/cppguide.html
         * - Google uses clang-format (there is a command line "style" argument: -style=google)
     * - Efficiency with Algorithms, Performance with Data Structures: https://youtu.be/fHNmRkzxHWs
-    - C++ Core Guidelines: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
     * - review of C++ concepts: https://www.youtube.com/watch?v=Rub-JsjMhWY
+
+- Python
+    I've already read quite a bit. This is just for review.
+    - https://www.youtube.com/watch?v=N4mEzFDjqtA
 
 * - compilers:
     * - https://class.coursera.org/compilers-004/lecture/1
@@ -285,9 +288,13 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     More Knowledge
 -----------------------------------------------------
 
-- Binary search:
-    - https://www.youtube.com/watch?v=D5SrAga1pno
-    - detail: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
+* - Binary search:
+    * - https://www.youtube.com/watch?v=D5SrAga1pno
+    * - https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
+    * - detail: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
+    * - Implement:
+        - binary search (on sorted array of integers)
+        - binary search using recursion
 
 - Bit operations
     - Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
@@ -408,6 +415,9 @@ Notes:
             - https://en.wikipedia.org/wiki/A*_search_algorithm
     When asked a question, look for a graph-based solution first, then move on if none.
 
+Compute Strongly Connected Components
+    - https://www.coursera.org/learn/algorithms-on-graphs/home/week/5
+
 Implement:
 
     Dijkstra's algorithm
@@ -467,6 +477,8 @@ Implement system routines
 Design patterns:
     - description:
         - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
+        - Patterns: https://www.youtube.com/playlist?list=PLF206E906175C7E07
+        - UML: https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
     - strategy
     - singleton
     - adapter
@@ -474,6 +486,7 @@ Design patterns:
     - decorator
     - visitor
     - factory
+
 
 Operating Systems (25 videos):
     - https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c

@@ -296,24 +296,30 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - binary search (on sorted array of integers)
         - binary search using recursion
 
-- Bit operations
-    - Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - https://en.wikipedia.org/wiki/Bit_manipulation
-        - http://graphics.stanford.edu/~seander/bithacks.html
-        - http://bits.stephan-brumme.com/
-        - http://bits.stephan-brumme.com/interactive.html
-    - count "on" bits
+* - Bit operations
+    * - Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+        * - words: https://en.wikipedia.org/wiki/Word_(computer_architecture)
+        * - Good intro:
+            https://www.youtube.com/watch?v=7jkIUgLC29I
+        * - https://www.youtube.com/watch?v=d0AwjSpNXR0
+        * - https://en.wikipedia.org/wiki/Bit_manipulation
+        * - https://en.wikipedia.org/wiki/Bitwise_operation
+        * - https://graphics.stanford.edu/~seander/bithacks.html
+        * - http://bits.stephan-brumme.com/
+        * - http://bits.stephan-brumme.com/interactive.html
+    * - 2s and 1s complement
+        - https://www.youtube.com/watch?v=lKTsv6iVxV4
+        - https://en.wikipedia.org/wiki/Ones%27_complement
+        - https://en.wikipedia.org/wiki/Two%27s_complement
+    * - count set bits
         - https://youtu.be/Hzuzo9NJrlc
         - https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan
         - http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer
-    - round to next power of 2:
+    * - round to next power of 2:
         - http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html
-    - max run of on/off bits
-    - swap values:
+    * - swap values:
         - http://bits.stephan-brumme.com/swap.html
-    - bit shifting
-        - https://www.youtube.com/watch?v=Ix9U1qR3c3Q
-    - absolute value:
+    * - absolute value:
         - http://bits.stephan-brumme.com/absInteger.html
 
 * - Parity & Hamming Code:
@@ -465,6 +471,8 @@ open-ended problems
 Combinatorics (n choose k)
 
 Probability
+    - https://www.youtube.com/watch?v=sZkAAk9Wwa4
+    - https://www.youtube.com/watch?v=dNaJg-mLobQ
 
 Dynamic Programming
 

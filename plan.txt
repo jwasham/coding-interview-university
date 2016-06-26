@@ -323,38 +323,37 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - http://bits.stephan-brumme.com/absInteger.html
 
 * - Parity & Hamming Code:
-    Parity:
-        https://www.youtube.com/watch?v=DdMcAUlxh1M
-    Hamming Code:
-        https://www.youtube.com/watch?v=1A_NcXxdoCc
-        https://www.youtube.com/watch?v=JAMLuxdHH8o
-    Error Checking:
-        https://www.youtube.com/watch?v=wbH2VxzmoZk
+    * - Parity:
+        - https://www.youtube.com/watch?v=DdMcAUlxh1M
+    * - Hamming Code:
+        - Error detection: https://www.youtube.com/watch?v=1A_NcXxdoCc
+        - Error correction: https://www.youtube.com/watch?v=JAMLuxdHH8o
+    * - Error Checking:
+        - https://www.youtube.com/watch?v=wbH2VxzmoZk
 
 -----------------------------------------------------
     Trees
 -----------------------------------------------------
 Notes:
-    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
-    - https://class.coursera.org/algs4partI-010/lecture
+    - Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
+    - Series: https://www.coursera.org/learn/data-structures/lecture/95qda/trees
     - basic tree construction
     - traversal
     - manipulation algorithms
     - BFS (breadth-first search)
     - DFS (depth-first search)
-    - know the difference between
-        - inorder
-        - postorder
-        - preorder
-
-- Binary trees:
-    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
+    - know the difference between these:
+        - inorder (DFS: left, self, right)
+        - postorder (DFS: left, right, self)
+        - preorder (DFS: self, left, right)
+        - level order (BFS, using queue)
 
 - Binary search trees: BSTs
+    - Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees
+    - Series: https://class.coursera.org/algs4partI-010/lecture/43
+        - starts with symbol table and goes through BST applications
     - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
     - https://www.youtube.com/watch?v=pYT9F8_LFTM
-    - applications:
-        - https://class.coursera.org/algs4partI-010/lecture/57
 
 - N-ary trees
     - https://en.wikipedia.org/wiki/K-ary_tree
@@ -448,6 +447,9 @@ Implement:
     Quicksort
     Insertion Sort
     Selection Sort
+
+For Curiosity:
+    Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
 
 -----------------------------------------------------
     More Knowledge

@@ -398,10 +398,12 @@ Know least one type of balanced binary tree (and know how it's implemented):
         - https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
         - https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
         - https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
-    - 2-3 Search Trees
-        - https://class.coursera.org/algs4partI-010/lecture/49
     - B-Trees:
+        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - https://en.wikipedia.org/wiki/B-tree
         - https://class.coursera.org/algs4partI-010/lecture/51
+    - 2-3 (type of B-tree) Search Trees
+        - https://class.coursera.org/algs4partI-010/lecture/49
 
 -----------------------------------------------------
     Graphs

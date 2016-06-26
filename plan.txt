@@ -349,11 +349,37 @@ Notes:
         - level order (BFS, using queue)
 
 - Binary search trees: BSTs
-    - Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees
-    - Series: https://class.coursera.org/algs4partI-010/lecture/43
+    * - Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees
+    * - Series: https://class.coursera.org/algs4partI-010/lecture/43
         - starts with symbol table and goes through BST applications
-    - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
-    - https://www.youtube.com/watch?v=pYT9F8_LFTM
+    * - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
+    - C/C++:
+        - https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28
+        - https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29
+        - https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        - https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31
+        - https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32
+        - https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        - https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        - https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        - https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36
+        - https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+
+Know least one type of balanced binary tree (and know how it's implemented):
+    - red/black tree
+        - https://class.coursera.org/algs4partI-010/lecture/50
+    - splay trees
+        - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
+    - AVL trees
+        - https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
+        - https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
+        - https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
+    - B-Trees:
+        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - https://en.wikipedia.org/wiki/B-tree
+        - https://class.coursera.org/algs4partI-010/lecture/51
+    - 2-3 (type of B-tree) Search Trees
+        - https://class.coursera.org/algs4partI-010/lecture/49
 
 - N-ary trees
     - https://en.wikipedia.org/wiki/K-ary_tree
@@ -388,22 +414,6 @@ Notes:
 
 - Priority Queue
     - https://en.wikipedia.org/wiki/Priority_queue
-
-Know least one type of balanced binary tree (and know how it's implemented):
-    - red/black tree
-        - https://class.coursera.org/algs4partI-010/lecture/50
-    - splay trees
-        - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
-    - AVL trees
-        - https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
-        - https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
-        - https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
-    - B-Trees:
-        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - https://en.wikipedia.org/wiki/B-tree
-        - https://class.coursera.org/algs4partI-010/lecture/51
-    - 2-3 (type of B-tree) Search Trees
-        - https://class.coursera.org/algs4partI-010/lecture/49
 
 -----------------------------------------------------
     Graphs

@@ -36,6 +36,7 @@ Sometimes I just put a * at top level if I know I've done all the subtasks, to c
         * - https://www.youtube.com/watch?v=aClxtDcdpsQ
     * - How to Get a Job at the Big 4:
         * - https://www.youtube.com/watch?v=YJZCUhxNCv8
+    * - http://alexbowe.com/failing-at-google-interviews/
 
 ##########################################################################################
 ##  Knowledge:
@@ -354,9 +355,9 @@ Notes:
         - starts with symbol table and goes through BST applications
     * - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
     - C/C++:
-        - https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28
-        - https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29
-        - https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        * - https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28
+        * - https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29
+        * - https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
         - https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31
         - https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32
         - https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
@@ -512,6 +513,7 @@ Design patterns:
 
 Operating Systems (25 videos):
     - https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
+    - https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
     Covers:
         Processes, Threads, Concurrency issues
             - difference between processes and threads
@@ -542,6 +544,7 @@ Data handling:
     Handling obscenely large amounts of data
 
 System design:
+    - https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
     - features sets
     - interfaces
     - class hierarchies
@@ -571,6 +574,7 @@ Testing
 -------------------------------------------------------------------
 
 Once you're closer to the interview:
+
     - Cracking The Coding Interview Set 2:
         - https://www.youtube.com/watch?v=4NIb9l3imAo
         - https://www.youtube.com/watch?v=Eg5-tdAwclo
@@ -579,6 +583,9 @@ Once you're closer to the interview:
 -------------------------------------------------------------------
 
 Extras that can't hurt:
+
+Weighted random sampling
+Vector calculus
 
 Computer Security:
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
@@ -613,7 +620,12 @@ String search algorithm:
         - https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
         - https://www.youtube.com/watch?v=xYBM0_dChRE
 
-------------------------
+-------------------------------------------------------------------
+
+Resume:
+    - http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html
+
+---------------------------
 
 Be thinking of for when the interview comes:
 
@@ -664,7 +676,7 @@ Mentioned in Coaching:
         http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
 
     Once you've understood everything in the daily plan:
-        read and do exercises from the books below. Then move to coding challenges (below)
+        read and do exercises from the books below. Then move to coding challenges (further down below)
 
     Read first:
     Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:
@@ -791,12 +803,12 @@ AddressSanitizer: A Fast Address Sanity Checker
 - https://courses.csail.mit.edu/iap/interview/materials.php
 
 LeetCode: https://leetcode.com/
+Project Euler: https://projecteuler.net/index.php?section=problems
 TopCoder: https://www.topcoder.com/
 
 More:
 HackerRank: https://www.hackerrank.com/
 Codility: https://codility.com/programmers/
-Project Euler: https://projecteuler.net/index.php?section=problems
 InterviewCake: https://www.interviewcake.com/
 InterviewBit: https://www.interviewbit.com/invite/icjf
 
@@ -820,6 +832,8 @@ For review questions in C book:
 Books:
     Clean Code
     Code Complete
+    How to Prove It: A Structured Approach, 2nd Edition
+    Unix Power Tools, Third Edition
 
 * - C++ Seasoning:
     - https://www.youtube.com/watch?v=qH6sSOr-yk8

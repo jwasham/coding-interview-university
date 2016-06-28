@@ -336,8 +336,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     Trees
 -----------------------------------------------------
 Notes:
-    - Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
-    - Series: https://www.coursera.org/learn/data-structures/lecture/95qda/trees
+    * - Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
+    * - Series: https://www.coursera.org/learn/data-structures/lecture/95qda/trees
     - basic tree construction
     - traversal
     - manipulation algorithms
@@ -371,8 +371,8 @@ Notes:
         * - https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31
         * - https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32
         * - https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-        - https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-        - https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        * - https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        * - https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
         - https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36
         - https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 

@@ -41,6 +41,10 @@ Sometimes I just put a [x] at top level if I know I've done all the subtasks, to
 
 More about Github flavored markdown: https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
 
+## Get in a Googley Mood
+
+Print out a "[future Googler](https://github.com/jwasham/project-9894/blob/master/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+
 ## Interview Process & General Interview Prep
 
 - [x] Videos:

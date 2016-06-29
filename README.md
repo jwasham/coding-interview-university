@@ -403,24 +403,31 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36
         - [x] https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 
-Know least one type of balanced binary tree (and know how it's implemented):
+- [x] **Balanced binary trees**
+    - Know least one type of balanced binary tree (and know how it's implemented):
 
-- [ ] **AVL trees**
-    - MIT: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
-    - https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
-    - https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
-    - https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
-- [ ] **red/black trees**
-    - https://class.coursera.org/algs4partI-010/lecture/50
-- [ ] **splay trees**
-    - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
-- [ ] **B-Trees**
-    - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
-    - https://en.wikipedia.org/wiki/B-tree
-    - https://class.coursera.org/algs4partI-010/lecture/51
-- [ ] **2-3 (type of B-tree) Search Trees**
-    - https://class.coursera.org/algs4partI-010/lecture/49
-    - https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [x] **AVL trees**
+        -[x] MIT: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
+        -[x] https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
+        -[x] https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
+        -[x] https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
+
+    - [ ] **red/black trees**
+        - https://class.coursera.org/algs4partI-010/lecture/50
+
+    - [ ] **splay trees**
+        - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
+        - UCB: https://www.youtube.com/watch?v=G5QIXywcJlY
+        - https://www.youtube.com/watch?v=QnPl_Y6EqMo
+
+    - [ ] **B-Trees**
+        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - https://en.wikipedia.org/wiki/B-tree
+        - https://class.coursera.org/algs4partI-010/lecture/51
+
+    - [ ] **2-3 search trees**
+        - 2-3 and B-trees: https://class.coursera.org/algs4partI-010/lecture/49
+        - https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] **N-ary trees**
     - https://en.wikipedia.org/wiki/K-ary_tree
@@ -454,6 +461,8 @@ Know least one type of balanced binary tree (and know how it's implemented):
     - https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
 - [ ] **Priority Queue**
+    - Notes:
+        - visualized as a tree, but is usually linear in storage (array, linked list)
     - https://en.wikipedia.org/wiki/Priority_queue
 
 

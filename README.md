@@ -619,20 +619,24 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 #### Mentioned in Google Coaching:
 
 - [ ] The Algorithm Design Manual (Skiena)
-    - Book (can rent on kindle): http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
-    - Answers: http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
+    - Book (can rent on kindle):
+        - http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
+    - Answers:
+        - http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
 
 - [ ] Algorithms and Programming: Problems and Solutions:
     http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
 
-- [ ] Once you've understood everything in the daily plan:
-    read and do exercises from the books below. Then move to coding challenges (further down below)
 
-Read first:
+    Once you've understood everything in the daily plan, read and do exercises from
+    the books below. Then move to coding challenges (further down below)
+
+
+**Read first:**
 - [ ] Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:
     http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html
 
-Read second:
+**Read second:**
 - [ ] Cracking the Coding Interview, 6th Edition:
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
 

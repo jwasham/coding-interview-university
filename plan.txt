@@ -358,13 +358,13 @@ Notes:
         - preorder (DFS: self, left, right)
 
 
-- Binary search trees: BSTs
+~~ - Binary search trees: BSTs ~~
     * - Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees
     * - Series: https://class.coursera.org/algs4partI-010/lecture/43
         - starts with symbol table and goes through BST applications
     * - https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
-    - MIT: https://www.youtube.com/watch?v=9Jry5-82I68
-    - C/C++:
+    * - MIT: https://www.youtube.com/watch?v=9Jry5-82I68
+    ~~ - C/C++: ~~
         * - https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28
         * - https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29
         * - https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
@@ -373,8 +373,8 @@ Notes:
         * - https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
         * - https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
         * - https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-        - https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36
-        - https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+        * - https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36
+        * - https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 
 Know least one type of balanced binary tree (and know how it's implemented):
     - red/black tree
@@ -727,6 +727,10 @@ Additional (not suggested by Google but I added):
 ##########################################################################################
 ##  Videos:
 ##########################################################################################
+
+Scalability:
+    - https://www.youtube.com/watch?v=9nWyWwY2Onc
+    - https://www.youtube.com/watch?v=H4vMcD7zKM0
 
 CSE373 - Analysis of Algorithms (25 videos):
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1

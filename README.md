@@ -363,7 +363,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 ## Trees
 
-- [x] Notes:
+- [x] Notes & Background:
     - [x] Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
     - [x] Series: https://www.coursera.org/learn/data-structures/lecture/95qda/trees
     - basic tree construction
@@ -453,6 +453,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     Min Heap / Max Heap
 
 - [ ] **Disjoint Sets:**
+    - UCB: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
     - https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
     - https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
     - https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
@@ -464,9 +465,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - Notes:
         - visualized as a tree, but is usually linear in storage (array, linked list)
     - https://en.wikipedia.org/wiki/Priority_queue
-
+    - https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
 
 ## Graphs
+
+    This area is sparse (no pun intended), and I'll be filling it in once I get here.
 
 - Notes:
     - There are three basic ways to represent a graph in memory:
@@ -482,6 +485,12 @@ Then test it out on a computer to make sure it's not buggy from syntax.
             - https://en.wikipedia.org/wiki/A*_search_algorithm
     - When asked a question, look for a graph-based solution first, then move on if none.
 
+- Graphs:
+    - https://www.youtube.com/watch?v=ylWAB6CMYiY&list=PL4BBB74C7D2A1049C&index=27
+
+- Weighted graphs:
+    - https://www.youtube.com/watch?v=zFbq8vOZ_0k&list=PL4BBB74C7D2A1049C&index=28
+
 - Compute Strongly Connected Components
     - [ ] https://www.coursera.org/learn/algorithms-on-graphs/home/week/5
 
@@ -493,6 +502,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
 ## Sorting
+
+    This area is sparse, and I'll be filling it in once I get here.
 
 - [ ] Notes:
     - [ ] Implement & know best case/worst case, average complexity of each:
@@ -514,6 +525,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
      - [ ] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
 
 ## Even More Knowledge
+
+    This area is sparse, and I'll be filling it in once I get here.
 
 - [ ] Caches
     - LRU cache
@@ -830,6 +843,9 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] CSE373 - Analysis of Algorithms (25 videos):
     - Skiena lectures from Algorithm Design Manual
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
+
+- [ ] UC Berkeley 61B
+    - https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C
 
 - [ ] MIT 6.042: Math for CS (25 videos):
     - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B

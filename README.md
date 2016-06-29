@@ -410,7 +410,7 @@ Know least one type of balanced binary tree (and know how it's implemented):
     - https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
     - https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
     - https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
-- [ ] **red/black tree**
+- [ ] **red/black trees**
     - https://class.coursera.org/algs4partI-010/lecture/50
 - [ ] **splay trees**
     - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
@@ -420,6 +420,7 @@ Know least one type of balanced binary tree (and know how it's implemented):
     - https://class.coursera.org/algs4partI-010/lecture/51
 - [ ] **2-3 (type of B-tree) Search Trees**
     - https://class.coursera.org/algs4partI-010/lecture/49
+    - https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] **N-ary trees**
     - https://en.wikipedia.org/wiki/K-ary_tree
@@ -818,6 +819,7 @@ Sit back and enjoy. "netflix and skill" :P
     - https://www.youtube.com/watch?v=H4vMcD7zKM0
 
 - [ ] CSE373 - Analysis of Algorithms (25 videos):
+    - Skiena lectures from Algorithm Design Manual
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
 
 - [ ] MIT 6.042: Math for CS (25 videos):
@@ -839,6 +841,7 @@ Sit back and enjoy. "netflix and skill" :P
     - https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1
 
 - [ ] Stanford: Programming Paradigms (17 videos)
+    - Course on C and C++
     - https://www.youtube.com/watch?v=jTSvthW34GU&list=PLC0B8B318B7394B6F&nohtml5=False
 
 - [ ] MIT 6.050J Information and Entropy, Spring 2008 ()

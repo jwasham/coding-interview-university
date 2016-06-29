@@ -1,1 +1,7 @@
-This has moved to the <a href="README.md">README</a>.
+****************************************
+
+
+      This has moved to README.md
+
+
+****************************************

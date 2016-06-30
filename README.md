@@ -639,7 +639,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] **Testing**
     - how unit testing works
-    - what are mock onbjects
+    - what are mock objects
     - what is integration testing
     - what is dependency injection
 

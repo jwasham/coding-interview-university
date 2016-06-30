@@ -7,8 +7,9 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 Google software engineer. Don't let that offend you if you are a web developer. I'm speaking
 from my experience, not yours.
 
-    This long list has been extracted and expanded from Google's coaching notes, so these are the things
-    you need to know. There are extra items I added at the bottom, but this is the list of what you should know.
+    This long list has been extracted and expanded from Google's coaching notes,
+    so these are the things you need to know. There are extra items I added at the
+    bottom that may come up in the interview or be helpful in solving a problem.
 
 ## Why use it?
 

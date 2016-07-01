@@ -819,6 +819,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] Machine Learning:
     - great course: https://www.coursera.org/learn/machine-learning
+    - https://www.youtube.com/watch?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal&v=cSKfRcEDGUs&app=desktop
     - http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
     - http://www.dataschool.io/
 

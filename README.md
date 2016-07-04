@@ -93,6 +93,9 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
     - [x] https://www.youtube.com/watch?v=42KTvGYQYnA
     - [x] https://www.youtube.com/watch?v=Mv2XQgpbTNE
 
+- [ ] **Endianness**
+    - https://www.youtube.com/watch?v=oBSuXP-1Tc0
+
 - [x] **How floating point numbers are stored:**
     - [x] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
     - [x] 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU

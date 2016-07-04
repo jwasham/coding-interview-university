@@ -693,6 +693,11 @@ If you see people reference "The Google Resume", it was a book replaced by "Crac
     - [ ] https://www.google.com/insidesearch/howsearchworks/thestory/
     - [ ] https://www.youtube.com/watch?v=BNHR6IQJGZs
     - [ ] https://www.google.com/insidesearch/howsearchworks/
+    - [ ] Series:
+        - https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
+        - https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
+        - https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
+        - https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
 ## Articles
 
@@ -821,7 +826,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
 - [ ] Machine Learning:
-    - great course: https://www.coursera.org/learn/machine-learning
+    - Why ML?
+        - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
+    - [x] great course (Stanford): https://www.coursera.org/learn/machine-learning
+    - [ ] Google course on Udacity: https://www.udacity.com/course/deep-learning--ud730
     - https://www.youtube.com/watch?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal&v=cSKfRcEDGUs&app=desktop
     - http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
     - http://www.dataschool.io/

@@ -93,9 +93,6 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
     - [x] https://www.youtube.com/watch?v=42KTvGYQYnA
     - [x] https://www.youtube.com/watch?v=Mv2XQgpbTNE
 
-- [ ] **Endianness**
-    - https://www.youtube.com/watch?v=oBSuXP-1Tc0
-
 - [x] **How floating point numbers are stored:**
     - [x] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
     - [x] 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU
@@ -131,7 +128,7 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
 
 - **Python**
     - I've already use Python quite a bit. This is just for review.
-    - [ ] https://www.youtube.com/watch?v=N4mEzFDjqtA
+    - [x] https://www.youtube.com/watch?v=N4mEzFDjqtA
 
 - [x] **Compilers**
     - [x] https://class.coursera.org/compilers-004/lecture/1
@@ -321,6 +318,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - remove(key)
 
 ## More Knowledge
+
+- [x] **Endianness**
+    - https://www.youtube.com/watch?v=oBSuXP-1Tc0
 
 - [x] **Binary search:**
     - [x] https://www.youtube.com/watch?v=D5SrAga1pno

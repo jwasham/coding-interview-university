@@ -48,6 +48,12 @@ More about Github flavored markdown: https://guides.github.com/features/masterin
 
 Print out a "[future Googler](https://github.com/jwasham/project-9894/blob/master/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
+## Follow me
+
+![John Washam](https://dng5l3qzreal6.cloudfront.net/2016/Jul/me_circle-1467757360178.jpg)
+
+I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.com/)
+
 ## Interview Process & General Interview Prep
 
 - [x] Videos:
@@ -411,13 +417,13 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
         - [x] https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
 
-    - [ ] **red/black trees**
-        - https://class.coursera.org/algs4partI-010/lecture/50
-
     - [ ] **splay trees**
         - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
         - UCB: https://www.youtube.com/watch?v=G5QIXywcJlY
         - https://www.youtube.com/watch?v=QnPl_Y6EqMo
+
+    - [ ] **red/black trees**
+        - https://class.coursera.org/algs4partI-010/lecture/50
 
     - [ ] **B-Trees**
         - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)

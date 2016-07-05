@@ -126,7 +126,7 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
     - [x] Efficiency with Algorithms, Performance with Data Structures: https://youtu.be/fHNmRkzxHWs
     - [x] review of C++ concepts: https://www.youtube.com/watch?v=Rub-JsjMhWY
 
-- **Python**
+- [x] **Python**
     - I've already use Python quite a bit. This is just for review.
     - [x] https://www.youtube.com/watch?v=N4mEzFDjqtA
 
@@ -320,7 +320,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 ## More Knowledge
 
 - [x] **Endianness**
-    - https://www.youtube.com/watch?v=oBSuXP-1Tc0
+    - [x] https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
+    - [x] https://www.youtube.com/watch?v=JrNF0KRAlyo
+    - [x] https://www.youtube.com/watch?v=oBSuXP-1Tc0
+        - Very technical talk for kernel devs. Don't worry if most is over your head.
+        - The first half is enough.
 
 - [x] **Binary search:**
     - [x] https://www.youtube.com/watch?v=D5SrAga1pno
@@ -355,15 +359,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - http://bits.stephan-brumme.com/swap.html
     - [x] absolute value:
         - http://bits.stephan-brumme.com/absInteger.html
-
-- [x] **Parity & Hamming Code**
-    - [x] Parity:
-        - https://www.youtube.com/watch?v=DdMcAUlxh1M
-    - [x] Hamming Code:
-        - Error detection: https://www.youtube.com/watch?v=1A_NcXxdoCc
-        - Error correction: https://www.youtube.com/watch?v=JAMLuxdHH8o
-    - [x] Error Checking:
-        - https://www.youtube.com/watch?v=wbH2VxzmoZk
 
 ## Trees
 
@@ -805,6 +800,15 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
+
+- [x] **Parity & Hamming Code**
+    - [x] Parity:
+        - https://www.youtube.com/watch?v=DdMcAUlxh1M
+    - [x] Hamming Code:
+        - Error detection: https://www.youtube.com/watch?v=1A_NcXxdoCc
+        - Error correction: https://www.youtube.com/watch?v=JAMLuxdHH8o
+    - [x] Error Checking:
+        - https://www.youtube.com/watch?v=wbH2VxzmoZk
 
 - [ ] Vector calculus
 

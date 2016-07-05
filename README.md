@@ -406,10 +406,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - Know least one type of balanced binary tree (and know how it's implemented):
 
     - [x] **AVL trees**
-        -[x] MIT: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
-        -[x] https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
-        -[x] https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
-        -[x] https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
+        - [x] MIT: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
+        - [x] https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
+        - [x] https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
+        - [x] https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
 
     - [ ] **red/black trees**
         - https://class.coursera.org/algs4partI-010/lecture/50

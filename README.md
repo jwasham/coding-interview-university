@@ -422,21 +422,36 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 - [ ] **Heap / Priority Queue / Binary Heap:**
     - visualized as a tree, but is usually linear in storage (array, linked list)
-    - [ ] https://en.wikipedia.org/wiki/Heap_(data_structure)
+    - [x] https://en.wikipedia.org/wiki/Heap_(data_structure)
     - [x] https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
     - [x] https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations
     - [x] https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
     - [x] https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark
     - [x] https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
+    - [x] https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
+    - [x] https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
+    - [x] https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
+    - [ ] Heap Sort: https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort
+    - [ ] Building a heap: https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap
     - [ ] https://class.coursera.org/algs4partI-010/lecture
     - [ ] https://class.coursera.org/algs4partI-010/lecture/39
     - [ ] https://en.wikipedia.org/wiki/Priority_queue
+    - [ ] MIT: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [ ] https://www.youtube.com/watch?v=ute-pmMkyuk&index=7&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [ ] https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
     - [ ] https://en.wikipedia.org/wiki/Fibonacci_heap
+    - [ ] Implement a max-heap:
+        - [ ] create_heap - create an empty heap
+        - [ ] insert
+        - [ ] sift_up - needed for insert
+        - [ ] extract_max
+        - [ ] sift_down - needed for extract_max
+        - [ ] get_max - returns the max item, without removing it
+        - [ ] remove(i) - removes item at index x
+        - [ ] heapify - create a heap from an array of elements
+        - [ ] size() - return number of elements in heap
+        - [ ] is_empty() - returns true if heap contains no elements
+        - [ ] heap_sort() - take an unsorted array and generate a sorted array using a max heap
 
 - [ ] **Balanced binary trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
@@ -522,8 +537,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     This area is sparse, and I'll be filling it in once I get here.
 
 - [ ] Notes:
-    - [ ] Implement & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2)
+    - Implement sorts & know best case/worst case, average complexity of each:
+        - no bubble sort - it's terrible - O(n^2), except when n <= 16
+    - For heapsort, see Heap data structure.
     - [ ] stability in sorting algorithms:
         - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
         - http://www.geeksforgeeks.org/stability-in-sorting-algorithms/

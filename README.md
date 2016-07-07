@@ -420,7 +420,25 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] delete_value
         - [x] get_successor // returns next-highest value in tree after given value, -1 if none
 
-- [x] **Balanced binary trees**
+- [ ] **Heap / Priority Queue / Binary Heap:**
+    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - [ ] https://en.wikipedia.org/wiki/Heap_(data_structure)
+    - [x] https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
+    - [x] https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations
+    - [x] https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
+    - [x] https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark
+    - [x] https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
+    - [ ] https://class.coursera.org/algs4partI-010/lecture
+    - [ ] https://class.coursera.org/algs4partI-010/lecture/39
+    - [ ] https://en.wikipedia.org/wiki/Priority_queue
+    - [ ] https://www.youtube.com/watch?v=ute-pmMkyuk&index=7&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
+    - [ ] https://en.wikipedia.org/wiki/Fibonacci_heap
+
+- [ ] **Balanced binary trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
 
     - [x] **AVL trees**
@@ -430,21 +448,21 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
 
     - [ ] **splay trees**
-        - https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
-        - UCB: https://www.youtube.com/watch?v=G5QIXywcJlY
-        - https://www.youtube.com/watch?v=QnPl_Y6EqMo
+        - [ ] https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
+        - [ ] UCB: https://www.youtube.com/watch?v=G5QIXywcJlY
+        - [ ] https://www.youtube.com/watch?v=QnPl_Y6EqMo
 
     - [ ] **red/black trees**
-        - https://class.coursera.org/algs4partI-010/lecture/50
+        - [ ] https://class.coursera.org/algs4partI-010/lecture/50
 
     - [ ] **B-Trees**
         - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - https://en.wikipedia.org/wiki/B-tree
-        - https://class.coursera.org/algs4partI-010/lecture/51
+        - [ ] https://en.wikipedia.org/wiki/B-tree
+        - [ ] https://class.coursera.org/algs4partI-010/lecture/51
 
     - [ ] **2-3 search trees**
-        - 2-3 and B-trees: https://class.coursera.org/algs4partI-010/lecture/49
-        - https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+        - [ ] 2-3 and B-trees: https://class.coursera.org/algs4partI-010/lecture/49
+        - [ ] https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] **N-ary trees**
     - https://en.wikipedia.org/wiki/K-ary_tree
@@ -454,35 +472,15 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
     - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
 
-- [ ] **Heap (data structure):**
-    - https://en.wikipedia.org/wiki/Heap_(data_structure)
-    - https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
-    - https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations
-    - https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
-    - https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark
-    - https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
-    - https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
-    - https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
-    - see: https://class.coursera.org/algs4partI-010/lecture
-    - https://class.coursera.org/algs4partI-010/lecture/39
-
-- [ ] **Binary Heap:**
-    Min Heap / Max Heap
-
 - [ ] **Disjoint Sets:**
-    - UCB: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
-    - https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
-    - https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
-    - https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
-    - https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
-    - https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
-    - https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
-
-- [ ] **Priority Queue**
-    - Notes:
-        - visualized as a tree, but is usually linear in storage (array, linked list)
-    - https://en.wikipedia.org/wiki/Priority_queue
-    - https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
+    - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+    - [ ] UCB: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
 ## Graphs
 
@@ -504,6 +502,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 - Graphs:
     - https://www.youtube.com/watch?v=ylWAB6CMYiY&list=PL4BBB74C7D2A1049C&index=27
+    - https://www.youtube.com/watch?v=OiXxhDrFruw&index=11&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
 
 - Weighted graphs:
     - https://www.youtube.com/watch?v=zFbq8vOZ_0k&list=PL4BBB74C7D2A1049C&index=28
@@ -531,6 +530,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Which algorithms can be used on linked lists?
     - [ ] Which on arrays? Which on both?
     - [ ] Is Quicksort stable?
+
+- [ ] https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+- [ ] https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
 
 - [ ] Implement:
     - [ ] Mergesort
@@ -664,9 +666,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 #### Mentioned in Google Coaching:
 
+**Read and do exercises:**
 - [ ] The Algorithm Design Manual (Skiena)
     - Book (can rent on kindle):
         - http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
+    - Half.com is a great resource for textbooks at good prices.
     - Answers:
         - http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
 
@@ -674,8 +678,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
 
 
-    Once you've understood everything in the daily plan, read and do exercises from
-    the books below. Then move to coding challenges (further down below)
+    Once you've understood everything in the daily plan, and read and done exercises from the the books above,
+    read and do exercises from the books below. Then move to coding challenges (further down below)
 
 
 **Read first:**
@@ -692,8 +696,12 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [x] C++ Primer Plus, 6th Edition
 
+- [ ] The Unix Programming Environment
+    - http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info
+
 - [ ] Introduction to Algorithms
     - https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
+    - Half.com is a great resource for textbooks at good prices.
 
 - [ ] Programming Pearls:
     - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
@@ -777,6 +785,7 @@ More:
 ## Your Resume
 
 - http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html
+- Great stuff at the back of Cracking The Coding Interview
 
 
 ## Be thinking of for when the interview comes:

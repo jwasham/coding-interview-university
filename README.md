@@ -828,8 +828,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Error Checking:
         - https://www.youtube.com/watch?v=wbH2VxzmoZk
 
-- [ ] Vector calculus
-
 - [ ] Computer Security:
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
@@ -855,6 +853,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - https://www.youtube.com/watch?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal&v=cSKfRcEDGUs&app=desktop
     - http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
     - http://www.dataschool.io/
+    - [ ] Vector calculus
 
 - [ ] Parallel Programming:
     - https://www.coursera.org/learn/parprog1/home/week/1

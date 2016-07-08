@@ -434,8 +434,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] Heap Sort: https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort
     - [x] Building a heap: https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap
     - [x] MIT: Heaps and Heap Sort: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
-    - [ ] https://en.wikipedia.org/wiki/Fibonacci_heap
+    - [x] CS 61B Lecture 24: Priority Queues: https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
+    - [ ] Fibonacci Heap:
+        - [ ] https://www.youtube.com/watch?v=FOzMD1FQjKk
+        - [ ] https://www.youtube.com/watch?v=FOzMD1FQjKk
     - [ ] Implement a max-heap:
         - [ ] create_heap - create an empty heap
         - [ ] insert
@@ -448,6 +450,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [ ] size() - return number of elements in heap
         - [ ] is_empty() - returns true if heap contains no elements
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
+            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 - [ ] **Balanced binary trees**
     - Know least one type of balanced binary tree (and know how it's implemented):

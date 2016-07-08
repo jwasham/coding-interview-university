@@ -431,13 +431,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
     - [x] https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
     - [x] https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
-    - [ ] Heap Sort: https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort
-    - [ ] Building a heap: https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap
-    - [ ] https://class.coursera.org/algs4partI-010/lecture
-    - [ ] https://class.coursera.org/algs4partI-010/lecture/39
-    - [ ] https://en.wikipedia.org/wiki/Priority_queue
-    - [ ] MIT: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] https://www.youtube.com/watch?v=ute-pmMkyuk&index=7&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [x] Heap Sort: https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort
+    - [x] Building a heap: https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap
+    - [x] MIT: Heaps and Heap Sort: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [ ] https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
     - [ ] https://en.wikipedia.org/wiki/Fibonacci_heap
     - [ ] Implement a max-heap:
@@ -451,7 +447,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [ ] heapify - create a heap from an array of elements
         - [ ] size() - return number of elements in heap
         - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] heap_sort() - take an unsorted array and generate a sorted array using a max heap
+        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
 
 - [ ] **Balanced binary trees**
     - Know least one type of balanced binary tree (and know how it's implemented):

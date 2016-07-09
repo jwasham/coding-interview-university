@@ -420,7 +420,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] delete_value
         - [x] get_successor // returns next-highest value in tree after given value, -1 if none
 
-- [ ] **Heap / Priority Queue / Binary Heap:**
+- [x] **Heap / Priority Queue / Binary Heap:**
     - visualized as a tree, but is usually linear in storage (array, linked list)
     - [x] https://en.wikipedia.org/wiki/Heap_(data_structure)
     - [x] https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
@@ -436,18 +436,17 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] MIT: Heaps and Heap Sort: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [x] CS 61B Lecture 24: Priority Queues: https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
     - [x] Linear Time BuildHeap (max-heap): https://www.youtube.com/watch?v=MiyLo8adrWw
-    - [ ] Implement a max-heap:
+    - [x] Implement a max-heap:
         - [x] insert
         - [x] sift_up - needed for insert
         - [x] get_max - returns the max item, without removing it
         - [x] extract_max
         - [x] sift_down - needed for extract_max
         - [x] get_size() - return number of elements stored
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements
-        - [ ] size() - return number of elements in heap
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
+        - [x] remove(i) - removes item at index x
+        - [x] is_empty() - returns true if heap contains no elements
+        - [x] heapify - create a heap from an array of elements
+        - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 - [ ] **Balanced binary trees**

@@ -435,16 +435,14 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] Building a heap: https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap
     - [x] MIT: Heaps and Heap Sort: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [x] CS 61B Lecture 24: Priority Queues: https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
-    - [ ] Fibonacci Heap:
-        - [ ] https://www.youtube.com/watch?v=FOzMD1FQjKk
-        - [ ] https://www.youtube.com/watch?v=FOzMD1FQjKk
+    - [x] Linear Time BuildHeap (max-heap): https://www.youtube.com/watch?v=MiyLo8adrWw
     - [ ] Implement a max-heap:
-        - [ ] create_heap - create an empty heap
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] extract_max
-        - [ ] sift_down - needed for extract_max
-        - [ ] get_max - returns the max item, without removing it
+        - [x] insert
+        - [x] sift_up - needed for insert
+        - [x] get_max - returns the max item, without removing it
+        - [x] extract_max
+        - [x] sift_down - needed for extract_max
+        - [x] get_size() - return number of elements stored
         - [ ] remove(i) - removes item at index x
         - [ ] heapify - create a heap from an array of elements
         - [ ] size() - return number of elements in heap
@@ -463,8 +461,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
     - [ ] **splay trees**
         - [ ] https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
-        - [ ] UCB: https://www.youtube.com/watch?v=G5QIXywcJlY
-        - [ ] https://www.youtube.com/watch?v=QnPl_Y6EqMo
+        - [ ] CS 61B Lecture 34: Splay Trees: https://www.youtube.com/watch?v=G5QIXywcJlY&list=PL4BBB74C7D2A1049C&index=34
+        - [ ] Lecture 04, 09/13: Splay Trees: https://www.youtube.com/watch?v=QnPl_Y6EqMo
 
     - [ ] **red/black trees**
         - [ ] https://class.coursera.org/algs4partI-010/lecture/50
@@ -529,6 +527,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] Dijkstra's algorithm
     - [ ] A*
 
+- For Curiosity:
+    - [ ] MIT Lecture: Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
+        - covers Fibonacci heap, a more complicated but more efficient heap than binary heap
+
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
 ## Sorting
@@ -572,6 +574,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] Recursion
     -  when it is appropriate to use it
+    - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
 
 - [ ] open-ended problems
     - manipulate strings

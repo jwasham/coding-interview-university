@@ -235,8 +235,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 - [x] **Linked Lists**
     - [x] Description:
         - [x] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
-        - [x] CS 61B Lecture 7: Linked Lists I: https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7
-        - [x] CS 61B Lecture 8: Linked Lists II: (can skip to 15:00) https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C
+        - [x] CS 61B - Linked lists: https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5
     - [x] C Code: https://www.youtube.com/watch?v=QN6FPiD0Gzo
             - not the whole video, just portions about Node struct and memory allocation.
     - [x] Linked List vs Arrays:
@@ -468,7 +467,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
     - [ ] **splay trees**
         - [ ] https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
-        - [ ] CS 61B Lecture 34: Splay Trees: https://www.youtube.com/watch?v=G5QIXywcJlY&list=PL4BBB74C7D2A1049C&index=34
+        - [ ] CS 61B: Splay Trees: https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd
         - [ ] Lecture 04, 09/13: Splay Trees: https://www.youtube.com/watch?v=QnPl_Y6EqMo
 
     - [ ] **red/black trees**

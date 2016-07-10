@@ -54,6 +54,12 @@ Print out a "[future Googler](https://github.com/jwasham/project-9894/blob/maste
 
 I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.com/)
 
+## About Video Resources
+
+Some videos are available only by enrolling in a Coursera or EdX class. It is free to do so, but sometimes the classes
+are no longer in session so you have to wait a couple of months, so you have no access. I'm going to be adding more videos
+from public sources and replacing the online course videos over time. I like using university lectures.
+
 ## Interview Process & General Interview Prep
 
 - [x] Videos:
@@ -92,8 +98,6 @@ must be mainstream and allow you write your code low-level enough to solve the p
 You'll see some C, C++ learning included below.
 
 There are a few books involved, see the bottom.
-
-Some videos are available only by enrolling in a Coursera or EdX class. It is free to do so.
 
 - [x] **How computers process a program:**
     - [x] https://www.youtube.com/watch?v=42KTvGYQYnA
@@ -229,6 +233,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - [x] **Linked Lists**
+    - [ ] CS 61B Lecture 7: Linked Lists I: https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7
+    - [ ] CS 61B Lecture 8: Linked Lists II: (can skip to 15:00) https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C
     - [x] Description:
         - [x] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
         - [x] Lynda.com:
@@ -440,17 +446,24 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] insert
         - [x] sift_up - needed for insert
         - [x] get_max - returns the max item, without removing it
-        - [x] extract_max
-        - [x] sift_down - needed for extract_max
         - [x] get_size() - return number of elements stored
-        - [x] remove(i) - removes item at index x
         - [x] is_empty() - returns true if heap contains no elements
-        - [x] heapify - create a heap from an array of elements
+        - [x] extract_max - returns the max item, removing it
+        - [x] sift_down - needed for extract_max
+        - [x] remove(i) - removes item at index x
+        - [x] heapify - create a heap from an array of elements, needed for heap_sort
         - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 - [ ] **Balanced binary trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
+
+    - [ ] **2-3 search trees**
+        - [ ] 2-3 and B-trees: https://class.coursera.org/algs4partI-010/lecture/49
+        - [ ] Recitation: 2-3 Trees and B-Trees: https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
+    - [ ] **2-3-4 Trees**
+        - [ ] CS 61B Lecture 26: Balanced Search Trees: https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C
 
     - [x] **AVL trees**
         - [x] MIT: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
@@ -468,12 +481,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
     - [ ] **B-Trees**
         - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - see lecture above in 2-3 trees - covers B-Trees also
         - [ ] https://en.wikipedia.org/wiki/B-tree
         - [ ] https://class.coursera.org/algs4partI-010/lecture/51
-
-    - [ ] **2-3 search trees**
-        - [ ] 2-3 and B-trees: https://class.coursera.org/algs4partI-010/lecture/49
-        - [ ] https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] **N-ary trees**
     - https://en.wikipedia.org/wiki/K-ary_tree

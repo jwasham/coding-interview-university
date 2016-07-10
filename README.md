@@ -204,7 +204,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - Dynamic Arrays: https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays
         - Jagged: https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html
         - Resizing arrays:
-            - https://class.coursera.org/algs4partI-010/lecture/19
             - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html
     - [x] Implement a vector (mutable array with automatic resizing):
         - [x] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
@@ -268,17 +267,13 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 - [x] **Stack**
     - [x] https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
-    - [x] https://class.coursera.org/algs4partI-010/lecture/18
-    - [x] https://class.coursera.org/algs4partI-010/lecture/19
     - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
     - [x] Will not implement. Implementing with array is trivial.
 
 - [x] **Queue**
     - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html
-    - [x] https://class.coursera.org/algs4partI-010/lecture/20
     - [x] https://www.coursera.org/learn/data-structures/lecture/EShpq/queue
     - [x] Circular buffer/FIFO: https://en.wikipedia.org/wiki/Circular_buffer
-    - [x] https://class.coursera.org/algs4partI-010/lecture/23
     - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html
     - [x] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
@@ -303,10 +298,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html
     - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables
     - [x] https://www.youtube.com/watch?v=C4Kc8xzcA68
-    - [x] https://class.coursera.org/algs4partI-010/lecture/52
-    - [x] https://class.coursera.org/algs4partI-010/lecture/53
-    - [x] https://class.coursera.org/algs4partI-010/lecture/55
-    - [x] https://class.coursera.org/algs4partI-010/lecture/56
     - [x] https://www.coursera.org/learn/data-structures/home/week/3
     - [x] https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem
     - [x] distributed hash tables:
@@ -392,7 +383,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 - [x] **Binary search trees: BSTs**
     - [x] Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees
-    - [x] Series: https://class.coursera.org/algs4partI-010/lecture/43
         - starts with symbol table and goes through BST applications
     - [x] https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
     - [x] MIT: https://www.youtube.com/watch?v=9Jry5-82I68
@@ -452,32 +442,25 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 - [ ] **Balanced binary trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
 
-    - [ ] **2-3 search trees**
-        - [ ] 2-3 and B-trees: https://class.coursera.org/algs4partI-010/lecture/49
+    - [ ] **2-3 search trees, B-Trees**
+        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
         - [ ] Recitation: 2-3 Trees and B-Trees: https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
     - [ ] **2-3-4 Trees**
         - [ ] CS 61B Lecture 26: Balanced Search Trees: https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C
 
     - [x] **AVL trees**
-        - [x] MIT: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
+        - [x] MIT AVL Trees / AVL Sort: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
         - [x] https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees
         - [x] https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
         - [x] https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
 
-    - [ ] **splay trees**
-        - [ ] https://www.coursera.org/learn/data-structures/lecture/O9nZ6/splay-trees
+    - [ ] **Splay trees**
         - [ ] CS 61B: Splay Trees: https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd
-        - [ ] Lecture 04, 09/13: Splay Trees: https://www.youtube.com/watch?v=QnPl_Y6EqMo
+        - [ ] MIT Lecture: Splay Trees: https://www.youtube.com/watch?v=QnPl_Y6EqMo
 
-    - [ ] **red/black trees**
-        - [ ] https://class.coursera.org/algs4partI-010/lecture/50
-
-    - [ ] **B-Trees**
-        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - see lecture above in 2-3 trees - covers B-Trees also
-        - [ ] https://en.wikipedia.org/wiki/B-tree
-        - [ ] https://class.coursera.org/algs4partI-010/lecture/51
+    - [ ] **Red/black trees**
+        - [ ] MIT: https://www.youtube.com/watch?v=gDYn5TfcUVs
 
 - [ ] **N-ary trees**
     - https://en.wikipedia.org/wiki/K-ary_tree
@@ -526,7 +509,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] https://www.coursera.org/learn/algorithms-on-graphs/home/week/5
 
 - Implement:
-
     - [ ] Dijkstra's algorithm
     - [ ] A*
 

@@ -233,15 +233,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - [x] **Linked Lists**
-    - [ ] CS 61B Lecture 7: Linked Lists I: https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7
-    - [ ] CS 61B Lecture 8: Linked Lists II: (can skip to 15:00) https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C
     - [x] Description:
         - [x] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
-        - [x] Lynda.com:
-            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Introduction-lists/149042/177115-4.html
-            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-basic-list-implementations/149042/177116-4.html
-            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-singly-doubly-linked-lists/149042/177117-4.html
-            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/List-support-across-languages/149042/177118-4.html
+        - [x] CS 61B Lecture 7: Linked Lists I: https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7
+        - [x] CS 61B Lecture 8: Linked Lists II: (can skip to 15:00) https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C
     - [x] C Code: https://www.youtube.com/watch?v=QN6FPiD0Gzo
             - not the whole video, just portions about Node struct and memory allocation.
     - [x] Linked List vs Arrays:
@@ -413,7 +408,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
         - [x] https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36
         - [x] https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-    - [ ] Implement:
+    - [x] Implement:
         - [x] insert    // insert value into tree
         - [x] get_node_count // get count of values stored
         - [x] print_values // prints the values in the tree, from min to max

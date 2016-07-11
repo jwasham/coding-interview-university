@@ -382,6 +382,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - preorder (DFS: self, left, right)
 
 - [x] **Binary search trees: BSTs**
+    - [x] Binary Search Tree Review: https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
     - [x] Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees
         - starts with symbol table and goes through BST applications
     - [x] https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
@@ -482,6 +483,17 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] Bottom Up 234-Trees: https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
         - [x] Top Down 234-Trees: https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5
 
+    - [x] **B-Trees**
+        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - In Practice:
+            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants
+            [https://en.wikipedia.org/wiki/B-tree]). In addition to its use in databases, the B-tree is also used in
+            filesystems to allow quick random access to an arbitrary block in a particular file. The basic problem is
+            turning the file block i address into a disk block(or perhaps to a cylinder-head-sector) address.
+        - [x] Introduction to B-Trees: https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6
+        - [x] B-Tree Definition and Insertion: https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
+        - [x] B-Tree Deletion: https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
+
     - [ ] **Red/black trees**
         - In practice:
             Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
@@ -496,26 +508,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
             https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871
         - [ ] Aduni - Algorithms - Lecture 5: https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5
 
-    - [ ] **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants
-            [https://en.wikipedia.org/wiki/B-tree]). In addition to its use in databases, the B-tree is also used in
-            filesystems to allow quick random access to an arbitrary block in a particular file. The basic problem is
-            turning the file block i address into a disk block(or perhaps to a cylinder-head-sector) address.
-        - [ ] Binary Search Tree Review: https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
-        - [ ] Introduction to B-Trees: https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6
-        - [ ] B-Tree Definition and Insertion: https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
-        - [ ] B-Tree Deletion: https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
-
     - [ ] **Skip lists**
         - [ ] MIT: Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
     - [ ] **Memory Model & Trees**
         - [ ] MIT 6.851 - Memory Hierarchy Models: https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
-
-- [ ] **Treap**
-    - [ ] ?
 
 - [ ] **N-ary trees**
     - [ ] https://en.wikipedia.org/wiki/K-ary_tree
@@ -604,6 +601,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 ## Even More Knowledge
 
     This area is sparse, and I'll be filling it in once I get here.
+
+- [ ] **Treap**
+    - [ ] ?
 
 - [ ] Caches
     - LRU cache

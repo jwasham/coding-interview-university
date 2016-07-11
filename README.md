@@ -439,15 +439,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
-- [ ] **Balanced binary trees**
+- [ ] **Balanced search trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
-
-    - [ ] **2-3 search trees, B-Trees**
-        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - [ ] Recitation: 2-3 Trees and B-Trees: https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-
-    - [ ] **2-3-4 Trees**
-        - [ ] CS 61B Lecture 26: Balanced Search Trees: https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C
 
     - [x] **AVL trees**
         - [x] MIT AVL Trees / AVL Sort: https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
@@ -455,24 +448,44 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation
         - [x] https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
 
-    - [ ] **Splay trees**
-        - [ ] CS 61B: Splay Trees: https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd
-        - [ ] MIT Lecture: Splay Trees: https://www.youtube.com/watch?v=QnPl_Y6EqMo
+    - [x] **Splay trees**
+        - [x] CS 61B: Splay Trees: https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd
+        - [x] MIT Lecture: Splay Trees:
+                - Gets very mathy, but watch the last 10 minutes for sure.
+                - https://www.youtube.com/watch?v=QnPl_Y6EqMo
+
+    - [x] **2-3-4 Trees**
+        - [x] CS 61B Lecture 26: Balanced Search Trees: https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C
+
+    - [x] **2-3 search trees**
+        - [x] 2-3 Trees (student recitation): https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
     - [ ] **Red/black trees**
-        - [ ] MIT: https://www.youtube.com/watch?v=gDYn5TfcUVs
+        - [ ] Aduni - Algorithms - Lecture 4
+            link jumps to starting point:
+            https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871
+        - [ ] Aduni - Algorithms - Lecture 5: https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5
+
+    - [ ] **B-Trees**
+        - fun fact: B could stand for Boeing, Balanced, or Bayer (co-inventor)
+
+    - [ ] **Skip lists**
+        - [ ] MIT: Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
+- [ ] **Treap**
+    - [ ] ?
 
 - [ ] **N-ary trees**
-    - https://en.wikipedia.org/wiki/K-ary_tree
+    - [ ] https://en.wikipedia.org/wiki/K-ary_tree
 
 - [ ] **Tries**
-    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
-    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
-    - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
 
 - [ ] **Disjoint Sets:**
     - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
-    - [ ] UCB: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
+    - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
     - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
     - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
@@ -635,7 +648,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - performance analysis and optimization
 
 - [ ] **Familiarize yourself with a unix-based code editor: emacs & vi(m)**
-    - suggested by Yegge
+    - suggested by Yegge, from an old Amazon recruiting post
     - vi(m):
         - https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr
         - set of 4:
@@ -643,6 +656,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - https://www.youtube.com/watch?v=F3OO7ZIOaJE
             - https://www.youtube.com/watch?v=ZYEccA_nMaI
             - https://www.youtube.com/watch?v=1lYD5gwgZIA
+        - http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs
     - emacs:
         - https://www.youtube.com/watch?v=hbmV1bnQ-i0
         - set of 3:
@@ -650,14 +664,19 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - https://www.youtube.com/watch?v=XWpsRupJ4II
             - https://www.youtube.com/watch?v=paSgzPso-yc
         - https://www.youtube.com/watch?v=JWD1Fpdd4Pc
+        - http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs
 
 - [ ] **Be able to use unix command line tools:**
-    - suggested by Yegge
-    - bash
-    - grep
-    - sed
-    - awk
-    - curl or wget
+    - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.
+    - [ ] bash
+    - [ ] cat
+    - [ ] grep
+    - [ ] sed
+    - [ ] awk
+    - [ ] curl or wget
+    - [ ] sort
+    - [ ] tr
+    - [ ] uniq
 
 - [ ] **Testing**
     - how unit testing works

@@ -468,7 +468,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - In practice:
             2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
         You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
-        - [ ] 23-Tree Intuition and Definition: https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2
+        - [x] 23-Tree Intuition and Definition: https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2
         - [ ] Binary View of 23-Tree: https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
         - [x] 2-3 Trees (student recitation): https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
@@ -535,6 +535,34 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
     - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
+## Sorting
+
+    This area is sparse, and I'll be filling it in once I get here.
+
+- [ ] Notes:
+    - Implement sorts & know best case/worst case, average complexity of each:
+        - no bubble sort - it's terrible - O(n^2), except when n <= 16
+    - For heapsort, see Heap data structure.
+    - [ ] stability in sorting algorithms:
+        - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
+        - http://www.geeksforgeeks.org/stability-in-sorting-algorithms/
+    - [ ] Which algorithms can be used on linked lists?
+    - [ ] Which on arrays? Which on both?
+    - [ ] Is Quicksort stable?
+
+- [ ] https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+- [ ] https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+
+- [ ] Implement:
+    - [ ] Mergesort
+    - [ ] Quicksort
+    - [ ] Insertion Sort
+    - [ ] Selection Sort
+
+- For Curiosity:
+     - [ ] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+     - [ ] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
+
 ## Graphs
 
     This area is sparse (no pun intended), and I'll be filling it in once I get here.
@@ -572,33 +600,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - covers Fibonacci heap, a more complicated but more efficient heap than binary heap
 
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
-
-## Sorting
-
-    This area is sparse, and I'll be filling it in once I get here.
-
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - For heapsort, see Heap data structure.
-    - [ ] stability in sorting algorithms:
-        - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
-        - http://www.geeksforgeeks.org/stability-in-sorting-algorithms/
-    - [ ] Which algorithms can be used on linked lists?
-    - [ ] Which on arrays? Which on both?
-    - [ ] Is Quicksort stable?
-
-- [ ] https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-- [ ] https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-
-- [ ] Implement:
-    - [ ] Mergesort
-    - [ ] Quicksort
-    - [ ] Insertion Sort
-    - [ ] Selection Sort
-
-- For Curiosity:
-     - [ ] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
 
 ## Even More Knowledge
 

@@ -442,6 +442,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 - [ ] **Balanced search trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
+    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
+        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
+        to move any accessed key to the root." - Skiena
 
     - [x] **AVL trees**
         - In practice:
@@ -493,6 +496,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] Introduction to B-Trees: https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6
         - [x] B-Tree Definition and Insertion: https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
         - [x] B-Tree Deletion: https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
+        - [x] MIT 6.851 - Memory Hierarchy Models: https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
+                - covers cache-oblivious B-Trees, very interesting data structures
+                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
 
     - [ ] **Red/black trees**
         - In practice:
@@ -508,29 +514,13 @@ Then test it out on a computer to make sure it's not buggy from syntax.
             https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871
         - [ ] Aduni - Algorithms - Lecture 5: https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5
 
-    - [ ] **Skip lists**
-        - [ ] MIT: Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-
-    - [ ] **Memory Model & Trees**
-        - [ ] MIT 6.851 - Memory Hierarchy Models: https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
-
-- [ ] **N-ary trees**
+- [ ] **N-ary (K-ary) trees**
     - [ ] https://en.wikipedia.org/wiki/K-ary_tree
 
 - [ ] **Tries**
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
-
-- [ ] **Disjoint Sets:**
-    - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
-    - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
 ## Sorting
 
@@ -601,9 +591,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 ## Even More Knowledge
 
     This area is sparse, and I'll be filling it in once I get here.
-
-- [ ] **Treap**
-    - [ ] ?
 
 - [ ] Caches
     - LRU cache
@@ -892,6 +879,23 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
+
+- [ ] **Skip lists**
+    - "These are somewhat of a cult data structure" - Skiena
+    - [ ] MIT: Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
+- [ ] **Disjoint Sets:**
+    - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+    - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
+
+- [ ] **Treap**
+    - [ ] ?
 
 - [x] **Parity & Hamming Code**
     - [x] Parity:

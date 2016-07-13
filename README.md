@@ -445,6 +445,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
+    - Of these, I chose to implement a red-black tree and a splay tree.
+        - red-black tree: search and insertion functions, skipping delete
+        - splay tree: insert, search, delete functions
+    - I want to learn more about B-Tree since it's used so widely with very large data sets.
 
     - [x] **AVL trees**
         - In practice:
@@ -489,10 +493,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] **B-Trees**
         - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
         - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants
-            [https://en.wikipedia.org/wiki/B-tree]). In addition to its use in databases, the B-tree is also used in
-            filesystems to allow quick random access to an arbitrary block in a particular file. The basic problem is
-            turning the file block i address into a disk block(or perhaps to a cylinder-head-sector) address.
+            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
+            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
+            block in a particular file. The basic problem is turning the file block i address into a disk block
+            (or perhaps to a cylinder-head-sector) address.
+        - [x] B-Tree: https://en.wikipedia.org/wiki/B-tree
         - [x] Introduction to B-Trees: https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6
         - [x] B-Tree Definition and Insertion: https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
         - [x] B-Tree Deletion: https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
@@ -500,7 +505,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
 
-    - [ ] **Red/black trees**
+    - [x] **Red/black trees**
         - In practice:
             Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
             Not only does this make them valuable in time-sensitive applications such as real-time applications,
@@ -509,13 +514,19 @@ Then test it out on a computer to make sure it's not buggy from syntax.
             the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
             the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
             hashcodes, a Red-Black tree is used.
-        - [ ] Aduni - Algorithms - Lecture 4
+        - [x] Aduni - Algorithms - Lecture 4
             link jumps to starting point:
             https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871
-        - [ ] Aduni - Algorithms - Lecture 5: https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5
+        - [x] Aduni - Algorithms - Lecture 5: https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5
+        - [x] https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+        - [x] https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/
 
-- [ ] **N-ary (K-ary) trees**
-    - [ ] https://en.wikipedia.org/wiki/K-ary_tree
+- [x] **N-ary (K-ary, M-ary) trees**
+    - note: the N or K is the branching factor (max branches)
+        - binary trees are a 2-ary tree, with branching factor = 2
+        - 2-3 trees are 3-ary
+        - B-Trees are B (block size) + 1 branching factor
+    - [x] https://en.wikipedia.org/wiki/K-ary_tree
 
 - [ ] **Tries**
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
@@ -893,6 +904,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
     - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
+
+- van Emde Boas Trees
+    - [ ] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
 
 - [ ] **Treap**
     - [ ] ?

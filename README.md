@@ -525,7 +525,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - note: the N or K is the branching factor (max branches)
         - binary trees are a 2-ary tree, with branching factor = 2
         - 2-3 trees are 3-ary
-        - B-Trees are B (block size) + 1 branching factor
     - [x] https://en.wikipedia.org/wiki/K-ary_tree
 
 - [ ] **Tries**

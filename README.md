@@ -452,6 +452,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         If you end up implementing red/black tree try just these:
         - search and insertion functions, skipping delete
     - I want to learn more about B-Tree since it's used so widely with very large data sets.
+    - [x] Self-balancing binary search tree: https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
 
     - [x] **AVL trees**
         - In practice:

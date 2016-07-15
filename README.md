@@ -628,6 +628,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - https://www.youtube.com/watch?v=dNaJg-mLobQ
 
 - [ ] Dynamic Programming
+    - [ ] Dynamic Programming & Advanced DP: https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [ ] Dynamic Programming (student recitation): https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12
 
 - [ ] Scheduling
 

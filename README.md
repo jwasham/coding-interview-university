@@ -531,9 +531,12 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] https://en.wikipedia.org/wiki/K-ary_tree
 
 - [ ] **Tries**
+    - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
+    - [ ] MIT, Advanced Data Structures, Strings: https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
+    - [ ] Code: https://nullwords.wordpress.com/2013/03/06/the-trie-data-structure-a-prefix-tree-for-autocompletes/
 
 ## Sorting
 

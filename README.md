@@ -445,9 +445,12 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a red-black tree and a splay tree.
-        - red-black tree: search and insertion functions, skipping delete
+    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
+        balanced search tree in your interview. But I wanted exposure to coding one up
+        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code.
         - splay tree: insert, search, delete functions
+        If you end up implementing red/black tree try just these:
+        - search and insertion functions, skipping delete
     - I want to learn more about B-Tree since it's used so widely with very large data sets.
 
     - [x] **AVL trees**

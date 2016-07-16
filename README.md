@@ -29,7 +29,7 @@ thousands of associative arrays, but I've never created data structures from scr
 But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
 months. If you are familiar with a lot of this already it will take you a lot less time.
 
-### How to use it
+## How to use it
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 

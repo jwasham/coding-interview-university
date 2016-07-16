@@ -440,6 +440,14 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
+- [ ] **Tries**
+    - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
+    - [ ] MIT, Advanced Data Structures, Strings: https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
+    - [ ] Code: https://nullwords.wordpress.com/2013/03/06/the-trie-data-structure-a-prefix-tree-for-autocompletes/
+
 - [x] **Balanced search trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
@@ -530,14 +538,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - binary trees are a 2-ary tree, with branching factor = 2
         - 2-3 trees are 3-ary
     - [x] https://en.wikipedia.org/wiki/K-ary_tree
-
-- [ ] **Tries**
-    - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
-    - [ ] MIT, Advanced Data Structures, Strings: https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
-    - [ ] Code: https://nullwords.wordpress.com/2013/03/06/the-trie-data-structure-a-prefix-tree-for-autocompletes/
 
 ## Sorting
 

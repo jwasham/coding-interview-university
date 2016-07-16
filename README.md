@@ -440,7 +440,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
-- [ ] **Tries**
+- [x] **Tries**
     - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
         to track the path.
     - I read through code, but will not implement.
@@ -452,7 +452,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] The Trie: A Neglected Data Structure: https://www.toptal.com/java/the-trie-a-neglected-data-structure
     - [x] TopCoder - Using Tries: https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/
     - [x] Stanford Lecture (real world use case): https://www.youtube.com/watch?v=TJ8SkcUSdbU
-    - [ ] MIT, Advanced Data Structures, Strings: https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
+    - [x] MIT, Advanced Data Structures, Strings: https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
 
 - [x] **Balanced search trees**
     - Know least one type of balanced binary tree (and know how it's implemented):

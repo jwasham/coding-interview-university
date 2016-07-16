@@ -1,7 +1,7 @@
 # Google Interview University
 *(formerly known as Project 9894)*
 
-### What is it?
+## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to
 Google software engineer. Don't let that offend you if you are a web developer. I'm speaking

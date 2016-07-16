@@ -441,12 +441,18 @@ Then test it out on a computer to make sure it's not buggy from syntax.
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 - [ ] **Tries**
-    - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
+    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
+        to track the path.
+    - I read through code, but will not implement.
+    - [x] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries
+    - [x] Short course videos:
+        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
+        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
+        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
+    - [x] The Trie: A Neglected Data Structure: https://www.toptal.com/java/the-trie-a-neglected-data-structure
+    - [x] TopCoder - Using Tries: https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/
+    - [x] Stanford Lecture (real world use case): https://www.youtube.com/watch?v=TJ8SkcUSdbU
     - [ ] MIT, Advanced Data Structures, Strings: https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
-    - [ ] Code: https://nullwords.wordpress.com/2013/03/06/the-trie-data-structure-a-prefix-tree-for-autocompletes/
 
 - [x] **Balanced search trees**
     - Know least one type of balanced binary tree (and know how it's implemented):

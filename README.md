@@ -555,8 +555,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 ## Sorting
 
-    This area is sparse, and I'll be filling it in once I get here.
-
 - [x] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
@@ -604,7 +602,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case
 
-- For Curiosity, not required:
+- For curiosity - not required:
      - [ ] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
      - [ ] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
      - [ ] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
@@ -937,7 +935,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 ---
 
-## Additional Resources
+## Additional Learnings (not required)
 
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
@@ -1063,7 +1061,7 @@ For review questions in C book:
 
 ## Once You've Got The Job
 
-This is mainly for me.
+    This is mainly for me.
 
 - [ ] Books:
     - [ ] Clean Code
@@ -1083,7 +1081,7 @@ This is mainly for me.
 - [ ] MIT CMS.611J Creating Video Games, Fall 2014
     - https://www.youtube.com/watch?v=pfDfriSjFbY&list=PLUl4u3cNGP61V4W6yRm1Am5zI94m33dXk
 
-- [ ] Compilers:
+- [ ] Compilers Course:
     - https://class.coursera.org/compilers-004/lecture
 
 - [ ] Computer and processor architecture:

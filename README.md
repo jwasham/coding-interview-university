@@ -53,7 +53,7 @@ Print out a "[future Googler](https://github.com/jwasham/project-9894/blob/maste
 
 ## Follow me
 
-![John Washam](https://dng5l3qzreal6.cloudfront.net/2016/Jul/me_circle-1467757502022.jpg)
+![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Jul/me_circle-1467757502022.jpg)
 
 I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.com/)
 

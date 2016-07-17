@@ -4,12 +4,15 @@
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to
-Google software engineer. Don't let that offend you if you are a web developer. I'm speaking
-from my experience, not yours.
+Google software engineer. Please don't let that offend you if you are a web developer. I'm just
+speaking from my knowledge and experience.
 
     This long list has been extracted and expanded from Google's coaching notes,
     so these are the things you need to know. There are extra items I added at the
     bottom that may come up in the interview or be helpful in solving a problem.
+
+Many items are from Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"
+and are reflected sometimes word-for-word in Google's coaching notes.
 
 ## Why use it?
 
@@ -452,7 +455,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] The Trie: A Neglected Data Structure: https://www.toptal.com/java/the-trie-a-neglected-data-structure
     - [x] TopCoder - Using Tries: https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/
     - [x] Stanford Lecture (real world use case): https://www.youtube.com/watch?v=TJ8SkcUSdbU
-    - [x] MIT, Advanced Data Structures, Strings: https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
+    - [x] MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through): https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
 
 - [x] **Balanced search trees**
     - Know least one type of balanced binary tree (and know how it's implemented):
@@ -560,8 +563,25 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] Which on arrays? Which on both?
     - [ ] Is Quicksort stable?
 
-- [ ] https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-- [ ] https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+- [x] Bubble Sort: https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB
+- [x] Analyzing Bubble Sort: https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB
+- [ ] Insertion Sort, Merge Sort: https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+- [x] Insertion Sort: https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB
+- [ ] Merge Sort: https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB
+- [ ] Quicksort: https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB
+- [ ] Selection Sort: https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB
+
+- [ ] Steven Skiena lectures on sorting:
+    - [ ] lecture begins at 27:40: https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10
+
+- [ ] Coursera: Algorithmic Thinking, Part II
+    - [ ] The sorting problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/yZ9Dh/the-sorting-problem
+    - [ ] A simple quadratic algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/aJcei/a-simple-quadratic-algorithm
+    - [ ] Illustrating MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/vymK5/illustrating-mergesort
+    - [ ] The recurrence for MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/mFGa0/the-recurrence-for-mergesort
+    - [ ] The Master Theorem and MergeSort efficiency: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/Zb4R8/the-master-theorem-and-mergesort-efficiency
 
 - [ ] Implement:
     - [ ] Mergesort

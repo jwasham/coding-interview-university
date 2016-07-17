@@ -169,6 +169,11 @@ Why code in all of these?
 
 I may not have time to do all of these for every subject, but I'll try.
 
+You can see my code here:
+ - C: https://github.com/jwasham/practice-c
+ - C++: https://github.com/jwasham/practice-cpp
+ - Python: https://github.com/jwasham/practice-python
+
 You don't need to memorize the guts of every algorithm.
 
 Write code on a whiteboard, not a computer. Test with some sample inputs.
@@ -565,29 +570,36 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 - [x] Bubble Sort: https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB
 - [x] Analyzing Bubble Sort: https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB
-- [ ] Insertion Sort, Merge Sort: https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+- [x] Insertion Sort, Merge Sort: https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 - [x] Insertion Sort: https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB
-- [ ] Merge Sort: https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB
-- [ ] Quicksort: https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB
-- [ ] Selection Sort: https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB
+- [x] Merge Sort: https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB
+- [x] Quicksort: https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB
+- [x] Selection Sort: https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB
+
+- [ ] Stanford lectures on sorting:
+    - [ ] https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69
+    - [ ] https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69
+    - [ ] https://www.youtube.com/watch?v=Tp3HCeeqyDs&list=PLFE6E58F856038C69&index=17
 
 - [ ] Steven Skiena lectures on sorting:
     - [ ] lecture begins at 27:40: https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [ ] https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [ ] https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10
 
-- [ ] Coursera: Algorithmic Thinking, Part II
-    - [ ] The sorting problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/yZ9Dh/the-sorting-problem
-    - [ ] A simple quadratic algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/aJcei/a-simple-quadratic-algorithm
-    - [ ] Illustrating MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/vymK5/illustrating-mergesort
-    - [ ] The recurrence for MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/mFGa0/the-recurrence-for-mergesort
-    - [ ] The Master Theorem and MergeSort efficiency: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/Zb4R8/the-master-theorem-and-mergesort-efficiency
+- [x] Coursera: Algorithmic Thinking, Part II
+    - [x] The sorting problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/yZ9Dh/the-sorting-problem
+    - [x] A simple quadratic algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/aJcei/a-simple-quadratic-algorithm
+    - [x] Illustrating MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/vymK5/illustrating-mergesort
+    - [x] The recurrence for MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/mFGa0/the-recurrence-for-mergesort
+    - [x] The Master Theorem and MergeSort efficiency: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/Zb4R8/the-master-theorem-and-mergesort-efficiency
+
+- [x] - Merge sort code: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c
+- [x] - Quick sort code: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c
 
 - [ ] Implement:
-    - [ ] Mergesort
-    - [ ] Quicksort
-    - [ ] Insertion Sort
-    - [ ] Selection Sort
+    - [ ] Mergesort: O(n log n) average and worst case
+    - [ ] Quicksort O(n log n) average case
+    - Selection sort and insertion sort are both O(n^2) average and worst case
 
 - For Curiosity:
      - [ ] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
@@ -646,6 +658,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] Recursion
     -  when it is appropriate to use it
     - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
+    - [ ] Stanford lectures on recursion:
+        - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
+        - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
 
 - [ ] open-ended problems
     - manipulate strings

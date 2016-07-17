@@ -557,16 +557,19 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
     This area is sparse, and I'll be filling it in once I get here.
 
-- [ ] Notes:
+- [x] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - For heapsort, see Heap data structure.
-    - [ ] stability in sorting algorithms:
+    - [x] stability in sorting algorithms ("Is Quicksort stable?")
+        - https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
         - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
         - http://www.geeksforgeeks.org/stability-in-sorting-algorithms/
-    - [ ] Which algorithms can be used on linked lists?
-    - [ ] Which on arrays? Which on both?
-    - [ ] Is Quicksort stable?
+        - http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf
+    - [x] Which algorithms can be used on linked lists? Which on arrays? Which on both?
+        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+        - http://www.geeksforgeeks.org/merge-sort-for-linked-list/
+
+- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
 
 - [x] Bubble Sort: https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB
 - [x] Analyzing Bubble Sort: https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB
@@ -577,8 +580,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 - [x] Selection Sort: https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB
 
 - [ ] Stanford lectures on sorting:
-    - [ ] https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69
-    - [ ] https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69
+    - [x] https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69
+    - [x] https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69
     - [ ] https://www.youtube.com/watch?v=Tp3HCeeqyDs&list=PLFE6E58F856038C69&index=17
 
 - [ ] Steven Skiena lectures on sorting:
@@ -601,7 +604,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case
 
-- For Curiosity:
+- For Curiosity, not required:
+     - [ ] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
      - [ ] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
      - [ ] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
 

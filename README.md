@@ -783,6 +783,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 #### Mentioned in Google Coaching:
 
 **Read and do exercises:**
+
 - [ ] The Algorithm Design Manual (Skiena)
     - Book (can rent on kindle):
         - http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202
@@ -790,23 +791,19 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Answers:
         - http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
 
-- [ ] Algorithms and Programming: Problems and Solutions:
-    http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
-
-
     Once you've understood everything in the daily plan, and read and done exercises from the the books above,
     read and do exercises from the books below. Then move to coding challenges (further down below)
-
 
 **Read first:**
 - [ ] Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:
     http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html
 
-**Read second:**
+**Read second (recommended by many, but not in Google coaching docs):**
 - [ ] Cracking the Coding Interview, 6th Edition:
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
+    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
-#### Additional books (not suggested by Google but I added):
+#### Additional books (not suggested by Google but I added because I needed the background knowledge):
 
 - [x] C Programming Language, Vol 2
 
@@ -822,7 +819,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] Programming Pearls:
     - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
 
-If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+- [ ] Algorithms and Programming: Problems and Solutions:
+    http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
 
 ## About Google
 

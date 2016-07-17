@@ -577,10 +577,13 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 - [x] Quicksort: https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB
 - [x] Selection Sort: https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB
 
-- [ ] Stanford lectures on sorting:
+- [x] Stanford lectures on sorting:
     - [x] https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69
     - [x] https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69
-    - [ ] https://www.youtube.com/watch?v=Tp3HCeeqyDs&list=PLFE6E58F856038C69&index=17
+
+- [ ] Shai Simonson, MIT, [Aduni.org](http://www.aduni.org/):
+    - [ ] https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2
+    - [ ] https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3
 
 - [ ] Steven Skiena lectures on sorting:
     - [ ] lecture begins at 27:40: https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b

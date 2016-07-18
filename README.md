@@ -1,5 +1,4 @@
 # Google Interview University
-*(formerly known as Project 9894)*
 
 ## What is it?
 
@@ -430,6 +429,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
     - [x] https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
     - [x] https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
+    - [x] Heap Sort - jumps to start: https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291
     - [x] Heap Sort: https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort
     - [x] Building a heap: https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap
     - [x] MIT: Heaps and Heap Sort: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
@@ -581,9 +581,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69
     - [x] https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69
 
-- [ ] Shai Simonson, MIT, [Aduni.org](http://www.aduni.org/):
-    - [ ] https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2
-    - [ ] https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3
+- [x] Shai Simonson, [Aduni.org](http://www.aduni.org/):
+    - [x] https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2
+    - [x] https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3
 
 - [ ] Steven Skiena lectures on sorting:
     - [ ] lecture begins at 27:40: https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
@@ -604,6 +604,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] Mergesort: O(n log n) average and worst case
     - [ ] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case
+    - For heapsort, see Heap data structure above.
 
 - For curiosity - not required:
      - [ ] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort

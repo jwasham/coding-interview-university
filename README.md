@@ -586,9 +586,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3
 
 - [ ] Steven Skiena lectures on sorting:
-    - [ ] lecture begins at 27:40: https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10
+    - [x] lecture begins at 26:46: https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600
+    - [x] lecture begins at 27:40: https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [x] lecture begins at 35:00: https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [x] lecture begins at 23:50: https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10
 
 - [x] Coursera: Algorithmic Thinking, Part II
     - [x] The sorting problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/yZ9Dh/the-sorting-problem
@@ -607,9 +608,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - For heapsort, see Heap data structure above.
 
 - For curiosity - not required:
-     - [ ] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
-     - [ ] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-     - [ ] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
+     - [x] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
+     - [x] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
+     - [x] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 
 ## Graphs
 
@@ -663,6 +664,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] Recursion
     -  when it is appropriate to use it
+    - how is tail recursion better than not?
     - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
     - [ ] Stanford lectures on recursion:
         - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8

@@ -591,12 +591,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] lecture begins at 35:00: https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [x] lecture begins at 23:50: https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10
 
-- [x] Coursera: Algorithmic Thinking, Part II
-    - [x] The sorting problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/yZ9Dh/the-sorting-problem
-    - [x] A simple quadratic algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/aJcei/a-simple-quadratic-algorithm
-    - [x] Illustrating MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/vymK5/illustrating-mergesort
-    - [x] The recurrence for MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/mFGa0/the-recurrence-for-mergesort
-    - [x] The Master Theorem and MergeSort efficiency: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/Zb4R8/the-master-theorem-and-mergesort-efficiency
+- [ ] UC Berkeley:
+    - [ ] CS 61B Lecture 29: Sorting I: https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29
+    - [ ] CS 61B Lecture 30: Sorting II: https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30
+    - [ ] CS 61B Lecture 32: Sorting III: https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C
+    - [ ] CS 61B Lecture 33: Sorting V: https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C
 
 - [x] - Merge sort code:
     - [x] Using output array: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c
@@ -612,9 +611,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - For heapsort, see Heap data structure above.
 
 - [x] For curiosity - not required:
-     - [x] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
-     - [x] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
-     - [x] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [x] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
+    - [x] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
+    - [x] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [ ] Randomization: Matrix Multiply, Quicksort: https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 ## Graphs
 
@@ -629,34 +629,49 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - If you get a chance, try to study up on fancier algorithms:
         - Dijkstra's algorithm
+            - https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=16
             - https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
         - A*
             - https://en.wikipedia.org/wiki/A*_search_algorithm
     - When asked a question, look for a graph-based solution first, then move on if none.
 
 - Graphs:
-    - https://www.youtube.com/watch?v=ylWAB6CMYiY&list=PL4BBB74C7D2A1049C&index=27
-    - https://www.youtube.com/watch?v=OiXxhDrFruw&index=11&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] Graph Algorithms I - Topological Sorting, Prim's Algorithm - Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
+    - [ ] Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
+    - [ ] Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
+    - [ ] Graph Alg. IV: Intro to geometric algorithms - Lecture 9: https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9
+    - [ ] CS 61B Lecture 27: Graphs: https://www.youtube.com/watch?v=ylWAB6CMYiY&list=PL4BBB74C7D2A1049C&index=27
+    - [ ] CS 61B Lecture 28: Weighted Graphs: https://www.youtube.com/watch?v=OiXxhDrFruw&index=11&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] Greedy Algorithms: Minimum Spanning Tree: https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
-- Weighted graphs:
-    - https://www.youtube.com/watch?v=zFbq8vOZ_0k&list=PL4BBB74C7D2A1049C&index=28
+- Skiena Lectures:
+    - [ ] CSE373 2012 - Lecture 11 - Graph Data Structures: https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11
+    - [ ] CSE373 2012 - Lecture 12 - Breadth-First Search: https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12
+    - [ ] CSE373 2012 - Lecture 13 - Graph Algorithms: https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13
+    - [ ] CSE373 2012 - Lecture 14 - Graph Algorithms (con't): https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2): https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3): https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
 
-- Compute Strongly Connected Components
-    - [ ] https://www.coursera.org/learn/algorithms-on-graphs/home/week/5
+- Advanced Graph Processing:
+    - [ ] Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27
+    - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
+
+- Full Coursera Course: Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
 
 - Implement:
     - [ ] Dijkstra's algorithm
     - [ ] A*
 
 - For Curiosity:
-    - [ ] MIT Lecture: Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
+    - [ ] Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
         - covers Fibonacci heap, a more complicated but more efficient heap than binary heap
+    - [ ] Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
 
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
 ## Even More Knowledge
 
-    This area is sparse, and I'll be filling it in once I get here.
+    Some items are sparse, and I'll be filling them in once I get here.
 
 - [ ] Caches
     - LRU cache
@@ -665,6 +680,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
+    - [ ] Computational Complexity: https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23
+    - [ ] CSE373 2012 - Lecture 23 - Introduction to NP-Completeness: https://www.youtube.com/watch?v=KiK5TVgXbFg&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=23
+    - [ ] CSE373 2012 - Lecture 24 - NP-Completeness Proofs: https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] CSE373 2012 - Lecture 25 - NP-Completeness Challenge: https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] Complexity: P, NP, NP-completeness, Reductions: https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22
+    - [ ] Recitation R8. NP-Complete Problems: https://www.youtube.com/watch?v=G7mqtB6npfE&index=23&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [ ] Complexity: Approximation Algorithms: https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24
+    - [ ] Complexity: Fixed-Parameter Algorithms: https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] Recursion
     -  when it is appropriate to use it
@@ -674,19 +697,48 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
         - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
 
-- [ ] open-ended problems
-    - manipulate strings
-    - manipulate patterns
+- [ ] string searching:
+    - [ ] Search pattern in text: https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text
+    - [ ] Karp-Rabin:
+        https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm
+        https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9
+    - [ ] Precomputing: https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation
+    - [ ] Optimization: Implementation and Analysis: https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis
 
-- [ ] Combinatorics (n choose k)
-
-- [ ] Probability
-    - https://www.youtube.com/watch?v=sZkAAk9Wwa4
-    - https://www.youtube.com/watch?v=dNaJg-mLobQ
+- [ ] Combinatorics (n choose k) & Probability
+    - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
+    - [ ] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
+    - [ ] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
+    - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Expectation II: https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
 
 - [ ] Dynamic Programming
+    - [ ] Dynamic Programming I - Lecture 11: https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
+    - [ ] Dynamic programming II - Lecture 12: https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12
+    - [ ] Dynamic Programming I: Fibonacci, Shortest Paths: https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19
+    - [ ] Dynamic Programming II: Text Justification, Blackjack: https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20
+    - [ ] DP III: Parenthesization, Edit Distance, Knapsack: https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21
+    - [ ] DP IV: Guitar Fingering, Tetris, Super Mario Bros.: https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [ ] Dynamic Programming & Advanced DP: https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [ ] Dynamic Programming: All-Pairs Shortest Paths: https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15
     - [ ] Dynamic Programming (student recitation): https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12
+    - [ ] CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
+    - [ ] CSE373 2012 - Lecture 20 - Edit Distance: https://www.youtube.com/watch?v=IsmMhMdyeGY&index=20&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://www.youtube.com/watch?v=o0V9eYF4UI8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=21
+    - [ ] CSE373 2012 - Lecture 22 - Applications of Dynamic Programming: https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22
+    - Coursera:
+        - [ ] The RNA secondary structure problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem
+        - [ ] A dynamic programming algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm
+        - [ ] Illustrating the DP algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm
+        - [ ] Running time of the DP algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm
+        - [ ] DP vs. recursive implementation: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation
+        - [ ] Global pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment
+        - [ ] Local pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment
 
 - [ ] Scheduling
 
@@ -945,18 +997,38 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 ---
 
+---
+
 ## Additional Learnings (not required)
 
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
 
+- [ ] Augmented Data Structures:
+    - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39
+
+
+- [ ] Geometry, Convex hull:
+    - [ ] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
+    - [ ] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
+
 - [ ] **Skip lists**
     - "These are somewhat of a cult data structure" - Skiena
-    - [ ] MIT: Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [ ] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
+- [ ] Network Flows:
+    - [ ] Network Flows: https://www.youtube.com/watch?v=i0q-Irlf4y4&index=5&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
+    - [ ] Augmenting Path Algorithms: https://www.youtube.com/watch?v=7QPI3kBIKv4&index=6&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
+    - [ ] Network Flow Algorithms: https://www.youtube.com/watch?v=5PR0ExrHO-Q&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=7
+
+- [ ] Linear Programming:
+    - [ ] Lecture 13 10/11 Linear Programming: https://www.youtube.com/watch?v=IOQApuleqvg&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=11
+    - [ ] Lecture 14 10/16 Linear Programming: https://www.youtube.com/watch?v=vpX0TSAcdJY&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=12
 
 - [ ] **Disjoint Sets:**
     - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
     - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
+    - [ ] CS 61B Lecture 31: Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
     - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
     - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
@@ -964,8 +1036,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
     - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
-- van Emde Boas Trees
+- [ ] van Emde Boas Trees
     - [ ] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
+
+- [ ] Integer Arithmetic, Karatsuba Multiplication: https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 
 - [ ] **Treap**
     - [ ] ?
@@ -982,6 +1056,11 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] Computer Security:
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
+- [ ] Markov text generation:
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
+    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through
+
 - [ ] Information theory:
     - Markov processes:
         - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
@@ -994,6 +1073,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
 
 - [ ] Fast Fourier Transform
+    - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
     - http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
 - [ ] Machine Learning:
@@ -1020,6 +1100,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 ## Videos
 
 Sit back and enjoy. "netflix and skill" :P
+
+- [ ] Discrete Mathematics (19 videos):
+    - https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG
 
 - [ ] Scalability:
     - https://www.youtube.com/watch?v=9nWyWwY2Onc

@@ -618,9 +618,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 ## Graphs
 
-    This area is sparse (no pun intended), and I'll be filling it in once I get here.
-
-- Notes:
+- Notes from Yegge:
     - There are three basic ways to represent a graph in memory:
         - objects and pointers
         - matrix
@@ -657,10 +655,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
 
 - Full Coursera Course: Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
-
-- Implement:
-    - [ ] Dijkstra's algorithm
-    - [ ] A*
 
 - For Curiosity:
     - [ ] Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E

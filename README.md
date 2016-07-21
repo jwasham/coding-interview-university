@@ -598,16 +598,18 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] The recurrence for MergeSort: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/mFGa0/the-recurrence-for-mergesort
     - [x] The Master Theorem and MergeSort efficiency: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/Zb4R8/the-master-theorem-and-mergesort-efficiency
 
-- [x] - Merge sort code: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c
+- [x] - Merge sort code:
+    - [x] Using output array: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c
+    - [x] In-place: https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc
 - [x] - Quick sort code: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
+- [x] Implement:
+    - [x] Mergesort: O(n log n) average and worst case
+    - [x] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case
     - For heapsort, see Heap data structure above.
 
-- For curiosity - not required:
+- [x] For curiosity - not required:
      - [x] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
      - [x] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
      - [x] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb

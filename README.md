@@ -601,7 +601,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 - [x] - Merge sort code:
     - [x] Using output array: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c
     - [x] In-place: https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc
-- [x] - Quick sort code: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c
+- [x] - Quick sort code:
+    - [x] http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c
+    - [x] https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c
 
 - [x] Implement:
     - [x] Mergesort: O(n log n) average and worst case

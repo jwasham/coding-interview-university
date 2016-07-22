@@ -591,11 +591,11 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] lecture begins at 35:00: https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [x] lecture begins at 23:50: https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10
 
-- [ ] UC Berkeley:
-    - [ ] CS 61B Lecture 29: Sorting I: https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29
-    - [ ] CS 61B Lecture 30: Sorting II: https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30
-    - [ ] CS 61B Lecture 32: Sorting III: https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C
-    - [ ] CS 61B Lecture 33: Sorting V: https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C
+- [x] UC Berkeley:
+    - [x] CS 61B Lecture 29: Sorting I: https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29
+    - [x] CS 61B Lecture 30: Sorting II: https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30
+    - [x] CS 61B Lecture 32: Sorting III: https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C
+    - [x] CS 61B Lecture 33: Sorting V: https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C
 
 - [x] - Merge sort code:
     - [x] Using output array: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c
@@ -615,6 +615,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
     - [x] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [ ] Randomization: Matrix Multiply, Quicksort: https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [ ] Sorting in Linear Time: https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14
 
 ## Graphs
 
@@ -667,6 +668,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
     Some items are sparse, and I'll be filling them in once I get here.
 
+- [ ] Garbage collection: https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+
 - [ ] Caches
     - LRU cache
 
@@ -682,6 +685,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Recitation R8. NP-Complete Problems: https://www.youtube.com/watch?v=G7mqtB6npfE&index=23&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
     - [ ] Complexity: Approximation Algorithms: https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24
     - [ ] Complexity: Fixed-Parameter Algorithms: https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [ ] Simonson: Approximation Algorithms: https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19
 
 - [ ] Recursion
     -  when it is appropriate to use it
@@ -860,21 +864,22 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 #### Additional books (not suggested by Google but I added because I needed the background knowledge):
 
 - [x] C Programming Language, Vol 2
+    - answers to questions: https://github.com/lekkas/c-algorithms
 
 - [x] C++ Primer Plus, 6th Edition
 
-- [ ] The Unix Programming Environment
+- [x] The Unix Programming Environment
     - http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info
-
-- [ ] Introduction to Algorithms
-    - https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
-    - Half.com is a great resource for textbooks at good prices.
 
 - [ ] Programming Pearls:
     - http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880
 
 - [ ] Algorithms and Programming: Problems and Solutions:
     http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
+
+- [ ] Introduction to Algorithms
+    - https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
+    - Half.com is a great resource for textbooks at good prices.
 
 ## About Google
 
@@ -1140,11 +1145,6 @@ Sit back and enjoy. "netflix and skill" :P
 ## Maybe
 
 http://www.gainlo.co/ - Mock interviewers from big companies
-
-## Code References
-
-For review questions in C book:
-    https://github.com/lekkas/c-algorithms
 
 ## Once You've Got The Job
 

@@ -614,8 +614,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] Radix Sort: http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
     - [x] Radix Sort: https://www.youtube.com/watch?v=xhr26ia4k38
     - [x] Radix Sort, Counting Sort (linear time given constraints): https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] Randomization: Matrix Multiply, Quicksort: https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-    - [ ] Sorting in Linear Time: https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14
+    - [x] Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm: https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [x] Sorting in Linear Time: https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14
 
 ## Graphs
 

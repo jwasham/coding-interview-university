@@ -204,7 +204,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     If some of the lectures are too mathy, you can jump down to the bottom and
     watch the discrete mathematics videos to get the background knowledge.
 
-
 ## Data Structures
 
 - [x] **Arrays: (Implement an automatically resizing vector)**

@@ -1011,7 +1011,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] Augmented Data Structures:
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39
 
-
 - [ ] Geometry, Convex hull:
     - [ ] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
     - [ ] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
@@ -1105,6 +1104,12 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 Sit back and enjoy. "netflix and skill" :P
 
+- [ ] MIT 18.06 Linear Algebra, Spring 2005 (35 videos):
+    - https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8
+
+- [ ] Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory:
+    - https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy
+
 - [ ] Discrete Mathematics (19 videos):
     - https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG
 
@@ -1116,11 +1121,11 @@ Sit back and enjoy. "netflix and skill" :P
     - Skiena lectures from Algorithm Design Manual
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
 
-- [ ] UC Berkeley 61B
+- [ ] UC Berkeley 61B (39 videos):
     - https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C
 
-- [ ] MIT 6.042: Math for CS (25 videos):
-    - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
+- [ ] MIT 6.004: Computation Structures (49 videos):
+    - https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 
 - [ ] MIT 6.006: Intro to Algorithms (47 videos):
     - https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False
@@ -1128,24 +1133,34 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] MIT 6.033: Computer System Engineering (22 videos):
     - https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484
 
+- [ ] MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos):
+    - https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi
+
+- [ ] MIT 6.042J Mathematics for Computer Science, Fall 2010 (25 videos):
+    - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
+
 - [ ] MIT 6.046: Design and Analysis of Algorithms (34 videos):
     - https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
-- [ ] MIT 6.858 Computer Systems Security, Fall 2014 ():
-    - https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
+- [ ] MIT 6.050J Information and Entropy, Spring 2008 ()
+    - https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
 
 - [ ] MIT 6.851: Advanced Data Structures (22 videos):
     - https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1
+
+- [ ] MIT 6.854 (Advanced Algorithms), Spring 2016 (24 videos):
+    - https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c
+
+- [ ] MIT 6.858 Computer Systems Security, Fall 2014 ():
+    - https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
 - [ ] Stanford: Programming Paradigms (17 videos)
     - Course on C and C++
     - https://www.youtube.com/watch?v=jTSvthW34GU&list=PLC0B8B318B7394B6F&nohtml5=False
 
-- [ ] MIT 6.050J Information and Entropy, Spring 2008 ()
-    - https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
-
 - [ ] Introduction to Cryptography:
     - https://www.youtube.com/watch?v=2aHkqB2-46k&feature=youtu.be
+    - more in series (not in order): https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg
 
 ## Maybe
 

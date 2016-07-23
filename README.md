@@ -148,7 +148,6 @@ There are a few books involved, see the bottom.
     - [x] C++: https://www.youtube.com/watch?v=twodd1KFfGk
     - [x] Understanding Compiler Optimization (C++): https://www.youtube.com/watch?v=FnGCDLhaxKU
 
-
 ## The Daily Plan:
 
 Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day.
@@ -200,6 +199,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - Amortized Analysis: https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
     - Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
     - Cheat sheet: http://bigocheatsheet.com/
+
+If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
 
 ## Data Structures
 

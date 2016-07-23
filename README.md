@@ -299,21 +299,26 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - empty: O(1) (linked list and array)
 
 - [x] **Hash table**
-    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html
-    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html
-    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html
-    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html
-    - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables
-    - [x] https://www.youtube.com/watch?v=C4Kc8xzcA68
-    - [x] https://www.coursera.org/learn/data-structures/home/week/3
-    - [x] https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem
-    - [x] distributed hash tables:
-        - https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox
-        - https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables
-    - [x] MIT:
-        - https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
-        - https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-        - https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [x] Videos:
+        - [x] Hashing with Chaining: https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
+        - [x] Table Doubling, Karp-Rabin: https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+        - [x] Open Addressing, Cryptographic Hashing: https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+        - [x] PyCon 2010: The Mighty Dictionary: https://www.youtube.com/watch?v=C4Kc8xzcA68
+        - [x] (Advanced) Randomization: Universal & Perfect Hashing: https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11
+        - [x] (Advanced) Perfect hashing: https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4
+
+    - [x] Online Courses:
+        - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html
+        - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html
+        - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html
+        - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html
+        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables
+        - [x] https://www.coursera.org/learn/data-structures/home/week/3
+        - [x] https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem
+        - [x] distributed hash tables:
+            - https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox
+            - https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables
+
     - [x] implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
@@ -1038,6 +1043,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] van Emde Boas Trees
     - [ ] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
 
+- [ ] Fast Fourier Transform
+    - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
+    - http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
+
 - [ ] Integer Arithmetic, Karatsuba Multiplication: https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 
 - [ ] **Treap**
@@ -1070,10 +1079,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] Bloom Filter
     - https://www.youtube.com/watch?v=-SuTGoFYjZs
     - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
-
-- [ ] Fast Fourier Transform
-    - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
-    - http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
 - [ ] Machine Learning:
     - Why ML?

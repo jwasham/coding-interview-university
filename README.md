@@ -200,7 +200,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
     - Cheat sheet: http://bigocheatsheet.com/
 
-If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
+
+    If some of the lectures are too mathy, you can jump down to the bottom and
+    watch the discrete mathematics videos to get the background knowledge.
+
 
 ## Data Structures
 

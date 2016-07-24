@@ -48,7 +48,7 @@ More about Github flavored markdown: https://guides.github.com/features/masterin
 
 ## Get in a Googley Mood
 
-Print out a "[future Googler](https://github.com/jwasham/project-9894/blob/master/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
 ## Follow me
 
@@ -1088,11 +1088,15 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] Machine Learning:
     - Why ML?
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
+    - [ ] Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow):
+        - https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
     - [x] great course (Stanford): https://www.coursera.org/learn/machine-learning
-    - [ ] Google course on Udacity: https://www.udacity.com/course/deep-learning--ud730
-    - https://www.youtube.com/watch?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal&v=cSKfRcEDGUs&app=desktop
-    - http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
-    - http://www.dataschool.io/
+    - [ ] Google's Deep Learning Nanodegree: https://www.udacity.com/course/deep-learning--ud730
+    - [ ] Google/Kaggle Machine Learning Engineer Nanodegree: https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009
+    - [ ] Self-Driving Car Engineer Nanodegree: https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
+    - [ ] Metis Online Course ($99 for 2 months): http://www.thisismetis.com/explore-data-science
+    - [ ] Practical Guide to implementing Neural Networks in Python (using Theano): http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
+    - Data School: http://www.dataschool.io/
     - [ ] Vector calculus
 
 - [ ] Parallel Programming:

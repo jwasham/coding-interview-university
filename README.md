@@ -347,6 +347,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - binary search using recursion
 
 - [x] **Bitwise operations**
+    - [x] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [x] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [x] words: https://en.wikipedia.org/wiki/Word_(computer_architecture)
         - [x] Good intro:

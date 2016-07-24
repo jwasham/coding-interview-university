@@ -21,9 +21,9 @@ been very successful in my career, but I want to work at Google. I want to progr
 and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
 low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
 
-When I started this I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
+When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
 traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built in to the language, and I didn't know how they worked
+Every data structure I've ever used was built into the language, and I didn't know how they worked
 under the hood at all. I've never had to manage memory, unless a process I was running would give an "out of
 memory" error, and then I'd have to find a workaround. I've used a few multi-dimensional arrays in my life and
 thousands of associative arrays, but I've never created data structures from scratch.
@@ -52,9 +52,9 @@ Print out a "[future Googler](https://github.com/jwasham/project-9894/blob/maste
 
 ## Follow me
 
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Jul/me_circle-1467757502022.jpg)
-
 I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.com/)
+
+![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Jul/book_stack_photo_resized_18-1469302751157.png)
 
 ## About Video Resources
 
@@ -634,22 +634,25 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - adjacency list
     - Familiarize yourself with each representation and its pros & cons
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - If you get a chance, try to study up on fancier algorithms:
-        - Dijkstra's algorithm
-            - https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=16
-            - https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
-        - A*
-            - https://en.wikipedia.org/wiki/A*_search_algorithm
     - When asked a question, look for a graph-based solution first, then move on if none.
 
 - Graphs:
-    - [ ] Graph Algorithms I - Topological Sorting, Prim's Algorithm - Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
-    - [ ] Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
-    - [ ] Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
+    - [x] Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
+    - [x] Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
+    - [x] Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
     - [ ] Graph Alg. IV: Intro to geometric algorithms - Lecture 9: https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9
     - [ ] CS 61B Lecture 27: Graphs: https://www.youtube.com/watch?v=ylWAB6CMYiY&list=PL4BBB74C7D2A1049C&index=27
     - [ ] CS 61B Lecture 28: Weighted Graphs: https://www.youtube.com/watch?v=OiXxhDrFruw&index=11&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [ ] CS 61B 2014 (starting at 58:09): https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489
+    - [ ] CS 61B 2014: Weighted graphs: https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19
     - [ ] Greedy Algorithms: Minimum Spanning Tree: https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
+- If you get a chance, try to study up on fancier algorithms:
+    - [ ] Dijkstra's algorithm
+        - [ ] https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=16
+        - [ ] https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+    - [ ] A*
+        - [ ] https://en.wikipedia.org/wiki/A*_search_algorithm
 
 - Skiena Lectures:
     - [ ] CSE373 2012 - Lecture 11 - Graph Data Structures: https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11

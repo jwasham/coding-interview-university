@@ -638,22 +638,13 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - When asked a question, look for a graph-based solution first, then move on if none.
 
 - Graphs:
-    - [x] Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
-    - [x] Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
-    - [x] Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
-    - [ ] Graph Alg. IV: Intro to geometric algorithms - Lecture 9: https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9
-    - [ ] CS 61B Lecture 27: Graphs: https://www.youtube.com/watch?v=ylWAB6CMYiY&list=PL4BBB74C7D2A1049C&index=27
-    - [ ] CS 61B Lecture 28: Weighted Graphs: https://www.youtube.com/watch?v=OiXxhDrFruw&index=11&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [x] Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
+    - [x] Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
+    - [x] Aduni: Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
+    - [x] Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9: https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9
     - [ ] CS 61B 2014 (starting at 58:09): https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489
     - [ ] CS 61B 2014: Weighted graphs: https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19
     - [ ] Greedy Algorithms: Minimum Spanning Tree: https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-
-- If you get a chance, try to study up on fancier algorithms:
-    - [ ] Dijkstra's algorithm
-        - [ ] https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=16
-        - [ ] https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
-    - [ ] A*
-        - [ ] https://en.wikipedia.org/wiki/A*_search_algorithm
 
 - Skiena Lectures:
     - [ ] CSE373 2012 - Lecture 11 - Graph Data Structures: https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11
@@ -663,11 +654,30 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2): https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [ ] CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3): https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
 
+- Full Coursera Course: Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
+
+- If you get a chance, try to study up on fancier algorithms:
+    - [ ] Dijkstra's algorithm
+        - [ ] https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=16
+        - [ ] https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+    - [ ] A*
+        - [ ] https://en.wikipedia.org/wiki/A*_search_algorithm
+
 - Advanced Graph Processing:
     - [ ] Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27
     - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
 
-- Full Coursera Course: Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
+- I'll implement:
+    - [ ] DFS with adjacency list
+    - [ ] DFS with adjacency matrix
+    - [ ] BFS with adjacency list
+    - [ ] BFS with adjacency matrix
+    - DFS-based algorithms (see Aduni videos above):
+        - [ ] topological sort
+        - [ ] single-source shortest path(Dijkstra)
+        - [ ] count connected components in a graph
+        - [ ] check for cycle
+        - [ ] list strongly connected components
 
 - For Curiosity:
     - [ ] Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
@@ -709,7 +719,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] string searching:
     - [ ] Search pattern in text: https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text
-    - [ ] Karp-Rabin:
+    - [ ] Rabin-Karp:
         https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm
         https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9
     - [ ] Precomputing: https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation

@@ -654,7 +654,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2): https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [ ] CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3): https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
 
-- Full Coursera Course: Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
+- Full Coursera Course:
+    - [ ] Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
 
 - If you get a chance, try to study up on fancier algorithms:
     - [ ] Dijkstra's algorithm
@@ -674,7 +675,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] BFS with adjacency matrix
     - DFS-based algorithms (see Aduni videos above):
         - [ ] topological sort
-        - [ ] single-source shortest path(Dijkstra)
+        - [ ] single-source shortest path (Dijkstra)
         - [ ] count connected components in a graph
         - [ ] check for cycle
         - [ ] list strongly connected components
@@ -690,7 +691,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
     Some items are sparse, and I'll be filling them in once I get here.
 
-- [ ] Dynamic Programming
+- [ ] **Dynamic Programming**
     - [ ] Videos:
         - [x] Simonson: Dynamic Programming 0 (starts at 59:18): https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558
         - [x] Simonson: Dynamic Programming I - Lecture 11: https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
@@ -715,12 +716,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] Global pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment
         - [ ] Local pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment
 
-- [ ] Garbage collection: https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+- [ ] **Garbage collection**
+    - [ ] https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
 
-- [ ] Caches
+- [ ] **Caches**
     - LRU cache
 
-- [ ] NP and NP Complete
+- [ ] **NP and NP Complete**
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
@@ -734,7 +736,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Complexity: Fixed-Parameter Algorithms: https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
     - [ ] Simonson: Approximation Algorithms: https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19
 
-- [ ] Recursion
+- [ ] **Recursion**
     -  when it is appropriate to use it
     - how is tail recursion better than not?
     - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
@@ -742,7 +744,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
         - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
 
-- [ ] string searching:
+- [ ] **String searching**
     - [ ] Search pattern in text: https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text
     - [ ] Rabin-Karp:
         https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm
@@ -750,7 +752,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Precomputing: https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation
     - [ ] Optimization: Implementation and Analysis: https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis
 
-- [ ] Combinatorics (n choose k) & Probability
+- [ ] **Combinatorics (n choose k) & Probability**
     - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
     - [ ] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
     - [ ] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
@@ -762,13 +764,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
     - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
 
-- [ ] Scheduling
+- [ ] **Scheduling**
 
-- [ ] Weighted random sampling
+- [ ] **Weighted random sampling**
 
-- [ ] Implement system routines
+- [ ] **Implement system routines**
 
-- [ ] Design patterns:
+- [ ] **Design patterns**
     - description:
         - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
         - Patterns: https://www.youtube.com/playlist?list=PLF206E906175C7E07
@@ -960,17 +962,13 @@ Take coding challenges every day, as many as you can.
 
 - https://courses.csail.mit.edu/iap/interview/materials.php
 
-The Best:
-- LeetCode: https://leetcode.com/
-- Project Euler: https://projecteuler.net/index.php?section=problems
-- TopCoder: https://www.topcoder.com/
-
-More:
-- HackerRank: https://www.hackerrank.com/
-- Codility: https://codility.com/programmers/
-- InterviewCake: https://www.interviewcake.com/
-- InterviewBit: https://www.interviewbit.com/invite/icjf
-
+    - LeetCode: https://leetcode.com/
+    - Project Euler: https://projecteuler.net/index.php?section=problems
+    - TopCoder: https://www.topcoder.com/
+    - HackerRank: https://www.hackerrank.com/
+    - Codility: https://codility.com/programmers/
+    - InterviewCake: https://www.interviewcake.com/
+    - InterviewBit: https://www.interviewbit.com/invite/icjf
 
 ## Once you're closer to the interview:
 
@@ -1027,10 +1025,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
 
-- [ ] Augmented Data Structures:
+- [ ] **Augmented Data Structures**
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39
 
-- [ ] Geometry, Convex hull:
+- [ ] **Geometry, Convex hull**
     - [ ] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
     - [ ] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
 
@@ -1038,16 +1036,16 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - "These are somewhat of a cult data structure" - Skiena
     - [ ] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
-- [ ] Network Flows:
+- [ ] **Network Flows**
     - [ ] Network Flows: https://www.youtube.com/watch?v=i0q-Irlf4y4&index=5&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
     - [ ] Augmenting Path Algorithms: https://www.youtube.com/watch?v=7QPI3kBIKv4&index=6&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
     - [ ] Network Flow Algorithms: https://www.youtube.com/watch?v=5PR0ExrHO-Q&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=7
 
-- [ ] Linear Programming:
+- [ ] **Linear Programming**
     - [ ] Lecture 13 10/11 Linear Programming: https://www.youtube.com/watch?v=IOQApuleqvg&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=11
     - [ ] Lecture 14 10/16 Linear Programming: https://www.youtube.com/watch?v=vpX0TSAcdJY&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=12
 
-- [ ] **Disjoint Sets:**
+- [ ] **Disjoint Sets**
     - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
     - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
     - [ ] CS 61B Lecture 31: Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
@@ -1058,10 +1056,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
     - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
-- [ ] van Emde Boas Trees
+- [ ] **van Emde Boas Trees**
     - [ ] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
 
-- [ ] Fast Fourier Transform
+- [ ] **Fast Fourier Transform**
     - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
     - http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
@@ -1079,26 +1077,26 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Error Checking:
         - https://www.youtube.com/watch?v=wbH2VxzmoZk
 
-- [ ] Computer Security:
+- [ ] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
-- [ ] Markov text generation:
+- [ ] **Markov text generation**
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through
 
-- [ ] Information theory:
+- [ ] **Information theory**
     - Markov processes:
         - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
         - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
     - https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/symbol-rate-information-theory
     - includes Markov chain
 
-- [ ] Bloom Filter
+- [ ] **Bloom Filter**
     - https://www.youtube.com/watch?v=-SuTGoFYjZs
     - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
 
-- [ ] Machine Learning:
+- [ ] **Machine Learning**
     - Why ML?
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
     - [ ] Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow):
@@ -1112,10 +1110,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - Data School: http://www.dataschool.io/
     - [ ] Vector calculus
 
-- [ ] Parallel Programming:
+- [ ] **Parallel Programming**
     - https://www.coursera.org/learn/parprog1/home/week/1
 
-- [ ] String search algorithms:
+- [ ] **String search algorithms**
     Knuth-Morris-Pratt (KMP):
         - https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
         - https://www.youtube.com/watch?v=2ogqPWJSftE
@@ -1188,6 +1186,10 @@ Sit back and enjoy. "netflix and skill" :P
 ## Maybe
 
 http://www.gainlo.co/ - Mock interviewers from big companies
+
+---
+
+---
 
 ## Once You've Got The Job
 

@@ -640,7 +640,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 - [ ] Skiena Lectures - great intro:
     - [x] CSE373 2012 - Lecture 11 - Graph Data Structures: https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11
     - [x] CSE373 2012 - Lecture 12 - Breadth-First Search: https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12
-    - [ ] CSE373 2012 - Lecture 13 - Graph Algorithms: https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13
+    - [x] CSE373 2012 - Lecture 13 - Graph Algorithms: https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13
     - [ ] CSE373 2012 - Lecture 14 - Graph Algorithms (con't): https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [ ] CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2): https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
     - [ ] CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3): https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
@@ -675,6 +675,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [ ] count connected components in a graph
         - [ ] check for cycle
         - [ ] list strongly connected components
+        - [ ] check for bipartite graph
 
 - For Curiosity:
     - [ ] Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
@@ -919,10 +920,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] https://www.youtube.com/watch?v=BNHR6IQJGZs
     - [ ] https://www.google.com/insidesearch/howsearchworks/
     - [ ] Series:
-        - https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
-        - https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
-        - https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
-        - https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
+        - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
+        - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
+        - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
+        - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
 ## Articles
 

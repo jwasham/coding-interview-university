@@ -875,6 +875,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Answers:
         - http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
         - http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/
+    - Errata:
+        - http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata
 
     Once you've understood everything in the daily plan, and read and done exercises from the the books above,
     read and do exercises from the books below. Then move to coding challenges (further down below)

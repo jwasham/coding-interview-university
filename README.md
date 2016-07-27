@@ -664,10 +664,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [ ] A*
         - [ ] https://en.wikipedia.org/wiki/A*_search_algorithm
 
-- Advanced Graph Processing:
-    - [ ] Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27
-    - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
-
 - I'll implement:
     - [ ] DFS with adjacency list
     - [ ] DFS with adjacency matrix
@@ -691,6 +687,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
     Some items are sparse, and I'll be filling them in once I get here.
 
+- [ ] **Recursion**
+    -  when it is appropriate to use it
+    - how is tail recursion better than not?
+    - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
+    - [ ] Stanford lectures on recursion:
+        - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
+        - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
+
 - [ ] **Dynamic Programming**
     - [ ] Videos:
         - [ ] CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
@@ -704,9 +708,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] 6.006: Dynamic Programming II: Text Justification, Blackjack: https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20
         - [ ] 6.006: DP III: Parenthesization, Edit Distance, Knapsack: https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21
         - [ ] 6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.: https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-        - [ ] 6.046: Dynamic Programming & Advanced DP: https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-        - [ ] 6.046: Dynamic Programming: All-Pairs Shortest Paths: https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15
-        - [ ] 6.046: Dynamic Programming (student recitation): https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12
 
     - Coursera:
         - [ ] The RNA secondary structure problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem
@@ -717,11 +718,17 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] Global pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment
         - [ ] Local pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment
 
-- [ ] **Garbage collection**
-    - [ ] https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
-
-- [ ] **Caches**
-    - LRU cache
+- [ ] **Combinatorics (n choose k) & Probability**
+    - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
+    - [ ] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
+    - [ ] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
+    - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Expectation II: https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
 
 - [ ] **NP and NP Complete**
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
@@ -737,13 +744,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Complexity: Fixed-Parameter Algorithms: https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
     - [ ] Simonson: Approximation Algorithms: https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19
 
-- [ ] **Recursion**
-    -  when it is appropriate to use it
-    - how is tail recursion better than not?
-    - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
-    - [ ] Stanford lectures on recursion:
-        - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
-        - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
+- [ ] **Garbage collection**
+    - [ ] https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+
+- [ ] **Caches**
+    - LRU cache
 
 - [ ] **String searching & manipulations**
     - [ ] Search pattern in text: https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text
@@ -761,23 +766,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Coursera: Algorithms on Strings:
         - https://www.coursera.org/learn/algorithms-on-strings/home/week/1
 
-- [ ] **Combinatorics (n choose k) & Probability**
-    - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
-    - [ ] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
-    - [ ] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
-    - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Expectation II: https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
-
 - [ ] **Scheduling**
     - in an OS, how it works
 
 - [ ] **Implement system routines**
-    - not sure what is mean by this
+    - not sure what is mean by this, like rewrite a file/stream handler?
 
 - [ ] **Design patterns**
     - description:
@@ -1124,6 +1117,24 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Parallel Programming**
     - https://www.coursera.org/learn/parprog1/home/week/1
+
+--
+
+## Additional Learning
+
+    I added these to reinforce some ideas already presented above, but didn't want to include them
+    above because it's just too much. It's easy to overdo it on a subject.
+    You want to get hired in this century, right?
+
+- [ ] **More Dynamic Programming**
+    - [ ] 6.046: Dynamic Programming & Advanced DP: https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [ ] 6.046: Dynamic Programming: All-Pairs Shortest Paths: https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15
+    - [ ] 6.046: Dynamic Programming (student recitation): https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12
+
+- [ ] **Advanced Graph Processing**
+    - [ ] Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27
+    - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
+
 
 ## Videos
 

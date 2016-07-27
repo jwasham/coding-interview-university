@@ -677,11 +677,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
-- For Curiosity:
-    - [ ] Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
-        - covers Fibonacci heap, a more complicated but more efficient heap than binary heap
-    - [ ] Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
-
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
 ## Even More Knowledge
@@ -767,12 +762,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Coursera: Algorithms on Strings:
         - https://www.coursera.org/learn/algorithms-on-strings/home/week/1
 
-- [ ] **Scheduling**
-    - in an OS, how it works
-
-- [ ] **Implement system routines**
-    - not sure what is mean by this, like rewrite a file/stream handler?
-
 - [ ] **Design patterns**
     - description:
         - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
@@ -787,9 +776,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] factory
 
 - [ ] **Operating Systems (25 videos):**
-    - https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
+    - Computer Science 162: https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     - https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
-    Covers:
+    - Covers:
         - Processes, Threads, Concurrency issues
             - difference between processes and threads
             - processes
@@ -809,8 +798,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Context switching
             - How context switching is initiated by the operating system and underlying hardware
     - [ ] threads in C++:
-        https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
+        - https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
         - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
+    - [ ] concurrency in Python:
+        - https://www.youtube.com/watch?v=MCs5OvhV9S4
+        - https://www.youtube.com/watch?v=Obt-vMVdM8s
 
 - [ ] **Data handling:**
     - see scalability options below
@@ -864,6 +856,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - what are mock objects
     - what is integration testing
     - what is dependency injection
+
+- [ ] **Scheduling**
+    - in an OS, how it works
+
+- [ ] **Implement system routines**
+    - understand what lies beneath the programming APIs you use
+    - can you implement them?
 
 ## Books
 
@@ -1136,6 +1135,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27
     - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
 
+- [ ] Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
+    - covers Fibonacci heap, a more complicated but more efficient heap than binary heap
+- [ ] Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
 
 ## Videos
 

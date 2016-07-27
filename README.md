@@ -693,6 +693,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] **Dynamic Programming**
     - [ ] Videos:
+        - [ ] CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
+        - [ ] CSE373 2012 - Lecture 20 - Edit Distance: https://www.youtube.com/watch?v=IsmMhMdyeGY&index=20&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+        - [ ] CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://www.youtube.com/watch?v=o0V9eYF4UI8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=21
+        - [ ] CSE373 2012 - Lecture 22 - Applications of Dynamic Programming: https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22
         - [x] Simonson: Dynamic Programming 0 (starts at 59:18): https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558
         - [x] Simonson: Dynamic Programming I - Lecture 11: https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
         - [ ] Simonson: Dynamic programming II - Lecture 12: https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12
@@ -703,10 +707,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] 6.046: Dynamic Programming & Advanced DP: https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
         - [ ] 6.046: Dynamic Programming: All-Pairs Shortest Paths: https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15
         - [ ] 6.046: Dynamic Programming (student recitation): https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12
-        - [ ] CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
-        - [ ] CSE373 2012 - Lecture 20 - Edit Distance: https://www.youtube.com/watch?v=IsmMhMdyeGY&index=20&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-        - [ ] CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://www.youtube.com/watch?v=o0V9eYF4UI8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=21
-        - [ ] CSE373 2012 - Lecture 22 - Applications of Dynamic Programming: https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22
+
     - Coursera:
         - [ ] The RNA secondary structure problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem
         - [ ] A dynamic programming algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm
@@ -744,13 +745,21 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
         - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
 
-- [ ] **String searching**
+- [ ] **String searching & manipulations**
     - [ ] Search pattern in text: https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text
     - [ ] Rabin-Karp:
         https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm
         https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9
     - [ ] Precomputing: https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation
     - [ ] Optimization: Implementation and Analysis: https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis
+    - [ ] Knuth-Morris-Pratt (KMP):
+        - https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
+        - https://www.youtube.com/watch?v=2ogqPWJSftE
+    - [ ] Boyer–Moore string search algorithm
+        - https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
+        - https://www.youtube.com/watch?v=xYBM0_dChRE
+    - [ ] Coursera: Algorithms on Strings:
+        - https://www.coursera.org/learn/algorithms-on-strings/home/week/1
 
 - [ ] **Combinatorics (n choose k) & Probability**
     - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
@@ -765,10 +774,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
 
 - [ ] **Scheduling**
-
-- [ ] **Weighted random sampling**
+    - in an OS, how it works
 
 - [ ] **Implement system routines**
+    - not sure what is mean by this
 
 - [ ] **Design patterns**
     - description:
@@ -1048,7 +1057,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Lecture 13 10/11 Linear Programming: https://www.youtube.com/watch?v=IOQApuleqvg&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=11
     - [ ] Lecture 14 10/16 Linear Programming: https://www.youtube.com/watch?v=vpX0TSAcdJY&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=12
 
-- [ ] **Disjoint Sets**
+- [ ] **Disjoint Sets & Union Find**
     - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
     - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
     - [ ] CS 61B Lecture 31: Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
@@ -1115,14 +1124,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Parallel Programming**
     - https://www.coursera.org/learn/parprog1/home/week/1
-
-- [ ] **String search algorithms**
-    Knuth-Morris-Pratt (KMP):
-        - https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
-        - https://www.youtube.com/watch?v=2ogqPWJSftE
-    Boyer–Moore string search algorithm
-        - https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
-        - https://www.youtube.com/watch?v=xYBM0_dChRE
 
 ## Videos
 
@@ -1203,12 +1204,6 @@ http://www.gainlo.co/ - Mock interviewers from big companies
     - [ ] Code Complete
     - [ ] How to Prove It: A Structured Approach, 2nd Edition
     - [ ] Unix Power Tools, Third Edition
-
-- [x] C++ Seasoning:
-    - https://www.youtube.com/watch?v=qH6sSOr-yk8
-
-- [x] Better Code: Data Structures:
-    - https://www.youtube.com/watch?v=sWgDk-o-6ZE
 
 - [ ] C++ Talks at CPPCon:
     - https://www.youtube.com/watch?v=hEx5DNLWGgA&index=2&list=PLHTh1InhhwT75gykhs7pqcR_uSiG601oh

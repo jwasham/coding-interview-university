@@ -114,6 +114,7 @@ There are a few books involved, see the bottom.
     (first video only - interesting but not required) https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1
 
 - [x] **C**
+    - [x] [ANSI C Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf)
     - [x] K&R C book (ANSI C)
     - [x] Clang: https://www.youtube.com/watch?v=U3zCxnj2w8M
     - [x] GDB:
@@ -121,6 +122,8 @@ There are a few books involved, see the bottom.
         - https://www.youtube.com/watch?v=y5JmQItfFck
       - Valgrind: https://www.youtube.com/watch?v=fvTsFjDuag8
 - [x] **C++**
+    - [x] [C++ Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/Cpp_reference.pdf)
+    - [x] [STL Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
     - [x] basics
     - [x] pointers
     - [x] functions
@@ -139,6 +142,7 @@ There are a few books involved, see the bottom.
     - [x] review of C++ concepts: https://www.youtube.com/watch?v=Rub-JsjMhWY
 
 - [x] **Python**
+    - [x] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
     - I've already use Python quite a bit. This is just for review.
     - [x] https://www.youtube.com/watch?v=N4mEzFDjqtA
 

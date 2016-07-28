@@ -628,6 +628,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 ## Graphs
 
+Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+
 - Notes from Yegge:
     - There are three basic ways to represent a graph in memory:
         - objects and pointers
@@ -637,15 +639,20 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
-- [ ] Skiena Lectures - great intro:
+- [x] Skiena Lectures - great intro:
     - [x] CSE373 2012 - Lecture 11 - Graph Data Structures: https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11
     - [x] CSE373 2012 - Lecture 12 - Breadth-First Search: https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12
     - [x] CSE373 2012 - Lecture 13 - Graph Algorithms: https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13
-    - [ ] CSE373 2012 - Lecture 14 - Graph Algorithms (con't): https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2): https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3): https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [x] CSE373 2012 - Lecture 14 - Graph Algorithms (con't): https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [x] CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2): https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+    - [x] CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3): https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
 
 - [x] Graphs (review and more):
+
+    - [ ] 6.006 Single-Source Shortest Paths Problem: https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [ ] 6.006 Dijkstra: https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [ ] 6.006 Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
+    - [ ] 6.006 Speeding Up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18
     - [x] Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
     - [x] Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
     - [x] Aduni: Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
@@ -655,14 +662,14 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] Greedy Algorithms: Minimum Spanning Tree: https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - Full Coursera Course:
-    - [ ] Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
+    - [x] Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
 
-- If you get a chance, try to study up on fancier algorithms:
-    - [ ] Dijkstra's algorithm
-        - [ ] https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=16
-        - [ ] https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+- Yegge: If you get a chance, try to study up on fancier algorithms:
+    - [x] Dijkstra's algorithm - see above - 6.006
     - [ ] A*
         - [ ] https://en.wikipedia.org/wiki/A*_search_algorithm
+        - [ ] A* Pathfinding Tutorial: https://www.youtube.com/watch?v=KNXfSOx4eEE
+        - [ ] A* Algorithm - A Quick Guide to the A* Algorithm: https://www.youtube.com/watch?v=eTx6HQ9Veas
 
 - I'll implement:
     - [ ] DFS with adjacency list
@@ -942,6 +949,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
 - http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
 - http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
+- http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
 
 ## Papers:
 
@@ -1134,10 +1142,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **Advanced Graph Processing**
     - [ ] Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27
     - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
-
-- [ ] Speeding up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E
-    - covers Fibonacci heap, a more complicated but more efficient heap than binary heap
-- [ ] Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
 
 ## Videos
 

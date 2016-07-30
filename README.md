@@ -653,10 +653,10 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - [x] Graphs (review and more):
 
-    - [ ] 6.006 Single-Source Shortest Paths Problem: https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] 6.006 Dijkstra: https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] 6.006 Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
-    - [ ] 6.006 Speeding Up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18
+    - [x] 6.006 Single-Source Shortest Paths Problem: https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [x] 6.006 Dijkstra: https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [x] 6.006 Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
+    - [x] 6.006 Speeding Up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18
     - [x] Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
     - [x] Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
     - [x] Aduni: Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
@@ -670,19 +670,19 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - Yegge: If you get a chance, try to study up on fancier algorithms:
     - [x] Dijkstra's algorithm - see above - 6.006
-    - [ ] A*
-        - [ ] https://en.wikipedia.org/wiki/A*_search_algorithm
-        - [ ] A* Pathfinding Tutorial: https://www.youtube.com/watch?v=KNXfSOx4eEE
-        - [ ] A* Algorithm - A Quick Guide to the A* Algorithm: https://www.youtube.com/watch?v=eTx6HQ9Veas
+    - [x] A*
+        - [x] https://en.wikipedia.org/wiki/A*_search_algorithm
+        - [x] A* Pathfinding Tutorial: https://www.youtube.com/watch?v=KNXfSOx4eEE
+        - [x] A* Pathfinding (E01: algorithm explanation): https://www.youtube.com/watch?v=-L-WgKMFuhE
 
 - I'll implement:
     - [ ] DFS with adjacency list
     - [ ] DFS with adjacency matrix
     - [ ] BFS with adjacency list
     - [ ] BFS with adjacency matrix
+    - [x] single-source shortest path (Dijkstra)
     - DFS-based algorithms (see Aduni videos above):
         - [ ] topological sort
-        - [ ] single-source shortest path (Dijkstra)
         - [ ] count connected components in a graph
         - [ ] check for cycle
         - [ ] list strongly connected components

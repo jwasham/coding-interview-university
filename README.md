@@ -94,12 +94,14 @@ from public sources and replacing the online course videos over time. I like usi
 
 This short section were prerequisites/interesting info I wanted to learn before getting started on the daily plan.
 
-You need to know C, C++, or Java to do the coding part of the interview.
-They will sometimes make an exception and let you use Python or some other language, but the language
-must be mainstream and allow you write your code low-level enough to solve the problems.
-You'll see some C, C++ learning included below.
+You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+    - C++
+    - Java
+    - Python
+You need to be very comfortable in the language, and be knowledgeable. Read more (rescued from the lost web):
+    - https://web.archive.org/web/20160204193730/http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-There are a few books involved, see the bottom.
+You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
 - [x] **How computers process a program:**
     - [x] https://www.youtube.com/watch?v=42KTvGYQYnA
@@ -678,7 +680,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 - I'll implement:
     - [x] DFS with adjacency list (recursive)
     - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
+    - [x] BFS with adjacency list
     - [ ] BFS with adjacency matrix
     - [x] single-source shortest path (Dijkstra)
     - DFS-based algorithms (see Aduni videos above):
@@ -937,39 +939,40 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Articles
 
-- https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
-- http://highscalability.com/blog/2016/4/4/how-to-remove-duplicates-in-a-large-dataset-reducing-memory.html
-- http://highscalability.com/blog/2016/3/23/what-does-etsys-architecture-look-like-today.html
-- http://highscalability.com/blog/2016/3/21/to-compress-or-not-to-compress-that-was-ubers-question.html
-- http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
-- http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
-- http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
-- http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
-- http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
-- http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
-- http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
-- http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
-- http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
-- http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
-- http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
-- http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
-- http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
+- [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
+- [ ] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
+- [ ] http://highscalability.com/blog/2016/4/4/how-to-remove-duplicates-in-a-large-dataset-reducing-memory.html
+- [ ] http://highscalability.com/blog/2016/3/23/what-does-etsys-architecture-look-like-today.html
+- [ ] http://highscalability.com/blog/2016/3/21/to-compress-or-not-to-compress-that-was-ubers-question.html
+- [ ] http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
+- [ ] http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
+- [ ] http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
+- [ ] http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
+- [ ] http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
+- [ ] http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
+- [ ] http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
+- [ ] http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
+- [ ] http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
+- [ ] http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
+- [ ] http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
+- [ ] http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
+- [ ] http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
 
 ## Papers:
 
-Computing Weak Consistency in Polynomial Time
+- [ ] Computing Weak Consistency in Polynomial Time
     - http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
 
-How Developers Search for Code: A Case Study
+- [ ] How Developers Search for Code: A Case Study
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
 
-Borg, Omega, and Kubernetes
+- [ ] Borg, Omega, and Kubernetes
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
 
-Continuous Pipelines at Google
+- [ ] Continuous Pipelines at Google
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
 
-AddressSanitizer: A Fast Address Sanity Checker
+- [ ] AddressSanitizer: A Fast Address Sanity Checker
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
 
 ## Coding exercises/challenges:

@@ -676,14 +676,14 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [x] A* Pathfinding (E01: algorithm explanation): https://www.youtube.com/watch?v=-L-WgKMFuhE
 
 - I'll implement:
-    - [ ] DFS with adjacency list
-    - [ ] DFS with adjacency matrix
+    - [x] DFS with adjacency list (recursive)
+    - [ ] DFS with adjacency matrix (iterative with stack)
     - [ ] BFS with adjacency list
     - [ ] BFS with adjacency matrix
     - [x] single-source shortest path (Dijkstra)
     - DFS-based algorithms (see Aduni videos above):
         - [ ] topological sort
-        - [ ] count connected components in a graph
+        - [x] count connected components in a graph
         - [ ] check for cycle
         - [ ] list strongly connected components
         - [ ] check for bipartite graph

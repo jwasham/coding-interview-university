@@ -684,9 +684,9 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] BFS with adjacency matrix
     - [x] single-source shortest path (Dijkstra)
     - DFS-based algorithms (see Aduni videos above):
+        - [x] check for cycle (needed for topological sort, since we'll check for cycle before starting)
         - [ ] topological sort
         - [x] count connected components in a graph
-        - [ ] check for cycle
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 

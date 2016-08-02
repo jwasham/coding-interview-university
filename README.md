@@ -990,6 +990,8 @@ Take coding challenges every day, as many as you can.
     - InterviewCake: https://www.interviewcake.com/
     - InterviewBit: https://www.interviewbit.com/invite/icjf
 
+    - Exercises for getting better at a given language: http://exercism.io/languages
+
 ## Once you're closer to the interview:
 
 - [ ] Cracking The Coding Interview Set 2:

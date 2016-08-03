@@ -701,28 +701,23 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     Some items are sparse, and I'll be filling them in once I get here.
 
 - [ ] **Recursion**
-    -  when it is appropriate to use it
+    - when it is appropriate to use it
     - how is tail recursion better than not?
-    - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
     - [ ] Stanford lectures on recursion:
         - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
         - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
+    - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
 
 - [ ] **Dynamic Programming**
     - [ ] Videos:
-        - [ ] CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
-        - [ ] CSE373 2012 - Lecture 20 - Edit Distance: https://www.youtube.com/watch?v=IsmMhMdyeGY&index=20&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-        - [ ] CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://www.youtube.com/watch?v=o0V9eYF4UI8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=21
-        - [ ] CSE373 2012 - Lecture 22 - Applications of Dynamic Programming: https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22
+        - [ ] Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
+        - [ ] Skiena: CSE373 2012 - Lecture 20 - Edit Distance: https://www.youtube.com/watch?v=IsmMhMdyeGY&index=20&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
+        - [ ] Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://www.youtube.com/watch?v=o0V9eYF4UI8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=21
+        - [ ] Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming: https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22
         - [x] Simonson: Dynamic Programming 0 (starts at 59:18): https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558
         - [x] Simonson: Dynamic Programming I - Lecture 11: https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
         - [ ] Simonson: Dynamic programming II - Lecture 12: https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12
-        - [x] 6.006: Dynamic Programming I: Fibonacci, Shortest Paths: https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19
-        - [x] 6.006: Dynamic Programming II: Text Justification, Blackjack: https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20
-        - [ ] 6.006: DP III: Parenthesization, Edit Distance, Knapsack: https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21
-        - [ ] 6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.: https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-
-    - Coursera:
+    - [ ] Coursera:
         - [ ] The RNA secondary structure problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem
         - [ ] A dynamic programming algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm
         - [ ] Illustrating the DP algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm
@@ -734,7 +729,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] **Combinatorics (n choose k) & Probability**
     - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
     - [ ] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
-    - [ ] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
+    - [x] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
     - [ ] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
     - [ ] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
     - [ ] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
@@ -762,7 +757,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
 
 - [ ] **Caches**
-    - LRU cache
+    - [ ] LRU cache:
+        - [ ] The Magic of LRU Cache (100 Days of Google Dev): https://www.youtube.com/watch?v=R5ON3iwx78M
+    - [ ] CPU cache:
+        - [ ] MIT 6.004 L15: The Memory Hierarchy: https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24
+        - [ ] MIT 6.004 L16: Cache Issues: https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 
 - [ ] **String searching & manipulations**
     - [ ] Search pattern in text: https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text
@@ -819,14 +818,18 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
         - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
     - [ ] concurrency in Python:
-        - https://www.youtube.com/watch?v=MCs5OvhV9S4
-        - https://www.youtube.com/watch?v=Obt-vMVdM8s
+        - [ ] Python Threads: https://www.youtube.com/watch?v=Bs7vPNbB9JM
+        - [ ] Understanding the Python GIL: https://www.youtube.com/watch?v=Obt-vMVdM8s
+        - [ ] David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015: https://www.youtube.com/watch?v=MCs5OvhV9S4
+        - [ ] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
 
-- [ ] **Data handling:**
-    - see scalability options below
+- [ ] **Scale & Data Handling:**
+    - see **Scalability** section below and **Papers**
     - Distill large data sets to single values
     - Transform one data set to another
     - Handling obscenely large amounts of data
+    - [ ] https://www.youtube.com/watch?v=9nWyWwY2Onc
+    - [ ] https://www.youtube.com/watch?v=H4vMcD7zKM0
 
 - [ ] **System design**
     - https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
@@ -837,7 +840,28 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - simplicity and robustness
     - tradeoffs
     - performance analysis and optimization
-
+    - Lecture Videos - can skip through some if you already have a good OO background
+        - [ ] Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
+        - [ ] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas
+        - [ ] Chapter 2 (Part 2) - Inheritance, polymorphism and review of key Java concepts: https://www.youtube.com/watch?v=NSJ0zNQ2Ilk
+        - [ ] Chapter 3 (Part 1) - Reuse, Frameworks, and Basic Client-Server Concepts: https://www.youtube.com/watch?v=H7kLteC0vJY
+        - [ ] Chapter 3 (Part 2) - Client-Server Architecture, Network Concepts, and Networking in Java: https://www.youtube.com/watch?v=0W4iYsHjhlY
+        - [ ] Chapter 4 (Part 1) - Simplechat and Requirements: https://www.youtube.com/watch?v=_c-lYobWpjc 
+        - [ ] Chapter 4 (Part 2) - Developing Requirements: https://www.youtube.com/watch?v=JDbZa5q4NzM
+        - [ ] Chapter 5 (Part 1) - Class Diagrams: https://www.youtube.com/watch?v=_c-lYobWpjc
+        - [ ] Chapter 5 (Part 2) - Aggregation, OCL, Genealogy Example, Process for Developing Diagrams: https://www.youtube.com/watch?v=ozHk4LEaBJs
+        - [ ] Chapter 5 (Part 3) - Developing a Class Diagram for the Bank Account Management System: https://www.youtube.com/watch?v=Kg1hL-etRwE
+        - [ ] Chapter 6 (Part 1) - Patterns: https://www.youtube.com/watch?v=LAP2A80Ajrg
+        - [ ] Chapter 6 (Part 2) - General Hierarchy, Player-Role, Singleton, Observer, Delegation: https://www.youtube.com/watch?v=U8-PGsjvZc4
+        - [ ] Chapter 6 (Part 3) - Adapter, Facade, Read-Only Interface, Proxy: https://www.youtube.com/watch?v=7sduBHuex4c
+        - [ ] Chapter 7 (Part 1) - Users, Use Cases, User Interface Design: https://www.youtube.com/watch?v=zoANpUOLCn0
+        - [ ] Chapter 7 (Part 2) - Evaluating a UI, Implementing a UI in Java: https://www.youtube.com/watch?v=Ip18LJdy6UY
+        - [ ] Chapter 8 - State and Activity Diagrams: https://www.youtube.com/watch?v=5IQgKtRuyiY
+        - [ ] Chapter 9 (Part 1) - Software Architecture and Design: https://www.youtube.com/watch?v=FMKv8Vozf5c
+        - [ ] Chapter 9 (Part 2) - Design Principles, Software Architecture: https://www.youtube.com/watch?v=XQnytAeZrWE
+        - [ ] Chapter 9 (Part 3) - Pipe-and-Filter Architecture and Design Documents: https://www.youtube.com/watch?v=ZmsUizg6gPY
+        - [ ] Chapter 10 and 11 - Testing process, Inspection, Process Models, Cost Estimation, Team Building: https://www.youtube.com/watch?v=L8x3OuZcEsc
+ 
 - [ ] **Familiarize yourself with a unix-based code editor: emacs & vi(m)**
     - suggested by Yegge, from an old Amazon recruiting post
     - vi(m):
@@ -942,7 +966,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
         - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
-## Articles
+## Scalability Articles
 
 - [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
 - [ ] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
@@ -965,8 +989,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Papers:
 
-- [ ] Computing Weak Consistency in Polynomial Time
-    - http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
+- [ ] The Google File System: 
+    - http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
+    
+- [ ] MapReduce: Simplified Data Processing on Large Clusters:
+    - http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+
+- [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems
+    - http://download.tensorflow.org/paper/whitepaper2015.pdf 
 
 - [ ] How Developers Search for Code: A Case Study
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
@@ -979,11 +1009,20 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] AddressSanitizer: A Fast Address Sanity Checker
     - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
-
+    
+- [ ] Computing Weak Consistency in Polynomial Time
+    - http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
+    
 ## Coding exercises/challenges:
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
+
+- How to Find a Solution: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/
+- How to Dissect a Topcoder Problem Statement: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/ 
+- Mathematics for Topcoders: https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/
+- Dynamic Programming – From Novice to Advanced: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+
 
 - https://courses.csail.mit.edu/iap/interview/materials.php
 
@@ -1075,7 +1114,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **Disjoint Sets & Union Find**
     - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
     - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
-    - [ ] CS 61B Lecture 31: Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
+    - [ ] CS 61B Lecture 31: 5Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
     - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
     - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
@@ -1088,7 +1127,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Fast Fourier Transform**
     - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
-    - http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
+    - [ ] http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
 - [ ] Integer Arithmetic, Karatsuba Multiplication: https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 
@@ -1128,6 +1167,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
     - [ ] Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow):
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
+    - [ ] Tensorflow: https://www.youtube.com/watch?v=oZikw5k_2FM
     - [x] great course (Stanford): https://www.coursera.org/learn/machine-learning
     - [ ] Google's Deep Learning Nanodegree: https://www.udacity.com/course/deep-learning--ud730
     - [ ] Google/Kaggle Machine Learning Engineer Nanodegree: https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009
@@ -1139,6 +1179,17 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Parallel Programming**
     - https://www.coursera.org/learn/parprog1/home/week/1
+    
+- [ ] Cryptography (see videos below)
+
+- [ ] Entropy (see videos below)
+
+- [ ] Discrete math (see videos below)
+
+- [ ] Go:
+    - [ ] A Tour of Go: https://www.youtube.com/watch?v=ytEkHepK08c
+    - [ ] Go Programming: https://www.youtube.com/watch?v=CF9S4QZuV30
+    - [ ] Why Learn Go?: https://www.youtube.com/watch?v=FTl0tl9BGdc
 
 --
 
@@ -1149,6 +1200,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     You want to get hired in this century, right?
 
 - [ ] **More Dynamic Programming**
+    - [x] 6.006: Dynamic Programming I: Fibonacci, Shortest Paths: https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19
+    - [x] 6.006: Dynamic Programming II: Text Justification, Blackjack: https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20
+    - [ ] 6.006: DP III: Parenthesization, Edit Distance, Knapsack: https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21
+    - [ ] 6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.: https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
     - [ ] 6.046: Dynamic Programming & Advanced DP: https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
     - [ ] 6.046: Dynamic Programming: All-Pairs Shortest Paths: https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15
     - [ ] 6.046: Dynamic Programming (student recitation): https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12
@@ -1169,10 +1224,6 @@ Sit back and enjoy. "netflix and skill" :P
 
 - [ ] Discrete Mathematics (19 videos):
     - https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG
-
-- [ ] Scalability:
-    - https://www.youtube.com/watch?v=9nWyWwY2Onc
-    - https://www.youtube.com/watch?v=H4vMcD7zKM0
 
 - [ ] CSE373 - Analysis of Algorithms (25 videos):
     - Skiena lectures from Algorithm Design Manual

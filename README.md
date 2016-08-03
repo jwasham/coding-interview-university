@@ -666,6 +666,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [x] CS 61B 2014 (starting at 58:09): https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489
     - [x] CS 61B 2014: Weighted graphs: https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19
     - [x] Greedy Algorithms: Minimum Spanning Tree: https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [x] Strongly Connected Components Kosaraju's Algorithm Graph Algorithm: https://www.youtube.com/watch?v=RpgcYiky7uw
 
 - Full Coursera Course:
     - [x] Algorithms on Graphs: https://www.coursera.org/learn/algorithms-on-graphs/home/welcome
@@ -679,16 +680,19 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - I'll implement:
     - [x] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
+    - [x] DFS with adjacency list (iterative with stack)
+    - [x] DFS with adjacency matrix (recursive)
+    - [x] DFS with adjacency matrix (iterative with stack)
     - [x] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+    - [x] BFS with adjacency matrix
     - [x] single-source shortest path (Dijkstra)
+    - [x] minimum spanning tree
     - DFS-based algorithms (see Aduni videos above):
         - [x] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
+        - [x] topological sort
         - [x] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+        - [x] list strongly connected components
+        - [x] check for bipartite graph
 
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
@@ -730,6 +734,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] **Combinatorics (n choose k) & Probability**
     - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
     - [ ] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
+    - [ ] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
     - [ ] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
     - [ ] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
     - [ ] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B

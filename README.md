@@ -700,14 +700,17 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
     Some items are sparse, and I'll be filling them in once I get here.
 
-- [ ] **Recursion**
+- [x] **Recursion**
+    - [x] Stanford lectures on recursion & backtracking:
+        - [x] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
+        - [x] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
+        - [x] https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69
+        - [x] https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11
     - when it is appropriate to use it
     - how is tail recursion better than not?
-    - [ ] Stanford lectures on recursion:
-        - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
-        - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
-    - [ ] Short Series on Recurrence Relations: https://www.youtube.com/playlist?list=PLSVu1-lON6LybCHQs8Io_EhyrEQ4b1xAF
-
+        - [x] https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad
+        - [x] https://www.youtube.com/watch?v=L1jjXGfxozc
+ 
 - [ ] **Dynamic Programming**
     - [ ] Videos:
         - [ ] Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
@@ -754,7 +757,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Simonson: Approximation Algorithms: https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19
 
 - [ ] **Garbage collection**
-    - [ ] https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+    - [ ] Computer Science 61B - 2014-04-30: Garbage collection; Augmenting data str: https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+    - [ ] https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff
 
 - [ ] **Caches**
     - [ ] LRU cache:

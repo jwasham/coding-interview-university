@@ -713,13 +713,18 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
  
 - [ ] **Dynamic Programming**
     - [ ] Videos:
-        - [ ] Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://www.youtube.com/watch?v=Qc2ieXRgR0k&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=19
-        - [ ] Skiena: CSE373 2012 - Lecture 20 - Edit Distance: https://www.youtube.com/watch?v=IsmMhMdyeGY&index=20&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-        - [ ] Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://www.youtube.com/watch?v=o0V9eYF4UI8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=21
+        - [x] Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718
+        - [x] Skiena: CSE373 2012 - Lecture 20 - Edit Distance: https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749
+        - [ ] Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406
         - [ ] Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming: https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22
         - [x] Simonson: Dynamic Programming 0 (starts at 59:18): https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558
         - [x] Simonson: Dynamic Programming I - Lecture 11: https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
         - [ ] Simonson: Dynamic programming II - Lecture 12: https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12
+        - [ ] Dynamic Programming for Programming Competitions: https://www.youtube.com/watch?v=Ad0DKl7HUwI
+        - [ ] List of individual DP problems (each is short):
+            https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+    - [ ] Lecture notes: 
+        - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming
     - [ ] Coursera:
         - [ ] The RNA secondary structure problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem
         - [ ] A dynamic programming algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm

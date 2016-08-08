@@ -1104,6 +1104,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
 
+- [ ] **Compression**
+    - [ ] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
+
 - [ ] **Augmented Data Structures**
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39
 

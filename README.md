@@ -698,8 +698,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Even More Knowledge
 
-    Some items are sparse, and I'll be filling them in once I get here.
-
 - [x] **Recursion**
     - [x] Stanford lectures on recursion & backtracking:
         - [x] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
@@ -737,11 +735,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Local pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment
 
 - [ ] **Combinatorics (n choose k) & Probability**
+    - [x] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
     - [x] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
     - [x] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
-    - [x] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
-    - [ ] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
+    - [x] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
+    - [x] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
     - [ ] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
     - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
     - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B

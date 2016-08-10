@@ -1302,29 +1302,6 @@ http://www.gainlo.co/ - Mock interviewers from big companies
 
 ## Once You've Got The Job
 
-    This is mainly for me.
+Keep learning.
 
-- [ ] Books:
-    - [ ] Clean Code
-    - [ ] Code Complete
-    - [ ] How to Prove It: A Structured Approach, 2nd Edition
-    - [ ] Unix Power Tools, Third Edition
-
-- [ ] C++ Talks at CPPCon:
-    - https://www.youtube.com/watch?v=hEx5DNLWGgA&index=2&list=PLHTh1InhhwT75gykhs7pqcR_uSiG601oh
-
-- [ ] MIT CMS.611J Creating Video Games, Fall 2014
-    - https://www.youtube.com/watch?v=pfDfriSjFbY&list=PLUl4u3cNGP61V4W6yRm1Am5zI94m33dXk
-
-- [ ] Compilers Course:
-    - https://class.coursera.org/compilers-004/lecture
-
-- [ ] Computer and processor architecture:
-    - https://class.coursera.org/comparch-003/lecture
-
-- [ ] Long series of C++ videos:
-    - https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C
-
-## Done
-
-You're never really done. Keep learning.
+You're never really done.

@@ -2,13 +2,12 @@
 
 ## What is it?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to
-Google software engineer. Please don't let that offend you if you are a web developer. I'm just
-speaking from my knowledge and experience.
+This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.
 
-    This long list has been extracted and expanded from Google's coaching notes,
-    so these are the things you need to know. There are extra items I added at the
-    bottom that may come up in the interview or be helpful in solving a problem.
+![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+
+This long list has been extracted and expanded from Google's coaching notes, so these are the things you need to know. 
+There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem.
 
 Many items are from Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"
 and are reflected sometimes word-for-word in Google's coaching notes.
@@ -738,14 +737,19 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
     - [x] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
     - [x] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
-    - [x] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
-    - [x] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
-    - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Expectation II: https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
-    - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
+    - [ ] Video choices:
+        - MIT (mathy, and go slowly, which is good for mathy things):
+            - [x] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
+            - [x] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
+            - [x] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
+            - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
+            - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B
+            - [ ] MIT 6.042J - Expectation II: https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B
+            - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
+            - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
+        - Khan Academy - 41 videos (each are simple and each are short):
+            - [ ] https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19&index=1
+        
 
 - [ ] **NP and NP Complete**
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
@@ -891,6 +895,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - https://www.youtube.com/watch?v=paSgzPso-yc
         - https://www.youtube.com/watch?v=JWD1Fpdd4Pc
         - http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs
+        - (maybe) Org Mode In Depth: Managing Structure: https://www.youtube.com/watch?v=nsGYet02bEk
 
 - [ ] **Be able to use unix command line tools:**
     - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.

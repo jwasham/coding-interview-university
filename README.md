@@ -1,5 +1,7 @@
 # Google Interview University
 
+_If you like this project, please give me a star._ &nbsp; &#9733;
+
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.

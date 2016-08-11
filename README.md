@@ -96,9 +96,11 @@ from public sources and replacing the online course videos over time. I like usi
 This short section were prerequisites/interesting info I wanted to learn before getting started on the daily plan.
 
 You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
-    - C++
-    - Java
-    - Python
+
+- C++
+- Java
+- Python
+
 You need to be very comfortable in the language, and be knowledgeable. Read more (rescued from the lost web):
     - https://web.archive.org/web/20160204193730/http://blog.codingforinterviews.com/best-programming-language-jobs/
 

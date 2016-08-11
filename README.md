@@ -744,23 +744,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Global pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment
         - [x] Local pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment
 
-- [ ] **Combinatorics (n choose k) & Probability**
+- [x] **Combinatorics (n choose k) & Probability**
     - [x] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
     - [x] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
     - [x] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
-    - [ ] Video choices:
-        - MIT (mathy, and go slowly, which is good for mathy things):
-            - [x] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
-            - [x] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
-            - [x] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
-            - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
-            - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B
-            - [ ] MIT 6.042J - Expectation II: https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B
-            - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
-            - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
-        - Khan Academy - 41 videos (each are simple and each are short):
-            - [ ] https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19&index=1
-        
+    - [x] Khan Academy:
+        - Course layout:
+            - [x] https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic 
+        - Just the videos - 41 (each are simple and each are short):
+            - [x] https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19
 
 - [ ] **NP and NP Complete**
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
@@ -977,9 +969,16 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] Algorithms and Programming: Problems and Solutions:
     http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
 
+If you have time:
+
 - [ ] Introduction to Algorithms
     - https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
     - Half.com is a great resource for textbooks at good prices.
+    
+- [ ] Elements of Programming Interviews
+    - https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836
+    - all code is in C++, if you're looking to use C++ in your interview
+    - good book on problem solving in general.
 
 ## About Google
 
@@ -1241,6 +1240,16 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **Advanced Graph Processing**
     - [ ] Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27
     - [ ] Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees: https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28
+
+- MIT **Probability** (mathy, and go slowly, which is good for mathy things):
+    - [x] MIT 6.042J - Probability Introduction: https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B
+    - [x] MIT 6.042J - Conditional Probability: https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B
+    - [x] MIT 6.042J - Independence: https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Random Variables: https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21
+    - [ ] MIT 6.042J - Expectation I: https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Expectation II: https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Large Deviations: https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B
+    - [ ] MIT 6.042J - Random Walks: https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25
 
 ## Videos
 

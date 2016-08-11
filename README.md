@@ -146,8 +146,15 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 
 - [x] **Python**
     - [x] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
-    - I've already use Python quite a bit. This is just for review.
-    - [x] https://www.youtube.com/watch?v=N4mEzFDjqtA
+    - [x] Python in One Video: https://www.youtube.com/watch?v=N4mEzFDjqtA
+    - [x] Series on 3.4: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+    - [x] Zero to Hero: https://www.youtube.com/watch?v=emY34tSKXc4
+    - [x] Statistics for Hackers: https://www.youtube.com/watch?v=Iq9DzN6mvYA
+    - [x] Faster Python: https://www.youtube.com/watch?v=JDSGVvMwNM8
+    - [x] CPython Walk: https://www.youtube.com/watch?v=LhadeL7_EIU&list=PLzV58Zm8FuBL6OAv1Yu6AwXZrnsFbbR0S&index=6
+    - [x] 10 Tips for Pythonic Code: https://www.youtube.com/watch?v=_O23jIXsshs
+    - [x] Beyond PEP 8 -- Best practices for beautiful intelligible code: https://www.youtube.com/watch?v=wf-BqAjZb8M
+
 
 - [x] **Compilers**
     - [x] https://class.coursera.org/compilers-004/lecture/1

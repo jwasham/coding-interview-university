@@ -771,12 +771,12 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Complexity: P, NP, NP-completeness, Reductions: https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22
     - [x] Complexity: Approximation Algorithms: https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24
     - [ ] Complexity: Fixed-Parameter Algorithms: https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-    - Peter Norvik discusses suboptimal solutions to traveling salesman problem:
+    - Peter Norvik discusses near-optimal solutions to traveling salesman problem:
         - http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb
     - Pages 1048 - 1140 in CLRS if you have it.
 
 - [ ] **Garbage collection**
-    - [ ] Computer Science 61B - 2014-04-30: Garbage collection; Augmenting data str: https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+    - [x] Computer Science 61B - 2014-04-30: Garbage collection; Augmenting data str: https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
     - [ ] Garbage Collection is Good!: https://www.infoq.com/presentations/garbage-collection-benefits
     - [ ] Compilers: https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff
     - [ ] GC in Python: https://www.youtube.com/watch?v=iHVs_HkjdmI
@@ -1282,8 +1282,14 @@ Sit back and enjoy. "netflix and skill" :P
     - Skiena lectures from Algorithm Design Manual
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
 
-- [ ] UC Berkeley 61B (39 videos):
+- [ ] UC Berkeley 61B (Spring 2014): Data Structures (25 videos):
+    - https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd
+
+- [ ] UC Berkeley 61B (Fall 2006): Data Structures (39 videos):
     - https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C
+
+- [ ] UC Berkeley 61C: Machine Structures (26 videos):
+    - https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_
 
 - [ ] MIT 6.004: Computation Structures (49 videos):
     - https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-

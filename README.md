@@ -776,10 +776,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Pages 1048 - 1140 in CLRS if you have it.
 
 - [ ] **Garbage collection**
-    - [x] Computer Science 61B - 2014-04-30: Garbage collection; Augmenting data str: https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+    - [x] Garbage collection (Java); Augmenting data str: https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25
+    - [x] Compilers: https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff
+    - [x] GC in Python: https://www.youtube.com/watch?v=iHVs_HkjdmI
     - [ ] Garbage Collection is Good!: https://www.infoq.com/presentations/garbage-collection-benefits
-    - [ ] Compilers: https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff
-    - [ ] GC in Python: https://www.youtube.com/watch?v=iHVs_HkjdmI
 
 - [ ] **Caches**
     - [ ] LRU cache:

@@ -791,20 +791,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] MIT 6.004 L15: The Memory Hierarchy: https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24
         - [x] MIT 6.004 L16: Cache Issues: https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 
-- [ ] **Design patterns**
-    - [ ] CS164 Lecture 3 Design Patterns: https://youtu.be/mym5m-GKG0Q?t=660
-    - description:
-        - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
-        - Patterns: https://www.youtube.com/playlist?list=PLF206E906175C7E07
-        - UML: https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
-    - [ ] strategy
-    - [ ] singleton
-    - [ ] adapter
-    - [ ] prototype
-    - [ ] decorator
-    - [ ] visitor
-    - [ ] factory
-
 - [ ] **Operating Systems (25 videos):**
     - Computer Science 162: https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     - https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
@@ -836,13 +822,52 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015: https://www.youtube.com/watch?v=MCs5OvhV9S4
         - [ ] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
 
-- [ ] **Scale & Data Handling:**
-    - see **Scalability** section below and **Papers**
+- [ ] **Scalability & Data Handling:**
     - Distill large data sets to single values
     - Transform one data set to another
     - Handling obscenely large amounts of data
     - [ ] https://www.youtube.com/watch?v=9nWyWwY2Onc
     - [ ] https://www.youtube.com/watch?v=H4vMcD7zKM0
+    - [ ] Articles:
+        - [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
+        - [ ] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
+        - [ ] http://highscalability.com/blog/2016/4/4/how-to-remove-duplicates-in-a-large-dataset-reducing-memory.html
+        - [ ] http://highscalability.com/blog/2016/3/23/what-does-etsys-architecture-look-like-today.html
+        - [ ] http://highscalability.com/blog/2016/3/21/to-compress-or-not-to-compress-that-was-ubers-question.html
+        - [ ] http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
+        - [ ] http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
+        - [ ] http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
+        - [ ] http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
+        - [ ] http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
+        - [ ] http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
+        - [ ] http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
+        - [ ] http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
+        - [ ] http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
+        - [ ] http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
+        - [ ] http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
+        - [ ] http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
+        - [ ] http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
+    
+- [ ] **About Google**:
+    - [ ] How Search Works:
+        - [ ] https://www.google.com/insidesearch/howsearchworks/thestory/
+        - [ ] https://www.youtube.com/watch?v=BNHR6IQJGZs
+        - [ ] https://www.google.com/insidesearch/howsearchworks/
+        - [ ] Series:
+            - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
+            - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
+            - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
+            - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
+
+- [ ] **Papers**:
+    - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
+    - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+    - [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
+    - [ ] How Developers Search for Code: A Case Study http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
+    - [ ] Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
+    - [ ] Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
+    - [ ] AddressSanitizer: A Fast Address Sanity Checker http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
+    - [ ] Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
 
 - [ ] **System design**
     - https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
@@ -913,8 +938,23 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - what is integration testing
     - what is dependency injection
 
+- [ ] **Design patterns**
+    - [ ] CS164 Lecture 3 Design Patterns: https://youtu.be/mym5m-GKG0Q?t=660
+    - description:
+        - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
+        - Patterns: https://www.youtube.com/playlist?list=PLF206E906175C7E07
+        - UML: https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+    - [ ] strategy
+    - [ ] singleton
+    - [ ] adapter
+    - [ ] prototype
+    - [ ] decorator
+    - [ ] visitor
+    - [ ] factory
+
 - [ ] **Scheduling**
     - in an OS, how it works
+    - can be gleaned from Operating System videos
 
 - [ ] **Implement system routines**
     - understand what lies beneath the programming APIs you use
@@ -991,65 +1031,6 @@ If you have time:
     - all code is in C++, if you're looking to use C++ in your interview
     - good book on problem solving in general.
 
-## About Google
-
-- [ ] How Search Works:
-    - [ ] https://www.google.com/insidesearch/howsearchworks/thestory/
-    - [ ] https://www.youtube.com/watch?v=BNHR6IQJGZs
-    - [ ] https://www.google.com/insidesearch/howsearchworks/
-    - [ ] Series:
-        - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
-        - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
-        - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
-        - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
-
-## Scalability Articles
-
-- [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
-- [ ] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
-- [ ] http://highscalability.com/blog/2016/4/4/how-to-remove-duplicates-in-a-large-dataset-reducing-memory.html
-- [ ] http://highscalability.com/blog/2016/3/23/what-does-etsys-architecture-look-like-today.html
-- [ ] http://highscalability.com/blog/2016/3/21/to-compress-or-not-to-compress-that-was-ubers-question.html
-- [ ] http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
-- [ ] http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
-- [ ] http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
-- [ ] http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
-- [ ] http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
-- [ ] http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
-- [ ] http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
-- [ ] http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
-- [ ] http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
-- [ ] http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
-- [ ] http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
-- [ ] http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
-- [ ] http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
-
-## Papers:
-
-- [ ] The Google File System: 
-    - http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
-    
-- [ ] MapReduce: Simplified Data Processing on Large Clusters:
-    - http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
-
-- [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems
-    - http://download.tensorflow.org/paper/whitepaper2015.pdf 
-
-- [ ] How Developers Search for Code: A Case Study
-    - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
-
-- [ ] Borg, Omega, and Kubernetes
-    - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
-
-- [ ] Continuous Pipelines at Google
-    - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
-
-- [ ] AddressSanitizer: A Fast Address Sanity Checker
-    - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
-    
-- [ ] Computing Weak Consistency in Polynomial Time
-    - http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
-    
 ## Coding exercises/challenges:
 
 Once you've learned your brains out, put those brains to work.
@@ -1128,9 +1109,37 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
 
+- [x] **Information theory**
+    - [x] Khan Academy: https://www.khanacademy.org/computing/computer-science/informationtheory
+    - [x] more about Markov processes:
+        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
+        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
+        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through
+    - See more in MIT 6.050J Information and Entropy series below. 
+
+- [x] **Parity & Hamming Code**
+    - [x] Intro: https://www.youtube.com/watch?v=q-3BctoUpHE
+    - [x] Parity: https://www.youtube.com/watch?v=DdMcAUlxh1M
+    - [x] Hamming Code:
+        - Error detection: https://www.youtube.com/watch?v=1A_NcXxdoCc
+        - Error correction: https://www.youtube.com/watch?v=JAMLuxdHH8o
+    - [x] Error Checking:
+        - https://www.youtube.com/watch?v=wbH2VxzmoZk
+
+- [ ] **Entropy** (see videos below)
+    - https://www.youtube.com/watch?v=phxsQrZQupo&index=1&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
+
+- [ ] **Cryptography** (also see videos below)
+    - [ ] Khan Academy Series: https://www.khanacademy.org/computing/computer-science/cryptography
+    - [ ] Cryptography: Hash Functions: https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30
+    - [ ] Cryptography: Encryptiom: https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
 - [ ] **Compression**
     - [ ] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
     - [ ] https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
+
+- [ ] **Computer Security**
+    - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
 - [ ] **Augmented Data Structures**
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39
@@ -1170,34 +1179,11 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
     - [ ] http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
-- [ ] Integer Arithmetic, Karatsuba Multiplication: https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+- [ ] **Integer Arithmetic, Karatsuba Multiplication:** 
+    - [ ] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 
 - [ ] **Treap**
     - [ ] ?
-
-- [x] **Parity & Hamming Code**
-    - [x] Intro: https://www.youtube.com/watch?v=q-3BctoUpHE
-    - [x] Parity: https://www.youtube.com/watch?v=DdMcAUlxh1M
-    - [x] Hamming Code:
-        - Error detection: https://www.youtube.com/watch?v=1A_NcXxdoCc
-        - Error correction: https://www.youtube.com/watch?v=JAMLuxdHH8o
-    - [x] Error Checking:
-        - https://www.youtube.com/watch?v=wbH2VxzmoZk
-
-- [ ] **Computer Security**
-    - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
-
-- [ ] **Information theory**
-    - [x] Khan Academy: https://www.khanacademy.org/computing/computer-science/informationtheory
-    - [ ] more about Markov processes:
-        - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
-        - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
-    - See more in MIT 6.050J Information and Entropy series below. 
-
-- [ ] **Markov text generation**
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
-    - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through
 
 - [ ] **Bloom Filter**
     - https://www.youtube.com/watch?v=-SuTGoFYjZs
@@ -1220,13 +1206,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Parallel Programming**
     - https://www.coursera.org/learn/parprog1/home/week/1
-    
-- [ ] Cryptography (also see videos below)
-    - [ ] Cryptography: Hash Functions: https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30
-    - [ ] Cryptography: Encryptiom: https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-
-- [ ] Entropy (see videos below)
-    - https://www.youtube.com/watch?v=phxsQrZQupo&index=1&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
 
 - [ ] Discrete math (see videos below)
 

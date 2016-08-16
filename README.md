@@ -1126,8 +1126,12 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Error Checking:
         - https://www.youtube.com/watch?v=wbH2VxzmoZk
 
-- [ ] **Entropy** (see videos below)
-    - https://www.youtube.com/watch?v=phxsQrZQupo&index=1&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
+- [ ] **Entropy** (also see videos below)
+    - make sure to watch information theory videos first
+    - [x] Entropy in Compression: https://www.youtube.com/watch?v=M5c_RFKVkko 
+    - [ ] Salil Vadhan: Computational Entropy: 
+        - [ ] https://www.youtube.com/watch?v=MCRY_AyUx6A
+        - [ ] https://www.youtube.com/watch?v=zKCySSX_mRI
 
 - [ ] **Cryptography** (also see videos below)
     - [ ] Khan Academy Series: https://www.khanacademy.org/computing/computer-science/cryptography
@@ -1136,7 +1140,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Compression**
     - [ ] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
-    - [ ] https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
+    - [ ] Elegant Compression in Text (The LZ 77 Method): https://www.youtube.com/watch?v=goOa3DGezUA
+    - [ ] Unit 2: Compression, Lecture 1 | MIT 6.050J Information and Entropy:
+        https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
 
 - [ ] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh

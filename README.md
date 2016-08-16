@@ -920,7 +920,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - understand what lies beneath the programming APIs you use
     - can you implement them?
 
-
 - [ ] **String searching & manipulations**
     - [ ] Search pattern in text: https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text
     - [ ] Rabin-Karp:
@@ -1131,6 +1130,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Compression**
     - [ ] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
+    - [ ] https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
 
 - [ ] **Augmented Data Structures**
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39
@@ -1176,8 +1176,8 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] ?
 
 - [x] **Parity & Hamming Code**
-    - [x] Parity:
-        - https://www.youtube.com/watch?v=DdMcAUlxh1M
+    - [x] Intro: https://www.youtube.com/watch?v=q-3BctoUpHE
+    - [x] Parity: https://www.youtube.com/watch?v=DdMcAUlxh1M
     - [x] Hamming Code:
         - Error detection: https://www.youtube.com/watch?v=1A_NcXxdoCc
         - Error correction: https://www.youtube.com/watch?v=JAMLuxdHH8o
@@ -1187,17 +1187,17 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
+- [ ] **Information theory**
+    - [x] Khan Academy: https://www.khanacademy.org/computing/computer-science/informationtheory
+    - [ ] more about Markov processes:
+        - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
+        - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
+    - See more in MIT 6.050J Information and Entropy series below. 
+
 - [ ] **Markov text generation**
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
     - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through
-
-- [ ] **Information theory**
-    - Markov processes:
-        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation
-        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation
-    - https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/symbol-rate-information-theory
-    - includes Markov chain
 
 - [ ] **Bloom Filter**
     - https://www.youtube.com/watch?v=-SuTGoFYjZs
@@ -1226,6 +1226,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Cryptography: Encryptiom: https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] Entropy (see videos below)
+    - https://www.youtube.com/watch?v=phxsQrZQupo&index=1&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
 
 - [ ] Discrete math (see videos below)
 
@@ -1314,7 +1315,7 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] MIT 6.046: Design and Analysis of Algorithms (34 videos):
     - https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
-- [ ] MIT 6.050J Information and Entropy, Spring 2008 ()
+- [ ] MIT 6.050J Information and Entropy, Spring 2008 (19 videos)
     - https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
 
 - [ ] MIT 6.851: Advanced Data Structures (22 videos):

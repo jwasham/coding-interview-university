@@ -1131,11 +1131,11 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Entropy in Compression: https://www.youtube.com/watch?v=M5c_RFKVkko 
     - [x] Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits: https://youtu.be/JnJq3Py0dyM?t=176
 
-- [ ] **Cryptography** (also see videos below)
+- [x] **Cryptography** (also see videos below)
     - make sure to watch information theory videos first
     - [x] Khan Academy Series: https://www.khanacademy.org/computing/computer-science/cryptography
-    - [ ] Cryptography: Hash Functions: https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30
-    - [ ] Cryptography: Encryptiom: https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [x] Cryptography: Hash Functions: https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30
+    - [x] Cryptography: Encryptiom: https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] **Compression**
     - make sure to watch information theory videos first

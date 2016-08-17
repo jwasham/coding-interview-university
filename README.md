@@ -1126,19 +1126,19 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Error Checking:
         - https://www.youtube.com/watch?v=wbH2VxzmoZk
 
-- [ ] **Entropy** (also see videos below)
+- [x] **Entropy** (also see videos below)
     - make sure to watch information theory videos first
     - [x] Entropy in Compression: https://www.youtube.com/watch?v=M5c_RFKVkko 
-    - [ ] Salil Vadhan: Computational Entropy: 
-        - [ ] https://www.youtube.com/watch?v=MCRY_AyUx6A
-        - [ ] https://www.youtube.com/watch?v=zKCySSX_mRI
+    - [x] Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits: https://youtu.be/JnJq3Py0dyM?t=176
 
 - [ ] **Cryptography** (also see videos below)
-    - [ ] Khan Academy Series: https://www.khanacademy.org/computing/computer-science/cryptography
+    - make sure to watch information theory videos first
+    - [x] Khan Academy Series: https://www.khanacademy.org/computing/computer-science/cryptography
     - [ ] Cryptography: Hash Functions: https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30
     - [ ] Cryptography: Encryptiom: https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] **Compression**
+    - make sure to watch information theory videos first
     - [ ] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
     - [ ] Elegant Compression in Text (The LZ 77 Method): https://www.youtube.com/watch?v=goOa3DGezUA
     - [ ] Unit 2: Compression, Lecture 1 | MIT 6.050J Information and Entropy:
@@ -1146,6 +1146,15 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
+
+- [ ] **Networking**
+    - [ ] Network Mapping: https://www.youtube.com/watch?v=_uIOdTfp6Pw&list=PLF360ED1082F6F2A5&index=11
+    - [ ] TCP/IP and Subnet Masking: https://www.youtube.com/watch?v=EkNq4TrHP_U
+    - [ ] UDP and TCP: Comparison of Transport Protocols: https://www.youtube.com/watch?v=Vdc8TCESIg8
+    - [ ] Introduction to HTTP Preview: https://www.youtube.com/watch?v=xpBpGC08f4Q
+    - [ ] HTTPS: https://www.youtube.com/watch?v=JCvPnwpWVUQ
+    - [ ] HTTP 2.0: https://www.youtube.com/watch?v=E9FxNzv1Tr8
+    - [ ] Long Video Series: https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
 
 - [ ] **Augmented Data Structures**
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39

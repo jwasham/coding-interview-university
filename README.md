@@ -1144,9 +1144,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Unit 2: Compression, Lecture 1 | MIT 6.050J Information and Entropy:
         https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
 
-- [ ] **Computer Security**
-    - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
-
 - [ ] **Networking**
     - [ ] Network Mapping: https://www.youtube.com/watch?v=_uIOdTfp6Pw&list=PLF360ED1082F6F2A5&index=11
     - [ ] TCP/IP and Subnet Masking: https://www.youtube.com/watch?v=EkNq4TrHP_U
@@ -1155,6 +1152,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] HTTPS: https://www.youtube.com/watch?v=JCvPnwpWVUQ
     - [ ] HTTP 2.0: https://www.youtube.com/watch?v=E9FxNzv1Tr8
     - [ ] Long Video Series: https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
+    
+- [ ] **Computer Security**
+    - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
 - [ ] **Augmented Data Structures**
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39

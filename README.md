@@ -1128,7 +1128,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [x] **Entropy** (also see videos below)
     - make sure to watch information theory videos first
-    - [x] Entropy in Compression: https://www.youtube.com/watch?v=M5c_RFKVkko 
     - [x] Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits: https://youtu.be/JnJq3Py0dyM?t=176
 
 - [x] **Cryptography** (also see videos below)
@@ -1137,13 +1136,18 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Cryptography: Hash Functions: https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30
     - [x] Cryptography: Encryptiom: https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
-- [ ] **Compression**
+- [x] **Compression**
     - make sure to watch information theory videos first
-    - [x] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
-    - [ ] Google Developers Live: GZIP is not enough!: https://www.youtube.com/watch?v=whGwm0Lky2s
-    - [ ] Elegant Compression in Text (The LZ 77 Method): https://www.youtube.com/watch?v=goOa3DGezUA
-    - [ ] Unit 2: Compression, Lecture 1 | MIT 6.050J Information and Entropy:
-        https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
+    - [x] Computerphile: 
+        - [x] Compression: https://www.youtube.com/watch?v=Lto-ajuqW3w
+        - [x] Entropy in Compression: https://www.youtube.com/watch?v=M5c_RFKVkko 
+        - [x] Upside Down Trees (Huffman Trees): https://www.youtube.com/watch?v=umTbivyJoiI
+        - [x] EXTRA BITS/TRITS - Huffman Trees: https://www.youtube.com/watch?v=DV8efuB3h2g
+        - [x] Elegant Compression in Text (The LZ 77 Method): https://www.youtube.com/watch?v=goOa3DGezUA
+        - [x] Text Compression Meets Probabilities: https://www.youtube.com/watch?v=cCDCfoHTsaU
+    - [x] Compressor Head videos: 
+        - https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
+    - [x] (optional) Google Developers Live: GZIP is not enough!: https://www.youtube.com/watch?v=whGwm0Lky2s
 
 - [ ] **Networking**
     - [ ] Khan Academy: https://www.khanacademy.org/computing/computer-science/internet-intro

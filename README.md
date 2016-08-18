@@ -1139,12 +1139,14 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] **Compression**
     - make sure to watch information theory videos first
-    - [ ] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
+    - [x] Compressor Head videos: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
+    - [ ] Google Developers Live: GZIP is not enough!: https://www.youtube.com/watch?v=whGwm0Lky2s
     - [ ] Elegant Compression in Text (The LZ 77 Method): https://www.youtube.com/watch?v=goOa3DGezUA
     - [ ] Unit 2: Compression, Lecture 1 | MIT 6.050J Information and Entropy:
         https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
 
 - [ ] **Networking**
+    - [ ] Kahn Academy: https://www.khanacademy.org/computing/computer-science/internet-intro
     - [ ] Network Mapping: https://www.youtube.com/watch?v=_uIOdTfp6Pw&list=PLF360ED1082F6F2A5&index=11
     - [ ] TCP/IP and Subnet Masking: https://www.youtube.com/watch?v=EkNq4TrHP_U
     - [ ] UDP and TCP: Comparison of Transport Protocols: https://www.youtube.com/watch?v=Vdc8TCESIg8

@@ -1146,7 +1146,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         https://www.youtube.com/watch?v=mM9m9uDlHno&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7&index=2
 
 - [ ] **Networking**
-    - [ ] Kahn Academy: https://www.khanacademy.org/computing/computer-science/internet-intro
+    - [ ] Khan Academy: https://www.khanacademy.org/computing/computer-science/internet-intro
     - [ ] Network Mapping: https://www.youtube.com/watch?v=_uIOdTfp6Pw&list=PLF360ED1082F6F2A5&index=11
     - [ ] TCP/IP and Subnet Masking: https://www.youtube.com/watch?v=EkNq4TrHP_U
     - [ ] UDP and TCP: Comparison of Transport Protocols: https://www.youtube.com/watch?v=Vdc8TCESIg8

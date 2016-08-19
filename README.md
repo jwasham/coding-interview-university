@@ -791,8 +791,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] MIT 6.004 L15: The Memory Hierarchy: https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24
         - [x] MIT 6.004 L16: Cache Issues: https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 
-- [ ] **Operating Systems (25 videos):**
-    - Computer Science 162: https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
+- [ ] **Processes and Threads:**
+    - Computer Science 162 - Operating Systems (25 videos): 
+        - https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     - https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
     - Covers:
         - Processes, Threads, Concurrency issues
@@ -813,9 +814,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         - Context switching
             - How context switching is initiated by the operating system and underlying hardware
-    - [ ] threads in C++:
-        - https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
-        - stopped here: https://www.youtube.com/watch?v=_N0B5ua7oN8&list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M&index=4
+    - [ ] threads in C++ (series - 10 videos): https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
     - [ ] concurrency in Python:
         - [ ] Python Threads: https://www.youtube.com/watch?v=Bs7vPNbB9JM
         - [ ] Understanding the Python GIL: https://www.youtube.com/watch?v=Obt-vMVdM8s
@@ -1296,6 +1295,9 @@ Sit back and enjoy. "netflix and skill" :P
 
 - [ ] UC Berkeley 61C: Machine Structures (26 videos):
     - https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_
+
+- [ ] UC Berkeley CS 152: Conputer Architecture and Engineering (20 videos): 
+    - https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr
 
 - [ ] MIT 6.004: Computation Structures (49 videos):
     - https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-

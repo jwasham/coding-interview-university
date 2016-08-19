@@ -816,8 +816,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - How context switching is initiated by the operating system and underlying hardware
     - [ ] threads in C++ (series - 10 videos): https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
     - [ ] concurrency in Python:
-        - [ ] Python Threads: https://www.youtube.com/watch?v=Bs7vPNbB9JM
-        - [ ] Understanding the Python GIL: https://www.youtube.com/watch?v=Obt-vMVdM8s
+        - [x] Python Threads: https://www.youtube.com/watch?v=Bs7vPNbB9JM
+        - [x] Understanding the Python GIL (2010): https://www.youtube.com/watch?v=Obt-vMVdM8s
+            - reference: http://www.dabeaz.com/GIL
         - [ ] David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015: https://www.youtube.com/watch?v=MCs5OvhV9S4
         - [ ] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
 

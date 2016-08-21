@@ -792,7 +792,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] MIT 6.004 L16: Cache Issues: https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 
 - [ ] **Processes and Threads:**
-    - Computer Science 162 - Operating Systems (25 videos): 
+    - [ ] Computer Science 162 - Operating Systems (25 videos):
+        - for precesses and threads see videos 1-11
         - https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     - https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
     - Covers:
@@ -810,17 +811,18 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - CPU activity, interrupts, context switching
         - Modern concurrency constructs with multicore processors
         - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above with other threads in same process but each has its own pc, stack counter, registers and stack)
+        - Thread resource needs (shares above (minus stack) with other threads in same process but each has its own pc, stack counter, registers and stack)
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         - Context switching
             - How context switching is initiated by the operating system and underlying hardware
-    - [ ] threads in C++ (series - 10 videos): https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
-    - [ ] concurrency in Python:
+    - [x] threads in C++ (series - 10 videos): https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M
+    - [x] concurrency in Python:
         - [x] Python Threads: https://www.youtube.com/watch?v=Bs7vPNbB9JM
         - [x] Understanding the Python GIL (2010): https://www.youtube.com/watch?v=Obt-vMVdM8s
             - reference: http://www.dabeaz.com/GIL
-        - [ ] David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015: https://www.youtube.com/watch?v=MCs5OvhV9S4
-        - [ ] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
+        - [x] David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015: https://www.youtube.com/watch?v=MCs5OvhV9S4
+        - [x] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
+        - [x] Mutex in Python: https://www.youtube.com/watch?v=0zaPs8OtyKY
 
 - [ ] **Scalability & Data Handling:**
     - Distill large data sets to single values
@@ -867,6 +869,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
     - [ ] Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
     - [ ] AddressSanitizer: A Fast Address Sanity Checker http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
+    - [ ] Communicating Sequential Processes (1978): http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
     - [ ] Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
 
 - [ ] **System design**

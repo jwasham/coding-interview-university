@@ -791,8 +791,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] MIT 6.004 L15: The Memory Hierarchy: https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24
         - [x] MIT 6.004 L16: Cache Issues: https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 
-- [ ] **Processes and Threads:**
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
+- [x] **Processes and Threads:**
+    - [x] Computer Science 162 - Operating Systems (25 videos):
         - for precesses and threads see videos 1-11
         - https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     - https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread

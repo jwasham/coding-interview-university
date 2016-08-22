@@ -1153,12 +1153,12 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] (optional) Google Developers Live: GZIP is not enough!: https://www.youtube.com/watch?v=whGwm0Lky2s
 
 - [ ] **Networking**
-    - [ ] Khan Academy: https://www.khanacademy.org/computing/computer-science/internet-intro
-    - [ ] Network Mapping: https://www.youtube.com/watch?v=_uIOdTfp6Pw&list=PLF360ED1082F6F2A5&index=11
-    - [ ] TCP/IP and Subnet Masking: https://www.youtube.com/watch?v=EkNq4TrHP_U
-    - [ ] UDP and TCP: Comparison of Transport Protocols: https://www.youtube.com/watch?v=Vdc8TCESIg8
-    - [ ] Introduction to HTTP Preview: https://www.youtube.com/watch?v=xpBpGC08f4Q
-    - [ ] HTTPS: https://www.youtube.com/watch?v=JCvPnwpWVUQ
+    - [x] Khan Academy: https://www.khanacademy.org/computing/computer-science/internet-intro
+    - [x] UDP and TCP: Comparison of Transport Protocols: https://www.youtube.com/watch?v=Vdc8TCESIg8
+    - [x] TCP/IP and the OSI Model Explained!: https://www.youtube.com/watch?v=e5DEVa9eSN0
+    - [x] Packet Transmission across the Internet. Networking & TCP/IP tutorial.: https://www.youtube.com/watch?v=nomyRJehhnM
+    - [x] HTTP: https://www.youtube.com/watch?v=WGJrLqtX7As
+    - [ ] SSL and HTTPS: https://www.youtube.com/watch?v=S2iBR2ZlZf0
     - [ ] HTTP 2.0: https://www.youtube.com/watch?v=E9FxNzv1Tr8
     - [ ] Long Video Series: https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
     

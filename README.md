@@ -1152,15 +1152,16 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
     - [x] (optional) Google Developers Live: GZIP is not enough!: https://www.youtube.com/watch?v=whGwm0Lky2s
 
-- [ ] **Networking**
+- [x] **Networking**
     - [x] Khan Academy: https://www.khanacademy.org/computing/computer-science/internet-intro
     - [x] UDP and TCP: Comparison of Transport Protocols: https://www.youtube.com/watch?v=Vdc8TCESIg8
     - [x] TCP/IP and the OSI Model Explained!: https://www.youtube.com/watch?v=e5DEVa9eSN0
     - [x] Packet Transmission across the Internet. Networking & TCP/IP tutorial.: https://www.youtube.com/watch?v=nomyRJehhnM
     - [x] HTTP: https://www.youtube.com/watch?v=WGJrLqtX7As
-    - [ ] SSL and HTTPS: https://www.youtube.com/watch?v=S2iBR2ZlZf0
-    - [ ] HTTP 2.0: https://www.youtube.com/watch?v=E9FxNzv1Tr8
-    - [ ] Long Video Series: https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
+    - [x] SSL and HTTPS: https://www.youtube.com/watch?v=S2iBR2ZlZf0
+    - [x] SSL/TLS: https://www.youtube.com/watch?v=Rp3iZUvXWlM
+    - [x] HTTP 2.0: https://www.youtube.com/watch?v=E9FxNzv1Tr8
+    - [ ] Video Series (21 videos): https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
     
 - [ ] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh

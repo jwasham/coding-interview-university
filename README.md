@@ -1163,6 +1163,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] SSL/TLS: https://www.youtube.com/watch?v=Rp3iZUvXWlM
     - [x] HTTP 2.0: https://www.youtube.com/watch?v=E9FxNzv1Tr8
     - [ ] Video Series (21 videos): https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
+    - [x] Subnetting Demystified - Part 5 CIDR Notation: https://www.youtube.com/watch?v=t5xYI0jzOf4
     
 - [ ] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh

@@ -1241,7 +1241,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Metis Online Course ($99 for 2 months): http://www.thisismetis.com/explore-data-science
     - [ ] Practical Guide to implementing Neural Networks in Python (using Theano): http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
     - Data School: http://www.dataschool.io/
-    - [ ] Vector calculus
+    - [ ] Vector calculus: https://www.youtube.com/watch?v=tDtYAddb4o4
 
 - [ ] **Parallel Programming**
     - https://www.coursera.org/learn/parprog1/home/week/1
@@ -1292,6 +1292,9 @@ Sit back and enjoy. "netflix and skill" :P
 
 - [ ] List of individual Dynamic Programming problems (each is short):
     - https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+
+- [ ] x86 Architecture, Assembly, Applications (11 videos)
+    - https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0
 
 - [ ] MIT 18.06 Linear Algebra, Spring 2005 (35 videos):
     - https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8

@@ -1164,14 +1164,16 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] HTTP 2.0: https://www.youtube.com/watch?v=E9FxNzv1Tr8
     - [ ] Video Series (21 videos): https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
     - [x] Subnetting Demystified - Part 5 CIDR Notation: https://www.youtube.com/watch?v=t5xYI0jzOf4
-    
+
 - [ ] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
         - [x] Introduction, Threat Models: https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
         - [x] Control Hijacking Attacks: https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2
         - [x] Buffer Overflow Exploits and Defenses: https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3
         - [x] Privilege Separation: https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
-        - [ ] Capabilities: https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
+        - [x] Capabilities: https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
+        - [x] Sandboxing Native Code: https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6
+        - [ ] Web Security Model: https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
 - [ ] **Augmented Data Structures**
     - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39

@@ -1299,6 +1299,9 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] MIT 18.06 Linear Algebra, Spring 2005 (35 videos):
     - https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8
 
+- [ ] Excellent - MIT Calculus Revisited: Single Variable Calculus:
+    - https://www.youtube.com/playlist?list=PL3B08AE665AB9002A
+
 - [ ] Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory:
     - https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy
 

@@ -829,8 +829,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Distill large data sets to single values
     - Transform one data set to another
     - Handling obscenely large amounts of data
-    - [ ] https://www.youtube.com/watch?v=9nWyWwY2Onc
-    - [ ] https://www.youtube.com/watch?v=H4vMcD7zKM0
+    - [x] https://www.youtube.com/watch?v=9nWyWwY2Onc
+    - [x] https://www.youtube.com/watch?v=H4vMcD7zKM0
     - [ ] Articles:
         - [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
         - [ ] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
@@ -1165,7 +1165,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Video Series (21 videos): https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j
     - [x] Subnetting Demystified - Part 5 CIDR Notation: https://www.youtube.com/watch?v=t5xYI0jzOf4
 
-- [ ] **Computer Security**
+- [x] **Computer Security**
     - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
         - [x] Introduction, Threat Models: https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
         - [x] Control Hijacking Attacks: https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2
@@ -1231,6 +1231,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **Machine Learning**
     - Why ML?
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
+    - [ ] Google's Cloud Machine learning tools: https://www.youtube.com/watch?v=Ja2hxBAwG_0
     - [ ] Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow):
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
     - [ ] Tensorflow: https://www.youtube.com/watch?v=oZikw5k_2FM

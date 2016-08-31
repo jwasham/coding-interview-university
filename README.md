@@ -842,19 +842,20 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] To Compress Or Not To Compress, That Was Uber's Question: https://eng.uber.com/trip-data-squeeze/
         - [x] Asyncio Tarantool Queue, Get In The Queue: http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
         - [x] When Should Approximate Query Processing Be Used?: http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
-        - [ ] Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture: http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
-        - [ ] http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
-        - [ ] Machine Learning Driven Programming: A New Programming For A New World: http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html
-        - [ ] The Image Optimization Technology That Serves Millions Of Requests Per Day: http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html
-        - [ ] http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
-        - [ ] http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
-        - [ ] http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
-        - [ ] http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
-        - [ ] http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
-        - [ ] http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
-        - [ ] http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
-        - [ ] http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
-        - [ ] http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
+        - [x] Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture: http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
+        - [x] Spanner: http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html
+        - [x] Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System: http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
+        - [x] Machine Learning Driven Programming: A New Programming For A New World: http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html
+        - [x] The Image Optimization Technology That Serves Millions Of Requests Per Day: http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html
+        - [x] A Patreon Architecture Short: http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
+        - [x] Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?: http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
+        - [x] Design Of A Modern Cache: http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
+        - [x] Live Video Streaming At Facebook Scale: http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
+        - [x] A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS: http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
+        - [x] How Does The Use Of Docker Effect Latency?: http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
+        - [x] Does AMP Counter An Existential Threat To Google?: http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
+        - [x] A 360 Degree View Of The Entire Netflix Stack: http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
+        - [x] Latency Is Everywhere And It Costs You Sales - How To Crush It: http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
         - [ ] Serverless (very long, just need the gist): http://martinfowler.com/articles/serverless.html
         - [ ] Google Architecture: http://highscalability.com/google-architecture
     
@@ -870,6 +871,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
 - [ ] **Papers**:
+    - [ ] Spanner: Google’s Globally-Distributed Datab: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
     - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
     - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
     - [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
@@ -879,6 +881,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] AddressSanitizer: A Fast Address Sanity Checker http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
     - [ ] Communicating Sequential Processes (1978): http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
     - [ ] Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
+    - [ ] High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
+    - [ ] Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
 
 - [ ] **System design**
     - https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
@@ -1258,6 +1262,8 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **Machine Learning**
     - Why ML?
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
+        - [ ] Large-Scale Deep Learning for Intelligent Computer Systems: https://www.youtube.com/watch?v=QSaZGT4-6EY
+        - [ ] Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig: https://www.youtube.com/watch?v=X769cyzBNVw
     - [ ] Google's Cloud Machine learning tools: https://www.youtube.com/watch?v=Ja2hxBAwG_0
     - [ ] Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow):
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal

@@ -832,9 +832,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] https://www.youtube.com/watch?v=9nWyWwY2Onc
     - [x] https://www.youtube.com/watch?v=H4vMcD7zKM0
     - [ ] Articles:
-        - [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
-        - [ ] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
-        - [ ] http://highscalability.com/blog/2016/4/4/how-to-remove-duplicates-in-a-large-dataset-reducing-memory.html
+        - [x] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
+        - [x] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
+            - https://www.youtube.com/watch?v=G-lGCC4KKok
+        - [x] https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/
         - [ ] http://highscalability.com/blog/2016/3/23/what-does-etsys-architecture-look-like-today.html
         - [ ] http://highscalability.com/blog/2016/3/21/to-compress-or-not-to-compress-that-was-ubers-question.html
         - [ ] http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
@@ -979,6 +980,24 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - https://www.youtube.com/watch?v=xYBM0_dChRE
     - [ ] Coursera: Algorithms on Strings:
         - https://www.coursera.org/learn/algorithms-on-strings/home/week/1
+
+---
+
+## Final Review 
+
+    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
+    It's nice if you want a refresher often.
+    (More items will be added here)
+
+#### General:
+
+- [ ] Series of 2-3 minutes short subject videos (23 videos)
+    - https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22
+
+#### Sorts:
+
+- [ ] Merge Sort: https://www.youtube.com/watch?v=GCae1WNvnZM
+   
 
 ## Books
 

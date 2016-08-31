@@ -55,7 +55,7 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.com/)
 
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Jul/book_stack_photo_resized_18-1469302751157.png)
+![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## About Video Resources
 
@@ -754,7 +754,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Just the videos - 41 (each are simple and each are short):
             - [x] https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19
 
-- [ ] **NP, NP-Complete and Approximation Algorithms**
+- [x] **NP, NP-Complete and Approximation Algorithms**
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
@@ -840,8 +840,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] A look inside Etsy's scale and engineering culture with Jon Cowie: https://www.youtube.com/watch?v=3vV4YiqKm1o
         - [x] What Led Amazon to its Own Microservices Architecture: http://thenewstack.io/led-amazon-microservices-architecture/
         - [x] To Compress Or Not To Compress, That Was Uber's Question: https://eng.uber.com/trip-data-squeeze/
-        - [ ] Asyncio Tarantool Queue, Get In The Queue: http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
-        - [ ] When Should Approximate Query Processing Be Used?: http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
+        - [x] Asyncio Tarantool Queue, Get In The Queue: http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
+        - [x] When Should Approximate Query Processing Be Used?: http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
         - [ ] Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture: http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
         - [ ] http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
         - [ ] Machine Learning Driven Programming: A New Programming For A New World: http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html
@@ -942,6 +942,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] sort
     - [ ] tr
     - [ ] uniq
+    - [ ] strace: https://en.wikipedia.org/wiki/Strace
+    - [ ] tcpdump: https://danielmiessler.com/study/tcpdump/
 
 - [ ] **Testing**
     - how unit testing works

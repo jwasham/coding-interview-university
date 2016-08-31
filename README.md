@@ -831,17 +831,21 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Handling obscenely large amounts of data
     - [x] https://www.youtube.com/watch?v=9nWyWwY2Onc
     - [x] https://www.youtube.com/watch?v=H4vMcD7zKM0
-    - [ ] Articles:
-        - [x] https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
-        - [x] http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
-            - https://www.youtube.com/watch?v=G-lGCC4KKok
-        - [x] https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/
-        - [ ] http://highscalability.com/blog/2016/3/23/what-does-etsys-architecture-look-like-today.html
-        - [ ] http://highscalability.com/blog/2016/3/21/to-compress-or-not-to-compress-that-was-ubers-question.html
-        - [ ] http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
-        - [ ] http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
-        - [ ] http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
+    - [ ] Articles & Videos:
+        - [x] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
+        - [x] 7 Years Of YouTube Scalability Lessons In 30 Minutes: http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
+            - video: https://www.youtube.com/watch?v=G-lGCC4KKok
+        - [x] How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs: http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html
+        - [x] How to Remove Duplicates in Large Datasets: https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/
+        - [x] A look inside Etsy's scale and engineering culture with Jon Cowie: https://www.youtube.com/watch?v=3vV4YiqKm1o
+        - [x] What Led Amazon to its Own Microservices Architecture: http://thenewstack.io/led-amazon-microservices-architecture/
+        - [x] To Compress Or Not To Compress, That Was Uber's Question: https://eng.uber.com/trip-data-squeeze/
+        - [ ] Asyncio Tarantool Queue, Get In The Queue: http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
+        - [ ] When Should Approximate Query Processing Be Used?: http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
+        - [ ] Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture: http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
         - [ ] http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
+        - [ ] Machine Learning Driven Programming: A New Programming For A New World: http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html
+        - [ ] The Image Optimization Technology That Serves Millions Of Requests Per Day: http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html
         - [ ] http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
         - [ ] http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
         - [ ] http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
@@ -851,6 +855,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
         - [ ] http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
         - [ ] http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
+        - [ ] Serverless (very long, just need the gist): http://martinfowler.com/articles/serverless.html
+        - [ ] Google Architecture: http://highscalability.com/google-architecture
     
 - [ ] **About Google**:
     - [ ] How Search Works:

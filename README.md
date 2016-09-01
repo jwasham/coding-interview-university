@@ -825,13 +825,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
         - [x] Mutex in Python: https://www.youtube.com/watch?v=0zaPs8OtyKY
 
-- [ ] **Scalability & Data Handling:**
+- [x] **Scalability & Data Handling:**
     - Distill large data sets to single values
     - Transform one data set to another
     - Handling obscenely large amounts of data
     - [x] https://www.youtube.com/watch?v=9nWyWwY2Onc
     - [x] https://www.youtube.com/watch?v=H4vMcD7zKM0
-    - [ ] Articles & Videos:
+    - [x] Articles & Videos:
         - [x] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
         - [x] 7 Years Of YouTube Scalability Lessons In 30 Minutes: http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
             - video: https://www.youtube.com/watch?v=G-lGCC4KKok
@@ -856,14 +856,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Does AMP Counter An Existential Threat To Google?: http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
         - [x] A 360 Degree View Of The Entire Netflix Stack: http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
         - [x] Latency Is Everywhere And It Costs You Sales - How To Crush It: http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
-        - [ ] Serverless (very long, just need the gist): http://martinfowler.com/articles/serverless.html
-        - [ ] Google Architecture: http://highscalability.com/google-architecture
+        - [x] Serverless (very long, just need the gist): http://martinfowler.com/articles/serverless.html
     
 - [ ] **About Google**:
     - [ ] How Search Works:
-        - [ ] https://www.google.com/insidesearch/howsearchworks/thestory/
-        - [ ] https://www.youtube.com/watch?v=BNHR6IQJGZs
-        - [ ] https://www.google.com/insidesearch/howsearchworks/
+        - [ ] The Evolution of Search: https://www.youtube.com/watch?v=mTBShTwCnD4
+        - [ ] How Search Works - the story: https://www.google.com/insidesearch/howsearchworks/thestory/
+        - [ ] How Search Works - Matt Cutts: https://www.youtube.com/watch?v=BNHR6IQJGZs
+        - [ ] How Google makes improvements to its search algorithm: https://www.youtube.com/watch?v=J5RZOU6vK4Q
+        - [ ] How Search Works: https://www.google.com/insidesearch/howsearchworks/
         - [ ] Series:
             - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
             - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf

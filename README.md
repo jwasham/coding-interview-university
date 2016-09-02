@@ -872,6 +872,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
 - [ ] **Papers**:
+    - [ ] What Every Programmer Should Know About Memory: https://www.akkadia.org/drepper/cpumemory.pdf
     - [ ] Spanner: Google’s Globally-Distributed Datab: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
     - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
     - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
@@ -884,6 +885,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
     - [ ] High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
     - [ ] Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
+
+- [ ] **Unicode**
+    - [ ] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html
+    - [ ] What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text: http://kunststube.net/encoding/
 
 - [ ] **System design**
     - https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
@@ -1278,8 +1283,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - Data School: http://www.dataschool.io/
     - [ ] Vector calculus: https://www.youtube.com/watch?v=tDtYAddb4o4
 
-- [ ] **Parallel Programming**
-    - https://www.coursera.org/learn/parprog1/home/week/1
+- [x] **Parallel Programming**
+    - [x] Coursera (Scala): https://www.coursera.org/learn/parprog1/home/week/1
+    - [x] Efficient Python for High Performance Parallel Computing: https://www.youtube.com/watch?v=uY85GkaYzBk
+    
 
 - [ ] Discrete math (see videos below)
 

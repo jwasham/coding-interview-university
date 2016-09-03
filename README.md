@@ -829,10 +829,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Distill large data sets to single values
     - Transform one data set to another
     - Handling obscenely large amounts of data
-    - [x] https://www.youtube.com/watch?v=9nWyWwY2Onc
-    - [x] https://www.youtube.com/watch?v=H4vMcD7zKM0
     - [x] Articles & Videos:
+        - [x] Scaling mobile games to a global audience using App Engine and Cloud Datastore: https://www.youtube.com/watch?v=9nWyWwY2Onc
+        - [x] How Google Does Planet-Scale Engineering for Planet-Scale Infra: https://www.youtube.com/watch?v=H4vMcD7zKM0
         - [x] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
+        - [ ] Scale at Facebook: https://www.infoq.com/presentations/Scale-at-Facebook
+        - [ ] Velocity 2012: Jay Parikh, "Building for a Billion Users": https://www.youtube.com/watch?v=oodS71YtkGU
+        - [ ] Engineering for the Long Game - Astrid Atkinson Keynote: https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4
         - [x] 7 Years Of YouTube Scalability Lessons In 30 Minutes: http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
             - video: https://www.youtube.com/watch?v=G-lGCC4KKok
         - [x] How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs: http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html
@@ -892,6 +895,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] **System design**
     There are subjects here that overlap with scalability. So some of this is software design and some is systems design.
+    I moved the scalabilty stuff to the Scalability section.
         - features sets
         - interfaces
         - class hierarchies
@@ -899,13 +903,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - simplicity and robustness
         - tradeoffs
         - performance analysis and optimization
-    - [ ] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
+    - [x] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
     - [ ] System Design: http://www.hiredintech.com/system-design/
     - [ ] Algorithm design: http://www.hiredintech.com/algorithm-design/
     - [ ] https://github.com/checkcheckzz/system-design-interview
     - [ ] http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
     - [ ] http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
-    - Lecture Videos - can skip through some if you already have a good OO background
+    - [ ] Lecture Videos - can skip through some if you already have a good OO background
         - [ ] Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
         - [ ] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas
         - [ ] Chapter 2 (Part 2) - Inheritance, polymorphism and review of key Java concepts: https://www.youtube.com/watch?v=NSJ0zNQ2Ilk
@@ -926,6 +930,21 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] Chapter 9 (Part 2) - Design Principles, Software Architecture: https://www.youtube.com/watch?v=XQnytAeZrWE
         - [ ] Chapter 9 (Part 3) - Pipe-and-Filter Architecture and Design Documents: https://www.youtube.com/watch?v=ZmsUizg6gPY
         - [ ] Chapter 10 and 11 - Testing process, Inspection, Process Models, Cost Estimation, Team Building: https://www.youtube.com/watch?v=L8x3OuZcEsc
+    - [ ] SOLID OOP Principles:
+        - [ ] S– Single Responsibility Principle | Single responsibility to each Object
+            - http://www.oodesign.com/single-responsibility-principle.html
+            - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
+        - [ ] O– Open/Closed Principal  | On production level Objects are ready for extension for not for modification
+            - https://en.wikipedia.org/wiki/Open/closed_principle
+            - http://www.oodesign.com/open-close-principle.html
+        - [ ] L– Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
+            - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
+            - http://www.oodesign.com/liskov-s-substitution-principle.html
+        - [ ] I – Interface segregation principle | If an implementation don’t require then don’t implement it.
+            - http://efectivejava.blogspot.in/2013/09/interface-segregation-principleisp-java.html
+        - [ ] D-Dependency Inversion principle | Reduce the dependency In composition of objects.
+            - http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important
+        
  
 - [ ] **Familiarize yourself with a unix-based code editor: emacs & vi(m)**
     - suggested by Yegge, from an old Amazon recruiting post

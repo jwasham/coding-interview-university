@@ -886,19 +886,25 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
     - [ ] Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
 
-- [ ] **Unicode**
-    - [ ] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html
-    - [ ] What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text: http://kunststube.net/encoding/
+- [x] **Unicode**
+    - [x] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html
+    - [x] What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text: http://kunststube.net/encoding/
 
 - [ ] **System design**
-    - https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
-    - features sets
-    - interfaces
-    - class hierarchies
-    - designing a system under certain constraints
-    - simplicity and robustness
-    - tradeoffs
-    - performance analysis and optimization
+    There are subjects here that overlap with scalability. So some of this is software design and some is systems design.
+        - features sets
+        - interfaces
+        - class hierarchies
+        - designing a system under certain constraints
+        - simplicity and robustness
+        - tradeoffs
+        - performance analysis and optimization
+    - [ ] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
+    - [ ] System Design: http://www.hiredintech.com/system-design/
+    - [ ] Algorithm design: http://www.hiredintech.com/algorithm-design/
+    - [ ] https://github.com/checkcheckzz/system-design-interview
+    - [ ] http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
+    - [ ] http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - Lecture Videos - can skip through some if you already have a good OO background
         - [ ] Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
         - [ ] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas

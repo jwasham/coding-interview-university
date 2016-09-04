@@ -198,23 +198,26 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - The myth of the Genius Programmer: https://www.youtube.com/watch?v=0SARbwvhupQ
     - Google engineers are smart, but many have an insecurity that they aren't smart enough.
 
-- [x] **Algorithmic complexity / Big O / Asymptotic analysis**
-    - nothing to implement
-    - Harvard CS50 - Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
-    - Big O Notations (general quick tutorial) - https://www.youtube.com/watch?v=V6mKVRU1evU
-    - Big O Notation (and Omega and Theta) - best mathematical explanation:
+- [x] **Algorithmic complexity / Big-O / Asymptotic analysis**
+    - [x] nothing to implement
+    - [x] Harvard CS50 - Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
+    - [x] Big O Notations (general quick tutorial) - https://www.youtube.com/watch?v=V6mKVRU1evU
+    - [ ] TopCoder:
+        - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/
+        - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
+    - [x] Big O Notation (and Omega and Theta) - best mathematical explanation:
         - https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
-    - Skiena:
+    - [x] Skiena:
         - video: https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
         - slides: http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf
-    - A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
-    - Orders of Growth: https://class.coursera.org/algorithmicthink1-004/lecture/59
-    - Asymptotics: https://class.coursera.org/algorithmicthink1-004/lecture/61
-    - UC Berkeley Big O: https://youtu.be/VIS4YDpuP98
-    - UC Berkeley Big Omega: https://youtu.be/ca3e7UVmeUc
-    - Amortized Analysis: https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
-    - Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
-    - Cheat sheet: http://bigocheatsheet.com/
+    - [x] A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
+    - [x] Orders of Growth: https://class.coursera.org/algorithmicthink1-004/lecture/59
+    - [x] Asymptotics: https://class.coursera.org/algorithmicthink1-004/lecture/61
+    - [x] UC Berkeley Big O: https://youtu.be/VIS4YDpuP98
+    - [x] UC Berkeley Big Omega: https://youtu.be/ca3e7UVmeUc
+    - [x] Amortized Analysis: https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
+    - [x] Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
+    - [x] Cheat sheet: http://bigocheatsheet.com/
 
 
     If some of the lectures are too mathy, you can jump down to the bottom and
@@ -830,12 +833,19 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Transform one data set to another
     - Handling obscenely large amounts of data
     - [x] Articles & Videos:
+        - [x] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
+        - [ ] Short series: 
+            - http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
+            - http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
+            - http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
+            - http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism
         - [x] Scaling mobile games to a global audience using App Engine and Cloud Datastore: https://www.youtube.com/watch?v=9nWyWwY2Onc
         - [x] How Google Does Planet-Scale Engineering for Planet-Scale Infra: https://www.youtube.com/watch?v=H4vMcD7zKM0
         - [x] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
-        - [ ] Scale at Facebook: https://www.infoq.com/presentations/Scale-at-Facebook
-        - [ ] Velocity 2012: Jay Parikh, "Building for a Billion Users": https://www.youtube.com/watch?v=oodS71YtkGU
-        - [ ] Engineering for the Long Game - Astrid Atkinson Keynote: https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4
+        - [ ] Sharding: http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html
+        - [x] Scale at Facebook (2009): https://www.infoq.com/presentations/Scale-at-Facebook
+        - [x] Scale at Facebook (2012), "Building for a Billion Users": https://www.youtube.com/watch?v=oodS71YtkGU
+        - [x] Engineering for the Long Game - Astrid Atkinson Keynote: https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4
         - [x] 7 Years Of YouTube Scalability Lessons In 30 Minutes: http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
             - video: https://www.youtube.com/watch?v=G-lGCC4KKok
         - [x] How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs: http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html
@@ -895,7 +905,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] **System design**
     There are subjects here that overlap with scalability. So some of this is software design and some is systems design.
-    I moved the scalabilty stuff to the Scalability section.
+    I moved the scalability stuff to the Scalability section.
         - features sets
         - interfaces
         - class hierarchies
@@ -904,10 +914,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - tradeoffs
         - performance analysis and optimization
     - [x] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
-    - [ ] System Design: http://www.hiredintech.com/system-design/
-    - [ ] Algorithm design: http://www.hiredintech.com/algorithm-design/
+    - [x] System Design: http://www.hiredintech.com/system-design/
+    - [x] Algorithm design: http://www.hiredintech.com/algorithm-design/
     - [ ] https://github.com/checkcheckzz/system-design-interview
-    - [ ] http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
     - [ ] http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [ ] Lecture Videos - can skip through some if you already have a good OO background
         - [ ] Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
@@ -1102,17 +1111,17 @@ If you have time:
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
 
-- How to Find a Solution: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/
-- How to Dissect a Topcoder Problem Statement: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/ 
-- Mathematics for Topcoders: https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/
-- Dynamic Programming – From Novice to Advanced: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
-
+- [ ] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
+- [ ] How to Find a Solution: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/
+- [ ] How to Dissect a Topcoder Problem Statement: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/ 
+- [ ] Mathematics for Topcoders: https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/
+- [ ] Dynamic Programming – From Novice to Advanced: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
 - https://courses.csail.mit.edu/iap/interview/materials.php
 
     - LeetCode: https://leetcode.com/
-    - Project Euler: https://projecteuler.net/index.php?section=problems
     - TopCoder: https://www.topcoder.com/
+    - Project Euler (math-focused): https://projecteuler.net/index.php?section=problems
     - HackerRank: https://www.hackerrank.com/
     - Codility: https://codility.com/programmers/
     - InterviewCake: https://www.interviewcake.com/

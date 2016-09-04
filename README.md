@@ -199,10 +199,10 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - Google engineers are smart, but many have an insecurity that they aren't smart enough.
 
 - [x] **Algorithmic complexity / Big-O / Asymptotic analysis**
-    - [x] nothing to implement
+    - nothing to implement
     - [x] Harvard CS50 - Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
     - [x] Big O Notations (general quick tutorial) - https://www.youtube.com/watch?v=V6mKVRU1evU
-    - [ ] TopCoder:
+    - [x] TopCoder:
         - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/
         - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
     - [x] Big O Notation (and Omega and Theta) - best mathematical explanation:
@@ -916,6 +916,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
     - [x] System Design: http://www.hiredintech.com/system-design/
     - [x] Algorithm design: http://www.hiredintech.com/algorithm-design/
+    - [ ] Database normalization: http://www.studytonight.com/dbms/database-normalization
     - [ ] https://github.com/checkcheckzz/system-design-interview
     - [ ] http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [ ] Lecture Videos - can skip through some if you already have a good OO background

@@ -202,9 +202,6 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - nothing to implement
     - [x] Harvard CS50 - Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
     - [x] Big O Notations (general quick tutorial) - https://www.youtube.com/watch?v=V6mKVRU1evU
-    - [x] TopCoder:
-        - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/
-        - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
     - [x] Big O Notation (and Omega and Theta) - best mathematical explanation:
         - https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
     - [x] Skiena:
@@ -217,6 +214,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - [x] UC Berkeley Big Omega: https://youtu.be/ca3e7UVmeUc
     - [x] Amortized Analysis: https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
     - [x] Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
+    - [x] TopCoder (includes recurrence relations and master theorem):
+        - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/
+        - Computational Complexity: Section 2: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
     - [x] Cheat sheet: http://bigocheatsheet.com/
 
 
@@ -828,98 +828,34 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
         - [x] Mutex in Python: https://www.youtube.com/watch?v=0zaPs8OtyKY
 
-- [x] **Scalability & Data Handling:**
-    - Distill large data sets to single values
-    - Transform one data set to another
-    - Handling obscenely large amounts of data
-    - [x] Articles & Videos:
-        - [x] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
-        - [ ] Short series: 
-            - http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
-            - http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
-            - http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
-            - http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism
-        - [x] Scaling mobile games to a global audience using App Engine and Cloud Datastore: https://www.youtube.com/watch?v=9nWyWwY2Onc
-        - [x] How Google Does Planet-Scale Engineering for Planet-Scale Infra: https://www.youtube.com/watch?v=H4vMcD7zKM0
-        - [x] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
-        - [ ] Sharding: http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html
-        - [x] Scale at Facebook (2009): https://www.infoq.com/presentations/Scale-at-Facebook
-        - [x] Scale at Facebook (2012), "Building for a Billion Users": https://www.youtube.com/watch?v=oodS71YtkGU
-        - [x] Engineering for the Long Game - Astrid Atkinson Keynote: https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4
-        - [x] 7 Years Of YouTube Scalability Lessons In 30 Minutes: http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
-            - video: https://www.youtube.com/watch?v=G-lGCC4KKok
-        - [x] How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs: http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html
-        - [x] How to Remove Duplicates in Large Datasets: https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/
-        - [x] A look inside Etsy's scale and engineering culture with Jon Cowie: https://www.youtube.com/watch?v=3vV4YiqKm1o
-        - [x] What Led Amazon to its Own Microservices Architecture: http://thenewstack.io/led-amazon-microservices-architecture/
-        - [x] To Compress Or Not To Compress, That Was Uber's Question: https://eng.uber.com/trip-data-squeeze/
-        - [x] Asyncio Tarantool Queue, Get In The Queue: http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
-        - [x] When Should Approximate Query Processing Be Used?: http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
-        - [x] Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture: http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
-        - [x] Spanner: http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html
-        - [x] Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System: http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
-        - [x] Machine Learning Driven Programming: A New Programming For A New World: http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html
-        - [x] The Image Optimization Technology That Serves Millions Of Requests Per Day: http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html
-        - [x] A Patreon Architecture Short: http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
-        - [x] Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?: http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
-        - [x] Design Of A Modern Cache: http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
-        - [x] Live Video Streaming At Facebook Scale: http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
-        - [x] A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS: http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
-        - [x] How Does The Use Of Docker Effect Latency?: http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
-        - [x] Does AMP Counter An Existential Threat To Google?: http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
-        - [x] A 360 Degree View Of The Entire Netflix Stack: http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
-        - [x] Latency Is Everywhere And It Costs You Sales - How To Crush It: http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
-        - [x] Serverless (very long, just need the gist): http://martinfowler.com/articles/serverless.html
-    
-- [ ] **About Google**:
-    - [ ] How Search Works:
-        - [ ] The Evolution of Search: https://www.youtube.com/watch?v=mTBShTwCnD4
-        - [ ] How Search Works - the story: https://www.google.com/insidesearch/howsearchworks/thestory/
-        - [ ] How Search Works - Matt Cutts: https://www.youtube.com/watch?v=BNHR6IQJGZs
-        - [ ] How Google makes improvements to its search algorithm: https://www.youtube.com/watch?v=J5RZOU6vK4Q
-        - [ ] How Search Works: https://www.google.com/insidesearch/howsearchworks/
-        - [ ] Series:
-            - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
-            - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
-            - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
-            - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
-- [ ] **Papers**:
-    - [ ] What Every Programmer Should Know About Memory: https://www.akkadia.org/drepper/cpumemory.pdf
-    - [ ] Spanner: Google’s Globally-Distributed Datab: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
-    - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
-    - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
-    - [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
-    - [ ] How Developers Search for Code: A Case Study http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
-    - [ ] Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
-    - [ ] Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
-    - [ ] AddressSanitizer: A Fast Address Sanity Checker http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
-    - [ ] Communicating Sequential Processes (1978): http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
-    - [ ] Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
-    - [ ] High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
-    - [ ] Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
+    Scalability and System Design are very large topics with many topics and resources, since there is a lot to consider 
+    when designing a software/hardware system that can scale. Expect to spend quite a bit of time on this.
 
-- [x] **Unicode**
-    - [x] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html
-    - [x] What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text: http://kunststube.net/encoding/
+- [x] **System Design, Scalability, Data Handling:**
+    - Considerations from Yegge:
+        - scalability
+            - Distill large data sets to single values
+            - Transform one data set to another
+            - Handling obscenely large amounts of data
+        - system design
+            - features sets
+            - interfaces
+            - class hierarchies
+            - designing a system under certain constraints
+            - simplicity and robustness
+            - tradeoffs
+            - performance analysis and optimization
 
-- [ ] **System design**
-    There are subjects here that overlap with scalability. So some of this is software design and some is systems design.
-    I moved the scalability stuff to the Scalability section.
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
+    - [x] START HERE: 
+        System Design from HiredInTech: http://www.hiredintech.com/system-design/
     - [x] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
-    - [x] System Design: http://www.hiredintech.com/system-design/
     - [x] Algorithm design: http://www.hiredintech.com/algorithm-design/
-    - [ ] Database normalization: http://www.studytonight.com/dbms/database-normalization
-    - [ ] https://github.com/checkcheckzz/system-design-interview
+    - [x] Database Normalization - 1NF, 2NF, 3NF and 4NF: https://www.youtube.com/watch?v=UrYLYV7WSHM
+    - [x] https://github.com/checkcheckzz/system-design-interview
+        - There are a lot of resources in this one. Look through the articles and examples.
     - [ ] http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
-    - [ ] Lecture Videos - can skip through some if you already have a good OO background
+    - [ ] Software Design Lecture Videos - can skip through some if you already have a good OO background
         - [ ] Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
         - [ ] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas
         - [ ] Chapter 2 (Part 2) - Inheritance, polymorphism and review of key Java concepts: https://www.youtube.com/watch?v=NSJ0zNQ2Ilk
@@ -954,8 +890,88 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - http://efectivejava.blogspot.in/2013/09/interface-segregation-principleisp-java.html
         - [ ] D-Dependency Inversion principle | Reduce the dependency In composition of objects.
             - http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important
-        
- 
+    - [x] Scalability:
+        - [x] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
+        - [x] Short series: 
+            - http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
+            - http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
+            - http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
+            - http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism
+        - [x] Scaling mobile games to a global audience using App Engine and Cloud Datastore: https://www.youtube.com/watch?v=9nWyWwY2Onc
+        - [x] How Google Does Planet-Scale Engineering for Planet-Scale Infra: https://www.youtube.com/watch?v=H4vMcD7zKM0
+        - [x] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
+        - [x] Sharding: http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html
+        - [x] Scale at Facebook (2009): https://www.infoq.com/presentations/Scale-at-Facebook
+        - [x] Scale at Facebook (2012), "Building for a Billion Users": https://www.youtube.com/watch?v=oodS71YtkGU
+        - [x] Engineering for the Long Game - Astrid Atkinson Keynote: https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4
+        - [x] 7 Years Of YouTube Scalability Lessons In 30 Minutes: http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
+            - video: https://www.youtube.com/watch?v=G-lGCC4KKok
+        - [x] How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs: http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html
+        - [x] How to Remove Duplicates in Large Datasets: https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/
+        - [x] A look inside Etsy's scale and engineering culture with Jon Cowie: https://www.youtube.com/watch?v=3vV4YiqKm1o
+        - [x] What Led Amazon to its Own Microservices Architecture: http://thenewstack.io/led-amazon-microservices-architecture/
+        - [x] To Compress Or Not To Compress, That Was Uber's Question: https://eng.uber.com/trip-data-squeeze/
+        - [x] Asyncio Tarantool Queue, Get In The Queue: http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
+        - [x] When Should Approximate Query Processing Be Used?: http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html
+        - [x] Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture: http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html
+        - [x] Spanner: http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html
+        - [x] Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System: http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html
+        - [x] Machine Learning Driven Programming: A New Programming For A New World: http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html
+        - [x] The Image Optimization Technology That Serves Millions Of Requests Per Day: http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html
+        - [x] A Patreon Architecture Short: http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html
+        - [x] Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?: http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html
+        - [x] Design Of A Modern Cache: http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html
+        - [x] Live Video Streaming At Facebook Scale: http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
+        - [x] A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS: http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
+        - [x] How Does The Use Of Docker Effect Latency?: http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html
+        - [x] Does AMP Counter An Existential Threat To Google?: http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html
+        - [x] A 360 Degree View Of The Entire Netflix Stack: http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html
+        - [x] Latency Is Everywhere And It Costs You Sales - How To Crush It: http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
+        - [x] Serverless (very long, just need the gist): http://martinfowler.com/articles/serverless.html
+        - [x] What Powers Instagram: Hundreds of Instances, Dozens of Technologies: http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances
+        - [x] Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day: http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html
+        - [x] Justin.Tv's Live Video Broadcasting Architecture: http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html
+        - [x] Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing: http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html
+        - [x] TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data: http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html
+        - [x] PlentyOfFish Architecture: http://highscalability.com/plentyoffish-architecture
+        - [x] Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day: http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html
+        - [x] ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second: http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html
+        - [x] Twitter 
+            - O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter": https://www.youtube.com/watch?v=5cKTP36HVgI
+            - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
+    
+- [ ] **About Google**:
+    - [ ] How Search Works:
+        - [ ] The Evolution of Search: https://www.youtube.com/watch?v=mTBShTwCnD4
+        - [ ] How Search Works - the story: https://www.google.com/insidesearch/howsearchworks/thestory/
+        - [ ] How Search Works - Matt Cutts: https://www.youtube.com/watch?v=BNHR6IQJGZs
+        - [ ] How Google makes improvements to its search algorithm: https://www.youtube.com/watch?v=J5RZOU6vK4Q
+        - [ ] How Search Works: https://www.google.com/insidesearch/howsearchworks/
+        - [ ] Series:
+            - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
+            - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
+            - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
+            - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
+
+- [ ] **Papers**:
+    - [ ] What Every Programmer Should Know About Memory: https://www.akkadia.org/drepper/cpumemory.pdf
+    - [ ] Spanner: Google’s Globally-Distributed Datab: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
+    - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
+    - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+    - [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
+    - [ ] How Developers Search for Code: A Case Study http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
+    - [ ] Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
+    - [ ] Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
+    - [ ] AddressSanitizer: A Fast Address Sanity Checker http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
+    - [ ] Communicating Sequential Processes (1978): http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
+    - [ ] Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
+    - [ ] High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
+    - [ ] Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
+
+- [x] **Unicode**
+    - [x] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html
+    - [x] What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text: http://kunststube.net/encoding/
+
 - [ ] **Familiarize yourself with a unix-based code editor: emacs & vi(m)**
     - suggested by Yegge, from an old Amazon recruiting post
     - vi(m):
@@ -1322,7 +1338,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Coursera (Scala): https://www.coursera.org/learn/parprog1/home/week/1
     - [x] Efficient Python for High Performance Parallel Computing: https://www.youtube.com/watch?v=uY85GkaYzBk
     
-
 - [ ] Discrete math (see videos below)
 
 - [ ] Go:

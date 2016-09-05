@@ -846,15 +846,23 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - simplicity and robustness
             - tradeoffs
             - performance analysis and optimization
-
-    - [x] START HERE: 
-        System Design from HiredInTech: http://www.hiredintech.com/system-design/
+    - [x] **START HERE**: System Design from HiredInTech: http://www.hiredintech.com/system-design/
     - [x] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
     - [x] Algorithm design: http://www.hiredintech.com/algorithm-design/
     - [x] Database Normalization - 1NF, 2NF, 3NF and 4NF: https://www.youtube.com/watch?v=UrYLYV7WSHM
-    - [x] https://github.com/checkcheckzz/system-design-interview
-        - There are a lot of resources in this one. Look through the articles and examples.
-    - [ ] http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
+    - [x] https://github.com/checkcheckzz/system-design-interview - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
+    - [ ] How to ace a systems design interview: http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
+    - [ ] Scalable Web Architecture and Distributed Systems: http://www.aosabook.org/en/distsys.html
+    - [ ] Numbers Everyone Should Know: http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
+    - [ ] Fallacies of Distributed Computing Explained: https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
+    - [ ] Pragmatic Programming Techniques: http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html
+    - [ ] Introduction to Architecting Systems for Scale: http://lethain.com/introduction-to-architecting-systems-for-scale/
+    - [ ] Transactions Across Datacenters: https://www.youtube.com/watch?v=srOgpXECblk
+    - [ ] A plain english introduction to CAP Theorem: http://ksat.me/a-plain-english-introduction-to-cap-theorem/
+    - [ ] Consensus algorithm: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
+    - [ ] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
+    - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
+    - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [ ] Software Design Lecture Videos - can skip through some if you already have a good OO background
         - [ ] Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
         - [ ] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas
@@ -877,18 +885,18 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] Chapter 9 (Part 3) - Pipe-and-Filter Architecture and Design Documents: https://www.youtube.com/watch?v=ZmsUizg6gPY
         - [ ] Chapter 10 and 11 - Testing process, Inspection, Process Models, Cost Estimation, Team Building: https://www.youtube.com/watch?v=L8x3OuZcEsc
     - [ ] SOLID OOP Principles:
-        - [ ] S– Single Responsibility Principle | Single responsibility to each Object
+        - [ ] S - Single Responsibility Principle | Single responsibility to each Object
             - http://www.oodesign.com/single-responsibility-principle.html
             - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
-        - [ ] O– Open/Closed Principal  | On production level Objects are ready for extension for not for modification
+        - [ ] O - Open/Closed Principal  | On production level Objects are ready for extension for not for modification
             - https://en.wikipedia.org/wiki/Open/closed_principle
             - http://www.oodesign.com/open-close-principle.html
-        - [ ] L– Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
+        - [ ] L - Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
             - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
             - http://www.oodesign.com/liskov-s-substitution-principle.html
-        - [ ] I – Interface segregation principle | If an implementation don’t require then don’t implement it.
+        - [ ] I - Interface segregation principle | If an implementation don’t require then don’t implement it.
             - http://efectivejava.blogspot.in/2013/09/interface-segregation-principleisp-java.html
-        - [ ] D-Dependency Inversion principle | Reduce the dependency In composition of objects.
+        - [ ] D - Dependency Inversion principle | Reduce the dependency In composition of objects.
             - http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important
     - [x] Scalability:
         - [x] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
@@ -936,9 +944,19 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] PlentyOfFish Architecture: http://highscalability.com/plentyoffish-architecture
         - [x] Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day: http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html
         - [x] ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second: http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html
-        - [x] Twitter 
+        - [x] Twitter:
             - O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter": https://www.youtube.com/watch?v=5cKTP36HVgI
             - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
+    - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
+        - Design a CDN network: http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci
+        - Design a random ID generation system: https://blog.twitter.com/2010/announcing-snowflake
+        - Design a key-value database: http://www.slideshare.net/dvirsky/introduction-to-redis
+        - Design a function to return the top k requests during past time interval: https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf
+        - Design an online multiplayer card game: http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
+        - Design a picture sharing system: http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html
+        - Design a recommendation system: http://ijcai13.org/files/tutorial_slides/td3.pdf
+        - Design a URL-shortener system: copied from above: http://www.hiredintech.com/system-design/the-system-design-process/
+        - Design a cache system: https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/
     
 - [ ] **About Google**:
     - [ ] How Search Works:
@@ -1018,6 +1036,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
         - Patterns: https://www.youtube.com/playlist?list=PLF206E906175C7E07
         - UML: https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+    - [ ] 101 Design Patterns & Tips for Developers: https://sourcemaking.com/design-patterns-and-tips
     - [ ] strategy
     - [ ] singleton
     - [ ] adapter

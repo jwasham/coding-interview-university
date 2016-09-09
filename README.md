@@ -858,6 +858,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Fallacies of Distributed Computing Explained: https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
     - [x] Pragmatic Programming Techniques: http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html
         - extra: Google Pregel Graph Processing: http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html
+    - [x] Jeff Dean - Building Software Systems At Google and Lessons Learned: https://www.youtube.com/watch?v=modXC5IWTJI
     - [ ] Introduction to Architecting Systems for Scale: http://lethain.com/introduction-to-architecting-systems-for-scale/
     - [ ] Transactions Across Datacenters: https://www.youtube.com/watch?v=srOgpXECblk
     - [ ] A plain english introduction to CAP Theorem: http://ksat.me/a-plain-english-introduction-to-cap-theorem/
@@ -866,8 +867,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
     - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [ ] Software Design Lecture Videos - can skip through some if you already have a good OO background
-        - [ ] Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
-        - [ ] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas
+        - [x] skippable: Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
+        - [x] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas
         - [ ] Chapter 2 (Part 2) - Inheritance, polymorphism and review of key Java concepts: https://www.youtube.com/watch?v=NSJ0zNQ2Ilk
         - [ ] Chapter 3 (Part 1) - Reuse, Frameworks, and Basic Client-Server Concepts: https://www.youtube.com/watch?v=H7kLteC0vJY
         - [ ] Chapter 3 (Part 2) - Client-Server Architecture, Network Concepts, and Networking in Java: https://www.youtube.com/watch?v=0W4iYsHjhlY
@@ -887,6 +888,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] Chapter 9 (Part 3) - Pipe-and-Filter Architecture and Design Documents: https://www.youtube.com/watch?v=ZmsUizg6gPY
         - [ ] Chapter 10 and 11 - Testing process, Inspection, Process Models, Cost Estimation, Team Building: https://www.youtube.com/watch?v=L8x3OuZcEsc
     - [ ] SOLID OOP Principles:
+        - [x] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
         - [ ] S - Single Responsibility Principle | Single responsibility to each Object
             - http://www.oodesign.com/single-responsibility-principle.html
             - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html

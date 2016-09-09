@@ -866,6 +866,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
     - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
     - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
+    - [x] UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
     - [ ] Software Design Lecture Videos - can skip through some if you already have a good OO background
         - [x] skippable: Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
         - [x] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas

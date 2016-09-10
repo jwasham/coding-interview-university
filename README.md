@@ -861,7 +861,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
     - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [ ] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
-    - [ ] OOSE: Software Dev Using UML and Java (21 videos): https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
+    - [ ] OOSE: Software Dev Using UML and Java (21 videos): 
+        - Can skip this if you have a great grasp of OO and OO design practices.
+        - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - [ ] SOLID OOP Principles:
         - [x] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
         - [ ] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ

@@ -852,14 +852,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Database Normalization - 1NF, 2NF, 3NF and 4NF: https://www.youtube.com/watch?v=UrYLYV7WSHM
     - [x] https://github.com/checkcheckzz/system-design-interview - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
     - [x] How to ace a systems design interview: http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
-    - [x] Scalable Web Architecture and Distributed Systems: http://www.aosabook.org/en/distsys.html
     - [x] Numbers Everyone Should Know: http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
     - [x] How long does it take to make a context switch?: http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html
-    - [x] Fallacies of Distributed Computing Explained: https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
-    - [x] Pragmatic Programming Techniques: http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html
-        - extra: Google Pregel Graph Processing: http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html
-    - [x] Jeff Dean - Building Software Systems At Google and Lessons Learned: https://www.youtube.com/watch?v=modXC5IWTJI
-    - [ ] Introduction to Architecting Systems for Scale: http://lethain.com/introduction-to-architecting-systems-for-scale/
     - [ ] Transactions Across Datacenters: https://www.youtube.com/watch?v=srOgpXECblk
     - [ ] A plain english introduction to CAP Theorem: http://ksat.me/a-plain-english-introduction-to-cap-theorem/
     - [ ] Consensus algorithm: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
@@ -867,29 +861,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
     - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [x] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
-    - [ ] Software Design Lecture Videos - can skip through some if you already have a good OO background
-        - [x] skippable: Chapter 1 - Software and Software Engineering: https://www.youtube.com/watch?v=maE3PxV4mk0
-        - [x] Chapter 2 (Part 1) - Basics of Object-Orientation: https://www.youtube.com/watch?v=noe17Sg5Uas
-        - [ ] Chapter 2 (Part 2) - Inheritance, polymorphism and review of key Java concepts: https://www.youtube.com/watch?v=NSJ0zNQ2Ilk
-        - [ ] Chapter 3 (Part 1) - Reuse, Frameworks, and Basic Client-Server Concepts: https://www.youtube.com/watch?v=H7kLteC0vJY
-        - [ ] Chapter 3 (Part 2) - Client-Server Architecture, Network Concepts, and Networking in Java: https://www.youtube.com/watch?v=0W4iYsHjhlY
-        - [ ] Chapter 4 (Part 1) - Simplechat and Requirements: https://www.youtube.com/watch?v=_c-lYobWpjc 
-        - [ ] Chapter 4 (Part 2) - Developing Requirements: https://www.youtube.com/watch?v=JDbZa5q4NzM
-        - [ ] Chapter 5 (Part 1) - Class Diagrams: https://www.youtube.com/watch?v=_c-lYobWpjc
-        - [ ] Chapter 5 (Part 2) - Aggregation, OCL, Genealogy Example, Process for Developing Diagrams: https://www.youtube.com/watch?v=ozHk4LEaBJs
-        - [ ] Chapter 5 (Part 3) - Developing a Class Diagram for the Bank Account Management System: https://www.youtube.com/watch?v=Kg1hL-etRwE
-        - [ ] Chapter 6 (Part 1) - Patterns: https://www.youtube.com/watch?v=LAP2A80Ajrg
-        - [ ] Chapter 6 (Part 2) - General Hierarchy, Player-Role, Singleton, Observer, Delegation: https://www.youtube.com/watch?v=U8-PGsjvZc4
-        - [ ] Chapter 6 (Part 3) - Adapter, Facade, Read-Only Interface, Proxy: https://www.youtube.com/watch?v=7sduBHuex4c
-        - [ ] Chapter 7 (Part 1) - Users, Use Cases, User Interface Design: https://www.youtube.com/watch?v=zoANpUOLCn0
-        - [ ] Chapter 7 (Part 2) - Evaluating a UI, Implementing a UI in Java: https://www.youtube.com/watch?v=Ip18LJdy6UY
-        - [ ] Chapter 8 - State and Activity Diagrams: https://www.youtube.com/watch?v=5IQgKtRuyiY
-        - [ ] Chapter 9 (Part 1) - Software Architecture and Design: https://www.youtube.com/watch?v=FMKv8Vozf5c
-        - [ ] Chapter 9 (Part 2) - Design Principles, Software Architecture: https://www.youtube.com/watch?v=XQnytAeZrWE
-        - [ ] Chapter 9 (Part 3) - Pipe-and-Filter Architecture and Design Documents: https://www.youtube.com/watch?v=ZmsUizg6gPY
-        - [ ] Chapter 10 and 11 - Testing process, Inspection, Process Models, Cost Estimation, Team Building: https://www.youtube.com/watch?v=L8x3OuZcEsc
+    - [ ] OO Design Videos - can skip through some if you already have a good OO background: 
+        - https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE
     - [ ] SOLID OOP Principles:
         - [x] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
+        - [ ] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
         - [ ] S - Single Responsibility Principle | Single responsibility to each Object
             - http://www.oodesign.com/single-responsibility-principle.html
             - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
@@ -910,6 +886,12 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
             - http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
             - http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism
+        - [x] Scalable Web Architecture and Distributed Systems: http://www.aosabook.org/en/distsys.html
+        - [x] Fallacies of Distributed Computing Explained: https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
+        - [x] Pragmatic Programming Techniques: http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html
+            - extra: Google Pregel Graph Processing: http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html
+        - [x] Jeff Dean - Building Software Systems At Google and Lessons Learned: https://www.youtube.com/watch?v=modXC5IWTJI
+        - [ ] Introduction to Architecting Systems for Scale: http://lethain.com/introduction-to-architecting-systems-for-scale/
         - [x] Scaling mobile games to a global audience using App Engine and Cloud Datastore: https://www.youtube.com/watch?v=9nWyWwY2Onc
         - [x] How Google Does Planet-Scale Engineering for Planet-Scale Infra: https://www.youtube.com/watch?v=H4vMcD7zKM0
         - [x] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
@@ -1427,6 +1409,9 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] CSE373 - Analysis of Algorithms (25 videos):
     - Skiena lectures from Algorithm Design Manual
     - https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1
+    
+- [ ] OOSE: Software Dev Using UML and Java (21 videos): 
+    - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
 
 - [ ] UC Berkeley 61B (Spring 2014): Data Structures (25 videos):
     - https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd

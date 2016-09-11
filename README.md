@@ -866,7 +866,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - [ ] SOLID OOP Principles:
         - [x] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
-        - [ ] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
+        - [x] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
+        - [x] SOLID Principles: https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
         - [ ] S - Single Responsibility Principle | Single responsibility to each Object
             - http://www.oodesign.com/single-responsibility-principle.html
             - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
@@ -1435,19 +1436,19 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos):
     - https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi
 
-- [ ] MIT 6.042J Mathematics for Computer Science, Fall 2010 (25 videos):
+- [ ] MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos):
     - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
 
 - [ ] MIT 6.046: Design and Analysis of Algorithms (34 videos):
     - https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
-- [ ] MIT 6.050J Information and Entropy, Spring 2008 (19 videos)
+- [ ] MIT 6.050J: Information and Entropy, Spring 2008 (19 videos)
     - https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7
 
 - [ ] MIT 6.851: Advanced Data Structures (22 videos):
     - https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1
 
-- [ ] MIT 6.854 (Advanced Algorithms), Spring 2016 (24 videos):
+- [ ] MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos):
     - https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c
 
 - [ ] MIT 6.858 Computer Systems Security, Fall 2014 ():

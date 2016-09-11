@@ -1014,6 +1014,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] tcpdump: https://danielmiessler.com/study/tcpdump/
 
 - [ ] **Testing**
+    - [ ] TDD is dead. Long live testing.: http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html
     - how unit testing works
     - what are mock objects
     - what is integration testing

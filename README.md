@@ -1022,9 +1022,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] **Design patterns**
     - [ ] CS164 Lecture 3 Design Patterns: https://youtu.be/mym5m-GKG0Q?t=660
-    - [ ] Chapter 6 (Part 1) - Patterns: https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344
-    - [ ] Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation: https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
-    - [ ] Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy: https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
+    - [x] Chapter 6 (Part 1) - Patterns: https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344
+    - [x] Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation: https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
+    - [x] Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy: https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - description:
         - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html
         - Patterns: https://www.youtube.com/playlist?list=PLF206E906175C7E07
@@ -1037,6 +1037,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] decorator
     - [ ] visitor
     - [ ] factory
+    - [ ] facade
+    - [ ] observer
+    - [ ] proxy
+    - [ ] delegate
 
 - [ ] **Scheduling**
     - in an OS, how it works

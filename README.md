@@ -854,14 +854,17 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] How to ace a systems design interview: http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
     - [x] Numbers Everyone Should Know: http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
     - [x] How long does it take to make a context switch?: http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html
-    - [ ] Transactions Across Datacenters: https://www.youtube.com/watch?v=srOgpXECblk
-    - [ ] A plain english introduction to CAP Theorem: http://ksat.me/a-plain-english-introduction-to-cap-theorem/
-    - [ ] Consensus algorithm: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
+    - [x] Transactions Across Datacenters: https://www.youtube.com/watch?v=srOgpXECblk
+    - [x] A plain english introduction to CAP Theorem: http://ksat.me/a-plain-english-introduction-to-cap-theorem/
+    - [x] Paxos Consensus algorithm: 
+        - short video: https://www.youtube.com/watch?v=s8JqcZtvnsM
+        - extended video with use case and multi-paxos: https://www.youtube.com/watch?v=JEpsBg0AO6o
+        - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
     - [ ] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
     - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
     - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
-    - [ ] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
-    - [ ] OOSE: Software Dev Using UML and Java (21 videos): 
+    - [x] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+    - [x] OOSE: Software Dev Using UML and Java (21 videos): 
         - Can skip this if you have a great grasp of OO and OO design practices.
         - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - [ ] SOLID OOP Principles:

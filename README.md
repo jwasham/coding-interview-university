@@ -860,9 +860,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - short video: https://www.youtube.com/watch?v=s8JqcZtvnsM
         - extended video with use case and multi-paxos: https://www.youtube.com/watch?v=JEpsBg0AO6o
         - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
-    - [ ] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
-    - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
-    - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
+    - [x] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
+    - [x] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
+    - [x] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [x] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
     - [x] OOSE: Software Dev Using UML and Java (21 videos): 
         - Can skip this if you have a great grasp of OO and OO design practices.

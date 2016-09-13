@@ -848,6 +848,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - performance analysis and optimization
     - [x] **START HERE**: System Design from HiredInTech: http://www.hiredintech.com/system-design/
     - [x] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
+    - [x] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [x] Algorithm design: http://www.hiredintech.com/algorithm-design/
     - [x] Database Normalization - 1NF, 2NF, 3NF and 4NF: https://www.youtube.com/watch?v=UrYLYV7WSHM
     - [x] https://github.com/checkcheckzz/system-design-interview - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
@@ -862,7 +863,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
     - [x] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
     - [x] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
-    - [x] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [x] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
     - [x] OOSE: Software Dev Using UML and Java (21 videos): 
         - Can skip this if you have a great grasp of OO and OO design practices.
@@ -871,18 +871,20 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
         - [x] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
         - [x] SOLID Principles: https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
-        - [ ] S - Single Responsibility Principle | Single responsibility to each Object
+        - [x] S - Single Responsibility Principle | Single responsibility to each Object
             - http://www.oodesign.com/single-responsibility-principle.html
             - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
-        - [ ] O - Open/Closed Principal  | On production level Objects are ready for extension for not for modification
-            - https://en.wikipedia.org/wiki/Open/closed_principle
+        - [x] O - Open/Closed Principal  | On production level Objects are ready for extension for not for modification
             - http://www.oodesign.com/open-close-principle.html
+            - https://en.wikipedia.org/wiki/Open/closed_principle
         - [ ] L - Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
-            - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
             - http://www.oodesign.com/liskov-s-substitution-principle.html
+            - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
         - [ ] I - Interface segregation principle | If an implementation don’t require then don’t implement it.
+            - http://www.oodesign.com/interface-segregation-principle.html
             - http://efectivejava.blogspot.in/2013/09/interface-segregation-principleisp-java.html
         - [ ] D - Dependency Inversion principle | Reduce the dependency In composition of objects.
+            - http://www.oodesign.com/dependency-inversion-principle.html
             - http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important
     - [x] Scalability:
         - [x] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
@@ -1147,7 +1149,7 @@ If you have time:
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
 
-- [ ] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
+- [x] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
 - [ ] How to Find a Solution: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/
 - [ ] How to Dissect a Topcoder Problem Statement: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/ 
 - [ ] Mathematics for Topcoders: https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/

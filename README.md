@@ -948,7 +948,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
     - [x] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
         - review: System Design from HiredInTech: http://www.hiredintech.com/system-design/
-        - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+        - cheat sheet: https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf
         - flow:
             1. Understand the problem and scope:
                 - define the use cases, with interviewer's help

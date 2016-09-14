@@ -877,9 +877,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] O - Open/Closed Principal  | On production level Objects are ready for extension for not for modification
             - http://www.oodesign.com/open-close-principle.html
             - https://en.wikipedia.org/wiki/Open/closed_principle
-        - [ ] L - Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
+            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en
+        - [x] L - Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
             - http://www.oodesign.com/liskov-s-substitution-principle.html
             - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
+            - more flavor: http://web.archive.org/web/20151128004108/http://www.objectmentor.com/resources/articles/lsp.pdf
         - [ ] I - Interface segregation principle | If an implementation don’t require then don’t implement it.
             - http://www.oodesign.com/interface-segregation-principle.html
             - http://efectivejava.blogspot.in/2013/09/interface-segregation-principleisp-java.html

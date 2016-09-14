@@ -948,21 +948,36 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
     - [x] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
         - review: System Design from HiredInTech: http://www.hiredintech.com/system-design/
+        - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
         - flow:
-            - ask about constraints
-            - determine use cases
-            - abstract, high level design
-            - bottlenecks
-            - scaling
-        - Design a CDN network: http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci
-        - Design a random ID generation system: https://blog.twitter.com/2010/announcing-snowflake
-        - Design a key-value database: http://www.slideshare.net/dvirsky/introduction-to-redis
-        - Design a function to return the top k requests during past time interval: https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf
-        - Design an online multiplayer card game: http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
-        - Design a picture sharing system: http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html
-        - Design a recommendation system: http://ijcai13.org/files/tutorial_slides/td3.pdf
-        - Design a URL-shortener system: copied from above: http://www.hiredintech.com/system-design/the-system-design-process/
-        - Design a cache system: https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/
+            1. Understand the problem and scope:
+                - define the use cases, with interviewer's help
+                - suggest additional features
+                - remove items that interviewer deems out of scope
+                - assume high availability is required, add as a use case
+            2. Think about constraints:
+                - ask how many requests per month
+                - ask how many requests per second (they may volunteer it or make you do the math)
+                - estimate reads vs. writes percentage
+                - keep 80/20 rule in mind when estimating
+                - how much data written per second
+                - total storage required over 5 years
+                - how much data read per second
+            3. Abstract design:
+                - layers (service, data, caching)
+                - infrastructure: load balancing, messaging
+                - rough overview of any key algorithm that drives the service
+                - consider bottlenecks and determine solutions
+        - Exercises:
+            - Design a CDN network: http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci
+            - Design a random ID generation system: https://blog.twitter.com/2010/announcing-snowflake
+            - Design a key-value database: http://www.slideshare.net/dvirsky/introduction-to-redis
+            - Design a function to return the top k requests during past time interval: https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf
+            - Design an online multiplayer card game: http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
+            - Design a picture sharing system: http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html
+            - Design a recommendation system: http://ijcai13.org/files/tutorial_slides/td3.pdf
+            - Design a URL-shortener system: copied from above: http://www.hiredintech.com/system-design/the-system-design-process/
+            - Design a cache system: https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/
 
 - [ ] **About Google**:
     - [ ] How Search Works:

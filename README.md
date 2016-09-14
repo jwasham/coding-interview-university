@@ -946,7 +946,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Twitter:
             - O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter": https://www.youtube.com/watch?v=5cKTP36HVgI
             - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
-    - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
+    - [x] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
         - Design a CDN network: http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci
         - Design a random ID generation system: https://blog.twitter.com/2010/announcing-snowflake
         - Design a key-value database: http://www.slideshare.net/dvirsky/introduction-to-redis
@@ -956,7 +956,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Design a recommendation system: http://ijcai13.org/files/tutorial_slides/td3.pdf
         - Design a URL-shortener system: copied from above: http://www.hiredintech.com/system-design/the-system-design-process/
         - Design a cache system: https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/
-    
+
 - [ ] **About Google**:
     - [ ] How Search Works:
         - [ ] The Evolution of Search: https://www.youtube.com/watch?v=mTBShTwCnD4

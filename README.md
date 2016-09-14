@@ -867,13 +867,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] OOSE: Software Dev Using UML and Java (21 videos): 
         - Can skip this if you have a great grasp of OO and OO design practices.
         - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
-    - [ ] SOLID OOP Principles:
+    - [x] SOLID OOP Principles:
         - [x] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
         - [x] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
         - [x] SOLID Principles: https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
         - [x] S - Single Responsibility Principle | Single responsibility to each Object
             - http://www.oodesign.com/single-responsibility-principle.html
             - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
+            - more flavor: https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk
         - [x] O - Open/Closed Principal  | On production level Objects are ready for extension for not for modification
             - http://www.oodesign.com/open-close-principle.html
             - https://en.wikipedia.org/wiki/Open/closed_principle
@@ -881,13 +882,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] L - Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
             - http://www.oodesign.com/liskov-s-substitution-principle.html
             - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
-            - more flavor: http://web.archive.org/web/20151128004108/http://www.objectmentor.com/resources/articles/lsp.pdf
-        - [ ] I - Interface segregation principle | If an implementation don’t require then don’t implement it.
+            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en
+        - [x] I - Interface segregation principle | clients should not be forced to implement interfaces they don't use
             - http://www.oodesign.com/interface-segregation-principle.html
-            - http://efectivejava.blogspot.in/2013/09/interface-segregation-principleisp-java.html
-        - [ ] D - Dependency Inversion principle | Reduce the dependency In composition of objects.
+            - Interface Segregation Principle in 5 minutes: https://www.youtube.com/watch?v=3CtAfl7aXAQ
+            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en
+        - [x] D - Dependency Inversion principle | Reduce the dependency In composition of objects.
             - http://www.oodesign.com/dependency-inversion-principle.html
             - http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important
+            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en
     - [x] Scalability:
         - [x] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
         - [x] Short series: 

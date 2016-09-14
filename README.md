@@ -969,8 +969,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
                 - rough overview of any key algorithm that drives the service
                 - consider bottlenecks and determine solutions
         - Exercises:
-            - Design a CDN network: http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci
-            - Design a random ID generation system: https://blog.twitter.com/2010/announcing-snowflake
+            - Design a CDN network: old article: http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci
+            - Design a random unique ID generation system: https://blog.twitter.com/2010/announcing-snowflake
             - Design a key-value database: http://www.slideshare.net/dvirsky/introduction-to-redis
             - Design a function to return the top k requests during past time interval: https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf
             - Design an online multiplayer card game: http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html

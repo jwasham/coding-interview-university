@@ -994,7 +994,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] **Papers**:
     - [ ] What Every Programmer Should Know About Memory: https://www.akkadia.org/drepper/cpumemory.pdf
-    - [ ] Spanner: Google’s Globally-Distributed Datab: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
+    - [ ] Spanner: Google’s Globally-Distributed Database: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
     - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
     - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
     - [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 

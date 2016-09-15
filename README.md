@@ -993,7 +993,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
 - [ ] **Papers**:
-    - [ ] What Every Programmer Should Know About Memory: https://www.akkadia.org/drepper/cpumemory.pdf
+    - [ ] What Every Programmer Should Know About Memory (very long for a paper): https://www.akkadia.org/drepper/cpumemory.pdf
     - [ ] Spanner: Google’s Globally-Distributed Database: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
     - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
     - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf

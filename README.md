@@ -995,10 +995,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] **Papers**:
     - [x] What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections): https://www.akkadia.org/drepper/cpumemory.pdf
     - [x] Spanner: Google’s Globally-Distributed Database: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
-    - [ ] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf 
+    - [x] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+    - [ ] How Developers Search for Code: A Case Study http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
     - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
     - [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
-    - [ ] How Developers Search for Code: A Case Study http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
     - [ ] Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
     - [ ] Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
     - [ ] AddressSanitizer: A Fast Address Sanity Checker http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf

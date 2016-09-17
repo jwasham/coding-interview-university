@@ -993,7 +993,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
 - [ ] **Papers (Google papers and well-known papers)**:
-    - [ ] 1978: Communicating Sequential Processes: http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
+    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
+    - [x] 1978: Communicating Sequential Processes: http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
+        - implemented in Go: https://godoc.org/github.com/thomas11/csp
+        - Love classic papers? https://www.cs.cmu.edu/~crary/819-f09/
     - [x] 2003: The Google File System: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
         - replaced by Colossus in 2012
     - [ ] 2004: MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf

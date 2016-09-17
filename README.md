@@ -992,20 +992,28 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
             - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
-- [ ] **Papers**:
-    - [x] What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections): https://www.akkadia.org/drepper/cpumemory.pdf
-    - [x] Spanner: Google’s Globally-Distributed Database: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
-    - [x] The Google File System:  http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
-    - [ ] How Developers Search for Code: A Case Study http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
-    - [ ] MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
-    - [ ] TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
-    - [ ] Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
-    - [ ] Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
-    - [ ] AddressSanitizer: A Fast Address Sanity Checker http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
-    - [ ] Communicating Sequential Processes (1978): http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
-    - [ ] Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
-    - [ ] High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
-    - [ ] Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
+- [ ] **Papers (Google papers and well-known papers)**:
+    - [ ] 1978: Communicating Sequential Processes: http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
+    - [x] 2003: The Google File System: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+        - replaced by Colossus in 2012
+    - [ ] 2004: MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+        - mostly replaced by Cloud Dataflow?
+    - [x] 2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections): https://www.akkadia.org/drepper/cpumemory.pdf
+    - [ ] 2012: Google's Colossus: https://www.wired.com/2012/07/google-colossus/
+        - paper not available
+    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker: 
+        - paper: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
+        - video: https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany
+    - [x] 2013: Spanner: Google’s Globally-Distributed Database: 
+        - paper: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
+        - video: https://www.usenix.org/node/170855
+    - [ ] 2014: Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
+    - [ ] 2015: Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
+    - [ ] 2015: Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
+    - [ ] 2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
+    - [ ] 2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
+    - [x] 2015: How Developers Search for Code: A Case Study: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
+    - [ ] 2016: Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
 
 - [x] **Unicode**
     - [x] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html

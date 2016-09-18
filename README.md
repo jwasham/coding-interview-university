@@ -992,7 +992,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
             - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
-- [ ] **Papers (Google papers and well-known papers)**:
+- [x] **Papers (Google papers and well-known papers)**:
     - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
     - [x] 1978: Communicating Sequential Processes: http://spinroot.com/courses/summer/Papers/hoare_1978.pdf
         - implemented in Go: https://godoc.org/github.com/thomas11/csp
@@ -1015,7 +1015,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] 2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
     - [x] 2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
     - [x] 2015: How Developers Search for Code: A Case Study: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
-    - [ ] 2016: Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
+    - [x] 2016: Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
 
 - [x] **Unicode**
     - [x] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html

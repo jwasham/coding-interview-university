@@ -981,11 +981,11 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] **About Google**:
     - [ ] How Search Works:
-        - [ ] The Evolution of Search: https://www.youtube.com/watch?v=mTBShTwCnD4
-        - [ ] How Search Works - the story: https://www.google.com/insidesearch/howsearchworks/thestory/
-        - [ ] How Search Works - Matt Cutts: https://www.youtube.com/watch?v=BNHR6IQJGZs
-        - [ ] How Google makes improvements to its search algorithm: https://www.youtube.com/watch?v=J5RZOU6vK4Q
+        - [x] The Evolution of Search: https://www.youtube.com/watch?v=mTBShTwCnD4
+        - [x] How Search Works - the story: https://www.google.com/insidesearch/howsearchworks/thestory/
         - [ ] How Search Works: https://www.google.com/insidesearch/howsearchworks/
+        - [x] How Search Works - Matt Cutts: https://www.youtube.com/watch?v=BNHR6IQJGZs
+        - [ ] How Google makes improvements to its search algorithm: https://www.youtube.com/watch?v=J5RZOU6vK4Q
         - [ ] Series:
             - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
             - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf

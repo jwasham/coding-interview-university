@@ -979,18 +979,18 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - Design a URL-shortener system: copied from above: http://www.hiredintech.com/system-design/the-system-design-process/
             - Design a cache system: https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/
 
-- [ ] **About Google**:
-    - [ ] How Search Works:
+- [x] **About Google**:
+    - [x] How Search Works:
         - [x] The Evolution of Search: https://www.youtube.com/watch?v=mTBShTwCnD4
         - [x] How Search Works - the story: https://www.google.com/insidesearch/howsearchworks/thestory/
-        - [ ] How Search Works: https://www.google.com/insidesearch/howsearchworks/
+        - [x] How Search Works: https://www.google.com/insidesearch/howsearchworks/
         - [x] How Search Works - Matt Cutts: https://www.youtube.com/watch?v=BNHR6IQJGZs
-        - [ ] How Google makes improvements to its search algorithm: https://www.youtube.com/watch?v=J5RZOU6vK4Q
-        - [ ] Series:
-            - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
-            - [ ] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
-            - [ ] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
-            - [ ] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
+        - [x] How Google makes improvements to its search algorithm: https://www.youtube.com/watch?v=J5RZOU6vK4Q
+    - [x] Series:
+        - [x] https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9
+        - [x] https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf
+        - [x] https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523
+        - [x] https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a
 
 - [x] **Papers (Google papers and well-known papers)**:
     - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.

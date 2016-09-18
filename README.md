@@ -999,22 +999,21 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Love classic papers? https://www.cs.cmu.edu/~crary/819-f09/
     - [x] 2003: The Google File System: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
         - replaced by Colossus in 2012
-    - [ ] 2004: MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+    - [x] 2004: MapReduce: Simplified Data Processing on Large Clusters: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
         - mostly replaced by Cloud Dataflow?
     - [x] 2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections): https://www.akkadia.org/drepper/cpumemory.pdf
-    - [ ] 2012: Google's Colossus: https://www.wired.com/2012/07/google-colossus/
+    - [x] 2012: Google's Colossus: https://www.wired.com/2012/07/google-colossus/
         - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker: 
+    - [x] 2012: AddressSanitizer: A Fast Address Sanity Checker:
         - paper: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf
         - video: https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany
-    - [x] 2013: Spanner: Google’s Globally-Distributed Database: 
+    - [x] 2013: Spanner: Google’s Globally-Distributed Database:
         - paper: http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
         - video: https://www.usenix.org/node/170855
-    - [ ] 2014: Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
-    - [ ] 2015: Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
-    - [ ] 2015: Computing Weak Consistency in Polynomial Time: http://dl.acm.org/ft_gateway.cfm?id=2767407&ftid=1607485&dwn=1&CFID=627637486&CFTOKEN=49290244
-    - [ ] 2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
-    - [ ] 2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
+    - [x] 2014: Machine Learning: The High-Interest Credit Card of Technical Debt: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
+    - [x] 2015: Continuous Pipelines at Google: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf
+    - [x] 2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf
+    - [x] 2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: http://download.tensorflow.org/paper/whitepaper2015.pdf 
     - [x] 2015: How Developers Search for Code: A Case Study: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf
     - [ ] 2016: Borg, Omega, and Kubernetes: http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf
 

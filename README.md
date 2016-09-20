@@ -1379,7 +1379,12 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Thrift: 
         - https://thrift.apache.org/
         - http://thrift-tutorial.readthedocs.io/en/latest/intro.html
-    - [ ] Protocol Buffers
+    - [x] Protocol Buffers
+        - https://developers.google.com/protocol-buffers/
+        - https://developers.google.com/protocol-buffers/docs/tutorials
+    - [x] gRPC:
+        - http://www.grpc.io/
+        - https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1
     - [ ] Redis
     - [x] Amazon SQS (queue)
     - [x] Amazon SNS (pub-sub)

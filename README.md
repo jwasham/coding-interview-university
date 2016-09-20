@@ -1399,9 +1399,14 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] Discrete math (see videos below)
 
 - [ ] Go:
-    - [ ] A Tour of Go: https://www.youtube.com/watch?v=ytEkHepK08c
-    - [ ] Go Programming: https://www.youtube.com/watch?v=CF9S4QZuV30
-    - [ ] Why Learn Go?: https://www.youtube.com/watch?v=FTl0tl9BGdc
+    - [x] Videos:
+        - [x] Why Learn Go?: https://www.youtube.com/watch?v=FTl0tl9BGdc
+        - [x] Go Programming: https://www.youtube.com/watch?v=CF9S4QZuV30
+        - [x] A Tour of Go: https://www.youtube.com/watch?v=ytEkHepK08c
+    - [x] Books:
+        - [x] An Introduction to Programming in Go (read free online): https://www.golang-book.com/books/intro
+        - [ ] The Go Programming Language (Donovan & Kernighan): https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440
+    - [ ] Bootcamp: https://www.golang-book.com/guides/bootcamp
 
 --
 

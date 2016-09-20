@@ -1376,7 +1376,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
 
 - [ ] **Messaging and Queueing Systems**
-    - [ ] Thrift
+    - [x] Thrift: 
+        - https://thrift.apache.org/
+        - http://thrift-tutorial.readthedocs.io/en/latest/intro.html
     - [ ] Protocol Buffers
     - [ ] Redis
     - [x] Amazon SQS (queue)

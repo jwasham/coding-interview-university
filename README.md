@@ -943,7 +943,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] PlentyOfFish Architecture: http://highscalability.com/plentyoffish-architecture
         - [x] Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day: http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html
         - [x] ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second: http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html
-        - [x] See "Messaging and Queueing Systems" way below for info on some of the technologies that can glue services together
+        - [x] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
         - [x] Twitter:
             - O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter": https://www.youtube.com/watch?v=5cKTP36HVgI
             - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
@@ -1375,14 +1375,14 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - https://www.youtube.com/watch?v=-SuTGoFYjZs
     - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
 
-- [ ] **Messaging and Queueing Systems**
-    - [x] Thrift: 
+- [x] **Messaging, Serialization, and Queueing Systems**
+    - [x] Thrift
         - https://thrift.apache.org/
         - http://thrift-tutorial.readthedocs.io/en/latest/intro.html
     - [x] Protocol Buffers
         - https://developers.google.com/protocol-buffers/
         - https://developers.google.com/protocol-buffers/docs/tutorials
-    - [x] gRPC:
+    - [x] gRPC
         - http://www.grpc.io/
         - https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1
     - [x] Redis
@@ -1398,11 +1398,18 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Celery
         - http://www.celeryproject.org/
         - http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
-    - [ ] ZeroMQ
-    - [ ] ActiveMQ
-    - [ ] Kafka
-    - [ ] MessagePack
-
+    - [x] ZeroMQ
+        - http://zeromq.org/
+        - http://zeromq.org/intro:read-the-manual
+    - [x] ActiveMQ
+        - http://activemq.apache.org/
+    - [x] Kafka
+        - http://kafka.apache.org/documentation.html#introduction
+    - [x] MessagePack
+        - http://msgpack.org/index.html
+    - [x] Avro
+        - https://avro.apache.org/
+        
 - [ ] **Machine Learning**
     - Why ML?
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70

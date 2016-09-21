@@ -1392,8 +1392,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
     - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
-- [ ] **van Emde Boas Trees**
-    - [ ] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
+- [x] **van Emde Boas Trees**
+    - [x] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
+    - [x] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf
 
 - [x] **Fast Fourier Transform**
     - [x] What is a Fourier transform? What is it used for?: http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/

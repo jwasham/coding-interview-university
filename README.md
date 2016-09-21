@@ -1385,11 +1385,19 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] gRPC:
         - http://www.grpc.io/
         - https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1
-    - [ ] Redis
+    - [x] Redis
+        - http://redis.io/
+        - tutorial: http://try.redis.io/
     - [x] Amazon SQS (queue)
+        - https://aws.amazon.com/sqs/
     - [x] Amazon SNS (pub-sub)
-    - [ ] RabbitMQ
-    - [ ] Celery
+        - https://aws.amazon.com/sns/
+    - [x] RabbitMQ
+        - https://www.rabbitmq.com/
+        - https://www.rabbitmq.com/getstarted.html
+    - [x] Celery
+        - http://www.celeryproject.org/
+        - http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
     - [ ] ZeroMQ
     - [ ] ActiveMQ
     - [ ] Kafka

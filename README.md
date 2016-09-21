@@ -67,10 +67,26 @@ from public sources and replacing the online course videos over time. I like usi
 
 ## Table of Contents
 
-- [Interview Process & General Interview Prep](#interview-process-general-interview-prep)
+- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
-
+- [Data Structures](#data-structures)
+- [More Knowledge](#more-knowledge)
+- [Trees](#trees)
+- [Sorting](#sorting)
+- [Graphs](#graphs)
+- [Even More Knowledge](#even-more-knowledge)
+- [Final Review](#final-review)
+- [Books](#books)
+- [Coding exercises/challenges](#coding-exerciseschallenges)
+- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+- [Your Resume](#your-resume)
+- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+- [Have questions for the interviewer](#have-questions-for-the-interviewer)
+- [Additional Learnings (not required)](#additional-learnings-not-required)
+- [Additional Learning](#additional-learning)
+- [Video Series](#video-series)
+- [Once You've Got The Job](#once-youve-got-the-job)
 
 ---
 
@@ -1194,7 +1210,7 @@ If you have time:
     - all code is in C++, if you're looking to use C++ in your interview
     - good book on problem solving in general.
 
-## Coding exercises/challenges:
+## Coding exercises/challenges
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
@@ -1217,7 +1233,7 @@ Take coding challenges every day, as many as you can.
 
     - Exercises for getting better at a given language: http://exercism.io/languages
 
-## Once you're closer to the interview:
+## Once you're closer to the interview
 
 - [ ] Cracking The Coding Interview Set 2:
     - https://www.youtube.com/watch?v=4NIb9l3imAo
@@ -1230,7 +1246,7 @@ Take coding challenges every day, as many as you can.
 - Great stuff at the back of Cracking The Coding Interview
 
 
-## Be thinking of for when the interview comes:
+## Be thinking of for when the interview comes
 
 - Think of about 20 interview questions you'll get, along the lines of the items below:
 - have 2-3 answers for each
@@ -1249,7 +1265,7 @@ Take coding challenges every day, as many as you can.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
-### Have questions for the interviewer.
+## Have questions for the interviewer
 
 Some of mine (I already may know answer to but want their opinion or team perspective):
 
@@ -1493,7 +1509,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 - [ ] Simonson: Approximation Algorithms: https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19
 
-## Videos
+## Video Series
 
 Sit back and enjoy. "netflix and skill" :P
 

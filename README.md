@@ -63,6 +63,18 @@ Some videos are available only by enrolling in a Coursera or EdX class. It is fr
 are no longer in session so you have to wait a couple of months, so you have no access. I'm going to be adding more videos
 from public sources and replacing the online course videos over time. I like using university lectures.
 
+---
+
+## Table of Contents
+
+- [Interview Process & General Interview Prep](#interview-process-general-interview-prep)
+- [Prerequisite Knowledge](#prerequisite-knowledge)
+- [The Daily Plan](#the-daily-plan)
+
+
+---
+
+
 ## Interview Process & General Interview Prep
 
 - [x] Videos:
@@ -164,7 +176,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
     - [x] C++: https://www.youtube.com/watch?v=twodd1KFfGk
     - [x] Understanding Compiler Optimization (C++): https://www.youtube.com/watch?v=FnGCDLhaxKU
 
-## The Daily Plan:
+## The Daily Plan
 
 Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day.
 

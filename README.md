@@ -8,11 +8,44 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from Google's coaching notes, so these are the things you need to know. 
+This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know. 
 There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem.
 
 Many items are from Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"
 and are reflected sometimes word-for-word in Google's coaching notes.
+
+---
+
+## Table of Contents
+
+- [What is it?](#what-is-it)
+- [Why use it?](#why-use-it)
+- [How to use it](#how-to-use-it)
+- [Get in a Googley Mood](#get-in-a-googley-mood)
+- [About Video Resources](#about-video-resources)
+- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+- [Prerequisite Knowledge](#prerequisite-knowledge)
+- [The Daily Plan](#the-daily-plan)
+- [Data Structures](#data-structures)
+- [More Knowledge](#more-knowledge)
+- [Trees](#trees)
+- [Sorting](#sorting)
+- [Graphs](#graphs)
+- [Even More Knowledge](#even-more-knowledge)
+- [Final Review](#final-review)
+- [Books](#books)
+- [Coding exercises/challenges](#coding-exerciseschallenges)
+- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+- [Your Resume](#your-resume)
+- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+- [Have questions for the interviewer](#have-questions-for-the-interviewer)
+- [Additional Learnings (not required)](#additional-learnings-not-required)
+- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+- [Video Series](#video-series)
+- [Once You've Got The Job](#once-youve-got-the-job)
+
+---
+
 
 ## Why use it?
 
@@ -62,34 +95,6 @@ I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.co
 Some videos are available only by enrolling in a Coursera or EdX class. It is free to do so, but sometimes the classes
 are no longer in session so you have to wait a couple of months, so you have no access. I'm going to be adding more videos
 from public sources and replacing the online course videos over time. I like using university lectures.
-
----
-
-## Table of Contents
-
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Data Structures](#data-structures)
-- [More Knowledge](#more-knowledge)
-- [Trees](#trees)
-- [Sorting](#sorting)
-- [Graphs](#graphs)
-- [Even More Knowledge](#even-more-knowledge)
-- [Final Review](#final-review)
-- [Books](#books)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Additional Learnings (not required)](#additional-learnings-not-required)
-- [Additional Learning](#additional-learning)
-- [Video Series](#video-series)
-- [Once You've Got The Job](#once-youve-got-the-job)
-
----
-
 
 ## Interview Process & General Interview Prep
 
@@ -1157,7 +1162,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Books
 
-#### Mentioned in Google Coaching:
+### Mentioned in Google Coaching
 
 **Read and do exercises:**
 
@@ -1183,7 +1188,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
-#### Additional books (not suggested by Google but I added because I needed the background knowledge):
+### Additional books 
+
+    These were not suggested by Google but I added because I needed the background knowledge
 
 - [x] C Programming Language, Vol 2
     - answers to questions: https://github.com/lekkas/c-algorithms
@@ -1199,7 +1206,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] Algorithms and Programming: Problems and Solutions:
     http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474
 
-If you have time:
+### If you have time
 
 - [ ] Introduction to Algorithms
     - https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
@@ -1478,7 +1485,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 
 --
 
-## Additional Learning
+## Additional Detail on Some Subjects
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.

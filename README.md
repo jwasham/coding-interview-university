@@ -9,10 +9,9 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know. 
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem.
-
-Many items are from Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"
-and are reflected sometimes word-for-word in Google's coaching notes.
+There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from 
+Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected 
+sometimes word-for-word in Google's coaching notes.
 
 ---
 
@@ -1396,10 +1395,11 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **van Emde Boas Trees**
     - [ ] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
 
-- [ ] **Fast Fourier Transform**
-    - [ ] What is the Fourier Transform?: https://www.youtube.com/watch?v=Xxut2PN-V8Q
-    - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
-    - [ ] http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
+- [x] **Fast Fourier Transform**
+    - [x] What is a Fourier transform? What is it used for?: http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/
+    - [x] What is the Fourier Transform?: https://www.youtube.com/watch?v=Xxut2PN-V8Q
+    - [x] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
+    - [x] http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
 - [ ] **Integer Arithmetic, Karatsuba Multiplication:** 
     - [ ] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb

@@ -1362,6 +1362,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
 
 - [ ] **Fast Fourier Transform**
+    - [ ] What is the Fourier Transform?: https://www.youtube.com/watch?v=Xxut2PN-V8Q
     - [ ] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
     - [ ] http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
 
@@ -1371,8 +1372,11 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [ ] **Treap**
     - [ ] ?
 
-- [ ] **Bloom Filter**
+- [x] **Bloom Filter**
+    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
     - https://www.youtube.com/watch?v=-SuTGoFYjZs
+    - https://www.youtube.com/watch?v=qBTdukbzc78
+    - http://billmill.org/bloomfilter-tutorial/
     - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
 
 - [x] **Messaging, Serialization, and Queueing Systems**
@@ -1555,6 +1559,9 @@ Sit back and enjoy. "netflix and skill" :P
 - [ ] Introduction to Cryptography:
     - https://www.youtube.com/watch?v=2aHkqB2-46k&feature=youtu.be
     - more in series (not in order): https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg
+    
+- [ ] Mining Massive Datasets - Stanford University (94 videos):
+    - https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV
 
 ## Maybe
 

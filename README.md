@@ -979,6 +979,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] Twitter:
             - O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter": https://www.youtube.com/watch?v=5cKTP36HVgI
             - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
+        - For even more, see "Mining Massive Datasets" video series in the Video Series section.
     - [x] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
         - review: System Design from HiredInTech: http://www.hiredintech.com/system-design/
         - cheat sheet: https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf
@@ -1423,6 +1424,7 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [x] **Skip lists**
     - "These are somewhat of a cult data structure" - Skiena
     - [x] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [x] For animations and a little more detail: https://en.wikipedia.org/wiki/Skip_list
 
 - [ ] **Network Flows**
     - [ ] Network Flows: https://www.youtube.com/watch?v=i0q-Irlf4y4&index=5&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
@@ -1608,6 +1610,11 @@ http://www.gainlo.co/ - Mock interviewers from big companies
 ---
 
 ## Once You've Got The Job
+
+Congratulations!
+
+- 10 things I wish I knew on my first day at Google:
+    https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw
 
 Keep learning.
 

@@ -1442,8 +1442,8 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
     - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
-- [ ] **Integer Arithmetic, Karatsuba Multiplication:** 
-    - [ ] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+- [x] **Integer Arithmetic, Karatsuba Multiplication:** 
+    - [x] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 
 - [ ] **Treap**
     - [ ] ?

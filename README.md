@@ -1361,59 +1361,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         - [x] Network Protocols: https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
         - [x] Side-Channel Attacks: https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
-- [x] **Augmented Data Structures**
-    - [x] CS 61B Lecture 39: Augmenting Data Structures: https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950
-
-- [ ] **Geometry, Convex hull**
-    - [ ] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
-    - [ ] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
-
-- [x] **Skip lists**
-    - "These are somewhat of a cult data structure" - Skiena
-    - [x] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-
-- [ ] **Network Flows**
-    - [ ] Network Flows: https://www.youtube.com/watch?v=i0q-Irlf4y4&index=5&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
-    - [ ] Augmenting Path Algorithms: https://www.youtube.com/watch?v=7QPI3kBIKv4&index=6&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
-    - [ ] Network Flow Algorithms: https://www.youtube.com/watch?v=5PR0ExrHO-Q&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=7
-
-- [ ] **Linear Programming**
-    - [ ] Lecture 13 10/11 Linear Programming: https://www.youtube.com/watch?v=IOQApuleqvg&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=11
-    - [ ] Lecture 14 10/16 Linear Programming: https://www.youtube.com/watch?v=vpX0TSAcdJY&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=12
-
-- [ ] **Disjoint Sets & Union Find**
-    - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
-    - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
-    - [ ] CS 61B Lecture 31: 5Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
-
-- [x] **van Emde Boas Trees**
-    - [x] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
-    - [x] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf
-
-- [x] **Fast Fourier Transform**
-    - [x] What is a Fourier transform? What is it used for?: http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/
-    - [x] What is the Fourier Transform?: https://www.youtube.com/watch?v=Xxut2PN-V8Q
-    - [x] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
-    - [x] http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
-
-- [ ] **Integer Arithmetic, Karatsuba Multiplication:** 
-    - [ ] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-
-- [ ] **Treap**
-    - [ ] ?
-
-- [x] **Bloom Filter**
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
-    - https://www.youtube.com/watch?v=-SuTGoFYjZs
-    - https://www.youtube.com/watch?v=qBTdukbzc78
-    - http://billmill.org/bloomfilter-tutorial/
-    - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
+- [x] **Parallel Programming**
+    - [x] Coursera (Scala): https://www.coursera.org/learn/parprog1/home/week/1
+    - [x] Efficient Python for High Performance Parallel Computing: https://www.youtube.com/watch?v=uY85GkaYzBk
 
 - [x] **Messaging, Serialization, and Queueing Systems**
     - [x] Thrift
@@ -1449,6 +1399,62 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         - http://msgpack.org/index.html
     - [x] Avro
         - https://avro.apache.org/
+
+- [x] **Fast Fourier Transform**
+    - [x] What is a Fourier transform? What is it used for?: http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/
+    - [x] What is the Fourier Transform?: https://www.youtube.com/watch?v=Xxut2PN-V8Q
+    - [x] Divide & Conquer: FFT: https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4
+    - [x] http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
+
+- [x] **Bloom Filter**
+    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+    - https://www.youtube.com/watch?v=-SuTGoFYjZs
+    - https://www.youtube.com/watch?v=qBTdukbzc78
+    - http://billmill.org/bloomfilter-tutorial/
+    - http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/
+
+- [x] **van Emde Boas Trees**
+    - [x] Divide & Conquer: van Emde Boas Trees: https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6
+    - [x] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf
+
+- [x] **Augmented Data Structures**
+    - [x] CS 61B Lecture 39: Augmenting Data Structures: https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950
+
+- [x] **Skip lists**
+    - "These are somewhat of a cult data structure" - Skiena
+    - [x] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
+- [ ] **Network Flows**
+    - [ ] Network Flows: https://www.youtube.com/watch?v=i0q-Irlf4y4&index=5&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
+    - [ ] Augmenting Path Algorithms: https://www.youtube.com/watch?v=7QPI3kBIKv4&index=6&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
+    - [ ] Network Flow Algorithms: https://www.youtube.com/watch?v=5PR0ExrHO-Q&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=7
+
+- [ ] **Disjoint Sets & Union Find**
+    - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+    - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
+    - [ ] CS 61B Lecture 31: 5Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
+    - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
+
+- [ ] **Integer Arithmetic, Karatsuba Multiplication:** 
+    - [ ] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+
+- [ ] **Treap**
+    - [ ] ?
+    
+- [ ] **Linear Programming**
+    - [ ] Lecture 13 10/11 Linear Programming: https://www.youtube.com/watch?v=IOQApuleqvg&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=11
+    - [ ] Lecture 14 10/16 Linear Programming: https://www.youtube.com/watch?v=vpX0TSAcdJY&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=12
+    
+- [ ] **Geometry, Convex hull**
+    - [ ] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
+    - [ ] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
+    
+- [ ] Discrete math (see videos below)
         
 - [ ] **Machine Learning**
     - Why ML?
@@ -1467,12 +1473,6 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [ ] Practical Guide to implementing Neural Networks in Python (using Theano): http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
     - Data School: http://www.dataschool.io/
     - [ ] Vector calculus: https://www.youtube.com/watch?v=tDtYAddb4o4
-
-- [x] **Parallel Programming**
-    - [x] Coursera (Scala): https://www.coursera.org/learn/parprog1/home/week/1
-    - [x] Efficient Python for High Performance Parallel Computing: https://www.youtube.com/watch?v=uY85GkaYzBk
-    
-- [ ] Discrete math (see videos below)
 
 - [ ] Go:
     - [x] Videos:

@@ -1154,6 +1154,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
+    - https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ
 
 #### Sorts:
 
@@ -1426,10 +1428,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
     - [x] For animations and a little more detail: https://en.wikipedia.org/wiki/Skip_list
 
-- [ ] **Network Flows**
-    - [ ] Network Flows: https://www.youtube.com/watch?v=i0q-Irlf4y4&index=5&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
-    - [ ] Augmenting Path Algorithms: https://www.youtube.com/watch?v=7QPI3kBIKv4&index=6&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9
-    - [ ] Network Flow Algorithms: https://www.youtube.com/watch?v=5PR0ExrHO-Q&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=7
+- [x] **Network Flows**
+    - [x] Ford-Fulkerson in 5 minutes: https://www.youtube.com/watch?v=v1VgJmkEJW0
+    - [x] Ford-Fulkerson Algorithm: https://www.youtube.com/watch?v=v1VgJmkEJW0
+    - [x] Network Flows: https://www.youtube.com/watch?v=2vhN4Ice5jI
 
 - [ ] **Disjoint Sets & Union Find**
     - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure

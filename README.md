@@ -1361,16 +1361,16 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         - [x] Network Protocols: https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
         - [x] Side-Channel Attacks: https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
 
-- [ ] **Augmented Data Structures**
-    - [ ] CS 61B Lecture 39: Augmenting Data Structures: https://www.youtube.com/watch?v=zksIj9O8_jc&list=PL4BBB74C7D2A1049C&index=39
+- [x] **Augmented Data Structures**
+    - [x] CS 61B Lecture 39: Augmenting Data Structures: https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950
 
 - [ ] **Geometry, Convex hull**
     - [ ] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
     - [ ] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
 
-- [ ] **Skip lists**
+- [x] **Skip lists**
     - "These are somewhat of a cult data structure" - Skiena
-    - [ ] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+    - [x] Randomization: Skip Lists: https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
 
 - [ ] **Network Flows**
     - [ ] Network Flows: https://www.youtube.com/watch?v=i0q-Irlf4y4&index=5&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9

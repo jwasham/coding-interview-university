@@ -1433,16 +1433,16 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Ford-Fulkerson Algorithm: https://www.youtube.com/watch?v=v1VgJmkEJW0
     - [x] Network Flows: https://www.youtube.com/watch?v=2vhN4Ice5jI
 
-- [ ] **Disjoint Sets & Union Find**
-    - [ ] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
-    - [ ] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
-    - [ ] CS 61B Lecture 31: 5Disjoint Sets: https://www.youtube.com/watch?v=wSPAjGfDl7Q&list=PL4BBB74C7D2A1049C&index=31
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
+- [x] **Disjoint Sets & Union Find**
+    - [x] https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+    - [x] UCB 61B - Disjoint Sets; Sorting & selection: https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21
+    - [x] Coursera (not needed since the above video explains it great):
+        - [x] https://www.coursera.org/learn/data-structures/lecture/JssSY/overview
+        - [x] https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations
+        - [x] https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees
+        - [x] https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank
+        - [x] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
+        - [x] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
 - [x] **Integer Arithmetic, Karatsuba Multiplication:** 
     - [x] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb

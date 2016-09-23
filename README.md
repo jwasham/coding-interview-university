@@ -1447,8 +1447,11 @@ Some of mine (I already may know answer to but want their opinion or team perspe
 - [x] **Integer Arithmetic, Karatsuba Multiplication:** 
     - [x] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 
-- [ ] **Treap**
-    - [ ] ?
+- [x] **Treap**
+    - Combination of a binary search tree and a heap
+    - [x] Wikipedia: https://en.wikipedia.org/wiki/Treap
+    - [x] https://www.youtube.com/watch?v=6podLUYinH8
+    - [x] Applications in set operations: https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf
     
 - [ ] **Linear Programming**
     - [ ] Lecture 13 10/11 Linear Programming: https://www.youtube.com/watch?v=IOQApuleqvg&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=11

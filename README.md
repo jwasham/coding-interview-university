@@ -1453,15 +1453,16 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] https://www.youtube.com/watch?v=6podLUYinH8
     - [x] Applications in set operations: https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf
     
-- [ ] **Linear Programming**
-    - [ ] Lecture 13 10/11 Linear Programming: https://www.youtube.com/watch?v=IOQApuleqvg&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=11
-    - [ ] Lecture 14 10/16 Linear Programming: https://www.youtube.com/watch?v=vpX0TSAcdJY&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=12
-    
+- [x] **Linear Programming**
+    - [x] https://www.youtube.com/watch?v=M4K6HYLHREQ
+    - [x] Finding minimum cost: https://www.youtube.com/watch?v=2ACJ9ewUC6U
+    - [x] Finding maximum value: https://www.youtube.com/watch?v=8AA_81xI3ik
+
 - [ ] **Geometry, Convex hull**
     - [ ] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
     - [ ] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
     
-- [ ] Discrete math (see videos below)
+- [x] Discrete math (see videos below)
         
 - [ ] **Machine Learning**
     - Why ML?

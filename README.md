@@ -1444,9 +1444,10 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         - [x] https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression
         - [x] https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional
 
-- [x] **Integer Arithmetic, Karatsuba Multiplication:** 
-    - [x] https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-
+- [x] **Math for Fast Processing** 
+    - [x] Integer Arithmetic, Karatsuba Multiplication: https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+    - [x] The Chinese Remainder Theorem (used in cryptography): https://www.youtube.com/watch?v=ru7mWZJlRQg
+    
 - [x] **Treap**
     - Combination of a binary search tree and a heap
     - [x] Wikipedia: https://en.wikipedia.org/wiki/Treap
@@ -1462,9 +1463,9 @@ Some of mine (I already may know answer to but want their opinion or team perspe
     - [x] Graph Alg. IV: Intro to geometric algorithms - Lecture 9: https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164
     - [x] Geometric Algorithms: Graham & Jarvis - Lecture 10: https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
     - [x] Divide & Conquer: Convex Hull, Median Finding: https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2
-    
+
 - [x] Discrete math (see videos below)
-        
+
 - [ ] **Machine Learning**
     - Why ML?
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70

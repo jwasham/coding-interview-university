@@ -1482,6 +1482,8 @@ Some of mine (I already may know answer to but want their opinion or team perspe
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
     - [ ] Tensorflow: https://www.youtube.com/watch?v=oZikw5k_2FM
     - [x] great course (Stanford): https://www.coursera.org/learn/machine-learning
+        - videos only: https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
+        - see videos 12-18 for a review of linear algebra
     - [ ] Google's Deep Learning Nanodegree: https://www.udacity.com/course/deep-learning--ud730
     - [ ] Google/Kaggle Machine Learning Engineer Nanodegree: https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009
     - [ ] Self-Driving Car Engineer Nanodegree: https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013

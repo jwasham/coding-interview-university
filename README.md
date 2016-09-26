@@ -1105,6 +1105,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Dependency injection:
         - [x] https://www.youtube.com/watch?v=IKD2-MAkXyQ
         - [x] http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html
+    - [x] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
 
 - [ ] **Design patterns**
     - [ ] CS164 Lecture 3 Design Patterns: https://youtu.be/mym5m-GKG0Q?t=660

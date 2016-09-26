@@ -1090,7 +1090,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] tcpdump: https://danielmiessler.com/study/tcpdump/
 
 - [ ] **Testing**
-    - [ ] TDD is dead. Long live testing.: http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html
+    - [x] Agile Software Testing with James Bach: https://www.youtube.com/watch?v=SAhJf36_u5U
+    - [x] Open Lecture by James Bach on Software Testing: https://www.youtube.com/watch?v=ILkT_HV9DVU
+    - [x] Steve Freeman - Test-Driven Development (that’s not what we meant): https://vimeo.com/83960706
+        - slides: http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf
+    - [x] TDD is dead. Long live testing.: http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html
+    - [ ] Video series (152 videos): https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g
+    - [ ] Test-Driven Web Development with Python: http://www.obeythetestinggoat.com/pages/book.html#toc
     - how unit testing works
     - what are mock objects
     - what is integration testing

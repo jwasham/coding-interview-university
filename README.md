@@ -1117,17 +1117,20 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Patterns: https://www.youtube.com/playlist?list=PLF206E906175C7E07
         - UML: https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
     - [ ] 101 Design Patterns & Tips for Developers: https://sourcemaking.com/design-patterns-and-tips
-    - [ ] strategy
-    - [ ] singleton
-    - [ ] adapter
-    - [ ] prototype
-    - [ ] decorator
-    - [ ] visitor
-    - [ ] factory
-    - [ ] facade
-    - [ ] observer
-    - [ ] proxy
-    - [ ] delegate
+    - [ ] Learn these patterns:
+        - [ ] strategy
+        - [ ] singleton
+        - [ ] adapter
+        - [ ] prototype
+        - [ ] decorator
+        - [ ] visitor
+        - [ ] factory
+        - [ ] facade
+        - [ ] observer
+        - [ ] proxy
+        - [ ] delegate
+    - [ ] Head First Design Patterns: https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124
+        - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
 
 - [ ] **Scheduling**
     - in an OS, how it works

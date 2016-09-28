@@ -1107,7 +1107,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html
     - [x] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
 
-- [ ] **Design patterns**
+- [x] **Design patterns**
     - [x] Quick UML review: https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3
     - [x] Learn these patterns:
         - [x] strategy
@@ -1131,15 +1131,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation: https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - [x] Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy: https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - [x] Series of videos (27 videos): https://www.youtube.com/playlist?list=PLF206E906175C7E07
-    - [ ] Head First Design Patterns: https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124
+    - [x] Head First Design Patterns: https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124
         - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
     - [ ] Handy reference: 101 Design Patterns & Tips for Developers: https://sourcemaking.com/design-patterns-and-tips
 
-- [ ] **Scheduling**
+- [x] **Scheduling**
     - in an OS, how it works
     - can be gleaned from Operating System videos
 
-- [ ] **Implement system routines**
+- [x] **Implement system routines**
     - understand what lies beneath the programming APIs you use
     - can you implement them?
 

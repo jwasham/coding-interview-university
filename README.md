@@ -26,17 +26,45 @@ sometimes word-for-word in Google's coaching notes.
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
+- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
+    - [Arrays](#arrays)
+    - [Linked Lists](#linked-lists)
+    - [Stack](#stack)
+    - [Queue](#queue)
+    - [Hash table](#hash-table)
 - [More Knowledge](#more-knowledge)
     - [Endianness](#endianness)
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
 - [Trees](#trees)
+    - [Trees - Notes & Background](#trees---notes--background)
+    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - [Tries](#tries)
+    - [Balanced search trees](#balanced-search-trees)
+    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
 - [Sorting](#sorting)
 - [Graphs](#graphs)
 - [Even More Knowledge](#even-more-knowledge)
     - [Recursion](#recursion)
     - [Dynamic Programming](#dynamic-programming)
+    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+    - [Garbage collection](#garbage-collection)
+    - [Caches](#caches)
+    - [Processes and Threads](#processes-and-threads)
+    - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
+    - [About Google](#about-google)
+    - [Papers](#papers)
+    - [Unicode](#unicode)
+    - [Emacs and vi(m)](#emacs-and-vim)
+    - [Unix command line tools](#unix-command-line-tools)
+    - [Testing](#testing)
+    - [Design patterns](#design-patterns)
+    - [Scheduling](#scheduling)
+    - [Implement system routines](#implement-system-routines)
+    - [String searching & manipulations](#string-searching--manipulations)
 - [Final Review](#final-review)
 - [Books](#books)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
@@ -1280,7 +1308,8 @@ Take coding challenges every day, as many as you can.
 
 ## Be thinking of for when the interview comes
 
-- Think of about 20 interview questions you'll get, along the lines of the items below:
+    Think of about 20 interview questions you'll get, along the lines of the items below:
+    
 - have 2-3 answers for each
 - Have a story, not just data, about something you accomplished
 
@@ -1299,7 +1328,7 @@ Take coding challenges every day, as many as you can.
 
 ## Have questions for the interviewer
 
-Some of mine (I already may know answer to but want their opinion or team perspective):
+    Some of mine (I already may know answer to but want their opinion or team perspective):
 
 - How large is your team?
 - What is your dev cycle look like? Do you do waterfall/sprints/agile?

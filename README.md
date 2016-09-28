@@ -387,7 +387,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 ## More Knowledge
 
-- ### [x] Endianness
+- [x] ### Endianness
     - [x] https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
     - [x] https://www.youtube.com/watch?v=JrNF0KRAlyo
     - [x] https://www.youtube.com/watch?v=oBSuXP-1Tc0

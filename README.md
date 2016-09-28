@@ -73,6 +73,29 @@ sometimes word-for-word in Google's coaching notes.
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Additional Learnings (not required)](#additional-learnings-not-required)
+    - [Information theory](#information-theory)
+    - [Parity & Hamming Code](#parity--hamming-code)
+    - [Entropy](#entropy)
+    - [Cryptography](#cryptography)
+    - [Compression](#compression)
+    - [Networking](#networking)
+    - [Computer Security](#computer-security)
+    - [Parallel Programming](#parallel-programming)
+    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Fast Fourier Transform](#fast-fourier-transform)
+    - [Bloom Filter](#bloom-filter)
+    - [van Emde Boas Trees](#van-emde-boas-trees)
+    - [Augmented Data Structures](#augmented-data-structures)
+    - [Skip lists](#skip-lists)
+    - [Network Flows](#network-flows)
+    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
+    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Treap](#treap)
+    - [Linear Programming](#linear-programming)
+    - [Geometry, Convex hull](#geometry-convex-hull)
+    - [Discrete math](#discrete-math)
+    - [Machine Learning](#machine-learning)
+    - [Go](#go)
 - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 - [Video Series](#video-series)
 - [Once You've Got The Job](#once-youve-got-the-job)
@@ -1308,11 +1331,10 @@ Take coding challenges every day, as many as you can.
 
 ## Be thinking of for when the interview comes
 
-    Think of about 20 interview questions you'll get, along the lines of the items below:
+    Think of about 20 interview questions you'll get, along the lines of the items below.
+    Have 2-3 answers for each
+    Have a story, not just data, about something you accomplished
     
-- have 2-3 answers for each
-- Have a story, not just data, about something you accomplished
-
 - Why do you want this job?
 - What's a tough problem you've solved?
 - Biggest challenges faced?

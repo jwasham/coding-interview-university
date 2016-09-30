@@ -1157,6 +1157,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Steve Freeman - Test-Driven Development (that’s not what we meant): https://vimeo.com/83960706
         - slides: http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf
     - [x] TDD is dead. Long live testing.: http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html
+    - [x] Is TDD dead? https://www.youtube.com/watch?v=z9quxZsLcfo
     - [x] Video series (152 videos) - not all are needed: https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g
     - [x] Test-Driven Web Development with Python: http://www.obeythetestinggoat.com/pages/book.html#toc
     - [x] Dependency injection:

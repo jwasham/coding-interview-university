@@ -1547,22 +1547,24 @@ Take coding challenges every day, as many as you can.
 - ### Machine Learning
     - Why ML?
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
-        - [ ] Large-Scale Deep Learning for Intelligent Computer Systems: https://www.youtube.com/watch?v=QSaZGT4-6EY
+        - [x] Large-Scale Deep Learning for Intelligent Computer Systems: https://www.youtube.com/watch?v=QSaZGT4-6EY
         - [ ] Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig: https://www.youtube.com/watch?v=X769cyzBNVw
+    - [x] great course (Stanford): https://www.coursera.org/learn/machine-learning
+        - videos only: https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
+        - see videos 12-18 for a review of linear algebra
     - [ ] Google's Cloud Machine learning tools: https://www.youtube.com/watch?v=Ja2hxBAwG_0
     - [ ] Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow):
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
     - [ ] Tensorflow: https://www.youtube.com/watch?v=oZikw5k_2FM
-    - [x] great course (Stanford): https://www.coursera.org/learn/machine-learning
-        - videos only: https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
-        - see videos 12-18 for a review of linear algebra
     - [ ] Google's Deep Learning Nanodegree: https://www.udacity.com/course/deep-learning--ud730
     - [ ] Google/Kaggle Machine Learning Engineer Nanodegree: https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009
     - [ ] Self-Driving Car Engineer Nanodegree: https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
     - [ ] Metis Online Course ($99 for 2 months): http://www.thisismetis.com/explore-data-science
     - [ ] Practical Guide to implementing Neural Networks in Python (using Theano): http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
-    - Data School: http://www.dataschool.io/
     - [ ] Vector calculus: https://www.youtube.com/watch?v=tDtYAddb4o4
+    - Resources:
+        - Data School: http://www.dataschool.io/
+
 
 - ### Go
     - [x] Videos:

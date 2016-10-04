@@ -140,6 +140,8 @@ More about Github flavored markdown: https://guides.github.com/features/masterin
 
 Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
+![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)
+
 ## Follow me
 
 I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.com/)

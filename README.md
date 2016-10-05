@@ -132,6 +132,10 @@ I put [x] at the top level, meaning the entire block is done. Sorry you have to 
 to use this the same way. If you search/replace, just replace [x] with [ ].
 Sometimes I just put a [x] at top level if I know I've done all the subtasks, to cut down on clutter.
 
+
+    Once I move past the learning phase (in a couple days), I'll remove the checks from all the checkboxes.
+
+
 More about Github flavored markdown: https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
 
     I have a friendly referral already to get my resume in at Google. Thanks JP.

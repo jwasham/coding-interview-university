@@ -144,7 +144,11 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 ## Follow me
 
-I'm on the journey. Follow along at [GoogleyAsHeck.com](https://googleyasheck.com/)
+I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://googleyasheck.com/)
+
+- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
+- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
+- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 

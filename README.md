@@ -1555,9 +1555,6 @@ Take coding challenges every day, as many as you can.
         - [x] https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70
         - [x] Large-Scale Deep Learning for Intelligent Computer Systems: https://www.youtube.com/watch?v=QSaZGT4-6EY
         - [x] Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig: https://www.youtube.com/watch?v=X769cyzBNVw
-    - [x] great course (Stanford): https://www.coursera.org/learn/machine-learning
-        - videos only: https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
-        - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
     - [ ] Google's Cloud Machine learning tools: https://www.youtube.com/watch?v=Ja2hxBAwG_0
     - [ ] Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow):
         - https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
@@ -1565,10 +1562,14 @@ Take coding challenges every day, as many as you can.
     - [ ] Tensorflow Tutorials: https://www.tensorflow.org/versions/r0.11/tutorials/index.html
     - [ ] Practical Guide to implementing Neural Networks in Python (using Theano): http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/
     - [ ] Vector calculus: https://www.youtube.com/watch?v=tDtYAddb4o4
-    - More courses:
+    - Courses:
+        - [x] Great starter course: Machine Learning: https://www.coursera.org/learn/machine-learning
+              - videos only: https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
+              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+        - [ ] Neural Networks for Machine Learning: https://www.coursera.org/learn/neural-networks
         - [ ] Google's Deep Learning Nanodegree: https://www.udacity.com/course/deep-learning--ud730
         - [ ] Google/Kaggle Machine Learning Engineer Nanodegree: https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009
-        - [ ] Self-Driving Car Engineer Nanodegree: https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
+        - [ ] Self-Driving Car Engineer Nanodegree: https://www.udacity.com/drive
         - [ ] Metis Online Course ($99 for 2 months): http://www.thisismetis.com/explore-data-science
     - Resources:
         - Great book: Data Science from Scratch: First Principles with Python: https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X

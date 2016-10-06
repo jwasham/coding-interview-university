@@ -21,8 +21,6 @@ sometimes word-for-word in Google's coaching notes.
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
 - [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
@@ -104,6 +102,7 @@ sometimes word-for-word in Google's coaching notes.
 
 ---
 
+
 ## Why use it?
 
 I'm following this plan to prepare for my Google interview. I've been building the web, building
@@ -133,6 +132,10 @@ I put [x] at the top level, meaning the entire block is done. Sorry you have to 
 to use this the same way. If you search/replace, just replace [x] with [ ].
 Sometimes I just put a [x] at top level if I know I've done all the subtasks, to cut down on clutter.
 
+
+    Once I move past the learning phase (in a couple days), I'll remove the checks from all the checkboxes.
+
+
 More about Github flavored markdown: https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
 
     I have a friendly referral already to get my resume in at Google. Thanks JP.
@@ -143,17 +146,7 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Did I Get the Job?
-
-I haven't applied yet.
-
-I still have a few days in the learning phase (finishing up this crazy list), and starting next week all 
-I'll be doing is programming questions all day long. That will continue for a few weeks, and then I'll
-apply through a referral I've been holding onto since February (yes, February).
-
-In a couple of days I'll remove the checks from all the checkboxes. This started out as just a simple to-do list. :)
-
-## Follow Along with Me
+## Follow me
 
 I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://googleyasheck.com/)
 
@@ -177,29 +170,29 @@ from public sources and replacing the online course videos over time. I like usi
 ## Interview Process & General Interview Prep
 
 - [x] Videos:
-    - [x] https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be
-    - [x] https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be
-    - [x] https://www.youtube.com/watch?v=8npJLXkcmu8
+    - [x] [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [x] [Google Recruiters Share Technical Interview Tips](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [x] [How to Work at Google: Tech Resume Preparation](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [x] Articles:
-    - [x] http://www.google.com/about/careers/lifeatgoogle/hiringprocess/
-    - [x] http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
+    - [x] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [x] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
-    - [x] _(very dated)_ http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html
-    - [x] http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
+    - [x] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [x] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [x] Additional (not suggested by Google but I added):
-    - [x] https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4
-    - [x] https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx
-    - [x] https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1
-    - [x] http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture
-    - [x] http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/
+    - [x] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [x] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [x] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [x] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [x] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [x] Cracking The Coding Interview Set 1:
-        - [x] https://www.youtube.com/watch?v=rEJzOhC5ZtQ
-        - [x] https://www.youtube.com/watch?v=aClxtDcdpsQ
+        - [x] [Gayle L McDowell - Cracking The Coding Interview](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [x] [Cracking the Coding Interview with Author Gayle Laakmann McDowell](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [x] How to Get a Job at the Big 4:
-        - [x] https://www.youtube.com/watch?v=YJZCUhxNCv8
-    - [x] http://alexbowe.com/failing-at-google-interviews/
+        - [x] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [x] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
 
 ## Prerequisite Knowledge
@@ -218,25 +211,25 @@ You need to be very comfortable in the language, and be knowledgeable. Read more
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
 - [x] **How computers process a program:**
-    - [x] https://www.youtube.com/watch?v=42KTvGYQYnA
-    - [x] https://www.youtube.com/watch?v=Mv2XQgpbTNE
+    - [x] [How does CPU execute program](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [x] [Machine Code Instructions](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
 - [x] **How floating point numbers are stored:**
-    - [x] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
-    - [x] 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU
+    - [x] simple 8-bit: [Fractions in binary?](http://math.stackexchange.com/questions/301435/fractions-in-binary)
+    - [x] 32 bit: [Representation of Floating Point Numbers - 1](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [x] 64 bit: https://www.youtube.com/watch?v=50ZYcZebIec
 
 - [x] **Computer Arch Intro:**
-    (first video only - interesting but not required) https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1
+    (first video only - interesting but not required) [Introduction and Basics - Carnegie Mellon - Computer Architecture](https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1)
 
 - [x] **C**
     - [x] [ANSI C Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf)
     - [x] K&R C book (ANSI C)
-    - [x] Clang: https://www.youtube.com/watch?v=U3zCxnj2w8M
+    - [x] [Make, Clang](https://www.youtube.com/watch?v=U3zCxnj2w8M)
     - [x] GDB:
         - https://www.youtube.com/watch?v=USPvePv1uzE
         - https://www.youtube.com/watch?v=y5JmQItfFck
-      - Valgrind: https://www.youtube.com/watch?v=fvTsFjDuag8
+      - [Valgrind](https://www.youtube.com/watch?v=fvTsFjDuag8)
 - [x] **C++**
     - [x] [C++ Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/Cpp_reference.pdf)
     - [x] [STL Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
@@ -250,23 +243,23 @@ You'll see some C, C++, and Python learning included below, because I'm learning
     - [x] namespaces
     - [x] OOP
     - [x] STL
-    - [x] functors: http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html
-    - [x] C++ at Google: https://www.youtube.com/watch?v=NOCElcMcFik
-    - [x] Google C++ Style Guide: https://google.github.io/styleguide/cppguide.html
+    - [x] [functors](http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html)
+    - [x] [C++ at Google](https://www.youtube.com/watch?v=NOCElcMcFik)
+    - [x] [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
         - [x] Google uses clang-format (there is a command line "style" argument: -style=google)
-    - [x] Efficiency with Algorithms, Performance with Data Structures: https://youtu.be/fHNmRkzxHWs
-    - [x] review of C++ concepts: https://www.youtube.com/watch?v=Rub-JsjMhWY
+    - [x] [Efficiency with Algorithms, Performance with Data Structures](https://youtu.be/fHNmRkzxHWs)
+    - [x] [Review of C++ concepts](https://www.youtube.com/watch?v=Rub-JsjMhWY)
 
 - [x] **Python**
     - [x] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
-    - [x] Python in One Video: https://www.youtube.com/watch?v=N4mEzFDjqtA
-    - [x] Series on 3.4: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
-    - [x] Zero to Hero: https://www.youtube.com/watch?v=emY34tSKXc4
-    - [x] Statistics for Hackers: https://www.youtube.com/watch?v=Iq9DzN6mvYA
-    - [x] Faster Python: https://www.youtube.com/watch?v=JDSGVvMwNM8
-    - [x] CPython Walk: https://www.youtube.com/watch?v=LhadeL7_EIU&list=PLzV58Zm8FuBL6OAv1Yu6AwXZrnsFbbR0S&index=6
-    - [x] 10 Tips for Pythonic Code: https://www.youtube.com/watch?v=_O23jIXsshs
-    - [x] Beyond PEP 8 -- Best practices for beautiful intelligible code: https://www.youtube.com/watch?v=wf-BqAjZb8M
+    - [x] [Python in One Video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
+    - [x] [Series on 3.4](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
+    - [x] [Zero to Hero](https://www.youtube.com/watch?v=emY34tSKXc4)
+    - [x] [Statistics for Hackers](https://www.youtube.com/watch?v=Iq9DzN6mvYA)
+    - [x] [Faster Python](https://www.youtube.com/watch?v=JDSGVvMwNM8)
+    - [x] [CPython Walk](https://www.youtube.com/watch?v=LhadeL7_EIU&list=PLzV58Zm8FuBL6OAv1Yu6AwXZrnsFbbR0S&index=6)
+    - [x] [10 Tips for Pythonic Code](https://www.youtube.com/watch?v=_O23jIXsshs)
+    - [x] [Beyond PEP 8 -- Best practices for beautiful intelligible code](https://www.youtube.com/watch?v=wf-BqAjZb8M)
 
 - [x] **Compilers**
     - [x] https://class.coursera.org/compilers-004/lecture/1
@@ -276,33 +269,27 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 
 ## The Daily Plan
 
-Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day. Some might take a few days.
-
-**Note: These languages listed below are not all necessary**, but I wanted to learn and experiment in these. You need only one language for the interview, so make it one you're comfortable with.
-
-More here: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day.
 
 Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- Python - using built-in types, and sometimes array.array and bit vectors
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types*
-- C++ - using built-in types, like STL's std::list for a linked list*
-- write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+    C - using structs and functions that take a struct * and something else as args.
+    C++ - without using built-in types
+    C++ - using built-in types, like STL's std::list for a linked list
+    Python - using built-in types (to keep practicing Python)
+    and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
+    You may do Java or something else, this is just my thing.
 
 Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+    Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
+    Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
+    Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
 
 I may not have time to do all of these for every subject, but I'll try.
 
-https://googleyasheck.com/important-pick-one-language-for-the-google-interview/
-
 You can see my code here:
- - C: https://github.com/jwasham/practice-c
- - C++: https://github.com/jwasham/practice-cpp
- - Python: https://github.com/jwasham/practice-python
+ - [C] (https://github.com/jwasham/practice-c)
+ - [C++] (https://github.com/jwasham/practice-cpp)
+ - [Python] (https://github.com/jwasham/practice-python)
 
 You don't need to memorize the guts of every algorithm.
 
@@ -311,24 +298,23 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - nothing to implement
-- [x] Harvard CS50 - Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
-- [x] Big O Notations (general quick tutorial) - https://www.youtube.com/watch?v=V6mKVRU1evU
-- [x] Big O Notation (and Omega and Theta) - best mathematical explanation:
-    - https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
+- [x] [Harvard CS50 - Asymptotic Notation](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [x] [Big O Notations (general quick tutorial)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [x] [Big O Notation (and Omega and Theta) - best mathematical explanation](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [x] Skiena:
-    - video: https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - slides: http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf
-- [x] A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
-- [x] Orders of Growth: https://class.coursera.org/algorithmicthink1-004/lecture/59
-- [x] Asymptotics: https://class.coursera.org/algorithmicthink1-004/lecture/61
-- [x] UC Berkeley Big O: https://youtu.be/VIS4YDpuP98
-- [x] UC Berkeley Big Omega: https://youtu.be/ca3e7UVmeUc
-- [x] Amortized Analysis: https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN
-- [x] Illustrating "Big O": https://class.coursera.org/algorithmicthink1-004/lecture/63
+    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+- [x] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
+- [x] [Orders of Growth](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+- [x] [Asymptotics](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [x] [UC Berkeley Big O](https://youtu.be/VIS4YDpuP98)
+- [x] [UC Berkeley Big Omega](https://youtu.be/ca3e7UVmeUc)
+- [x] [Amortized Analysis](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [x] [Illustrating "Big O"](https://class.coursera.org/algorithmicthink1-004/lecture/63)
 - [x] TopCoder (includes recurrence relations and master theorem):
-    - Computational Complexity: Section 1: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/
-    - Computational Complexity: Section 2: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
-- [x] Cheat sheet: http://bigocheatsheet.com/
+    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
+    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+- [x] [Cheat sheet](http://bigocheatsheet.com/)
 
 
     If some of the lectures are too mathy, you can jump down to the bottom and
@@ -339,13 +325,12 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 - ### Arrays
     - Implement an automatically resizing vector.
     - [x] Description:
-        - Arrays: https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays
-        - Arrays: https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html
-        - Multi-dim: https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html
-        - Dynamic Arrays: https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays
-        - Jagged: https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html
-        - Resizing arrays:
-            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html
+        - [Arrays](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [Arrays](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [Multi-dim](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Dynamic Arrays](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [Resizing arrays](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
     - [x] Implement a vector (mutable array with automatic resizing):
         - [x] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [x] new raw data array with allocated memory
@@ -374,13 +359,13 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 
 - ### Linked Lists
     - [x] Description:
-        - [x] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
-        - [x] CS 61B - Linked lists: https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5
-    - [x] C Code: https://www.youtube.com/watch?v=QN6FPiD0Gzo
+        - [x] [Singly Linked Lists](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [x] [CS 61B - Linked lists](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+    - [x] [C Code](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation.
     - [x] Linked List vs Arrays:
-        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays
-        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays
+        - [Core Linked Lists Vs Arrays](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [x] why you should avoid linked lists:
         - https://www.youtube.com/watch?v=YQs6IC-vgmo
     - [x] Gotcha: you need pointer to pointer knowledge:
@@ -407,15 +392,15 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - No need to implement
 
 - ### Stack
-    - [x] https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
-    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
+    - [x] [Stacks](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [x] [Using Stacks Last-In First-Out](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [x] Will not implement. Implementing with array is trivial.
 
 - ### Queue
-    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html
-    - [x] https://www.coursera.org/learn/data-structures/lecture/EShpq/queue
-    - [x] Circular buffer/FIFO: https://en.wikipedia.org/wiki/Circular_buffer
-    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html
+    - [x] [Using Queues First-In First-Out](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [x] [Queue](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [Priority Queues](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [x] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)

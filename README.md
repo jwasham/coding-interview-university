@@ -1,7 +1,5 @@
 # Google Interview University
 
-_If you like this project, please give me a star._ &#9733;
-
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.
@@ -21,6 +19,8 @@ sometimes word-for-word in Google's coaching notes.
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
 - [Get in a Googley Mood](#get-in-a-googley-mood)
+- [Did I Get the Job?](#did-i-get-the-job)
+- [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
@@ -102,7 +102,6 @@ sometimes word-for-word in Google's coaching notes.
 
 ---
 
-
 ## Why use it?
 
 I'm following this plan to prepare for my Google interview. I've been building the web, building
@@ -132,10 +131,6 @@ I put [x] at the top level, meaning the entire block is done. Sorry you have to 
 to use this the same way. If you search/replace, just replace [x] with [ ].
 Sometimes I just put a [x] at top level if I know I've done all the subtasks, to cut down on clutter.
 
-
-    Once I move past the learning phase (in a couple days), I'll remove the checks from all the checkboxes.
-
-
 More about Github flavored markdown: https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
 
     I have a friendly referral already to get my resume in at Google. Thanks JP.
@@ -146,7 +141,17 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Follow me
+## Did I Get the Job?
+
+I haven't applied yet.
+
+I still have a few days in the learning phase (finishing up this crazy list), and starting next week all 
+I'll be doing is programming questions all day long. That will continue for a few weeks, and then I'll
+apply through a referral I've been holding onto since February (yes, February).
+
+In a couple of days I'll remove the checks from all the checkboxes. This started out as just a simple to-do list. :)
+
+## Follow Along with Me
 
 I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://googleyasheck.com/)
 

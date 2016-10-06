@@ -21,6 +21,8 @@ sometimes word-for-word in Google's coaching notes.
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
 - [Get in a Googley Mood](#get-in-a-googley-mood)
+- [Did I Get the Job?](#did-i-get-the-job)
+- [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
@@ -102,7 +104,6 @@ sometimes word-for-word in Google's coaching notes.
 
 ---
 
-
 ## Why use it?
 
 I'm following this plan to prepare for my Google interview. I've been building the web, building
@@ -132,10 +133,6 @@ I put [x] at the top level, meaning the entire block is done. Sorry you have to 
 to use this the same way. If you search/replace, just replace [x] with [ ].
 Sometimes I just put a [x] at top level if I know I've done all the subtasks, to cut down on clutter.
 
-
-    Once I move past the learning phase (in a couple days), I'll remove the checks from all the checkboxes.
-
-
 More about Github flavored markdown: https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
 
     I have a friendly referral already to get my resume in at Google. Thanks JP.
@@ -146,7 +143,17 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Follow me
+## Did I Get the Job?
+
+I haven't applied yet.
+
+I still have a few days in the learning phase (finishing up this crazy list), and starting next week all 
+I'll be doing is programming questions all day long. That will continue for a few weeks, and then I'll
+apply through a referral I've been holding onto since February (yes, February).
+
+In a couple of days I'll remove the checks from all the checkboxes. This started out as just a simple to-do list. :)
+
+## Follow Along with Me
 
 I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://googleyasheck.com/)
 
@@ -269,22 +276,28 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 
 ## The Daily Plan
 
-Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day.
+Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day. Some might take a few days.
+
+**Note: These languages listed below are not all necessary**, but I wanted to learn and experiment in these. You need only one language for the interview, so make it one you're comfortable with.
+
+More here: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
 Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-    C - using structs and functions that take a struct * and something else as args.
-    C++ - without using built-in types
-    C++ - using built-in types, like STL's std::list for a linked list
-    Python - using built-in types (to keep practicing Python)
-    and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-    You may do Java or something else, this is just my thing.
+- Python - using built-in types, and sometimes array.array and bit vectors
+- C - using structs and functions that take a struct * and something else as args.
+- C++ - without using built-in types*
+- C++ - using built-in types, like STL's std::list for a linked list*
+- write tests to ensure I'm doing it right, sometimes just using simple assert() statements
+- You may do Java or something else, this is just my thing.
 
 Why code in all of these?
-    Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-    Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-    Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
+- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
+- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
 
 I may not have time to do all of these for every subject, but I'll try.
+
+https://googleyasheck.com/important-pick-one-language-for-the-google-interview/
 
 You can see my code here:
  - C: https://github.com/jwasham/practice-c

@@ -177,7 +177,7 @@ from public sources and replacing the online course videos over time. I like usi
     - [x] http://www.google.com/about/careers/lifeatgoogle/hiringprocess/
     - [x] http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
         - all the things he mentions that you need to know are listed below
-    - [x] (very dated) http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html
+    - [x] _(very dated)_ http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html
     - [x] http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
 
 - [x] Additional (not suggested by Google but I added):

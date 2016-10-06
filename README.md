@@ -179,7 +179,7 @@ from public sources and replacing the online course videos over time. I like usi
     - [x] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
     - [x] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [x] http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
+    - [x] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [x] Additional (not suggested by Google but I added):
     - [x] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -225,7 +225,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 - [x] **C**
     - [x] [ANSI C Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf)
     - [x] K&R C book (ANSI C)
-    - [x] Clang: [Make, Clang](https://www.youtube.com/watch?v=U3zCxnj2w8M)
+    - [x] [Make, Clang](https://www.youtube.com/watch?v=U3zCxnj2w8M)
     - [x] GDB:
         - https://www.youtube.com/watch?v=USPvePv1uzE
         - https://www.youtube.com/watch?v=y5JmQItfFck
@@ -243,7 +243,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
     - [x] namespaces
     - [x] OOP
     - [x] STL
-    - [x] [functors] (http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html)
+    - [x] [functors](http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html)
     - [x] [C++ at Google](https://www.youtube.com/watch?v=NOCElcMcFik)
     - [x] [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
         - [x] Google uses clang-format (there is a command line "style" argument: -style=google)

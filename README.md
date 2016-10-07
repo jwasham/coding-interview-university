@@ -247,8 +247,8 @@ You'll see some C, C++, and Python learning included below, because I'm learning
     - [x] K&R C book (ANSI C)
     - [x] [Make, Clang (video)](https://www.youtube.com/watch?v=U3zCxnj2w8M)
     - [x] GDB:
-        - https://www.youtube.com/watch?v=USPvePv1uzE
-        - https://www.youtube.com/watch?v=y5JmQItfFck
+        - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=USPvePv1uzE)
+        - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=y5JmQItfFck)
       - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
 - [x] **C++**
     - [x] [C++ Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/Cpp_reference.pdf)
@@ -595,9 +595,9 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - I read through code, but will not implement.
     - [x] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [x] Short course videos:
-        - [x] [Core Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [x] [Core Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [x] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
+        - [x] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [x] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [x] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
     - [x] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [x] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
     - [x] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -636,8 +636,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
             networking, and file system code) etc.
         - [x] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
         - [x] MIT Lecture: Splay Trees:
-                - Gets very mathy, but watch the last 10 minutes for sure.
-                - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
+            - Gets very mathy, but watch the last 10 minutes for sure.
+            - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - [x] **2-3 search trees**
         - In practice:
@@ -751,7 +751,7 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     - For heapsort, see Heap data structure above.
 
 - [x] For curiosity - not required:
-    - [x] [Radix Sort]http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort
+    - [x] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [x] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [x] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [x] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
@@ -972,7 +972,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [x] Paxos Consensus algorithm: 
         - [short video](https://www.youtube.com/watch?v=s8JqcZtvnsM)
         - [extended video with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
-        - [paper])http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+        - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
     - [x] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
     - [x] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
     - [x] [Optional: UML 2.0 Series (vido)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1207,8 +1207,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - ### String searching & manipulations
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
     - [ ] Rabin-Karp (videos):
-        [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
+        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
+        - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
     - [ ] [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
     - [ ] [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
     - [ ] Knuth-Morris-Pratt (KMP):
@@ -1419,7 +1419,7 @@ Take coding challenges every day, as many as you can.
     - [x] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
 - ### Computer Security
-    - MIT (23 videos): https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh
+    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [x] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [x] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
         - [x] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
@@ -1450,8 +1450,8 @@ Take coding challenges every day, as many as you can.
     - [x] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [x] [RabbitMQ](https://www.rabbitmq.com/)
         - [Get Startet](https://www.rabbitmq.com/getstarted.html)
-    - [x] Celeryhttp://www.celeryproject.org/
-        - http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
+    - [x] [Celery](http://www.celeryproject.org/)
+        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
     - [x] [ZeroMQ](http://zeromq.org/)
         - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
     - [x] [ActiveMQ](http://activemq.apache.org/)
@@ -1506,9 +1506,9 @@ Take coding challenges every day, as many as you can.
     
 - ### Treap
     - Combination of a binary search tree and a heap
-    - [x] Wikipedia: https://en.wikipedia.org/wiki/Treap
-    - [x] https://www.youtube.com/watch?v=6podLUYinH8
-    - [x] Applications in set operations: https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf
+    - [x] [Treap](https://en.wikipedia.org/wiki/Treap)
+    - [x] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [x] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
     
 - ### Linear Programming (videos)
     - [x] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
@@ -1536,7 +1536,7 @@ Take coding challenges every day, as many as you can.
     - [ ] [Vector calculus](https://www.youtube.com/watch?v=tDtYAddb4o4)
     - Courses: (videos)
         - [x] [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
         - [ ] [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
         - [ ] [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
@@ -1568,7 +1568,7 @@ Take coding challenges every day, as many as you can.
 - [ ] **More Dynamic Programming** (videos)
     - [x] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
     - [x][ 6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
-    - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21(
+    - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
     - [ ] [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)

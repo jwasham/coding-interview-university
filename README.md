@@ -26,6 +26,7 @@ sometimes word-for-word in Google's coaching notes.
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+- [Before you Get Started](#before-you-get-started)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -179,9 +180,11 @@ I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://
 
 ## About Video Resources
 
-Some videos are available only by enrolling in a Coursera or EdX class. It is free to do so, but sometimes the classes
-are no longer in session so you have to wait a couple of months, so you have no access. I'm going to be adding more videos
-from public sources and replacing the online course videos over time. I like using university lectures.
+Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
+It is free to do so, but sometimes the classes are not in session so you have to wait a couple of months, so you have no access. 
+
+    I'd appreciate your help converting the MOOC video links to public sources to replace the online course videos over time. I like using university lectures.
+
 
 ## Interview Process & General Interview Prep
 
@@ -210,7 +213,6 @@ from public sources and replacing the online course videos over time. I like usi
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-
 ## Pick One Language for the Interview
 
 I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
@@ -237,27 +239,43 @@ Read more about choices:
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
-## Prerequisite Knowledge
+## Before you Get Started
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+This list grew over many months, and yes, it kind of got out of hand. 
 
-- [ ] **How floating point numbers are stored:**
-    - [ ] simple 8-bit: [Fractions in binary? (video)](http://math.stackexchange.com/questions/301435/fractions-in-binary)
-    - [ ] 32 bit: [Representation of Floating Point Numbers - 1 (video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
-    - [ ] 64 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+Here are some mistakes I made so you'll have a better experience.
 
-- [ ] **Computer Arch Intro:**
-    (first video only - interesting but not required) [Introduction and Basics - Carnegie Mellon - Computer Architecture](https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1)
+### 1. You Won't Remember it All
 
-- [ ] **Compilers**
-    - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
-    - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going 
+through my notes and making flashcards so I could review (see below). 
+
+### 2. Use Flashcards
+
+To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
+Each card has different formatting.
+
+I made a mobile-first website so I could review on my phone and tablet, whereever I am.
+
+Make your own for free:
+
+[Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+
+I'll add my set of flashcards to that repo soon so you have access to a lot of cards.
+
+**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the 
+same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in 
+your brain.
+
+### 3. Review, review, review
+
+I keep a set of cheatsheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+
+Take a break from programming problems for a half hour and go through your flashcards.
 
 ## The Daily Plan
 
-Each subject does not require a whole day to be able to understand it fully, and you can do multiple of these in a day.
+Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
 
 Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
     C - using structs and functions that take a struct * and something else as args.
@@ -281,8 +299,25 @@ You can see my code here:
 
 You don't need to memorize the guts of every algorithm.
 
-Write code on a whiteboard, not a computer. Test with some sample inputs.
-Then test it out on a computer to make sure it's not buggy from syntax.
+Write code on a whiteboard, not a computer. Test with some sample inputs. Then test it out on a computer.
+
+## Prerequisite Knowledge
+
+- [ ] **How computers process a program:**
+    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+
+- [ ] **How floating point numbers are stored:**
+    - [ ] simple 8-bit: [Fractions in binary? (video)](http://math.stackexchange.com/questions/301435/fractions-in-binary)
+    - [ ] 32 bit: [Representation of Floating Point Numbers - 1 (video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] 64 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+
+- [ ] **Computer Arch Intro:**
+    (first video only - interesting but not required) [Introduction and Basics - Carnegie Mellon - Computer Architecture](https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1)
+
+- [ ] **Compilers**
+    - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
+    - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - nothing to implement

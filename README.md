@@ -124,15 +124,11 @@ months. If you are familiar with a lot of this already it will take you a lot le
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
-I'm using Github's special markdown flavor, including tasks lists to check my progress.
+I'm using Github's special markdown flavor, including tasks lists to check progress.
 
-I check each task box at the beginning of a line when I'm done with it. When all sub-items in a block are done,
-I put [x] at the top level, meaning the entire block is done.
-Sometimes I just put a [x] at top level if I know I've done all the subtasks, to cut down on clutter.
+- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
 
-More about Github flavored markdown: https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
-
-    I have a friendly referral already to get my resume in at Google. Thanks JP.
+[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Get in a Googley Mood
 
@@ -148,7 +144,7 @@ I still have a few days in the learning phase (finishing up this crazy list), an
 I'll be doing is programming questions all day long. That will continue for a few weeks, and then I'll
 apply through a referral I've been holding onto since February (yes, February).
 
-In a couple of days I'll remove the checks from all the checkboxes. This started out as just a simple to-do list. :)
+    Thanks for the referral, JP.
 
 ## Follow Along with Me
 

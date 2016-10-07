@@ -1082,7 +1082,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [x] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
         - [x] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
         - [x] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-    - [x] [Made by Google announcement - Oct 2016](https://www.youtube.com/watch?v=spDg-Q7zmcM)
+    - [x] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=spDg-Q7zmcM)
 
 - ### Papers
     - These are Google papers and well-known papers.

@@ -25,6 +25,7 @@ sometimes word-for-word in Google's coaching notes.
 - [About Google](#about-google)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -210,9 +211,9 @@ from public sources and replacing the online course videos over time. I like usi
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
 
-## Prerequisite Knowledge
+## Pick One Language for the Interview
 
-This short section were prerequisites/interesting info I wanted to learn before getting started on the daily plan.
+I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
 You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
 
@@ -220,10 +221,23 @@ You can use a language you are comfortable in to do the coding part of the inter
 - Java
 - Python
 
-You need to be very comfortable in the language, and be knowledgeable. Read more (rescued from the lost web):
-    - https://web.archive.org/web/20160204193730/http://blog.codingforinterviews.com/best-programming-language-jobs/
+You could also use these, but read around first. There may be caveats:
+
+- JavaScript
+- Ruby
+
+You need to be very comfortable in the language, and be knowledgeable. 
+
+Read more about choices:
+- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
+- http://blog.codingforinterviews.com/best-programming-language-jobs/
+- https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
+
+[See language resources here](programming-language-resources.md)
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+
+## Prerequisite Knowledge
 
 - [ ] **How computers process a program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
@@ -236,45 +250,6 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 
 - [ ] **Computer Arch Intro:**
     (first video only - interesting but not required) [Introduction and Basics - Carnegie Mellon - Computer Architecture](https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1)
-
-- [ ] **C**
-    - [ ] [ANSI C Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf)
-    - [ ] K&R C book (ANSI C)
-    - [ ] [Make, Clang (video)](https://www.youtube.com/watch?v=U3zCxnj2w8M)
-    - [ ] GDB:
-        - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=USPvePv1uzE)
-        - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=y5JmQItfFck)
-      - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
-- [ ] **C++**
-    - [ ] [C++ Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/Cpp_reference.pdf)
-    - [ ] [STL Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
-    - [ ] basics
-    - [ ] pointers
-    - [ ] functions
-    - [ ] references
-    - [ ] templates
-    - [ ] compilation
-    - [ ] scope & linkage
-    - [ ] namespaces
-    - [ ] OOP
-    - [ ] STL
-    - [ ] [functors](http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html)
-    - [ ] [C++ at Google (video)](https://www.youtube.com/watch?v=NOCElcMcFik)
-    - [ ] [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-        - [ ] Google uses clang-format (there is a command line "style" argument: -style=google)
-    - [ ] [Efficiency with Algorithms, Performance with Data Structures (video)](https://youtu.be/fHNmRkzxHWs)
-    - [ ] [Review of C++ concepts (video)](https://www.youtube.com/watch?v=Rub-JsjMhWY)
-
-- [ ] **Python**
-    - [ ] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
-    - [ ] [Python in One Video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
-    - [ ] [Series on 3.4 (video)](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
-    - [ ] [Zero to Hero (video)](https://www.youtube.com/watch?v=emY34tSKXc4)
-    - [ ] [Statistics for Hackers (video)](https://www.youtube.com/watch?v=Iq9DzN6mvYA)
-    - [ ] [Faster Python (video)](https://www.youtube.com/watch?v=JDSGVvMwNM8)
-    - [ ] [CPython Walk (video)](https://www.youtube.com/watch?v=LhadeL7_EIU&list=PLzV58Zm8FuBL6OAv1Yu6AwXZrnsFbbR0S&index=6)
-    - [ ] [10 Tips for Pythonic Code (video)](https://www.youtube.com/watch?v=_O23jIXsshs)
-    - [ ] [Beyond PEP 8 -- Best practices for beautiful intelligible code (video)](https://www.youtube.com/watch?v=wf-BqAjZb8M)
 
 - [ ] **Compilers**
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)

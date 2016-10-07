@@ -22,6 +22,7 @@ sometimes word-for-word in Google's coaching notes.
 - [Did I Get the Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [About Google](#about-google)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -55,7 +56,6 @@ sometimes word-for-word in Google's coaching notes.
     - [Caches](#caches)
     - [Processes and Threads](#processes-and-threads)
     - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
-    - [About Google](#about-google)
     - [Papers](#papers)
     - [Unicode](#unicode)
     - [Emacs and vi(m)](#emacs-and-vim)
@@ -165,6 +165,21 @@ I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://
 ## Don't feel you aren't smart enough
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+
+## About Google
+- [x] How Search Works:
+    - [x] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [x] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [x] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
+    - [x] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [x] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [x] Series:
+    - [x] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [x] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [x] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [x] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+- [x] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [x] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=spDg-Q7zmcM)
 
 ## About Video Resources
 
@@ -1069,20 +1084,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
             - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
             - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
-
-- ### About Google
-    - [x] How Search Works:
-        - [x] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-        - [x] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-        - [x] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-        - [x] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-        - [x] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-    - [x] Series:
-        - [x] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-        - [x] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-        - [x] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-        - [x] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-    - [x] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=spDg-Q7zmcM)
 
 - ### Papers
     - These are Google papers and well-known papers.

@@ -27,6 +27,7 @@ sometimes word-for-word in Google's coaching notes.
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Before you Get Started](#before-you-get-started)
+- [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -272,6 +273,19 @@ your brain.
 I keep a set of cheatsheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
 
 Take a break from programming problems for a half hour and go through your flashcards.
+
+### 4. Focus
+
+There are a lot of distractions that can take up valuable time. Focus and concentration is hard.
+
+## What you won't see covered
+
+This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent 
+technologies but were not mentioned in those notes:
+
+- SQL
+- Javascript
+- HTML, CSS, and other front-end technologies
 
 ## The Daily Plan
 

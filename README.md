@@ -262,9 +262,8 @@ I made a mobile-first website so I could review on my phone and tablet, whereeve
 
 Make your own for free:
 
-[Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-
-I'll add my set of flashcards to that repo soon so you have access to a lot of cards.
+- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the 
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in 
@@ -1555,7 +1554,7 @@ Take coding challenges every day, as many as you can.
     - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
     - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
     - [ ] [Practical Guide to implementing Neural Networks in Python](using Theano)])http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses: (videos)
+    - Courses:
         - [ ] [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)

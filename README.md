@@ -317,7 +317,7 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 
 ## Prerequisite Knowledge
 
-- [ ] **How computers process a program:**
+- [x] **How computers process a program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 

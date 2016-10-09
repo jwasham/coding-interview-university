@@ -323,7 +323,7 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
 - [ ] **How floating point numbers are stored:**
-    - [ ] simple 8-bit: [Fractions in binary? (video)] (There is an error in calculation in video - see description) (http://math.stackexchange.com/questions/301435/fractions-in-binary)
+    - [ ] simple 8-bit: [Fractions in binary? (video - there is an error in calculations - see video description)]  (http://math.stackexchange.com/questions/301435/fractions-in-binary)
     - [ ] 32 bit: [Representation of Floating Point Numbers - 1 (video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 64 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 

@@ -51,6 +51,7 @@
     - [A Tour of Go](https://tour.golang.org/)
     - [Effective Go](https://golang.org/doc/effective_go.html)
     - [Go Wiki](https://golang.org/wiki)
+    - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
 - Other Language 1
 - Other Language 2
 - etc

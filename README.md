@@ -333,7 +333,7 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - [ ] **How floating point numbers are stored:**
-    - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis

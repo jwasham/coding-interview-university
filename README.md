@@ -63,6 +63,7 @@ sometimes word-for-word in Google's coaching notes.
     - [Implement system routines](#implement-system-routines)
     - [String searching & manipulations](#string-searching--manipulations)
 - [Final Review](#final-review)
+- [Coding Question Practice](#coding-question-practice)
 - [Books](#books)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
@@ -1182,6 +1183,18 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] Merge Sort: https://www.youtube.com/watch?v=GCae1WNvnZM
    
 
+## Coding Question Practice
+
+- [ ] [Great intro (copied from System Design section): Algorithm design:](http://www.hiredintech.com/algorithm-design/)
+- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [ ] [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [ ] [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+
+- [MIT Interview Materials](https://courses.csail.mit.edu/iap/interview/materials.php)
+
+- [Exercises for getting better at a given language](http://exercism.io/languages)
+
 ## Books
 
 ### Mentioned in Google Coaching
@@ -1218,6 +1231,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
 
+
+    These two were very recommended.
+
+
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 
 - [ ] [Algorithms and Programming: Problems and Solutions](http://www.amazon.com/Algorithms-Programming-Solutions-Alexander-Shen/dp/0817638474)
@@ -1235,20 +1252,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
-
-Programming Question Prep:
-
-- [ ] [Great intro (copied from System Design section): Algorithm design:](http://www.hiredintech.com/algorithm-design/)
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
-- [ ] [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [ ] [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-
-- [MIT Interview Materials](https://courses.csail.mit.edu/iap/interview/materials.php)
-
-- [Exercises for getting better at a given language](http://exercism.io/languages)
-
-Programming:
 
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)

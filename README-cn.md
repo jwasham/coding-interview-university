@@ -116,13 +116,13 @@
 
 ## 如何使用它
 
-下面所有的东西都是一个概述，而你需要根据从上到下的顺序逐一处理。
+下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
 
-在学习过程中，我是使用 GitHub 特殊的 markdown flavor 语法去检查计划的进展，包括使用任务列表。
+在学习过程中，我是使用 GitHub 特殊的语法特性 markdown flavor 去检查计划的进展，包括使用任务列表。
 
-- [x] 创建一个新的分支，以使得你可以像这样去检查每项。直接往方括号中填写一个字符 x：[x]
+- [x] 创建一个新的分支，以使得你可以像这样去检查计划的进展。直接往方括号中填写一个字符 x 即可：[x]
 
-[关于 Github-flavored markdown 更多的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## 拥有一名 Googler 的心态
 

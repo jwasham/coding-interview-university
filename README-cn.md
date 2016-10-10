@@ -383,7 +383,7 @@
         - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（视频）](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
     - [ ] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - 并非看整个视频，而只是关于节点结果和内存分配那一部分
+        - 并非看完整个视频，只需要看关于节点结果和内存分配那一部分即可
     - [ ] 链表 vs 数组：
         - [核心链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [在现实世界中，链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)

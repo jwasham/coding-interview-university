@@ -1191,7 +1191,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [ ] [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 
-- [MIT Interview Materials](https://courses.csail.mit.edu/iap/interview/materials.php)
+- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 

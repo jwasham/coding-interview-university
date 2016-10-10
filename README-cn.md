@@ -167,17 +167,17 @@
     - [ ] [Google 是如何改善其检索算法（视频）](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] 系列文章：
     - [ ] [Google 检索是如何处理移动设备](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google 用于寻找需求的秘密研究](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [Google 为了寻找大众需求的秘密研究](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google 检索将成为你的下一个大脑](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [Demis Hassabis 的心灵深处](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+    - [ ] [Demis Hassabis 的心灵直白](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
 - [ ] [书籍：Google 公司是如何运作的](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [由 Google 通告所制作 —— 2016年10月（视频）](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
 ## 相关视频资源
 
-部分视频只能通过在 Coursera、Edx 或 Lynda.com class 上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。虽然，它们是免费观看。但是，部分课程可能不在该期间。因此，你需要多等待几个月。
+部分视频只能通过在 Coursera、Edx 或 Lynda.com class 上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。即便是免费观看，部分课程可能会由于不在时间段内而无法获取。因此，你需要多等待几个月。
 
-    我很感谢您能帮我把网络公开课程的视频链接转换成公开的视频源，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+    很感谢您能帮我把网络公开课程的视频链接转换成公开的视频源，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
 
 ## 面试过程 & 通用的面试准备
 

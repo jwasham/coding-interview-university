@@ -16,7 +16,7 @@
 - [为何要用到它？](#为何要用到它)
 - [如何使用它](#如何使用它)
 - [拥有一名 Googler 的心态](#拥有一名-googler-的心态)
-- [我得到了工作吗?](#我得到了工作吗)
+- [我得到了工作吗？](#我得到了工作吗)
 - [跟随着我](#跟随着我)
 - [不要自以为自己足够聪明](#不要自以为自己足够聪明)
 - [关于 Google](#关于-google)
@@ -130,7 +130,7 @@
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## 我得到了工作吗?
+## 我得到了工作吗？
 
 我还没去应聘。
 

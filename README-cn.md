@@ -344,10 +344,10 @@
 ## 数据结构
 
 - ### 数组
-    - 实现一个自动调整大小的动态数组。
+    - 实现一个可自动调整大小的动态数组。
     - [ ] 介绍：
         - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [基础数组（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [数组的基础知识（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
         - [多维数组（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
         - [动态数组（视频）](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [不规则数组（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
@@ -364,10 +364,10 @@
         - [ ] push(item)
         - [ ] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
         - [ ] prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
-        - [ ] pop() —— 删除在数组末端元素，并返回其值
+        - [ ] pop() —— 删除在数组末端的元素，并返回其值
         - [ ] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
         - [ ] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
-        - [ ] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则
+        - [ ] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1
         - [ ] resize(new_capacity) // 私有函数
             - 若数组到达其容积，则变大一倍
             - 当获取元素后，数组大小为其容积的1/4，则缩小一半

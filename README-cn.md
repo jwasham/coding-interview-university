@@ -343,7 +343,7 @@
 
 ## 数据结构
 
-- ### 数组
+- ### 数组（Arrays）
     - 实现一个可自动调整大小的动态数组。
     - [ ] 介绍：
         - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)

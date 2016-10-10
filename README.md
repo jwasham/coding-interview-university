@@ -319,7 +319,7 @@ You can see my code here:
 
 You don't need to memorize the guts of every algorithm.
 
-Write code on a whiteboard, not a computer. Test with some sample inputs. Then test it out on a computer.
+Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
 
 ## Prerequisite Knowledge
 

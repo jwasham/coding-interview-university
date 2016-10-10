@@ -193,17 +193,17 @@
     - [ ] _（早已过期）_ [如何得到 Google 的一份工作，面试题，应聘过程](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [手机设备屏幕的问题](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] 附加的（虽然 Google 不建议，但我添加上来）：
-    - [ ] [ABC：总处于编程状态（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [四步成为 Google 一名没有学位的员工](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+- [ ] 附加的（虽然 Google 不建议，但我还是添加在此）：
+    - [ ] [ABC：永远都要去编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [四步成为 Google 里一名没有学位的员工](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [共享白板（Whiteboarding）](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
     - [ ] [Google 是如何看待应聘、管理和公司文化](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
     - [ ] [程序开发面试中有效的白板（Whiteboarding）](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] 震撼程序开发的面试第一集：
-        - [ ] [Gayle L McDowell —— 震撼程序开发的面试（视频）](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [震撼程序开发的面试 —— 作者 Gayle Laakmann McDowell（视频）](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] 震撼开发类面试 第一集：
+        - [ ] [Gayle L McDowell —— 震撼开发类面试（视频）](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [ ] [震撼开发类面试 —— 作者 Gayle Laakmann McDowell（视频）](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] 如何在世界四强企业中获得一份工作：
-        - [ ] [“如何在世界四强企业中获得一份工作 —— Amazon、Facebook、Google和Microsoft”（视频）](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+        - [ ] [“如何在世界四强企业中获得一份工作 —— Amazon、Facebook、Google 和 Microsoft”（视频）](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [面试 Google 失败](http://alexbowe.com/failing-at-google-interviews/)
 
 ## 为你的面试选择一种语言

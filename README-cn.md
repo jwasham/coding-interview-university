@@ -39,7 +39,7 @@
     - [按位运算（Bitwise operations）](#按位运算bitwise-operations)
 - [树（Trees）](#树trees)
     - [树 —— 笔记 & 背景](#树--笔记--背景)
-    - [二叉查找树（Binary search trees）：BSTs](#二叉查找树binary-search-trees-bstss)
+    - [二叉查找树（Binary search trees）：BSTs](#二叉查找树binary-search-treesbsts)
     - [堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）](#堆heap--优先级队列priority-queue--二叉堆binary-heap)
     - [字典树（Tries）](#字典树tries)
     - [平衡查找树（Balanced search trees）](#平衡查找树balanced-search-trees)

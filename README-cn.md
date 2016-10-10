@@ -385,14 +385,14 @@
     - [ ] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
         - 并非看完整个视频，只需要看关于节点结果和内存分配那一部分即可
     - [ ] 链表 vs 数组：
-        - [核心链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [在现实世界中，链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [基本链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [在现实中，链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha：你需要关于“指向指针的指针”的相关知识：
+    - [ ] 的确：你需要关于“指向指针的指针”的相关知识：
         （因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）
         该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格，因为，代码的可读性和可维护性太低。
         - [指向指针的指针](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] 实现（我实现了使用尾指针以及没有使用这两种情况）：
+    - [ ] 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：
         - [ ] size() —— 返回链表中数据元素的个数
         - [ ] empty() —— 若链表为空则返回一个布尔值 true
         - [ ] value_at(index) —— 返回第 n 个元素的值（从0开始计算）
@@ -402,7 +402,7 @@
         - [ ] pop_back() —— 删除尾部元素并返回其值
         - [ ] front() —— 返回首部元素的值
         - [ ] back() —— 返回尾部元素的值
-        - [ ] insert(index, value) —— 插入值到指定的索引，并且当前索引的元素指向到新的元素 index
+        - [ ] insert(index, value) —— 插入值到指定的索引，并把当前索引的元素指向到新的元素
         - [ ] erase(index) —— 删除指定索引的节点
         - [ ] value_n_from_end(n) —— 返回倒数第 n 个节点的值
         - [ ] reverse() —— 逆序链表
@@ -414,14 +414,14 @@
 - ### 堆栈
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [使用堆栈 —— 后进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] 可以不实现，因为使用数组实现并不重要
+    - [ ] 可以不实现，因为使用数组来实现并不重要
 
 - ### 队列
     - [ ] [使用队列 —— 先进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [优先级队列（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] 使用含有尾部指针链表实现:
+    - [ ] 使用含有尾部指针的链表来实现:
         - enqueue(value) —— 在尾部添加值
         - dequeue() —— 删除最早添加的元素并返回其值（首部元素）
         - empty()
@@ -431,8 +431,8 @@
         - empty()
         - full()
     - [ ] 花销：
-        - 在使用链表的一个糟糕实现中，入列和出列的时间复杂度将会是 O(n)
-            因为你需要找到下一个元素，以致循环整个队列
+        - 在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。
+            因为，你需要找到下一个元素，以致循环整个队列
         - enqueue：O(1)（平摊（amortized）、链表和数组 [探测（probing）]）
         - dequeue：O(1)（链表和数组）
         - empty：O(1)（链表和数组）

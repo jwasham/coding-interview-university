@@ -591,13 +591,13 @@
     - 阅读代码，但不实现。
     - [ ] [数据结构笔记及编程技术](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] 短课程视频：
-        - [ ] [对字典树（Tries）的介绍（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [字典树（Tries）的性能（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [实现一棵字典树（Tries）（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-    - [ ] [字典树（Tries）：一个被忽略的数据结构](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [高级编程人员 —— 使用字典树（Tries）](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+        - [ ] [对字典树的介绍（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [ ] [字典树的性能（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [ ] [实现一棵字典树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] [字典树：一个被忽略的数据结构](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    - [ ] [高级编程 —— 使用字典树](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
     - [ ] [标准教程（现实中的用例）（视频）](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT，高阶数据结构，字符串（可事半功倍）](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+    - [ ] [MIT，高阶数据结构，使用字符串追踪路径（可事半功倍）](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### 平衡查找树
     - 掌握至少一种平衡查找树（并懂得如何实现）：

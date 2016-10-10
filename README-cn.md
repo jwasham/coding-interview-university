@@ -140,7 +140,7 @@
 
 ## 跟随着我
 
-目前我仍在该计划的执行过程中，如果，你想跟随我的脚步去学习，你可以登进我在 [GoogleyAsHeck.com](https://googleyasheck.com/) 上所写的博客。
+目前我仍在该计划的执行过程中，如果你想跟随我脚步去学习的话，可以登进我在 [GoogleyAsHeck.com](https://googleyasheck.com/) 上所写的博客。
 
 下面是我的联系方式：
 

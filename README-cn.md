@@ -388,9 +388,7 @@
         - [基本链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [在现实中，链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] 的确：你需要关于“指向指针的指针”的相关知识：
-        （因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）
-        该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
+    - [ ] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
         - [指向指针的指针](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：
         - [ ] size() —— 返回链表中数据元素的个数
@@ -431,8 +429,7 @@
         - empty()
         - full()
     - [ ] 花销：
-        - 在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。
-            因为，你需要找到下一个元素，以致循环整个队列
+        - 在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。因为，你需要找到下一个元素，以致循环整个队列
         - enqueue：O(1)（平摊（amortized）、链表和数组 [探测（probing）]）
         - dequeue：O(1)（链表和数组）
         - empty：O(1)（链表和数组）
@@ -643,8 +640,8 @@
         - [ ] [B 树的定义及其插入操作（视频）](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [B 树的删除操作（视频）](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [MIT 6.851 —— 内存层次模块（Memory Hierarchy Models）（视频）](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - 覆盖有高速缓存参数无关型（cache-oblivious）B 树和非常有趣的数据结构
-                - 头37分钟讲述的很专业，或许可以跳过（B 指块的大小、即缓存行的大小）
+            - 覆盖有高速缓存参数无关型（cache-oblivious）B 树和非常有趣的数据结构
+            - 头37分钟讲述的很专业，或许可以跳过（B 指块的大小、即缓存行的大小）
 
     - [ ] **红黑树**
         - 实际中：红黑树提供了在最坏情况下插入操作、删除操作和查找操作的时间保证。这些时间值的保障不仅对时间敏感型应用有用，例如实时应用，还对在其他数据结构中块的构建非常有用，而这些数据结构都提供了最坏情况下的保障；例如，许多用于计算几何学的数据结构都可以基于红黑树，而目前 Linux 系统所采用的完全公平调度器（the Completely Fair Scheduler）也使用到了该种树。在 Java 8中，红黑树也被用于存储哈希列表集合中相同的数据，而不是使用链表及哈希码。

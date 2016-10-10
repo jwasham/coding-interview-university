@@ -35,14 +35,14 @@
     - [队列（Queue）](#队列queue)
     - [哈希表（Hash table）](#哈希表hash-table)
 - [更多的知识](#更多的知识)
-    - [二分查找](#二分查找)
-    - [按位运算](#按位运算)
-- [树](#树)
+    - [二分查找（Binary search）](#二分查找binary-search)
+    - [按位运算（Bitwise operations）](#按位运算bitwise-operations)
+- [树（Trees）](#树trees)
     - [树 —— 笔记 & 背景](#树--笔记--背景)
-    - [二叉查找树：BSTs](#二叉查找树-bstss)
-    - [堆 / 优先级队列 / 二叉堆](#堆--优先级队列--二叉堆)
+    - [二叉查找树（Binary search trees）：BSTs](#二叉查找树binary-search-trees-bstss)
+    - [堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）](#堆heap--优先级队列priority-queue--二叉堆binary-heap)
     - [字典树（Tries）](#字典树tries)
-    - [平衡查找树](#平衡查找树)
+    - [平衡查找树（Balanced search trees）](#平衡查找树balanced-search-trees)
     - [N 叉树（K 叉树、M 叉树）](#n-叉树k-叉树m-叉树)
 - [Sorting](#sorting)
 - [Graphs](#graphs)
@@ -378,7 +378,7 @@
         - 因为在内存中分配的空间邻近，所以有助于提高性能
         - 空间需求 = （大于或等于 n 的数组容积）* 元素的大小。即便空间需求为 2n，其空间复杂度仍然是 O(n)
 
-- ### 链表
+- ### 链表（Linked Lists）
     - [ ] 介绍：
         - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（视频）](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
@@ -411,12 +411,12 @@
         - [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - 并不需要实现
 
-- ### 堆栈
+- ### 堆栈（Stack）
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [使用堆栈 —— 后进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
-- ### 队列
+- ### 队列（Queue）
     - [ ] [使用队列 —— 先进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
@@ -437,7 +437,7 @@
         - dequeue：O(1)（链表和数组）
         - empty：O(1)（链表和数组）
 
-- ### 哈希表
+- ### 哈希表（Hash table）
     - [ ] 视频：
         - [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -467,7 +467,7 @@
 
 ## 更多的知识
 
-- ### 二分查找
+- ### 二分查找（Binary search）
     - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
@@ -475,7 +475,7 @@
         - 二分查找（在一个已排序好的整型数组中查找）
         - 迭代式二分查找
 
-- ### 按位运算
+- ### 按位运算（Bitwise operations）
     - [ ] [Bits 速查表](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf)
         - 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
     - [ ] 好好理解位操作符的含义：&、|、^、~、>>、<<
@@ -503,7 +503,7 @@
     - [ ] 绝对值：
         - [绝对整型（Absolute Integer）](http://bits.stephan-brumme.com/absInteger.html)
 
-## 树
+## 树（Trees）
 
 - ### 树 —— 笔记 & 背景
     - [ ] [系列：基本树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
@@ -527,7 +527,7 @@
         - 后序遍历（DFS：左、右、节点本身）
         - 先序遍历（DFS：节点本身、左、右）
 
-- ### 二叉查找树: BSTs
+- ### 二叉查找树（Binary search trees）：BSTs
     - [ ] [二叉查找树概览（视频）](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [系列（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - 从符号表开始到 BST 程序
@@ -557,7 +557,7 @@
         - [ ] delete_value
         - [ ] get_successor // 返回给定值的后继者，若没有则返回-1
 
-- ### 堆 / 优先级队列 / 二叉堆
+- ### 堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）
     - 可视化是一棵树，但通常是以线性的形式存储（数组、链表）
     - [ ] [堆](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
@@ -599,7 +599,7 @@
     - [ ] [标准教程（现实中的用例）（视频）](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT，高阶数据结构，使用字符串追踪路径（可事半功倍）](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### 平衡查找树
+- ### 平衡查找树（Balanced search trees）
     - 掌握至少一种平衡查找树（并懂得如何实现）：
     - “在各种平衡查找树当中，AVL 树和2-3树已经成为了过去，而红黑树（red-black trees）看似变得越来越受人青睐。这种令人特别感兴趣的数据结构，亦称伸展树（splay tree）。它可以自我管理，且会使用轮换来移除任何访问过根节点的 key。” —— Skiena
     - 因此，在各种各样的平衡查找树当中，我选择了伸展树来实现。虽然，通过我的阅读，我发现在 Google 的面试中并不会被要求实现一棵平衡查找树。但是，为了胜人一筹，我们还是应该看看如何去实现。在阅读了大量关于红黑树的代码后，我才发现伸展树的实现确实会使得各方面更为高效。

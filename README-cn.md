@@ -165,7 +165,7 @@
     - [ ] [Google 检索的原理](https://www.google.com/insidesearch/howsearchworks/)
     - [ ] [Google 检索的原理 —— Matt Cutts（视频）](https://www.youtube.com/watch?v=BNHR6IQJGZs)
     - [ ] [Google 是如何改善其检索算法（视频）](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] 连载小说：
+- [ ] 系列文章：
     - [ ] [Google 检索是如何处理移动设备](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
     - [ ] [Google 用于寻找需求的秘密研究](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google 检索将成为你的下一个大脑](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)

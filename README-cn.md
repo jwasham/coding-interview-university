@@ -477,8 +477,8 @@
 
 - ### 按位运算
     - [ ] [Bits 速查表](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf)
-        - 你需要知道大量2的倍数其值（从2^1 到 2^16 及 2^32）
-    - [ ] 好好理解位运操作符的含义：&、|、^、~、>>、<<
+        - 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
+    - [ ] 好好理解位操作符的含义：&、|、^、~、>>、<<
         - [ ] [字码（words）](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] 好的介绍：
             [位操作（视频）](https://www.youtube.com/watch?v=7jkIUgLC29I)
@@ -494,7 +494,7 @@
         - [补码（2s Complement）](https://en.wikipedia.org/wiki/Two%27s_complement)
     - [ ] 计算置位（Set Bits）
         - [计算一个字节中置位（Set Bits）的四种方式（视频）](https://youtu.be/Hzuzo9NJrlc)
-        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [计算比特位](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [如何在一个 32 位的整型中计算置位（Set Bits）的数量](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
     - [ ] 四舍五入2的幂数：
         - [四舍五入到2的下一幂数](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
@@ -506,7 +506,7 @@
 ## 树
 
 - ### 树 —— 笔记 & 背景
-    - [ ] [系列：树结构的核心（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+    - [ ] [系列：基本树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [系列：树（视频）](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 基本的树形结构
     - 遍历
@@ -523,25 +523,25 @@
             空间复杂度：
                 最好情况：O(log n) - 树的平均高度
                 最坏情况：O(n)
-        - 中序遍历（DFS：左、自己、右）
-        - 后序遍历（DFS：左、右、自己）
-        - 先序遍历（DFS：自己、左、右）
+        - 中序遍历（DFS：左、节点本身、右）
+        - 后序遍历（DFS：左、右、节点本身）
+        - 先序遍历（DFS：节点本身、左、右）
 
 - ### 二叉查找树: BSTs
     - [ ] [二叉查找树概览（视频）](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [系列（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - 从符号表开始讲到 BST 程序
+        - 从符号表开始到 BST 程序
     - [ ] [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT（视频）](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [二叉查找树 —— 在 C/C++ 中实现（视频）](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST 实现 —— 在堆栈和堆中的内存分配（视频）](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [BST 的实现 —— 在堆栈和堆中的内存分配（视频）](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
         - [ ] [在二叉查找树中找到最小和最大的元素（视频）](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [寻找二叉树的高度（视频）](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
         - [ ] [二叉树的遍历 —— 广度优先和深度优先策略（视频）](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
         - [ ] [二叉树：层序遍历（视频）](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [二叉树的遍历：先序、中序、后续（视频）](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [判断一棵二叉树是否是二叉查找树（视频）](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [二叉树的遍历：先序、中序、后序（视频）](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [判断一棵二叉树是否为二叉查找树（视频）](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [从二叉查找树中删除一个节点（视频）](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [二叉查找树中序遍历的后继者（视频）](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] 实现：
@@ -572,17 +572,17 @@
     - [ ] [构建一个堆（视频）](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
     - [ ] [MIT：堆与堆排序（视频）](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24：优先级队列（视频）](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
-    - [ ] [线性时间复杂度的堆构建（大顶堆）](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [构建线性时间复杂度的堆（大顶堆）](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] 实现一个大顶堆：
         - [ ] insert
         - [ ] sift_up —— 用于插入元素
-        - [ ] get_max —— 返回最大值但不移除
+        - [ ] get_max —— 返回最大值但不移除元素
         - [ ] get_size() —— 返回存储的元素数量
         - [ ] is_empty() —— 若堆为空则返回 true
-        - [ ] extract_max —— 返回最大值并移除它
+        - [ ] extract_max —— 返回最大值并移除
         - [ ] sift_down —— 用于获取最大值元素
         - [ ] remove(i) —— 删除指定索引的元素
-        - [ ] heapify —— 构件堆，用于堆排序
+        - [ ] heapify —— 构建堆，用于堆排序
         - [ ] heap_sort() —— 拿到一个未排序的数组，然后使用大顶堆进行就地排序
             - 注意：若用小顶堆可节省操作，但导致空间复杂度加倍。（无法做到就地）
 

@@ -295,9 +295,9 @@
 就算我没有时间去每一项都这么做，但我也会尽我所能的。
 
 在这里，你可以查看到我的代码：
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
 你不需要记住每一个算法的内部原理。
 

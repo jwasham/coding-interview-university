@@ -1646,7 +1646,6 @@ You're never really done.
 
 - [ ] [大数据 - 斯坦福大学 (94 个视频)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
 
-## Computer Science Courses
 ## 计算机科学课程
 
 - [ 在线 CS 课程目录 ](https://github.com/open-source-society/computer-science)

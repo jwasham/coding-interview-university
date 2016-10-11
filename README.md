@@ -1,5 +1,7 @@
 # Google Interview University
 
+[中文版本](https://github.com/xitu/google-interview-university/blob/master/README-cn.md)
+
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.

@@ -1,5 +1,10 @@
 # Google Interview University - 一套完整的学习手册帮助自己准备 Google 的面试
 
+> * 原文地址：[Google Interview University](https://github.com/jwasham/google-interview-university)
+* 原文作者：[John Washam](https://github.com/jwasham)
+* 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+* 译者：[Aleen](https://github.com/aleen42)，[Newton](https://github.com/Newt0n)，[bobmayuze](https://github.com/bobmayuze)，[Jaeger](https://github.com/laobie)，[sqrthree](https://github.com/sqrthree)
+
 ## 这是？
 
 这是我为了从 web 开发者（自学、非计算机科学学位）蜕变至 Google 软件工程师所制定的计划，其内容历时数月。

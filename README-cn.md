@@ -1315,8 +1315,8 @@
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix命令行工具（Unix command line tools）
-    - 下列内容中的优秀工具由的Yegge推荐，Yegge目前致力于Amazon人事招聘处。
+- ### Unix 命令行工具
+    - 下列内容中的优秀工具由的 Yegge 推荐，Yegge 目前致力于 Amazon 人事招聘处。
     - [ ] bash
     - [ ] cat
     - [ ] grep
@@ -1330,7 +1330,7 @@
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
 - ### 信息资源 (视频)
-    - [ ] [Khan Academy可汗学院](https://www.khanacademy.org/computing/computer-science/informationtheory)
+    - [ ] [Khan Academy 可汗学院](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] 更多有关马尔可夫的内容:
         - [ ] [Core Markov Text Generation马尔可夫内容生成](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [ ] [Core Implementing Markov Text Generation马尔可夫内容生成补充](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
@@ -1340,7 +1340,7 @@
 - ### 奇偶校验位 & 汉明码 (视频)
     - [ ] [入门](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [奇偶校验位](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-    - [ ] Hamming Code:
+    - [ ] 汉明码(Hamming Code):
         - [发现错误](https://www.youtube.com/watch?v=1A_NcXxdoCc)
         - [修正错误](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [检查错误](https://www.youtube.com/watch?v=wbH2VxzmoZk)
@@ -1379,7 +1379,7 @@
     - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
     - [ ] [视频](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [子网络解密 - 第五部分 经典内部域名指向CIDR标记](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] [子网络解密 - 第五部分 经典内部域名指向 CIDR 标记](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
 - ### 电脑安全
     - [MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
@@ -1400,12 +1400,12 @@
     - [ ] [Java 释放缓存; 片段化数据 (视频)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [编译器 (视频)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [Python 释放缓存 (视频)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
-    - [ ] [深度解析：论释放缓存在JAVA中的重要性](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [ ] [深度解析：论释放缓存在Python中的重要性(视频)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+    - [ ] [深度解析：论释放缓存在 JAVA 中的重要性](https://www.infoq.com/presentations/garbage-collection-benefits)
+    - [ ] [深度解析：论释放缓存在 Python 中的重要性(视频)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### 平行化(多线程)编程
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [ ] [论平行化编程如何提高Python执行效率 (视频)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [ ] [论平行化编程如何提高 Python 执行效率 (视频)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### 设计模式
     - [ ] [UML统一建模语言概览 (视频)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
@@ -1427,11 +1427,11 @@
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
-    - [ ] [第六章 (第1部分 ) - 设计模式 (视频)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-    - [ ] [第六章 (第2部分 ) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (视频)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [第六章 (第3部分 ) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [第六章 (第 1 部分 ) - 设计模式 (视频)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    - [ ] [第六章 (第 2 部分 ) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (视频)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [第六章 (第 3 部分 ) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [视频](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-    - [ ] [Head Fisrt:设计模型](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+    - [ ] [Head Fisrt 设计模型](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - 尽管这本书叫做设计模式：重复使用模块，但是我还是认为Head First是对于新手来说很不错的书。
     - [ ] [基于实际操作对于入门开发者的建议](https://sourcemaking.com/design-patterns-and-tips)
 
@@ -1444,8 +1444,8 @@
         - [gRPC 对于JAVA开发者的入门教程（视频）](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [ ] [Redis](http://redis.io/)
         - [教程](http://try.redis.io/)
-    - [ ] [Amazon的SQS系统 (队列)](https://aws.amazon.com/sqs/)
-    - [ ] [Amazon的SNS系统 (pub-sub)](https://aws.amazon.com/sns/)
+    - [ ] [Amazon的 SQS 系统 (队列)](https://aws.amazon.com/sqs/)
+    - [ ] [Amazon的 SNS 系统 (pub-sub)](https://aws.amazon.com/sns/)
     - [ ] [RabbitMQ](https://www.rabbitmq.com/)
         - [入门教程](https://www.rabbitmq.com/getstarted.html)
     - [ ] [Celery](http://www.celeryproject.org/)
@@ -1460,8 +1460,8 @@
 - ### 快速傅里叶变换
     - [ ] [什么是傅立叶变换？论傅立叶变换的用途](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
     - [ ] [什么是傅立叶变换？ (视频)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [ ] [关于FFT的不同观点 (视频)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
-    - [ ] [FTT是什么](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+    - [ ] [关于 FFT 的不同观点 (视频)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [ ] [FTT 是什么](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### 布隆过滤器
     - 给一个布隆过滤器m比特和k个哈希函数，所有的注入和相关测试都会是通过。
@@ -1497,7 +1497,6 @@
         - [ ] [合并树状结构](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
         - [ ] [路径压缩](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
         - [ ] [分析选项](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
-
 
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)

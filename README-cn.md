@@ -98,14 +98,14 @@
     - [跳表](#跳表)
     - [网络流](#网络流)
     - [不相交集 & 联合查找](#不相交集--联合查找)
-    - [Math for Fast Processing](#math-for-fast-processing)
-    - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-    - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    - [快速处理数学](#math-for-fast-processing)
+    - [树堆 (Treap)](#树堆-treap)
+    - [线性规划](#线性规划linear-programming视频)
+    - [几何：凸包（Geometry, Convex hull）](#几何凸包geometry-convex-hull视频)
+    - [离散数学](#离散数学)
+    - [机器学习](#机器学习machine-learning)
+    - [Go 语言](#go-语言)
+- [一些主题的额外内容](#一些主题的额外内容)
 - [视频系列](#视频系列)
 - [计算机科学课程](#计算机科学课程)
 
@@ -1502,7 +1502,7 @@
         - [ ] [路径压缩](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
         - [ ] [分析选项](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- ### 数学的快速处理
+- ### 快速处理数学
     - [ ] [整数运算, Karatsuba 乘法 (视频)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [中国剩余定理 (在密码学中的使用) (视频)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 

@@ -1,6 +1,8 @@
 # Google Interview University
 
-[中文版本](https://github.com/xitu/google-interview-university/blob/master/README-cn.md)
+Translations:
+
+- [中文版本](https://github.com/jwasham/google-interview-university/blob/master/README-cn.md)
 
 ## What is it?
 

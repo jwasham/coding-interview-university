@@ -1502,15 +1502,15 @@
         - [ ] [路径压缩](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
         - [ ] [分析选项](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- ### Math for Fast Processing
-    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+- ### 数学的快速处理
+    - [ ] [整数运算, Karatsuba 乘法 (视频)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [中国剩余定理 (在密码学中的使用) (视频)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
-- ### Treap
-    - Combination of a binary search tree and a heap
-    - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
-    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
-    - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
+- ### 树堆 (Treap)
+    - 一个二叉搜索树和一个堆的组合
+    - [ ] [树堆](https://en.wikipedia.org/wiki/Treap)
+    - [ ] [数据结构：树堆的讲解(video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [ ] [集合操作的应用(Applications in set operations)](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
 - ### 线性规划（Linear Programming）（视频）
     - [ ] [线性规划](https://www.youtube.com/watch?v=M4K6HYLHREQ)

@@ -1,4 +1,3 @@
-# Google Interview University - 一套完整的学习手册帮助自己准备 Google 的面试
 
 > * 原文地址：[Google Interview University](https://github.com/jwasham/google-interview-university)
 * 原文作者：[John Washam](https://github.com/jwasham)
@@ -49,35 +48,35 @@
     - [字典树（Tries）](#字典树tries)
     - [平衡查找树（Balanced search trees）](#平衡查找树balanced-search-trees)
     - [N 叉树（K 叉树、M 叉树）](#n-叉树k-叉树m-叉树)
-- [Sorting](#sorting)
-- [Graphs](#graphs)
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [动态规划](#dynamic-programming)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-- [Final Review](#final-review)
-- [Books](#books)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [排序](#排序sorting)
+- [图（Graphs）](#图graphs)
+- [更多知识](#更多知识)
+    - [递归](#递归recursion)
+    - [动态规划](#动态规划dynamic-programming)
+    - [组合 & 概率](#组合combinatorics-n-中选-k-个--概率probability)
+    - [NP, NP-完全和近似算法](#np-np-完全和近似算法)
+    - [缓存](#缓存cache)
+    - [进程和线程](#进程processe和线程thread)
+    - [系统设计、可伸缩性、数据处理](#系统设计可伸缩性数据处理)
+    - [论文](#论文)
+    - [测试](#测试)
+    - [调度](#调度)
+    - [实现系统例程](#实现系统例程)
+    - [字符串搜索和操作](#字符串搜索和操作)
+- [终面](#终面)
+- [书籍](#书籍)
+- [编码练习和挑战](#编码练习和挑战)
+- [当你临近面试时](#当你临近面试时)
+- [你的简历](#你的简历)
+- [当面试来临的时候](#当面试来临的时候)
+- [问面试官的问题](#问面试官的问题)
+- [当你获得了梦想的职位](#当你获得了梦想的职位)
 
----------------- Everything below this point is optional ----------------
+---------------- 下面的内容是可选的 ----------------
 
-- [Additional Learning](#additional-learning)
+- [附加的学习](#附加的学习)
     - [Unicode](#unicode)
-    - [Endianness](#endianness)
+    - [字节顺序](#字节顺序)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix 命令行工具](#unix-命令行工具)
     - [信息资源 (视频)](#信息资源-视频)
@@ -98,14 +97,14 @@
     - [跳表](#跳表)
     - [网络流](#网络流)
     - [不相交集 & 联合查找](#不相交集--联合查找)
-    - [Math for Fast Processing](#math-for-fast-processing)
-    - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-    - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    - [快速处理数学](#math-for-fast-processing)
+    - [树堆 (Treap)](#树堆-treap)
+    - [线性规划](#线性规划linear-programming视频)
+    - [几何：凸包（Geometry, Convex hull）](#几何凸包geometry-convex-hull视频)
+    - [离散数学](#离散数学)
+    - [机器学习](#机器学习machine-learning)
+    - [Go 语言](#go-语言)
+- [一些主题的额外内容](#一些主题的额外内容)
 - [视频系列](#视频系列)
 - [计算机科学课程](#计算机科学课程)
 
@@ -1277,48 +1276,47 @@
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job.
+    下面的内容都是可选的。这些是我的推荐，不是 Google 的。
+    通过学习这些内容，你将会得到更多的有关 CS 的概念，并将为所有的软件工程工作做更好的准备。
 
     *****************************************************************************************************
     *****************************************************************************************************
 
 ---
 
-## Additional Learning
+## 附加的学习
 
 - ### Unicode
-    - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
-    - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
+    - [ ] [每一个软件开发者的绝对最低限度，必须要知道的关于 Unicode 和字符集知识]( http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] [关于处理文本需要的编码和字符集, 每个程序员绝对需要知道的知识](http://kunststube.net/encoding/)
 
-- ### Endianness
-    - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+- ### 字节顺序
+    - [ ] [大、小端字节序](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] [大端字节 Vs 小端字节(视频)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [大、小端字节序的里里外外(Big And Little Endian Inside/Out) (视频)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        - 内核开发者的讨论非常技术性，如果大多数都超出了你的理解范围，不要太担心。
+        - 前半段已经足够了。
 
 - ### Emacs and vi(m)
-    - suggested by Yegge, from an old Amazon recruiting post: Familiarize yourself with a unix-based code editor
+    - Yegge 的建议，从一个很早以前的亚马逊招聘信息中而来：熟悉基于 unix 的代码编辑器
     - vi(m):
-        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
-        - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
-            - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
-            - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
-            - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
-            - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
-        - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
+        - [使用 vim 进行编辑 01 - 安装, 设置和模式 (视频)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [VIM 的冒险之旅](http://vim-adventures.com/)
+        - 4 个视频集:
+            - [vi/vim 编辑器 - 课程 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
+            - [vi/vim 编辑器 - 课程 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
+            - [vi/vim 编辑器 - 课程 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
+            - [vi/vim 编辑器 - 课程 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
+        - [使用 Vi 而不是 Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
-        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
-            - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
-            - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
-            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
-        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
-        - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
+        - [基础 Emacs 教程 (视频)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
+        - 3 个视频集:
+            - [Emacs 教程 (初学者) -第 1 部分- 文件命令, 剪切/复制/粘贴,  自定义命令](https://www.youtube.com/watch?v=ujODL7MD04Q)
+            - [Emacs 教程 (初学者 -第 2 部分- Buffer 管理, 搜索, M-x grep 和 rgrep 模式](https://www.youtube.com/watch?v=XWpsRupJ4II)
+            - [Emacs 教程 (初学者 -第 3 部分- 表达式, 声明, ~/.emacs 文件和包机制](https://www.youtube.com/watch?v=paSgzPso-yc)
+        - [Evil 模式: 或许, 我是怎样对 Emacs 路人转粉的 (视频)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [使用 Emacs 开发 C 程序](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
+        - [(或许) 深度组织模式:管理结构 (视频)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix 命令行工具
     - 下列内容中的优秀工具由的 Yegge 推荐，Yegge 目前致力于 Amazon 人事招聘处。
@@ -1503,15 +1501,15 @@
         - [ ] [路径压缩](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
         - [ ] [分析选项](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- ### Math for Fast Processing
-    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+- ### 快速处理数学
+    - [ ] [整数运算, Karatsuba 乘法 (视频)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [中国剩余定理 (在密码学中的使用) (视频)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
-- ### Treap
-    - Combination of a binary search tree and a heap
-    - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
-    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
-    - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
+- ### 树堆 (Treap)
+    - 一个二叉搜索树和一个堆的组合
+    - [ ] [树堆](https://en.wikipedia.org/wiki/Treap)
+    - [ ] [数据结构：树堆的讲解(video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [ ] [集合操作的应用(Applications in set operations)](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
 - ### 线性规划（Linear Programming）（视频）
     - [ ] [线性规划](https://www.youtube.com/watch?v=M4K6HYLHREQ)

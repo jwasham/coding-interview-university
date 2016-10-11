@@ -49,31 +49,31 @@
     - [字典树（Tries）](#字典树tries)
     - [平衡查找树（Balanced search trees）](#平衡查找树balanced-search-trees)
     - [N 叉树（K 叉树、M 叉树）](#n-叉树k-叉树m-叉树)
-- [Sorting](#sorting)
-- [Graphs](#graphs)
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [动态规划](#dynamic-programming)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-- [Final Review](#final-review)
-- [Books](#books)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [排序](#排序sorting)
+- [图（Graphs）](#图graphs)
+- [更多知识](#更多知识)
+    - [递归](#递归recursion)
+    - [动态规划](#动态规划dynamic-programming)
+    - [组合 & 概率](#组合combinatorics-n-中选-k-个--概率probability)
+    - [NP, NP-完全和近似算法](#np-np-完全和近似算法)
+    - [缓存](#缓存cache)
+    - [进程和线程](#进程processe和线程thread)
+    - [系统设计、可伸缩性、数据处理](#系统设计可伸缩性数据处理)
+    - [论文](#论文)
+    - [测试](#测试)
+    - [调度](#调度)
+    - [实现系统例程](#实现系统例程)
+    - [字符串搜索和操作](#字符串搜索和操作)
+- [终面](#终面)
+- [书籍](#书籍)
+- [编码练习和挑战](#编码练习和挑战)
+- [当你临近面试时](#当你临近面试时)
+- [你的简历](#你的简历)
+- [当面试来临的时候](#当面试来临的时候)
+- [问面试官的问题](#问面试官的问题)
+- [当你获得了梦想的职位](#当你获得了梦想的职位)
 
----------------- Everything below this point is optional ----------------
+---------------- 下面的内容是可选的 ----------------
 
 - [Additional Learning](#additional-learning)
     - [Unicode](#unicode)
@@ -804,7 +804,7 @@
     - 尾递归会更好么?
         - [ ] [什么是尾递归以及为什么它如此糟糕?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [尾递归 (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
- 
+
 - ### 动态规划（Dynamic Programming）
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - 这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。
@@ -821,7 +821,7 @@
         - [ ] [Simonson: 动态规划 II - 课程 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
         - [ ] 单独的 DP 问题 (每一个视频都很短):
             [动态规划 (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-    - [ ] Yale 课程笔记: 
+    - [ ] Yale 课程笔记:
         - [ ] [动态规划](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera 课程:
         - [ ] [RNA 二级结构问题 (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
@@ -934,14 +934,14 @@
     - [ ] [上下文切换操作会耗费多少时间?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
     - [ ] [跨数据中心的事务 (video)](https://www.youtube.com/watch?v=srOgpXECblk)
     - [ ] [简明 CAP 理论介绍](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-    - [ ] Paxos 一致性算法: 
+    - [ ] Paxos 一致性算法:
         - [时间很短](https://www.youtube.com/watch?v=s8JqcZtvnsM)
         - [用例 和 multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
         - [论文](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
     - [ ] [一致性哈希](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
     - [ ] [NoSQL 模式](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
     - [ ] [OOSE: UML 2.0 系列 (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] OOSE: 使用 UML 和 Java 开发软件 (21 videos): 
+    - [ ] OOSE: 使用 UML 和 Java 开发软件 (21 videos):
         - 如果你对 OO 都深刻的理解和实践，可以跳过这部分。
         - [OOSE: 使用 UML 和 Java 开发软件](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] 面向对象编程的 SOLID 原则:
@@ -962,7 +962,7 @@
             - [更多](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
     - [ ] 可伸缩性:
         - [ ] [很棒的概述 (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-        - [ ] 简短系列: 
+        - [ ] 简短系列:
             - [克隆](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
             - [数据库](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
             - [缓存](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -1121,7 +1121,7 @@
 
 ---
 
-## 终面 
+## 终面
 
     这一部分有一些短视频，你可以快速的观看和复习大多数重要概念。
     这对经常性的巩固很有帮助。
@@ -1136,7 +1136,7 @@
 #### 排序:
 
 - [ ] 归并排序: https://www.youtube.com/watch?v=GCae1WNvnZM
-   
+
 
 ## 书籍
 
@@ -1163,7 +1163,7 @@
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - 如果你看到有人在看 "The Google Resume", 实际上它和 "Cracking the Coding Interview" 是同一个作者写的，而且后者是升级版。
 
-### 附加书单 
+### 附加书单
 
 这些没有被 Google 推荐阅读，不过我因为需要这些背景知识所以也把它们列在了这里。
 
@@ -1181,7 +1181,7 @@
 ### 如果你有时间
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    
+
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - 如果你希望在面试里用 C++ 写代码，这本书的代码全都是 C++ 写的
     - 通常情况下能找到解决方案的好书.
@@ -1234,7 +1234,7 @@
     随着下面列举的问题思考下你可能会遇到的 20 个面试问题
     每个问题准备 2-3 种回答
     准备点故事，不要只是摆一些你完成的事情的数据，相信我，人人都喜欢听故事
-    
+
 - 你为什么想得到这份工作？
 - 你解决过的最有难度的问题是什么？
 - 面对过的最大挑战是什么?
@@ -1276,49 +1276,49 @@
 
     *****************************************************************************************************
     *****************************************************************************************************
-    
-    Everything below this point is optional. These are my recommendations, not Google's. 
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for 
-    any software engineering job.
+
+    下面的内容都是可选的。这些是我的推荐，不是 Google 的。
+    通过学习这些内容，你将会得到更多的有关 CS 的概念，并将为所有的软件工程工作做更好的准备。
 
     *****************************************************************************************************
     *****************************************************************************************************
 
 ---
 
-## Additional Learning
+## 附加的学习
 
 - ### Unicode
-    - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
-    - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
+    - [ ] [每一个软件开发者的绝对最低限度，必须要知道的关于 Unicode 和字符集知识]( http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] [关于处理文本需要的编码和字符集, 每个程序员绝对需要知道的知识](http://kunststube.net/encoding/)
 
-- ### Endianness
-    - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+- ### 字节顺序
+    - [ ] [大、小端字节序](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] [大端字节 Vs 小端字节(视频)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [大、小端字节序的里里外外(Big And Little Endian Inside/Out) (视频)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        - 内核开发者的讨论非常技术性，如果大多数都超出了你的理解范围，不要太担心。
+        - 前半段已经足够了。
 
 - ### Emacs and vi(m)
     - suggested by Yegge, from an old Amazon recruiting post: Familiarize yourself with a unix-based code editor
+    - Yegge 的建议，从一个很早以前的亚马逊招聘信息中而来：熟悉基于 unix 的代码编辑器
     - vi(m):
-        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
-        - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
-            - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
-            - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
-            - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
-            - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
-        - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
+        - [使用 vim 进行编辑 01 - 安装, 设置和模式 (视频)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [VIM 的冒险之旅](http://vim-adventures.com/)
+        - 4 个视频集:
+            - [vi/vim 编辑器 - 课程 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
+            - [vi/vim 编辑器 - 课程 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
+            - [vi/vim 编辑器 - 课程 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
+            - [vi/vim 编辑器 - 课程 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
+        - [使用 Vi 而不是 Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
-        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
-            - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
-            - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
-            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
-        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
-        - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
+        - [基础 Emacs 教程 (视频)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
+        - 3 个视频集:
+            - [Emacs 教程 (初学者) -第 1 部分- 文件命令, 剪切/复制/粘贴,  自定义命令](https://www.youtube.com/watch?v=ujODL7MD04Q)
+            - [Emacs 教程 (初学者 -第 2 部分- Buffer 管理, 搜索, M-x grep 和 rgrep 模式](https://www.youtube.com/watch?v=XWpsRupJ4II)
+            - [Emacs 教程 (初学者 -第 3 部分- 表达式, 声明, ~/.emacs 文件和包机制](https://www.youtube.com/watch?v=paSgzPso-yc)
+        - [Evil 模式: 或许, 我是怎样对 Emacs 路人转粉的 (视频)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [使用 Emacs 开发 C 程序](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
+        - [(或许) 深度组织模式:管理结构 (视频)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix 命令行工具
     - 下列内容中的优秀工具由的 Yegge 推荐，Yegge 目前致力于 Amazon 人事招聘处。
@@ -1506,7 +1506,7 @@
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
-    
+
 - ### Treap
     - Combination of a binary search tree and a heap
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)

@@ -75,9 +75,9 @@
 
 ---------------- 下面的内容是可选的 ----------------
 
-- [Additional Learning](#additional-learning)
+- [附加的学习](#附加的学习)
     - [Unicode](#unicode)
-    - [Endianness](#endianness)
+    - [字节顺序](#字节顺序)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix 命令行工具](#unix-命令行工具)
     - [信息资源 (视频)](#信息资源-视频)
@@ -1299,7 +1299,6 @@
         - 前半段已经足够了。
 
 - ### Emacs and vi(m)
-    - suggested by Yegge, from an old Amazon recruiting post: Familiarize yourself with a unix-based code editor
     - Yegge 的建议，从一个很早以前的亚马逊招聘信息中而来：熟悉基于 unix 的代码编辑器
     - vi(m):
         - [使用 vim 进行编辑 01 - 安装, 设置和模式 (视频)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)

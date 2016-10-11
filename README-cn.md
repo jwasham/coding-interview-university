@@ -88,7 +88,7 @@
     - [网络 (视频)](#网络-视频)
     - [计算机安全](#计算机安全)
     - [释放缓存](#释放缓存)
-    - [平行化(多线程)编程](#平行化多线程编程)
+    - [并行/并发编程](#并行/并发编程)
     - [设计模式](#设计模式)
     - [信息传输, 序列化, 和队列化的系统](#信息传输-序列化和队列化的系统)
     - [快速傅里叶变换](#快速傅里叶变换)
@@ -1408,9 +1408,9 @@
     - [ ] [深度解析：论释放缓存在 JAVA 中的重要性](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [ ] [深度解析：论释放缓存在 Python 中的重要性(视频)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### 平行化(多线程)编程
+- ### 并行/并发编程
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [ ] [论平行化编程如何提高 Python 执行效率 (视频)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [ ] [论并行/并发编程如何提高 Python 执行效率 (视频)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### 设计模式
     - [ ] [UML统一建模语言概览 (视频)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)

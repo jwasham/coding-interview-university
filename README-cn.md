@@ -511,15 +511,17 @@
     - BFS（广度优先检索，breadth-first search）
         - [MIT（视频）](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
         - 层序遍历（使用队列的 BFS 算法）
-            时间复杂度： O(n)
-            空间复杂度：最好情况： O(1)，最坏情况：O(n/2)=O(n)
+            - 时间复杂度： O(n)
+            - 空间复杂度：
+                - 最好情况： O(1)
+                - 最坏情况：O(n/2)=O(n)
     - DFS（深度优先检索，depth-first search）
         - [MIT（视频）](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
         - 笔记：
-            时间复杂度：O(n)
-            空间复杂度：
-                最好情况：O(log n) - 树的平均高度
-                最坏情况：O(n)
+            - 时间复杂度：O(n)
+            - 空间复杂度：
+                - 最好情况：O(log n) - 树的平均高度
+                - 最坏情况：O(n)
         - 中序遍历（DFS：左、节点本身、右）
         - 后序遍历（DFS：左、右、节点本身）
         - 先序遍历（DFS：节点本身、左、右）

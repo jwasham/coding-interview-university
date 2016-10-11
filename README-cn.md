@@ -804,7 +804,7 @@
     - 尾递归会更好么?
         - [ ] [什么是尾递归以及为什么它如此糟糕?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [尾递归 (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
- 
+
 - ### 动态规划（Dynamic Programming）
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - 这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。
@@ -821,7 +821,7 @@
         - [ ] [Simonson: 动态规划 II - 课程 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
         - [ ] 单独的 DP 问题 (每一个视频都很短):
             [动态规划 (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-    - [ ] Yale 课程笔记: 
+    - [ ] Yale 课程笔记:
         - [ ] [动态规划](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera 课程:
         - [ ] [RNA 二级结构问题 (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
@@ -934,14 +934,14 @@
     - [ ] [上下文切换操作会耗费多少时间?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
     - [ ] [跨数据中心的事务 (video)](https://www.youtube.com/watch?v=srOgpXECblk)
     - [ ] [简明 CAP 理论介绍](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-    - [ ] Paxos 一致性算法: 
+    - [ ] Paxos 一致性算法:
         - [时间很短](https://www.youtube.com/watch?v=s8JqcZtvnsM)
         - [用例 和 multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
         - [论文](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
     - [ ] [一致性哈希](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
     - [ ] [NoSQL 模式](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
     - [ ] [OOSE: UML 2.0 系列 (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] OOSE: 使用 UML 和 Java 开发软件 (21 videos): 
+    - [ ] OOSE: 使用 UML 和 Java 开发软件 (21 videos):
         - 如果你对 OO 都深刻的理解和实践，可以跳过这部分。
         - [OOSE: 使用 UML 和 Java 开发软件](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] 面向对象编程的 SOLID 原则:
@@ -962,7 +962,7 @@
             - [更多](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
     - [ ] 可伸缩性:
         - [ ] [很棒的概述 (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-        - [ ] 简短系列: 
+        - [ ] 简短系列:
             - [克隆](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
             - [数据库](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
             - [缓存](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -1121,7 +1121,7 @@
 
 ---
 
-## 终面 
+## 终面
 
     这一部分有一些短视频，你可以快速的观看和复习大多数重要概念。
     这对经常性的巩固很有帮助。
@@ -1136,7 +1136,7 @@
 #### 排序:
 
 - [ ] 归并排序: https://www.youtube.com/watch?v=GCae1WNvnZM
-   
+
 
 ## 书籍
 
@@ -1163,7 +1163,7 @@
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - 如果你看到有人在看 "The Google Resume", 实际上它和 "Cracking the Coding Interview" 是同一个作者写的，而且后者是升级版。
 
-### 附加书单 
+### 附加书单
 
 这些没有被 Google 推荐阅读，不过我因为需要这些背景知识所以也把它们列在了这里。
 
@@ -1181,7 +1181,7 @@
 ### 如果你有时间
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    
+
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - 如果你希望在面试里用 C++ 写代码，这本书的代码全都是 C++ 写的
     - 通常情况下能找到解决方案的好书.
@@ -1234,7 +1234,7 @@
     随着下面列举的问题思考下你可能会遇到的 20 个面试问题
     每个问题准备 2-3 种回答
     准备点故事，不要只是摆一些你完成的事情的数据，相信我，人人都喜欢听故事
-    
+
 - 你为什么想得到这份工作？
 - 你解决过的最有难度的问题是什么？
 - 面对过的最大挑战是什么?
@@ -1276,9 +1276,9 @@
 
     *****************************************************************************************************
     *****************************************************************************************************
-    
-    Everything below this point is optional. These are my recommendations, not Google's. 
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for 
+
+    Everything below this point is optional. These are my recommendations, not Google's.
+    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
     any software engineering job.
 
     *****************************************************************************************************
@@ -1506,7 +1506,7 @@
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
-    
+
 - ### Treap
     - Combination of a binary search tree and a heap
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)

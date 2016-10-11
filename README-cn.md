@@ -1507,85 +1507,83 @@
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
     - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
-    
-- ### Linear Programming (videos)
-    - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
-    - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
-    - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
 
-- ### Geometry, Convex hull (videos)
-    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
-    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+- ### 线性规划（Linear Programming）（视频）
+    - [ ] [线性规划](https://www.youtube.com/watch?v=M4K6HYLHREQ)
+    - [ ] [寻找最小成本](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
+    - [ ] [寻找最大值](https://www.youtube.com/watch?v=8AA_81xI3ik)
 
-- ### Discrete math
-    - see videos below
+- ### 几何：凸包（Geometry, Convex hull）（视频）
+    - [ ] [Graph Alg. IV: 几何算法介绍 - 第 9 课](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
+    - [ ] [Graham & Jarvis: 几何算法 - 第 10 课](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [Divide & Conquer: 凸包, 中值查找](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Machine Learning
-    - [ ] Why ML?
-        - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
-        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
-        - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
-    - [ ] [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
-    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
-    - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
-    - [ ] [Practical Guide to implementing Neural Networks in Python](using Theano)])http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses:
-        - [ ] [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
-        - [ ] [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
-        - [ ] [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
-        - [ ] [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
-        - [ ] [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [ ] [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
-        - Great book: Data Science from Scratch: First Principles with Python: https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X
-        - Data School: http://www.dataschool.io/
+- ### 离散数学
+    - 查看下面的视频：(这里没看到视频= =）
 
-- ### Go
-    - [ ] Videos:
-        - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
-        - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
-        - [ ] [A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
-    - [ ] Books:
-        - [ ] [An Introduction to Programming in Go (read free online)](https://www.golang-book.com/books/intro)
-        - [ ] [The Go Programming Language (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
-    - [ ] [Bootcamp](https://www.golang-book.com/guides/bootcamp)
+- ### 机器学习（Machine Learning）
+    - [ ] 为什么学习机器学习？
+        - [ ] [谷歌如何将自己改造成一家「机器学习优先」公司？](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
+        - [ ] [智能计算机系统的大规模深度学习 (视频)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
+        - [ ] [Peter Norvig：深度学习和理解与软件工程和验证的对比](https://www.youtube.com/watch?v=X769cyzBNVw)
+    - [ ] [谷歌云机器学习工具（视频）](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+    - [ ] [谷歌开发者机器学习清单 (Scikit Learn 和 Tensorflow) (视频)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+    - [ ] [Tensorflow (视频)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [ ] [Tensorflow 教程](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [ ] [Python 实现神经网络实例教程（使用 Theano）](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - 课程:
+        - [ ] [很棒的初级课程：机器学习](https://www.coursera.org/learn/machine-learning)
+              - [视频教程](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - 看第 12-18 集复习线性代数（第 14 集和第 15 集是重复的）
+        - [ ] [机器学习中的神经网络](https://www.coursera.org/learn/neural-networks)
+        - [ ] [Google 深度学习微学位](https://www.udacity.com/course/deep-learning--ud730)
+        - [ ] [Google/Kaggle 机器学习工程师微学位](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+        - [ ] [无人驾驶工程师微学位](https://www.udacity.com/drive)
+        - [ ] [Metis 在线课程 (两个月 99 美元)](http://www.thisismetis.com/explore-data-science)
+    - 资源:
+        - 书籍: Data Science from Scratch: First Principles with Python: https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X
+        - 网站: Data School: http://www.dataschool.io/
+
+- ### Go 语言
+    - [ ] 视频:
+        - [ ] [为什么学习 Go 语言？](https://www.youtube.com/watch?v=FTl0tl9BGdc)
+        - [ ] [Go 语言编程](https://www.youtube.com/watch?v=CF9S4QZuV30)
+        - [ ] [Go 语言之旅](https://www.youtube.com/watch?v=ytEkHepK08c)
+    - [ ] 书籍:
+        - [ ] [Go 语言编程入门 (免费在线阅读)](https://www.golang-book.com/books/intro)
+        - [ ] [Go 语言圣经 (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
+    - [ ] [Go 语言新手训练营](https://www.golang-book.com/guides/bootcamp)
 
 --
 
-## Additional Detail on Some Subjects
+## 一些主题的额外内容
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+    我为前面提到的某些主题增加了一些额外的内容，之所以没有直接添加到前面，是因为这样很容易导致某个主题内容过多。毕竟你想在本世纪找到一份工作，对吧？
 
-- [ ] **More 动态规划** (videos)
-    - [ ] [6.006: 动态规划 I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
-    - [ ] [6.006: 动态规划 II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
-    - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
-    - [ ] [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.046: 动态规划 & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [6.046: 动态规划: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
-    - [ ] [6.046: 动态规划 (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
+- [ ] **动态规划的更多内容** (视频)
+    - [ ] [6.006: 动态规划 I: 斐波那契数列, 最短路径](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
+    - [ ] [6.006: 动态规划 II: 文本匹配, 二十一点/黑杰克](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+    - [ ] [6.006: 动态规划 III: 最优加括号方式, 最小编辑距离, 背包问题](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+    - [ ] [6.006: 动态规划 IV: 吉他指法，拓扑，超级马里奥.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.046: 动态规划: 动态规划进阶](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [6.046: 动态规划: 所有点对最短路径](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
+    - [ ] [6.046: 动态规划: 更多示例](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] **Advanced Graph Processing** (videos)
-    - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
-    - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
+- [ ] **图形处理进阶** (视频)
+    - [ ] [异步分布式算法: 对称性破缺，最小生成树](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
+    - [ ] [异步分布式算法: 最小生成树](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
-    - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Variables](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
-    - [ ] [MIT 6.042J - Expectation I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Expectation II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
+- [ ] MIT **概率论** (mathy, and go slowly, which is good for mathy things) (视频):
+    - [ ] [MIT 6.042J - 概率论概述](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 条件概率 Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 独立](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 随机变量](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
+    - [ ] [MIT 6.042J - 期望 I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 期望 II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 大偏差](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 随机游走](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
 
-- [ ] [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+- [ ] [Simonson: 近似算法 (视频)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
 
 ## 视频系列
 

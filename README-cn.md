@@ -658,9 +658,9 @@
         - 2-3树是一种分支系数为3的树
     - [ ] [K 叉树](https://en.wikipedia.org/wiki/K-ary_tree)
 
-## Sorting
+## 排序（Sorting）
 
-- [ ] Notes:
+- [ ] 笔记:
     - 实现各种排序 & 知道每种排序的最坏、最好和平均的复杂度分别是什么场景:
         - 不要用冒泡排序 - 大多数情况下效率感人 - 时间复杂度 O(n^2), 除非 n <= 16
     - [ ] 排序算法的稳定性 ("快排是稳定的么?")
@@ -723,7 +723,7 @@
     - [ ] [随机算法: 矩阵相乘, 快排, Freivalds' 算法 (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [线性时间内的排序 (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-## 图
+## 图（Graphs）
 
 图论能解决计算机科学里的很多问题，所以这一节会比较长，像树和排序的部分一样。
 
@@ -789,7 +789,7 @@
 
 ## 更多知识
 
-- ### 递归
+- ### 递归（Recursion）
     - [ ] Stanford 大学关于递归 & 回溯的课程:
         - [ ] [课程 8 | 抽象编程 (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [课程 9 | 抽象编程 (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -800,7 +800,7 @@
         - [ ] [什么是尾递归以及为什么它如此糟糕?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [尾递归 (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
  
-- ### 动态规划
+- ### 动态规划（Dynamic Programming）
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - 这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。
     - 我建议先阅读和学习足够多的动态规划的例子，以便对解决 DP 问题的一般模式有个扎实的理解。
@@ -827,7 +827,7 @@
         - [ ] [全局成对序列排列 (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [本地成对序列排列 (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### 组合 (n 中选 k 个) & 概率
+- ### 组合（Combinatorics） (n 中选 k 个) & 概率（Probability）
     - [ ] [数据技巧: 如何找出阶乘、排列和组合(选择) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
     - [ ] [来点学校的东西: 概率 (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
     - [ ] [来点学校的东西: 概率和马尔可夫链 (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
@@ -858,7 +858,7 @@
         - [Jupyter 笔记本](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
     - 《算法导论》的第 1048 - 1140 页。
 
-- ### 缓存
+- ### 缓存（Cache）
     - [ ] LRU 缓存:
         - [ ] [LRU 的魔力 (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
         - [ ] [实现 LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
@@ -867,7 +867,7 @@
         - [ ] [MIT 6.004 L15: 存储体系 (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: 缓存的问题 (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### 进程和线程
+- ### 进程（Processe）和线程（Thread）
     - [ ] 计算机科学 162 - 操作系统 (25 个视频):
         - 视频 1-11 是关于进程和线程
         - [操作系统和系统编程 (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)

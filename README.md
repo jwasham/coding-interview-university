@@ -1261,6 +1261,7 @@ Take coding challenges every day, as many as you can.
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
+Challenge sites:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1270,6 +1271,7 @@ Take coding challenges every day, as many as you can.
 - [InterviewCake](https://www.interviewcake.com/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
+Maybe:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
 
 ## Once you're closer to the interview

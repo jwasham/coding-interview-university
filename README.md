@@ -140,6 +140,24 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 - [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
 
+    Fork a branch and follow the commands below
+
+`git checkout -b progress`
+
+`git remote add jwasham https://github.com/jwasham/google-interview-university`
+
+`git fetch --all`
+
+    Mark all boxes with X after you completed your changes
+
+`git add . `
+
+`git commit -m "Marked x" `
+
+`git rebase jwasham/master `
+    
+`git push --force `
+
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Get in a Googley Mood

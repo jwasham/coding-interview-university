@@ -212,9 +212,10 @@ I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://
 ## About Video Resources
 
 Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-It is free to do so, but sometimes the classes are not in session so you have to wait a couple of months, so you have no access. 
+Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
 
-    I'd appreciate your help converting the MOOC video links to public sources to replace the online course videos over time. I like using university lectures.
+    I'd appreciate your help adding free and always-available public sources, such as YouTube videos to accompany the online course videos. 
+    I like using university lectures.
 
 
 ## Interview Process & General Interview Prep

@@ -233,7 +233,8 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] Tutorial:
-    - [ ] [Software Engineer Interview Unleashed](https://www.udemy.com/software-engineer-interview-unleashed) : Learn how to make yourself ready for software engineer interviews from a former Google interviewer.(paid course)
+    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed): 
+        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
 
 - [ ] Additional (not suggested by Google but I added):
     - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)

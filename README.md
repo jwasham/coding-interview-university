@@ -171,8 +171,7 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 I haven't applied yet.
 
-I still have a few days in the learning phase (finishing up this crazy list), and starting next week all
-I'll be doing is programming questions all day long. That will continue for a few weeks, and then I'll
+Right now I'm doing programming problems all day long. That will continue for a few weeks, and then I'll
 apply through a referral I've been holding onto since February (yes, February).
 
     Thanks for the referral, JP.

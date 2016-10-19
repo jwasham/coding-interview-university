@@ -1,8 +1,6 @@
 # Google Interview University
 
-Translations:
-
-- [中文版本](https://github.com/jwasham/google-interview-university/blob/master/README-cn.md)
+Translations: [中文版本](https://github.com/jwasham/google-interview-university/blob/master/README-cn.md)
 
 ## What is it?
 
@@ -178,8 +176,9 @@ apply through a referral I've been holding onto since February (yes, February).
 
 ## Follow Along with Me
 
-I'm on the journey, too. Follow along on my blog at [GoogleyAsHeck.com](https://googleyasheck.com/)
-
+I'm on the journey, too. Follow along:
+ 
+- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
 - Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
 - Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)

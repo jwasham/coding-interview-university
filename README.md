@@ -1372,7 +1372,7 @@ You're never really done.
 - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
     - [answers to questions](https://github.com/lekkas/c-algorithms)
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - and oldie but a goodie
+    - an oldie but a goodie
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - a modern option
 - [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)

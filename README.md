@@ -1313,7 +1313,7 @@ Maybe:
 ## Your Resume
 
 - [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- Great stuff at the back of Cracking The Coding Interview
+- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
 
 ## Be thinking of for when the interview comes

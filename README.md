@@ -1311,9 +1311,6 @@ Supplemental:
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - all code is in C++, if you're looking to use C++ in your interview
     - good book on problem solving in general.
-- **Removed** ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
-    - Would rather spend time on coding problems from another book or online coding problems.
 
 **Perhaps**
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
@@ -1322,6 +1319,12 @@ Supplemental:
     - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
     - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
+    
+**Removed** 
+- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
+    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
+    - Would rather spend time on coding problems from another book or online coding problems.
+
 
 ## Coding exercises/challenges
 

@@ -1312,7 +1312,7 @@ Supplemental:
     - all code is in C++, if you're looking to use C++ in your interview
     - good book on problem solving in general.
 - **Removed** ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, and unclear post-condition satisfaction results. 
+    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
     - Would rather spend time on coding problems from another book or online coding problems.
 
 **Perhaps**

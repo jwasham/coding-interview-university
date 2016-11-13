@@ -288,7 +288,11 @@ Here are some mistakes I made so you'll have a better experience.
 ### 1. You Won't Remember it All
 
 I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review (see below).
+through my notes and making flashcards so I could review.
+
+Read please so you won't make my mistakes:
+
+[Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
 ### 2. Use Flashcards
 

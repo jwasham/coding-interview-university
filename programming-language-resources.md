@@ -45,6 +45,15 @@
     - [Software Construction In Java (video)](https://www.edx.org/course/software-construction-java-mitx-6-005-1x)
     - [Introduction To Programming In Java](http://introcs.cs.princeton.edu/java/home/)
     - [Algorithms 4th Ed - Algorithm Book In Java](http://algs4.cs.princeton.edu/home/)   
+- Go
+    - [The Go programming Language](https://golang.org/)
+    - [The Go programming Language (book)](http://www.gopl.io/)
+    - [A Tour of Go](https://tour.golang.org/)
+    - [Effective Go](https://golang.org/doc/effective_go.html)
+    - [Go Wiki](https://golang.org/wiki)
+    - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
+    - [Go Proverbs](http://go-proverbs.github.io/)
+    - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
 - Other Language 1
 - Other Language 2
 - etc

@@ -988,9 +988,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     there is a lot to consider when designing a software/hardware system that can scale. 
     Expect to spend quite a bit of time on this.
     
-    You can expect system design questions if you have 4+ years of experience.
-
----
+    
+You can expect system design questions if you have 4+ years of experience.
 
 - ### System Design, Scalability, Data Handling
     - Considerations from Yegge:

@@ -160,7 +160,7 @@ low-level languages, and how it all works. And if you don't know any of it, Goog
 When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
 traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
 Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory, unless a process I was running would give an "out of
+under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
 memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
 thousands of associative arrays, but I've never created data structures from scratch.
 
@@ -300,7 +300,7 @@ You could also use these, but read around first. There may be caveats:
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language, and be knowledgeable.
+You need to be very comfortable in the language and be knowledgeable.
 
 Read more about choices:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
@@ -343,7 +343,7 @@ same card and answer it several times correctly before you really know it. Repet
 your brain.
 
 An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
-It's user friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
@@ -355,7 +355,7 @@ Take a break from programming problems for a half hour and go through your flash
 
 ### 4. Focus
 
-There are a lot of distractions that can take up valuable time. Focus and concentration is hard.
+There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
 
 ## What you won't see covered
 
@@ -963,7 +963,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - CPU activity, interrupts, context switching
         - Modern concurrency constructs with multicore processors
         - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in same process but each has its own pc, stack counter, registers and stack)
+        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         - Context switching
             - How context switching is initiated by the operating system and underlying hardware
@@ -1249,7 +1249,7 @@ Supplemental:
                 - nice stories from his experiences solving problems in industry and academia
                 - code examples in C
             - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases CLRS may be a better alternative for some subjects
+                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
                 - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
         - algorithm catalog:
@@ -1298,12 +1298,11 @@ Supplemental:
     - For a richer, more up-to-date (2011), but longer treatment, pick up [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - all code is in C++, if you're looking to use C++ in your interview
-    - good book on problem solving in general.
+    - a good book on problem solving in general.
 
 **Perhaps**
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data
-     structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
+    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
     - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
     - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
@@ -1350,7 +1349,7 @@ Maybe:
 
 ## Be thinking of for when the interview comes
 
-Think of about 20 interview questions you'll get, along the lines of the items below. Have 2-3 answers for each.
+Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
 Have a story, not just data, about something you accomplished.
 
 - Why do you want this job?
@@ -1598,8 +1597,8 @@ You're never really done.
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
-    - used to determine similarity of documents
-    - the opposite of md5 or sha which are used to determine if 2 documents/strings are exactly the same.
+    - used to determine the similarity of documents
+    - the opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same.
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
@@ -1657,7 +1656,7 @@ You're never really done.
         - In practice:
             Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
             data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking, and file system code) etc.
+            networking and file system code) etc.
         - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
         - [ ] MIT Lecture: Splay Trees:
             - Gets very mathy, but watch the last 10 minutes for sure.
@@ -1873,7 +1872,7 @@ You're never really done.
 
 ## Video Series
 
-Sit back and enjoy. "netflix and skill" :P
+Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 

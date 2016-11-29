@@ -1247,6 +1247,7 @@ Supplemental:
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - recommended in Google candidate coaching
     - this is a good warm-up for Cracking the Coding Interview
+    - not too difficult, most problems may be too easier than what you'll see in an interview (from what I've read)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".

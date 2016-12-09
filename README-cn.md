@@ -23,7 +23,7 @@
 - [拥有一名 Googler 的心态](#拥有一名-googler-的心态)
 - [我得到了工作吗？](#我得到了工作吗)
 - [跟随着我](#跟随着我)
-- [不要自以为自己足够聪明](#不要自以为自己足够聪明)
+- [不要自以为自己不够聪明](#不要自以为自己不够聪明)
 - [关于 Google](#关于-google)
 - [相关视频资源](#相关视频资源)
 - [面试过程 & 通用的面试准备](#面试过程--通用的面试准备)
@@ -156,7 +156,7 @@
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## 不要自以为自己足够聪明
+## 不要自以为自己不够聪明
 
 - Google 的工程师都是才智过人的。但是，就算是工作在 Google 的他们，仍然会因为自己不够聪明而感到一种不安。
 - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
@@ -316,7 +316,7 @@
 
 - [ ] **编译器**
     - [ ] [编译器是如何在 ~1 分钟内工作（视频）](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
-    - [ ] [Hardvard CS50 —— 编译器（视频）](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+    - [ ] [Harvard CS50 —— 编译器（视频）](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [ ] [C++（视频）](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [掌握编译器的优化（C++）（视频）](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 

@@ -214,6 +214,8 @@ apply through a referral I've been holding onto since February (yes, February).
 
 ## Follow Along with Me
 
+My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+
 I'm on the journey, too. Follow along:
  
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)

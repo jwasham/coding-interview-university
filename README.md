@@ -515,7 +515,7 @@ Each day I take one subject from the list below, watch videos about that subject
 - and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
 - You may do Java or something else, this is just my thing.
 
-You don't need all these. You need only [one language for the interview]((#pick-one-language-for-the-interview)).
+You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
 
 Why code in all of these?
 - Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)

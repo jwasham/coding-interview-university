@@ -19,9 +19,8 @@ software/web development to software engineering (where computer science knowled
 many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
 [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-If you have many years of software/web development experience, note that large companies view software engineering as 
+If you have many years of software/web development experience, note that Google views software engineering as 
 different from software/web development and they require computer science knowledge.
-[Read more about that here](https://googleyasheck.com/software-engineering-is-not-software-web-development/)
 
 If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
 

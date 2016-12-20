@@ -1,12 +1,10 @@
 # Google Interview University
 
-Translations: 
-- [中文版本](https://github.com/jwasham/google-interview-university/blob/master/README-cn.md)
-- [Español](README-es.md)
+Version original: [Inglés](README.md)
 
-## What is it?
+## Qué es?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.
+Es mi guía de estudio en varios meses para ir de desarrollador web (Autodidacta, sin grado en Ciencias de Computadores) a ingeniero de software en Google. 
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
@@ -206,7 +204,10 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 ## Did I Get the Job?
 
-I'm in the queue right now. Hope to interview soon.
+I haven't applied yet.
+
+Right now I'm doing programming problems all day long. That will continue for a few weeks, and then I'll
+apply through a referral I've been holding onto since February (yes, February).
 
     Thanks for the referral, JP.
 
@@ -227,7 +228,6 @@ I'm on the journey, too. Follow along:
 ## Don't feel you aren't smart enough
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## About Google
 

@@ -35,7 +35,6 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Did I Get the Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [Don't overdo it](#dont-overdo-it)
 - [About Google](#about-google)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
@@ -226,10 +225,6 @@ I'm on the journey, too. Follow along:
 ## Don't feel you aren't smart enough
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-
-## Don't overdo it
-
-A follow-up for my story: [Don’t Be Like Me  —  I Studied Too Much](https://medium.com/@googleyasheck/dont-be-like-me-i-studied-too-much-e12e71a3ca7e)
 
 ## About Google
 

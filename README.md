@@ -1,8 +1,8 @@
 # Google Interview University
 
 Translations: 
-- [中文版本](https://github.com/jwasham/google-interview-university/blob/master/README-cn.md)
-- [Español](README-es.md)
+- [中文版本](README-cn.md)
+- [Español (in progress)](README-es.md)
 
 ## What is it?
 

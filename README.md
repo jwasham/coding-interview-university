@@ -204,10 +204,7 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 ## Did I Get the Job?
 
-I haven't applied yet.
-
-Right now I'm doing programming problems all day long. That will continue for a few weeks, and then I'll
-apply through a referral I've been holding onto since February (yes, February).
+I'm in the queue right now. Hope to interview soon.
 
     Thanks for the referral, JP.
 
@@ -228,6 +225,10 @@ I'm on the journey, too. Follow along:
 ## Don't feel you aren't smart enough
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+
+## Don't overdo it
+
+A follow-up for my story: [Don’t Be Like Me  —  I Studied Too Much](https://medium.com/@googleyasheck/dont-be-like-me-i-studied-too-much-e12e71a3ca7e)
 
 ## About Google
 

@@ -2,7 +2,7 @@
 
 Version original: [Inglés](README.md)
 
-## Qué es?
+## ¿Qué es?
 
 Es mi guía de estudio en varios meses para ir de desarrollador web (Autodidacta, sin grado en Ciencias de Computadores) 
 a ingeniero de software en Google. 
@@ -28,11 +28,11 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
 
 ---
 
-## Table of Contents
+## Tabla de Contenidos
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
+- [¿Qué es?](#qué-es)
+- [¿Por qué usarlo?](#por-qué-usarlo)
+- [Cómo-usarlo](#cómo-usarlo)
 - [Get in a Googley Mood](#get-in-a-googley-mood)
 - [Did I Get the Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
@@ -151,27 +151,27 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
 
 ---
 
-## Why use it?
+## ¿Por qué usarlo?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+Estoy siguiendo este plan para prepararme para mi entrevista en Google. He estado construyendo la web, construyendo
+servicios, e iniciando empresas desde 1997. Tengo un grado en economía, no un grado en ciencias de los computadores. He sido
+muy exitoso en mi carrera, pero quiero trabajar en Google. Quiero progresar dentro de sistemas más grandes
+y tener un entendimiento real de ciencias de los computadores, eficiencia algorítmica, rendimiento de estructuras de datos,
+lenguajes de bajo nivel, y cómo todo esto funciona. Y si tú no sabes alguno de estos, Google no te contratará.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Cuando comencé este proyecto, no sabía la diferencia entre **un stack y un heap**, no conocía la notación Big-O, nada acerca de árboles, ni cómo
+cruzar una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no sería muy bueno.
+Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban
+realmente. Yo nunca tuve que manejar memoria a menos que un proceso que yo estaba corriendo diera un error de “out of
+memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y
+miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará
+meses. Si mucho de ésto te resulta familiar entonces te tomará mucho menos tiempo.
 
-## How to use it
+## Cómo usarlo
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Todo lo que aparece abajo es un plan, y deberías abordar los elementos en orden de arriba a abajo.
 
 I'm using Github's special markdown flavor, including tasks lists to check progress.
 

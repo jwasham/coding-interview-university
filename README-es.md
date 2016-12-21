@@ -210,7 +210,7 @@ Imprime una copia de "[futuro Googler](https://github.com/jwasham/google-intervi
 
 Ahora estoy haciendo problemas de programación todo el día y continuará las próximas semanas, posteriormente aplicaré por medio de una recomendación que he estado posponiedno hasta Febrero (sí, como lo leiste, hasta Febrero).
 
-Gracias la perosna que me esta recomendando, JP.
+Gracias a la perosna que me esta recomendando, JP.
 
 ## Sigue el progreso conmigo
 

@@ -33,9 +33,9 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
 - [¿Qué es?](#qué-es)
 - [¿Por qué usarlo?](#por-qué-usarlo)
 - [Cómo-usarlo](#cómo-usarlo)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
+- [Envuelvete en la googlemanía](#envuelvete-en-la-googlemanía)
+- [¿Cómo conseguí el trabajo en Google?](#como-consegui-el-trabajo-en-google)
+- [Sigue el progreso conmigo](#sigue-el-progreso-conmigo)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Google](#about-google)
 - [About Video Resources](#about-video-resources)
@@ -198,26 +198,25 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Envuelvete en la googlemanía
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Imprime una copia de "[futuro Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" (o dos) y mantente enfocado en la meta.
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
+[![Futuro Googler](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Did I Get the Job?
+## ¿Cómo conseguí el trabajo en Google?
 
-I haven't applied yet.
+!Aun no he aplicado!.
 
-Right now I'm doing programming problems all day long. That will continue for a few weeks, and then I'll
-apply through a referral I've been holding onto since February (yes, February).
+Ahora estoy haciendo problemas de programación todo el día y continuarña las próximas por un par de semanas más, posteriormente aplicaré por medio de una recomendación que he estado posponiedno hasta Febrero (sí, como lo leiste, hasta Febrero).
 
-    Thanks for the referral, JP.
+Gracias la la perosna que me esta recomendando, JP.
 
-## Follow Along with Me
+## Sigue el progreso conmigo
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+Mi breve historía: [¿Por que estudie a tiempo completo por 8 meses para una entrevista en Gooogle?](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-I'm on the journey, too. Follow along:
+Aún sigo estudiando, sigue el progresso en:
  
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)

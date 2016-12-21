@@ -2,7 +2,8 @@
 
 Translations: 
 - [中文版本](README-cn.md)
-- [Español (in progress)](README-es.md)
+- [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/google-interview-university/issues/80)
+- मानक हिन्दी (in progress) [Issue #81](https://github.com/jwasham/google-interview-university/issues/81)
 
 ## What is it?
 

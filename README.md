@@ -1647,7 +1647,7 @@ You're never really done.
     - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
     - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [ ] [RabbitMQ](https://www.rabbitmq.com/)
-        - [Get Startet](https://www.rabbitmq.com/getstarted.html)
+        - [Get Started](https://www.rabbitmq.com/getstarted.html)
     - [ ] [Celery](http://www.celeryproject.org/)
         - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
     - [ ] [ZeroMQ](http://zeromq.org/)

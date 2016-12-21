@@ -36,10 +36,10 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
 - [Envuelvete en la googlemanía](#envuelvete-en-la-googlemanía)
 - [¿Cómo conseguí el trabajo en Google?](#como-consegui-el-trabajo-en-google)
 - [Sigue el progreso conmigo](#sigue-el-progreso-conmigo)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+- [No pienses que no eres suficientemente inteligente](#no-pienses-que-no-eres-suficientemente-inteligente)
+- [Acerca de Google](#acerca-de-google)
+- [Acerca de los recursos en vídeo](#acerca-de-los-recursos-en-video)
+- [Prepárate para la entrevista](#preparate-para-la-entrevista)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
@@ -226,68 +226,70 @@ Aún sigo estudiando, sigue el progresso en:
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+## No pienses que no eres suficientemente inteligente
+- Los ingenieros de Google son inteligentes, pero muchos tienen la inseguridad de que no son suficientemente inteligentes, incluso trabajando en Google.
+- [El mito del genio en programación](https://www.youtube.com/watch?v=0SARbwvhupQ)
 
-## About Google
+## Acerca de Google
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] Para Estudiantes - [Trabaja en Google: Guía de desarrollo técnico](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] Como funciona el motor de búsqueda:
+    - [ ] [La evolucion (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [Como funciona - Historia](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [Como funciona](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [Como funciona - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [Como Google hace mejoras en su algoritmo (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
+    - [ ] [Como Google afrontó el móvil](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [El estudio secreto de Google para averiguar lo que necesitamos](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [Google sera tu cerebro](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [La mente de Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+- [ ] [Libro: Como funciona Google](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [Hecho por Google comunicado - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## Acerca de los recursos en vídeo
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Algunos vídeos estan disponibles sólo al inscribirte en Coursera, EdX o Lynda.com. Éstos se llaman MOOCs (Massive Open Online Courses, 
+Cursos en línea abiertos masivos).
+A veces las clases no están disponibles, por lo que tienes que esperar un par de meses, lo que significa que no tienes acceso. 
+Los cursos de Lynda.com no son gratis.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+    Agradecería tu ayuda para añadir recursos públicos gratis, que siempre estuvieran disponibles, como video s de YouTube 
+    para acompañar los videos de cursos online.
+    Me gusta usar recursos procedentes de universidades.
 
-
-## Interview Process & General Interview Prep
+## Prepárate para la entrevista
 
 - [ ] Videos:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [Como trabajar en Google: Prepara la entrevista de ingeniero (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [Como trabajar en Google: Ejemplo de entrevista de ingeniero (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [Como trabajar en Google - Sesion de Coaching para el Candidato (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [Reclutadores de Google, comparten trucos para la entrevista (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [Como trabajar en Google: Preparacion de Currículum (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+- [ ] Artículos:
+    - [ ] [Ser un Googler en tres pasos](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [Consigue ese trabajo en Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - Todas las cosas que menciona que necesitas saber están en una lista más abajo
+    - [ ] _(Desactualizado)_ [Como conseguir un trabajo en Google, Preguntas de Entrevista, Processo de selección](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [Preguntas para la selección por teléfono](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] Prep Courses:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+- [ ] Cursos de preparacion:
+    - [ ] [Entrevista para Ingeniero de Software al descubierto (Curso de pago)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Prepárate para entrevistas de Ingeniero de Software con consejos de un entrevistador de Google.
 
-- [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
+- [ ] Adicional (No sugerido por Google, pero los añadí):
+    - [ ] [ABC: Programa siempre que puedas](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [Cuatro pasos a Google sin tener un grado](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [Whiteboarding (Usar una pizarra blanca)](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [Que piensa Google de contratar personas, Gestión y Cultura](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [Whiteboarding efectivo durante entrevistas de programacion](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] Hacer muy bien la entrevista de programación Set 1:
         - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+        - [ ] [Cracking the Coding Interview con el autor Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] Como conseguir un trabajo en una de las 4 grandes:
+        - [ ] ['Como conseguir un trabajo en una de las 4 grandes - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [Haciendo las entrevistas de Google mal](http://alexbowe.com/failing-at-google-interviews/)
 
 ## Pick One Language for the Interview
 

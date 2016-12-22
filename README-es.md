@@ -4,12 +4,12 @@ Version original: [Inglés](README.md)
 
 ## ¿Qué es?
 
-Es mi guía de estudio en varios meses para ir de desarrollador web (Autodidacta, sin grado en Ciencias de Computadores) 
+Es mi guía de estudio en varios meses para ir de desarrollador web (Autodidacta, sin grado en Ciencias de la computación) 
 a ingeniero de software en Google. 
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-Esta lista tan larga, ha sido extraída y ampliada de las **Google's coaching notes**, asi que estas son las cosas que 
+Esta larga lista, ha sido extraída y ampliada de las **Google's coaching notes**, asi que estas son las cosas que 
 tienes que saber.
 Hay algunas cosas extra que he añadido al final, que pueden aparecer en una entrevista, o ser de ayuda al solucionar 
 problemas. Extraje muchas de ellas de "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" 

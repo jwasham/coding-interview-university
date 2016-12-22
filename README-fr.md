@@ -8,13 +8,12 @@ Translations:
 ## C'est quoi?
 
 C'est un plan d'études de plusieurs mois pour aller d'un développeur web (Autodidacte, sans diplôme en informatique) à ingénieur logiciel google.
+
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-Cette longue liste a été extraite et étendue de **Google's coaching notes** This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-J'ai rajouté en bas des unités supplémentaires qui peuvent êtres soulevées pendant l'entretient, ou qui peuvent être utiles pour résoudre des problèmes. Plusieurs unités proviennent de
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
- "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" par Steve Yegge, est sont parfois reflété
-mot pour mot dans les note de coaching de google.
+Cette longue liste a été extraite et étendue de **Google's coaching notes**, ce sont donc des choses que vous devez savoir.
+En bas, j'ai rajouté des unités supplémentaires qui peuvent être soulevées pendant l'entretien, ou qui peuvent être utiles pour résoudre des problèmes. Plusieurs unités proviennent de
+"[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" par Steve Yegge, et sont parfois reflétées mot pour mot dans les notes de coaching de google.
 
 I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements
 from information received from my contact at Google. This is meant for **new software engineers** or those switching from

@@ -5,7 +5,7 @@ Translations:
 - [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/google-interview-university/issues/80)
 - मानक हिन्दी (in progress) [Issue #81](https://github.com/jwasham/google-interview-university/issues/81)
 
-## What is it?
+[x]## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.
 
@@ -152,7 +152,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ---
 
-## Why use it?
+[x]## Why use it?
 
 I'm following this plan to prepare for my Google interview. I've been building the web, building
 services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
@@ -170,7 +170,7 @@ thousands of associative arrays, but I've never created data structures from scr
 But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
 months. If you are familiar with a lot of this already it will take you a lot less time.
 
-## How to use it
+[x]## How to use it
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
@@ -211,7 +211,7 @@ I'm in the queue right now. Hope to interview soon.
 
     Thanks for the referral, JP.
 
-## Follow Along with Me
+[x]## Follow Along with Me
 
 My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 

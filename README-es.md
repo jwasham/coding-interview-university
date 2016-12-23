@@ -53,9 +53,9 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
+- [Para saber más](#para-saber-mas)
+    - [Búsqueda binaria](#busqueda-binaria)
+    - [Operaciones bit a bit](#operaciones-bit-a-bit)
 - [Trees](#trees)
     - [Trees - Notes & Background](#trees---notes--background)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
@@ -699,42 +699,42 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Para saber más
 
-- ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+- ### Búsqueda binaria
+    - [ ] [Búsqueda binaria (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Búsqueda binaria (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [Detalle](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] Implementacion:
+        - Búsqueda binaria (En arrays de enteros ordenados)
+        - Búsqueda binaria con recursividad
 
-- ### Bitwise operations
+- ### Operaciones bit a bit
     - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+    - [ ] Entiende como manipular bits perfectamente con: &, |, ^, ~, >>, <<
+        - [ ] [Palabras](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] Buena introduccion:
+            [Manipulacion de bits (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [Tutorial de programacion en C 2-10: Operadores bit a bit (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Manipulacion de bits](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Operacion bit a bit](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-        - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
-        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
-        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] round to next power of 2:
-        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
-        - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
-        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+        - [ ] [El manipulador de Bits](http://bits.stephan-brumme.com/)
+        - [ ] [El manipulador de bits interactivo](http://bits.stephan-brumme.com/interactive.html)
+    - [ ] Complementos de a 2 y de a 1
+        - [Binario: Mas y Menos (Porqué utilizamos el complemento a 2) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [Complemento a 1](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [Complemento a 2](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] Contar bits activados
+        - [$ maneras de contar bits en un byte (video)](https://youtu.be/Hzuzo9NJrlc)
+        - [Contar bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [Como contar los bits activados en un entero de 32 bits](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    - [ ] Redondear a la siguiente potencia de 2:
+        - [Redondear a la siguiente potencia de 2](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+    - [ ] Intercambiar valores:
+        - [Intercambio](http://bits.stephan-brumme.com/swap.html)
+    - [ ] Valor absoluto:
+        - [Entero absoluto](http://bits.stephan-brumme.com/absInteger.html)
 
 ## Trees
 

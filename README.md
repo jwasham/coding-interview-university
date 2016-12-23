@@ -152,7 +152,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ---
 
-[x] ## Why use it?
+## Why use it?
 
 I'm following this plan to prepare for my Google interview. I've been building the web, building
 services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
@@ -170,7 +170,7 @@ thousands of associative arrays, but I've never created data structures from scr
 But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
 months. If you are familiar with a lot of this already it will take you a lot less time.
 
-[x] ## How to use it
+## How to use it
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 

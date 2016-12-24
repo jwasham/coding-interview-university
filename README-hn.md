@@ -178,21 +178,21 @@ It is free to do so, but sometimes the classes are not in session so you have to
     I'd appreciate your help converting the MOOC video links to public sources to replace the online course videos over time. I like using university lectures.
 
 
-## Interview Process & General Interview Prep
+## इंटरव्यू प्रकिया और साधारण इंटरव्यू तयारी
 
-- [ ] Videos:
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+- [ ] विडियो:
+    - [ ] [गूगल में कैसे काम करे -  उमीदवार अनुशिक्षण सत्र (विडियो)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [गूगल भर्तीकर्ताओं की तकनीकी इंटरव्यू टिप्स (विडियो)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [गूगल में कैसे काम करे: तकनीकी रिज्यूमे तयारी (विडियो)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+- [ ] लेख:
+    - [ ] [तिन कदमोमे गूगलर बने](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [गूगल में वो नौकरी लो](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+    - [ ] _(बहोत पुराना)_ [गूगल में नौकरी कैसे ले, इन्तेविएव प्रश्न, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [फोन स्क्रीन वाले सवाल](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] Additional (not suggested by Google but I added):
+- [ ] अतिरिक्त (not suggested by Google but I added):
     - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
     - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
@@ -201,48 +201,49 @@ It is free to do so, but sometimes the classes are not in session so you have to
     - [ ] Cracking The Coding Interview Set 1:
         - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
         - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+    - [ ] बड़े ४ मैं नौकरी कैसे ले:
+        - [ ] ['बड़े ४ मैं नौकरी कैसे ले - Amazon, Facebook, Google और Microsoft' (विडियो)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [गूगल इंटरव्यू में असफलता](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## इंटरव्यू के लिए एक संगणक भाषा चुने
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+मैं इसके बारे में इस छोटे से लेख लिखा था: [महत्वपूर्ण: गूगल इंटरव्यू के लिए एक भाषा चुनें](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+इंटरव्यू मैं आप कोंसिभी एक भाषा जिसमे आप आरामदायक हो वो चुन सकते हैं, पर गूगल के लिए निम्नलिखित भाषाएँ अच्छी रहेगी:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+आप निम्न्लिहित भाषाएँ भी चुन सकते हैं, पर उन्हें सावधानीसे चुने
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language, and be knowledgeable. 
+आप भाषा में बहुत सहज हो, और उसकी जानकार होने की जरूरत है.
 
-Read more about choices:
+विकल्पों के बारे में अधिक पढ़ें:
+
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[भाषा संसाधनोंको यहाँ देखें](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+क्युकी में मैं पढ़ रहा हूँ, आपको कुछ C, C++, और Python शामिल दिखेगा. वहाँ कुछ शामिल किताबें, नीचे आखिर में देख ले.
 
-## Before you Get Started
+## प्रारंभ करने से पहले
 
-This list grew over many months, and yes, it kind of got out of hand. 
+इस सूची में कई महीनों से वृद्धि हुई है, और हाँ, यह एक तरह से हाथ से बाहर हो गयी हैं
 
-Here are some mistakes I made so you'll have a better experience.
+निचे कुछ गलतिया हैं जो मैंने की हैं तो आपका अनुभव बेहतर होगा
 
-### 1. You Won't Remember it All
+### १. आपसे यह सब याद नहीं होगा
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going 
-through my notes and making flashcards so I could review (see below). 
+मैंने घंटो वीडिय के विडियो देखे और टिप्पणिया लिखी, और महीनो बाद मुजे कुछ याद नहीं रहा. सबकी समीक्षा करने के लिए मैंने 3 दिन मेरी तिप्पनिओयो और flashcards बनाने में बितायें (नीचे देखें).
 
-### 2. Use Flashcards
+### २. फ्लाश्कार्ड्स का उपयोग कीजिये 
+
 
 To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
 Each card has different formatting.

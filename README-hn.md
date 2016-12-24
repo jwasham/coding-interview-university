@@ -12,9 +12,9 @@
 
 ## अनुक्रमणिका
 - [यह क्या हे?](#what-is-it)
-- [इसका क्य उपयोग करे?](#why-use-it)
+- [इसका उपयोग क्यू करे?](#why-use-it)
 - [इसका कैसे उपयोग करे?](#how-to-use-it)
-- [चलो गूगली मूड में](#get-in-a-googley-mood)
+- [गूगली मूड में आ जाएँ](#get-in-a-googley-mood)
 - [क्या मुजे नौकरी मिली?](#did-i-get-the-job)
 - [मेरे साथ चले](#follow-along-with-me)
 - [कभीबी आप चालक नहीं हो ऐसा ना सोचो](#dont-feel-you-arent-smart-enough)
@@ -51,41 +51,41 @@
     - [डायनामिक प्रोग्रामिंग](#dynamic-programming)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Garbage collection](#garbage-collection)
-    - [Caches](#caches)
+    - [गार्बेज कलेक्शन](#garbage-collection)
+    - [काशेस](#caches)
     - [Processes and Threads](#processes-and-threads)
     - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
     - [Papers](#papers)
     - [Unicode](#unicode)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Testing](#testing)
+    - [Emacs और vi(m)](#emacs-and-vim)
+    - [Unix command line उपकरण](#unix-command-line-tools)
+    - [परिक्षण](#testing)
     - [Design patterns](#design-patterns)
     - [Scheduling](#scheduling)
     - [Implement system routines](#implement-system-routines)
     - [String searching & manipulations](#string-searching--manipulations)
-- [Final Review](#final-review)
-- [Books](#books)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Additional Learnings (not required)](#additional-learnings-not-required)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Networking](#networking)
-    - [Computer Security](#computer-security)
-    - [Parallel Programming](#parallel-programming)
+- [आखरी समीक्षा](#final-review)
+- [पुस्तकें](#books)
+- [कोडिंग अभ्यास/चुनौतियों](#coding-exerciseschallenges)
+- [एक बार जब आप इंटरव्यू के करीब हो](#once-youre-closer-to-the-interview)
+- [आपका रिज्यूमे](#your-resume)
+- [इंटरव्यू की सोंच](#be-thinking-of-for-when-the-interview-comes)
+- [इन्तेर्विएवर के लिए प्रश्न रखे](#have-questions-for-the-interviewer)
+- [अतिरिक्त पढाई(जरुरत नहीं)](#additional-learnings-not-required)
+    - [इनफार्मेशन थ्योरी](#information-theory)
+    - [पारिटी और हैमिंग कोड](#parity--hamming-code)
+    - [एन्थ्रोपी](#entropy)
+    - [क्रिप्टोग्राफी](#cryptography)
+    - [संक्षिप्तीकरण](#compression)
+    - [नेटवर्किंग](#networking)
+    - [संगणक सुरक्षा](#computer-security)
+    - [परैल्लेल प्रोग्रामिंग](#parallel-programming)
     - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
     - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [ब्लूम फ़िल्टर](#bloom-filter)
     - [van Emde Boas Trees](#van-emde-boas-trees)
     - [Augmented Data Structures](#augmented-data-structures)
-    - [Skip lists](#skip-lists)
+    - [स्किप लिस्ट](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [Math for Fast Processing](#math-for-fast-processing)
@@ -93,43 +93,34 @@
     - [Linear Programming](#linear-programming)
     - [Geometry, Convex hull](#geometry-convex-hull)
     - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-    - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    - [मशीन लर्निंग](#machine-learning)
+    - [गो](#go)
+- [कुछ विषयोकी अधिक जानकारी](#additional-detail-on-some-subjects)
 - [Video Series](#video-series)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [जब आपको नौकरी मिल जाये](#once-youve-got-the-job)
 
 ---
 
-## Why use it?
+## इसका उपयोग क्यू करे?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+मैं यह योजना का अनुपालन गूगल इनेर्विएव के तयारी के लिए कर रहा हूँ. मैं १९९७ से वेब, सर्विसेज और स्टार्टअप का निर्माण कर रहा हूँ. मेरे पास संगणक शात्र की पदवी ना होक अर्थशात्र की पदवी हैं. मैं अपने कैरियर में बहुत सफल रहा हूँ, पर मुजे गूगल में काम करने की इच्छा हें. मैं एक बड़े सिस्टम में प्रगति और कंप्यूटर प्रणालियों की एक असली समझ प्राप्त करना चाहते हु, अल्गोरिथम की निपुणता, डाटा स्ट्रक्चर का निष्पादन,
+लो-लेवल भाषाए, और वो कैसे काम करती हें. और अगर आपको एनमेंसे किसी की जानकारी नहीं हे तो गूगल आपको नियुन्क्त नहीं करेगा.
+मैंने जब ये परियोजना शुरू की, तब मैं स्टैक और  हीप में फरक नहीं जनता था, मुजे नहीं पता था की Big-O क्या हे, ट्रीज क्या हे, या ग्राफ को पार कैसे करते हैं. अगर मुजे छाटने का अल्गोरिथम लिखना पड़ता तो मैं आपको ये बता सकता हु के वो इतना ख़ास नहीं होगा. जो भी डाटा स्ट्रक्चर का मैंने उपयोग किया वो भाषा में समाविष्ट था, और वो कैसे काम करता हे उसकी कोई जानकारी मुजे नहीं थी. मुजे कभी मेमोरी का संचालन नहीं करता पड़ा, जबतक मेरी चलाई कोई प्रोसेस "out of
+memory" का एरर न दे, और तब मुजे कोई वैकल्पिक हल धुन्दाना पड़ता था. मैंने मेरी जिन्दगी में  बहोत कम मुल्ती-डायमेंशनल ऐरे और बहोत सारे अस्सोसिअतिव् ऐरे का उपयोग किया हे, पर मैंने कोई भी डाटा स्ट्रक्चर शुरू से नहीं लिखा था.
+पर इस अध्ययन योजना का उपयोग करने बाद मेरा नौकरी लगाने का  आत्मविश्वास बहोत बढ़ा हें. यह एक लम्बी योजना हें. यह मेरे लिए बहोत महीनोतक चलेगी. अगर आपको ईंमैसे कुछ पता हैं तो आपको कम वक्त लगेगा.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory, unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multi-dimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+## इसका कैसे उपयोग करे?
 
-## How to use it
+नीचे सब कुछ एक रूपरेखा है, और आप ऊपर से नीचे के क्रम में पढ़े.
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+मैं Github के विशेष Markdown का उपयोग कर रहा हूँ, प्रगति की जाँच करने के लिए कार्य सूचियों का प्रयोग करे.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+- [] एक नई शाखा बनाएँ ताकि आप इस तरह की वस्तुओं की जांच कर सकते हैं, बस कोष्ठक में एक एक्स डाले: [x]
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+[Github-flavored markdown की अधिक जानकारी](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-## Get in a Googley Mood
+## गूगली मूड में आ जाएँ
 
 Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 

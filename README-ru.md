@@ -25,7 +25,7 @@
 разработчик ПО/веб-разработчик. Первое требует знаний в области CS.
 
 Если вы хотите быть инженерами обеспечивающими надежность ПО или системными инженерами, то уделить внимание вопросом из
-опционального списка(разделы сеть, безопасность).
+опционального списка (разделы сеть, безопасность).
 
 ---
 
@@ -99,57 +99,57 @@
 - [После того как вы получили работу](#once-youve-got-the-job)
 
 
----------------- Everything below this point is optional ----------------
+---------------- Все что ниже - опционально ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Compilers](#compilers)
-    - [Floating Point Numbers](#floating-point-numbers)
+- [Дополнительные книги](#additional-books)
+- [Дополнительное обучение](#additional-learning)
+    - [Динамическое программирование](#dynamic-programming)
+    - [Компиляторы](#compilers)
+    - [Числа с плавующей запятой](#floating-point-numbers)
     - [Unicode](#unicode)
-    - [Endianness](#endianness)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [Порядок следования байт](#endianness)
+    - [Emacs и vi(m)](#emacs-and-vim)
+    - [Командная строка Unix](#unix-command-line-tools)
+    - [Теория информации](#information-theory)
+    - [Четность & Код Хемминга](#parity--hamming-code)
+    - [Энтропия](#entropy)
+    - [Криптография](#cryptography)
+    - [Сжатие](#compression)
+    - [Сети](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
+    - [Компьютерная безопасность](#computer-security)
+    - [Сборщики мусора](#garbage-collection)
+    - [Параллельное программирование](#parallel-programming)
+    - [Сообщения, сериализация и системы очередей](#messaging-serialization-and-queueing-systems)
+    - [Быстрое преобразование Фурье](#fast-fourier-transform)
+    - [Фильтр Блума](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Tries](#tries)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
-    - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
+    - [Локально-чувствительное хеширование](#locality-sensitive-hashing)
+    - [Дерево ван Эмде Боаса](#van-emde-boas-trees)
+    - [Дополнительные структуры данных](#augmented-data-structures)
+    - [Префиксные деревья](#tries)
+    - [N-арные (K-арные, M-арные) деревья](#n-ary-k-ary-m-ary-trees)
+    - [Сбалансированные деревья поиска](#balanced-search-trees)
+        - АВЛ деревья
+        - Splay-деревья
+        - Красно-черные деревья
+        - 2-3 деревья поиска
+        - 2-3-4 деревья
+        - N-арные (K-арные, M-арные) деревья
+        - B-деревья
+    - [k-D деревья](#k-d-trees)
+    - [Списки с пропусками](#skip-lists)
+    - [Сеть](#network-flows)
+    - [Система непересекающихся множеств](#disjoint-sets--union-find)
+    - [Математика для быстрой обработки](#math-for-fast-processing)
+    - [Декартово дерево](#treap)
+    - [Линейное программирование](#linear-programming)
+    - [Геометрия, Выпуклая оболочка](#geometry-convex-hull)
+    - [Дискретная математика](#discrete-math)
+    - [Машинное обучение](#machine-learning)
     - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Дополнительные детали](#additional-detail-on-some-subjects)
+- [Видео](#video-series)
+- [Курсы по Computer Science](#computer-science-courses)
 
 ---
 

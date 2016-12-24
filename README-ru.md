@@ -4,97 +4,100 @@
 
 ## Что это?
 
-Это мой учебный план рассчитанный на несколько месяцев для веб-разарботчиков, не имеющих образования в CS и планирующих 
-работать разработчиками программного обеспечения в компании Google. 
+Это мой учебный план рассчитанный на несколько месяцев для веб-разработчиков, не имеющих образования в Computer Science (CS)
+и планирующих работать инженерами-программистами (software engineer) в компании Google. 
 
 ![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes.
+За основу учебного плана я взял список вопросов **Google's coaching notes** и значительно расширил его. Тут вы найдёте 
+много полезных вещей, которые необходимо знать. Дополнительные вопросы я добавил в конец списка, их могут задавать на 
+интервью, так же они могут быть полезны в решении повседневных задач. Некоторые пункты я взял из поста Стива Йеги (Steve Yegge) 
+"[Получить работу в Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)", а некоторые слово в слово 
+соответствуют вопросам, разбираемых Google в их постах о подготовке.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from 
-software/web development to software engineering (where computer science knowledge is required). If you have 
-many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Я сократил тот объем знаний, который необходим, по сравнению с рекомендациями Йеги. Я изменил требования Йеги исходя
+из той информации, которую мне предоставил мой знакомый из Google. Это важно для тех, кто сейчас еще **новички в 
+разработке программного обеспечения** или являются веб-разработчиками и планируют стать инженерами-программистами 
+(это та профессия где требуются знания в области CS). Если вы опытный разработчик, ожидайте что собеседование будет сложным. 
+[Подробнее](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/). 
 
-If you have many years of software/web development experience, note that Google views software engineering as 
-different from software/web development and they require computer science knowledge.
+Если вы обладаете многолетним опытом разработки ПО, помните, что Google разделяет понятия инженер-программист и 
+разработчик ПО/веб-разработчик. Первое требует знаний в области CS.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Если вы хотите быть инженерами обеспечивающими надежность ПО или системными инженерами, то уделить внимание вопросом из
+опционального списка(разделы сеть, безопасность).
 
 ---
 
-## Table of Contents
+## Содержание
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Что это?](#what-is-it)
+- [Почему нужно это использовать?](#why-use-it)
+- [Как пользоваться](#how-to-use-it)
+- [Получи гугловское настроение](#get-in-a-googley-mood)
+- [Получил ли я работу?](#did-i-get-the-job)
+- [Двигайся вместе со мной](#follow-along-with-me)
+- [Не переживай о том, что ты не достаточно умный](#dont-feel-you-arent-smart-enough)
+- [О Google](#about-google)
+- [О видео ресурсах](#about-video-resources)
+- [Процесс собеседования & Основное в подготовке к интервью](#interview-process--general-interview-prep)
+- [Выберите один язык для собеседования](#pick-one-language-for-the-interview)
+- [Список книг](#book-list)
+- [Перед тем как ты начнешь](#before-you-get-started)
+- [Что еще не охвачено](#what-you-wont-see-covered)
+- [Необходимые знания](#prerequisite-knowledge)
+- [План на день](#the-daily-plan)
+- [Сложность алгоритмов / Big-O / Асимптотический анализ](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Структуры данных](#data-structures)
+    - [Массив](#arrays)
+    - [Связанный список](#linked-lists)
+    - [Стек](#stack)
+    - [Очередь](#queue)
+    - [Хэш-таблица](#hash-table)
+- [Дополнительно](#more-knowledge)
+    - [Двоичный поиск](#binary-search)
+    - [Битовые операции](#bitwise-operations)
+- [Деревья](#trees)
+    - [Деревья](#trees---notes--background)
+    - [Двоичное дерево поиска: BSTs](#binary-search-trees-bsts)
+    - [Куча / Очередь с приоритетом / Двоичная куча](#heap--priority-queue--binary-heap)
+    - Сбалансированные деревья поиска (основная идея, без деталей)
+    - Обходы: прямой, симметричный, обратный, BFS, DFS
+- [Сортировка](#sorting)
+    - выбором
+    - вставками
+    - пирамидальная
+    - быстрая
+    - слиянием
+- [Графы](#graphs)
+    - ориентированные
+    - неориентированные
+    - матрица смежности
+    - лист смежности
+    - обходы: BFS, DFS
+- [Еще больше знаний](#even-more-knowledge)
+    - [Рекурсия](#recursion)
+    - [Объектно-ориентированное программирование](#object-oriented-programming)
+    - [Шаблоны проектирования](#design-patterns)
+    - [Комбинаторика & Вероятность](#combinatorics-n-choose-k--probability)
+    - [NP, NP-полные and Аппроксимирующие алгоритмы](#np-np-complete-and-approximation-algorithms)
+    - [Кэш](#caches)
+    - [Процессы и нити](#processes-and-threads)
+    - [Статьи](#papers)
+    - [Тестирование](#testing)
+    - [Планирование](#scheduling)
+    - [Реализация системных вызовов](#implement-system-routines)
+    - [Поиск в строке & манипуляции](#string-searching--manipulations)
+- [Проектирование систем, Масштабируемость, Обработка данных](#system-design-scalability-data-handling) (if you have 4+ years experience)
+- [Финальный обзор](#final-review)
+- [Практические вопросы по программированию](#coding-question-practice)
+- [Упражнения по программированию](#coding-exerciseschallenges)
+- [Перед собеседованием](#once-youre-closer-to-the-interview)
+- [Ваше резюме](#your-resume)
+- [О чем нужно думать на собеседовании](#be-thinking-of-for-when-the-interview-comes)
+- [Вопросы к собеседующим](#have-questions-for-the-interviewer)
+- [После того как вы получили работу](#once-youve-got-the-job)
+
 
 ---------------- Everything below this point is optional ----------------
 

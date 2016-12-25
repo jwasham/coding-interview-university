@@ -2,7 +2,7 @@
 
 Оригинальная  версия: [Английский](README.md) 
 
-## Что это?
+## Для кого это?
 
 Это мой учебный план рассчитанный на несколько месяцев для веб-разработчиков, не имеющих образования в Computer Science (CS)
 и планирующих работать инженерами-программистами (software engineer) в компании Google. 
@@ -31,8 +31,8 @@
 
 ## Содержание
 
-- [Что это?](#Что-это)
-- [Почему нужно это использовать?](#why-use-it)
+- [Для кого это?](#Для-кого-это)
+- [Чем это полезно?](#Чем-это-полезно)
 - [Как пользоваться](#how-to-use-it)
 - [Получи гугловское настроение](#get-in-a-googley-mood)
 - [Получил ли я работу?](#did-i-get-the-job)
@@ -153,23 +153,23 @@
 
 ---
 
-## Why use it?
+## Чем это полезно?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+Я следую этому плану, готовясь к собеседованию в Google. Я разрабатываю веб-приложения, сервисы и запускаю стартапы с 
+1997 года. У меня есть степень по экономике, но нет по CS. До сих пор у меня очень успешная карьера, но я хочу работать 
+в Google. Я хочу работать с большими системами и понять принципы их работы, изучить эффективность алгоритмов и различные 
+структуры данных, узнать, как работают низкоуровневые языки программирования. Если ты не знаешь что-то из перечисленного, 
+Google не возьмёт тебя на работу.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Когда я начал этот проект, я ничего не знал о стеке, куче, Big-O, деревья и способах обхода графа. Если бы мне нужно 
+было писать код для сортировки, это было бы не очень хорошо. Структуры данных, которые я использовал, были частью языка, 
+и я не знал, как они на самом деле работали. Мне никогда не приходилось управлять памятью, если процесс, который я 
+запускал, сообщал об ошибке "out of memory", я искал способ как ее обойти. Я использовал в своей работе несколько 
+многомерных массивов и тысячи ассоциативных, но никогда не создавал структуру данных "с нуля".
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Но после выполнения этого учебного плана я поверил, что Google меня наймет. Это длинный план. Я потрачу на это месяцы. 
+Если вы уже знакомы с большинством тем, то прохождение всех тем то потратите намного меньше времени.
+
 
 ## How to use it
 

@@ -5,7 +5,7 @@ Translations:
 - [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/google-interview-university/issues/80)
 - हिन्दी (in progress) [Issue #81](https://github.com/jwasham/google-interview-university/issues/81)
 - [עברית (in progress)](README-he.md) [Issue #82] (https://github.com/jwasham/google-interview-university/issues/82)
-
+- [Russian (in progress)](README-ru.md) [Issue #87] (https://github.com/jwasham/google-interview-university/issues/87)
 
 ## What is it?
 

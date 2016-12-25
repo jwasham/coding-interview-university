@@ -15,34 +15,30 @@ Cette longue liste a été extraite et étendue de **Google's coaching notes**, 
 En bas, j'ai rajouté des unités supplémentaires qui peuvent être soulevées pendant l'entretien, ou qui peuvent être utiles pour résoudre des problèmes. Plusieurs unités proviennent de
 "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" par Steve Yegge, et sont parfois reflétées mot pour mot dans les notes de coaching de google.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+J'ai épuré ce que vous devez savoir de ce qui est recommendé par Yegge. J'ai modifié les prérequis de Yegge.
+D'après les informations reçues de la part des contact travaillant à Google. Ceci est destiné aux **new software engineers**  ou aux developpeur logiciel/web qui souhaitent devenir des ingénieurs en génie logiciel (où la science de l'informatique est requise). Si vous avez plusieurs années d'expérience et vous déclarez plusieurs années d'éxperience en génie logiciel attendez vous à un entretien plus dur.
 [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-If you have many years of software/web development experience, note that Google views software engineering as
-different from software/web development and they require computer science knowledge.
+Si vous avez plusieurs années d'experience en development web/logiciel, notez que google font une distinction entre le développement logiciel et l'ingénieurie en génie civil.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
-
+Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, suivez plus de cours de la liste optionelle (Réseau, sécurité)
 ---
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
+- [C'est quoi?](#what-is-it)
+- [Pourquoi l'utilisier?](#why-use-it)
+- [Comment s'en servir](#how-to-use-it)
+- [Se mettre dans l'humeur Googley](#get-in-a-googley-mood)
+- [J'ai décroché le Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
+- [A propos de Google](#about-google)
+- [A propos des ressources vidéo](#about-video-resources)
+- [Déroulement de l'entretien & préparations générales à l'entretien](#interview-process--general-interview-prep)
+- [Choisir un langage pour l'entretien](#pick-one-language-for-the-interview)
+- [List de livres](#book-list)
+- [Avant de commencer](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
@@ -54,45 +50,45 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Queue](#queue)
     - [Hash table](#hash-table)
 - [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
+    - [Recherche dichotomique](#binary-search)
+    - [Opérations bit à bit](#bitwise-operations)
+- [Arbes](#trees)
+    - [Arbres - Notes & Background](#trees---notes--background)
+    - [Arbres binaires de recherche: BSTs](#binary-search-trees-bsts)
+    - [Tas / File de Priorité / Tas binaire](#heap--priority-queue--binary-heap)
+    - Arbre de recherche equilibré (general concept, not details)
+    - Parcours : Préfixe, infixe, postfixe, BFS, DFS
+- [Tri](#sorting)
+    - sélection
     - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
+    - tri par tas
+    - tri rapide
+    - tri fusion
+- [Graphes](#graphs)
+    - orienté
+    - non orienté
+    - matrice d'adjacence
+    - liste d'adjacence
+    - parcours: BFS, DFS
 - [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Object-Oriented Programming](#object-oriented-programming)
+    - [Récursivité](#recursion)
+    - [Programmation orientée objet](#object-oriented-programming)
     - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+    - [Combinatoire (k parmi n) et probabilité](#combinatorics-n-choose-k--probability)
+    - [NP, NP-complet et les Algorithmes d'approximation](#np-np-complete-and-approximation-algorithms)
     - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
+    - [Processus et Threads](#processes-and-threads)
+    - [Documents](#papers)
+    - [Tests](#testing)
+    - [Ordonnancement](#scheduling)
+    - [Implémentation des routines système](#implement-system-routines)
     - [String searching & manipulations](#string-searching--manipulations)
 - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
+- [Votre CV](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)

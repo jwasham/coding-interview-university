@@ -1,34 +1,34 @@
 # Google Interview University
 
-## यह क्या हे?
+## यह क्या है?
 
-यह मेरा वेब डेवलपर से गूगल सॉफ्टवेर इंजिनियर बनाने की अद्ययन योजना हैं.
+यह मेरा वेब डेवलपर से गूगल सॉफ्टवेर इंजिनियर बनाने की अध्ययन योजना हैं.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-यह लम्बी सूचि **गूगल कोचिंग नोट्स** से छाती एव विस्तारित की गयी हैं, ताकि इन बातो को आपको पता चल सके. मैंने आपके इंटरव्यू में मदत कर सकने वाले कुछ अतिरिक्त विषय सूचि के आखिर में डाले हे. 
+यह लम्बी सूची **गूगल कोचिंग नोट्स** से उद्धरण एव विस्तारित की गयी हैं, ताकि इन बातो को आपको पता चल सके. मैंने आपके इंटरव्यू में मदद कर सकने वाले कुछ अतिरिक्त विषय सूचि के, आखिर में डाले है. 
 
-अनेक विषय स्टीव येग्गे की "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" से हैं. 
+अनेक विषय, **स्टीव येग्गे** की "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" से हैं. 
 
 ---
 
 ## अनुक्रमणिका
-- [यह क्या हे?](#यह-क्या-हे)
-- [इसका उपयोग क्यू करे?](#इसका-उपयोग-क्यू-करे)
+- [यह क्या है?](#यह-क्या-है )
+- [इसका उपयोग क्यों करे?](#इसका-उपयोग-क्यों-करे)
 - [इसका कैसे उपयोग करे?](#इसका-कैसे-उपयोग-करे)
-- [गूगली मूड में आ जाएँ](#गूगली-मूड-में-आ-जाएँ)
-- [क्या मुजे नौकरी मिली?](#क्या-मुजे-नौकरी-मिली)
+- [गूगल की मुद्रा में आ जाएँ](#गूगल-की-मुद्रा-में-आ-जाएँ)
+- [क्या मुझे नौकरी मिली?](#क्या-मुझे-नौकरी-मिली)
 - [मेरे साथ चले](#मेरे-साथ-चले)
-- [कभीबी आप चालक नहीं हो ऐसा ना सोचो](#कभीबी-आप-चालक-नहीं-हो-ऐसा-ना-सोचो)
+- [अपने आप को कमजोर मत समझो ](#अपने-आप-को-कमजोर-मत-समझो )
 - [गूगल के बारे में](#गूगल-के-बारे-में)
 - [विडियो संसाधनों के बारे में](#विडियो-संसाधनों-के-बारे-में)
 - [इंटरव्यू प्रकिया और साधारण इंटरव्यू तयारी](#interview-process--general-interview-prep)
-- [इंटरव्यू के लिए एक संगणक भाषा चुने](#pick-one-language-for-the-interview)
+- [इंटरव्यू के लिए एक भाषा चुने](#pick-one-language-for-the-interview)
 - [प्रारंभ करने से पहले](#before-you-get-started)
 - [एअसमे क्या समाविष्ट नहीं हे](#what-you-wont-see-covered)
-- [शर्त ज्ञान](#prerequisite-knowledge)
+- [पूर्व प्रयोजनीय ज्ञान](#prerequisite-knowledge)
 - [दैनिक योजना](#the-daily-plan)
-- [अल्गोरिथम जटिलत / बिग-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [अल्गोरिथम जटिलता / बिग-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [डेटा संरचनाएं](#data-structures)
     - [ऐरे](#arrays)
     - [लिंक्ड लिस्ट](#linked-lists)
@@ -38,15 +38,15 @@
 - [अधिक जानकारी](#more-knowledge)
     - [एन्दिंनेस](#endianness)
     - [बाइनरी सर्च](#binary-search)
-    - [बितवाईस ऑपेरशन](#bitwise-operations)
+    - [बिट-वाईस ऑपेरशन](#bitwise-operations)
 - [ट्रीज](#trees)
     - [ट्रीज पृष्टभूमि और तिपनिया](#trees---notes--background)
     - [बाइनरी सर्च ट्री: BST](#binary-search-trees-bsts)
     - [हीप / प्रायोरिटी क्यू / बाइनरी हीप](#heap--priority-queue--binary-heap)
-    - [त्रिएस](#tries)
+    - [ट्राइस](#tries)
     - [बैलेंस्ड सर्च ट्री](#balanced-search-trees)
     - [N-ary (K-ary, M-ary) ट्री](#n-ary-k-ary-m-ary-trees)
-- [सोर्टिंग](#sorting)
+- [सॉर्टिंग](#sorting)
 - [ग्राफ](#graphs)
 - [और अधिक जानकारी](#even-more-knowledge)
     - [रिकर्शन](#recursion)

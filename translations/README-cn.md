@@ -234,7 +234,7 @@
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[在此查看相关语言的资源](programming-language-resources.md)
+[在此查看相关语言的资源](../programming-language-resources.md)
 
 由于，我正在学习C、C++ 和 Python。因此，在下面你会看到部分关于它们的学习资料。相关书籍请看文章的底部。
 

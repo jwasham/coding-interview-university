@@ -50,8 +50,8 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Danh mục sách](#danh-mục-sách)
 - [Trước khi bắt đầu](#trước-khi-bắt-đầu)
 - [Những phần không được đề cập](#những-phần-không-được-đề-cập)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [Kế hoạch hàng ngày](#Kế-hoạch-hàng-ngày)
+- [Kiến thức tiên quyết](#kiến-thức-tiên-quyết)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
@@ -514,4 +514,50 @@ Danh sách lớn này bắt đầu như một bản To-do lược trích từ Hu
 - HTML, CSS, và các công nghệ thiết kế giao diện người dùng ("front-end").
 
 
+## Kế hoạch hàng ngày
+
+Một vài môn học chỉ mất một ngày, vài môn khác có thể mất nhiều ngày. Có vài môn chỉ có thể học thôi chứ không cài đặt được gì.
+
+Mỗi ngày tôi sẽ chọn một trong các thứ liệt kê bên dưới, xem video bải giảng về nó, và viết mã trên:
+- C - luyện tập sử dụng `struct` và các hàm nhận các `struct` đó cùng với các tham số khác.
+- C++ - không sử dụng các kiểu dữ liệu, cấu trúc sẵn có.
+- C++ - sử dụng các kiểu, cấu trúc sẵn có, ví dụ như `std::List` cho danh sách liên kết.
+- Python - sử dụng kiểu, cấu trúc sẵn có (để luyện tập Python).
+- Viết test (thuật ngữ dành cho các đoạn mã chuyên để kiểm tra phẩn mềm, ở đây tác giả cõ lẽ muốn đề cập đến [unit test](https://en.wikipedia.org/wiki/Unit_testing)) để chắc rằng tôi làm đúng. Đôi khi có thể chỉ là vài hàm `assert()` đơn giản.
+- Bạn có thể thực hành với Java hoặc ngôn ngữ khác. Đây chỉ là sự lựa chọn của tôi.
+
+Bạn không cần luyện tất cả các ngôn ngữ đó. Chỉ cần [một ngôn ngữ cho cuộc phỏng vấn là đủ](#chọn-ngôn-ngữ-lập-trình-cho-cuộc-phỏng-vấn).
+
+Tại sao lại viết mã với tất cả các ngôn ngữ đó?
+
+- Luyện tập, luyện tập, luyện tập, cho đến khi tôi phát bệnh với việc đó, và có thể giải các bài toán mà không gặp trục trặc gì (một vài bài toán có thể có nhiều trường hợp đặc biệt, hãy lưu lại các lần sai lầm đề ghi nhớ)
+- Tôi muốn làm việc với các sức ép căn bản nhất (xin cấp phát/ giải phóng vùng nhớ, không sử dụng trợ giúp từ bộ dọn rác trong các ngôn ngữ câp cao, ngọai trừ Python)
+- Học cách vận dụng kiểu dữ liệu sẵn có, nhờ đó, tôi có kinh nghiệm nhiều hơn và biết cách dùng chúng trong thực tế (sẽ không bao giờ bỏ thời gian ra tự thiết kế danh sách liên kết của riêng mình nữa).
+
+Tôi có lẽ không đủ thời gian để thử hết tất cả các bước trên với từng chủ đề, nhưng tôi sẽ cố.
+
+Bạn có thể xem code của tôi ở các trang sau:
+
+ - [C] (https://github.com/jwasham/practice-c)
+ - [C++] (https://github.com/jwasham/practice-cpp)
+ - [Python] (https://github.com/jwasham/practice-python)
+
+Bạn không cần phải ghi nhớ cặn kẽ từ giải thuật.
+
+Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy tính. Chạy thử trên giấy với vài bộ dữ liệu mẫu, sau đó chạy thử thuật tóan của bạn trên một máy tính.
+
+
+## Kiến thức tiên quyết
+
+- [ ] **Học C**
+    - C có ở khắp nơi. Bạn sẽ thấy các ví dụ trong sách, bài giảng, video, bất kỳ đâu mà bạn học.
+    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Sách ngắn, nhưng nó sẽ cho bạn một nền tảng tốt về C, và nếu bạn luyện tập nhiều hơn, bạn sẽ nhanh chóng thành thạo nó. Hiểu về C giúp bạn hiểu cách các chương trình và bộ nhớ hoạt động.
+        - [Lời giải cho các câu hỏi](https://github.com/lekkas/c-algorithms)
+
+- [ ] **Máy tính thực thi một chương trình như thế nào?**
+    - [ ] [CPU thực thi chương trình thế nào (How does CPU execute program) - video](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [Tập lệnh mã máy (Machine Code Instructions) - video](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+
 > In progress
+

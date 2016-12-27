@@ -49,7 +49,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Chọn ngôn ngữ lập trình cho cuộc phỏng vấn](#chọn-ngôn-ngữ-lập-trình-cho-cuộc-phỏng-vấn)
 - [Danh mục sách](#danh-mục-sách)
 - [Trước khi bắt đầu](#trước-khi-bắt-đầu)
-- [What you Won't See Covered](#what-you-wont-see-covered)
+- [Những-phần-không-được-đề-cập](#những-phần-không-được-đề-cập)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -502,5 +502,16 @@ Khi gặp vấn đề trong lúc code, nghỉ ngơi chừng nửa giờ và đ�
 ### 4. Tập trung
 
 Có rất nhiều thứ lấy đi sự chú ý của ta, việc này tốn rất nhiều thời gian. Tập trung và toàn tâm toàn ý rất khó.
+
+
+## Những phần không được đề cập
+
+
+Danh sách lớn này bắt đầu như một bản To-do lược trích từ Huấn luyện phỏng vấn cho Google. Có vài công nghệ đang thịnh hành nhưng không được đề cập đến, ví dụ:
+
+- SQL
+- Javascript
+- HTML, CSS, và các công nghệ thiết kế giao diện người dùng ("front-end").
+
 
 > In progress

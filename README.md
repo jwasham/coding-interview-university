@@ -5,7 +5,7 @@ Translations:
 - [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/google-interview-university/issues/80)
 - [हिन्दी (in progress)](README-hn.md) [Issue #81](https://github.com/jwasham/google-interview-university/issues/81)
 - [עברית (in progress)](README-he.md) [Issue #82](https://github.com/jwasham/google-interview-university/issues/82)
-- [Tiếng Việt (in progress)](README-he.md) [Issue #92](https://github.com/jwasham/google-interview-university/issues/92)
+- [Tiếng Việt (in progress)](README-vn.md) [Issue #92](https://github.com/jwasham/google-interview-university/issues/92)
 
 
 ## What is it?
@@ -2020,4 +2020,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

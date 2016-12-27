@@ -49,7 +49,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Chọn ngôn ngữ lập trình cho cuộc phỏng vấn](#chọn-ngôn-ngữ-lập-trình-cho-cuộc-phỏng-vấn)
 - [Danh mục sách](#danh-mục-sách)
 - [Trước khi bắt đầu](#trước-khi-bắt-đầu)
-- [Những-phần-không-được-đề-cập](#những-phần-không-được-đề-cập)
+- [Những phần không được đề cập](#những-phần-không-được-đề-cập)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)

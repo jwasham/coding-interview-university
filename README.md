@@ -178,7 +178,7 @@ Everything below is an outline, and you should tackle the items in order from to
 
 I'm using Github's special markdown flavor, including tasks lists to check progress.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
 
 
     Fork a branch and follow the commands below
@@ -234,7 +234,7 @@ I'm on the journey, too. Follow along:
 
 ## About Google
 
-- [x] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [ ] How Search Works:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)

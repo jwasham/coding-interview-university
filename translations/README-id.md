@@ -99,25 +99,25 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ---------------- Semua dibawah ini bersifat opsional ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Compilers](#compilers)
-    - [Floating Point Numbers](#floating-point-numbers)
+- [Buku Tambahan](#buku-tambahan)
+- [Materi Tambahan](#materi-tambahan)
+    - [Pemrograman Dinamis](#pemrograman-dinamis)
+    - [Kompilator](#kompilator)
+    - [Bilangan Titik Mengambang](#bilangan-titik-mengambang)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
+    - [Teori Informasi](#teori-informasi)
+    - [Pariti & Kode Hamming](#pariti--kode-hamming)
+    - [Entropi](#entropi)
+    - [Kriptografi](#kriptografi)
+    - [Kompresi](#kompresi)
+    - [Jaringan](#jaringan) (bersiaplah mendapatkan pertanyaan jaringan apabila anda ingin menjadi system engineer)
+    - [Sekuritas Komputer](#sekuritas-komputer)
     - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Pemrograman Paralel](#pemrograman-paralel)
+    - [Pengiriman Pesan, Serialisasi, dan Sistem Queueing](#pengiriman-pesan-serialisasi-dan-sistem-queueing)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
@@ -138,47 +138,38 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Matematika untuk Pemrosesan Cepat](#matematika-untuk-pemrosesan-cepat)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
+    - [Pemrograman Linear](#pemrograman-linear)
+    - [Geometri, Convex hull](#geometri-convex-hull)
+    - [Matematika Diskrit](#matematika-diskrit)
+    - [Pembelajaran Mesin](#pembelajaran-mesin)
     - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Detil Tambahan pada Beberapa Subjek](#detil-tambahan-pada-beberapa-subjek)
+- [Seri Video](#seri-video)
+- [Kursus Ilmu Komputer](#kursus-ilmu-komputer)
 
 ---
 
-## Why use it?
+## Mengapa Menggunakannya?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+Saya mengikuti rencana ini untuk mempersiapkan saya dalam menghadapi wawancara kerja Google. Sejak 1997, saya telah menciptakan berbagai situs, servis, dan mendirikan startup. Saya memiliki gelar ekonomi, bukan gelar ilmu komputer. Saya telah meraih kesuksesan dalam karir saya, tapi saya ingin bekerja di Google. Saya ingin masuk ke sistem yang lebih besar dan mempunyai pemahaman mendalam tentang sistem komputer, efesiensi algoritma, performa struktur data, bahasa tingkat rendah, dan bagaimana semuanya bekerja. Jika anda tidak mengetahui satu pun, Google tidak akan mempekerjakan anda.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Ketika saya memulai proyek ini, saya tidak tahu tentang stack dari sebuah heap, tidak tahu tentang notasi Big-O apapun, begitupula dengan struktur data trees, atau bagaimana menyusuri sebuah graph. Jika saya harus menulis algoritma penyortiran, saya bisa katakan pada anda bahwa hasilnya tidak akan memuaskan.
+Setiap struktur data yang saya pernah pakai sudah tertanam dalam bahasa yang saya gunakan, dan saya tidak tahu bagaimana mereka bekerja secara riil. Saya tidak pernah diharuskan untuk mengatur penggunaan memori kecuali proses yang saya jalankan akan memberikan error 'memori tidak cukup', sehingga saya harus mencari jalan keluarnya. Saya pernah menggunakan beberapa array multidimensi dalam hidup saya dan ribuan array asosiatif, tapi saya tidak pernah menciptakan struktur data dari nol.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Tetapi setelah menjalani rencana studi ini saya memiliki kepercayaan diri yang tinggi bahwa saya akan diterima. Ini adalah rencana yang panjang. Ini akan menyita waktu saya selama berbulan-bulan. Tetapi jika anda sudah tidak asing lagi dengan materi yang dibutuhkan, hal ini akan membutuhkan waktu jauh lebih sedikit.
 
-## How to use it
+## Bagaimana cara menggunakannya
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Apapun dibawah ini adalah garis besar, dan anda harus menguasai materi dari atas ke bawah secara runut.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Saya menggunakan markdown spesial dari Github, termasuk daftar tugas untuk mengecek perkembangan.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Buat branch baru sehingga anda bisa mencentang seperti ini, bubuhi tanda x dalam tanda kurung: [x]**
 
 
-    Fork a branch and follow the commands below
+    Fork sebuah branch dan ikuti perintah berikut
 
 `git checkout -b progress`
 
@@ -186,7 +177,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Tandai semua kotak dengan tanda X setalah anda menyelesaikannya
 
 `git add . `
 
@@ -196,7 +187,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Lebih jauh tentang markdown Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Get in a Googley Mood
 

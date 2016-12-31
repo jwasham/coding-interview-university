@@ -288,31 +288,31 @@ Sometimes the classes are not in session so you have to wait a couple of months,
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Escoje Un Idioma para la Entrevista
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Yo escribí este breve artículo sobre este tema: [Importante: Escoje un Idioma para la Entrevista Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Usa un idioma en el cual te sientas mas cómodo para hacer la parte de programación. Para algo como Google, estos son elecciones mas confiables:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+También puede utilizar estos, pero lea primero. Podría haber advertencias:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Necesitas ser muy cómodo y bien informado con el idioma que te eliges.
 
-Read more about choices:
+Lea más sobre sus opciones:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Vea los recursos del idioma aquí](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Vas a notar algo de C, C++, y Python abajo, porque estoy aprendiendo. Hay libros sobre estas lenguas, mira abajo.
 
 ## Book List
 

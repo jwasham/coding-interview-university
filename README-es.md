@@ -8,10 +8,8 @@ Es mi guía de estudio en varios meses para ir de desarrollador web (Autodidacta
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes.
+Esta larga lista ha sido extraída y explicada de **Google’s coaching notes**, estas son las cosas que necesitas saber .Los artículos adicionales, añadidos al final que pueden surgir en la entrevista y ser útiles para resolver problemas .Muchos artículos vienen de 
+Steve Yegge "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" y están reflejados palabra por palabra en Google’s coaching notes.
 
 I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
 from information received from my contact at Google. This is meant for **new software engineers** or those switching from 

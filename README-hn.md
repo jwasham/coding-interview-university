@@ -40,7 +40,7 @@
     - [बाइनरी सर्च](#binary-search)
     - [बिट-वाईस ऑपेरशन](#bitwise-operations)
 - [ट्रीज](#trees)
-    - [ट्रीज पृष्टभूमि और तिपनिया](#trees---notes--background)
+    - [ट्रीज पृष्टभूमि और टिप्पणिया](#trees---notes--background)
     - [बाइनरी सर्च ट्री: BST](#binary-search-trees-bsts)
     - [हीप / प्रायोरिटी क्यू / बाइनरी हीप](#heap--priority-queue--binary-heap)
     - [ट्राइस](#tries)
@@ -183,7 +183,7 @@ It is free to do so, but sometimes the classes are not in session so you have to
 - [ ] विडियो:
     - [ ] [गूगल में कैसे काम करे -  उमीदवार अनुशिक्षण सत्र (विडियो)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
     - [ ] [गूगल भर्तीकर्ताओं की तकनीकी इंटरव्यू टिप्स (विडियो)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [गूगल में कैसे काम करे: तकनीकी रिज्यूमे तयारी (विडियो)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [गूगल में कैसे काम करे: तकनीकी रिज्यूमे तैयारी (विडियो)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] लेख:
     - [ ] [तीन कदमो में गूगलर बने](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
@@ -215,7 +215,7 @@ It is free to do so, but sometimes the classes are not in session so you have to
 - Java
 - Python
 
-आप निम्न्लिहित भाषाएँ भी चुन सकते हैं, पर उन्हें सावधानी से चुने
+आप निम्नलिखित भाषाएँ भी चुन सकते हैं, पर उन्हें सावधानी से चुने
 
 - JavaScript
 - Ruby
@@ -240,7 +240,7 @@ It is free to do so, but sometimes the classes are not in session so you have to
 
 ### १. आपसे यह सब याद नहीं होगा
 
-मैंने घंटो वीडिय के विडियो देखे और टिप्पणिया लिखी, और महीनो बाद मुजे कुछ याद नहीं रहा. सबकी समीक्षा करने के लिए मैंने 3 दिन मेरी तिप्पनिओयो और flashcards बनाने में बितायें (नीचे देखें).
+मैंने घंटो वीडिय के विडियो देखे और टिप्पणिया लिखी, और महीनो बाद मुजे कुछ याद नहीं रहा. सबकी समीक्षा करने के लिए मैंने 3 दिन मेरी तिप्पनियो और flashcards बनाने में बितायें (नीचे देखें).
 
 ### २. फ्लाश्कार्ड्स का उपयोग कीजिये
 

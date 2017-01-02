@@ -1,6 +1,6 @@
 # Google Interview University
 
-Оригинальная  версия: [Английский](README.md) 
+Оригинальная  версия: [Английский](../README.md) 
 
 ## Для кого это?
 
@@ -33,12 +33,12 @@
 
 - [Для кого это?](#Для-кого-это)
 - [Чем это полезно?](#Чем-это-полезно)
-- [Как пользоваться](#how-to-use-it)
-- [Получи гугловское настроение](#get-in-a-googley-mood)
-- [Получил ли я работу?](#did-i-get-the-job)
-- [Двигайся вместе со мной](#follow-along-with-me)
-- [Не переживай о том, что ты не достаточно умный](#dont-feel-you-arent-smart-enough)
-- [О Google](#about-google)
+- [Как пользоваться](#Как-пользоваться)
+- [Получи гугловское настроение](#Получи-гугловское-настроение)
+- [Получил ли я работу?](#Получил-ли-я-работу)
+- [Двигайся вместе со мной](#Двигайся-вместе-со-мной)
+- [Не переживай о том, что ты не достаточно умный](#Не-переживай-о-том-что-ты-не-достаточно-умный)
+- [О Google](#О-google)
 - [О видео ресурсах](#about-video-resources)
 - [Процесс собеседования & Основное в подготовке к интервью](#interview-process--general-interview-prep)
 - [Выберите один язык для собеседования](#pick-one-language-for-the-interview)
@@ -167,20 +167,19 @@ Google не возьмёт тебя на работу.
 запускал, сообщал об ошибке "out of memory", я искал способ как ее обойти. Я использовал в своей работе несколько 
 многомерных массивов и тысячи ассоциативных, но никогда не создавал структуру данных "с нуля".
 
-Но после выполнения этого учебного плана я поверил, что Google меня наймет. Это длинный план. Я потрачу на это месяцы. 
-Если вы уже знакомы с большинством тем, то прохождение всех тем то потратите намного меньше времени.
+Но после выполнения этого учебного плана я поверил, что Google меня наймет. Это длинный путь. Я потрачу на это месяцы. 
+Если вы уже знакомы с большинством тем, то потратите намного меньше времени.
 
 
-## How to use it
+## Как пользоваться
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Ниже описан способ использования, вы должны выпонить пункты в описаном порядке.  
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Я использую  разметку Github, включая список задач для оценки прогресса.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+- [x] Создай новую ветку и тогда вы сможете оставлять отметки у элементов списка, просто добавляя x внутрь скобок: [x]
 
-
-    Fork a branch and follow the commands below
+       Скопируй репозиторий и выполни команды перечисленные ниже
 
 `git checkout -b progress`
 
@@ -198,25 +197,25 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Подробнее о разметке на Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Получи гугловское настроение
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Напечатай знак "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" и смотри на приз.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Did I Get the Job?
+## Получил ли я работу?
 
-I'm in the queue right now. Hope to interview soon.
+Пока я ожидаю своей очереди. Надеюсь интервью будет скоро.
 
     Thanks for the referral, JP.
 
-## Follow Along with Me
+## Двигайся вместе со мной
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+Моя история: [Почему я готовился в течении 8 месяцев для собеседования в Google](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-I'm on the journey, too. Follow along:
+Я еще на пути к цели. Двигаемся вперед:
  
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
@@ -226,26 +225,26 @@ I'm on the journey, too. Follow along:
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+## Не переживай о том, что ты не достаточно умный
+- Инженеры в Google умные, но многие из них переживают что недостаточно, хотя там уже работают.
+- [Миф о гениальных программистах](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Это опасно, идти в одиночку: Сражаться с невидимыми монстрами в технологиях](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## О Google
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
+- [ ] Для студентов - [Google Careers: Руководство по развитию в технологиях](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] Как работает поиск:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
     - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
     - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
+- [ ] Серии:
     - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
     - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
     - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [Книга: Как работает Google](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
 ## About Video Resources
@@ -312,7 +311,7 @@ Read more about choices:
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[See language resources here](../programming-language-resources.md)
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
@@ -368,7 +367,7 @@ If you have more time (I want this book):
 If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Additional language-specific resources here.](../programming-language-resources.md)
 
 ### C++
 

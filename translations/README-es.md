@@ -1,6 +1,6 @@
 # Google Interview University
 
-Version original: [Inglés](README.md)
+Version original: [Inglés](../README.md)
 
 ## ¿Qué es?
 
@@ -313,7 +313,7 @@ Lee mas sobre elecciones:
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[See language resources here](../programming-language-resources.md)
 
 Verás algo de C, C++, y aprendizaje Python abajo, porque estoy aprendiendo. Hay algunos libros involucrados, ve abajo.
 
@@ -369,7 +369,7 @@ If you have more time (I want this book):
 If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Additional language-specific resources here.](../programming-language-resources.md)
 
 ### C++
 

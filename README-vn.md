@@ -62,12 +62,12 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Thêm kiến thức](#thêm-kiến-thức)
     - [Tìm kiếm nhị phân](#tìm-kiếm-nhị-phân)
     - [Toán tử trên bit](#toán-tử-trên-bit)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+- [Cây](#cây)
+    - [Cây - Ghi chú và kiến thức nền](#cây---ghi-chú-và-kiến-thức-nền)
+    - [Cây tìm kiếm nhị phân](#cây-tìm-kiếm-nhị-phân)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
+    - cây tìm kiếm cân bằng (một chủ đề chung, không đi sâu vào chi tiết)
+    - Duyệt cây: preorder, inorder, postorder, BFS, DFS
 - [Sorting](#sorting)
     - selection
     - insertion
@@ -745,5 +745,91 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] Giá trị tuyệt đối:
         - [Giá trị tuyết đối của số nguyên](http://bits.stephan-brumme.com/absInteger.html)
 
+
+## Cây
+
+- ### Cây - Ghi chú và kiến thức nền
+    - [ ] [Chuỗi bài giảng: Căn bản về cây](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+    - [ ] [Chuỗi bài giảng: Cây](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - Xây dựng cây cơ bản.
+    - Duyệt cây.
+    - Các thuật toán biến đổi.
+    - BFS - Tìm kiếm ưu tiên chiều rộng (breadth-first search)
+        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+        - Các thứ tự duyết (BFS, sử dụng `queue`)
+            Độ phức tạp thời gian: O(n)
+            Độ phức tạp không gian: tốt nhất: O(1), tệ nhất: O(n/2)=O(n)
+    - DFS - Tìm kiếm ưu tiên chiều sâu (depth-first search)
+        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+        - Ghi chú:
+            Độ phức tạp thời gian: O(n)
+            Độ phức tạp không gian:
+                tốt nhất: O(log n) - trung bình: bằng chiều cao của cây
+                tệ nhất: O(n)
+        - theo thứ tự (inorder) - (DFS: left, self, right)
+        - nhánh con trước (postorder) - (DFS: left, right, self)
+        - nhánh con sau (preorder) - (DFS: self, left, right)
+
+
+- ### Cây tìm kiếm nhị phân
+    BST: Binary search tree - cây tìm kiếm nhị phân.
+    - [ ] [Ôn lại cây tìm kiếm nhị phân - video](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    - [ ] [Chuỗi video](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+        - Khởi đầu với bảng ký hiệu và đi xuyên suốt các ứng dụng của BST (Binary search tree).
+    - [ ] [Dẫn nhập - video](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [MIT - video](https://www.youtube.com/watch?v=9Jry5-82I68)
+    - C/C++:
+        - [ ] [Cây tìm kiếm nhị phân - Cài đặt trên C/C++ - video](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] [Cài đặt BST - cấp phát bộ nhớ trên `stack` và `heap` - video](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [Tìm phần tử nhỏ nhất và lớn nhất trong BST - video](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Tìm chiều cao của BST - video](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [Duyệt cây nhị phân - các chiến lược BFS và DFS - video](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] [Cây nhị phân: duyệt theo cấp - video](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Duyệt cây nhị phân: Preorder, Inorder, Postorder - video](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Kiểm tra một cậy nhị phân có phải là BST không - video](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Xóa một nút trong BST - video](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] [Xác định nút tiếp theo một nút cho trước khi duyệt cây inorder (Inorder Successor in a binary search tree) - video](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] Cài đặt:
+
+        - [ ] `insert` // thêm gíá trị vào cây
+        - [ ] `get_node_count` // lấy số lượng nút trong cây
+        - [ ] `print_values` // In ra gíá trị trong cây, từ nhỏ nhất đến lớn nhất
+        - [ ] `delete_tree` // Xóa cây
+        - [ ] `is_in_tree` // cho biết gíá trị cho trước có tồn tại trong cây hay không
+        - [ ] `get_height` // cho biết chiều cao của cây
+        - [ ] `get_min` // cho biết giá trị nhỏ nhất trong cây
+        - [ ] `get_max` // cho biết giá trị lớn nhất trong cây
+        - [ ] `is_binary_search_tree` // kiểm tra xem cây cho trước có thỏa mãn điều kiện của một BST không.
+        - [ ] `delete_value` // xóa một gíá trị trong cây
+        - [ ] `get_successor` // Trả về phần tử cao nhất trong cây liền sau một gíá trị cho trước hoặc -1 nếu không tìm được
+
+- ### Heap / Priority Queue / Binary Heap
+    - hình thức thể hiện như một cây, nhưng chúng thường được lưu trữ theo kiểu tuyến tính (mảng, danh sách liên kết)
+    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [Dẫn nhập - video](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [ ] [Cài đặt căn bản - video](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [Cây nhị phân - video](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Các lưu ý về chiều cao của cây - video](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] [Các toán tử cơ bản - video](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Cây nhị phân đầy đủ - video](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [Mã giả - video](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Heap Sort - video](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Heap Sort - coursera - video](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [Xây dựng một heap - video](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [MIT: Heaps và Heap Sort - video](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B Lecture 24: Priority Queues - video](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
+    - [ ] [Xây dựng Heap với thời gian tuyến tính `O(n)`](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] Tự cài đặt max-heap:
+        - [ ] `insert`
+        - [ ] `sift_up` - cần thiết cho hàm `insert`.
+        - [ ] `get_max` - trả về phần tử lớn nhất mà không xóa nó khỏi heap
+        - [ ] `get_size()` - trả về số lượng các phần từ trong một heap
+        - [ ] `is_empty()` - trả về `true` nếu heap rỗng
+        - [ ] `extract_max` - trà về phần tử lớn nhất và đồng thời xóa nó khỏi heap
+        - [ ] `sift_down` - cần thiết cho hàm `extract_max`
+        - [ ] `remove(i)` - xóa phần tử tại một vị trí `i` cho trước
+        - [ ] `heapify` - tạo một heap từ một mảng các phần tử, cần thiết cho hàm `heap_sort`
+        - [ ] `heap_sort()` - nhận vào một mảng chưa sắp xếp, sắp xếp nó tại chỗ (không tốn thêm bộ nhớ) bằng một kỹ thuật sử dụng heap
+            - Chú ý: sử dụng min-heap sẽ tiết kiệm được một phép tính (giảm thời gian thực thi thuật toán), nhưng lại tốn gấp đôi bộ nhớ (để chứa kết quả phụ)
 
 > In progress

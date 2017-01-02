@@ -174,7 +174,7 @@ Everything below is an outline, and you should tackle the items in order from to
 
 I'm using Github's special markdown flavor, including tasks lists to check progress.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
 
 
     Fork a branch and follow the commands below
@@ -472,7 +472,10 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+
+Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
@@ -1100,7 +1103,12 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - replaced by Colossus in 2012
     - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
         - mostly replaced by Cloud Dataflow?
+    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
+    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
     - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
+    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
         - paper not available
     - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
@@ -1276,7 +1284,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
         - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Design a function to return the top k requests during past time interval]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
         - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)

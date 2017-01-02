@@ -2,10 +2,17 @@
 
 Translations: 
 - [中文版本](README-cn.md)
-- [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/google-interview-university/issues/80)
-- [हिन्दी (in progress)](README-hn.md) [Issue #81](https://github.com/jwasham/google-interview-university/issues/81)
-- [עברית (in progress)](README-he.md) [Issue #82](https://github.com/jwasham/google-interview-university/issues/82)
-
+- translations in progress:
+    - [Español](https://github.com/jwasham/google-interview-university/issues/80)
+    - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
+    - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
+    - [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
+    - [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
+    - [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
+    - [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
+    - [French](https://github.com/jwasham/google-interview-university/issues/89)
+    - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
+    - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
 
 ## What is it?
 

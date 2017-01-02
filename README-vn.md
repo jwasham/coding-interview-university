@@ -59,7 +59,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
+- [Thêm kiến thức](#thêm-kiến-thức)
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
 - [Trees](#trees)
@@ -706,5 +706,44 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - exists(key)
         - get(key)
         - remove(key)
+
+
+## Thêm kiến thức
+
+- ### Tìm kiếm nhị phân
+    - [ ] [Tìm kiếm nhị phân (Binary Search) - video](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Tìm kiếm nhị phân - Khan Academy (Binary Search) - video](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [giải thích chi tiết](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] Cài đặt:
+        - Tìm kiếm nhị phân (trên mảng số nguyên đã sắp xếp)
+        - Tìm kiếm nhị phân sử dụng đệ quy
+
+- ### Toán tử trên bit
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
+    - [ ] Hãy chuẩn bị một nền tảng tốt về các biến đổi bit với các toán tử: &, |, ^, ~, >>, <<
+        - [ ] [words (thuật ngữ trong kiến trúc máy tính)](https://en.wikipedia.org/wiki/Word_(computer_architecture) )
+        - [ ] Bài mở đầu:
+            [Thao tác bit (Bit Manipulation) - video](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Thao tác bit (Bit Manipulation)](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Toán tử trên bit (Bitwise Operation)](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
+        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
+    - [ ] Phần bù 2 và phần bù 1 (2s and 1s complement)
+        - [Nhị phân: Cộng và trừ (Tại sao chúng ta sử dụng phần bù 2) - video](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [Phần bù 1 (1s Complement)](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [Phần bù 2 (2s Complement)](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] Đếm tập hợp của các bit
+        - [4 cách đê đếm các bit trong một byte - video](https://youtu.be/Hzuzo9NJrlc)
+        - [Đếm bit](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [Làm thế nào để đếm số lượng các bit 1 trong một số 32 bit](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    - [ ] Làm tròn đến lũy thừa gần nhất của 2:
+        - [Làm tròn lên lũy thừa kế tiếp của 2](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+    - [ ] Đôi giá trị:
+        - [Swap](http://bits.stephan-brumme.com/swap.html)
+    - [ ] Giá trị tuyệt đối:
+        - [Giá trị tuyết đối của số nguyên](http://bits.stephan-brumme.com/absInteger.html)
+
 
 > In progress

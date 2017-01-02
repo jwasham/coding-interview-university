@@ -254,7 +254,7 @@ Cursos en línea abiertos masivos).
 A veces las clases no están disponibles, por lo que tienes que esperar un par de meses, lo que significa que no tienes acceso. 
 Los cursos de Lynda.com no son gratis.
 
-    Agradecería tu ayuda para añadir recursos públicos gratis, que siempre estuvieran disponibles, como video s de YouTube 
+    Agradecería tu ayuda para añadir recursos públicos gratis, que siempre estuvieran disponibles, como videos de YouTube 
     para acompañar los videos de cursos online.
     Me gusta usar recursos procedentes de universidades.
 

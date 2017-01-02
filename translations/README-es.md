@@ -32,7 +32,7 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
 
 - [¿Qué es?](#qué-es)
 - [¿Por qué usarlo?](#por-qué-usarlo)
-- [Cómo-usarlo](#cómo-usarlo)
+- [Cómo usarlo](#cómo-usarlo)
 - [Envuelvete en la googlemanía](#envuelvete-en-la-googlemanía)
 - [¿Cómo conseguí el trabajo en Google?](#como-consegui-el-trabajo-en-google)
 - [Sigue el progreso conmigo](#sigue-el-progreso-conmigo)
@@ -40,8 +40,8 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
 - [Acerca de Google](#acerca-de-google)
 - [Acerca de los recursos en vídeo](#acerca-de-los-recursos-en-video)
 - [Prepárate para la entrevista](#preparate-para-la-entrevista)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
+- [Escoge un lenguaje para la entrevista](#escoge-un-lenguaje-para-la-entrevista)
+- [Lista de libros](#lista-de-libros)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -291,53 +291,53 @@ Los cursos de Lynda.com no son gratis.
         - [ ] ['Como conseguir un trabajo en una de las 4 grandes - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Haciendo las entrevistas de Google mal](http://alexbowe.com/failing-at-google-interviews/)
 
-## Selecciona un lenguaje para la entrevista
+## Escoge un lenguaje para la entrevista
 
 Escribí un articulo pequeño sobre esto: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-Puedes usar un lenguaje en el que estas cómodo para hacer la parte de código para la entrevista, pero para Google, estas selecciones son sólidas:
+Puedes usar un lenguaje en el que estas cómodo para hacer la parte de código para la entrevista, pero para Google, estas son buenas elecciones:
 
 - C++
 - Java
 - Python
 
-También podrías usar estos. Pueden haber advertencias:
+También podrías usar éstos, pero busca información primero. Puede haber advertencias:
 
 - JavaScript
 - Ruby
 
-Necesitas ser muy cómodo en el lenguaje y conocerlo bien.
+Debes sentirte muy cómodo con el lenguaje y ser experto.
 
-Lee mas sobre elecciones:
+Lee más acerca de opciones:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](../programming-language-resources.md)
+[Ve recursos de programas aquí](../programming-language-resources.md)
 
-Verás algo de C, C++, y aprendizaje Python abajo, porque estoy aprendiendo. Hay algunos libros involucrados, ve abajo.
+Verás algunos materiales de aprendizaje de C, C++ y Python abajo, porque estoy aprendiendo. Hay algunos libros involucrados, ve al final.
 
-## Book List
+## Lista de libros
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Ésta es una lista más corta que la que yo usé. Está abreviada para ahorrarte tiempo.
 
-### Interview Prep
+### Preparación para la entrevista
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+- [ ] [Entrevistas de Programación Expuestas: Secretos para Conseguir tu Próximo Trabajo, 2a Edición](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - respuestas en C++ y Java
+    - recommendado en entrenamiento para candidato Goole
+    - éste es un buen calentamiento para Cracking la Entrevista de Programación
+    - no muy difícil, la mayoría de los problemas podrían ser más fáciles que lo que verás en una entrevista (por lo que he leído)
+- [ ] [Cracking la Entrevista de Programación, 6a Edición](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - respuestas en Java
+    - recommendado en el [sitio de Google Careers](https://www.google.com/about/careers/how-we-hire/interview/)
+    - si ves personas que hacen referencia a "El Currículum Google", éste era un libro reemplazado por "Cracking la Entrevista de Programación".
 
-If you have tons of extra time:
+Si tienes mucho tiempo extra:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+- [ ] [Elementos de las Entrevistas de Trabajo](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+    - todo el código está en C++, muy bueno si has optado por C++ en tu entrevista
+    - un libro sobre solución de problemas en general.
 
 ### Computer Architecture
 

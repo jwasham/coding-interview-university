@@ -291,31 +291,31 @@ Los cursos de Lynda.com no son gratis.
         - [ ] ['Como conseguir un trabajo en una de las 4 grandes - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Haciendo las entrevistas de Google mal](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Selecciona un lenguaje para la entrevista
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Escribí un articulo pequeño sobre esto: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Puedes usar un lenguaje en el que estas cómodo para hacer la parte de código para la entrevista, pero para Google, estas selecciones son sólidas:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+También podrías usar estos. Pueden haber advertencias:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Necesitas ser muy cómodo en el lenguaje y conocerlo bien.
 
-Read more about choices:
+Lee mas sobre elecciones:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
 [See language resources here](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Verás algo de C, C++, y aprendizaje Python abajo, porque estoy aprendiendo. Hay algunos libros involucrados, ve abajo.
 
 ## Book List
 

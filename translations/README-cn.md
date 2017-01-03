@@ -1437,7 +1437,7 @@
     - [ ] [第六章 (第 2 部分 ) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (视频)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [第六章 (第 3 部分 ) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [视频](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-    - [ ] [Head Fisrt 设计模型](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+    - [ ] [Head First 设计模型](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - 尽管这本书叫做设计模式：重复使用模块，但是我还是认为Head First是对于新手来说很不错的书。
     - [ ] [基于实际操作对于入门开发者的建议](https://sourcemaking.com/design-patterns-and-tips)
 

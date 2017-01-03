@@ -42,8 +42,8 @@ Si lo que quieres es ser ingeniero de escalabilidad / seguridad o ingeniero de s
 - [Prepárate para la entrevista](#preparate-para-la-entrevista)
 - [Escoge un lenguaje para la entrevista](#escoge-un-lenguaje-para-la-entrevista)
 - [Lista de libros](#lista-de-libros)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
+- [Antes de que Comiences](#antes-de-que-comiences)
+- [Lo que no Verás Cubierto](#lo-que-no-verás-cubierto)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -451,60 +451,60 @@ OR:
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## Before you Get Started
+## Antes de que Comiences
 
-This list grew over many months, and yes, it kind of got out of hand.
+Esta lista creció durante muchos meses, y sí, más o menos se salió de mis manos.
 
-Here are some mistakes I made so you'll have a better experience.
+Aquí están algunos errores que cometí para que tú tengas una mejor experiencia.
 
-### 1. You Won't Remember it All
+### 1. No lo Recordarás Todo
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Ví horas de videos y tomé muchas notas, y meses después había muchas cosas que no recordaba. Pasé tres días repasando 
+mis notas y haciendo tarjetas de memoria para así poder repasar.
 
-Read please so you won't make my mistakes:
+Lee por favor para que no cometas mis errores:
 
-[Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
+[Reteniendo Conocimiento en Ciencias de la Computación](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Usa Tarjetas de Memoria
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Para resolver el problema, hice un sitio para pequeñas tarjetas de memoria donde podía agregar tarjetas de 2 tipos: generales y de código.
+Cada tarjeta tiene un formato diferente.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Hice un sitio web para móviles para que pudiera revisar en mi teléfono o tableta, donde sea que estaba.
 
-Make your own for free:
+Haz el tuyo gratis:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [Repositorio de sitio de tarjetas de memoria](https://github.com/jwasham/computer-science-flash-cards)
+- [Mi base de datos de tarjetas de memoria](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Toma en cuenta que yo fui muy lejos y tengo tarjetas cubriendo todo desde lenguaje ensamblador y Python trivia hasta aprendizaje de máquinas y estadística. Es mucho para lo requerido por Google.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Nota en tarjetas de memoria:** La primera vez que te das cuenta que conoces la respuesta, no la marques como conocida. Tienes que ver la
+misma carta y responderla correctamente muchas veces antes de que realmente la conozcas. La repetición pondrá ese conocimiento más profundo en
+tu cerebro.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Una alternativa a usar mi sitio de tarjetas de memoria es [Anki](http://ankisrs.net/), el cuál me han recomendado numerosas veces. Usa un sistema de repetición que te ayuda a recordar.
+Es amigable con el usuario, disponible en todas las plataformas y tiene un sistema de sincronización en la nube. Cuesta $25 USD para iOS pero es gratis para otras plataformas.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Mi base de datos de tarjetas de memoria en formato Anki: https://ankiweb.net/shared/info/25173560 (gracias [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Revisa, revisa, revisa
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Yo mantengo un conjunto de hojas de trucos en ASCII, pila OSI, notación Big-O, y más. Las estudio cuando tengo un poco de tiempo libre.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Toma un descanso de problemas de programación por media hora y revisa tus tarjetas de memoria.
 
-### 4. Focus
+### 4. Enfócate
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Hay muchas distracciones que pueden quitarte tiempo valioso. El enfoque y la concentración son difíciles.
 
-## What you won't see covered
+## Lo que no Verás Cubierto
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+Esta gran lista comenzó como una lista personal de cosas por hacer hecha de notas de entrenamiento para entrevista en Google. Estas son tecnologas predominantes
+pero no fueron mencionadas en esas notas.
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, y otras tecnologías de front-end.
 
 ## The Daily Plan
 

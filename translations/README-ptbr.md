@@ -11,16 +11,12 @@ Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, s
 Essa longa lista foi extraída e expandida a partir das **anotações de treino da Google**, então essas são as coisas que você precisa saber.
 Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge’s e às vezes são expressados palavra-por-palavra nas anotações de treino da Google.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from 
-software/web development to software engineering (where computer science knowledge is required). If you have 
-many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Eu resumi o que você precisa saber das recomendações do Yegge. Eu alterei os requerimentos do Yegge com base em informações que recebi do meu contato na Google. Isso é direcionado à **engenheiros de software novos** ou àqueles que estão trocando de desenvolvimento de software/web para engenharia de software (onde conhecimento de ciência de computação é necessário). Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
+[Leia mais](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/)
 
-If you have many years of software/web development experience, note that Google views software engineering as 
-different from software/web development and they require computer science knowledge.
+Se você tem vários anos de experiência com desenvolvimento de software/web, observe que a Google considera engenharia de software algo distinto de desenvolvimento de software/web e eles pedem conhecimento de ciência da computação.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, estude mais da lista opcional (rede, segurança).
 
 ---
 

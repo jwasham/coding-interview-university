@@ -248,7 +248,7 @@ It is free to do so, but sometimes the classes are not in session so you have to
 To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
 Each card has different formatting.
 
-I made a mobile-first website so I could review on my phone and tablet, whereever I am.
+I made a mobile-first website so I could review on my phone and tablet, wherever I am.
 
 Make your own for free:
 
@@ -978,7 +978,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
     - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
     - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
-    - [ ] [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+    - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
     - [ ] Paxos Consensus algorithm: 
         - [short video](https://www.youtube.com/watch?v=s8JqcZtvnsM)
         - [extended video with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
@@ -1264,7 +1264,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
-    Once you've understood everything in the daily plan, and read and done exercises from the the books above,
+    Once you've understood everything in the daily plan, and read and done exercises from the books above,
     read and do exercises from the books below. Then move to coding challenges (further down below)
 
 **Read first:**

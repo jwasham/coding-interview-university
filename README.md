@@ -1643,11 +1643,11 @@ You're never really done.
         - [ ] [Ataque de canal lateral](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Recolección de basura
-    - [ ] [Recolección de basura (Java); Aumentando estructuras de datos (vídeo)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
+    - [ ] [Recolección de basura (Java); Aumentando estructuras de datos (vídeo)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compiladores (vídeo)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [Recolección de basura en Python (vídeo)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: ¡La recolección de basura es buena!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [ ] [Deep Dive Python: La recolección de basura en CPython (vídeo)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+    - [ ] [Deep Dive Python: La recolección de basura en CPython (vídeo)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### Programación paralela
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)

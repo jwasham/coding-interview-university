@@ -1,7 +1,7 @@
 # Google Interview University
 
 Translations: 
-- [中文版本](README-cn.md)
+- [中文版本](translations/README-cn.md)
 - translations in progress:
     - [Español](https://github.com/jwasham/google-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)

@@ -161,9 +161,9 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 
 Tôi đang chuẩn bị tham gia phỏng vấn ở Google. Tôi từng làm web, xây dựng các dịch vụ và lập các công ty khởi nghiệp từ năm 1997. Tôi có bằng Kinh tế, nhưng không có bằng Khoa học máy tính. Tôi thấy sự nghiệp của mình khá thành công, nhưng như thế chưa đủ. Tôi muốn làm việc ở Google, được tham gia xử lý một hệ thống lớn; thực sự hiểu rõ về máy tính, sự hiệu quả của các thuật toán và cấu trúc dự liệu, các ngôn ngữ lập trình cấp thấp, và chúng hoạt động cùng nhau như thế nào. Và nếu bạn không biết về cái nào trong số đó, Google sẽ không tuyển bạn.
 
-Khi tôi bắt đầu dự án này, tôi không phân biệt được stack và heap, không biết về Big-O, không có khái niệm gì về cây (`tree`) hay việc duyệt đồ thị (`graph`). Và nếu buộc phải việt code cho một thuật toán sắp xếp, tôi đảm bảo rằng nó sẽ không chạy tốt.
+Khi tôi bắt đầu dự án này, tôi không phân biệt được stack và heap, không biết về Big-O, không có khái niệm gì về cây (`tree`) hay việc duyệt đồ thị (`graph traversal`). Và nếu buộc phải việt code cho một thuật toán sắp xếp, tôi đảm bảo rằng nó sẽ không chạy tốt.
 
-Tất cả các cấu trúc dự liệu tôi từng sử dụng đề được dựng sẵn trong ngôn ngữ lập trình và tôi không nhất thiết phải biết chúng làm việc như thế nào. Tôi chưa từng phải tự quản lý vùng nhớ, trừ khi một tiến trình đang chạy ném lỗi "hết bộ nhớ" (`out of memory`), và sau đó tôi phải tìm một cách giải quyết khác. Tồi từng sử dụng mảng nhiều chiều vài lần trong dời, và hàng ngàn mảng liên kết (`map` hoặc `dictionary` cho dễ hiểu). Nhưng thực sự tôi chưa từng tự mình xây dựng một cấu trúc dữ liệu nào.
+Tất cả các cấu trúc dự liệu tôi từng sử dụng đề được dựng sẵn trong ngôn ngữ lập trình và tôi không nhất thiết phải biết chúng làm việc như thế nào. Tôi chưa từng phải tự quản lý vùng nhớ, trừ khi một tiến trình đang chạy ném lỗi "hết bộ nhớ" (`out of memory`), và sau đó tôi phải tìm một cách giải quyết khác. Tồi từng sử dụng mảng nhiều chiều vài lần trong đời, và hàng ngàn mảng liên kết (`map` hoặc `dictionary` cho dễ hiểu). Nhưng thực sự tôi chưa từng tự mình xây dựng một cấu trúc dữ liệu nào.
 
 Nhưng, sau khi trải qua dự án này, tôi rất tự tin rằng mình sẽ được tuyển. Đây là một dự án dài hơi, sẽ tốn của tôi hàng tháng. Nếu bạn đã quen với nhiều nội dung trong này, bạn sẽ mất ít thời gian hơn.
 
@@ -338,7 +338,7 @@ Bạn sẽ thấy vài tài liệu về C, C++ và Python bên dưới, vì tôi
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Trả lời bằng Java
     - Được khuyến nghĩ trên [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - Nếu bạn thấy mọi người trích dẫn "The Google Resume", đó là một cốn sách được thay thế bởi "Cracking the Coding Interview".
+    - Nếu bạn thấy mọi người trích dẫn "The Google Resume", đó là một cuốn sách được thay thế bởi "Cracking the Coding Interview".
 
 Nếu bạn có nhiều thời gian hơn nữa:
 
@@ -559,7 +559,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] [CPU thực thi chương trình thế nào (How does CPU execute program) - video](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Tập lệnh mã máy (Machine Code Instructions) - video](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Độ phức tạp của thuật toán / Big-O / Phân tích biên độ
+## Độ phức tạp của thuật toán / Big-O / Phân tích tiệm cận 
 - Link được giữ nguyên theo bản tiếng Anh
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -596,7 +596,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [Jagged Arrays - Mảng trong mảng (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays - Mảng có thể tùy biến kích thước (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
     - [ ] Triển khai vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
-        - [ ] Tập sử dụng mảng và con trỏ, dùng con trỏ toán để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
+        - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ  để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
         - [ ] Tạo mảng mới với vùng nhớ được cấp phát sẵn
             - Có thể triển khai mảng số nguyên một cách nhanh chóng, nhưng không sử dụng các tính năng sẵn có
             - Bắt đầu với 16, hoặc số lớn hơn, với cấp số nhân của 2 - 16, 32, 64, 128

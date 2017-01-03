@@ -8,10 +8,8 @@ Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, s
 
 ![Programando no quadro branco - do Vale do Silício da HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes.
+Essa longa lista foi extraída e expandida a partir das **anotações de treino da Google**, então essas são as coisas que você precisa saber.
+Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge’s e às vezes são expressadas palavra-por-palavra nas anoções de treino da Google.
 
 I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
 from information received from my contact at Google. This is meant for **new software engineers** or those switching from 

@@ -189,17 +189,17 @@ Print satu atau beberapa foto dari "[future Googler](https://github.com/jwasham/
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Did I Get the Job?
+## Apakah saya sudah mendapatkan pekerjaan ini? (Menjadi Googler)
 
-I'm in the queue right now. Hope to interview soon.
+Saya masih pada antrian. Berharap untuk di interview dalam waktu dekat ini.
 
-    Thanks for the referral, JP.
+    Terima kasih untuk referensinya, JP.    
 
-## Follow Along with Me
+## Ikut berjalan bersama saya
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+Cerita saya: [Kenapa saya telah belajar penuh waktu selama 8 bulan untuk sebuah wawancara dengan Google](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-I'm on the journey, too. Follow along:
+Saya juga sedang dalam perjalanan. Ayo ikuti saya di:
 
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
@@ -209,10 +209,10 @@ I'm on the journey, too. Follow along:
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+## Jangan merasa kamu tidak cukup pintar
+- Para engineers/programmer di google adalah orang-orang pintar, tapi banyak dari mereka berpikir bahwa mereka tidak cukup pintar, walaupun mereka bekerja di Google.
+- [Mitos dari programmer yang jenius](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Hal yang berbahaya untuk pergi sendirian: Bertarung dengan monster yang tidak kelihatan di dunia teknologi](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## About Google
 

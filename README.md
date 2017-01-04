@@ -13,6 +13,7 @@ Translations:
     - [French](https://github.com/jwasham/google-interview-university/issues/89)
     - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
     - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
+    - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
 
 ## What is it?
 

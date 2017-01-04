@@ -2,29 +2,23 @@
 
 Version original: [Bahasa Inggris](README.md)
 
-## What is it?
+## Ringkasan apa ini?
 
-Ini adalah perjalanan studi saya selama beberapa bulan dari menjadi seorang web developer (otodidak, tanpa gelar sarjana informatika) hingga menjadi software engineer Google.
+Ini adalah ringkasan studi saya selama beberapa bulan dari web developer (otodidak, tanpa gelar sarjana informatika) hingga menjadi *software engineer Google*.
 
-![Menulis kode di papan tulis - dari serial TV Silicon Valley oleh HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Menulis kode di papan tulis - dikutip dari serial TV Silicon Valley oleh HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-Daftar panjang ini diambil dan dikembangkan dari **Google's Coaching Note**, maka berikut adalah hal-hal yang perlu anda ketahui.
-Ini adalah poin-poin ekstra yang saya tambahkan di bawah yang mungkin muncul dalam wawancara atau mungkin dapat berguna dalam menyelesaikan masalah.
-Banyak poin yang berasal dari artikel Steve Yegge "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"  yang
-kadang merefleksikan kata ke kata pada Google's coaching note.
+Saya telah mengupas catatan **Google's Coaching Note** dan berikut adalah hal-hal penting dari catatan tersebut. Ada beberapa poin yang saya tambahkan pada bagian akhir yang mungkin muncul dalam wawancara atau dapat berguna dalam proses penyelesaian masalah.
+Banyak poin berasal dari artikel Steve Yegge "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"  yang berisi poin-poin dari **Google's Coaching Note**.
 
-Saya telah mengupas poin-poin penting yang perlu anda ketahui menurut rekomendasi Yegge. Saya merubah beberapa rekomendasinya
-berdasarkan informasi yang saya dapatkan dari kontak saya di Google. Pedoman ini ditujukan untuk software engineer
-baru dan mereka yang ingin berpindah profesi dari web developer menjadi software engineer (dimana ilmu komputer diperlukan).
-Jika mengaku memiliki pengalaman bertahun-tahun dalam software engineering, bersiaplah untuk wawancara yang lebih sulit.
+Saya sudah meringkas poin-poin penting menurut saran dari Yegge. Saya juga mengubah beberapa rekomendasinya berdasarkan informasi yang saya dapatkan dari kontak saya di Google. Pedoman ini ditujukan untuk *software engineer* baru dan mereka yang ingin beralih profesi dari *web developer* menjadi *software engineer* (dimana ilmu komputer diperlukan). 
+
+Jika Anda mengaku memiliki pengalaman bertahun-tahun dalam rekayasa perangkat lunak, bersiaplah untuk wawncara yang jauh lebih sulit.
 [Baca lebih lanjut](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-Jika anda memiliki pengalaman bertahun-tahun dalam mengembangkan software/web development, catat bahwa Google mamandang software engineering
-berbeda dari software/web development karena membutuhkan ilmu komputer.
+Jika Anda memiliki pengalaman sebagai developer software/web, catat bahwa Google memandang *software engineer* berbeda dari *developer software/web* karena *software engineer* menggunakan ilmu komputer.
 
-Kalau anda ingin menjadi reliability engineer atau systems engineer, pelajari lebih lanjut dari daftar opsional (jaringan, keamanan).
-
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih banyak pelajari pada bagian tambahan (jaringan, keamanan).
 
 ---
 

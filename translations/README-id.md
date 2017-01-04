@@ -237,14 +237,13 @@ Saya juga sedang dalam perjalanan. Ayo ikuti saya di:
 - [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## Tentang sumber video
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
-
+Beberapa video hanya dapat diakses dengan mengikuti kelas di [Coursera](https://www.coursera.org/), [Edx](https://www.edx.org/), atau [Lynda.com](https://www.lynda.com/). Beberapa link tersebut biasa disebut MOOC (massive open online course) atau belajar online, seperti layaknya anda berkuliah biasa namun bedanya ini online dan diikuti oleh banyak orang dari seluruh dunia.
+Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan harus menunggu beberapa bulan. Karena kelas tersebut ada waktunya dalam pembelajaran, dan ada waktunya untuk mendaftar, layaknya anda berkuliah. Khusus untuk Lynda.com merupakan situs yang berbayar untuk mengakses materinya.
+    
+    Selain saya membagikan ilmu kepada kalian semua, saya juga mengapresiasi bantuan anda untuk menambahkan sumber pembelajaran yang gratis dan selalu terbuka untuk umum, seperti video di youtube untuk sebagai selingan dari kuliah online dari website yang disebutkan diatas.
+    Saya suka menggunakan media pembelajaran berbasiskan universitas.
 
 ## Interview Process & General Interview Prep
 

@@ -94,7 +94,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [Scheduling](#scheduling)
     - [Implement system routines](#implement-system-routines)
     - [String searching & manipulations](#string-searching--manipulations)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
+- [Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu](#thiết-kế-hệ-thống-khả-năng-mở-rộng-xử-lý-dữ-liệu) (Nếu bạn có hơn 4 năm kinh nghiệm)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
@@ -976,4 +976,130 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 > TODO Add anchors link for the "danh mục sách"
 
+---
+
+## Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu
+- **Bạn có thế sẽ bị hỏi câu hỏi liên quan đến thiết kế hệ thống nếu có hơn 4 năm kinh nghiệm**
+- Khả năng mở rộng và Thiết kế hệ thống là một chủ đề rất rộng với nhiều chủ đề và tài liệu, do có rất nhiều vấn đề cần phải giải quyết khi thiết kế phần mềm hoặc phần cứng có thể mở rộng được.
+      Cần phải đầu tư một chút thời gian cho vấn đề này.
+- Lời khuyên từ Yegge:
+    - Khả năng mở rộng
+        - Trích xuất từ cơ sở dữ liệu lớn về một giá trị độc nhất
+        - Chuyển đổi từ một tập dữ liệu sang tập khác
+        - Xử lý một khối lượng dữ liệu đồ sộ
+    - Thiết kế hệ thống
+        - Tập hợp các tính năng
+        - Giao diện
+        - Lớp phân cấp
+        - Thiết kế hệ thống dưới những ràng buộc
+        - Đơn giản và vững chắc
+        - Đánh đổi (từ gốc tradeoff, chấp nhận bỏ một vài tính năng nhỏ để có được những lợi ích khác như tốc độ xử lý...)
+        - Phân tích và tối ưu hiệu suất sử dụng
+- [ ] **BÁT ĐẦU TỪ ĐÂY**: [System Design from HiredInTech - Thiết kế hệ thống bởi HiredInTech](http://www.hiredintech.com/system-design/)
+- [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview - Làm thế nào để trả lời các câu hỏi liên quan tới thiết kế trong phỏng vấn kỹ thuật?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
+- [ ] [8 Things You Need to Know Before a System Design Interview - 8 điều bạn nên biết trước khi  bắt đầu một buổi phỏng vấn về Thiết kế hệ thống](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
+- [ ] [Algorithm design - Thiết kế thuật toán](http://www.hiredintech.com/algorithm-design/)
+- [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF - Chuẩn hóa trong cơ sở dữ liệu (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
+- [ ] [System Design Interview - Phỏng vấn về thiết kế hệ thống](https://github.com/checkcheckzz/system-design-interview) - Có rất nhiều tài liệu trong link nay. Hãy đọc qua các bài viết và các ví dụ. Tôi có liệt kê sau đây:
+- [ ] [How to ace a systems design interview - Làm thế nào để dẫn đầu trong cuộc phỏng vấn về thiết kế hệ thống](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+- [ ] [Numbers Everyone Should Know - Những con số ai cũng nên biết](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+- [ ] [How long does it take to make a context switch - Mất bao lâu để làm một chuyển đổi ngữ cảnh?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
+- [ ] [Transactions Across Datacenters - Các luồng xử lý trong trung tâm dữ liệu (video)](https://www.youtube.com/watch?v=srOgpXECblk)
+- [ ] [A plain English introduction to CAP Theorem - Một hướng dẫn đơn giản về lý thuyết CAP](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+- [ ] Thuật toán đồng thuận của Paxos:
+    - [video ngắn](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+    - [extended video with use case and multi-paxos - Video mở rộng với trường hợp cụ thể và multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
+    - [Nghiên cứu](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+- [ ] [Consistent Hashing - Băm nhất quán](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+- [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+- [ ] Khả năng mở rộng:
+    - [ ] [Great overview - Tầm nhìn chung(video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] Các seri ngắn:
+        - [Clones - Nhân bản](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+        - [Database - Cơ sỡ dữ liệu](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+        - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+        - [Asynchronism - Bất đồng bộ](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+    - [ ] [Scalable Web Architecture and Distributed Systems - Kiến trúc web và hệ thống phân tán có khả năng mở rộng](http://www.aosabook.org/en/distsys.html)
+    - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+    - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
+        - [Bổ sung: Google Pregel Graph Processing - Google Pregel cho xử lý đồ thị](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
+    - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned  - Jeff Dean - Xây dựng hệ thống phần mềm tại Google và các bài học rút ra được(video)](https://www.youtube.com/watch?v=modXC5IWTJI)
+    - [ ] [Introduction to Architecting Systems for Scale - Giới thiệu về kiến trúc hệ thống có thể mở rộng](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+    - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore - Mở rộng game trên di động nhắm tới khách hàng trên toàn thế giới sử dụng App Engine và Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
+    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
+    - [ ] [The Importance of Algorithms - Sự quan trọng của thuật toán](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
+    - [ ] [Sharding - Chia nhỏ cơ sở dữ liệu thành từng phần nhỏ và nhanh hơn, dễ quản lý hơn](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+    - [ ] [Scale at Facebook (2009) - Khả năng mở rộng của Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
+    - [ ] [Scale at Facebook (2012), "Building for a Billion Users" -  Khả năng mở rộng của Facebook (2012), "Xây dựng cho cả tỷ người dùng"(video)](https://www.youtube.com/watch?v=oodS71YtkGU)
+    - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote - Lập trình cho cả khả năng phát triển trong tương lai(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+    - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes - 7 năm mở rộng của Youtube trong 30 phút](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
+        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
+    - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs - Paypal đã mở rộng thế nào để đáp ứng hơn tỷ lượt giao dịch mỗi ngày với 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
+    - [ ] [How to Remove Duplicates in Large Datasets - Làm thế nào để xóa lặp trong dữ liệu](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
+    - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie - Cùng nhìn nhận cách Etsy mở rộng và phong cách lập trình với Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
+    - [ ] [What Led Amazon to its Own Microservices Architecture - Điều gì đưa Amazon tới kiến trúc microservices](http://thenewstack.io/led-amazon-microservices-architecture/)
+    - [ ] [To Compress Or Not To Compress, That Was Uber's Question - Nén hay không nén, đây là câu hỏi dành cho Uber](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
+    - [ ] [When Should Approximate Query Processing Be Used? - Trong trường hợp nào truy vấn phỏng đoán được thực thi? ](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
+    - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+    - [ ] [Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
+    - [ ] [Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System - Kiến trúc Egnyte: Kinh nghiêm từ việc xây dụng và mở rộng hệ thống phân tán lên tới Petabyte](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
+    - [ ] [Machine Learning Driven Programming: A New Programming For A New World - Lập trình hướng máy học - Một cách lập trình mới trong thời đại mới](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
+    - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day - Kỹ thuật tối ưu hình ảnh để phục vụ hàng triệu yêu cầu mỗi ngày](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+    - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
+    - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next? - Tinder: Làm thế nào mà một trong những hệ thống hẹn hò lớn nhất quyết định bạn sẽ nhìn thấy ai tiếp theo](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
+    - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
+    - [ ] [Live Video Streaming At Facebook Scale - Trình diễn video trực tiếp với Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
+    - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS - Hướng dẫn cơ bản cho việc mở rộng đến hơn 11 triệu người dùng với Amazon AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
+    - [ ] [How Does The Use Of Docker Effect Latency? - Sử dụng docker ảnh hưởng tới độ trễ như thế nào?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
+    - [ ] [Does AMP Counter An Existential Threat To Google? - Có thể xem AMP như 1 đối thủ với Google không?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
+    - [ ] [A 360 Degree View Of The Entire Netflix Stack - Một cái nhìn 360 độ về toàn bộ Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
+    - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It - Độ trễ ảnh huongr tới doanh thu của bạn - Làm sao để khắc phục?](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+    - [ ] [Serverless (rất dài, chỉ nền dùng file gist)](http://martinfowler.com/articles/serverless.html)
+    - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies - Điều gì làm nên sức mạnh của Instagram: Hàng trăm phần tử, hàng tá các công nghệ](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
+    - [ ] [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day -  Kiến trúc Cinchcast - Tạo ra 1500 giờ âm thanh mỗi ngày ](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
+    - [ ] [Justin.Tv's Live Video Broadcasting Architecture - Kiến trúc của chương trình phát sóng video trực tiếp Justin.Tv ](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
+    - [ ] [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing - Kiến trúc của game cộng đồng Playfish - 50 triệu người sử dụng hàng tháng và vẫn tiếp tục tăng](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
+    - [ ] [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data - Kiến trúc của TripAdvisor - 40 triệu người viếng thăm, 200 triệu lượt xem, 30 Tb dữ liệu](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
+    - [ ] [PlentyOfFish Architecture - Kiến trúc của PlentyOfFish](http://highscalability.com/plentyoffish-architecture)
+    - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day - Kiến trúc của Salesforce - Làm thế nào để xử lý 1.3 tỷ giao dịch mỗi ngày](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
+    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second - Kiến trúc của ESPN khi mở rộng - Xử lý 100000 thông tin mỗi giây](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+    - [ ] Xem qua "Messaging, Serialization, and Queueing Systems" phía dưới để hiểu các công nghệ có thể kết nối các dịch vụ cùng lúc thế nào.
+    - [ ] Twitter:
+        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
+        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
+    - Để có thêm thông tin, xem seri "Mining Massive Datasets" trong seri video.
+- [ ] Thực hành thêm về thiết kế hệ thống: Sau đây là vài ý tưởng có thể thực hiện trên giấy, mỗi ý tưởng đều có tư liệu đi cùng để hiểu rõ nó thực thi thế nào trong thế giới thực. [System Design from HiredInTech - Thiết kế hệ thống bới HiredInTech](http://www.hiredintech.com/system-design/)
+    - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - Các bước thực hiện:
+        1. Hiểu vấn đề và phạm vi của vấn đề:
+            - Định nghĩa các trường hợp sử dụng cụ thể với sự trợ giúp từ người phỏng vấn
+            - Đề nghị thêm tính năng
+            - Bỏ đi những phần mà người phỏng vấn cho là không còn nằm trong phạm vi yêu cầu
+            - Giả sử khả năng khả dụng cao, thêm vào như một tính năng
+        2. Suy nghĩ về các ràng buộc:
+            - Hỏi xem có bao nhiêu yêu cầu mỗi tháng
+            - Hỏi xem có bao nhiêu yêu cầu mỗi giây (hoặc họ đưa nó cho bạn hoặc bạn phải tự tính toán ra)
+            - So sánh tần số đọc và ghi
+            - Sử dụng luật 80/20 khi ước lượng
+            - Bao nhiêu dữ liệu được viết mỗi giây
+            - Toàn bộ kho lưu trữ dữ liệu cần cho 5 năm
+            - Bao nhiêu dữ liệu được đọc mỗi giây
+        3. Thiết kế trừu tượng:
+            - Layers (service, data, caching)
+            - Infrastructure: load balancing, messaging
+            - Cái nhìn tổng quan về thuật toán chủ chốt để chạy các dịch vụ
+            - Đưa ra hướng giải quyết cho hiện tượng nghẽn cổ chai
+    - Bài tập:
+        - [Design a CDN network: old article - Thiết kế một mạng CDN (Content Delivery Network)](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
+        - [Design a random unique ID generation system - Thiết kê một hệ thống cung cấp ID ngẫu nhiên](https://blog.twitter.com/2010/announcing-snowflake)
+        - [Design an online multiplayer card game - Thiết kế một hệ thống chơi bài nhiều người online](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
+        - [Design a key-value database - Thiết kế một cơ sở dữ liệu khóa-giá trị](http://www.slideshare.net/dvirsky/introduction-to-redis)
+        - [Design a function to return the top k requests during past time interval - Thiết kế một hàm để trả về những từ khóa được tìm kiếm nhiều nhất trong thời gian gần nhất]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
+        - [Design a picture sharing system - Thiết kế một hệ thống chia sẽ ảnh](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+        - [Design a recommendation system - Thiết kế một hệ thống hổ trợ ra quyết định](http://ijcai13.org/files/tutorial_slides/td3.pdf)
+        - [Design a URL-shortener system: copied from above - Thiết kế một hệ thống làm ngắn URL](http://www.hiredintech.com/system-design/the-system-design-process/)
+        - [Design a cache system - Thiết kế một hệ thống cache](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
+
+---
 > In progress

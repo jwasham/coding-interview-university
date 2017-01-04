@@ -123,10 +123,10 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Entropy](#entropy)
     - [Cryptography](#cryptography)
     - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
+    - [Redes](#redes) (si tienes experiencia en redes o quieres ser ingeniero de sistemas, espera preguntas)
+    - [Seguridad informática](#seguridad-informática)
+    - [Recolección de basura](#recolección-de-basura)
+    - [Programación paralela](#programación-paralela)
     - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
@@ -1613,45 +1613,45 @@ You're never really done.
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
-    - otherwise, this is just good to know
+- ### Redes
+    - **si tienes experiencia en redes o quieres ser ingeniero en sistemas, espera preguntas**
+    - pero de cualquier forma es bueno saber lo siguiente
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [UDP y TCP: Comparación de protocolos de transporte](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [TCP/IP y el modelo OSI, ¡explicado!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [Transmisión de paquetes a través del Internet. Tutorial en redes y TCP/IP.](https://www.youtube.com/watch?v=nomyRJehhnM)
     - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-    - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL y HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] [Serie de vídeos (21 vídeos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Subredes desmistificadas - Notación CIDR Parte 5](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
-- ### Computer Security
-    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
-        - [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
-        - [ ] [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
-        - [ ] [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- ### Seguridad informática
+    - [MIT (23 vídeos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Introducción, modelos de amenaza](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Ataques de secuestro de control](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+        - [ ] [Desbordamientos de búfer: ataques y defensas](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+        - [ ] [Separación de privilegios](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Capacidades](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Aislamiento de código nativo](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
+        - [ ] [Modelo de seguridad web](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Asegurando aplicaciones web](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Ejecución simbólica](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Seguridad de redes](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Protocolos de red](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Ataque de canal lateral](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
-    - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
-    - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
-    - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+- ### Recolección de basura
+    - [ ] [Recolección de basura (Java); Aumentando estructuras de datos (vídeo)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
+    - [ ] [Compiladores (vídeo)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
+    - [ ] [Recolección de basura en Python (vídeo)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    - [ ] [Deep Dive Java: ¡La recolección de basura es buena!](https://www.infoq.com/presentations/garbage-collection-benefits)
+    - [ ] [Deep Dive Python: La recolección de basura en CPython (vídeo)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
+- ### Programación paralela
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [ ] [Python eficiente para computación paralela de alto rendimiento (vídeo)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### Messaging, Serialization, and Queueing Systems
     - [ ] [Thrift](https://thrift.apache.org/)

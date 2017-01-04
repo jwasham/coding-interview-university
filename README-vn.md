@@ -8,6 +8,7 @@ Tác giả gốc: [John Washam](https://github.com/jwasham)
 Đóng góp cho bản dịch tiếng Việt:
 * [Lê Tiến Tài](https://github.com/letientai299) - [@letientai299](https://twitter.com/letientai299)
 * [Võ Tường Thọ](https://github.com/thovo) - [@thovo](https://twitter.com/tho_vo)
+* [Lê Tấn Đăng Khoa](https://github.com/dangkhoasdc) - [@dksdc](https://twitter.com/dksdc)
 
 Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt:
 

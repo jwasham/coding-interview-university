@@ -12,26 +12,26 @@ Tác giả gốc: [John Washam](https://github.com/jwasham)
 
 Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt:
 
-* Bản dịch này nhằm mục đích khuyến khích các bạn trẻ yêu thích công nghệ nhưng chưa vững tiếng Anh dễ tiếp cận, và tìm được hướng nghiên cứu. Để đi xa hơn trong ngành công nghệ thông tin, sớm hay muộn, bạn cũng cần phải trau dồi vốn tiếng Anh của mình. Vì vậy, các thuật ngữ chuyên ngành, mình xin được giữ nguyên gốc. Ví dụ như: `stack`, `heap`, `queue`,...
+* Bản dịch này nhằm mục đích khuyến khích các bạn trẻ yêu thích công nghệ nhưng chưa vững tiếng Anh dễ tiếp cận, và tìm được hướng nghiên cứu. Để đi xa hơn trong ngành công nghệ thông tin (CNTT), sớm hay muộn, bạn cũng cần phải trau dồi vốn tiếng Anh của mình. Vì vậy, các thuật ngữ chuyên ngành, mình xin được giữ nguyên gốc. Ví dụ như: `stack`, `heap`, `queue`,...
 
 * Mình cố gắng dịch thoát nghĩa, sao cho các bạn với ít kiến thức công nghệ thông tin nhất cũng có thể hiểu được. Trong quá trình dịch khó có thể trách khỏi sai sót, xin được lượng thứ.
 
-* Mọi ý kiến, đóng góp về bản dịch, vui lòng [tạo một issue mới](/issues/new) hoặc bạn có thể  chỉnh sửa và tạo Pull Request, đồng thời cc trực tiếp các dịch giả để kiểm tra.
+* Mọi ý kiến, đóng góp về bản dịch, vui lòng [tạo một issue mới](/issues/new) hoặc bạn có thể chỉnh sửa và tạo Pull Request, đồng thời cc trực tiếp các dịch giả để kiểm tra.
 
 ## Giới thiệu
 
-Đây là kế hoạch học tập trong nhiều tháng của tôi, để từ một nhà phát triển web (tự học, không có bằng cấp về Khoa học máy tính) trở thành một kỹ sư phần mềm ở Google.
+Đây là kế hoạch học tập trong nhiều tháng của tôi, để từ một nhà phát triển web (tự học, không có bằng cấp về Khoa Học Máy Tính - KHMT) trở thành một kỹ sư phần mềm ở Google.
 
 ![Viết code trên bảng - ánh trích từ bộ phim Silicon Valley của HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 Danh sách dài này được trích và mở rộng từ **Ghi chú huấn luyện của Google**, vậy nên đây là những gì bạn cần biết.
 Một vài mục tôi thêm vào ở cuối danh sách có thể xuất hiện trong cuộc phỏng vấn hoặc hữu ích cho việc giải quyết các bài toán. Nhiều mục đến từ bài viết [Lấy được việc ở Google (Get that job at Google)](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" của Steve Yegge.
 
-Tôi lược bớt những gì bạn cần từ lời khuyên của yegge. Tôi cũng chỉnh sửa lại các yêu cầu dựa trên thông tin tôi có được từ bạn bè ở Google. Danh sách này được thiết kế cho **Kỹ sư phần mềm** hoặc những ai chuyển từ phát triển web hoặc phần mềm sang _kỹ nghệ_ phần mềm (khi mà kiến thức về khoa học máy tính là bắt buộc). Nếu bạn có nhiều kinh nghiệm và muốn khẳng định nhiều năm trong đó bạn làm việc như một kỹ sư phần mềm, hãy sẳn sàng cho một buổi phòng vấn khó hơn. [Xem thêm ở đây](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Tôi lược bớt những gì bạn cần từ lời khuyên của yegge. Tôi cũng chỉnh sửa lại các yêu cầu dựa trên thông tin tôi có được từ bạn bè ở Google. Danh sách này được thiết kế cho **Kỹ sư phần mềm** hoặc những ai chuyển từ phát triển web hoặc phần mềm sang _kỹ nghệ_ phần mềm (khi mà kiến thức về Khoa Học Máy Tính là bắt buộc). Nếu bạn có nhiều kinh nghiệm và muốn khẳng định nhiều năm trong đó bạn làm việc như một kỹ sư phần mềm, hãy sẵn sàng cho một buổi phòng vấn khó hơn. [Xem thêm ở đây](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-Nếu bạn có kinh nghiệm trong phát triển web hoặc ứng dụng, hãy chú ý rằng Google xem xây dựng phần mềm khác với web và ứng dụng thông thường. Họ yêu cầu kiến thức về khoa học máy tính.
+Nếu bạn có kinh nghiệm trong phát triển web hoặc ứng dụng, hãy chú ý rằng Google xem việc xây dựng phần mềm khác với web và ứng dụng thông thường. Họ yêu cầu kiến thức về Khoa Học Máy Tính.
 
-Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (System engineer), hãy học thêm từ danh sách bổ sung (mạng máy tính, bảo mật,...)
+Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (System Engineer), hãy học thêm từ danh sách bổ sung (mạng máy tính, bảo mật,...)
 
 ---
 
@@ -51,23 +51,23 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Danh mục sách](#danh-mục-sách)
 - [Trước khi bắt đầu](#trước-khi-bắt-đầu)
 - [Những phần không được đề cập](#những-phần-không-được-đề-cập)
-- [Kế hoạch hàng ngày](#Kế-hoạch-hàng-ngày)
+- [Kế hoạch hằng ngày](#Kế-hoạch-hàng-ngày)
 - [Kiến thức tiên quyết](#kiến-thức-tiên-quyết)
-- [Độ phức tạp của thuật toán / Big-O / Phân tích biên độ](#độ-phức-tạp-của-thuật-toán--big-o--phân-tích-biên-độ)
+- [Độ phức tạp của thuật toán / Big-O / Phân tích tiệm cận](#độ-phức-tạp-của-thuật-toán--big-o--phân-tích-tiệm-cận)
 - [Cấu trúc dữ liệu](#cấu-trúc-dữ-liệu)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [Thêm kiến thức](#thêm-kiến-thức)
+- [Kiến thức bổ sung](#kiến-thức-bổ-sung)
     - [Tìm kiếm nhị phân](#tìm-kiếm-nhị-phân)
     - [Toán tử trên bit](#toán-tử-trên-bit)
 - [Cây](#cây)
     - [Cây - Ghi chú và kiến thức nền](#cây---ghi-chú-và-kiến-thức-nền)
     - [Cây tìm kiếm nhị phân](#cây-tìm-kiếm-nhị-phân)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - cây tìm kiếm cân bằng (một chủ đề chung, không đi sâu vào chi tiết)
+    - Cây tìm kiếm cân bằng (một chủ đề chung, không đi sâu vào chi tiết)
     - Duyệt cây: preorder, inorder, postorder, BFS, DFS
 - [Sorting](#sorting)
     - selection
@@ -160,11 +160,11 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 
 ## Vì sao tôi cần tài liệu này?
 
-Tôi đang chuẩn bị tham gia phỏng vấn ở Google. Tôi từng làm web, xây dựng các dịch vụ và lập các công ty khởi nghiệp từ năm 1997. Tôi có bằng Kinh tế, nhưng không có bằng Khoa học máy tính. Tôi thấy sự nghiệp của mình khá thành công, nhưng như thế chưa đủ. Tôi muốn làm việc ở Google, được tham gia xử lý một hệ thống lớn; thực sự hiểu rõ về máy tính, sự hiệu quả của các thuật toán và cấu trúc dự liệu, các ngôn ngữ lập trình cấp thấp, và chúng hoạt động cùng nhau như thế nào. Và nếu bạn không biết về cái nào trong số đó, Google sẽ không tuyển bạn.
+Tôi đang chuẩn bị tham gia phỏng vấn ở Google. Tôi từng làm web, xây dựng các dịch vụ và lập các công ty khởi nghiệp từ năm 1997. Tôi có bằng Kinh Tế, nhưng không có bằng Khoa Học Máy Yính. Tôi thấy sự nghiệp của mình khá thành công, nhưng như thế chưa đủ. Tôi muốn làm việc ở Google, được tham gia xử lý một hệ thống lớn; thực sự hiểu rõ về máy tính, sự hiệu quả của các thuật toán và cấu trúc dự liệu, các ngôn ngữ lập trình cấp thấp, và chúng hoạt động cùng nhau như thế nào. Và nếu bạn không biết về cái nào trong số đó, Google sẽ không tuyển bạn.
 
-Khi tôi bắt đầu dự án này, tôi không phân biệt được stack và heap, không biết về Big-O, không có khái niệm gì về cây (`tree`) hay việc duyệt đồ thị (`graph traversal`). Và nếu buộc phải việt code cho một thuật toán sắp xếp, tôi đảm bảo rằng nó sẽ không chạy tốt.
+Khi tôi bắt đầu dự án này, tôi không phân biệt được stack và heap, không biết về Big-O, không có khái niệm gì về cây (`tree`) hay việc duyệt đồ thị (`graph traversal`). Và nếu buộc phải viết code cho một thuật toán sắp xếp, tôi đảm bảo rằng nó sẽ không chạy tốt.
 
-Tất cả các cấu trúc dự liệu tôi từng sử dụng đề được dựng sẵn trong ngôn ngữ lập trình và tôi không nhất thiết phải biết chúng làm việc như thế nào. Tôi chưa từng phải tự quản lý vùng nhớ, trừ khi một tiến trình đang chạy ném lỗi "hết bộ nhớ" (`out of memory`), và sau đó tôi phải tìm một cách giải quyết khác. Tồi từng sử dụng mảng nhiều chiều vài lần trong đời, và hàng ngàn mảng liên kết (`map` hoặc `dictionary` cho dễ hiểu). Nhưng thực sự tôi chưa từng tự mình xây dựng một cấu trúc dữ liệu nào.
+Tất cả các cấu trúc dự liệu tôi từng sử dụng đều được cài đặt sẵn trong ngôn ngữ lập trình và tôi không nhất thiết phải biết chúng làm việc như thế nào. Tôi chưa từng phải tự quản lý vùng nhớ, trừ khi một tiến trình đang chạy ném lỗi "hết bộ nhớ" (`out of memory`), và sau đó tôi phải tìm một cách giải quyết khác. Tồi từng sử dụng mảng nhiều chiều vài lần trong đời, và hàng ngàn mảng kết hợp (`associate arrays`). Nhưng thực sự tôi chưa từng tự mình xây dựng một cấu trúc dữ liệu nào.
 
 Nhưng, sau khi trải qua dự án này, tôi rất tự tin rằng mình sẽ được tuyển. Đây là một dự án dài hơi, sẽ tốn của tôi hàng tháng. Nếu bạn đã quen với nhiều nội dung trong này, bạn sẽ mất ít thời gian hơn.
 
@@ -244,7 +244,7 @@ Tôi cũng đang đi trên con đường này. Hãy cùng xem chúng ta đi đư
     - [ ] [Search làm việc như thế nào - tác giả Matt Cutts (How Search Works - Matt Cutts) - video](https://www.youtube.com/watch?v=BNHR6IQJGZs)
     - [ ] [Google cải tiến thuật toán tìm kiếm của họ như thế nào (How Google makes improvements to its search algorithm) - video](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] Các chuỗi bài viết:
-    - [ ] [Google Search làm việc với thiết bị di đồng ra sao (How Google Search Dealt With Mobile)](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [Google Search làm việc với thiết bị di động ra sao (How Google Search Dealt With Mobile)](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
     - [ ] [Nghiên cứu bí mật của Google để tìm ra thứ chúng ta cần (Google's Secret Study To Find Out Our Needs)](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google Search sẽ là bộ não tiếp theo của bạn (Google Search Will Be Your Next Brain)](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
     - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
@@ -271,8 +271,8 @@ Lynda.com thì không miễn phí.
 
 - [ ] Bài viết:
     - [ ] [Trở thành nhân viên của Google với 3 bước](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Lấy công việc ỡ Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - Tất cả những gì anh ta đề cập đến đều được liệt kể bên dưới.
+    - [ ] [Lấy công việc ở Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - Tất cả những gì anh ta đề cập đến đều được liệt kê bên dưới.
     - [ ] _(bài viết từ rất lâu)_ [Làm sao để lấy được công việc tại Google, các câu hỏi phỏng vấn, quy trình tuyền dụng](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Các câu hỏi phỏng vấn qua điện thoại](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
@@ -326,7 +326,7 @@ Bạn sẽ thấy vài tài liệu về C, C++ và Python bên dưới, vì tôi
 
 Đây là danh sách rút gọn từ những gì mà tôi đọc, để tiết kiệm thời gian cho bạn.
 
-> Tên sách được giũ nguyên gốc tiếng Anh.
+> Tên sách được giữ nguyên gốc tiếng Anh.
 
 ### Chuẩn bị phỏng vấn
 
@@ -338,7 +338,7 @@ Bạn sẽ thấy vài tài liệu về C, C++ và Python bên dưới, vì tôi
     - Không quá khó, phần lớn các bài toán có lẽ dễ hơn nhiều so với những gì bạn thường thấy trong một buổi phỏng vấn (dựa theo những gì tôi đọc được)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Trả lời bằng Java
-    - Được khuyến nghĩ trên [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
+    - Được khuyến nghị trên [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
     - Nếu bạn thấy mọi người trích dẫn "The Google Resume", đó là một cuốn sách được thay thế bởi "Cracking the Coding Interview".
 
 Nếu bạn có nhiều thời gian hơn nữa:
@@ -354,7 +354,7 @@ Nếu không có nhiều thời gian:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - Quyển này được xuất bản năm 2004, phần nào đã lỗi thời, nhưng nó vẫn là một tài liệu tuyệt vời để tìm hiểu về máy tính một cách ngắn gọn.
-    - Tác giả phát minh ra HLA (High Level Assembly), vậy nên hãy hãy chú ý một chút về các ví dụ và định nghĩa trong sách. Không được sử dụng rộng rãi, nhưng đó là một ví dụ hiện đại về hợp ngữ.
+    - Tác giả phát minh ra HLA (High Level Assembly), vậy nên hãy hãy chú ý một chút về các ví dụ và định nghĩa trong sách. Tuy không được sử dụng rộng rãi, nhưng đó là một ví dụ hiện đại về hợp ngữ.
     - Những chương này rất đáng đọc để xây dựng cho bạn một nền tảng tốt (giữ nguyên gốc tiếng Anh):
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
@@ -374,7 +374,7 @@ Nếu bạn có nhiều thời gian (tôi đã muốn đọc quyển này):
 
 ### Từng ngôn ngữ riêng biệt
 
-**Bạn phải chọn một ngôn ngử cho cuộc phỏng vấn (xem ở trên).** Đây là các khuyến nghị của tôi. Tôi không có tài liệu cho tất cả các ngôn ngữ lập trình, vậy nên, đóng góp từ bạn luôn được chào đón.
+**Bạn phải chọn một ngôn ngữ cho cuộc phỏng vấn (xem ở trên).** Đây là các khuyến nghị của tôi. Tôi không có tài liệu cho tất cả các ngôn ngữ lập trình, vậy nên, đóng góp từ bạn luôn được chào đón.
 
 Nếu bạn muốn đọc xuyên suốt một trong những quyển sách này, bạn nên có kiến thức về cấu trúc dữ liệu và giải thuật. Bạn cũng nên luyện tập giải toán lập trình.
 
@@ -385,7 +385,7 @@ Nếu bạn muốn đọc xuyên suốt một trong những quyển sách này, 
 
 ### C++
 
-Tôi chưa đọc 2 cuốn này, nhưng chúng được đánh giá cao, và được viết bởi Sedgewick. Anh ta rất xuất sắc.
+Tôi chưa đọc 2 cuốn này, nhưng chúng được đánh giá cao, và được viết bởi Sedgewick. Giáo sư Sedgewick rất xuất sắc.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
@@ -405,7 +405,7 @@ hoặc:
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - Bởi Goodrich, Tamassia, Goldwasser
     - Được sử dụng làm tài liệu tham khảo cho khóa Dẫn nhập vào khoa học máy tính của UC Berkeley
-    - Hãy xem phần báo cáo về sách của tôi bên dưới cho phiên bản Python. Cuốn sách này cũng bao phủ các chủ đề đó.
+    - Hãy xem mục sách của tôi bên dưới cho phiên bản Python. Cuốn sách này cũng bao phủ các chủ đề đó.
 
 
 ### Python
@@ -432,7 +432,7 @@ hoặc:
                 - Nhiều câu chuyện thú vị từ kinh nghiệm của tác giả trong việc giải quyết các vấn đề thực tế và trong giới học thuật.
                 - Code mẫu bằng C.
             - Nhược:
-                - Cô đặc và có thể khó hiểu ngang với CLRS, và trong một số chủ đề, CLRS có thể là một tài liệu tốt hơn đẻ tham khảo.
+                - Cô đặc và có thể khó hiểu ngang với CLRS, và trong một số chủ đề, CLRS có thể là một tài liệu tốt hơn để tham khảo.
                 - Các chương 7, 8, 9 có thể rất vất vả để theo được, vì một vài phần không được giải thích rõ, hoặc là yêu cầu nhiều não hơn những gì tôi có.
                 - Đừng hiểu lầm: Tôi thích Skiena, cách dạy học và phong các của ông ấy, nhưng tôi có lẽ không đủ khả năng để tốt nghiệp ở Stony Brook (nơi Skiena giảng dạy).
         - Danh mục thuật toán:
@@ -448,7 +448,7 @@ hoặc:
 
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Chú ý:** Đọc cuốn này chỉ có một ít giá trị. Đây là một tổng hợp xuất sắc về giải thuật và cấu trúc dữ liệu, nhưng nó không dạy cho bạn cách viết code xuất sắc. Để làm một lập trình viên giỏi, bạn đồng thời phải có khả năng phát triển một giải pháp một cách hiệu quà nữa.
+    - **Chú ý:** Đọc cuốn này chỉ có một ít giá trị. Đây là một tổng hợp xuất sắc về giải thuật và cấu trúc dữ liệu, nhưng nó không dạy cho bạn cách viết code xuất sắc. Để làm một lập trình viên giỏi, bạn đồng thời phải có khả năng phát triển một giải pháp một cách hiệu quả nữa.
     - Trích lời Yegge: "Nhưng nếu bạn muốn đến với buổi phỏng vấn một cách có chuẩn bị, vậy hãy hoãn đơn xin ứng tuyển lại cho đến khi bạn hoàn tất quyển sách này"
     - Half.com là một trang hữu dụng để tìm sách với giá tốt.
     - Đôi được gọi là CLR, hoặc là CLRS (trích chữ cái đầu trong tên của các tác giả), vì Stein (một trong 4 tác giả, S trong CLRS) nhập cuộc trễ
@@ -457,7 +457,7 @@ hoặc:
     - Vài chương đầu trình bày những giải pháp thông minh để giải quyết các vấn đề lập trình (một số đã rất cũ, từ thời người ta còn sử dụng băng từ). Nhưng, đó chỉ là phần mở đầu. đây là một quyển sách về thiết kế và cấu trúc phần mềm, giống như Code Complete, nhưng ngắn hơn nhiều.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - Sách tạm được, nhưng sau khi làm việc với các bài toán trong vài trang, tôi thây nhức đầu với ngôn ngữ Pascal, do-while loop, mảng bắt đầu với số 1 (thay vì 0 như Java, C, C++, ...), và một vài thông tin không rõ ràng.
+    - Sách tạm được, nhưng sau khi làm việc với các bài toán trong vài trang, tôi thấy nhức đầu với ngôn ngữ Pascal, do-while loop, mảng bắt đầu với số 1 (thay vì 0 như Java, C, C++, ...), và một vài thông tin không rõ ràng.
     - Lẽ ra nên dành thời gian để giải toán từ các quyển sách khác hoặc làm toán lập trình online.
 
 ## Trước khi bắt đầu
@@ -484,7 +484,7 @@ Tôi đã làm một trang mobile-first (lấy mobile là trọng tâm phát tri
 Tự tạo cho mình hoàn toàn miễn phí:
 
 - [Repo của trang thẻ ghi nhớ](https://github.com/jwasham/computer-science-flash-cards)
-- [Cơ sỏ dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
+- [Cơ sở dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
 
 **Ghi chú dành cho các thẻ ghi nhớ:** The first time you recognize you know the answer, don't mark it as known. Lần đầu tiên bạn nhận ra bạn biết câu trả lời, đừng đánh dấu là đã biết.Bạn phải xem thẻ tương tự và đưa ra câu trả lời chính xác vài lần trước khi bạn thực sự khẳng định đã nắm được vấn đề.Lặp đi lặp lại việc này sẽ giúp kiến thức được khắc sâu vào não bạn.
 
@@ -502,7 +502,7 @@ Khi gặp vấn đề trong lúc code, nghỉ ngơi chừng nửa giờ và đ�
 
 ### 4. Tập trung
 
-Có rất nhiều thứ lấy đi sự chú ý của ta, việc này tốn rất nhiều thời gian. Tập trung và toàn tâm toàn ý rất khó.
+Có rất nhiều thứ lấy đi sự tập trung của ta, việc này tốn rất nhiều thời gian. Tập trung và toàn tâm toàn ý rất khó.
 
 
 ## Những phần không được đề cập
@@ -522,7 +522,7 @@ Một vài môn học chỉ mất một ngày, vài môn khác có thể mất n
 Mỗi ngày tôi sẽ chọn một trong các thứ liệt kê bên dưới, xem video bải giảng về nó, và viết mã trên:
 - C - luyện tập sử dụng `struct` và các hàm nhận các `struct` đó cùng với các tham số khác.
 - C++ - không sử dụng các kiểu dữ liệu, cấu trúc sẵn có.
-- C++ - sử dụng các kiểu, cấu trúc sẵn có, ví dụ như `std::List` cho danh sách liên kết.
+- C++ - sử dụng các kiểu, cấu trúc sẵn có, ví dụ như `std::list` cho danh sách liên kết.
 - Python - sử dụng kiểu, cấu trúc sẵn có (để luyện tập Python).
 - Viết test (thuật ngữ dành cho các đoạn mã chuyên để kiểm tra phẩn mềm, ở đây tác giả cõ lẽ muốn đề cập đến [unit test](https://en.wikipedia.org/wiki/Unit_testing)) để chắc rằng tôi làm đúng. Đôi khi có thể chỉ là vài hàm `assert()` đơn giản.
 - Bạn có thể thực hành với Java hoặc ngôn ngữ khác. Đây chỉ là sự lựa chọn của tôi.
@@ -586,7 +586,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 ## Cấu trúc dữ liệu
 
 - ### Arrays
-    - Triển khai mảng vector tự động tùy biến kích cỡ.
+    - Cấp phát mảng vector tự động tùy biến kích cỡ.
     - [ ] Miêu tả, tên gốc được giữ nguyên kèm với bản dịch sang tiếng Việt:
         - [Arrays - Mảng (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays - Mảng tuyến tính và mảng đa chiều(video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
@@ -596,22 +596,22 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [Jagged Arrays - Mảng trong mảng (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays - Mảng trong mảng (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays - Mảng có thể tùy biến kích thước (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Triển khai vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
-        - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ  để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
+    - [ ] Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
+        - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
         - [ ] Tạo mảng mới với vùng nhớ được cấp phát sẵn
-            - Có thể triển khai mảng số nguyên một cách nhanh chóng, nhưng không sử dụng các tính năng sẵn có
+            - Có thể cấp phát mảng số nguyên một cách nhanh chóng, nhưng không sử dụng các tính năng sẵn có
             - Bắt đầu với 16, hoặc số lớn hơn, với cấp số nhân của 2 - 16, 32, 64, 128
-        - [ ] size() - Số lượng của các thành phần trong mảng
-        - [ ] capacity() - Số lượng tối đa các thành phần mà mảng có thể lưu trữ
-        - [ ] is_empty() - Kiểm tra mảng rỗng
-        - [ ] at(index) - Trả về thành phần ở vị trí chỉ mục (index), hoặc lỗi nếu rơi ra ngoài chỉ mục
-        - [ ] push(item) Thêm vào một thành phần mới
-        - [ ] insert(index, item) - Thêm một thành phần mới tại vị trí của chỉ mục, điều chỉnh lại chỉ mục và đưa các thành phần còn lại dịch chuyển theo
+        - [ ] size() - Số lượng của các phần tử trong mảng
+        - [ ] capacity() - Số lượng tối đa các phần tử mà mảng có thể lưu trữ
+        - [ ] is_empty() - Kiểm tra mảng rỗng hay không
+        - [ ] at(index) - Trả về phần tử ở vị trí chỉ mục (index), hoặc lỗi nếu rơi ra ngoài chỉ mục
+        - [ ] push(item) Thêm vào một phần tử mới
+        - [ ] insert(index, item) - Thêm một phần tử mới tại vị trí của chỉ mục, điều chỉnh lại chỉ mục và đưa các phần tử còn lại dịch chuyển theo
         - [ ] prepend(item) - Thêm tại vị trí chỉ mục 0, hay đầu tiên
-        - [ ] pop() - trả về thành phần cuối cùng
-        - [ ] delete(index) - Xóa thành phần tại chỉ mục, dịch chuyển lại các thành phần trong mảng
-        - [ ] remove(item) - Tìm theo giá trị của thành phần và xóa chỉ mục đang lưu trữ cho thành phần này (áp dụng với việc nhiều thành phần có cùng giá trị)
-        - [ ] find(item) - Tìm theo giá trị của thành phần và trả về chỉ mục đầu tiên tìm được, -1 nếu không tìm thấy
+        - [ ] pop() - trả về phần tử cuối cùng
+        - [ ] delete(index) - Xóa phần tử tại chỉ mục, dịch chuyển lại các phần tử trong mảng
+        - [ ] remove(item) - Tìm theo giá trị của phần tử và xóa chỉ mục đang lưu trữ cho phần tử này (áp dụng với việc nhiều thành phần có cùng giá trị)
+        - [ ] find(item) - Tìm theo giá trị của phần tử và trả về chỉ mục đầu tiên tìm được, -1 nếu không tìm thấy
         - [ ] resize(new_capacity) // private function
             - Khi tới giới hạn của mảng, tăng gấp đôi giá trị độ dài mảng để thay đổi kích thước
             - Khi xóa 1 thành phần, nếu kích thước hiện tại chỉ bằng 1/4 kích thước được cấp phát, thay đổi thành 1/2
@@ -620,7 +620,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - O(n) để thêm/xóa tại bất cứ đâu
     - [ ] Không gian
         - Liên tục trong bộ nhớ, giúp cải thiện hiệu suất
-        - Không gian cần thiết = (Kích cở của mảng, thường >= n)* kích thước của 1 thành phần, cho dù là 2n, vẫn xem như O(n)
+        - Không gian cần thiết = (Kích cở của mảng, thường >= n)* kích thước của 1 phần tử, cho dù là 2n, vẫn xem như O(n)
 
 - ### Linked Lists
     - [ ] Miêu tả:
@@ -636,36 +636,36 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         (Khi bạn chuyển một con trỏ vào trong 1 thân hàm khiến thay đổi địa chỉ mà con trỏ trỏ về)
         Trang này giúp bạn có cái nhìn khái quát về con trỏ trỏ tới con trỏ. Tối không khuyến khích đọc lướt qua danh sách này. Đề tài này rất khó đọc và nắm bắt.
         - [Pointers to Pointers - Con trỏ trỏ tới con trỏ](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Triển khai (Tôi đã thực hiện với con trỏ đuôi và không dùng con trỏ đuôi):
-        - [ ] size() - Trả về số lượng các dữ liệu trong danh sách
+    - [ ] Cài đặt (Tôi đã thực hiện với con trỏ đuôi và không dùng con trỏ đuôi):
+        - [ ] size() - Trả về số lượng các phần tử trong danh sách
         - [ ] empty() - Giá trị luận lý logic, true nếu rỗng
-        - [ ] value_at(index) - Trả về giá trị tại vị trí thứ n (danh sách bắt đầu từ 0)
-        - [ ] push_front(value) - Thêm dữ liệu mới vào đầu danh sách
-        - [ ] pop_front() - Xóa dữ liệu đầu tiên và trả về giá trị này
-        - [ ] push_back(value) - Thêm dữ liệu tại cuối danh sách
-        - [ ] pop_back() - Xóa dữ liệu cuối và trả về giá trị
-        - [ ] front() - Lấy giá trị của dữ liệu đầu tiền
-        - [ ] back() - Lấy giá trị của dữ liệu cuối cùng
-        - [ ] insert(index, value) - Thêm giá trị mới tại vị trí chỉ mục, dữ liệu hiện tại sẽ trỏ về dữ liệu mới tại vị trí chỉ mục này (A->B->C, thêm N tại vị trí B, A->D->B->C, A hiện giờ sẽ trỏ tới D, chỉ mục 1 sẽ trỏ tới D thay vì B)
+        - [ ] value_at(index) - Trả về phần tử tại vị trí thứ n (danh sách bắt đầu từ 0)
+        - [ ] push_front(value) - Thêm phần tử mới vào đầu danh sách
+        - [ ] pop_front() - Xóa phần tử đầu tiên và trả về giá trị này
+        - [ ] push_back(value) - Thêm phần tử tại cuối danh sách
+        - [ ] pop_back() - Xóa phần tử cuối và trả về giá trị
+        - [ ] front() - Lấy giá trị của phần tử đầu tiền
+        - [ ] back() - Lấy giá trị của phần tử cuối cùng
+        - [ ] insert(index, value) - Thêm phần tử mới tại vị trí chỉ mục, phần tử hiện tại sẽ trỏ về phần tử mới tại vị trí chỉ mục này (A->B->C, thêm N tại vị trí B, A->D->B->C, A hiện giờ sẽ trỏ tới D, chỉ mục 1 sẽ trỏ tới D thay vì B)
         - [ ] erase(index) - Xóa node tại vị trí chỉ mục
         - [ ] value_n_from_end(n) - Trả về danh sách từ vị trí thứ n đến cuối danh sách
         - [ ] reverse() - đảo ngược danh sách
         - [ ] remove_value(value) - Xóa dữ liệu đầu tiên được tìm thấy khớp với giá trị được cho
     - [ ] Doubly-linked List
         - [Description - Miêu tả danh sách liên kết đôi (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - Không cần phải triển khai
-
+        - Không cần phải cài đặt 
+        
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out - Sử dụng stack Vào-Cuối-Ra-Trước (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] Sẽ không triển khai. Triển khai với mảng là điều hiển nhiên.
+    - [ ] Sẽ không cài đặt. Cài đặt với mảng là điều hiển nhiên.
 
 - ### Queue
     - [ ] [Using Queues First-In First-Out -  Sử dụng hàng đợi Vào-Trước-Ra-Trước(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues - Hàng đợi ưu tiên (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Triển khai sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
+    - [ ] Cài đặt sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
         - enqueue(value) - Thêm giá trị ở đuôi
         - dequeue() - Trả về giá trị của dữ liệu được thêm vào xa nhất (thông thường là dữ liệu đầu tiên trong danh sách)
         - empty()
@@ -675,7 +675,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - empty()
         - full()
     - [ ] Chi phí:
-        - Không triển khai đúng việc sử dụng danh sách liên kết khi enqueue tại đầu và dequeue tại đuôi sẽ có chi phí là O(n) bởi vì bạn cần con trỏ next tới giá trị cuối cùng, khiến việc phải chạy qua toàn danh sách mỗi lần dequeue
+        - Không cài đặt đúng việc sử dụng danh sách liên kết khi enqueue tại đầu và dequeue tại đuôi sẽ có chi phí là O(n) bởi vì bạn cần con trỏ next tới giá trị cuối cùng, khiến việc phải chạy qua toàn danh sách mỗi lần dequeue
         - enqueue: O(1) (Không đáng kể, danh sách liên kết và mảng [probing])
         - dequeue: O(1) (danh sách liên kết và mảng)
         - empty: O(1) (danh sách liên kết và mảng)
@@ -701,7 +701,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
             - [Instant Uploads And Storage Optimization In Dropbox - Tải nhanh và tối ưu lưu trữ trong Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables - Phân phối bảng băm(video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] Triển khai với mảng sử dụng thăm dò tuyến tính:
+    - [ ] Cài đặt với mảng sử dụng thăm dò tuyến tính:
         - hash(k, m) - m là kích thước của bảng băm
         - add(key, value) - nếu khóa đã tồn tại, cập nhật giá trị
         - exists(key)
@@ -709,8 +709,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - remove(key)
 
 
-## Thêm kiến thức
-
+## Kiến thức ngoài 
 - ### Tìm kiếm nhị phân
     - [ ] [Tìm kiếm nhị phân (Binary Search) - video](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Tìm kiếm nhị phân - Khan Academy (Binary Search) - video](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)

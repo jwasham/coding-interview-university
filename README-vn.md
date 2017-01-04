@@ -601,6 +601,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [ ] Tạo mảng mới với vùng nhớ được cấp phát sẵn
             - Có thể cấp phát mảng số nguyên một cách nhanh chóng, nhưng không sử dụng các tính năng sẵn có
             - Bắt đầu với 16, hoặc số lớn hơn, với cấp số nhân của 2 - 16, 32, 64, 128
+            
         - [ ] size() - Số lượng của các phần tử trong mảng
         - [ ] capacity() - Số lượng tối đa các phần tử mà mảng có thể lưu trữ
         - [ ] is_empty() - Kiểm tra mảng rỗng hay không

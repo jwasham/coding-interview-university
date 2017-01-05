@@ -40,7 +40,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Temel bilgileri edinmek için gerekli kitaplar](#book-list)
 - [Başlamadan önce...](#before-you-get-started)
 - [Hakim olman gereken teknolojiler](#what-you-wont-see-covered)
-- [Gerekli temel bilgiler _(önemli !)_](#prerequisite-knowledge)
+- [Gerekli temel bilgiler **_(önemli !)_**](#prerequisite-knowledge)
 - [Günlük çalışma planı](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)

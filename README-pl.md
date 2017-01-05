@@ -44,10 +44,16 @@ software/web development to software engineering (where computer science knowled
 many years of experience and are claiming many years of software engineering experience, expect a harder interview.
 [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/). -->
 
-If you have many years of software/web development experience, note that Google views software engineering as
-different from software/web development and they require computer science knowledge.
+Weź pod uwagę fakt, iz Google traktuje oprogramowanie/web-dev inaczej niż inżynierę oprogramowania
+i wymagają szczegołowej wiedzy z zarkesu informatyki.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+<!-- If you have many years of software/web development experience, note that Google views software engineering as
+different from software/web development and they require computer science knowledge. -->
+
+Jeśli chcesz być inżynierem ds. niezawodności i bezpieczeństwa lub systemów, ucz się
+więcej z dodatkowej listy (sieć, bezpieczeństwo).
+
+<!-- If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security). -->
 
 ---
 

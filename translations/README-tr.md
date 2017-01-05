@@ -1,6 +1,6 @@
 # Google'da mühendis olmak için çalışma planı
 
-## Nedir?
+## Nedir ?
 
 Bu plan üniversitelerde okutulan bilgisayar mühendisliği bilgisine sahip olmayan ![John Washam](https://github.com/jwasham)'ın, bilgisayar mühendisliği müfredatını kendi kendine çalışarak, Google'da yazılım mühendisi olarak çalışabilecek seviyeye gelmek için hazırladığı çalışma planıdır.
 
@@ -26,22 +26,22 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [Nedir ?](#what-is-it)
+- [Neden kullanmalıyım ?](#why-use-it)
+- [Nasıl kullanmalıyım ?](#how-to-use-it)
+- [Psikolojik olarak kendini hazırlanmak](#get-in-a-googley-mood)
+- [Peki john Google'a kabul edildi mi ?](#did-i-get-the-job)
+- [John'u takip et](#follow-along-with-me)
+- [Sakın ! Kendini yetersiz görme](#dont-feel-you-arent-smart-enough)
+- [Google hakkında kısa bilgiler](#about-google)
+- [Video dersler hakkında kısa bilgiler](#about-video-resources)
+- [Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?](#interview-process--general-interview-prep)
+- [İş görüşmesi için bir programlama dili seç !](#pick-one-language-for-the-interview)
+- [Temel bilgileri edinmek için gerekli kitaplar](#book-list)
+- [Başlamadan önce...](#before-you-get-started)
+- [Hakim olman gereken teknolojiler](#what-you-wont-see-covered)
+- [Gerekli temel bilgiler _(önemli !)_](#prerequisite-knowledge)
+- [Günlük çalışma planı](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)

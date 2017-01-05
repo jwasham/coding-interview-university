@@ -1,21 +1,6 @@
-# Google Interview University
+# Google'da mühendis olmak için çalışma planı
 
-Translations: 
-- [中文版本](translations/README-cn.md)
-- translations in progress:
-    - [Español](https://github.com/jwasham/google-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
-    - [French](https://github.com/jwasham/google-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
-
-## What is it?
+## Nedir?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.
 

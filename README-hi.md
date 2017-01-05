@@ -14,7 +14,7 @@
 
 ## अनुक्रमणिका
 - [यह क्या है?](#यह-क्या-है )
-- [इसका उपयोग क्यों करे?](#इसका-उपयोग-क्यों-करे)
+- [इसका उपयोग क्यों करे?](#इसका-उपयोग-क्यू-करे)
 - [इसका कैसे उपयोग करे?](#इसका-कैसे-उपयोग-करे)
 - [गूगल की मुद्रा में आ जाएँ](#गूगल-की-मुद्रा-में-आ-जाएँ)
 - [क्या मुझे नौकरी मिली?](#क्या-मुझे-नौकरी-मिली)
@@ -25,7 +25,7 @@
 - [इंटरव्यू प्रकिया और साधारण इंटरव्यू तयारी](#interview-process--general-interview-prep)
 - [इंटरव्यू के लिए एक भाषा चुने](#pick-one-language-for-the-interview)
 - [प्रारंभ करने से पहले](#before-you-get-started)
-- [एअसमे क्या समाविष्ट नहीं हे](#what-you-wont-see-covered)
+- [इसमे क्या समाविष्ट नहीं हे](#इसमे-क्या-समाविष्ट-नहीं-हे)
 - [पूर्व प्रयोजनीय ज्ञान](#prerequisite-knowledge)
 - [दैनिक योजना](#the-daily-plan)
 - [अल्गोरिथम जटिलता / बिग-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -269,24 +269,23 @@ Take a break from programming problems for a half hour and go through your flash
 
 There are a lot of distractions that can take up valuable time. Focus and concentration is hard.
 
-## What you won't see covered
+## इसमे क्या समाविष्ट नहीं हे
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent 
-technologies but were not mentioned in those notes:
+यह बड़ी सूचि गूगल इंटरव्यू टिप्पणियों से व्यक्तिगत कार्य सूचि से बनायीं गयी थी. निचे कुछ प्रचलित टेक्नोलॉजी हैं पर उन्हें टिप्पणियो में समविस्ट नहीं किया गया हैं.
 
 - SQL
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## The Daily Plan
+## दैनिक योजना
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+कुछ विषय एक दिन ले सकते हैं और कुछ ज्यादा.कुचो का सिर्फ पढाई हो सकती हैं पर अमल नहीं हो सकता.
 
-Each day I take one subject from the list below, watch विडियो about that subject, and write an implementation in:
-    C - using structs and functions that take a struct * and something else as args.
-    C++ - without using built-in types
-    C++ - using built-in types, like STL's std::list for a linked list
-    Python - using built-in types (to keep practicing Python)
+हर दिन मैं निचली सूचि से एक विषय लेता हु, उसका विडियो देखता हु, और उसका अमल निचे दिए तरह करता हूँ:
+    C - struct और function का उपयोग करके  जो  struct * या args का  उपयोग करते हैं.
+    C++ - built-in types का उपयोग न करके
+    C++ - built-in types का उपयोग करके, जैसे STL की std::list, linked list के लिए
+    Python - built-in types का उपयोग करके (Python का अभ्यास रखने के लिए)
     and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
     You may do Java or something else, this is just my thing.
 

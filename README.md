@@ -14,6 +14,7 @@ Translations:
     - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
     - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
     - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
+    - [Korean](https://github.com/jwasham/google-interview-university/issues/118)
 
 ## What is it?
 

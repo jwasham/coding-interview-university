@@ -24,7 +24,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ---
 
-## Table of Contents
+## İçindekiler
 
 - [Nedir ?](#what-is-it)
 - [Neden kullanmalıyım ?](#why-use-it)
@@ -42,57 +42,57 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Hakim olman gereken teknolojiler](#what-you-wont-see-covered)
 - [Gerekli temel bilgiler **_(önemli !)_**](#prerequisite-knowledge)
 - [Günlük çalışma planı](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+- [Algoritma analizi / Büyük-O / Asimptotik analiz](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Veri yapıları](#data-structures)
+    - [Diziler _(Arrays)_](#arrays)
+    - [Bağlı listeler _(Linked Lists)_](#linked-lists)
+    - [Yığıt _(Stack)_](#stack)
+    - [Kuyruk _(Queue)_](#queue)
+    - [Çırpılama _(Hash table)_](#hash-table)
+- [Bilmen gereken teknik detaylar](#more-knowledge)
+    - [Dizilerde ikili arama _(Binary Search)_](#binary-search)
+    - [Bit üzerinde işlem yapan operatörler_(Bitwise operations)_](#bitwise-operations)
+- [Agaçlar _(Trees)_](#trees)
+    - [Ağagçlar hakkında temel bilgiler](#trees---notes--background)
+    - [İkili arama ağacı _(Binary search trees: BSTs)_](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
+- [Sıralama algoritmaları _(Sorting Algorithms)_](#sorting)
     - selection
     - insertion
     - heapsort
     - quicksort
     - merge sort
-- [Graphs](#graphs)
+- [Graflar _(Graphs)_](#graphs)
     - directed
     - undirected
     - adjacency matrix
     - adjacency list
     - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
+- [Üsttekileri öğrendikten sonra öğrenilmesi gerekenler](#even-more-knowledge)
+    - [Öz yineleme _(Recursion)_](#recursion)
+    - [Dinamik programlama _(Dynamic Programming)_](#dynamic-programming)
+    - [Nesne yönelimli programlama](#object-oriented-programming)
+    - [Dizayn patternleri _(Design Patterns)_](#design-patterns)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
+    - [Önbellekler _(Caches_)](#caches)
+    - [İşlemler ve iş dizileri _(Processes and Threads)_](#processes-and-threads)
     - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
+    - [Yazılım testi _(Software Testing)_](#testing)
+    - [İşletim sistemlerinde zamanlama _(OS Scheduling)_](#scheduling)
     - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
+    - [Stringler üzerinde işlem yapma ve arama _(String searching & manipulations)_](#string-searching--manipulations)
 - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+- [Öğrendiklerin gözden geçir](#final-review)
+- [Öğrendikleri sınama zamanı !](#coding-question-practice)
+- [Kendini daha da zorla !](#coding-exerciseschallenges)
+- [İş görüşmesine hazır olduğunda yapman gerekenler](#once-youre-closer-to-the-interview)
 - [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [İş görüşmesine psikolojik olarak hazırlanmak](#be-thinking-of-for-when-the-interview-comes)
+- [Görüşme sırasında sende soru sor !](#have-questions-for-the-interviewer)
+- [Google'a kabul edildin !](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 

@@ -18,74 +18,66 @@ Translations:
 
 ## 구글 인터뷰 대학이란?
 
-구글 인터뷰 대학은 웹 개발자(컴퓨터공학 학위가 없고 독학한)에서 구글의 소프트웨어 엔지니어가 되기 위한 나의 몇 달 간의 공부 계획이다.
+구글 인터뷰 대학은 웹 개발자(컴퓨터공학 학위 없이 독학한)에서 구글의 소프트웨어 엔지니어가 되기 위한 나의 몇 달 간의 공부 계획이다.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes.
+이 기나긴 리스트는 **구글 코칭 노트**에서 선별되고 확장된 것으로 여러분이 알아야 할 내용이다. 맨 아래에는 인터뷰에 등장하거나 문제를 푸는 데에 도움이 될 만한 추가적인 내용이 있다. 많은 내용이 Steve Yegge의  "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"이라는 책에서 나왔으며, 때때로 구글 코칭 노트의 내용을 그대로 담고있기도 하다.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from 
-software/web development to software engineering (where computer science knowledge is required). If you have 
-many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+나는 Yegge의 추천으로부터 여러분이 알아야만 할 내용들을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다 
+만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다. [더 보기](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-If you have many years of software/web development experience, note that Google views software engineering as 
-different from software/web development and they require computer science knowledge.
+만약 당신이 여러 해의 소프트웨어/웹 개발 경험을 가지고 있다면, 구글은 소프트웨어 엔지니어링을 소프트웨어/웹 개발과 다르게 바라보고 있으며 컴퓨터과학 지식을 요구한다는 사실에 주목하도록 하자.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
-
+신뢰할만한 엔지니어, 혹은 시스템 엔지니어가 되고 싶다면 선택적 주제 목록(네트워크, 보안 등)을 더 공부하도록 하자.
 ---
 
 ## Table of Contents
 
-- [What is it? ](#what-is-it)
+- [구글 인터뷰 대학이란?](#what-is-it)
 - [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
+- [How to use it?](#how-to-use-it)
+- [구글 분위기 내기](#get-in-a-googley-mood)
+- [Did I Get the Job](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
+- [당신은 멍청하지 않다](#dont-feel-you-arent-smart-enough)
+- [구글에 대하여](#about-google)
+- [영상자료에 관하여](#about-video-resources)
+- [인터뷰 과정 & 일반적인 인터뷰 준비](#interview-process--general-interview-prep)
+- [인터뷰를 위한 언어 정하기](#pick-one-language-for-the-interview)
+- [도서 목록](#book-list)
+- [시작하기 전에](#before-you-get-started)
+- [목록에 없는 내용](#what-you-wont-see-covered)
+- [사전 지식](#prerequisite-knowledge)
+- [일일 계획](#the-daily-plan)
+- [알고리즘 복잡도 / Big-O / 점근적 분석](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [자료구조](#data-structures)
+    - [배열](#arrays)
+    - [링크드 리스트](#linked-lists)
+    - [스택](#stack)
+    - [큐](#queue)
+    - [해쉬 테이블](#hash-table)
+- [추가 지식](#more-knowledge)
+    - [이진 검색](#binary-search)
+    - [비트 연산](#bitwise-operations)
+- [트리](#trees)
+    - [트리 - 배경지식](#trees---notes--background)
+    - [이진 탐색 트리: BSTs](#binary-search-trees-bsts)
+    - [힙 / 우선순위 큐 / 이진 힙](#heap--priority-queue--binary-heap)
+    - 균형 탐색 트리 (간단한 개념)
+    - 트리운행: 전위운행, 중위운행, 후위운행, 너비우선탐색(BFS), 깊이우선탐색(DFS)
+- [정렬](#sorting)
+    - 선택정렬
+    - 삽입정렬
+    - 힙정렬
+    - 퀵정렬
+    - 병합정렬
+- [그래프](#graphs)
+    - 방향 그래프
+    - 무방향 그래프
+    - 인접행렬
+    - 인접리스트
+    - 운행: 너비우선탐색(BFS), 깊이우선탐색(DFS)
 - [Even More Knowledge](#even-more-knowledge)
     - [Recursion](#recursion)
     - [Dynamic Programming](#dynamic-programming)

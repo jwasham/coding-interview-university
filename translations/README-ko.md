@@ -40,7 +40,7 @@ Translations:
 - [How to use it?](#how-to-use-it)
 - [구글 분위기 내기](#get-in-a-googley-mood)
 - [Did I Get the Job](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
+- [팔로우 하려면](#follow-along-with-me)
 - [당신은 멍청하지 않다](#dont-feel-you-arent-smart-enough)
 - [구글에 대하여](#about-google)
 - [영상자료에 관하여](#about-video-resources)
@@ -215,9 +215,9 @@ I'm in the queue right now. Hope to interview soon.
 
     Thanks for the referral, JP.
 
-## Follow Along with Me
+## 팔로우 하려면
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+나의 이야기: [내가 구글 인터뷰를 풀 타임으로 8 개월 동안 공부한 이유](https://www.vobour.com/book/view/fiRGQMcmRkaw7pgpL) (원문 : [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13))
 
 I'm on the journey, too. Follow along:
  

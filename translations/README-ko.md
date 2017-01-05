@@ -94,14 +94,14 @@ Translations:
     - [시스템 루틴의 구현](#implement-system-routines)
     - [문자열 검색 & 조작](#string-searching--manipulations)
 - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
+- [최종 리뷰](#final-review)
+- [코딩 문제 연습](#coding-question-practice)
+- [코딩 연습 / 도전](#coding-exerciseschallenges)
+- [인터뷰가 얼마 남지 않았을 때](#once-youre-closer-to-the-interview)
+- [이력서](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [직업을 갖게 되었을 때](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 

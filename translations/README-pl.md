@@ -17,8 +17,7 @@ Tłumaczenia:
     - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
     - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
 
-## Czym to w zasadzie jest?
-
+## Co to jest?
 Jest to mój wielomiesięczny program nauczania mający na celu awans z poziomu web developera (samouka, bez studiów informatycznych)
 do poziomu inżyniera oprogramowania w Google.
 <!-- This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer. -->
@@ -59,9 +58,9 @@ więcej z dodatkowej listy (sieć, bezpieczeństwo).
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
+- [Co to jest?](#co-to-jest)
+- [Dlaczego?](#dlaczego)
+- [Jak używać?](#jak-używać)
 - [Get in a Googley Mood](#get-in-a-googley-mood)
 - [Did I Get the Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
@@ -180,13 +179,21 @@ więcej z dodatkowej listy (sieć, bezpieczeństwo).
 
 ---
 
-## Why use it?
+## Dlaczego?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
+Realizuję ten plan, aby przygotować się do mojej rozmowy kwalifikacyjnej w Google.
+Tworzyłem strony internetowe, serwisy i rozpoczynałem startupy od 1997 roku.
+Ukończyłem studia ekonomiczne, nie informatyczne. Odniosłem wiele sukcesów w swojej karierze,
+ale chcę pracować w Google. Chcę współtworzyć większe systemy i mieć większe pojęcie
+o systemach komputerowych, wydajności algorytmów, wydajności struktur danych,
+językach niskiego poziomu i o tym jak to wszystko działa.
+Jeśli nie znasz żadnej z tych rzeczy, Google Cię nie zatrudni.
+
+<!-- I'm following this plan to prepare for my Google interview. I've been building the web, building
 services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
 been very successful in my career, but I want to work at Google. I want to progress into larger systems
 and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+low-level languages, and how it all works. And if you don't know any of it, Google won't hire you. -->
 
 When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
 traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.

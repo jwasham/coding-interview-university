@@ -165,9 +165,11 @@ thousands of associative arrays, but I've never created data structures from scr
 But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
 months. If you are familiar with a lot of this already it will take you a lot less time.
 
-## Get in a Googley Mood
+## Psikolojik olarak kendini hazırlanmak
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+"[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" posterini yazdır ve görebileceğin bir yere as !</br>
+
+_Çeviri Notu : "Googler" kelimesi google'da çalışmak istyenlere deniyor. "Future Googler" ise Google'da çalışmaya aday demek._
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 

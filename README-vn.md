@@ -748,7 +748,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 
 ## Cây
 
-- ### Cây - Ghi chú và kiến thức nền
+- ### Cây - Ghi chú và kiến thức cơ bản
     - [ ] [Chuỗi bài giảng: Căn bản về cây](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Chuỗi bài giảng: Cây](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Xây dựng cây cơ bản.
@@ -820,7 +820,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] [CS 61B Lecture 24: Priority Queues - video](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Xây dựng Heap với thời gian tuyến tính `O(n)`](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] Tự cài đặt max-heap:
-        - [ ] `insert`
+        - [ ] `insert` - thêm phần tử vào heap 
         - [ ] `sift_up` - cần thiết cho hàm `insert`.
         - [ ] `get_max` - trả về phần tử lớn nhất mà không xóa nó khỏi heap
         - [ ] `get_size()` - trả về số lượng các phần từ trong một heap
@@ -847,7 +847,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - Tôi không khuyến khích sắp xếp một danh sách liên kết, nhưng sắp xếp trộn (Merge Sort) có vẻ hữu dụng trong trường hợp đó.
         - [Sắp xếp trộn trên danh sách liên kết](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- Với sắp xếp vun đống (Heapsort), xem lại see cấu trúc Heap ở trên. Sắp xếp vun đống tốt, nhưng không ổn định.
+- Với sắp xếp vun đống (Heapsort), xem lại cấu trúc Heap ở trên. Sắp xếp vun đống tốt, nhưng không ổn định.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
@@ -952,7 +952,7 @@ Nếu bạn muốn biết thêm chi tiết trong chủ đề này, xem qua phầ
 - Yegge: Nếu bạn có cơ hội, hãy thử nghiên cứu các thuật toán đẹp hơn:
     - [ ] Thuật toán tìm đường đi ngắn nhất của Dijkstra - xem phần trên - 6.006
     - [ ] A*
-        - [ ] [Thuật toán tìm kiếm A sao (A*)](https://en.wikipedia.org/wiki/A*_search_algorithm)
+        - [ ] [Thuật toán tìm kiếm A* (A*)](https://en.wikipedia.org/wiki/A*_search_algorithm)
         - [ ] [Hướng dẫn cài đặt thuật toán tìm đường đi A* - video](https://www.youtube.com/watch?v=KNXfSOx4eEE)
         - [ ] [Thuật toán tìm đường A* (E01: giải thích thuật toán) - video](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 

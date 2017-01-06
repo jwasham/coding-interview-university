@@ -169,7 +169,8 @@ months. If you are familiar with a lot of this already it will take you a lot le
 
 "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" posterini yazdır ve görebileceğin bir yere as !</br>
 
-_Çeviri Notu : "Googler" kelimesi google'da çalışmak istyenlere deniyor. "Future Googler" ise Google'da çalışmaya aday demek._
+_Googler : Google'da çalışmak isteyen kişi._
+_Future Googler : Google çalışmaya aday kişi._
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 

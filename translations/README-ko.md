@@ -575,32 +575,32 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     If some of the lectures are too mathy, you can jump down to the bottom and
     watch the discrete mathematics videos to get the background knowledge.
 
-## Data Structures
+## 자료구조
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+- ### 배열
+    - 자동 리사이징 벡터 구현하기
+    - [ ] 설명:
+        - [배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UCBerkley CS61B - 선형과 다차원 배열 (영상)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+        - [배열 기본 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [다차원 배열 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [동적 배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [가변 배열 (영상)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [가변 배열 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [배열 리사이징 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+    - [ ] 벡터 구현하기 (자동 리사이징을 포함한 동적 배열):
+        - [ ] 배열, 포인터 및 인덱싱 대신하여 특정 인덱스에 접근하는 포인터 연산을 통한 코딩 연습
+        - [ ] 메모리 할당을 포함한 새 배열
+            - 배열 메소드 등의 기능을 활용하지 않으면서 정수 배열에 메모리를 할당할 수 있어야 함
+            - 16으로 시작하거나 시작하는 숫자가 크다면 2의 제곱수(16, 32, 64, 128)로 시작
+        - [ ] size() - 항목의 개수
+        - [ ] capacity() - 들어갈 수 있는 항목의 최대 개수number of items it can hold
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(index) - 인덱스에 있는 항목을 돌려주고, 인덱스가 범위 밖이면 에러를 냄
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
+        - [ ] insert(index, item) - index에 item을 삽입하고 기존 인덱스의 값부터 쭉 오른쪽으로 쉬프트
+        - [ ] prepend(item) - 맨 앞에 원소를 삽입
+        - [ ] pop() - 마지막 원소를 삭제하고 값을 돌려준다
         - [ ] delete(index) - delete item at index, shifting all trailing elements left
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
@@ -1358,47 +1358,46 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## Coding Question Practice
+## 코딩 문제 연습
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+이제 당신은 위의 컴퓨터 과학 주제들을 모두 알고 있으므로, 코딩 문제에 답하는 것을 연습할 차례이다.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**코딩 문제 연습은 프로그래밍 문제에 대한 답을 외우는 것이 아니다.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+당신에게 프로그래밍 문제를 푸는 연습이 필요한 이유:
+- 문제 인식, 그리고 어떤 자료구조와 알고리즘이 언제 필요한지
+- 문제의 조건을 모으기
+- 인터뷰를 하듯 당신이 문제를 푸는 과정을 말하기
+- 컴퓨터가 아닌 종이나 화이트보드에 코딩하기
+- 당신의 풀이의 시간, 공간 복잡도를 제시하기
+- 당신의 해답을 테스팅하기
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+
+체계적이고 소통하는 인터뷰에서의 문제풀이에 관한 좋은 시작점이 있다. 당신은 프로그래밍 인터뷰 책에서 이 서식을 얻을 수도 있지만, 나는 이 것이 가장 좋다고 본다: [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+집에 화이트보드가 없는가? 그럴 수 있다. 나는 커다란 화이트보드를 가진 괴짜이다. 화이트보드 대신에 상점에서 큰 도화지를 사오자.
+소파에 앉아서 연습할 수 있다. 이 것은 내 "소파 화이트보드"이다. 크기 비교를 위해 사진에 펜을 추가하였다. 펜을 쓰면, 곧 지우고 싶어질 것이다.
+금방 지저분해 진다.
 
 ![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+보충:
 
 - [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**읽고 프로그래밍 문제 풀기 (순서대로):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - answers in C, C++ and Java
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
-See [Book List above](#book-list)
+[위의 도서 목록](#book-list)을 보라
 
 ## Coding exercises/challenges
 

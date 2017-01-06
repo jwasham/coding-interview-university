@@ -32,7 +32,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Peki john Google'a kabul edildi mi ?](#did-i-get-the-job)
 - [John'u takip et](#follow-along-with-me)
 - [Sakın ! Kendini yetersiz görme](#dont-feel-you-arent-smart-enough)
-- [Google hakkında kısa bilgiler](#about-google)
+- [Google kimdir, nedir ?](#about-google)
 - [Video dersler hakkında kısa bilgiler](#about-video-resources)
 - [Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?](#interview-process--general-interview-prep)
 - [İş görüşmesi için bir programlama dili seç !](#pick-one-language-for-the-interview)
@@ -198,7 +198,20 @@ Ek olarak, John'u çıktığı yolculukta aşağıdaki linkelerden de takip edeb
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## Google kimdir, nedir ?
+
+Bu kısımda Google ile ilgili bilgiler yer almakta. Google nasıl bir şirkettir, nasıl kurulmuş ve çalışma ortamı nasıl gibi.
+Fakat, makalenin orjinalinde verilen kaynakların hepsi iniglizce olarak yer almakta. Orjinal kaynakların karşılığı olarak türkçe kaynaklar kullanıldı.
+Malesef, hepsine denk türkçe kaynak şu anda mevcut değil. Bu yüzden, türkçe kaynaklara ve ingilizce kaynaklara ait farklı linkler ile karşılaşacaksın.
+
+----- Türkçe Kaynaklar -----
+
+- [ ] [Google'ın tarihini anlatan belgesel](https://www.youtube.com/watch?v=pN_k_laf40Q)
+- [ ] [Google Türkiye ofisini tanıtan video](https://www.youtube.com/watch?v=pN_k_laf40Q)
+- [ ] [Google'ın çalışma kültürünü anlatan kısa yazı](https://www.google.com/intl/tr_tr/about/company/facts/culture/)
+- [ ] [Google ofislerinin bulunduğu ülkelerin listesi](https://www.google.com/intl/tr_tr/about/company/facts/locations/)
+
+----- Orjinal Kaynaklar -----
 
 - [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [ ] How Search Works:

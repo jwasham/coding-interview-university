@@ -1,20 +1,20 @@
 # 구글 인터뷰 대학(Google Interview University)
 
-Translations: 
-- [中文版本](translations/README-cn.md)
-- translations in progress:
-    - [Español](https://github.com/jwasham/google-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
-    - [French](https://github.com/jwasham/google-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
-	- [Korean](https://github.com/jwasham/google-interview-university/issues/118)
+번역: 
+- [중국어](translations/README-cn.md)
+- 진행 중인 번역:
+    - [스페인어](https://github.com/jwasham/google-interview-university/issues/80)
+    - [힌디어](https://github.com/jwasham/google-interview-university/issues/81)
+	- [히브리어](https://github.com/jwasham/google-interview-university/issues/82)
+    - [바하사 인도네시아어](https://github.com/jwasham/google-interview-university/issues/101)
+    - [아랍어](https://github.com/jwasham/google-interview-university/issues/98)
+    - [베트남어](https://github.com/jwasham/google-interview-university/issues/92)
+    - [터키어](https://github.com/jwasham/google-interview-university/issues/90)
+    - [프랑스어](https://github.com/jwasham/google-interview-university/issues/89)
+    - [러시아어](https://github.com/jwasham/google-interview-university/issues/87)
+    - [우크라이나어](https://github.com/jwasham/google-interview-university/issues/106)
+    - [브라질 포르투갈어](https://github.com/jwasham/google-interview-university/issues/113)
+	- [한국어](https://github.com/jwasham/google-interview-university/issues/118)
 
 ## 구글 인터뷰 대학이란?
 

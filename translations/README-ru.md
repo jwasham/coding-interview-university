@@ -1014,7 +1014,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] приспособленец
     - [ ] [Глава 6 (Часть 1) - Паттерны (видео)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
     - [ ] [Глава 6 (Часть 2) - Абстрактное представление, Общая иерархия, Актер – Роль, Одиночка, Наблюдатель, Делегирование (видео)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Глава 6 (Часть 3) - Адаптер, Фасад, Неизменяемый объект,	интерфейс типа read-only, Заместитель (видео)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Глава 6 (Часть 3) - Адаптер, Фасад, Неизменяемый объект, интерфейс типа read-only, Заместитель (видео)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Серия уроков (27 видео)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Паттерны проектирования](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - Я знаю, что классической книгой для изучения паттернов является "Приемы объектно-ориентированного проектирования. Паттерны проектирования" (Джон Влиссидес, Ральф Джонсон, Ричард Хелм, Эрих Гамма), но "Паттерны проектирования" отлично подходят для тех, кто только начал изучать ООП.

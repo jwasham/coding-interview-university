@@ -226,8 +226,8 @@ I'm on the journey, too. Follow along:
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
+## 똑똑함이 부족하다고 생각하지 말자
+- 구글의 엔니지어들은 똑똑하지만, 많은 사람들이 구글에서 일하고 있음에도 스스로의 똑똑함을 자신하지 못한다.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 

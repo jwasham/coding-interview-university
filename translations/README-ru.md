@@ -41,8 +41,8 @@
 - [О Google](#О-google)
 - [О видео ресурсах](#О-видео-ресурсах)
 - [Процесс собеседования & Основное в подготовке к интервью](#Процесс-собеседования-Основное-в-подготовке-к-интервью)
-- [Выберите один язык для собеседования](#pick-one-language-for-the-interview)
-- [Список книг](#book-list)
+- [Выберите один язык для собеседования](#Выберите-один-язык-для-собеседования)
+- [Список книг](#Список-книг)
 - [Перед тем как ты начнешь](#before-you-get-started)
 - [Что еще не охвачено](#what-you-wont-see-covered)
 - [Необходимые знания](#prerequisite-knowledge)
@@ -253,18 +253,18 @@ Google не возьмёт тебя на работу.
 Их называют MOOCs. Некоторые курсы не имеют круглогодичного доступа и вам нужно подождать несколько месяцев, 
 прежде чем получите к ним доступ. Курсы на Lynda.com платные.
     
-    Я был бы вам благодарен за помощь в добавлении бесплатных, всегда доступных публичных ресурсов, таких как видео с YouTube
-    сопровождающих онлайн курсы. Мне нравяться использовать университетские лекции.
+    Я был бы вам благодарен за помощь в добавлении бесплатных, всегда доступных публичных ресурсов, таких 
+    как видео с YouTube сопровождающих онлайн курсы. Мне нравяться использовать университетские лекции.
 
 
 ## Процесс собеседования & Основное в подготовке к интервью
 
 - [ ] Видео:
     - [ ] [Как работать в Google: Подготовка к собеседованию на позицию инженера (видео)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [Как работать в Google: Пример кодированияg/Собеседование инженера (видео)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [Как работать в Google: Пример кодирования/Собеседование инженера (видео)](https://www.youtube.com/watch?v=XKu_SEDAykw)
     - [ ] [Как работать в Google - Подготовка кандидатов (видео)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
     - [ ] [Советы для технического собеседования от рекрутеров из Google (видео)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [Как работать в Google: Подготовка технического резюме] (видео)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [Как работать в Google: Подготовка технического резюме (видео)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] Статьи:
     - [ ] [Стать гуглером за три шага](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
@@ -275,7 +275,7 @@ Google не возьмёт тебя на работу.
 
 - [ ] Подготовительные курсы:
     - [ ] [Собеседование инженера-программиста (платный курс)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Как самосттоятельно подготовиться с собеседованию на позицию инженера-программиста от бывшего сотрудника Google
+        - Как самостоятельно подготовиться r собеседованию на позицию инженера-программиста от бывшего сотрудника Google
         
 - [ ] Дополнительно (это не рекомендация Google, а моя собственная):
     - [ ] [ABC: Программируй всегда](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -284,170 +284,172 @@ Google не возьмёт тебя на работу.
     - [ ] [Что думает Google о найме, управлении и культуре](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
     - [ ] [Эффективное кодирование на доске в процессе собеседования](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [ ] Прохождения собеседования по программированию набор 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+        - [ ] [Gayle L McDowell - Прохождения собеседования по программированию (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [ ] [Прохождения собеседования по программированию с Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] Как получить работу в большой четверке:
-        - [ ] ['Как получить работу в большой четверк - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+        - [ ] ['Как получить работу в большой четверке - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Ошибки на собеседованиях в Google](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Выберите один язык для собеседования
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Я написал небольшую статью об этом: [Важно: Выберите один язык для собеседования в Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+На этапе собеседования, когда требуется программировать, вы можете использовать наиболее комфортный для вас язык 
+программирования. Для Google лучшим выбором будут следующие:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Так же подойдут:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Для вас должно быть комфортно писать программы на выбранном языке и вы должны его хорошо знать.
 
-Read more about choices:
+Подробнее о выборе:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](../programming-language-resources.md)
+[Ресурсы по языкам программирования вы можете найти тут](../programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Вы найдете кое-что по С, С++ и Python ниже, потому-что я еще в процессе обучения.
 
-## Book List
+## Список книг
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Это краткий список, того чем я пользовался. Он сокращен, для того что-бы сэкономить ваше время.
 
-### Interview Prep
+### Подготовка к собеседованию
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+- [ ] [Собеседование по программированию в подробнастях: Секреты получения твоей следующей работы, 2-е издание](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - ответы на  C++ и Java
+    - рекомендации Google по обучению кандидатов
+    - это отличная разминка перед подробным разбором собеседования по программированию
+    - не так уж и сложно, некоторые задачи проще чем вам кажутся на собеседовании (из того что я прочитал)
+- [ ] [Разбор собеседования по программированию, 6-е издание](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - ответа на Java
+    - рекомендована [Google Careers сайт](https://www.google.com/about/careers/how-we-hire/interview/)
+    - Если вы видели ссылку на "The Google Resume", эта книга заменена "Разбор собеседования по программированию" 
+    ("Cracking the Coding Interview").
 
-If you have tons of extra time:
+Если у вас есть много свободного времени:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+- [ ] [Элементы собеседования по программированию](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+    - весь код написан на C++, полезна если вы планируете использовать C++ на собеседовании 
+    - хорошая книга, описывающая решения общих задач.
 
-### Computer Architecture
+### Архитектура компьютера
 
-If short on time:
+Если мало времени:
 
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization 
+- [ ] [Писать отличный код: Том 1: Понимание компьютера](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - Книга была опубликована в 2004 и отчасти она устарела, но благодаря ей вы быстро поймете как устроены компьютеры.
+    - Автор придумал HLA, поэтому скептически отнеситесь к примерам и упоминаниям HLA. Широко не используется, но содержит ряд примеров, демострирующих assembler.
+    - Чтение следующих глав не займет много времени и даст хорошую основу:
+        - Глава 2 - Представление в числовой форме
+        - Глава 3 - Двоичная арифметика и битовые операции
+        - Глава 4 - Представление числа с плавующей запятой
+        - Глава 5 - Представление символа
+        - Глава 6 - Организация памяти и доступа
+        - Глава 7 - Составные типы данных и объекты в памяти
+        - Глава 9 - Архитектура CPU
+        - Глава 10 - Набор инструкций
+        - Глава 11 - Архитектура и организация памяти 
 
-If you have more time (I want this book):
+Если вы рапологаете свободным временем (я хочу купить эту книгу):
 
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+- [ ] [Архитектура компьютера, 5-е издание: Количественный подход](https://www.amazon.com/dp/012383872X/)
 
-### Language Specific
+### По языкам программирования
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Вам необходимо выбрать один язык для интервью (смотри выше).** Здесь вы найдете мои рекомендации по языкам. У меня нет информации по всем языкам, но если есть у вас - добро пожаловать.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Если вы читали одну из них, то у вас есть достаточно знаний по алгоритмам и структурам данных и вы можете приступить к решению задач по программированию.
+**Вы можете пропустить все видео лекции в этом разделе**, если не хотите повторить темы.
 
-[Additional language-specific resources here.](../programming-language-resources.md)
+[Дополнительные ресурсы по языкам программирования здесь](../programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Я не читал обе, но они весьма полезны и написаны Седжвиком (Sedgewick). Он отличный автор.
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) 
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+- [ ] [Алгоритмы на C++, Части 1-4: Основы, Структуры данных, Сортировка, Поиск](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) 
+- [ ] [Алгоритмы на C++ Часть 5: Алгоритмы графов](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Если вы можете порекоммендовать литературу по C++, которая лучше, сообщите мне об этом. Я ищу лучшие книги.
 
 ### Java
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
-        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
-        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
+- [ ] [Алгоритмы (Седжвик и Вайн)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - книга с видео контентом (и Седжвик!):
+        - [Алгоритмы I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
+        - [Алгоритмы II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
 
-OR:
+или:
 
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+- [ ] [Структуры данных и алгоритмы на Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - авторы Goodrich, Tamassia, Goldwasser
+    - используется в Беркли США как опциональный учебник по введению в CS
+    - смотрите мой отчет по книги по Python ниже. Эта книга содержит те же темы.
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
+- [ ] [Структуры данных и алгоритмы на Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - авторы Goodrich, Tamassia, Goldwasser
+    - Я люблю эту книгу. Она содержит все что нужно и даже больше.
     - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - мой отчет по книге: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### Опциональные книги
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**Некоторые рекомендую эти книги, но я думаю это перебор, если только вы не инженер-программист с большим опытом работы и не ожидаете более сложного собеседования.
 
-- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
-        - class textbook on data structures and algorithms
-            - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - To quote Yegge: "More than any other book it helped me understand just how astonishingly commonplace
-        (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
-        covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
-        of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
-        them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
-        great way to learn how to identify hundreds of problem types."
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+- [ ] [Руководство по разработке алгоритмов](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+    - Как обзор и описание проблем
+    - Некоторые алгоритмы вряд ли попадутся вам на собеседовании.
+    - Эта книга состоит из 2-х частей:
+        - классный учебник по структурам данных и алгоритмам
+            - преимущества:
+                - отличный учебник, содержащий обзор существующих алгоритмов
+                - автор описывает реальный опыт решения задач как академических, так и промышленных
+                - примеры кода написаны на C
+            - недостатки:
+                - местами изложение может быть не очевидным и не понятным как в CLRS (Cormen, Leiserson, Rivest, Stein), некоторые темы лучше описаны в CLRS 
+                - главы 7, 8, 9 сложно понять, некоторые вещи плохо разъяснены или требуют больших знаний чем есть у меня
+                - не поймите меня не правильно: Мне нравиться Skiena, ее стиль и манера изложения, но я не могу стать физически Stony Brook.
+        - каталог алгоритмов:
+            - это реальная причина, почему следует купить эту книгу.
+            - о том как дойти до этой части. Обновлю, когда изучу этот раздел.
+    - Цитата Йеги: "Больше чем какая-либо другая книга, эта помогла мне понять насколько банальны задачи на графы - они должны
+        быть в инструментарии каждого программиста. Книга так же включает в себя разбор базовых структур данных и алгоритмов сортировки,
+        что является приятным бонусом. Но важнейшей частью стала вторая часть книги, которая написана как энциклопедия, описывающая большое
+        количество различных алгоритмических задач и способов их решения без лишних деталей. Почти каждая страница-описание содержит 
+        изображение, облегчающее запоминание. Это полезный способ, позволяющий запомнить и в последствии идентифицировать сотни
+        типов задач."
+ 
+    - Можете ее арендовать
+    - Half.com - отличный ресурс, где можно заказать книги по выгодным ценам.
+    - Ответы:
+        - [Решения](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [Решения](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+    - [Опечатки](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
-- [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+- [ ] [Введение в алгоритмы](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+    - **Важно:** Чтение этой книги будет полезно только для повторения алгоритмов и структур данных. Она не научит вас программировать.
+    - Цитата Йеги: "Но если вы хотите идти на собеседование, отложите его пока не изучите эту книгу."
+    - Half.com - отличный ресурс, где можно заказать книги по выгодным ценам.
+    - известная как CLR, иногда CLRS, потому что Stein опоздал на игру
 
-- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+- [ ] [Жемчужины программирования](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+    - В первых двух главах представлены решения задач программирования (в некоторых из них используются устаревшие типы данных), но
+      это только введение. Это руководство по разработке программ и архитектуре, такое же как Code Complete, но более краткое.   
 
-- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
-    - Would rather spend time on coding problems from another book or online coding problems.
+- ~~"Алгоритмы и программирование: Проблемы и решения" автор Shen~~
+    - Отличная книга, но после разбора нескольких задач написанных на Pascal я разочаровался в его синтаксисе.     
+    - Лучше провести время решая задачи по программированию из других книг или онлайн ресурсов.
 
 
 ## Before you Get Started

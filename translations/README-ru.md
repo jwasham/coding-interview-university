@@ -75,10 +75,10 @@
     - матрица смежности
     - лист смежности
     - обходы: BFS, DFS
-- [Еще больше знаний](#even-more-knowledge)
-    - [Рекурсия](#recursion)
-    - [Объектно-ориентированное программирование](#object-oriented-programming)
-    - [Шаблоны проектирования](#design-patterns)
+- [Еще больше знаний](#Еще-больше-знаний)
+    - [Рекурсия](#Рекурсия)
+    - [Объектно-ориентированное программирование](#Объектно-ориентированное-программирование)
+    - [Шаблоны проектирования](#Шаблоны-проектирования)
     - [Комбинаторика & Вероятность](#combinatorics-n-choose-k--probability)
     - [NP, NP-полные and Аппроксимирующие алгоритмы](#np-np-complete-and-approximation-algorithms)
     - [Кэш](#caches)
@@ -957,68 +957,68 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 Вы найдете больше практических задач на графах в книге Стивена Скина (см раздел книги ниже) и в книгах о прохождении интервью.
 
-## Even More Knowledge
+## Еще больше знаний
 
-- ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - when it is appropriate to use it
-    - how is tail recursion better than not?
-        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+- ### Рекурсия
+    - [ ] Лекции Стэнфорда по рекурсии и механизмам возврата:
+        - [ ] [Лекция 8 | Абстракции программирования (видео)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [Лекция 9 | Абстракции программирования (видео)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [Лекция 10 | Абстракции программирования (видео)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [Лекция 11 | Абстракции программирования (видео)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+    - когда уместно использование рекурсии?
+    - когда лучше использовать хвостовую рекурсию?
+        - [ ] [Что такое хвостовая рекурсия и почему её использование нежелательно?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [Хвостовая рекурсия (видео)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Object-Oriented Programming
-    - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] SOLID OOP Principles:
-        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
-        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
-            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
-            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+- ### Объектно-ориентированное программирование
+    - [ ] [Дополнительно: Серия уроков по UML 2.0 (видео)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
+    - [ ] Объектно-ориентированная разработка программного обеспечения: Разработка программного обеспечения с использованием UML и Java (21 видео):
+        - Можно пропустить эту часть, если у вас есть хорошее понимание концепции ООП и практик проектирования.
+        - [ООП: Разработка программного обеспечения с использованием UML и Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] Принципы дизайна ООП (SOLID):
+        - [ ] [Боб Мартин SOLID принципы объектно-ориентированного программирования и гибкое проектирование (видео)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+        - [ ] [Шаблоны проектирования SOLID в C# (видео)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
+        - [ ] [Принципы SOLID (видео)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
+        - [ ] S - [Принцип единственной ответственности](http://www.oodesign.com/single-responsibility-principle.html) | [Одна зона ответственности для каждого объекта](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+            - [больше подробностей](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+        - [ ] O - [Принцип открытости/закрытости](http://www.oodesign.com/open-close-principle.html)  | [Программные сущности должны быть готовы для расширения, но не для модификации](https://en.wikipedia.org/wiki/Open/closed_principle)
+            - [больше подробностей](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+        - [ ] L - [Принцип подстановки Барбары Лисков](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Функции, которые используют ссылки на базовые классы, должны иметь возможность использовать объекты производных классов, не зная об этом](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+            - [больше подробностей](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+        - [ ] I - [Принцип разделения интерфейса](http://www.oodesign.com/interface-segregation-principle.html) | Клиенты не должны быть вынуждены реализовывать интерфейсы, которые они не используют
+            - [Принцип разделения интерфейса за 5 минут (видео)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+            - [больше подробностей](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+        - [ ] D -[Принцип инверсии зависимостей](http://www.oodesign.com/dependency-inversion-principle.html) | Снизить зависимость в составе объектов
+            - [Что такое принцип инверсии зависимостей и почему он так важен](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+            - [больше подробностей](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
-- ### Design patterns
-    - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
-        - [ ] strategy
-        - [ ] singleton
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
-        - [ ] visitor
-        - [ ] factory, abstract factory
-        - [ ] facade
-        - [ ] observer
-        - [ ] proxy
-        - [ ] delegate
-        - [ ] command
-        - [ ] state
-        - [ ] memento
-        - [ ] iterator
-        - [ ] composite
-        - [ ] flyweight
-    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-    - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
-    - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+- ### Шаблоны проектирования
+    - [ ] [Краткий обзор UML (видео)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    - [ ] Изучите эти шаблоны:
+        - [ ] стратегия
+        - [ ] одиночка
+        - [ ] адаптер
+        - [ ] прототип
+        - [ ] декоратор
+        - [ ] посетитель
+        - [ ] фабричный метод, абстрактная фабрика
+        - [ ] фасад
+        - [ ] наблюдатель
+        - [ ] заместитель
+        - [ ] делегирование
+        - [ ] команда
+        - [ ] состояние
+        - [ ] хранитель
+        - [ ] итератор
+        - [ ] компоновщик
+        - [ ] приспособленец
+    - [ ] [Глава 6 (Часть 1) - Паттерны (видео)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    - [ ] [Глава 6 (Часть 2) - Абстрактное представление, Общая иерархия, Актер – Роль, Одиночка, Наблюдатель, Делегирование (видео)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Глава 6 (Часть 3) - Адаптер, Фасад, Неизменяемый объект, интерфейс типа read-only, Заместитель (видео)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Серия уроков (27 видео)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    - [ ] [Паттерны проектирования](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+        - Я знаю, что классической книгой для изучения паттернов является "Приемы объектно-ориентированного проектирования. Паттерны проектирования" (Джон Влиссидес, Ральф Джонсон, Ричард Хелм, Эрих Гамма), но "Паттерны проектирования" отлично подходят для тех, кто только начал изучать ООП.
+    - [ ] [Удобный справочник: 101 шаблон проектирования и советы для разработчиков](https://sourcemaking.com/design-patterns-and-tips)
 
 - ### Combinatorics (n choose k) & Probability
     - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)

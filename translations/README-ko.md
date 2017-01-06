@@ -158,21 +158,18 @@ Translations:
 
 ## Why use it?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+나는 구글 인터뷰를 준비하기 위해 이 계획을 따랐다. 1997년 부터 나는 웹과 서비스를 개발하고 스타트업을 세웠다. 나는 컴퓨터과학이 아닌 경제학 학위를 가지고 있다.
+나의 커리어는 굉장히 성공적이어왔지만, 나는 구글에서 일하고 싶었다. 나는 더 큰 시스템을 다루고 컴퓨터 시스템, 알고리즘 효율, 자료구조 퍼포먼스, 저급 언어 등과 그 것들이 어떻게 작동하는지에 대하여
+이해하고 싶었다. 그리고 당신이 그런 것들을 모른다면 구글은 당신을 채용하지 않을 것이다.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+내가 이 프로젝트를 시작했을 때, 나는 힙스택, Big-O, 트리, 그래프 운행 등에 대하여 전혀 아는 바가 없었다.
+만약 내가 정렬 알고리즘을 코딩해야했다면, 나는 그리 잘 하지 못했을 것이다.
+모든 사용했던 모든 자료 구조는 언어 안에서 구현 되어 있던 것들이고, 나는 그 것들이 보이는 것 아래서 어떻게 작동하고 있는지 알지 못했다.
+나는 진행 중인 프로세스가 메모리 부족 에러를 메세지를 보내지 않는 한 메모리를 관리할 필요가 없었고, 나는 회피방법을 찾아야만 했다.
+나는 몇몇 다차원 배열이나 연관 배열을 사용해왔지만, 자료구조를 처음부터 구현해본 적은 없었다.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+하지만 이 공부 계획을 진행하면서 나는 내가 고용될 것이라는 자신감을 갖게 되었다. 이 것은 내게 여러 달이 필요한 긴 계획이다.
+만약 당신이 이 중 많은 내용에 익숙하다면 시간은 훨씬 덜 들 것이다.
 
 ## How to use it
 

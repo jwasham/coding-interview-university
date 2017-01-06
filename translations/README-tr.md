@@ -175,12 +175,12 @@ _Çeviri Notu : "Googler" kelimesi google'da çalışmak istyenlere deniyor. "Fu
 
 ## Peki john Google'a kabul edildi mi ?
 
-Bu çevirinin yapıldığı tarihlerde John google'da görüşme için sıraya alınmıştı.
+Bu çevirinin yapıldığı tarihlerde John google'da görüşme için sıraya alınmıştı.</br>
 _Not : John'dan yeni haberler geldikçe güncellenecektir._
 
 ## John'u takip et
 
-John'un neden böyle bir yolculuğa çıktığına dair orjinal hikayesine : [bu linkten (ingilizce olarak)](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13) ulaşabilirsin.
+John'un neden böyle bir yolculuğa çıktığına dair orjinal hikayesine [bu linkten (ingilizce olarak)](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13) ulaşabilirsin.
 
 Ek olarak, John'u çıktığı yolculukta aşağıdaki linkelerden de takip edebilirsin :
  

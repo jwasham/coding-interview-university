@@ -173,11 +173,9 @@ _Çeviri Notu : "Googler" kelimesi google'da çalışmak istyenlere deniyor. "Fu
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Did I Get the Job?
+## Peki john Google'a kabul edildi mi ?
 
-I'm in the queue right now. Hope to interview soon.
-
-    Thanks for the referral, JP.
+Bu çevirinin yapıldığı tarihlerde John google'da görüşme için sıraya alınmıştı.
 
 ## Follow Along with Me
 

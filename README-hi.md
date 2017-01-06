@@ -93,7 +93,7 @@
     - [Math for Fast Processing](#math-for-fast-processing)
     - [Treap](#treap)
     - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
+    - [ज्यामिति, कॉन्वेक्स हल](#ज्यामिति-कॉन्वेक्स-हल)
     - [Discrete math](#discrete-math)
     - [मशीन लर्निंग](#मशीन-लर्निंग)
     - [गो](#गो)
@@ -1523,10 +1523,10 @@ Take coding challenges every day, as many as you can.
     - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
 
-- ### Geometry, Convex hull (विडियो)
-    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
-    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+- ### ज्यामिति, कॉन्वेक्स हल (विडियो)
+    - [ ] [लेखाचित्र अल्गोरिथम IV: ज्यामितीय एल्गोरिदम का परिचय - व्याख्यान ९](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
+    - [ ] [ज्यामितीय एल्गोरिदम: ग्रैहम और जारविस - व्याख्यान १०](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [डिवाइड और कॉन्कर: कॉन्वेक्स हल, माध्य ढूँढना](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Discrete math
     - see विडियो below
@@ -1554,15 +1554,15 @@ Take coding challenges every day, as many as you can.
         - Great book: Data Science from Scratch: First Principles with Python: https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X
         - Data School: http://www.dataschool.io/
 
-- ### जाओ
-    - [ ] विडियो:
+- ### गो
+    - [ ] विडियो:
         - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
         - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
         - [ ] [A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
-    - [ ] Books:
-        - [ ] [An Introduction to Programming in Go (read free online)](https://www.golang-book.com/books/intro)
-        - [ ] [The Go Programming Language (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
-    - [ ] [Bootcamp](https://www.golang-book.com/guides/bootcamp)
+    - [ ] पुस्तके:
+        - [ ] [गो प्रोग्रामिंग का परिचय (ऑनलाइन मुफ्त पढ़े)](https://www.golang-book.com/books/intro)
+        - [ ] [गो प्रोग्रामिंग लैंग्वेज (दोनोवन & केर्निघन)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
+    - [ ] [बूतकाम्प](https://www.golang-book.com/guides/bootcamp)
 
 --
 
@@ -1572,7 +1572,7 @@ Take coding challenges every day, as many as you can.
     above because it's just too much. It's easy to overdo it on a subject.
     You want to get hired in this century, right?
 
-- [ ] **More Dynamic Programming** (विडियो)
+- [ ] **और डायनामिक प्रोग्रामिंग** (विडियो)
     - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
     - [ ] [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
     - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)

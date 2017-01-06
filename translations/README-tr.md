@@ -211,22 +211,22 @@ Malesef, hepsine denk türkçe kaynak şu anda mevcut değil. Bu yüzden, türk�
 - [ ] [Google'ın çalışma kültürünü anlatan kısa yazı](https://www.google.com/intl/tr_tr/about/company/facts/culture/)
 - [ ] [Google ofislerinin bulunduğu ülkelerin listesi](https://www.google.com/intl/tr_tr/about/company/facts/locations/)
 
------ Orjinal Kaynaklar -----
+----- İngilizce Kaynaklar -----
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+- [ ] [Öğrenciler için google'ın kişisel gelişim kılavuzu](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] Arama motorlarının nasıl çalıştığını anlatan kaynaklar:
+    - [ ] [Arama motorlarının tarihini anlatan video](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [Google arama motorunun tarihi](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [Google arama motorunun nasıl çalıştığını anlatan kılavuz](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [Google çalışanı Matt Cutts'ın aramanın nasıl çalıştığını anlattığı video](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [Google'ın arama algoritmasını nasıl geliştirdiğini anlatan video](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] Google ile ilgili daha fazla bilgi:
+    - [ ] [Google' ın araması mobil cihazlarda nasıl çalışıyor](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [Google'ın arama sonuçlarını iyileştirmek için yaptığı çalışmalar](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [Google aramalarının geleceğini anlatan makale](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
     - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
 - [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
+- [ ] [Google'ın Ocak 2016 tarihinde yaptığı sunum](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
 ## About Video Resources
 

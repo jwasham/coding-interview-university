@@ -225,7 +225,7 @@ Malesef, hepsine denk türkçe kaynak şu anda mevcut değil. Bu yüzden, türk�
     - [ ] [Google'ın arama sonuçlarını iyileştirmek için yaptığı çalışmalar](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google aramalarının geleceğini anlatan makale](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
     - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [Google'ın nasıl çalıştığını anlatan kitap](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Google'ın Ocak 2016 tarihinde yaptığı sunum](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
 ## About Video Resources

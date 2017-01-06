@@ -965,7 +965,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] [Лекция 9 | Абстракции программирования (видео)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Лекция 10 | Абстракции программирования (видео)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Лекция 11 | Абстракции программирования (видео)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - когда уместно её использование
+    - когда уместно использование рекурсии?
     - когда лучше использовать хвостовую рекурсию?
         - [ ] [Что такое хвостовая рекурсия и почему её использование нежелательно?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Хвостовая рекурсия (видео)](https://www.youtube.com/watch?v=L1jjXGfxozc)
@@ -988,7 +988,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] I - [Принцип разделения интерфейса](http://www.oodesign.com/interface-segregation-principle.html) | Клиенты не должны быть вынуждены реализовывать интерфейсы, которые они не используют
             - [Принцип разделения интерфейса за 5 минут (видео)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
             - [больше подробностей](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Принцип инверсии зависимостей](http://www.oodesign.com/dependency-inversion-principle.html) | Снизить зависимость в составе объектов.
+        - [ ] D -[Принцип инверсии зависимостей](http://www.oodesign.com/dependency-inversion-principle.html) | Снизить зависимость в составе объектов
             - [Что такое принцип инверсии зависимостей и почему он так важен](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
             - [больше подробностей](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 

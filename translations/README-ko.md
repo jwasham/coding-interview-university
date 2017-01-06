@@ -316,27 +316,27 @@ Read more about choices:
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
-## Book List
+## 도서 목록
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+아래의 목록은 내가 공부했던 책들보다는 적다. 당신의 시간을 절약하기 위해 몇몇 책들은 생략하였다.
 
-### Interview Prep
+### Interview Prep (인터뷰 준비를 위해서)
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - C++ 과 JAVA 문제의 답변을 위해서
+    - 구글 지원자를 위해 추천되었기 때문에
+    - Cracking the Coding Interview 책을 위한 좋은 사전학습용 책이기 때문에
+    - 어렵지 않고, 당신이 인터뷰에서 마주할 대부분의 문제들 보다 쉽기 때문에
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+    - JAVA 문제의 답변을 위해서
+    - Google Careers site에서 추천되었기 때문에 [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
+    - 만일 당신이 다른 사람들의 "The Google Resume"를 참고자료로 봤다면, "Cracking the Coding Interview"는 그것을 대신할 수 있는 책이다.
 
-If you have tons of extra time:
+만일 당신이 많은 여유 시간이 있다면: 
 
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+    - 모든 코드가 C++로 되어있다, 만일 당신의 인터뷰에서 C++를 사용하길 고려한다면 정말 좋은 책이다.
+    - 일반적인 문제들을 해결하기 위해 좋은 책이다.
 
 ### Computer Architecture
 

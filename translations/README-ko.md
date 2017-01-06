@@ -173,14 +173,13 @@ Translations:
 
 ## How to use it
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+아래의 모든 것은 대략적인 개요이며 당신은 위에서 아래 순서대로 진행해야 한다.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+진행상황을 확인하기 위한 목록를 포함하여, 나는 Github'special markdown flavor를 사용하고 있다.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**새 브랜치를 만들어서 중괄호에 x표를 넣는 식으로 항목을 체크하라: [x]**
 
-
-    Fork a branch and follow the commands below
+	브랜치를 포크하고 아래의 명령을 따라라
 
 `git checkout -b progress`
 
@@ -188,7 +187,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    끝났으면 박스에 x로 체크하라
 
 `git add . `
 
@@ -198,11 +197,12 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Github-flavored markdown에 대하여](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## 구글 분위기 내기
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+"[미래의 구글러](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)"를 인쇄하고
+자주 바라보자.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 

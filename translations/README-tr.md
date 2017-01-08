@@ -311,7 +311,7 @@ Ek olarak Google aşağıdaki dilleride kabul ediyor:
 
 Fakat, John yukarıdaki dillere sıcak bakmıyor. Çünkü, yukarıdaki dillerden gelebilcek farklılıklardan (JavaScript'deki kütüphaneler gibi) çekiniyor.
 
-Bu bölümde verilmek istenen mesaj sizin herkes ile ortak dili konuşmanız ve bunu sorunsuz konuşmanız. Konuşarak da verilen problemi çözebilmeniz.
+Bu bölümde verilmek istenen mesaj senin herkes ile ortak dili konuşman ve bunu sorunsuz konuşman. Konuşarak da verilen problemi çözmen.
 
 Nasıl programlama dili seçileceği ile ilgili kaynaklar (ingilizce):
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/

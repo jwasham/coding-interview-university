@@ -37,7 +37,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Google kimdir, nedir ?](#google-kimdir-nedir-)
 - [Videolar hakkında bilgilendirme](#videolar-hakkında-bilgilendirme)
 - [Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?](#googlea-iş-başvurusu-nasıl-yapılır-ve-başvuranlarda-aranan-özellikler-neler-)
-- [İş görüşmesi için bir programlama dili seç !](#pick-one-language-for-the-interview)
+- [İş görüşmesi için bir programlama dili seç !](#iş-görüşmesi-için-bir-programlama-dili-seç-)
 - [Temel bilgileri edinmek için gerekli kitaplar](#book-list)
 - [Başlamadan önce...](#before-you-get-started)
 - [Hakim olman gereken teknolojiler](#what-you-wont-see-covered)
@@ -286,31 +286,41 @@ _Not : Malesef bu bölümle ilgili türkçe kaynak şuan için mevcut değil :pe
         - [ ] [4 büyük yazılım şirketinde (Amazon, Facebook, Google ve Microsoft) nasıl işe girildiğini anlatan video](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## İş görüşmesi için bir programlama dili seç !
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+John'un iş görüşmesi için bir programlama dili seçmenin detaylarını anlattığı yazısına [buradan (ingilizce olarak)](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) ulaşabilirsin.
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+İlk önce John'un yukarıdaki yazısından biraz özet geçelim. John yazısında görüşmenin programlama ile ilgili olan kısmında adayların seçtikleri bir programla dili ile test edildiklerini anlatıyor. Burada seçimin adaya bırakılmasındaki amaç adayı en iyi şekilde değerlendirebilmek. Çünkü, aday hakim olduğu programlama diliye test edildiğinde sorunu çözmeye odaklanıyor ve tanımıdağı bir dili anlamak ile vakit kaybetmiyor.
+
+Mükemmel şartlar altında herkesin her dille test edilmesi uygun gözüküyor, fakat John'un belirttiğine göre aşağıdaki diller Google tarafından zorunlu tutuyor:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Bu kısıtlamanın sebebini ise John bize yine yazısında açıklıyor. O da anlaşabilmek. Yukarıdaki diller programlama dilleri arasında popüler ve genel olarak herkes tarafından bilinen diller. Genel diller kullanıldığında, görüşme sırasında sizi test kişi daha iyi anlıyor çünkü hem siz hem de karşı taraf kullanılan dile hakim olduğundan dolayı probleme odaklanıp kullanılan dilinin detayları ile vakit kaybetmiyorsunuz.
+
+John yazısında da belirttiği gibi Phython'u seçiyor. Burada Pythonu seçmesinin sebebi bilgisayar programlarının detaylarına (mesela bellekte yeni bir obje nasıl oluşuyor gibi) takılmadan Python'un basitliğinden faydalanarak gerekli veri yapıları ve algoritmalar ile verilen problemi çözmek.
+
+John yazısında C++ öğreniceğini de ekliyor çünkü işe başladığında kendisini hazır hissetmek istiyor :smile:
+
+Ek olarak Google aşağıdaki dilleride kabul ediyor:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Fakat, John yukarıdaki dillere sıcak bakmıyor. Çünkü, yukarıdaki dillerden gelebilcek farklılıklardan (JavaScript'deki kütüphaneler gibi) çekiniyor.
 
-Read more about choices:
+Bu bölümde verilmek istenen mesaj sizin herkes ile ortak dili konuşmanız ve bunu sorunsuz konuşmanız. Konuşarak da verilen problemi çözebilmeniz.
+
+Nasıl programlama dili seçileceği ile ilgili kaynaklar (ingilizce):
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+Programlama dilleri ile ilgili daha fazla kaynak için [buraya](programming-language-resources.md) bak.
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+**Telaşlanma !** İlerleyen bölümlerde hangi dili ne zaman ve nereden öğrenebileceğin ile ilgili bilgiler verilecek.
 
 ## Book List
 

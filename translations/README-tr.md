@@ -40,7 +40,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [İş görüşmesi için bir programlama dili seç !](#İş-görüşmesi-için-bir-programlama-dili-seç-)
 - [Temel bilgileri edinmek için gerekli kitaplar](#book-list)
 - [Başlamadan önce...](#before-you-get-started)
-- [Hakim olman gereken teknolojiler](#what-you-wont-see-covered)
+- [Hakim olman gereken teknolojiler](#hakim-olman-gereken-teknolojiler)
 - [Gerekli temel bilgiler **_(önemli !)_**](#prerequisite-knowledge)
 - [Günlük çalışma planı](#the-daily-plan)
 - [Algoritma analizi / Büyük-O / Asimptotik analiz](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -505,14 +505,19 @@ Take a break from programming problems for a half hour and go through your flash
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
 
-## What you won't see covered
+## Hakim olman gereken teknolojiler
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+Bu kısımda bu kılavuz içinde kapsanmayan ama bilmen gereken bazı teknolojiler ile karşılaşacaksın.
+
+Aşağaıdaki teknolojiler :
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, ve diğer kullanıcı arayüzü teknolojileri
+
+Günümüzde çok yaygın olarak kullanılıyor ve sektörde genel olarak herkesin bildiği teknolojiler.
+John'un aktardığına göre Google'ın verdiği çalışma notlarında da bu teknolojilerle ilgili sorular mevcut ama Google bunlarla ilgili önceden bilgi vermemiş. Buradan ise şunu anlamalısın, bu teknolojiler çok yaygın olarak kullanılıyor ve iş hayatında herkesin bildiği kabul ediliyor. O yüzden, seninde bunlara aşina olmanda fayda var.
+Tabiki, önceliğin sırf bu teknolojileri öğrenmek olmamalı. İlk olarak kılavuzda geçen temel bilgileri öğrendikten sonra bunları da uygun bir zamanında vakit ayırmalısın.
 
 ## The Daily Plan
 

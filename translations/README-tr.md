@@ -194,9 +194,19 @@ Ek olarak, John'u çıktığı yolculukta aşağıdaki linkelerden de takip edeb
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Sakın Ha ! Kendini yetersiz görme
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+
+Bu kısımda John sana kendini asla yetersiz görmemen gerektiğini anlatıyor. Tecrübelerine dayanarak Google'da çalışan mühendislerin bile kendini yetersiz gördükleri için başarısız oldukları söylüyor. John'un burda vermek istediği mesaj yeteneklerin ve başarısızlıkların arasında bir denge kurman gerektiği. Tabi ki, bunu yaparkende kendini üstün görmeden yapman gerektiğini hatırlatıyor.
+
+----- Türkçe kaynaklar -----
+
+- [Mark Zuckerberg, Bill gates gibi ünlülerin programlamanın önemini anlattığı video](https://www.youtube.com/watch?v=zRgzZaI-Ago)
+- [Uygulama geliştirmeyi öğrenen Mert Dümenci'nin röpörtajı](https://www.youtube.com/watch?v=rvxhOMcV3fk)
+- [İyi bir yazılım geliştirici olmak için önerilerin veildiği konferans](https://www.youtube.com/watch?v=VxUCxsK-BRk)
+
+----- İngilizce kaynaklar -----
+
+- [Hata yapmaktan çekinmemen gerektiğini anlatan Google konferansı](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Güvensizlik ile nasıl mücadele etmen gerektiğini anlatan konferans](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## Google kimdir, nedir ?
 

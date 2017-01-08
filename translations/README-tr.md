@@ -4,7 +4,7 @@
 
 Bu plan üniversitelerde okutulan bilgisayar mühendisliği bilgisine sahip olmayan ![John Washam](https://github.com/jwasham)'ın, bilgisayar mühendisliği müfredatını kendi kendine çalışarak, Google'da yazılım mühendisi olarak çalışabilecek seviyeye gelmek için hazırladığı çalışma planıdır.
 
-Bu planın orjinaline [buradan](https://github.com/jwasham/google-interview-university) ulaşabilirsin.
+Bu planın orijinaline [buradan](https://github.com/jwasham/google-interview-university) ulaşabilirsin.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
@@ -242,7 +242,7 @@ _Not : Bu kısımdaki videolar ile ilgili lütfen [bu](#about-video-resources) k
 
 ## Videolar hakkında bilgilendirme
 
-Bu kılavuzda yer alan ingilizce videoların bazıları Courseera, EdX ve Lynda.com com gibi ücretli sitelerden gelmekte. Bu yüzden bu derslere erişmekte sıkıntı yaşayabilirsin. Ama merak etme mümkün olduğunca YouTube gibi ücretsiz kaynaklardan da yararlanılmaya çalışıldı.
+Bu kılavuzda yer alan ingilizce videoların bazıları Coursera, EdX ve Lynda.com com gibi ücretli sitelerden gelmekte. Bu yüzden bu derslere erişmekte sıkıntı yaşayabilirsin. Ama merak etme mümkün olduğunca YouTube gibi ücretsiz kaynaklardan da yararlanılmaya çalışıldı.
 Ek olarak, kılavuzun orjinalinde yer alan ingilizce videoların başlıkları türkçe ye çevirildi ama bu videoları izlemek istediğinde yine ingilizce olarak izlemek zorundasın. Bu problemi çözmek için, ingilizce videoların karşılığı olarak türkçe videolar da konuldu. Bu yüzden, ilgili bölümlerde hem ingilizce hemde türkçe videolar ile karşılaşacaksın.
 
 _Not : Malesef, bazı videoların türkçe karşılığını henüz bulamadık. Bu videolar da bulundukça eklenecek. Eğer senin bildiğin videolar var ise lütfen bu dökümanı güncellemekten çekinme :smile:_
@@ -251,37 +251,39 @@ _Not : Malesef, bazı videoların türkçe karşılığını henüz bulamadık. 
     Videoları eklemek için john ile iletişime geç.
 
 
-## Interview Process & General Interview Prep
+## Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?
 
-- [ ] Videos:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+_Not : Malesef bu bölümle ilgili türkçe kaynak şuan için mevcut değil :pensive:_
 
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+- [ ] Videolar:
+    - [ ] [Google'da mühendislik görüşmesine nasıl hazırlanman gerektiğini anlatan video](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [Google'da görüşme sırasında nasıl kod yazıldığını anlatan video](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [Google'da görüşmeye giden adaylara koçların nasıl yardımcı olduğunu anlatan video](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [Google'a yeni kabul edilenlerin görüşme ile ilgili ipucu verdikleri video](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [Google için nasıl bir CV hazırlaman gerektiğini anlatan video](https://www.youtube.com/watch?v=8npJLXkcmu8)
+
+- [ ] Makaleler:
+    - [ ] [Google'da çalışmak için gerekli 3 adım](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [Google'da işi kap !](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - Yukarıdaki kaynakların öğrenmeni söylediği her şey aşağıda mevcut
+    - [ ] [Google'da işe nasıl girilir, görüşme sırasında neler soruluyor, neler oluyor ?](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html) _(Bu kaynaktaki bilgiler artık güncel değil)_ 
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] Prep Courses:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+- [ ] Paralı Kurslar:
+    - [ ] [Yazılım mühendisliği iş görüşmelerini anlatan kurs](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Bu kursda eski bir Google çalışanından görüşmeye nasıl hazırlanman gerektiği ile ilgili faydalı bilgiler mevcut
 
-- [ ] Additional (not suggested by Google but I added):
+- [ ] Ek olarak (Google tarafından zorunlu tutulmuyor ama yine de bilmende fayda var):
     - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
+    - [ ] [Diplomasız Google'da çalışmak için 4 adım](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [Beyaz tahtada kod nasıl yazılır ?](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [Google birini işe alırken nasıl düşünür ?](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [İş görüşmesi sırasında beyaz tahtayı nasıl kullanmalısın ?](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] Cracking The Coding Interview Set 1 (Video serisi):
         - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
         - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+        - [ ] [4 büyük yazılım şirketinde (Amazon, Facebook, Google ve Microsoft) nasıl işe girildiğini anlatan video](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
 ## Pick One Language for the Interview

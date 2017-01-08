@@ -231,7 +231,7 @@ Malesef, hepsine denk türkçe kaynak şu anda mevcut değil. Bu yüzden, türk�
 ## Videolar hakkında bilgilendirme
 
 Bu kılavuzda yer alan ingilizce videoların bazıları Courseera, EdX ve Lynda.com com gibi ücretli sitelerden gelmekte. Bu yüzden bu derslere erişmekte sıkıntı yaşayabilirsin. Ama merak etme mümkün olduğunca YouTube gibi ücretsiz kaynaklardan da yararlanılmaya çalışıldı.
-Ek olarak, kılavuzun orjinalinde yer alan ingilizce videoların başlıkları türkçe ye çevirildi bu videoları izlemek istediğinde, ingilizce olarak izlemek zorundasın. Bu problemi çözmek için, ingilizce videoların karşılığı olarak türkçe derslerde konuldu. Bu yüzden, ilgiliz bölümlerde hem ingilizce hemde türkçe videolar ile karşılaşıcaksın.
+Ek olarak, kılavuzun orjinalinde yer alan ingilizce videoların başlıkları türkçe ye çevirildi ama bu videoları izlemek istediğinde yine ingilizce olarak izlemek zorundasın. Bu problemi çözmek için, ingilizce videoların karşılığı olarak türkçe videolar da konuldu. Bu yüzden, ilgili bölümlerde hem ingilizce hemde türkçe videolar ile karşılaşacaksın.
 
 _Not : Malesef, bazı videoların türkçe karşılığını henüz bulamadık. Bu videolarda bulundukça eklenecek. Eğer senin bildiğin videolar var ise lütfen bu dökümanı güncellemekten çekinme :smile:_
 

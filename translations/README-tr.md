@@ -4,6 +4,8 @@
 
 Bu plan üniversitelerde okutulan bilgisayar mühendisliği bilgisine sahip olmayan ![John Washam](https://github.com/jwasham)'ın, bilgisayar mühendisliği müfredatını kendi kendine çalışarak, Google'da yazılım mühendisi olarak çalışabilecek seviyeye gelmek için hazırladığı çalışma planıdır.
 
+Bu planın orjinaline [buradan](https://github.com/jwasham/google-interview-university) ulaşabilirsin.
+
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.

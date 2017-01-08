@@ -200,9 +200,9 @@ Ek olarak, John'u çıktığı yolculukta aşağıdaki linkelerden de takip edeb
 
 ## Google kimdir, nedir ?
 
-Bu kısımda Google ile ilgili bilgiler yer almakta. Google nasıl bir şirkettir, nasıl kurulmuş ve çalışma ortamı nasıl gibi.
-Fakat, makalenin orjinalinde verilen kaynakların hepsi iniglizce olarak yer almakta. Orjinal kaynakların karşılığı olarak türkçe kaynaklar kullanıldı.
-Malesef, hepsine denk türkçe kaynak şu anda mevcut değil. Bu yüzden, türkçe kaynaklara ve ingilizce kaynaklara ait farklı linkler ile karşılaşacaksın.
+Bu kısımda Google ile ilgili bilgiler yer almakta. Google nasıl bir şirkettir, nasıl kurulmuş ve çalışma ortamı nasıl gibi.</br>
+
+_Not : Bu kısımdaki videolar ile ilgili lütfen [bu](#about-video-resources) kısmı oku._
 
 ----- Türkçe Kaynaklar -----
 
@@ -233,9 +233,9 @@ Malesef, hepsine denk türkçe kaynak şu anda mevcut değil. Bu yüzden, türk�
 Bu kılavuzda yer alan ingilizce videoların bazıları Courseera, EdX ve Lynda.com com gibi ücretli sitelerden gelmekte. Bu yüzden bu derslere erişmekte sıkıntı yaşayabilirsin. Ama merak etme mümkün olduğunca YouTube gibi ücretsiz kaynaklardan da yararlanılmaya çalışıldı.
 Ek olarak, kılavuzun orjinalinde yer alan ingilizce videoların başlıkları türkçe ye çevirildi ama bu videoları izlemek istediğinde yine ingilizce olarak izlemek zorundasın. Bu problemi çözmek için, ingilizce videoların karşılığı olarak türkçe videolar da konuldu. Bu yüzden, ilgili bölümlerde hem ingilizce hemde türkçe videolar ile karşılaşacaksın.
 
-_Not : Malesef, bazı videoların türkçe karşılığını henüz bulamadık. Bu videolarda bulundukça eklenecek. Eğer senin bildiğin videolar var ise lütfen bu dökümanı güncellemekten çekinme :smile:_
+_Not : Malesef, bazı videoların türkçe karşılığını henüz bulamadık. Bu videolar da bulundukça eklenecek. Eğer senin bildiğin videolar var ise lütfen bu dökümanı güncellemekten çekinme :smile:_
 
-    Bu kısımda John eğer elinizde bildiğiniz ücretsiz videolar varsa okuyucuların bunları eklemesini istiyor.
+    Bu kısımda John eğer elinde bildiğin ücretsiz videolar varsa bunları eklemesi istiyor.
     Videoları eklemek için john ile iletişime geç.
 
 

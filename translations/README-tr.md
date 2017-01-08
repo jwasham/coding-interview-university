@@ -33,7 +33,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [John'u takip et](#follow-along-with-me)
 - [Sakın ! Kendini yetersiz görme](#dont-feel-you-arent-smart-enough)
 - [Google kimdir, nedir ?](#about-google)
-- [Video dersler hakkında kısa bilgiler](#about-video-resources)
+- [Videolar hakkında bilgilendirme](#about-video-resources)
 - [Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?](#interview-process--general-interview-prep)
 - [İş görüşmesi için bir programlama dili seç !](#pick-one-language-for-the-interview)
 - [Temel bilgileri edinmek için gerekli kitaplar](#book-list)
@@ -228,13 +228,15 @@ Malesef, hepsine denk türkçe kaynak şu anda mevcut değil. Bu yüzden, türk�
 - [ ] [Google'ın nasıl çalıştığını anlatan kitap](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Google'ın Ocak 2016 tarihinde yaptığı sunum](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## Videolar hakkında bilgilendirme
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Bu kılavuzda yer alan ingilizce videoların bazıları Courseera, EdX ve Lynda.com com gibi ücretli sitelerden gelmekte. Bu yüzden bu derslere erişmekte sıkıntı yaşayabilirsin. Ama merak etme mümkün olduğunca YouTube gibi ücretsiz kaynaklardan da yararlanılmaya çalışıldı.
+Ek olarak, kılavuzun orjinalinde yer alan ingilizce videoların başlıkları türkçe ye çevirildi bu videoları izlemek istediğinde, ingilizce olarak izlemek zorundasın. Bu problemi çözmek için, ingilizce videoların karşılığı olarak türkçe derslerde konuldu. Bu yüzden, ilgiliz bölümlerde hem ingilizce hemde türkçe videolar ile karşılaşıcaksın.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+_Not : Malesef, bazı videoların türkçe karşılığını henüz bulamadık. Bu videolarda bulundukça eklenecek. Eğer senin bildiğin videolar var ise lütfen bu dökümanı güncellemekten çekinme :smile:_
+
+    Bu kısımda John eğer elinizde bildiğiniz ücretsiz videolar varsa okuyucuların bunları eklemesini istiyor.
+    Videoları eklemek için john ile iletişime geç.
 
 
 ## Interview Process & General Interview Prep

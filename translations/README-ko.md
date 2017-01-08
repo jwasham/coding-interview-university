@@ -450,35 +450,33 @@ OR:
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## Before you Get Started
+## 시작하기 전에
 
-This list grew over many months, and yes, it kind of got out of hand.
+이 문서는 몇 달간 계속 업데이트 되고 있으며, 그런 이유로, 내가 감당할 수 없어지기 시작한 듯하다.
 
-Here are some mistakes I made so you'll have a better experience.
+내가 저지른 몇 가지 실수들을 소개한다. 이를 통해 당신은 이 과정을 좀 더 효과적으로 진행할 수 있기를 바란다.
 
-### 1. You Won't Remember it All
+### 1. 당신은 이것을 다 기억하지 못할 것이다.
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+나는 수 시간의 비디오를 보고 방대한 양의 노트를 작성했지만, 몇 달 뒤에는 대부분의 내용을 기억하지 못했다. 나는 3일 동안 내가 작성한 노트를 보고 flashcard를 만들면서 내용들을 다시 검토해야 했다.
 
-Read please so you won't make my mistakes:
+꼭 읽고 내가 한 실수들을 반복하지 않길 바란다.
 
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Flashcard를 사용하자.
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+이 문제를 해결하기 위해 나는 2가지 종류(일반적인 내용, 코드)의 flashcard를 보관하고 추가할 수 있는 작은 사이트를 만들었다. 각 카드는 다른 서식을 가지고 있다.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+이 사이트는 모바일에 최적화 되어있기 때문에 내 전화기나 태블릿 어디에서든 이를 확인할 수 있다.
 
-Make your own for free:
+당신만의 카드를 만들어보자(무료로):
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Flashcard 사이트 repo](https://github.com/jwasham/computer-science-flash-cards)
+- [내 flashcard 데이터베이스 (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
+- [내 flashcard 데이터베이스 (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+앞에서도 언급했듯이 나는 불필요하게 많은 것을 공부하려고 했고, 내 카드의 내용들은 어셈블리 언어와 Python의 자잘한 지식들부터 기계 학습과 통계학까지 넘나들게 되었다. 결국 구글이 요구하는 것보다 훨씬 멀리 가버리고 말았다.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in

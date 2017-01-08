@@ -28,13 +28,13 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ## İçindekiler
 
-- [Nedir ?](#what-is-it)
+- [Nedir ?](#nedir-)
 - [Neden kullanmalıyım ?](#why-use-it)
-- [Psikolojik olarak kendini hazırlamak](#get-in-a-googley-mood)
-- [Peki john Google'a kabul edildi mi ?](#did-i-get-the-job)
-- [John'u takip et](#follow-along-with-me)
-- [Sakın Ha ! Kendini yetersiz görme](#dont-feel-you-arent-smart-enough)
-- [Google kimdir, nedir ?](#about-google)
+- [Psikolojik olarak kendini hazırlamak](#psikolojik-olarak-kendini-hazırlamak)
+- [Peki John Google'a kabul edildi mi ?](#peki-john-googlea-kabul-edildi-mi-)
+- [John'u takip et](#johnu-takip-et)
+- [Sakın Ha ! Kendini yetersiz görme](#sakın-ha--kendini-yetersiz-görme)
+- [Google kimdir, nedir ?](#google-kimdir-nedir-)
 - [Videolar hakkında bilgilendirme](#about-video-resources)
 - [Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?](#interview-process--general-interview-prep)
 - [İş görüşmesi için bir programlama dili seç !](#pick-one-language-for-the-interview)
@@ -176,7 +176,7 @@ _Future Googler : Google'da çalışmaya aday kişi._
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Peki john Google'a kabul edildi mi ?
+## Peki John Google'a kabul edildi mi ?
 
 Bu çevirinin yapıldığı tarihlerde John google'da görüşme için sıraya alınmıştı.</br>
 _Not : John'dan yeni haberler geldikçe güncellenecektir._

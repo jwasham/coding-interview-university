@@ -28,10 +28,10 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 - [Nedir ?](#what-is-it)
 - [Neden kullanmalıyım ?](#why-use-it)
-- [Psikolojik olarak kendini hazırlanmak](#get-in-a-googley-mood)
+- [Psikolojik olarak kendini hazırlamak](#get-in-a-googley-mood)
 - [Peki john Google'a kabul edildi mi ?](#did-i-get-the-job)
 - [John'u takip et](#follow-along-with-me)
-- [Sakın ! Kendini yetersiz görme](#dont-feel-you-arent-smart-enough)
+- [Sakın Ha ! Kendini yetersiz görme](#dont-feel-you-arent-smart-enough)
 - [Google kimdir, nedir ?](#about-google)
 - [Videolar hakkında bilgilendirme](#about-video-resources)
 - [Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?](#interview-process--general-interview-prep)
@@ -51,8 +51,8 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Bilmen gereken teknik detaylar](#more-knowledge)
     - [Dizilerde ikili arama _(Binary Search)_](#binary-search)
     - [Bit üzerinde işlem yapan operatörler_(Bitwise operations)_](#bitwise-operations)
-- [Agaçlar _(Trees)_](#trees)
-    - [Ağagçlar hakkında temel bilgiler](#trees---notes--background)
+- [Ağaçlar _(Trees)_](#trees)
+    - [Ağaçlar hakkında temel bilgiler](#trees---notes--background)
     - [İkili arama ağacı _(Binary search trees: BSTs)_](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - balanced search trees (general concept, not details)
@@ -165,12 +165,12 @@ thousands of associative arrays, but I've never created data structures from scr
 But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
 months. If you are familiar with a lot of this already it will take you a lot less time.
 
-## Psikolojik olarak kendini hazırlanmak
+## Psikolojik olarak kendini hazırlamak
 
 "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" posterini yazdır ve görebileceğin bir yere as !</br>
 
 _Googler : Google'da çalışmak isteyen kişi._</br>
-_Future Googler : Google çalışmaya aday kişi._
+_Future Googler : Google'da çalışmaya aday kişi._
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
@@ -193,7 +193,7 @@ Ek olarak, John'u çıktığı yolculukta aşağıdaki linkelerden de takip edeb
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
+## Sakın Ha ! Kendini yetersiz görme
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)

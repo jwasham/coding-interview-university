@@ -35,7 +35,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [John'u takip et](#johnu-takip-et)
 - [Sakın Ha ! Kendini yetersiz görme](#sakın-ha--kendini-yetersiz-görme)
 - [Google kimdir, nedir ?](#google-kimdir-nedir-)
-- [Videolar hakkında bilgilendirme](#about-video-resources)
+- [Videolar hakkında bilgilendirme](#videolar-hakkında-bilgilendirme)
 - [Google'a iş başvurusu nasıl yapılır ve başvuranlarda aranan özellikler neler ?](#interview-process--general-interview-prep)
 - [İş görüşmesi için bir programlama dili seç !](#pick-one-language-for-the-interview)
 - [Temel bilgileri edinmek için gerekli kitaplar](#book-list)

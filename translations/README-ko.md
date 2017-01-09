@@ -508,35 +508,36 @@ technologies but were not mentioned in those notes:
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## The Daily Plan
+## 하루 하루의 계획
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+어떤 주제들은 하루가 걸리고, 어떤 것들은 며칠이 걸릴 것이다.
+또 어떤것은 구현할 것들이 없이 그냥 배우는 것들이다.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+아래 리스트에 있는 것에서 매일 하나의 주제를 택했고, 그 주제에 대한 강의를 보고, 구현을 했다:
+- C - 인자를 가지는 구조체와 함수 사용
+- C++ - 빌트인 타입 사용하지 않음
+- C++ - 링크리스트를 위한 STL's std::list 같은 빌트인 타입 사용
+- Python - 빌트인 타입 사용 (파이선 연습을 계속 하려고)
+- 제대로 하고 있는지 테스트를 했고 가끔은 간단한 assert() 사용
+- 당신은 아마 자바나 그 어떤 언어를 이용하겠지만 이것은 그냥 내 것들이다.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+당신은 이것을 다 할 필요는 없다. 단지 [인터뷰를 위한 하나의 언어를 할 것.](#인터뷰를 위한 언어를 하나 골라 두어라).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+왜 이 모든것을 코딩해야 하는가?
+- 나는 이것에 미칠때까지 연습하고 또 연습했고, 아무런 문제 없이 할 수 있게 되었다 (어떤 것들은 다양한 케이스가 있고 이것을 기억하기 위해 기록을 보관했다.)
+- 있는 그대로의 제한 속에서 연습 (garbage collection의 도움없이 메모리 할당과 해지 (파이선 빼고))
+- 빌트인 타입을 사용하여 나는 빌트인 도구에 대한 경험이 있게 되었다. (내 프로젝트의 링크 리스트 구현은 쓰지 않을 예정)
 
-I may not have time to do all of these for every subject, but I'll try.
+모든 주제에 대한 모든 것을 할 수 없지만 나는 노력했다.
 
-You can see my code here:
+나의 코드를 여기서 확인하세요:
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+당신은 모든 알고리즘에 대해서 기억할 필요는 없다.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+컴퓨터에 코딩하지 말고 와이트보드나 종이에 적어보아라. 인풋 값으로 샘플 테스트를 해 보아라. 그리고 컴퓨터로 테스트해 보아라.
 
 ## Prerequisite Knowledge
 

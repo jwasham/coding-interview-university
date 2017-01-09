@@ -41,7 +41,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Temel bilgileri edinmek için gerekli kitaplar](#book-list)
 - [Başlamadan önce...](#before-you-get-started)
 - [Hakim olman gereken teknolojiler](#hakim-olman-gereken-teknolojiler)
-- [Gerekli temel bilgiler **_(önemli !)_**](#prerequisite-knowledge)
+- [Gerekli temel bilgiler **_(önemli !)_**](#gerekli-temel-bilgiler)
 - [Günlük çalışma planı](#the-daily-plan)
 - [Algoritma analizi / Büyük-O / Asimptotik analiz](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Veri yapıları](#data-structures)
@@ -549,18 +549,35 @@ You don't need to memorize the guts of every algorithm.
 
 Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
 
-## Prerequisite Knowledge
+## Gerekli temel bilgiler 
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **Mutlaka C Öğren**
+    - Çünkü C heryerde karşılaştığın her kitapta,örnekte C programlama dilini kullanman gerekecek.
+    
+    - John'un C'nin üzerinde durmasının sebebi çok temel bir programala dili olması. Çünkü, C'yi analdığında bilgisayar programlarının nasıl çalıştığını ve bilgisayarda RAM'in nasıl çalıştığını anlayacağını söylüyor.
+    
+    ----- Türkçe Kaynaklar -----
+    
+     - [ ] [Her Yönüyle C](http://www.dr.com.tr/Kitap/Her-Yonuyle-C/Tevfik-Kiziloren/Egitim-Basvuru/Bilgisayar/urunno=0000000423215)
+       - Kapsamlı güzel bir türkçe kaynak.
+       
+    ----- İngilizce Kaynaklar -----
+    
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms) 
+        - Bu kitap sana C hakkında kısa sürede gerekli bilgiyi verecek.
+        - [Yukarıdaki katabın cevapları](https://github.com/lekkas/c-algorithms) 
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+- [ ] **Bir program bilgisayarın içinde nasıl çalışır ?**
+
+    ----- Türkçe Kaynaklar -----
+    
+    - [ ] [İşlemci nasıl çalışır ?](https://www.youtube.com/watch?v=Cvv4muT_wfY)
+    - [ ] [Makine dili nedir ?](https://www.youtube.com/watch?v=d1is2IiOfwk)
+        
+    ----- İngilizce Kaynaklar -----
+    
+    - [ ] [İşlemci programı nasıl çalıştırır ?](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [Makine dili komutları](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - nothing to implement

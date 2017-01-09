@@ -532,7 +532,7 @@ John genel olarak aşağıdaki listeden bir konu seçtiğini ve onun hakkında v
 
 anlatıyor.
 
-John'un eklediğine göre senin yukarıda verilenlerin hepsini yapmana gerek yok. Görüşme için sadece bir programlama dili yeterli, gerekli bilgiye [buradan](##İş-görüşmesi-için-bir-programlama-dili-seç-) ulaşabilirsin.
+John'un eklediğine göre senin yukarıda verilenlerin hepsini yapmana gerek yok. Görüşme için sadece bir programlama dili yeterli, gerekli bilgiye [buradan](#İş-görüşmesi-için-bir-programlama-dili-seç-) ulaşabilirsin.
 
 Peki, bütün bunları neden yapmış ?
 - Tabiki de, pratik yapmak için. Artık bu iş oldu deyinceye kadar pratik yaptığını

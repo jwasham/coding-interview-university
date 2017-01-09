@@ -521,7 +521,7 @@ Tabiki, önceliğin sırf bu teknolojileri öğrenmek olmamalı. İlk olarak kı
 
 ## Günlük çalışma planı
 
-John bazı konuların bir gün bazılarının ise birkaç gün aldığını belirtiyor. Ve bazı konuların hiç kod yazmadan öğrenilirken bazılarının ise günlerce kod yazılarak öğrenildiğini ekliyor. Burada anlaman gerekn şu John sana günde şu kadar saat çalış demiyor. Çünkü, bunu bir yolculuk olarak görüyor ve bunu söylerkende tecrübelerinden faydalanıyor. Tecrübelerinden çıkardığı sonuç ise iyi dinlenerek düzenli çalışmak :smile:
+John bazı konuların bir gün bazılarının ise birkaç gün aldığını belirtiyor. Ve bazı konuların hiç kod yazmadan öğrenilirken bazılarının ise günlerce kod yazılarak öğrenildiğini ekliyor. Buradan anlaman gerekn şu John sana günde şu kadar saat çalış demiyor. Çünkü, bunu bir yolculuk olarak görüyor ve bunu söylerken de tecrübelerinden faydalanıyor. Tecrübelerinden çıkardığı sonuç ise iyi dinlenerek düzenli çalışmak :smile:
 
 John genel olarak aşağıdaki listeden bir konu seçtiğini ve onun hakkında videolar izledikten sonra kodu yazdığını söylüyor:
 - C'de struct kullanarak ve struct * (struct tipinde gösterici) alan fonksiyonlarla
@@ -532,12 +532,12 @@ John genel olarak aşağıdaki listeden bir konu seçtiğini ve onun hakkında v
 
 anlatıyor.
 
-John'un eklediğine göre senin yukarıda verilen bütün programlama dillerini seçmene gerek yok. Görüşme için sadece bir programlama dili yeterli, gerekli bilgiye [buradan](##İş-görüşmesi-için-bir-programlama-dili-seç-) ulaşabilirsin.
+John'un eklediğine göre senin yukarıda verilenlerin hepsini yapmana gerek yok. Görüşme için sadece bir programlama dili yeterli, gerekli bilgiye [buradan](##İş-görüşmesi-için-bir-programlama-dili-seç-) ulaşabilirsin.
 
 Peki, bütün bunları neden yapmış ?
 - Tabiki de, pratik yapmak için. Artık bu iş oldu deyinceye kadar pratik yaptığını
 - Kullandığı dile hakimiyetini arrtırmak için yaptığını
-- Programlama dillerinin kendi içinden gelen kütüphanelere hakim olmak için
+- Programlama dillerinin kendi içinden gelen kütüphanelere hakim olmak için yaptığını
 
 söylüyor.
 

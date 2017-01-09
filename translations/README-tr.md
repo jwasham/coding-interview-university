@@ -42,7 +42,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Başlamadan önce...](#before-you-get-started)
 - [Hakim olman gereken teknolojiler](#hakim-olman-gereken-teknolojiler)
 - [Gerekli temel bilgiler **_(önemli !)_**](#gerekli-temel-bilgiler)
-- [Günlük çalışma planı](#the-daily-plan)
+- [Günlük çalışma planı](#günlük-çalışma-planı)
 - [Algoritma analizi / Büyük-O / Asimptotik analiz](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Veri yapıları](#data-structures)
     - [Diziler _(Arrays)_](#arrays)
@@ -320,7 +320,7 @@ Nasıl programlama dili seçileceği ile ilgili kaynaklar (ingilizce):
 
 Programlama dilleri ile ilgili daha fazla kaynak için [buraya](programming-language-resources.md) bak.
 
-**Telaşlanma !** İlerleyen bölümlerde hangi dili ne zaman ve nereden öğrenebileceğin ile ilgili bilgiler verilecek.
+**Telaşlanma !** Bu kılavuzu okudukça hangi dili seçmen gerektiği ile ilgili kafan daha da netleşecek :smile:
 
 ## Book List
 
@@ -519,35 +519,34 @@ Günümüzde çok yaygın olarak kullanılıyor ve sektörde genel olarak herkes
 John'un aktardığına göre Google'ın verdiği çalışma notlarında da bu teknolojilerle ilgili sorular mevcut ama Google bunlarla ilgili önceden bilgi vermemiş. Buradan ise şunu anlamalısın, bu teknolojiler çok yaygın olarak kullanılıyor ve iş hayatında herkesin bildiği kabul ediliyor. O yüzden, seninde bunlara aşina olmanda fayda var.
 Tabiki, önceliğin sırf bu teknolojileri öğrenmek olmamalı. İlk olarak kılavuzda geçen temel bilgileri öğrendikten sonra bunları da uygun bir zamanında vakit ayırmalısın.
 
-## The Daily Plan
+## Günlük çalışma planı
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+John bazı konuların bir gün bazılarının ise birkaç gün aldığını belirtiyor. Ve bazı konuların hiç kod yazmadan öğrenilirken bazılarının ise günlerce kod yazılarak öğrenildiğini ekliyor. Burada anlaman gerekn şu John sana günde şu kadar saat çalış demiyor. Çünkü, bunu bir yolculuk olarak görüyor ve bunu söylerkende tecrübelerinden faydalanıyor. Tecrübelerinden çıkardığı sonuç ise iyi dinlenerek düzenli çalışmak :smile:
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+John genel olarak aşağıdaki listeden bir konu seçtiğini ve onun hakkında videolar izledikten sonra kodu yazdığını söylüyor:
+- C'de struct kullanarak ve struct * (struct tipinde gösterici) alan fonksiyonlarla
+- C++'da STL kütüphanesindeki veri yapıları olmadan
+- C++'da STL kütüphanesindeki veri yapılarını kullanarak
+- Python'un kendi içinde gelen veri yapılarını kullanarak (Python'a alışmak için)
+- ve yazdığı her kodu test ederek çalıştığını
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+anlatıyor.
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+John'un eklediğine göre senin yukarıda verilen bütün programlama dillerini seçmene gerek yok. Görüşme için sadece bir programlama dili yeterli, gerekli bilgiye [buradan](##İş-görüşmesi-için-bir-programlama-dili-seç-) ulaşabilirsin.
 
-I may not have time to do all of these for every subject, but I'll try.
+Peki, bütün bunları neden yapmış ?
+- Tabiki de, pratik yapmak için. Artık bu iş oldu deyinceye kadar pratik yaptığını
+- Kullandığı dile hakimiyetini arrtırmak için yaptığını
+- Programlama dillerinin kendi içinden gelen kütüphanelere hakim olmak için
 
-You can see my code here:
+söylüyor.
+
+John'un yaptığı pratiklere ait kodlara aşağıdaki linklerden ulaşabilirsin:
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
-
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Son olarak, John bütün algoritmaları ezberlememen konusunda uyarıyor. En iyi hatırlama yönteminin aşinalık olduğunu söylüyor. Kendiside aşina olmak için kodları ilk önce beyaz tahtaya yazdığını ondan sonra bilgisayarda yazdığını söylüyor.
 
 ## Gerekli temel bilgiler 
 

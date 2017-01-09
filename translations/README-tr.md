@@ -530,7 +530,7 @@ John genel olarak aşağıdaki listeden bir konu seçtiğini ve onun hakkında v
 - Python'un kendi içinde gelen veri yapılarını kullanarak (Python'a alışmak için)
 - ve yazdığı her kodu test ederek çalıştığını
 
-anlatıyor.
+  anlatıyor.
 
 John'un eklediğine göre senin yukarıda verilenlerin hepsini yapmana gerek yok. Görüşme için sadece bir programlama dili yeterli, gerekli bilgiye [buradan](#İş-görüşmesi-için-bir-programlama-dili-seç-) ulaşabilirsin.
 
@@ -539,7 +539,7 @@ Peki, bütün bunları neden yapmış ?
 - Kullandığı dile hakimiyetini arrtırmak için yaptığını
 - Programlama dillerinin kendi içinden gelen kütüphanelere hakim olmak için yaptığını
 
-söylüyor.
+  söylüyor.
 
 John'un yaptığı pratiklere ait kodlara aşağıdaki linklerden ulaşabilirsin:
  - [C] (https://github.com/jwasham/practice-c)

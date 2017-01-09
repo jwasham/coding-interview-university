@@ -272,31 +272,31 @@ Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan har
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Pilih satu bahasa pemrograman untuk wawancara
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Saya menulis artikel pendek tentang topik hal tersebut: [Penting:Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Important: Pick One Language for the Google Interview)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Anda dapat menggunakan sebuah bahasa pemrograman yang nyaman bagi anda untuk melaksanakan salah satu bagian wawancara yaitu sesi mengkoding, tapi bagi Google, berikut adalah beberapa pilihan:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Anda juga dapat menggunakan beberapa bahasa pemrograman berikut, tapi cari informasi dahulu tentang hal ini, karena mungkin ada kualifikasi khusus:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Anda harus sangat nyaman dan memahami bahasa yang akan digunakan untuk wawancara tersebut.
 
-Read more about choices:
+Baca lebih banyak tentang pilihan.
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Lihat beberapa sumber bahasa pemrograman disini](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Anda akan melihat bebrapa C, C++, dan Python di cantumkan di link dibawah, karena saya juga sedang belajar. Ada beberapa buku juga diikutkan dalam list dibawah ini, lihat bagian bawah.
 
 ## Book List
 

@@ -326,9 +326,9 @@
 إذا كان وقتك محدود:
 
 - [ ] [اكتب كود رائع: المرجع 1: فهم الآلة](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - نشر الكتاب في سنة 2004 ربما يكون قديم بعض الشء، لكنه من المصارد المناسبة لفهم الحاسب بصفة عامة.
+    - اخترع الكاتب "HLA" لذلك عليك ألا تركز عليها في الكتاب لم تستخدم كثيرا, لكنه مصدر جيد لمعرفة لغة الآلة.
+    - هذه الفصول جيدة جدا للقراءة وتعطيك تأسيس جيد:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -339,17 +339,17 @@
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization 
 
-If you have more time (I want this book):
+إذا كان لديك مزيد من الوقت (أريد أن أقرأ هذا الكتاب):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - الغني بالمعلومات، والحديث (2011)، ولكنه طويل بعض الشئ
 
-### Language Specific
+### تحديد اللغة
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**عليك اختيار لغة واحدة للمقابلة الشخصية (انظر للأعلى).** هنا بعض التوصيات للغات. لا أملك كل المصادر للغات. ارجب بالإضافة
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
-**You can skip all the video lectures in this project**, unless you'd like a review.
+إذا قرأت واحدا فقط من هذه المصارد، سيكون لديك كل الهياكل البيانية والخوارزميات للبدء في المشاكل البرمجية.
+**يمكن تخطي كل محاضرات الفديو في هذا المشروع**، في حالة إذا لا تريد أن تلقي النظر عليهم
 
 [Additional language-specific resources here.](programming-language-resources.md)
 

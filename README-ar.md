@@ -1,4 +1,4 @@
-# كلية الإعداد للمقابلة الشخصية لجوجل 
+#  الإعداد لجوجل 
 
 ## ماهذا؟
 
@@ -32,10 +32,10 @@
 - [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#interview-process--general-interview-prep)
 - [اخبر لغة واحدة للمقابلة الشخصية](#pick-one-language-for-the-interview)
 - [قائمة الكتب](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [قبل أن تبدأ](#before-you-get-started)
+- [ماالذي لن تراه](#what-you-wont-see-covered)
+- [المعرفة الأساسية](#prerequisite-knowledge)
+- [الخطة اليومية](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
@@ -141,25 +141,17 @@
 
 ---
 
-## Why use it?
+## لماذا استخدمه؟
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+أقوم بمتابعة هذه الخطة لتحضير إلى المقابلة الشخصية بجوجل. لقد قمت بناء مواقع ويب، وتقديم خدمات ذات صلة، وبناء شركات ناشئة منذ 1997. لدي درجة علمية في الاقتصاد، وليس في علوم الحاسب. أنا شخص ناجح في مجال عملي، ولكنني أريد أن أعمل بجوجل. أريد أن أعمل على أنظمة كبيرة والحصول على فهم كبير في أنظمة الحاسوب، كفاءة الخوارزميات، كقاءة الهياكل البيانية، اللغات الأقرب إلى الآلة وكيفية عملها. وإذ لم تعرف أين منها لن تعينك جوجل.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+عندما بدأت هذا المشروع، لم أكن أعرف الإستاك "stack" من الهيب "heap"، ولم أكن أعرف المعامل الأعلى في قياس كفاءة الخوارزميات "Big-O"، ولا عن التري "tree"، أو عن زيارة الجراف "graph".
+إذا كان عليا أن أصنع برنامج عن الترتيب، سأخبرك أنه ليس على درجة عالية من الكقاءة.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+كل هياكل البيانات التي استخدمتها كانت من الأشياء السابق إعدادها في اللغة البرمجية, ولم أعرف كيفية عملها من الداخل. لم أعرف إطلاقا كيفية تنظيم الذاكرة مالم أحصل على "خارج نطاق الذاكرة" من عملية برمجية، وعندها كان عليا أن أجد طريقة ما لتحايل على الأمر. لقد استخدمت مصفوفة من أكثر من بعد في مرات قليلة, وألاف من المصفوفات المترابطة، لكن لم أنشأ هياكل بيانات من البداية.
+لكن عند المضي قدما في هذه الدراسة وجدت أني على ثقة عالية من أنه سيتم توظيفي. إنها خطة طويلة، أخدت مني شهور. إذا كانت على دراية من كثير من هذه الأشياء ستأخد وقتا أقل.
 
-## How to use it
+## كيفية استخدامها
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 

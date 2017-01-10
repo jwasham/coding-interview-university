@@ -384,7 +384,7 @@ I'm in the queue right now. Hope to interview soon.
 
 **인터뷰를 위해 당신의 언어를 선택하여야 합니다 (윗글 참조)** 아래는 제가 추천하는 언어들입니다. 이 언어들중에 부연설명이나 부가 자료들이 있다면 나눠 주세요.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
+이 중 하나를 읽으려면 코딩 문제 푸는 데 필요한 데이터 구조 및 알고리즘 지식이 있어야합니다.
 
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
@@ -512,24 +512,24 @@ It's user-friendly, available on all platforms and has a cloud sync system. It c
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. 검토, 검토, 검토
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+나는 ASCII, OSI 구조, Big-O 표기법 등에 관한 일련의 치트시트를 만들어 놓고, 여유 시간이 날 때마다  공부한다.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+30분 동안 프로그래밍 문제를 해결하고, flashcard를 살펴보자.
 
-### 4. Focus
+### 4. 집중 
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+주의를 산만하게 만드는 많은 것이 있으며, 이것들은 우리의 귀중한 시간을 뺏어간다. 주의를 집중하는 것은 힘든 일이다.
 
-## What you won't see covered
+## 다루지 않을 것
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+이 큰 주제들은 모두 Google 인터뷰 코칭 노트에서 개인적인 to-do list로 시작되었다. 
+이 기술들은 널리 퍼져 있는 기술이지만, Google 인터뷰 코칭 노트에서 언급 되지 않았다: 
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, 그리고 다른 프론트엔드 기술들
 
 
 ## 하루 하루의 계획

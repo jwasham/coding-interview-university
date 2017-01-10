@@ -25,7 +25,7 @@
 - [كيفية استخدامه؟](#how-to-use-it)
 - [ادخل في مود جوجل](#get-in-a-googley-mood)
 - [هل حصلت على الوظيفة؟](#did-i-get-the-job)
-- [اتبعني باستمرار](#follow-along-with-me)
+- [تابعني باستمرار](#follow-along-with-me)
 - [هل تظن حقأ أنك لست ذكي](#dont-feel-you-arent-smart-enough)
 - [عن جوجل](#about-google)
 - [عن مصادر الفديوهات](#about-video-resources)
@@ -153,14 +153,14 @@
 
 ## كيفية استخدامها
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
-
-I'm using Github's special markdown flavor, including tasks lists to check progress.
-
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+كل عنصر من هذه القائمة مرتب لذلك عليم أن تتبع العناصر من أعلى إلى أسفل.
+سأستخدم خاصية تعليم ماأنجز من الجيت هب "Github" لمتابعة التقدم.
 
 
-    Fork a branch and follow the commands below
+**اصنع مسار جديد يمكن من خلاله أن تضع علامة [x]**
+
+
+    احصل على نسخة خاصة "fork" بك واتبع هذه الأوامر 
 
 `git checkout -b progress`
 
@@ -168,7 +168,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    دون بعلامة X بعد الإنتهاء من دراسة العنصر
 
 `git add . `
 
@@ -178,68 +178,71 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[للمزيد عن خاصية الجيت لتحديد ماتم إنجاوه](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## ادخل في مود الخاص بجوجل
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+اطبع  "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" وضع نصب عينك على هذا الهدف.
+
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Did I Get the Job?
+## هل حصلت على الوظيفة بجوجل؟
 
-I'm in the queue right now. Hope to interview soon.
+أنا في قائمة الانتظار الآن. على أمل أن أذهب للمقابلة الشخصية قريبا.
 
-    Thanks for the referral, JP.
 
-## Follow Along with Me
+    الشكر لل جي JP
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+## تابعني باستمرار
 
-I'm on the journey, too. Follow along:
+قصتي: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+
+ستجدني:
  
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
-- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
+- **المدونة**: [GoogleyAsHeck.com](https://googleyasheck.com/)
+- تويتر: [@googleyasheck](https://twitter.com/googleyasheck)
+- تويتر: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
+- جوجل بلس+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
+- لينكدإن: [johnawasham](https://www.linkedin.com/in/johnawasham)
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+## هل تشعر أنك لست بالذكاء الكافي
+مهندسوا جوجل أذكياء، وربما لديهم عدم الأمان لأنهم ليسوا بالذكاء الكافي، حتى وهي في جوجل
+- [أسطورة المبرمج العبقري](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [إنه لمن الخطر أن تذهب لوحدك: محاربة الوحش الغير مرئية في التقنية](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## عن جوجل
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] للطلبة - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] كيفية عمل محرك البحث:
+    - [ ] [ثورة البحث (فديو)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [قصة - كيفة عمل محرك الحب](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [كيفية عمل محرك البحث](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [كيفية عمل محرك البحث - مات كاتس](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [كيف طورت جوجل من محرك البحث في خوارزمياتها](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [كيف جعلت جوجل من محرك البحث يتعامل مع الموبايل](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [دراسات جوجل السرية لمعرفة إحتياجاتنا](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [محرك بحث جوجل سيصبح عقلك القادم](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
     - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [كتاب: كيف يعمل جوجل](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## عن مصادر الفديو
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+بعض الفديوهات متاحة فقط عن طريق الاشتراك في كورسيرا "Coursera"، إيدكس "Edx" أو ليندا "Lynda.com". يطلق عليهم موكس"MOOCS".
+بعض الأحيان الدروس ليست متاحة في كل الأوقات لذلك عليك الانتظار عدة أشهر حتى تكون متاحة للالتحاق بها. دروس ليندا "Lynda" ليست مجانية.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+أقدر مساعدتك لإضافة مصارد متاحة دائما مثل اليوتيوب "Youtube" أو مصادر أخرى متاحة.
+
+    أفضل استخدام مصادر الجامعات.
 
 
-## Interview Process & General Interview Prep
+## مراحل المقابلة الشخصية & الإستعداد العام للمقابلة
 
-- [ ] Videos:
+- [ ] الفديوهات:
     - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
     - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
     - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)

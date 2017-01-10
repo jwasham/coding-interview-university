@@ -9,6 +9,7 @@ Tác giả gốc: [John Washam](https://github.com/jwasham)
 * [Lê Tiến Tài](https://github.com/letientai299) - [@letientai299](https://twitter.com/letientai299)
 * [Võ Tường Thọ](https://github.com/thovo) - [@thovo](https://twitter.com/tho_vo)
 * [Lê Tấn Đăng Khoa](https://github.com/dangkhoasdc) - [@dksdc](https://twitter.com/dksdc)
+* [Trương Đức Duy](https://github.com/duytruong) - [@dauruy](https://twitter.com/dauruy)
 
 Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt:
 
@@ -81,14 +82,15 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - ma trận kề
     - danh sách kề
     - duyệt đồ thị: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
+- [Thêm nhiều kiến thức nữa](#thêm-nhiều-kiến-thức-nữa)
+
     - [Recursion](#recursion)
     - [Object-Oriented Programming](#object-oriented-programming)
     - [Design Patterns](#design-patterns)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
     - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
+    - [Tiến trình và tiểu trình](#tiến-trình-và-tiểu-trình)
     - [Papers](#papers)
     - [Testing](#testing)
     - [Scheduling](#scheduling)
@@ -977,6 +979,42 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 > TODO Add anchors link for the "danh mục sách"
 
 ---
+
+## Thêm nhiều kiến thức nữa
+
+- ### Tiến trình và tiểu trình
+    - [ ] Khóa học "Khoa học máy tính 162 - Hệ điều hành" (25 video):
+        - Về tiến trình và tiểu trình, xem video 1-11
+        - [Hệ điều hành và lập trình hệ thống (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+    - [Sự khác nhau giữa một tiến trình và một tiểu trình?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
+    - Học các chủ đề dưới đây:
+        - Các vấn đề của tiến trình, tiểu trình và xử lý đồng thời
+            - Sự khác nhau giữa tiến trình và tiểu trình
+            - Tiến trình
+            - Tiểu trình
+            - Locks
+            - Mutexes
+            - Semaphores
+            - Monitors
+            - Cách chúng hoạt động
+            - Deadlock
+            - Livelock
+        - Hoạt động của CPU, ngắt, chuyển ngữ cảnh
+        - Các kiến trúc xử lý đồng thời được sử dụng cùng với các bộ xử lý đa lõi
+        - Tài nguyên mà tiến trình cần: (bộ nhớ: các đoạn mã, bộ lưu trữ tĩnh, stack, heap cũng như các mô tả của tập tin, nhập/xuất)
+        - Tài nguyên mà tiểu trình cần: (chia sẻ các tài nguyên được liệt kê ở trên (trừ stack) với các tiểu trình khác trong cùng tiến trình nhưng mỗi tiểu trình có program counter, stack counter, thanh ghi (registers) và stack của riêng chúng)
+        - Forking thực ra là [copy on write](https://en.wikipedia.org/wiki/Copy-on-write) cho đến khi tiến trình mới ghi vào bộ nhớ, sau đó nó thực hiện hành đồng full copy.
+        - Chuyển ngữ cảnh
+            - Chuyển ngữ cảnh được bắt đầu như thế nào bởi hệ điều hành và phần cứng bên dưới
+    - [ ] [Tiểu trình trong C++ (danh sách 10 video)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] Xử lý đồng thời trong Python (video):
+        - [ ] [Danh sách ngắn các video về tiểu trình (Short series on threads)](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+        - [ ] [Tiểu trình của Python (Python Threads)](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+        - [ ] [Hiểu rõ về Python GIL (Understanding the Python GIL (2010))](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+            - [Tham khảo](http://www.dabeaz.com/GIL)
+        - [ ] [David Beazley - Căn bản về xử lý đồng thời trong Python: TRỰC TIẾP! - PyCon 2015 (David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015)](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+        - [ ] [Các điểm chính trong phần trình bày của David Beazley - Các vấn đề thú vị (Python Asyncio) (Keynote David Beazley - Topics of Interest (Python Asyncio))](https://www.youtube.com/watch?v=ZzfHjytDceU)
+        - [ ] [Mutex trong Python (Mutex in Python)](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 ## Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu
 - **Bạn có thế sẽ bị hỏi câu hỏi liên quan đến thiết kế hệ thống nếu có hơn 4 năm kinh nghiệm**

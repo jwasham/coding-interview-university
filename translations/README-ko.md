@@ -25,6 +25,7 @@
 이 기나긴 리스트는 **구글 코칭 노트**에서 선별되고 확장된 것으로 여러분이 알아야 할 내용이다. 맨 아래에는 인터뷰에 등장하거나 문제를 푸는 데에 도움이 될 만한 추가적인 내용이 있다. 많은 내용이 Steve Yegge의  "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"이라는 책에서 나왔으며, 때때로 구글 코칭 노트의 내용을 그대로 담고있기도 하다.
 
 나는 Yegge의 추천으로부터 여러분이 알아야만 할 내용들을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다 
+
 만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다. [더 보기](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
 만약 당신이 여러 해의 소프트웨어/웹 개발 경험을 가지고 있다면, 구글은 소프트웨어 엔지니어링을 소프트웨어/웹 개발과 다르게 바라보고 있으며 컴퓨터과학 지식을 요구한다는 사실에 주목하도록 하자.
@@ -216,9 +217,9 @@ I'm in the queue right now. Hope to interview soon.
 
 나의 이야기: [내가 구글 인터뷰를 풀 타임으로 8 개월 동안 공부한 이유](https://www.vobour.com/book/view/fiRGQMcmRkaw7pgpL) (원문 : [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13))
 
-I'm on the journey, too. Follow along:
- 
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
+
+저의 구글로 향하는 여행 함께 해주세요!
+- **블로그**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
 - Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
 - Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
@@ -226,27 +227,31 @@ I'm on the journey, too. Follow along:
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## 똑똑함이 부족하다고 생각하지 말자
-- 구글의 엔니지어들은 똑똑하지만, 많은 사람들이 구글에서 일하고 있음에도 스스로의 똑똑함을 자신하지 못한다.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## 당신은 충분히 똑똑합니다
+- 구글 엔지니어들은 똑똑합니다. 하지만 그들 조차도 자신들의 지적 능력면에 대해서 불안감을 갖기 일쑤입니다.
+- [천재 프로그래머의 미스터리](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [위험한 홀로서기: 테크 산업의 보이지 않는 괴물들의 전쟁](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
+## 구글에 대해
+
+- [ ] 학생들을 위한 자료 - [구글 채용 정보: 기술 개발 가이드](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] 검색 동작 원리:
+    - [ ] [검색의 진화 - 동영상](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [검색 동작 원리 - 스토리](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [검색 동작 원리](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [검색 동작 원리 - 맷 커츠(Matt Cutts) - 동영상](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [구글의 검색 알고리즘 개선 방법 - 동영상](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] 시리즈:
+    - [ ] [구글 검색이 모바일을 처리하는 방법](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [우리의 니즈를 발견하기 위한 구글의 비밀 연구](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [구글 검색은 당신의 두뇌가 된다](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [데미스 허사비스(Demis Hassabis)의 딥마인드](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+- [ ] [책: 구글은 어떻게 일하는가](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [구글 발표자료 - 2016.10 - 동영상](https://www.youtube.com/watch?v=q4y0KOeXViI)
+
+## 비디오 자료
+
 
 ##영상 자료에 관하여
 
@@ -255,29 +260,33 @@ I'm on the journey, too. Follow along:
 
     여러분이 YouTube 온라인 강의 동영상과 같이 무료이고 항상 접근 가능한 동영상 소스들을 추가해주면 정말 감사하겠습니다. 
     저는 대학 강의 듣는 것을 좋아합니다.
+    
+## 인터뷰 과정 & 전반적인 인터뷰 준비 과정
 
+- [ ] 비디오:
 
-## Interview Process & General Interview Prep
-
-- [ ] Videos:
     - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
     - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
     - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
     - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
     - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] Articles:
+
+- [ ] 읽을 거리들:
+
     - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
     - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
     - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] Prep Courses:
+
+- [ ] 준비 코스:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
 
-- [ ] Additional (not suggested by Google but I added):
+- [ ] 부가물 (구글이 추천하지않은 내가 더한 것들):
+
     - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
     - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
@@ -290,37 +299,46 @@ I'm on the journey, too. Follow along:
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-## 인터뷰를 위한 언어를 하나 선택하기
 
-다음과 같은 짧은 글을 작성하였습니다.[중요: 구글 인터뷰를 위한 하나의 언어 선택하기](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+## 인터뷰를 위한 언어 고르기
 
-당신이 인터뷰를 진행하는데 있어 편한 언어를 사용할 수 있지만, 구글에서는 아래 언어들이 주로 쓰입니다.
+인터뷰때 사용할 언어 고르는 법에 대해 짧은 글을 하나 썼습니다: [구글 인터뷰를 위한 언어 고르기](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+
+인터뷰때에 당신이 쓰기에 편한 언어를 선택해도 되지만, 구글 인터뷰에 선호되는 언어들은 다음과 같습니다.
+
 
 - C++
 - Java
 - Python
 
+
 아래 언어들을 사용할 수 있지만 주의하여야 합니다.
+
 
 - JavaScript
 - Ruby
 
-언어에 대해 많은 숙련도와 지식을 필요로 합니다.
 
-선택 사항에 대하여 더 읽으려면: 
+당신은 당신의 언어에 익숙하고 그 언어에 대해 잘 알아야 합니다.
+
+언어 선택을 도와줄 만한 읽을 거리들
+
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+
+[프로그래밍 언어 참고목록](programming-language-resources.md)
 
 제가 공부하고 있는 C, C++, Python 강의를 아래서 볼 수 있습니다. 아래를 보시면 관련된 책들이 몇 개 있습니다.
+
 
 ## 도서 목록
 
 아래의 목록은 내가 공부했던 책들보다는 적다. 당신의 시간을 절약하기 위해 몇몇 책들은 생략하였다.
 
-### Interview Prep (인터뷰 준비를 위해서)
+
+### 인터뷰 준비를 위해서
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - C++ 과 JAVA 문제의 답변을 위해서
@@ -332,15 +350,17 @@ I'm on the journey, too. Follow along:
     - Google Careers site에서 추천되었기 때문에 [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
     - 만일 당신이 다른 사람들의 "The Google Resume"를 참고자료로 봤다면, "Cracking the Coding Interview"는 그것을 대신할 수 있는 책이다.
 
-만일 당신이 많은 여유 시간이 있다면: 
+
+만일 당신이 많은 여유 시간이 있다면:
 
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - 모든 코드가 C++로 되어있다, 만일 당신의 인터뷰에서 C++를 사용하길 고려한다면 정말 좋은 책이다.
     - 일반적인 문제들을 해결하기 위해 좋은 책이다.
 
-### Computer Architecture
 
-If short on time:
+### 컴퓨터 구조
+
+준비기간이 짧을 때,
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
@@ -354,18 +374,18 @@ If short on time:
         - Chapter 7 - Composite Data Types and Memory Objects
         - Chapter 9 - CPU Architecture
         - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization 
+        - Chapter 11 - Memory Architecture and Organization
 
-If you have more time (I want this book):
-
+만약에 시간적 여유가 좀 더 있다면 아래 서적을 읽어보는 것을 권유합니다.
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
     - For a richer, more up-to-date (2011), but longer treatment
 
-### Language Specific
+### 언어 구체적
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**인터뷰를 위해 당신의 언어를 선택하여야 합니다 (윗글 참조)** 아래는 제가 추천하는 언어들입니다. 이 언어들중에 부연설명이나 부가 자료들이 있다면 나눠 주세요.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
+If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
+
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
@@ -374,7 +394,8 @@ If you read though one of these, you should have all the data structures and alg
 
 I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) 
+
+- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
@@ -446,45 +467,47 @@ OR:
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
+
+    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
+
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## Before you Get Started
+## 시작하기 전에
 
-This list grew over many months, and yes, it kind of got out of hand.
+이 문서는 몇 달간 계속 업데이트 되고 있으며, 그런 이유로, 내가 감당할 수 없어지기 시작한 듯하다.
 
-Here are some mistakes I made so you'll have a better experience.
+내가 저지른 몇 가지 실수들을 소개한다. 이를 통해 당신은 이 과정을 좀 더 효과적으로 진행할 수 있기를 바란다.
 
-### 1. You Won't Remember it All
+### 1. 당신은 이것을 다 기억하지 못할 것이다.
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+나는 수 시간의 비디오를 보고 방대한 양의 노트를 작성했지만, 몇 달 뒤에는 대부분의 내용을 기억하지 못했다. 나는 3일 동안 내가 작성한 노트를 보고 flashcard를 만들면서 내용들을 다시 검토해야 했다.
 
-Read please so you won't make my mistakes:
+꼭 읽고 내가 한 실수들을 반복하지 않길 바란다.
 
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Flashcard를 사용하자.
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+이 문제를 해결하기 위해 나는 2가지 종류(일반적인 내용, 코드)의 flashcard를 보관하고 추가할 수 있는 작은 사이트를 만들었다. 각 카드는 다른 서식을 가지고 있다.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+이 사이트는 모바일에 최적화 되어있기 때문에 내 전화기나 태블릿 어디에서든 이를 확인할 수 있다.
 
-Make your own for free:
+당신만의 카드를 만들어보자(무료로):
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Flashcard 사이트 repo](https://github.com/jwasham/computer-science-flash-cards)
+- [내 flashcard 데이터베이스 (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
+- [내 flashcard 데이터베이스 (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+앞에서도 언급했듯이 나는 불필요하게 많은 것을 공부하려고 했고, 내 카드의 내용들은 어셈블리 언어와 Python의 자잘한 지식들부터 기계 학습과 통계학까지 넘나들게 되었다. 결국 구글이 요구하는 것보다 훨씬 멀리 가버리고 말았다.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
 your brain.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
+
+An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
+
 It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
@@ -508,44 +531,48 @@ technologies but were not mentioned in those notes:
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## The Daily Plan
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+## 하루 하루의 계획
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+어떤 주제들은 하루가 걸리고, 어떤 것들은 며칠이 걸릴 것이다.
+또 어떤것은 구현할 것들이 없이 그냥 배우는 것들이다.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+아래 리스트에 있는 것에서 매일 하나의 주제를 택했고, 그 주제에 대한 강의를 보고, 구현을 했다:
+- C - 인자를 가지는 구조체와 함수 사용
+- C++ - 빌트인 타입 사용하지 않음
+- C++ - 링크리스트를 위한 STL's std::list 같은 빌트인 타입 사용
+- Python - 빌트인 타입 사용 (파이선 연습을 계속 하려고)
+- 제대로 하고 있는지 테스트를 했고 가끔은 간단한 assert() 사용
+- 당신은 아마 자바나 그 어떤 언어를 이용하겠지만 이것은 그냥 내 것들이다.
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+당신은 이것을 다 할 필요는 없다. 단지 [인터뷰를 위한 하나의 언어를 할 것.](#인터뷰를 위한 언어를 하나 골라 두어라).
 
-I may not have time to do all of these for every subject, but I'll try.
+왜 이 모든것을 코딩해야 하는가?
+- 나는 이것에 미칠때까지 연습하고 또 연습했고, 아무런 문제 없이 할 수 있게 되었다 (어떤 것들은 다양한 케이스가 있고 이것을 기억하기 위해 기록을 보관했다.)
+- 있는 그대로의 제한 속에서 연습 (garbage collection의 도움없이 메모리 할당과 해지 (파이선 빼고))
+- 빌트인 타입을 사용하여 나는 빌트인 도구에 대한 경험이 있게 되었다. (내 프로젝트의 링크 리스트 구현은 쓰지 않을 예정)
 
-You can see my code here:
+모든 주제에 대한 모든 것을 할 수 없지만 나는 노력했다.
+
+나의 코드를 여기서 확인하세요:
+
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+당신은 모든 알고리즘에 대해서 기억할 필요는 없다.
 
-## Prerequisite Knowledge
+컴퓨터에 코딩하지 말고 와이트보드나 종이에 적어보아라. 인풋 값으로 샘플 테스트를 해 보아라. 그리고 컴퓨터로 테스트해 보아라.
+
+## 선수 과목
 
 - [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+    - C 는 어디에나 있다. 당신은 책이나 강의, 비디오 등 공부하는 동안 모든 곳에서 예제를 볼 것이다.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms) 
+        - 이 책은 분량이 적은 책이지만 C 를 잘 다룰 수 있게 해 줄 것이다. 또한 조금만 연습하더라도 연습량에 비해 빠르게 배울 수 있을 것이다. C 를 이해하는 것은 프로그램과 메모리가 어떻게 돌아가는지 이해하는 것을 도와준다.
+        - [answers to questions](https://github.com/lekkas/c-algorithms)
+
 
 - [ ] **How computers process a program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
@@ -1189,15 +1216,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-    
+
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 ---
 
 ## System Design, Scalability, Data Handling
 - **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since 
-      there is a lot to consider when designing a software/hardware system that can scale. 
+- Scalability and System Design are very large topics with many topics and resources, since
+      there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this.
 - Considerations from Yegge:
     - scalability
@@ -1481,9 +1508,11 @@ You're never really done.
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+
+    아래의 모든 것들은 선택 사항이다. 이 것들은 Google의 권장사항이 아니라, 나의 추천사항이다.
+    당신은 이것들을 공부함으로써 더 많은 CS 개념들에 대해 알 수 있을 것이며, 소프트웨어 엔지니어링 직업을 준비하는 데에도 도움이 될 것
+    이다. 더불어 당신은 훨씬 더 균형 잡힌 소프트웨어 엔지니어가 될 것이다.
+    
 
     *****************************************************************************************************
     *****************************************************************************************************
@@ -2025,4 +2054,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

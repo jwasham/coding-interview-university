@@ -30,7 +30,7 @@
 - [عن جوجل](#about-google)
 - [عن مصادر الفديوهات](#about-video-resources)
 - [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#interview-process--general-interview-prep)
-- [اخبر لغة واحدة للمقابلة الشخصية](#pick-one-language-for-the-interview)
+- [اختر لغة واحدة للمقابلة الشخصية](#pick-one-language-for-the-interview)
 - [قائمة الكتب](#book-list)
 - [قبل أن تبدأ](#before-you-get-started)
 - [ماالذي لن تراه](#what-you-wont-see-covered)
@@ -243,89 +243,89 @@
 ## مراحل المقابلة الشخصية & الإستعداد العام للمقابلة
 
 - [ ] الفديوهات:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [كيف تعمل بجوجل: الإعداد للمقابلة الشخصية (فديو)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [كيف تعمل بجوجل: نماذج من المقابلة البرمجة\الهندسية](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [كيفية تعمل بجوجل: درس تدريب العناصر(فديو)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [موظفي جوجل يشاركوا ملاحضات عن المقابلة التقنية(فديو)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [كيف تعمل داخل جوجل: إعداد السيرة الذاتية (فديو)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+- [ ] المقالات:
+    - [ ] [كيف تصبح من جوجل في ثلاث خطوات](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [احصل على وظيفة بجوجل](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+    - [ ] [كيفية الحصة على وظيفة بجوجل، أسئلة المقابلة الشخصية، عملية التوظيف](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [المقابلة على الهاتف المحمول](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] Prep Courses:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+    - [ ] [مقابلة مهندس البرمجيات(كورس ليس مجاني)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - درب نفسك كيفية الإستعداد للمقابلة الشخصية من ممثلين بشركة جوجل.
 
 - [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [أ ب ج: دائما تدرب على البرمجة](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
     - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] [كيف تفكر جوجل عن التوظيف، الإدارة والثقافة](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [السبورة البيضاء العملية أثناء المقابلة البرمجية](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] مفاتيح المقابلة الشخصية المجوعة 1:
+        - [ ] [جايل ماكدويل - مفاتيح المقابلة الشخصية(فديو)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [ ] [مفاتيح المقابلة الشحصية للمؤلفة جايل ماكدويل (فديو)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+        - [ ] ['كيفية الحصول على وظيفة من الأربع الكبار: أمازون، فيسبوك، جوجل & ميكروسفت' (فديو)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [الفشل في مقابلة جوجل](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## اختر لغة برمجية واحدة للمقابلة البرمجية
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+كتبت مقال قصير عن هذا: [أهمية اختبار لغة برمجية واحدة لمقابلة جوجل](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+يمكن استخدام اللغة التي ترى أنك تشعر بارتياح فيها لإداء جزء البرمحة من المقابلة الشخصية، لكن لجوجل هناك أربع اخبارات فوية:
 
-- C++
-- Java
-- Python
+- السي بلس بلس "++C"
+- الجافا "Java"
+- البايثون "Python"
 
-You could also use these, but read around first. There may be caveats:
+يمكن أيضا استخدام هؤلاء لكن اقرأ عنهم أولا. ربما هم من المحاذير
 
-- JavaScript
-- Ruby
+- الجافا سكربت "JavaScript"
+-الروبي "Ruby"
 
-You need to be very comfortable in the language and be knowledgeable.
+ستحتاج أن تشعر بارتياح للغة والإلمام بها
 
-Read more about choices:
+اقرأ المزيد عم الاختيارات:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[شاهد مصادر اللغات من هنا](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+سترى بعض من السي، السي بلس بلس و البايثون لتعليمهم بالأسفل، لأنني أتعلم أيضا. هناك قليل من الكتب موجودة، انظر أسفل:
 
-## Book List
+## قائمة الكتب
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+هذه قائمة من العناصر التي استحدمتها. تم اختصارها للمحافظة على الكتب.
 
-### Interview Prep
+### التحضير للمقابلة الشخصية
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+- [ ] [إظهار المقابلات البرمجية من الخفايا للحصول على الوظيفة القادمة، الإصدار الثاني](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - الأجوبة بالسي بلس بلس "++C" والجافا "Java"
+    - محبذ من مدربي الإعداد لجوجل
+    - هذه إحماء لكسر المقابلة البرمجية
+    - ليس صعب جدا، معظم المشاكل ربما أسهل من التي سوف تراها في المقابلة(من ما قرأت)
+- [ ] [كسر المقابلة البرمجة، الإصدار السادس](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - الأجوبة بالجاقا "Java"
+    - موصى به في [موقع مهن جوجل](https://www.google.com/about/careers/how-we-hire/interview/)
+إذا رأيت بعض الناس يوصي بمرجع السيرة الذاتية لجوجل "The Google Resume" تم إستبداله ب كسر المقابلة البرمجية "Cracking the Coding  Interview"
 
-If you have tons of extra time:
+لو عندك المزيد من الوقت:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+- [ ] [عناصر المقابلة البرمجية](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+    - كل البرامج من السي بلس بلس "++C"، وجيد إذا كنت تريد استخدام السي بلس بلس "++C" في المقابلة.
+    - كتاب جيد في المشاكل البرمجية عموما.
 
-### Computer Architecture
+### عمارة الحاسب
 
-If short on time:
+إذا كان وقتك محدود:
 
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+- [ ] [اكتب كود رائع: المرجع 1: فهم الآلة](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
     - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
     - These chapters are worth the read to give you a nice foundation:

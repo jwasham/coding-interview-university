@@ -36,29 +36,29 @@
 
 ## Table of Contents
 
-- [구글 인터뷰 대학이란?](#what-is-it)
+- [구글 인터뷰 대학이란?](#구글-인터뷰-대학이란)
 - [Why use it?](#why-use-it)
 - [How to use it?](#how-to-use-it)
-- [구글 분위기 내기](#get-in-a-googley-mood)
+- [구글 분위기 내기](#구글-분위기-내기)
 - [Did I Get the Job](#did-i-get-the-job)
-- [팔로우 하려면](#follow-along-with-me)
-- [당신은 멍청하지 않다](#dont-feel-you-arent-smart-enough)
-- [구글에 대하여](#about-google)
-- [영상자료에 관하여](#about-video-resources)
-- [인터뷰 과정 & 일반적인 인터뷰 준비](#interview-process--general-interview-prep)
-- [인터뷰를 위한 언어 정하기](#pick-one-language-for-the-interview)
-- [도서 목록](#book-list)
-- [시작하기 전에](#before-you-get-started)
-- [목록에 없는 내용](#what-you-wont-see-covered)
-- [사전 지식](#prerequisite-knowledge)
-- [일일 계획](#the-daily-plan)
-- [알고리즘 복잡도 / Big-O / 점근적 분석](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [자료구조](#data-structures)
-    - [배열](#arrays)
-    - [링크드 리스트](#linked-lists)
-    - [스택](#stack)
-    - [큐](#queue)
-    - [해쉬 테이블](#hash-table)
+- [팔로우 하려면](#팔로우-하려면)
+- [당신은 충분히 똑똑합니다](#당신은-충분히-똑똑합니다)
+- [구글에 대해](#구글에-대해)
+- [영상 자료에 관하여](#영상-자료에-관하여)
+- [인터뷰 과정 & 전반적인 인터뷰 준비 과정](#인터뷰-과정--전반적인-인터뷰-준비-과정)
+- [인터뷰를 위한 언어 고르기](#인터뷰를-위한-언어-고르기)
+- [도서 목록](#도서-목록)
+- [시작하기 전에](#시작하기-전에)
+- [다루지 않을 것](#다루지-않을 것)
+- [선수 과목](#선수-과목)
+- [하루 하루의 계획](#하루-하루의-계획)
+- [알고리즘 복잡도 / Big-O / 점근적 분석](#알고리즘-복잡도--Big-O--점근적-분석)
+- [자료구조](#자료구조)
+    - [배열](#배열)
+    - [링크드 리스트](#링크드-리스트)
+    - [스택](#스택)
+    - [큐](#큐)
+    - [해쉬 테이블](#해쉬-테이블)
 - [추가 지식](#more-knowledge)
     - [이진 검색](#binary-search)
     - [비트 연산](#bitwise-operations)
@@ -578,7 +578,7 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## 알고리즘 복잡도 / Big-O / 점근적 분석
 - nothing to implement
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -641,7 +641,7 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
+- ### 링크드 리스트
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
@@ -674,12 +674,12 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
-- ### Stack
+- ### 스택
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] Will not implement. Implementing with array is trivial.
 
-- ### Queue
+- ### 큐
     - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
@@ -700,7 +700,7 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### Hash table
+- ### 해쉬 테이블
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)

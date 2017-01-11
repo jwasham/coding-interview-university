@@ -16,7 +16,7 @@ Bu planın orijinaline [buradan](https://github.com/jwasham/google-interview-uni
  Yegge'nin koşullarını, Google'da iletişim halinda olduğum kişilerden bilgi alarak değiştirdim. Bu döküman, yeni yazılım   mühendisleri veya yazılım/web geliştiriciliğinden yazılım mühendisliğine geçiş yapacaklar için tasarlandı.(Bilgisayar bilimi bilgisine nerede ihtiyaç duyarsanız). Eğer uzun bir deneyiminiz varsa ve uzun yıllardır yazılım mühendisliği deneyimim var diyorsanız, daha zor bir iş görüşmesi umuyorsanız, "[burayı](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/)" okuyabilirsiniz.
  
 
- Uzun yıllardır yazılım/web geliştiriciliği deneyimine sahipseniz, Google'ın yazılım mühendsiliğini, yazılım/web geliştiriciliğinden farklı gödüğünü ve bilgisayar bilimi bilgisi istediğini aklınızda bulundurmalısınız.
+ Uzun yıllardır yazılım/web geliştiriciliği deneyimine sahipseniz, Google'ın yazılım mühendsiliğini, yazılım/web geliştiriciliğinden farklı gördüğünü ve bilgisayar bilimi bilgisi istediğini aklınızda bulundurmalısınız.
  
  Eğer bir güvenilirlik mühendisi veya sistem mühendisi olmak istiyorsanız, bu opsiyonel listeden daha fazlasına çalışmalısınız (networking, güvenlik).
 

@@ -982,6 +982,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 ## Thêm nhiều kiến thức nữa
 
 - ### Tiến trình và tiểu trình
+
     - [ ] Khóa học "Khoa học máy tính 162 - Hệ điều hành" (25 video):
         - Về tiến trình và tiểu trình, xem video 1-11
         - [Hệ điều hành và lập trình hệ thống (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)

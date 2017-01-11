@@ -83,7 +83,6 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - danh sách kề
     - duyệt đồ thị: BFS, DFS
 - [Thêm nhiều kiến thức nữa](#thêm-nhiều-kiến-thức-nữa)
-
     - [Recursion](#recursion)
     - [Object-Oriented Programming](#object-oriented-programming)
     - [Design Patterns](#design-patterns)

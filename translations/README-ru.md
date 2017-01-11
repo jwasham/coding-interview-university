@@ -43,7 +43,7 @@
 - [Процесс собеседования & Основное в подготовке к интервью](#Процесс-собеседования-Основное-в-подготовке-к-интервью)
 - [Выберите один язык для собеседования](#Выберите-один-язык-для-собеседования)
 - [Список книг](#Список-книг)
-- [Перед тем как ты начнешь](#before-you-get-started)
+- [Перед тем как вы начнете](#Перед-тем-как-вы-начнете)
 - [Что еще не охвачено](#what-you-wont-see-covered)
 - [Необходимые знания](#prerequisite-knowledge)
 - [План на день](#the-daily-plan)
@@ -452,90 +452,91 @@ Google не возьмёт тебя на работу.
     - Лучше провести время решая задачи по программированию из других книг или онлайн ресурсов.
 
 
-## Before you Get Started
+## Перед тем как вы начнете
 
-This list grew over many months, and yes, it kind of got out of hand.
+Я создавал эту учебную программу на протяжении нескольких месяцев своими руками.
 
-Here are some mistakes I made so you'll have a better experience.
+Ниже я описал некоторые ошибки, которые я совершил. Это поможет вам их избежать.
 
-### 1. You Won't Remember it All
+### 1. Вы не сможете сразу запомнить все
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Я смотрел часами видео делая заметки, но спустя несколько месяцев многое из этого я не помнил. После чего потратил
+3 дня разбираясь в своих заметках и делая карточки-напоминания(flashcards), для того что бы потом можно было повторить пройденный материал.
 
-Read please so you won't make my mistakes:
+Прочитайте пожалуйста эту статью, что бы не совершать моих ошибок:
 
-[Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
+[Как сохранить знания в CS](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Используйте карточки-напоминания
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Для решения этой проблемы я сделал не большой сайт, на котором можно добавлять карточки двух типов: общие и с кодом.
+Каждая карта имеет разный формат.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Я сделал мобильную версию сайта и могу читать карточки на мобильном телефоне или планшете. 
 
-Make your own for free:
+Сделай свой собственный бесплатно:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [Репозиторий сайта Flashcards](https://github.com/jwasham/computer-science-flash-cards)
+- [Моя база данных с карточками](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Имейте ввиду, я зделал больше чем требуется в Google, описав все начиная с assembler и заканчивая Python с машиным обучением и статистикой. 
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Заметка о карточках:** в первый раз вы сразу вспомните ответ, но не помечайте эту карточку как изученную. Нужно просмотреть 
+много раз карточку и ответить правильно прежде чем вы действительно ее запомните. Повторение позволяет мозгу надолго 
+запомнить материал.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+В качестве альтернативы вы можете использовать сайт [Anki](http://ankisrs.net/), который мне рекомендовали много раз. Он использует систему повторений для того что бы помочь вам запомнить.
+Это ресурс user-friendly, доступен на всех платформах и имеет возможность синхронизации с облаком. На платформе iOS стоит 25$ на других бесплатный.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Моя база данных в формате Anki: https://ankiweb.net/shared/info/25173560 (спасибо [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Повторение, повторение, повторение
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+У меня постоянно с собой шпаргалки по ASCII, стеку OSI, Big-O нотации и другим темам. Я повторяю их когда у меня есть свободное время.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Делай перерывы от программирования на пол часа и повторяй свои карточки.
 
-### 4. Focus
+### 4. Фокусируйтесь
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Есть много отвлекающих факторов, на которые тратится время. Сосредотачиваться и концентрироваться сложно.
 
-## What you won't see covered
+## То, что не охватывает этот учебный план
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+Это список персональных тем, взятых из заметок Google по подготовке к собеседованию. Это распространенные технологии,
+но они не встречаются в других ресурсах:
 
 - SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
+- JavaScript
+- HTML, CSS и другие front-end технологии
 
-## The Daily Plan
+## План на день
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Для изучения некоторых тем требуется один день, для других несколько. Некоторые нужно только изучить и не нужно программировать.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Каждый день я беру одну тему из списка ниже, смотрю видео на эту тему и программирую, используя пройденный материал:
+- C - используя структуры и функции, которые в качестве аргументов принимают указатель на структуру или что-нибудь еще. 
+- C++ - без использования встроенных типов
+- C++ - используя встроенные типы, такие как std::list для связанного списка
+- Python - используя встроенные типы (для практики на Python)
+- написание тестов для проверки правильности кода, иногда просто используя выражение assert()
+- Вы можете программировать на Java или других языках, это только лишь мой выбор.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Вам не нужны все эти языки для собеседования, нужен только один [один язык для собеседования](#Выберите-один-язык-для-собеседования).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Зачем нужно программировать на нескольких языках:
+- Практика, практика, практика пока это не надоедает мне я программирую
+- Работа в рамках установленных ограничений (выделение/освобождение памяти без помощи сборщика мусора (кроме Python))
+- Используйте встроенные типы, потому как у меня есть опыт использования встроенных инструментах в реальных проектах (нет смысла в написание своей реализации связанного списка для продакшена)
 
-I may not have time to do all of these for every subject, but I'll try.
+У меня может и не будет времени на все это, но я попробую.
 
-You can see my code here:
+
+Вы можете посмотреть на мой код тут:
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Вам не нужно запоминать внутренности каждого алгоритма.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Пишите код на доске или листе бумаги, но не компьютере. Проверяйте на простых входных данных. Затем тестируйте на компьютере.
 
 ## Prerequisite Knowledge
 

@@ -363,9 +363,9 @@ I'm in the queue right now. Hope to interview soon.
 준비기간이 짧을 때,
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - 이 책은 2004년에 출판된 다소 구식의 책이지만, 간략히 컴퓨터를 이해하는 데에 훌륭한 자료입니다.
+    - 이 책의 저자는 HLA를 발명했습니다. 그래서 회의적인 시선으로 HLA에 대해 언급하고 예로 듭니다. 널리 읽히지는 않지만, 어셈블리가 어떻게 생겼는 지를 보여주는 좋은 예입니다.
+    - 이 장들은 당신에게 탄탄한 기초를 세워줄 것입니다:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -392,13 +392,13 @@ I'm in the queue right now. Hope to interview soon.
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+나는 아래의 두 책들을 읽지 않았습니다. 하지만 Sedgewick이 높게 평가한 책들입니다. 그는 정말 대단한 사람입니다.
 
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적인 자료를 찾고 있습니다.
 
 ### Java
 
@@ -411,21 +411,21 @@ OR:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - UC버클리 대학의  CS입문 과정의 선택 텍스트로 사용됨
+    - 아래에서 Python 버전에 대한 나의 책 보고서를 참조하십시오. 이 책은 동일한 주제를 다루고 있습니다.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
+    - 나는 이 책을 사랑한다. 이 책은 모든 것을 다룬다.
     - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - 나의 열렬한 서적 보고서: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### 선택 도서
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**어떤 사람들은 이 책들을 추천한다. 하지만 만약 당신이 소프트웨어 엔지니어링 분야에 오랜 경험이 있고, 그로 인해 훨씬 더 어려운 인터뷰를 볼 것이라 생각하지 않는다면, 나는 이 책들을 공부하는 것이 너무 과하다고 생각한다:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition

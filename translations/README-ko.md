@@ -1461,23 +1461,23 @@ Maybe:
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
 
-## Be thinking of for when the interview comes
+## 인터뷰가 다가오면 생각해보기
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+아래의 아이템들에 따른 너가 받을 20개의 인터뷰 질문에 대해 생각하라. 각각 2-3개의 대답을 준비해라.
+당신이 성취한 것에 대해 데이터 뿐만 아니라 스토리를 만들어라.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- 왜 이 직업을 원합니까?
+- 당신이 풀었던 문제중 힘들었던 문제는?
+- 큰 도전에 직면한 적은? 
+- 최고의/최악의 디자인을 본적이 있는가?
+- 현존하는 구글 제품들에 대해 향상시킬수 있는 아이디어 
+- 개인적으로 일할 때 가장 잘 일하는가? 아니면 팀원으로서 있을 때? 
+- 어떤 기술과 경험들이 당신의 역할에서 자산이 되었으며 그 이유는? 
+- 어떤 것이 가장 즐거웠는가 [job x / project y]? 
+- 무엇이 가장 큰 도전이었는가 [job x / project y]? 
+- 무엇이 가장 힘들었던 버그였는가? [job x / project y]? 
+- 무엇을 배웠는가 [job x / project y]? 
+- 무엇이 향상되었는가 [job x / project y]?
 
 ## Have questions for the interviewer
 

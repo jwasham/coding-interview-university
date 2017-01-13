@@ -31,8 +31,6 @@ If you want to be a reliability engineer or systems engineer, study more from th
 - [Nedir ?](#nedir-)
 - [Neden kullanmalıyım ?](#why-use-it)
 - [Psikolojik olarak kendini hazırlamak](#psikolojik-olarak-kendini-hazırlamak)
-- [Peki John Google'a kabul edildi mi ?](#peki-john-googlea-kabul-edildi-mi-)
-- [John'u takip et](#johnu-takip-et)
 - [Sakın Ha ! Kendini yetersiz görme](#sakın-ha--kendini-yetersiz-görme)
 - [Google kimdir, nedir ?](#google-kimdir-nedir-)
 - [Videolar hakkında bilgilendirme](#videolar-hakkında-bilgilendirme)
@@ -175,25 +173,6 @@ _Googler : Google'da çalışmak isteyen kişi._</br>
 _Future Googler : Google'da çalışmaya aday kişi._
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
-## Peki John Google'a kabul edildi mi ?
-
-Bu çevirinin yapıldığı tarihlerde John google'da görüşme için sıraya alınmıştı.</br>
-_Not : John'dan yeni haberler geldikçe güncellenecektir._
-
-## John'u takip et
-
-John'un neden böyle bir yolculuğa çıktığına dair orjinal hikayesine [bu linkten (ingilizce olarak)](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13) ulaşabilirsin.
-
-Ek olarak, John'u çıktığı yolculukta aşağıdaki linkelerden de takip edebilirsin :
- 
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
-- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Sakın Ha ! Kendini yetersiz görme
 

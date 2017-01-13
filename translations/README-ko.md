@@ -501,16 +501,16 @@ OR:
 
 앞에서도 언급했듯이 나는 불필요하게 많은 것을 공부하려고 했고, 내 카드의 내용들은 어셈블리 언어와 Python의 자잘한 지식들부터 기계 학습과 통계학까지 넘나들게 되었다. 결국 구글이 요구하는 것보다 훨씬 멀리 가버리고 말았다.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**flashcard에 대한 참고사항:** 답을 할 수 있더라도 처음부터 안다고 표시하지 말자. 정확히 알기 전까지는 같은 카드를 보고 여러 번 답변할 수 있어야한다. 
+반복 학습을 통해 해당 지식은 당신의 뇌에 깊이 각인될 것이다.
 
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
 
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+나의 flashcard site를 사용하는 대신 [Anki](http://ankisrs.net/)를 사용해도 된다. 나는 이 것을 여러 번 추천받았다. 이것은 당신이 기억하는 것을 돕기 위해 반복적인 시스템을 사용한다.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+이것은 사용자 친화적이며, 모든 플랫폼에서 사용가능하다. 또한 클라우드 동기화 시스템을 제공한다. 이것은 iOS에서는 $25이지만 다른 플랫폼에서는 무료로 사용 가능하다.
+
+Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
 ### 3. 검토, 검토, 검토
 

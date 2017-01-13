@@ -266,10 +266,10 @@ I'm in the queue right now. Hope to interview soon.
 - [ ] 비디오:
 
     - [ ] [구글에서 일하게 되는법: 기술 인터뷰 준비하기 (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-      - [ ] [구글에서 일하게 되는법: 코딩/기술 인터뷰 예시 (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-      - [ ] [구글에서 일하게 되는법 - 지원자 코칭 시간 (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-      - [ ] [구글 리크루터들이 공유한 기술 인터뷰 팁들 (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-      - [ ] [구글에서 일하게 되는법: 기술 레쥬메 준비 (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [구글에서 일하게 되는법: 코딩/기술 인터뷰 예시 (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [구글에서 일하게 되는법 - 지원자 코칭 시간 (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [구글 리크루터들이 공유한 기술 인터뷰 팁들 (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [구글에서 일하게 되는법: 기술 레쥬메 준비 (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] 읽을 거리들:
 

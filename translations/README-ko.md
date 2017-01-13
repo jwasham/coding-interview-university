@@ -1,6 +1,6 @@
 # 구글 인터뷰 대학(Google Interview University)
 
-번역: 
+번역:
 - [중국어](translations/README-cn.md)
 - 진행 중인 번역:
     - [스페인어](https://github.com/jwasham/google-interview-university/issues/80)
@@ -24,7 +24,7 @@
 
 이 기나긴 리스트는 **구글 코칭 노트**에서 선별되고 확장된 것으로 여러분이 알아야 할 내용이다. 맨 아래에는 인터뷰에 등장하거나 문제를 푸는 데에 도움이 될 만한 추가적인 내용이 있다. 많은 내용이 Steve Yegge의  "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"이라는 책에서 나왔으며, 때때로 구글 코칭 노트의 내용을 그대로 담고있기도 하다.
 
-나는 Yegge의 추천으로부터 여러분이 알아야만 할 내용들을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다 
+나는 Yegge의 추천으로부터 여러분이 알아야만 할 내용들을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다
 
 만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다. [더 보기](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
@@ -258,46 +258,44 @@ I'm in the queue right now. Hope to interview soon.
 몇몇 영상들은 Cousera, Edx, Lynda.com 클래스에 등록하여야만 시청이 가능합니다. 이것들은 MOOCs라고 불리는데요.
 강의가 없는 경우에는 몇 달 동안 기다려야 할 수도 있습니다. Lynda.com 강좌들은 무료가 아닙니다.
 
-    여러분이 YouTube 온라인 강의 동영상과 같이 무료이고 항상 접근 가능한 동영상 소스들을 추가해주면 정말 감사하겠습니다. 
+    여러분이 YouTube 온라인 강의 동영상과 같이 무료이고 항상 접근 가능한 동영상 소스들을 추가해주면 정말 감사하겠습니다.
     저는 대학 강의 듣는 것을 좋아합니다.
-    
+
 ## 인터뷰 과정 & 전반적인 인터뷰 준비 과정
 
 - [ ] 비디오:
 
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
-
+    - [ ] [구글에서 일하게 되는법: 기술 인터뷰 준비하기 (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+      - [ ] [구글에서 일하게 되는법: 코딩/기술 인터뷰 예시 (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+      - [ ] [구글에서 일하게 되는법 - 지원자 코칭 시간 (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+      - [ ] [구글 리크루터들이 공유한 기술 인터뷰 팁들 (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+      - [ ] [구글에서 일하게 되는법: 기술 레쥬메 준비 (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] 읽을 거리들:
 
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+    - [ ] [구글러 되기 3단계](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [구글에서 그 직업 갖기](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+      - 이 글에서 저자가 언급한 당신이 알아야 할 모든 것들은 이 리스트 아래에 소개되어 있습니다.
+    - [ ] _(아주 오래됨)_ [구글에 취업하는 방법, 인터뷰 질문들, 채용 절차](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [화상통화 인터뷰 질문들](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 
 - [ ] 준비 코스:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+    - [ ] [소프트웨어 엔지니어 인터뷰 대공개 (유료 강좌)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - 전직 구글 엔지니어로부터 당신이 어떻게 소프트웨어 엔지니어 인터뷰를 준비해야 하는지 배우게 됩니다.
 
 - [ ] 부가물 (구글이 추천하지않은 내가 더한 것들):
-
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+    - [ ] [ABC: 항상 코딩 하라](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [학위 없이 구글에 들어가기 4단계](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [화이트 보드 쓰기](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [채용, 관리, 문화에 대한 구글의 생각](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [코딩 인터뷰에서 화이트 보드 효율적으로 쓰기](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] 코딩 인터뷰 정복 Set 1:
+      - [ ] [Gayle L McDowell - 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+      - [ ] [저자와 함께하는 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] Big 4에 취업하는 방법:
+      - [ ] ['Big 4에 취업하는 방법 - Amazon, Facebook, Google & Microsoft' (영상)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [구글 인터뷰 실패기](http://alexbowe.com/failing-at-google-interviews/)
 
 
 ## 인터뷰를 위한 언어 고르기
@@ -518,14 +516,14 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
 
 30분 동안 프로그래밍 문제를 해결하고, flashcard를 살펴보자.
 
-### 4. 집중 
+### 4. 집중
 
 주의를 산만하게 만드는 많은 것이 있으며, 이것들은 우리의 귀중한 시간을 뺏어간다. 주의를 집중하는 것은 힘든 일이다.
 
 ## 다루지 않을 것
 
-이 큰 주제들은 모두 Google 인터뷰 코칭 노트에서 개인적인 to-do list로 시작되었다. 
-이 기술들은 널리 퍼져 있는 기술이지만, Google 인터뷰 코칭 노트에서 언급 되지 않았다: 
+이 큰 주제들은 모두 Google 인터뷰 코칭 노트에서 개인적인 to-do list로 시작되었다.
+이 기술들은 널리 퍼져 있는 기술이지만, Google 인터뷰 코칭 노트에서 언급 되지 않았다:
 
 - SQL
 - Javascript
@@ -1468,15 +1466,15 @@ Maybe:
 
 - 왜 이 직업을 원합니까?
 - 당신이 풀었던 문제중 힘들었던 문제는?
-- 큰 도전에 직면한 적은? 
+- 큰 도전에 직면한 적은?
 - 최고의/최악의 디자인을 본적이 있는가?
-- 현존하는 구글 제품들에 대해 향상시킬수 있는 아이디어 
-- 개인적으로 일할 때 가장 잘 일하는가? 아니면 팀원으로서 있을 때? 
-- 어떤 기술과 경험들이 당신의 역할에서 자산이 되었으며 그 이유는? 
-- 어떤 것이 가장 즐거웠는가 [job x / project y]? 
-- 무엇이 가장 큰 도전이었는가 [job x / project y]? 
-- 무엇이 가장 힘들었던 버그였는가? [job x / project y]? 
-- 무엇을 배웠는가 [job x / project y]? 
+- 현존하는 구글 제품들에 대해 향상시킬수 있는 아이디어
+- 개인적으로 일할 때 가장 잘 일하는가? 아니면 팀원으로서 있을 때?
+- 어떤 기술과 경험들이 당신의 역할에서 자산이 되었으며 그 이유는?
+- 어떤 것이 가장 즐거웠는가 [job x / project y]?
+- 무엇이 가장 큰 도전이었는가 [job x / project y]?
+- 무엇이 가장 힘들었던 버그였는가? [job x / project y]?
+- 무엇을 배웠는가 [job x / project y]?
 - 무엇이 향상되었는가 [job x / project y]?
 
 ## Have questions for the interviewer
@@ -1512,7 +1510,7 @@ You're never really done.
     아래의 모든 것들은 선택 사항이다. 이 것들은 Google의 권장사항이 아니라, 나의 추천사항이다.
     당신은 이것들을 공부함으로써 더 많은 CS 개념들에 대해 알 수 있을 것이며, 소프트웨어 엔지니어링 직업을 준비하는 데에도 도움이 될 것
     이다. 더불어 당신은 훨씬 더 균형 잡힌 소프트웨어 엔지니어가 될 것이다.
-    
+
 
     *****************************************************************************************************
     *****************************************************************************************************

@@ -8,21 +8,17 @@ Bu planın orijinaline [buradan](https://github.com/jwasham/google-interview-uni
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes.
+ Bu uzun liste **Google'ın koç notlarından** çıkartılmış ve genişletilmiştir. Bu yüzden 
+ bunlar, bilmeniz gereken şeylerdir. Buraya, iş görüşmesinde veya problem çözümlerinde 
+ yadımcı olabilecek öğeleri ekledim. Bu öğeler Steve Yegge'nin "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"  yazısından ve bazıları da Google'ın koç notlarından alınanlardır.
+ 
+ Yegge'nin dökümanını, sizin ihtiyacınız olacak şekilde şekillendirdim.
+ Yegge'nin koşullarını, Google'da iletişim halinda olduğum kişilerden bilgi alarak değiştirdim. Bu döküman, yeni yazılım   mühendisleri veya yazılım/web geliştiriciliğinden yazılım mühendisliğine geçiş yapacaklar için tasarlandı.(Bilgisayar bilimi bilgisine nerede ihtiyaç duyarsanız). Eğer uzun bir deneyiminiz varsa ve uzun yıllardır yazılım mühendisliği deneyimim var diyorsanız, daha zor bir iş görüşmesi umuyorsanız, "[burayı](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/)" okuyabilirsiniz.
+ 
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from 
-software/web development to software engineering (where computer science knowledge is required). If you have 
-many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
-
-If you have many years of software/web development experience, note that Google views software engineering as 
-different from software/web development and they require computer science knowledge.
-
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+ Uzun yıllardır yazılım/web geliştiriciliği deneyimine sahipseniz, Google'ın yazılım mühendsiliğini, yazılım/web geliştiriciliğinden farklı gördüğünü ve bilgisayar bilimi bilgisi istediğini aklınızda bulundurmalısınız.
+ 
+ Eğer bir güvenilirlik mühendisi veya sistem mühendisi olmak istiyorsanız, bu opsiyonel listeden daha fazlasına çalışmalısınız (networking, güvenlik).
 
 ---
 

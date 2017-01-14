@@ -922,20 +922,20 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
-## Graphs
+## 그래프
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+그래프는 컴퓨터 과학의 여러 문제들을 표현하는 데 사용할 수 있다. 때문에 이 섹션은 트리나 정렬 섹션처럼 길다.
 
-- Notes from Yegge:
-    - There are three basic ways to represent a graph in memory:
-        - objects and pointers
-        - matrix
-        - adjacency list
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none.
+- Yegge의 노트:
+    - 메모리에 그래프를 표시하는 세 가지 기본 방법이 있다:
+        - 오브젝트와 포인터
+        - 행렬
+        - 인접 리스트
+    - 각각의 표현과 장단점을 숙지하라.
+    - 넓이우선탐색(BFS)와 깊이우선탐색(DFS) - 계산상의 복잡성, 장단점, 실제 코드로 구현하는 방법을 알아야 한다.
+    - 질문을 받을 시 먼저 그래프 기반 솔루션을 찾고, 없을 경우에 다른 솔루션으로 넘어가라.
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Skiena의 강좌 - 훌륭한 인트로:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -943,7 +943,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [ ] 그래프 (검토, 그 외 여러가지):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -961,14 +961,14 @@ Graphs can be used to represent many problems in computer science, so this secti
 - Full Coursera Course:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- Yegge: If you get a chance, try to study up on fancier algorithms:
+- Yegge: 기회가 된다면, 더 멋진 알고리즘을 연구해 보라:
     - [ ] Dijkstra's algorithm - see above - 6.006
     - [ ] A*
         - [ ] [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
         - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
         - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- I'll implement:
+- 내가 구현할 것:
     - [ ] DFS with adjacency list (recursive)
     - [ ] DFS with adjacency list (iterative with stack)
     - [ ] DFS with adjacency matrix (recursive)
@@ -984,7 +984,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그래프 실습을 할 수 있다.
 
 ## Even More Knowledge
 

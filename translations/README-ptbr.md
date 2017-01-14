@@ -147,7 +147,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 
 Estou seguindo esse plano para me preparar para a minha entrevista com a Google. Eu estive construindo a web, construindo serviços, e lançando startups desde 1997. Eu sou graduado em economia, não em ciência da computação. Eu tenho sido muito bem sucedido em minha carreira, mas eu quero trabalhar na Google. Quero progredir para sistemas maiores e realmente entender sistemas de computação, eficiência algorítmica, desempenho de estrutura de dados, linguagens de baixo nível, e como tudo funciona. E se você não sabe nada disso, a Google não vai te contratar.
 
-Quando eu começei esse projeto, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
+Quando eu comecei esse projeto, I didn't know a stack from a heap, didn't know Big-O anything, nada sobre árvores, or how to
 traverse a graph. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
 Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por baixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns arrays multidimensionais na minha vida e milhares de arrays associativos, mas eu nunca criei estruturas de dados do zero.
 
@@ -155,11 +155,11 @@ Mas depois de passar por esse plano de estudo sou confiante de que serei contrat
 
 ## Como usar
 
-Tudo abaixo é um esboço, e você deve abordar os items em ordem de cima para baixo.
+Tudo abaixo é um esboço, e você deve abordar os itens em ordem de cima para baixo.
 
 Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de tarefas para verificar o progresso.
 
-**Crie um novo branch para você verificar items assim, apenas coloque um x entre os colchetes: [x]**
+**Crie um novo branch para você verificar itens assim, apenas coloque um x entre os colchetes: [x]**
 
 
     Bifurque (fork) um branch e siga os comandos abaixo
@@ -184,7 +184,7 @@ Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de ta
 
 ## Entre no Clima de um Googler
 
-Imprima um "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" cartaz (ou dois) e mantenha seus olhos no prêmio.
+Imprima um cartaz (ou dois) de "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" e mantenha seus olhos no prêmio.
 
 [![cartaz de um futuro Googler](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
@@ -233,7 +233,7 @@ Estou na jornada, também. Me acompanhe:
 ## Sobre os recursos em vídeo
 
 Alguns vídeos estão disponíveis somente ao ingressar em um curso no Coursera, EdX, ou Lynda.com. Esses são chamados de MOOCs (Curso Online Aberto e Massivo).
-Ás vezes as aulas não estão em sessão, nesse caso você terá que esperar alguns meses, portanto não terá acesso até lá. Os cursos da Lynda.com não são gratuitos.
+Às vezes as aulas não estão em sessão, nesse caso você terá que esperar alguns meses, portanto não terá acesso até lá. Os cursos da Lynda.com não são gratuitos.
 
     Eu agradeceria a ajuda de vocês em adicionar fontes públicas gratuitas e sempre disponíveis, como vídeos do YouTube para acompanhar os vídeos de curso online.
     Eu gosto de usar palestras de universidades;
@@ -270,13 +270,13 @@ Alguns vídeos estão disponíveis somente ao ingressar em um curso no Coursera,
         - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (vídeo)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] How to Get a Job at the Big 4:
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (vídeo)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/) (Falhando em Entrevistas da Google)
 
 ## Escolha Uma Linguagem para a Entrevista
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Eu escrevi esse pequeno artigo sobre isso: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Importante: Escolha Uma Linguage para a Entrevista da Google)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Você pode escolher uma linguagem com a qual você esteja confortável para fazer a parte de programar (parte prática) da entrevista, mas para a Google, essas são ótimas opções:
 
 - C++
 - Java
@@ -287,48 +287,48 @@ You could also use these, but read around first. There may be caveats:
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+You need to be very comfortable in the language and be knowledgeable[1]. [1]*translator note > clarify with author: "knowledgeable about the chosen language or knowledgeable in general? (about programming in general)*
 
-Read more about choices:
+Leia mais sobre as escolhas:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Veja recursos de linguagens aqui](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Você vai ver aprendizado de C, C++ e Python incluído abaixo, porque eu estou aprendendo. Tem alguns livros envolvidos, veja no final.
 
-## Book List
+## Lista de Livros
 
 This is a shorter list than what I used. This is abbreviated to save you time.
 
-### Interview Prep
+### Preparação para a Entrevista
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html) (Entrevistas de Programação Expostas: Segredos para Conseguir Seu Próximo Emprego, 2ª Edição)
+    - respostas em C++ e Java
     - recommended in Google candidate coaching
     - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - não é muito difícil, a maioria dos problemas poderão ser mais fáceis dos que você verá em uma entrevista (de acordo com o que li)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+    - respostas em Java
+    - recomendado no [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/) (site de Carreiras da Google)
+    - If you see people reference "The Google Resume", it was a livro replaced by "Cracking the Coding Interview".
 
-If you have tons of extra time:
+Se você tem muito tempo sobrando:
 
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+    - todo código em C++, muito bom se você está pensando em usar C++ na sua entrevista
+    - um bom livro sobre resolução de problemas em geral.
 
-### Computer Architecture
+### Arquitetura de Computador
 
-If short on time:
+Se estiver com pouco tempo:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
+    - O livro foi publicado em 2004, e está meio vencido, mas é um recurso maravilhoso para compreender um computador resumidamente.
     - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
     - These chapters are worth the read to give you a nice foundation:
-        - Chapter 2 - Numeric Representation
+        - Chapter 2 - Numeric Representation (Capítulo 2 - Representação Numérica)
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
         - Chapter 5 - Character Representation
@@ -338,14 +338,14 @@ If short on time:
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization 
 
-If you have more time (I want this book):
+Se você tem mais tempo (eu quero esse livro):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
     - For a richer, more up-to-date (2011), but longer treatment
 
-### Language Specific
+### Específico de Linguagem
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Você precisa escolher uma linguagem para a entrevista (veja acima).** Aqui estão minhas recomendações por linguagem. Eu não conheço recursos para todas as linguagens. Contribuições de recursos aqui são bem-vindas.
 
 If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
 **You can skip all the vídeo lectures in this project**, unless you'd like a review.
@@ -373,25 +373,25 @@ OR:
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - by Goodrich, Tamassia, Goldwasser
     - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - see my book report on the Python version below. This livro covers the same topics.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
+    - I loved this livro. It covered everything and more.
     - Pythonic code
     - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### Livros Opcionais
 
 **Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition
     - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
+    - This livro has 2 parts:
         - class textbook on data structures and algorithms
             - pros:
                 - is a good review as any algorithms textbook would be
@@ -402,12 +402,12 @@ OR:
                 - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
                 - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
         - algorithm catalog:
-            - this is the real reason you buy this book.
+            - this is the real reason you buy this livro.
             - about to get to this part. Will update here once I've made my way through it.
-    - To quote Yegge: "More than any other book it helped me understand just how astonishingly commonplace
-        (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
+    - To quote Yegge: "More than any other livro it helped me understand just how astonishingly commonplace
+        (and important) graph problems are – they should be part of every working programmer's toolkit. The livro also
         covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
-        of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
+        of the livro, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
         them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
         great way to learn how to identify hundreds of problem types."
     - Can rent it on kindle
@@ -418,8 +418,8 @@ OR:
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
+    - **Important:** Reading this livro will only have limited value. This livro is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
+    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that livro."
     - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
 
@@ -428,8 +428,8 @@ OR:
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
-    - Would rather spend time on coding problems from another book or online coding problems.
+    - A fine livro, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
+    - Would rather spend time on coding problems from another livro or online coding problems.
 
 
 ## Before you Get Started
@@ -523,9 +523,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Prerequisite Knowledge
 
 - [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, vídeos, *everywhere* while you're studying.
+    - C is everywhere. You'll see examples in livros, lectures, vídeos, *everywhere* while you're studying.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
+        - This is a short livro, but it will give you a great handle on the C language and if you practice it a little 
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - [answers to questions](https://github.com/lekkas/c-algorithms) 
 
@@ -540,7 +540,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (vídeo)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [vídeo](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/vídeo-lectures/2007/lecture2.pdf)
+    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 - [ ] [Orders of Growth (vídeo)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
 - [ ] [Asymptotics (vídeo)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
@@ -939,7 +939,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+You'll get more graph practice in Skiena's livro (see livros section below) and the interview livros
 
 ## Even More Knowledge
 
@@ -1025,7 +1025,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [Chapter 6 (Part 1) - Patterns (vídeo)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
     - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (vídeo)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (vídeo)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Series of vídeos (27 vídeos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    - [ ] [Séries de vídeos (27 vídeos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
@@ -1206,7 +1206,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] [Transactions Across Datacenters (vídeo)](https://www.youtube.com/watch?v=srOgpXECblk)
 - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
 - [ ] Paxos Consensus algorithm:
-    - [short vídeo](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+    - [vídeo curto](https://www.youtube.com/watch?v=s8JqcZtvnsM)
     - [extended vídeo with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
     - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
@@ -1248,7 +1248,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
     - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
     - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
-    - [ ] [Live vídeo Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-vídeo-streaming-at-facebook-scale.html)
+    - [ ] [Live vídeo Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
     - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
     - [ ] [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
     - [ ] [Does AMP Counter An Existential Threat To Google?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
@@ -1257,7 +1257,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [Serverless (very long, just need the gist)](http://martinfowler.com/articles/serverless.html)
     - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
     - [ ] [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
-    - [ ] [Justin.Tv's Live vídeo Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-vídeo-broadcasting-architecture.html)
+    - [ ] [Justin.Tv's Live vídeo Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
     - [ ] [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
     - [ ] [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
     - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
@@ -1304,8 +1304,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Final Review
 
-    This section will have shorter vídeos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    Essa seção terá vídeos mais curtos que você pode assistir rapidamente para revisar a maioria dos conceitos importantes.
+    É legal se você quiser dar uma refrescada na memória.
 
 - [ ] Series of 2-3 minutes short subject vídeos (23 vídeos)
     - [vídeos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
@@ -1355,7 +1355,7 @@ Why you need to practice doing programming problems:
 - testing your solutions
 
 There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+interview livros, too, but I found this outstanding:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
@@ -1473,7 +1473,7 @@ You're never really done.
 
 ---
 
-## Additional Books
+## Livros Adicionais
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
     - an oldie but a goodie
@@ -1851,7 +1851,7 @@ You're never really done.
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
         - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
     - Resources:
-        - Books:
+        - Livros:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
             - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
             - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
@@ -1863,7 +1863,7 @@ You're never really done.
         - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
         - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
         - [ ] [A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
-    - [ ] Books:
+    - [ ] Livros:
         - [ ] [An Introduction to Programming in Go (read free online)](https://www.golang-book.com/books/intro)
         - [ ] [The Go Programming Language (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
     - [ ] [Bootcamp](https://www.golang-book.com/guides/bootcamp)
@@ -1940,7 +1940,7 @@ You're never really done.
         - [ ] [lecture begins at 35:00 (vídeo)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [lecture begins at 23:50 (vídeo)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## vídeo Series
+## Séries de Vídeo
 
 Sit back and enjoy. "Netflix and skill" :P
 

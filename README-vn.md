@@ -153,7 +153,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [Discrete math](#discrete-math)
     - [Machine Learning](#machine-learning)
     - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+- [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
 - [Video Series](#video-series)
 - [Computer Science Courses](#computer-science-courses)
 
@@ -906,10 +906,10 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] [Sự ngẫu nhiên: Phép nhân ma trận, Sắp xếp nhanh và thuật toán của Freivalds - video](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sắp xếp trong thời gian tuyến tính (Sorting in Linear Time) - video](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-Nếu bạn muốn biết thêm chi tiết trong chủ đề này, xem qua phần "Sắp xếp" trong [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+Nếu bạn muốn biết thêm chi tiết trong chủ đề này, xem qua phần "Sắp xếp" trong [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
 
 
-> TODO replace sections anchor after translate "Additional Detail on Some Subjects"
+> TODO replace sections anchor after translate "Đọc thêm về một số đề tài"
 
 
 ## Đồ thị
@@ -1289,57 +1289,57 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - [ ] [2007: Những gì mà lập trình viên nên biết về bộ nhớ (rất dài, ngay cả tác giả cũng khuyến khích bỏ qua vài phần) (What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections))](https://www.akkadia.org/drepper/cpumemory.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
         - Bài nghiên cứu không tồn tại
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+    - [ ] 2012: AddressSanitizer: Kiểm tra nhanh tính đúng đắn của địa chỉ (A Fast Address Sanity Checker):
+        - [Bài nghiên cứu](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
         - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
     - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+        - [Bài nghiên cứu](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
         - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
-    - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+    - [ ] [2014: Máy học: Lợi ích và những vấn đề cần tránh (Machine Learning: The High-Interest Credit Card of Technical Debt)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en/pubs/archive/43790.pdf)
+    - [ ] [2015: Sẵn sàng cho thay đổi lớn: Xây dựng hạ tầng dữ liệu của Google dành cho quảng cáo (High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads)](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+    - [ ] [2015: TensorFlow: Áp dụng máy học trên diện rộng với hệ thống phân tán không đồng nhất (Large-Scale Machine Learning on Heterogeneous Distributed Systems)](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+    - [ ] [2015: Lập trình viên tìm code như thế nào: Một trường hợp điển hình (How Developers Search for Code: A Case Study)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
+- ### Kiểm tra
+    - Cần ghi nhớ:
+        - Unit test thực hiện như thế nào
+        - Các đối tượng giả là gì
+        - Integration testing là gì
+        - Dependency injection là gì
+    - [ ] [Kiểm tra phần mềm linh hoạt với Jame Bach (Agile Software Testing with James Bach) (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [Bài giảng của James Bach về kiểm tra phần mềm (Open Lecture by James Bach on Software Testing) (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - Lập trình hướng tới việc test( Không phải như chúng ta nghĩ) (Test-Driven Development (that’s not what we meant)) (video)](https://vimeo.com/83960706)
         - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
+    - [ ] [Lập trình hướng tới việc test đã chết. (TDD is dead. Long live testing.)](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+    - [ ] [Lập trình hướng tới việc test có phải đã chết? (Is TDD dead?) (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] [Video series (152 videos) - Không phải tất cả đều cần thiết (not all are needed) (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [Lập trình theo hướng test dành cho web với Python (Test-Driven Web Development with Python)](http://www.obeythetestinggoat.com/pages/book.html#toc)
     - [ ] Dependency injection:
         - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-        - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+        - [ ] [Đạo trong kiểm tra (Tao Of Testing)](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+    - [ ] [Viết test thế nào(How to write tests)](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+- ### Lên lịch làm việc
+    - Trong một hệ điều hành hoạt động như thế nào
+    - Có thể tìm thấy trong các video về HĐH
 
-- ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+- ### Triển khai các hoạt động của hệ thống
+    - Hiểu rõ cách thức hoạt động đằng sau của các API
+    - Có thể triển khai chúng hay không?
 
-- ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-    - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
+- ### Tìm kiếm chuỗi và xử lý
+    - [ ] [Sedgewick - Mảng tiền tố(Suffix Arrays) (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
+    - [ ] [Sedgewick - Tìm và thay chuỗi(Substring Search) (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [1. Giới thiệu tìm và thay chuỗi(Introduction to Substring Search)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [2. Tìm và thay chuỗi theo Brute-Force(Brute-Force Substring Search)](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
         - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [Tìm kiếm mẫu trong văn bản (Search pattern in text) (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    Nếu bạn cần thêm thông tin chi tiết, hãy đọc qua phần "Khớp chuỗi" trong các mục đọc thêm [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
 
 ---
 

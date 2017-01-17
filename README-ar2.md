@@ -1,25 +1,8 @@
-# الإعداد لجوجل
-
-Translations: 
-- [中文版本](translations/README-cn.md)
-- translations in progress:
-    - [Español](https://github.com/jwasham/google-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
-    - [French](https://github.com/jwasham/google-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
-    - [Korean](https://github.com/jwasham/google-interview-university/issues/118)
-    - [Polish](https://github.com/jwasham/google-interview-university/issues/122)
+#  الإعداد لجوجل 
 
 ## ماهذا؟
-هي خطة من عدة أشهر من مطور تطبيقات ويب (قائمة على التعليم الذاتي، ومبدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات بجوجل
 
+هي خطة من عدة أشهر من مطور تطبيقات ويب (قائمة على التعليم الذاتي، ومبدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات بجوجل
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
@@ -37,22 +20,22 @@ Translations:
 
 ## الفهرس
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [ماهذا؟](#what-is-it)
+- [لماذا استخدمه؟](#why-use-it)
+- [كيفية استخدامه؟](#how-to-use-it)
+- [ادخل في مود جوجل](#get-in-a-googley-mood)
+- [هل حصلت على الوظيفة؟](#did-i-get-the-job)
+- [تابعني باستمرار](#follow-along-with-me)
+- [هل تظن حقأ أنك لست ذكي](#dont-feel-you-arent-smart-enough)
+- [عن جوجل](#about-google)
+- [عن مصادر الفديوهات](#about-video-resources)
+- [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#interview-process--general-interview-prep)
+- [اختر لغة واحدة للمقابلة الشخصية](#pick-one-language-for-the-interview)
+- [قائمة الكتب](#book-list)
+- [قبل أن تبدأ](#before-you-get-started)
+- [ماالذي لن تراه](#what-you-wont-see-covered)
+- [المعرفة الأساسية](#prerequisite-knowledge)
+- [الخطة اليومية](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
@@ -157,6 +140,7 @@ Translations:
 - [Computer Science Courses](#computer-science-courses)
 
 ---
+
 ## لماذا استخدمه؟
 
 أقوم بمتابعة هذه الخطة لتحضير إلى المقابلة الشخصية بجوجل. لقد قمت بناء مواقع ويب، وتقديم خدمات ذات صلة، وبناء شركات ناشئة منذ 1997. لدي درجة علمية في الاقتصاد، وليس في علوم الحاسب. أنا شخص ناجح في مجال عملي، ولكنني أريد أن أعمل بجوجل. أريد أن أعمل على أنظمة كبيرة والحصول على فهم كبير في أنظمة الحاسوب، كفاءة الخوارزميات، كقاءة الهياكل البيانية، اللغات الأقرب إلى الآلة وكيفية عملها. وإذ لم تعرف أين منها لن تعينك جوجل.
@@ -174,6 +158,7 @@ Translations:
 
 
 **اصنع مسار جديد يمكن من خلاله أن تضع علامة [x]**
+
 
     احصل على نسخة خاصة "fork" بك واتبع هذه الأوامر 
 
@@ -193,60 +178,56 @@ Translations:
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[للمزيد عن خاصية الجيت لتحديد ماتم إنجاوه](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## ادخل في مود الخاص بجوجل
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+اطبع  "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" وضع نصب عينك على هذا الهدف.
+
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
 
 ## هل حصلت على الوظيفة بجوجل؟
 
 أنا في قائمة الانتظار الآن. على أمل أن أذهب للمقابلة الشخصية قريبا.
 
 
-    الشكر لل JP
-
+    الشكر لل جي JP
 
 ## تابعني باستمرار
 
 قصتي: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-I'm on the journey, too. Follow along:
+ستجدني:
  
-
-- **المدونة**: [GoogleyAsHeck.com](https://googleyasheck.com)
+- **المدونة**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - تويتر: [@googleyasheck](https://twitter.com/googleyasheck)
 - تويتر: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
 - جوجل بلس+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
 - لينكدإن: [johnawasham](https://www.linkedin.com/in/johnawasham)
 
-
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## هل تشعر أنك لست بالذكاء الكافي
-- مهندسوا جوجل أذكياء، وربما لديهم عدم الأمان لأنهم ليسوا بالذكاء الكافي، حتى وهي في جوجل
-
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+مهندسوا جوجل أذكياء، وربما لديهم عدم الأمان لأنهم ليسوا بالذكاء الكافي، حتى وهي في جوجل
+- [أسطورة المبرمج العبقري](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [إنه لمن الخطر أن تذهب لوحدك: محاربة الوحش الغير مرئية في التقنية](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## عن جوجل
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] للطلبة - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] كيفية عمل محرك البحث:
+    - [ ] [ثورة البحث (فديو)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [قصة - كيفة عمل محرك الحب](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [كيفية عمل محرك البحث](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [كيفية عمل محرك البحث - مات كاتس](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [كيف طورت جوجل من محرك البحث في خوارزمياتها](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [كيف جعلت جوجل من محرك البحث يتعامل مع الموبايل](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [دراسات جوجل السرية لمعرفة إحتياجاتنا](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [محرك بحث جوجل سيصبح عقلك القادم](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
     - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [كتاب: كيف يعمل جوجل](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
 ## عن مصادر الفديو
@@ -259,40 +240,38 @@ I'm on the journey, too. Follow along:
     أفضل استخدام مصادر الجامعات.
 
 
-
 ## مراحل المقابلة الشخصية & الإستعداد العام للمقابلة
 
-- [ ] Videos:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+- [ ] الفديوهات:
+    - [ ] [كيف تعمل بجوجل: الإعداد للمقابلة الشخصية (فديو)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [كيف تعمل بجوجل: نماذج من المقابلة البرمجة\الهندسية](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [كيفية تعمل بجوجل: درس تدريب العناصر(فديو)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [موظفي جوجل يشاركوا ملاحضات عن المقابلة التقنية(فديو)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [كيف تعمل داخل جوجل: إعداد السيرة الذاتية (فديو)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - درب نفسك كيفية الإستعداد للمقابلة الشخصية من ممثلين بشركة جوجل.
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+- [ ] المقالات:
+    - [ ] [كيف تصبح من جوجل في ثلاث خطوات](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [احصل على وظيفة بجوجل](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - all the things he mentions that you need to know are listed below
+    - [ ] [كيفية الحصة على وظيفة بجوجل، أسئلة المقابلة الشخصية، عملية التوظيف](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [المقابلة على الهاتف المحمول](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] Prep Courses:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+    - [ ] [مقابلة مهندس البرمجيات(كورس ليس مجاني)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - درب نفسك كيفية الإستعداد للمقابلة الشخصية من ممثلين بشركة جوجل.
 
 - [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [أ ب ج: دائما تدرب على البرمجة](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
     - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] [كيف تفكر جوجل عن التوظيف، الإدارة والثقافة](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [السبورة البيضاء العملية أثناء المقابلة البرمجية](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] مفاتيح المقابلة الشخصية المجوعة 1:
+        - [ ] [جايل ماكدويل - مفاتيح المقابلة الشخصية(فديو)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [ ] [مفاتيح المقابلة الشحصية للمؤلفة جايل ماكدويل (فديو)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
-
+        - [ ] ['كيفية الحصول على وظيفة من الأربع الكبار: أمازون، فيسبوك، جوجل & ميكروسفت' (فديو)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [الفشل في مقابلة جوجل](http://alexbowe.com/failing-at-google-interviews/)
 
 ## اختر لغة برمجية واحدة للمقابلة البرمجية
 
@@ -318,7 +297,7 @@ I'm on the journey, too. Follow along:
 
 [شاهد مصادر اللغات من هنا](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+سترى بعض من السي، السي بلس بلس و البايثون لتعليمهم بالأسفل، لأنني أتعلم أيضا. هناك قليل من الكتب موجودة، انظر أسفل:
 
 ## قائمة الكتب
 
@@ -326,31 +305,30 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 
 ### التحضير للمقابلة الشخصية
 
+- [ ] [إظهار المقابلات البرمجية من الخفايا للحصول على الوظيفة القادمة، الإصدار الثاني](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - الأجوبة بالسي بلس بلس "++C" والجافا "Java"
+    - محبذ من مدربي الإعداد لجوجل
+    - هذه إحماء لكسر المقابلة البرمجية
+    - ليس صعب جدا، معظم المشاكل ربما أسهل من التي سوف تراها في المقابلة(من ما قرأت)
+- [ ] [كسر المقابلة البرمجة، الإصدار السادس](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - الأجوبة بالجاقا "Java"
+    - موصى به في [موقع مهن جوجل](https://www.google.com/about/careers/how-we-hire/interview/)
+إذا رأيت بعض الناس يوصي بمرجع السيرة الذاتية لجوجل "The Google Resume" تم إستبداله ب كسر المقابلة البرمجية "Cracking the Coding  Interview"
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+لو عندك المزيد من الوقت:
 
-If you have tons of extra time:
+- [ ] [عناصر المقابلة البرمجية](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+    - كل البرامج من السي بلس بلس "++C"، وجيد إذا كنت تريد استخدام السي بلس بلس "++C" في المقابلة.
+    - كتاب جيد في المشاكل البرمجية عموما.
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+### عمارة الحاسب
 
-### Computer Architecture
+إذا كان وقتك محدود:
 
-If short on time:
-
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+- [ ] [اكتب كود رائع: المرجع 1: فهم الآلة](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - نشر الكتاب في سنة 2004 ربما يكون قديم بعض الشء، لكنه من المصارد المناسبة لفهم الحاسب بصفة عامة.
+    - اخترع الكاتب "HLA" لذلك عليك ألا تركز عليها في الكتاب لم تستخدم كثيرا, لكنه مصدر جيد لمعرفة لغة الآلة.
+    - هذه الفصول جيدة جدا للقراءة وتعطيك تأسيس جيد:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -361,11 +339,10 @@ If short on time:
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization 
 
-If you have more time (I want this book):
+إذا كان لديك مزيد من الوقت (أريد أن أقرأ هذا الكتاب):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
-
+    - الغني بالمعلومات، والحديث (2011)، ولكنه طويل بعض الشئ
 
 ### تحديد اللغة
 
@@ -456,28 +433,29 @@ OR:
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## قبل البدء
+## Before you Get Started
 
-هذه القائمة تمتد لأشهر نعم وهذا ما باليد حيلة.
-هنا بعض الأخطاء التي فعلتها لذا لديك فرصة أفضل.
+This list grew over many months, and yes, it kind of got out of hand.
 
+Here are some mistakes I made so you'll have a better experience.
 
-### 1. لن تتذكر هذا كله
-لقد شاهدت ساعات من الفديوهات وأخذت مدونات لها، وبعد شهور لم أتذكر شيئا. استغرقت 3 أيام لمراجعة مادرسته وعمل فلاش كارد للتذكري.
+### 1. You Won't Remember it All
 
+I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
+through my notes and making flashcards so I could review.
 
-اقرأ من فضلك لعدم ارتكاب الأخطاء:
+Read please so you won't make my mistakes:
 
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. استخدام الفلاش كار
-لحل المشكلة، صنعت مجموعة من الفلاش كارد ضمن فئتين: عام و كود.
-كل كارد لديه تنسيق خاص.
+### 2. Use Flashcards
 
+To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
+Each card has different formatting.
 
-عملت موقع خاص بي لذا يمكن أن استخدم التابلت للمراجعة.
+I made a mobile-first website so I could review on my phone and tablet, wherever I am.
 
-اصنع واحدا منها لك مجانا:
+Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 - [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 

@@ -2048,7 +2048,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## 컴퓨터 공학 코스
 
-- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
-- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
+- [온라인 CS 코스의 경로](https://github.com/open-source-society/computer-science)
+- [CS 코스의 경로 (많은 온라인 강의가 포함되어 있는 경로)](https://github.com/prakhar1989/awesome-courses)

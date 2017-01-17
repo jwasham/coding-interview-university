@@ -171,7 +171,7 @@ under the hood at all. I've never had to manage memory unless a process I was ru
 memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
 thousands of associative arrays, but I've never created data structures from scratch.
 
-It's a long plan. It's may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
 
 ## How to use it
 

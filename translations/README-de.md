@@ -40,7 +40,7 @@ Wenn du ein Zuverlässigkeitsingenieur werden willst, lerne mehr von der optiona
 
 - [Was ist es?](#was-ist-es)
 - [Warum das hier benutzen?](#warum-das-hier-benutzen)
-- [How to use it](#how-to-use-it)
+- [Wie es zu benutzen ist](#wie-es-zu-benutzen-ist)
 - [Get in a Googley Mood](#get-in-a-googley-mood)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Google](#about-google)
@@ -164,16 +164,16 @@ Jede Datenstruktur die ich je benutzt habe, war in der Sprache eingebaut und ich
 
 Es ist ein langer Plan. Es könnte Monate dauern. Wenn du schon mit vielen dieser Themen vertraut bist, wird es wesentlich schneller gehen.
 
-## How to use it
+## Wie es zu benutzen ist
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Alles unterhalb ist ein Umriss und du solltest die Themen in der vorgegebenen Reihenfolge von oben nacht unten durcharbeiten.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Ich benutzte GitHub's spezielle Markdown Version mit Aufgabenlisten um Fortschritt zu abzuhaken.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Erstelle einen neuen Zweig um Themen wie hier gezeigt abzuhaken. Schreibe einfach ein x in die eckigen Klammern: [x]**
 
 
-    Fork a branch and follow the commands below
+    Forke einen Zweig und folge den Anweisungen unterhalb
 
 `git checkout -b progress`
 
@@ -181,7 +181,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Markieren alle Boxen mit einem X nachdem du deine Änderungen fertig hast
 
 `git add . `
 
@@ -191,7 +191,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Mehr zu GitHub's Markdown Version](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Get in a Googley Mood
 

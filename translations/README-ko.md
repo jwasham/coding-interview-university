@@ -1178,24 +1178,24 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+- ### 테스팅
+    - 알아 두어야 할 것:
+        - 유닛 테스트는 어떻게 작동하는지
+        - mock object 는 무엇인지
+        - 통합 테스트는 무엇인지
+        - 의존성 주입은 무엇인지
+    - [ ] [James Bach과 함께하는 애자일 소프트웨어 테스트 (비디오)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [소프트웨어 테스트에 대한 James Bach의 무료 강의 (비디오)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - Test-Driven 개발 (이것은 우리가 의미하는 것은 아니다) (비디오)](https://vimeo.com/83960706)
+        - [참고자료](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    - [ ] [TDD는 끝났다. 오래 사는 테스팅.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+    - [ ] [TDD는 정말 끝났는가? (비디오)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] [비디오 시리즈 (152 개) - 다 볼 필요 없음 (비디오)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [파이턴과 함께하는 Test-Driven 웹 개발](http://www.obeythetestinggoat.com/pages/book.html#toc)
+    - [ ] 의존성 주입:
+        - [ ] [비디오](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+    - [ ] [테스트 어떻게 작성하는지](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Scheduling
     - in an OS, how it works

@@ -27,16 +27,12 @@ Diese lange Liste wurde von **Google's Trainingsanmerkungen** extrahiert und erw
 Am Ende gibt es extra Artikel, die möglicherweise im Vorstellungsgespräch aufkommen oder hilfreich beim Lösen eines Problems sind. Viele Artikel sind von
 Steve Yegge's "[Bekomm den Job bei Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" und kommen manchmal Wort für Wort in Google's Trainingsanmerkungen vor.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Ich habe abgekürzt, was ihr von Yegge's Empfehlungen wissen müsst. Ich habe Yegge's Anforderungen, um Informationen die ich von meinem Google Kontakt bekommen habe, verändert. Dies ist bestimmt für **neue Softwareingenieure** oder solche, die von Software/Webentwicklung zu Softwaretechnik wechseln (wo Informatikkenntnisse benötigt werden). Wenn du viele Jahre Erfahrung hast und viele Jahre Erfahring in der Softwaretechnik angibst, erwarte ein schwierigeres Vorstellungsgespräch.
+[Lese mehr hier](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-If you have many years of software/web development experience, note that Google views software engineering as
-different from software/web development and they require computer science knowledge.
+Wenn du mehrere Jahre Erfahrung in der Software/Webentwicklung hast, beachte dass Google Unterschiede zwischen Softwaretechnik und Software/Webentwicklung macht und Informatikkentnissen vorraussetzt.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Wenn du ein Zuverlässigkeitsingenieur werden willst, lerne mehr von der optionalen Liste (Netzwerktechnik, Sicherheit).
 
 ---
 

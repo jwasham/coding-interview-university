@@ -27,25 +27,21 @@ Diese lange Liste wurde von **Google's Trainingsanmerkungen** extrahiert und erw
 Am Ende gibt es extra Artikel, die möglicherweise im Vorstellungsgespräch aufkommen oder hilfreich beim Lösen eines Problems sind. Viele Artikel sind von
 Steve Yegge's "[Bekomm den Job bei Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" und kommen manchmal Wort für Wort in Google's Trainingsanmerkungen vor.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Ich habe abgekürzt, was ihr von Yegge's Empfehlungen wissen müsst. Ich habe Yegge's Anforderungen, um Informationen die ich von meinem Google Kontakt bekommen habe, verändert. Dies ist bestimmt für **neue Softwareingenieure** oder solche, die von Software/Webentwicklung zu Softwaretechnik wechseln (wo Informatikkenntnisse benötigt werden). Wenn du viele Jahre Erfahrung hast und viele Jahre Erfahring in der Softwaretechnik angibst, erwarte ein schwierigeres Vorstellungsgespräch.
+[Lese mehr hier](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-If you have many years of software/web development experience, note that Google views software engineering as
-different from software/web development and they require computer science knowledge.
+Wenn du mehrere Jahre Erfahrung in der Software/Webentwicklung hast, beachte dass Google Unterschiede zwischen Softwaretechnik und Software/Webentwicklung macht und Informatikkentnissen vorraussetzt.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Wenn du ein Zuverlässigkeitsingenieur werden willst, lerne mehr von der optionalen Liste (Netzwerktechnik, Sicherheit).
 
 ---
 
 ## Table of Contents
 
 - [Was ist es?](#was-ist-es)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
+- [Warum das hier benutzen?](#warum-das-hier-benutzen)
+- [Wie es zu benutzen ist](#wie-es-zu-benutzen-ist)
+- [Komm in eine Googley Stimmung](#komm-in-eine-googley-stimmung)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Google](#about-google)
 - [About Video Resources](#about-video-resources)
@@ -161,27 +157,23 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ---
 
-## Why use it?
+## Warum das hier benutzen?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Als ich dieses Projekt begonnen habe, kannte ich den Unterschied zwischen einem Stack und einem Heap, wusste nichts über O-Notation, nichts über Bäume oder wie man einen Graph durchquert. Hätte ich einen Sortieralgorithmus programmieren sollen, wäre er nicht sehr gut gewesen.
+Jede Datenstruktur die ich je benutzt habe, war in der Sprache eingebaut und ich wusste nicht wie sie funktionieren. Ich musste nie Speicher verwalten, ausser ein Prozess den ich laufen lies, gab mir einen "Platz im Hauptspeicher reicht nicht aus" Fehler und dann musste ich eine Behelfslösung finden. Ich habe einige multidimensionale Arrays und tausende assoziative Arrays benutzt, habe aber nie eine Datenstruktur von Grund auf angelegt.
 
-It's a long plan. It's may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Es ist ein langer Plan. Es könnte Monate dauern. Wenn du schon mit vielen dieser Themen vertraut bist, wird es wesentlich schneller gehen.
 
-## How to use it
+## Wie es zu benutzen ist
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Alles unterhalb ist ein Umriss und du solltest die Themen in der vorgegebenen Reihenfolge von oben nacht unten durcharbeiten.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Ich benutzte GitHub's spezielle Markdown Version mit Aufgabenlisten um Fortschritt zu abzuhaken.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Erstelle einen neuen Zweig um Themen wie hier gezeigt abzuhaken. Schreibe einfach ein x in die eckigen Klammern: [x]**
 
 
-    Fork a branch and follow the commands below
+    Forke einen Zweig und folge den Anweisungen unterhalb
 
 `git checkout -b progress`
 
@@ -189,7 +181,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Markieren alle Boxen mit einem X nachdem du deine Änderungen fertig hast
 
 `git add . `
 
@@ -199,11 +191,11 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Mehr zu GitHub's Markdown Version](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Komm in eine Googley Stimmung
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Drucke dir ein "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" Schild (oder zwei) aus und halte dir dein Ziel vor Augen.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 

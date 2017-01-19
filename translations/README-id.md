@@ -1,77 +1,60 @@
 # Google Interview University
 
-Translations: 
-- [中文版本](translations/README-cn.md)
-- translations in progress:
-    - [Español](https://github.com/jwasham/google-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
-    - [French](https://github.com/jwasham/google-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
-    - [Korean](https://github.com/jwasham/google-interview-university/issues/118)
-    - [Polish](https://github.com/jwasham/google-interview-university/issues/122)
+Version original: [Bahasa Inggris](README.md)
 
-## What is it?
+## Ringkasan apa ini?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.
+Ini adalah ringkasan studi saya selama beberapa bulan dari web developer (otodidak, tanpa gelar sarjana informatika) hingga menjadi *software engineer Google*.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Menulis kode di papan tulis - dikutip dari serial TV Silicon Valley oleh HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes.
+Saya telah mengupas catatan **Google's Coaching Note** dan berikut adalah hal-hal penting dari catatan tersebut. Ada beberapa poin yang saya tambahkan pada bagian akhir yang mungkin muncul dalam wawancara atau dapat berguna dalam proses penyelesaian masalah.
+Banyak poin berasal dari artikel Steve Yegge "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"  yang berisi poin-poin dari **Google's Coaching Note**.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from 
-software/web development to software engineering (where computer science knowledge is required). If you have 
-many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Saya sudah meringkas poin-poin penting menurut saran dari Yegge. Saya juga mengubah beberapa rekomendasinya berdasarkan informasi yang saya dapatkan dari kontak saya di Google. Pedoman ini ditujukan untuk *software engineer* baru dan mereka yang ingin beralih profesi dari *web developer* menjadi *software engineer* (dimana ilmu komputer diperlukan). 
 
-If you have many years of software/web development experience, note that Google views software engineering as 
-different from software/web development and they require computer science knowledge.
+Jika Anda mengaku memiliki pengalaman bertahun-tahun dalam rekayasa perangkat lunak, bersiaplah untuk wawncara yang jauh lebih sulit.
+[Baca lebih lanjut](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Jika Anda memiliki pengalaman sebagai developer software/web, catat bahwa Google memandang *software engineer* berbeda dari *developer software/web* karena *software engineer* menggunakan ilmu komputer.
+
+Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih banyak pelajari pada bagian tambahan (jaringan, keamanan).
 
 ---
 
-## Table of Contents
+## Daftar Isi
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
+- [Apa ini?](#apa-ini)
+- [Mengapa menggunakan ini?](#mengapa-menggunakan-ini)
+- [Bagaimana cara menggunakannya](#bagaimana-cara-menggunakannya)
+- [Masuk ke Mode Googley](#masuk-ke-mode-googley)
+- [Apakah Saya Mendapatkan Pekerjaannya?](#apakah-saya-mendapatkan-pekerjaannya)
+- [Ikuti Saya](#ikuti-saya)
+- [Jangan merasa anda kurang pintar](#anda-merasa-kurang-pintar)
+- [Tentang Google](#tentang-google)
+- [Tentang Sumber Video](#tentang-sumber-video)
+- [Proses Interview & Preparasi Wawancara Secara Umum](#proses-interview--preparasi-interview-secara-umum)
+- [Pilih Satu Bahasa untuk Wawancara](#pilih-satu-bahasa-untuk-wawancara)
+- [Daftar Buku](#daftar-buku)
+- [Sebelum Anda Mulai](#sebelum-anda-muai)
+- [Apa yang Tidak Akan Dibahas](#apa-yang-tidak-akan-dibahas)
+- [Ilmu Prasyarat](#ilmu-prasyarat)
+- [Rencana Harian](#rencana-harian)
+- [Kompleksitas Algoritma / Big-O / Analisis Asimptotik](#kompleksitas-algoritma--big-o--analisis-asimptotik)
+- [Struktur Data](#struktur-data)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
+- [Pengetahauan Tambahan](#pengetahuan-tambahan)
     - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
+    - [Operasi Bitwise](#operasi-bitwise)
 - [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
+    - [Trees - Catatan & Latar Belakang](#trees---catatan--latar-belakang)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
+    - balanced search trees (konsep dasar, tidak mendalam)
     - traversals: preorder, inorder, postorder, BFS, DFS
 - [Sorting](#sorting)
     - selection
@@ -85,50 +68,50 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - adjacency matrix
     - adjacency list
     - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+- [Pengetahuan Tambahan Lainnya](#pengetahuan-tambahan-lainnya)
+    - [Rekursi](#rekursi)
+    - [Pemrograman Berbasis Objek](#pemrograman-berbasis-objek)
+    - [Pola Desain](#pola-desain)
+    - [Kombinatorik (n pilih k) & Probabilitas](#kombinatorik-n-pilih-k--probabilitas)
+    - [NP, NP-Lengkap dan Algoritma Aproksimasi](#np-np-lengkap-dan-algoritma-aproksimasi)
     - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
+    - [Proses dan Threads](#proses-dan-threads)
+    - [Tesis](#tesis)
     - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+    - [Penjadwalan](#penjadwalan)
+    - [Implementasi Rutinitas Sistem](#implementasi-rutinitas-sistem)
+    - [Pencarian String & Manipulasi](#pencarian-string--manipulasi)
+- [Perancangan Sistem, Skalabilitas, Penganganan Data](#perancangan-sistem-skalabilitas-penanganan-data) (jika anda memiliki pengalaman 4 tahun lebih)
+- [Ulasan Akhir](#ulasan-akhir)
+- [Latihan Pertanyaan Pemrograman](#latihan-pertanyaan-pemrograman)
+- [Soal-soal Pemrograman](#soal-soal-pemrograman)
+- [Menjelang Proses Interview](#menjelang-proses-interview)
+- [CV Anda](#cv-anda)
+- [Perkirakan Pertanyaan Yang Akan Diajukan](#perkirakan-pertanyaan-yang-akan-diajukan)
+- [Bertanyalah Pada Pewawancara](#bertanyalah-pada-pewawancara)
+- [Saat Anda Berhasil Mendapatkan Pekerjaannya](#saat-anda-berhasil-mendapatkan-pekerjaannya)
 
----------------- Everything below this point is optional ----------------
+---------------- Semua dibawah ini bersifat opsional ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Floating Point Numbers](#floating-point-numbers)
+- [Buku Tambahan](#buku-tambahan)
+- [Materi Tambahan](#materi-tambahan)
+    - [Pemrograman Dinamis](#pemrograman-dinamis)
+    - [Kompilator](#kompilator)
+    - [Bilangan Titik Mengambang](#bilangan-titik-mengambang)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
+    - [Teori Informasi](#teori-informasi)
+    - [Pariti & Kode Hamming](#pariti--kode-hamming)
+    - [Entropi](#entropi)
+    - [Kriptografi](#kriptografi)
+    - [Kompresi](#kompresi)
+    - [Jaringan](#jaringan) (bersiaplah mendapatkan pertanyaan jaringan apabila anda ingin menjadi system engineer)
+    - [Sekuritas Komputer](#sekuritas-komputer)
     - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Pemrograman Paralel](#pemrograman-paralel)
+    - [Pengiriman Pesan, Serialisasi, dan Sistem Queueing](#pengiriman-pesan-serialisasi-dan-sistem-queueing)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
@@ -149,40 +132,38 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Matematika untuk Pemrosesan Cepat](#matematika-untuk-pemrosesan-cepat)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
+    - [Pemrograman Linear](#pemrograman-linear)
+    - [Geometri, Convex hull](#geometri-convex-hull)
+    - [Matematika Diskrit](#matematika-diskrit)
+    - [Pembelajaran Mesin](#pembelajaran-mesin)
     - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Detil Tambahan pada Beberapa Subjek](#detil-tambahan-pada-beberapa-subjek)
+- [Seri Video](#seri-video)
+- [Kursus Ilmu Komputer](#kursus-ilmu-komputer)
 
 ---
 
-## Why use it?
+## Mengapa Menggunakannya?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Saya mengikuti rencana ini untuk mempersiapkan saya dalam menghadapi wawancara kerja Google. Sejak 1997, saya telah menciptakan berbagai situs, servis, dan mendirikan startup. Saya memiliki gelar ekonomi, bukan gelar ilmu komputer. Saya telah meraih kesuksesan dalam karir saya, tapi saya ingin bekerja di Google. Saya ingin masuk ke sistem yang lebih besar dan mempunyai pemahaman mendalam tentang sistem komputer, efesiensi algoritma, performa struktur data, bahasa tingkat rendah, dan bagaimana semuanya bekerja. Jika anda tidak mengetahui satu pun, Google tidak akan mempekerjakan anda.
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Ketika saya memulai proyek ini, saya tidak tahu tentang stack dari sebuah heap, tidak tahu tentang notasi Big-O apapun, begitupula dengan struktur data trees, atau bagaimana menyusuri sebuah graph. Jika saya harus menulis algoritma penyortiran, saya bisa katakan pada anda bahwa hasilnya tidak akan memuaskan.
+Setiap struktur data yang saya pernah pakai sudah tertanam dalam bahasa yang saya gunakan, dan saya tidak tahu bagaimana mereka bekerja secara riil. Saya tidak pernah diharuskan untuk mengatur penggunaan memori kecuali proses yang saya jalankan akan memberikan error 'memori tidak cukup', sehingga saya harus mencari jalan keluarnya. Saya pernah menggunakan beberapa array multidimensi dalam hidup saya dan ribuan array asosiatif, tapi saya tidak pernah menciptakan struktur data dari nol.
 
-## How to use it
+Tetapi setelah menjalani rencana studi ini saya memiliki kepercayaan diri yang tinggi bahwa saya akan diterima. Ini adalah rencana yang panjang. Ini akan menyita waktu saya selama berbulan-bulan. Tetapi jika anda sudah tidak asing lagi dengan materi yang dibutuhkan, hal ini akan membutuhkan waktu jauh lebih sedikit.
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+## Bagaimana cara menggunakannya
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Apapun dibawah ini adalah garis besar, dan anda harus menguasai materi dari atas ke bawah secara runut.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+Saya menggunakan markdown spesial dari Github, termasuk daftar tugas untuk mengecek perkembangan.
+
+**Buat branch baru sehingga anda bisa mencentang seperti ini, bubuhi tanda x dalam tanda kurung: [x]**
 
 
-    Fork a branch and follow the commands below
+    Fork sebuah branch dan ikuti perintah berikut
 
 `git checkout -b progress`
 
@@ -190,7 +171,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Tandai semua kotak dengan tanda X setalah anda menyelesaikannya
 
 `git add . `
 
@@ -200,18 +181,38 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Lebih jauh tentang markdown Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Masuk ke Mode Googley
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Print satu atau beberapa foto dari "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" (untuk ditempel tentunya) sebagai reminder anda apa hasil usaha yang anda akan dapatkan.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+## Apakah saya sudah mendapatkan pekerjaan ini? (Menjadi Googler)
+
+Saya masih pada antrian. Berharap untuk di interview dalam waktu dekat ini.
+
+    Terima kasih untuk referensinya, JP.    
+
+## Ikut berjalan bersama saya
+
+Cerita saya: [Kenapa saya telah belajar penuh waktu selama 8 bulan untuk sebuah wawancara dengan Google](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+
+Saya juga sedang dalam perjalanan. Ayo ikuti saya di:
+
+- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
+- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
+- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
+- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
+- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
+
+![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
+
+## Jangan merasa kamu tidak cukup pintar
+- Para engineers/programmer di google adalah orang-orang pintar, tapi banyak dari mereka berpikir bahwa mereka tidak cukup pintar, walaupun mereka bekerja di Google.
+- [Mitos dari programmer yang jenius](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Hal yang berbahaya untuk pergi sendirian: Bertarung dengan monster yang tidak kelihatan di dunia teknologi](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## About Google
 
@@ -230,36 +231,35 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 - [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## Tentang sumber video
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
-
+Beberapa video hanya dapat diakses dengan mengikuti kelas di [Coursera](https://www.coursera.org/), [Edx](https://www.edx.org/), atau [Lynda.com](https://www.lynda.com/). Beberapa link tersebut biasa disebut MOOC (massive open online course) atau belajar online, seperti layaknya anda berkuliah biasa namun bedanya ini online dan diikuti oleh banyak orang dari seluruh dunia.
+Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan harus menunggu beberapa bulan. Karena kelas tersebut ada waktunya dalam pembelajaran, dan ada waktunya untuk mendaftar, layaknya anda berkuliah. Khusus untuk Lynda.com merupakan situs yang berbayar untuk mengakses materinya.
+    
+    Selain saya membagikan ilmu kepada kalian semua, saya juga mengapresiasi bantuan anda untuk menambahkan sumber pembelajaran yang gratis dan selalu terbuka untuk umum, seperti video di youtube untuk sebagai selingan dari kuliah online dari website yang disebutkan diatas.
+    Saya suka menggunakan media pembelajaran berbasiskan universitas.
 
 ## Interview Process & General Interview Prep
 
-- [ ] Videos:
+- [ ] Video:
     - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
     - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
     - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
     - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
     - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] Articles:
+- [ ] Artikel:
     - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
     - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
     - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] Prep Courses:
+- [ ] Materi kelas untuk persiapan:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
 
-- [ ] Additional (not suggested by Google but I added):
+- [ ] Tambahan (tidak disarankan oleh Google tapi saya tambahkan sendiri):
     - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
     - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
@@ -272,31 +272,31 @@ Sometimes the classes are not in session so you have to wait a couple of months,
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Pilih satu bahasa pemrograman untuk wawancara
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Saya menulis artikel pendek tentang topik hal tersebut: [Penting:Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Important: Pick One Language for the Google Interview)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Anda dapat menggunakan sebuah bahasa pemrograman yang nyaman bagi anda untuk melaksanakan salah satu bagian wawancara yaitu sesi mengkoding, tapi bagi Google, berikut adalah beberapa pilihan:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Anda juga dapat menggunakan beberapa bahasa pemrograman berikut, tapi cari informasi dahulu tentang hal ini, karena mungkin ada kualifikasi khusus:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Anda harus sangat nyaman dan memahami bahasa yang akan digunakan untuk wawancara tersebut.
 
-Read more about choices:
+Baca lebih banyak tentang pilihan.
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Lihat beberapa sumber bahasa pemrograman disini](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Anda akan melihat bebrapa C, C++, dan Python di cantumkan di link dibawah, karena saya juga sedang belajar. Ada beberapa buku juga diikutkan dalam list dibawah ini, lihat bagian bawah.
 
 ## Book List
 
@@ -336,7 +336,7 @@ If short on time:
         - Chapter 7 - Composite Data Types and Memory Objects
         - Chapter 9 - CPU Architecture
         - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization 
+        - Chapter 11 - Memory Architecture and Organization
 
 If you have more time (I want this book):
 
@@ -347,7 +347,7 @@ If you have more time (I want this book):
 
 **You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
+If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
@@ -356,7 +356,7 @@ If you read though one of these, you should have all the data structures and alg
 
 I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) 
+- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
@@ -428,7 +428,7 @@ OR:
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
+    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
@@ -457,7 +457,7 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
 Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
@@ -466,7 +466,7 @@ Keep in mind I went overboard and have cards covering everything from assembly l
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
 your brain.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
+An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
 It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
@@ -525,9 +525,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
+        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms) 
+        - [answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **How computers process a program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
@@ -954,32 +954,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Dynamic Programming
-    - **NOTE:** DP is a valuable technique, but it is not mentioned on any of the prep material Google provides. But you could get a problem where DP provides an optimal solution. So I'm including it.
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
-    - [ ] Videos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
-        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
-        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
-        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
-        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
-        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
-        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
-        - [ ] List of individual DP problems (each is short):
-            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-    - [ ] Yale Lecture notes:
-        - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
-    - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
-
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
@@ -987,6 +961,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] SOLID OOP Principles:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
         - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
             - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
@@ -1170,15 +1145,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-    
+
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 ---
 
 ## System Design, Scalability, Data Handling
 - **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since 
-      there is a lot to consider when designing a software/hardware system that can scale. 
+- Scalability and System Design are very large topics with many topics and resources, since
+      there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this.
 - Considerations from Yegge:
     - scalability
@@ -1303,7 +1278,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Final Review
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
+    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
@@ -1489,6 +1464,31 @@ You're never really done.
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
 ## Additional Learning
+
+- ### Dynamic Programming
+    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
+    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
+    - [ ] Videos:
+        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
+        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+        - [ ] List of individual DP problems (each is short):
+            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+    - [ ] Yale Lecture notes:
+        - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+    - [ ] Coursera:
+        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
+        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### Compilers
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -2007,4 +2007,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

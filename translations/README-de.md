@@ -41,7 +41,7 @@ Wenn du ein Zuverlässigkeitsingenieur werden willst, lerne mehr von der optiona
 - [Was ist es?](#was-ist-es)
 - [Warum das hier benutzen?](#warum-das-hier-benutzen)
 - [Wie es zu benutzen ist](#wie-es-zu-benutzen-ist)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
+- [Komm in eine Googley Stimmung](#komm-in-eine-googley-stimmung)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Google](#about-google)
 - [About Video Resources](#about-video-resources)
@@ -193,9 +193,9 @@ Ich benutzte GitHub's spezielle Markdown Version mit Aufgabenlisten um Fortschri
 
 [Mehr zu GitHub's Markdown Version](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Komm in eine Googley Stimmung
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Drucke dir ein "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" Schild (oder zwei) aus und halte dir dein Ziel vor Augen.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 

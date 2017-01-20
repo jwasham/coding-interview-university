@@ -216,14 +216,14 @@ Saya juga sedang dalam perjalanan. Ayo ikuti saya di:
 
 ## Tentang Google
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
+- [ ] Untuk pelajar - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] Bagaimana Pencari Bekerja:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
     - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
     - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
+- [ ] Seri:
     - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
     - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
@@ -251,7 +251,7 @@ Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan har
 - [ ] Artikel:
     - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
     - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
+        - semua hal-hal yang dia sebutkan itu sudah terdaftar dibawah dan kamu harus tahu
     - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
@@ -274,7 +274,7 @@ Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan har
 
 ## Pilih satu bahasa pemrograman untuk wawancara
 
-Saya menulis artikel pendek tentang topik hal tersebut: [Penting:Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Important: Pick One Language for the Google Interview)
+Saya menulis artikel pendek tentang topik hal tersebut: [Penting:Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Penting: Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google)
 
 Anda dapat menggunakan sebuah bahasa pemrograman yang nyaman bagi anda untuk melaksanakan salah satu bagian wawancara yaitu sesi mengkoding, tapi bagi Google, berikut adalah beberapa pilihan:
 
@@ -325,7 +325,7 @@ Jika anda memiliki banyak waktu:
 Jika kekurangan waktu:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - Buku ini dirilis pada tahun 2004, dan agak ketinggalan zaman, tapi sumber daya yang hebat untuk memahami sebuah komputer secara singkat.
+    - Buku ini dirilis pada tahun 2004, dan agak ketinggalan jaman, tetapi dengan sumber daya yang hebat bisa untuk memahami komputer secara singkat.
     - Penulis menemukan HLA, sehingga menyebutkan dan memberi contoh di HLA dengan sebutir garam. Tidak banyak digunakan, tapi contoh yang baik seperti apa assembly itu.
     - Bab-bab ini patut dibaca untuk memberikan dasar yang baik:
         - Chapter 2 - Numeric Representation
@@ -345,9 +345,9 @@ Jika anda punya banyak waktu (Saya ingin buku ini):
 
 ### Language Specific
 
-**Anda harus memilih sebuah bahasa pemgrogramman untuk wawancara (lihat diatas).** Berikut adalah rekomendasi bahasa dari saya. Saya tidak memiliki sumber daya untuk semua bahasa. Saya menyambut penambahan.
+**Anda harus memilih sebuah bahasa pemgrograman untuk wawancara (lihat diatas).** Berikut adalah rekomendasi bahasa dari saya. Saya tidak memiliki sumber daya untuk semua bahasa. Saya menyambut penambahan.
 
-Jika meskipun anda membaca salah satu dari ini, anda harus memiliki semua struktur data dan pengetahuan algoritma, anda harus mulai melakukan pemecahan masalah coding.
+Jika meskipun anda membaca salah satu dari ini, anda harus memiliki semua pengetahuan struktur data dan algoritma, anda harus mulai melakukan pemecahan masalah koding.
 **Anda dapat melewati semua video ceramah di proyek ini**, kecuali jika anda ingin sebuah review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
@@ -381,7 +381,7 @@ OR:
     - oleh Goodrich, Tamassia, Goldwasser
     - Saya mencintai buku ini. Mencakup segala hal dan lainnya.
     - kode Pythonic
-    - laporan buku bersinar saya: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - laporan buku saya: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
 ### Optional Books
@@ -398,8 +398,8 @@ OR:
                 - cerita bagus dari pengalamannya memecahkan masalah dalam industri dan akademisi
                 - contoh kode di C
             - cons:
-                - dapat sebagai secara penuh dan tak tertembus sebagai CLRS, dan dalam beberapa kasus, CLRS mungkin menjadi alternatif yang lebih baik untuk beberapa mata pelajaran
-                - bab 7, 8, 9 bisa menyakitkan untuk mencoba mengikuti, karena beberapa item yang tidak dijelaskan dengan baik atau membutuhkan kerja otak yang lebih daripada yang saya miliki
+                - dapat secara penuh dan tak tertembus sebagai CLRS, dan dalam beberapa kasus, CLRS mungkin menjadi alternatif yang lebih baik untuk beberapa mata pelajaran
+                - bab 7, 8, 9 bisa menyakitkan untuk mencoba mengikutinya, karena beberapa item yang tidak dijelaskan dengan baik atau membutuhkan kinerja otak yang lebih daripada yang saya miliki
                 - jangan salah paham: Saya suka Skiena, gaya mengajarnya, dan kelakuannya, tapi aku mungkin tidak akan seperti bahan Stony Brook.
         - algorithm catalog:
             - ini adalah alasan nyata kamu membeli buku ini
@@ -433,23 +433,23 @@ OR:
 
 ## Sebelum Anda Mulai
 
-Daftar ini tumbuh selama berbulan-bulan, dan ya, itu jenis keluar dari tangan.
+Daftar ini tumbuh selama berbulan-bulan, dan ya, itu jenis keluaran dari tangan.
 
 Berikut adalah beberapa kesalahan yang saya buat sehingga anda akan memiliki pengalaman yang lebih baik.
 
 ### 1. Kamu Tidak Akan Mengingat Semuanya
 
-Saya menonton video berjam-jam dan mengambil catatan yang berlebihan, dan beberapa bulan kemudian disana ada banyak yang tidak saya ingat. Saya menghabiskan 3 hari melalui catatan saya dan membuat flashcards sehingga saya bisa meninjau dengan cepat.
+Saya menonton video berjam-jam dan mengambil catatan yang berlebihan, dan beberapa bulan kemudian disana ada banyak yang tidak saya ingat. Saya menghabiskan 3 hari melalui catatan saya dan membuat flashcards sehingga saya bisa meninjaunya dengan lebih cepat.
 
 Tolong baca sehingga anda tidak akan membuat kesalahan seperti saya:
 
-[Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
+[Menguasai Pengetahuan Ilmu Komputer](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
 ### 2. Menggunakan Flashcards
 
 Untuk mengatasi masalah tersebut, saya membuat situs flashcards kecil di mana saya bisa menambahkan flashcards dari 2 jenis: umum dan code. Setiap kartu memiliki format yang berbeda.
 
-Saya membuat sebuah mobile-first website jadi saya bisa me-review di telepon dan tablet saya, dimanapun saya berada.
+Saya membuat sebuah mobile-first website jadi saya bisa mereview di telepon dan tablet saya, dimanapun saya berada.
 
 Membuat punya anda sendiri secara gratis:
 
@@ -460,7 +460,7 @@ Membuat punya anda sendiri secara gratis:
 Perlu diingat aku pergi keluar kapal dan memiliki kartu meliputi segala sesuatu dari bahasa assembly dan Python trivia untuk pembelajaran machine learning dan statistik. Ini terlalu banyak untuk apa yang diminta oleh Google.
 
 **Catatan di flashcards:** Pertama kali anda mengenali dan anda tahu jawabannya, jangan menandainya sebagai dikenal.
-Anda harus melihat kartu yang sama dan menjawab beberapa kali dengan benar sebelum anda benar-benar tahu itu. Pengulangan akan menempatkan pengetahuan yang lebih di
+Anda harus melihat kartu yang sama dan menjawab beberapa kali dengan benar sebelum anda benar-benar tahu akan hal itu. Pengulangan akan membuat pengetahuan yang lebih di
 otak anda.
 
 Sebuah alternatif untuk menggunakan situs flashcards saya adalah [Anki](http://ankisrs.net/), yang telah direkomendasikan kepada saya berkali-kali. Ini menggunakan sistem pengulangan untuk membantu anda mengingatnya.
@@ -497,16 +497,16 @@ Setiap hari saya mengambil satu subjek dari daftar di bawah ini, menonton video 
 - C++ - menggunakan built-in types, seperti STL's std::list untuk daftar link
 - Python - menggunakan built-in types (untuk terus berlatih Python)
 - dan menulis tes untuk memastikan saya melakukannya dengan benar, kadang-kadang hanya menggunakan assert() statements yang sederhana
-- Anda mungkin bisa menggunakan Java atau sesuatu yang lain, ini hanya pendapat saya.
+- Anda mungkin bisa menggunakan Java atau sesuatu yang lain, ini hanyalah pendapat saya.
 
-Anda tidak perlu semua ini. Anda hanya perlu [satu bahasa untuk wawancara](#pick-one-language-for-the-interview).
+Anda tidak perlu semua ini. Anda hanya perlu [satu bahasa untuk wawancara](#pilih-satu-bahasa-pemrograman-untuk-wawancara).
 
 Mengapa meng-kode di semua ini?
 - Latihan, latihan, latihan, sampai saya sakit karenanya, dan dapat melakukannya tanpa masalah (beberapa memiliki banyak kasus dan rincian pembukuan untuk diingat)
-- Bekerja dalam batasan baku (mengalokasikan/membebaskan memori tanpa bantuan kumpulan sampah (kecuali Python))
+- Bekerja dalam batasan baku (mengalokasikan/membebaskan memori tanpa bantuan dari sekumpulan sampah (kecuali Python))
 - Menggunakan built-in types jadi saya memiliki pengalaman menggunakan alat built-in untuk digunakan di dunia nyata (tidak akan menulis daftar pelaksanaan saya sendiri di produksi)
 
-Saya mungkin tidak punya waktu untuk melakukan semua ini untuk setiap mata pelajaran, tapi saya akan mencoba.
+Saya mungkin tidak punya waktu untuk melakukan semua ini untuk setiap mata pelajaran, tapi saya akan mencobanya.
 
 Anda dapat melihat kode saya di sini:
  - [C] (https://github.com/jwasham/practice-c)
@@ -517,21 +517,21 @@ Anda tidak perlu susah payah menghafal setiap algoritma.
 
 Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa sampel masukan. Kemudian menguji itu pada komputer.
 
-## Prerequisite Knowledge
+## Prasyarat Ilmu Pengetahuan
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **Belajar C**
+    - C ada dimana-mana. Anda akan melihat contoh di buku, perkuliahan, video, *dimanapun* ketika kamu belajar.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
+        - Ini adalah sebuah buku yang pendek, tapi itu akan memberikanmu sebuah pegangan yang kuat di bahasa C dan Anda akan melakukan latihan kecil
+            dengan secara singkat dan cakap. Memahami C akan membantu anda memahami bagaimana program dan memori itu bekerja.
         - [answers to questions](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
+- [ ] **Bagaimana komputer memproses sebuah program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
+- tidak ada untuk dilaksanakan
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -551,8 +551,8 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+    Jika beberapa ceramah terlalu membingunkan, anda dapat melompatinya kebawah dan
+    tonton the discrete mathematics videos untuk mendapatkan latar belakang pengetahuan. 
 
 ## Data Structures
 

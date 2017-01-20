@@ -1298,7 +1298,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - [ ] [2014: Máy học: Lợi ích và những vấn đề cần tránh (Machine Learning: The High-Interest Credit Card of Technical Debt)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
     - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en/pubs/archive/43790.pdf)
     - [ ] [2015: Sẵn sàng cho thay đổi lớn: Xây dựng hạ tầng dữ liệu của Google dành cho quảng cáo (High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads)](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: TensorFlow: Áp dụng máy học trên diện rộng với hệ thống phân tán không đồng nhất (Large-Scale Machine Learning on Heterogeneous Distributed Systems)](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+    - [ ] [2015: Tensorflow: Áp dụng máy học với dữ liệu lớn trên hệ thống phân tán tính toán song song (Large-Scale Machine Learning on Heterogeneous Distributed Systems)](http://download.tensorflow.org/paper/whitepaper2015.pdf )
     - [ ] [2015: Lập trình viên tìm code như thế nào: Một trường hợp điển hình (How Developers Search for Code: A Case Study)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
@@ -1339,7 +1339,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
     - [ ] [Tìm kiếm mẫu trong văn bản (Search pattern in text) (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    Nếu bạn cần thêm thông tin chi tiết, hãy đọc qua phần "Khớp chuỗi" trong các mục đọc thêm [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
+    Nếu bạn cần thêm thông tin chi tiết, hãy đọc qua phần "So khớp chuỗi" trong các mục đọc thêm [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
 
 ---
 

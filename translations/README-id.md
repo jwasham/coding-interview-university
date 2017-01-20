@@ -28,8 +28,6 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
 - [Mengapa menggunakan ini?](#mengapa-menggunakan-ini)
 - [Bagaimana cara menggunakannya](#bagaimana-cara-menggunakannya)
 - [Masuk ke Mode Googley](#masuk-ke-mode-googley)
-- [Apakah Saya Mendapatkan Pekerjaannya?](#apakah-saya-mendapatkan-pekerjaannya)
-- [Ikuti Saya](#ikuti-saya)
 - [Jangan merasa anda kurang pintar](#jangan-merasa-anda-kurang-pintar)
 - [Tentang Google](#tentang-google)
 - [Tentang Sumber Video](#tentang-sumber-video)
@@ -188,26 +186,6 @@ Saya menggunakan markdown spesial dari Github, termasuk daftar tugas untuk menge
 Print satu atau beberapa foto dari "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" (untuk ditempel tentunya) sebagai reminder anda apa hasil usaha yang anda akan dapatkan.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
-## Apakah Saya Mendapatkan Pekerjaannya?
-
-Saya masih pada antrian. Berharap untuk di interview dalam waktu dekat ini.
-
-    Terima kasih untuk referensinya, JP.    
-
-## Ikuti saya
-
-Cerita saya: [Kenapa saya telah belajar penuh waktu selama 8 bulan untuk sebuah wawancara dengan Google](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
-
-Saya juga sedang dalam perjalanan. Ayo ikuti saya di:
-
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
-- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Jangan merasa anda kurang pintar
 - Para engineers/programmer di google adalah orang-orang pintar, tapi banyak dari mereka berpikir bahwa mereka tidak cukup pintar, walaupun mereka bekerja di Google.

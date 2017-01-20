@@ -250,7 +250,7 @@ Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan har
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pilih satu bahasa pemrograman untuk wawancara
+## Pilih Satu Bahasa Pemrograman untuk Wawancara
 
 Saya menulis artikel pendek tentang topik hal tersebut: [Penting:Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Penting: Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google)
 
@@ -267,7 +267,7 @@ Anda juga dapat menggunakan beberapa bahasa pemrograman berikut, tapi cari infor
 
 Anda harus sangat nyaman dan memahami bahasa yang akan digunakan untuk wawancara tersebut.
 
-Baca lebih banyak tentang pilihan.
+Baca lebih banyak tentang pilihan:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
@@ -456,7 +456,7 @@ Mengambil istirahat dari masalah pemgrogramman selama setengah jam dan pergi mel
 
 Disana ada banyak gangguan yang dapat menyita waktu yang berharga. Fokus dan kosentrasi adalah hal yang sulit.
 
-## What you won't see covered
+## Apa yang Tidak Akan Dibahas
 
 Daftar besar ini semua dimulai sebagai daftar to-do pribadi yang dibuat dari catatan Google interview coaching. Ini adalah
 teknologi lazim mereka tetapi tidak disebutkan dalam catatan itu:
@@ -495,7 +495,7 @@ Anda tidak perlu susah payah menghafal setiap algoritma.
 
 Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa sampel masukan. Kemudian menguji itu pada komputer.
 
-## Prasyarat Ilmu Pengetahuan
+## Ilmu Prasyarat
 
 - [ ] **Belajar C**
     - C ada dimana-mana. Anda akan melihat contoh di buku, perkuliahan, video, *dimanapun* ketika kamu belajar.
@@ -508,7 +508,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Kompleksitas Algoritma / Big-O / Analisis Asimptotik
 - tidak ada untuk dilaksanakan
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -532,7 +532,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     Jika beberapa ceramah terlalu membingunkan, anda dapat melompatinya kebawah dan
     tonton the discrete mathematics videos untuk mendapatkan latar belakang pengetahuan. 
 
-## Data Structures
+## Struktur Data
 
 - ### Arrays
     - Implement an automatically resizing vector.

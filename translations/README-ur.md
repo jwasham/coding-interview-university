@@ -1,8 +1,8 @@
 # Google Interview University
 
-Translations: 
+ترجمے: 
 - [中文版本](translations/README-cn.md)
-- translations in progress:
+- ترجمہ پیش رفت میں:
     - [Español](https://github.com/jwasham/google-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
     - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
@@ -17,9 +17,9 @@ Translations:
     - [Korean](https://github.com/jwasham/google-interview-university/issues/118)
     - [Polish](https://github.com/jwasham/google-interview-university/issues/122)
 
-## What is it?
+## یہ کیا ہے?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to Google software engineer.
+یہ میرا ماہانہ کی منصوبہ بندی ہے جہاں سے میں ایک اچھا وعب عنگینععر بان ھہن     
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 

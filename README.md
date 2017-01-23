@@ -1406,6 +1406,7 @@ Challenge sites:
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)

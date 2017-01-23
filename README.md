@@ -1394,6 +1394,7 @@ Take coding challenges every day, as many as you can.
 
 Coding Interview Question Videos:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
 
 Challenge sites:
 - [LeetCode](https://leetcode.com/)

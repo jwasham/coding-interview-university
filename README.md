@@ -1,9 +1,9 @@
 # Google Interview University
 
 >**I originally created this as a short to-do list of study topics, but it grew to the large list you see today. Working at 
-Google was the original motivator, hence the name. I didn't get an interview at Google, but the repo name lives on, and it would 
-mess up a lot of folks to change it now. The items listed here will prepare you for a career at just about any software company,
-including the giants: Amazon, Microsoft, Google, and Facebook.**
+Google was the original motivator, hence the name. [I didn't get an interview at Google](https://googleyasheck.com/i-didnt-get-hired-heres-why/), 
+but the repo name lives on, and it would mess up a lot of folks to change it now. The items listed here will prepare you 
+for a career at just about any software company, including the giants: Amazon, Microsoft, Google, and Facebook.**
 >
 > *Best of luck to you!*
 

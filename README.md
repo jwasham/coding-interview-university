@@ -1,6 +1,11 @@
 # Google Interview University
 
-(not only Google - for any software company)
+>**I originally created this as a short to-do list of study topics, but it grew to the large list you see today. Working at 
+Google was the original motivator, hence the name. I didn't get an interview at Google, but the repo name lives on, and it would 
+mess up a lot of folks to change it now. The items listed here will prepare you for a career at just about any software company,
+including the giants: Amazon, Microsoft, Google, and Facebook.**
+>
+> *Best of luck to you!*
 
 Translations:
 - [中文版本](translations/README-cn.md)
@@ -24,11 +29,6 @@ Translations:
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
-
->**I originally created this as a short to-do list of study topics, but it grew to the large list you see today. Working at 
-Google was the original goal, hence the name. I didn't get an interview at Google, but the repo name lives on, and it would 
-mess up a lot of folks to change it now. The items listed here will prepare you for a career at just about any software company,
-including the giants: Amazon, Microsoft, Google, and Facebook.**
 
 You'll see a lot of Google-related items, but I've tried to generalize the list to make it useful for everyone.
 

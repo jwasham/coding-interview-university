@@ -79,8 +79,9 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - heapsort
     - quicksort
     - merge sort
-- [Graphs](#graphs)
-    - [X]directed
+- [
+](#graphs)
+    - directed
     - undirected
     - adjacency matrix
     - adjacency list

@@ -80,7 +80,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - quicksort
     - merge sort
 - [Graphs](#graphs)
-    - directed
+    - [X]directed
     - undirected
     - adjacency matrix
     - adjacency list

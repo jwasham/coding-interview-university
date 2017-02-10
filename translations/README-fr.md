@@ -26,8 +26,8 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 
 ## Table of Contents
 
-- [C'est quoi?](#what-is-it)
-- [Pourquoi l'utilisier?](#why-use-it)
+- [C'est quoi?](#cest-quoi)
+- [Pourquoi l'utiliser?](#pourquoi-lutiliser)
 - [Comment s'en servir](#how-to-use-it)
 - [Se mettre dans l'humeur Googley](#get-in-a-googley-mood)
 - [J'ai décroché le Job?](#did-i-get-the-job)
@@ -147,23 +147,15 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 
 ---
 
-## Why use it?
+## Pourquoi l'utiliser?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+Je suis ce plan pour préparer l'entretien chez Google. J'ai construit le web, crée des services, et lancé des startups depuis 1997. J'ai un diplôme d'économie, pas un diplôme d'informatique. J'ai eu beaucoup de succès dans ma carrière, mais je veux travailler chez Google. Je veux progresser dans de plus grands systèmes
+et obtenir une réelle compréhension des systèmes informatiques, de l'efficacité algorithmique, de la performance des structures de données, des langages de bas niveau, et comment tout ceci fonctionne. Et si vous ne les connaissez pas tous, Google ne vous embauchera pas.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Quand j'ai commencé ce projet, je ne savais pas différencier une pile d'un tas, je ne connaissais rien aux comparaison asymptotique, rien sur les arbres, ou comment parcourir un graphique. Si je devais coder un algorithme de tri, je peux vous dire qu'il n'aurait pas été très bon.
+Toutes les structures de données que j'ai utilisée étaient intégrées dans le language, et je ne savais pas du tout comment elles fonctionnaient sous le capot. Je n'ai jamais dû gérer la mémoire à moins qu'un processus que j'exécutais ne donne l'erreur "mémoire insuffisante" et je devais trouver une solution de contournement. J'ai utilisé quelques tableaux multidimensionnels dans ma vie et des milliers de tableaux associatifs, mais je n'ai jamais créé de structures de données à partir de zéro.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Mais après après avoir parcouru ce plan d'étude, j'ai confiance, je serai embauché. C'est un long plan. Cela va me prendre des mois. Si vous connaissez déjà bien beaucoup de ceci, cela vous prendra beaucoup moins de temps.
 
 ## How to use it
 

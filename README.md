@@ -44,7 +44,7 @@ many years of experience and are claiming many years of software engineering exp
 [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
 If you have many years of software/web development experience, note that large software companies like Google, Amazon, 
-Facebook and Microsoft software engineering as different from software/web development, and they require computer science knowledge.
+Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 
 If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
 

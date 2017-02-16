@@ -34,7 +34,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Processo de Entrevista e Preparação Geral para a Entrevista](#processo-de-entrevista-e-preparação-geral-para-a-entrevista)
 - [Escolha Uma Linguagem para a Entrevista](#escolha-uma-linguagem-para-a-entrevista)
 - [Lista de Livros](#lista-de-livros)
-- [Antes de começar](#antes-de-comecar)
+- [Antes de começar](#antes-de-começar)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)

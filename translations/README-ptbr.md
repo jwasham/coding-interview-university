@@ -34,7 +34,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Processo de Entrevista e Preparação Geral para a Entrevista](#processo-de-entrevista-e-preparação-geral-para-a-entrevista)
 - [Escolha Uma Linguagem para a Entrevista](#escolha-uma-linguagem-para-a-entrevista)
 - [Lista de Livros](#lista-de-livros)
-- [Before you Get Started](#before-you-get-started)
+- [Antes de começar](#antes-de-comecar)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
@@ -432,7 +432,7 @@ OR:
     - Would rather spend time on coding problems from another livro or online coding problems.
 
 
-## Before you Get Started
+## Antes de começar
 
 This list grew over many months, and yes, it kind of got out of hand.
 

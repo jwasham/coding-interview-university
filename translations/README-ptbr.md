@@ -434,11 +434,11 @@ OR:
 
 ## Antes de começar
 
-This list grew over many months, and yes, it kind of got out of hand.
+Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle.
 
-Here are some mistakes I made so you'll have a better experience.
+Aqui estão alguns erros que eu cometi para que você tenha uma melhor experiência.
 
-### 1. You Won't Remember it All
+### 1. Você não se lembrará disso tudo
 
 I watched hours of vídeos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
 through my notes and making flashcards so I could review.

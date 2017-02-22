@@ -449,8 +449,8 @@ Read please so you won't make my mistakes:
 
 ### 2. Use Flashcards
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Para solucionar o problema, eu fiz um pequeno site flashcards onde eu poderia adicionar dois tipos de flashcards: genérico e código.
+Cada cartão tem formatação diferente.
 
 I made a mobile-first website so I could review on my phone and tablet, wherever I am.
 

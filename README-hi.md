@@ -1,4 +1,4 @@
-# Google Interview University
+﻿# Google Interview University
 
 ## यह क्या है?
 
@@ -14,7 +14,7 @@
 
 ## अनुक्रमणिका
 - [यह क्या है?](#यह-क्या-है )
-- [इसका उपयोग क्यों करे?](#इसका-उपयोग-क्यों-करे)
+- [इसका उपयोग क्यों करे?](#इसका-उपयोग-क्यू-करे)
 - [इसका कैसे उपयोग करे?](#इसका-कैसे-उपयोग-करे)
 - [गूगल की मुद्रा में आ जाएँ](#गूगल-की-मुद्रा-में-आ-जाएँ)
 - [क्या मुझे नौकरी मिली?](#क्या-मुझे-नौकरी-मिली)
@@ -25,7 +25,7 @@
 - [इंटरव्यू प्रकिया और साधारण इंटरव्यू तयारी](#interview-process--general-interview-prep)
 - [इंटरव्यू के लिए एक भाषा चुने](#pick-one-language-for-the-interview)
 - [प्रारंभ करने से पहले](#before-you-get-started)
-- [एअसमे क्या समाविष्ट नहीं हे](#what-you-wont-see-covered)
+- [इसमे क्या समाविष्ट नहीं हे](#इसमे-क्या-समाविष्ट-नहीं-हे)
 - [पूर्व प्रयोजनीय ज्ञान](#prerequisite-knowledge)
 - [दैनिक योजना](#the-daily-plan)
 - [अल्गोरिथम जटिलता / बिग-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -53,15 +53,15 @@
     - [डायनामिक प्रोग्रामिंग](#dynamic-programming)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [गार्बेज कलेक्शन](#garbage-collection)
-    - [काशेस](#caches)
+    - [गार्बेज कलेक्शन](#garbage-collection)
+    - [काशेस](#caches)
     - [Processes and Threads](#processes-and-threads)
     - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
     - [Papers](#papers)
     - [Unicode](#unicode)
-    - [Emacs और vi(m)](#emacs-and-vim)
-    - [Unix command line उपकरण](#unix-command-line-tools)
-    - [परिक्षण](#testing)
+    - [Emacs और vi(m)](#emacs-and-vim)
+    - [Unix command line उपकरण](#unix-command-line-tools)
+    - [परिक्षण](#testing)
     - [Design patterns](#design-patterns)
     - [Scheduling](#scheduling)
     - [Implement system routines](#implement-system-routines)
@@ -70,36 +70,36 @@
 - [पुस्तकें](#books)
 - [कोडिंग अभ्यास/चुनौतियों](#coding-exerciseschallenges)
 - [एक बार जब आप इंटरव्यू के करीब हो](#once-youre-closer-to-the-interview)
-- [आपका रिज्यूमे](#your-resume)
+- [आपका रिज्यूमे](#आपका-रिज्यूमे)
 - [इंटरव्यू की सोंच](#be-thinking-of-for-when-the-interview-comes)
 - [इन्तेर्विएवर के लिए प्रश्न रखे](#have-questions-for-the-interviewer)
-- [अतिरिक्त पढाई(जरुरत नहीं)](#additional-learnings-not-required)
-    - [इनफार्मेशन थ्योरी](#information-theory)
-    - [पारिटी और हैमिंग कोड](#parity--hamming-code)
-    - [एन्थ्रोपी](#entropy)
+- [अतिरिक्त पढाई (जरुरत नहीं)](#additional-learnings-not-required)
+    - [इनफार्मेशन थ्योरी](#information-theory)
+    - [पारिटी और हैमिंग कोड](#parity--hamming-code)
+    - [एन्थ्रोपी](#entropy)
     - [क्रिप्टोग्राफी](#cryptography)
     - [संक्षिप्तीकरण](#compression)
-    - [नेटवर्किंग](#networking)
-    - [संगणक सुरक्षा](#computer-security)
-    - [परैल्लेल प्रोग्रामिंग](#parallel-programming)
+    - [नेटवर्किंग](#networking)
+    - [संगणक सुरक्षा](#computer-security)
+    - [परैल्लेल प्रोग्रामिंग](#parallel-programming)
     - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
     - [Fast Fourier Transform](#fast-fourier-transform)
-    - [ब्लूम फ़िल्टर](#bloom-filter)
+    - [ब्लूम फ़िल्टर](#bloom-filter)
     - [van Emde Boas Trees](#van-emde-boas-trees)
     - [Augmented Data Structures](#augmented-data-structures)
-    - [स्किप लिस्ट](#skip-lists)
+    - [स्किप लिस्ट](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [Math for Fast Processing](#math-for-fast-processing)
     - [Treap](#treap)
     - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
+    - [ज्यामिति, कॉन्वेक्स हल](#ज्यामिति-कॉन्वेक्स-हल)
     - [Discrete math](#discrete-math)
-    - [मशीन लर्निंग](#machine-learning)
-    - [गो](#go)
-- [कुछ विषयोकी अधिक जानकारी](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [जब आपको नौकरी मिल जाये](#once-youve-got-the-job)
+    - [मशीन लर्निंग](#मशीन-लर्निंग)
+    - [गो](#गो)
+- [कुछ विषयोकी अधिक जानकारी](#कुछ-विषयोकी-अधिक-जानकारी)
+- [विडियो शृखला](#विडियो-शृखला)
+- [जब आपको नौकरी मिल जाये](#जब-आपको-नौकरी-मिल-जाये)
 
 ---
 
@@ -107,7 +107,7 @@
 
 मैं यह योजना का अनुपालन गूगल इनेर्विएव के तयारी के लिए कर रहा हूँ. मैं १९९७ से वेब, सर्विसेज और स्टार्टअप का निर्माण कर रहा हूँ. मेरे पास संगणक शात्र की पदवी ना होक अर्थशात्र की पदवी हैं. मैं अपने कैरियर में बहुत सफल रहा हूँ, पर मुजे गूगल में काम करने की इच्छा हें. मैं एक बड़े सिस्टम में प्रगति और कंप्यूटर प्रणालियों की एक असली समझ प्राप्त करना चाहते हु, अल्गोरिथम की निपुणता, डाटा स्ट्रक्चर का निष्पादन,
 लो-लेवल भाषाए, और वो कैसे काम करती हें. और अगर आपको एनमेंसे किसी की जानकारी नहीं हे तो गूगल आपको नियुन्क्त नहीं करेगा.
-मैंने जब ये परियोजना शुरू की, तब मैं स्टैक और  हीप में फरक नहीं जनता था, मुजे नहीं पता था की Big-O क्या हे, ट्रीज क्या हे, या ग्राफ को पार कैसे करते हैं. अगर मुजे छाटने का अल्गोरिथम लिखना पड़ता तो मैं आपको ये बता सकता हु के वो इतना ख़ास नहीं होगा. जो भी डाटा स्ट्रक्चर का मैंने उपयोग किया वो भाषा में समाविष्ट था, और वो कैसे काम करता हे उसकी कोई जानकारी मुजे नहीं थी. मुजे कभी मेमोरी का संचालन नहीं करता पड़ा, जबतक मेरी चलाई कोई प्रोसेस "out of
+मैंने जब ये परियोजना शुरू की, तब मैं स्टैक और  हीप में फरक नहीं जनता था, मुजे नहीं पता था की Big-O क्या हे, ट्रीज क्या हे, या ग्राफ को पार कैसे करते हैं. अगर मुजे छाटने का अल्गोरिथम लिखना पड़ता तो मैं आपको ये बता सकता हु के वो इतना ख़ास नहीं होगा. जो भी डाटा स्ट्रक्चर का मैंने उपयोग किया वो भाषा में समाविष्ट था, और वो कैसे काम करता हे उसकी कोई जानकारी मुजे नहीं थी. मुजे कभी मेमोरी का संचालन नहीं करता पड़ा, जबतक मेरी चलाई कोई प्रोसेस "out of
 memory" का एरर न दे, और तब मुजे कोई वैकल्पिक हल धुन्दाना पड़ता था. मैंने मेरी जिन्दगी में  बहोत कम मुल्ती-डायमेंशनल ऐरे और बहोत सारे अस्सोसिअतिव् ऐरे का उपयोग किया हे, पर मैंने कोई भी डाटा स्ट्रक्चर शुरू से नहीं लिखा था.
 पर इस अध्ययन योजना का उपयोग करने बाद मेरा नौकरी लगाने का  आत्मविश्वास बहोत बढ़ा हें. यह एक लम्बी योजना हें. यह मेरे लिए बहोत महीनोतक चलेगी. अगर आपको ईंमैसे कुछ पता हैं तो आपको कम वक्त लगेगा.
 
@@ -116,7 +116,7 @@ memory" का एरर न दे, और तब मुजे कोई वै
 
 नीचे सब कुछ एक रूपरेखा है, और आप ऊपर से नीचे के क्रम में पढ़े.
 
-मैं Github के विशेष Markdown का उपयोग कर रहा हूँ, प्रगति की जाँच करने के लिए कार्य सूचियों का प्रयोग करे.
+मैं  गितहब के विशेष  मार्कडाउन का उपयोग कर रहा हूँ, प्रगति की जाँच करने के लिए कार्य सूचियों का प्रयोग करे.
 
 - [x] एक नई शाखा बनाएँ ताकि आप इस तरह की वस्तुओं की जांच कर सकते हैं, बस कोष्ठक में एक एक्स डाले: [x]
 
@@ -132,7 +132,7 @@ memory" का एरर न दे, और तब मुजे कोई वै
 
 मैंने अभीतक प्रयुक्त नहीं किया हें.
 
-मुजे अभीभी कुछ दींन हे ये सूचि समाप्त करने के लिए, और आगे पुरे हफ्ते से में पूरा दिनप्रोग्रामिंग प्रश्न करने वाला हु. ये कुछ हफ्ते तक चलेगा और फिर मैं मेरे रेफेरेल जो की मैं  फेब्रुअरी से रखा हे उससे नौकरी का अर्ज दूंगा.
+मुजे अभीभी कुछ दींन हे ये सूचि समाप्त करने के लिए, और आगे पुरे हफ्ते से में पूरा दिनप्रोग्रामिंग प्रश्न करने वाला हु. ये कुछ हफ्ते तक चलेगा और फिर मैं मेरे रेफेरेल जो की मैं  फेब्रुअरी से रखा हे उससे नौकरी का अर्ज दूंगा.
 
     Thanks for the referral, JP.
 
@@ -157,16 +157,16 @@ memory" का एरर न दे, और तब मुजे कोई वै
 
 - [ ] छात्रों के लिए - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [ ] सर्च कैसे काम करता हे:
-    - [ ] [सर्च का विकास (विडियो)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [सर्च कैसे काम करता हैं - एक कहानी](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [सर्च का विकास (विडियो)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [सर्च कैसे काम करता हैं - एक कहानी](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [सर्च कैसे काम करता हैं](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [सर्च कैसे काम करता हैं - मैट कट्ट्स (विडियो)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [कैसे गूगल अपने सर्च एल्गोरिथ्म में सुधार करता है (विडियो)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+    - [ ] [सर्च कैसे काम करता हैं - मैट कट्ट्स (विडियो)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [कैसे गूगल अपने सर्च एल्गोरिथ्म में सुधार करता है (विडियो)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] शृंखला:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [हमारी जरूरत पता लगाने के लिए गूगल का गुप्त अध्ययन ](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [गूगल सर्च आपका अगला दिमाग होगा](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [Demis Hassabis का गहरा मन](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [हमारी जरूरत पता लगाने के लिए गूगल का गुप्त अध्ययन ](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [गूगल सर्च आपका अगला दिमाग होगा](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [Demis Hassabis का गहरा मन](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
 - [ ] [पुष्तक: गूगल कैसे काम करता हैं](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Made by Google घोषणा - ओक्टोबर २०१६ (विडियो)](https://www.youtube.com/watch?v=spDg-Q7zmcM)
 
@@ -175,21 +175,21 @@ memory" का एरर न दे, और तब मुजे कोई वै
 कुछ विडियो सिर्फ Coursera, EdX, or Lynda.com के वर्ग में दाखिला लेने का बाद ही उपलब्ध हैं. उन्हें MOOC कहा जाता हैं.
 It is free to do so, but sometimes the classes are not in session so you have to wait a couple of months, so you have no access. 
 
-    I'd appreciate your help converting the MOOC video links to public sources to replace the online course videos over time. I like using university lectures.
+    I'd appreciate your help converting the MOOC video links to public sources to replace the online course विडियो over time. I like using university lectures.
 
 
 ## इंटरव्यू प्रकिया और साधारण इंटरव्यू तयारी
 
 - [ ] विडियो:
-    - [ ] [गूगल में कैसे काम करे -  उमीदवार अनुशिक्षण सत्र (विडियो)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [गूगल भर्तीकर्ताओं की तकनीकी इंटरव्यू टिप्स (विडियो)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [गूगल में कैसे काम करे: तकनीकी रिज्यूमे तयारी (विडियो)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [गूगल में कैसे काम करे -  उमीदवार अनुशिक्षण सत्र (विडियो)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [गूगल भर्तीकर्ताओं की तकनीकी इंटरव्यू टिप्स (विडियो)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [गूगल में कैसे काम करे: तकनीकी रिज्यूमे तयारी (विडियो)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] लेख:
-    - [ ] [तिन कदमोमे गूगलर बने](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [गूगल में वो नौकरी लो](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+    - [ ] [तिन कदमोमे गूगलर बने](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [गूगल में वो नौकरी लो](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
-    - [ ] _(बहोत पुराना)_ [गूगल में नौकरी कैसे ले, इन्तेविएव प्रश्न, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] _(बहोत पुराना)_ [गूगल में नौकरी कैसे ले, इन्तेविएव प्रश्न, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [फोन स्क्रीन वाले सवाल](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] अतिरिक्त (not suggested by Google but I added):
@@ -199,11 +199,11 @@ It is free to do so, but sometimes the classes are not in session so you have to
     - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
     - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] बड़े ४ मैं नौकरी कैसे ले:
-        - [ ] ['बड़े ४ मैं नौकरी कैसे ले - Amazon, Facebook, Google और Microsoft' (विडियो)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [गूगल इंटरव्यू में असफलता](http://alexbowe.com/failing-at-google-interviews/)
+        - [ ] [Gayle L McDowell - Cracking The Coding Interview (विडियो)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (विडियो)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] बड़े ४ मैं नौकरी कैसे ले:
+        - [ ] ['बड़े ४ मैं नौकरी कैसे ले - Amazon, Facebook, Google और Microsoft' (विडियो)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [गूगल इंटरव्यू में असफलता](http://alexbowe.com/failing-at-google-interviews/)
 
 ## इंटरव्यू के लिए एक संगणक भाषा चुने
 
@@ -269,24 +269,23 @@ Take a break from programming problems for a half hour and go through your flash
 
 There are a lot of distractions that can take up valuable time. Focus and concentration is hard.
 
-## What you won't see covered
+## इसमे क्या समाविष्ट नहीं हे
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent 
-technologies but were not mentioned in those notes:
+यह बड़ी सूचि गूगल इंटरव्यू टिप्पणियों से व्यक्तिगत कार्य सूचि से बनायीं गयी थी. निचे कुछ प्रचलित टेक्नोलॉजी हैं पर उन्हें टिप्पणियो में समविस्ट नहीं किया गया हैं.
 
 - SQL
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## The Daily Plan
+## दैनिक योजना
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+कुछ विषय एक दिन ले सकते हैं और कुछ ज्यादा.कुचो का सिर्फ पढाई हो सकती हैं पर अमल नहीं हो सकता.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-    C - using structs and functions that take a struct * and something else as args.
-    C++ - without using built-in types
-    C++ - using built-in types, like STL's std::list for a linked list
-    Python - using built-in types (to keep practicing Python)
+हर दिन मैं निचली सूचि से एक विषय लेता हु, उसका विडियो देखता हु, और उसका अमल निचे दिए तरह करता हूँ:
+    C - struct और function का उपयोग करके  जो  struct * या args का  उपयोग करते हैं.
+    C++ - built-in types का उपयोग न करके
+    C++ - built-in types का उपयोग करके, जैसे STL की std::list, linked list के लिए
+    Python - built-in types का उपयोग करके (Python का अभ्यास रखने के लिए)
     and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
     You may do Java or something else, this is just my thing.
 
@@ -309,36 +308,36 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 ## Prerequisite Knowledge
 
 - [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+    - [ ] [How does CPU execute program (विडियो)](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [Machine Code Instructions (विडियो)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
 - [ ] **How floating point numbers are stored:**
-    - [ ] simple 8-bit: [Fractions in binary? (video)](http://math.stackexchange.com/questions/301435/fractions-in-binary)
-    - [ ] 32 bit: [Representation of Floating Point Numbers - 1 (video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
-    - [ ] 64 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+    - [ ] simple 8-bit: [Fractions in binary? (विडियो)](http://math.stackexchange.com/questions/301435/fractions-in-binary)
+    - [ ] 32 bit: [Representation of Floating Point Numbers - 1 (विडियो)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] 64 bit: [IEEE754 32-bit floating point binary (विडियो)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
 - [ ] **Computer Arch Intro:**
     (first video only - interesting but not required) [Introduction and Basics - Carnegie Mellon - Computer Architecture](https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1)
 
 - [ ] **Compilers**
-    - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
-    - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+    - [ ] [C++ (विडियो)](https://www.youtube.com/watch?v=twodd1KFfGk)
+    - [ ] [Understanding Compiler Optimization (C++) (विडियो)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - nothing to implement
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Harvard CS50 - Asymptotic Notation (विडियो)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (general quick tutorial) (विडियो)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (विडियो)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [विडियो](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
-- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] [Orders of Growth (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+- [ ] [Asymptotics (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [UC बर्कले Big O (विडियो)](https://youtu.be/VIS4YDpuP98)
+- [ ] [UC बर्कले Big Omega (विडियो)](https://youtu.be/ca3e7UVmeUc)
+- [ ] [Amortized Analysis (विडियो)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Illustrating "Big O" (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
@@ -346,19 +345,19 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 
 
     If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+    watch the discrete mathematics विडियो to get the background knowledge.
 
 ## Data Structures
 
 - ### Arrays
     - Implement an automatically resizing vector.
     - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+        - [Arrays (विडियो)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [Basic Arrays (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [Multi-dim (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Dynamic Arrays (विडियो)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged Arrays (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [Resizing arrays (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
@@ -387,14 +386,14 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 
 - ### Linked Lists
     - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+        - [ ] [Singly Linked Lists (विडियो)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [CS 61B - Linked Lists (विडियो)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+    - [ ] [C Code (विडियो)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation.
     - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+        - [Core Linked Lists Vs Arrays (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] [why you should avoid linked lists (विडियो)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
@@ -415,19 +414,19 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [Description (विडियो)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] [Stacks (विडियो)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Using Stacks Last-In First-Out (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [Using Queues First-In First-Out(विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Queue (विडियो)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] [Priority Queues (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -445,25 +444,25 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
         - empty: O(1) (linked list and array)
     
 - ### Hash table
-    - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+    - [ ] विडियो:
+        - [ ] [Hashing with Chaining (विडियो)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [ ] [Table Doubling, Karp-Rabin (विडियो)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [Open Addressing, Cryptographic Hashing (विडियो)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [PyCon 2010: The Mighty Dictionary (विडियो)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (विडियो)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(Advanced) Perfect hashing (विडियो)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
     
     - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
-        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
-        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] [Understanding Hash Functions (विडियो](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
+        - [ ] [Using Hash Tables (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
+        - [ ] [Supporting Hashing (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
+        - [ ] [Language Support Hash Tables (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
+        - [ ] [Core Hash Tables (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Data Structures (विडियो)](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [ ] [Phone Book Problem (विडियो)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] distributed hash tables:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+            - [Instant Uploads And Storage Optimization In Dropbox (विडियो)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Distributed Hash Tables (विडियो)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
     
     - [ ] implement with array using linear probing
         - hash(k, m) - m is size of hash table
@@ -476,14 +475,14 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 
 - ### Endianness
     - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+    - [ ] [Big Endian Vs Little Endian (विडियो)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [Big And Little Endian Inside/Out (विडियो)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
 
 - ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [Binary Search (विडियो)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Binary Search (विडियो)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
     - [ ] Implement:
         - binary search (on sorted array of integers)
@@ -494,19 +493,19 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+            [Bit Manipulation (विडियो)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (विडियो)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
         - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
     - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (विडियो)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
     - [ ] count set bits
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
+        - [4 ways to count bits in a byte (विडियो)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
     - [ ] round to next power of 2:
@@ -519,18 +518,18 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - [ ] [Series: Core Trees (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+    - [ ] [Series: Trees (विडियो)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
     - traversal
     - manipulation algorithms
     - BFS (breadth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+        - [MIT (विडियो)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
         - level order (BFS, using queue)
             time complexity: O(n)
             space complexity: best: O(1), worst: O(n/2)=O(n)
     - DFS (depth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+        - [MIT (विडियो)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
         - notes:
             time complexity: O(n)
             space complexity:
@@ -541,22 +540,22 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
         - preorder (DFS: self, left, right)
 
 - ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+    - [ ] [Binary Search Tree Review (विडियो)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    - [ ] [Series (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - starts with symbol table and goes through BST applications
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
+    - [ ] [Introduction (विडियो)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [MIT (विडियो)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Binary search tree - Implementation in C/C++ (विडियो)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] [BST implementation - memory allocation in stack and heap (विडियो)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [Find min and max element in a binary search tree (विडियो)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Find height of a binary tree (विडियो)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (विडियो)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] [Binary tree: Level Order Traversal (विडियो)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (विडियो)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Check if a binary tree is binary search tree or not (विडियो)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Delete a node from Binary Search Tree (विडियो)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] [Inorder Successor in a binary search tree (विडियो)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
         - [ ] insert    // insert value into tree
         - [ ] get_node_count // get count of values stored
@@ -573,18 +572,18 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
+    - [ ] [Introduction (विडियो)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [ ] [Naive Implementations (विडियो)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [Binary Trees (विडियो)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Tree Height Remark (विडियो)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] [Basic Operations (विडियो)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Complete Binary Trees (विडियो)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [Pseudocode (विडियो)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Heap Sort - jumps to start (विडियो)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Heap Sort (विडियो)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [Building a heap (विडियो)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [MIT: Heaps and Heap Sort (विडियो)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B Lecture 24: Priority Queues (विडियो)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] Implement a max-heap:
         - [ ] insert
@@ -604,13 +603,13 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
         to track the path.
     - I read through code, but will not implement.
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] Short course videos:
-        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] Short course विडियो:
+        - [ ] [Introduction To Tries (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [ ] [Performance Of Tries (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [ ] [Implementing A Trie (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
-    - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    - [ ] [Stanford Lecture (real world use case) (विडियो)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### Balanced search trees
@@ -634,9 +633,9 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
             balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
-        - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - [ ] [MIT AVL Trees / AVL Sort (विडियो)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [ ] [AVL Trees (विडियो)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [ ] [AVL Tree Implementation (विडियो)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
 
     - [ ] **Splay trees**
@@ -644,7 +643,7 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
             Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
             data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
             networking, and file system code) etc.
-        - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+        - [ ] [CS 61B: Splay Trees (विडियो)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
         - [ ] MIT Lecture: Splay Trees:
             - Gets very mathy, but watch the last 10 minutes for sure.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
@@ -653,9 +652,9 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
         - In practice:
             2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
         - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
-        - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+        - [ ] [23-Tree Intuition and Definition (विडियो)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+        - [ ] [2-3 Trees (student recitation) (विडियो)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
     - [ ] **2-3-4 Trees (aka 2-4 trees)**
         - In practice:
@@ -663,9 +662,9 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
             operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
             important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
             2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
-        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
-        - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+        - [ ] [CS 61B Lecture 26: Balanced Search Trees (विडियो)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
+        - [ ] [Bottom Up 234-Trees (विडियो)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [Top Down 234-Trees (विडियो)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
     - [ ] **B-Trees**
         - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
@@ -675,10 +674,10 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
             block in a particular file. The basic problem is turning the file block i address into a disk block
             (or perhaps to a cylinder-head-sector) address.
         - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
-        - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
-        - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+        - [ ] [Introduction to B-Trees (विडियो)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+        - [ ] [B-Tree Definition and Insertion (विडियो)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [B-Tree Deletion (विडियो)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [MIT 6.851 - Memory Hierarchy Models (विडियो)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
 
@@ -692,8 +691,8 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
             the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
             hashcodes, a Red-Black tree is used.
         - [ ] [Aduni - Algorithms - Lecture 4 
-            (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
-        - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
+            (link jumps to starting point) (विडियो)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+        - [ ] [Aduni - Algorithms - Lecture 5 (विडियो)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
@@ -719,33 +718,33 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 
 - For heapsort, see Heap data structure above. Heap sort is great, but not stable.
 
-- [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
-- [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
-- [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-- [ ] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
-- [ ] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
-- [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
-- [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
+- [ ] [Bubble Sort (विडियो)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
+- [ ] [Analyzing Bubble Sort (विडियो)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
+- [ ] [Insertion Sort, Merge Sort (विडियो)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- [ ] [Insertion Sort (विडियो)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
+- [ ] [Merge Sort (विडियो)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
+- [ ] [Quicksort (विडियो)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
+- [ ] [Selection Sort (विडियो)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
 - [ ] Stanford lectures on sorting:
-    - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
-    - [ ] [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
+    - [ ] [Lecture 15 | Programming Abstractions (विडियो)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
+    - [ ] [Lecture 16 | Programming Abstractions (विडियो)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
 
 - [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):
-    - [ ] [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
-    - [ ] [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+    - [ ] [Algorithms - Sorting - Lecture 2 (विडियो)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
+    - [ ] [Algorithms - Sorting II - Lecture 3 (विडियो)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
 
 - [ ] Steven Skiena lectures on sorting:
-    - [ ] [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
-    - [ ] [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
+    - [ ] [lecture begins at 26:46 (विडियो)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+    - [ ] [lecture begins at 27:40 (विडियो)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [lecture begins at 35:00 (विडियो)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [lecture begins at 23:50 (विडियो)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-- [ ] UC Berkeley:
-    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
-    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
+- [ ] UC बर्कले:
+    - [ ] [CS 61B Lecture 29: Sorting I (विडियो)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
+    - [ ] [CS 61B Lecture 30: Sorting II (विडियो)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
+    - [ ] [CS 61B Lecture 32: Sorting III (विडियो)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
+    - [ ] [CS 61B Lecture 33: Sorting V (विडियो)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
 
 - [ ] - Merge sort code:
     - [ ] [Using output array](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
@@ -762,10 +761,10 @@ Write code on a whiteboard, not a computer. Test with some sample inputs. Then t
 
 - [ ] For curiosity - not required:
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
-    - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
-    - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
+    - [ ] [Radix Sort (विडियो)](https://www.youtube.com/watch?v=xhr26ia4k38)
+    - [ ] [Radix Sort, Counting Sort (linear time given constraints) (विडियो)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (विडियो)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Sorting in Linear Time (विडियो)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
 ## Graphs
 
@@ -781,37 +780,37 @@ Graphs can be used to represent many problems in computer science, so this secti
     - When asked a question, look for a graph-based solution first, then move on if none.
 
 - [ ] Skiena Lectures - great intro:
-    - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
-    - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
-    - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
-    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (विडियो)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
+    - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (विडियो)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
+    - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (विडियो)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
+    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (विडियो)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (विडियो)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (विडियो)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
 - [ ] Graphs (review and more):
 
-    - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
-    - [ ] [6.006 Speeding Up Dijkstra (video)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
-    - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (video)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
-    - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
-    - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
-    - [ ] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
-    - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
-    - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [6.006 Single-Source Shortest Paths Problem (विडियो)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Dijkstra (विडियो)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Bellman-Ford (विडियो)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
+    - [ ] [6.006 Speeding Up Dijkstra (विडियो)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
+    - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (विडियो)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (विडियो)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
+    - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (विडियो)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
+    - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (विडियो)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
+    - [ ] [CS 61B 2014 (starting at 58:09) (विडियो)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
+    - [ ] [CS 61B 2014: Weighted graphs (विडियो)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
+    - [ ] [Greedy Algorithms: Minimum Spanning Tree (विडियो)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (विडियो)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
 - Full Coursera Course:
-    - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
+    - [ ] [Algorithms on Graphs (विडियो)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - Yegge: If you get a chance, try to study up on fancier algorithms:
     - [ ] Dijkstra's algorithm - see above - 6.006
     - [ ] A*
         - [ ] [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-        - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
-        - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+        - [ ] [A* Pathfinding Tutorial (विडियो)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
+        - [ ] [A* Pathfinding (E01: algorithm explanation) (विडियो)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
 - I'll implement:
     - [ ] DFS with adjacency list (recursive)
@@ -822,7 +821,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] BFS with adjacency matrix
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
+    - DFS-based algorithms (see Aduni विडियो above):
         - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
         - [ ] topological sort
         - [ ] count connected components in a graph
@@ -835,91 +834,91 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - ### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+        - [ ] [Lecture 8 | Programming Abstractions (विडियो)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [Lecture 9 | Programming Abstractions (विडियो)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [Lecture 10 | Programming Abstractions (विडियो)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [Lecture 11 | Programming Abstractions (विडियो)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
     - when it is appropriate to use it
     - how is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (विडियो)](https://www.youtube.com/watch?v=L1jjXGfxozc)
  
 - ### Dynamic Programming
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
-    - [ ] Videos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
-        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
-        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
-        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
-        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
-        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
-        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+    - [ ] विडियो:
+        - the Skiena विडियो can be hard to follow since he sometimes uses the whiteboard, which is too small to see
+        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (विडियो)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (विडियो)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (विडियो)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (विडियो)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (विडियो)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (विडियो)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [Simonson: Dynamic programming II - Lecture 12 (विडियो)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
         - [ ] List of individual DP problems (each is short):
-            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+            [Dynamic Programming (विडियो)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
     - [ ] Yale Lecture notes: 
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [The RNA secondary structure problem (विडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [A dynamic programming algorithm (विडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [Illustrating the DP algorithm (विडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        - [ ] [Running time of the DP algorithm (विडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
+        - [ ] [DP vs. recursive implementation (विडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [Global pairwise sequence alignment (विडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        - [ ] [Local pairwise sequence alignment (विडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### Combinatorics (n choose k) & Probability
-    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-    - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-    - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
-    - [ ] Khan Academy:
+    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (विडियो)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Make School: Probability (विडियो)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    - [ ] [Make School: More Probability and Markov Chains (विडियो)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+    - [ ] खान अकादमी:
         - Course layout:
             - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Just the videos - 41 (each are simple and each are short):
-            - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+        - Just the विडियो - 41 (each are simple and each are short):
+            - [ ] [Probability Explained (विडियो)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Complete and Approximation Algorithms
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
-    - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+    - [ ] [Computational Complexity (विडियो)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
-        - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
-        - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+        - [ ] [Greedy Algs. II & Intro to NP Completeness (विडियो)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] [NP Completeness II & Reductions (विडियो)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP Completeness III (विडियो)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP Completeness IV (विडियो)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
     - [ ] Skiena:
-        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-CompletenessNP Completeness IV (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-CompletenessNP Completeness IV (विडियो)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (विडियो)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (विडियो)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [Complexity: P, NP, NP-completeness, Reductions (विडियो)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    - [ ] [Complexity: Approximation Algorithms (विडियो)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    - [ ] [Complexity: Fixed-Parameter Algorithms (विडियो)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - Peter Norvik discusses near-optimal solutions to traveling salesman problem:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
     - Pages 1048 - 1140 in CLRS if you have it.
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
-    - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
-    - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    - [ ] [Garbage collection (Java); Augmenting data str (विडियो)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
+    - [ ] [Compilers (विडियो)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
+    - [ ] [GC in Python (विडियो)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+    - [ ] [Deep Dive Python: Garbage Collection in CPython (विडियो)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### Caches
     - [ ] LRU cache:
-        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-        - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
-        - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (विडियो)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+        - [ ] [Implementing LRU (विडियो)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+        - [ ] [LeetCode - 146 LRU Cache (C++) (विडियो)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
     - [ ] CPU cache:
-        - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-        - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+        - [ ] [MIT 6.004 L15: The Memory Hierarchy (विडियो)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+        - [ ] [MIT 6.004 L16: Cache Issues (विडियो)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
 - ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for precesses and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+    - [ ] Computer Science 162 - Operating Systems (25 विडियो):
+        - for precesses and threads see विडियो 1-11
+        - [Operating Systems and System Programming (विडियो)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - Covers:
         - Processes, Threads, Concurrency issues
@@ -940,8 +939,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         - Context switching
             - How context switching is initiated by the operating system and underlying hardware
-    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] concurrency in Python (videos):
+    - [ ] [threads in C++ (series - 10 विडियो)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] concurrency in Python (विडियो):
         - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
         - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
         - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
@@ -972,13 +971,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
     - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
     - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
-    - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
+    - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (विडियो)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
     - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
     - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
     - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
     - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
-    - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
-    - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+    - [ ] [Transactions Across Datacenters (विडियो)](https://www.youtube.com/watch?v=srOgpXECblk)
+    - [ ] [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
     - [ ] Paxos Consensus algorithm: 
         - [short video](https://www.youtube.com/watch?v=s8JqcZtvnsM)
         - [extended video with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
@@ -986,13 +985,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
     - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
     - [ ] [Optional: UML 2.0 Series (vido)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] OOSE: Software Dev Using UML and Java (21 videos): 
+    - [ ] OOSE: Software Dev Using UML and Java (21 विडियो): 
         - Can skip this if you have a great grasp of OO and OO design practices.
         - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] SOLID OOP Principles:
-        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
-        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
+        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (विडियो)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+        - [ ] [SOLID Design Patterns in C# (विडियो)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
+        - [ ] [SOLID Principles (विडियो)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
         - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
             - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
         - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
@@ -1000,36 +999,36 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
         - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use 
-            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+            - [Interface Segregation Principle in 5 minutes (विडियो)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
         - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
             - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
     - [ ] Scalability:
-        - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+        - [ ] [Great overview (विडियो)](https://www.youtube.com/watch?v=-W9F__D3oY4)
         - [ ] Short series: 
             - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
             - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
             - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
             - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
         - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
-        - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+        - [ ] [पतझड़acies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/पतझड़acies.pdf)
         - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
             - [extra: Google Pregel Graph Processing](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
-        - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
+        - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (विडियो)](https://www.youtube.com/watch?v=modXC5IWTJI)
         - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
-        - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
-        - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
+        - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (विडियो)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
+        - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (विडियो)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
         - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
         - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
         - [ ] [Scale at Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
-        - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU)
-        - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+        - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (विडियो)](https://www.youtube.com/watch?v=oodS71YtkGU)
+        - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(विडियो)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
         - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
             - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
         - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
         - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
-        - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
+        - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (विडियो)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
         - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
         - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
         - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
@@ -1059,7 +1058,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
         - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
         - [ ] Twitter:
-            - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
+            - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (विडियो)](https://www.youtube.com/watch?v=5cKTP36HVgI)
             - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
         - For even more, see "Mining Massive Datasets" video series in the Video Series section.
     - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
@@ -1137,13 +1136,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
         - [Basics Emacs Tutorial](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - set of 3 (विडियो):
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
-        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (विडियो)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
+        - [(maybe) Org Mode In Depth: Managing Structure (विडियो)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix command line tools
     - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.
@@ -1165,13 +1164,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - what are mock objects
         - what is integration testing
         - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
+    - [ ] [Agile Software Testing with James Bach (विडियो)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [Open Lecture by James Bach on Software Testing (विडियो)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (विडियो)](https://vimeo.com/83960706)
         - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
     - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] V[ideo series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [Is TDD dead? (विडियो)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] V[ideo series (152 विडियो) - not all are needed (विडियो)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
     - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
     - [ ] Dependency injection:
         - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
@@ -1179,7 +1178,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Design patterns
-    - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    - [ ] [Quick UML review (विडियो)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] Learn these patterns:
         - [ ] strategy
         - [ ] singleton
@@ -1198,25 +1197,25 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
-    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    - [ ] [Chapter 6 (Part 1) - Patterns (विडियो)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (विडियो)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (विडियो)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Series of विडियो (27 विडियो)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 
 - ### Scheduling
     - in an OS, how it works
-    - can be gleaned from Operating System videos
+    - can be gleaned from Operating System विडियो
 
 - ### Implement system routines
     - understand what lies beneath the programming APIs you use
     - can you implement them?
 
 - ### String searching & manipulations
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-    - [ ] Rabin-Karp (videos):
+    - [ ] [Search pattern in text (विडियो)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] Rabin-Karp (विडियो):
         - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
     - [ ] [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
@@ -1226,23 +1225,23 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Tutorial: The Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=2ogqPWJSftE)
     - [ ] Boyer–Moore string search algorithm
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
-        - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
+        - [Advanced String Searching Boyer-Moore-Horspool Algorithms (विडियो)](https://www.youtube.com/watch?v=QDZpzctPf10)
     - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
 
 ---
 
 ## Final Review 
 
-    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
+    This section will have shorter विडियो that can you watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
     (More items will be added here)
 
 #### General:
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Series of 2-3 minutes short subject विडियो (23 विडियो)
+    - [विडियो](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Series of 2-5 minutes short subject विडियो - Michael Sambol (18 विडियो):
+    - [विडियो](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 #### Sorts:
 
@@ -1264,7 +1263,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
-    Once you've understood everything in the daily plan, and read and done exercises from the books above,
+    Once you've understood everything in the daily plan, and read and done exercises from the the books above,
     read and do exercises from the books below. Then move to coding challenges (further down below)
 
 **Read first:**
@@ -1306,67 +1305,65 @@ Take coding challenges every day, as many as you can.
 - [ ] [Great intro (copied from System Design section): Algorithm design:](http://www.hiredintech.com/algorithm-design/)
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
-- [ ] [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [ ] [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [ ] [टॉपकोड़ेर्स के लिए गणित](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [ ] [डायनामिक प्रोग्रामिंग – नौसिखिया से उन्नत](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 
-- [MIT Interview Materials](https://courses.csail.mit.edu/iap/interview/materials.php)
+- [MIT इंटरव्यू सामग्री](https://courses.csail.mit.edu/iap/interview/materials.php)
 
-    - [LeetCode](https://leetcode.com/)
-    - [TopCoder](https://www.topcoder.com/)
-    - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
-    - [Codewars](http://www.codewars.com)
-    - [HackerRank](https://www.hackerrank.com/)
-    - [Codility](https://codility.com/programmers/)
-    - [InterviewCake](https://www.interviewcake.com/)
-    - [InterviewBit](https://www.interviewbit.com/invite/icjf)
+    - [लीतकोड](https://leetcode.com/)
+    - [टॉप कोडर](https://www.topcoder.com/)
+    - [प्रोजेक्ट यूलेर (math-focused)](https://projecteuler.net/index.php?section=problems)
+    - [कोदवार](http://www.codewars.com)
+    - [हैकररैंक](https://www.hackerrank.com/)
+    - [कोदिलिटी](https://codility.com/programmers/)
+    - [इंटरव्यूकेक](https://www.interviewcake.com/)
+    - [इंटरव्यूबिट](https://www.interviewbit.com/invite/icjf)
 
-    - [Exercises for getting better at a given language](http://exercism.io/languages)
+    - [प्र्ग्रम्मिंग लैंग्वेज में सुधार करने के लिए](http://exercism.io/languages)
 
 ## Once you're closer to the interview
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
+- [ ] Cracking The Coding Interview Set 2 (विडियो):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## आपका रिज्यूमे 
 
-- [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- [एक (थोड़ा) कम भयंकर रिज्यूमे करने के लिए दस सुझाव](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
 - Great stuff at the back of Cracking The Coding Interview
 
 
-## Be thinking of for when the interview comes
+## इंटरव्यू की सोंच
 
-    Think of about 20 interview questions you'll get, along the lines of the items below.
-    Have 2-3 answers for each
-    Have a story, not just data, about something you accomplished
+   निचे दिए गए विषयो के साथ साथ, अपने २० इंटरव्यू प्रश्न तयार रखे. हर एक प्रश्न के २-३ जवाब तयार रखे. आपने जो हासिल किया हे उसकी कहानी रखे.
     
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- आपको ये नौकरी क्यू चाहिए?
+- आपने कौनसी एक कठिन समस्या हल की हैं?
+- आपकी सबसे बढ़ी चुनोतिया कोनसी थी?
+- आपने देखि हुए सर्वोतम और बुरी संरचनाये?
+- किसी मौजूदा गूगल उत्पाद में सुधार के लिए विचार.
+- आप अपना काम सर्वोत्तम कैसे कर सकते हो, टीम के साथ या एकेले?
+- आपकी कोनसी कुशलता या अनुभव आपके भूमिका में मदतगार होंगे?
+- आपने [जॉब क्ष / प्रोजेक्ट य] में सबसे ज्यादा किससे आनद मिला? 
+- आपकी सबसे बड़ी [जॉब क्ष/ प्रोजेक्ट य] की चुनोती जिसे आपको सामना करना पड़ा?
+-  [जॉब क्ष / प्रोजेक्ट य] में से सबसे बड़ा बग?
+- आपने [जॉब क्ष / प्रोजेक्ट य] में क्या सिखा?
+- [जॉब क्ष / प्रोजेक्ट य] में आप क्या सुधार कर सकते थे/ करना चाहते थे?
 
-## Have questions for the interviewer
+## इन्तेर्विएवर के लिए प्रश्न रखे 
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    मेरे कुछ प्रश्न (मुजे पहिलेसेही कुछ जवाब बता हे पर मैं टीम की राय जानना चाहता हूँ):
 
-- How large is your team?
-- What is your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- आपकी टीम कितनी बड़ी हैं?
+- आपकी डेव साइकिल कैसी हैं? क्या आपको वॉटरफॉल/स्प्रिंट/एजाइल पता हैं?
+- क्या काम के पीछे भागना पड़ता हैं? या लचीलापन हैं?
+- आपकी टीम मैं निर्णय कैसे लिए जाते हैं?
+- हर सप्ताह आपकी कितनी बैठके होती हैं?
+- क्या आपका काम का मौहोल काम करने मैं मदत करता हैं?
+- आप किसपे काम करते हो?
+- आपको उसमे क्या पसंद हैं?
+- आपका काम जीवन कैसा हैं?
 
 ---
 
@@ -1377,15 +1374,15 @@ Take coding challenges every day, as many as you can.
     Everything below is my recommendation, not Google's, and you may not have enough time to
     learn, watch or read them all. That's ok. I may not either.
 
-- ### Information theory (videos)
-    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
+- ### Information theory (विडियो)
+    - [ ] [खान अकादमी](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] more about Markov processes:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - See more in MIT 6.050J Information and Entropy series below. 
 
-- ### Parity & Hamming Code (videos)
+- ### Parity & Hamming Code (विडियो)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - [ ] Hamming Code:
@@ -1394,43 +1391,43 @@ Take coding challenges every day, as many as you can.
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### Entropy
-    - also see videos below
-    - make sure to watch information theory videos first
-    - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
+    - also see विडियो below
+    - make sure to watch information theory विडियो first
+    - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (विडियो)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 - ### Cryptography
-    - also see videos below
-    - make sure to watch information theory videos first
-    - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
+    - also see विडियो below
+    - make sure to watch information theory विडियो first
+    - [ ] [खान अकादमी Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
 - ### Compression
-    - make sure to watch information theory videos first
-    - [ ] Computerphile (videos): 
+    - make sure to watch information theory विडियो first
+    - [ ] कोम्पुतेरफिल(विडियो): 
         - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
         - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
         - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
         - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
         - [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
-    - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [ ] [Compressor Head विडियो](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking (videos)
-    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+- ### नेटवर्किंग (विडियो)
+    - [ ] [खान अकादमी](https://www.khanacademy.org/computing/computer-science/internet-intro)
+    - [ ] [UDP और TCP: परिवहन प्रोटोकॉल की तुलना](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [TCP/IP और OSI मॉडल के बारे में](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [इंटरनेट के पार पैकेट पारेषण. नेटवर्किंग और TCP/IP टुटोरिअल.](https://www.youtube.com/watch?v=nomyRJehhnM)
     - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-    - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL और HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [विडियो शृखला(२१ विडियो)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
 - ### Computer Security
-    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+    - [MIT (23 विडियो)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
         - [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
@@ -1446,7 +1443,7 @@ Take coding challenges every day, as many as you can.
 
 - ### Parallel Programming
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [ ] [Efficient Python for High Performance Parallel Computing (विडियो)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### Messaging, Serialization, and Queueing Systems
     - [ ] [Thrift](https://thrift.apache.org/)
@@ -1454,7 +1451,7 @@ Take coding challenges every day, as many as you can.
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
         - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
     - [ ] [gRPC](http://www.grpc.io/)
-        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+        - [gRPC 101 for Java Developers (विडियो)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [ ] [Redis](http://redis.io/)
         - [Tutorial](http://try.redis.io/)
     - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
@@ -1472,8 +1469,8 @@ Take coding challenges every day, as many as you can.
 
 - ### Fast Fourier Transform
     - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [ ] [What is the Fourier Transform? (विडियो)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [ ] [Divide & Conquer: FFT (विडियो)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
     - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
@@ -1484,7 +1481,7 @@ Take coding challenges every day, as many as you can.
     - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
 - ### van Emde Boas Trees
-    - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    - [ ] [Divide & Conquer: van Emde Boas Trees (विडियो)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
 - ### Augmented Data Structures
@@ -1492,17 +1489,17 @@ Take coding challenges every day, as many as you can.
 
 - ### Skip lists
     - "These are somewhat of a cult data structure" - Skiena
-    - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Randomization: Skip Lists (विडियो)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
 - ### Network Flows
-    - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+    - [ ] [Ford-Fulkerson in 5 minutes (विडियो)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Ford-Fulkerson Algorithm (विडियो)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Network Flows (विडियो)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
 - ### Disjoint Sets & Union Find
     - [ ] [Disjoint Set](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
+    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (विडियो)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
     - [ ] Coursera (not needed since the above video explains it great):
         - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
         - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
@@ -1512,42 +1509,42 @@ Take coding challenges every day, as many as you can.
         - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
 - ### Math for Fast Processing
-    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+    - [ ] [Integer Arithmetic, Karatsuba Multiplication (विडियो)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [The Chinese Remainder Theorem (used in cryptography) (विडियो)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
     
 - ### Treap
     - Combination of a binary search tree and a heap
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
-    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [ ] [Data Structures: Treaps explained (विडियो)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
     
-- ### Linear Programming (videos)
+- ### Linear Programming (विडियो)
     - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
     - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
 
-- ### Geometry, Convex hull (videos)
-    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
-    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+- ### ज्यामिति, कॉन्वेक्स हल (विडियो)
+    - [ ] [लेखाचित्र अल्गोरिथम IV: ज्यामितीय एल्गोरिदम का परिचय - व्याख्यान ९](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
+    - [ ] [ज्यामितीय एल्गोरिदम: ग्रैहम और जारविस - व्याख्यान १०](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [डिवाइड और कॉन्कर: कॉन्वेक्स हल, माध्य ढूँढना](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Discrete math
-    - see videos below
+    - see विडियो below
 
 - ### Machine Learning
     - [ ] Why ML?
         - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
-        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
+        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (विडियो)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
-    - [ ] [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
-    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
-    - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [ ] [Google's Cloud Machine learning tools (विडियो)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (विडियो)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+    - [ ] [Tensorflow (विडियो)](https://www.youtube.com/watch?v=oZikw5k_2FM)
     - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
     - [ ] [Practical Guide to implementing Neural Networks in Python](using Theano)])http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
     - Courses:
         - [ ] [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+              - [विडियो only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - see विडियो 12-18 for a review of linear algebra (14 and 15 are duplicates)
         - [ ] [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
         - [ ] [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [ ] [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
@@ -1557,15 +1554,15 @@ Take coding challenges every day, as many as you can.
         - Great book: Data Science from Scratch: First Principles with Python: https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X
         - Data School: http://www.dataschool.io/
 
-- ### Go
-    - [ ] Videos:
+- ### गो
+    - [ ] विडियो:
         - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
         - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
         - [ ] [A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
-    - [ ] Books:
-        - [ ] [An Introduction to Programming in Go (read free online)](https://www.golang-book.com/books/intro)
-        - [ ] [The Go Programming Language (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
-    - [ ] [Bootcamp](https://www.golang-book.com/guides/bootcamp)
+    - [ ] पुस्तके:
+        - [ ] [गो प्रोग्रामिंग का परिचय (ऑनलाइन मुफ्त पढ़े)](https://www.golang-book.com/books/intro)
+        - [ ] [गो प्रोग्रामिंग लैंग्वेज (दोनोवन & केर्निघन)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
+    - [ ] [बूतकाम्प](https://www.golang-book.com/guides/bootcamp)
 
 --
 
@@ -1575,7 +1572,7 @@ Take coding challenges every day, as many as you can.
     above because it's just too much. It's easy to overdo it on a subject.
     You want to get hired in this century, right?
 
-- [ ] **More Dynamic Programming** (videos)
+- [ ] **और डायनामिक प्रोग्रामिंग** (विडियो)
     - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
     - [ ] [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
     - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
@@ -1584,11 +1581,11 @@ Take coding challenges every day, as many as you can.
     - [ ] [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
     - [ ] [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] **Advanced Graph Processing** (videos)
+- [ ] **Advanced Graph Processing** (विडियो)
     - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
+- [ ] MIT **Probability** (mathy, and go slowly, which is good for mathy things) (विडियो):
     - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
@@ -1598,7 +1595,7 @@ Take coding challenges every day, as many as you can.
     - [ ] [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
 
-- [ ] [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+- [ ] [Simonson: Approximation Algorithms (विडियो)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
 
 ## Video Series
 
@@ -1606,72 +1603,69 @@ Sit back and enjoy. "netflix and skill" :P
 
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
-- [ ] [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
+- [ ] [x86 Architecture, Assembly, Applications (11 विडियो)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
 
-- [ ] [MIT 18.06 Linear Algebra, Spring 2005 (35 videos)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+- [ ] [MIT 18.06 Linear Algebra, वसंत2005 (35 विडियो)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
 
 - [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
+- [ ] [कंप्यूटर विज्ञान ७०, ००१ – वसंत २०१५ - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics (१९ विडियो)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 
-- [ ] CSE373 - Analysis of Algorithms (25 videos)
-    - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
+- [ ] CSE373 - एल्गोरिदम का विश्लेषण (२५ विडियो)
+    - [एल्गोरिथ्म डिजाइन मैनुअल से Skiena व्याख्यान](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
-- [ ] [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+- [ ] [UC बर्कले 61B (वसंत2014): डेटा संरचनाएं (२५ विडियो)](https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
 
-- [ ] [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)]( https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C)
+- [ ] [UC बर्कले 61B (पतझड़ 2006): डेटा संरचनाएं (३९ विडियो)]( https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C)
 
-- [ ] [UC Berkeley 61C: Machine Structures (26 videos)](https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
+- [ ] [UC बर्कले 61C: मशीन संरचनाएं (२६ विडियो)](https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
     
-- [ ] [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+- [ ] [OOSE: युमल और जावा के साथ सॉफ्टवेर का विकास (२१ विडियो)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 
-- [ ] [UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)
+- [ ] [UC बर्कले CS १५२: कंप्यूटर वास्तुकला और इंजीनियरिंग (२० विडियो )](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)
 
-- [ ] [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- [ ] [MIT ६.००४: संगणना संरचनाएं (४९ विडियो)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- [ ] [MIT 6.006: Intro to Algorithms (47 videos)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
+- [ ] [MIT ६.००६: अल्गोरिथम की पहेचान (४७ विडियो)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
 
-- [ ] [MIT 6.033: Computer System Engineering (22 videos)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
+- [ ] [MIT ६.०३३: कंप्यूटर सिस्टम इंजीनियरिंग (२२ विडियो)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
 
-- [ ] [MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
+- [ ] [MIT ६.०३४ कृत्रिम होशियारी, पतझड़ २०१० (३० विडियो)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
 
-- [ ] [MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
+- [ ] [MIT ६.०४२J: कंप्यूटर विज्ञान के लिए गणित, पतझड़ २०१० (२५ वीडियो)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
 
-- [ ] [MIT 6.046: Design and Analysis of Algorithms (34 videos)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [ ] [MIT ६.०४६: एल्गोरिदम का विश्लेषण और रचना(३४ विडियो)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- [ ] [MIT 6.050J: Information and Entropy, Spring 2008 (19 videos)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
+- [ ] [MIT ६.०५०J: सूचना और एन्ट्रापी, वसंत २००८ (१९ विडियो)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
 
-- [ ] [MIT 6.851: Advanced Data Structures (22 videos)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+- [ ] [MIT ६.८५१: उन्नत डेटा संरचनाएं (२२ विडियो)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 
-- [ ] [MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+- [ ] [MIT ६.८५४: उन्नत एल्गोरिदम, वसंत २०१६ (२४ विडियो)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
-- [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [MIT ८६.८५८ कंप्यूटर सिस्टम्स सुरक्षा, पताज़द २०१४](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] Stanford: Programming Paradigms (17 videos)
-    - [Course on C and C++](https://www.youtube.com/watch?v=jTSvthW34GU&list=PLC0B8B318B7394B6F&nohtml5=False)
+- [ ] स्टैनफोर्ड: प्रोग्रामिंग मानदंड (१७ विडियो)
+    - [C और C++ पर कोर्स](https://www.youtube.com/watch?v=jTSvthW34GU&list=PLC0B8B318B7394B6F&nohtml5=False)
 
-- [ ] [Introduction to Cryptography](https://www.youtube.com/watch?v=2aHkqB2-46k&feature=youtu.be)
-    - [more in series (not in order)](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg)
+- [ ] [क्रिप्टोग्राफ़ी का परिचय](https://www.youtube.com/watch?v=2aHkqB2-46k&feature=youtu.be)
+    - [श्रृंखला में अधिक (क्रम में नहीं)](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg)
     
-- [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
+- [ ] [विशाल डेटासेट खनन – स्तान्फोर्ड विश्वविद्यालय(९४ विडियो)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
 
-## Maybe
+## शायद
 
-http://www.gainlo.co/ - Mock interviewers from big companies
+http://www.gainlo.co/ - बड़ी कंपनी के मोक इंटरव्यू
 
 ---
 
----
+## जब आपको नौकरी मिल जाये 
 
-## Once You've Got The Job
+बधाई हो!
 
-Congratulations!
+- [१० बाते काश मुज्हे गूगल के पाहिले दिन पता होती](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-- [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+सिखाते रहो.
 
-Keep learning.
-
-You're never really done.
-
+वास्तव में आपकी पढाई कभी ख़तम नहीं होती.

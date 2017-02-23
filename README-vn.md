@@ -98,7 +98,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu](#thiết-kế-hệ-thống-khả-năng-mở-rộng-xử-lý-dữ-liệu) (Nếu bạn có hơn 4 năm kinh nghiệm)
 - [Tống kết](#tổng-kết)
 - [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
+- [Giải bài tập lập trình](#giải-bài-tập-lập-trình)
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
 - [Your Resume](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
@@ -1342,5 +1342,31 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
+
+
+> Place holder for **Coding Question Practice**
+
+
+## Giải bài tập lập trình
+
+Bạn nên để cho bộ não vận dụng các kiến thức đã học. Hãy thử sức với các bài toán lập trình hàng ngày, càng nhiều càng tốt.
+
+- [ ] [Làm thể nào để tìm lời giải](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- [ ] [Làm thể nào để phân tích đề bài trên TopCoder](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+
+Các trang giải toán lập trình:
+- [LeetCode](https://leetcode.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Project Euler (nặng về toán học)](https://projecteuler.net/index.php?section=problems)
+- [Codewars](http://www.codewars.com)
+- [HackerRank](https://www.hackerrank.com/)
+- [Codility](https://codility.com/programmers/)
+- [InterviewCake](https://www.interviewcake.com/)
+- [Geeks for Geeks](http://www.geeksforgeeks.org/)
+- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+
+Xem thêm:
+- [Phỏng vấn thử nghiệm](http://www.gainlo.co/)
+
 
 > In progress

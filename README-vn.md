@@ -975,14 +975,111 @@ Nếu bạn muốn biết thêm chi tiết trong chủ đề này, xem qua phầ
 
 Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của Skiena (xem danh mục sách bên dưới) và các sách về phỏng vấn.
 
-> TODO Add anchors link for the "danh mục sách"
 
----
+## Các kiến thức thêm
 
-## Thêm nhiều kiến thức nữa
+- ### Đệ qui
+    - [ ] Các bài giảng của đại học Stanford về đệ qui và quay lui:
+        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+    - Khi nào thích hợp để sử dụng?
+    - Đệ qui đuôi tốt hơn hay không như thế nào?
+        - [ ] [Đệ qui đuôi là gì Tại sao nó không tốt(What Is Tail Recursion Why Is It So Bad)?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [Đệ qui đuôi (Tail Recursion) (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+
+- ### Lập trình hướng đối tượng
+    - [ ] [Phụ thêm: Seri về UML 2.0 (Optional: UML 2.0 Series) (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
+    - [ ] Lập trình hướng đối tượng: Phát triển phần mềm sử dụng UML và Java (21 videos):
+        - Có thể bỏ qua phần này nếu bạn đã có kiến thức vững chắc về OOP
+        - [Lập trình hướng đối tượng: Phát triển phần mềm sử dụng UML và Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] Những điểm quan trọng nhất của OOP:
+        - [ ] [Bob Martin Những điểm quan trọng nhất của lập trình hướng đối tượng và thiết kế linh hoạt (Bob Martin SOLID Principles of Object Oriented and Agile Design) (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+        - [ ] [Thiết kế mẫu trong C# (SOLID Design Patterns in C#) (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
+        - [ ] [Những điểm quan trọng nhất (SOLID Principles) (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
+        - [ ] S - [Nguyên tắc một trách nhiệm (Single Responsibility Principle)](http://www.oodesign.com/single-responsibility-principle.html)
+        - [ ] [Mỗi đối tượng chịu một trách nhiệm duy nhất (Single responsibility to each Object)](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+            - [Đọc thêm](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+        - [ ] O - [Nguyên tắc mở đóng (Open/Closed Principal)](http://www.oodesign.com/open-close-principle.html)  | [Trong thực tế, đối tượng có thể mở rộng chứ không thích hợp cho sửa đổi (On production level Objects are ready for extension for not for modification)](https://en.wikipedia.org/wiki/Open/closed_principle)
+            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+        - [ ] L - [Nguyên tắc thay thế của Liskov (Liskov Substitution Principal)](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Nguyên tắc về lớp cơ bản và lớp dẫn xuất (Base Class and Derived class follow ‘IS A’ principal)](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+        - [ ] I - [Nguyên tắc phân chia giao diện (Interface segregation principle)](http://www.oodesign.com/interface-segregation-principle.html) | khách hàng không nên triển khai giao diện họ không sử dụng
+            - [Phân chia giao diện trong 5 phút (Interface Segregation Principle in 5 minutes) (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+        - [ ] D -[Nguyên tắc phụ thuộc ngược(Dependency Inversion principle)](http://www.oodesign.com/dependency-inversion-principle.html) | Giảm bớt phụ thuộc trong tập các đối tượng
+            - [Tại sao sử dụng nguyên tắc phụ thuộc ngược và tại sao nguyên tắc này quan trọng(Why Is The Dependency Inversion Principle And Why Is It Important)](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+
+- ### Thiết kế mẫu
+    - [ ] [Đọc nhanh về UML(Quick UML review) (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    - [ ] Học qua các mẫu sau:
+        - [ ] strategy
+        - [ ] singleton
+        - [ ] adapter
+        - [ ] prototype
+        - [ ] decorator
+        - [ ] visitor
+        - [ ] factory, abstract factory
+        - [ ] facade
+        - [ ] observer
+        - [ ] proxy
+        - [ ] delegate
+        - [ ] command
+        - [ ] state
+        - [ ] memento
+        - [ ] iterator
+        - [ ] composite
+        - [ ] flyweight
+    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    - [ ] [Bắt đầu với thiết kế mẫu(Head First Design Patterns)](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+        - Tôi biết có một cuốn sách kinh điển là "Design Patterns: Elements of Reusable Object-Oriented Software" nhưng cuốn Bắt đầu với thiết kế mẫu(Head First Design Patterns là một lựa chọn tuyệt vời cho người mới bắt đầu với OO.
+    - [ ] [Ghi nhớ: 101 Thiết kế mẫu và lưu ý dành cho lập trình viên(Handy reference: 101 Design Patterns & Tips for Developers)](https://sourcemaking.com/design-patterns-and-tips)
+
+- ### Tổ hợp (n chọn k) và xác suất
+    - [ ] [Kỹ năng toán: Làm thế nào để tìm giai thừa, hoán vị và tổ hợp(Math Skills: How to find Factorial, Permutation and Combination) (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Xác suất (Make School: Probability) (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    - [ ] [Xác suất và chuỗi Markov (Make School: More Probability and Markov Chains) (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+    - [ ] Khan Academy:
+        - Các khóa học:
+            - [ ] [Lý thuyết xác suất(Basic Theoretical Probability)](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+        - 41 video ngắn và đơn giản:
+            - [ ] [Lý giải về xác suất (Probability Explained) (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+
+- ### NP, NP-Complete và thuật toán xấp xỉ gần đúng
+    - Cần biết về các trường hợp nổi tiếng của NP-complete như chuyên du hành doanh nhân hay vấn đề túi đựng đồ nghề(traveling salesman and the knapsack problem) để có thể trả lời khi người phỏng vấn hỏi một cách ẩn ý.
+    - Know what NP-complete means.
+    - [ ] [Tính toán độ phức tạp(Computational Complexity) (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+    - [ ] Simonson:
+        - [ ] [Thuật toán tham lam và giới thiệu NP-complete(Greedy Algs. II & Intro to NP Completeness) (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+    - [ ] Skiena:
+        - [ ] [CSE373 2012 - Lecture 23 - Giới thiệu về NP-Completeness (Introduction to NP-Completeness) (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+        - [ ] [CSE373 2012 - Lecture 24 - Chứng mình NP-Completeness (NP-Completeness Proofs) (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [CSE373 2012 - Lecture 25 - Thách thức với NP-Completeness (NP-Completeness Challenge) (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [Độ phức tạp: P, NP, NP-completeness, giảm(Complexity: P, NP, NP-completeness, Reductions) (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    - [ ] [Độ phức tạp: Thuật toán gần đúng(Complexity: Approximation Algorithms) (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    - [ ] [Độ phức tạp: Thuật toán cố định tham sô(Complexity: Fixed-Parameter Algorithms) (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - Peter Norvig đã trình bày thuật toán gần tối ưu cho vấn đề di chuyển của doanh nhân:
+        - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+    - Trang 1048 - 1140 trong CLRS nếu bạn có nó.
+
+- ### Bộ nhớ cache
+    - [ ] LRU cache:
+        - [ ] [Điều kì diệu của LRU cache (100 ngày Google Dev) (The Magic of LRU Cache (100 Days of Google Dev)) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+        - [ ] [Triển khai LRU(Implementing LRU) (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+        - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+    - [ ] CPU cache:
+        - [ ] [MIT 6.004 L15: Phân cấp bộ nhớ (The Memory Hierarchy) (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+        - [ ] [MIT 6.004 L16: Các vấn đề với bộ nhớ cache (Cache Issues) (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
 - ### Tiến trình và tiểu trình
-
     - [ ] Khóa học "Khoa học máy tính 162 - Hệ điều hành" (25 video):
         - Về tiến trình và tiểu trình, xem video 1-11
         - [Hệ điều hành và lập trình hệ thống (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
@@ -1015,6 +1112,73 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - [ ] [David Beazley - Căn bản về xử lý đồng thời trong Python: TRỰC TIẾP! - PyCon 2015 (David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015)](https://www.youtube.com/watch?v=MCs5OvhV9S4)
         - [ ] [Các điểm chính trong phần trình bày của David Beazley - Các vấn đề thú vị (Python Asyncio) (Keynote David Beazley - Topics of Interest (Python Asyncio))](https://www.youtube.com/watch?v=ZzfHjytDceU)
         - [ ] [Mutex trong Python (Mutex in Python)](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+
+- ### Các bài nghiên cứu
+    - Có nhiều bài nghiên cứu của Google và các bài nghiên cứu rất nổi tiếng.
+    - Đọc hết các bài nghiên cứu tốn rất nhiều thời gian, tôi khuyên bạn nên chọn lọc theo đề tài cụ thể.
+    - [ ] [1978: Tiến trình giao tiếp tuần tự (1978: Communicating Sequential Processes)](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+        - [Triển khai với Go (implemented in Go)](https://godoc.org/github.com/thomas11/csp)
+        - [Yêu thích các nghiên cứu cũ (Love classic papers)?](https://www.cs.cmu.edu/~crary/819-f09/)
+    - [ ] [2003: Hệ thống tập tin của Google (2003: The Google File System)](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+        - thay thế bởi Colossus năm 2012
+    - [ ] [2004: MapReduce: Đơn giản hóa xử lý dữ liệu trên phân vùng lớn (Simplified Data Processing on Large Clusters)]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+        - gần như bị thay thế bởi Cloud Dataflow?
+    - [ ] [2007: Những gì mà lập trình viên nên biết về bộ nhớ (rất dài, ngay cả tác giả cũng khuyến khích bỏ qua vài phần) (What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections))](https://www.akkadia.org/drepper/cpumemory.pdf)
+    - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
+        - Bài nghiên cứu không tồn tại
+    - [ ] 2012: AddressSanitizer: Kiểm tra nhanh tính đúng đắn của địa chỉ (A Fast Address Sanity Checker):
+        - [Bài nghiên cứu](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
+        - [Bài nghiên cứu](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+        - [video](https://www.usenix.org/node/170855)
+    - [ ] [2014: Máy học: Lợi ích và những vấn đề cần tránh (Machine Learning: The High-Interest Credit Card of Technical Debt)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en/pubs/archive/43790.pdf)
+    - [ ] [2015: Sẵn sàng cho thay đổi lớn: Xây dựng hạ tầng dữ liệu của Google dành cho quảng cáo (High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads)](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+    - [ ] [2015: Tensorflow: Áp dụng máy học với dữ liệu lớn trên hệ thống phân tán tính toán song song (Large-Scale Machine Learning on Heterogeneous Distributed Systems)](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+    - [ ] [2015: Lập trình viên tìm code như thế nào: Một trường hợp điển hình (How Developers Search for Code: A Case Study)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+
+- ### Kiểm tra
+    - Cần ghi nhớ:
+        - Unit test thực hiện như thế nào
+        - Các đối tượng giả là gì
+        - Integration testing là gì
+        - Dependency injection là gì
+    - [ ] [Kiểm tra phần mềm linh hoạt với Jame Bach (Agile Software Testing with James Bach) (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [Bài giảng của James Bach về kiểm tra phần mềm (Open Lecture by James Bach on Software Testing) (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - Lập trình hướng tới việc test( Không phải như chúng ta nghĩ) (Test-Driven Development (that’s not what we meant)) (video)](https://vimeo.com/83960706)
+        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    - [ ] [Lập trình hướng tới việc test đã chết. (TDD is dead. Long live testing.)](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+    - [ ] [Lập trình hướng tới việc test có phải đã chết? (Is TDD dead?) (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] [Video series (152 videos) - Không phải tất cả đều cần thiết (not all are needed) (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [Lập trình theo hướng test dành cho web với Python (Test-Driven Web Development with Python)](http://www.obeythetestinggoat.com/pages/book.html#toc)
+    - [ ] Dependency injection:
+        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+        - [ ] [Đạo trong kiểm tra (Tao Of Testing)](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+    - [ ] [Viết test thế nào(How to write tests)](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+
+- ### Lên lịch làm việc
+    - Trong một hệ điều hành hoạt động như thế nào
+    - Có thể tìm thấy trong các video về HĐH
+
+- ### Triển khai các hoạt động của hệ thống
+    - Hiểu rõ cách thức hoạt động đằng sau của các API
+    - Có thể triển khai chúng hay không?
+
+- ### Tìm kiếm chuỗi và xử lý
+    - [ ] [Sedgewick - Mảng tiền tố(Suffix Arrays) (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
+    - [ ] [Sedgewick - Tìm và thay chuỗi(Substring Search) (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [1. Giới thiệu tìm và thay chuỗi(Introduction to Substring Search)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [2. Tìm và thay chuỗi theo Brute-Force(Brute-Force Substring Search)](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
+        - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+        - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
+        - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+    - [ ] [Tìm kiếm mẫu trong văn bản (Search pattern in text) (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+
+    Nếu bạn cần thêm thông tin chi tiết, hãy đọc qua phần "So khớp chuỗi" trong các mục đọc thêm [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
+
+---
 
 ## Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu
 - **Bạn có thế sẽ bị hỏi câu hỏi liên quan đến thiết kế hệ thống nếu có hơn 4 năm kinh nghiệm**
@@ -1139,207 +1303,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - [Thiết kế một hệ thống làm ngắn URL(Design a URL-shortener system: copied from above)](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Thiết kế một hệ thống cache(Design a cache system)](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
-## Các kiến thức thêm
-
-- ### Đệ qui
-    - [ ] Các bài giảng của đại học Stanford về đệ qui và quay lui:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - Khi nào thích hợp để sử dụng?
-    - Đệ qui đuôi tốt hơn hay không như thế nào?
-        - [ ] [Đệ qui đuôi là gì Tại sao nó không tốt(What Is Tail Recursion Why Is It So Bad)?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Đệ qui đuôi (Tail Recursion) (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
-
-- ### Lập trình hướng đối tượng
-    - [ ] [Phụ thêm: Seri về UML 2.0 (Optional: UML 2.0 Series) (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] Lập trình hướng đối tượng: Phát triển phần mềm sử dụng UML và Java (21 videos):
-        - Có thể bỏ qua phần này nếu bạn đã có kiến thức vững chắc về OOP
-        - [Lập trình hướng đối tượng: Phát triển phần mềm sử dụng UML và Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] Những điểm quan trọng nhất của OOP:
-        - [ ] [Bob Martin Những điểm quan trọng nhất của lập trình hướng đối tượng và thiết kế linh hoạt (Bob Martin SOLID Principles of Object Oriented and Agile Design) (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-        - [ ] [Thiết kế mẫu trong C# (SOLID Design Patterns in C#) (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
-        - [ ] [Những điểm quan trọng nhất (SOLID Principles) (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Nguyên tắc một trách nhiệm (Single Responsibility Principle)](http://www.oodesign.com/single-responsibility-principle.html)
-        - [ ] [Mỗi đối tượng chịu một trách nhiệm duy nhất (Single responsibility to each Object)](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [Đọc thêm](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Nguyên tắc mở đóng (Open/Closed Principal)](http://www.oodesign.com/open-close-principle.html)  | [Trong thực tế, đối tượng có thể mở rộng chứ không thích hợp cho sửa đổi (On production level Objects are ready for extension for not for modification)](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Nguyên tắc thay thế của Liskov (Liskov Substitution Principal)](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Nguyên tắc về lớp cơ bản và lớp dẫn xuất (Base Class and Derived class follow ‘IS A’ principal)](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Nguyên tắc phân chia giao diện (Interface segregation principle)](http://www.oodesign.com/interface-segregation-principle.html) | khách hàng không nên triển khai giao diện họ không sử dụng
-            - [Phân chia giao diện trong 5 phút (Interface Segregation Principle in 5 minutes) (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Nguyên tắc phụ thuộc ngược(Dependency Inversion principle)](http://www.oodesign.com/dependency-inversion-principle.html) | Giảm bớt phụ thuộc trong tập các đối tượng
-            - [Tại sao sử dụng nguyên tắc phụ thuộc ngược và tại sao nguyên tắc này quan trọng(Why Is The Dependency Inversion Principle And Why Is It Important)](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
-
-- ### Thiết kế mẫu
-    - [ ] [Đọc nhanh về UML(Quick UML review) (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Học qua các mẫu sau:
-        - [ ] strategy
-        - [ ] singleton
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
-        - [ ] visitor
-        - [ ] factory, abstract factory
-        - [ ] facade
-        - [ ] observer
-        - [ ] proxy
-        - [ ] delegate
-        - [ ] command
-        - [ ] state
-        - [ ] memento
-        - [ ] iterator
-        - [ ] composite
-        - [ ] flyweight
-    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-    - [ ] [Bắt đầu với thiết kế mẫu(Head First Design Patterns)](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - Tôi biết có một cuốn sách kinh điển là "Design Patterns: Elements of Reusable Object-Oriented Software" nhưng cuốn Bắt đầu với thiết kế mẫu(Head First Design Patterns là một lựa chọn tuyệt vời cho người mới bắt đầu với OO.
-    - [ ] [Ghi nhớ: 101 Thiết kế mẫu và lưu ý dành cho lập trình viên(Handy reference: 101 Design Patterns & Tips for Developers)](https://sourcemaking.com/design-patterns-and-tips)
-
-- ### Tổ hợp (n chọn k) và xác suất
-    - [ ] [Kỹ năng toán: Làm thế nào để tìm giai thừa, hoán vị và tổ hợp(Math Skills: How to find Factorial, Permutation and Combination) (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-    - [ ] [Xác suất (Make School: Probability) (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-    - [ ] [Xác suất và chuỗi Markov (Make School: More Probability and Markov Chains) (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
-    - [ ] Khan Academy:
-        - Các khóa học:
-            - [ ] [Lý thuyết xác suất(Basic Theoretical Probability)](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - 41 video ngắn và đơn giản:
-            - [ ] [Lý giải về xác suất (Probability Explained) (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
-
-- ### NP, NP-Complete và thuật toán xấp xỉ gần đúng
-    - Cần biết về các trường hợp nổi tiếng của NP-complete như chuyên du hành doanh nhân hay vấn đề túi đựng đồ nghề(traveling salesman and the knapsack problem) để có thể trả lời khi người phỏng vấn hỏi một cách ẩn ý.
-    - Know what NP-complete means.
-    - [ ] [Tính toán độ phức tạp(Computational Complexity) (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
-    - [ ] Simonson:
-        - [ ] [Thuật toán tham lam và giới thiệu NP-complete(Greedy Algs. II & Intro to NP Completeness) (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
-        - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
-    - [ ] Skiena:
-        - [ ] [CSE373 2012 - Lecture 23 - Giới thiệu về NP-Completeness (Introduction to NP-Completeness) (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-        - [ ] [CSE373 2012 - Lecture 24 - Chứng mình NP-Completeness (NP-Completeness Proofs) (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [CSE373 2012 - Lecture 25 - Thách thức với NP-Completeness (NP-Completeness Challenge) (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [Độ phức tạp: P, NP, NP-completeness, giảm(Complexity: P, NP, NP-completeness, Reductions) (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Độ phức tạp: Thuật toán gần đúng(Complexity: Approximation Algorithms) (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Độ phức tạp: Thuật toán cố định tham sô(Complexity: Fixed-Parameter Algorithms) (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig đã trình bày thuật toán gần tối ưu cho vấn đề di chuyển của doanh nhân:
-        - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Trang 1048 - 1140 trong CLRS nếu bạn có nó.
-
-- ### Bộ nhớ cache
-    - [ ] LRU cache:
-        - [ ] [Điều kì diệu của LRU cache (100 ngày Google Dev) (The Magic of LRU Cache (100 Days of Google Dev)) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-        - [ ] [Triển khai LRU(Implementing LRU) (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
-        - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-    - [ ] CPU cache:
-        - [ ] [MIT 6.004 L15: Phân cấp bộ nhớ (The Memory Hierarchy) (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-        - [ ] [MIT 6.004 L16: Các vấn đề với bộ nhớ cache (Cache Issues) (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
-
-- ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
-    - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - difference between processes and threads
-            - processes
-            - threads
-            - locks
-            - mutexes
-            - semaphores
-            - monitors
-            - how they work
-            - deadlock
-            - livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware
-    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] concurrency in Python (videos):
-        - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
-        - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
-        - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
-            - [reference](http://www.dabeaz.com/GIL)
-        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
-        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
-        - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
-
-- ### Các bài nghiên cứu
-    - Có nhiều bài nghiên cứu của Google và các bài nghiên cứu rất nổi tiếng.
-    - Đọc hết các bài nghiên cứu tốn rất nhiều thời gian, tôi khuyên bạn nên chọn lọc theo đề tài cụ thể.
-    - [ ] [1978: Tiến trình giao tiếp tuần tự (1978: Communicating Sequential Processes)](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [Triển khai với Go (implemented in Go)](https://godoc.org/github.com/thomas11/csp)
-        - [Yêu thích các nghiên cứu cũ (Love classic papers)?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [2003: Hệ thống tập tin của Google (2003: The Google File System)](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - thay thế bởi Colossus năm 2012
-    - [ ] [2004: MapReduce: Đơn giản hóa xử lý dữ liệu trên phân vùng lớn (Simplified Data Processing on Large Clusters)]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - gần như bị thay thế bởi Cloud Dataflow?
-    - [ ] [2007: Những gì mà lập trình viên nên biết về bộ nhớ (rất dài, ngay cả tác giả cũng khuyến khích bỏ qua vài phần) (What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections))](https://www.akkadia.org/drepper/cpumemory.pdf)
-    - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - Bài nghiên cứu không tồn tại
-    - [ ] 2012: AddressSanitizer: Kiểm tra nhanh tính đúng đắn của địa chỉ (A Fast Address Sanity Checker):
-        - [Bài nghiên cứu](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [Bài nghiên cứu](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Máy học: Lợi ích và những vấn đề cần tránh (Machine Learning: The High-Interest Credit Card of Technical Debt)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en/pubs/archive/43790.pdf)
-    - [ ] [2015: Sẵn sàng cho thay đổi lớn: Xây dựng hạ tầng dữ liệu của Google dành cho quảng cáo (High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads)](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: Tensorflow: Áp dụng máy học với dữ liệu lớn trên hệ thống phân tán tính toán song song (Large-Scale Machine Learning on Heterogeneous Distributed Systems)](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: Lập trình viên tìm code như thế nào: Một trường hợp điển hình (How Developers Search for Code: A Case Study)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
-
-- ### Kiểm tra
-    - Cần ghi nhớ:
-        - Unit test thực hiện như thế nào
-        - Các đối tượng giả là gì
-        - Integration testing là gì
-        - Dependency injection là gì
-    - [ ] [Kiểm tra phần mềm linh hoạt với Jame Bach (Agile Software Testing with James Bach) (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Bài giảng của James Bach về kiểm tra phần mềm (Open Lecture by James Bach on Software Testing) (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Lập trình hướng tới việc test( Không phải như chúng ta nghĩ) (Test-Driven Development (that’s not what we meant)) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [Lập trình hướng tới việc test đã chết. (TDD is dead. Long live testing.)](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Lập trình hướng tới việc test có phải đã chết? (Is TDD dead?) (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - Không phải tất cả đều cần thiết (not all are needed) (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Lập trình theo hướng test dành cho web với Python (Test-Driven Web Development with Python)](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-        - [ ] [Đạo trong kiểm tra (Tao Of Testing)](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [Viết test thế nào(How to write tests)](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
-
-- ### Lên lịch làm việc
-    - Trong một hệ điều hành hoạt động như thế nào
-    - Có thể tìm thấy trong các video về HĐH
-
-- ### Triển khai các hoạt động của hệ thống
-    - Hiểu rõ cách thức hoạt động đằng sau của các API
-    - Có thể triển khai chúng hay không?
-
-- ### Tìm kiếm chuỗi và xử lý
-    - [ ] [Sedgewick - Mảng tiền tố(Suffix Arrays) (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-    - [ ] [Sedgewick - Tìm và thay chuỗi(Substring Search) (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [1. Giới thiệu tìm và thay chuỗi(Introduction to Substring Search)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [2. Tìm và thay chuỗi theo Brute-Force(Brute-Force Substring Search)](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
-        - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-        - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
-        - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [Tìm kiếm mẫu trong văn bản (Search pattern in text) (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-
-    Nếu bạn cần thêm thông tin chi tiết, hãy đọc qua phần "So khớp chuỗi" trong các mục đọc thêm [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
+---
 
 ## Tổng kết
 
@@ -1377,5 +1341,6 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
     - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
+---
 
 > In progress

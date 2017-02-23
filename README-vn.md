@@ -83,20 +83,20 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - danh sách kề
     - duyệt đồ thị: BFS, DFS
 - [Thêm nhiều kiến thức nữa](#thêm-nhiều-kiến-thức-nữa)
-    - [Recursion](#recursion)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
+    - [Đệ quy](#Đệ-quy)
+    - [Lập trình hướng đối tượng](#lập-trình-hướng-đối-tượng)
+    - [Mẫu thiết kế](#mẫu-thiết-kế)
+    - [Tổ hợp và Xác Suất](#tổ-hợp-và-xác-suất)
+    - [NP, NP-Complete và thuật toán xấp xỉ gần đúng](#np-np-complete-và-thuật-toán-xấp-xỉ-gần-đúng)
+    - [Bộ nhớ cache](#bộ-nhớ-cache)
     - [Tiến trình và tiểu trình](#tiến-trình-và-tiểu-trình)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
+    - [Các công trình nghiên cứu](#các-công-trình-nghiên-cứu)
+    - [Kiểm thử phần mềm](#kiểm-thử-phần-mềm)
+    - [Lập lịch](#lập-lịch)
+    - [Cài đặt các hàm hệ thống](#cài-đặt-các-hàm-hệ-thống)
+    - [Tìm kiếm và xử lý chuỗi](#tìm-kiếm-và-xử-lý-chuỗi)
 - [Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu](#thiết-kế-hệ-thống-khả-năng-mở-rộng-xử-lý-dữ-liệu) (Nếu bạn có hơn 4 năm kinh nghiệm)
-- [Final Review](#final-review)
+- [Tống kết](#tổng-kết)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
@@ -976,18 +976,18 @@ Nếu bạn muốn biết thêm chi tiết trong chủ đề này, xem qua phầ
 Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của Skiena (xem danh mục sách bên dưới) và các sách về phỏng vấn.
 
 
-## Các kiến thức thêm
+## Thêm nhiều kiến thức nữa
 
-- ### Đệ qui
-    - [ ] Các bài giảng của đại học Stanford về đệ qui và quay lui:
+- ### Đệ quy
+    - [ ] Các bài giảng của đại học Stanford về đệ quy và quay lui:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
     - Khi nào thích hợp để sử dụng?
-    - Đệ qui đuôi tốt hơn hay không như thế nào?
-        - [ ] [Đệ qui đuôi là gì Tại sao nó không tốt(What Is Tail Recursion Why Is It So Bad)?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Đệ qui đuôi (Tail Recursion) (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+    - Đệ quy đuôi tốt hơn hay không như thế nào?
+        - [ ] [Đệ quy đuôi là gì Tại sao nó không tốt(What Is Tail Recursion Why Is It So Bad)?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [Đệ quy đuôi (Tail Recursion) (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 - ### Lập trình hướng đối tượng
     - [ ] [Phụ thêm: Seri về UML 2.0 (Optional: UML 2.0 Series) (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1012,7 +1012,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
             - [Tại sao sử dụng nguyên tắc phụ thuộc ngược và tại sao nguyên tắc này quan trọng(Why Is The Dependency Inversion Principle And Why Is It Important)](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
             - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
-- ### Thiết kế mẫu
+- ### Mẫu thiết kế
     - [ ] [Đọc nhanh về UML(Quick UML review) (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] Học qua các mẫu sau:
         - [ ] strategy
@@ -1040,7 +1040,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - Tôi biết có một cuốn sách kinh điển là "Design Patterns: Elements of Reusable Object-Oriented Software" nhưng cuốn Bắt đầu với thiết kế mẫu(Head First Design Patterns là một lựa chọn tuyệt vời cho người mới bắt đầu với OO.
     - [ ] [Ghi nhớ: 101 Thiết kế mẫu và lưu ý dành cho lập trình viên(Handy reference: 101 Design Patterns & Tips for Developers)](https://sourcemaking.com/design-patterns-and-tips)
 
-- ### Tổ hợp (n chọn k) và xác suất
+- ### Tổ hợp và Xác Suất
     - [ ] [Kỹ năng toán: Làm thế nào để tìm giai thừa, hoán vị và tổ hợp(Math Skills: How to find Factorial, Permutation and Combination) (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
     - [ ] [Xác suất (Make School: Probability) (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
     - [ ] [Xác suất và chuỗi Markov (Make School: More Probability and Markov Chains) (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
@@ -1139,7 +1139,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - [ ] [2015: Lập trình viên tìm code như thế nào: Một trường hợp điển hình (How Developers Search for Code: A Case Study)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Kiểm tra
+- ### Kiểm thử phần mềm
     - Cần ghi nhớ:
         - Unit test thực hiện như thế nào
         - Các đối tượng giả là gì
@@ -1158,15 +1158,15 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - [ ] [Đạo trong kiểm tra (Tao Of Testing)](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [Viết test thế nào(How to write tests)](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Lên lịch làm việc
+- ### Lập lịch
     - Trong một hệ điều hành hoạt động như thế nào
     - Có thể tìm thấy trong các video về HĐH
 
-- ### Triển khai các hoạt động của hệ thống
+- ### Cài đặt các hàm hệ thống
     - Hiểu rõ cách thức hoạt động đằng sau của các API
     - Có thể triển khai chúng hay không?
 
-- ### Tìm kiếm chuỗi và xử lý
+- ### Tìm kiếm và xử lý chuỗi
     - [ ] [Sedgewick - Mảng tiền tố(Suffix Arrays) (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
     - [ ] [Sedgewick - Tìm và thay chuỗi(Substring Search) (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
         - [ ] [1. Giới thiệu tìm và thay chuỗi(Introduction to Substring Search)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)

@@ -99,11 +99,11 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Tống kết](#tổng-kết)
 - [Coding Question Practice](#coding-question-practice)
 - [Giải bài tập lập trình](#giải-bài-tập-lập-trình)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Khi bạn tiến gần đến kỳ phỏng vấn](#khi-bạn-tiến-gần-đến-kỳ-phỏng-vấn)
+- [Resume của bạn](#resume-của-bạn)
+- [Hãy nghĩ đến những thứ bạn sẽ được hỏi](#hãy-nghĩ-đến-những-thứ-bạn-sẽ-được-hỏi)
+- [Chuẩn bị câu hỏi dành cho phỏng vấn viến](#chuẩn-bị-câu-hỏi-dành-cho-phỏng-vấn-viến)
+- [Khi bạn được nhận việc](#khi-bạn-được-nhận-việc)
 
 ---------------- Everything below this point is optional ----------------
 
@@ -1307,7 +1307,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 ## Tổng kết
 
-    Phần này sẽ là các video ngắn đề bạn ôn tập lại hầu hết các khái niệm quan trọng. 
+    Phần này sẽ là các video ngắn đề bạn ôn tập lại hầu hết các khái niệm quan trọng.
     Cũng tốt nếu như bạn muốn bồi dưỡng thường xuyên.
 
 - [ ] Các video ngắn 2-3 phút (23 video)
@@ -1368,5 +1368,72 @@ Các trang giải toán lập trình:
 Xem thêm:
 - [Phỏng vấn thử nghiệm](http://www.gainlo.co/)
 
+
+## Khi bạn tiến gần đến kỳ phỏng vấn
+
+- [ ] Cracking The Coding Interview, Phần 2 (video):
+    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
+    - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
+    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
+
+## Resume của bạn
+
+- [10 mẹo để Resume bớt (một chút) tào lao](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- Xem các phần về chuẩn bị Resume trong [Cracking The Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/) và [Programming Interviews Exposed](https://www.amazon.com/Programming-Interviews-Exposed-Secrets-Landing/dp/1118261364)
+
+
+## Hãy nghĩ đến những thứ bạn sẽ được hỏi
+
+Nghĩ sẵn 20 câu hỏi kỹ thuật bạn có thể gặp phải, cùng với danh sách bên dưới.
+Chuẩn bị 2 đến 3 câu trả lời cho mỗi câu hỏi. Hãy chuẩn bị cả câu chuyện (từ chính kinh nghiệm của bạn), chứ không chỉ một câu trả lời suông.
+
+- Tại sao bạn lại muốn ứng tuyển vị trí này?
+- Vấn đề khó chịu nhất bạn từng giải quyết là gì?
+- Thử thách lớn nhất bạn từng đối mặt?
+- Thiết kế (hệ thống) tốt nhất/tồi nhất bạn từng gặp?
+- Những ý tưởng để cải thiện các sản phẩm hiện giờ của Google.
+- Bạn sẽ làm việc như thế nào để đạt hiểu quả tốt nhất, trong trường hợp làm việc một mình và làm theo team?
+- Kỹ năng hay kinh nghiệm nào của bạn thích hợp cho công việc này, và tại sao?
+- Bạn thích điều gì nhất ở [công việc X/ dự án Y]?
+- Lỗi gấy ức chế nhất bạn từng gặp phải ở [công việc X/ dự án Y]?
+- Bạn học được những gì ở [công việc X/ dự án Y]?
+- Những gì bạn cho rằng mình đã có thể làm tốt hơn ở [công việc X/ dự án Y]?
+
+
+## Chuẩn bị câu hỏi dành cho phỏng vấn viến
+
+    Một vài câu hỏi của tôi (Tôi có thể đã tìm hiểu trước rồi, nhưng vẫn muốn được nghe ý kiến từ góc nhìn của người phỏng):
+
+- Quy mô của team thế nào?
+- Quy trình phát triển của bạn? Waterfall/sprints/agile?
+- Áp lực deadline có phổ biến không? Liệu có sự linh hoạt nào không?
+- Các quyết định của team được xây dựng như thế nào?
+- Khoảng bao nhiêu cuộc họp hàng tuần?
+- Bạn có cho rằng môi trường làm việc giúp bạn tập trung hơn không?
+- Hiện tại bạn đang xây dựng những gì?
+- Bạn thích gì ở công việc này?
+- Sự cân bằng giữa công việc và cuộc sống của bạn có ổn không?
+
+## Khi bạn được nhận việc
+
+Chúc mừng!
+
+- [10 điều tôi ước gì được biết trong ngày đầu tiên tại Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+
+Hãy tiếp tục rèn luyện. 
+
+Bạn không bao giờ thực sự học xong!
+
+
+---
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+    Tiếp theo là các phần phụ mà tôi khuyến khích nên đọc, không phải từ Google.
+    Học các chủ đề này sẽ giúp bạn hiểu sâu hơn về Khoa học máy tính, và sẵn sàng hơn cho bất kỳ công ty nào.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
 
 > In progress

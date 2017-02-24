@@ -47,22 +47,12 @@ Wybrałem to co musisz wiedzieć spośród rzeczy zalecanych przez Yegge'a. Popr
 na podstawie informacji, które otrzymałem od swojego kontaktu w Google. Projekt jest napisany z myślą o **początkujących inżynierach oprogramowania**
 lub tych, którzy przerzucają się z oprogramowania/web-devu na inżynierę oprogramowania, gdzie informatyka (computer science) jest potrzebna. Jeżeli masz wiele lat doświadczenia, spodziewaj się trudniejszej rozmowy kwalifikacyjnej.
 [Przeczytaj więcej tutaj (EN)](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
-<!-- I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements
-from information received from my contact at Google. This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/). -->
 
 Weź pod uwagę fakt, iz Google traktuje oprogramowanie/web-dev inaczej niż inżynierę oprogramowania
 i wymagają szczegołowej wiedzy z zarkesu informatyki.
 
-<!-- If you have many years of software/web development experience, note that Google views software engineering as
-different from software/web development and they require computer science knowledge. -->
-
 Jeśli chcesz być inżynierem ds. niezawodności i bezpieczeństwa lub systemów, ucz się
 więcej z dodatkowej listy (sieć, bezpieczeństwo).
-
-<!-- If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security). -->
 
 ---
 

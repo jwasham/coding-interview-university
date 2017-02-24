@@ -38,10 +38,6 @@ Znajdziesz tutaj wiele rzeczy związanych z Google, ale starałem się uogólni�
 Ta długa lista została napisana na podstawie porad i wskazówek Google'a, więc znajdziesz tu rzeczy, które musisz wiedzieć.
 Są tutaj też dodatkowe rzeczy, które dodałem na końcu, mogące pojawić się na rozmowie kwalifikacyjnej lub okazać się pomocne
 w rozwiązywaniu problemów. Wiele pozycji jest z "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" od Steva Yegge i czasem są też przepisane słowo w słowo z notek Google'a.
-<!-- This long list has been extracted and expanded from **Google's coaching notes**, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes. -->
 
 Wybrałem to co musisz wiedzieć spośród rzeczy zalecanych przez Yegge'a. Poprawiłem także listę wymagań podanych przez niego
 na podstawie informacji, które otrzymałem od swojego kontaktu w Google. Projekt jest napisany z myślą o **początkujących inżynierach oprogramowania**

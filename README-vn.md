@@ -97,7 +97,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [Tìm kiếm và xử lý chuỗi](#tìm-kiếm-và-xử-lý-chuỗi)
 - [Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu](#thiết-kế-hệ-thống-khả-năng-mở-rộng-xử-lý-dữ-liệu) (Nếu bạn có hơn 4 năm kinh nghiệm)
 - [Tống kết](#tổng-kết)
-- [Coding Question Practice](#coding-question-practice)
+- [Thực hành các câu hỏi về lập trình](#thực-hành-các-câu-hỏi-về-lập-trình)
 - [Giải bài tập lập trình](#giải-bài-tập-lập-trình)
 - [Khi bạn tiến gần đến kỳ phỏng vấn](#khi-bạn-tiến-gần-đến-kỳ-phỏng-vấn)
 - [Resume của bạn](#resume-của-bạn)
@@ -1344,7 +1344,44 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 ---
 
 
-> Place holder for **Coding Question Practice**
+## Thực hành các câu hỏi về lập trình
+
+Bây giờ bạn đã biết tất cả các chủ đề về khoa học máy tính, đây là lúc để thực hành các câu hỏi về lập trình.
+
+**Thực hành trả lời các câu hỏi về lập trình không phải là ghi nhớ cách trả lời các vấn đề trong lập trình**
+
+Tại sao bạn cần thực hành trả lời các vấn đề lập trình:
+- Nhận diện vấn đề, lựa chọn cấu trúc dữ liệu và thuật toán phù hợp
+- Xác định các yêu cầu của vấn đề
+- Trình bày cách suy nghĩ của bạn như thể bạn đang trong buổi phỏng vấn
+- Lập trình trên bảng trắng hoặc trên giấy, không phải với máy tính
+- Đưa ra được tính toán độ phức tạp về thời gian và không gian thực thi của giải pháp của bạn
+- Kiểm tra giải pháp của bạn
+
+Dưới đây là một bài viết tuyệt vời về phương thức luận, cách kết nối giải quyết vấn đề trong một bài phỏng vấn. Bạn có thế gặp các bài viết tương tự trong các sách hướng dẫn phỏng vấn nhưng tối cho là bài này thật sự cực kì xuất sắc:
+[Thiết kế thuật toán (Algorithm design canvas)](http://www.hiredintech.com/algorithm-design/)
+
+[Các bước tôi xử lý cho các câu hỏi về lập trình trong phỏng vấn (My Process for Coding Interview (Book) Exercises)](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
+
+Không có bảng trắng ở nhà? Cũng hợp lý chứ. Tôi có chút khác biệt và tôi có một cái bảng trắng rất to. Thay vì bảng trắng, bạn có thể chọn một tập sổ ký họa từ các cửa hàng nghệ thuật. Bạn có thể ngồi ở ghế salon và thực hành. Tôi gọi nó là "bảng trắng mềm mại". Tôi có bỏ vào cây bút để dễ ước lượng. Nếu bạn dùng bút mực, bạn sẽ mong chọn loại nào có thể tẩy được ấy, vì sớm muộn sẽ rối cả lên.
+
+![Bảng trắng mềm mại của tôi(my sofa whiteboard)](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+
+Phụ lục:
+
+- [Toán học cho nhà lập trình hàng đầu(Mathematics for Topcoders)](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [Lập trình linh hoạt - Từ cơ bản đến nâng cao (Dynamic Programming – From Novice to Advanced)](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Các tài liệu liên quan tới phỏng vấn của MIT (MIT Interview Materials)](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
+- [Các bài tập để lập trình tốt hơn đối với ngôn ngữ được lựa chọn (Exercises for getting better at a given language)](http://exercism.io/languages)
+
+**Đọc và làm các bài tập về lập trình (theo thứ tự sau):**
+
+- [ ] [Đi sâu vào các buổi phỏng vấn về lập trình: Bí mật để nhận được công việc mới (Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition)](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - Trả lời bằng C,C++, và Java
+- [ ] [Vượt qua các bài phỏng vấn về lập trình (Cracking the Coding Interview, 6th Edition)](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - Trả lời bằng Java
+
+Đọc qua [Danh sách sách phía trên](#danh-sách-sách)
 
 
 ## Giải bài tập lập trình
@@ -1420,7 +1457,7 @@ Chúc mừng!
 
 - [10 điều tôi ước gì được biết trong ngày đầu tiên tại Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-Hãy tiếp tục rèn luyện. 
+Hãy tiếp tục rèn luyện.
 
 Bạn không bao giờ thực sự học xong!
 

@@ -1,6 +1,6 @@
 # 구글 인터뷰 대학(Google Interview University)
 
-번역: 
+번역:
 - [중국어](translations/README-cn.md)
 - 진행 중인 번역:
     - [스페인어](https://github.com/jwasham/google-interview-university/issues/80)
@@ -24,7 +24,7 @@
 
 이 기나긴 리스트는 **구글 코칭 노트**에서 선별되고 확장된 것으로 여러분이 알아야 할 내용이다. 맨 아래에는 인터뷰에 등장하거나 문제를 푸는 데에 도움이 될 만한 추가적인 내용이 있다. 많은 내용이 Steve Yegge의  "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"이라는 책에서 나왔으며, 때때로 구글 코칭 노트의 내용을 그대로 담고있기도 하다.
 
-나는 Yegge의 추천으로부터 여러분이 알아야만 할 내용들을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다 
+나는 Yegge의 추천으로부터 여러분이 알아야만 할 내용들을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다
 
 만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다. [더 보기](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
@@ -36,29 +36,29 @@
 
 ## Table of Contents
 
-- [구글 인터뷰 대학이란?](#what-is-it)
+- [구글 인터뷰 대학이란?](#구글-인터뷰-대학이란)
 - [Why use it?](#why-use-it)
 - [How to use it?](#how-to-use-it)
-- [구글 분위기 내기](#get-in-a-googley-mood)
+- [구글 분위기 내기](#구글-분위기-내기)
 - [Did I Get the Job](#did-i-get-the-job)
-- [팔로우 하려면](#follow-along-with-me)
-- [당신은 멍청하지 않다](#dont-feel-you-arent-smart-enough)
-- [구글에 대하여](#about-google)
-- [영상자료에 관하여](#about-video-resources)
-- [인터뷰 과정 & 일반적인 인터뷰 준비](#interview-process--general-interview-prep)
-- [인터뷰를 위한 언어 정하기](#pick-one-language-for-the-interview)
-- [도서 목록](#book-list)
-- [시작하기 전에](#before-you-get-started)
-- [목록에 없는 내용](#what-you-wont-see-covered)
-- [사전 지식](#prerequisite-knowledge)
-- [일일 계획](#the-daily-plan)
-- [알고리즘 복잡도 / Big-O / 점근적 분석](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [자료구조](#data-structures)
-    - [배열](#arrays)
-    - [링크드 리스트](#linked-lists)
-    - [스택](#stack)
-    - [큐](#queue)
-    - [해쉬 테이블](#hash-table)
+- [팔로우 하려면](#팔로우-하려면)
+- [당신은 충분히 똑똑합니다](#당신은-충분히-똑똑합니다)
+- [구글에 대해](#구글에-대해)
+- [영상 자료에 관하여](#영상-자료에-관하여)
+- [인터뷰 과정 & 전반적인 인터뷰 준비 과정](#인터뷰-과정--전반적인-인터뷰-준비-과정)
+- [인터뷰를 위한 언어 고르기](#인터뷰를-위한-언어-고르기)
+- [도서 목록](#도서-목록)
+- [시작하기 전에](#시작하기-전에)
+- [다루지 않을 것](#다루지-않을-것)
+- [선수 과목](#선수-과목)
+- [하루 하루의 계획](#하루-하루의-계획)
+- [알고리즘 복잡도 / Big-O / 점근적 분석](#알고리즘-복잡도--big-o--점근적-분석)
+- [자료구조](#자료구조)
+    - [배열](#배열)
+    - [링크드 리스트](#링크드-리스트)
+    - [스택](#스택)
+    - [큐](#큐)
+    - [해쉬 테이블](#해쉬-테이블)
 - [추가 지식](#more-knowledge)
     - [이진 검색](#binary-search)
     - [비트 연산](#bitwise-operations)
@@ -258,46 +258,44 @@ I'm in the queue right now. Hope to interview soon.
 몇몇 영상들은 Cousera, Edx, Lynda.com 클래스에 등록하여야만 시청이 가능합니다. 이것들은 MOOCs라고 불리는데요.
 강의가 없는 경우에는 몇 달 동안 기다려야 할 수도 있습니다. Lynda.com 강좌들은 무료가 아닙니다.
 
-    여러분이 YouTube 온라인 강의 동영상과 같이 무료이고 항상 접근 가능한 동영상 소스들을 추가해주면 정말 감사하겠습니다. 
+    여러분이 YouTube 온라인 강의 동영상과 같이 무료이고 항상 접근 가능한 동영상 소스들을 추가해주면 정말 감사하겠습니다.
     저는 대학 강의 듣는 것을 좋아합니다.
-    
+
 ## 인터뷰 과정 & 전반적인 인터뷰 준비 과정
 
 - [ ] 비디오:
 
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
-
+    - [ ] [구글에서 일하게 되는법: 기술 인터뷰 준비하기 (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [구글에서 일하게 되는법: 코딩/기술 인터뷰 예시 (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [구글에서 일하게 되는법 - 지원자 코칭 시간 (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [구글 리크루터들이 공유한 기술 인터뷰 팁들 (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [구글에서 일하게 되는법: 기술 레쥬메 준비 (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] 읽을 거리들:
 
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+    - [ ] [구글러 되기 3단계](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [구글에서 그 직업 갖기](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+      - 이 글에서 저자가 언급한 당신이 알아야 할 모든 것들은 이 리스트 아래에 소개되어 있습니다.
+    - [ ] _(아주 오래됨)_ [구글에 취업하는 방법, 인터뷰 질문들, 채용 절차](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [화상통화 인터뷰 질문들](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 
 - [ ] 준비 코스:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+    - [ ] [소프트웨어 엔지니어 인터뷰 대공개 (유료 강좌)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - 전직 구글 엔지니어로부터 당신이 어떻게 소프트웨어 엔지니어 인터뷰를 준비해야 하는지 배우게 됩니다.
 
 - [ ] 부가물 (구글이 추천하지않은 내가 더한 것들):
-
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+    - [ ] [ABC: 항상 코딩 하라](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [학위 없이 구글에 들어가기 4단계](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [화이트 보드 쓰기](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [채용, 관리, 문화에 대한 구글의 생각](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [코딩 인터뷰에서 화이트 보드 효율적으로 쓰기](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] 코딩 인터뷰 정복 Set 1:
+      - [ ] [Gayle L McDowell - 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+      - [ ] [저자와 함께하는 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] Big 4에 취업하는 방법:
+      - [ ] ['Big 4에 취업하는 방법 - Amazon, Facebook, Google & Microsoft' (영상)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [구글 인터뷰 실패기](http://alexbowe.com/failing-at-google-interviews/)
 
 
 ## 인터뷰를 위한 언어 고르기
@@ -363,9 +361,9 @@ I'm in the queue right now. Hope to interview soon.
 준비기간이 짧을 때,
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - 이 책은 2004년에 출판된 다소 구식의 책이지만, 간략히 컴퓨터를 이해하는 데에 훌륭한 자료입니다.
+    - 이 책의 저자는 HLA를 발명했습니다. 그래서 회의적인 시선으로 HLA에 대해 언급하고 예로 듭니다. 널리 읽히지는 않지만, 어셈블리가 어떻게 생겼는 지를 보여주는 좋은 예입니다.
+    - 이 장들은 당신에게 탄탄한 기초를 세워줄 것입니다:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -392,13 +390,13 @@ I'm in the queue right now. Hope to interview soon.
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+나는 아래의 두 책들을 읽지 않았습니다. 하지만 Sedgewick이 높게 평가한 책들입니다. 그는 정말 대단한 사람입니다.
 
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적인 자료를 찾고 있습니다.
 
 ### Java
 
@@ -411,21 +409,21 @@ OR:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - UC버클리 대학의  CS입문 과정의 선택 텍스트로 사용됨
+    - 아래에서 Python 버전에 대한 나의 책 보고서를 참조하십시오. 이 책은 동일한 주제를 다루고 있습니다.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
+    - 나는 이 책을 사랑한다. 이 책은 모든 것을 다룬다.
     - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - 나의 열렬한 서적 보고서: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### 선택 도서
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**어떤 사람들은 이 책들을 추천한다. 하지만 만약 당신이 소프트웨어 엔지니어링 분야에 오랜 경험이 있고, 그로 인해 훨씬 더 어려운 인터뷰를 볼 것이라 생각하지 않는다면, 나는 이 책들을 공부하는 것이 너무 과하다고 생각한다:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition
@@ -501,16 +499,16 @@ OR:
 
 앞에서도 언급했듯이 나는 불필요하게 많은 것을 공부하려고 했고, 내 카드의 내용들은 어셈블리 언어와 Python의 자잘한 지식들부터 기계 학습과 통계학까지 넘나들게 되었다. 결국 구글이 요구하는 것보다 훨씬 멀리 가버리고 말았다.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**flashcard에 대한 참고사항:** 답을 할 수 있더라도 처음부터 안다고 표시하지 말자. 정확히 알기 전까지는 같은 카드를 보고 여러 번 답변할 수 있어야한다. 
+반복 학습을 통해 해당 지식은 당신의 뇌에 깊이 각인될 것이다.
 
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
 
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+나의 flashcard site를 사용하는 대신 [Anki](http://ankisrs.net/)를 사용해도 된다. 나는 이 것을 여러 번 추천받았다. 이것은 당신이 기억하는 것을 돕기 위해 반복적인 시스템을 사용한다.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+이것은 사용자 친화적이며, 모든 플랫폼에서 사용가능하다. 또한 클라우드 동기화 시스템을 제공한다. 이것은 iOS에서는 $25이지만 다른 플랫폼에서는 무료로 사용 가능하다.
+
+Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
 ### 3. 검토, 검토, 검토
 
@@ -518,14 +516,14 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
 
 30분 동안 프로그래밍 문제를 해결하고, flashcard를 살펴보자.
 
-### 4. 집중 
+### 4. 집중
 
 주의를 산만하게 만드는 많은 것이 있으며, 이것들은 우리의 귀중한 시간을 뺏어간다. 주의를 집중하는 것은 힘든 일이다.
 
 ## 다루지 않을 것
 
-이 큰 주제들은 모두 Google 인터뷰 코칭 노트에서 개인적인 to-do list로 시작되었다. 
-이 기술들은 널리 퍼져 있는 기술이지만, Google 인터뷰 코칭 노트에서 언급 되지 않았다: 
+이 큰 주제들은 모두 Google 인터뷰 코칭 노트에서 개인적인 to-do list로 시작되었다.
+이 기술들은 널리 퍼져 있는 기술이지만, Google 인터뷰 코칭 노트에서 언급 되지 않았다:
 
 - SQL
 - Javascript
@@ -578,7 +576,7 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## 알고리즘 복잡도 / Big-O / 점근적 분석
 - nothing to implement
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -641,7 +639,7 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
+- ### 링크드 리스트
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
@@ -674,12 +672,12 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
-- ### Stack
+- ### 스택
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] Will not implement. Implementing with array is trivial.
 
-- ### Queue
+- ### 큐
     - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
@@ -700,7 +698,7 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### Hash table
+- ### 해쉬 테이블
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -922,20 +920,20 @@ My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (
 
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
-## Graphs
+## 그래프
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+그래프는 컴퓨터 과학의 여러 문제들을 표현하는 데 사용할 수 있다. 때문에 이 섹션은 트리나 정렬 섹션처럼 길다.
 
-- Notes from Yegge:
-    - There are three basic ways to represent a graph in memory:
-        - objects and pointers
-        - matrix
-        - adjacency list
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none.
+- Yegge의 노트:
+    - 메모리에 그래프를 표시하는 세 가지 기본 방법이 있다:
+        - 오브젝트와 포인터
+        - 행렬
+        - 인접 리스트
+    - 각각의 표현과 장단점을 숙지하라.
+    - 넓이우선탐색(BFS)와 깊이우선탐색(DFS) - 계산상의 복잡성, 장단점, 실제 코드로 구현하는 방법을 알아야 한다.
+    - 질문을 받을 시 먼저 그래프 기반 솔루션을 찾고, 없을 경우에 다른 솔루션으로 넘어가라.
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Skiena의 강좌 - 훌륭한 인트로:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -943,7 +941,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [ ] 그래프 (검토, 그 외 여러가지):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -961,14 +959,14 @@ Graphs can be used to represent many problems in computer science, so this secti
 - Full Coursera Course:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- Yegge: If you get a chance, try to study up on fancier algorithms:
+- Yegge: 기회가 된다면, 더 멋진 알고리즘을 연구해 보라:
     - [ ] Dijkstra's algorithm - see above - 6.006
     - [ ] A*
         - [ ] [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
         - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
         - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- I'll implement:
+- 내가 구현할 것:
     - [ ] DFS with adjacency list (recursive)
     - [ ] DFS with adjacency list (iterative with stack)
     - [ ] DFS with adjacency matrix (recursive)
@@ -984,7 +982,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그래프 실습을 할 수 있다.
 
 ## Even More Knowledge
 
@@ -1180,24 +1178,24 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+- ### 테스팅
+    - 알아 두어야 할 것:
+        - 유닛 테스트는 어떻게 작동하는지
+        - mock object 는 무엇인지
+        - 통합 테스트는 무엇인지
+        - 의존성 주입은 무엇인지
+    - [ ] [James Bach과 함께하는 애자일 소프트웨어 테스트 (비디오)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [소프트웨어 테스트에 대한 James Bach의 무료 강의 (비디오)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - Test-Driven 개발 (이것은 우리가 의미하는 것은 아니다) (비디오)](https://vimeo.com/83960706)
+        - [참고자료](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    - [ ] [TDD는 끝났다. 오래 사는 테스팅.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+    - [ ] [TDD는 정말 끝났는가? (비디오)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] [비디오 시리즈 (152 개) - 다 볼 필요 없음 (비디오)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [파이턴과 함께하는 Test-Driven 웹 개발](http://www.obeythetestinggoat.com/pages/book.html#toc)
+    - [ ] 의존성 주입:
+        - [ ] [비디오](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+    - [ ] [테스트 어떻게 작성하는지](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Scheduling
     - in an OS, how it works
@@ -1347,14 +1345,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## Final Review
+## 최종 검토
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    이 섹션에는 중요한 개념들을 빠르게 검토할 수 있는 짧은 영상들이 포함되어 있다.
+    복습을 하고자 한다면, 이 영상들이 도움이 될 것이다.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
+- [ ] 2-3분 분량의 주제별 짧은 영상 시리즈 (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
+- [ ] 2-5분 분량의 주제별 짧은 영상 시리즈 - Michael Sambol (18 videos):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
     - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
@@ -1461,23 +1459,23 @@ Maybe:
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
 
-## Be thinking of for when the interview comes
+## 인터뷰가 다가오면 생각해보기
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+아래의 아이템들에 따른 너가 받을 20개의 인터뷰 질문에 대해 생각하라. 각각 2-3개의 대답을 준비해라.
+당신이 성취한 것에 대해 데이터 뿐만 아니라 스토리를 만들어라.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- 왜 이 직업을 원합니까?
+- 당신이 풀었던 문제중 힘들었던 문제는?
+- 큰 도전에 직면한 적은?
+- 최고의/최악의 디자인을 본적이 있는가?
+- 현존하는 구글 제품들에 대해 향상시킬수 있는 아이디어
+- 개인적으로 일할 때 가장 잘 일하는가? 아니면 팀원으로서 있을 때?
+- 어떤 기술과 경험들이 당신의 역할에서 자산이 되었으며 그 이유는?
+- 어떤 것이 가장 즐거웠는가 [job x / project y]?
+- 무엇이 가장 큰 도전이었는가 [job x / project y]?
+- 무엇이 가장 힘들었던 버그였는가? [job x / project y]?
+- 무엇을 배웠는가 [job x / project y]?
+- 무엇이 향상되었는가 [job x / project y]?
 
 ## Have questions for the interviewer
 
@@ -1512,7 +1510,7 @@ You're never really done.
     아래의 모든 것들은 선택 사항이다. 이 것들은 Google의 권장사항이 아니라, 나의 추천사항이다.
     당신은 이것들을 공부함으로써 더 많은 CS 개념들에 대해 알 수 있을 것이며, 소프트웨어 엔지니어링 직업을 준비하는 데에도 도움이 될 것
     이다. 더불어 당신은 훨씬 더 균형 잡힌 소프트웨어 엔지니어가 될 것이다.
-    
+
 
     *****************************************************************************************************
     *****************************************************************************************************
@@ -2050,7 +2048,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## 컴퓨터 공학 코스
 
-- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
-- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
+- [온라인 CS 코스의 경로](https://github.com/open-source-society/computer-science)
+- [CS 코스의 경로 (많은 온라인 강의가 포함되어 있는 경로)](https://github.com/prakhar1989/awesome-courses)

@@ -1,60 +1,61 @@
-# Google Interview University
+# Google Interview University - Uniwersytet przygotowujący do rozmowy kwalifikacyjnej w Google
 
->**I originally created this as a short to-do list of study topics, but it grew to the large list you see today. Working at 
-Google was the original motivator, hence the name. [I didn't get an interview at Google](https://googleyasheck.com/i-didnt-get-hired-heres-why/), 
-but the repo name lives on, and it would mess up a lot of folks to change it now. The items listed here will prepare you 
-for a career at just about any software company, including the giants: Amazon, Microsoft, Google, and Facebook.**
+Oryginał (angielski): https://github.com/jwasham/google-interview-university
+
+>**Pierwotnie, to była mała lista rzeczy do nauki, ale urosła ona do dużych rozmiarów, jak to można dzisiaj zobaczyć.
+Praca w Google była główną motywacją, stąd nazwa. [Nie dostałem się do Google'a](https://googleyasheck.com/i-didnt-get-hired-heres-why/),
+ale nazwa pozostanie taka sama, bo zmiana mogła by zmylić wielu z was. Zagadnienia zawarte tutaj, przygotują was do pracy w każdej firmie,
+wliczając w to gigantów: Amazon, Microsoft, Google i Facebook.**
 >
-> *Best of luck to you!*
+>*Powodzenia!*
 
-Translations:
+Tłumaczenia:
 - [中文版本](translations/README-cn.md)
-- translations in progress:
-    - [Español](https://github.com/jwasham/google-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
-    - [French](https://github.com/jwasham/google-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
-    - [Korean](https://github.com/jwasham/google-interview-university/issues/118)
-    - [Polish](https://github.com/jwasham/google-interview-university/issues/122)
+- Niekompletne tłumaczenia:
+	- [Español](https://github.com/jwasham/google-interview-university/issues/80)
+	- [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
+	- [עברית](https://github.com/jwasham/google-interview-university/issues/82)
+	- [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
+	- [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
+	- [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
+	- [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
+	- [French](https://github.com/jwasham/google-interview-university/issues/89)
+	- [Russian](https://github.com/jwasham/google-interview-university/issues/87)
+	- [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
+	- [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
+	- [Korean](https://github.com/jwasham/google-interview-university/issues/118)
+	- [Polish](https://github.com/jwasham/google-interview-university/issues/122)
 
-## What is it?
-
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+## Co to jest?
+Jest to mój wielomiesięczny program nauczania mający na celu awans z poziomu web developera (samouka, bez studiów informatycznych)
+do poziomu inżyniera oprogramowania w Google.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-You'll see a lot of Google-related items, but I've tried to generalize the list to make it useful for everyone.
+Znajdziesz tutaj wiele rzeczy związanych z Google, ale starałem się uogólnić tę listę, aby była przydatna dla każdego.
 
-This list was extracted and expanded from Google's coaching notes, so these are the things you need to know.
-There are extra items I added at the bottom that may come up in the interview or be helpful in solving a problem. Many items are from
-Steve Yegge's "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" and are reflected
-sometimes word-for-word in Google's coaching notes.
+Ta długa lista została napisana na podstawie porad i wskazówek Google'a, więc znajdziesz tu rzeczy, które musisz wiedzieć.
+Są tutaj też dodatkowe rzeczy, które dodałem na końcu, mogące pojawić się na rozmowie kwalifikacyjnej lub okazać się pomocne
+w rozwiązywaniu problemów. Wiele pozycji jest z "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" od Steva Yegge i czasem są też przepisane słowo w słowo z notek Google'a.
 
-I've pared down what you need to know from what Yegge recommends. I've altered Yegge's requirements 
-from information received from a contact at Google. This is meant for **new software engineers** or those switching from 
-software/web development to software engineering (where computer science knowledge is required). If you have 
-many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
-[Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Wybrałem to co musisz wiedzieć spośród rzeczy zalecanych przez Yegge'a. Poprawiłem także listę wymagań podanych przez niego
+na podstawie informacji, które otrzymałem od swojego kontaktu w Google. Projekt jest napisany z myślą o **początkujących inżynierach oprogramowania**
+lub tych, którzy przerzucają się z oprogramowania/web-devu na inżynierę oprogramowania, gdzie informatyka (computer science) jest potrzebna. Jeżeli masz wiele lat doświadczenia, spodziewaj się trudniejszej rozmowy kwalifikacyjnej.
+[Przeczytaj więcej tutaj (EN)](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon, 
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+Weź pod uwagę fakt, iz Google traktuje oprogramowanie/web-dev inaczej niż inżynierę oprogramowania
+i wymagają szczegołowej wiedzy z zarkesu informatyki.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Jeśli chcesz być inżynierem ds. niezawodności i bezpieczeństwa lub systemów, ucz się
+więcej z dodatkowej listy (sieć, bezpieczeństwo).
 
 ---
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
+- [Co to jest?](#co-to-jest)
+- [Dlaczego?](#dlaczego)
+- [Jak używać?](#jak-używać)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
@@ -86,8 +87,7 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - heapsort
     - quicksort
     - merge sort
-- [
-](#graphs)
+- [Graphs](#graphs)
     - directed
     - undirected
     - adjacency matrix
@@ -170,27 +170,25 @@ If you want to be a reliability engineer or systems engineer, study more from th
 
 ---
 
-## Why use it?
+## Dlaczego?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Kiedy zaczynałem ten projekt, nie odróżniałem stacka od heapu, nie wiedziałem o żadnej notacji "duże O", nic o drzewkach,
+ani jak przeszukiwać graf. Gdybym miał napisać algorym sortujący, mówię Ci, byłby zły. Każda struktura danych, którą używałem
+była wpudowana w język, kompletnie nie wiedziałem jak działają. Nigdy nie musiałem zarządzać pamięcią, dopóki proces nie wyrzucił
+błędu o "braku pamięci". Używałem kilku wielowymiarowych tablic i tysięcy tablic asocjacyjnych w swoim życiu, ale nigdy
+nie stworzyłem struktury od podstaw.
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+To długi plan. Może zająć Ci nawet kilka miesięcy. Jeśli jednak jesteś zaznajomiony z tymi rzeczami, zajmie Ci to o wiele mniej czasu.
 
-## How to use it
+## Jak używać?
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Wszystko co znajdziesz poniżej jest planem, powinieneś zaznaczać wpisy od góry do dołu.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Używam specjalniej, GitHubowej odmiany markdowna.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Stwórz nową gałąź (branch), abyś mógł zaznaczać element stawiając x w nawiasie, tj. [x]**
 
-
-    Fork a branch and follow the commands below
+	Zforkuj galąź i wpisz poniższe polecenia
 
 `git checkout -b progress`
 
@@ -198,7 +196,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+	Zaznacz wszystkie pola X-em kiedy skończysz.
 
 `git add . `
 
@@ -208,7 +206,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Więcej o markdownie na GitHubie](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Don't feel you aren't smart enough
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
@@ -299,7 +297,7 @@ If short on time:
         - Chapter 7 - Composite Data Types and Memory Objects
         - Chapter 9 - CPU Architecture
         - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization 
+        - Chapter 11 - Memory Architecture and Organization
 
 If you have more time (I want this book):
 
@@ -310,7 +308,7 @@ If you have more time (I want this book):
 
 **You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
+If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
@@ -319,7 +317,7 @@ If you read though one of these, you should have all the data structures and alg
 
 I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) 
+- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
@@ -391,7 +389,7 @@ OR:
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
+    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
@@ -420,7 +418,7 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
 Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
@@ -429,7 +427,7 @@ Keep in mind I went overboard and have cards covering everything from assembly l
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
 your brain.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
+An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
 It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
@@ -488,9 +486,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
+        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms) 
+        - [answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **How computers process a program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
@@ -1136,15 +1134,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-    
+
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 ---
 
 ## System Design, Scalability, Data Handling
 - **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since 
-      there is a lot to consider when designing a software/hardware system that can scale. 
+- Scalability and System Design are very large topics with many topics and resources, since
+      there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this.
 - Considerations from Yegge:
     - scalability
@@ -1978,4 +1976,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

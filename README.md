@@ -24,6 +24,7 @@ Translations:
     - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
     - [German](https://github.com/jwasham/coding-interview-university/issues/135)
     - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
+    - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 
 ## What is it?
 

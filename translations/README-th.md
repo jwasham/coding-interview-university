@@ -1,13 +1,13 @@
-# Coding Interview University
+# Coding Interview University # หมาวิทยาลัยเพื่อการสัมภาษณ์งานเขียนโปรแกรม #
 
->**I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. 
-The items listed here will prepare you well for in an interview at just about any software company, including the giants: Amazon, Facebook, Google or Microsoft.**
+>**ดั้งเดิมผมสร้างเพื่อเป็นรายการที่ต้องทำสำหรับหัวข้อที่ต้องศึกษาเพื่อที่จะเป็นวิศวกรรมซอฟต์แวร์ แต่ว่ามันเติบโตขึ้นอย่างมาและมีหัวข้อต่างๆ มากมายอย่าบที่คุณเห็นอยู่ทุกวันนี้
+หัวข้อต่างๆ นี้จะเป็นสิ่งที่ให้คุณเตรียมตัวสำหรับสัมภาษณ์งานสำหรับบริษัทซอฟต์แวร์รวมทั้งบริษัทซอฟต์แวร์ขนาดใหญ่ของโลกอย่างเช่น Amazon Facebook Google หรือ Microsoft **
 >
-> *Best of luck to you!*
+> *ขอให้คุณโชคดี!*
 
-Translations:
+การแปลภาษา:
 - [中文版本](translations/README-cn.md)
-- translations in progress:
+- กำลังดำเนินการแปลภาษา:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
     - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
@@ -24,6 +24,7 @@ Translations:
     - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
     - [German](https://github.com/jwasham/coding-interview-university/issues/135)
     - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
+    - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 
 ## นี่คืออะไร ?
 

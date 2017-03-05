@@ -107,7 +107,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 
 ---------------- Everything below this point is optional ----------------
 
-- [Additional Books](#additional-books)
+- [Sách bổ sung](#sách-bổ-sung)
 - [Additional Learning](#additional-learning)
     - [Dynamic Programming](#dynamic-programming)
     - [Compilers](#compilers)
@@ -1472,5 +1472,23 @@ Bạn không bao giờ thực sự học xong!
 
     *****************************************************************************************************
     *****************************************************************************************************
+
+---
+
+## Sách bổ sung
+
+- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+    - cũ nhưng mà tốt
+- [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
+    - một sự lựa chọn hiện đại hơn
+- [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
+- [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
+    - dẫn nhập nhẹ nhàng về các mẫu thiết kế.
+- [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+    - còn được gọi là "Sách của bộ tứ" (Gang Of Four, hoặc GOF)
+    - quyển sách cổ diển về mẫu thiết kế.
+- [ ] [Site Reliability Engineering](https://landing.google.com/sre/book.html)
+    - [Site Reliability Engineering: Google chạy các hệ thống của họ như thế nào](https://landing.google.com/sre/)
+- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
 > In progress

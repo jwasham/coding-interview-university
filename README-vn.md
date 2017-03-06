@@ -108,23 +108,23 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 ---------------- Everything below this point is optional ----------------
 
 - [Sách bổ sung](#sách-bổ-sung)
-- [Additional Learning](#additional-learning)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Compilers](#compilers)
-    - [Floating Point Numbers](#floating-point-numbers)
+- [Học thêm](#học-thêm)
+    - [Quy hoạch động](#quy-hoạch-động)
+    - [Trình biên dịch](#trình-biên-dịch)
+    - [Cách biểu diễn số thực](#cách-biểu-diễn-số-thực)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
+    - [Emacs và vi(m)](#emacs-và-vim)
+    - [Các công cụ chạy trên dòng lệnh của Unix](#các-công-cụ-chạy-trên-dòng-lệnh-của-Unix)
+    - [Lý thuyết thông tin](#lý-thuyết-thông-tin)
     - [Parity & Hamming Code](#parity--hamming-code)
     - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
+    - [Mã hóa](#mã-hóa)
+    - [Thuật toán nén](#thuật-toán-nén)
+    - [Mạng máy tính](#mạng-máy-tính) (if you have networking experience or want to be a systems engineer, expect questions)
+    - [Bảo mật](#bảo-mật)
+    - [Trình dọn rác](#trình-dọn-rác)
+    - [Lập trình song song](#lập-trình-song-song)
     - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
@@ -154,8 +154,8 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [Machine Learning](#machine-learning)
     - [Go](#go)
 - [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Các chuỗi Video](#các-chuỗi-video)
+- [Các khóa học khoa học máy tính](#các-khóa học-khoa-học-máy-tính)
 
 ---
 
@@ -1491,4 +1491,529 @@ Bạn không bao giờ thực sự học xong!
     - [Site Reliability Engineering: Google chạy các hệ thống của họ như thế nào](https://landing.google.com/sre/)
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-> In progress
+## Học thêm
+
+>  Tiêu đề của các video, các thuật ngữ cao cấp xin được giữ nguyên. Một số thuật ngữ có thể dịch được, nhưng người dịch không đử vốn từ đề diễn đạt chúng một cách ngắn gọn như trong tiêng Anh, nên cũng xin phép chỏ qua.
+
+- ### Quy hoạch động
+    - Chủ đề này có thể hơi khó, và các bài toán giải được bằng quy hoạch động (Dynamic Programming - DP) phải được định nghĩa ở dạng quan hệ hồi quy, và tìm ra giải pháp quy hoạch động cũng không đơn giản.
+    - Tôi nghĩ rằng nên xem qua nhiều bài toán mẫu vè quy hoạch động cho đến khí bạn hiểu rõ các dạng mô hình của chúng.
+
+
+    - [ ] Video:
+        - Video của giáo sư Skiena có thể hơi khó theo kịp vì ông ấy sử dụng bảng đen để giảng bài, và chữ hơi nhỏ
+        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+        - [ ] List of individual DP problems (each is short):
+            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+    - [ ] Ghi chú cho các bài giảng của đại học Yale:
+        - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+    - [ ] Coursera:
+        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
+        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+
+- ### Trình biên dịch
+    - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
+    - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+    - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
+    - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+
+- ### Cách biểu diễn số thực
+    - [ ] Dạng 8-bit đơn giản: [Representation of Floating Point Numbers - 1 (video - có một lỗi nhỏ trong phần tính toán, xem thêm ở bên dưới video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+
+- ### Unicode
+    - [ ] [Điểu tối thiểu nhất mà mọi lập trình viên bắt buộc phải biết về Unicode và các tập ký tự.]( http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] [Điều mà mọi lập trình viên nên biết về mã hóa ký tự và tập ký tự để làm việc với vắn bản](http://kunststube.net/encoding/)
+
+- ### Endianness
+
+    > Endianness: thứ tự phiên dịch các byte của một chuỗi byte trong bộ nhớ máy tính sang dạng số (4 byte với `int` hoặc 8 byte với `double`). Ví dụ như với 2 byte `0x00` và `0x01` lưu trên bộ nhớ, đọc theo Big-Endian ta được số 1 (0x00001. Đọc theo Little-Endia ta được 256 (0x100). Xem thêm ở các đường link bên duới.
+
+    - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] [Big Endian Vs Lxittle Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        - Rất nặng về mặt kỹ thuật, dành cho các lập trình viên làm việc với nhân Linux (kernels).
+        - Đừng quá bận tâm nếu phần lớn video vượt quá khả năng của bạn. Chỉ cần đoạn nửa đầu video là đủ.
+
+- ### Emacs và vi(m)
+    - Được đề xuất bởi Yegge, từ một bài đăng tuyển dụng cũ của Amazon: Phải nắm vững một trình chỉnh sửa văn bản thông dụng trên Unix.
+    - vi(m):
+        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [VIM Adventures](http://vim-adventures.com/)
+        - 4 video:
+            - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
+            - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
+            - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
+            - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
+        - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
+    - emacs:
+        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
+        - 3 video:
+            - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
+            - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
+            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
+        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
+        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
+
+- ### Các công cụ chạy trên dòng lệnh của Unix
+    - Được đề xuất bởi Yegge, từ một bài đăng tuyển dụng cũ của Amazon.
+    - [ ] bash
+    - [ ] cat
+    - [ ] grep
+    - [ ] sed
+    - [ ] awk
+    - [ ] curl or wget
+    - [ ] sort
+    - [ ] tr
+    - [ ] uniq
+    - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
+    - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
+
+- ### Lý thuyết thông tin
+    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
+    - [ ] Hiểu thêm về chuỗi Markov:
+        - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
+        - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
+        - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+    - Xem thêm ở chuỗi bài từ đại học MIT 6.050J Information và Entropy bên dưới.
+
+- ### Parity & Hamming Code (videos)
+    - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - [ ] Hamming Code:
+        - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
+        - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
+    - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+
+- ### Entropy
+    - Xem các video bên dưới.
+    - Hãy chăc chắn đã xem qua các video đề lý thuyết thông tin trước.
+    - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
+
+- ### Mã hóa
+    - Hãy chăc chắn đã xem qua các video đề lý thuyết thông tin trước.
+    - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
+    - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+    - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+- ### Thuật toán nén
+    - Hãy chăc chắn đã xem qua các video đề lý thuyết thông tin trước.
+    - [ ] Computerphile (videos):
+        - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
+        - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
+        - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
+        - [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+    - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
+
+- ### Mạng máy tính
+    - **Nếu bạn có kinh nghiệm với mạng máy tính hoặc muốn trở thành một kỹ sư hệ thống, sẽ có các câu hỏi về chúng**
+    - còn nếu không, biết thêm cũng tốt
+    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
+    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
+    - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+    - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+
+- ### Bảo mật
+    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+        - [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+        - [ ] [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
+        - [ ] [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+
+- ### Trình dọn rác
+    > Trình dọn rác (garbage collection) là một tính năng của các ngôn ngữ lập trình cấp cao, trong đó hệ thông tự động thu hồi vùng nhớ của các data (biến, đối tượng) không còn được sử dụng nữa, và cấp phát chúng cho các data mới. Trước khi có tính năng này, lập trình viên phải quản lý vùng nhớ thủ công, tự xin cấp phát và tự giải phóng.
+    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
+    - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
+    - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
+    - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+
+- ### Lập trình song song
+    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+    - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+
+- ### Messaging, Serialization, và Queueing Systems
+    - [ ] [Thrift](https://thrift.apache.org/)
+        - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+    - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
+        - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+    - [ ] [gRPC](http://www.grpc.io/)
+        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+    - [ ] [Redis](http://redis.io/)
+        - [Tutorial](http://try.redis.io/)
+    - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+    - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
+    - [ ] [RabbitMQ](https://www.rabbitmq.com/)
+        - [Get Started](https://www.rabbitmq.com/getstarted.html)
+    - [ ] [Celery](http://www.celeryproject.org/)
+        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+    - [ ] [ZeroMQ](http://zeromq.org/)
+        - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+    - [ ] [ActiveMQ](http://activemq.apache.org/)
+    - [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
+    - [ ] [MessagePack](http://msgpack.org/index.html)
+    - [ ] [Avro](https://avro.apache.org/)
+
+- ### Fast Fourier Transform
+    - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+
+- ### Bloom Filter
+    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+    - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
+    - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
+
+- ### HyperLogLog
+    - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
+
+- ### Locality-Sensitive Hashing
+    - Được sử dụng để kiểm tra tính tương đồng của các tài liệu.
+    - Trái ngược lại với MD5 và SHA, chúng vốn được dùng để xác định chăc chắn rằng 2 tài liệu hoàn toàn trùng khớp với nhau.
+    - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
+
+- ### van Emde Boas Trees
+    - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+
+- ### Augmented Data Structures
+    - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
+
+- ### Tries
+    > Tries: cấu trúc dữ liệu dạng cây cho phép _chèn_ và _tìm kiếm_ một chuỗi con nhanh (`O(L)`) và một vài lợi thế khác, thích hợp cho một số dạng toán xử lý chuỗi.
+    - Chú ý rằng có những loại _trie_ khác nhau. Một vài có tiền tố (prefix), một vài loại thì không, và một số thì sử dụng chuỗi thay vì bit để lưu trử các con đường (từ gốc đến lá).
+    - [ ] [Sedgewick - Tries (3 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] [1. R Way Tries](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
+    - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+    - [ ] Short course videos:
+        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+    - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+
+- ### Balanced search trees
+    - Biết ít nhất một dạng cây nhị phân tìm kiếm cân bằng (và biết cách cài đặt nó)
+    - "Trong các loại cây nhị phân cân bằng, cây AVL và 2/3 đã "ra đi", và cây đỏ-đen (red-black) có vẻ khá phỏ biến. Một dạng cây tự quản khá thú vị là _splay tree_, sử dụng phép xoay nút để chuyển bất kỳ nút nào lên trên gốc" - Skiena
+    - Do đó, tôi quyết định cài đặt splay tree. Từ những gì tôi đọc được, bạn không cần phải cài đặt một cây nhị phân trong cuộc phỏng vấn. Nhưng tôi muốn chắc chắn về kiến thức của mình, và cũng phải đối diện với sự thật rằng splay tree khá khó.
+        - splay tree: insert, search, delete functions
+        - Nếu bạn muốn cài đặt cây đỏ-đen thì có thể thử sức các phép toán này: search and insertion functions, skipping delete
+    - Tôi muốn học nhiều hơn về B-Tree, bởi vì nó được sử dụng rộng rãi với các tập dữ liệu rất lớn.
+    - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+
+    - [ ] **AVL trees**
+        - Trong thực tế:
+            Từ những gì mà tôi đọc được, chúng không được sử dụng nhiều, nhưng tôi có thể nghĩ đến vài ứng dụng: cây AVL hỗ trợ O(log n) cho tìm kiếm, chèn và xóa nút. Nó được cân bằng một cách chặt chẽ hơn so với cây đỏ-đen, dẫn đến việc chèn và xóa chậm hơn, nhưng tìm kiếm sẽ nhanh hơn. Điều đó khiến nó thích hơp với các bộ dữ liệu được xây dựng một lần và tái sử dụng nhiều lần, ví dụ như từ diển trong ngôn ngữ thông thường (hoặc các bộ từ vựng trong lập trình, biên dịch)
+        - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+
+    - [ ] **Splay trees**
+        - Trong thực tế:
+            Splay tree được sử dụng để cài đặt cache, bộ cấp phát bộ nhớ, định tuyến, bộ dọn rác, trình nén dữ liệu, ropes (thay thế hoặc đại diện cho một chuỗi lớn), trong Windows NT (bộ nhớ ảo, mạng và hệ thống file.)
+        - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+        - [ ] MIT Lecture: Splay Trees:
+            - Gets very mathy, but watch the last 10 minutes for sure.
+            - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
+
+    - [ ] **Red/black trees**
+        - Đây là một biến thể của cây 2/3 tree (xem bên dưới)
+        - Trong thực tế:
+            Cây Đỏ-đen đảm bảo tốc độ thực thi ok trong trường hợp xấu nhất cho các phép toán: chèn, xóa, tìm kiếm. Điều đó không chỉ khiến nó có giá trị trong các ứng dụng thời gian thực, mà còn là phần cơ bản đề xây dựng nhiều dạng cấu trúc dữ liệu nâng cao, ví dụ như, trong tính toán địa lý, nhiều cấu trúc dữ liệu được xây dựng dựa trên cây đỏ-đen, thuật toán Lập lịch tuyệt đối công bằng (Completely Fair Scheduler) sử dụng trong nhân Linux cũng dùng cây đỏ-đen. Trên Java 8, HashMap cũng được điều chỉnh lại, thay vi dùng LinkedList để chứa các phần tử giống nhau (trùng hashcode), nguời ta dùng một cây đỏ-đen.
+        - [ ] [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+        - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
+        - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+
+    - [ ] **2-3 search trees**
+        - Trong thực tế:
+            cây 2-3 chèn nhanh hơn, nhưng tìm kiêm chậm hơn (chiều cao của cây cao hơn so với AVL)
+        - Bạn sẽ hiếm khi sử dụng cây 2-3, vì cài đặt của chúng sử dụng các dạng nút khác nhau. Vì vậy, người ta dùng cây đỏ-đen nhiều hơn.
+        - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+        - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+    - [ ] **2-3-4 Trees (aka 2-4 trees)**
+        - Trong thực tế:
+            Với mỗi cây 2-4, có nhiều cây đỏ-đen tương ứng với cùng thứ tự nút. Phép chèn và xóa trên cây 2-4 cũng tương đương với phép đổi màu và xoay trên cây đỏ-đen. Nó khiến cho cây 2-4 trở thành một công cụ hiệu quả để hiểu được logic phía sau cây đỏ-đen, và đó là tại sao nhiều sách dẫn nhập thuật toán lại giới thiệu cây 2-4 trước cây đỏ-đen. **cây 2-4 không thường được dùng trong thực tế**
+        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
+        - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+
+    - [ ] **N-ary (K-ary, M-ary) trees**
+        - chú ý: N hay K chính là yếu tố cho phân nhánh (số nhánh tối đa)
+        - Cây nhị phân là 2-ary, trong đó, số nhánh tối đa (branching factor) là 2
+        - Cây 2-3 là 3-ary
+        - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+
+    - [ ] **B-Trees**
+        - fun fact: điều đó vẫn còn là một bí ẩn, nhưng B ở đây có thể là Boeing, Balanced (được cân bằng) hoặc Bayer (người đồng sáng tạo)
+        - Trong thực tế:
+            B-tree được sử dụng rộng rãi trong các cơ sở dữ liệu. Hầu hết các hệ thống file sử dụng B-tree (hoặc biến thể của nó). Thêm vào đó, loại cấu trúc cho phép truy cập ngẫu nhiên nhanh chóng vào một file bất kỳ. Vấn đề còn lại là điều chỉnh địa chỉ khổi vùng nhớ của file thành địa chỉ vật lý của ổ đĩa (hoặc địa chỉ _cylinder-head-sector_).
+            (or perhaps to a cylinder-head-sector) address.
+        - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
+        - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+        - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+                - giải thích cache mau quên (cache-oblivious) B-Trees, một cấu trúc dữ liệu rất thú vị.
+                - 37 phút đầu tiên rất nặng kỹ thuật, có thể bỏ qua
+
+
+- ### k-D Trees
+    - Tốt đề tìm số điểm nằm trong một hình chữ nhật hoặc một đối tượng đa chiều.
+    - Rất thích hợp cho thuật toán tìm láng giềng gần nhất (k-nearest neighbors, một thuật toán trong khai thác dữ liệu)
+    - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
+    - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+
+- ### Skip lists
+    - "Đó là một dạng cấu trúc dữ liệu được sùng bái" - Skiena
+    - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
+
+- ### Network Flows
+    - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+
+- ### Disjoint Sets & Union Find
+    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
+    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
+
+- ### Math for Fast Processing
+    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+
+- ### Treap
+    - Sự kết hợp giữa cây nhị phân và heap.
+    - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
+    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
+
+- ### Linear Programming (videos)
+    - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
+    - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
+    - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
+    - [ ] [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
+
+- ### Geometry, Convex hull (videos)
+    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
+    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+
+- ### Discrete math
+    - Xem các video bên dưới
+
+- ### Machine Learning
+    - [ ] Tại sao nên học ML?
+        - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
+        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
+        - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
+    - [ ] [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+    - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [ ] [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - Các khóa học:
+        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
+              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+        - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
+        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
+        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
+        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
+    - Tài nguyên:
+        - Sách:
+            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
+            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
+            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
+        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+        - Data School: http://www.dataschool.io/
+
+- ### Go
+    - [ ] Video:
+        - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
+        - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
+        - [ ] [A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
+    - [ ] Sách:
+        - [ ] [An Introduction to Programming in Go (read free online)](https://www.golang-book.com/books/intro)
+        - [ ] [The Go Programming Language (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
+    - [ ] [Bootcamp](https://www.golang-book.com/guides/bootcamp)
+
+--
+
+## Đọc thêm về một số đề tài
+
+    Tôi thêm những phần này để cường hóa các kiến thức đã được trình bày ở trên, nhưng không muốn đưa chúng vào danh sách trên, vì đã quá nhiều rồi. Cũng có hơi vượt mức cần thiết. Nhưng dù sao, bạn muốn trúng tuyển mà phải không?
+
+- [ ] **Union-Find**
+    - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
+    - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
+    - [ ] [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
+    - [ ] [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
+    - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
+    - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+
+- [ ] **Đi sâu hơn vào quy hoạch động** (videos)
+    - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
+    - [ ] [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+    - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+    - [ ] [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
+    - [ ] [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
+
+- [ ] **Xử lý đồ thị nâng cao** (videos)
+    - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
+    - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
+
+- [ ] MIT **Xác suất** (nặng toán học, và hãy đi chậm châm, sẽ tốt cho các vấn đề toán học khác) (videos):
+    - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Random Variables](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
+    - [ ] [MIT 6.042J - Expectation I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Expectation II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
+
+- [ ] [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+
+- [ ] **So khớp chuỗi**
+    - [ ] Rabin-Karp (videos):
+        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
+        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
+        - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
+    - [ ] Knuth-Morris-Pratt (KMP):
+        - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
+    - [ ] Boyer–Moore string search algorithm
+        - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
+        - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
+    - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
+        - Khởi đầu khá tốt. Nhưng theo thời gian, khóa học đi qua thuật toán KMP, và trở nên phức tạp hơn mức cần thiết.
+        - Trình bày về trie rất hay.
+        - Có thể bỏ qua.
+
+- [ ] **Sắp xếp**
+
+    - [ ] Bài giảng của Stanford về sắp xếp:
+        - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
+        - [ ] [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
+    - [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):
+        - [ ] [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
+        - [ ] [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+    - [ ] Steven Skiena lectures on sorting:
+        - [ ] [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+        - [ ] [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
+
+## Các chuỗi Video
+
+Hãy ngồi xuống và thưởng thức. "Luyện kỹ năng với Netflix" :P
+
+- [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+
+- [ ] [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
+
+- [ ] [MIT 18.06 Linear Algebra, Spring 2005 (35 videos)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+
+- [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
+
+- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
+
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+
+- [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
+
+- [ ] CSE373 - Analysis of Algorithms (25 videos)
+    - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
+
+- [ ] [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+
+- [ ] [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C)
+
+- [ ] [UC Berkeley 61C: Machine Structures (26 videos)](https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
+
+- [ ] [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+
+- [ ] [UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)
+
+- [ ] [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+
+- [ ] [Carnegie Mellon - Computer Architecture Lectures (39 videos)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
+
+- [ ] [MIT 6.006: Intro to Algorithms (47 videos)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
+
+- [ ] [MIT 6.033: Computer System Engineering (22 videos)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
+
+- [ ] [MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
+
+- [ ] [MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
+
+- [ ] [MIT 6.046: Design and Analysis of Algorithms (34 videos)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+- [ ] [MIT 6.050J: Information and Entropy, Spring 2008 (19 videos)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
+
+- [ ] [MIT 6.851: Advanced Data Structures (22 videos)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+
+- [ ] [MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+
+- [ ] [Harvard COMPSCI 224: Advanced Algorithms (25 videos)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+
+- [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+
+- [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
+    - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
+
+- [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
+
+- [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
+
+## Các khóa học khoa học máy tính
+
+- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
+- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)

@@ -1,98 +1,110 @@
+# Google Interview University
 
-## על מה מדובר כאן?
-זוהי התוכנית הפעולה אותה הגיתי על מנת להפוך בהצלחה ממפתח אתרים, ללא תואר במדעי המחשב, למהנדס תוכנה בחברת גוגל.   
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+Original: [англійською](README.md)
 
-רשימת המשימות הארוכה המצורפת להלן, הוצאה מקובץ האימון האישי אותו מפרסמת גוגל לעזור למועמדים פוטנציאליים **Google's coaching notes**. לפני שאתם מתחילים במשימה ישנם מספר דברים שעליכם לדעת. 
-ישנם מספר דברים בתחתית הרשימה שמעוד יועילו בהכנה לראיון עצמו לאחר שצלחתם את חומר הלימוד, 
-על מנת לפתור את הבעיות המוצגות בראיון ביעילות.
+## Що це?
 
-חלק גדול מהתכנים לקוחים מהאתר המצויין של סטיב יגיי: המשרה הזו בגוגל? שלך!
-"[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"
+Це мій багатомісячний навчальний план для перетворення з веб-розробника (самоучки без ступеню з CS)
+на розробника програмного забезпечення у Google.
 
-ערכתי וקיצרתי עבורכם את מה שלדעתי נדרש עבור מהנדס תוכנה מתחיל עם מעט ניסיון מתוך המקורות הנ"ל.
-עבור אלו מכם הרוצים הסבת מקצוע מפיתוח אתרים או פיתוח תוכנה בתפקידים כאלו ואחרים שאינם הנדסת תוכנה.
-עבור אלו מכם בעלי הניסיון כמהנדסי תוכנה, בייחוד אם ישנן שנות ניסיון רבות כמהנדס תוכנה בתחום, המשימות הנ"ל עלולות להיות קלות מדי והציפיות מהם בראיון לגוגל יהיו הרבה יותר גבוהות. 
-במידה ואתם בעלי מספר שנות ניסיון כמפתחים, גוגל רואה בהנדסת תוכנה משהו שונה מתכנות נטו ולכן הדרישות הן שונות ודבוהות יותר.
-עבור מהנדסי המערכת ומהנדסי האמינות שביניכם, השקיעו יותר בחומר המופיע ב"רשימת הרשות" זוהי רשימת משימות המכילה נושאי רשות עבור מהנדס תוכנה.  
+![Програмування у дошки — з серіалу «Silicon Valley» HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+
+Цей довгий список був видобутий і розширений з **тренувальних нотаток Google**, отже це речі, які ви повинні знати.
+Тут є додаткові пункти, які я додав знизу — вони можуть зустрітися в інтерв’ю або бути корисними у вирішенні завдань.
+Багато пунктів взято з «[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)» Steve Yegge,
+вони іноді дослівно відображаються в тренувальних нотатках Google.
+
+Я обрав, що вам потрібно знати, базуючись на рекомендаціях Yegge. Я вніс зміни до вимог Yegge на основі інформації,
+отриманої від мого контакту у Google. Це призначено для **нових розробників програмного забезпечення** або тих,
+що переходять з веб-розробки на розробку програмного забезпечення (де потрібне знання CS). Якщо у вас багаторічний
+досвід, і ви заявляєте про багаторічний досвід розробки програмного забезпечення, очікуйте на більш жорстке інтерв’ю.
+[Прочитайте більше](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+
+Якщо у вас багато років досвіду веб-розробки, майте на увазі, що Google відрізняє розробку програмного забезпечення
+від веб-розробки, і вони потребують знання Computer Science.
+
+Якщо ви хочете бути інженером з надійності або системним інженером, вчіть більше за опціональним списком (мережі,
+безпека).
+
 ---
-## תוכן העניינים Table of Contents
 
-- [על מה מדובר כאן?](#what-is-it)
-- [למה להשתמש בזה?](#why-use-it)
-- [איך להשתמש בזה?](#how-to-use-it)
-- [כנסו לאווירת גוגל](#get-in-a-googley-mood)
-- [אז מה, בסוף התחלתי לעבוד בגוגל?](#did-i-get-the-job)
-- [אחרי!!](#follow-along-with-me)
-- [אל תרגישו שאתם לא חכמים מספיק, אתם כן](#dont-feel-you-arent-smart-enough)
-- [הכל אודות גוגל](#about-google)
-- [חומרים ומקורות בוידאו](#about-video-resources)
-- [תהליך הראיון והכנה כללית לראיון](#interview-process--general-interview-prep)
-- [תבחרו שפה אחת בה תתראיינו](#pick-one-language-for-the-interview)
-- [רשימת ספרות ומקורות מידע](#book-list)
-- [לפני שאתם מתחילים](#before-you-get-started)
-- [על מה לא תקראו כאן?](#what-you-wont-see-covered)
-- [דרישות קדם](#prerequisite-knowledge)
-- [התוכנית היומית](#the-daily-plan)
-- [סיבוכיות אלגוריתמים/ BIG O/ אנליזת אלגוריתמים](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [מבני נתונים](#data-structures)
-    - [מערכים](#arrays)
-    - [רשימות מקושרות](#linked-lists)
-    - [מחסנית](#stack)
-    - [תור](#queue)
-    - [טבלאות גיבוב נתונים](#hash-table)
-- [למידע נוסף](#more-knowledge)
-    - [חיפוש בינארי](#binary-search)
-    - [פעולות על סיביות](#bitwise-operations)
-- [עצים](#trees)
-    - [רקע על עצים](#trees---notes--background)
-    - [עצי חיפוש בינארי BSTs](#binary-search-trees-bsts)
-    - [ערימה בינארית למימוש תור עדיפויות / תור קדימויות/ ערימה בינארי](#heap--priority-queue--binary-heap)
-    - איזון עצי חיפוש בינארי כללי
-    - חיפוש לעומק, חיפוש לרוחב, אלגוריתם שיבוץ וסידור, (BFS, DFS)
-- [מיון](#sorting)
-    - בחירה
-    - הכנסה
-    - מיון ערימה
-    - מיון מהיר
-    - מיון מיזוג
-- [גרפים - תרשימים](#graphs)
-    - מוכווניםdirected
-    - לא מוכווניםundirected
-    - מטריצה adjacency matrix
-    - רשימה adjacency list
-    - חיפוש לעומק וחיפוש לרוחב (BFS, DFS)
-- [מידע נוסף](#even-more-knowledge)
-    - [רקורסיה](#recursion)
-    - [תכנות מונחה עצמים](#object-oriented-programming)
-    - [תבניות עיצוב](#design-patterns)
-    - [קומבינטוריקה (n בוחר K) והסתברות](#combinatorics-n-choose-k--probability)
-    - [NP, NP-אלגוריתמי קירוב](#np-np-complete-and-approximation-algorithms)
-    - [זיכרון וירטואלי - קאש](#caches)
-    - [תהליכים ומקבצי מסרים ](#processes-and-threads)
-    - [מאמרים](#papers)
-    - [ בדיקות תוכנה](#testing)
-    - [שיבוץ](#scheduling)
-    - [יישום Implement system routines](#implement-system-routines)
-    - [חיפוש ופעולות על מחרוזות](#string-searching--manipulations)
-- [  סילומיות (סקאלביליות),עיצוב מערכות, עיבוד נתונים ](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [חזרה גנרלית](#final-review)
-- [שאלות קוד לדוגמה](#coding-question-practice)
-- [שאלות אתגר](#coding-exerciseschallenges)
-- [מה עושים סמוך לראיון הגדול?](#once-youre-closer-to-the-interview)
-- [קורות חיים](#your-resume)
-- [דברים לחשוב עליהם לכשיגיע יום הראיון](#be-thinking-of-for-when-the-interview-comes)
-- [שאלות למראיין](#have-questions-for-the-interviewer)
-- [היום שאחרי](#once-youve-got-the-job)
+## Table of Contents
 
----------------- מתחת לקו זה נמצא חומר הרשות שמומלץ לרקע כללי או למהנדסי מערכת ותפקידים נוספים ----------------
+- [What is it?](#what-is-it)
+- [Why use it?](#why-use-it)
+- [How to use it](#how-to-use-it)
+- [Get in a Googley Mood](#get-in-a-googley-mood)
+- [Did I Get the Job?](#did-i-get-the-job)
+- [Follow Along with Me](#follow-along-with-me)
+- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [About Google](#about-google)
+- [About Video Resources](#about-video-resources)
+- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+- [Book List](#book-list)
+- [Before you Get Started](#before-you-get-started)
+- [What you Won't See Covered](#what-you-wont-see-covered)
+- [Prerequisite Knowledge](#prerequisite-knowledge)
+- [The Daily Plan](#the-daily-plan)
+- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Data Structures](#data-structures)
+    - [Arrays](#arrays)
+    - [Linked Lists](#linked-lists)
+    - [Stack](#stack)
+    - [Queue](#queue)
+    - [Hash table](#hash-table)
+- [More Knowledge](#more-knowledge)
+    - [Binary search](#binary-search)
+    - [Bitwise operations](#bitwise-operations)
+- [Trees](#trees)
+    - [Trees - Notes & Background](#trees---notes--background)
+    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - balanced search trees (general concept, not details)
+    - traversals: preorder, inorder, postorder, BFS, DFS
+- [Sorting](#sorting)
+    - selection
+    - insertion
+    - heapsort
+    - quicksort
+    - merge sort
+- [Graphs](#graphs)
+    - directed
+    - undirected
+    - adjacency matrix
+    - adjacency list
+    - traversals: BFS, DFS
+- [Even More Knowledge](#even-more-knowledge)
+    - [Recursion](#recursion)
+    - [Object-Oriented Programming](#object-oriented-programming)
+    - [Design Patterns](#design-patterns)
+    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+    - [Caches](#caches)
+    - [Processes and Threads](#processes-and-threads)
+    - [Papers](#papers)
+    - [Testing](#testing)
+    - [Scheduling](#scheduling)
+    - [Implement system routines](#implement-system-routines)
+    - [String searching & manipulations](#string-searching--manipulations)
+- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
+- [Final Review](#final-review)
+- [Coding Question Practice](#coding-question-practice)
+- [Coding exercises/challenges](#coding-exerciseschallenges)
+- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+- [Your Resume](#your-resume)
+- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+- [Have questions for the interviewer](#have-questions-for-the-interviewer)
+- [Once You've Got The Job](#once-youve-got-the-job)
 
-- [קריאה נוספת](#additional-books)
-- [מה עוד ניתן ללמוד?](#additional-learning)
-    - [תכנות דינאמי](#dynamic-programming)
-    - [מעבדים](#compilers)
-    - [מספרים בעלי נקודה צפה](#floating-point-numbers)
-    - [יוניקוד- קידוד אחיד](#unicode)
+---------------- Everything below this point is optional ----------------
+
+- [Additional Books](#additional-books)
+- [Additional Learning](#additional-learning)
+    - [Dynamic Programming](#dynamic-programming)
+    - [Compilers](#compilers)
+    - [Floating Point Numbers](#floating-point-numbers)
+    - [Unicode](#unicode)
     - [Endianness](#endianness)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
@@ -139,16 +151,14 @@
 
 ---
 
-## למה להשתמש בזה?
+## Why use it?
 
-אני מתכונן לראיון בגוגל תוך כדי יישום תוכנית זו. בניתי את הרשת, בניתי שרותים ברשת, אני בונה ומשיק סטארטאפים מאז 1997.
-יש לי תואר בכלכלה, לא במדעי המחשב. הייתה לי קריירה מוצלחת אבל אני חולם לעבוד בגוגל. 
-אני רוצה להתקדם ולעבוד עם מערכות גדולות יותר ולקבל הבנה מעמירה של מערכות מחשוב, אלגוריתמים יעילים, התנהגות בסיסי נתונים, 
 I'm following this plan to prepare for my Google interview. I've been building the web, building
 services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
 been very successful in my career, but I want to work at Google. I want to progress into larger systems
 and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
 low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+
 When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
 traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
 Every data structure I've ever used was built into the language, and I didn't know how they worked
@@ -159,13 +169,13 @@ thousands of associative arrays, but I've never created data structures from scr
 But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
 months. If you are familiar with a lot of this already it will take you a lot less time.
 
-## איך להשתמש בזה
+## How to use it
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
 I'm using Github's special markdown flavor, including tasks lists to check progress.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
 
 
     Fork a branch and follow the commands below
@@ -194,35 +204,35 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## האם קיבלתי את העבודה?
+## Did I Get the Job?
 
-אני בתור כרגע. אני מקווה להתראיין בקרוב.
+I'm in the queue right now. Hope to interview soon.
 
     Thanks for the referral, JP.
 
 ## Follow Along with Me
 
-הסיפור שלי: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-גם אני עובר את המסע. עקבו אחריי:
-
-- **בלוג**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- טוויטר: [@googleyasheck](https://twitter.com/googleyasheck)
-- טוויטר: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- גוגל+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- לינקדאין: [johnawasham](https://www.linkedin.com/in/johnawasham)
+I'm on the journey, too. Follow along:
+ 
+- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
+- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
+- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
+- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
+- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## אל תרדגישו שאתם לא חכמים מספיק
+## Don't feel you aren't smart enough
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## אודות גוגל
+## About Google
 
-- [ ] לסטודנטים - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] איך החיפש עובד:
+- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] How Search Works:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
@@ -247,28 +257,28 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 ## Interview Process & General Interview Prep
 
-- [ ] סרטונים:
-    - [ ] [איך לעבוד בגוגל: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [איך לעבוד בגוגל: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [איך לעבוד בגוגל - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+- [ ] Videos:
+    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
     - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [איך לעבוד בגוגל: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] מאמרים:
-    - [ ] [איך להפוך לעובד בגוגל בשלושה שלבים](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+- [ ] Articles:
+    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
     - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - all the things he mentions that you need to know are listed below
-    - [ ] _(מאוד מיושן)_ [איך להשיג עבודה בגוגל, שאלות של ראיונות, תהליך המיון](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] קורסי הכנה:
+- [ ] Prep Courses:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
 
-- [ ] תוספות (not suggested by Google but I added):
+- [ ] Additional (not suggested by Google but I added):
     - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [ארבעה צעדים לקראת גוגל בלי תואר](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [לוח מחיק](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
     - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
     - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [ ] Cracking The Coding Interview Set 1:
@@ -463,7 +473,10 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+
+Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
@@ -1091,7 +1104,12 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - replaced by Colossus in 2012
     - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
         - mostly replaced by Cloud Dataflow?
+    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
+    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
     - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
+    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
         - paper not available
     - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
@@ -1267,7 +1285,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
         - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Design a function to return the top k requests during past time interval]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
         - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)

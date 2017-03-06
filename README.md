@@ -1,19 +1,19 @@
 # Coding Interview University
 
->**I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. 
+>**I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today.
 The items listed here will prepare you well for in an interview at just about any software company, including the giants: Amazon, Facebook, Google or Microsoft.**
 >
 > *Best of luck to you!*
 
 Translations:
 - [中文版本](translations/README-cn.md)
+- [Tiếng Việt - Vietnamese](translations/README-vn.md)
 - translations in progress:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
     - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
     - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
     - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/coding-interview-university/issues/92)
     - [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
     - [French](https://github.com/jwasham/coding-interview-university/issues/89)
     - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
@@ -32,11 +32,11 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This is meant for **new software engineers** or those switching from 
-software/web development to software engineering (where computer science knowledge is required). If you have 
-many years of experience and are claiming many years of software engineering experience, expect a harder interview. 
+This is meant for **new software engineers** or those switching from
+software/web development to software engineering (where computer science knowledge is required). If you have
+many years of experience and are claiming many years of software engineering experience, expect a harder interview.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon, 
+If you have many years of software/web development experience, note that large software companies like Google, Amazon,
 Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 
 If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
@@ -269,7 +269,7 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 
 If you have tons of extra time:
 
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)    
+- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
 
 ### Computer Architecture
@@ -402,7 +402,7 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
 Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
@@ -1149,7 +1149,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
-       
+
 - ### Networking
     - **if you have networking experience or want to be a systems engineer, expect questions**
     - otherwise, this is just good to know
@@ -1481,7 +1481,7 @@ You're never really done.
 
 ## Additional Learning
 
-These topics will likely not come up in an interview, but I added them to help you become a well-rounded 
+These topics will likely not come up in an interview, but I added them to help you become a well-rounded
 software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
 
 - ### Compilers

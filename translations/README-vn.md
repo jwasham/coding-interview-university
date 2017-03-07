@@ -21,7 +21,9 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 
 ---
 
->**Ban đầu, đây chỉ là một danh sách to-do ngắn về các chủ đề phải ôn tập của tôi, để trở thành một kỹ sư phần mềm. Nhưng rôi nó lớn dần nên như ngày nay. Những chù đề này sẽ chuẩn bị cho bạn nền tảng kiến thức vững vàng cho bất kỳ công ty phần mềm nào, bao gồm cả những gã khổng lồ như: Amazon, Facebook, Google or Microsoft.**
+> Ban đầu, đây chỉ là một danh sách to-do ngắn về các chủ đề phải ôn tập của tôi, để trở thành một kỹ sư phần mềm. Nhưng rôi nó lớn dần nên như ngày nay. Sau khi đi hết con đường này, [tôi đã được tuyển vào vị trí Software Development Engineer ở Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! Bạn có lẽ không cần phải học nhiều như tôi đã học. Nhưng dù sao, mọi thứ bạn cần ở đây.
+>
+> Những chù đề này sẽ chuẩn bị cho bạn nền tảng kiến thức vững vàng cho bất kỳ công ty phần mềm nào, bao gồm cả những gã khổng lồ như: Amazon, Facebook, Google or Microsoft.
 >
 > *Chúc may mắn!*
 

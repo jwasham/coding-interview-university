@@ -440,10 +440,9 @@ Aqui estão alguns erros que eu cometi para que você tenha uma melhor experiên
 
 ### 1. Você não se lembrará disso tudo
 
-I watched hours of vídeos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Assisti a horas de vídeos e fiz anotaçes e meses depois havia muito que eu não me lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
 
-Read please so you won't make my mistakes:
+Por favor, leia para que você não cometa os meus erros:
 
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
@@ -452,9 +451,9 @@ Read please so you won't make my mistakes:
 Para solucionar o problema, eu fiz um pequeno site flashcards onde eu poderia adicionar dois tipos de flashcards: genérico e código.  
 Cada cartão tem formatação diferente.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Eu fiz um website mobile-first para que eu pudesse rever no meu celular, tablet, onde quer que eu esteja.
 
-Make your own for free:
+Faça o seu próprio grátis:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 - [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 

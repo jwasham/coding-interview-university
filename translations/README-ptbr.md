@@ -468,15 +468,15 @@ Uma alternativa ao uso do meu site flashcard é [Anki](http://ankisrs.net/), que
 
 Meu banco de dados flashcard em formato Anki: https://ankiweb.net/shared/info/25173560 (obrigado [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Reveja, Reveja e Reveja
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Eu mantenho um conjunto de anotações em ASCII, OSI stack, Big-O notations, e muito mais. Eu os estudo quando tenho algum tempo livre.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Faça uma pausa dos problemas de programação por meia hora e passe por seus flashcards.
 
-### 4. Focus
+### 4. Foco
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Há um monte de distrações que podem ocupar um tempo valioso. Foco e concentração são difíceis.
 
 ## What you won't see covered
 

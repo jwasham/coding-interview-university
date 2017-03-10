@@ -463,10 +463,10 @@ Keep in mind I went overboard and have cards covering everything from assembly l
 
 **Nota:** A primeira vez que você reconhece que sabe a resposta, não a marque como conhecida. Você tem que ver o mesmo cartão e respondê-lo várias vezes corretamente antes de realmente conhecê-lo. A repetição colocará esse conhecimento mais aprodundado em seu cérebro.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Uma alternativa ao uso do meu site flashcard é [Anki](http://ankisrs.net/), que me foi recomendado várias vezes. Ele usa um sistema de repetição para ajuda-lo a se lembrar.
+É fácil de usar, está disponível em todas as plataformas e possui um sistema de sincronização em nuvem. Ele custa 25 dólares no iOS, mas é gratuito em outras plataformas.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Meu banco de dados flashcard em formato Anki: https://ankiweb.net/shared/info/25173560 (obrigado [@xiewenya](https://github.com/xiewenya))
 
 ### 3. Review, review, review
 

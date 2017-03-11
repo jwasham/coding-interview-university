@@ -459,7 +459,8 @@ Faça o seu próprio grátis:
 - [Minha base de dados flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
 - [Minha base de dados flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. É demais para o que é exigido pelo Google.
+Pensando bem, eu fiz uma revisão e tive os cartões completos, abrangendo as linguagens assembly e Phyton, essencial para machine learning e estatsticas. É demais para o que é exigido pelo Google. 
+
 
 **Nota:** A primeira vez que você reconhece que sabe a resposta, não a marque como conhecida. Você tem que ver o mesmo cartão e respondê-lo várias vezes corretamente antes de realmente conhecê-lo. A repetição colocará esse conhecimento mais aprodundado em seu cérebro.
 

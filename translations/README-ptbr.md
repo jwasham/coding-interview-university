@@ -481,10 +481,9 @@ Take a break from programming problems for a half hour and go through your flash
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
 
-## What you won't see covered
+## O que você não verá 
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+Essa grande lista começou como uma "to-do list" pessoal feita pelo centro de treinamento do Google. Essas são tecnologias prevalentes, mas não foram mencionadas nessas notas:
 
 - SQL
 - Javascript

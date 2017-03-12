@@ -440,7 +440,7 @@ Aqui estão alguns erros que eu cometi para que você tenha uma melhor experiên
 
 ### 1. Você não se lembrará disso tudo
 
-Assisti a horas de vídeos e fiz anotaçes e meses depois havia muito que eu não me lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
+Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não me lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
 
 Por favor, leia para que você não cometa os meus erros:
 
@@ -448,25 +448,25 @@ Por favor, leia para que você não cometa os meus erros:
 
 ### 2. Use Flashcards
 
-Para solucionar o problema, eu fiz um pequeno site flashcards onde eu poderia adicionar dois tipos de flashcards: genérico e código.  
+Para solucionar o problema, eu fiz um pequeno site de flashcards onde eu poderia adicionar dois tipos de flashcards: genérico e código.  
 Cada cartão tem formatação diferente.
 
-Eu fiz um website mobile-first para que eu pudesse rever no meu celular, tablet, onde quer que eu esteja.
+Eu fiz um website focado em mobile para que eu pudesse rever no meu celular, tablet, onde quer que eu esteja.
 
 Faça o seu próprio grátis:
 
-- [Flashcards repositório](https://github.com/jwasham/computer-science-flash-cards)
-- [Minha base de dados flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
-- [Minha base de dados flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Repositório de flashcards](https://github.com/jwasham/computer-science-flash-cards)
+- [Minha base de dados de flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [Minha base de dados de flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Pensando bem, eu fiz uma revisão e tive os cartões completos, abrangendo as linguagens assembly e Phyton, essencial para machine learning e estatísticas. É demais para o que é exigido pelo Google. 
+Pensando bem, eu fiz uma revisão e tive os cartões completos, abrangendo desde linguagem assembly e trivialidades de Python até aprendizado de máquina e estatísticas. É demais para o que é exigido pelo Google. 
 
 **Nota:** A primeira vez que você reconhece que sabe a resposta, não a marque como conhecida. Você tem que ver o mesmo cartão e respondê-lo várias vezes corretamente antes de realmente conhecê-lo. A repetição colocará esse conhecimento mais aprodundado em seu cérebro.
 
-Uma alternativa ao uso do meu site flashcard é [Anki](http://ankisrs.net/), que me foi recomendado várias vezes. Ele usa um sistema de repetição para ajuda-lo a se lembrar.
+Uma alternativa ao uso do meu site de flashcards é [Anki](http://ankisrs.net/), que me foi recomendado várias vezes. Ele usa um sistema de repetição para ajuda-lo a se lembrar.
 É fácil de usar, está disponível em todas as plataformas e possui um sistema de sincronização em nuvem. Ele custa 25 dólares no iOS, mas é gratuito em outras plataformas.
 
-Meu banco de dados flashcard em formato Anki: https://ankiweb.net/shared/info/25173560 (obrigado [@xiewenya](https://github.com/xiewenya))
+Meu banco de dados de flashcards em formato Anki: https://ankiweb.net/shared/info/25173560 (obrigado [@xiewenya](https://github.com/xiewenya))
 
 ### 3. Reveja, Reveja e Reveja
 

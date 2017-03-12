@@ -34,7 +34,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Processo de Entrevista e Preparação Geral para a Entrevista](#processo-de-entrevista-e-preparação-geral-para-a-entrevista)
 - [Escolha Uma Linguagem para a Entrevista](#escolha-uma-linguagem-para-a-entrevista)
 - [Lista de Livros](#lista-de-livros)
-- [Before you Get Started](#before-you-get-started)
+- [Antes de começar](#antes-de-começar)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
@@ -432,54 +432,51 @@ OR:
     - Would rather spend time on coding problems from another livro or online coding problems.
 
 
-## Before you Get Started
+## Antes de começar
 
-This list grew over many months, and yes, it kind of got out of hand.
+Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle.
 
-Here are some mistakes I made so you'll have a better experience.
+Aqui estão alguns erros que eu cometi para que você tenha uma melhor experiência.
 
-### 1. You Won't Remember it All
+### 1. Você não se lembrará disso tudo
 
-I watched hours of vídeos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Assisti a horas de vídeos e fiz anotaçes e meses depois havia muito que eu não me lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
 
-Read please so you won't make my mistakes:
+Por favor, leia para que você não cometa os meus erros:
 
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
 ### 2. Use Flashcards
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Para solucionar o problema, eu fiz um pequeno site flashcards onde eu poderia adicionar dois tipos de flashcards: genérico e código.  
+Cada cartão tem formatação diferente.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Eu fiz um website mobile-first para que eu pudesse rever no meu celular, tablet, onde quer que eu esteja.
 
-Make your own for free:
+Faça o seu próprio grátis:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Flashcards repositório](https://github.com/jwasham/computer-science-flash-cards)
+- [Minha base de dados flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [Minha base de dados flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+Pensando bem, eu fiz uma revisão e tive os cartões completos, abrangendo as linguagens assembly e Phyton, essencial para machine learning e estatísticas. É demais para o que é exigido pelo Google. 
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Nota:** A primeira vez que você reconhece que sabe a resposta, não a marque como conhecida. Você tem que ver o mesmo cartão e respondê-lo várias vezes corretamente antes de realmente conhecê-lo. A repetição colocará esse conhecimento mais aprodundado em seu cérebro.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Uma alternativa ao uso do meu site flashcard é [Anki](http://ankisrs.net/), que me foi recomendado várias vezes. Ele usa um sistema de repetição para ajuda-lo a se lembrar.
+É fácil de usar, está disponível em todas as plataformas e possui um sistema de sincronização em nuvem. Ele custa 25 dólares no iOS, mas é gratuito em outras plataformas.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Meu banco de dados flashcard em formato Anki: https://ankiweb.net/shared/info/25173560 (obrigado [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Reveja, Reveja e Reveja
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Eu mantenho um conjunto de anotações em ASCII, OSI stack, Big-O notations, e muito mais. Eu os estudo quando tenho algum tempo livre.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Faça uma pausa dos problemas de programação por meia hora e passe por seus flashcards.
 
-### 4. Focus
+### 4. Foco
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Há um monte de distrações que podem ocupar um tempo valioso. Foco e concentração são difíceis.
 
 ## What you won't see covered
 

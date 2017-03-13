@@ -2,7 +2,7 @@
 
 >Επίσημη έκδοση: [Αγγλικά](https://github.com/jwasham/coding-interview-university/blob/master/README.md)
 
-## Τι είναι;
+## Τι είναι
 
 Είναi ο πλάνο διαβάσματός μου για να γίνω από web developer (αυτοδίδακτος, χωρίς πτυχίο στην Επιστήμη των Υπολογιστών), μηχανικός λογισμικού για μία μεγάλη εταιρία.
 
@@ -17,7 +17,7 @@
 ---
 # Πίνακας περιεχομένων
 
-- [Τι είναι;](#τι-είναι)
+- [Τι είναι](#τι-είναι)
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)

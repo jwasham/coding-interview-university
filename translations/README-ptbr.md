@@ -8,8 +8,8 @@ Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, s
 
 ![Programando no quadro branco - do Vale do Silício da HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-Essa longa lista foi extraída e expandida a partir das **anotações de treino da Google**, então essas são as coisas que você precisa saber.
-Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge’s e às vezes são expressados palavra-por-palavra nas anotações de treino da Google.
+Essa longa lista foi extraída e expandida a partir das **anotações de treinamento da Google**, então essas são as coisas que você precisa saber.
+Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge’s e às vezes são expressados palavra-por-palavra nas anotações de treinamento da Google.
 
 Eu resumi o que você precisa saber das recomendações do Yegge. Eu alterei os requerimentos do Yegge com base em informações que recebi do meu contato na Google. Isso é direcionado à **engenheiros de software novos** ou àqueles que estão trocando de desenvolvimento de software/web para engenharia de software (onde conhecimento de ciência de computação é necessário). Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
 [Leia mais](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/)

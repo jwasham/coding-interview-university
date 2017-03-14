@@ -480,11 +480,11 @@ Há um monte de distrações que podem ocupar um tempo valioso. Foco e concentra
 
 ## O que você não verá 
 
-Essa grande lista começou como uma "to-do list" pessoal feita por anotações do treinamento de entrevistas do Google . Essas são tecnologias predominantes, mas não foram mencionadas nessas notas:
+Essa grande lista começou como uma "to-do list" pessoal feita a partir de anotações do treinamento de entrevistas da Google. Essas são tecnologias predominantes, mas que não foram mencionadas nessas anotações:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, e outras tecnologias de front-end
 
 ## The Daily Plan
 

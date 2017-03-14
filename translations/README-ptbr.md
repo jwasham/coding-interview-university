@@ -483,7 +483,7 @@ There are a lot of distractions that can take up valuable time. Focus and concen
 
 ## O que você não verá 
 
-Essa grande lista começou como uma "to-do list" pessoal feita pelo centro de treinamento do Google. Essas são tecnologias prevalentes, mas não foram mencionadas nessas notas:
+Essa grande lista começou como uma "to-do list" pessoal feita por anotações do treinamento de entrevistas do Google . Essas são tecnologias predominantes, mas não foram mencionadas nessas notas:
 
 - SQL
 - Javascript

@@ -55,7 +55,7 @@
 - [อะไรที่ไม่ครอบคลุม](#what-you-wont-see-covered)
 - [ความรู้ที่ต้องมีมาก่อน](#prerequisite-knowledge)
 - [แผนของแต่ละวัน](#the-daily-plan)
-- [ขั้นตอนวิธีที่ซับซ้อน / Big-O / การวิเคราะห์ Asymptotic](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [ความซับซ้อนของขั้นตอนวิธี / Big-O / การวิเคราะห์ Asymptotic](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [โครงสร้างข้อมูล](#data-structures)
     - [แถวลำดับ (Arrays)](#arrays)
     - [รายการโยง (Linked Lists)](#linked-lists)

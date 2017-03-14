@@ -478,10 +478,9 @@ Faça uma pausa dos problemas de programação por meia hora e passe por seus fl
 
 Há um monte de distrações que podem ocupar um tempo valioso. Foco e concentração são difíceis.
 
-## What you won't see covered
+## O que você não verá 
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+Essa grande lista começou como uma "to-do list" pessoal feita por anotações do treinamento de entrevistas do Google . Essas são tecnologias predominantes, mas não foram mencionadas nessas notas:
 
 - SQL
 - Javascript

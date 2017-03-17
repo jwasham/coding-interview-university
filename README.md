@@ -30,6 +30,7 @@ Translations:
     - [German](https://github.com/jwasham/coding-interview-university/issues/135)
     - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
     - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+    - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 
 ## What is it?
 

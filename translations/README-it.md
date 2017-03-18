@@ -30,20 +30,17 @@ Traduzioni:
     - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
     - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 
-## What is it?
+## Che cos'è?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+Questo è il mio piano di studio che copre più mesi per passare dall'essere uno sviluppatore web (senza Laurea in Informatica, quindi da autodidatta) ad essere un ingegnere del software per una grande azienda
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+Questo piano è previsto per **nuovi ingegneri del software** o per coloro che stanno intraprendendo questa strada partendo da un background di tipo sviluppo web/software semplice. Se hai molti anni di esperienza e affermi di avere molti anni di esperienza nell'ingegneria del software, aspettati un'intervista più difficile.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+Se hai molti anni di esperienza nello sviluppo web/software, considera che grandi aziende come Google, Amazon, Facebook e Microsoft vedono l'ingegneria del software come diverda dallo sviluppo web/software, e richiedono quindi conoscenze di Informatica.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Se vuoi essere un ingegnere che tratta affidabilità o sistemi, ti conviene studiare di più dalla lista opzionale che include *networking* e *sicurezza*.
 
 ---
 

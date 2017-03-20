@@ -4,7 +4,7 @@
 
 ## Τι είναι
 
-Είναi ο πλάνο διαβάσματός μου για να γίνω από web developer (αυτοδίδακτος, χωρίς πτυχίο στην Επιστήμη των Υπολογιστών), μηχανικός λογισμικού για μία μεγάλη εταιρία.
+Είναi το πλάνο διαβάσματός μου για να γίνω από web developer (αυτοδίδακτος, χωρίς πτυχίο στην Επιστήμη των Υπολογιστών), μηχανικός λογισμικού για μία μεγάλη εταιρία.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
@@ -23,8 +23,8 @@
 - [Μη νιώθεις ανίκανος](#Μη-νιώθεις-ανίκανος)
 - [Σχετικά με τα βίντεο](#Σχετικά-με-τα-βίντεο)
 - [Διαδικασία Συνέντευξης & Γενική προετοιμασία συνέντευξης](#Διαδικασία-Συνέντευξης--Γενική-προετοιμασία-συνέντευξης)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
+- [Pick One Language for the Interview](#Διάλεξε-μία-γλώσσα-για-τη-συνέντευξη)
+- [Book List](#Λίστα-βιβλίων)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -199,3 +199,145 @@
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
         - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
+        
+## Διάλεξε μία γλώσσα για τη συνέντευξη
+
+Μπορείς να χρησιμοποιήσεις μία γλώσσα με την οποία είσαι άνετος για να κάνεις το προγραμματιστικό κομμάτι της συνέντευξης, αλλά για τις μεγάλες εταιρίες, υπάρχουν ατόφιες επιλογές:
+
+- C++
+- Java
+- Python
+
+Μπορείς, επίσης, να χρησιμοποιήσεις αυτές, αλλά διάβασε γύρω από αυτό πρώτα. Μπορεί να υπάρχουν προειδοποιήσεις:
+
+- Javascript
+- Ruby
+
+Πρέπει να είσαι πολύ εξοικιωμένος με τη γλώσσα  και γνώστης.
+
+Διάβασε περισσότερα σχετικά με τις παραπάνω επιλογές:
+- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
+- http://blog.codingforinterviews.com/best-programming-language-jobs/
+
+[Βρες πόρους για τη γλώσσα εδώ](programming-language-resources.md)
+
+Θα δείς λίγη γνώση σχετικά με τις C, C++ και Python να περιέχεται παρακάτω, επείδη μαθαίνω. Υπάρχουν μερικά εμπλεκόμενα βιβλία, δες το κάτω μέρος.
+
+## Λίστα βιβλίων
+
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - απαντήσεις στην C++ και στην Java
+    - αυτό είναι ένα καλό ζέσταμα για να είσαι άριστος/η στο Coding Interview
+    - όχι τόσο δύσκολο, τα περισσότερα προβλήματα ίσως είναι ευκολότερα από ότι θα δείς στην συνέντευξη (από αυτά που έχω διαβάσει)
+- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - απαντήσεις στην Java
+
+Εάν έχεις αρκετό ελεύθερο χρόνο:
+
+- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+
+### Αρχιτεκτονική Υπολογιστών
+
+Αν έχεις λίγο χρόνο:
+
+- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - Το βιβλίο δημοσιεύτηκε το 2004, και είναι λίγο απαρχεωμένο, αλλά είναι ένας υπέροχος πόρος για να κατανοήσεις έναν υπολογιστή εν συντομία.
+    - Ο συγγραφέας εφηύρε το HLA, έτσι μην παίρνεις τις αναφορές του και παραδείγματά του για το HLA, τοις μετρητοίς.
+    - Αυτά τα κεφάλαια αξίζουν το διάβασμα για να σου δώσουν ισχυρά θεμέλια:
+        - Chapter 2 - Numeric Representation
+        - Chapter 3 - Binary Arithmetic and Bit Operations
+        - Chapter 4 - Floating-Point Representation
+        - Chapter 5 - Character Representation
+        - Chapter 6 - Memory Organization and Access
+        - Chapter 7 - Composite Data Types and Memory Objects
+        - Chapter 9 - CPU Architecture
+        - Chapter 10 - Instruction Set Architecture
+        - Chapter 11 - Memory Architecture and Organization
+
+Αν έχεις αρκετό χρόνο (Το θέλω αυτό το βιβλίο):
+
+- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
+    - Για μία πλουσιότερη, περισσότερο ενημερωμένη (2011), αλλά εκτενέστερη αντιμετώπιση 
+
+### Συγκεκριμένη γλώσσα
+
+**Θα πρέπει να επιλέξεις μία γλώσσα για τη συνέντευξη (δες παραπάνω).** Εδώ είναι οι προτάσεις μου ανά γλώσσα. Δεν έχω τους πόρους για όλες τις γλώσσες. Καλοδεχούμενες οι προσθήκες.
+
+Εάν διαβάσεις μία από αυτές, θα πρέπει να έχεις όλη την γνώση σχετικά με δομές δεδομένων και αλγόριθμους που θα χρειαστείς για να αρχίσεις να λύνεις προβλήματα προγραμματισμού. 
+**Μπορείς να παραλείψεις όλες τα βίντεο-διαλέξεις που περιέχονται σε αυτό το πρότζεκτ**, εκτός εάν θέλεις να κάνεις μία ανασκόπηση.
+
+[Επιπρόσθετοι πόροι που αφορούν συγκεκριμένες γλώσσες εδώ.](programming-language-resources.md)
+
+### C++
+
+Δεν έχω διαβάσει αυτά τα δύο, αλλά έχουν λάβει υψηλές αξιολογήσεις και έχουν γραφτεί από τον Sedgewick. Είναι φοβερός.
+
+- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+Εάν έχεις μία καλύτερη πρόταση για τη C++, παρακαλώ ενημέρωσέ με. Ψάχνοντας για έναν περιεκτικό πόρο.
+
+### Java
+
+- [ ] [Αλγόριθμοι σε Java(Sedgewick)](http://www.skroutz.gr/books/142957.%CE%91%CE%BB%CE%B3%CF%8C%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%B9-%CF%83%CE%B5-Java.html)
+    - Διδάσκεται στο Τμήμα Πληροφορικής του Οικονομικού Πανεπιστημίου Αθηνών
+    - βιντεο με το περιεχόμενο του βιβλίου (and Sedgewick!):
+        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
+        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
+
+Ή:
+
+- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - by Goodrich, Tamassia, Goldwasser
+    - used as optional text for CS intro course at UC Berkeley
+    - see my book report on the Python version below. This book covers the same topics.
+
+### Python
+
+- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - by Goodrich, Tamassia, Goldwasser
+    - I loved this book. It covered everything and more.
+    - Pythonic code
+    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+
+
+### Προαιρετικά Βιβλία
+
+**Ορισμένοι συστήνουν αυτά, αλλά το παρακάνουν, εκτός εάν έχεις πολλά χρόνια εμπειρίας και περιμένεις μία δυσκολότερη συνέντευξη:**
+
+- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+    - As a review and problem recognition
+    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
+    - This book has 2 parts:
+        - class textbook on data structures and algorithms
+            - pros:
+                - is a good review as any algorithms textbook would be
+                - nice stories from his experiences solving problems in industry and academia
+                - code examples in C
+            - cons:
+                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
+                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
+                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
+        - algorithm catalog:
+            - this is the real reason you buy this book.
+            - about to get to this part. Will update here once I've made my way through it.
+    - Can rent it on kindle
+    - Half.com is a great resource for textbooks at good prices.
+    - Answers:
+        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+
+- [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
+    - Half.com is a great resource for textbooks at good prices.
+    - aka CLR, sometimes CLRS, because Stein was late to the game
+
+- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
+      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+
+- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
+    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
+    - Would rather spend time on coding problems from another book or online coding problems.

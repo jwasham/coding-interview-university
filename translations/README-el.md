@@ -23,13 +23,13 @@
 - [Μη νιώθεις ανίκανος](#Μη-νιώθεις-ανίκανος)
 - [Σχετικά με τα βίντεο](#Σχετικά-με-τα-βίντεο)
 - [Διαδικασία Συνέντευξης & Γενική προετοιμασία συνέντευξης](#Διαδικασία-Συνέντευξης--Γενική-προετοιμασία-συνέντευξης)
-- [Pick One Language for the Interview](#Διάλεξε-μία-γλώσσα-για-τη-συνέντευξη)
-- [Book List](#Λίστα-βιβλίων)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Διάλεξε μία γλώσσα για τη συνέντευξη](#Διάλεξε-μία-γλώσσα-για-τη-συνέντευξη)
+- [Λίστα βιβλίων](#Λίστα-βιβλίων)
+- [Πριν αρχίσεις](#Πριν-αρχίσεις)
+- [Τι δε θα δεις να καλύπτετε](#Τι-δε-θα-δεις-να-καλύπτετε)
+- [Προαπαιτούμενη γνώση](#Προαπαιτούμενη-γνώση)
+- [Το καθημερινό πλάνο](#Το-καθημερινό-πλάνο)
+- [Αλγοριθμική πολυπλοκότητα / Big-O / Ασυμπτωτική ανάλυση](#Αλγοριθμική-πολυπλοκότητα--Big-O--Ασυμπτωτική-ανάλυση)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
@@ -341,3 +341,123 @@
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
     - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
     - Would rather spend time on coding problems from another book or online coding problems.
+    
+## Πριν αρχίσεις
+
+Αυτή η λίστα αυξήθηκε με την περίοδο πολλών μηνών, και ναι, βρίσκεται εκτός ελέγχου.
+
+Εδώ βρίσκονται κάποια λάθη που έκανα για να έχεις μία καλύτερη εμπειρία.
+
+### 1. Δε θα το θυμάσαι καθόλου
+
+Είδα αρκετές ώρες βίντεο και πήρα άφθονες σημειώσεις, κα μήνες μετά υπήρχαν πολλά τα οποία δεν θυμόμουν. Ξόδεψα 3 μέρες εξετάζοντας λεπτομερώς τις σημειώσεις μου και έκανα καρτέλες για να μπορούσα να τις αξιολογήσω.
+
+Σε παρακαλώ διάβασε τα για να μην κανεις τα ίδια λάθη με τα δικά μου:
+
+[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
+
+### 2. Χρησιμοποιήσε κάρτες σημειώσεων
+
+Να λύνεις το πρόβλημα, Εγώ έκανα μία μικρή ιστοσελίδα με κάρτες σημειώσεων 2 τύπων: γενικές και κώδικα. Κάθε μία κάρτα έχει διαφορετικό φορμάτ.
+
+Έκανα ένα mobile-first website για να μπορούσα να τις αξιολογήσω στο κινητό μου και στο tablet μου, όπου κι αν είμαι.
+
+Φτιάξε το δικό σου δωρεάν:
+
+- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+
+Θυμήσου ότι ξεπέρασα τα όρια και είχα κάρτες που κάλυπταν τα πάντα, από assembly και Python trivia έως και μηχανική μάθηση και στατιστική. Ήταν κάπως υπερβολικό από αυτό που χρειαζόταν.
+
+**Σημείωσε στα flashcards:** Τον πρώτο καιρό θα αναγνωρίζεις ότι γνωρίζεις την απάντηση, μην την μαρκάρεις ως γνωστή. Έχεις να δεις την ίδια κάρτα και να την απαντήσεις αρκετές φορές σωστά πριν την κατανοήσεις πλήρως. Η επανάληψις είναι μήτηρ πάσης μαθήσεως!-Πλάτωνας.
+
+Η εναλλακτική είναι να χρησιμοποιήσεις το δικό μου flashcard site: [Anki](http://ankisrs.net/), το οποίο έχει προταθεί σε εμένα αρκετές φορές. Χρησιμοποιεί ένα επαναληπτικό σύστημα για να σε βοηθήσει να θυμηθείς.
+Είναι φιλικό προς τον χρήστη, διαθέσιμο σε όλες τις πλατφόρμες και διαθέτει συγχρονισμό με το cloud. Κοστίζει 25$ για iOS αλλά είναι δωρεάν στις άλλες πλατφόρμες.
+
+Η flashcard βάση δεδομένων μου σε φορμάτ Anki: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+
+### 3. Αναθεώρησε, αναθεώρησε, αναθεώρησε
+
+Διατηρώ το σετ μου απο σκονάκια σε ASCII, στοίβα OSI, σχηματισμούς Big-O, και άλλα. Τα μελετώ όταν έχω λίγο χρόνο.
+
+Κάνε ένα διάλειμμα από τα προβλήματα προγραμματισμού για μισή ώρα και δούλεψε με τα flashcards.
+
+### 4. Συγκεντρώσου
+
+Υπάρχουν πολλοί αντιπερισπασμοί που μπορούν να κοστίσουν πολύτιμο χρόνο. Η συγκέντρωση είναι ένα αρκετά δύσκολο κομμάτι.
+
+## Τι δε θα δεις να καλύπτετε
+
+Υπάρχουν επικρατέστερες τεχνολογίες αλλά δεν είναι κομμάτι αυτού του πλάνου διαβάσματος:
+
+- SQL
+- Javascript
+- HTML, CSS, και άλλες front-end τεχνολογίες
+
+## Το καθημερινό πλάνο
+
+Μερικά θέματα παίρνουν μία ολόκληρη μέρα, και μερικά θα κοστίσουν μερικές μέρες. Μερικά είναι μόνο γνώση χωρίς να χρειαστεί να υλοποιήσεις οτιδήποτε.
+
+Κάθε μέρα παίρνω ένα θέμα από την παρακάτω λίστα, βλέπω βίντεο για το συγκεκριμένο θέμα, και γρράφω μία υλοποίηση σε:
+- C - χρησιμοποιώντας structs και functions που παίρνουν struct * και κάτι άλλο σαν ορίσματα.
+- C++ - χωρίς να χρησιμοποιώ built-in τύπους
+- C++ - χρησιμοποιώντας built-in τύπους, όπως τα std::list της STL για μία συνδεδεμένη λίστα
+- Python - χρησιμοποιώντας built-in τύπους (για να εξασκούμε στην Python)
+- και γράφω tests για να σιγουρευτώ ότι το κάνω καλά, μερικές φορές χρησιμοποιώντας μόνο assert() δηλώσεις
+- Μπορεί να κάνεις Java ή κάτι άλλο, αυτό είναι μόνο αυτό που κάνω.
+
+Δεν χρειάζεσαι όλα αυτά. Χρειάζεσαι μόνο [μία γλώσσα για τη συνέντευξη](#Διάλεξε-μία-γλώσσα-για-τη-συνέντευξη).
+
+Γιατί γράφω κώδικα σε όλα αυτά;
+- Εξάσκηση, εξάσκηση, εξάσκηση, μέχρι να γίνω άρρωστος από αυτό, και να μπορώ να το κάνω χωρίς κανένα πρόβλημα (μερικά έχουν πολλές ακραίες περιπτώσεις και και τήρηση των λεπτομερειών του βιβλίου να θυμηθείς)
+- Δουλέυω με τα εμπόδια (allocating/freeing memory χωρίς την βοήθεια του garbage collection (εκτός της Python))
+- Κάνω χρήση των built-in τύπων έτσι έχω λίγη εμπειρία στη χρήση built-in εργαλείων για χρήση στον πραγματικό κόσμο (δεν πάω να γράψω τη δικιά μου υλοποίηση για τη συνδεδεμένη λίστα στην παραγωγή)
+
+Μπορεί να μην έχω χρόνο να τα κάνω αυτά για όλα τα θέματα, αλλά θα προσπαθήσω.
+
+Μπορείς να δεις τον κώδικα μου εδώ:
+ - [C] (https://github.com/jwasham/practice-c)
+ - [C++] (https://github.com/jwasham/practice-cpp)
+ - [Python] (https://github.com/jwasham/practice-python)
+
+Δε χρειάζεται να απομνημονεύσεις κάθε κομμάτι ενός αλγόριθμου.
+
+Γράψε κώδικα σε ένα πίνακα ή σε ένα χαρτί, όχι σε υπολογιστή. Τέσταρε τον με μερικές απλές εισόδους. Μετά τέσταρε τον και σε έναν υπολογιστή.
+
+## Προαπαιτούμενη γνώση
+
+- [ ] **Μάθε C** (καλή τύχη με αυτό... :disappointed: )
+    - Η C είναι παντού. Θα δείς παραδείγματα σε βιβλία, διαλέξεις, βίντεο, *ΠΑΝΤΟΥ* όσο θα διαβάζεις.
+    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Είναι ένα σύντομο βιβλίο, αλλά θα σου δώσει ένα χεράκι στην γλώσσα C και εάν την εξασκείς λίγο
+            θα την καταλάβεις γρήγορα. Το να καταλάβεις τη C θα σε βοηθήσει να καταλάβεις πως δουλεύουν τα προγράμματα και η μνήμη.
+        - [απαντήσεις και ερωτήσεις από έναν Έλληνα](https://github.com/lekkas/c-algorithms)
+
+- [ ] **How computers process a program:**
+    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+
+## Αλγοριθμική πολυπλοκότητα / Big-O / Ασυμπτωτική ανάλυση
+- τίποτα προς υλοποίηση
+- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] Skiena:
+    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
+- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
+- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
+- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] TopCoder (includes recurrence relations and master theorem):
+    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
+    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+
+
+    Εάν μερικές διαλέξεις είναι πολύ μαθηματικές, μπορείς να μεταβείς προς τα κάτω και να παρακολουθήσεις μερικά βίντεο σχετικά με τα διακριτά μαθηματικά για να πάρεις όλες τις γνώσεις που απαιτούνται.
+

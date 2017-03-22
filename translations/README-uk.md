@@ -30,10 +30,10 @@ Original: [англійською](README.md)
 
 ## Таблиця контенту
 
-- [Що це?](#Що-це?)
-- [Чому це використовувати?](#why-use-it)
-- [Як це використовувати](#how-to-use-it)
-- [Не почувайте себе недостатньо розумними](#dont-feel-you-arent-smart-enough)
+- [Що це?](#Що-це)
+- [Чому це використовувати?](#Чому-це-використовувати)
+- [Як це використовувати](#Як-це-використовувати)
+- [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
 - [Про відео-ресурси](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
@@ -187,7 +187,7 @@ Original: [англійською](README.md)
 
 [Більше про Github розмітку](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Не почувайте себе недостатньо розумними
+## Не почувайтесь недостатньо розумними
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)

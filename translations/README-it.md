@@ -49,10 +49,10 @@ Se vuoi essere un ingegnere che tratta affidabilità o sistemi, ti conviene stud
 - [Che cos'è](#che-cosè)
 - [Perché usarlo](#perché-usarlo)
 - [Come usarlo](#come-usarlo)
-- [Non pensare di non essere abbastanza intelligente](#dont-feel-you-arent-smart-enough)
-- [Risorse video](#about-video-resources)
-- [Intervista e preparazione generale](#interview-process--general-interview-prep)
-- [Scegli un linguaggio per l'intervista](#pick-one-language-for-the-interview)
+- [Non pensare di non essere abbastanza intelligente](#non-pensare-di-non-essere-abbastanza-intelligente)
+- [Risorse video](#risorse-video)
+- [Intervista e preparazione generale](#intervista-e-preparazione-generale)
+- [Scegli un linguaggio per l'intervista](#scegli-un-linguaggio-per-lintervista)
 - [Lista di libri utili](#book-list)
 - [Prima di cominciare](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
@@ -213,7 +213,7 @@ A volte i corsi non sono disponibili e quindi devi aspettare un paio di mesi, co
     Apprezzerei il tuo aiuto per aggiungere contenuti gratuiti e pubblici, come video di YouTube per affiancare i video corsi online. A me piace usare le lezioni delle università.
 
 
-## Interview Process & General Interview Prep
+## Intervista e preparazione generale
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
@@ -231,28 +231,28 @@ A volte i corsi non sono disponibili e quindi devi aspettare un paio di mesi, co
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
         - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
 
-## Pick One Language for the Interview
+## Scegli un linguaggio per l'intervista
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Puoi scegliere un linguaggio con cui ti trovi bene nel fare la parte di programmazione dell'intervista, ma per grosse aziende, queste sono le scelte migliori:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Potresti anche usare queste ma prima leggi in giro. Ci possono essere dei caveat:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Devi trovarti molto bene con il linguaggio e conoscerlo bene
 
-Read more about choices:
+A proposito di questa scelta:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Qua ci sono le risorse per i linguaggi di programmazione](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Vedrai un po' di C, C++, e Python inclusi più sotto, perché sto imparando. Ci sono alcuni libri inseriti coinvolti, guarda più in basso.
 
 ## Book List
 

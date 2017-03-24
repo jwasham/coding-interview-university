@@ -10,6 +10,7 @@ Tác giả gốc: [John Washam](https://github.com/jwasham)
 * [Võ Tường Thọ](https://github.com/thovo) - [@thovo](https://twitter.com/tho_vo)
 * [Lê Tấn Đăng Khoa](https://github.com/dangkhoasdc) - [@dksdc](https://twitter.com/dksdc)
 * [Trương Đức Duy](https://github.com/duytruong) - [@dauruy](https://twitter.com/dauruy)
+* [Lương Đăng Hải](https://github.com/jarvisluong) - [@jarvisluong](https://twitter.com/jarvisluong)
 
 Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt:
 

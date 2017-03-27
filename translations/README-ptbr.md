@@ -147,8 +147,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 
 Estou seguindo esse plano para me preparar para a minha entrevista com a Google. Eu estive construindo a web, construindo serviços, e lançando startups desde 1997. Eu sou graduado em economia, não em ciência da computação. Eu tenho sido muito bem sucedido em minha carreira, mas eu quero trabalhar na Google. Quero progredir para sistemas maiores e realmente entender sistemas de computação, eficiência algorítmica, desempenho de estrutura de dados, linguagens de baixo nível, e como tudo funciona. E se você não sabe nada disso, a Google não vai te contratar.
 
-Quando eu comecei esse projeto, I didn't know a stack from a heap, didn't know Big-O anything, nada sobre árvores, or how to
-traverse a graph. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
+Quando eu comecei esse projeto, eu não sabia diferenciar memória dinâmica de memória estática, não sabia notação Big-O, árvores, ou como percorrer um gráfico. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
 Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por baixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns arrays multidimensionais na minha vida e milhares de arrays associativos, mas eu nunca criei estruturas de dados do zero.
 
 Mas depois de passar por esse plano de estudo sou confiante de que serei contratado. É um longo plano. Vai levar meses. Se você já é familiarizado com muitas dessas coisas, você vai precisar de muito menos tempo. 
@@ -274,20 +273,20 @@ Alguns vídeos estão disponíveis somente ao ingressar em um curso no Coursera,
 
 ## Escolha Uma Linguagem para a Entrevista
 
-Eu escrevi esse pequeno artigo sobre isso: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Importante: Escolha Uma Linguage para a Entrevista da Google)
+Eu escrevi um pequeno artigo sobre esse tema: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Importante: Escolha Uma Linguage para a Entrevista da Google)
 
-Você pode escolher uma linguagem com a qual você esteja confortável para fazer a parte de programar (parte prática) da entrevista, mas para a Google, essas são ótimas opções:
+Você pode escolher uma linguagem com a qual você esteja confortável para fazer a parte de programação (parte prática) da entrevista, mas para a Google, essas são ótimas opções:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Você também poderia usar essas, mas dê uma lida por aí antes. Podem haver avisos:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable[1]. [1]*translator note > clarify with author: "knowledgeable about the chosen language or knowledgeable in general? (about programming in general)*
+Você precisa estar confortável com a linguagem e ser bem informado. [1]*translator note > clarify with author: "knowledgeable about the chosen language or knowledgeable in general? (sobre programação em geral)*
 
 Leia mais sobre as escolhas:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
@@ -296,27 +295,27 @@ Leia mais sobre as escolhas:
 
 [Veja recursos de linguagens aqui](programming-language-resources.md)
 
-Você vai ver aprendizado de C, C++ e Python incluído abaixo, porque eu estou aprendendo. Tem alguns livros envolvidos, veja no final.
+Você vai ver aprendizado de C, C++ e Python incluído abaixo, porque é o que estou aprendendo. Tem alguns livros envolvidos, veja no final.
 
 ## Lista de Livros
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Essa é uma lista menor comparada à que eu usei. Está abreviado para economizar seu tempo.
 
 ### Preparação para a Entrevista
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html) (Entrevistas de Programação Expostas: Segredos para Conseguir Seu Próximo Emprego, 2ª Edição)
     - respostas em C++ e Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - não é muito difícil, a maioria dos problemas poderão ser mais fáceis dos que você verá em uma entrevista (de acordo com o que li)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - recomendado no treinamento de candidatos da Google
+    - esse é um bom aquecimento para o Cracking the Coding Interview (Decifrando a Entrevista de Programação)
+    - não é muito difícil, a maioria dos problemas poderão ser mais fáceis que aqueles que você verá em uma entrevista (de acordo com o que li)
+- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/) (Decifrando a Entrevista de Programação).
     - respostas em Java
     - recomendado no [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/) (site de Carreiras da Google)
-    - If you see people reference "The Google Resume", it was a livro replaced by "Cracking the Coding Interview".
+    - Se você ver pessoas fazendo referência à "The Google Resume" (O Currículo da Google), foi um livro substituído por "Cracking the Coding Interview." (Decifrando a Entrevista de Programação).
 
 Se você tem muito tempo sobrando:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) (Elementos de Entrevistas de Programaçã0)
     - todo código em C++, muito bom se você está pensando em usar C++ na sua entrevista
     - um bom livro sobre resolução de problemas em geral.
 
@@ -324,10 +323,10 @@ Se você tem muito tempo sobrando:
 
 Se estiver com pouco tempo:
 
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038) (Escreva um Excelente Código: Volume 1: Compreendendo a Máquina)
     - O livro foi publicado em 2004, e está meio vencido, mas é um recurso maravilhoso para compreender um computador resumidamente.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - O autor inventou HLA (High-level Assembly ou, no português, Assembly de alto nível), então considere as menções e exemplos em HLA com cautela. Não é usado amplamente, mas contém exemplos decentes de como o assembly funciona.
+    - Esses capítulos valem a pena serem lidos para lhe dar uma boa base:
         - Chapter 2 - Numeric Representation (Capítulo 2 - Representação Numérica)
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -340,17 +339,17 @@ Se estiver com pouco tempo:
 
 Se você tem mais tempo (eu quero esse livro):
 
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/) (Arquitetura de Computador, Quinta Edição: Uma Abordagem Quantitativa)
+    - Se quiser uma versão mais rica e atualizada (2011), mas com um tratamento mais longo
 
 ### Específico de Linguagem
 
 **Você precisa escolher uma linguagem para a entrevista (veja acima).** Aqui estão minhas recomendações por linguagem. Eu não conheço recursos para todas as linguagens. Contribuições de recursos aqui são bem-vindas.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
-**You can skip all the vídeo lectures in this project**, unless you'd like a review.
+Se você ler um desses, você deverá ter todo conhecimento de estrutura de dados e algoritmos que precisará para começar a resolver problemas de programação. 
+**Você pode pular todas as aulas em vídeo nesse projeto**, a não ser que você queira uma revisão.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Recursos adicionais específico a cada linguagem aqui.](programming-language-resources.md)
 
 ### C++
 

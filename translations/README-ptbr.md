@@ -35,10 +35,10 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Escolha Uma Linguagem para a Entrevista](#escolha-uma-linguagem-para-a-entrevista)
 - [Lista de Livros](#lista-de-livros)
 - [Antes de começar](#antes-de-começar)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Conhecimento Prévio](#conhecimento-prévio)
+- [O que você não verá](#o-que-você-não-verá)
 - [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Conhecimento Prévio](#conhecimento-prévio)
+- [Complexidade Algorítmica / Big-O / Análise assintótica](#complexidade-algorítmica--big-o--análise-assintótica)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
@@ -528,7 +528,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [How does CPU execute program (vídeo)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (vídeo)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Complexidade Algorítmica / Big-O / Análise assintótica
 - nothing to implement
 - [ ] [Harvard CS50 - Asymptotic Notation (vídeo)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (vídeo)](https://www.youtube.com/watch?v=V6mKVRU1evU)

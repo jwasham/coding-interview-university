@@ -315,7 +315,7 @@ Essa é uma lista menor comparada à que eu usei. Está abreviado para economiza
 
 Se você tem muito tempo sobrando:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) (Elementos de Entrevistas de Programaçã0)
+- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) (Elementos de Entrevistas de Programação)
     - todo código em C++, muito bom se você está pensando em usar C++ na sua entrevista
     - um bom livro sobre resolução de problemas em geral.
 
@@ -349,7 +349,7 @@ Se você tem mais tempo (eu quero esse livro):
 Se você ler um desses, você deverá ter todo conhecimento de estrutura de dados e algoritmos que precisará para começar a resolver problemas de programação. 
 **Você pode pular todas as aulas em vídeo nesse projeto**, a não ser que você queira uma revisão.
 
-[Recursos adicionais específico a cada linguagem aqui.](programming-language-resources.md)
+[Recursos adicionais específicos a cada linguagem aqui.](programming-language-resources.md)
 
 ### C++
 
@@ -362,7 +362,7 @@ Se você tiver uma recomendação melhor para C++, por favor me informe. Busco r
 
 ### Java
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/) (Algoritmos (Sedgewick e Wayne)
+- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/) (Algoritmos (Sedgewick e Wayne))
     - vídeos com conteúdo do livro (e Sedgewick!):
         - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2) (Algoritmos I)
         - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd) (Algoritmos II)
@@ -385,7 +385,7 @@ OU:
 
 ### Livros Opcionais
 
-**Algumas pessoas recomendam esses, mas eu acho que está além do necessário, a não ser que você tenha muitos anos de experiência em engenharia de software e está esperando uma entrevista muito mais difícil:**
+**Algumas pessoas recomendam esses, mas eu acho que está além do necessário, a não ser que você tenha muitos anos de experiência em engenharia de software e está esperando por uma entrevista muito mais difícil:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena) (Manual de Design de Algoritmo)
     - Como uma revisão e reconhecimento de problema
@@ -435,7 +435,7 @@ OU:
 
 Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle.
 
-Aqui estão alguns erros que eu cometi para que você tenha uma melhor experiência.
+Aqui estão alguns erros que eu cometi para que você tenha uma experiência melhor.
 
 ### 1. Você não se lembrará disso tudo
 

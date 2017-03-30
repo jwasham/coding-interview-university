@@ -410,7 +410,7 @@ OU:
         eles, sem muitos detalhes. Quase toda página individual (1-pager) contém uma foto simples, facilitando a memorização. Essa é uma
         excelente maneira de aprender a identificar centenas de tipos de problemas."
     - Pode alugar no kindle
-    - Half.com é um ótimo recurso para livros com bons preços..
+    - Half.com é um ótimo recurso para livros com bons preços.
     - Respostas:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)) (Soluções)
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/) (Soluções)
@@ -419,7 +419,7 @@ OU:
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) (Introdução à Algoritmos)
     - **Importante:** Ler esse livro só terá um valor limitado. Esse livro é ótimo para revisão de algoritmos e estrutura de dados, mas não irá te ensinar a escrever um bom código. Você deve ser capaz de programar uma solução decente eficientemente.
     - Citando Yegge: "Mas se você quer chegar nas suas entrevistas *preparado*, então considere adiar sua candidatura até que você tenha terminado de ler o livro."
-    - Half.com é um ótimo recurso para livros com bons preços..
+    - Half.com é um ótimo recurso para livros com bons preços.
     - também conhecido como CLR, às vezes CLRS, porque Stein estava atrasado para o negócio
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880) (Pérolas de Programação)

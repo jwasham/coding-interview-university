@@ -36,7 +36,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Lista de Livros](#lista-de-livros)
 - [Antes de começar](#antes-de-começar)
 - [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
+- [Conhecimento Prévio](#conhecimento-prévio)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
@@ -515,7 +515,7 @@ You don't need to memorize the guts of every algorithm.
 
 Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
 
-## Prerequisite Knowledge
+## Conhecimento Prévio
 
 - [ ] **Learn C**
     - C is everywhere. You'll see examples in livros, lectures, vídeos, *everywhere* while you're studying.

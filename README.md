@@ -1408,6 +1408,7 @@ Challenge sites:
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
+- [Refdash: Mock interviews](https://refdash.com/)
 
 ## Once you're closer to the interview
 

@@ -53,7 +53,7 @@ Se vuoi essere un ingegnere che tratta affidabilità o sistemi, ti conviene stud
 - [Risorse video](#risorse-video)
 - [Intervista e preparazione generale](#intervista-e-preparazione-generale)
 - [Scegli un linguaggio per l'intervista](#scegli-un-linguaggio-per-lintervista)
-- [Lista di libri utili](#book-list)
+- [Lista di libri](#lista-dei-libri)
 - [Prima di cominciare](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -254,20 +254,20 @@ A proposito di questa scelta:
 
 Vedrai un po' di C, C++, e Python inclusi più sotto, perché sto imparando. Ci sono alcuni libri inseriti coinvolti, guarda più in basso.
 
-## Book List
+## Lista dei libri
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Questa è una lista più corta di quella che ho usato. Questa è abbreviata per risparmiarti tempo.
 
-### Interview Prep
+### Preparazione per il colloquio
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - risposte in C++ e Java
+    - questo è un buon riscaldamento per utilizzare "Cracking the Coding Interview, 6th edition"
+    - non è troppo difficile, molti problemi possono essere più facili di quello che vedrai in un colloquio(da quello che ho visto)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - risposte in Java
 
-If you have tons of extra time:
+Se hai molto più tempo libero:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)

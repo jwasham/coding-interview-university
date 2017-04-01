@@ -39,13 +39,13 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [The Daily Plan](#the-daily-plan)
 - [Conhecimento Prévio](#conhecimento-prévio)
 - [Complexidade Algorítmica / Big-O / Análise assintótica](#complexidade-algorítmica--big-o--análise-assintótica)
-- [Data Structures](#data-structures)
+- [Estrutura de Dados](#estrutura-de-dados)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
+- [Mais Conhecimento](#mais-conhecimento)
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
 - [Trees](#trees)
@@ -552,7 +552,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     Se alguma das aulas forem muito "matemáticas", você pode pular para o final e 
     ver o vídeo de matemática discreta para ganhar um conhecimento base.
 
-## Data Structures
+## Estrutura de Dados
 
 - ### Arrays
     - Implement an automatically resizing vector.
@@ -678,7 +678,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Mais Conhecimento
 
 - ### Binary search
     - [ ] [Binary Search (vídeo)](https://www.youtube.com/watch?v=D5SrAga1pno)

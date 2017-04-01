@@ -1267,8 +1267,8 @@ Você ganhará mais prática com gráficos no livro do Skiena (veja a seção de
 
 ## Final Review
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    Essa seção terá vídeos mais curtos que você pode assistir rapidamente para revisar a maioria dos conceitos importantes.
+    É legal se você quiser dar uma refrescada na memória.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)

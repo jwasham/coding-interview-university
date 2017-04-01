@@ -1,20 +1,19 @@
-# Universidade de Entrevista da Google
+# Universidade de Entrevista de Programação
 
-Original: [Inglês](https://github.com/jwasham/google-interview-university/blob/master/README.md)
+Original: [Inglês](https://github.com/jwasham/coding-interview-university/blob/master/README.md)
     
 ## O que é isso?
 
-Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software da Google.
+Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software para uma grande empresa.
 
 ![Programando no quadro branco - do Vale do Silício da HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 Essa longa lista foi extraída e expandida a partir das **anotações de treinamento da Google**, então essas são as coisas que você precisa saber.
 Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge’s e às vezes são expressados palavra-por-palavra nas anotações de treinamento da Google.
 
-Eu resumi o que você precisa saber das recomendações do Yegge. Eu alterei os requerimentos do Yegge com base em informações que recebi do meu contato na Google. Isso é direcionado à **engenheiros de software novos** ou àqueles que estão trocando de desenvolvimento de software/web para engenharia de software (onde conhecimento de ciência de computação é necessário). Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
-[Leia mais](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/)
+Isso é direcionado à **engenheiros de software novos** ou àqueles que estão migrando de desenvolvimento de software/web para engenharia de software (onde conhecimento de ciência da computação é necessário). Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
 
-Se você tem vários anos de experiência com desenvolvimento de software/web, observe que a Google considera engenharia de software algo distinto de desenvolvimento de software/web e eles pedem conhecimento de ciência da computação.
+Se você tem vários anos de experiência com desenvolvimento de software/web, observe que grandes empresas como Google, Amazon, Facebook e Microsoft consideram engenharia de software como algo distinto de desenvolvimento de software/web e elas requerem conhecimento de ciência da computação.
 
 Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, estude mais da lista opcional (rede, segurança).
 
@@ -25,9 +24,6 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [O que é isso?](#o-que-é-isso)
 - [Por que usar?](#por-que-usar)
 - [Como usar?](#como-usar)
-- [Entre no Clima de um Googler](#entre-no-clima-de-um-googler)
-- [Eu consegui o trabalho?](#eu-consegui-o-trabalho)
-- [Me acompanhe](#me-acompanhe)
 - [Não ache que você não é inteligente o suficiente](#não-ache-que-você-não-é-inteligente-o-suficiente)
 - [Sobre a Google](#sobre-a-google)
 - [Sobre os recursos em vídeo](#sobre-os-recursos-em-vídeo)
@@ -145,12 +141,10 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 
 ## Por que usar?
 
-Estou seguindo esse plano para me preparar para a minha entrevista com a Google. Eu estive construindo a web, construindo serviços, e lançando startups desde 1997. Eu sou graduado em economia, não em ciência da computação. Eu tenho sido muito bem sucedido em minha carreira, mas eu quero trabalhar na Google. Quero progredir para sistemas maiores e realmente entender sistemas de computação, eficiência algorítmica, desempenho de estrutura de dados, linguagens de baixo nível, e como tudo funciona. E se você não sabe nada disso, a Google não vai te contratar.
-
 Quando eu comecei esse projeto, eu não sabia diferenciar memória dinâmica de memória estática, não sabia notação Big-O, árvores, ou como percorrer um gráfico. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
 Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por baixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns arrays multidimensionais na minha vida e milhares de arrays associativos, mas eu nunca criei estruturas de dados do zero.
 
-Mas depois de passar por esse plano de estudo sou confiante de que serei contratado. É um longo plano. Vai levar meses. Se você já é familiarizado com muitas dessas coisas, você vai precisar de muito menos tempo. 
+É um longo plano. Você vai levar meses. Se você já é familiarizado com muitas dessas coisas, você vai precisar de muito menos tempo. 
 
 ## Como usar
 
@@ -182,9 +176,9 @@ Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de ta
 [Mais sobre a sintaxe de markdown especial do Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Não ache que você não é inteligente o suficiente
-- Engenheiros de software bem sucedidos são inteligentes, mas muitos são inseguros quanto à própria inteligência, mesmo que eles trabalhem na Google.
+- Engenheiros de software bem sucedidos são inteligentes, mas muitos são inseguros quanto à própria inteligência.
 - [O mito do Programador Gênio](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [É perigoso ir sozinho: Batalhando os monstros invisíveis na Tecnologia](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [É perigoso ir sozinho: Batalhando os monstros invisíveis na indústria de Tecnologia](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## Sobre os recursos em vídeo
 
@@ -197,42 +191,25 @@ Alguns vídeos estão disponíveis somente ao ingressar em um curso no Coursera,
 
 ## Processo de Entrevista e Preparação Geral para a Entrevista
 
-- [ ] Vídeos:
-    - [ ] [Como Trabalhar na Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [Como Trabalhar na Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [Como Trabalhar na Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [Como Trabalhar na Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
-
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] How to Get a Job at the Big 4:
+    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
 - [ ] Prep Courses:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-
-- [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/) (Falhando em Entrevistas da Google)
+    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
+        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
 
 ## Escolha Uma Linguagem para a Entrevista
 
-Eu escrevi um pequeno artigo sobre esse tema: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Importante: Escolha Uma Linguage para a Entrevista da Google)
-
-Você pode escolher uma linguagem com a qual você esteja confortável para fazer a parte de programação (parte prática) da entrevista, mas para a Google, essas são ótimas opções:
+Você pode escolher uma linguagem com a qual você esteja confortável para fazer a parte de programação (parte prática) da entrevista, mas para grandes empresas, essas são ótimas opções:
 
 - C++
 - Java
@@ -243,7 +220,7 @@ Você também poderia usar essas, mas dê uma lida por aí antes. Podem haver av
 - JavaScript
 - Ruby
 
-Você precisa estar confortável com a linguagem e ser bem informado. [1]*translator note > clarify with author: "knowledgeable about the chosen language or knowledgeable in general? (sobre programação em geral)*
+Você precisa estar confortável com a linguagem e ser bem informado.
 
 Leia mais sobre as escolhas:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
@@ -262,19 +239,15 @@ Essa é uma lista menor comparada à que eu usei. Está abreviado para economiza
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html) (Entrevistas de Programação Expostas: Segredos para Conseguir Seu Próximo Emprego, 2ª Edição)
     - respostas em C++ e Java
-    - recomendado no treinamento de candidatos da Google
     - esse é um bom aquecimento para o Cracking the Coding Interview (Decifrando a Entrevista de Programação)
     - não é muito difícil, a maioria dos problemas poderão ser mais fáceis que aqueles que você verá em uma entrevista (de acordo com o que li)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/) (Decifrando a Entrevista de Programação).
     - respostas em Java
-    - recomendado no [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/) (site de Carreiras da Google)
-    - Se você ver pessoas fazendo referência à "The Google Resume" (O Currículo da Google), foi um livro substituído por "Cracking the Coding Interview." (Decifrando a Entrevista de Programação).
 
 Se você tem muito tempo sobrando:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) (Elementos de Entrevistas de Programação)
-    - todo código em C++, muito bom se você está pensando em usar C++ na sua entrevista
-    - um bom livro sobre resolução de problemas em geral.
+- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836) (Elementos de Entrevistas de Programação (Versão C++))
+- [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/) (Elementos de Entrevistas de Programação (Versão Java))
 
 ### Arquitetura de Computador
 
@@ -301,7 +274,7 @@ Se você tem mais tempo (eu quero esse livro):
 
 ### Específico de Linguagem
 
-**Você precisa escolher uma linguagem para a entrevista (veja acima).** Aqui estão minhas recomendações por linguagem. Eu não conheço recursos para todas as linguagens. Contribuições de recursos aqui são bem-vindas.
+**Você precisa escolher uma linguagem para a entrevista (veja acima).** Aqui estão minhas recomendações por linguagem. Eu não tenho recursos para todas as linguagens. Contribuições são bem-vindas.
 
 Se você ler um desses, você deverá ter todo conhecimento de estrutura de dados e algoritmos que precisará para começar a resolver problemas de programação. 
 **Você pode pular todas as aulas em vídeo nesse projeto**, a não ser que você queira uma revisão.
@@ -315,7 +288,7 @@ Eu ainda não li esses dois, mas eles são muito bem avaliados e escritos por Se
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) (Algoritmos em C++, Partes 1-4: Fundamentos, Estrutura de Dados, Ordenação, Busca).
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/) (Algoritmos em C++ Parte 5: Algoritmos de Gráfico)
 
-Se você tiver uma recomendação melhor para C++, por favor me informe. Busco recursos completos. 
+Se você tiver uma recomendação melhor para C++, por favor me informe. Busco por recursos completos. 
 
 ### Java
 
@@ -354,18 +327,12 @@ OU:
                 - boas estórias da experiência dele resolvendo problemas na indústria e na universidade
                 - exemplo de código em C
             - contras:
-                - pode ser tão denso e impenetrável quanto CLRS (Introdução a Algoritmos), e em alguns casos, CLRS pode ser uma alternativa melhor para alguns temas
+                - pode ser tão denso ou impenetrável quanto CLRS (Introdução a Algoritmos), e em alguns casos, CLRS pode ser uma alternativa melhor para alguns temas
                 - capítulos 7, 8 e 9 podem ser sofridos para acompanhar, já que alguns itens não são bem explicados ou requerem mais cérebro do que eu tenho
                 - não me entenda mal: Eu gosto de Skiena, do estilo de ensino dele, e maneirismos, mas pode não ser um material do tipo da universidade Stony Brook.
         - catálogo de algoritmos
             - essa é a verdadeira razão para você comprar esse livro.
             - prestes a chegar nessa parte. Vou atualizar aqui assim que eu terminar de ler essa parte.
-    - Citando Yegge: "Mais que qualquer outro livro, esse me ajudou a compreender o quão surpreendentemente comum
-        (e importante) os problemas de gráficos são – eles devem ser parte do kit de ferramentas de cada programador profissional. Esse livro também
-        cobre o básico de estrutura de dados e algoritmos de ordenação, que é um ótimo bônus. Mas a mina de ouro é a segunda metade
-        do livro, a qual é um tipo de enciclopédia contendo páginas individuais (1-pagers) sobre zilhões de problemas úteis e várias formas de resolver
-        eles, sem muitos detalhes. Quase toda página individual (1-pager) contém uma foto simples, facilitando a memorização. Essa é uma
-        excelente maneira de aprender a identificar centenas de tipos de problemas."
     - Pode alugar no kindle
     - Half.com é um ótimo recurso para livros com bons preços.
     - Respostas:
@@ -375,7 +342,6 @@ OU:
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) (Introdução à Algoritmos)
     - **Importante:** Ler esse livro só terá um valor limitado. Esse livro é ótimo para revisão de algoritmos e estrutura de dados, mas não irá te ensinar a escrever um bom código. Você deve ser capaz de programar uma solução decente eficientemente.
-    - Citando Yegge: "Mas se você quer chegar nas suas entrevistas *preparado*, então considere adiar sua candidatura até que você tenha terminado de ler o livro."
     - Half.com é um ótimo recurso para livros com bons preços.
     - também conhecido como CLR, às vezes CLRS, porque Stein estava atrasado para o negócio
 
@@ -415,7 +381,7 @@ Faça o seu próprio, grátis:
 - [Minha base de dados de flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
 - [Minha base de dados de flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Pensando bem, eu fiz uma revisão e tive os cartões completos, abrangendo desde linguagem assembly e trivialidades de Python até aprendizado de máquina e estatísticas. É demais para o que é exigido pela Google. 
+Tenha em mente que eu exagerei e tenho cartas abrangendo desde linguagem assembly e trivialidades de Python até aprendizado de máquina e estatísticas. É demais para o que é requerido. 
 
 **Nota:** A primeira vez que você reconhece que sabe a resposta, não a marque como conhecida. Você tem que ver o mesmo cartão e respondê-lo várias vezes corretamente antes de realmente conhecê-lo. A repetição colocará esse conhecimento mais aprodundado em seu cérebro.
 

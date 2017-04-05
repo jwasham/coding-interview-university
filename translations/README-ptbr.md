@@ -486,165 +486,165 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Estrutura de Dados
 
 - ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
+    - Implementar um vetor de redimensionamento automático.
+    - [ ] Descrição:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s) (Arrays lineares e multidimensionais (vídeo))
+        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html) (Arrays básicos (vídeo))
+        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html) (Multidimensionais(vídeo))
+        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays) (Arrays Dinâmicos (vídeo))
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) (Arrays Multidimensionais (vídeo))
+        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html) (Arrays Multidimensionais (vídeo))
+        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html) (Arrays Dinâmicos)
+    - [ ] Implementar um vetor (array mutável com redimensionamento automático):
+        - [ ] Praticar programação usando arrays e ponteiros, e matemática de ponteiros para pular para um índice ao invés de usar indexação.
+        - [ ] novo array de dados brutos com memória alocada
+            - pode alocar array de números inteiros por de baixo dos panos, só não pode usar seus recursos
+            - começa com 16, ou se o número inicial for maior, usar potência de 2 - 16, 32, 64, 128
+        - [ ] size() - número de itens
+        - [ ] capacity() - número de itens que pode conter
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(index) - retorna o item que está no índice fornecido, dá erro se o índice estiver fora da capacidade do array
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - [ ] insert(índice, item) - insere "item" no "índice", muda o valor daquele índice e move os elementos excedentes para a direita
+        - [ ] prepend(item) - pode usar o insert acima no índice 0
+        - [ ] pop() - remove do final, retorna o valor
+        - [ ] delete(índice) - deleta o item no índice fornecido, deslocando todos os elementos excedentes para a esquerda
+        - [ ] remove(item) - busca pelo valor e remove o índice contendo ele (mesmo que esteja em múltiplos lugares)
+        - [ ] find(item) - busca pelo valor e retorna o primeiro índice com aquele valor, -1 se não encontrar
+        - [ ] resize(nova_capacidade) // função privada
+            - quando você atinge o limite da capacidade, redimensone para dobrar a capacidade
+            - quando estiver usando pop() em um item, se o tamanho for 1/4 da capacidade, redimensionar para a metade da capacidade
+    - [ ] Tempo
+        - O(1) para adicionar/remover no final (amortizado para alocações para mais espaço), índice ou atualização
+        - O(n) para inserir/remover em algum outro lugar
+    - [ ] Espaço
+        - contíguo na memória, então proximidade ajuda no desempenho
+        - espaço necessário = (capacidade do array, a qual é >= n) * tamanho do item, mas mesmo que seja 2n, ainda será O(n)
 
-- ### Linked Lists
-    - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
-        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+- ### Listas Ligadas
+    - [ ] Descrição:
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists) (listas ligadas individualmente (vídeo))
+        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5) (CS 61B - Listas Ligadas (vídeo))
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) (Código em C (vídeo))
+            - não o vídeo inteiro, apenas partes sobre estrutura de nodes (nós) e alocação de memória.
+    - [ ] Listas Ligadas vs Arrays:
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays) (Fundamental: Listas Ligadas vs Arrays (vídeo))
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays) (No Mundo Real: Listas Ligadas vs Arrays (vídeo))
+    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo) (por que você deve evitar listas ligadas (vídeo))
+    - [ ] Peguei vocês: você precisa de conhecimento de ponteiro para ponteiro:
+        (para quando você passar um ponteiro para uma funcção que poderá mudar o endereço para o qual o ponteiro aponta)
+        Essa página é só para ter uma noção sobre ponteiro para ponteiro. Eu não recomendo o estilo transversal dessa lista. Legibilidade e manutenção sofrem devido à engenhosidade.
+        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html) (Ponteiros para Ponteiros)
+    - [ ] implementar (eu fiz com e sem ponteiro de cauda, ponteiro que aponta para o último node (nó) da lista):
+        - [ ] size() - retorna o número de elementos de dados na lista
+        - [ ] empty() - boleano retorna verdadeiro se estiver vazio
+        - [ ] value_at(índice) - retorna o valor do item n (começando no 0 para o primeiro)
+        - [ ] push_front(valor) - adiciona um item no início da lista, logo antes do seu atual primeiro elemento
+        - [ ] pop_front() - remove o item do início da lista e retorna o seu valor
+        - [ ] push_back(valor) - adiciona um item no final da lista
+        - [ ] pop_back() - remove um item do final e retorna seu valor
+        - [ ] front() - obtém valor do item que está no início da lista
+        - [ ] back() - obtém valor do item que está no final da lista
+        - [ ] insert(índice, valor) - insere "valor" no "índice", e então o item atual naquele índice é apontado pelo novo item no "índice"
+        - [ ] erase(índice) - remove o node (nó) no índice fornecido
+        - [ ] value_n_from_end(n) - retorna o valor do node (nó) na posição n a partir do final da lista
+        - [ ] reverse() - reverte a lista
+        - [ ] remove_value(valor) - remove o primeiro item na lista com esse valor
+    - [ ] Listas Ligadas Duplamente
+        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists) (Descrição (vídeo))
+        - Não há necessidade de implementar
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html) (Usando Stacks Último a Entrar Primeiro a Sair (vídeo))
+    - [ ] Não implementarei. Implementar com array é trivial.
 
-- ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+- ### Queue (Fila)
+    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html) (Usando queues FIFO(Primeiro a entrar, último a sair) (vídeo))
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) (Buffer circular/Primeiro a entrar, último a sair)
+    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html) (Queues com Prioridade (vídeo))
+    - [ ] Implementar usando lista ligada, com ponteiro de cauda (aponta para o último elemento de uma lista):
+        - enqueue(valor) - adiciona "valor" na posição na cauda (final da lista)
+        - dequeue() - retorna um valor e remove o elemento menos recentemente adicionado (início da lista))
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Implementar usando arrays de tamanho-fixo:
+        - enqueue(valor) - adiciona um item no final do armazenamento disponível
+        - dequeue() - retorna um valor e remove um elemento menos recentemente adicionado 
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Custo:
+        - uma implementação ruim usando lista ligada na qual você coloca na fila (enqueue) no head (cabeça/início da lista) e tira da fila (dequeue) no tail (cauda/final da lista) seria O(n)
+            porque você precisaria do penúltimo elemento, causando uma transversal completa a cada dequeue 
+        - enqueue: O(1) (amortizado, lista ligada e array [sondagem])
+        - dequeue: O(1) (lista ligada e array)
+        - empty (vazio): O(1) (lista ligada e array)
 
-- ### Hash table
+- ### Tabela hash (no português: Tabela de dispersão)
     - [ ] vídeos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8) (Hashing com Encadeamento (vídeo))
+        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Duplicação de Tabela, Karp-Rabin (vídeo))
+        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Endereçamento Aberto, Hashing Criptográfico (vídeo))
+        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68) (PyCon 2010: O Poderoso Dicionário (vídeo)
+        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11) ((Avançado) Randomização: Hashing Perfeito & Universal (vídeo))
+        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4) ((Avançado) Hashing perfeito (vídeo))
 
-    - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
-        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
-        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] distributed hash tables:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+    - [ ] Cursos Online:
+        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html) (Compreendendo Funções Hash (vídeo))
+        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html) (Usando Tabelas Hash (vídeo))
+        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html) (Hashing de Suporte (vídeo))
+        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html) (Tabelas Hash de Suporte de Linguagem (vídeo))
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables) (Fundamental: Tabelas Hash (vídeo))
+        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3) (Estruturas de Dados (vídeo))
+        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem) (Problema da Lista Telefônica (vídeo) )
+        - [ ] tabelas hash distribuídas:
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox) (Uploads Instantâneos E Otimização de Armazenamento no Dropbox (vídeo))
+            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables) (Tabelas Hash Distribuídas (vídeo))
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+    - [ ] implementar com array usando sondagem linear
+        - hash(k, m) - m é o tamanho da tabela hash
+        - add(chave, valor) - se a chave já existe, atualizar o valor
+        - exists(chave)
+        - get(chave)
+        - remove(chave)
 
 ## Mais Conhecimento
 
-- ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+- ### Busca binária
+    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno) (Busca Binária (vídeo))
+    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search) (Busca Binária (vídeo))
+    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) (detalhes)
+    - [ ] Implementar:
+        - busca binária (em um array ordenado de números inteiros)
+        - busca binária usando recursividade
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+- ### Lógica binária 
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) (Folha de consultas sobre Bits) - você deve conhecer várias das potências de 2 de (2^1 até 2^16 e 2^32)
+    - [ ] Consiga um bom entendimento sobre manipular bits com: &, |, ^, ~, >>, <<
+        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture)) (palavras)
+        - [ ] Boa introdução:
+            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I) (Manipulação de Bit (vídeo))
+        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0) (Tutorial de Programação em C 2-10: Operadores Binários (vídeo))
+        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation) (Manipulação de Bit)
+        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation) (Lógica Binária)
+        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html) (Snippets/Fragmentos de código, um tipo de cheatsheet (folha de consultas))
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
-        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
-        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] round to next power of 2:
-        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
-        - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
-        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html) (Interativo)
+    - [ ] Complemento de 2s e 1s
+        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4) (Binário: Vantagens & Desvantagens (Por Que Usamos Complemento de 2s) (vídeo))
+        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement) (Complemento de 1s)
+        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement) (Complemento de 2s)
+    - [ ] contagem de bits fixos
+        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc) (4 maneiras de contar bits em um byte (vídeo))
+        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan) (Contagem de Bits)
+        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer) (Como Contar O Número De Bits Fixos Em um Número inteiro de 32 bits)
+    - [ ] arredondar para a próxima potência de 2:
+        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html) (Arredondar Para Cima Para A Próxima Potência De Dois)
+    - [ ] trocar valores:
+        - [Swap](http://bits.stephan-brumme.com/swap.html) (Trocar)
+    - [ ] valor absoluto:
+        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html) (Número Inteiro Absoluto)
 
 ## Trees
 
@@ -687,7 +687,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
+    - [ ] Implementar:
         - [ ] insert    // insert value into tree
         - [ ] get_node_count // get count of values stored
         - [ ] print_values // prints the values in the tree, from min to max
@@ -781,7 +781,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
+- [ ] Implementar:
     - [ ] Mergesort: O(n log n) average and worst case
     - [ ] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case

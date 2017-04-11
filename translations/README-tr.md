@@ -36,17 +36,10 @@ Burada listelenen öğeler devlerde dahil olmak üzere (Amazon, Facebook, Google
 
 ## Bu Nedir?
 
-Bu rehber bir web geliştiricinin (kendi kendini eğitmiş, BT derecesi olmayan) büyük bir şirkette yazılım mühendisi olabilmek için aylık çalışma planı.
+Bu rehber bir web geliştiricinin (kendi kendini eğitmiş, BT derecesi olmayan) büyük bir şirkette yazılım mühendisi olabilmesi için aylık çalışma planı olarak hazırlanmıştır.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
  
-Bu rehber yeni mezun yazılım mühendisleri veya yazılım / web geliştiriciler'in Yazılım Mühendisliği'ne geçişi için hazırlanmıştır.
-Uzun yıllara dayanan tecrübeniz veya uzun yıllardır yazılım mühendisliği deneyimi yaşıyorsanız, daha zor bir mülakat bekleyin ve 
-
-
-Bu, yeni yazılım mühendisleri ** veya yazılım / web geliştirme yazılım mühendisliğine (bilgisayar bilimi bilgisinin gerekli olduğu yerlerde) geçen yazılım mühendisleri içindir **. 
-Uzun yıllara dayanan tecrübeniz varsa ve uzun yıllar yazılım mühendisliği deneyimi yaşıyorsanız, daha zor bir röportaj bekleyin ve 
-Google, Amazon, Facebook ve Microsoft gibi büyük yazılım şirketlerinin yazılım mühendisliğini, yazılım/web geliştiricilerden farklı gördüğünü ve bilgisayar bilimi bilgisine ihtiyaç duyduklarını unutmayın.
-Eğer güvenlik mühendisi veya sistem mühendisi olmak istiyorsanız, bu listeden daha fazla çalışın (ağ oluşturma, güvenlik...).
+Yeni mezun yazılım mühendisleri veya yazılım / web geliştiriciler'in Yazılım Mühendisliği'ne geçişi için hazırlanan bu rehberde uzun yıllara dayanan tecrübeniz varsa veya uzun yıllardır yazılım mühendisliği deneyimi yaşıyorsanız, daha zor bir mülakat bekleyin ve Google, Amazon, Facebook ve Microsoft gibi büyük yazılım şirketlerinin yazılım mühendisliğini, yazılım/web geliştiricilerden farklı gördüğünü ve bilgisayar bilimi bilgisine ihtiyaç duyduklarını unutmayın. Eğer güvenlik veya sistem mühendisi olmak istiyorsanız, bu listeden daha fazla çalışın (ağ oluşturma, güvenlik...).
 
 ---

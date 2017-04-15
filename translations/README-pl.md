@@ -1,53 +1,65 @@
-# الإعداد لجوجل
+# Google Interview University - Uniwersytet przygotowujący do rozmowy kwalifikacyjnej w Google
 
-الترجمه: 
+Oryginał (angielski): https://github.com/jwasham/google-interview-university
+
+>**Pierwotnie, to była mała lista rzeczy do nauki, ale urosła ona do dużych rozmiarów, jak to można dzisiaj zobaczyć.
+Praca w Google była główną motywacją, stąd nazwa. [Nie dostałem się do Google'a](https://googleyasheck.com/i-didnt-get-hired-heres-why/),
+ale nazwa pozostanie taka sama, bo zmiana mogła by zmylić wielu z was. Zagadnienia zawarte tutaj, przygotują was do pracy w każdej firmie,
+wliczając w to gigantów: Amazon, Microsoft, Google i Facebook.**
+>
+>*Powodzenia!*
+
+Tłumaczenia:
 - [中文版本](translations/README-cn.md)
-- الترجمات تحت الاعداد:
-    - [Español](https://github.com/jwasham/google-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
-    - [French](https://github.com/jwasham/google-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/google-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
-    - [Korean](https://github.com/jwasham/google-interview-university/issues/118)
-    - [Polish](https://github.com/jwasham/google-interview-university/issues/122)
+- Niekompletne tłumaczenia:
+	- [Español](https://github.com/jwasham/google-interview-university/issues/80)
+	- [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
+	- [עברית](https://github.com/jwasham/google-interview-university/issues/82)
+	- [Bahasa Indonesia](https://github.com/jwasham/google-interview-university/issues/101)
+	- [Arabic](https://github.com/jwasham/google-interview-university/issues/98)
+	- [Vietnamese](https://github.com/jwasham/google-interview-university/issues/92)
+	- [Turkish](https://github.com/jwasham/google-interview-university/issues/90)
+	- [French](https://github.com/jwasham/google-interview-university/issues/89)
+	- [Russian](https://github.com/jwasham/google-interview-university/issues/87)
+	- [Ukrainian](https://github.com/jwasham/google-interview-university/issues/106)
+	- [Brazilian Portuguese](https://github.com/jwasham/google-interview-university/issues/113)
+	- [Korean](https://github.com/jwasham/google-interview-university/issues/118)
+	- [Polish](https://github.com/jwasham/google-interview-university/issues/122)
 
-## ماهذا؟
-هي خطة من عدة أشهر من مطور تطبيقات ويب (قائمة على التعليم الذاتي، ومبدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات بجوجل
+## Co to jest?
+Jest to mój wielomiesięczny program nauczania mający na celu awans z poziomu web developera (samouka, bez studiów informatycznych)
+do poziomu inżyniera oprogramowania w Google.
 
+![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-![HBO كتابة الكود علي السبورة - من وادي السيليكون](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+Znajdziesz tutaj wiele rzeczy związanych z Google, ale starałem się uogólnić tę listę, aby była przydatna dla każdego.
 
-هذه القائمة الطويلة تم إعدادها من ملاحظات الإعداد لجوجل، لذلك هي الأشياء مطالب بمعرفتها.
-هناك أشياء إضافية أضفتها في آخر القائمة التي ربما تأتي في المقابلة الشخصية أو تساعد في حل المشاكل البرمجية. كتيرا من العناصر من: كتاب ستيف ياج "[احصل على وظيفة بجوجل](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" ومن حين لآخر ملاحظات الإعداد لجوجل.
-لقد قلصت ماستحتاجه من ملاحظات ياج. وقمت بتعديل متطلبات ياج.
-من معلومات تم الحصول عليها من معارفي بجوجل. هذا يعني أنه من **من مهندسين برمجيات جدد** أو من الذين غيروا مسار العمل من تطوير الويب والبرمجيات إلى مهندس برمجيات(حيث علوم الحساب أمر أساسي). لو لديك كتير من سنوات الخبرة في هندسة البرمجيات توقع المقابلة الشخصية الأصعب.
-[اقرأ المزيد](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Ta długa lista została napisana na podstawie porad i wskazówek Google'a, więc znajdziesz tu rzeczy, które musisz wiedzieć.
+Są tutaj też dodatkowe rzeczy, które dodałem na końcu, mogące pojawić się na rozmowie kwalifikacyjnej lub okazać się pomocne
+w rozwiązywaniu problemów. Wiele pozycji jest z "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" od Steva Yegge i czasem są też przepisane słowo w słowo z notek Google'a.
 
-إذا كان لديك العديد من سنوات الخبرة في بناء تطبيقات الويب أو البرمجيات، لاحظ أن رؤية جوجل لهندسة البرمجيات تختلف عن منظور تطوير التطبيقات أو البرمجيات وتطلب معرفة بعلوم الحاسب.
+Wybrałem to co musisz wiedzieć spośród rzeczy zalecanych przez Yegge'a. Poprawiłem także listę wymagań podanych przez niego
+na podstawie informacji, które otrzymałem od swojego kontaktu w Google. Projekt jest napisany z myślą o **początkujących inżynierach oprogramowania**
+lub tych, którzy przerzucają się z oprogramowania/web-devu na inżynierę oprogramowania, gdzie informatyka (computer science) jest potrzebna. Jeżeli masz wiele lat doświadczenia, spodziewaj się trudniejszej rozmowy kwalifikacyjnej.
+[Przeczytaj więcej tutaj (EN)](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-أذا كنت تريد أن تصبح مهندس أنظمة أو مهندس ++، اقرأ المزيد من القائمة الاختيارية عن(شبكات الحاسب، والحماية).
+Weź pod uwagę fakt, iz Google traktuje oprogramowanie/web-dev inaczej niż inżynierę oprogramowania
+i wymagają szczegołowej wiedzy z zarkesu informatyki.
+
+Jeśli chcesz być inżynierem ds. niezawodności i bezpieczeństwa lub systemów, ucz się
+więcej z dodatkowej listy (sieć, bezpieczeństwo).
 
 ---
 
-## الفهرس
+## Table of Contents
 
-- [ماهذا؟](#what-is-it)
-- [لماذا استخدمه؟](#why-use-it)
-- [كيفية استخدامها](#how-to-use-it)
-- [الدخول في مزاج جوجلي](#get-in-a-googley-mood)
-- [هل حصلت علي الوظيفه؟](#did-i-get-the-job)
-- [تابعني باستمرار](#follow-along-with-me)
-- [هل تشعر أنك لست بالذكاء الكافي](#dont-feel-you-arent-smart-enough)
-- [عن جوجل](#about-google)
-- [عن مصادر الفديو](#about-video-resources)
-- [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#interview-process--general-interview-prep)
-- [اختر لغة برمجية واحدة للمقابلة البرمجية](#pick-one-language-for-the-interview)
+- [Co to jest?](#co-to-jest)
+- [Dlaczego?](#dlaczego)
+- [Jak używać?](#jak-używać)
+- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [About Video Resources](#about-video-resources)
+- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
@@ -157,25 +169,26 @@
 - [Computer Science Courses](#computer-science-courses)
 
 ---
-## لماذا استخدمه؟
 
-أقوم بمتابعة هذه الخطة لتحضير إلى المقابلة الشخصية بجوجل. لقد قمت بناء مواقع ويب، وتقديم خدمات ذات صلة، وبناء شركات ناشئة منذ 1997. لدي درجة علمية في الاقتصاد، وليس في علوم الحاسب. أنا شخص ناجح في مجال عملي، ولكنني أريد أن أعمل بجوجل. أريد أن أعمل على أنظمة كبيرة والحصول على فهم كبير في أنظمة الحاسوب، كفاءة الخوارزميات، كقاءة الهياكل البيانية، اللغات الأقرب إلى الآلة وكيفية عملها. وإذ لم تعرف أين منها لن تعينك جوجل.
+## Dlaczego?
 
-عندما بدأت هذا المشروع، لم أكن أعرف الإستاك "stack" من الهيب "heap"، ولم أكن أعرف المعامل الأعلى في قياس كفاءة الخوارزميات "Big-O"، ولا عن التري "tree"، أو عن زيارة الجراف "graph".
-إذا كان عليا أن أصنع برنامج عن الترتيب، سأخبرك أنه ليس على درجة عالية من الكقاءة.
+Kiedy zaczynałem ten projekt, nie odróżniałem stacka od heapu, nie wiedziałem o żadnej notacji "duże O", nic o drzewkach,
+ani jak przeszukiwać graf. Gdybym miał napisać algorym sortujący, mówię Ci, byłby zły. Każda struktura danych, którą używałem
+była wpudowana w język, kompletnie nie wiedziałem jak działają. Nigdy nie musiałem zarządzać pamięcią, dopóki proces nie wyrzucił
+błędu o "braku pamięci". Używałem kilku wielowymiarowych tablic i tysięcy tablic asocjacyjnych w swoim życiu, ale nigdy
+nie stworzyłem struktury od podstaw.
 
-كل هياكل البيانات التي استخدمتها كانت من الأشياء السابق إعدادها في اللغة البرمجية, ولم أعرف كيفية عملها من الداخل. لم أعرف إطلاقا كيفية تنظيم الذاكرة مالم أحصل على "خارج نطاق الذاكرة" من عملية برمجية، وعندها كان عليا أن أجد طريقة ما لتحايل على الأمر. لقد استخدمت مصفوفة من أكثر من بعد في مرات قليلة, وألاف من المصفوفات المترابطة، لكن لم أنشأ هياكل بيانات من البداية.
-لكن عند المضي قدما في هذه الدراسة وجدت أني على ثقة عالية من أنه سيتم توظيفي. إنها خطة طويلة، أخدت مني شهور. إذا كانت على دراية من كثير من هذه الأشياء ستأخد وقتا أقل.
+To długi plan. Może zająć Ci nawet kilka miesięcy. Jeśli jednak jesteś zaznajomiony z tymi rzeczami, zajmie Ci to o wiele mniej czasu.
 
-## كيفية استخدامها
+## Jak używać?
 
-كل عنصر من هذه القائمة مرتب لذلك عليم أن تتبع العناصر من أعلى إلى أسفل.
-سأستخدم خاصية تعليم ماأنجز من الجيت هب "Github" لمتابعة التقدم.
+Wszystko co znajdziesz poniżej jest planem, powinieneś zaznaczać wpisy od góry do dołu.
 
+Używam specjalniej, GitHubowej odmiany markdowna.
 
-**اصنع مسار جديد يمكن من خلاله أن تضع علامة [x]**
+**Stwórz nową gałąź (branch), abyś mógł zaznaczać element stawiając x w nawiasie, tj. [x]**
 
-    احصل على نسخة خاصة "fork" بك واتبع هذه الأوامر 
+	Zforkuj galąź i wpisz poniższe polecenia
 
 `git checkout -b progress`
 
@@ -183,7 +196,7 @@
 
 `git fetch --all`
 
-    دون بعلامة X بعد الإنتهاء من دراسة العنصر
+	Zaznacz wszystkie pola X-em kiedy skończysz.
 
 `git add . `
 
@@ -193,139 +206,65 @@
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Więcej o markdownie na GitHubie](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## الدخول في مزاج جوجلي
-
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
-
-## هل حصلت على الوظيفة بجوجل؟
-
-أنا في قائمة الانتظار الآن. على أمل أن أذهب للمقابلة الشخصية قريبا.
-
-
-    الشكر لل JP
-
-
-## تابعني باستمرار
-
-قصتي: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
-
-I'm on the journey, too. Follow along:
- 
-
-- **المدونة**: [GoogleyAsHeck.com](https://googleyasheck.com)
-- تويتر: [@googleyasheck](https://twitter.com/googleyasheck)
-- تويتر: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- جوجل بلس+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- لينكدإن: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
-
-## هل تشعر أنك لست بالذكاء الكافي
-- مهندسوا جوجل أذكياء، وربما لديهم عدم الأمان لأنهم ليسوا بالذكاء الكافي، حتى وهي في جوجل
-
+## Don't feel you aren't smart enough
+- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## عن جوجل
+## About Video Resources
 
-- [ ] لطلبه - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] كيف يعمل محرك البحث:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
+Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
+Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
 
-## عن مصادر الفديو
-
-بعض الفديوهات متاحة فقط عن طريق الاشتراك في كورسيرا "Coursera"، إيدكس "Edx" أو ليندا "Lynda.com". يطلق عليهم موكس"MOOCS".
-بعض الأحيان الدروس ليست متاحة في كل الأوقات لذلك عليك الانتظار عدة أشهر حتى تكون متاحة للالتحاق بها. دروس ليندا "Lynda" ليست مجانية.
-
-أقدر مساعدتك لإضافة مصارد متاحة دائما مثل اليوتيوب "Youtube" أو مصادر أخرى متاحة.
-
-    أفضل استخدام مصادر الجامعات.
+    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
+    I like using university lectures.
 
 
+## Interview Process & General Interview Prep
 
-## مراحل المقابلة الشخصية & الإستعداد العام للمقابلة
+- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] How to Get a Job at the Big 4:
+    - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
-- [ ] Videos:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
-
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - درب نفسك كيفية الإستعداد للمقابلة الشخصية من ممثلين بشركة جوجل.
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
-
-- [ ] Prep Courses:
+- [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
 
-- [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+## Pick One Language for the Interview
 
+You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
 
-## اختر لغة برمجية واحدة للمقابلة البرمجية
+- C++
+- Java
+- Python
 
-كتبت مقال قصير عن هذا: [أهمية اختبار لغة برمجية واحدة لمقابلة جوجل](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+You could also use these, but read around first. There may be caveats:
 
-يمكن استخدام اللغة التي ترى أنك تشعر بارتياح فيها لإداء جزء البرمحة من المقابلة الشخصية، لكن لجوجل هناك أربع اخبارات فوية:
+- JavaScript
+- Ruby
 
-- السي بلس بلس "++C"
-- الجافا "Java"
-- البايثون "Python"
+You need to be very comfortable in the language and be knowledgeable.
 
-يمكن أيضا استخدام هؤلاء لكن اقرأ عنهم أولا. ربما هم من المحاذير
-
-- الجافا سكربت "JavaScript"
--الروبي "Ruby"
-
-ستحتاج أن تشعر بارتياح للغة والإلمام بها
-
-اقرأ المزيد عم الاختيارات:
+Read more about choices:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
-- https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[شاهد مصادر اللغات من هنا](programming-language-resources.md)
+[See language resources here](programming-language-resources.md)
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
-## قائمة الكتب
+## Book List
 
-هذه قائمة من العناصر التي استحدمتها. تم اختصارها للمحافظة على الكتب.
+This is a shorter list than what I used. This is abbreviated to save you time.
 
-### التحضير للمقابلة الشخصية
-
+### Interview Prep
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - answers in C++ and Java
@@ -335,7 +274,6 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
     - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
 If you have tons of extra time:
 
@@ -343,7 +281,7 @@ If you have tons of extra time:
     - all code is in C++, very good if you're looking to use C++ in your interview
     - a good book on problem solving in general.
 
-### بنية الحاسوب
+### Computer Architecture
 
 If short on time:
 
@@ -359,20 +297,19 @@ If short on time:
         - Chapter 7 - Composite Data Types and Memory Objects
         - Chapter 9 - CPU Architecture
         - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization 
+        - Chapter 11 - Memory Architecture and Organization
 
 If you have more time (I want this book):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
     - For a richer, more up-to-date (2011), but longer treatment
 
+### Language Specific
 
-### تحديد اللغة
+**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
 
-**عليك اختيار لغة واحدة للمقابلة الشخصية (انظر للأعلى).** هنا بعض التوصيات للغات. لا أملك كل المصادر للغات. ارجب بالإضافة
-
-إذا قرأت واحدا فقط من هذه المصارد، سيكون لديك كل الهياكل البيانية والخوارزميات للبدء في المشاكل البرمجية.
-**يمكن تخطي كل محاضرات الفديو في هذا المشروع**، في حالة إذا لا تريد أن تلقي النظر عليهم
+If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
+**You can skip all the video lectures in this project**, unless you'd like a review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
 
@@ -380,7 +317,7 @@ If you have more time (I want this book):
 
 I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) 
+- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
@@ -405,7 +342,7 @@ OR:
     - by Goodrich, Tamassia, Goldwasser
     - I loved this book. It covered everything and more.
     - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 
 ### Optional Books
@@ -452,44 +389,45 @@ OR:
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
+    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## قبل البدء
+## Before you Get Started
 
-هذه القائمة تمتد لأشهر نعم وهذا ما باليد حيلة.
-هنا بعض الأخطاء التي فعلتها لذا لديك فرصة أفضل.
+This list grew over many months, and yes, it kind of got out of hand.
 
+Here are some mistakes I made so you'll have a better experience.
 
-### 1. لن تتذكر هذا كله
-لقد شاهدت ساعات من الفديوهات وأخذت مدونات لها، وبعد شهور لم أتذكر شيئا. استغرقت 3 أيام لمراجعة مادرسته وعمل فلاش كارد للتذكري.
+### 1. You Won't Remember it All
 
+I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
+through my notes and making flashcards so I could review.
 
-اقرأ من فضلك لعدم ارتكاب الأخطاء:
+Read please so you won't make my mistakes:
 
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. استخدام الفلاش كار
-لحل المشكلة، صنعت مجموعة من الفلاش كارد ضمن فئتين: عام و كود.
-كل كارد لديه تنسيق خاص.
+### 2. Use Flashcards
 
+To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
+Each card has different formatting.
 
-عملت موقع خاص بي لذا يمكن أن استخدم التابلت للمراجعة.
+I made a mobile-first website so I could review on my phone and tablet, wherever I am.
 
-اصنع واحدا منها لك مجانا:
+Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
 your brain.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
+An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
 It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
@@ -548,9 +486,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
+        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms) 
+        - [answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **How computers process a program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
@@ -1013,7 +951,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
         - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
             - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
+        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension but not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
         - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
@@ -1111,6 +1049,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - livelock
         - CPU activity, interrupts, context switching
         - Modern concurrency constructs with multicore processors
+        - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
+        - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+        - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
         - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
         - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
@@ -1193,15 +1134,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-    
+
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 ---
 
 ## System Design, Scalability, Data Handling
 - **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since 
-      there is a lot to consider when designing a software/hardware system that can scale. 
+- Scalability and System Design are very large topics with many topics and resources, since
+      there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this.
 - Considerations from Yegge:
     - scalability
@@ -1412,6 +1353,10 @@ Take coding challenges every day, as many as you can.
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
+Coding Interview Question Videos:
+- [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+
 Challenge sites:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
@@ -1422,9 +1367,11 @@ Challenge sites:
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
-Maybe:
-- [Mock interviewers from big companies](http://www.gainlo.co/)
+Mock Interviews:
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 
 ## Once you're closer to the interview
 
@@ -1448,7 +1395,7 @@ Have a story, not just data, about something you accomplished.
 - What's a tough problem you've solved?
 - Biggest challenges faced?
 - Best/worst designs seen?
-- Ideas for improving an existing Google product.
+- Ideas for improving an existing product.
 - How do you work best, as an individual and as part of a team?
 - Which of your skills or experiences would be assets in the role and why?
 - What did you most enjoy at [job x / project y]?
@@ -1475,8 +1422,6 @@ Have a story, not just data, about something you accomplished.
 
 Congratulations!
 
-- [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
-
 Keep learning.
 
 You're never really done.
@@ -1486,7 +1431,7 @@ You're never really done.
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. These are my recommendations, not Google's.
+    Everything below this point is optional.
     By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
     any software engineering job. You'll be a much more well-rounded software engineer.
 
@@ -1507,8 +1452,6 @@ You're never really done.
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - aka the "Gang Of Four" book, or GOF
     - the canonical design patterns book
-- [ ] [Site Reliability Engineering](https://landing.google.com/sre/book.html)
-    - [Site Reliability Engineering: How Google Runs Production Systems](https://landing.google.com/sre/)
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
 ## Additional Learning
@@ -1622,6 +1565,9 @@ You're never really done.
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
     - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] Sockets:
+        - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+        - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 - ### Computer Security
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
@@ -2030,4 +1976,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

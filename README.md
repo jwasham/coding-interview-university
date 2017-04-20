@@ -1271,7 +1271,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:

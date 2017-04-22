@@ -244,7 +244,7 @@ Potresti anche usare queste ma prima leggi in giro. Ci possono essere dei caveat
 - JavaScript
 - Ruby
 
-Devi trovarti molto bene con il linguaggio e conoscerlo bene
+Devi trovarti molto bene con il linguaggio e conoscerlo bene.
 
 A proposito di questa scelta:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
@@ -272,14 +272,14 @@ Se hai molto più tempo libero:
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
 
-### Computer Architecture
+### Architettura di un elaboratore
 
-If short on time:
+Se sei a corto di tempo:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - Il libro fu pubblicato nel 2004, ed è diventato vecchio, ma è una risorsa fantastica per capire un calcolatore in poco tempo.
+    - L'autore ha inventato HLA, quindi prendi con i guanti i riferimenti e gli esempi che sono scritti in HLA. Non è molto usato, ma mostra come si presenta il linguaggio Assembly.
+    - Questi capitoli valgono la pena di essere letti per fornirti delle buone basi sull'argomento:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -290,55 +290,55 @@ If short on time:
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 
-If you have more time (I want this book):
+Se hai a disposizione più tempo (Io vorrei questo libro):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - Per un'edizione più ricca e aggiornata, ma per una trattazione più approfondita.
 
-### Language Specific
+### Specifico per il linguaggio
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Devi scegliere un linguaggio per il colloquio(guarda sopra).** Questi sono i miei consigli a seconda del linguaggio scelto. Aggiunte sono ben accette.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Se guardi e studi attraverso una di queste risorse, dovresti ottenere tutta la conoscenza di cui hai bisogno in merito ad algoritmi e strutture dati che ti servirà per risolvere problemi di programmazione.
+**Puoi saltare tutte le lezioni video in questo progetto**, a meno che tu non voglia una recensione.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Risorse aggiuntive, specifiche per il linguaggio.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Non ho letto questi due, ma sono molto ben recensiti e scritti da Sedgewick. Lui è fantastico.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Se hai consigli migliori per C++, fammi sapere per favore. Sto cercando risorse utili alla comprensione di questi argomenti.
 
 ### Java
 
 - [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
+    - video con contenuti del libro (e Sedgewick!):
         - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
         - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
 
-OR:
+OPPURE:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - scritto da Goodrich, Tamassia, Goldwasser
+    - usato come libro di testo opzionale per il corso di introduzione a Informatica presso UC Berkely
+    - guarda la mia recensione del libro nella versione per Python più in basso. Questo libro ricopre gli stessi argomenti.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - scritto da Goodrich, Tamassia, Goldwasser
+    - ho amato questo libro. Ha ricoperto più del necessario.
+    - codice Python
+    - la mia recensione : https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### Libri opzionali
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**Alcune persone consigliano questi libri, ma penso che vadano oltre l'obiettivo, a meno che tu non abbia molti anni di esperienza in ingegneria del software e che ti aspetti un colloquio molto più difficile:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition

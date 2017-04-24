@@ -6,10 +6,11 @@
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-यह लम्बी सूची **गूगल कोचिंग नोट्स** से उद्धरण एव विस्तारित की गयी हैं, ताकि इन बातो को आपको पता चल सके. मैंने आपके इंटरव्यू में मदद कर सकने वाले कुछ अतिरिक्त विषय सूचि के, आखिर में डाले है. 
+यह सामुग्री नये सॉफ्टवेयर इंजिनियर या जो सॉफ्टवेयर/वेब डेवलपमेंट से सॉफ्टवेर इंजीनियरिंग (जहा कंप्यूटर साइंस का ज्ञान जरुरी हे) में प्रवेश करना चाहते हे उनके लिए हे. अगर आपके पास अनेक वर्षो का अनुभव हैं तो आपका इंटरव्यू कठिन हो सकता हैं.
 
-अनेक विषय, **स्टीव येग्गे** की "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" से हैं. 
+अगर आपके पास कई सालो का सॉफ्टवेर/वेब डेवलपमेंट का अनुभव हैं तो ध्यान दे की बड़ी कंपनिया जैसे गूगल, Amzaon, फेसबुक और माइक्रोसॉफ्ट सॉफ्टवेर इंजीनियरिंग सॉफ्टवेर/वेब डेवलपमेंट से अलग समज़ती हैं, और आपको कंप्यूटर साइंस का ज्ञान होना जरुरी हैं
 
+अगर आपको रिलायबिलिटी इंजिनियर या सिस्टम इंजिनियर बनना हैं तो वैकल्पिक सूचि से ज्यादा अद्धयन करे.
 ---
 
 ## अनुक्रमणिका
@@ -55,7 +56,7 @@
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
     - [गार्बेज कलेक्शन](#garbage-collection)
     - [काशेस](#caches)
-    - [Processes and Threads](#processes-and-threads)
+    - [प्रोसेस और थ्रेड](#processes-and-threads)
     - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
     - [Papers](#papers)
     - [Unicode](#unicode)
@@ -105,8 +106,6 @@
 
 ## इसका उपयोग क्यू करे?
 
-मैं यह योजना का अनुपालन गूगल इनेर्विएव के तयारी के लिए कर रहा हूँ. मैं १९९७ से वेब, सर्विसेज और स्टार्टअप का निर्माण कर रहा हूँ. मेरे पास संगणक शात्र की पदवी ना होक अर्थशात्र की पदवी हैं. मैं अपने कैरियर में बहुत सफल रहा हूँ, पर मुजे गूगल में काम करने की इच्छा हें. मैं एक बड़े सिस्टम में प्रगति और कंप्यूटर प्रणालियों की एक असली समझ प्राप्त करना चाहते हु, अल्गोरिथम की निपुणता, डाटा स्ट्रक्चर का निष्पादन,
-लो-लेवल भाषाए, और वो कैसे काम करती हें. और अगर आपको एनमेंसे किसी की जानकारी नहीं हे तो गूगल आपको नियुन्क्त नहीं करेगा.
 मैंने जब ये परियोजना शुरू की, तब मैं स्टैक और  हीप में फरक नहीं जनता था, मुजे नहीं पता था की Big-O क्या हे, ट्रीज क्या हे, या ग्राफ को पार कैसे करते हैं. अगर मुजे छाटने का अल्गोरिथम लिखना पड़ता तो मैं आपको ये बता सकता हु के वो इतना ख़ास नहीं होगा. जो भी डाटा स्ट्रक्चर का मैंने उपयोग किया वो भाषा में समाविष्ट था, और वो कैसे काम करता हे उसकी कोई जानकारी मुजे नहीं थी. मुजे कभी मेमोरी का संचालन नहीं करता पड़ा, जबतक मेरी चलाई कोई प्रोसेस "out of
 memory" का एरर न दे, और तब मुजे कोई वैकल्पिक हल धुन्दाना पड़ता था. मैंने मेरी जिन्दगी में  बहोत कम मुल्ती-डायमेंशनल ऐरे और बहोत सारे अस्सोसिअतिव् ऐरे का उपयोग किया हे, पर मैंने कोई भी डाटा स्ट्रक्चर शुरू से नहीं लिखा था.
 पर इस अध्ययन योजना का उपयोग करने बाद मेरा नौकरी लगाने का  आत्मविश्वास बहोत बढ़ा हें. यह एक लम्बी योजना हें. यह मेरे लिए बहोत महीनोतक चलेगी. अगर आपको ईंमैसे कुछ पता हैं तो आपको कम वक्त लगेगा.
@@ -122,53 +121,10 @@ memory" का एरर न दे, और तब मुजे कोई वै
 
 [Github-flavored markdown की अधिक जानकारी](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## गूगली मूड में आ जाएँ
-
-"[फ्यूचर गूगलर](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" साइन की एक (या दो) प्रिंट निकाले और अपने पुरस्कार को आपने नजरो के सामने रखे.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
-## क्या मुजे नौकरी मिली?
-
-मैंने अभीतक प्रयुक्त नहीं किया हें.
-
-मुजे अभीभी कुछ दींन हे ये सूचि समाप्त करने के लिए, और आगे पुरे हफ्ते से में पूरा दिनप्रोग्रामिंग प्रश्न करने वाला हु. ये कुछ हफ्ते तक चलेगा और फिर मैं मेरे रेफेरेल जो की मैं  फेब्रुअरी से रखा हे उससे नौकरी का अर्ज दूंगा.
-
-    Thanks for the referral, JP.
-
-
-## मेरे साथ चले
-
-मैं एक सफ़र पर हु, मेरे साथ चलिए मेरे ब्लॉग से साथ [GoogleyAsHeck.com](https://googleyasheck.com/)
-
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
-- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
-
 ## कभी भी आप चालाक नहीं हो ऐसा ना सोचो
 
 - गोगल के अभियंता चालाक होते हें, पर बहुत लोगो असुरक्षा होती है की वो चालाक नहीं हैं, जबकि वो गूगल में काम करते हैं! 
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-
-## गूगल के बारे में
-
-- [ ] छात्रों के लिए - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] सर्च कैसे काम करता हे:
-    - [ ] [सर्च का विकास (विडियो)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [सर्च कैसे काम करता हैं - एक कहानी](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [सर्च कैसे काम करता हैं](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [सर्च कैसे काम करता हैं - मैट कट्ट्स (विडियो)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [कैसे गूगल अपने सर्च एल्गोरिथ्म में सुधार करता है (विडियो)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] शृंखला:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [हमारी जरूरत पता लगाने के लिए गूगल का गुप्त अध्ययन ](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [गूगल सर्च आपका अगला दिमाग होगा](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [Demis Hassabis का गहरा मन](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [पुष्तक: गूगल कैसे काम करता हैं](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google घोषणा - ओक्टोबर २०१६ (विडियो)](https://www.youtube.com/watch?v=spDg-Q7zmcM)
 
 ## विडियो संसाधनों के बारे में
 
@@ -180,34 +136,16 @@ It is free to do so, but sometimes the classes are not in session so you have to
 
 ## इंटरव्यू प्रकिया और साधारण इंटरव्यू तयारी
 
-- [ ] विडियो:
-    - [ ] [गूगल में कैसे काम करे -  उमीदवार अनुशिक्षण सत्र (विडियो)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [गूगल भर्तीकर्ताओं की तकनीकी इंटरव्यू टिप्स (विडियो)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [गूगल में कैसे काम करे: तकनीकी रिज्यूमे तयारी (विडियो)](https://www.youtube.com/watch?v=8npJLXkcmu8)
-
-- [ ] लेख:
-    - [ ] [तिन कदमोमे गूगलर बने](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [गूगल में वो नौकरी लो](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(बहोत पुराना)_ [गूगल में नौकरी कैसे ले, इन्तेविएव प्रश्न, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [फोन स्क्रीन वाले सवाल](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
-
-- [ ] अतिरिक्त (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (विडियो)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (विडियो)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] बड़े ४ मैं नौकरी कैसे ले:
-        - [ ] ['बड़े ४ मैं नौकरी कैसे ले - Amazon, Facebook, Google और Microsoft' (विडियो)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [गूगल इंटरव्यू में असफलता](http://alexbowe.com/failing-at-google-interviews/)
+[ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+[ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+[ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+[ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (विडियो)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (विडियो)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] बड़े ४ मैं नौकरी कैसे ले:
+    - [ ] ['बड़े ४ मैं नौकरी कैसे ले - Amazon, Facebook, Google और Microsoft' (विडियो)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
 ## इंटरव्यू के लिए एक संगणक भाषा चुने
-
-मैं इसके बारे में इस छोटे से लेख लिखा था: [महत्वपूर्ण: गूगल इंटरव्यू के लिए एक भाषा चुनें](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
 इंटरव्यू मैं आप कोंसिभी एक भाषा जिसमे आप आरामदायक हो वो चुन सकते हैं, पर गूगल के लिए निम्नलिखित भाषाएँ अच्छी रहेगी:
 

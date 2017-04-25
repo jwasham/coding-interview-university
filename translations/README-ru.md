@@ -565,7 +565,7 @@ Google не возьмёт тебя на работу.
 - [ ] [UC Berkeley Big O (видео)](https://youtu.be/VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (видео)](https://youtu.be/ca3e7UVmeUc)
 - [ ] [Amortized Analysis (видео)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Иллюстрация "Big O" (ыидео)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] [Иллюстрация "Big O" (видео)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
 - [ ] TopCoder (включая рекуррентные соотношений и основную теорему):
     - [Вычислительная сложность: Часть 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Вычислительная сложность: Часть 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
@@ -574,44 +574,44 @@ Google не возьмёт тебя на работу.
     Если в некоторых лекциях слишком много математики, вы можете ниже найти и посмотреть
     лекции по дискретной математике для получения базовых знаний.
 
-## Data Structures
+## Структуры данных
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+- ### Массивы
+    - Реализация динамического вектора.
+    - [ ] Описание:
+        - [Массивы (видео)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UCBerkley CS61B - Линейные и многомерные массивы (видео)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+        - [Основные массивы (видео)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [Многомерные массивы (видео)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Динамические массивы (видео)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Массив массивов (видео)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Массив массивов (видео)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [Динамические массивы (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+    - [ ] Реализация вектора (изменяемый массив с автоматическим изменением размера):
+        - [ ] Тренируйтесь программировать используя массивы, указатели и арифметику указателей для перехода к индексу вместо индексации.
+        - [ ] выделение памяти для массива
+            - можно выделить память для массива целых чисел, просто не используя его возможности
+            - начиная с 16, или если начальная цифра больше, использовать степень 2 - 16, 32, 64, 128
+        - [ ] size() - количество элементов
+        - [ ] capacity() - количество элементов которое он может содержать
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(index) - возвращает элемент по индексу, изменяет размер, если индекс выходит за пределы
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] insert(index, item) - вставка элемента по индексу, сдвигает значение по индексу и следующие за ним элементы вправо
+        - [ ] prepend(item) - может вставить элемент выше индекса 0
+        - [ ] pop() - удалить последний элемент, вернуть значение
+        - [ ] delete(index) - удаляет элемент по индексу, сдвигает все следующие за ним элементы в лево
+        - [ ] remove(item) - ищет элементы по значению и удаляет их, даже если их несколько
+        - [ ] find(item) - ищет элемент по значению и возвращает индекс первого найденного элемента, возвращает -1 если ничего не найденно
         - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+            - когда массив полностью заполнен, увеличивает его размер вдвое
+            - при добавлении элемента, если размер массива 1/4 от общего размера, увеличиваем на половину
+    - [ ] Время
+        - O(1) для операций add/remove в конце (амортизируется для размещения большего объема), index, или update
+        - O(n) для insert/remove в любом месте
+    - [ ] Работа с памятью
+        - смежные в памяти, это помогает повысить производительность
+        - необходимое пространство = (размер массива, который >= n) * размер элемента, но даже если 2n, по прежнему O(n)
 
 - ### Linked Lists
     - [ ] Description:

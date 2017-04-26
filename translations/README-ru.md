@@ -630,22 +630,23 @@ Google не возьмёт тебя на работу.
         - [Указатели на указатели](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] воплотить в жизнь (я сделал это с помощью указателя на хвост и без): 
         - [ ] size() - возвращает количество элементов в листе
-        - [ ] empty() - bool returnвs true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+        - [ ] empty() - возвращет true если список пуст
+        - [ ] value_at(n) - возращет значение n-го элемента, где 0 - первый элемент
+        - [ ] push_front(value) - добавляет элемент в начало списка
+        - [ ] pop_front() - удаляет первый и возращает его значение
+        - [ ] push_back(value) - добавляет элемент в конец списка
+        - [ ] pop_back() - удаляет последний и возращает его значение
+        - [ ] front() - возращает значение первого элемента в списке
+        - [ ] back() - возращает значение последнего элемента в списке
+        - [ ] insert(index, value) - помещает значение (value) в элемент по индексу (index), при этом заменяемый элемент
+        добавлен в список как новый элемент
+        - [ ] erase(index) - удаляет узел (элемент) по данному индексу
+        - [ ] value_n_from_end(n) - возращает значение n-го элемента c конца списка
+        - [ ] reverse() - реверсирует весь список
+        - [ ] remove_value(value) - удаляет первый элемент в списке с указанным значением (value)
+    - [ ] Двусвязный список
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+        - Можно не делать
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)

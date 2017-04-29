@@ -4,7 +4,7 @@
 
 यह मेरी एक वेब डेवलपर ( खुद से सीखा हुआ , बिना किसी कंप्यूटर साइंस डिग्री के ) से एक बड़ी कंपनी गूगल के लिए सॉफ्टवेयर इंजीनियर बनने की कई महीनो की योजना है ।
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Winter coding interview](https://ffeathers.files.wordpress.com/2013/08/googlecampus_20130730_2_small.jpg)
 
 यह लम्बी सूची **गूगल कोचिंग नोट्स** से उद्धरण एव विस्तारित की गयी हैं, ताकि इन बातो को आपको पता चल सके. मैंने आपके इंटरव्यू में मदद कर सकने वाले कुछ अतिरिक्त विषय सूचि के, आखिर में डाले है. 
 

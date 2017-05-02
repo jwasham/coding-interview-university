@@ -201,7 +201,7 @@ Google не возьмёт тебя на работу.
 
 ## Получи гугловское настроение
 
-Напечатай знак "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" и смотри на приз.
+Напечатай знак "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" и не отводи глаз от желанной добычи.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
@@ -613,38 +613,40 @@ Google не возьмёт тебя на работу.
         - смежные в памяти, это помогает повысить производительность
         - необходимое пространство = (размер массива, который >= n) * размер элемента, но даже если 2n, по прежнему O(n)
 
-- ### Linked Lists
-    - [ ] Description:
+- ### Связные списки (Linked Lists)
+    - [ ] Описание:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
+            - не все видео целиком, только кусочки об узлах и распределении памяти.
+    - [ ] Связные списки vs Массивы:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
-        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+    - [ ] Ага, попался: тебе нужны знания указетелей на указатели:
+        (для тех случаев, когда ты передаешь указатель функции, которая может менять адрес, куда указывает указатель)
+        Это страница просто для того, чтобы понять указатели на указатели. Читабельность и обслуживаемость страдает 
+        из-за искусность.
+        - [Указатели на указатели](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] воплотить в жизнь (я сделал это с помощью указателя на хвост и без): 
+        - [ ] size() - возвращает количество элементов в листе
+        - [ ] empty() - возвращет true если список пуст
+        - [ ] value_at(n) - возращет значение n-го элемента, где 0 - первый элемент
+        - [ ] push_front(value) - добавляет элемент в начало списка
+        - [ ] pop_front() - удаляет первый и возращает его значение
+        - [ ] push_back(value) - добавляет элемент в конец списка
+        - [ ] pop_back() - удаляет последний и возращает его значение
+        - [ ] front() - возращает значение первого элемента в списке
+        - [ ] back() - возращает значение последнего элемента в списке
+        - [ ] insert(index, value) - помещает значение (value) в элемент по индексу (index), при этом заменяемый элемент
+        добавлен в список как новый элемент
+        - [ ] erase(index) - удаляет узел (элемент) по данному индексу
+        - [ ] value_n_from_end(n) - возращает значение n-го элемента c конца списка
+        - [ ] reverse() - реверсирует весь список
+        - [ ] remove_value(value) - удаляет первый элемент в списке с указанным значением (value)
+    - [ ] Двусвязный список
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+        - Можно не делать
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)

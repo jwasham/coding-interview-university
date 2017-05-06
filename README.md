@@ -1070,7 +1070,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
     - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](https://www.akkadia.org/drepper/cpumemory.pdf)
         - The Dynamo paper kicked off the NoSQL revolution
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
     - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
     - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)

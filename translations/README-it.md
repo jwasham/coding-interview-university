@@ -381,48 +381,44 @@ Questa lista è cresciuta durante i mesi, e sì, è diventata difficile da gesti
 
 Qua riporto alcuni errori che ho fatto, in modo tale che tu abbia un'esperienza migliore.
 
-### 1. You Won't Remember it All
+### 1. Non ricorderai mai tutto
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Ho guardato ore di video e ho preso numerosi appunti, e mesi dopo c'erano molte cose che non ricordavo. Ho speso 3 giorni per riguardare gli appunti e costruendo delle flashcard così da poter rivedere velocemente i concetti.
 
-Read please so you won't make my mistakes:
+Leggi qua così non farai i miei errori:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Usare flashcards
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Per risolvere il problema, ho fatto un piccolo sito web per gestire flashcards avendo la possibilità di inserirne di due tipologie diverse: generali e di codice.
+Ogni card ha una formattazione diversa.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Ho creato un sito web mobile-first così che potessi vederlo sul mio telefono e sul tablet, ovunque io sia.
 
-Make your own for free:
+Crea il tuo gratuitamente:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Repository del sito web](https://github.com/jwasham/computer-science-flash-cards)
+- [Il mio database (vecchio - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
+- [Il mio database (nuovo - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+Tieni a mente che ho inserito moltissime cards che coprono tutto da assembly e domande su Python fino ad apprendimento automatico e statistica. È molto di più di quanto serve.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Nota sulle flashcards:** La prima volta che capisci di conoscere la risposta, non marcarla come conosciuta. Devi guardare la stessa card e rispondere molte volte correttamente prima di conoscerla realmente. La ripetizione ti farà sedimentare quell'argomento meglio nella tua conoscienza.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Un'alternativa all'utilizzo del mio sito web di flashcards è [Anki](http://ankisrs.net/), che mi è stato raccomandato numerose volte. Usa un sistema di ripetizione per aiutare a ricordarti. È user-friendly, disponibile per tutte le piattaforme e ha un sistema di sincronizzazione col cloud. Costa 25$ su iOS ma è gratuito per altre piattaforme.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Il mio database di flashcards in formato Anki: https://ankiweb.net/shared/info/25173560 (grazie [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Ripassa, ripassa, ripassa
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Possiedo un insieme di cheat sheets su ASCII, il modello OSI, notazioni O-grande, e altro. Le studio quando ho un poò di tempo libero.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Prendi una pausa dai tuoi problemi di programmazione per una mezz'ora ed esplora le tue flashcards.
 
-### 4. Focus
+### 4. Concentrazione
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Ci sono molte distrazioni che possono portare via tempo prezioso. Concentrarsi e focalizzare l'attenzione è difficile.
 
 ## What you won't see covered
 

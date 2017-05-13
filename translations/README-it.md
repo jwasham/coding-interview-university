@@ -54,7 +54,7 @@ Se vuoi essere un ingegnere che tratta affidabilità o sistemi, ti conviene stud
 - [Intervista e preparazione generale](#intervista-e-preparazione-generale)
 - [Scegli un linguaggio per l'intervista](#scegli-un-linguaggio-per-lintervista)
 - [Lista di libri](#lista-dei-libri)
-- [Prima di cominciare](#before-you-get-started)
+- [Prima di cominciare](#prima-di-cominciare)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
@@ -341,47 +341,45 @@ OPPURE:
 **Alcune persone consigliano questi libri, ma penso che vadano oltre l'obiettivo, a meno che tu non abbia molti anni di esperienza in ingegneria del software e che ti aspetti un colloquio molto più difficile:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
-        - class textbook on data structures and algorithms
-            - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+    - Per riconoscere un problema
+    - La parte di catalogo di algoritmi raggiunge una difficoltà molto più alta di quella che avrai durante un colloquio
+    - Questo libro è composto di due parti:
+        - una parte su algoritmi e strutture dati
+            - vantaggi:
+                - ottimo come qualsiasi libro che tratta algoritmi
+                - storie interessanti delle sue esperienze nel risolvere problemi nell'industria e nel mondo accademico
+                - esempi di codice in C
+            - svantaggi:
+                - può essere denso o impenetrabile come CLRS e, in alcuni casi, CLRS potrebbe essere una alternativa migliore per alcuni argomenti
+                - i capitolo 7,8 e 9 possono essere molto difficili da seguire, poiché alcuni argomenti non sono ben spiegati o richiedono uno sforzo intellettivo che io non possiedo
+                - non fraintendetemi: mi piace Skien, il suo stile di insegnamento, e i modi di fare, ma io potrei non essere un tipo da materiale di Stony Brook(Università).
+        - catalogo di algoritmi:
+            - questa è la vera ragione per comprare questo libro
+            - a proposito di raggiungere questa parte. Avviso con un aggiornamento quando ci arriverò.
+    - Puoi usarlo su kindle
+    - Half.com è un'ottima risorsa per libri di testo a buon mercato.
+    - Risposte:
+        - [Soluzioni](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [Soluzioni](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+        - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+    - **Importante:** Leggere questo libro avrà solo un valore limitato. Questo libro è un'ottimo riassunto di algoritmi e strutture dati, ma non ti insegnerà come scrivere buon codice. Devi essere caprace di codificare una soluzione buona in modo efficiente.
+    - Half.com è un'ottima risorsa per libri di testo a buon mercato.
+    - aka CLR, a volte CLRS, perché Stein è arrivato più tardi
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+    - Il primo paio di capitoli presenta soluzioni intelligenti a problemi di programmazione (alcuni molto vecchi) ma è solo un'introduzione. Questa è una guida su progettazione di un programma e di una architettura, molto simile a Code Complete, ma più corta.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
+    - Un buon libro, ma dopo aver lavorato su alcuni problemi in alcune pagine mi sono stancato di utilizzare Pascal, cicli do-while, array che iniziano con 1 come indice, e risultati non chiari di soddisfacimento delle post-condizioni.
+    - Preferirei spendere il mio tempo su problemi di programmazione presi da un altro libro o da siti web.
 
+## Prima di iniziare
 
-## Before you Get Started
+Questa lista è cresciuta durante i mesi, e sì, è diventata difficile da gestire
 
-This list grew over many months, and yes, it kind of got out of hand.
-
-Here are some mistakes I made so you'll have a better experience.
+Qua riporto alcuni errori che ho fatto, in modo tale che tu abbia un'esperienza migliore.
 
 ### 1. You Won't Remember it All
 

@@ -1,4 +1,4 @@
-# Coding Interview University
+# Tự ôn tập phỏng vấn về lập trình (Coding Interview University)
 
 Bản gốc:
 * [English](./README.md)
@@ -10,6 +10,7 @@ Tác giả gốc: [John Washam](https://github.com/jwasham)
 * [Võ Tường Thọ](https://github.com/thovo) - [@thovo](https://twitter.com/tho_vo)
 * [Lê Tấn Đăng Khoa](https://github.com/dangkhoasdc) - [@dksdc](https://twitter.com/dksdc)
 * [Trương Đức Duy](https://github.com/duytruong) - [@dauruy](https://twitter.com/dauruy)
+* [Lương Đăng Hải](https://github.com/jarvisluong) - [@jarvisluong](https://twitter.com/jarvisluong)
 
 Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt:
 
@@ -21,9 +22,9 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 
 ---
 
-> Ban đầu, đây chỉ là một danh sách to-do ngắn về các chủ đề phải ôn tập của tôi, để trở thành một kỹ sư phần mềm. Nhưng rôi nó lớn dần nên như ngày nay. Sau khi đi hết con đường này, [tôi đã được tuyển vào vị trí Software Development Engineer ở Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! Bạn có lẽ không cần phải học nhiều như tôi đã học. Nhưng dù sao, mọi thứ bạn cần ở đây.
+> Ban đầu, đây chỉ là một danh sách to-do (danh sách các việc cần làm) ngắn về các chủ đề phải ôn tập của tôi, để trở thành một kỹ sư phần mềm. Nhưng rôi nó lớn dần nên như ngày nay. Sau khi đi hết con đường này, [tôi đã được tuyển vào vị trí Software Development Engineer ở Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! Bạn có lẽ không cần phải học nhiều như tôi đã học. Nhưng dù sao, mọi thứ bạn cần ở đây.
 >
-> Những chù đề này sẽ chuẩn bị cho bạn nền tảng kiến thức vững vàng cho bất kỳ công ty phần mềm nào, bao gồm cả những gã khổng lồ như: Amazon, Facebook, Google or Microsoft.
+> Những chủ đề này sẽ chuẩn bị cho bạn nền tảng kiến thức vững vàng cho bất kỳ công ty phần mềm nào, bao gồm cả những gã khổng lồ như: Amazon, Facebook, Google hay Microsoft.
 >
 > *Chúc may mắn!*
 
@@ -31,10 +32,10 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 
 Đây là kế hoạch học tập trong nhiều tháng của tôi, để từ một nhà phát triển web (tự học, không có bằng cấp về Khoa Học Máy Tính - KHMT) trở thành một kỹ sư phần mềm ở Google.
 
-![Viết code trên bảng - ánh trích từ bộ phim Silicon Valley của HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Viết code trên bảng - ảnh trích từ bộ phim Silicon Valley của HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 Danh sách dài này được trích và mở rộng từ **Ghi chú huấn luyện của Google**, vậy nên đây là những gì bạn cần biết.
-Một vài mục tôi thêm vào ở cuối danh sách có thể xuất hiện trong cuộc phỏng vấn hoặc hữu ích cho việc giải quyết các bài toán. Nhiều mục đến từ bài viết [Lấy được việc ở Google (Get that job at Google)](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" của Steve Yegge.
+Một vài mục tôi thêm vào ở cuối danh sách có thể xuất hiện trong cuộc phỏng vấn hoặc hữu ích cho việc giải quyết các bài toán về lập trình. Nhiều mục đến từ bài viết [Lấy được việc ở Google (Get that job at Google)](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" của Steve Yegge.
 
 Tôi lược bớt những gì bạn cần từ lời khuyên của yegge. Tôi cũng chỉnh sửa lại các yêu cầu dựa trên thông tin tôi có được từ bạn bè ở Google. Danh sách này được thiết kế cho **Kỹ sư phần mềm** hoặc những ai chuyển từ phát triển web hoặc phần mềm sang _kỹ nghệ_ phần mềm (khi mà kiến thức về Khoa Học Máy Tính là bắt buộc). Nếu bạn có nhiều kinh nghiệm và muốn khẳng định nhiều năm trong đó bạn làm việc như một kỹ sư phần mềm, hãy sẵn sàng cho một buổi phòng vấn khó hơn. [Xem thêm ở đây](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
@@ -48,7 +49,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 
 - [Giới thiệu?](#giới-thiệu)
 - [Vì sao tôi cần tài liệu này?](#vì-sao-tôi-cần-tài-liệu-này)
-- [Sử dụng như thế nào?](#sử-dụng-như-thế-nào)
+- [Sử dụng tài liệu này như thế nào?](#sử-dụng-tài-liệu-này-như-thế-nào)
 - [Đừng nghĩ rằng bạn không đủ thông minh](#đừng-nghĩ-rằng-bạn-không-đủ-thông-minh)
 - [Về nguồn video](#về-nguồn-video)
 - [Quy trình phỏng vấn & các bước chuẩn bị tổng quát](#quy-trình-phỏng-vấn--các-bước-chuẩn-bị-tổng-quát)
@@ -86,7 +87,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - ma trận kề
     - danh sách kề
     - duyệt đồ thị: BFS, DFS
-- [Thêm nhiều kiến thức nữa](#thêm-nhiều-kiến-thức-nữa)
+- [Kiến thức bổ sung](#kiến-thức-bổ-sung)
     - [Đệ quy](#Đệ-quy)
     - [Quy hoạch động](#quy-hoạch-động)
     - [Lập trình hướng đối tượng](#lập-trình-hướng-đối-tượng)
@@ -110,12 +111,12 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Thực hành các câu hỏi về lập trình](#thực-hành-các-câu-hỏi-về-lập-trình)
 - [Giải bài tập lập trình](#giải-bài-tập-lập-trình)
 - [Khi bạn tiến gần đến kỳ phỏng vấn](#khi-bạn-tiến-gần-đến-kỳ-phỏng-vấn)
-- [Resume của bạn](#resume-của-bạn)
+- [Lý lịch (Resume) của bạn](#lý-lịch-resume-của-bạn)
 - [Hãy nghĩ đến những thứ bạn sẽ được hỏi](#hãy-nghĩ-đến-những-thứ-bạn-sẽ-được-hỏi)
-- [Chuẩn bị câu hỏi dành cho phỏng vấn viến](#chuẩn-bị-câu-hỏi-dành-cho-phỏng-vấn-viến)
+- [Chuẩn bị câu hỏi dành cho phỏng vấn viên](#chuẩn-bị-câu-hỏi-dành-cho-phỏng-vấn-viên)
 - [Khi bạn được nhận việc](#khi-bạn-được-nhận-việc)
 
----------------- Everything below this point is optional ----------------
+---------------- Những mục dưới đây là tuỳ chọn ----------------
 
 - [Sách bổ sung](#sách-bổ-sung)
 - [Học thêm](#học-thêm)
@@ -174,7 +175,7 @@ Tất cả các cấu trúc dự liệu tôi từng sử dụng đều được 
 
 Nhưng, sau khi trải qua dự án này, tôi rất tự tin rằng mình sẽ được tuyển. Đây là một dự án dài hơi, sẽ tốn của tôi hàng tháng. Nếu bạn đã quen với nhiều nội dung trong này, bạn sẽ mất ít thời gian hơn.
 
-## Sử dụng như thế nào?
+## Sử dụng tài liệu này như thế nào?
 
 > Phần này được viết lại khá nhiều để thuận tiện cho các bạn tiếp cận. Dựa theo bản gốc, tác giả có vẻ như cũng đang cố hướng dẫn cho người mới dùng git.
 
@@ -185,7 +186,10 @@ Nếu bạn chưa biết về [git](https://git-scm.com) thì vui lòng tham kh�
 - Tiếng Anh: [git - the simple guide](http://rogerdudler.github.io/git-guide/)
 - Tiếng Viết: [Sổ tay git cho người mới bát đầu](http://rogerdudler.github.io/git-guide/index.vi.html) (Việt hóa từ nội dung với link trên)
 
-Tiếp theo, bạn cần biết cách [fork một repo trên github](https://help.github.com/articles/fork-a-repo/) (Mình không tìm được hướng dẫn tiếng Việt nào thích hợp.)
+Tiếp theo, bạn cần biết cách gắp (fork) một repo trên github:
+
+- Tiếng Anh [Fork a repo](https://help.github.com/articles/fork-a-repo/)
+- Tiếng Việt: [Cách gắp (fork) một repo trên github](https://techynovice.wordpress.com/2017/03/19/cach-gap-fork-mot-repository-tren-github/) (Việt hoá tư nội dung với link trên)
 
 Ok, bây giờ bạn có thể bắt đầu:
 
@@ -216,7 +220,7 @@ Ok, bây giờ bạn có thể bắt đầu:
 ## Về nguồn video
 
 Một vài video chỉ xem được khi bạn tham gia vào các lớp học online trên Coursera, EdX, hay Lynda.com. Các lớp đó được gọi là MOOC.
-Đôi khi các lớp không có sẵn, và bạn phải đợi một vài tháng đến khi chúng được mở lại, do đó bạn không thể truy cập vào video được.
+Đôi khi các lớp chưa mở, và bạn phải đợi một vài tháng đến khi chúng được mở lại, do đó bạn không thể truy cập vào video được.
 Lynda.com thì không miễn phí.
 
     Tôi sẽ rất cảm kích sự hỗ trợ của các bạn trong việc thêm các nguồn video miễn phí và luôn sẵn có, ví dụ như Youtube, để hỗ trợ nguồn video từ các khóa học online.
@@ -912,7 +916,7 @@ Nếu bạn muốn biết thêm chi tiết trong chủ đề này, xem qua phầ
 Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của Skiena (xem danh mục sách bên dưới) và các sách về phỏng vấn.
 
 
-## Thêm nhiều kiến thức nữa
+## Kiến thức bổ sung
 
 - ### Đệ quy
     - [ ] Các bài giảng của đại học Stanford về đệ quy và quay lui:
@@ -1424,7 +1428,7 @@ Xem thêm:
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Resume của bạn
+## Lý lịch (Resume) của bạn
 
 - [10 mẹo để Resume bớt (một chút) tào lao](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
 - Xem các phần về chuẩn bị Resume trong [Cracking The Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/) và [Programming Interviews Exposed](https://www.amazon.com/Programming-Interviews-Exposed-Secrets-Landing/dp/1118261364)
@@ -1448,7 +1452,7 @@ Chuẩn bị 2 đến 3 câu trả lời cho mỗi câu hỏi. Hãy chuẩn bị
 - Những gì bạn cho rằng mình đã có thể làm tốt hơn ở [công việc X/ dự án Y]?
 
 
-## Chuẩn bị câu hỏi dành cho phỏng vấn viến
+## Chuẩn bị câu hỏi dành cho phỏng vấn viên
 
     Một vài câu hỏi của tôi (Tôi có thể đã tìm hiểu trước rồi, nhưng vẫn muốn được nghe ý kiến từ góc nhìn của người phỏng):
 
@@ -1818,7 +1822,7 @@ Bạn không bao giờ thực sự học xong!
 
 ## Đọc thêm về một số đề tài
 
-    Tôi thêm những phần này để cường hóa các kiến thức đã được trình bày ở trên, nhưng không muốn đưa chúng vào danh sách trên, vì đã quá nhiều rồi. Cũng có hơi vượt mức cần thiết. Nhưng dù sao, bạn muốn trúng tuyển mà phải không?
+    Tôi thêm những phần này để củng cố các kiến thức đã được trình bày ở trên, nhưng không muốn đưa chúng vào danh sách trên, vì đã quá nhiều rồi. Cũng có hơi vượt mức cần thiết. Nhưng dù sao, bạn muốn trúng tuyển mà phải không?
 
 - [ ] **Union-Find**
     - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)

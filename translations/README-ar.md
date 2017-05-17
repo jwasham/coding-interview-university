@@ -1,8 +1,8 @@
 # الإعداد لجوجل
 
-Translations: 
+الترجمه: 
 - [中文版本](translations/README-cn.md)
-- translations in progress:
+- الترجمات تحت الاعداد:
     - [Español](https://github.com/jwasham/google-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/google-interview-university/issues/81)
     - [עברית](https://github.com/jwasham/google-interview-university/issues/82)
@@ -21,7 +21,7 @@ Translations:
 هي خطة من عدة أشهر من مطور تطبيقات ويب (قائمة على التعليم الذاتي، ومبدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات بجوجل
 
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![HBO كتابة الكود علي السبورة - من وادي السيليكون](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 هذه القائمة الطويلة تم إعدادها من ملاحظات الإعداد لجوجل، لذلك هي الأشياء مطالب بمعرفتها.
 هناك أشياء إضافية أضفتها في آخر القائمة التي ربما تأتي في المقابلة الشخصية أو تساعد في حل المشاكل البرمجية. كتيرا من العناصر من: كتاب ستيف ياج "[احصل على وظيفة بجوجل](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" ومن حين لآخر ملاحظات الإعداد لجوجل.
@@ -37,17 +37,17 @@ Translations:
 
 ## الفهرس
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+- [ماهذا؟](#what-is-it)
+- [لماذا استخدمه؟](#why-use-it)
+- [كيفية استخدامها](#how-to-use-it)
+- [الدخول في مزاج جوجلي](#get-in-a-googley-mood)
+- [هل حصلت علي الوظيفه؟](#did-i-get-the-job)
+- [تابعني باستمرار](#follow-along-with-me)
+- [هل تشعر أنك لست بالذكاء الكافي](#dont-feel-you-arent-smart-enough)
+- [عن جوجل](#about-google)
+- [عن مصادر الفديو](#about-video-resources)
+- [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#interview-process--general-interview-prep)
+- [اختر لغة برمجية واحدة للمقابلة البرمجية](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
@@ -195,7 +195,7 @@ Translations:
 
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## الدخول في مزاج جوجلي
 
 Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
@@ -234,8 +234,8 @@ I'm on the journey, too. Follow along:
 
 ## عن جوجل
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
+- [ ] لطلبه - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] كيف يعمل محرك البحث:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
@@ -343,7 +343,7 @@ If you have tons of extra time:
     - all code is in C++, very good if you're looking to use C++ in your interview
     - a good book on problem solving in general.
 
-### Computer Architecture
+### بنية الحاسوب
 
 If short on time:
 

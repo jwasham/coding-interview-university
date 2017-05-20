@@ -1,7 +1,7 @@
 # Tự ôn tập phỏng vấn về lập trình (Coding Interview University)
 
 Bản gốc:
-* [English](./README.md)
+* [English](/README.md)
 
 Tác giả gốc: [John Washam](https://github.com/jwasham)
 
@@ -263,7 +263,7 @@ Xem thêm về các sự lựa chọn:
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[Xem tài liệu về các ngôn ngữ ở đây](programming-language-resources.md)
+[Xem tài liệu về các ngôn ngữ ở đây](/programming-language-resources.md)
 
 Bạn sẽ thấy vài tài liệu về C, C++ và Python bên dưới, vì tôi đang học chúng. Ngoài ra còn có một vài đầu sách nữa, xem ở cuối.
 
@@ -320,12 +320,11 @@ Nếu bạn có nhiều thời gian (tôi đã muốn đọc quyển này):
 ### Từng ngôn ngữ riêng biệt
 
 **Bạn phải chọn một ngôn ngữ cho cuộc phỏng vấn (xem ở trên).** Đây là các khuyến nghị của tôi. Tôi không có tài liệu cho tất cả các ngôn ngữ lập trình, vậy nên, đóng góp từ bạn luôn được chào đón.
-
 Nếu bạn muốn đọc xuyên suốt một trong những quyển sách này, bạn nên có kiến thức về cấu trúc dữ liệu và giải thuật. Bạn cũng nên luyện tập giải toán lập trình.
 
 **Bạn có thể bỏ qua bài giảng video trong project này**, trừ khi bạn muốn tự đánh giá lại kiến thức của mình.
 
-[Đây là tài liệu ngôn ngữ lập trình bổ sung.](programming-language-resources.md)
+[Đây là tài liệu ngôn ngữ lập trình bổ sung.](/programming-language-resources.md)
 
 
 ### C++
@@ -664,7 +663,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - Tìm kiếm nhị phân sử dụng đệ quy
 
 - ### Toán tử trên bit
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
+    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-cheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
     - [ ] Hãy chuẩn bị một nền tảng tốt về các biến đổi bit với các toán tử: &, |, ^, ~, >>, <<
         - [ ] [words (thuật ngữ trong kiến trúc máy tính)](https://en.wikipedia.org/wiki/Word_(computer_architecture) )
         - [ ] Bài mở đầu:
@@ -1287,7 +1286,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - Để có thêm thông tin, xem seri "Mining Massive Datasets" trong seri video.
 - [ ] Thực hành thêm về thiết kế hệ thống: Sau đây là vài ý tưởng có thể thực hiện trên giấy, mỗi ý tưởng đều có tư liệu đi cùng để hiểu rõ nó thực thi thế nào trong thế giới thực. [Thiết kế hệ thống bới HiredInTech(System Design from HiredInTech)](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](/extras/cheat%20sheets/system-design.pdf)
     - Các bước thực hiện:
         1. Hiểu vấn đề và phạm vi của vấn đề:
             - Định nghĩa các trường hợp sử dụng cụ thể với sự trợ giúp từ người phỏng vấn

@@ -53,7 +53,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [¿Por qué usarlo?](#por-qué-usarlo)
 - [Como usarlo](#como-usarlo)
 - [No sienta no es lo suficientemente listo](#no-sienta-no-es-lo-suficientemente-listo)
-- [Acerca de los recursos de vídeo](#acerca-de-los-recursos-de-videos)
+- [Acerca de los recursos de vídeo](#acerca-de-los-recursos-de-vídeo)
 - [Prepárese para la entrevista](#prepárese-para-la-entrevista)
 - [Escoja un lenguaje para la entrevista](#escoja-un-lenguaje-para-la-entrevista)
 - [Lista de libros](#lista-de-libros)
@@ -202,18 +202,18 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 
 [Más acerca de los temas de Github para markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Don't feel you aren't smart enough
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+## No sienta no es lo suficientemente listo
+- Los ingenieros de software exitosos son inteligentes pero muchos tienen la inseguridad de no ser lo suficientemente listos.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+## Acerca de los recursos de vídeo
+Algunos videos solo están disponibles inscribiéndose a una clase de Coursera, EdX, o Lynda.com. Estos son llamados MOOCs.
+En ocasiones las clases no están en sesión por lo que tendrá que esperar un par de meses, por lo que no tiene acceso. Los cursos de Lynda.com no son gratuitos.
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
+	
+    Me gusta usa lecturas de universidad.
 
 
 ## Interview Process & General Interview Prep

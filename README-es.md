@@ -216,8 +216,7 @@ Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuita
     Me gusta usa lecturas de universidad.
 
 
-## Interview Process & General Interview Prep
-
+## Prepárese para la entrevista
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
@@ -234,57 +233,56 @@ Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuita
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
         - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
 
-## Pick One Language for the Interview
+## Escoja un lenguaje para la entrevista
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Puede usar un lenguaje con el que este cómodo para hacer la parte de código para la entrevista, pero para las grandes compañías, estas son buenas elecciones:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+También podrías usar éstos, pero busca información primero. Puede haber advertencias: 
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Debes sentirte muy cómodo con el lenguaje y ser experto.
 
-Read more about choices:
+Lee más acerca de opciones:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Ve recursos de programas aquí](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Verás algunos materiales de aprendizaje de C, C++ y Python abajo, porque estoy aprendiendo. Hay algunos libros involucrados, ve al final.
 
-## Book List
+## Lista de libros
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Ésta es una lista más corta que la que yo usé. Está abreviada para ahorrarle tiempo.
 
-### Interview Prep
-
+### Preparación para la entrevista
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - Respuestas en C++ y Java
+    - Este es un buen calentamiento para Cracking the Coding Interview
+    - No muy difícil, muchos problemas pueden ser más sencillos de los que verá en la entrevista (Por lo que he leído)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Respuestas en Java
 
-If you have tons of extra time:
+Si tiene mucho tiempo extra:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] Elements of Programming Interviews (Java version)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-### Computer Architecture
+### Arquitectura de Computadores
 
-If short on time:
+Si esta corto de tiempo:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - El libro fue publicado en 2004, y es algo anticuado pero es un recurso fantástico para la comprensión de una computadora en breve.
+    - El autor inventó HLA, por lo que tiene muchas menciones y ejemplos en HLA. No es ampliamente utilizado, pero los ejemplos son decentes para ver como es un lenguaje ensamblador.
+    - Estos capítulos valen la pena ser leidos para brindarle una buena base:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -295,17 +293,17 @@ If short on time:
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 
-If you have more time (I want this book):
+Si tiene más tiempo (Yo quiero este libro):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - Para un tratamiento más rico y actualizado (2011), pero un trato más largo.
 
-### Language Specific
+### Específicos del lenguaje
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Necesita escoger un lenguaje para la entrevista (mire arriba).** Aquí están mis recomendaciones por lenguaje. No tengo recursos para todos los lenguajes. Son bienvenidas adiciones.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Si ha leído alguno de estos, probablemente tenga todos los conocimientos de estructuras de datos y algoritmos que necesitara para hacer problemas de codificación.
+**Puede saltarse todas las video-lecturas en este proyecto **, a menos que quiera una crítica.
 
 [Additional language-specific resources here.](programming-language-resources.md)
 

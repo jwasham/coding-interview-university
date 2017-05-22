@@ -1,16 +1,15 @@
 ﻿# Coding Interview University
 
--Version original: [Inglés](README.md)
+- Versión original: [Inglés](README.md)
 
-> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software pero creció hasta ser la gran lista puedes apreciar actualmente. Después de pasar por este plan de estudios [fui contratado como un Ingeniero de Desarrollo de Software en Amazon(Art. En Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon! (Art. En Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
+> Posiblemente no tenga que estudiar mucho como yo. De cualquier forma todo lo que necesita esta aquí.
 >
-> The items listed here will prepare you well for in an interview at just about any software company,
-> including the giants: Amazon, Facebook, Google or Microsoft.
+> Los elementos listados aquí le prepararan bien para una entrevista en cualquier compañía de software, incluyendo a los gigantes: Amazon, Facebook, Google o Microsoft.
 >
-> *Best of luck to you!*
+> *¡La mejor de las suertes!*
 
-Translations:
+Traducciones:
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - translations in progress:
@@ -33,47 +32,45 @@ Translations:
     - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
     - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 
-## What is it?
+## ¿Qué es esto?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+Este es mi plan de estudios de varios meses para pasar de ser un Desarrollador Web (Autodidacta, sin título) a un Ingeniero de Software para una gran compañía.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+Esto es para los **nuevos Ingenieros de Software** o aquellos que quieren cambiar del Desarrollo de Software/Web a Ingeniero de Software (Donde el conocimiento de las Ciencias de Computación es requerido). Si tiene varios años de experiencia y clama tenerlos como Ingeniero de Software, espere una entrevista más ardua.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+Si tiene varios años de experiencia en desarrollo de software/web note que las grandes compañías como Google, Amazon, Facebook y Microsoft ven la Ingeniería de Software diferente al Desarrollo de Software/Web, requiriendo del conocimiento de las Ciencias de Computación.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas, estudie más de la lista opcional (Redes, Seguridad).
+
 
 ---
 
-## Table of Contents
+## Tabla de contenido
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
+- [¿Qué es esto?](#que-es-esto)
+- [¿Por qué usarlo?](#por-que-usarlo)
+- [Como usarlo](#como-usarlo)
+- [No sienta no es lo suficientemente listo](#no-sienta-no-es-lo-suficientemente-listo)
+- [Acerca de los recursos de vídeo](#acerca-de-los-recursos-de-videos)
+- [Proceso de entrevista y preparación general para la entrevista](#proceso-de-entrevista-y-preparación-general-para-la-entrevista
+- [Escoja un lenguaje para la entrevista](#escoja-un-lenguaje-para-la-entrevista)
+- [Lista de libros](#lista-de-libros)
+- [Antes de iniciar](#antes-de-iniciar)
+- [Lo que no verá cubierto](#lo-que-no-vera-cubierto)
+- [Conocimientos Previos](#conocimientos-previos)
+- [El plan diario](#el-plan-diario)
+- [Complejidad algorítmica / Big-O / Análisis asintótico](#complejidad-algoritmica-big-o-analisis-asintotico)
+- [Estructuras de datos](#estructuras-de-datos)
+    - [Arreglos](#arreglos)
+    - [Listas Enlazadas](#listas-enlazadas)
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
+- [Información adicional](#informacion-adicional)
+    - [Búsqueda binaria](#busqueda-binaria)
+    - [Operaciones bit a bit](#operaciones-bit-bit)
 - [Trees](#trees)
     - [Trees - Notes & Background](#trees---notes--background)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
@@ -92,11 +89,11 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - adjacency matrix
     - adjacency list
     - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
+- [Información adicional](#informacion-adicional)
+    - [Recursión](#recursion)
+    - [Programación Dinámica](#programacion-dinamica)
+    - [Programación Orientada a Objetos](#programacion-orientada-a-objetos)
+    - [Patrones de diseño](#patrones-de-diseño)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
     - [Caches](#caches)
@@ -110,42 +107,41 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Floating Point Numbers](#floating-point-numbers)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
-- [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Redes](#redes)
+- [Diseño del Sistema, Escalabilidad, Manejo de Datos] (#diseño del sistema-escalabilidad-manejo de datos) (si tiene más de 4 años de experiencia)
+- [Practica de preguntas de codificación](#practica-de-preguntas-de-codificacion)
+- [Ejercicios de codificación/Desafíos](#ejercicios-de-codificacion-desafíos)
+- [Una vez cerca de la entrevista](#una-vez-cerca-de-la-entrevista)
+- [Tu CV](#tu-cv)
+- [Pensando en cuando llegue la entrevista](#pensando-en-cuando-llegue-la-entrevista)
+- [Preguntas para el entrevistador](#preguntas-para-el entrevistador)
+- [Una vez obtenido el empleo](#una-vez-obtenido-el-empleo)
 
----------------- Everything below this point is optional ----------------
+---------------- Todo debajo de esta marca es opcional ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
+- [Libros adicionales](#libros-adicionales)
+- [Aprendizaje adicional](#aprendizaje-adicional)
+    - [Compiladores](#compiladores)
+    - [Emacs y Vi(m)](#emacs-y-vim)
+    - [Unix: Herramientas para la línea de comandos](#unix-herramienta-para-la-linea-de-comandos)
+    - [Teoría de la información](#teoria-de-la-informacion)
+    - [Código de paridad y Hamming](#codigo-de-paridad-y-hamming)
+    - [Entropía](#entropia)
+    - [Criptografía](#cryptografia)
     - [Compression](#compression)
-    - [Computer Security](#computer-security)
+    - [Seguridad informática](#seguridad-informatica)
     - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Programación en paralelo](#programacion-en-paralelo)
+    - [Sistemas de mensajería, serialización y colas] (#sistemas-de-mensajeria-serializacion-y-cola)
     - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
+    - [Transformada rápida de Fourier] (#transformada-rapida-de-fourier)
     - [Bloom Filter](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
     - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
+    - [Estructuras de datos aumentadas](#estructuras-de-datos-aumentadas)
     - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
+    - [Árboles de búsqueda equilibrada](#arboles-de-busqueda-equilibrada)
         - AVL trees
         - Splay trees
         - Red/black trees
@@ -155,17 +151,17 @@ If you want to be a reliability engineer or systems engineer, study more from th
         - B-Trees
     - [k-D Trees](#k-d-trees)
     - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
+    - [Flujos de red](#flujos-de-red)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [[Matemáticas para procesamiento rápido](#matematicas-para-procesamiento-rapido])
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
+    - [Programación Lineal](#programacion-lineal)
+    - [Geometría, casco convexo] (#geometria-casco-convexo)
+    - [Matemáticas discretas](#matematicas-discretas)
     - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Detalles adicionales de ciertos temas](#detalles-adicionales-de–ciertos-temas)
+- [Series de videos](#series-de-videos)
+- [Cursos de Informática](#cursos-de-informatica)
 
 ---
 

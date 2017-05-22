@@ -173,16 +173,16 @@ Pero después de pasar por todo este plan de estudios tengo mucha confianza de q
 
 Es un plan largo, puede tome unos meses; pero si le resulta familiar mucho de esto le tomara mucho menos tiempo.
 
-## How to use it
+## Como usarlo
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Todo lo que aparece abajo es un plan, y debería abordar los elementos en orden de arriba a abajo.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas para comprobar el progreso.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+[] **Cree una nueva rama para que pueda validar elementos como este, solo ponga una x en los corchetes: [x]**
 
 
-    Fork a branch and follow the commands below
+    Haga fork a una rama y siga los comandos siguientes
 
 `git checkout -b progress`
 
@@ -190,7 +190,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Marque todas las cajas con una x después de que completa los cambios
 
 `git add . `
 
@@ -200,7 +200,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Más acerca de los temas de Github para markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Don't feel you aren't smart enough
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.

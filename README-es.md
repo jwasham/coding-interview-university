@@ -54,7 +54,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Como usarlo](#como-usarlo)
 - [No sienta no es lo suficientemente listo](#no-sienta-no-es-lo-suficientemente-listo)
 - [Acerca de los recursos de vídeo](#acerca-de-los-recursos-de-videos)
-- [Proceso de entrevista y preparación general para la entrevista](#proceso-de-entrevista-y-preparación-general-para-la-entrevista
+- [Proceso de entrevista y preparación general para la entrevista](#proceso-de-entrevista-y-preparacion-general-para-la-entrevista
 - [Escoja un lenguaje para la entrevista](#escoja-un-lenguaje-para-la-entrevista)
 - [Lista de libros](#lista-de-libros)
 - [Antes de iniciar](#antes-de-iniciar)

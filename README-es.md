@@ -108,8 +108,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - [Unicode](#unicode)
     - [Endianness](#endianness)
 - [Redes](#redes)
-- [Diseño del Sistema, Escalabilidad, Manejo de Datos] (#diseño-del-sistema-escalabilidad-manejo-de-datos) 
-(Si tiene más de 4 años de experiencia)
+- [Diseño del Sistema, Escalabilidad, Manejo de Datos] (#diseño-del-sistema-escalabilidad-manejo-de-datos) -Si tiene más de 4 años de experiencia-
 - [Practica de preguntas de codificación](#practica-de-preguntas-de-codificacion)
 - [Ejercicios de codificación/Desafíos](#ejercicios-de-codificacion-desafíos)
 - [Una vez cerca de la entrevista](#una-vez-cerca-de-la-entrevista)

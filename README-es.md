@@ -165,16 +165,13 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 ---
 
-## Why use it?
+## ¿Por qué usarlo?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de ésto te resulta familiar entonces te tomará mucho menos tiempo. 
+
+Es un plan largo, puede tome unos meses; pero si le resulta familiar mucho de esto le tomara mucho menos tiempo.
 
 ## How to use it
 

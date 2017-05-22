@@ -281,8 +281,8 @@ Si esta corto de tiempo:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - El libro fue publicado en 2004, y es algo anticuado pero es un recurso fantástico para la comprensión de una computadora en breve.
-    - El autor inventó HLA, por lo que tiene muchas menciones y ejemplos en HLA. No es ampliamente utilizado, pero los ejemplos son decentes para ver como es un lenguaje ensamblador.
-    - Estos capítulos valen la pena ser leidos para brindarle una buena base:
+    - El autor inventó HLA, por lo que tiene muchas menciones y ejemplos en HLA. No es ampliamente utilizado, pero los ejemplos son decentes para ver cómo es un lenguaje ensamblador.
+    - Estos capítulos valen la pena ser leídos para brindarle una buena base:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -303,18 +303,18 @@ Si tiene más tiempo (Yo quiero este libro):
 **Necesita escoger un lenguaje para la entrevista (mire arriba).** Aquí están mis recomendaciones por lenguaje. No tengo recursos para todos los lenguajes. Son bienvenidas adiciones.
 
 Si ha leído alguno de estos, probablemente tenga todos los conocimientos de estructuras de datos y algoritmos que necesitara para hacer problemas de codificación.
-**Puede saltarse todas las video-lecturas en este proyecto **, a menos que quiera una crítica.
+**Puede saltarse todas las video-lecturas en este proyecto**, a menos que quiera una crítica.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Recursos adicionales específicos del lenguaje aquí.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+No he leído estos dos, pero están altamente calificados y escritos por Sedgewick. Él es asombroso.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Si tiene una mejor recomendación para C++ por favor hágamelo saber. Busco fuentes comprensivas.
 
 ### Java
 
@@ -323,61 +323,59 @@ If you have a better recommendation for C++, please let me know. Looking for a c
         - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
         - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
 
-OR:
+O:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - Por Goodrich, Tamassia, Goldwasser
+    - Usado como texto opcional en el curso de Informática impartido en UC Berkeley
+    - Vea mi reporte de la versión de Python debajo. Este libro abarca los mismos tópicos.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - Por Goodrich, Tamassia, Goldwasser
+    - Ame este libro. Cubre todo y más.
+    - Código Pythonioco
+    - Mi brillante reporte del libro : https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### Libros Opcionales
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**Algunas personas recomiendan estos pero creo exageran, a menos que tenga muchos años de experiencia en Ingeniería de Software y espere una entrevista mucho más difícil:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
-        - class textbook on data structures and algorithms
-            - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
+    - Como un resumen y un reconocimiento de problemas
+    - La porción del catálogo de algoritmos está más allá del alcance de la dificultad que obtendrá en una entrevista.
+    - Este libro consta de dos partes:
+        - Libro de clase sobre estrcutura de datos y algoritmos
+            - Pros:
+                - Es un buen resumen como cualquier libro de algoritmos debe ser
+                - Buenas historias de sus experiencias resolviendo problemas en la industria y en la academia
+                - Ejemplos codificados en C
+            - Cons:
+                - Puede ser así de denso o impenetrable como los CLRS, en algunos casos, los CLRS pueden proveer una mejor alternativa para algunos temas
+                - Capítulos 7, 8, 9 pueden ser un martirio intentar darles seguimiento, ya que no están bien explicados o requieren más cerebro del que tengo
+                - No me malentiendan: Me gusta Skiena, su estilo de enseñanza y manierismos, pero no puedo ser material de Stony Brook.
+        - Catálogo de algoritmos:
+            - Es la verdadera razón para comprar el libro.
+            - Actualizare esto, una vez haya pasado por este.
+    - Se puede rentar en Kindle
+    - Half.com es  un gran recurso para libros de textos a buen precio.
+    - Respuestas:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+    - **Importante:** Leer este libro tendrá un valor limitado. Este libro es un buen resumen de algoritmos y estructuras de datos, pero no le enseñará como escribir un buen código. Necesita ser capaz de codificar una solución decente eficientemente.
+    - Half.com es un buen recurso para libros a buenos precios.
+    - Aka CLR, a veces CLRS, porque Stein llego tarde al juego
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
-
+    - El primer par de capítulos presentan soluciones inteligentes a problemas de programación (algunos muy antiguos con cinta de datos) pero solo es una introducción. Esta es una guía sobre el diseño y la arquitectura del programa, como Code Complete, pero mucho más corto.
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
+    - Un buen libro, pero después de trabajar con algunos problemas me fruste con Pascal, ciclos do while, 1-arreglos indexados y resultados poco claros de satisfacción post-condición.
+    - Prefiero pasar tiempo en problemas de codificación de otro libro o problemas de codificación en línea.
 
 
 ## Before you Get Started

@@ -378,54 +378,51 @@ O:
     - Prefiero pasar tiempo en problemas de codificación de otro libro o problemas de codificación en línea.
 
 
-## Before you Get Started
+## Antes de iniciar
 
-This list grew over many months, and yes, it kind of got out of hand.
+Esta lista creció a lo largo de varios meses, y sí, está un poco fuera de las manos.
 
-Here are some mistakes I made so you'll have a better experience.
+Aquí algunos de mis errores para que pueda tener una mejor experiencia.
 
-### 1. You Won't Remember it All
+### 1. No recordará todo
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Vi horas de video y tomé notas exactas de ellos, meses después había mucho que no recordaba. Pase tres días entre mis notas y haciendo tarjetas para poder repasar.
+.
 
-Read please so you won't make my mistakes:
+Lea por favor para que no cometa mis errores:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Use tarjetas para recordar
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Para solucionar el problema construí un pequeño sitio de tarjetas para recordar donde podía añadir tarjetas de dos tipos: general y código.
+Cada tarjeta tiene distinto formato.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Hice un sitio adaptado a moviles para revisarlo en mi celular y en mi Tablet, donde quiera estuviera.
 
-Make your own for free:
+Haga el suyo gratis:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 - [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+Tenga en cuenta que empecé desde abajo y hay tarjetas que cubren todo, desde el lenguaje ensamblador y la trivia Python al Machine Learning y estadísticas. Es demasiado para lo que se requiere.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Nota en las tarjetas:** La primera vez reconozca sabe la respuesta, no marque como conocido; necesita contestar muchas veces correctamente antes de que en realidad lo sepa. La repetición pondrá ese conocimiento de forma más profunda en su cerebro.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Una alternativa a usar mi sitio de tarjetas es [Anki](http://ankisrs.net/), que me ha sido recomendado muchas veces. Usa un sistema de repetición para ayudarle a recordar. Es amigable con el usuario y disponible para todas las plataformas y tiene un sistema de sincronización en la nube. Cuesta $25 en iOS pero es gratuito en las otras plataformas.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Mis tarjetas en ek formato de Anki: https://ankiweb.net/shared/info/25173560 (Gracias[@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Revise, revise, revise
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Mantuve una serie de hojas clave en ASCII, OSI stack, notación Big-O y más. Las estudie cuando tenía tiempo libre.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Tome un descanso de los problemas de programación por media hora y repase sus tarjetas.
 
-### 4. Focus
+### 4. Enfóquese
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Hay muchas distracciones le pueden quitar tiempo valioso. Enfocarse y concentrarse es difícil.
 
 ## What you won't see covered
 

@@ -1,24 +1,19 @@
-# Coding Interview University
+# Coding Interview University #
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+>**เดิมทีผมสร้างขึ้นเพื่อเป็นรายการที่ต้องทำสำหรับหัวข้อที่ต้องศึกษาเพื่อที่จะเป็นวิศวกรซอฟต์แวร์ แต่ว่ามันเติบโตขึ้นอย่างมากและมีหัวข้อต่างๆ มากมายอย่างที่คุณเห็นอยู่ทุกวันนี้
+หัวข้อต่างๆ นี้จะเป็นสิ่งที่ให้คุณเตรียมตัวสำหรับสัมภาษณ์งานสำหรับบริษัทซอฟต์แวร์รวมทั้งบริษัทซอฟต์แวร์ขนาดใหญ่ของโลกอย่างเช่น Amazon Facebook Google หรือ Microsoft **
 >
-> The items listed here will prepare you well for in an interview at just about any software company,
-> including the giants: Amazon, Facebook, Google or Microsoft.
->
-> *Best of luck to you!*
+> *ขอให้คุณโชคดี!*
 
-Translations:
+การแปลภาษา:
 - [中文版本](translations/README-cn.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- translations in progress:
+- กำลังดำเนินการแปลภาษา:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
     - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
     - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
     - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+    - [Vietnamese](https://github.com/jwasham/coding-interview-university/issues/92)
     - [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
     - [French](https://github.com/jwasham/coding-interview-university/issues/89)
     - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
@@ -30,142 +25,131 @@ Translations:
     - [German](https://github.com/jwasham/coding-interview-university/issues/135)
     - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
     - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
-    - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-    - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 
-## What is it?
+## นี่คืออะไร ?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+นี่เป็นแผนการศึกษาหลายเดือนของผมจากนักพัฒนาเว็บไซต์ (ด้วยการศึกษาด้วยตัวเอง โดยไม่ได้จบวิทยาการคอมพิวเตอร์) เพื่อจะเป็นวิศวกรซอฟต์แวร์ในบริษัทขนาดใหญ่ที่หลายๆ คนต้องการเข้าทำงานด้วย
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+บทความนี้สำหรับคนที่อยากเป็น **วิศวกรซอฟต์แวร์** หรือต้องการเปลี่ยนมาจากนักพัฒนาซอฟต์แวร์หรือนักพัฒนาเว็บไซด์มาเป็นวิศวกรซอฟต์แวร์ (ผู้ซึ่งมีความรู้ความเข้าใจลึกซึ่งในหลักการของวิทยาการคอมพิวเตอร์) ถ้าคุณมีประสบการณ์หลายปีและมั่นใจในประสบการณ์การเป็นวิศวกรซอฟต์แวร์ของคุณ จะได้เจอการสัมภาษณ์ที่ยากขึ้นแน่นอน
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+ถ้าคุณมีประสบการณ์การพัฒนาซอฟต์แวร์หรือเว็บไซต์มาหลายปี แต่ในบริษัทซอฟต์แวร์ขนาดใหญ่ของโลกอย่าง Google Amazon Facebook และ Microsoft มองการพัฒนาซอฟต์แวร์ของวิศวกรซอฟต์แวร์ที่ต่างกันออกไปจากการพัฒนาซอฟต์แวร์หรือเว็บไซต์โดยทั่วๆไป และบริษัทที่กล่าวมานี้ก็ต้องการความรู้ทางวิทยาการคอมพิวเตอร์ที่เข้มข้นอย่างมาก
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+ถ้าคุณต้องการเป็นวิศวกรคุณภาพ หรือวิศวกรระบบ คุณอาจจะต้องศึกษาเพิ่มเติมในรายการเพิ่มเติม (ระบบเครือข่าย, ระบบความปลอดภัย)
+
 
 ---
 
-## Table of Contents
+## ตารางสารบัญ
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
-    - [Endianness](#endianness)
-- [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [นี่คืออะไร?](#what-is-it)
+- [ทำไมต้องใช้?](#why-use-it)
+- [ใช้อย่างไร?](#how-to-use-it)
+- [ห้ามรู้สึกว่าคุณไม่ฉลาดพอ](#dont-feel-you-arent-smart-enough)
+- [เกี่ยวกับแหล่งที่มาของวีดีโอ](#about-video-resources)
+- [กระบวนการการสัมภาษณ์และการเตรียมตัว](#interview-process--general-interview-prep)
+- [เลือกภาษาสำหรับการสัมภาษณ์](#pick-one-language-for-the-interview)
+- [รายชื่อหนังสือ](#book-list)
+- [ก่อนที่จะเริ่มต้น](#before-you-get-started)
+- [อะไรที่ไม่ครอบคลุม](#what-you-wont-see-covered)
+- [ความรู้ที่ต้องมีมาก่อน](#prerequisite-knowledge)
+- [แผนของแต่ละวัน](#the-daily-plan)
+- [ความซับซ้อนของขั้นตอนวิธี / Big-O / การวิเคราะห์ Asymptotic](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [โครงสร้างข้อมูล](#data-structures)
+    - [แถวลำดับ (Arrays)](#arrays)
+    - [รายการโยง (Linked Lists)](#linked-lists)
+    - [กองซ้อน (Stack)](#stack)
+    - [แถวคอย (Queue)](#queue)
+    - [ตารางแฮซ (Hash table)](#hash-table)
+- [ความรู้เพิ่มเติม](#more-knowledge)
+    - [การค้นหาข้อมูลแบบทวิภาค (Binary search)](#binary-search)
+    - [ตัวดำเนินการแบบบิต (Bitwise operations)](#bitwise-operations)
+- [ต้นไม้(โครงสร้างข้อมูล)](#trees)
+    - [ต้นไม้ - คำอธิบายและปรวัติความเป็นมา](#trees---notes--background)
+    - [ต้นไม้ค้นหาแบบทวิภาค (Binary search trees): BSTs](#binary-search-trees-bsts)
+    - [ฮีป (Heap) / แถวคอยลำดับความสำคัญ (Priority Queue) / ฮีปแบบวิภาค (Binary Heap)](#heap--priority-queue--binary-heap)
+    - ตารางค้นหาสมดุล (balanced search trees) (แนวคิดทั่วไป ไม่ได้ลงรายละเอียด)
+    - การแวะผ่านต้นไม้ (traversals): ก่อนลำดับ, ตามลำดับ, กลังลำดับ, BFS, DFS
+- [การเรียงลำดับ](#sorting)
+    - แบบเลือก (selection)
+    - แบบแทรก (insertion)
+    - แบบฮีป (heapsort)
+    - แบบเร็ว (quicksort)
+    - แบบผสาน (merge sort)
+- [กราฟ (Graphs)](#graphs)
+    - กราฟแบบมีทิศทาง (directed)
+    - กราฟแบบไม่มีทิศทาง (undirected)
+    - เมตริกซ์ประชิด (adjacency matrix)
+    - รายการประชิด (adjacency list)
+    - การแวะผ่านกราฟ: BFS, DFS
+- [ความรู้เพิ่มเติม](#even-more-knowledge)
+    - [การเรียกซ้ำ](#recursion)
+    - [การโปรแกรมแบบพลวัต](#dynamic-programming)
+    - [การเขียนโปรแกรมเชิงวัตถุ](#object-oriented-programming)
+    - [แบบแผนการออกแบบ](#design-patterns)
+    - [คณิตศาสตร์เชิงการจัด (n เลือก k) & ความน่าจะเป็น](#combinatorics-n-choose-k--probability)
+    - [กลุ่มปัญหาเอ็นพี (NP), เอ็นพีบริบูรณ์ (NP-Complete) และ ระเบียบวิธีการประมาณการ](#np-np-complete-and-approximation-algorithms)
+    - [แคช](#caches)
+    - [กระบวนการ และ เทรด](#processes-and-threads)
+    - [บทความตีพิมพ์](#papers)
+    - [การทดสอบ](#testing)
+    - [การจัดการลำดับการทำงาน](#scheduling)
+    - [การพัฒนาคำสั่งย่อยของระบบ](#implement-system-routines)
+    - [การค้นหาสตริง & การจัดการ](#string-searching--manipulations)
+    - [ลำดับชั้น](#tries)
+    - [ตัวเลขที่มีจุดทศนิยม](#floating-point-numbers)
+    - [ยูนิโค้ด](#unicode)
+    - [การจัดเรียงข้อมูล](#endianness)
+- [ระบบเครือข่าย](#networking)
+- [การออกแบบระบบ, การขยายได้ของระบบ, การจัดการข้อมูล](#system-design-scalability-data-handling) (ถ้าคุณมีประสบการณ์มากกว่า 4 ปี)
+- [บททบทวนสุดท้าย](#final-review)
+- [การฝึกฝนกับคำถามของการเขียนโปรแกรม](#coding-question-practice)
+- [แบบฝึกหัดและความท้ายทายของการเขียนโปรแกรม](#coding-exerciseschallenges)
+- [เมื่อใกล้ถึงวันสัมภาษณ์งาน](#once-youre-closer-to-the-interview)
+- [ประวัติย่อของคุณ](#your-resume)
+- [สิ่งที่คิดไว้เมื่อวันสัมภาษณ์มาถึง](#be-thinking-of-for-when-the-interview-comes)
+- [คำถามสำหรับผู้สัมภาษณ์](#have-questions-for-the-interviewer)
+- [เมื่อคุณได้งาน](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+---------------- รายการด้านล่างนี้เป็นรายการตัวเลือก ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+- [หนังสือเพิ่มเติม](#additional-books)
+- [การเรียนรู้เพิ่มเติม](#additional-learning)
+    - [คอมไพเลอร์](#compilers)
+    - [Emacs และ vi(m)](#emacs-and-vim)
+    - [เครื่องมือคำสั่งของยูนิก](#unix-command-line-tools)
+    - [ทฤษฏีสารสนเทศ](#information-theory)
+    - [ความเสมอกัน & รหัสแฮมมิ่ง](#parity--hamming-code)
+    - [หน่อววัดการสุ่มตัวอย่าง](#entropy)
+    - [วิทยาการเข้าหรัสลับ](#cryptography)
+    - [การบีบอัดข้อมูล](#compression)
+    - [ระบบรักษาความปลอดภัยคอมพิวเตอร์](#computer-security)
+    - [หน่วยจัดเก็บขยะข้อมูลไม่ได้ใช้](#garbage-collection)
+    - [การโปรแกรมแบบขนาน](#parallel-programming)
+    - [การส่งข้อความ, การทำให้เป็นอันดับ, และระบบการคอย](#messaging-serialization-and-queueing-systems)
     - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [การแปลงฟูเรียร์](#fast-fourier-transform)
+    - [ตัวกรองของบลูม](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
-    - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+    - [แอลเอสเอส (Locality-Sensitive hashing)](#locality-sensitive-hashing)
+    - [ต้นไม้ของ van Emde Boas](#van-emde-boas-trees)
+    - [โครงสร้างข้อมูลออกเมนต์](#augmented-data-structures)
+    - [ต้นไม้แบบ N-ary (K-ary, M-ary)](#n-ary-k-ary-m-ary-trees)
+    - [ต้นไม้การค้นหาที่สมดุล](#balanced-search-trees)
+    - [ต้นไม้แบบ k-D](#k-d-trees)
+    - [การข้ามรายการ](#skip-lists)
+    - [กระแสเครือข่าย](#network-flows)
+    - [โครงสร้างข้อมูลไม่มีส่วนร่วม และ ยูเนียนและค้นหา](#disjoint-sets--union-find)
+    - [คณิตศาสต์สำหรับการประมวณผลอย่างรวดเร็ว](#math-for-fast-processing)
+    - [ทรีพ](#treap)
+    - [การโปรแกรมเชิงเส้น](#linear-programming)
+    - [เรขาคณิต, คอนเว็กซ์อัล](#geometry-convex-hull)
+    - [คณิตศาสตร์ดีสครีต](#discrete-math)
+    - [การเรียนรู้ของเครื่อง](#machine-learning)
+- [รายละเอียดเพิ่มเติมของบางหัวข้อ](#additional-detail-on-some-subjects)
+- [ชุดของวีดีโอเพื่อการเรียนรู้เพิ่มเติม](#video-series)
+- [รายวิชาของวิทยาการคอมพิวเตอร์](#computer-science-courses)
 
 ---
 
@@ -228,7 +212,6 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] Cracking The Coding Interview Set 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
@@ -238,8 +221,6 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
 
 ## Pick One Language for the Interview
 
@@ -280,9 +261,7 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 If you have tons of extra time:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] Elements of Programming Interviews (Java version)
-    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-    - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
+- [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
 
 ### Computer Architecture
 
@@ -468,9 +447,9 @@ Why code in all of these?
 I may not have time to do all of these for every subject, but I'll try.
 
 You can see my code here:
- - [C](https://github.com/jwasham/practice-c)
- - [C++](https://github.com/jwasham/practice-cpp)
- - [Python](https://github.com/jwasham/practice-python)
+ - [C] (https://github.com/jwasham/practice-c)
+ - [C++] (https://github.com/jwasham/practice-cpp)
+ - [Python] (https://github.com/jwasham/practice-python)
 
 You don't need to memorize the guts of every algorithm.
 
@@ -831,7 +810,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 ## Graphs
@@ -978,8 +956,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
-    - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
-
 
 - ### Combinatorics (n choose k) & Probability
     - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
@@ -1072,7 +1048,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
     - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](https://www.akkadia.org/drepper/cpumemory.pdf)
         - The Dynamo paper kicked off the NoSQL revolution
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
     - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
     - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
@@ -1197,8 +1173,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - simplicity and robustness
         - tradeoffs
         - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+- [ ] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
@@ -1273,8 +1248,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
-    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
@@ -1402,7 +1376,6 @@ Challenge sites:
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/)
 - [HackerRank](https://www.hackerrank.com/)
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
@@ -1410,13 +1383,9 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
-Challenge repos:
-- [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
-
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
-- [Refdash: Mock interviews](https://refdash.com/)
 
 ## Once you're closer to the interview
 
@@ -1584,7 +1553,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-
 - ### Computer Security
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
@@ -1608,6 +1576,9 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### Parallel Programming
+    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+    - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+
 - ### Messaging, Serialization, and Queueing Systems
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)

@@ -59,8 +59,8 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Lista de libros](#lista-de-libros)
 - [Antes de iniciar](#antes-de-iniciar)
 - [Lo que no verá cubierto](#lo-que-no-verá-cubierto)
-- [Conocimientos Previos](#conocimientos-previos)
 - [El plan diario](#el-plan-diario)
+- [Conocimientos Previos](#conocimientos-previos)
 - [Complejidad algorítmica / Big-O / Análisis asintótico](#complejidad-algorítmica-big-o-análisis-asintótico)
 - [Estructuras de datos](#estructuras-de-datos)
     - [Arreglos](#arreglos)
@@ -89,7 +89,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - adjacency matrix
     - adjacency list
     - traversals: BFS, DFS
-- [Información adicional](#información-adicional)
+- [Más información adicional](#más-información-adicional)
     - [Recursión](#recursión)
     - [Programación Dinámica](#programación-dinámica)
     - [Programación Orientada a Objetos](#programación-orientada-a-objetos)
@@ -112,7 +112,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Practica de preguntas de codificación](#practica-de-preguntas-de-codificación)
 - [Ejercicios de codificación/Desafíos](#ejercicios-de-codificación-desafíos)
 - [Una vez cerca de la entrevista](#una-vez-cerca-de-la-entrevista)
-- [Tu CV](#tu-cv)
+- [Su CV](#su-cv)
 - [Pensando en cuando llegue la entrevista](#pensando-en-cuando-llegue-la-entrevista)
 - [Preguntas para el entrevistador](#preguntas-para-el-entrevistador)
 - [Una vez obtenido el empleo](#una-vez-obtenido-el-empleo)
@@ -463,21 +463,20 @@ No es necesario recordar las entrañas de cada algoritmo.
 
 Escriba código en un pizarrón o en papel no en la computadora. Pruebe con alguna entrada de prueba. Después pruébelos en la computadora.
 
-## Prerequisite Knowledge
+## Conocimientos Previos 
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **Aprenda C**
+    - C esta en todos lados. Verá ejemplos en libros, lecturas, videos, *en todo lugar* mientras esté estudiando.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
+        - Este es un libro corto, pero le dará una gran manejo en el lenguaje C y si lo practica un poco, rápidamente conseguirá ser experto. Comprender C le ayuda a entender cómo funcionan los programas y la memoria.
         - [answers to questions](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
+- [ ] **Como las computadoras procesan un programa:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
+## Complejidad algorítmica / Big-O / Análisis asintótico
+- Nada a implementar
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -497,14 +496,13 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+    Si algunas de las lecturas son muy matemáticas puede saltar a la parte inferior y ver las matemáticas discretas para tener el conocimiento base.
 
-## Data Structures
+## Estructuras de datos
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
+- ### Arreglos
+    - Implemente un vector automáticamente redimensionable.
+    - [ ] Descripción:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
         - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
@@ -513,8 +511,8 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+    - [ ] Implemente un vector (Arreglo mutable con redimensionamiento automático):
+        - [ ] Practique codificar usando arreglos y apuntadores, y un apuntador matemático para saltar a un índice en lugar de utilizar la indexación.
         - [ ] new raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
@@ -539,8 +537,8 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
-    - [ ] Description:
+- ### Listas Enlazadas 
+    - [ ] Descripción:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
@@ -568,7 +566,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+    - [ ] Doble lista enlazada
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
@@ -626,9 +624,8 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - get(key)
         - remove(key)
 
-## More Knowledge
-
-- ### Binary search
+## Información adicional 
+- ### Búsqueda binaria 
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
@@ -636,7 +633,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - binary search (on sorted array of integers)
         - binary search using recursion
 
-- ### Bitwise operations
+- ### Operaciones bit a bit 
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
@@ -879,9 +876,8 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
-## Even More Knowledge
-
-- ### Recursion
+## Más información adicional 
+- ### Recursión
     - [ ] Stanford lectures on recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -892,7 +888,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Dynamic Programming
+- ### Programación Dinámica 
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:
@@ -917,7 +913,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Object-Oriented Programming
+- ### Programación Orientada a Objetos 
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
         - Can skip this if you have a great grasp of OO and OO design practices.
@@ -938,7 +934,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
-- ### Design patterns
+- ### Patrones de diseño 
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] Learn these patterns:
         - [ ] strategy
@@ -1149,8 +1145,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
+- ### Redes
+    - **Si tiene experiencia en redes o quiere se un Ingeniero en Sistemas espere preguntas**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
@@ -1166,7 +1162,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-## System Design, Scalability, Data Handling
+## Diseño del Sistema, Escalabilidad, Manejo de Datos 
 - **You can expect system design questions if you have 4+ years of experience.**
 - Scalability and System Design are very large topics with many topics and resources, since
       there is a lot to consider when designing a software/hardware system that can scale.
@@ -1332,7 +1328,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## Coding Question Practice
+## Practica de preguntas de codificación 
 
 Now that you know all the computer science topics above, it's time to practice answering coding problems.
 
@@ -1372,8 +1368,7 @@ Supplemental:
 
 See [Book List above](#book-list)
 
-## Coding exercises/challenges
-
+## Ejercicios de codificación/Desafíos 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
 
@@ -1405,19 +1400,18 @@ Mock Interviews:
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 - [Refdash: Mock interviews](https://refdash.com/)
 
-## Once you're closer to the interview
-
+## Una vez cerca de la entrevista 
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## Su CV 
 
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
 
-## Be thinking of for when the interview comes
+## Pensando en cuando llegue la entrevista 
 
 Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
 Have a story, not just data, about something you accomplished.
@@ -1435,7 +1429,7 @@ Have a story, not just data, about something you accomplished.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
-## Have questions for the interviewer
+## Preguntas para el entrevistador 
 
     Some of mine (I already may know answer to but want their opinion or team perspective):
 
@@ -1449,7 +1443,7 @@ Have a story, not just data, about something you accomplished.
 - What do you like about it?
 - What is the work life like?
 
-## Once You've Got The Job
+## Una vez obtenido el empleo
 
 Congratulations!
 
@@ -1471,8 +1465,7 @@ You're never really done.
 
 ---
 
-## Additional Books
-
+## Libros adicionales 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
     - an oldie but a goodie
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
@@ -1485,18 +1478,18 @@ You're never really done.
     - the canonical design patterns book
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-## Additional Learning
+## Aprendizaje adicional 
 
 These topics will likely not come up in an interview, but I added them to help you become a well-rounded
 software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
 
-- ### Compilers
+- ### Compiladores 
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Emacs and vi(m)
+- ### Emacs y Vi(m) 
     - Familiarize yourself with a unix-based code editor
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
@@ -1517,7 +1510,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix command line tools
+- ### Unix: Herramientas para la línea de comandos 
     - I filled in the list below from good tools.
     - [ ] bash
     - [ ] cat
@@ -1531,7 +1524,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Teoría de la información (videos)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] more about Markov processes:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1539,7 +1532,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - See more in MIT 6.050J Information and Entropy series below.
 
-- ### Parity & Hamming Code (videos)
+- ### Código de paridad y Hamming (videos)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - [ ] Hamming Code:
@@ -1547,12 +1540,12 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
+- ### Entropía 
     - also see videos below
     - make sure to watch information theory videos first
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
+- ### Criptografía 
     - also see videos below
     - make sure to watch information theory videos first
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
@@ -1571,7 +1564,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Computer Security
+- ### Seguridad informática 
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1593,11 +1586,10 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
-    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+- ### Programación en paralelo    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
+- ### Sistemas de mensajería, serialización y colas 
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1624,7 +1616,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
     - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- ### Fast Fourier Transform
+- ### Transformada rápida de Fourier
     - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
     - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
     - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
@@ -1650,10 +1642,10 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
-- ### Augmented Data Structures
+- ### Estructuras de datos aumentadas
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
 
-- ### Balanced search trees
+- ### Árboles de búsqueda equilibrada 
     - Know least one type of balanced binary tree (and know how it's implemented):
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
@@ -1755,7 +1747,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Network Flows
+- ### Flujos de red 
     - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
@@ -1764,7 +1756,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
     - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
 
-- ### Math for Fast Processing
+- ### Matemáticas para procesamiento rápido 
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
@@ -1774,18 +1766,18 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ### Linear Programming (videos)
+- ### Programación Lineal (videos)
     - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
     - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
     - [ ] [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
-- ### Geometry, Convex hull (videos)
+- ### Geometría, casco convexo (videos)
     - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
     - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
+- ### Matemáticas discretas 
     - see videos below
 
 - ### Machine Learning
@@ -1817,7 +1809,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 --
 
-## Additional Detail on Some Subjects
+## Detalles adicionales de ciertos temas 
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
@@ -1887,7 +1879,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## Series de videos 
 
 Sit back and enjoy. "Netflix and skill" :P
 
@@ -1951,7 +1943,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## Cursos de Informática 
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)

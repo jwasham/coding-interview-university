@@ -213,7 +213,7 @@ En ocasiones las clases no están en sesión por lo que tendrá que esperar un p
 
 Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
 	
-    Me gusta usa lecturas de universidad.
+    Me gustan recursos provenientes de universidades.
 
 
 ## Prepárese para la entrevista
@@ -229,9 +229,9 @@ Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuita
 
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+        - Aprenda como alistarse para una entrevista de Ingeniería de Software con un entrevistador de Google.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
+        - Un curso enfocado a una entrevista centrada en Python; que cubre estructuras de datos, algoritmos, plantillas de entrevistas y mucho más. 
 
 ## Escoja un lenguaje para la entrevista
 
@@ -424,43 +424,44 @@ Tome un descanso de los problemas de programación por media hora y repase sus t
 
 Hay muchas distracciones le pueden quitar tiempo valioso. Enfocarse y concentrarse es difícil.
 
-## What you won't see covered
+## Lo que no verá cubierto
 
-These are prevalent technologies but not part of this study plan:
+Estas son tecnologías predominantes, pero no están cubiertas por este plan de estudios:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, y otras tecnologías front-end
 
-## The Daily Plan
+## El plan diario
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Algunos temas tomarán un día y otros tomarán varios. Algunos son solo para aprender sin nada que implementar. 
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Cada día yo tomé un tema de los siguientes, vi videos sobre el tema y escribía una implementación:
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+- C - usando estructuras y funciones que toman una estructura * y otra cosa como argumentos. 
+- C++ - sin utilizar tipos incorporados
+- C++ - usando tipos incorporados, como std::list de STL para una lista enlazada 
+- Python - usando tipos incorporados (para seguir practicando Python)
+- y escribir pruebas para asegurarme de que lo estoy haciendo bien, a veces simplemente usando simples declaraciones assert()
+- Puede hacer Java o algo más, esto es solo lo mío.
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+No necesita todo esto. Solo necesita [un lenguaje para la entrevista](#escoja-un-lenguaje-para-la-entrevista).
 
-I may not have time to do all of these for every subject, but I'll try.
+¿Por qué codificar en todo esto? 
+- Práctica, práctica, práctica… hasta que me canse de ello y pueda hacerlo sin ningún problema (algunos usan técnicas y marcadores para recordar)
+- Trabajar dentro de las restricciones primarias (asignar / liberar memoria sin ayuda del garbage collection (excepto Python))
+- Hacer uso de los tipos incorporados para que tenga experiencia usando las herramientas de tipos incorporados para su uso en el mundo real (no escribiré mi propia implementación de listas enlazadas en producción)
 
-You can see my code here:
+Puede que no tenga tiempo de hacer todo esto para cada tema, pero lo intentare.
+
+Puede ver mi código aquí:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+No es necesario recordar las entrañas de cada algoritmo.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Escriba código en un pizarrón o en papel no en la computadora. Pruebe con alguna entrada de prueba. Después pruébelos en la computadora.
 
 ## Prerequisite Knowledge
 

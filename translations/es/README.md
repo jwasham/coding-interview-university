@@ -2,7 +2,7 @@
 
 - Versión original: [Inglés](README.md)
 
-> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon! (Art. En Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
+> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon! (Art. En Inglés)](src/AdquiridoAmazon.rtf)
 > Posiblemente no tenga que estudiar mucho como yo. De cualquier forma todo lo que necesita esta aquí.
 >
 > Los elementos listados aquí le prepararan bien para una entrevista en cualquier compañía de software, incluyendo a los gigantes: Amazon, Facebook, Google o Microsoft.

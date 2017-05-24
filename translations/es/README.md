@@ -85,7 +85,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - heapsort
     - quicksort
     - merge sort
-- [Graphs](#graphs)
+- [Grafos](#grafos)
     - directed
     - undirected
     - adjacency matrix
@@ -820,19 +820,19 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
-## Graphs
+## Grafos
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+Los grafos pueden ser usados para representar muchos problemas en las Ciencias de la Computación, así que es una sección larga, como lo son los trees y sorting.
 
-- Notes:
-    - There are 4 basic ways to represent a graph in memory:
-        - objects and pointers
-        - adjacency matrix
-        - adjacency list
-        - adjacency map
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none.
+- Notas:
+    - Hay cuatro formas básicas de representar un grafo en memoria:
+        - Objetos y apuntadores
+        - Matriz adyacente
+        - Lista adyacente
+        - Mapa adyacente
+    - Familiarícese con cada representación y sus pros y contras
+    - BFS and DFS – Conozca su complejidad computacional, sus tradeoffs y como implementarlos en código real
+    - Cuando se le haga una pregunta busqué una solución basada en grafos, si no encuentra continue.
 
 - [ ] Skiena Lectures - great intro:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
@@ -876,7 +876,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+Obtendrá más practica de grafos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas
 
 ## Más información adicional 
 - ### Recursión

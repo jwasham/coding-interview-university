@@ -914,7 +914,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 - ### Programación Orientada a Objetos 
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
-        - Can skip this if you have a great grasp of OO and OO design practices.
+        - Puede omitir esto si tiene una gran comprensión de OO y OO prácticas de diseño.
         - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] SOLID OOP Principles:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
@@ -934,7 +934,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 - ### Patrones de diseño 
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
+    - [ ] Aprenda estos patrones:
         - [ ] strategy
         - [ ] singleton
         - [ ] adapter

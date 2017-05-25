@@ -631,7 +631,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
     - [ ] Implementar:
-        - Búsqueda binaria (en un  arreglo ordenado de enteros)
+        - Búsqueda binaria (en un arreglo ordenado de enteros)
         - Búsqueda binaria usando recursión
 
 - ### Operaciones bit a bit 
@@ -756,7 +756,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - No recomendaría ordenar una lista enlazada, pero el ordenamiento por mezcla es realizable.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- Para ordenamientos por montículos, vea la estructura de datos de Colas o filas arriba. El ordenamiento por monticulos es estupendo, pero inestable.
+- Para ordenamientos por montículos, vea la estructura de datos de Colas o filas arriba. El ordenamiento por montículos es estupendo, pero inestable.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
@@ -1003,31 +1003,31 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 - ### Procesos e hilos
     - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
+        - Para los procesos e hilos vea los videos 1-11
         - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - difference between processes and threads
-            - processes
-            - threads
-            - locks
-            - mutexes
-            - semaphores
-            - monitors
-            - how they work
-            - deadlock
-            - livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
+    - Cubre:
+        - Procesos, Hilos, Temas de Concurrencia
+             - Diferencia entre procesos e hilos
+             - Procesos
+             - Hilos
+             - Cerraduras
+             - Mutexes
+             - Semáforos
+             - Monitores
+             - Cómo trabajan ellos
+             - Bloqueo
+             - Livelock
+        - Actividad de CPU, interrupciones, conmutación de contexto
+        - Moderna concurrencia construida con procesadores multinúcleo
         - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
         - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware
+        - Necesidades de recursos de proceso (memoria: código, almacenamiento estático, pila, monticulo y también descriptores de archivo, i /o)
+        - Necesidades de recursos de hilos (partes anteriores (menos pila) con otros hilos en el mismo proceso pero cada uno tiene su propio PC, contador de pila, registros y pila)
+        - Bifurcación es realmente copia en escritura (sólo lectura) hasta que el nuevo proceso escribe en memoria, entonces hace una copia completa.
+        - Cambio de contexto
+            - Cómo se inicia el cambio de contexto por el sistema operativo y el hardware subyacente
     - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
     - [ ] concurrency in Python (videos):
         - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)

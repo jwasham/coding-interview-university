@@ -687,7 +687,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 - ### Árboles de búsqueda binaria: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - starts with symbol table and goes through BST applications
+        - Comienza con la tabla de símbolos y pasa por las aplicaciones BST
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
@@ -701,18 +701,18 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+    - [ ] Implementar:
+        - [ ] insert    // Inserta valores en el árbol
+        - [ ] get_node_count // Obtener la cuenta de los valores almacenados 
+        - [ ] print_values // Imprime los valores en el árbol, del min al max
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] is_in_tree // Devuelve verdadero si el valor dado existe en el árbol 
+        - [ ] get_height // Regresa la altura en los nodos (La altura de cada nodo es 1)
+        - [ ] get_min   // Regresa el valor mínimo almacenado en el árbol
+        - [ ] get_max   // Regresa el valor máximo almacenado en el árbol 
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // Regresa el siguiente valor más alto en el árbol después del valor dado,-1 si ninguno
 
 - ### Montículo / Colas de Prioridad / Montículo binario 
     - visualized as a tree, but is usually linear in storage (array, linked list)

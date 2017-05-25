@@ -744,19 +744,19 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
             - Nota: Usar una cola mínima reduciría operaciones, pero duplicaría el espacio necesario (No se puede hacer en lugar).
 
 ## Ordenamientos 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
+- [ ] Notas:
+    - Implementar ordenamientos y conocer el mejor/peor de los casos y el promedio de complejidad de cada uno: 
+        - No ordenamiento de burbuja - Es terrible - O(n^2), excepto cuando n <= 16
+    - [ ] Estabilidad en algoritmos de ordenamiento("¿Es Quicksort estable?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+    - [ ] ¿Cuáles algoritmos pueden ser usados en listas enlazadas? ¿Cuáles en arreglos? ¿Cuál en ambos?
+        - No recomendaría ordenar una lista enlazada, pero el ordenamiento por mezcla es realizable.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
+- Para ordenamientos por montículos, vea la estructura de datos de Colas o filas arriba. El ordenamiento por monticulos es estupendo, pero inestable.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
@@ -794,13 +794,13 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+- [ ] Implemente:
+    - [ ] Mergesort: O(n log n) Promedio y peor caso
+    - [ ] Quicksort O(n log n) Caso promedio
+    - El ordenamiento por selección y el de inserción ambos son O(n^2) Promedio y peor caso
+    - Para ordenamientos por montículos, vea la estructura de datos de Colas o filas arriba.
 
-- [ ] Not required, but I recommended them:
+- [ ] No requeridos, pero los recomendaría:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
         - [ ] [1. Strings in Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
         - [ ] [2. Key Indexed Counting](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
@@ -814,12 +814,12 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+Como resumen aquí esta una representación visual de [15 algoritmos de ordenamiento](https://www.youtube.com/watch?v=kPRA0W1kECg).
+Si necesita más detalle de este tema vea “Ordenamientos” en [Detalles adicionales de ciertos temas](#detalles-adicionales-de-ciertos-temas)
 
 ## Grafos
 
-Los grafos pueden ser usados para representar muchos problemas en las Ciencias de la Computación, así que es una sección larga, como lo son los trees y sorting.
+Los grafos pueden ser usados para representar muchos problemas en las Ciencias de la Computación, así que es una sección larga, como lo son los árboles y ordenamientos.
 
 - Notas:
     - Hay cuatro formas básicas de representar un grafo en memoria:
@@ -828,8 +828,8 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - Lista adyacente
         - Mapa adyacente
     - Familiarícese con cada representación y sus pros y contras
-    - BFS and DFS – Conozca su complejidad computacional, sus tradeoffs y como implementarlos en código real
-    - Cuando se le haga una pregunta busqué una solución basada en grafos, si no encuentra continue.
+    - BFS and DFS – Conozca su complejidad computacional, sus tradeoffs y cómo implementarlos en código real
+    - Cuando se le haga una pregunta busqué una solución basada en grafos, si no encuentra continúe.
 
 - [ ] Skiena Lectures - great intro:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
@@ -854,7 +854,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
-- Full Coursera Course:
+- Curso Completo de Coursera:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - I'll implement:
@@ -873,7 +873,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
-Obtendrá más practica de grafos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas
+Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas
 
 ## Más información adicional 
 - ### Recursión

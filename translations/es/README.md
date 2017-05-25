@@ -593,7 +593,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] Costo:
         - Una mala implementación usando lista enlazada donde se enqueue en la cabeza y dequeue en la cola sería O (n)
              Porque usted necesitaría el siguiente al último elemento, causando un recorrido completo cada dequeue
-        - enqueue: O(1) (amortizado, Lista enlazada y arreglo [probando])
+        - enqueue: O(1) (amortizado, Lista enlazada y arreglo [sondaje])
         - dequeue: O(1) (Lista enlazada y arreglo)
         - empty: O(1) (Lista enlazada y arreglo)
 
@@ -618,9 +618,9 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+    - [ ] Implementar con arreglo usando sondaje lineal 
+        - hash(k, m) - m es el tamaño de la matriz asociativa
+        - add(key, value) – Si la llave ya existe , actualiza el valor
         - exists(key)
         - get(key)
         - remove(key)

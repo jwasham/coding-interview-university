@@ -597,7 +597,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - dequeue: O(1) (Lista enlazada y arreglo)
         - empty: O(1) (Lista enlazada y arreglo)
 
-- ### Hash table
+- ### Matriz asociativa
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)

@@ -130,37 +130,37 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - [Código de paridad y Hamming](#código-de-paridad-y-hamming)
     - [Entropía](#entropía)
     - [Criptografía](#criptografía)
-    - [Compression](#compression)
+    - [Compresión](#compresión)
     - [Seguridad informática](#seguridad-informática)
     - [Garbage collection](#garbage-collection)
     - [Programación en paralelo](#programacion-en-paralelo)
     - [Sistemas de mensajería, serialización y colas](#sistemas-de-mensajería-serialización-y-cola)
     - [A*](#a)
     - [Transformada rápida de Fourier](#transformada-rápida-de-fourier)
-    - [Bloom Filter](#bloom-filter)
+    - [Filtro de Bloom](#filtro-de-bloom)
     - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
+    - [Hashing sensible a la localidad](#hashing-sensible-a-la-localidad)
+    - [Árboles van Emde Boa](#árboles-van-emde-boas)
     - [Estructuras de datos aumentadas](#estructuras-de-datos-aumentadas)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
+    - [Árboles N-avo (K-avo, M-avo)](#árboles-n-avo-k-avo-m-avo)
     - [Árboles de búsqueda equilibrada](#árboles-de-búsqueda-equilibrada)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
+        - Árboles AVL
+        - Árboles biselados
+        - Árboles rojos/negros
+        - Árboles de búsqueda 2-3
+        - Árboles 2-3-4 (aka Árboles 2-4)
+        - Árboles N-avo (K-avo, M-avo)
+        - Árboles-B
+    - [Árboles k-D](#árboles-k-d)
+    - [Lista por saltos](#listas-por-saltos)
     - [Flujos de red](#flujos-de-red)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Matemáticas para procesamiento rápido](#mmatemáticas-para-procesamiento-rápido)
+    - [Conjuntos disjuntos & Encontrar unión](#conjuntos-disjuntos-encontrar-unión)
+    - [Matemáticas para procesamiento rápido](#matemáticas-para-procesamiento-rápido)
     - [Treap](#treap)
     - [Programación Lineal](#programación-lineal)
     - [Geometría, casco convexo](#geometría-casco-convexo)
     - [Matemáticas discretas](#matemáticas-discretas)
-    - [Machine Learning](#machine-learning)
+    - [Aprendizaje automático](#aprendizaje-automático)
 - [Detalles adicionales de ciertos temas](#detalles-adicionales-de–ciertos-temas)
 - [Series de videos](#series-de-videos)
 - [Cursos de Informática](#cursos-de-informática)
@@ -171,7 +171,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de ésto te resulta familiar entonces te tomará mucho menos tiempo. 
+Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo. 
 
 Es un plan largo, puede tome unos meses; pero si le resulta familiar mucho de esto le tomara mucho menos tiempo.
 

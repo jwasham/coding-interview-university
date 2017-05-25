@@ -576,26 +576,26 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] No implementaré. Implementando con arreglos es trivial.
 
-- ### Queue
+- ### Cola o fila
     - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] Implementar usando listas enlazadas, con el puntero de la cola:
+        - enqueue(value) – Añade el valor en la posición de la cola
+        - dequeue() – Regresa el valor y elimina el valor más recientemente añadido(frontal)
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Implementar usando arreglos de tamaño fijo:
+        - enqueue(value) – Añade elemento al final del almacenamiento disponible 
+        - dequeue() – Regresa el valor y elimina el elemento más recientemente añadido 
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Costo:
+        - Una mala implementación usando lista enlazada donde se enqueue en la cabeza y dequeue en la cola sería O (n)
+             Porque usted necesitaría el siguiente al último elemento, causando un recorrido completo cada dequeue
+        - enqueue: O(1) (amortizado, Lista enlazada y arreglo [probando])
+        - dequeue: O(1) (Lista enlazada y arreglo)
+        - empty: O(1) (Lista enlazada y arreglo)
 
 - ### Hash table
     - [ ] Videos:
@@ -606,7 +606,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
+    - [ ] Cursos en línea:
         - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
         - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
         - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)

@@ -67,48 +67,48 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Estructuras de datos](#estructuras-de-datos)
     - [Arreglos](#arreglos)
     - [Listas Enlazadas](#listas-enlazadas)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
+    - [Pila](#pila)
+    - [Cola o fila](#cola-o-fila)
+    - [Matriz asociativa](#matriz-asociativa)
 - [Información adicional](#información-adicional)
     - [Búsqueda binaria](#búsqueda-binaria)
     - [Operaciones bit a bit](#operaciones-bit-bit)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
+- [Árboles](#árboles)
+    - [Árboles - Notas & Antecedentes](#árboles---notas--antecedentes)
+    - [Árboles de búsqueda binaria: BSTs](#árboles-de-búsqueda-binaria-bsts)
+    - [Montículo / Colas de Prioridad / Montículo binario](#montículo--colas-de-prioridad--montículo-binario)
+    - Árboles de búsqueda balanceables (Concepto General, sin detallar)
+    - Recorridos: preorder, inorder, postorder, BFS, DFS
+- [Ordenamientos](#ordenamientos)
+    - Selección
+    - Inserción
+    - Por montículos (heapsort)
+    - Rápido (quicksort)
+    - Por mezcla (merge sort)
 - [Grafos](#grafos)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
+    - Dirigidos
+    - No dirigidos
+    - Matriz de adyacencia 
+    - Lista de adyacencia 
+    - Recorridos: BFS, DFS
 - [Más información adicional](#más-información-adicional)
     - [Recursión](#recursión)
     - [Programación Dinámica](#programación-dinámica)
     - [Programación Orientada a Objetos](#programación-orientada-a-objetos)
     - [Patrones de diseño](#patrones-de-diseño)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
+    - [Combinatorias (n elije k) & Probabilidad](combinatorias-n-elije-k--probabilidad)
+    - [NP, NP-Completo y Algoritmos de aproximación](#np-np-completo-y-algoritmos-de-aproximación)
+    - [Memoria cache](#memoria-cache)
+    - [Procesos e hilos](#procesos-e-hilos)
+    - [Documentos](#documentos)
+    - [Pruebas](#pruebas)
+    - [Planificador](#planificador)
+    - [Implementar rutinas del sistema](#implementar-rutinas-del-sistema)
+    - [Búsqueda de cadenas y manipulaciones](#búsqueda-de-cadenas-y-manipulaciones)
     - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
+    - [Números de punto flotante](#números-de-punto-flotante)
     - [Unicode](#unicode)
-    - [Endianness](#endianness)
+    - [Extremidad (Endianness)](#extremidad-endianness)
 - [Redes](#redes)
 - [Diseño del Sistema, Escalabilidad, Manejo de Datos](#diseño-del-sistema-escalabilidad-manejo-de-datos) (Si tiene más de 4 años de experiencia)
 - [Practica de preguntas de codificación](#practica-de-preguntas-de-codificación)

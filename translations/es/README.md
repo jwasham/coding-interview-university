@@ -470,7 +470,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 - [ ] **Aprenda C**
     - C esta en todos lados. Verá ejemplos en libros, lecturas, videos, *en todo lugar* mientras esté estudiando.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - Este es un libro corto, pero le dará una gran manejo en el lenguaje C y si lo practica un poco, rápidamente conseguirá ser experto. Comprender C le ayuda a entender cómo funcionan los programas y la memoria.
+        - Este es un libro corto, pero le dará un gran manejo en el lenguaje C y si lo practica un poco, rápidamente conseguirá ser experto. Comprender C le ayuda a entender cómo funcionan los programas y la memoria.
         - [answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **Como las computadoras procesan un programa:**
@@ -515,54 +515,54 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
     - [ ] Implemente un vector (Arreglo mutable con redimensionamiento automático):
         - [ ] Practique codificar usando arreglos y apuntadores, y un apuntador matemático para saltar a un índice en lugar de utilizar la indexación.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+        - [ ] Nueva arreglo de información primaria con memoria asignada
+            - Puede asignar un arreglo entero, simplemente no use sus características 
+            - Empiece con 16, o si el número inicial es mayor, use potencias del 2 - 16, 32, 64, 128
+        - [ ] size() – Número de elementos
+        - [ ] capacity() – Número de elementos soportados
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(index) – Regresa el elemento al índice dado, falla si el índice esta fuera de sus limites 
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - [ ] insert(index, item) – Inserta el elemento en el índice, intercambia el valor del índice y desplaza los elementos a la derecha
+        - [ ] prepend(item) – Puede usar para insertar encima del índice 0
+        - [ ] pop() – Elimina del final, regresa el valor
+        - [ ] delete(index) – Elimina el elemento en el índice, intercambia todos desplazándolos a la izquierda
+        - [ ] remove(item) – Busca el valor y elimina el índice lo contiene(aunque este en varios lugares) 
+        - [ ] find(item) – Busca el valor y regresa el primer índice con ese valor, -1  si no encuentra
+        - [ ] resize(Nueva capacidad) // Función privada
+            - Cuando alcance el límite, redimensiona al doble el tamaño
+            - Cuando se haga “pop” a un elemento, si el tamaño es 1/4 de la capacidad, redimensiona a la mitad
+    - [ ] Tiempo
+        - O(1) Para añadir/eliminar al final (Amortizado para asignaciones por más espacio), índice o actualización
+        - O(n) Para insertar/eliminar donde sea 
+    - [ ] Espacio
+        - Contiguo en la memoria, por lo que la proximidad ayuda al rendimiento
+        - Espacio necesario = (capacidad de matriz, que es> = n) * tamaño del elemento, pero incluso si 2n, todavía O (n))
 
 - ### Listas Enlazadas 
     - [ ] Descripción:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
+            - No todo el video, solo porciones acerca de la estructura de nodos y la asignación de memoria.
+    - [ ] Listas enlazadas vs Arreglos:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+    - [ ] Gotcha: Necesita tener conocimiento del apuntador a apuntador:
+        (Cuando se pasa un apuntador a una función este puede cambiar la dirección a la que el apuntador apunta)
+        Esta página es sólo para tener una idea sobre un apuntador a un apuntador. No recomiendo esta lista de estilo transversal. La legibilidad y sostenibilidad sufren debido a la astucia.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
+    - [ ] Implemente (Lo hice con y sin un puntero de cola):
+        - [ ] size() – Regresa el número de elementos en la lista
+        - [ ] empty() – Un bool que regresa verdadero si esta vacío
+        - [ ] value_at(index) – Regresa el valor  del el n-avo elemento (iniciando con el  0 como primero)
+        - [ ] push_front(value) – Añade un elemento al frente de la lista 
+        - [ ] pop_front() – Elimina el elemento frontal y regresa su valor 
+        - [ ] push_back(value) – Añade un elemento al final 
+        - [ ] pop_back() – Elimina el último elemento y devuelve su valor 
+        - [ ] front() – Obtiene el valor del elemento frontal 
+        - [ ] back() – Obtiene el valor del último elemento
         - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
         - [ ] erase(index) - removes node at given index
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list

@@ -715,7 +715,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] get_successor // Regresa el siguiente valor más alto en el árbol después del valor dado,-1 si ninguno
 
 - ### Montículo / Colas de Prioridad / Montículo binario 
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - Visto como un árbol, pero usualmente es lineal en el almacenamiento (arreglo, lista enlazada)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -730,18 +730,18 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
+    - [ ] Implementar una  cola máxima:
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+        - [ ] sift_up – Necesario para el insert
+        - [ ] get_max – Regresa el máximo elemento, sin eliminarlo 
+        - [ ] get_size() – Regresa el número de elementos almacenados
+        - [ ] is_empty() – Devuelve verdadero si la cola está vacía
+        - [ ] extract_max – Regresa el máximo elemento, eliminándolo 
+        - [ ] sift_down – Necesario para extract_max
+        - [ ] remove(i) – Elimina el elemento en el índice x
+        - [ ] heapify – Crea una cola de un arreglo de elementos, necesario para heap_sort
+        - [ ] heap_sort() – Toma un arreglo no ordenado y lo convierte en un arreglo ordenando en su lugar usando una cola máxima 
+            - Nota: Usar una cola mínima reduciría operaciones, pero duplicaría el espacio necesario (No se puede hacer en lugar).
 
 ## Ordenamientos 
 - [ ] Notes:

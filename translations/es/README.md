@@ -1024,7 +1024,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
         - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
         - Necesidades de recursos de proceso (memoria: código, almacenamiento estático, pila, monticulo y también descriptores de archivo, i /o)
-        - Necesidades de recursos de hilos (partes anteriores (menos pila) con otros hilos en el mismo proceso pero cada uno tiene su propio PC, contador de pila, registros y pila)
+        - Necesidades de recursos de hilos (partes anteriores (menos pila) con otros hilos en el mismo proceso, pero cada uno tiene su propio PC, contador de pila, registros y pila)
         - Bifurcación es realmente copia en escritura (sólo lectura) hasta que el nuevo proceso escribe en memoria, entonces hace una copia completa.
         - Cambio de contexto
             - Cómo se inicia el cambio de contexto por el sistema operativo y el hardware subyacente
@@ -1039,14 +1039,14 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 - ### Documentos
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
+    - La lectura de todos de extremo a extremo con la comprensión completa probablemente tomará más tiempo del que tiene. Recomiendo ser selectivo en los documentos y sus secciones.
     - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
     - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
         - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
     - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
+        - Remplazado por Colossus en 2012
     - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
+        - ¿Casi totalmente remplazado por Cloud Dataflow?
     - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
         - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
     - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)

@@ -555,7 +555,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implemente (Lo hice con y sin un puntero de cola):
         - [ ] size() – Regresa el número de elementos en la lista
-        - [ ] empty() – Un bool que regresa verdadero si esta vacío
+        - [ ] empty() – Un bool que regresa verdadero si está vacío
         - [ ] value_at(index) – Regresa el valor  del el n-avo elemento (iniciando con el  0 como primero)
         - [ ] push_front(value) – Añade un elemento al frente de la lista 
         - [ ] pop_front() – Elimina el elemento frontal y regresa su valor 
@@ -563,15 +563,14 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] pop_back() – Elimina el último elemento y devuelve su valor 
         - [ ] front() – Obtiene el valor del elemento frontal 
         - [ ] back() – Obtiene el valor del último elemento
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+        - [ ] insert(index, value) – Inserta valor en el índice, por lo que el valor actual en ese índice es apuntado al nuevo elemento en el índice 
+        - [ ] erase(index) – Borra el nodo del índice dado 
+        - [ ] value_n_from_end(n) – Regresa el valor del nodo en la n-ava posición a partir del final de la lista 
+        - [ ] reverse() – Pone al revés toda la lista
+        - [ ] remove_value(value) – Borra el primer elemento en la lista con ese valor 
     - [ ] Doble lista enlazada
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
-
+        - No es necesario 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)

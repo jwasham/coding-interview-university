@@ -1399,7 +1399,7 @@ Bosquejos de entrevista:
 
 ## Su CV 
 
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- Vea los elementos de preparación en **Cracking The Coding Interview and back of Programming Interviews Exposed**
 
 
 ## Pensando en cuando llegue la entrevista 

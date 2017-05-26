@@ -1466,8 +1466,7 @@ Nunca está de verdad realizado.
 
 ## Aprendizaje adicional 
 
-These topics will likely not come up in an interview, but I added them to help you become a well-rounded
-software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
+Es probable que estos temas no aparezcan en una entrevista, pero los añadí para ayudarle a convertirse en un Ingeniero de Software más completo, y ser consciente en ciertas tecnologías y algoritmos, para que tenga una caja de herramientas más grande.
 
 - ### Compiladores 
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1476,19 +1475,19 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - ### Emacs y Vi(m) 
-    - Familiarize yourself with a unix-based code editor
-    - vi(m):
+    - Familiarícese con un editor de código basado en Unix
+    - Vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
+        - Conjunto de 4 videos:
             - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
             - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
             - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
-    - emacs:
+    - Emacs:
         - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - Conjunto de 3 videos:
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
@@ -1497,7 +1496,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix: Herramientas para la línea de comandos 
-    - I filled in the list below from good tools.
+    - Llene la lista inferior con buenas herramientas.
     - [ ] bash
     - [ ] cat
     - [ ] grep
@@ -1512,11 +1511,11 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 - ### Teoría de la información (videos)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - [ ] more about Markov processes:
+    - [ ] Más acerca de los procesos de Markov:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below.
+    - Vea más en la serie MIT 6.050J Information and Entropy.
 
 - ### Código de paridad y Hamming (videos)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
@@ -1527,19 +1526,19 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### Entropía 
-    - also see videos below
-    - make sure to watch information theory videos first
+    - También vea los videos de abajo
+    - Asegúrese de ver los videos de la teoría de la información primero
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 - ### Criptografía 
-    - also see videos below
-    - make sure to watch information theory videos first
+    - También ve los videos de abajo
+    - Asegúrese de ver los videos de la teoría de la información primero 
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - make sure to watch information theory videos first
+- ### Compresión 
+    - Asegúrese de ver los videos de la teoría de la información primero 
     - [ ] Computerphile (videos):
         - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)

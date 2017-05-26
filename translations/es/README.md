@@ -1111,7 +1111,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 - ### Tries
     - Note que existen diferentes tipos de tries. Algunos tienen prefijos, otros no, y algunos usan cadenas en lugar de bits para seguir el camino.
-    - Leo a través del código pero no implementaría.
+    - Leo a través del código, pero no implementaría.
     - [ ] [Sedgewick - Tries (3 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
         - [ ] [1. R Way Tries](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
         - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
@@ -1138,11 +1138,11 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+        - Charlas muy técnicas para desarrolladores del kernel. No se preocupe si la mayoría se ve complicado.
+        - La primer mitad es suficiente.
 
 - ### Redes
-    - **Si tiene experiencia en redes o quiere se un Ingeniero en Sistemas espere preguntas**
+    - **Si tiene experiencia en redes o quiere ser un Ingeniero en Sistemas espere preguntas**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)

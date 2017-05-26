@@ -828,7 +828,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - Lista adyacente
         - Mapa adyacente
     - Familiarícese con cada representación y sus pros y contras
-    - BFS and DFS – Conozca su complejidad computacional, sus tradeoffs y cómo implementarlos en código real
+    - BFS and DFS – Conozca su complejidad computacional, sus compromisos y cómo implementarlos en código real
     - Cuando se le haga una pregunta busqué una solución basada en grafos, si no encuentra continúe.
 
 - [ ] Lecturas de Skiena – Gran introducción):
@@ -1159,30 +1159,28 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ## Diseño del Sistema, Escalabilidad, Manejo de Datos 
-- **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this.
-- Considerations:
-    - scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - system design
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- ** Puede esperar preguntas sobre el diseño del sistema si tiene más de 4 años de experiencia.**
+- La escalabilidad y el diseño del sistema son temas muy extensos con muchos temas y recursos, ya que hay mucho que considerar al diseñar un sistema de software / hardware que puede escalar. Espere dedicarle un buen tiempo a esto.
+- Consideraciones:
+    - Escalabilidad
+        - Destilar conjuntos de datos grandes a valores únicos
+        - Transformar un conjunto de datos en otro
+        - Manejo de cantidades de datos obscenamente grandes
+    - Diseño de sistemas
+        - Conjuntos de características
+        - Interfaces
+        - Jerarquías de clases
+        - Diseñar un sistema bajo ciertas restricciones
+        - Simplicidad y robustez
+        - Compromisos
+        - Análisis y optimización del rendimiento
+- [ ] **EMPIECE AQUI**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Hay muchos recursos en este. Mire los articulos y sus ejemplos. Pondré Algunos debajo.
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
@@ -1250,31 +1248,31 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the Video Series section.
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - Para aún más, vea la serie de videos "Mining Massive Datasets" en la sección de Series de video.
+- [ ] Practicando el proceso de diseño del sistema: Aquí hay algunas ideas para tratar de trabajar en papel, cada una con cierta documentación sobre cómo se manejó en el mundo real:
+    - Revisión: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - define the use cases, with interviewer's help
-            - suggest additional features
-            - remove items that interviewer deems out of scope
-            - assume high availability is required, add as a use case
-        2. Think about constraints:
-            - ask how many requests per month
-            - ask how many requests per second (they may volunteer it or make you do the math)
-            - estimate reads vs. writes percentage
-            - keep 80/20 rule in mind when estimating
-            - how much data written per second
-            - total storage required over 5 years
-            - how much data read per second
-        3. Abstract design:
-            - layers (service, data, caching)
-            - infrastructure: load balancing, messaging
-            - rough overview of any key algorithm that drives the service
-            - consider bottlenecks and determine solutions
-    - Exercises:
+    - Flujo:
+        1. Comprender el problema y el alcance:
+            - Definir los casos de uso, con ayuda del entrevistador
+            - Sugerir características adicionales
+            - Eliminar elementos que el entrevistador considera fuera de alcance
+            - Asumir alta disponibilidad es necesario, añadir como un caso de uso
+        2. Piense en las limitaciones:
+            - Preguntar cuántas solicitudes por mes
+            - Preguntar cuántas solicitudes por segundo (que pueden ser voluntario o hacer que usted haga las matemáticas)
+            - Lectura de estimación vs. Escribir porcentajes
+            - Tenga en cuenta la regla 80/20 al estimar
+            - La cantidad de datos escritos por segundo
+            - Almacenamiento total requerido durante 5 años
+            - La cantidad de datos leídos por segundo
+        3. Diseño abstracto:
+            - Capas (servicio, datos, almacenamiento en caché)
+            - Infraestructura: balanceo de carga, mensajería
+            - Descripción aproximada de cualquier algoritmo clave que impulsa el servicio
+            - Considerar los cuellos de botella y determinar las soluciones
+    - Ejercicios:
         - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)

@@ -1444,11 +1444,8 @@ Nunca está de verdad realizado.
 
     *****************************************************************************************************
     *****************************************************************************************************
-
-    Everything below this point is optional.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
+    Todo lo que está debajo de este punto es opcional.
+    Mediante el estudio de estos, obtendrá una mayor exposición a más conceptos de la Ciencia de la Computación, y estará mejor preparado para cualquier trabajo de Ingeniería de Software. Usted será un Ingeniero de Software mucho más completo.
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1456,15 +1453,15 @@ Nunca está de verdad realizado.
 
 ## Libros adicionales 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
+    - Viejo pero bueno
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - a modern option
+    - Una opción moderna
 - [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
+    - Una gentil introducción al diseño de patrones
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - aka the "Gang Of Four" book, or GOF
-    - the canonical design patterns book
+    - aka el libro "Gang Of Four" , o GOF
+    - El libro canonico de diseño de patrones
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
 ## Aprendizaje adicional 

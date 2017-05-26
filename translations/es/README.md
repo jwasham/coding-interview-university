@@ -111,6 +111,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - [Extremidad (Endianness)](#extremidad-endianness)
 - [Redes](#redes)
 - [Diseño del Sistema, Escalabilidad, Manejo de Datos](#diseño-del-sistema-escalabilidad-manejo-de-datos) (Si tiene más de 4 años de experiencia)
+- [Revisión final](#revisión-final)
 - [Practica de preguntas de codificación](#practica-de-preguntas-de-codificación)
 - [Ejercicios de codificación/Desafíos](#ejercicios-de-codificación-desafíos)
 - [Una vez cerca de la entrevista](#una-vez-cerca-de-la-entrevista)
@@ -1284,14 +1285,14 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 ---
 
-## Final Review
+## Revisión final
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    Esta sección tendrá videos cortos que puede visualizar rapidamente para revisar algunos de los conceptos importantes.
+    Es bueno si quieres repasar a menudo.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
+- [ ] Series de videos cortos sobre temas de 2-3 minutos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
+- [ ] Series de videos cortos sobre temas de 2-5 minutos - Michael Sambol (18 videos):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
     - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)

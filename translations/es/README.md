@@ -1360,17 +1360,17 @@ Complementarios:
 Vea [Lista de libros](#lista-de-libros)
 
 ## Ejercicios de codificación/Desafíos 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Una vez haya aprendido, ponga ese cerebro a trabajar.
+Tome desafíos de codificación todos los días y tantos como pueda.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+Videos de preguntas de entrevistas de código:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
 
-Challenge sites:
+Sitios de desafíos:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1383,10 +1383,10 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
-Challenge repos:
+Repos de desafíos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
-Mock Interviews:
+Bosquejos de entrevista:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 - [Refdash: Mock interviews](https://refdash.com/)

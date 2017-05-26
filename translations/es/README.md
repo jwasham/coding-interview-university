@@ -1139,11 +1139,11 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
         - Charlas muy técnicas para desarrolladores del kernel. No se preocupe si la mayoría se ve complicado.
-        - La primer mitad es suficiente.
+        - La primera mitad es suficiente.
 
 - ### Redes
     - **Si tiene experiencia en redes o quiere ser un Ingeniero en Sistemas espere preguntas**
-    - otherwise, this is just good to know
+    - De cualquier forma, esto es bueno saberlo
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)

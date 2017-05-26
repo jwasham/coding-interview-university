@@ -926,7 +926,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
         - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | Los clients no deberían ser forzados a implementar interfaces no usarán
+        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | Los clientes no deberían ser forzados a implementar interfaces no usarán
             - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
         - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reducir la dependencia en la composición de los objetos.
@@ -1446,7 +1446,8 @@ Nunca está de verdad realizado.
     *****************************************************************************************************
     Todo lo que está debajo de este punto es opcional.
     Mediante el estudio de estos, obtendrá una mayor exposición a más conceptos de la Ciencia de 
-    la Computación, y estará mejor preparado para cualquier trabajo de Ingeniería de Software. Usted será un Ingeniero de Software mucho más completo.
+    la Computación, y estará mejor preparado para cualquier trabajo de Ingeniería de Software. 
+    Usted será un Ingeniero de Software mucho más completo.
     *****************************************************************************************************
     *****************************************************************************************************
 

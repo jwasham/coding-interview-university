@@ -1404,21 +1404,21 @@ Bosquejos de entrevista:
 
 ## Pensando en cuando llegue la entrevista 
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Piense en aproximadamente veinte preguntas de la entrevista que usted conseguirá, junto con las líneas de abajo. Tenga 2-3 respuestas para cada una.
+Tener una historia, no sólo datos, sobre algo que logro.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- ¿Por qué quiere este trabajo?
+- ¿Cuál es un problema difícil que ha resuelto?
+- ¿Cuáles han sido los mayores desafíos enfrentados?
+- ¿Cuáles han sido los mejores / peores diseños vistos?
+- Ideas para mejorar un producto existente.
+- ¿Cómo trabaja mejor, individualmente y como parte de un equipo?
+- ¿Cuáles de sus habilidades o experiencias serían claves en el rol y por qué?
+- ¿Qué es lo que más disfruto en [ x trabajo / y proyecto]?
+- ¿Cuál fue el mayor reto al que se enfrentó en [x trabajo / y proyecto]?
+- ¿Cuál fue el error más difícil que enfrentó en [x trabajo / y proyecto]?
+- ¿Qué aprendió en [x trabajo / y proyecto]?
+- ¿Qué habría hecho mejor en [x trabajo / y proyecto]?
 
 ## Preguntas para el entrevistador 
 

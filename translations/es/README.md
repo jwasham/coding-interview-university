@@ -1422,25 +1422,23 @@ Tener una historia, no sólo datos, sobre algo que logro.
 
 ## Preguntas para el entrevistador 
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Algunos de las mías (ya sé u respuesta, pero quiero su opinión o la perspectiva del equipo):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- ¿Qué tan grande es su equipo?
+- ¿Cómo es su ciclo de desarrollo? ¿Haces waterfall / sprints / agile?
+- ¿Son corrientes las fechas límite comunes? ¿O hay flexibilidad?
+- ¿Cómo se toman las decisiones en su equipo?
+- ¿Cuántas reuniones tienes por semana?
+- ¿Siente que su ambiente de trabajo le ayuda a concentrarse?
+- ¿En que estas trabajando?
+- ¿Qué te gusta de ello?
+- ¿Cómo es la vida laboral?
 
-## Una vez obtenido el empleo
+¡Felicitaciones!
 
-Congratulations!
+Manténgase aprendiendo.
 
-Keep learning.
-
-You're never really done.
+Nunca está de verdad realizado.
 
 ---
 

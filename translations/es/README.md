@@ -1245,7 +1245,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
     - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+    - [ ] Vea la forma en "Messaging, Serialization, and Queueing Systems" debajo para la información sobre algunas de las tecnologías que pueden pegar servicios juntos
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
@@ -1287,7 +1287,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 ## Revisión final
 
-    Esta sección tendrá videos cortos que puede visualizar rapidamente para revisar algunos de los conceptos importantes.
+    Esta sección tendrá videos cortos que puede visualizar rápidamente para revisar algunos de los conceptos importantes.
     Es bueno si quieres repasar a menudo.
 
 - [ ] Series de videos cortos sobre temas de 2-3 minutos (23 videos)
@@ -1445,7 +1445,9 @@ Nunca está de verdad realizado.
     *****************************************************************************************************
     *****************************************************************************************************
     Todo lo que está debajo de este punto es opcional.
-    Mediante el estudio de estos, obtendrá una mayor exposición a más conceptos de la Ciencia de la Computación, y estará mejor preparado para cualquier trabajo de Ingeniería de Software. Usted será un Ingeniero de Software mucho más completo.
+    Mediante el estudio de estos, obtendrá una mayor exposición a más conceptos de la Ciencia de 
+
+la Computación, y estará mejor preparado para cualquier trabajo de Ingeniería de Software. Usted será un Ingeniero de Software mucho más completo.
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1678,7 +1680,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
 
     - [ ] **Árboles 2-3-4 (aka Árboles 2-4)**
         - En práctica:
-            Para cada árbol 2-4, hay árboles rojo-negro correspondientes con elementos de datos en el mismo orden. Las operaciones de inserción y supresión en árboles 2-4 también son equivalentes a la rotación de color en rojos y negros árboles. Esto hace que árboles 2-4 sean una herramienta importante para entender la lógica detrás de los árboles rojo-negros, y es por eso que muchos textos de algoritmo introductorios introducen árboles 2-4 justo antes de los árboles rojo-negro, aunque ** 2-4 árboles no son a menudo utilizados en la práctica**.
+            Para cada árbol 2-4, hay árboles rojo-negro correspondientes con elementos de datos en el mismo orden. Las operaciones de inserción y supresión en árboles 2-4 también son equivalentes a la rotación de color en rojos y negros árboles. Esto hace que árboles 2-4 sean una herramienta importante para entender la lógica detrás de los árboles rojo-negros, y es por eso que muchos textos de algoritmo introductorios introducen árboles 2-4 justo antes de los árboles rojo-negro, aunque **Los árboles 2-4 no son a menudo utilizados en la práctica**.
         - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
         - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
@@ -1698,7 +1700,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
         - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - Cubre cache-inconsistentes árboles-B, estructuras de datos muy interesantes
+                - Cubre árboles-B de cache inconsistente, estructuras de datos muy interesantes
                 - Los primeros 37 minutos son muy técnicos, puede saltarlos (B es tamaño de bloque, tamaño de línea de caché)
 
 

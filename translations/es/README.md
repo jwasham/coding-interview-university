@@ -1160,7 +1160,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ## Diseño del Sistema, Escalabilidad, Manejo de Datos 
-- ** Puede esperar preguntas sobre el diseño del sistema si tiene más de 4 años de experiencia.**
+- **Puede esperar preguntas sobre el diseño del sistema si tiene más de 4 años de experiencia.**
 - La escalabilidad y el diseño del sistema son temas muy extensos con muchos temas y recursos, ya que hay mucho que considerar al diseñar un sistema de software / hardware que puede escalar. Espere dedicarle un buen tiempo a esto.
 - Consideraciones:
     - Escalabilidad
@@ -1325,43 +1325,39 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 ## Practica de preguntas de codificación 
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Ahora que conoce todos los tópicos de las Ciencias de la Computación mencionados anteriormente, es tiempo de practicar respondiendo algunos problemas de codificación.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**La practica de preguntas de codificación no es sobre memorizar respuestas a problemas de programación.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
-
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+Porque necesita practicar haciendo problemas de programación:
+- El reconocimiento de problemas, y donde las estructuras de datos y algoritmos adecuados encajan
+- Reunir los requisitos para el problema
+- Hablar sobre su camino a través del problema como lo hará en la entrevista
+- Codificar en una pizarra o papel, no en un ordenador
+- Llegar con la complejidad del tiempo y espacio para sus soluciones
+- Probar sus soluciones
+Hay una gran introducción para la solución de problemas metódicos y comunicativos en una entrevista. Conseguirá esto de los libros para la entrevista de programación también, pero encontré esto excepcional:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+¿No tiene pizarrón en casa? Hace sentido. Soy un bicho raro y tengo una pizarra grande. En vez de una pizarra blanca, recoja un gran cuadernillo de dibujo de una tienda de arte. Puede sentarse en el sofá y practicar. Esta es mi "pizarra de sofá". He añadido la pluma en la foto para la escala. Si usa un bolígrafo, deseará poder borrarlo. Se ensucia rápido.
 
 ![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+Complementarios:
 
 - [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**Lea y haga problemas de programación (en ese orden):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - Respuestas en C, C++ y Java
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Respuestas en Java
 
-See [Book List above](#book-list)
+Vea [Lista de libros](#lista-de-libros)
 
 ## Ejercicios de codificación/Desafíos 
 Once you've learned your brains out, put those brains to work.

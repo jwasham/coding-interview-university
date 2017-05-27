@@ -207,6 +207,8 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
+- [x] Git Configuration
+
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Don't feel you aren't smart enough

@@ -2,7 +2,7 @@
 
 - Versión original: [Inglés](README.md)
 
-> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon!](src/AdquiridoAmazon.md)
+> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon!(Art. Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 
 
 > Posiblemente no tenga que estudiar mucho como yo. De cualquier forma todo lo que necesita esta aquí.
@@ -88,8 +88,8 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Grafos](#grafos)
     - Dirigidos
     - No dirigidos
-    - Matriz de adyacencia 
-    - Lista de adyacencia 
+    - Matriz de adyacencia
+    - Lista de adyacencia
     - Recorridos: BFS, DFS
 - [Más información adicional](#más-información-adicional)
     - [Recursión](#recursión)
@@ -172,7 +172,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo. 
+Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo.
 
 Es un plan largo, puede tome unos meses; pero si le resulta familiar mucho de esto le tomara mucho menos tiempo.
 
@@ -215,7 +215,7 @@ Algunos videos solo están disponibles inscribiéndose a una clase de Coursera, 
 En ocasiones las clases no están en sesión por lo que tendrá que esperar un par de meses, por lo que no tiene acceso. Los cursos de Lynda.com no son gratuitos.
 
 Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
-	
+
     Me gustan recursos provenientes de universidades.
 
 
@@ -233,8 +233,8 @@ Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuita
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Aprenda como alistarse para una entrevista de Ingeniería de Software con un entrevistador de Google.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
-        - Un curso enfocado a una entrevista centrada en Python; que cubre estructuras de datos, algoritmos, plantillas de entrevistas y mucho más. 
+    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - Un curso enfocado a una entrevista centrada en Python; que cubre estructuras de datos, algoritmos, plantillas de entrevistas y mucho más.
 
 ## Escoja un lenguaje para la entrevista
 
@@ -244,7 +244,7 @@ Puede usar un lenguaje con el que este cómodo para hacer la parte de código pa
 - Java
 - Python
 
-También podrías usar éstos, pero busca información primero. Puede haber advertencias: 
+También podrías usar éstos, pero busca información primero. Puede haber advertencias:
 
 - JavaScript
 - Ruby
@@ -437,20 +437,20 @@ Estas son tecnologías predominantes, pero no están cubiertas por este plan de 
 
 ## El plan diario
 
-Algunos temas tomarán un día y otros tomarán varios. Algunos son solo para aprender sin nada que implementar. 
+Algunos temas tomarán un día y otros tomarán varios. Algunos son solo para aprender sin nada que implementar.
 
 Cada día yo tomé un tema de los siguientes, vi videos sobre el tema y escribía una implementación:
 
-- C - usando estructuras y funciones que toman una estructura * y otra cosa como argumentos. 
+- C - usando estructuras y funciones que toman una estructura * y otra cosa como argumentos.
 - C++ - sin utilizar tipos incorporados
-- C++ - usando tipos incorporados, como std::list de STL para una lista enlazada 
+- C++ - usando tipos incorporados, como std::list de STL para una lista enlazada
 - Python - usando tipos incorporados (para seguir practicando Python)
 - y escribir pruebas para asegurarme de que lo estoy haciendo bien, a veces simplemente usando simples declaraciones assert()
 - Puede hacer Java o algo más, esto es solo lo mío.
 
 No necesita todo esto. Solo necesita [un lenguaje para la entrevista](#escoja-un-lenguaje-para-la-entrevista).
 
-¿Por qué codificar en todo esto? 
+¿Por qué codificar en todo esto?
 - Práctica, práctica, práctica… hasta que me canse de ello y pueda hacerlo sin ningún problema (algunos usan técnicas y marcadores para recordar)
 - Trabajar dentro de las restricciones primarias (asignar / liberar memoria sin ayuda del garbage collection (excepto Python))
 - Hacer uso de los tipos incorporados para que tenga experiencia usando las herramientas de tipos incorporados para su uso en el mundo real (no escribiré mi propia implementación de listas enlazadas en producción)
@@ -466,7 +466,7 @@ No es necesario recordar las entrañas de cada algoritmo.
 
 Escriba código en un pizarrón o en papel no en la computadora. Pruebe con alguna entrada de prueba. Después pruébelos en la computadora.
 
-## Conocimientos Previos 
+## Conocimientos Previos
 
 - [ ] **Aprenda C**
     - C esta en todos lados. Verá ejemplos en libros, lecturas, videos, *en todo lugar* mientras esté estudiando.
@@ -517,30 +517,30 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] Implemente un vector (Arreglo mutable con redimensionamiento automático):
         - [ ] Practique codificar usando arreglos y apuntadores, y un apuntador matemático para saltar a un índice en lugar de utilizar la indexación.
         - [ ] Nueva arreglo de información primaria con memoria asignada
-            - Puede asignar un arreglo entero, simplemente no use sus características 
+            - Puede asignar un arreglo entero, simplemente no use sus características
             - Empiece con 16, o si el número inicial es mayor, use potencias del 2 - 16, 32, 64, 128
         - [ ] size() – Número de elementos
         - [ ] capacity() – Número de elementos soportados
         - [ ] is_empty()
-        - [ ] at(index) – Regresa el elemento al índice dado, falla si el índice esta fuera de sus limites 
+        - [ ] at(index) – Regresa el elemento al índice dado, falla si el índice esta fuera de sus limites
         - [ ] push(item)
         - [ ] insert(index, item) – Inserta el elemento en el índice, intercambia el valor del índice y desplaza los elementos a la derecha
         - [ ] prepend(item) – Puede usar para insertar encima del índice 0
         - [ ] pop() – Elimina del final, regresa el valor
         - [ ] delete(index) – Elimina el elemento en el índice, intercambia todos desplazándolos a la izquierda
-        - [ ] remove(item) – Busca el valor y elimina el índice lo contiene(aunque este en varios lugares) 
+        - [ ] remove(item) – Busca el valor y elimina el índice lo contiene(aunque este en varios lugares)
         - [ ] find(item) – Busca el valor y regresa el primer índice con ese valor, -1  si no encuentra
         - [ ] resize(Nueva capacidad) // Función privada
             - Cuando alcance el límite, redimensiona al doble el tamaño
             - Cuando se haga “pop” a un elemento, si el tamaño es 1/4 de la capacidad, redimensiona a la mitad
     - [ ] Tiempo
         - O(1) Para añadir/eliminar al final (Amortizado para asignaciones por más espacio), índice o actualización
-        - O(n) Para insertar/eliminar donde sea 
+        - O(n) Para insertar/eliminar donde sea
     - [ ] Espacio
         - Contiguo en la memoria, por lo que la proximidad ayuda al rendimiento
         - Espacio necesario = (capacidad de matriz, que es> = n) * tamaño del elemento, pero incluso si 2n, todavía O (n))
 
-- ### Listas Enlazadas 
+- ### Listas Enlazadas
     - [ ] Descripción:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
@@ -558,20 +558,20 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] size() – Regresa el número de elementos en la lista
         - [ ] empty() – Un bool que regresa verdadero si está vacío
         - [ ] value_at(index) – Regresa el valor  del el n-avo elemento (iniciando con el  0 como primero)
-        - [ ] push_front(value) – Añade un elemento al frente de la lista 
-        - [ ] pop_front() – Elimina el elemento frontal y regresa su valor 
-        - [ ] push_back(value) – Añade un elemento al final 
-        - [ ] pop_back() – Elimina el último elemento y devuelve su valor 
-        - [ ] front() – Obtiene el valor del elemento frontal 
+        - [ ] push_front(value) – Añade un elemento al frente de la lista
+        - [ ] pop_front() – Elimina el elemento frontal y regresa su valor
+        - [ ] push_back(value) – Añade un elemento al final
+        - [ ] pop_back() – Elimina el último elemento y devuelve su valor
+        - [ ] front() – Obtiene el valor del elemento frontal
         - [ ] back() – Obtiene el valor del último elemento
-        - [ ] insert(index, value) – Inserta valor en el índice, por lo que el valor actual en ese índice es apuntado al nuevo elemento en el índice 
-        - [ ] erase(index) – Borra el nodo del índice dado 
-        - [ ] value_n_from_end(n) – Regresa el valor del nodo en la n-ava posición a partir del final de la lista 
+        - [ ] insert(index, value) – Inserta valor en el índice, por lo que el valor actual en ese índice es apuntado al nuevo elemento en el índice
+        - [ ] erase(index) – Borra el nodo del índice dado
+        - [ ] value_n_from_end(n) – Regresa el valor del nodo en la n-ava posición a partir del final de la lista
         - [ ] reverse() – Pone al revés toda la lista
-        - [ ] remove_value(value) – Borra el primer elemento en la lista con ese valor 
+        - [ ] remove_value(value) – Borra el primer elemento en la lista con ese valor
     - [ ] Doble lista enlazada
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No es necesario 
+        - No es necesario
 - ### Pila
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
@@ -587,8 +587,8 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - dequeue() – Regresa el valor y elimina el valor más recientemente añadido(frontal)
         - empty()
     - [ ] Implementar usando arreglos de tamaño fijo:
-        - enqueue(value) – Añade elemento al final del almacenamiento disponible 
-        - dequeue() – Regresa el valor y elimina el elemento más recientemente añadido 
+        - enqueue(value) – Añade elemento al final del almacenamiento disponible
+        - dequeue() – Regresa el valor y elimina el elemento más recientemente añadido
         - empty()
         - full()
     - [ ] Costo:
@@ -619,15 +619,15 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] Implementar con arreglo usando sondaje lineal 
+    - [ ] Implementar con arreglo usando sondaje lineal
         - hash(k, m) - m es el tamaño de la matriz asociativa
         - add(key, value) – Si la llave ya existe , actualiza el valor
         - exists(key)
         - get(key)
         - remove(key)
 
-## Información adicional 
-- ### Búsqueda binaria 
+## Información adicional
+- ### Búsqueda binaria
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
@@ -635,7 +635,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - Búsqueda binaria (en un arreglo ordenado de enteros)
         - Búsqueda binaria usando recursión
 
-- ### Operaciones bit a bit 
+- ### Operaciones bit a bit
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
     - [ ] Obtenga un buen entendimiento de la manipulación de bits con: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
@@ -651,7 +651,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] Contar bits puestos 
+    - [ ] Contar bits puestos
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
@@ -666,7 +666,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 - ### Árboles - Notas & Antecedentes
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - Construcción básica de árboles 
+    - Construcción básica de árboles
     - Recorrido
     - Algoritmos de manipulación
     - BFS (búsqueda en amplitud)
@@ -704,18 +704,18 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implementar:
         - [ ] insert    // Inserta valores en el árbol
-        - [ ] get_node_count // Obtener la cuenta de los valores almacenados 
+        - [ ] get_node_count // Obtener la cuenta de los valores almacenados
         - [ ] print_values // Imprime los valores en el árbol, del min al max
         - [ ] delete_tree
-        - [ ] is_in_tree // Devuelve verdadero si el valor dado existe en el árbol 
+        - [ ] is_in_tree // Devuelve verdadero si el valor dado existe en el árbol
         - [ ] get_height // Regresa la altura en los nodos (La altura de cada nodo es 1)
         - [ ] get_min   // Regresa el valor mínimo almacenado en el árbol
-        - [ ] get_max   // Regresa el valor máximo almacenado en el árbol 
+        - [ ] get_max   // Regresa el valor máximo almacenado en el árbol
         - [ ] is_binary_search_tree
         - [ ] delete_value
         - [ ] get_successor // Regresa el siguiente valor más alto en el árbol después del valor dado,-1 si ninguno
 
-- ### Montículo / Colas de Prioridad / Montículo binario 
+- ### Montículo / Colas de Prioridad / Montículo binario
     - Visto como un árbol, pero usualmente es lineal en el almacenamiento (arreglo, lista enlazada)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
@@ -734,19 +734,19 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] Implementar una  cola máxima:
         - [ ] insert
         - [ ] sift_up – Necesario para el insert
-        - [ ] get_max – Regresa el máximo elemento, sin eliminarlo 
+        - [ ] get_max – Regresa el máximo elemento, sin eliminarlo
         - [ ] get_size() – Regresa el número de elementos almacenados
         - [ ] is_empty() – Devuelve verdadero si la cola está vacía
-        - [ ] extract_max – Regresa el máximo elemento, eliminándolo 
+        - [ ] extract_max – Regresa el máximo elemento, eliminándolo
         - [ ] sift_down – Necesario para extract_max
         - [ ] remove(i) – Elimina el elemento en el índice x
         - [ ] heapify – Crea una cola de un arreglo de elementos, necesario para heap_sort
-        - [ ] heap_sort() – Toma un arreglo no ordenado y lo convierte en un arreglo ordenando en su lugar usando una cola máxima 
+        - [ ] heap_sort() – Toma un arreglo no ordenado y lo convierte en un arreglo ordenando en su lugar usando una cola máxima
             - Nota: Usar una cola mínima reduciría operaciones, pero duplicaría el espacio necesario (No se puede hacer en lugar).
 
-## Ordenamientos 
+## Ordenamientos
 - [ ] Notas:
-    - Implementar ordenamientos y conocer el mejor/peor de los casos y el promedio de complejidad de cada uno: 
+    - Implementar ordenamientos y conocer el mejor/peor de los casos y el promedio de complejidad de cada uno:
         - No ordenamiento de burbuja - Es terrible - O(n^2), excepto cuando n <= 16
     - [ ] Estabilidad en algoritmos de ordenamiento("¿Es Quicksort estable?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
@@ -875,7 +875,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - [ ] Verificación de grafo bipartito
 Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas
 
-## Más información adicional 
+## Más información adicional
 - ### Recursión
     - [ ] Conferencias de Stanford sobre la recursividad y retroceso:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
@@ -887,11 +887,11 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Programación Dinámica 
+- ### Programación Dinámica
     - Este tema puede ser bastante difícil, ya que cada problema soluble PD debe definirse como una relación de recursión, y llegar a ella puede ser complicado.
      - Sugiero que busque muchos ejemplos de problemas de PD hasta que tenga una comprensión sólida del patrón involucrado.
     - [ ] Videos:
-        - Los videos de Skiena pueden ser duros de seguir ya que a veces usa el pizarrón que es demasiado pequeño para ver 
+        - Los videos de Skiena pueden ser duros de seguir ya que a veces usa el pizarrón que es demasiado pequeño para ver
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -912,7 +912,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Programación Orientada a Objetos 
+- ### Programación Orientada a Objetos
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
         - Puede omitir esto si tiene una gran comprensión de OO y OO prácticas de diseño.
@@ -933,7 +933,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
             - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
             - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
-- ### Patrones de diseño 
+- ### Patrones de diseño
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] Aprenda estos patrones:
         - [ ] strategy
@@ -993,7 +993,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
     - Paginas 1048 - 1140 en CLRS si lo tiene.
 
-- ### Memoria cache 
+- ### Memoria cache
     - [ ] LRU cache:
         - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
         - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
@@ -1092,10 +1092,10 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 - ### Planificador
     - En un SO, Como funciona
-    - Se pueden obtener de los videos del sistema operativo 
+    - Se pueden obtener de los videos del sistema operativo
 
 - ### Implementar rutinas del sistema
-    - Entienda lo que hay debajo de las API de programación que usa 
+    - Entienda lo que hay debajo de las API de programación que usa
     - ¿Puede implementarlas?
 
 - ### Búsqueda de cadenas y manipulaciones
@@ -1127,7 +1127,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### Números de punto flotante 
+- ### Números de punto flotante
     - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
@@ -1159,7 +1159,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-## Diseño del Sistema, Escalabilidad, Manejo de Datos 
+## Diseño del Sistema, Escalabilidad, Manejo de Datos
 - **Puede esperar preguntas sobre el diseño del sistema si tiene más de 4 años de experiencia.**
 - La escalabilidad y el diseño del sistema son temas muy extensos con muchos temas y recursos, ya que hay mucho que considerar al diseñar un sistema de software / hardware que puede escalar. Espere dedicarle un buen tiempo a esto.
 - Consideraciones:
@@ -1323,7 +1323,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 ---
 
-## Practica de preguntas de codificación 
+## Practica de preguntas de codificación
 
 Ahora que conoce todos los tópicos de las Ciencias de la Computación mencionados anteriormente, es tiempo de practicar respondiendo algunos problemas de codificación.
 
@@ -1359,7 +1359,7 @@ Complementarios:
 
 Vea [Lista de libros](#lista-de-libros)
 
-## Ejercicios de codificación/Desafíos 
+## Ejercicios de codificación/Desafíos
 Una vez haya aprendido, ponga ese cerebro a trabajar.
 Tome desafíos de codificación todos los días y tantos como pueda.
 
@@ -1391,18 +1391,18 @@ Bosquejos de entrevista:
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 - [Refdash: Mock interviews](https://refdash.com/)
 
-## Una vez cerca de la entrevista 
+## Una vez cerca de la entrevista
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Su CV 
+## Su CV
 
 - Vea los elementos de preparación en **Cracking The Coding Interview and back of Programming Interviews Exposed**
 
 
-## Pensando en cuando llegue la entrevista 
+## Pensando en cuando llegue la entrevista
 
 Piense en aproximadamente veinte preguntas de la entrevista que usted conseguirá, junto con las líneas de abajo. Tenga 2-3 respuestas para cada una.
 Tener una historia, no sólo datos, sobre algo que logro.
@@ -1420,7 +1420,7 @@ Tener una historia, no sólo datos, sobre algo que logro.
 - ¿Qué aprendió en [x trabajo / y proyecto]?
 - ¿Qué habría hecho mejor en [x trabajo / y proyecto]?
 
-## Preguntas para el entrevistador 
+## Preguntas para el entrevistador
 
     Algunos de las mías (ya sé u respuesta, pero quiero su opinión o la perspectiva del equipo):
 
@@ -1445,15 +1445,15 @@ Nunca está de verdad realizado.
     *****************************************************************************************************
     *****************************************************************************************************
     Todo lo que está debajo de este punto es opcional.
-    Mediante el estudio de estos, obtendrá una mayor exposición a más conceptos de la Ciencia de 
-    la Computación, y estará mejor preparado para cualquier trabajo de Ingeniería de Software. 
+    Mediante el estudio de estos, obtendrá una mayor exposición a más conceptos de la Ciencia de
+    la Computación, y estará mejor preparado para cualquier trabajo de Ingeniería de Software.
     Usted será un Ingeniero de Software mucho más completo.
     *****************************************************************************************************
     *****************************************************************************************************
 
 ---
 
-## Libros adicionales 
+## Libros adicionales
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
     - Viejo pero bueno
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
@@ -1466,17 +1466,17 @@ Nunca está de verdad realizado.
     - El libro canonico de diseño de patrones
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-## Aprendizaje adicional 
+## Aprendizaje adicional
 
 Es probable que estos temas no aparezcan en una entrevista, pero los añadí para ayudarle a convertirse en un Ingeniero de Software más completo, y ser consciente en ciertas tecnologías y algoritmos, para que tenga una caja de herramientas más grande.
 
-- ### Compiladores 
+- ### Compiladores
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Emacs y Vi(m) 
+- ### Emacs y Vi(m)
     - Familiarícese con un editor de código basado en Unix
     - Vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
@@ -1497,7 +1497,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix: Herramientas para la línea de comandos 
+- ### Unix: Herramientas para la línea de comandos
     - Llene la lista inferior con buenas herramientas.
     - [ ] bash
     - [ ] cat
@@ -1527,20 +1527,20 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropía 
+- ### Entropía
     - También vea los videos de abajo
     - Asegúrese de ver los videos de la teoría de la información primero
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Criptografía 
+- ### Criptografía
     - También ve los videos de abajo
-    - Asegúrese de ver los videos de la teoría de la información primero 
+    - Asegúrese de ver los videos de la teoría de la información primero
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compresión 
-    - Asegúrese de ver los videos de la teoría de la información primero 
+- ### Compresión
+    - Asegúrese de ver los videos de la teoría de la información primero
     - [ ] Computerphile (videos):
         - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
@@ -1551,7 +1551,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Seguridad informática 
+- ### Seguridad informática
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1576,7 +1576,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
 - ### Programación en paralelo    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Sistemas de mensajería, serialización y colas 
+- ### Sistemas de mensajería, serialización y colas
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1620,19 +1620,19 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
 - ### HyperLogLog
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
-- ### Hashing sensible a la localidad 
+- ### Hashing sensible a la localidad
     - Usado para determiner la similitude de documentos
     - Lo opuesto de MD5 o SHA que son usados para determinar si dos documentos/cadenas son exactamente iguales.
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
-- ### Árboles van Emde Boa 
+- ### Árboles van Emde Boa
     - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
 - ### Estructuras de datos aumentadas
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
 
-- ### Árboles de búsqueda equilibrada 
+- ### Árboles de búsqueda equilibrada
     - Conocer por lo menos un tipo de árbol binario equilibrado (y saber cómo se implementa):
     - " Entre los árboles de búsqueda equilibrada, los árboles AVL y 2/3 están ahora pasados de moda, y los árboles rojo-negro parecen ser más populares.
     Una estructura de datos auto-organizable particularmente interesante es el árbol biselados, que utilizan rotaciones para mover cualquier clave accedida a la raíz.." - Skiena
@@ -1704,18 +1704,18 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
                 - Los primeros 37 minutos son muy técnicos, puede saltarlos (B es tamaño de bloque, tamaño de línea de caché)
 
 
-- ### Árboles k-D 
+- ### Árboles k-D
     - Ideal para encontrar el número de puntos en un rectángulo o un objeto de dimensión superior
-    - Un buen ajuste para k-vecinos más cercanos 
+    - Un buen ajuste para k-vecinos más cercanos
     - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
     - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
-- ### Lista por saltos 
+- ### Lista por saltos
     - " Éste es algo de una culta estructura de datos" - Skiena
     - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Flujos de red 
+- ### Flujos de red
     - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
@@ -1724,7 +1724,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
     - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
     - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
 
-- ### Matemáticas para procesamiento rápido 
+- ### Matemáticas para procesamiento rápido
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
@@ -1745,10 +1745,10 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
     - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Matemáticas discretas 
+- ### Matemáticas discretas
     - Vea videos debajo
 
-- ### Aprendizaje automático 
+- ### Aprendizaje automático
     - [ ] ¿Por qué el aprendizaje automático?
         - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
@@ -1777,7 +1777,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
 
 --
 
-## Detalles adicionales de ciertos temas 
+## Detalles adicionales de ciertos temas
 
     Agregué estos para reforzar algunas ideas ya presentadas anteriormente, pero no quería incluirlas arriba porque es demasiado. Es fácil exagerar en un tema.
      ¿Quieres ser contratado en este siglo, verdad?
@@ -1846,7 +1846,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
         - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Series de videos 
+## Series de videos
 
 Siéntese y disfrute. "Netflix and skill" :P
 
@@ -1910,8 +1910,7 @@ Siéntese y disfrute. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Cursos de Informática 
+## Cursos de Informática
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

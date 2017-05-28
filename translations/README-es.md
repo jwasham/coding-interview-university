@@ -133,7 +133,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - [Criptografía](#criptografía)
     - [Compresión](#compresión)
     - [Seguridad informática](#seguridad-informática)
-    - [Garbage collection](#garbage-collection)
+    - [Recolección de basura](#recolección-de-basura)
     - [Programación en paralelo](#programacion-en-paralelo)
     - [Sistemas de mensajería, serialización y colas](#sistemas-de-mensajería-serialización-y-cola)
     - [A*](#a)
@@ -182,7 +182,7 @@ Todo lo que aparece abajo es un plan, y debería abordar los elementos en orden 
 
 Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas para comprobar el progreso.
 
-[] **Cree una nueva rama para que pueda validar elementos como este, solo ponga una x en los corchetes: [x]**
+**Cree una nueva rama para que pueda validar elementos como este, solo ponga una x en los corchetes: [x]**
 
 
     Haga fork a una rama y siga los comandos siguientes
@@ -211,10 +211,10 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## Acerca de los recursos de vídeo
-Algunos videos solo están disponibles inscribiéndose a una clase de Coursera, EdX, o Lynda.com. Estos son llamados MOOCs.
-En ocasiones las clases no están en sesión por lo que tendrá que esperar un par de meses, por lo que no tiene acceso. Los cursos de Lynda.com no son gratuitos.
+    Algunos videos solo están disponibles inscribiéndose a una clase de Coursera, EdX, o Lynda.com. Estos son llamados MOOCs.
+    En ocasiones las clases no están en sesión por lo que tendrá que esperar un par de meses, por lo que no tiene acceso. Los cursos de Lynda.com no son gratuitos.
 
-Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
+    Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
 
     Me gustan recursos provenientes de universidades.
 
@@ -873,6 +873,8 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - [ ] Cuenta los componentes conectados en un grafo
         - [ ] Lista de componentes fuertemente conectados
         - [ ] Verificación de grafo bipartito
+
+        
 Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas
 
 ## Más información adicional
@@ -1566,14 +1568,15 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
         - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Garbage collection
+- ### Recolección de basura
     - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Programación en paralelo    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+- ### Programación en paralelo    
+    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### Sistemas de mensajería, serialización y colas
@@ -1692,7 +1695,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
         - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - [ ] **Árboles-B**
-        - Dato curios: Es un misterio, pero la B puede ser por Boeing, Balanceado, o Bayer (co-inventor)
+        - Dato curioso: Es un misterio, pero la B puede ser por Boeing, Balanceado, o Bayer (co-inventor)
         - En práctica:
             Árboles-B son ampliamente utilizados en bases de datos. La mayoría de los sistemas de archivos modernos utilizan árboles B (o variantes). Además de su uso en bases de datos, el árbol B también se utiliza en sistemas de archivos para permitir el acceso rápido y aleatorio a un bloque arbitrario en un archivo en particular. El problema básico es convertir la dirección de bloque de archivos i en una dirección de bloque de disco (o tal vez a una dirección de cilindro-cabezal).
         - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)

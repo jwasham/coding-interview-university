@@ -1,5 +1,5 @@
 .idea
-personal-9894.md
-~$ADME-es.txt
-translations/~$ADME-es.md
-translations/es/~$README.md
+
+// Targets Windows & Unix temporary files
+~$*
+*~

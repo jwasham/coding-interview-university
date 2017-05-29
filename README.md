@@ -1424,7 +1424,6 @@ Mock Interviews:
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
 ## Your Resume
 

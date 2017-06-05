@@ -54,11 +54,11 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
 - [Árvores](#árvores)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
+    - [Árvores - Anotações e Fundamentos](#árvores---anotações-e-fundamentos)
+    - [Árvores binárias de busca: ABB](#árvores-binárias-de-busca-abb)
+    - [Memória Dinâmica (heap) / Filas Prioritárias / Memória Dinâmica Binária (heap binary)](#memória-dinâmica-heap--filas-prioritárias--memória-dinâmica-binária-heap-binary)
+    - árvores de busca balanceadas (conceito geral, não detalhes)
+    - transversais: pré-ordem, em-ordem (ordem simétrica), pós-ordem, busca em largura, busca em profundidade
 - [Sorting](#sorting)
     - selection
     - insertion

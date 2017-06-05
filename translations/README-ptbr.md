@@ -53,7 +53,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Mais Conhecimento](#mais-conhecimento)
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
+- [Árvores](#árvores)
     - [Trees - Notes & Background](#trees---notes--background)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
@@ -456,24 +456,24 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [answers to questions](https://github.com/lekkas/c-algorithms) (respostas para as questões) 
 
 - [ ] **Como computadores processam um programa:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA) (Como uma CPU executa um programa (vídeo))
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE) (Instruções de Código de Máquina (vídeo))
+    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA) (Como uma CPU executa um programa - vídeo)
+    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE) (Instruções de Código de Máquina - vídeo)
 
 ## Complexidade Algorítmica / Big-O / Análise assintótica
 - nada para implementar
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4) (Harvard CS50 - Notação Assintótica (vídeo))
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU) (Notações Big-O (rápido tutorial geral) (vídeo))
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN) (Notação Big-O (e Omega e Theta) - melhor explicação matemática (vídeo))
+- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4) (Harvard CS50 - Notação Assintótica - vídeo)
+- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU) (Notações Big-O (rápido tutorial geral) - vídeo)
+- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN) (Notação Big-O (e Omega e Theta) - melhor explicação matemática - vídeo)
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/) (Uma Introdução Gentil a Análise de Complexidade Algoritmica)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59) (Ordens de Crescimento (vídeo))
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61) (Assintóticas (vídeo))
-- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98) (Big-O - Universidade da Califórnia em Berkeley (vídeo))
-- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc) (Grande Omega - Universidade da Califórnia em Berkeley (vídeo))
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN) (Análise Amortizada (vídeo))
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63) (Ilustrando "Big-O" (vídeo))
+- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59) (Ordens de Crescimento - vídeo)
+- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61) (Assintóticas - vídeo)
+- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98) (Big-O - Universidade da Califórnia em Berkeley - vídeo)
+- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc) (Grande Omega - Universidade da Califórnia em Berkeley - vídeo)
+- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN) (Análise Amortizada - vídeo)
+- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63) (Ilustrando "Big-O" - vídeo)
 - [ ] TopCoder (inclui relações de recorrência e teorema mestre):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/) (Complexidade Computacional: Seção 1)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/) (Complexidade Computacional: Seção 2)
@@ -489,12 +489,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - Implementar um vetor de redimensionamento automático.
     - [ ] Descrição:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s) (Arrays lineares e multidimensionais (vídeo))
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html) (Arrays básicos (vídeo))
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html) (Multidimensionais(vídeo))
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays) (Arrays Dinâmicos (vídeo))
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) (Arrays Multidimensionais (vídeo))
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html) (Arrays Multidimensionais (vídeo))
+        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s) (Arrays lineares e multidimensionais - vídeo)
+        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html) (Arrays básicos - vídeo)
+        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html) (Multidimensionais - vídeo)
+        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays) (Arrays Dinâmicos - vídeo)
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) (Arrays Multidimensionais - vídeo)
+        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html) (Arrays Multidimensionais - vídeo)
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html) (Arrays Dinâmicos)
     - [ ] Implementar um vetor (array mutável com redimensionamento automático):
         - [ ] Praticar programação usando arrays e ponteiros, e matemática de ponteiros para pular para um índice ao invés de usar indexação.
@@ -524,14 +524,14 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Listas Ligadas
     - [ ] Descrição:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists) (listas ligadas individualmente (vídeo))
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5) (CS 61B - Listas Ligadas (vídeo))
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) (Código em C (vídeo))
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists) (listas ligadas individualmente - vídeo)
+        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5) (CS 61B - Listas Ligadas - vídeo)
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) (Código em C - vídeo)
             - não o vídeo inteiro, apenas as partes sobre estrutura de nodes (nós) e alocação de memória.
     - [ ] Listas Ligadas vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays) (Fundamental: Listas Ligadas vs Arrays (vídeo))
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays) (No Mundo Real: Listas Ligadas vs Arrays (vídeo))
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo) (por que você deve evitar listas ligadas (vídeo))
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays) (Fundamental: Listas Ligadas vs Arrays - vídeo)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays) (No Mundo Real: Listas Ligadas vs Arrays - vídeo)
+    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo) (por que você deve evitar listas ligadas - vídeo)
     - [ ] Peguei vocês: você precisa de conhecimento de ponteiro para ponteiro:
         (para quando você passar um ponteiro para uma funcção que poderá mudar o endereço para o qual o ponteiro aponta)
         Essa página é só para ter uma noção sobre ponteiro para ponteiro. Eu não recomendo o estilo transversal dessa lista. Legibilidade e manutenção sofrem devido à engenhosidade.
@@ -552,19 +552,19 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] reverse() - reverte a lista
         - [ ] remove_value(valor) - remove o primeiro item na lista com esse valor
     - [ ] Listas Ligadas Duplamente
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists) (Descrição (vídeo))
+        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists) (Descrição - vídeo)
         - Não há necessidade de implementar
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html) (Usando Stacks Último a Entrar Primeiro a Sair (vídeo))
+    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html) (Usando Stacks Último a Entrar Primeiro a Sair - vídeo)
     - [ ] Não implementarei. Implementar com array é trivial.
 
 - ### Queue (Fila)
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html) (Usando queues FIFO(Primeiro a entrar, último a sair) (vídeo))
+    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html) (Usando queues FIFO(Primeiro a entrar, último a sair) - vídeo)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) (Buffer circular/Primeiro a entrar, último a sair)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html) (Queues com Prioridade (vídeo))
+    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html) (Queues com Prioridade - vídeo)
     - [ ] Implementar usando lista ligada, com ponteiro de cauda (aponta para o último elemento de uma lista):
         - enqueue(valor) - adiciona "valor" na posição na cauda (final da lista)
         - dequeue() - retorna um valor e remove o elemento menos recentemente adicionado (início da lista))
@@ -583,24 +583,24 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Tabela hash (no português: Tabela de dispersão)
     - [ ] vídeos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8) (Hashing com Encadeamento (vídeo))
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Duplicação de Tabela, Karp-Rabin (vídeo))
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Endereçamento Aberto, Hashing Criptográfico (vídeo))
+        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8) (Hashing com Encadeamento - vídeo)
+        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Duplicação de Tabela, Karp-Rabin - vídeo)
+        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Endereçamento Aberto, Hashing Criptográfico - vídeo)
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68) (PyCon 2010: O Poderoso Dicionário (vídeo)
-        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11) ((Avançado) Randomização: Hashing Perfeito & Universal (vídeo))
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4) ((Avançado) Hashing perfeito (vídeo))
+        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11) ((Avançado) Randomização: Hashing Perfeito & Universal - vídeo)
+        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4) ((Avançado) Hashing perfeito - vídeo)
 
     - [ ] Cursos Online:
-        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html) (Compreendendo Funções Hash (vídeo))
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html) (Usando Tabelas Hash (vídeo))
-        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html) (Hashing de Suporte (vídeo))
-        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html) (Tabelas Hash de Suporte de Linguagem (vídeo))
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables) (Fundamental: Tabelas Hash (vídeo))
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3) (Estruturas de Dados (vídeo))
+        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html) (Compreendendo Funções Hash - vídeo)
+        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html) (Usando Tabelas Hash - vídeo)
+        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html) (Hashing de Suporte - vídeo)
+        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html) (Tabelas Hash de Suporte de Linguagem - vídeo)
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables) (Fundamental: Tabelas Hash - vídeo)
+        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3) (Estruturas de Dados - vídeo)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem) (Problema da Lista Telefônica (vídeo) )
         - [ ] tabelas hash distribuídas:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox) (Uploads Instantâneos E Otimização de Armazenamento no Dropbox (vídeo))
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables) (Tabelas Hash Distribuídas (vídeo))
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox) (Uploads Instantâneos E Otimização de Armazenamento no Dropbox - vídeo)
+            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables) (Tabelas Hash Distribuídas - vídeo)
 
     - [ ] implementar com array usando sondagem linear
         - hash(k, m) - m é o tamanho da tabela hash
@@ -612,8 +612,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Mais Conhecimento
 
 - ### Busca binária
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno) (Busca Binária (vídeo))
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search) (Busca Binária (vídeo))
+    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno) (Busca Binária - vídeo)
+    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search) (Busca Binária - vídeo)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) (detalhes)
     - [ ] Implementar:
         - busca binária (em um array ordenado de números inteiros)
@@ -624,19 +624,19 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] Consiga um bom entendimento sobre manipulação de bits com: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture)) (palavras)
         - [ ] Boa introdução:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I) (Manipulação de Bit (vídeo))
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0) (Tutorial de Programação em C 2-10: Operadores Binários (vídeo))
+            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I) (Manipulação de Bit - vídeo)
+        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0) (Tutorial de Programação em C 2-10: Operadores Binários - vídeo)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation) (Manipulação de Bit)
         - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation) (Lógica Binária)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html) (Snippets/Fragmentos de código, um tipo de cheatsheet (folha de consultas))
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html) (Interativo)
     - [ ] Complemento de 2 e 1
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4) (Binário: Vantagens & Desvantagens (Por Que Usamos Complemento de 2) (vídeo))
+        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4) (Binário: Vantagens & Desvantagens (Por Que Usamos Complemento de 2) - vídeo)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement) (Complemento de 1)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement) (Complemento de 2)
     - [ ] contagem de bits fixos
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc) (4 maneiras de contar bits em um byte (vídeo))
+        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc) (4 maneiras de contar bits em um byte - vídeo)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan) (Contagem de Bits)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer) (Como Contar O Número De Bits Fixos Em um Número inteiro de 32 bits)
     - [ ] arredondar para a próxima potência de 2:
@@ -649,8 +649,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Árvores
 
 - ### Árvores - Anotações e Fundamentos
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees) (Série: Árvores Fundamentais (vídeo))
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees) (Série: Árvores (vídeo))
+    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees) (Série: Árvores Fundamentais - vídeo)
+    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees) (Série: Árvores - vídeo)
     - contrução básica de árvore
     - transversal
     - algorítmos de manipulação
@@ -671,22 +671,22 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - pré-ordem (na busca em profundidade (ou DFS): visita a raiz, percorre subárvore esquerda em pré-ordem, percorre subárvore direita em pré-ordem)
 
 - ### Árvores binárias de busca: ABB
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) (Revisão de Árvores Binárias de Busca (vídeo))
+    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) (Revisão de Árvores Binárias de Busca - vídeo)
     - [ ] [Série (vídeo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - começa com tabela de símbolos e passa por aplicações de ABB
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction) (Introdução (vídeo))
+    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction) (Introdução - vídeo)
     - [ ] [MIT (vídeo)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28) (Árvore binária de busca - Implementação em C/C++ (vídeo))
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29) (Implementação de ABB - alocação de memória estática (stack) e dinâmica (heap) (vídeo))
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Encontrar elementos min e max em uma árvore binária de busca (vídeo))
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31) (Encontrar altura de uma árvore binária (vídeo))
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32) (Percurso de uma árvore binária - estratégias de busca em largura e busca em profundidade (vídeo))
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Árvore binária: Percurso de Ordens de Níveis (vídeo))
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Percurso de árvore binária: Pré-ordem, Em-ordem (ordem simétrica), Pós-ordem (vídeo))
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Verificar se uma árvore binária é uma árvore binária de busca ou não (vídeo))
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36) (Deletar um nó de uma Árvore Binária de Busca (vídeo))
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Sucessor Em-ordem em uma árvore binária de busca (vídeo))
+        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28) (Árvore binária de busca - Implementação em C/C++ - vídeo)
+        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29) (Implementação de ABB - alocação de memória estática (stack) e dinâmica (heap) - vídeo)
+        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Encontrar elementos min e max em uma árvore binária de busca - vídeo)
+        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31) (Encontrar altura de uma árvore binária - vídeo)
+        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32) (Percurso de uma árvore binária - estratégias de busca em largura e busca em profundidade - vídeo)
+        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Árvore binária: Percurso de Ordens de Níveis - vídeo)
+        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Percurso de árvore binária: Pré-ordem, Em-ordem (ordem simétrica), Pós-ordem - vídeo)
+        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Verificar se uma árvore binária é uma árvore binária de busca ou não - vídeo)
+        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36) (Deletar um nó de uma Árvore Binária de Busca - vídeo)
+        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) (Sucessor Em-ordem em uma árvore binária de busca - vídeo)
     - [ ] Implementar:
         - [ ] insert    // insere um valor na árvore
         - [ ] get_node_count // obtém contagem de valores armazenados
@@ -703,18 +703,18 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Memória Dinâmica (heap) / Filas Prioritárias / Memória Dinâmica Binária (heap binary)
     - visualizada como uma árvore, mas geralmente é linear no armazenamento (array, lista ligada)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure)) (Memória DInâmica)
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction) (Introdução (vídeo))
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations) (Implementações Ingênuas (vídeo))
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees) (Árvores Binárias (vídeo))
-    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark) (Observações sobre Altura de Árvore (vídeo))
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations) (Operações Básicas (vídeo))
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees) (Árvores Binárias Completas (vídeo))
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode) (Pseudocódigo (vídeo))
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291) (Algoritmo de Ordenação heapsort - pula para o começo (vídeo))
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort) (Algoritmo de Ordenação heapsort (vídeo))
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap) (Construindo uma memória dinâmica (heap) (vídeo))
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (MIT: Memórias Dinâmias e heapsort (vídeo))
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C) (CS (Ciência da Computação) 61B Aula 24: Filas Prioritárias (vídeo))
+    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction) (Introdução - vídeo)
+    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations) (Implementações Ingênuas - vídeo)
+    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees) (Árvores Binárias - vídeo)
+    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark) (Observações sobre Altura de Árvore - vídeo)
+    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations) (Operações Básicas - vídeo)
+    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees) (Árvores Binárias Completas - vídeo)
+    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode) (Pseudocódigo - vídeo)
+    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291) (Algoritmo de Ordenação heapsort - pula para o começo - vídeo)
+    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort) (Algoritmo de Ordenação heapsort - vídeo)
+    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap) (Construindo uma memória dinâmica (heap) - vídeo)
+    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (MIT: Memórias Dinâmias e heapsort - vídeo)
+    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C) (CS (Ciência da Computação) 61B Aula 24: Filas Prioritárias - vídeo)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw) (BuildHeap em Tempo Linear (heap máxima))
     - [ ] Implementar uma heap máxima (max-heap):
         - [ ] insert

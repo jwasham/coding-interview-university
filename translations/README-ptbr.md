@@ -1,14 +1,14 @@
 # Universidade de Entrevista de Programação
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer, 
-> but it grew to the large list you see today. After going through this study plan, [I got hired 
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+> Originalmente eu criei isso como uma pequena lista to-do de tópicos de estudo para se tornar um engenheiro de software, 
+> mas isso cresceu para a grande lista que você vê hoje. Após passar por esse plano de estudo, [Eu fui contratado 
+> como Engenheiro de Desenvolvimento de Software na Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
+> Você provavelmente não vai precisar estudar tanto quanto eu. De qualquer maneira, tudo que você precisa está aqui.
 >
-> The items listed here will prepare you well for in an interview at just about any software company, 
-> including the giants: Amazon, Facebook, Google or Microsoft.
+> Os itens listados aqui irão preparar você muito bem para uma entrevista em praticamente qualquer empresa de software, 
+> incluindo as gigantes: Amazon, Facebook, Google ou Microsoft.
 >
-> *Best of luck to you!*
+> *Boa sorte para todos vocês!*
 
 Original: [Inglês](https://github.com/jwasham/coding-interview-university/blob/master/README.md)
     

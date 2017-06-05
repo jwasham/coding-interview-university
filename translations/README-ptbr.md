@@ -53,9 +53,9 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Mais Conhecimento](#mais-conhecimento)
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
-- [Árvores](#árvores)
-    - [Árvores - Anotações e Fundamentos](#árvores---anotações-e-fundamentos)
-    - [Árvores binárias de busca: ABB](#árvores-binárias-de-busca-abb)
+- [Árvores](#Árvores)
+    - [Árvores - Anotações e Fundamentos](#Árvores---anotações-e-fundamentos)
+    - [Árvores binárias de busca: ABB](#Árvores-binárias-de-busca-abb)
     - [Memória Dinâmica (heap) / Filas Prioritárias / Memória Dinâmica Binária (heap binary)](#memória-dinâmica-heap--filas-prioritárias--memória-dinâmica-binária-heap-binary)
     - árvores de busca balanceadas (conceito geral, não detalhes)
     - transversais: pré-ordem, em-ordem (ordem simétrica), pós-ordem, busca em largura, busca em profundidade

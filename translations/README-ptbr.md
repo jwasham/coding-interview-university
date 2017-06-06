@@ -59,12 +59,12 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Memória Dinâmica (heap) / Filas Prioritárias / Memória Dinâmica Binária (heap binary)](#memória-dinâmica-heap--filas-prioritárias--memória-dinâmica-binária-heap-binary)
     - árvores de busca balanceadas (conceito geral, não detalhes)
     - transversais: pré-ordem, em-ordem (ordem simétrica), pós-ordem, busca em largura, busca em profundidade
-- [Sorting](#sorting)
-    - selection
-    - insertion
+- [Ordenação](#ordenação)
+    - seleção
+    - inserção
     - heapsort
     - quicksort
-    - merge sort
+    - ordenação por mistura (merge sort)
 - [Graphs](#graphs)
     - directed
     - undirected
@@ -142,7 +142,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Geometry, Convex hull](#geometry-convex-hull)
     - [Discrete math](#discrete-math)
     - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+- [Detalhes Adicionais Sobre Alguns Assuntos](#detalhes-adicionais-sobre-alguns-assuntos)
 - [Video Series](#video-series)
 - [Computer Science Courses](#computer-science-courses)
 
@@ -732,80 +732,80 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] heap_sort() - pega um array não-ordenado e o transforma em um array ordenado "in-place" (sem gerar um novo array) usando uma heap máxima (max-heap)
             - nota: usando uma heap mínima (min-heap) ao invés de uma heap máxima (max-heap) poderia salvar operações, mas duplicar o espaço necessário (não é possível fazer "in-place")
 
-## Sorting
+## Ordenação
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
-        - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
-        - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
-        - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-        - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
-        - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+- [ ] Anotações:
+    - Implementar ordenações e saber melhor/pior cenário, complexidade média de cada um:
+        - sem ordenação por bolha - é terrível - O(n^2), exceto quando n <= 16
+    - [ ] estabilidade em algoritmos de ordenação ("O algoritmo de ordenação quicksort é estável?")
+        - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability) (Artigo da Wikipédia em Inglês sobre Estabilidade de Algoritmo de Ordenação, infelizmente a versão em Português não é tão informativa)
+        - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms) (Estabilidade em Algoritmos de Ordenação)
+        - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/) (Estabilidade em Algoritmos de Ordenação)
+        - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf) (Algoritmos de Ordenação - Estabilidade)
+    - [ ] Quais algoritmos podem ser usados em listas ligadas? Quais em arrays? Quais em ambos?
+        - Eu não recomendaria ordenar uma lista ligada, mas ordenação por mistura (merge sort) é possível de se fazer.
+        - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/) (Merge Sort Para Listas Ligadas)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
+- Para heapsort, veja estrutura de dados heap acima. Heapsort é ótimo, mas não é estável.
 
-- [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
+- [ ] [Sedgewick - Mergesort (5 vídeos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
-    - [ ] [2. Bottom up Mergesort](https://www.youtube.com/watch?v=HGOIGUYjeyk&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=2)
-    - [ ] [3. Sorting Complexity](https://www.youtube.com/watch?v=WvU_mIWo0Ac&index=3&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [4. Comparators](https://www.youtube.com/watch?v=7MvC1kmBza0&index=4&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [5. Stability](https://www.youtube.com/watch?v=XD_5iINB5GI&index=5&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
+    - [ ] [2. Bottom up Mergesort](https://www.youtube.com/watch?v=HGOIGUYjeyk&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=2) (Mergesort de baixo para cima)
+    - [ ] [3. Sorting Complexity](https://www.youtube.com/watch?v=WvU_mIWo0Ac&index=3&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9) (Complexidade de Ordenação)
+    - [ ] [4. Comparators](https://www.youtube.com/watch?v=7MvC1kmBza0&index=4&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9) (Comparadores)
+    - [ ] [5. Stability](https://www.youtube.com/watch?v=XD_5iINB5GI&index=5&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9) (Estabilidade)
 
-- [ ] [Sedgewick - Quicksort (4 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
+- [ ] [Sedgewick - Quicksort (4 vídeos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
     - [ ] [1. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&index=1&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [2. Selection](https://www.youtube.com/watch?v=CgVYfSyct_M&index=2&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [3. Duplicate Keys](https://www.youtube.com/watch?v=WBFzOYJ5ybM&index=3&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [4. System Sorts](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
+    - [ ] [2. Selection](https://www.youtube.com/watch?v=CgVYfSyct_M&index=2&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1) (Seleção)
+    - [ ] [3. Duplicate Keys](https://www.youtube.com/watch?v=WBFzOYJ5ybM&index=3&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1) (Chaves Duplicadas)
+    - [ ] [4. System Sorts](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1) (Ordenações de Sistema)
 
-- [ ] UC Berkeley:
-    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
-    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
+- [ ] Universidade da Califórnia em Berkeley:
+    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29) (Ciência da Computação 61B Aula 29: Ordenação I - vídeo)
+    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30) (Ciência da Computação 61B Aula 30: Ordenação II - vídeo)
+    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C) (Ciência da Computação 61B Aula 32: Ordenação III - vídeo)
+    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C) (Ciência da Computação 61B Aula 33: Ordenação V - vídeo)
 
-- [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
-- [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
-- [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-- [ ] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
-- [ ] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
-- [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
-- [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
+- [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB) (Ordenação por Bolha - vídeo)
+- [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB) (Analisando Ordenação por Bolha - vídeo)
+- [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Ordenação por Inserção, Ordenação por Mistura - vídeo)
+- [ ] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB) (Ordenação por Inserção - vídeo)
+- [ ] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB) (Ordenação por Mistura - vídeo)
+- [ ] [Quicksort (vídeo)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
+- [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB) (Ordenação por Seleção - vídeo)
 
-- [ ] Merge sort code:
-    - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
-    - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
+- [ ] Código de ordenação por mistura:
+    - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c) (Usando array de saída (C))
+    - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py) (Usando array de saída (Python))
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
-    - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
-    - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-    - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+- [ ] Código de algoritmo de ordenação quicksort:
+    - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c) (Implementação em C)
+    - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c) (Implementação em C)
+    - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py) (Implementação em Python)
 
 - [ ] Implementar:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+    - [ ] Mergesort: O(n log n) caso comum e pior caso
+    - [ ] Quicksort O(n log n) caso comum
+    - Ordenação por seleção e inserção são ambos O(n^2) caso comum e pior caso
+    - Para heapsort, veja estrutura de dados heap acima.
 
-- [ ] Not required, but I recommended them:
-    - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-        - [ ] [1. Strings in Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
-        - [ ] [2. Key Indexed Counting](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
-        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=2pGVq_BwPKs&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=4)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=M3cYNY90R6c&index=3&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-        - [ ] [5. 3 Way Radix Quicksort](https://www.youtube.com/watch?v=YVl58kfE6i8&index=2&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-        - [ ] [6. Suffix Arrays](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1)
-    - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
-    - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
-    - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
+- [ ] Não é requisitado, mas eu recomendo esses:
+    - [ ] [Sedgewick - Radix Sorts (6 vídeos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
+        - [ ] [1. Strings em Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
+        - [ ] [2. Key Indexed Counting](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5) (Contagem Indexada por Chaves)
+        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=2pGVq_BwPKs&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=4) (Radix sort de string de Dígito-Menos-Significativo-Primeiro)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=M3cYNY90R6c&index=3&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53) (Radix sort de string de Dígito-Mais-Significativo-Primeiro)
+        - [ ] [5. 3 Way Radix Quicksort](https://www.youtube.com/watch?v=YVl58kfE6i8&index=2&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53) (Quicksort Radix de 3 vias)
+        - [ ] [6. Suffix Arrays](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1) (Arrays de Sufixos)
+    - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort) (Radix Sort)
+    - [ ] [Radix Sort (vídeo)](https://www.youtube.com/watch?v=xhr26ia4k38)
+    - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Radix Sort, Ordenação por Contagem (tempo linear dadas restrições))
+    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Aleatorização: Multiplicação de Matriz, Quicksort, Algoritmo de Freivalds - vídeo)
+    - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14) (Ordenando em Tempo Linear - vídeo)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+Como um resumo, aqui está uma representação visual de [15 algoritmos de ordenação](https://www.youtube.com/watch?v=kPRA0W1kECg).
+Se você precisa de mais detalhes sobre o assunto, veja a seção "Ordenação" em [Detalhes Adicionais Sobre Alguns Assuntos](#detalhes-adicionais-sobre-alguns-assuntos)
 
 ## Graphs
 
@@ -1802,7 +1802,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 --
 
-## Additional Detail on Some Subjects
+## Detalhes Adicionais Sobre Alguns Assuntos
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.

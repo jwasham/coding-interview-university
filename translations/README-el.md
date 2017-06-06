@@ -461,3 +461,192 @@
 
     Εάν μερικές διαλέξεις είναι πολύ μαθηματικές, μπορείς να μεταβείς προς τα κάτω και να παρακολουθήσεις μερικά βίντεο σχετικά με τα διακριτά μαθηματικά για να πάρεις όλες τις γνώσεις που απαιτούνται.
 
+## Δομές Δεδομένων
+
+- ### Πίνακες
+    - Υλοποίησε μία λίστα, η οποία αλλάζει αυτόματα μέγεθος.
+    - [ ] Περιγραφή:
+        - [Πίνακες(EN) (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+    - [ ] Υλοποίησε μία συλλογή (ευμετάβλητο πίνακα με αυτόματη αλλαγή μεγέθους):
+        - [ ] Κάνε πρακτική σε κώδικα χρησιμοποιώντας πίνακες και δείκτες, και pointer math για να πας σε ένα δείκτη από το να χρησιμοποιήσεις ευρετηρίαση.
+        - [ ] new raw data array with allocated memory
+            - can allocate int array under the hood, just not use its features
+            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
+        - [ ] size() - αριθμός των στοιχείων
+        - [ ] capacity() - αριθμός στοιχείων που μπορεί να περιέχει
+        - [ ] is_empty()
+        - [ ] at(index) - επιστρέφει που υπάρχει στη θέση index, *εκρύγνειται* αν ο δείκτης είναι εκτός συνόρων του πίνακα
+        - [ ] push(item)
+        - [ ] insert(index, item) - εισάγει ένα σημείο στη θέση index, μετακινεί την τιμή του index και σύρει όλα τα στοιχεία στα δεξιά
+        - [ ] prepend(item) - εισάγει το αντικείμενο στην αρχή της συλλογής(insert(0,item))
+        - [ ] pop() - αφαιρεί από το τέλος, επιστρέφει την τιμή
+        - [ ] delete(index) - διγράφη το στοιχείο στη θέση index, σύρει όλα τα στοιχεία στα αριστερά
+        - [ ] remove(item) - ψάχνει για την τιμή και διαγράφει το δείκτη που την έχει (ακόμα και αν είναι σε περισσότερες από 1 θέσεις)
+        - [ ] find(item) - ψάχνει για την τιμή και επιστρέφει τον πρώτο δείκτη με αυτή την τιμή, -1 έαν δε βρεθεί
+        - [ ] resize(new_capacity) // private function
+            - όταν φτάνεις στη χωρητικώτητα, άλλαξε το μέγεθος του πίνακα κατά το διπλάσιο
+            - όταν αφαιρείς ένα στοιχείο, εάν το μέγεθος είναι 1/4 της χωρητικότητας, άλλαξε το μέγεθος κατά το μισό
+    - [ ] Χρόνος
+        - O(1) για πρόσθεση/αφαίρεση στο τέλος (απελευθέρωση των δεσμευμένων θέσεων για περισσότερο χώρο)
+        - O(n) για πρόσθεση/αφαίρεση αλλού
+    - [ ] Χώρος
+        - συνεχόμενος στη μνήμη, έτσι η μικρή απόσταση βοηθάει στην απόδοση
+        - απαιτούμενος χώρος = (χωρητικότητα πίνακα, η οποία είναι >= n) * μέγεθος του στοιχείου, αλλά ακόμα και αν είναι 2n => O(n)
+
+- ### Συνδεδεμένες λίστες
+    - [ ] Περιγραφή:
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - not the whole video, just portions about Node struct and memory allocation.
+    - [ ] Linked List vs Arrays:
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Gotcha: you need pointer to pointer knowledge:
+        (for when you pass a pointer to a function that may change the address where that pointer points)
+        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] υλοποίηση (Το έκανα με δείκτη ουράς και χωρίς):
+    
+    # untill here
+    
+        - [ ] size() - returns number of data elements in list
+        - [ ] empty() - bool returns true if empty
+        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [ ] push_front(value) - adds an item to the front of the list
+        - [ ] pop_front() - remove front item and return its value
+        - [ ] push_back(value) - adds an item at the end
+        - [ ] pop_back() - removes end item and returns its value
+        - [ ] front() - get value of front item
+        - [ ] back() - get value of end item
+        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [ ] erase(index) - removes node at given index
+        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [ ] reverse() - reverses the list
+        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] Doubly-linked List
+        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - No need to implement
+
+- ### Stack
+    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] Will not implement. Implementing with array is trivial.
+
+- ### Queue
+    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] Implement using linked-list, with tail pointer:
+        - enqueue(value) - adds value at position at tail
+        - dequeue() - returns value and removes least recently added element (front)
+        - empty()
+    - [ ] Implement using fixed-sized array:
+        - enqueue(value) - adds item at end of available storage
+        - dequeue() - returns value and removes least recently added element
+        - empty()
+        - full()
+    - [ ] Cost:
+        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
+            because you'd need the next to last element, causing a full traversal each dequeue
+        - enqueue: O(1) (amortized, linked list and array [probing])
+        - dequeue: O(1) (linked list and array)
+        - empty: O(1) (linked list and array)
+
+- ### Hash table
+    - [ ] Videos:
+        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+
+    - [ ] Online Courses:
+        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
+        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
+        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
+        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] distributed hash tables:
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+
+    - [ ] implement with array using linear probing
+        - hash(k, m) - m is size of hash table
+        - add(key, value) - if key already exists, update value
+        - exists(key)
+        - get(key)
+        - remove(key)
+
+## More Knowledge
+
+- ### Binary search
+    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] Implement:
+        - binary search (on sorted array of integers)
+        - binary search using recursion
+
+- ### Bitwise operations
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] Good intro:
+            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
+        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
+    - [ ] 2s and 1s complement
+        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] count set bits
+        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
+        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    - [ ] round to next power of 2:
+        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+    - [ ] swap values:
+        - [Swap](http://bits.stephan-brumme.com/swap.html)
+    - [ ] absolute value:
+        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+
+## Trees
+
+- ### Trees - Notes & Background
+    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - basic tree construction
+    - traversal
+    - manipulation algorithms
+    - BFS (breadth-first search)
+        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+        - level order (BFS, using queue)
+            time complexity: O(n)
+            space complexity: best: O(1), worst: O(n/2)=O(n)
+    - DFS (depth-first search)
+        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+        - notes:
+            time complexity: O(n)
+            space complexity:
+                best: O(log n) - avg. height of tree
+                worst: O(n)
+        - inorder (DFS: left, self, right)
+        - postorder (DFS: left, right, self)
+        - preorder (DFS: self, left, right)

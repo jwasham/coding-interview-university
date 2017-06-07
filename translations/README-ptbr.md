@@ -65,11 +65,11 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - heapsort
     - quicksort
     - ordenação por mistura (merge sort)
-- [Graphs](#graphs)
+- [Grafos](#grafos)
     - directed
     - undirected
-    - adjacency matrix
-    - adjacency list
+    - matriz de adjacência
+    - lista de adjacência
     - traversals: BFS, DFS
 - [Even More Knowledge](#even-more-knowledge)
     - [Recursion](#recursion)
@@ -150,7 +150,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 
 ## Por que usar?
 
-Quando eu comecei esse projeto, eu não sabia diferenciar memória dinâmica de memória estática, não sabia notação Big-O, árvores, ou como percorrer um gráfico. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
+Quando eu comecei esse projeto, eu não sabia diferenciar memória dinâmica de memória estática, não sabia notação Big-O, árvores, ou como percorrer um grafo. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
 Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por debaixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns arrays multidimensionais na minha vida e milhares de arrays associativos, mas eu nunca criei estruturas de dados do zero.
 
 É um longo plano. Você vai levar meses. Se você já é familiarizado com muitas dessas coisas, você vai precisar de muito menos tempo. 
@@ -296,7 +296,7 @@ Se você ler um desses, você deverá ter todo conhecimento de estrutura de dado
 Eu ainda não li esses dois, mas eles são muito bem avaliados e escritos por Sedgewick. Ele é ótimo.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) (Algoritmos em C++, Partes 1-4: Fundamentos, Estrutura de Dados, Ordenação, Busca).
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/) (Algoritmos em C++ Parte 5: Algoritmos de Gráfico)
+- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/) (Algoritmos em C++ Parte 5: Algoritmos de Grafo)
 
 Se você tiver uma recomendação melhor para C++, por favor me informe. Busco por recursos completos. 
 
@@ -807,63 +807,63 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 Como um resumo, aqui está uma representação visual de [15 algoritmos de ordenação](https://www.youtube.com/watch?v=kPRA0W1kECg).
 Se você precisa de mais detalhes sobre o assunto, veja a seção "Ordenação" em [Detalhes Adicionais Sobre Alguns Assuntos](#detalhes-adicionais-sobre-alguns-assuntos)
 
-## Graphs
+## Grafos
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+Grafos podem ser usados para representar muitos problemas na Ciência da Computação, então essa seção é longa, assim como árvores e ordenação também foram.
 
-- Notes:
-    - There are 4 basic ways to represent a graph in memory:
-        - objects and pointers
-        - adjacency matrix
-        - adjacency list
-        - adjacency map
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none.
+- Anotações:
+    - Há 4 maneiras básicas de representar um grafo na memória:
+        - objetos e apontadores
+        - matriz de adjacência
+        - lista de adjacência
+        - mapa de adjacência
+    - Famialirize-se com cada representação e seus prós e contras.
+    - Busca em Largura (BFS) e Busca em Profundidade (DFS) - saiba a complexidade computacional deles, suas compensações, e como implementar eles em código real.
+    - Quando for perguntado uma questão, busque por uma solução baseada em grafos primeiro, então se não houver, siga em frente.
 
-- [ ] Skiena Lectures - great intro:
-    - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
-    - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
-    - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
-    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+- [ ] Aulas do Skiena - ótima introdução:
+    - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11) (CSE373 2012 - Aula 11 - Estrutura de Dados de Grafos - vídeo)
+    - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12) (CSE373 2012 - Aula 12 - Busca em Largura - vídeo)
+    - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13) (CSE373 2012 - Aula 13 - Algoritmos de Grafos - vídeo)
+    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b) (CSE373 2012 - Aula 11 - Algoritmos de Grafos (parte 1) - vídeo)
+    - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b) (CSE373 2012 - Aula 11 - Algoritmos de Grafos (parte 2) - vídeo)
+    - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b) (CSE373 2012 - Aula 11 - Algoritmos de Grafos (parte 3) - vídeo)
 
-- [ ] Graphs (review and more):
+- [ ] Grafos (revisão e mais):
 
-    - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
-    - [ ] [6.006 Speeding Up Dijkstra (video)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
-    - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (video)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
-    - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
-    - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
-    - [ ] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
-    - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
-    - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (6.006 Problema do Menor Caminho de Fonte-Única - vídeo)
+    - [ ] [6.006 Dijkstra (vídeo)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Bellman-Ford (vídeo)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
+    - [ ] [6.006 Speeding Up Dijkstra (video)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18) (6.006 acelerando Dijkstra - vídeo)
+    - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (video)](https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm) (Aduni: Algoritmos de Grafos I - Ordenação Topológica, Árvores de Extensão Mínima, Algoritmo de Prim - Aula 6 - vídeo)
+    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7) (Aduni: Algoritmos de Grafos II - Busca em Profundidade (DFS), Busca em Largura (BFS), Algoritmo de Kruskal, Estrutura de Dados Union-Find - Aula 7 - vídeo)
+    - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8) (Aduni: Algoritmos de Grafos III: Menor Caminhno - Aula 8 - vídeo)
+    - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9) (Algoritmos de Grafos IV: Introdução à algoritmos geométricos - Aual 9 - vídeo)
+    - [ ] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489) (CS 61B 2014 (começando em 58:09) - vídeo)
+    - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19) (CS 61B 2014: Grafos Ponderados - vídeo)
+    - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Algoritmos Gulosos: Árvore de Extensão Mínima - vídeo)
+    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw) (Componentes Fortemente Conectados, Algoritmo de Kosaraju, Algoritmo de Grafo - vídeo)
 
-- Full Coursera Course:
-    - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
+- Curso Completo do Coursera:
+    - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome) (Algoritmos em Grafos - vídeo)
 
-- I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
-    - [ ] single-source shortest path (Dijkstra)
-    - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+- Irei implementar:
+    - [ ] Busca em Profundidade (DFS) com lista de adjacência (recursivo)
+    - [ ] Busca em Profundidade (DFS) com lista de adjacência (iterativo com memória estática (stack))
+    - [ ] Busca em Profundidade (DFS) com matriz de adjacência (recursivo)
+    - [ ] Busca em Profundidade (DFS) com matriz de adjacência (iterativo com memória estática (stack))
+    - [ ] Busca em Largura (BFS) com lista de adjacência
+    - [ ] Busca em Largura (BFS) com matriz de adjacência
+    - [ ] menor caminho de fonte-única (Dijkstra)
+    - [ ] árvore de extensão mínima
+    - Algoritmos baseados em busca em profundidade (DFS) (ver vídeos da Aduni acima):
+        - [ ] checar por ciclos (necessário para ordenação topológica, já que nós iremos checar por ciclos antes de começar)
+        - [ ] ordenação topológica
+        - [ ] contar componentes conectados em um grafo
+        - [ ] listar componentes fortemente conectados
+        - [ ] checar por grafos bipartidos
 
-Você ganhará mais prática com gráficos no livro do Skiena (veja a seção de livro abaixo) e os livros da entrevista
+Você ganhará mais prática com grafos no livro do Skiena (veja a seção de livros abaixo) e os livros da entrevista
 
 ## Even More Knowledge
 

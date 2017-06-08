@@ -71,7 +71,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - matriz de adjacência
     - lista de adjacência
     - traversals: BFS, DFS
-- [Mais Conhecimento Ainda](#mais-conhecimento-ainda)
+- [Ainda Mais Conhecimento](#ainda-mais-conhecimento)
     - [Recursão](#recursão)
     - [Programação Dinâmica](#programação-dinâmica)
     - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
@@ -865,7 +865,7 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
 
 Você ganhará mais prática com grafos no livro do Skiena (veja a seção de livros abaixo) e os livros da entrevista
 
-## Mais Conhecimento Ainda
+## Ainda Mais Conhecimento
 
 - ### Recursão
     - [ ] Aulas de Stanford sobre recursão e backtracking:

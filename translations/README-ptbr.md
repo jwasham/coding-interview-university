@@ -77,7 +77,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
     - [Padrões de Design](#padrões-de-design)
     - [Combinatórias (n escolhe k) e Probabilidade](#combinatórias-n-escolhe-k-e-probabilidade)
-    - [Algorirtmos de Aproximação, NP-Completo e NP](#algorirtmos-de-Aproximação-NP---Completo-e-NP)
+    - [Algoritmos de Aproximação, NP-Completo e NP](#algoritmos-de-Aproximação-NP---Completo-e-NP)
     - [Caches](#caches)
     - [Processos e Threads](#processos-e-threads)
     - [Artigos](#artigos)
@@ -964,7 +964,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
         - Apenas os vídeos - 41 (cada um é simples e curto):
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19) (Probabilidade Explicada - vídeo)
 
-- ### Algorirtmos de Aproximação, NP-Completo e NP
+- ### Algoritmos de Aproximação, NP-Completo e NP
     - Saiba sobre as classes mais famosas de problemas NP-completo, como o problema do vendedor viajante e o problema da mochila,
         e seja capaz de reconhecê-los quando um entrevistador lhe perguntar disfarçado.
     - Saiba o que NP-completo significa.

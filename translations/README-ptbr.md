@@ -19,7 +19,7 @@ Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, s
 ![Programando no quadro branco - do Vale do Silício da HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 Essa longa lista foi extraída e expandida a partir das **anotações de treinamento da Google**, então essas são as coisas que você precisa saber.
-Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge’s e às vezes são expressados palavra-por-palavra nas anotações de treinamento da Google.
+Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge's e às vezes são expressados palavra-por-palavra nas anotações de treinamento da Google.
 
 Isso é direcionado à **engenheiros de software novos** ou àqueles que estão migrando de desenvolvimento de software/web para engenharia de software (onde conhecimento de ciência da computação é necessário). Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
 
@@ -71,25 +71,25 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - matriz de adjacência
     - lista de adjacência
     - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+- [Mais Conhecimento Ainda](#mais-conhecimento-ainda)
+    - [Recursão](#recursão)
+    - [Programação Dinâmica](#programação-dinâmica)
+    - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
+    - [Padrões de Design](#padrões-de-design)
+    - [Combinatórias (n escolhe k) e Probabilidade](#combinatórias-n-escolhe-k-e-probabilidade)
+    - [Algorirtmos de Aproximação, NP-Completo e NP](#algorirtmos-de-Aproximação-NP---Completo-e-NP)
     - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
+    - [Processos e Threads](#processos-e-threads)
+    - [Artigos](#artigos)
+    - [Testes](#testes)
+    - [Agendamento](#agendamento)
+    - [Implementar rotinas de sistema](#implementar-rotinas-de-sistema)
+    - [Busca de string e manipulações](#busca-de-string-e-manipulações)
+    - [Tries (ou Árvore de Prefixos)](#tries--ou-Árvore-de-prefixos)
+    - [Números de Ponto Flutuantes ("Floating Point Numbers")](#números-de-ponto-flutuantes--Floating-Point-Numbers)
     - [Unicode](#unicode)
-    - [Endianness](#endianness)
-- [Networking](#networking)
+    - [Extremidade (ordenação) (ou "endianness" em Inglês)](#extremidade--ordenação--ou-endianness-em-Inglês)
+- [Redes](#redes)
 - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
@@ -865,292 +865,292 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
 
 Você ganhará mais prática com grafos no livro do Skiena (veja a seção de livros abaixo) e os livros da entrevista
 
-## Even More Knowledge
+## Mais Conhecimento Ainda
 
-- ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - when it is appropriate to use it
-    - how is tail recursion better than not?
-        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+- ### Recursão
+    - [ ] Aulas de Stanford sobre recursão e backtracking:
+        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8) (Aula 8 | Abstrações de Programação - vídeo)
+        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9) (Aula 9 | Abstrações de Programação - vídeo)
+        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69) (Aula 10 | Abstrações de Programação - vídeo)
+        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11) (Aula 11 | Abstrações de Programação - vídeo)
+    - quando é apropriado usá-la
+    - como a recursão de cauda é melhor do que nada?
+        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad) (O Que É Recursão de Cauda E Por Que Ela É Tão Ruim?)
+        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc) (Recursão de Cauda - vídeo)
 
-- ### Dynamic Programming
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
+- ### Programação Dinâmica
+    - Esse assunto pode ser bem difícil, já que cada problema solúvel de PD deve ser definido como uma relação de recursão, e isso pode ser complicado.
+    - Eu sugiro olhar vários exemplos de problemas de PD até que você tenha um bom entendimento do padrão envolvido.
     - [ ] vídeos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
-        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
-        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
-        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
-        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
-        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
-        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
-        - [ ] List of individual DP problems (each is short):
-            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-    - [ ] Yale Lecture notes:
-        - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+        - os vídeos do Skiena podem ser difíceis de acompanhar já que ele às vezes usa o quadro branco, o qual é pequeno para enxergar
+        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718) (Skiena: CSE373 2012 - Aula 19 - Introdução à Programação Dinâmica - vídeo)
+        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749) (Skiena: CSE373 2012 - Aula 20 - Editar Distância - vídeo)
+        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406) (Skiena: CSE373 2012 - Aula 21 - Exemplos de Programação Dinâmica - vídeo)
+        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22) (Skiena: CSE373 2012 - Aula 22 - Aplicações de Programação Dinâmica - vídeo)
+        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558) (Simonson: Programação Dinâmica 0 (começa em 59:18) - vídeo)
+        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm) (Simonson: Programação Dinâmica I - Aula 11 - vídeo)
+        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12) (Simonson: Programação Dinâmica II - Aula 12 - vídeo)
+        - [ ] Lista de problemas individuais de PD (cada um é curto):
+            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) (Programação Dinâmica - vídeo)
+    - [ ] Anotações de Aulas da Yale
+        - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming) (Programação Dinâmica)
     - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem) (O problema da estrutura secundária de RNA - vídeo)
+        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm) (Um algoritmo de programação dinâmica - vídeo)
+        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm) (Ilustrando o algorítmo de PD - vídeo)
+        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm) (Tempo de execução do algoritmo de PD - vídeo)
+        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation) (PD vs. implementação recursiva - vídeo)
+        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment) (Alinhamento de sequência em pares global - vídeo)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment) (Alinhamento de sequência em pares local - vídeo)
 
-- ### Object-Oriented Programming
-    - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] SOLID OOP Principles:
-        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
-        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html) | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
-            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
-            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+- ### Programação Orientada a Objetos
+    - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc) (Opcional: Série UML 2.0 - vídeo)
+    - [ ] Engenharia de Software Orientada a Objetos: Desenvolvedor de Software Usando UML e Java - 21 vídeo):
+        - Pode pular isso se você tem uma boa compreensão de OO e práticas de design em OO.
+        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO) (Engenharia de Software Orientada a Objetos: Desenvolvedor de Software usando UML e Java)
+    - [ ] Princípios de SOLID de POO:
+        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE) (Princípios de SOLID de Orientação a Objetos e Design Ágil por Bob Martin)
+        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ) (Padrões de Design de SOLID em C# - vídeo)
+        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A) (Princípios de SOLID - vídeo)
+        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html) (S - Princípio da Responsabilidade Única)
+            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk) (mais informações)
+        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html) | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle) (O - Princípio Aberto/Fechado)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en) (mais informações)
+        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle) (L - Princípio de Substituição de Liskov)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en) (mais informações)
+        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clientes não devem ser forçados a implementar interfaces que eles não usam (Princípio da segregação de Interface)
+            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ) (Princípio da Segregação de Interface em 5 minutos - vídeo)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en) (mais informações)
+        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects. (D - Princípio da Inversão de Dependência)
+            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important) (O Que É O Princípio da Inversão de Dependência E Por Que Ele É Importante)
+            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en) (mais informações)
 
-- ### Design patterns
-    - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
-        - [ ] strategy
-        - [ ] singleton
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
-        - [ ] visitor
-        - [ ] factory, abstract factory
-        - [ ] facade
-        - [ ] observer
+- ### Padrões de design
+    - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3) (Revisão rápida de UML - vídeo)
+    - [ ] Aprenda esses padrões:
+        - [ ] estratégia
+        - [ ] singleton (único)
+        - [ ] adaptador
+        - [ ] protótipo
+        - [ ] decorador
+        - [ ] visitante
+        - [ ] fábrica, fábrica abstrata
+        - [ ] fachada
+        - [ ] observador
         - [ ] proxy
-        - [ ] delegate
-        - [ ] command
-        - [ ] state
+        - [ ] delegar
+        - [ ] comandar
+        - [ ] estado
         - [ ] memento
-        - [ ] iterator
-        - [ ] composite
-        - [ ] flyweight
-    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Video series (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-    - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
-    - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
-    - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
+        - [ ] iterador
+        - [ ] composto
+        - [ ] flyweight (peso-mosca)
+    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344) (Capítulo 6 (Parte 1) - Padrões - vídeo)
+    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO) (Capítulo 6 (Parte 2) - Abstração-Ocorrência, Hierarquia Geral, Função-Jogador, Singleton, Observador, Delegação - vídeo)
+    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO) (Capítulo 6 (Parte 3) - Adaptador, Fachada, Imutável, Interface Somente Leitura, Proxy - vídeo )
+    - [ ] [Video series (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07) (Série de vídeos - 27 vídeos)
+    - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124) (Padrões de Design "Head First" ou "cabeça primeiro" numa tradução literal)
+        - Eu sei que o livro canônico é "Design Patterns: Elements of Reusable Object-Oriented Software (Padrões de Design: Elementos de Software Orientado a Objetos reutilizável), mas "Head First" é ótimo para iniciantes em POO.
+    - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips) (Referência Útil: 101 Dicas e Padrões de Design para Desenvolvedores)
+    - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns) (Padrões de design para humanos)
 
-- ### Combinatorics (n choose k) & Probability
-    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-    - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-    - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+- ### Combinatórias (n escolhe k) e Probabilidade
+    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U) (Habilidades Matemáticas: Como encontrar Fatorial, Permutação e Combinação (Escolha) - vídeo)
+    - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4) (Make School: Probabilidade - vídeo)
+    - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ) (Make School: Mais Probabilidade e Cadeias de Markov - vídeo)
     - [ ] Khan Academy:
-        - Course layout:
-            - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Just the videos - 41 (each are simple and each are short):
-            - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+        - Layout do curso
+            - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic) (Probabilidade Teorética Básica)
+        - Apenas os vídeos - 41 (cada um é simples e curto):
+            - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19) (Probabilidade Explicada - vídeo)
 
-- ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
-    - Know what NP-complete means.
-    - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+- ### Algorirtmos de Aproximação, NP-Completo e NP
+    - Saiba sobre as classes mais famosas de problemas NP-completo, como o problema do vendedor viajante e o problema da mochila,
+        e seja capaz de reconhecê-los quando um entrevistador lhe perguntar disfarçado.
+    - Saiba o que NP-completo significa.
+    - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23) (Complexidade Computacional - vídeo)
     - [ ] Simonson:
-        - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
-        - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness III (video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+        - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939) (Algoritmos Gulosos II e Introdução à Completude NP - vídeo)
+        - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm) (Completude NP II e Reduções - vídeo)
+        - [ ] [NP Completeness III (video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm) (Completude NP III - vídeo)
+        - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18) (Completude NP IV - vídeo)
     - [ ] Skiena:
-        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
-        - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Pages 1048 - 1140 in CLRS if you have it.
+        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508) (CSE373 2012 - Aula 23 - Introdução à Completude-NP - vídeo)
+        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b) (CSE373 2012 - Aula 24 - Provas de Completude-NP - vídeo)
+        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b) (CSE373 2012 - Aula 25 - Desafio de Completude-NP - vídeo)
+    - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22) (Complexidade: P, NP, Completude-NP, Reduções - vídeo)
+    - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24) (Complexidade: Algoritmos de Aproximação - vídeo)
+    - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Complexidade: Algorítmos de Parâmetro-Fixado - vídeo)
+    - Peter Norvig debate soluções tão boas quanto possível para o problema do vendedor viajante:
+        - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb) (Caderno de Júpiter)
+    - Páginas 1048 - 1140 em CLRS (livro Introdução à Algoritmos) se você o tive.r
 
 - ### Caches
-    - [ ] LRU cache:
-        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-        - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
-        - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-    - [ ] CPU cache:
-        - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-        - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+    - [ ] Cache LRU:
+        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M) (A Mágica do Cache LRU (100 dias de Google Dev) - vídeo)
+        - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI) (Implementando LRU - vídeo)
+        - [ ] [LeetCode - 146 Cache LRU (C++) (vídeo)](https://www.youtube.com/watch?v=8-FZRAjR7qU))
+    - [ ] cache CPU:
+        - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24) (MIT 6.004 L15: A Hierarquia de Memória - vídeo)
+        - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-) (MIT 6.004 L16: Problemas de Cache - vídeo)
 
-- ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
-    - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - difference between processes and threads
-            - processes
+- ### Processos e Threads
+    - [ ] Ciência da Computação 162 - Sistemas Operacionais (25 vídeos):
+        - para processos e threads veja os vídeos 1-11
+        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c) (Sistemas Operacionais e Programação de Sistema - vídeo)
+    - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread) (Qual É A Diferença Entre Um Processo E Uma Thread)
+    - Cobre:
+        - Processos, Threads, Problemas de Simultaneidade
+            - diferença entre processos e threads
+            - processos
             - threads
             - locks
             - mutexes
-            - semaphores
-            - monitors
-            - how they work
+            - semáforos
+            - monitores
+            - como eles funcionam
             - deadlock
             - livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
-        - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
-        - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-        - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware
-    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] concurrency in Python (videos):
-        - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
-        - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
-        - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
-            - [reference](http://www.dabeaz.com/GIL)
-        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
-        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
-        - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+        - atividade, interrupções e troca de contexto de CPU
+        - Construtos de simultaneidade modernos com processadores de múltiplos núcleos.
+        - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2) (Paginação, segmentação e memória virtual - vídeo)
+        - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3) (Interruoções - vídeo)
+        - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8) (Agendamento - vídeo)
+        - Necessidades de recurso de processos (memória: código, armazenamento estático, memória estática (stack), memória dinâmica (heap), e também descritores de arquivo, i/o
+        - Necessidades de recurso de threads (o mesmo que acima (menos stack) com outras threads no mesmo processo, mas cada um tem seu próprio pc, contador de stack, registros, e stack)
+        - Bifurcação nada mais é que COW (copy-on-write) (somente leitura) até que o novo processo escreva na memória, depois ela faz uma cópia completa.
+        - Troca de contexto
+            - Como a troca de contexto é iniciada pelo sistema operacional e componentes de hardware subjacentes
+    - [ ] [threads em C++ (série- 10 vídeos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] simultaneidade (ou concorrência) em Python (vídeos):
+        - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1) (Pequena série sobre threads)
+        - [ ] [Threads em Python](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+        - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s) (Entendendo o GIL de Python)
+            - [referência](http://www.dabeaz.com/GIL)
+        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4) (David Beazley - Simultaneidade (ou concorrência) Em Python Do Zero: AO VIVO!)
+        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU) (Keynote David Beazley - Tópicos de Interesse - Python Asyncio)
+        - [ ] [Mutex em Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ### Papers
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
-    - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
-    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
-    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
-        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
-    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
-    - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](https://www.akkadia.org/drepper/cpumemory.pdf)
-        - The Dynamo paper kicked off the NoSQL revolution
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
-    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
-    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
-    - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
-    - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+- ### Artigos
+    - Ler tudo de ponta a ponta com total compreensão irá provavelmente levar mais tempo do que você tem. Eu recomendo ser seletivo com os artigos e suas seções.
+    - [Adora artigos clássicos?](https://www.cs.cmu.edu/~crary/819-f09/)
+    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf) (1978: Comunicando Processos Sequenciais)
+        - [implementado em Go](https://godoc.org/github.com/thomas11/csp)
+    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf) (2003: O Sistema de Arquivos da Google)
+        - substituído por Colossus em 2012
+    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) (2004: MapReduce: Processamento de Dados Simplificado em Grandes Aglomerados)
+        - substituído, na sua maior parte, por Cloud Dataflow?
+    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf) (2006: Bigtable: Um Sistema de Armazenamento Distribuído para Data Estruturada)
+        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf) (Uma Olhada Por Dentro no BigQuery da Google)
+    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf) (2006: O Serviço de Lock Gordo para Sistemas Distribuídos Frouxamente Acoplados)
+    - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](https://www.akkadia.org/drepper/cpumemory.pdf) (2007: Dynamo: Loja Chave-valor Altamente Disponível da Amazon)
+        - O artigo da Dynamo iniciou a revolução NoSQL
+    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf) (2007: O Que Todo Programador Deve Saber Sobre Memória - bem longo, e o autor encoraja pular algumas seções)
+    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf) (2010: Dapper, Uma Infraestrutura de Rastreamento de Sistemas Distribuídos de Grande Escala)
+    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf) (2010: Dremel: Análise Interativa de Conjunto de Dados da Web)
+    - [ ] [2012: Colossus da Google](https://www.wired.com/2012/07/google-colossus/)
+        - artigo não disponível
+    - [ ] 2012: AddressSanitizer: Um Veloz Verificador de Sanidade de Endereço:
+        - [artigo](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+        - [vídeo](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+    - [ ] 2013: Spanner: Banco de Dados Globalmente Distribuído da Google
+        - [artigo](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+        - [vídeo](https://www.usenix.org/node/170855)
+    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf) (2014: Aprendizado de Máquina: O Cartão de Crédito de Alta Taxa de Juros de Débito Técnico)
+    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf) (2015: Pipelines Contínuas na Google)
+    - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf) (2015: Alta Disponibilidade em Escalas Massivas: Construindo a Infraestrutura de Dados da Google para Anúncios)
+    - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf ) (2015: TensorFlow: Aprendizado de Máquina de Grande Escala em Sistemas Distribuídos Heterogêneos)
+    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf) (2015: Como Desenvolvedores Buscam por Código: Um Estudo de Caso)
+    - [ ] [2016: Borg, Omega, e Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
+- ### Testes
+    - Cobrir:
+        - como teste de unidade funciona
+        - o que são objetos mock
+        - o que é teste de integração
+        - o que é injeção de dependência
+    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U) (Teste Ágil de Software com James Bach - vídeo)
+    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU) (Aula Aberta por James Bach sobre Teste de Software - vídeo)
+    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706) (Steve Freeman - Desenvolvimento Guiado Por Testes (isso não é o que a gente quis dizer) - vídeo)
         - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-        - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) (Desenvolvimento Guiado Por Testes (ou a sigla TDD em Inglês, que significa Test-Driven Development) está morto. Longa vida aos testes.
+    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo) (TDD está morto? - vídeo)
+    - [ ] [Série de Vídeos (152 vídeos) - nem todos são necessários (vídeo)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc) (Desenvolvimento Web Guiado Por Testes com Python)
+    - [ ] Injeção de dependência:
+        - [ ] [vídeo](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+        - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html) (O Tao Dos Testes)
+    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html) (Como escrever testes)
 
-- ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+- ### Agendamento
+    - em um SO, como funciona
+    - pode ser adquirido a partir de vídeos de Sistemas Operacionais
 
-- ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+- ### Implementar rotinas de sistema
+    - entenda o que tem por baixo das APIs de programação que você usa
+    - você pode as implementar?
 
-- ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-    - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
+- ### Busca de string e manipulações
+    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg) (Sedgewick - Arrays de Sufixo - vídeo)
+    - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5) (Sedgewick - Busca de Substring - vídeos)
+        - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5) (1. Introdução à Busca de Substring)
+        - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4) (Busca de Substring por Força Bruta)
         - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text) (Buscar padrão em um texto - vídeo)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    Se você precisa de mais detalhes sobre esse assunto, veja a seção "String Matching" em [Detalhes Adicionais Sobre Alguns Assuntos](#detalhes-adicionais-sobre-alguns-assuntos)
 
-- ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path.
-    - I read through code, but will not implement.
-    - [ ] [Sedgewick - Tries (3 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [1. R Way Tries](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
-    - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] Short course videos:
-        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-    - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
-    - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+- ### Tries (ou Árvore de Prefixos)
+    - Note que há tipos diferentes de tries. Alguns tem prefixos, alguns não, e alguns usam string ao invés de bits
+        para rastrear o caminho.
+    - Eu li todo o código, mas não irei implementar.
+    - [ ] [Sedgewick - Tries (3 vídeos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] [1. Tries R-Way](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ) (Tries de Busca Ternária)
+        - [ ] [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1) (Operações Baseadas Em Caracteres)
+    - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries) (Anotações sobre Estruturas de Dados e Técnicas de Programação)
+    - [ ] Vídeos de cursos curtos:
+        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries) (Introdução À Tries - vídeo)
+        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries) (Desempenho De Tries - vídeo)
+        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie) (Implementando Uma Trie - vídeo)
+    - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure) (A Trie: Uma Estrutura de Dados Negligenciada)
+    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/) (TopCoder - Usando Tries)
+    - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU) (Aula de Stanfort (caso de uso no mundo real) - vídeo)
+    - [ ] [MIT, Advanced Data Structures, Strings (pode ficar bem obscuro pela metade)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) (MIT, Estruturas De Dados Avançadas, Strings)
 
-- ### Floating Point Numbers
-    - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
-    - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+- ### Números de Ponto Flutuantes ("Floating Point Numbers")
+    - [ ] simples 8-bit: [Representation of Floating Point Numbers - 1 (video - tem um erro nos cálculos - veja a descrição do vídeo)](https://www.youtube.com/watch?v=ji3SfClm8TU) (Representação de Número de Ponto Flutuantes - 1 - vídeo)
+    - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec) (IEEE754 Binário de Ponto Flutuante 32-bit - vídeo)
 
 - ### Unicode
-    - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
-    - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
+    - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html) (O Mínimo Absoluto Que Cada Desenvolvedor de Software Deve Absolutamente, Certamente Saber Sobre Unicode e Conjuntos de Caracteres)
+    - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/) (O Que Cada Programador Deve Absolutamente, Certamente Saber Sobre Codificações E Conjuntos de Caracteres Para Trabalhar Com Texto)
 
-- ### Endianness
-    - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+- ### Extremidade (ordenação) (ou "endianness" em Inglês)
+    - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html) (Grande E Pequeno Extremo)
+    - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo) (Grande Extremo Vs Pequeno Extremo - vídeo)
+    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0) (Explicando Grande e Pequeno Extremos - vídeo)
+        - Palestra bem técnica para desenvolvedores de kernel. Não se preocupe se grande parte disso for demais para sua cabeça.
+        - A primeira metade é suficiente.
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
-    - otherwise, this is just good to know
+- ### Redes
+    - **se você tem experiência com redes ou quer se tornar um engenheiro de sistemas, se prepare para questões desse gênero**
+    - caso contrário, isso é no mínimo bom de saber
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8) (UDP e TCP: Comparação de Protocolos de Transporte)
+    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0) (TCP/IP e o Modelo OSI Explicado)
+    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM) (Transmissão de Pacote pela Internet. Tutorial de Redes e TCP/IP.)
     - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-    - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL e HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] [Série de Vídeos (21 vídeos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4) (Desmistificando Subnetting (ou subdivisão de redes, ou ainda sub-endereçamento IP))
     - [ ] Sockets:
-        - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
-        - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+        - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s) (Java - Sockets - Introdução - vídeo)
+        - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ) (Programação de Socket - vídeo)
 
 ## System Design, Scalability, Data Handling
 - **You can expect system design questions if you have 4+ years of experience.**

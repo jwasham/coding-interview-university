@@ -92,7 +92,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Redes](#redes)
 - [Design de Sistema, Escalabilidade, Tratamento de Dados](#design-de-sistema-escalabilidade-tratamento-de-dados) (se você tem mais de 4 anos de experiência)
 - [Revisão Final](#revisão-final)
-- [Coding Question Practice](#coding-question-practice)
+- [Prática com Questões de Programação](#prática-com-questões-de-programação)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
 - [Your Resume](#your-resume)

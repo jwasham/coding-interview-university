@@ -1318,45 +1318,45 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 
 ---
 
-## Coding Question Practice
+## Prática com Questões de Programação
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Agora que você sabe todos os temas de Ciência da Computação acima, é hora de praticar respondendo problemas de programação.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Prática com Questõs de Programação não é sobre memorizar respostas para problemas de programação.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+Por que você precisa praticar com problemas de programação:
+- reconhecimento de problemas, e onde as devidas estruturas de dados e algoritmos se encaixam
+- coleta de requerimentos para o problema
+- pensar alto (falar enquanto resolve o problema) assim como você irá fazer em uma entrevista
+- escrever código em um quadro branco ou papel, não no computador
+- encontrar complexidade de espaço e tempo para suas soluções
+- testar suas soluções
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+Tem uma introdução ótima para resolução de problema metódica e comunicativa em uma entrevista. Você vai adquirir isso dos livros de
+entrevista de programação, também, mas eu acho isso aqui excelente:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/) (Quadro de design de algoritmo)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+Não tem quadro branco em casa? Faz sentido. Eu sou um estranho e tenho um grande quadro branco. Ao invés de um quadro branco, pegue um
+grande caderno de desenho de uma loja de arte. Você pode sentar no sofá e praticar. Esse é o meu "sofá de quadrobranco".
+Eu adicionei a caneta na foto para comparação de dimensões. Se você usar uma caneta, você vai desejar que você pudesse apagar. Fica uma bagunça bem rápido.
 
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+ ![meu sofá de quadro branco](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+Suplementar:
 
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
+- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/) (Matemática para Topcoders)
+- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/) (Programação Dinâmica - De Novato a Avançado)
+- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) (Materiais de Entrevista do MIT)
+- [Exercises for getting better at a given language](http://exercism.io/languages) (Exercícios para ficar melhor em uma determinada linguagem)
 
-**Read and Do Programming Problems (in this order):**
+**Leia e Faça os Problemas de Programação (nessa ordem):**
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html) (Entrevistas de Programação Expostas: Segredos para Conseguir Seu Próximo Emprego, 2ª Edição)
+    - respostas em C, C++ e Java
+- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/) (Decifrando a Entrevista de Programação, 6ª Edição)
+    - respostas em Java
 
-See [Book List above](#book-list)
+Veja a [Lista de Livros acima](#lista-de-livros)
 
 ## Coding exercises/challenges
 

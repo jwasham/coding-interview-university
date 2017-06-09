@@ -1153,7 +1153,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ) (Programação de Socket - vídeo)
 
 ## Design de Sistema, Escalabilidade, Tratamento de Dados
-- **Você pode esperar que façam perguntas à respeito de design de sistema se você tem mais de 4 anos de experiência.**
+- **Você pode presumir que façam perguntas à respeito de design de sistema se você tem mais de 4 anos de experiência.**
 - Escalabilidade e Design de Sistema são temas bem grandes com muitos tópicos e recursos, já que
       há muito a se considerar quando se projeta um sistema de software/hardware que pode escalar.
       Se prepare para gastar um bom tempo nisso.

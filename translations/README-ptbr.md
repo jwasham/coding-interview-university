@@ -77,7 +77,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
     - [Padrões de Design](#padrões-de-design)
     - [Combinatórias (n escolhe k) e Probabilidade](#combinatórias-n-escolhe-k-e-probabilidade)
-    - [Algoritmos de Aproximação, NP-Completo e NP](#algoritmos-de-Aproximação-NP---Completo-e-NP)
+    - [Algoritmos de Aproximação, NP-Completo e NP](#algoritmos-de-aproximação-NP-Completo-e-np)
     - [Caches](#caches)
     - [Processos e Threads](#processos-e-threads)
     - [Artigos](#artigos)
@@ -90,7 +90,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Unicode](#unicode)
     - [Extremidade (ordenação) (ou "endianness" em Inglês)](#extremidade-ordenação-ou-endianness-em-inglês)
 - [Redes](#redes)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
+- [Design de Sistema, Escalabilidade, Tratamento de Dados](#design-de-sistema-escalabilidade-tratamento-de-dados) (se você tem mais de 4 anos de experiência)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
@@ -115,7 +115,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Computer Security](#computer-security)
     - [Garbage collection](#garbage-collection)
     - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Envio de Mensagens, Serialização, e Sistemas de Enfileiramento](#envio-de-mensagens-serialização-e-sistemas-de-enfileiramento)
     - [A*](#a)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
@@ -143,7 +143,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Discrete math](#discrete-math)
     - [Machine Learning](#machine-learning)
 - [Detalhes Adicionais Sobre Alguns Assuntos](#detalhes-adicionais-sobre-alguns-assuntos)
-- [Video Series](#video-series)
+- [Séries de Vídeos](#séries-de-vídeos)
 - [Computer Science Courses](#computer-science-courses)
 
 ---
@@ -194,7 +194,7 @@ Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de ta
 Alguns vídeos estão disponíveis somente ao ingressar em um curso no Coursera, EdX, ou Lynda.com. Esses são chamados de MOOCs (Curso Online Aberto e Massivo).
 Às vezes as aulas não estão em sessão, nesse caso você terá que esperar alguns meses, portanto não terá acesso até lá. Os cursos da Lynda.com não são gratuitos.
 
-    Eu agradeceria a ajuda de vocês em adicionar fontes públicas gratuitas e sempre disponíveis, como vídeos do YouTube para acompanhar os vídeos de curso online.
+    Eu agradeceria a ajuda de vocês em adicionar recursos públicos gratuitos que sempre estejam disponíveis, como vídeos do YouTube para acompanhar os vídeos de curso online.
     Eu gosto de usar palestras de universidades;
 
 
@@ -818,7 +818,7 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
         - lista de adjacência
         - mapa de adjacência
     - Famialirize-se com cada representação e seus prós e contras.
-    - Busca em Largura (BFS) e Busca em Profundidade (DFS) - saiba a complexidade computacional deles, suas compensações, e como implementar eles em código real.
+    - Busca em Largura (BFS) e Busca em Profundidade (DFS) - saiba a complexidade computacional deles, seus perde-e-ganhas (tradeoffs), e como implementar eles em código real.
     - Quando for perguntado uma questão, busque por uma solução baseada em grafos primeiro, então se não houver, siga em frente.
 
 - [ ] Aulas do Skiena - ótima introdução:
@@ -948,7 +948,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344) (Capítulo 6 (Parte 1) - Padrões - vídeo)
     - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO) (Capítulo 6 (Parte 2) - Abstração-Ocorrência, Hierarquia Geral, Função-Jogador, Singleton, Observador, Delegação - vídeo)
     - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO) (Capítulo 6 (Parte 3) - Adaptador, Fachada, Imutável, Interface Somente Leitura, Proxy - vídeo )
-    - [ ] [Video series (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07) (Série de vídeos - 27 vídeos)
+    - [ ] [Série de vídeos (27 vídeos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124) (Padrões de Design "Head First" ou "cabeça primeiro" numa tradução literal)
         - Eu sei que o livro canônico é "Design Patterns: Elements of Reusable Object-Oriented Software (Padrões de Design: Elementos de Software Orientado a Objetos reutilizável), mas "Head First" é ótimo para iniciantes em POO.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips) (Referência Útil: 101 Dicas e Padrões de Design para Desenvolvedores)
@@ -1028,7 +1028,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
         - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s) (Entendendo o GIL de Python)
             - [referência](http://www.dabeaz.com/GIL)
         - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4) (David Beazley - Simultaneidade (ou concorrência) Em Python Do Zero: AO VIVO!)
-        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU) (Keynote David Beazley - Tópicos de Interesse - Python Asyncio)
+        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU) (Ideia Central de David Beazley - Tópicos de Interesse - Python Asyncio)
         - [ ] [Mutex em Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 - ### Artigos
@@ -1152,131 +1152,131 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s) (Java - Sockets - Introdução - vídeo)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ) (Programação de Socket - vídeo)
 
-## System Design, Scalability, Data Handling
-- **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this.
-- Considerations:
-    - scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - system design
-        - features sets
+## Design de Sistema, Escalabilidade, Tratamento de Dados
+- **Você pode esperar que façam perguntas à respeito de design de sistema se você tem mais de 4 anos de experiência.**
+- Escalabilidade e Design de Sistema são temas bem grandes com muitos tópicos e recursos, já que
+      há muito a se considerar quando se projeta um sistema de software/hardware que pode escalar.
+      Se prepare para gastar um bom tempo nisso.
+- Considerações:
+    - escalabilidade
+        - Refinar grandes conjuntos de dados para valores únicos
+        - Transformar um conjunto de dados em outro
+        - Tratar quantidades incrivelmente grande de dados
+    - design de sistema
+        - conjuntos de características
         - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer]https://github.com/donnemartin/system-design-primer)
-- [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-- [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
-- [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
-- [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
-- [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
-- [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-- [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
-- [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
-- [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-- [ ] Paxos Consensus algorithm:
-    - [short video](https://www.youtube.com/watch?v=s8JqcZtvnsM)
-    - [extended video with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
-    - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
-- [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
-- [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
-- [ ] Scalability:
-    - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] Short series:
+        - hierarquias de classes
+        - projetar um sistema sob certas restrições
+        - simplicidade e robustez
+        - perde-e-ganhas (tradeoffs)
+        - otimização e análise de desempenho
+- [ ] **COMEÇE AQUI**: [The System Design Primer]https://github.com/donnemartin/system-design-primer) (A Base de Design de Sistema)
+- [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/) (Design de Sistema, por HiredInTech)
+- [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023) (Como Eu Me Preparo Para Responder Questõs De Design De Sistemas Em Uma Entrevista Técnica)
+- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/) (8 Coisas Que Você Precisa Saber Antes De Uma Entrevista De Design De Sistema)
+- [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/) (Design de algoritmo)
+- [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM) (Normalização de Banco de Dados - 1NF, 2NF, 3NF e 4NF - vídeo)
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) (Entrevista de Design de Sistema) - Tem vários recursos nesse aqui. Olhe os artigos e exemplos. Eu coloquei alguns deles abaixo.
+- [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/) (Como tirar de letra um entrevista de design de sistemas)
+- [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/) (Números Que Todos Devem Conhecer)
+- [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html) (Quanto tempo leva para fazer uma troca de contexto?)
+- [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk) (Transações Através de Datacenters - vídeo)
+- [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/) (Uma introdução à Teorema CAP em Inglês simples)
+- [ ] Algoritmo de Consenso de Paxos:
+    - [vídeo curto](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+    - [vídeo mais extenso com exemplos de uso e multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
+    - [artigo](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+- [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html) (Hashing Consistente)
+- [ ] [Padrões de NoSQL](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+- [ ] Escalabilidade:
+    - [ ] [Ótima visão geral (vídeo)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] Série curta:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
-        - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+        - [Banco de Dados](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
         - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
-        - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-    - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
-    - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
-    - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
-        - [extra: Google Pregel Graph Processing](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
-    - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
-    - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
-    - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
-    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
-    - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
+        - [Assincronismo](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+    - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html) (Sistemas Distribuídos e Arquitetura Web Escaláveis)
+    - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf) (Falácias de Computação Distribuída Explicadas)
+    - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html) (Técnicas Pragmáticas de Programação)
+        - [extra: Google Pregel Graph Processing](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html) (extra: Processador de Grafos Pregel da Google)
+    - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI) (Jeff Dean - Construindo Sistemas de Software Na Google e Lições Aprendidas - vídeo)
+    - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/) (Introdução à Arquitetando SIstemas para Escalar)
+    - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc) (Escalando jogos mobile para uma audiência global usando App Engine e Armazenamento de Dados na Nuvem - vídeo)
+    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0) (Como a Google faz Engenharia de Escala-Global para Infraestrutura de Escala Global - vídeo)
+    - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/) (A Importância de Algoritmos)
     - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
-    - [ ] [Scale at Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
-    - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU)
-    - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
-    - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
-        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
-    - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
-    - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
-    - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
-    - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
-    - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
-    - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
-    - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+    - [ ] [Scale at Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook) (Escalabilidade no Facebook - 2009)
+    - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU) (Escalabilidade no Facebook - 2012, "Construindo para Bilhões de Usuários" - vídeo)
+    - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4) (Engenharia à longo prazo - Ideia Central de Astrid Atkinson - vídeo)
+    - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html) (7 Anos de Lições de Escalabilidade do YouTube em 30 minutos)
+        - [vídeo](https://www.youtube.com/watch?v=G-lGCC4KKok)
+    - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html) (Como PayPal Escalou Para BIlhões De Transações Diárias Usando Apenas 8 Máquinas Virtuais)
+    - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/) (Como Remover Duplicatas em Grandes Conjuntos de Dados)
+    - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o) (Uma olhada por dentro da cultura de engenharia e escala da Etsy com Jon Cowie - vídeo)
+    - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/) (O Que Levou a Amazon à ter a Própria Arquitetura de Microserviços)
+    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/) (Comprimir Ou Não Comprimir, Essa Era A Questão Para A Uber)
+    - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html) (Fila Asyncio Tarantool, Entre Na Fila)
+    - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html) (Quando Processamento de Consultas Aproximado Deve Ser Usado?)
+    - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html) (Transição da Google de um Único Datacenter, Para Um Failover (tolerância à falhas), Para Uma Arquitetura Nativa Multihomed (ou Multiconectada))
     - [ ] [Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
-    - [ ] [Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
-    - [ ] [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
-    - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
-    - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
-    - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
-    - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
-    - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
-    - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
-    - [ ] [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
-    - [ ] [Does AMP Counter An Existential Threat To Google?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
-    - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
-    - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
-    - [ ] [Serverless (very long, just need the gist)](http://martinfowler.com/articles/serverless.html)
-    - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
-    - [ ] [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
-    - [ ] [Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
-    - [ ] [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
-    - [ ] [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
-    - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
-    - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
-    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+    - [ ] [Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html) (Arquitetura Egnyte: Lições Aprendidas Ao Construir E Escalar Uma Sistema Distribuído de Múltiplos Petabytes)
+    - [ ] [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html) (Programação Orientada por Aprendizado de Máquina: Uma Nova Programação Para Um Novo Mundo)
+    - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html) (A Tecnologia De Otimização De Imagem Que Atende Milhões de Solicitações Por Dia)
+    - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html) (Arquitetura Patreon Resumida)
+    - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html) (Tinder: Como Um Dos Maiores Motores de Recomendação Decide A Próxima Pessoa Que Você Vai Ver?)
+    - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html) (Design De Um Cache Moderno)
+    - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html) (Stream Ao Vivo Ao Nível De Escala Do Facebook)
+    - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html) (Uma Guia de Iniciante Para Escalar Para Mais De 11 Milhões De Usuários No AWS Da Amazon)
+    - [ ] [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html) (Como O Uso de Docker Afeta Latência?)
+    - [ ] [Does AMP Counter An Existential Threat To Google?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html) (A AMP Contesta Uma Ameaça Existencial à Google?)
+    - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html) (Uma Visão Em 360 Graus De Todo O Stack Da Netflix)
+    - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it) (Latência Está Em Todo Lugar E Ela Te Custa Vendas - Como Acabar Com Ela)
+    - [ ] [Serverless (bem longo, precisa apenas da essência)](http://martinfowler.com/articles/serverless.html) (Sem Servidor)
+    - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances) (O Que Alimenta O Instagram: Centenas de Instâncias, Dezenas de Tecnologias)
+    - [ ] [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html) (Arquitetura Cinchcast - Produzindo 1.500 Horas De Áudio Todo Dia)
+    - [ ] [Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html) (Arquitetura de Transmissão de Vídeo Ao Vivo da Justin.TV)
+    - [ ] [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html) (Arquitetura de Gaming Social da Playfish - 50 Milhões De Usuários Mensais E Crescendo)
+    - [ ] [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html) (Arquitetura do TripAdvisor - 40M visitantes, 200M Visualizações de Páginas Dinâmicas, 30TB de Dados)
+    - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture) (Arquitetura do PlentyOfFish)
+    - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) (Arquitetura do Salesforce - Como Eles Lidam Com 1,3 Bilhões de Transações Por Dia)
+    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html) (Arquitetura da ESPN em Escala - Operando a 100.000 Duh Nuh Nuhs Por Segundo)
+    - [ ] Veja a seção "Envio de Mensagens, Serialização, e Sistemas de Enfileiramento" bem abaixo para informações sobre algumas das tecnologias que podem "colar" serviços juntos
     - [ ] Twitter:
-        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
-        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the Video Series section.
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
-    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - define the use cases, with interviewer's help
-            - suggest additional features
-            - remove items that interviewer deems out of scope
-            - assume high availability is required, add as a use case
-        2. Think about constraints:
-            - ask how many requests per month
-            - ask how many requests per second (they may volunteer it or make you do the math)
-            - estimate reads vs. writes percentage
-            - keep 80/20 rule in mind when estimating
-            - how much data written per second
-            - total storage required over 5 years
-            - how much data read per second
-        3. Abstract design:
-            - layers (service, data, caching)
-            - infrastructure: load balancing, messaging
-            - rough overview of any key algorithm that drives the service
-            - consider bottlenecks and determine solutions
-    - Exercises:
-        - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
-        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
-        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
-        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
-        - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
+        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI) (O'Reilly MySQL CE 2011: Jeremy Cole, "Dados Grandes e Pequenos no @Twitter" - vídeo)
+        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability) (Linhas de Tempo em Escala)
+    - Para ainda mais informações, veja a série de vídeos "Minerando Conjuntos de Dados Massivos" na seção de [Séries de Vídeos](#séries-de-vídeos).
+- [ ] Praticando o processo de design de sistema: Aqui estão algumas ideias para tentar trabalhar no papel, cada uma com documentação sobre como ela foi tratada no mundo real:
+    - revisão: [The System Design Primer](https://github.com/donnemartin/system-design-primer) (A Base de Design de Sistema)
+    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/) (Design de Sistema, por HiredInTech)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf) (folha de consultas)
+    - fluxo:
+        1. Compreenda o problema e seu escopo:
+            - defina os casos de uso, com a ajuda do entrevistador
+            - sugira funcionalidades adicionais
+            - remova itens que o entrevistador considera fora de escopo
+            - assuma que alta disponibilidade é requisitada, adicione como um caso de uso
+        2. Pense sobre as restrições:
+            - pergunte quantas solicitações por mês
+            - pergunte quantas solicitações por segundo (eles podem se voluntariar para essa ou estimular você a fazer os cálculos)
+            - estime a percentagem de leituras vs. escritas
+            - tenha a regra 80/20 em mente quando estiver estimando
+            - quantos dados escritos por segundo
+            - armazenamento total necessário para 5 anos
+            - quantos dados lidos por segundo
+        3. Design abstrato:
+            - camadas (serviço, dados, caching)
+            - infraestrutura: balanço de carga, envio de mensagens
+            - breve descrição de qualquer algoritmo chave que movimenta o serviço
+            - considere possíveis gargalos (bottleneck) e determine soluções
+    - Exercícios:
+        - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci) (Projete uma rede CDN: artigo antigo)
+        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake) (Projete um sistema de geração IDs únicos aleatórios)
+        - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html) (Projete um jogo de cartas de multijogadores online)
+        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis) (Projete um banco de dados de chave-valor)
+        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html) (Projete um sistema de compartilhamento de fotos)
+        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf) (Projete um sistema de recomendação)
+        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/) (Projete um sistema de encurtador de URL: copiado de cima)
+        - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/) (Projete um sistema de cache)
 
 ---
 
@@ -1582,7 +1582,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
+- ### Envio de Mensagens, Serialização, e Sistemas de Enfileiramento
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1872,7 +1872,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## Séries de Vídeos
 
 Sit back and enjoy. "Netflix and skill" :P
 
@@ -1932,7 +1932,7 @@ Sit back and enjoy. "Netflix and skill" :P
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
 
-- [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
+- [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV) (Minerando Conjuntos de Dados Massivos - Universidade de Stanford - 94 vídeos)
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 

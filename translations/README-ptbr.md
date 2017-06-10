@@ -93,16 +93,16 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Design de Sistema, Escalabilidade, Tratamento de Dados](#design-de-sistema-escalabilidade-tratamento-de-dados) (se você tem mais de 4 anos de experiência)
 - [Revisão Final](#revisão-final)
 - [Prática com Questões de Programação](#prática-com-questões-de-programação)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Exercícios/desafios de programação](#exercíciosdesafios-de-programação)
+- [Quando a entrevista estiver se aproximando](#quando-a-entrevista-estiver-se-aproximando)
+- [Seu Currículo](#seu-currículo)
+- [Esteja pensando à respeito para quando a entrevista chegar](#esteja-pensando-à-respeito-para-quando-a-entrevista-chegar)
+- [Tenha questões para o entrevistador](#tenha-questões-para-o-entrevistador)
+- [Quando Você Conseguir O Trabalho](#quando-você-conseguir-o-trabalho)
 
 ---------------- Tudo abaixo é opcional ----------------
 
-- [Additional Books](#additional-books)
+- [Livros Adicionais](#livros-adicionais)
 - [Additional Learning](#additional-learning)
     - [Compilers](#compilers)
     - [Emacs and vi(m)](#emacs-and-vim)
@@ -1337,7 +1337,7 @@ entrevista de programação, também, mas eu acho isso aqui excelente:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/) (Quadro de design de algoritmo)
 
 Não tem quadro branco em casa? Faz sentido. Eu sou um estranho e tenho um grande quadro branco. Ao invés de um quadro branco, pegue um
-grande caderno de desenho de uma loja de arte. Você pode sentar no sofá e praticar. Esse é o meu "sofá de quadrobranco".
+grande caderno de desenho de uma loja de arte. Você pode sentar no sofá e praticar. Esse é o meu "sofá de quadro branco".
 Eu adicionei a caneta na foto para comparação de dimensões. Se você usar uma caneta, você vai desejar que você pudesse apagar. Fica uma bagunça bem rápido.
 
  ![meu sofá de quadro branco](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
@@ -1358,22 +1358,22 @@ Suplementar:
 
 Veja a [Lista de Livros acima](#lista-de-livros)
 
-## Coding exercises/challenges
+## Exercícios/desafios de programação
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Depois que você enche o cérebro com novos aprendizados, é hora de botar ele para trabalhar.
+Faça desafios de programação todo dia, o máximo que você puder.
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/) (Como Encontrar Uma Solução)
+- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/) (Como Dissecar Uma Declaração em um Problema do TopCoder)
 
-Coding Interview Question Videos:
-- [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+Vídeos de Questões de Entrevista de Programação:
+- [IDeserve (88 vídeos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
 
-Challenge sites:
+Websites de desafios:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
+- [Project Euler (focado em matemática)](https://projecteuler.net/index.php?section=problems)
 - [Codewars](http://www.codewars.com)
 - [HackerEarth](https://www.hackerearth.com/)
 - [HackerRank](https://www.hackerrank.com/)
@@ -1383,92 +1383,92 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
-Challenge repos:
-- [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
+Repositórios de desafios:
+- [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges) (Desafios Interativos de Entrevista de Programação em Python)
 
-Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
-- [Refdash: Mock interviews](https://refdash.com/)
+Entrevistas Simuladas:
+- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/)
+- [Pramp: Entrevistas simuladas com colegas](https://www.pramp.com/)
+- [Refdash: Entrevistas simuladas](https://refdash.com/)
 
-## Once you're closer to the interview
+## Quando a entrevista estiver se aproximando
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
-    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
-    - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
+- [ ] Decifrando A Entrevista De Programação Série 2 (vídeos):
+    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo) (Decifrando A Entrevista De Programação)
+    - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo) (Decifrando A Entrevista De Programação - Série Palestrantes Fullstack)
 
-## Your Resume
+## Seu Currículo
 
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- Veja itens sobre preparo de currículo em "Cracking The Coding Interview" (Decifrando A Entrevista De Programação) e atrás do livro "Programming Interviews Exposed" (Entrevistas de Programação Expostas)
 
 
-## Be thinking of for when the interview comes
+## Esteja pensando à respeito para quando a entrevista chegar
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Pense em 20 questões da entrevista que você vai ter, seguindo a linha de raciocínio dos itens abaixo. Tenha 2-3 respostas para cada.
+Tenha uma história, não apenas dados, sobre algo que você realizou.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Por que você quer esse trabalho?
+- Qual um problema difícil que você tenha resolvido?
+- Maiores desafios enfrentados?
+- Melhores/piores designs que você já viu?
+- Ideias para melhorar um produto existente.
+- Como você trabalha melhor, como um indivíduo e como parte de uma equipe?
+- Quais das suas habilidades ou experiências seriam recursos úteis na função e por quê?
+- O que você mais gostou no [trabalho x / projeto y]?
+- Qual foi o maior desafio que você enfrentou no [trabalho x / projeto y]?
+- Qual foi o bug mais difícil que você enfrentou no [trabalho x / projeto y]?
+- O que você aprendeu no [trabalho x / projeto y]?
+- O que você teria feito melhor no [trabalho x / projeto y]?
 
-## Have questions for the interviewer
+## Tenha questões para o entrevistador
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Algumas das minhas (eu posso já saber a resposta, mas o quero a opinião deles ou a perspectiva da equipe):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- Quão grande é sua equipe?
+- Como é o seu ciclo de desenvolvimento? Você trabalha com modelo em cascata (waterfall)/sprints/método ágil (agile)?
+- Correrias por causa de prazos são comuns? Ou tem flexibilidade?
+- Como as decisões são tomadas na sua equipe?
+- Quantas reuniões você tem por semana?
+- Você sente que o seu ambiente de trabalho te ajuda a se concentrar?
+- No que você está trabalhando?
+- O que você gosta a respeito desse trabalho?
+- Como é o balanço vida-trabalho?
 
-## Once You've Got The Job
+## Quando Você Conseguir O Trabalho
 
-Congratulations!
+Parabéns!
 
-Keep learning.
+Continue aprendendo.
 
-You're never really done.
-
----
-
-    *****************************************************************************************************
-    *****************************************************************************************************
-
-    Everything below this point is optional.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
-    *****************************************************************************************************
-    *****************************************************************************************************
+Você nunca para.
 
 ---
 
-## Additional Books
+    *****************************************************************************************************
+    *****************************************************************************************************
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
-- [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - a modern option
-- [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
-- [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
-- [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - aka the "Gang Of Four" book, or GOF
-    - the canonical design patterns book
-- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
+    Tudo abaixo deste ponto é opcional.
+    Ao estudar o que vem a seguir, você vai ter maior exposição a mais conceitos de Ciência da Computação, e está mais bem preparado para 
+    qualquer trabalho de engenharia de software. Você será um engenheiro de software muito mais completo.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---
+
+## Livros Adicionais
+
+- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info) (O Ambiente De Programação Unix)
+    - velho, mas ótimo
+- [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/) (A Linha De Comando do Linux: Uma Introdução Completa)
+    - uma opção moderna
+- [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated) (Série TCP/IP Ilustrado)
+- [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/) (Padrões de Design "Head First")
+    - uma introdução gentil a padrões de design
+- [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) (Padrões de Design: Elementos de Software Orientado a Objetos Reutilizável)
+    - também conhecido como o livro "Gang Of Four" (ou GOF, em Português Gangue Dos Quatro)
+    - o livro de padrões de design canônico
+- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/) (Manual de Administração de Sistema do UNIX e Linux, 4ª Edição)
 
 ## Additional Learning
 

@@ -1440,7 +1440,7 @@ Parabéns!
 
 Continue aprendendo.
 
-Você nunca para.
+O aprendizado nunca para.
 
 ---
 

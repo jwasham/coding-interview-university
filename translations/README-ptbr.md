@@ -1522,7 +1522,7 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through) (Projeto = Passo a Passo de Geração de Texto Markov)
     - Veja mais em MIT 6.050J Série: Informação e Entropia abaixo.
 
-- ### Paridade e Código de Hamming
+- ### Paridade e Código de Hamming (vídeos)
     - [ ] [Introdução](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [Paridade](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - [ ] Código de Hamming:

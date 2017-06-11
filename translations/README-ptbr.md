@@ -801,7 +801,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort) (Radix Sort)
     - [ ] [Radix Sort (vídeo)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Radix Sort, Ordenação por Contagem (tempo linear dadas restrições))
-    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Aleatorização: Multiplicação de Matriz, Quicksort, Algoritmo de Freivalds - vídeo)
+    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Randomização: Multiplicação de Matriz, Quicksort, Algoritmo de Freivalds - vídeo)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14) (Ordenando em Tempo Linear - vídeo)
 
 Como um resumo, aqui está uma representação visual de [15 algoritmos de ordenação](https://www.youtube.com/watch?v=kPRA0W1kECg).
@@ -836,7 +836,7 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
     - [ ] [6.006 Bellman-Ford (vídeo)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
     - [ ] [6.006 Speeding Up Dijkstra (video)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18) (6.006 acelerando Dijkstra - vídeo)
     - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (video)](https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm) (Aduni: Algoritmos de Grafos I - Ordenação Topológica, Árvores de Extensão Mínima, Algoritmo de Prim - Aula 6 - vídeo)
-    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7) (Aduni: Algoritmos de Grafos II - Busca em Profundidade (DFS), Busca em Largura (BFS), Algoritmo de Kruskal, Estrutura de Dados Union-Find - Aula 7 - vídeo)
+    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union-find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7) (Aduni: Algoritmos de Grafos II - Busca em Profundidade (DFS), Busca em Largura (BFS), Algoritmo de Kruskal, Estrutura de Dados Union-Find - Aula 7 - vídeo)
     - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8) (Aduni: Algoritmos de Grafos III: Menor Caminhno - Aula 8 - vídeo)
     - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9) (Algoritmos de Grafos IV: Introdução à algoritmos geométricos - Aual 9 - vídeo)
     - [ ] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489) (CS 61B 2014 (começando em 58:09) - vídeo)
@@ -1734,69 +1734,69 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
     - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk) (Árvores k-D - vídeo)
     - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg) (Algoritmo de árvore kNN K-d - vídeo)
 
-- ### Skip lists
-    - "These are somewhat of a cult data structure" - Skiena
-    - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
+- ### Skiplists
+    - "Essas são meio que estruturas de dados de um culto" - Skiena
+    - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Randomização: Skiplists - vídeo)
+    - [ ] [Para animações e um pouco mais de detalhes](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Network Flows
-    - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+- ### Fluxos de Rede
+    - [ ] [Ford-Fulkerson in 5 minutes — Step by step example (vídeo)](https://www.youtube.com/watch?v=Tl90tNtKvxs) (Ford-Fulkerson em 5 minutos - Exemplo com passo a passo - vídeo)
+    - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0) (Algoritmo de Ford-Fulkerson)
+    - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI) (Fluxos de Rede - vídeo)
 
-- ### Disjoint Sets & Union Find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
+- ### Conjuntos Disjuntos e Union-find
+    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21) (UCB 61B - Conjuntos Disjuntos; Ordenação e seleção - vídeo)
+    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t) (Algoritmos de Sedgewick - Union-find - 6 vídeos)
 
-- ### Math for Fast Processing
-    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+- ### Matemática para Processamento Rápido
+    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Aritmética de Números Inteiros, Multiplicação de Karatsuba - vídeo)
+    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg) (O Teorema Chinês do Resto)
 
 - ### Treap
-    - Combination of a binary search tree and a heap
+    - Combinação de árvore binária de busca e um heap (memória dinâmica)
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
-    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
-    - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
+    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8) (Estruturas de Dados: Treaps explicadas - vídeo)
+    - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf) (Aplicações em Operações de Conjunto)
 
-- ### Linear Programming (videos)
-    - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
-    - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
-    - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
-    - [ ] [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
+- ### Programação Linear (vídeos)
+    - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ) (Programação Linear)
+    - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U) (Encontrando custo mínimo)
+    - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik) (Encontrando valor máximo)
+    - [ ] [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk) (Resolva Equações Lineares com Python - Algoritmo Simplex)
 
-- ### Geometry, Convex hull (videos)
-    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
-    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+- ### Geometria, Envoltória convexa (vídeos)
+    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164) (Algoritmos de Gráfico IV: Introdução a algoritmos geométricos - Aula 9)
+    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm) (Algoritmos Geométricos: Graham e Jarvis - Aula 10)
+    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2) (Dividir e Conquistar: Envoltória Convexa, Busca de Ponto Médio)
 
-- ### Discrete math
-    - see videos below
+- ### Matemática discreta
+    - veja os vídeos abaixo
 
-- ### Machine Learning
-    - [ ] Why ML?
-        - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
-        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
-        - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
-    - [ ] [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
-    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
-    - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
-    - [ ] [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses:
-        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
-        - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
-        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
-        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
-        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
-        - Books:
-            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
-            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
-            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
-        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+- ### Aprendizado de Máquina
+    - [ ] Por que AM?
+        - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70) (Como A Google Está Se Refazendo Como Uma Empresa Pioneira Em Aprendizado de Máquina)
+        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY) (Aprendizagem Profunda de Grande Escala para Sistemas de Computador Inteligentes - vídeo)
+        - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw) (Aprendizagem Profunda e Compreensibilidade versus Engenharia de Software e Verificação, por Peter Norvig)
+    - [ ] [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0) (Ferramentas de aprendizado de máquina na nuvem da Google - vídeo)
+    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal) (Receitas de Aprendizado de Máquina do Google Developers (Scikit Learn e Tensorflow) - vídeo)
+    - [ ] [Tensorflow (vídeo)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html) (Tutoriais de Tensorflow)
+    - [ ] [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/) (Guia Prática para implementar Redeus Neurais em Python - usando Theano)
+    - Cursos:
+        - [Ótimo curso iniciante: Aprendizado de Máquina](https://www.coursera.org/learn/machine-learning) 
+              - [somente vídeos](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - veja os vídeos 12-18 para uma revisão de algebra linear (14 e 15 são duplicados)
+        - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks) (Redes Neurais para Aprendizado de Máquina)
+        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730) (Nanodegree de Aprendizagem Profunda da Google)
+        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009) (Nanodegree de Engenheiro de Aprendizado de Máquina da Google/Kaggle)
+        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive) (Nanodegree de Engenheiro de Carro Autônomo)
+        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science) (Curso Online do Metis - US$99 por 2 meses)
+    - Recursos:
+        - Livros:
+            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/) (Aprendizado de Máquina em Python)
+            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X) (Ciência de Dados do Zero: Primeiros Princípios com Python)
+            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/) (Introdução a Aprendizado de Máquina com Python)
+        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) (Aprendizado de Máquina para Engenheiros de Software)
         - Data School: http://www.dataschool.io/
 
 --

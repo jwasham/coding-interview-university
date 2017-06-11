@@ -124,7 +124,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [van Emde Boas Trees](#van-emde-boas-trees)
     - [Augmented Data Structures](#augmented-data-structures)
     - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Árvores balanceadas de busca](#Árvores-balanceadas-de-busca)
+    - [Árvores de busca balanceadas](#Árvores-de-busca-balanceadas)
         - AVL trees
         - Splay trees
         - Red/black trees
@@ -1298,7 +1298,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
     - [ ] [07. Priority Queues](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5) (Filas Prioritárias)
     - [ ] [08. Elementary Symbol Tables](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG) (Tabelas de Símbolos Elementares)
-    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu) (Árvores Balanceadas de Busca)
+    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu) (Árvores de Busca Balanceadas)
     - [ ] [10. Geometric Applications of BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx) (Aplicações Geométricas de Árvores de Busca Balanceada)
     - [ ] [11. Hash Tables](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11) (Tabelas Hash)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50) (Vídeos de Sedgewick - Algoritmos II)
@@ -1637,102 +1637,102 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
 - ### Estruturas de Dados Incrementadas
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950) (CS 61B Aula 39: Incrementando Estruturas de Dados)
 
-- ### Árvores balanceadas de busca
+- ### Árvores de busca balanceadas
     - Saiba pelo menos um tipo de árvore binária balanceada (e saiba como ela é implementada):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-        to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code.
-        - splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets.
-    - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+    - "Entre as Árvores de Busca Balanceadas, AVL e árvore 2/3 agora são passado, e árvores red-black (rubro-negras) parecem mais populares.
+        Uma estrutura de dados auto-organizada particularmente interessante é a árvore splay, a qual usa rotações
+        para mover qualquer chave acessada para a raiz."
+    - Dessas, eu escolhi implementar a árvore splay. Com base no que eu li, você não vai implementar uma
+        árvore de busca balanceada na sua entrevista. Mas eu queria uma certa exposição à programação de uma dessas árvoes
+        e convenhamos, árvores splay são muito legais. Eu li muito código de árvores rubro-negras.
+        - árvore splay: funções de inserir, buscar e deletar
+        Se você acabar implementando uma árvore rubro-negra, tente apenas essas:
+        - funções de busca e inserção, pulando a função de deletar
+    - Eu quero aprender mais sobre a Árvore B, já que ela é amplamente usada com enormes conjuntos de dados.
+    - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree) (Árvore binária de busca auto-balanceada)
 
-    - [ ] **AVL trees**
-        - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
-            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-            attractive for data structures that may be built once and loaded without reconstruction, such as language
-            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
-        - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+    - [ ] **Árvores AVL**
+        - Ná prática:
+            Pelo que eu vejo, essas não são muito usadas na prática, mas eu consigo ver onde elas seriam usadas:
+            Á arvore AVL é outra estrutura que dá suporte a remoção, inserção e busca O(log n). Ela é mais rigidamente
+            balanceada que as árvores rubro-negras, levando à inserções e remoções mais lentas, mas uma recuperação mais rápida. Isso faz dela
+            um atrativo para estruturas de dados que podem ser construídas uma vez e carregadas sem reconstrução, assim como os dicionários de
+            linguagem (ou dicionários de programas, como os opcodes de um montador (assembler) ou interpretador).
+        - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6) (Árvores AVL / Ordenação AVL, pelo MIT - vídeo)
+        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees) (Árvores AVl - vídeo)
+        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation) (Implementação de Árvores AVL - vídeo)
+        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge) (Dividir e Fundir)
 
-    - [ ] **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking and file system code) etc.
-        - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
-        - [ ] MIT Lecture: Splay Trees:
-            - Gets very mathy, but watch the last 10 minutes for sure.
-            - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
+    - [ ] **Árvores Splay**
+        - Ná prática:
+            Árvores splay são normalmente usadas na implementação de caches, alocadores de memória, roteadores, coletores de lixo,
+            compressão de dados, cordas (ou "ropes" no Inglês, que é uma estrutura de dados) (substituição de string usada para longas strings de texto), no Windows NT (em código de memória virtual,
+            rede e sistema de arquivos) etc.
+        - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd) (CS 61B: Árvores Splay - vídeo)
+        - [ ] Aula do MIT: Árvores Splay:
+            - Fica bem intenso matematicamente, mas com certeza assista aos 10 últimos minutos.
+            - [Vídeo](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
-    - [ ] **Red/black trees**
-        - these are a translation of a 2-3 tree (see below)
-        - In practice:
-            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-            Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
-            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-            hashcodes, a Red-Black tree is used.
-        - [ ] [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
-        - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
-        - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+    - [ ] **Árvores Rubro-Negras**
+        - essas são uma tradução de uma árvore 2-3 (veja abaixo)
+        - Ná prática:
+            Árvores rubro-negras oferecem garantias de pior-caso para tempo de inserção, tempo de exclusão e tempo de busca.
+            Isso não só faz elas serem úteis em aplicações que sejam sensíveis ao tempo como aplicações que funcionam em tempo real,
+            mas isso faz elas serem úteis também em construir blocos para outras estruturas de dados, o que proporciona garantias de pior-caso;
+            por exemplo, muitas estruturas de dados usadas em geometria computacional podem ser baseadas em árvores rubro-negras, e
+            o Agendador Completamente Justo (Completely Fair Scheduler - CFS) usado em kernels de Linux atuais, usa as árvores rubro-negras.. Na versão 8 do Java,,
+            a Coleção HashMap foi modificada para usar uma árvore rubro-negra ao invés de usar uma ListaLigada para
+            armazenar elementos idênticos com hashcodes fracos.
+        - [ ] [Aduni - Algorithms - Lecture 4 (o link pula para o ponto de início) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871) (Aduni - Algoritmos - Aula 4 - vídeo)
+        - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5) (Aduni - Algoritmos - Aula 5 - vídeo)
+        - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree) (Árvore Rubro-Negra)
+        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/) (Uma Introdução a Busca Binária E Árvore Rubro-Negra)
 
-    - [ ] **2-3 search trees**
-        - In practice:
-            2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
-        - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
-        - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
-        - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] **Árvores de busca 2-3**
+        - Ná prática:
+            árvores 2-3 tem inserções mais rápidas ao custo de buscas mais lentas (já que a altura é mais comparado às árvores AVL).
+        - Você raramente usaria árvore 2-3 porque a sua implementação envolve diferentes tipos de nós (nodes). Ao invés da árvore 2-3, as pessoas usam as árvores rubro-negras.
+        - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2) (Definição e Intuição da Árvore 2-3 - vídeo)
+        - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) (Vista Binária da Árvore 2-3)
+        - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Árvores 2-3 (recitação de estudante) - vídeo)
 
-    - [ ] **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
-        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
-        - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+    - [ ] **Árvores 2-3-4 (também conhecidas como árvores 2-4)**
+        - Ná prática:
+            Para cada árvores 2-4, existem árvores rubro-negras correspondentes com elementos de dados na mesma ordem. As operações de inserção e
+            exclusão nas árvores 2-4 são também equivalentes ao color-flipping (numa tradução livre, troca-de-cor) e às rotações nas árvores rubro-negras.  Isso torna as árvores 2-4 uma
+            ferramenta importante para compreender a lógica por trás das árvores rubro-negras, e é por isso que muitos textos de introdução a algoritmos introduzem
+            árvores 2-4 logo antes das árvores rubro-negras, mesmo que as **árvores 2-4 não são usadas frequentemente na prática**.
+        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C) (CS 61B Aula 26: Árvores de Busca Balanceada) - vídeo
+        - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) (Árvores 2-3-4 Descendentes - vídeo)
+        - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5) (Árvores 2-3-4 Ascendentes) - vídeo
 
-    - [ ] **N-ary (K-ary, M-ary) trees**
-        - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
-        - 2-3 trees are 3-ary
-        - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+    - [ ] **Árvores N-ary (K-ary, M-ary)**
+        - nota: o N ou K é o fator ramificador (máximo de ramificações)
+        - árvores binárias são uma árvore 2-ary, com um fator de ramificação = 2
+        - árvores 2-3 são 3-ary
+        - [ ] [Árvore K-Ary](https://en.wikipedia.org/wiki/K-ary_tree)
 
-    - [ ] **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address.
-        - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
-        - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
-        - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - covers cache-oblivious B-Trees, very interesting data structures
-                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+    - [ ] **Árvores B**
+        - curuiosidade: é um mistério, mas o B pode se referir a Boeing, Balanceado ou Bayber (co-inventor)
+        - Ná prática:
+            Árvores B são amplamente usadas em bancos de dados. A maioria dos sistemas de arquivos modernos usam árvores B (ou variantes). Além do
+            seu uso em bancos de dados, ás arvores B são também usadas em sistemas de arquivos para permitir acesso aleatório rápido para um bloco
+            arbitrário em um arquivo particular. O problema básico é tornar o endereço de bloco de arquivo em um endereço de bloco de disco
+            (ou talvez em um cilindro-cabeça-setor, do Inglês Cylinder-Head-Sector - CHS).
+        - [ ] [Árvore B](https://en.wikipedia.org/wiki/B-tree)
+        - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6) (Introdução a Árvore B - vídeo)
+        - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) (Definição e Inserção de Árvore B - vídeo)
+        - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) (Exclusão de Árvore B - vídeo)
+        - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) (MIT 6.851 - Modelos de Hierarquia de Memória - vídeo)
+                - cobre Árvores B de cache-alheio (do Inglês, cache-oblivious), estruturas de dados muito interessantes
+                - os primeiros 37 minutos são bem técnicos, pode ser pulado (B é tamanho de bloco, tamanho de linha de cache)
 
 
-- ### k-D Trees
-    - great for finding number of points in a rectangle or higher dimension object
-    - a good fit for k-nearest neighbors
-    - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
-    - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+- ### Árvores k-D
+    - ótimo para encontrar número de pontos em um retângulo ou objeto de maior dimensão
+    - um bom encaixe para vizinhos mais próximos de k
+    - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk) (Árvores k-D - vídeo)
+    - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg) (Algoritmo de árvore kNN K-d - vídeo)
 
 - ### Skip lists
     - "These are somewhat of a cult data structure" - Skiena

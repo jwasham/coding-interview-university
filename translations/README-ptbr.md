@@ -103,45 +103,44 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 ---------------- Tudo abaixo é opcional ----------------
 
 - [Livros Adicionais](#livros-adicionais)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
+- [Aprendizagem Adicional](#aprendizagem-adicional)
+    - [Compiladores](#compiladores)
+    - [Emacs e vi(m)](#emacs-e-vim)
+    - [Ferramentas de linha de comando do Unix](#ferramentas-de-linha-de-comando-do-unix)
+    - [Teoria da informação](#teoria-da-informação-vídeos)
+    - [Paridade e Código de Hamming](#paridade-e-código-de-hamming-vídeos)
+    - [Entropia](#entropia)
+    - [Criptografia](#criptografia)
+    - [Compressão](#compressão)
+    - [Segurança de Computador](#segurança-de-computador)
+    - [Coleta de lixo](#coleta-de-lixo)
+    - [Programação Paralela](#programação-paralela)
     - [Envio de Mensagens, Serialização, e Sistemas de Enfileiramento](#envio-de-mensagens-serialização-e-sistemas-de-enfileiramento)
     - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [Transformada de Fourier Rápida](#transformada-de-fourier-rápida)
+    - [Filtro de Bloom](#filtro-de-bloom)
     - [HyperLogLog](#hyperloglog)
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
+    - [Árvores de van Emde Boas](#Árvores-de-van-emde-boas)
+    - [Estruturas de Dados Incrementadas](#estruturas-de-dados-incrementadas)
     - [Árvores de busca balanceadas](#Árvores-de-busca-balanceadas)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+        - Árvores AVL
+        - Árvores Splay
+        - Árvores rubro-negras
+        - Árvores de busca 2-3
+        - Árvores 2-3-4 (também conhecidas como árvores 2-4)
+        - Árvores N-ary (K-ary, M-ary)
+        - Árvores B
+    - [Árvores k-D](#Árvores-k-d)
+    - [Skiplists](#skiplists)
+    - [Fluxos de Rede](#fluxos-de-rede)
+    - [Conjuntos Disjuntos e Union-find](#conjuntos-disjuntos-e-union-find)
+    - [Matemática para Processamento Rápido](#matemática-para-processamento-rápido)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
+    - [Programação Linear](#programação-linear-vídeos)
+    - [Geometria, Envoltória convexa](#geometria-envoltória-convexa-vídeos)
+    - [Matemática discreta](#matemática-discreta)
+    - [Aprendizado de Máquina](#aprendizado-de-máquina)
 - [Detalhes Adicionais Sobre Alguns Assuntos](#detalhes-adicionais-sobre-alguns-assuntos)
 - [Séries de Vídeos](#séries-de-vídeos)
 - [Computer Science Courses](#computer-science-courses)
@@ -1470,7 +1469,7 @@ O aprendizado nunca para.
     - o livro de padrões de design canônico
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/) (Manual de Administração de Sistema do UNIX e Linux, 4ª Edição)
 
-## Aprendizado Adicional
+## Aprendizagem Adicional
 
 Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicionei eles para ajudar você a se tornar um engenheiro de software mais completo, e para você ficar ciente de certas tecnologias e algoritmos, assim você terá mais ferramentas a disposição.
 
@@ -1501,7 +1500,7 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs) (Escrevendo Programas Em C Com Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk) ((talvez) Análise Profunda do Modo Org: Gerenciando Estrutura - vídeo)
 
-- ### Ferramentas da linha de comando do Unix
+- ### Ferramentas de linha de comando do Unix
     - Eu preenchi a lista abaixo com boas ferramentas.
     - [ ] bash
     - [ ] cat
@@ -1608,7 +1607,7 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
     - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE) (Tutorial de Busca de Caminho com A* - vídeo)
     - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE) (Busca de Caminho com A* (E01 - explicação do algoritmo) - vídeo)
 
-- ### Transformar de Fourier Rápida
+- ### Transformada de Fourier Rápida
     - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/) (Uma Guia Interativa Para A Transformada de Fourier)
     - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/) (O que é a Transformada de Fourier? Para o quê ela é usada?)
     - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q) (O que é a Transformada de Fourier? - vídeo)
@@ -1630,7 +1629,7 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
     - o oposto de MD5 ou SHA, os quais são usados para determinar se 2 documentos/strings são exatamente o mesmo.
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html) (Simhashing (supostamente) simplificado)
 
-- ### van Emde Boas Trees
+- ### Árvores de van Emde Boas
     - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6) (Dividir e Conquistar: Árvores van Emde Boas - vídeo)
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf) (Anotações de Aula do MIT)
 

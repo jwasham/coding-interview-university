@@ -49,7 +49,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Listas Ligadas](#listas-ligadas)
     - [Stack](#stack)
     - [Queue (Fila)](#queue-fila)
-    - [Tabela hash (no português: Tabela de dispersão)](#tabela-hash-no-português-tabela-de-dispersão)
+    - [Tabela hash](#tabela-hash)
 - [Mais Conhecimento](#mais-conhecimento)
     - [Busca binária](#busca-binária)
     - [Lógica binária](#lógica-binária)
@@ -77,7 +77,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
     - [Padrões de Design](#padrões-de-design)
     - [Combinatórias (n escolhe k) e Probabilidade](#combinatórias-n-escolhe-k-e-probabilidade)
-    - [Algoritmos de Aproximação, NP-Completo e NP](#algoritmos-de-aproximação-NP-Completo-e-np)
+    - [Algoritmos de Aproximação, NP-Completo e NP](#algoritmos-de-aproximação-np-completo-e-np)
     - [Caches](#caches)
     - [Processos e Threads](#processos-e-threads)
     - [Artigos](#artigos)
@@ -143,7 +143,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Aprendizado de Máquina](#aprendizado-de-máquina)
 - [Detalhes Adicionais Sobre Alguns Assuntos](#detalhes-adicionais-sobre-alguns-assuntos)
 - [Séries de Vídeos](#séries-de-vídeos)
-- [Computer Science Courses](#computer-science-courses)
+- [Cursos de Ciência da Computação](#cursos-de-ciência-da-computação)
 
 ---
 
@@ -583,7 +583,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - dequeue: O(1) (lista ligada e array)
         - empty (vazio): O(1) (lista ligada e array)
 
-- ### Tabela hash (no português: Tabela de dispersão)
+- ### Tabela hash
     - [ ] vídeos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8) (Hashing com Encadeamento - vídeo)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Duplicação de Tabela, Karp-Rabin - vídeo)

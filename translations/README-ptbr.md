@@ -267,14 +267,14 @@ Se estiver com pouco tempo:
     - O autor inventou HLA (High-level Assembly ou, no português, Assembly de alto nível), então considere as menções e exemplos em HLA com cautela. Não é usado amplamente, mas contém exemplos decentes de como o assembly funciona.
     - Esses capítulos valem a pena serem lidos para lhe dar uma boa base:
         - Chapter 2 - Numeric Representation (Capítulo 2 - Representação Numérica)
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization 
+        - Chapter 3 - Binary Arithmetic and Bit Operations (Capítulo 3 - Aritmética Binária e Operações Bit)
+        - Chapter 4 - Floating-Point Representation (Representação em Ponto Flutuante)
+        - Chapter 5 - Character Representation (Representação de Caractere)
+        - Chapter 6 - Memory Organization and Access (Organização e Acesso de Memória)
+        - Chapter 7 - Composite Data Types and Memory Objects (Tipos de Dados Compostos e Objetos de Memória)
+        - Chapter 9 - CPU Architecture (Arquitetura de CPU)
+        - Chapter 10 - Instruction Set Architecture (Arquitetura de Conjunto de Instruções)
+        - Chapter 11 - Memory Architecture and Organization (Arquitetura de Memória e Organização) 
 
 Se você tem mais tempo (eu quero esse livro):
 
@@ -317,7 +317,7 @@ OU:
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/) (Estrutura de Dados e Algoritmos em Python)
     - por Goodrich, Tamassia, Goldwasser
-    - Eu adorei esse livro. Ele cobriu tudo e mais.
+    - Eu adorei esse livro. Ele cobriu tudo e muito mais.
     - Código pythonico.
     - meu brilhante resumo: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 

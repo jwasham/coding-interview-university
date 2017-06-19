@@ -41,7 +41,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Lista de Livros](#lista-de-livros)
 - [Antes de começar](#antes-de-começar)
 - [O que você não verá](#o-que-você-não-verá)
-- [The Daily Plan](#the-daily-plan)
+- [O Plano Diário](#o-plano-diário)
 - [Conhecimento Prévio](#conhecimento-prévio)
 - [Complexidade Algorítmica / Big-O / Análise assintótica](#complexidade-algorítmica--big-o--análise-assintótica)
 - [Estrutura de Dados](#estrutura-de-dados)
@@ -417,35 +417,35 @@ Essas são tecnologias predominantes, mas não são partes desse plano de estudo
 - Javascript
 - HTML, CSS, e outras tecnologias de front-end
 
-## The Daily Plan
+## O Plano Diário
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Alguns temas levam um dia, e alguns vão levar vários dias. Alguns são apenas aprendizado sem nada para implementar.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+A cada dia eu pego um tema da lista abaixo, assisto vídeos sobre aquele tema, e escrevo uma implementação em:
+- C - usando structs e funções que usam struct * e alguma outra coisa como argumentos.
+- C++ - sem usar types internos.
+- C++ - usando types internos, como std::list da STL para uma lista ligada
+- Python - usando types internos (para continuar praticando Python)
+- e escrevo testes para garantir que estou fazendo certo, às vezes uso apenas declarações simples de asser()
+- Você pode fazer com Java também ou alguma outra linguagem, eu apenas prefiro essas cima.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Você não precisa de todas essas linguagens. Você precisa de apenas [uma linguagem para a entrevista](#escolha-uma-linguagem-para-a-entrevista).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Por que programar em todas essas linguagens?
+- Prática, prática, prática, até eu enjoar e poder implementar sem problemas (algumas tem muitos casos com valores de entrada extremos, ou seja, muito pequenos ou muito grandes, e também têm muitos detalhes de escrituração para lembrar)
+- Trabalhar dentro das restrições básicas (alocar/liberar memória sem ajuda de um coletor de lixo (com exceção de Python))
+- Fazer uso de types internos para que eu possa ter experiência em usar ferramentas internas para problemas do mundo real (não vou escrever minha própria implementação de lista ligada durante a etapa de produção)
 
-I may not have time to do all of these for every subject, but I'll try.
+Talvez eu não tenha tempo para fazer tudo isso para cada tema, mas eu vou tentar.
 
-You can see my code here:
+Você pode ver meu código aqui:
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Você não precisa memorizar os detalhes intrínsecos de cada algoritmo.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Escreva código em um quadro branco ou papel, não em um computador. Teste com umas amostras de valores de entrada (input). Depois teste em um computador.
 
 ## Conhecimento Prévio
 

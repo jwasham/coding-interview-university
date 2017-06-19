@@ -12,6 +12,8 @@
 
 **Original**: [Inglês](https://github.com/jwasham/coding-interview-university/blob/master/README.md)
 
+[Acompanhe o progresso da tradução aqui!](https://github.com/jwasham/coding-interview-university/pull/115)
+
 **Tradutores**: [Marlon Aviz](https://github.com/avizmarlon) ([Contribuições](https://github.com/avizmarlon/google-interview-university/commits/ptbr-translation/translations/README-ptbr.md?author=avizmarlon)), [marceloogeda](https://github.com/marceloogeda) ([Contribuições](https://github.com/avizmarlon/google-interview-university/commits/ptbr-translation/translations/README-ptbr.md?author=marceloogeda)), [laris151](https://github.com/laris151) ([Contribuições](https://github.com/avizmarlon/google-interview-university/commits/ptbr-translation/translations/README-ptbr.md?author=laris151))
 
 Traduções:

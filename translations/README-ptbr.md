@@ -55,7 +55,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 
 ---
 
-## Table of Contents
+## Índice
 
 - [O que é isso?](#o-que-é-isso)
 - [Por que usar?](#por-que-usar)

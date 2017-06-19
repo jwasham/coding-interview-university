@@ -14,6 +14,7 @@ Translations:
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
 
 Translations in progress:
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
@@ -24,7 +25,6 @@ Translations in progress:
 - [French](https://github.com/jwasham/coding-interview-university/issues/89)
 - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
 - [Korean](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
 - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)

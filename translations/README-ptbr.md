@@ -548,7 +548,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [ ] pop_back() - remove um item do final e retorna seu valor
         - [ ] front() - obtém valor do item que está no início da lista
         - [ ] back() - obtém valor do item que está no final da lista
-        - [ ] insert(índice, valor) - insere "valor" no "índice", e então o item atual naquele índice é apontado pelo novo item no "índice"
+        - [ ] insert(índice, valor) - insere "valor" no "índice", e depois o item atual naquele índice é apontado pelo novo item no "índice"
         - [ ] erase(índice) - remove o node (nó) no índice fornecido
         - [ ] value_n_from_end(n) - retorna o valor do node (nó) na posição n a partir do final da lista
         - [ ] reverse() - reverte a lista
@@ -818,7 +818,7 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
         - mapa de adjacência
     - Famialirize-se com cada representação e seus prós e contras.
     - Busca em Largura (BFS) e Busca em Profundidade (DFS) - saiba a complexidade computacional deles, seus perde-e-ganhas (tradeoffs), e como implementar eles em código real.
-    - Quando for perguntado uma questão, busque por uma solução baseada em grafos primeiro, então se não houver, siga em frente.
+    - Quando for perguntado uma questão, busque por uma solução baseada em grafos primeiro, depois se não houver nenhuma, siga em frente.
 
 - [ ] Aulas do Skiena - ótima introdução:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11) (CSE373 2012 - Aula 11 - Estrutura de Dados de Grafos - vídeo)

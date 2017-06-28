@@ -874,7 +874,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - [ ] Lista de componentes fuertemente conectados
         - [ ] Verificación de grafo bipartito
 
-        
+
 Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas
 
 ## Más información adicional
@@ -976,7 +976,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Completo y Algoritmos de aproximación
-    - Conozca acerca de las clases más famosas de problemas de NP-completo, tales como el vendedor ambulante y el problema de la mochila y sea capaz de reconocerlos cuando un entrevistador se los pide disfrazados.    
+    - Conozca acerca de las clases más famosas de problemas de NP-completo, tales como el vendedor ambulante y el problema de la mochila y sea capaz de reconocerlos cuando un entrevistador se los pide disfrazados.
     - Conozca que significa NP-completo.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
@@ -1251,7 +1251,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - Para aún más, vea la serie de videos "Mining Massive Datasets" en la sección de Series de video.
+    - Para aún más, vea la serie de videos "Mining Massive Datasets" en la sección de [Series de video](#series-de-videos).
 - [ ] Practicando el proceso de diseño del sistema: Aquí hay algunas ideas para tratar de trabajar en papel, cada una con cierta documentación sobre cómo se manejó en el mundo real:
     - Revisión: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
@@ -1397,7 +1397,6 @@ Bosquejos de entrevista:
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
 ## Su CV
 
@@ -1575,7 +1574,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Programación en paralelo    
+- ### Programación en paralelo
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 

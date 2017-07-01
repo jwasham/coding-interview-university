@@ -645,34 +645,34 @@ Google не возьмёт тебя на работу.
         - [ ] reverse() - реверсирует весь список
         - [ ] remove_value(value) - удаляет первый элемент в списке с указанным значением (value)
     - [ ] Двусвязный список
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [Описание (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - Можно не делать
 
-- ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] Will not implement. Implementing with array is trivial.
+- ### Стек
+    - [ ] [Стек (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Использование стека Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] Не будет реализован. Реализация с помощью массива очевидна.
 
-- ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+- ### Очередь
+    - [ ] [Использование очереди First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Очередь (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] [Очередь с приоритетом (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] Реализация с использованием связанного списка и указателя на последний элемент(tail):
+        - enqueue(value) - добавляет элемент в конец очереди
+        - dequeue() - возвращает значение и удаляет из очереди последний добавленный элемент(front)
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Реализация с приминением массива фиксированного размера:
+        - enqueue(value) - добавляет элемент в конец очереди
+        - dequeue() - возвращает значение и удаляет из очереди последний добавленный элемент
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Затраты:
+        - плохая реализация с приминением связанного списка когда элемент добавляется в начало очереди и удаляется с конца очереди за O(n),
+          операция dequeue в таком случае будет требовать каждый раз обхода всего списка
+        - enqueue: O(1) (amortized, связанный список и массив [probing])
+        - dequeue: O(1) (связанный список и массив)
+        - empty: O(1) (связанный список и массив)
 
 - ### Hash table
     - [ ] Videos:

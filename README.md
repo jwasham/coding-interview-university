@@ -33,7 +33,7 @@
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 
-##Bu Nedir?
+## Bu Nedir?
 > Bu benim web geliştiricisiyken(kendi kendime öğrendim, bilgisayar ile ilgili bir diplomam yok) büyük bir 
 > şirkette yazılım geliştiricisi olmak için kullandığım uzun süreli çalışma planım. 
 > ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)

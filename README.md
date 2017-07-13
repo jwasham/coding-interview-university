@@ -47,8 +47,7 @@ Eğer yazılım/web geliştirme alanından tecrübeniz varsa Google, Amazon, Fac
 - [Nasıl Kullanılır?](#nasıl-kullanılır)
 - [Yeterince zeki değilim diye düşünmeyin](#yeterince-zeki-değlim-diye-düşünmeyin)
 - [Video Kaynakları İle İlgili](#video-kaynakları-ile-ilgili)
-- [Mülakat Süreçi & Genel Mülakat Hazırlığı](#mülakat-süreçi--genel-mülakat-hazırlığı)
+- [Mülakat Süreci & Genel Mülakat Hazırlığı](#mülakat-süreçi--genel-mülakat-hazırlığı)
 - [Başlamadan Önce](#başlamadan-önce)
 - [Önceden Bilinmesi Gerekenler](#önceden-bilinmesi-gerekenler)
 - [Günlük Plan](#günlük-plan)
-- [

@@ -108,6 +108,7 @@ Google, Amazon, Facebook ve Microsoft gibi büyük yazılım şirketleri yazıl�
 - [Mülakatlarda Karşılaşabileceğiniz Bazı Sorular](#mülakatlarda-karşılaşabileceğiniz-bazı-sorular)
 - [Mülakatı Yapan Kişiye Sorulabilecek Sorular](#mülakatı-yapan-kişiye-sorulabilecek-sorular)
 - [İşe Alındıktan Sonra](#işe-alındıktan-sonra)
+
 ---------------- Buradan Sonraki Her Şey İsteğe Bağlı ----------------
 
 - [İlave Kitaplar](#ilave-kitaplar)

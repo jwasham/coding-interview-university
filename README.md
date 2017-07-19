@@ -204,3 +204,57 @@ Bazı videolar sadece Coursera, EdX, ya da Lynda.com'daki derslere kayıt olunar
     Ücretsiz ve her zaman erişilebilir videolar koyma konusundaki yardımlarınız için minnettarım, örneğin online ders videolarına eşlik eden YouTube videoları.
     Üniversite derslerini kullanmayı seviyorum.
     
+    
+## Mülakat Süreci & Genel Mülakat Hazırlığı
+
+- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] How to Get a Job at the Big 4:
+    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+
+- [ ] Prep Course:
+    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Google'da mülakat yapan birinden, kendinizi yazılım mühendisliği mülakatına nasıl hazırlayacağınızı öğrenin.
+    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - Veri yapılarını, algoritmaları ve daha fazlasını kapsayan bir Python mülakat hazırlığı kursu.
+
+## Mülakat İçin Bir Dil Seçin
+
+Mülakatın kodlama bölümünde rahatça kullanabildiğiniz bir dili kullabilirsiniz, ama büyük şirketler için bu dillerin kullanılması önemlidir :
+
+- C++
+- Java
+- Python
+
+Aynı zamanda bu dillerinde kullanabilirsiniz, ama kullanmadan önce okumanızda fayda var. Bazı uyarılar olabilir:
+
+- JavaScript
+- Ruby
+
+Kullandığınız dilde oldukça rahat ve bilgili olmalısınız.
+
+Hangi dili seçmeniz gerektiğiyle ilgili bilgiler:
+- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
+- http://blog.codingforinterviews.com/best-programming-language-jobs/
+
+[Dil Kaynaklarına Buradan Bakınız](programming-language-resources.md)
+
+Alt tarafta  bazı C, C++, ve Python öğrenimleri göreceksiniz, çünkü ben öğreniyorum. Birkaç kitap da dahil edildi, aşağıya bakınız.
+
+## Kitap Listesi
+
+Bu liste benim kullandığım listeden biraz daha kısa. Zaman kazanmanız için bu listeyi sadeleştirdim.
+
+### Mülakat Hazırlığı
+
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - Cevaplar C++ ve Java dillerinde kodlanmış.
+    - Mülakatları geçmek için iyi bir ısınma.
+    - Çok zor değil,  çoğu problem mülakatlarda görebileceğizden daha kolay olabilir (okudugumdan)
+- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - Cevaplar Java diline göre kodlanmış.

@@ -258,3 +258,78 @@ Bu liste benim kullandığım listeden biraz daha kısa. Zaman kazanmanız için
     - Çok zor değil,  çoğu problem mülakatlarda görebileceğizden daha kolay olabilir (okudugumdan)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Cevaplar Java diline göre kodlanmış.
+
+Fazladan zamanınız varsa:
+
+- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [ ] Elements of Programming Interviews (Java version)
+    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+    - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
+    
+### Bilgisayar Mimarisi
+
+Zamanınız kısıtlıysa:
+
+- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - Kitap 2004 yılında yayınlandı, biraz eski ama bilgisayarı kısa öz bir şekilde anlatan eşi bulunmaz bir kaynak.
+    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
+    - Bu bölümler temel bilgiler vermesi bakımından okumaya değer:
+        - Chapter 2 - Numeric Representation
+        - Chapter 3 - Binary Arithmetic and Bit Operations
+        - Chapter 4 - Floating-Point Representation
+        - Chapter 5 - Character Representation
+        - Chapter 6 - Memory Organization and Access
+        - Chapter 7 - Composite Data Types and Memory Objects
+        - Chapter 9 - CPU Architecture
+        - Chapter 10 - Instruction Set Architecture
+        - Chapter 11 - Memory Architecture and Organization
+
+Eğer daha fazla zamanınız varsa:
+
+- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
+    - Daha zengin içerik, daha güncel(2011), ama daha uzun
+    
+    ### Dillere Göre
+
+**Mülakat için bir dil seçmeniz gerekiyor (Yukarıya Bakınız).** Dillere göre önerilerim aşağıda. Tüm diller için kaynağım yok. Eklemelere ve önerilere açığım .
+
+Eğer bunlardan birine çalıştıysanız, kodlama problemleri çözmek için yeterli veri yapıları ve algoritma bilgisine sahipsiniz demektir.
+**İsterseniz bu projedeki tüm üniversite ders videolarını geçebilirsiniz**, çalıştığınız konuları gözden geçirmek istemiyorsanız.
+
+[Dil Bazlı Ek Kaynaklar Burada.](programming-language-resources.md)
+
+### C++
+
+Bu ikisini henüz okumadım ama şiddetle tavsiye ediliyorlar ve mühteşem biri olan Sedgewick tarafından yazılmışlar.
+- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+Eğer C++ için daha iyi bir öneriniz varsa lütfen bana ulaştırın. Kapsamlı bir kaynak arıyorum.
+
+### Java
+
+- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - videos with book content (and Sedgewick!):
+        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
+        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
+
+Ya da:
+
+- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - by Goodrich, Tamassia, Goldwasser
+    - used as optional text for CS intro course at UC Berkeley
+    - see my book report on the Python version below. This book covers the same topics.
+
+### Python
+
+- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - by Goodrich, Tamassia, Goldwasser
+    - Bu kitaba bayılıyorum. Her şeyi kapsıyor.
+    - Pythonic code
+    - Kitap incelemem için: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+
+### İsteğe bağlı kitaplar
+
+**Bazıları bu kitabı öneriyorlar, eğer yüklü bir yazılım mühendisliği tecrübeniz ya da zor bir mülakat beklentiniz yoksa, bence bu biraz aşırıya kaçıyor:**
+
+- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)

@@ -333,3 +333,42 @@ Ya da:
 **Bazıları bu kitabı öneriyorlar, eğer yüklü bir yazılım mühendisliği tecrübeniz ya da zor bir mülakat beklentiniz yoksa, bence bu biraz aşırıya kaçıyor:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+    - Gözden geçirme ve sorun tanıma
+    - Algoritma kataloğu kısmı, bir röportajda bulacağınız zorlukların çok ötesinde.
+    - Kitabın iki bölümü var:
+        - class textbook on data structures and algorithms
+            - Avantajları:
+                - is a good review as any algorithms textbook would be
+                - Akademi ve iş hayatındaki problemlere nasıl çözüm bulduğuna dair güzel hikayeler
+                - örnek kodlar C dilinde
+            - Dezavantajları:
+                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
+                - 7. 8. ve 9. bölümlerin takip edilmesi zor olabilir, bazı öğeler iyi açıklanmış ya da  bende yeterli akıl yok.
+                - Beni yanlış anlamayın: Skiena' yı severim, onun öğretim şeklini ve üslubunu beğenirim fakat ben Stony Brook malzemesi değilim.
+        - algorithm catalog:
+            - Bu kitabı satın almanız için gerçek bir sebep.
+            - about to get to this part. Will update here once I've made my way through it.
+    - Kindle'da kiralanabilir
+    - Half.com uygun fiyatlarıyla harika bir online kaynak.
+    - Çözümler:
+        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+
+- [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+    - **Önemli:** Bu kitabın size kazandırdıkları sınırlı olacaktır. Veri yapıları ve algoritma tekrarı için iyi bir kaynak, ama nasıl iyi kod yazacagğınızı öğretmiyor. İyi bir çözümü verimli bir şekilde kodlayabilmelisiniz.
+    - Half.com uygun fiyatlarıyla harika bir online kaynak.
+
+- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+    - İlk birkaç bölüm, programlama sorunlarına zekice çözümler sunuyor. (bazı çözümler çok eski veri tipleriyle çözülmüş) ama bu sadece giriş. Kod tasarımı ve mimarisi için rehber bir kitap, daha çok Code Complete'e benziyer, ama daha kısa.
+
+- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
+    - Güzel bir kitap, ama birkaç probleme çalıştıktan sonra Pascal, do while döngüleri ve içiçe diziler beni hayal kırıklığına uğrattı.
+    - Kodlama problemlerine diğer kitaplardan ya da online olarak çalışmayı tercih ederdim.
+
+
+## Başlamadan Önce
+
+Liste bir kaç ayda büyüdü, ve evet, biraz kontrolden çıktı.
+
+Daha iyi bir tecrübe kazanmanız için yaptığım hataları aşağıda listeledim.

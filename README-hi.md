@@ -15,7 +15,7 @@
 यदि आपके पास सॉफ्टवेयर / वेब विकास के कई सालों का अनुभव है, तो ध्यान दें कि सॉफ्टवेयर, वेब डेवलपमेंट से भिन्न Google, अमेज़ॅन, फेसबुक और माइक्रोसॉफ्ट दृश्य सॉफ्टवेयर इंजीनियरिंग जैसी बड़ी सॉफ्टवेयर कंपनियों और उन्हें कंप्यूटर साइंस ज्ञान की आवश्यकता होती है।
 
 यदि आप एक विश्वसनीयता इंजीनियर या सिस्टम इंजीनियर बनना चाहते हैं, तो वैकल्पिक सूची (नेटवर्किंग, सुरक्षा) से अधिक जानें।
-
+चाहिए
 ---
 
 ## अनुक्रमणिका
@@ -385,37 +385,34 @@ memory" का एरर न दे, और तब मुजे कोई वै
     - [ ] [कैसे सीपीयू प्रोग्राम निष्पादित करता है (वीडियो)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [मशीन कोड निर्देश (वीडियो)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
--- Sourabh --
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
-- [ ] [Harvard CS50 - Asymptotic Notation (विडियो)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (विडियो)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (विडियो)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+## एल्गोरिथम जटिलता / बिग-ओ / असिम्प्टोोटिक विश्लेषण
+- लागू करने के लिए कुछ भी नहीं
+- [ ] [ हार्वर्ड सीएस 50 - असिमप्टोटीक नोटेशन (वीडियो)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [ बिग ओ नोट्स (सामान्य त्वरित ट्यूटोरियल) (वीडियो)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [ बिग ओ नोटेशन (और ओमेगा और थीटा) - सर्वोत्तम गणितीय व्याख्या (वीडियो)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [विडियो](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+    - [स्लाइड](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+- [ ] [एल्गोरिथ्म जटिलता विश्लेषण के लिए एक कोमल परिचय](http://discrete.gr/complexity/)
+- [ ] [विकास के आदेश (वीडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
 - [ ] [Asymptotics (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
 - [ ] [UC बर्कले Big O (विडियो)](https://youtu.be/VIS4YDpuP98)
 - [ ] [UC बर्कले Big Omega (विडियो)](https://youtu.be/ca3e7UVmeUc)
 - [ ] [Amortized Analysis (विडियो)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
-- [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+- [ ] टॉपकोडर (पुनरावृत्ति संबंध और मास्टर प्रमेय भी शामिल है):
+    - [कम्प्यूटेशनल जटिलता: धारा 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
+    - [कम्प्यूटेशनल जटिलता: धारा 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics विडियो to get the background knowledge.
 
-## Data Structures
+##  डेटा संरचनाएं
 
 - ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (विडियो)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+    - एक स्वचालित रीसाइज़िंग वेक्टर को लागू करें
+    - [ ] विवरण:
+        - [एरे  (विडियो)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [Basic Arrays (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
         - [Multi-dim (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
         - [Dynamic Arrays (विडियो)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)

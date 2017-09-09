@@ -230,7 +230,7 @@ I'm in the queue right now. Hope to interview soon.
 
 ## 당신은 충분히 똑똑합니다
 - 구글 엔지니어들은 똑똑합니다. 하지만 그들 조차도 자신들의 지적 능력면에 대해서 불안감을 갖기 일쑤입니다.
-- [천재 프로그래머의 미스터리](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [천재 프로그래머에 대한 미신(迷信)](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [위험한 홀로서기: 테크 산업의 보이지 않는 괴물들의 전쟁](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## 구글에 대해

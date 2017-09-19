@@ -14,9 +14,9 @@ Translations:
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
+- [हिन्दी](translations/README-hi.md)
 
 Translations in progress:
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
 - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
 - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)

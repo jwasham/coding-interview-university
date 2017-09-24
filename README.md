@@ -48,7 +48,7 @@ many years of experience and are claiming many years of software engineering exp
 If you have many years of software/web development experience, note that large software companies like Google, Amazon,
 Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
 
 ---
 
@@ -1163,7 +1163,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - The first half is enough.
 
 - ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
+    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)

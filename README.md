@@ -14,9 +14,9 @@ Translations:
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
-- [हिन्दी](translations/README-hi.md)
 
 Translations in progress:
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
 - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
 - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
@@ -370,7 +370,6 @@ OR:
             - this is the real reason you buy this book.
             - about to get to this part. Will update here once I've made my way through it.
     - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
     - Answers:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
@@ -378,7 +377,6 @@ OR:
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
     - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
@@ -1487,7 +1485,7 @@ You're never really done.
 
 ## Additional Books
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+- [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - an oldie but a goodie
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - a modern option

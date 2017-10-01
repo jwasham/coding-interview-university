@@ -25,7 +25,7 @@ Translations in progress:
 - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
 - [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Korean (한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
 - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
 - [German](https://github.com/jwasham/coding-interview-university/issues/135)
@@ -34,6 +34,7 @@ Translations in progress:
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
 
 ## What is it?
 

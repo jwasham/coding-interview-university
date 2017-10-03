@@ -508,103 +508,102 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
         - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
     - [ ] Implementa un vector (array mutabile con ridimensionamento automatico):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - [ ] Pratica la programmazione usando array e puntatori, e l'aritmetica dei puntatori per saltare ad un indice dell'array invece di usare l'indicizzazione diretta(subscripting).
+        - [ ] un nuovo array di dati primitivi con la memoria allocata
+            - puoi allocare un semplice array senza usare le sue funzioni
+            - inizia con 16, oppure se il numero iniziale è più grande, usa una potenza di 2 - 16, 32, 64, 128
+        - [ ] size() - numero di oggetti 
+        - [ ] capacity() - numero di oggetti che può contenere
+        - [ ] is_empty() - restituisce true sse non ha alcun elemento altrimenti false
+        - [ ] at(index) - ritorna l'elemento all'indice fornito, dà errore se l'indice è fuori dal limite massimo
+        - [ ] push(item) - aggiunge elemento (in coda)
+        - [ ] insert(index, item) - inserisce l'elemento all'indice fornito, spostando il valore dell'indice e muovendo verso destra gli elementi che stanno alla destra dell'elemento appena inserito
+        - [ ] prepend(item) - inserisce elemento all'indice 0
+        - [ ] pop() - rimuove dalla fine, restituendo valore
+        - [ ] delete(index) - cancella elemento all'indice, spostando gli elementi verso sinistra
+        - [ ] remove(item) - cerca l'oggetto e lo rimuove, anche se in più posti
+        - [ ] find(item) - cerca il valore e restituisce il primo indice che lo contiene, -1 se non lo trova
+        - [ ] resize(new_capacity) // metodo privato
+            - quando raggiungi la capacità massima, ridimensiona al doppio della taglia
+            - quando esegui il pop di un oggetto, se la taglia è 1/4 della capacità, ridimensiona fino a metà
+    - [ ] Prestazioni di Tempo
+        - O(1) per inserire/rimuovere alla fine(ammortizzato per allocazioni per maggior spazio), per indice o aggiornamento
+        - O(n) per inserire/rimuovere in altre parti
+    - [ ] Prestazioni di Spazio
+        - contiguità nella memoria, in tal modo aiuta le performance
+        - spazio richiesto = (capacità array, >= n) * taglia oggetto, deve essere O(n), anche se O(2n)
 
-- ### Linked Lists
-    - [ ] Description:
+- ### Liste concatenate
+    - [ ] Descrizione:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
+            - non tutto il video, solo le parti a proposito della struttura Nodo e l'allocazione della memoria.
+    - [ ] Liste concatenate vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
-        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+    - [ ] [perché evitare le liste concatenate (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Attenzione: hai bisogno della conoscenza del "puntatore a puntatore":
+        (per quando passi un puntatore ad una funzione che può cambiare l'indirizzo a cui punta quel puntatore)
+        Questa pagina è da usare solo per capire come funzionano. Non raccomando questo stile dell'attraversamento della lista. Leggibilità e manutenibilità soffrono a causa dell'intelligenza.
+        - [Puntatori a puntatori](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] implementa (Io l'ho fatto con puntatori in coda e senza):
+        - [ ] size() - ritorna il numero di elementi presenti nella lista
+        - [ ] empty() - ritorna valore true sse la lista è vuota
+        - [ ] value_at(index) - ritorna il valore dell'oggetto n-esimo (iniziando a 0 col primo)
+        - [ ] push_front(value) - aggiunge un oggetto in testa alla lista
+        - [ ] pop_front() - rimuove oggetto in testa e ritorna il suo valore
+        - [ ] push_back(value) - aggiunge un elemento alla fine
+        - [ ] pop_back() - rimuove l'elemento in coda e ritorna il suo valore
+        - [ ] front() - ottiene valore dell'oggetto in testa
+        - [ ] back() - ottiene valore in coda
+        - [ ] insert(index, value) - inserisce un valore all'indice dato, così l'elemento corrente a quell'indice è puntato dal nuovo elemento all'indice dato
+        - [ ] erase(index) - rimuove un nodo all'indice fornito
+        - [ ] value_n_from_end(n) - ritorna il valore del nodo alla posizione n-esima dalla fine della lista
+        - [ ] reverse() - crea una lista al contrario
+        - [ ] remove_value(value) - rimuove il primo elemento nella lista con il valore fornito
+    - [ ] Lista doppiamente concatenata
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+        - Serve implementazione
 
-- ### Stack
+- ### Stack (Pila)
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [ ] [Usare stack first-in first-out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] Non la implemento. Triviale da implementare con arrays.
 
-- ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+- ### Queue (Coda)
+    - [ ] [Usare le queue in first-in first-out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] [Buffer circolare/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [Code di priorità (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] Implementare usando liste concatenate, con puntatore in coda:
+        - enqueue(value) - aggiunge valore alla posizione in coda
+        - dequeue() - ritorna il valore in testa e lo rimuove (ultimo elemento inserito)
+        - empty() - ritorna true sse la coda è vuota
+    - [ ] Implementare usando un array di taglia fissa:
+        - enqueue(value) - aggiunge un elemento alla fine dello spazio disponibile
+        - dequeue() - ritorna il valore in testa e lo rimuove (ultimo elemento inserito)
+        - empty() - true sse la coda è vuota
+        - full() - true sse la coda è piena
+    - [ ] Costo:
+        - una cattiva implementazione usando una lista concatenata dove esegui enqueue in testa e dequeue in coda costa O(n) perché avresti bisogno dal successivo fino all'ultimo elemento, causando un attraversamento completo della lista
+        - enqueue: O(1) (ammortizzato, lista concatenata e array)
+        - dequeue: O(1) (lista concatenata e array)
+        - empty: O(1) (lista concatenata e array)
 
-- ### Hash table
-    - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+- ### Tabella Hash (Hash table)
+    - [ ] Video:
+        - [ ] [Hashing con Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [Indirizzamento aperto, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
-        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
+    - [ ] Corsi online:
+        - [ ] [Capire le funzioni Hash (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
+        - [ ] [Usare Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
+        - [ ] [Supportare Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
         - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
@@ -613,12 +612,12 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+    - [ ] implementare usando un array e il sondaggio lineare
+        - hash(k, m) - m è la taglia della tabella hash
+        - add(key, value) - se la key esiste, aggiornare il valore
+        - exists(key) - true sse la key esiste
+        - get(key) - ottiene il valore corrispondente a key
+        - remove(key) - rimuove valore con key
 
 ## More Knowledge
 

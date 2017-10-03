@@ -29,6 +29,7 @@ Traduzioni:
     - [German](https://github.com/jwasham/coding-interview-university/issues/135)
     - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
     - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+    - [Italian](https://github.com/jwasham/coding-interview-university/issues/156)
 
 ## Che cos'è?
 
@@ -57,7 +58,7 @@ Se vuoi essere un ingegnere che tratta affidabilità o sistemi, ti conviene stud
 - [Prima di cominciare](#prima-di-cominciare)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [Il piano giornaliero](#il-piano-giornaliero)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
@@ -420,86 +421,84 @@ Prendi una pausa dai tuoi problemi di programmazione per una mezz'ora ed esplora
 
 Ci sono molte distrazioni che possono portare via tempo prezioso. Concentrarsi e focalizzare l'attenzione è difficile.
 
-## What you won't see covered
+## Cosa non verrà coperto
 
-These are prevalent technologies but not part of this study plan:
+Queste sono tecnologie prevalenti nell'industria ma non sono parte di questo piano di studio:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, e altre tecnologie front-end
 
-## The Daily Plan
+## Il piano giornaliero
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Alcuni argomenti richiedono un giorno, e altri più giorni. Alcuni richiedono semplicemente di imparare senza dover implementare nulla.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Ogni giorno io prendo uno degli argomenti nella lista sotto, guardo video su quegli argomenti, e scrivo una implementazione in:
+- C - usando strutture e procedure che utilizzano un puntatore (*) a struttura e qualcos'altro come
+parametri
+- C++ - senza usare tipi definiti built-in
+- C++ - usando tipi built-in, come std::list della STL per una lista concatenata
+- Python - usando tipi built-in (per continuare a impratichirmi con Python)
+- e scrivere testi per assicurarmi che stia facendo la cosa giusta, anche semplicemente utilizzando metodi ```assert()```
+- Puoi usare Java o altro, questo è quello che faccio io.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Non ti servono tutti questi linguaggi di programmazione. Te ne serve [solo uno per un colloquio](#scegli-un-linguaggio-per-il-colloquio).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Perché codificare utilizzando tutti questi:
+- Pratica, pratica, pratica, fino a quando non ne posso più, e riesco a farlo senza alcun problema (alcuni possono avere "edge cases" e dettagli particolari da ricordare)
+- Lavorare nei limiti fisici (allocare/deallocare memoria senza l'aiuto del garbage collector(eccetto Python))
+- Fare uso di tipi built-in così ho esperienza nell'utilizzo di tipi built-in per l'utilizzo nel mondo vero (non scrivo la mia implementazione di una lista concatenata in produzione)
 
-I may not have time to do all of these for every subject, but I'll try.
+Potrei non avere tutto il tempo per fare queste cose per ogni argomento, ma ci proverò.
 
-You can see my code here:
+Qua puoi vedere tutto il codice che scrivo:
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Non devi memorizzare tutte le piccole parti di ogni algoritmo.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche input di esempio. Poi testalo su un computer.
 
-## Prerequisite Knowledge
+## Conoscenze pregresse
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **Impara C**
+    - C è ovunque. Vedrai esempi nei libri, nelle video-lezioni, *ovunque* mentre studi.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+        - Questo libro è corto, ma ti darà una grande mano con il linguaggio C e se lo metti in pratica un po' diventerai presto abile nell'usarlo. Capire C ti aiuta a coprendere come funzionano i programmi e la memoria. 
+        - [risposte alle domande](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
+- [ ] **Come vengono processati i programmi:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
+## Complessità di un algoritmo / Notazione O-grande / Analisi asintotica
+- niente da implementare
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Notazione O-grande (tutorial generale) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Notazione O-grande (Omega e Theta) - miglior spiegazione matematica (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [Una semplice introduzione all'analisi di complessità di un algoritmo](http://discrete.gr/complexity/)
+- [ ] [Ordini di crescita(video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+- [ ] [Asintotico (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
 - [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
-- [ ] TopCoder (includes recurrence relations and master theorem):
+- [ ] [Analisi Ammortizzata (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Illustrazione di "O grande" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] TopCoder (include le relazioni di ricorrenza e il master theorem(Teorema dell'esperto)):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
+    Se alcune delle lezioni hanno una base troppo matematica, puoi saltare fino ad arrivare in fondo e guardare i video sulla matematica discreta e ottenere un po' di conoscenza di base.
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
-
-## Data Structures
+## Strutture Dati
 
 - ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
+    - Implementa un array che si ridimensiona automaticamente
+    - [ ] Descrizione:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
         - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
@@ -508,7 +507,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
+    - [ ] Implementa un vector (array mutabile con ridimensionamento automatico):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
             - can allocate int array under the hood, just not use its features

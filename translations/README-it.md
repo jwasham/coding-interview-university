@@ -619,21 +619,21 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
         - get(key) - ottiene il valore corrispondente a key
         - remove(key) - rimuove valore con key
 
-## More Knowledge
+## Per approfondire
 
-- ### Binary search
+- ### Ricerca binaria
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] Implementa:
+        - ricerca binaria (su array ordinati di interi)
+        - ricerca binaria usando ricorsione
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+- ### Operazioni a livello di bit
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - dovresti conoscere molte delle potenze di 2 da 2^1 a 2^16 e 2^32
+    - [ ] Ottieni una buona conoscenza della manipolazione dei bit con: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
+        - [ ] Buona introduzione:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -641,49 +641,49 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
+    - [ ] complemento a 2 e a 1
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
+    - [ ] conteggio dei bit
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] round to next power of 2:
+    - [ ] arrotondamento alla successiva potenza di 2:
         - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
+    - [ ] scambio dei valori:
         - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
+    - [ ] valore assoluto:
         - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Alberi
 
-- ### Trees - Notes & Background
+- ### Alberi - Note & Introduzione
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - BFS (breadth-first search)
+    - costruzione base degli alberi
+    - esplorazione
+    - algoritmi di manipolazione
+    - BFS (ricerca breadth-first)
         - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-        - level order (BFS, using queue)
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
-    - DFS (depth-first search)
+        - per livello (BFS, usando una queue)
+            complessità di tempo: O(n)
+            complessità di spazio: migliore: O(1), peggiore: O(n/2)=O(n)
+    - DFS (ricerca depth-first)
         - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-        - notes:
-            time complexity: O(n)
-            space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-        - inorder (DFS: left, self, right)
-        - postorder (DFS: left, right, self)
-        - preorder (DFS: self, left, right)
+        - note:
+            complessità di tempo: O(n)
+            complessità di spazio:
+                migliore: O(log n) - nella media l'altezza dell'albero
+                peggiore: O(n)
+        - inorder (DFS: sinistra, sinistra, destra) - infisso
+        - postorder (DFS: sinistra, destra, sinistra) - postfisso
+        - preorder (DFS: sinistra, sinistra, destra) - prefisso
 
-- ### Binary search trees: BSTs
+- ### Alberi binari di ricerca: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - starts with symbol table and goes through BST applications
+        - inizia con una tavola di simboli e poi studia le applicazioni dei BTS
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
@@ -697,21 +697,21 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
         - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
-        - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
-        - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+    - [ ] Implementa:
+        - [ ] insert    // inserisci valore nell'albero
+        - [ ] get_node_count // ottieni conta del numero dei nodi
+        - [ ] print_values // stampa i valori dei nodi dal minimo al massimo
+        - [ ] delete_tree // cancella l'albero
+        - [ ] is_in_tree // true sse il valore è presente nell'albero
+        - [ ] get_height // ritorna l'altezza in numero di nodi (altezza con un solo nodo è 1)
+        - [ ] get_min   // ritorna il minimo valore tra quelli dei nodi
+        - [ ] get_max   // ritorna il massimo valore tra quelli dei nodi
+        - [ ] is_binary_search_tree // true sse è un albero binario di ricerca
+        - [ ] delete_value // cancella il nodo con valore fornito
+        - [ ] get_successor // ritorna il successore di un nodo con valore fornito, -1 se non esiste
 
 - ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - visualizzato come un albero, ma normalmente struttura lineare nella memoria(array, lista)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -726,34 +726,34 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+    - [ ] Implementa un max-heap:
+        - [ ] insert - inserimento di un nuovo elemento
+        - [ ] sift_up - usato da insert
+        - [ ] get_max - ritorna il massimo elemento, senza eliminarlo
+        - [ ] get_size() - ritorna il numero di elementi salvati
+        - [ ] is_empty() - true sse lo heap è vuoto
+        - [ ] extract_max - ritorna l'elemento massimo, rimuovendolo
+        - [ ] sift_down - usato da extract_max
+        - [ ] remove(i) - rimuovi elemento a indice i
+        - [ ] heapify - crea uno heap da un array di elementi, usato per heap_sort
+        - [ ] heap_sort() - prende un array non ordinato e lo ordina sul posto usando un max heap
+            - nota: usare un min heap al posto del max heap permette di risparmiare su alcune operazioni, ma raddoppia lo spazio utilizzato (non lavora sul posto)
 
-## Sorting
+## Ordinamento
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
+- [ ] Note:
+    - Implementa ordinamento e best case/worst case conosciuti, con la complessità media di ciascuno:
+        - non usare bubble sort - è terribile - O(n^2), eccetto quando n <= 16
+    - [ ] stabilità degli algoritmi di ordinamento ("Quicksort è stabile?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+    - [ ] Quali algoritmi possono essere usati con le liste concatenate? Quali con gli array? Quali su entrambi?
+        - Non raccomanderei di usare l'ordinamento su una lista concatenata, ma il merge sort è attuabile.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
+- Per heapsort, vedere sopra la struttura dati Heap. Heap sort è ottimo, ma non stabile.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
@@ -782,22 +782,22 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
+- [ ] Codice per Merge sort:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
+- [ ] Codice per Quick sort:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+- [ ] Implementa:
+    - [ ] Mergesort: O(n log n) caso medio e pessimo
+    - [ ] Quicksort O(n log n) caso medio
+    - Selection sort e insertion sort sono entrambi O(n^2) nei casi medio e pessimo
+    - Per heapsort, vedere la struttura dati Heap sopra.
 
-- [ ] Not required, but I recommended them:
+- [ ] Non richiesto, ma io li raccomando:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
         - [ ] [1. Strings in Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
         - [ ] [2. Key Indexed Counting](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
@@ -811,24 +811,24 @@ Scrivi codice su una lavagna o su carta, no al computer. Fai test con qualche in
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+Come conclusione, qua si trova una rappresentazione visiva di [15 algoritmi di ordinamento](https://www.youtube.com/watch?v=kPRA0W1kECg).
+Se hai bisogno di maggiori dettagli sull'argomento, guarda la sezione "Sorting" in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
-## Graphs
+## Grafi
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+I grafi possono essere usati per rappresentare molti problemi in informatica, quindi questa lista è lunga, come lo era per gli alberi e l'ordinamento.
 
-- Notes:
-    - There are 4 basic ways to represent a graph in memory:
-        - objects and pointers
-        - adjacency matrix
-        - adjacency list
-        - adjacency map
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none.
+- Note:
+    - Ci sono 4 modi di base per rappresentare un grafo nella memoria:
+        - oggetti e puntatori
+        - matrice delle adiacenze
+        - lista delle adiacenze
+        - mappa delle adiacenze
+    - Familiarizza con ogni rappresentazione e i pro e i contro
+    - BFS e DFS - conosci la loro complessità computazionale, i tradeoff, e come implementarli nel codice reale
+    - Quando ti viene chiesta una domanda, cerca per prima cosa una soluzione con un grafo, altrimenti cambia se non ne trovi nessuna.
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Skiena Lectures - ottima introduzione:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -836,7 +836,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [ ] Grafi:
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -851,26 +851,26 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
-- Full Coursera Course:
+- Corso completo su Coursera:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
-    - [ ] single-source shortest path (Dijkstra)
-    - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+- Implementerò:
+    - [ ] DFS con lista di adiacenza (ricorsiva)
+    - [ ] DFS con lista di adiacenza (iterativa con stack)
+    - [ ] DFS con matrice di adiacenza (ricorsiva)
+    - [ ] DFS con matrice di adiacenza(iterativa con stack)
+    - [ ] BFS con lista di adiacenza
+    - [ ] BFS con matrice di adiacenza
+    - [ ] cammino minimo con singola fonte (Dijkstra)
+    - [ ] spanning tree minimo
+    - Algoritmi basati su ricerca Depth-first (guarda i video di Aduni sopra):
+        - [ ] controlla i cicli (serve per ordine topologico, fino a controllare i cicli prima di cominciare)
+        - [ ] ordine topologico
+        - [ ] componenti connessi dal conto in un grafo
+        - [ ] componenti fortemente connessi da liste
+        - [ ] cerca un grafo bipartito
 
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+Nel libro di Skiena potrai trovare molte cose per fare pratica(guarda la sezione dei Libri più sotto) e i libri per i colloqui.
 
 ## Even More Knowledge
 

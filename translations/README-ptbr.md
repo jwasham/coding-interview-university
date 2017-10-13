@@ -20,7 +20,7 @@ Traduções:
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
-- [Português Brasileiro](translations/README-ptbr.md)
+- [Português Brasileiro](README-ptbr.md)
 
 Traduções em progresso:
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)

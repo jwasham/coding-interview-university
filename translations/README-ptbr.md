@@ -251,7 +251,7 @@ Você pode escolher uma linguagem com a qual você esteja confortável para faze
 - Java
 - Python
 
-Você também poderia usar essas, mas dê uma lida por aí antes. Podem haver avisos:
+Você também poderia usar essas, mas dê uma lida por aí antes. Podem haver ressalvas:
 
 - JavaScript
 - Ruby
@@ -268,7 +268,7 @@ Você vai ver aprendizado de C, C++ e Python incluído abaixo, porque é o que e
 
 ## Lista de Livros
 
-Essa é uma lista menor comparada à que eu usei. Está abreviado para economizar seu tempo.
+Essa é uma lista menor comparada à que eu usei. Está abreviada para economizar seu tempo.
 
 ### Preparação para a Entrevista
 
@@ -291,7 +291,7 @@ Se você tem muito tempo sobrando:
 Se estiver com pouco tempo:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038) (Escreva um Excelente Código: Volume 1: Compreendendo a Máquina)
-    - O livro foi publicado em 2004, e está meio vencido, mas é um recurso maravilhoso para compreender um computador resumidamente.
+    - O livro foi publicado em 2004, e está meio desatualizado, mas é um recurso incrível para se compreender um computador resumidamente.
     - O autor inventou HLA (High-level Assembly ou, no português, Assembly de alto nível), então considere as menções e exemplos em HLA com cautela. Não é usado amplamente, mas contém exemplos decentes de como o assembly funciona.
     - Esses capítulos valem a pena serem lidos para lhe dar uma boa base:
         - Chapter 2 - Numeric Representation (Capítulo 2 - Representação Numérica)
@@ -320,7 +320,7 @@ Se você ler um desses, você deverá ter todo conhecimento de estrutura de dado
 
 ### C++
 
-Eu ainda não li esses dois, mas eles são muito bem avaliados e escritos por Sedgewick. Ele é ótimo.
+Eu não li esses dois, mas eles são muito bem avaliados e escritos por Sedgewick. Ele é incrível.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) (Algoritmos em C++, Partes 1-4: Fundamentos, Estrutura de Dados, Ordenação, Busca).
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/) (Algoritmos em C++ Parte 5: Algoritmos de Grafo)
@@ -347,7 +347,7 @@ OU:
     - por Goodrich, Tamassia, Goldwasser
     - Eu adorei esse livro. Ele cobriu tudo e muito mais.
     - Código pythonico.
-    - meu brilhante resumo: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - meu resumo brilhante do livro: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 
 ### Livros Opcionais
@@ -356,7 +356,7 @@ OU:
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena) (Manual de Design de Algoritmo)
     - Como uma revisão e reconhecimento de problema
-    - A parte de catálogos de algoritmos está muito além da margem de dificuldade que você terá numa entrevista.
+    - A parte de catálogos de algoritmos está muito além da margem de dificuldade que você terá em uma entrevista.
     - Esse livro tem 2 partes:
         - livro de aula sobre estrutura de dados e algoritmos
             - prós:
@@ -378,17 +378,17 @@ OU:
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) (Introdução à Algoritmos)
-    - **Importante:** Ler esse livro só terá um valor limitado. Esse livro é ótimo para revisão de algoritmos e estrutura de dados, mas não irá te ensinar a escrever um bom código. Você deve ser capaz de programar uma solução decente eficientemente.
+    - **Importante:** Ler esse livro só terá um valor limitado. Esse livro é ótimo para revisão de algoritmos e estrutura de dados, mas não irá te ensinar a escrever um bom código. Você deve ser capaz de codificar uma solução decente eficientemente.
     - Half.com é um ótimo recurso para livros com bons preços.
     - também conhecido como CLR, às vezes CLRS, porque Stein estava atrasado para o negócio
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880) (Pérolas de Programação)
-    - Os primeiros capítulos apresentam solução inteligentes para problemas de programação (alguns bem velhos usando suporte magnético) mas
-      isso é só uma introdução. Esse é um guia sobre design e arquitetura de programa, parecido com Code Complete, mas muito mais curto.
+    - Os primeiros capítulos apresentam soluções inteligentes para problemas de programação (alguns bem velhos usando suporte magnético)  
+    mas isso é só uma introdução. Esse é um guia sobre design e arquitetura de programa, parecido com Code Complete, mas muito mais curto.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen ("Algoritmos e Programação: Problemas e Soluções" por Shen)~~
     - Um bom livro, mas depois de trabalhar nos problemas em várias páginas eu fiquei frustrado com o Pascal, loops do...while, arrays de 1 índice (index), e resultados de satisfação pós-condição pouco claros.  
-    - Prefiro gastar tempo em problemas de programação de outro livro oi problemas de programação online.
+    - Prefiro gastar tempo em problemas de programação de outro livro ou problemas de programação online.
 
 
 ## Antes de começar
@@ -397,9 +397,9 @@ Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle.
 
 Aqui estão alguns erros que eu cometi para que você tenha uma experiência melhor.
 
-### 1. Você não se lembrará disso tudo
+### 1. Você não se lembrará de tudo
 
-Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não me lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
+Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
 
 Por favor, leia para que você não cometa os meus erros:
 
@@ -418,7 +418,7 @@ Faça o seu próprio, grátis:
 - [Minha base de dados de flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
 - [Minha base de dados de flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Tenha em mente que eu exagerei e tenho cartas abrangendo desde linguagem assembly e trivialidades de Python até aprendizado de máquina e estatísticas. É demais para o que é requerido. 
+Tenha em mente que eu exagerei e tenho cartões abrangendo desde linguagem assembly e trivialidades de Python até aprendizado de máquina e estatísticas. É demais para o que é requerido. 
 
 **Nota:** A primeira vez que você reconhece que sabe a resposta, não a marque como conhecida. Você tem que ver o mesmo cartão e respondê-lo várias vezes corretamente antes de realmente conhecê-lo. A repetição colocará esse conhecimento mais aprodundado em seu cérebro.
 
@@ -427,7 +427,7 @@ Uma alternativa ao uso do meu site de flashcards é [Anki](http://ankisrs.net/),
 
 Meu banco de dados de flashcards em formato Anki: https://ankiweb.net/shared/info/25173560 (obrigado [@xiewenya](https://github.com/xiewenya))
 
-### 3. Reveja, Reveja e Reveja
+### 3. Revise, Revise e Revise
 
 Eu mantenho um conjunto de anotações em ASCII, OSI stack, Notações Big-O, e muito mais. Eu os estudo quando tenho algum tempo livre.
 

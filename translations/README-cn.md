@@ -3,7 +3,9 @@
 > * 原文地址：[Google Interview University](https://github.com/jwasham/google-interview-university)
 * 原文作者：[John Washam](https://github.com/jwasham)
 * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者：[Aleen](https://github.com/aleen42)，[Newton](https://github.com/Newt0n)，[bobmayuze](https://github.com/bobmayuze)，[Jaeger](https://github.com/laobie)，[sqrthree](https://github.com/sqrthree)
+* 译者：[aleen42](https://github.com/aleen42)，[Newton](https://github.com/Newt0n)，[bobmayuze](https://github.com/bobmayuze)，[Jaeger](https://github.com/laobie)，[sqrthree](https://github.com/sqrthree)
+
+[![xitu](https://camo.githubusercontent.com/c9c9db0a39b56738a62332f0791d58b1522fdf82/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f786974752e737667)](https://github.com/xitu/gold-miner)
 
 ## 这是？
 
@@ -22,8 +24,8 @@
 - [如何使用它](#如何使用它)
 - [拥有一名 Googler 的心态](#拥有一名-googler-的心态)
 - [我得到了工作吗？](#我得到了工作吗)
-- [跟随着我](#跟随着我)
-- [不要自以为自己不够聪明](#不要自以为自己不够聪明)
+- [跟着我的脚步](#跟着我的脚步)
+- [不要妄自菲薄](#不要妄自菲薄)
 - [关于 Google](#关于-google)
 - [相关视频资源](#相关视频资源)
 - [面试过程 & 通用的面试准备](#面试过程--通用的面试准备)
@@ -143,7 +145,7 @@
 
     感谢 JP 的这次介绍。
 
-## 跟随着我
+## 跟着我的脚步
 
 目前我仍在该计划的执行过程中，如果你想跟随我脚步去学习的话，可以登进我在 [GoogleyAsHeck.com](https://googleyasheck.com/) 上所写的博客。
 
@@ -156,9 +158,9 @@
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## 不要自以为自己不够聪明
+## 不要妄自菲薄
 
-- Google 的工程师都是才智过人的。但是，就算是工作在 Google 的他们，仍然会因为自己不够聪明而感到一种不安。
+- Google 的工程师都是才智过人的。但是，就算是工作在 Google 的他们，仍然会因为觉得自己不够聪明而感到一种不安。
 - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
 
 ## 关于 Google
@@ -234,7 +236,7 @@
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[在此查看相关语言的资源](programming-language-resources.md)
+[在此查看相关语言的资源](../programming-language-resources.md)
 
 由于，我正在学习C、C++ 和 Python。因此，在下面你会看到部分关于它们的学习资料。相关书籍请看文章的底部。
 
@@ -316,7 +318,7 @@
 
 - [ ] **编译器**
     - [ ] [编译器是如何在 ~1 分钟内工作（视频）](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
-    - [ ] [Harvard CS50 —— 编译器（视频）](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+    - [ ] [Hardvard CS50 —— 编译器（视频）](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [ ] [C++（视频）](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [掌握编译器的优化（C++）（视频）](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
@@ -806,7 +808,7 @@
         - [ ] [尾递归 (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 - ### 动态规划（Dynamic Programming）
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
+    - **注意** ：动态规划是门极为重要的技术，尽管其并未被 Google 提供的准备手册提及，但你可能会对寻求最佳解的方式有点疑问，所以我将其列入这份表单。
     - 这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。
     - 我建议先阅读和学习足够多的动态规划的例子，以便对解决 DP 问题的一般模式有个扎实的理解。
 
@@ -1172,7 +1174,7 @@
 
 - [ ] C++ Primer Plus, 6th Edition
 
-- [ ] [《Unxi 环境高级编程》 The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+- [ ] [《Unix 环境高级编程》 The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
 
 - [ ] [《编程珠玑》 Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 
@@ -1435,7 +1437,7 @@
     - [ ] [第六章 (第 2 部分 ) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (视频)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [第六章 (第 3 部分 ) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [视频](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-    - [ ] [Head Fisrt 设计模型](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+    - [ ] [Head First 设计模型](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - 尽管这本书叫做设计模式：重复使用模块，但是我还是认为Head First是对于新手来说很不错的书。
     - [ ] [基于实际操作对于入门开发者的建议](https://sourcemaking.com/design-patterns-and-tips)
 

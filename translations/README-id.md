@@ -1,111 +1,115 @@
+# Google Interview University
 
-## על מה מדובר כאן?
-זוהי התוכנית הפעולה אותה הגיתי על מנת להפוך בהצלחה ממפתח אתרים, ללא תואר במדעי המחשב, למהנדס תוכנה בחברת גוגל.   
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+Version original: [Bahasa Inggris](README.md)
 
-רשימת המשימות הארוכה המצורפת להלן, הוצאה מקובץ האימון האישי אותו מפרסמת גוגל לעזור למועמדים פוטנציאליים **Google's coaching notes**. לפני שאתם מתחילים במשימה ישנם מספר דברים שעליכם לדעת. 
-ישנם מספר דברים בתחתית הרשימה שמעוד יועילו בהכנה לראיון עצמו לאחר שצלחתם את חומר הלימוד, 
-על מנת לפתור את הבעיות המוצגות בראיון ביעילות.
+## Ringkasan apa ini?
 
-חלק גדול מהתכנים לקוחים מהאתר המצויין של סטיב יגיי: המשרה הזו בגוגל? שלך!
-"[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"
+Ini adalah ringkasan studi saya selama beberapa bulan dari web developer (otodidak, tanpa gelar sarjana informatika) hingga menjadi *software engineer Google*.
 
-ערכתי וקיצרתי עבורכם את מה שלדעתי נדרש עבור מהנדס תוכנה מתחיל עם מעט ניסיון מתוך המקורות הנ"ל.
-עבור אלו מכם הרוצים הסבת מקצוע מפיתוח אתרים או פיתוח תוכנה בתפקידים כאלו ואחרים שאינם הנדסת תוכנה.
-עבור אלו מכם בעלי הניסיון כמהנדסי תוכנה, בייחוד אם ישנן שנות ניסיון רבות כמהנדס תוכנה בתחום, המשימות הנ"ל עלולות להיות קלות מדי והציפיות מהם בראיון לגוגל יהיו הרבה יותר גבוהות. 
-במידה ואתם בעלי מספר שנות ניסיון כמפתחים, גוגל רואה בהנדסת תוכנה משהו שונה מתכנות נטו ולכן הדרישות הן שונות ודבוהות יותר.
-עבור מהנדסי המערכת ומהנדסי האמינות שביניכם, השקיעו יותר בחומר המופיע ב"רשימת הרשות" זוהי רשימת משימות המכילה נושאי רשות עבור מהנדס תוכנה.  
+![Menulis kode di papan tulis - dikutip dari serial TV Silicon Valley oleh HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+
+Saya telah mengupas catatan **Google's Coaching Note** dan berikut adalah hal-hal penting dari catatan tersebut. Ada beberapa poin yang saya tambahkan pada bagian akhir yang mungkin muncul dalam wawancara atau dapat berguna dalam proses penyelesaian masalah.
+Banyak poin berasal dari artikel Steve Yegge "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"  yang berisi poin-poin dari **Google's Coaching Note**.
+
+Saya sudah meringkas poin-poin penting menurut saran dari Yegge. Saya juga mengubah beberapa rekomendasinya berdasarkan informasi yang saya dapatkan dari kontak saya di Google. Pedoman ini ditujukan untuk *software engineer* baru dan mereka yang ingin beralih profesi dari *web developer* menjadi *software engineer* (dimana ilmu komputer diperlukan). 
+
+Jika Anda mengaku memiliki pengalaman bertahun-tahun dalam rekayasa perangkat lunak, bersiaplah untuk wawncara yang jauh lebih sulit.
+[Baca lebih lanjut](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+
+Jika Anda memiliki pengalaman sebagai developer software/web, catat bahwa Google memandang *software engineer* berbeda dari *developer software/web* karena *software engineer* menggunakan ilmu komputer.
+
+Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih banyak pelajari pada bagian tambahan (jaringan, keamanan).
+
 ---
-## תוכן העניינים Table of Contents
 
-- [על מה מדובר כאן?](#what-is-it)
-- [למה להשתמש בזה?](#why-use-it)
-- [איך להשתמש בזה?](#how-to-use-it)
-- [כנסו לאווירת גוגל](#get-in-a-googley-mood)
-- [אז מה, בסוף התחלתי לעבוד בגוגל?](#did-i-get-the-job)
-- [אחרי!!](#follow-along-with-me)
-- [אל תרגישו שאתם לא חכמים מספיק, אתם כן](#dont-feel-you-arent-smart-enough)
-- [הכל אודות גוגל](#about-google)
-- [חומרים ומקורות בוידאו](#about-video-resources)
-- [תהליך הראיון והכנה כללית לראיון](#interview-process--general-interview-prep)
-- [תבחרו שפה אחת בה תתראיינו](#pick-one-language-for-the-interview)
-- [רשימת ספרות ומקורות מידע](#book-list)
-- [לפני שאתם מתחילים](#before-you-get-started)
-- [על מה לא תקראו כאן?](#what-you-wont-see-covered)
-- [דרישות קדם](#prerequisite-knowledge)
-- [התוכנית היומית](#the-daily-plan)
-- [סיבוכיות אלגוריתמים/ BIG O/ אנליזת אלגוריתמים](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [מבני נתונים](#data-structures)
-    - [מערכים](#arrays)
-    - [רשימות מקושרות](#linked-lists)
-    - [מחסנית](#stack)
-    - [תור](#queue)
-    - [טבלאות גיבוב נתונים](#hash-table)
-- [למידע נוסף](#more-knowledge)
-    - [חיפוש בינארי](#binary-search)
-    - [פעולות על סיביות](#bitwise-operations)
-- [עצים](#trees)
-    - [רקע על עצים](#trees---notes--background)
-    - [עצי חיפוש בינארי BSTs](#binary-search-trees-bsts)
-    - [ערימה בינארית למימוש תור עדיפויות / תור קדימויות/ ערימה בינארי](#heap--priority-queue--binary-heap)
-    - איזון עצי חיפוש בינארי כללי
-    - חיפוש לעומק, חיפוש לרוחב, אלגוריתם שיבוץ וסידור, (BFS, DFS)
-- [מיון](#sorting)
-    - בחירה
-    - הכנסה
-    - מיון ערימה
-    - מיון מהיר
-    - מיון מיזוג
-- [גרפים - תרשימים](#graphs)
-    - מוכווניםdirected
-    - לא מוכווניםundirected
-    - מטריצה adjacency matrix
-    - רשימה adjacency list
-    - חיפוש לעומק וחיפוש לרוחב (BFS, DFS)
-- [מידע נוסף](#even-more-knowledge)
-    - [רקורסיה](#recursion)
-    - [תכנות מונחה עצמים](#object-oriented-programming)
-    - [תבניות עיצוב](#design-patterns)
-    - [קומבינטוריקה (n בוחר K) והסתברות](#combinatorics-n-choose-k--probability)
-    - [NP, NP-אלגוריתמי קירוב](#np-np-complete-and-approximation-algorithms)
-    - [זיכרון וירטואלי - קאש](#caches)
-    - [תהליכים ומקבצי מסרים ](#processes-and-threads)
-    - [מאמרים](#papers)
-    - [ בדיקות תוכנה](#testing)
-    - [שיבוץ](#scheduling)
-    - [יישום Implement system routines](#implement-system-routines)
-    - [חיפוש ופעולות על מחרוזות](#string-searching--manipulations)
-- [  סילומיות (סקאלביליות),עיצוב מערכות, עיבוד נתונים ](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [חזרה גנרלית](#final-review)
-- [שאלות קוד לדוגמה](#coding-question-practice)
-- [שאלות אתגר](#coding-exerciseschallenges)
-- [מה עושים סמוך לראיון הגדול?](#once-youre-closer-to-the-interview)
-- [קורות חיים](#your-resume)
-- [דברים לחשוב עליהם לכשיגיע יום הראיון](#be-thinking-of-for-when-the-interview-comes)
-- [שאלות למראיין](#have-questions-for-the-interviewer)
-- [היום שאחרי](#once-youve-got-the-job)
+## Daftar Isi
 
----------------- מתחת לקו זה נמצא חומר הרשות שמומלץ לרקע כללי או למהנדסי מערכת ותפקידים נוספים ----------------
+- [Apa ini?](#ringkasan-apa-ini)
+- [Mengapa menggunakan ini?](#mengapa-menggunakan-ini)
+- [Bagaimana cara menggunakannya](#bagaimana-cara-menggunakannya)
+- [Masuk ke Mode Googley](#masuk-ke-mode-googley)
+- [Jangan merasa anda kurang pintar](#jangan-merasa-anda-kurang-pintar)
+- [Tentang Google](#tentang-google)
+- [Tentang Sumber Video](#tentang-sumber-video)
+- [Proses Interview dan Preparasi Wawancara Secara Umum](#proses-interview-dan-preparasi-wawancara-secara-umum)
+- [Pilih Satu Bahasa Pemrograman untuk Wawancara](#pilih-satu-bahasa-pemrograman-untuk-wawancara)
+- [Daftar Buku](#daftar-buku)
+- [Sebelum Anda Mulai](#sebelum-anda-mulai)
+- [Apa yang Tidak Akan Dibahas](#apa-yang-tidak-akan-dibahas)
+- [Ilmu Prasyarat](#ilmu-prasyarat)
+- [Rencana Harian](#rencana-harian)
+- [Kompleksitas Algoritma / Big-O / Analisis Asimptotik](#kompleksitas-algoritma--big-o--analisis-asimptotik)
+- [Struktur Data](#struktur-data)
+    - [Arrays](#arrays)
+    - [Linked Lists](#linked-lists)
+    - [Stack](#stack)
+    - [Queue](#queue)
+    - [Hash table](#hash-table)
+- [Pengetahauan Tambahan](#pengetahuan-tambahan)
+    - [Binary search](#binary-search)
+    - [Operasi Bitwise](#operasi-bitwise)
+- [Trees](#trees)
+    - [Trees - Catatan & Latar Belakang](#trees---catatan--latar-belakang)
+    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - balanced search trees (konsep dasar, tidak mendalam)
+    - traversals: preorder, inorder, postorder, BFS, DFS
+- [Sorting](#sorting)
+    - selection
+    - insertion
+    - heapsort
+    - quicksort
+    - merge sort
+- [Graphs](#graphs)
+    - directed
+    - undirected
+    - adjacency matrix
+    - adjacency list
+    - traversals: BFS, DFS
+- [Pengetahuan Tambahan Lainnya](#pengetahuan-tambahan-lainnya)
+    - [Rekursi](#rekursi)
+    - [Pemrograman Berbasis Objek](#pemrograman-berbasis-objek)
+    - [Pola Desain](#pola-desain)
+    - [Kombinatorik (n pilih k) & Probabilitas](#kombinatorik-n-pilih-k--probabilitas)
+    - [NP, NP-Lengkap dan Algoritma Aproksimasi](#np-np-lengkap-dan-algoritma-aproksimasi)
+    - [Caches](#caches)
+    - [Proses dan Threads](#proses-dan-threads)
+    - [Tesis](#tesis)
+    - [Testing](#testing)
+    - [Penjadwalan](#penjadwalan)
+    - [Implementasi Rutinitas Sistem](#implementasi-rutinitas-sistem)
+    - [Pencarian String & Manipulasi](#pencarian-string--manipulasi)
+- [Perancangan Sistem, Skalabilitas, Penganganan Data](#perancangan-sistem-skalabilitas-penanganan-data) (jika anda memiliki pengalaman 4 tahun lebih)
+- [Ulasan Akhir](#ulasan-akhir)
+- [Latihan Pertanyaan Pemrograman](#latihan-pertanyaan-pemrograman)
+- [Soal-soal Pemrograman](#soal-soal-pemrograman)
+- [Menjelang Proses Interview](#menjelang-proses-interview)
+- [CV Anda](#cv-anda)
+- [Perkirakan Pertanyaan Yang Akan Diajukan](#perkirakan-pertanyaan-yang-akan-diajukan)
+- [Bertanyalah Pada Pewawancara](#bertanyalah-pada-pewawancara)
+- [Saat Anda Berhasil Mendapatkan Pekerjaannya](#saat-anda-berhasil-mendapatkan-pekerjaannya)
 
-- [קריאה נוספת](#additional-books)
-- [מה עוד ניתן ללמוד?](#additional-learning)
-    - [תכנות דינאמי](#dynamic-programming)
-    - [מעבדים](#compilers)
-    - [מספרים בעלי נקודה צפה](#floating-point-numbers)
-    - [יוניקוד- קידוד אחיד](#unicode)
+---------------- Semua dibawah ini bersifat opsional ----------------
+
+- [Buku Tambahan](#buku-tambahan)
+- [Materi Tambahan](#materi-tambahan)
+    - [Pemrograman Dinamis](#pemrograman-dinamis)
+    - [Kompilator](#kompilator)
+    - [Bilangan Titik Mengambang](#bilangan-titik-mengambang)
+    - [Unicode](#unicode)
     - [Endianness](#endianness)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
+    - [Teori Informasi](#teori-informasi)
+    - [Pariti & Kode Hamming](#pariti--kode-hamming)
+    - [Entropi](#entropi)
+    - [Kriptografi](#kriptografi)
+    - [Kompresi](#kompresi)
+    - [Jaringan](#jaringan) (bersiaplah mendapatkan pertanyaan jaringan apabila anda ingin menjadi system engineer)
+    - [Sekuritas Komputer](#sekuritas-komputer)
     - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Pemrograman Paralel](#pemrograman-paralel)
+    - [Pengiriman Pesan, Serialisasi, dan Sistem Queueing](#pengiriman-pesan-serialisasi-dan-sistem-queueing)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
@@ -126,49 +130,38 @@
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Matematika untuk Pemrosesan Cepat](#matematika-untuk-pemrosesan-cepat)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
+    - [Pemrograman Linear](#pemrograman-linear)
+    - [Geometri, Convex hull](#geometri-convex-hull)
+    - [Matematika Diskrit](#matematika-diskrit)
+    - [Pembelajaran Mesin](#pembelajaran-mesin)
     - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Detil Tambahan pada Beberapa Subjek](#detil-tambahan-pada-beberapa-subjek)
+- [Seri Video](#seri-video)
+- [Kursus Ilmu Komputer](#kursus-ilmu-komputer)
 
 ---
 
-## למה להשתמש בזה?
+## Mengapa menggunakan ini?
 
-אני מתכונן לראיון בגוגל תוך כדי יישום תוכנית זו. בניתי את הרשת, בניתי שרותים ברשת, אני בונה ומשיק סטארטאפים מאז 1997.
-יש לי תואר בכלכלה, לא במדעי המחשב. הייתה לי קריירה מוצלחת אבל אני חולם לעבוד בגוגל. 
-אני רוצה להתקדם ולעבוד עם מערכות גדולות יותר ולקבל הבנה מעמירה של מערכות מחשוב, אלגוריתמים יעילים, התנהגות בסיסי נתונים, 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Saya mengikuti rencana ini untuk mempersiapkan saya dalam menghadapi wawancara kerja Google. Sejak 1997, saya telah menciptakan berbagai situs, servis, dan mendirikan startup. Saya memiliki gelar ekonomi, bukan gelar ilmu komputer. Saya telah meraih kesuksesan dalam karir saya, tapi saya ingin bekerja di Google. Saya ingin masuk ke sistem yang lebih besar dan mempunyai pemahaman mendalam tentang sistem komputer, efesiensi algoritma, performa struktur data, bahasa tingkat rendah, dan bagaimana semuanya bekerja. Jika anda tidak mengetahui satu pun, Google tidak akan mempekerjakan anda.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Ketika saya memulai proyek ini, saya tidak tahu tentang stack dari sebuah heap, tidak tahu tentang notasi Big-O apapun, begitupula dengan struktur data trees, atau bagaimana menyusuri sebuah graph. Jika saya harus menulis algoritma penyortiran, saya bisa katakan pada anda bahwa hasilnya tidak akan memuaskan.
+Setiap struktur data yang saya pernah pakai sudah tertanam dalam bahasa yang saya gunakan, dan saya tidak tahu bagaimana mereka bekerja secara riil. Saya tidak pernah diharuskan untuk mengatur penggunaan memori kecuali proses yang saya jalankan akan memberikan error 'memori tidak cukup', sehingga saya harus mencari jalan keluarnya. Saya pernah menggunakan beberapa array multidimensi dalam hidup saya dan ribuan array asosiatif, tapi saya tidak pernah menciptakan struktur data dari nol.
 
-## איך להשתמש בזה
+Tetapi setelah menjalani rencana studi ini saya memiliki kepercayaan diri yang tinggi bahwa saya akan diterima. Ini adalah rencana yang panjang. Ini akan menyita waktu saya selama berbulan-bulan. Tetapi jika anda sudah tidak asing lagi dengan materi yang dibutuhkan, hal ini akan membutuhkan waktu jauh lebih sedikit.
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+## Bagaimana cara menggunakannya?
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Apapun dibawah ini adalah garis besar, dan anda harus menguasai materi dari atas ke bawah secara runut.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+Saya menggunakan markdown spesial dari Github, termasuk daftar tugas untuk mengecek perkembangan.
+
+**Buat branch baru sehingga anda bisa mencentang seperti ini, bubuhi tanda x dalam tanda kurung: [x]**
 
 
-    Fork a branch and follow the commands below
+    Fork sebuah branch dan ikuti perintah berikut
 
 `git checkout -b progress`
 
@@ -176,7 +169,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Tandai semua kotak dengan tanda X setalah anda menyelesaikannya
 
 `git add . `
 
@@ -186,49 +179,29 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Lebih jauh tentang markdown Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Masuk ke Mode Googley
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Print satu atau beberapa foto dari "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" (untuk ditempel tentunya) sebagai reminder anda apa hasil usaha yang anda akan dapatkan.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## האם קיבלתי את העבודה?
+## Jangan merasa anda kurang pintar
+- Para engineers/programmer di google adalah orang-orang pintar, tapi banyak dari mereka berpikir bahwa mereka tidak cukup pintar, walaupun mereka bekerja di Google.
+- [Mitos dari programmer yang jenius](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Hal yang berbahaya untuk pergi sendirian: Bertarung dengan monster yang tidak kelihatan di dunia teknologi](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-אני בתור כרגע. אני מקווה להתראיין בקרוב.
+## Tentang Google
 
-    Thanks for the referral, JP.
-
-## Follow Along with Me
-
-הסיפור שלי: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
-
-גם אני עובר את המסע. עקבו אחריי:
-
-- **בלוג**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- טוויטר: [@googleyasheck](https://twitter.com/googleyasheck)
-- טוויטר: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- גוגל+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- לינקדאין: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
-
-## אל תרדגישו שאתם לא חכמים מספיק
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## אודות גוגל
-
-- [ ] לסטודנטים - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] איך החיפוש עובד:
+- [ ] Untuk pelajar - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] Bagaimana Pencari Bekerja:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
     - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
     - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
+- [ ] Seri:
     - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
     - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
@@ -236,39 +209,38 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 - [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## Tentang Sumber Video
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Beberapa video hanya dapat diakses dengan mengikuti kelas di [Coursera](https://www.coursera.org/), [Edx](https://www.edx.org/), atau [Lynda.com](https://www.lynda.com/). Beberapa link tersebut biasa disebut MOOC (massive open online course) atau belajar online, seperti layaknya anda berkuliah biasa namun bedanya ini online dan diikuti oleh banyak orang dari seluruh dunia.
+Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan harus menunggu beberapa bulan. Karena kelas tersebut ada waktunya dalam pembelajaran, dan ada waktunya untuk mendaftar, layaknya anda berkuliah. Khusus untuk Lynda.com merupakan situs yang berbayar untuk mengakses materinya.
+    
+    Selain saya membagikan ilmu kepada kalian semua, saya juga mengapresiasi bantuan anda untuk menambahkan sumber pembelajaran yang gratis dan selalu terbuka untuk umum, seperti video di youtube untuk sebagai selingan dari kuliah online dari website yang disebutkan diatas.
+    Saya suka menggunakan media pembelajaran berbasiskan universitas.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+## Proses Interview dan Preparasi Wawancara Secara Umum
 
-
-## תהליך הראיון והכנה כללית לראיון
-
-- [ ] סרטונים:
-    - [ ] [איך לעבוד בגוגל: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [איך לעבוד בגוגל: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [איך לעבוד בגוגל - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+- [ ] Video:
+    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
     - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [איך לעבוד בגוגל: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] מאמרים:
-    - [ ] [איך להפוך לעובד בגוגל בשלושה שלבים](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+- [ ] Artikel:
+    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
     - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(מאוד מיושן)_ [איך להשיג עבודה בגוגל, שאלות של ראיונות, תהליך המיון](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+        - semua hal-hal yang dia sebutkan itu sudah terdaftar dibawah dan kamu harus tahu
+    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] קורסי הכנה:
+- [ ] Materi kelas untuk persiapan:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
 
-- [ ] תוספות (not suggested by Google but I added):
+- [ ] Tambahan (tidak disarankan oleh Google tapi saya tambahkan sendiri):
     - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [ארבעה צעדים לקראת גוגל בלי תואר](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [לוח מחיק](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
     - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
     - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [ ] Cracking The Coding Interview Set 1:
@@ -278,62 +250,62 @@ Sometimes the classes are not in session so you have to wait a couple of months,
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Pilih Satu Bahasa Pemrograman untuk Wawancara
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Saya menulis artikel pendek tentang topik hal tersebut: [Penting:Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Penting: Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Anda dapat menggunakan sebuah bahasa pemrograman yang nyaman bagi anda untuk melaksanakan salah satu bagian wawancara yaitu sesi mengkoding, tapi bagi Google, berikut adalah beberapa pilihan:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Anda juga dapat menggunakan beberapa bahasa pemrograman berikut, tapi cari informasi dahulu tentang hal ini, karena mungkin ada kualifikasi khusus:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Anda harus sangat nyaman dan memahami bahasa yang akan digunakan untuk wawancara tersebut.
 
-Read more about choices:
+Baca lebih banyak tentang pilihan:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Lihat beberapa sumber bahasa pemrograman disini](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Anda akan melihat beberapa C, C++, dan Python di cantumkan di link dibawah, karena saya juga sedang belajar. Ada beberapa buku juga diikutkan dalam list dibawah ini, lihat bagian bawah.
 
-## Book List
+## Daftar Buku
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Ini adalah daftar pendek yang saya gunakan. Ini disingkat untuk menghemat waktu Anda.
 
 ### Interview Prep
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - jawaban di C++ and Java
+    - direkomendasikan di Google candidate coaching
+    - ini adalah pemanasan yang baik untuk Cracking the Coding Interview
+    - tidak terlalu sulit, kebanyakan masalah mungkin lebih mudah daripada apa yang akan anda lihat dalam sebuah wawancara (dari apa yang saya baca)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+    - jawaban in Java
+    - direkomendasikan di the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
+    - Jika kamu melihat orang-orang mereferensikan "The Google Resume", itu adalah sebuah buku yang diganti oleh "Cracking the Coding Interview".
 
-If you have tons of extra time:
+Jika anda memiliki banyak waktu:
 
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+    - semua kode adalah di C++, sangat bagus jika anda menggunakan C++ di wawancara anda.
+    - sebuah buku yang bagus mengenai pemecahan masalah secara umum.
 
 ### Computer Architecture
 
-If short on time:
+Jika kekurangan waktu:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - Buku ini dirilis pada tahun 2004, dan agak ketinggalan jaman, tetapi dengan sumber daya yang hebat bisa untuk memahami komputer secara singkat.
+    - Penulis menemukan HLA, sehingga menyebutkan dan memberi contoh di HLA dengan sebutir garam. Tidak banyak digunakan, tapi contoh yang baik seperti apa assembly itu.
+    - Bab-bab ini patut dibaca untuk memberikan dasar yang baik:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -342,202 +314,202 @@ If short on time:
         - Chapter 7 - Composite Data Types and Memory Objects
         - Chapter 9 - CPU Architecture
         - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization 
+        - Chapter 11 - Memory Architecture and Organization
 
-If you have more time (I want this book):
+Jika anda punya banyak waktu (Saya ingin buku ini):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - Untuk orang kaya, lebih up-to-date (2011), tapi dengan pemeliharaan jangka panjang
 
 ### Language Specific
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Anda harus memilih sebuah bahasa pemgrograman untuk wawancara (lihat diatas).** Berikut adalah rekomendasi bahasa dari saya. Saya tidak memiliki sumber daya untuk semua bahasa. Saya menyambut penambahan.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems. 
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Jika meskipun anda membaca salah satu dari ini, anda harus memiliki semua pengetahuan struktur data dan algoritma, anda harus mulai melakukan pemecahan masalah koding.
+**Anda dapat melewati semua video ceramah di proyek ini**, kecuali jika anda ingin sebuah review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Saya belum membaca keduanya. tapi mereka dinilai sangat bagus dan ditulis oleh Sedgewick. Dia mengagumkan.
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/) 
+- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Jika anda memiliki rekomendasi yang lebih baik untuk C++, tolong beritahu saya. Mencari sumber daya yang komprehensif.
 
 ### Java
 
 - [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
+    - video dengan buku (dan Sedgewick!):
         - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
         - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
 
 OR:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - oleh Goodrich, Tamassia, Goldwasser
+    - digunakan sebagai teks opsional untuk kursus pengenalan CS di UC Berkeley
+    - lihat laporan buku saya pada versi Python dibawah. Buku ini mencakup topik-topik yang sama.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - oleh Goodrich, Tamassia, Goldwasser
+    - Saya mencintai buku ini. Mencakup segala hal dan lainnya.
+    - kode Pythonic
+    - laporan buku saya: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
 ### Optional Books
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**Beberapa orang merekomendasikan ini, tapi saya pikir itu akan berlebihan, kecuali jika anda punya pengalaman di software engineering bertahun-tahun dan mengharapkan sebuah wawancara yang jauh lebih sulit**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
+    - Sebagai sebuah review dan pengenalan masalah
+    - Bagian katalog algoritma adalah luar lingkup yang baik saat anda mendapatkan kesulitan di wawancara
+    - Buku ini mempunyai 2 bagian:
         - class textbook on data structures and algorithms
             - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
+                - adalah sebuah review yang bagus sebagai buku algoritma
+                - cerita bagus dari pengalamannya memecahkan masalah dalam industri dan akademisi
+                - contoh kode di C
             - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
+                - dapat secara penuh dan tak tertembus sebagai CLRS, dan dalam beberapa kasus, CLRS mungkin menjadi alternatif yang lebih baik untuk beberapa mata pelajaran
+                - bab 7, 8, 9 bisa menyakitkan untuk mencoba mengikutinya, karena beberapa item yang tidak dijelaskan dengan baik atau membutuhkan kinerja otak yang lebih daripada yang saya miliki
+                - jangan salah paham: Saya suka Skiena, gaya mengajarnya, dan kelakuannya, tapi aku mungkin tidak akan seperti bahan Stony Brook.
         - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - To quote Yegge: "More than any other book it helped me understand just how astonishingly commonplace
+            - ini adalah alasan nyata kamu membeli buku ini
+            - tentang untuk mendapatkan bagian ini. Akan diperbarui disini suatu waktu setelah saya membuat jalan melewati itu.
+    - Mengutip Yegge: "More than any other book it helped me understand just how astonishingly commonplace
         (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
         covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
         of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
         them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
         great way to learn how to identify hundreds of problem types."
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+    - Dapat menyewa di kindle
+    - Half.com adalah sumber daya yang besar untuk buku dengan harga yang baik.
+    - Jawaban:
+        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+    - **Penting:** Membaca buku ini hanya akan memiliki nilai yang terbatas. Buku ini adalah review besar algoritma dan struktur data, tetapi akan mengajarkan cara menulis kode yang baik. Anda harus dapat mengkode yang layak secara efisien.
+    - Mengutip Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
+    - Half.com adalah sumber daya yang besar untuk buku dengan harga yang baik.
+    - aka CLR, terkadang CLRS, karena Stein terlambat untuk permainan.
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+    - Pasangan pertama dari bab yang menyajikan solusi cerdas untuk masalah pemrogramman (beberapa sangat tua saat menggunakan tipe data) tapi itu hanya sebuah intro. Ini sebuah buku panduan tentang program desain dan arsitektur, seperti Code Complete, tapi jauh lebih pendek.
 
-- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results. 
-    - Would rather spend time on coding problems from another book or online coding problems.
+- ~~"Algorithms and Programming: Problems and Solutions" oleh Shen~~
+    - Sebuah buku yang baik, tapi setelah bekerja melalui masalah pada halaman, saya frustasi dengan Pascal, do while loops, 1-indexed arrays, dan hasil post-condition yang tidak jelas.
+    - Lebih suka menghabiskan waktu di masalah coding dari buku lain atau masalah coding online.
 
 
-## Before you Get Started
+## Sebelum Anda Mulai
 
-This list grew over many months, and yes, it kind of got out of hand.
+Daftar ini tumbuh selama berbulan-bulan, dan ya, itu jenis keluaran dari tangan.
 
-Here are some mistakes I made so you'll have a better experience.
+Berikut adalah beberapa kesalahan yang saya buat sehingga anda akan memiliki pengalaman yang lebih baik.
 
-### 1. You Won't Remember it All
+### 1. Kamu Tidak Akan Mengingat Semuanya
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Saya menonton video berjam-jam dan mengambil catatan yang berlebihan, dan beberapa bulan kemudian disana ada banyak yang tidak saya ingat. Saya menghabiskan 3 hari melalui catatan saya dan membuat flashcards sehingga saya bisa meninjaunya dengan lebih cepat.
 
-Read please so you won't make my mistakes:
+Tolong baca sehingga anda tidak akan membuat kesalahan seperti saya:
 
-[Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
+[Menguasai Pengetahuan Ilmu Komputer](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Menggunakan Flashcards
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Untuk mengatasi masalah tersebut, saya membuat situs flashcards kecil di mana saya bisa menambahkan flashcards dari 2 jenis: umum dan code. Setiap kartu memiliki format yang berbeda.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Saya membuat sebuah mobile-first website jadi saya bisa mereview di telepon dan tablet saya, dimanapun saya berada.
 
-Make your own for free:
+Membuat punya anda sendiri secara gratis:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [Repo website flashcards](https://github.com/jwasham/computer-science-flash-cards)
+- [Database flashcards saya (lama - 1200 kartu)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
+- [Database flashcards saya (baru - 1800 kartu)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+Perlu diingat aku pergi keluar kapal dan memiliki kartu meliputi segala sesuatu dari bahasa assembly dan Python trivia untuk pembelajaran machine learning dan statistik. Ini terlalu banyak untuk apa yang diminta oleh Google.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember. 
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+**Catatan di flashcards:** Pertama kali anda mengenali dan anda tahu jawabannya, jangan menandainya sebagai dikenal.
+Anda harus melihat kartu yang sama dan menjawab beberapa kali dengan benar sebelum anda benar-benar tahu akan hal itu. Pengulangan akan membuat pengetahuan yang lebih di
+otak anda.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Sebuah alternatif untuk menggunakan situs flashcards saya adalah [Anki](http://ankisrs.net/), yang telah direkomendasikan kepada saya berkali-kali. Ini menggunakan sistem pengulangan untuk membantu anda mengingatnya.
+Ini user-friendly, yang tersedia di semua platform dan memiliki sebuah sistem cloud sync. Ini memerlukan biaya $25 di iOS tapi ini gratis di platform lainnya.
+
+Database flashcard saya di format Anki: https://ankiweb.net/shared/info/25173560 (terimakasih [@xiewenya](https://github.com/xiewenya))
 
 ### 3. Review, review, review
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Aku menyimpan satu set cheat sheet pada ASCII, OSI stack, Big-O notasi, dan banyak lagi. Saya mempelajari mereka ketika saya memiliki beberapa waktu luang.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Mengambil istirahat dari masalah pemgrogramman selama setengah jam dan pergi melalui flashcards anda.
 
-### 4. Focus
+### 4. Fokus
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Disana ada banyak gangguan yang dapat menyita waktu yang berharga. Fokus dan kosentrasi adalah hal yang sulit.
 
-## What you won't see covered
+## Apa yang Tidak Akan Dibahas
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+Daftar besar ini semua dimulai sebagai daftar to-do pribadi yang dibuat dari catatan Google interview coaching. Ini adalah
+teknologi lazim mereka tetapi tidak disebutkan dalam catatan itu:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, dan teknologi front-end lainnya
 
-## The Daily Plan
+## Rencana Harian
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Beberapa mata pelajaran mengambil satu hari, dan beberapa akan mengambil beberapa hari. Beberapa hanya belajar dan tidak ada yang diimplimentasikan.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Setiap hari saya mengambil satu subjek dari daftar di bawah ini, menonton video tentang subjek itu, dan menulis sebuah implementasi di:
+- C - menggunakan structs dan functions yang mengambil sebuah struct * dan sesuatu yang lain seperti args.
+- C++ - tanpa menggunakan built-in types
+- C++ - menggunakan built-in types, seperti STL's std::list untuk daftar link
+- Python - menggunakan built-in types (untuk terus berlatih Python)
+- dan menulis tes untuk memastikan saya melakukannya dengan benar, kadang-kadang hanya menggunakan assert() statements yang sederhana
+- Anda mungkin bisa menggunakan Java atau sesuatu yang lain, ini hanyalah pendapat saya.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Anda tidak perlu semua ini. Anda hanya perlu [satu bahasa untuk wawancara](#pilih-satu-bahasa-pemrograman-untuk-wawancara).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Mengapa meng-kode di semua ini?
+- Latihan, latihan, latihan, sampai saya sakit karenanya, dan dapat melakukannya tanpa masalah (beberapa memiliki banyak kasus dan rincian pembukuan untuk diingat)
+- Bekerja dalam batasan baku (mengalokasikan/membebaskan memori tanpa bantuan dari sekumpulan sampah (kecuali Python))
+- Menggunakan built-in types jadi saya memiliki pengalaman menggunakan alat built-in untuk digunakan di dunia nyata (tidak akan menulis daftar pelaksanaan saya sendiri di produksi)
 
-I may not have time to do all of these for every subject, but I'll try.
+Saya mungkin tidak punya waktu untuk melakukan semua ini untuk setiap mata pelajaran, tapi saya akan mencobanya.
 
-You can see my code here:
+Anda dapat melihat kode saya di sini:
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Anda tidak perlu susah payah menghafal setiap algoritma.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa sampel masukan. Kemudian menguji itu pada komputer.
 
-## Prerequisite Knowledge
+## Ilmu Prasyarat
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **Belajar C**
+    - C ada dimana-mana. Anda akan melihat contoh di buku, perkuliahan, video, *dimanapun* ketika kamu belajar.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little 
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms) 
+        - Ini adalah sebuah buku yang pendek, tapi itu akan memberikanmu sebuah pegangan yang kuat di bahasa C dan Anda akan melakukan latihan kecil
+            dengan secara singkat dan cakap. Memahami C akan membantu anda memahami bagaimana program dan memori itu bekerja.
+        - [answers to questions](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
+- [ ] **Bagaimana komputer memproses sebuah program:**
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
+## Kompleksitas Algoritma / Big-O / Analisis Asimptotik
+- tidak ada untuk dilaksanakan
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -557,10 +529,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+    Jika beberapa ceramah terlalu membingunkan, anda dapat melompatinya kebawah dan
+    tonton the discrete mathematics videos untuk mendapatkan latar belakang pengetahuan. 
 
-## Data Structures
+## Struktur Data
 
 - ### Arrays
     - Implement an automatically resizing vector.
@@ -1091,7 +1063,12 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - replaced by Colossus in 2012
     - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
         - mostly replaced by Cloud Dataflow?
+    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
+    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
     - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
+    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
         - paper not available
     - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
@@ -1143,15 +1120,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
-    
+
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 ---
 
 ## System Design, Scalability, Data Handling
 - **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since 
-      there is a lot to consider when designing a software/hardware system that can scale. 
+- Scalability and System Design are very large topics with many topics and resources, since
+      there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this.
 - Considerations from Yegge:
     - scalability
@@ -1267,7 +1244,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
         - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Design a function to return the top k requests during past time interval]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
         - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
@@ -1355,15 +1331,15 @@ Supplemental:
 
 See [Book List above](#book-list)
 
-## תרגילי/אתגרי קידוד
+## Coding exercises/challenges
 
-ברגע שלמדתם מעל ומעבר, תתחילו להשתמש במה שלמדתם.
-תעשו אתגרי קידוד כל יום, כמה שאתם יכולים.
+Once you've learned your brains out, put those brains to work.
+Take coding challenges every day, as many as you can.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-אתרים עם אתגרים:
+Challenge sites:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1374,8 +1350,7 @@ See [Book List above](#book-list)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
-ראיונות דמה:
-- [Pramp - להתאמן בראיונות קידוד עם אחרים, בחינם](https://www.pramp.com/)
+Maybe:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
 
 ## Once you're closer to the interview
@@ -2007,4 +1982,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

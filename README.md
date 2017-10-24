@@ -29,7 +29,6 @@ Translations in progress:
 - [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
 - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
-- [German](https://github.com/jwasham/coding-interview-university/issues/135)
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)

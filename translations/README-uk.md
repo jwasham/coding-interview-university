@@ -299,7 +299,7 @@ If you read though one of these, you should have all the data structures and alg
 **Ви можете пропустити всі відео-лекції в цьому розділі**, якщо вам не потрібно повторення та загальний огляд.
 
 
-[Додаткові ресурси по кожній з мов тут.](programming-language-resources.md)
+[Додаткові ресурси по кожній з мов тут.](https://github.com/jwasham/coding-interview-university/blob/master/programming-language-resources.md)
 
 ### C++
 

@@ -216,59 +216,64 @@ Original: [англійською](README.md)
 
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+        - Дізнайтеся, як підготуватися до інтерв'ю разом з інженером-програмістом із колишнім рекрутером в Google.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - Курс з підготовки до інтерв'ю мовою Python, який охоплює структури даних, алгоритми, процес інтерв'ю та багато іншого.
 
-## Pick One Language for the Interview
+## Обери одну мову програмування для співбесіди
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Ви можете використовувати будь-яку мову яку добре знаєте для співбесіди, проте для спібвесід у великі компанії,
+краще використовувати наступні мови:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Ви також можете використовувати ці мови, але спершу уважно перегляньте опис співбесіди або запитайте у рекрутера.
+Там можуть бути застереження:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Ви маєте дуже добре знати мову та її синтаксис, мати єдиний стиль коду та вміти використовувати переваги обраної мови.
 
-Read more about choices:
+Більше про вибір мови для співбесіди:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
 [See language resources here](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Ви побачите деякі навчальні курси C, C ++ та Python, включені нижче, тому що їх вчу.
+Також внизу можна знайти декілька книжок з цієї теми.
 
 ## Book List
+Це короткий список книжок які я використовую.
+Він скорочений задля економії вашого часу.
 
-This is a shorter list than what I used. This is abbreviated to save you time.
-
-### Interview Prep
+### Підготовка до співбесіди
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - відповіді на C++ та Java
+    - це хороший розігрів перед книжкою "Cracking the Coding Interview"
+    - вона доволі не складна, більшість задач простіша ніж ті, що дають на співбесідах(З того що я побачив).
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - відповіді на Java
 
-If you have tons of extra time:
+Якщо у вас є багато часу:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
 
-### Computer Architecture
+### Архітектура Комп'ютера
 
-If short on time:
+Якщо у вас мало часу:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
+    - Книга була опублікована в 2004 році, і вона трохи застаріла, але це прекрасний ресурс для розуміння роботи комп'ютера за короткий час.
     - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - Автор винайшов HLA, тому не ставтеся до згадок та прикладів в HLA з буквально. Не широко використовується, але дає базове розуміння того як працюють низькорівневі мови та складові комп'ютера.
+
+    - Наступні розділи закладуть гарний фундамент знань:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -279,19 +284,22 @@ If short on time:
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 
-If you have more time (I want this book):
+Якщо у вас є більше часу (Я хочу цю книгу):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - Для багатшого, більш сучасного (2011), але більш тривалого навчання
 
 ### Language Specific
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Ви маєте обрати мову для співбесіди.** Ось мої рекомендації щодо мов. У мене немає ресурсів для всіх мов. Додатки вітаються.
 
 If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+Якщо ви прочитали хоча б один з них, ви будете мати всі знання з структур даних та алгоритмів, які вам необхідні для того щоб почати вирішувати задачі.
+**Ви можете пропустити всі відео-лекції в цьому розділі**, якщо вам не потрібно повторення та загальний огляд.
+
+
+[Додаткові ресурси по кожній з мов тут.](programming-language-resources.md)
 
 ### C++
 

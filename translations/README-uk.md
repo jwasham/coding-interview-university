@@ -35,44 +35,44 @@ Original: [англійською](README.md)
 - [Як це використовувати](#Як-це-використовувати)
 - [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
 - [Про відео-ресурси](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
+- [Процес інтерв'ю & Загальна підготовка до інтерв'ю](#interview-process--general-interview-prep)
+- [Обери одну мову програмування для інтерв'ю](#pick-one-language-for-the-interview)
+- [Список літератури](#book-list)
+- [До Початку підготовки](#before-you-get-started)
+- [Чого ви тут не побачите](#what-you-wont-see-covered)
+- [Необхідні знання](#prerequisite-knowledge)
+- [План на кожен день](#the-daily-plan)
+- [Складність Алгоритмів / Big-O / Асимптотичний Аналіз](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Структури Даних](#data-structures)
+    - [Масиви](#arrays)
+    - [Зв'язані списки](#linked-lists)
+    - [Стек](#stack)
+    - [Черга](#queue)
+    - [Хеш Таблиця](#hash-table)
+- [Більше:](#more-knowledge)
+    - [Бінарний пошук](#binary-search)
+    - [Бітові операції](#bitwise-operations)
+- [Дерева](#trees)
+    - [Дерева - Основи & Нотатки](#trees---notes--background)
+    - [Бінарні дерева пошуку: BSTs](#binary-search-trees-bsts)
+    - [Купи / Черга з пріоритетом / Бінарна купа](#heap--priority-queue--binary-heap)
+    - Збалансовані дерева пошуку (загальна концепція, без деталей)
+    - Методи обходу: прямий порядок, центрований (центральний) порядок, зворотній порядок, пошук вшир, пошук вглиб
+- [Сортування](#sorting)
+    - сортування вибором
+    - сортування вставкою
+    - пірамідальне сортування
+    - швидке сортування
+    - сортування злиттям
+- [Графи](#graphs)
+    - орієнтовані
+    - не орієнтовані
+    - Матриця суміжності
+    - Список суміжності
+    - Методи обходу: пошук вшир, пошук вглиб
+- [Ще більше знань:](#even-more-knowledge)
+    - [Рекурсія](#recursion)
+    - [Динамічне Програмування](#dynamic-programming)
     - [Object-Oriented Programming](#object-oriented-programming)
     - [Design Patterns](#design-patterns)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
@@ -88,7 +88,7 @@ Original: [англійською](README.md)
     - [Floating Point Numbers](#floating-point-numbers)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
-- [Networking](#networking)
+- [Нетворкінг](#networking)
 - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
@@ -101,12 +101,12 @@ Original: [англійською](README.md)
 
 ---------------- Everything below this point is optional ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
+- [Додаткова Література](#additional-books)
+- [Додаткові Матеріали](#additional-learning)
+    - [Компілятори](#compilers)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
+    - [Теорія Інформації](#information-theory)
     - [Parity & Hamming Code](#parity--hamming-code)
     - [Entropy](#entropy)
     - [Cryptography](#cryptography)
@@ -188,20 +188,21 @@ Original: [англійською](README.md)
 [Більше про Github розмітку](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Не почувайтесь недостатньо розумними
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+- Успішні програмісти розумні, проте багато з них думають що вони недостатньо розумні
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+## Про Відео Ресурси
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Деякі відео доступні тільки після реєстрації на курси Coursera, EdX, або Lynda.com. Тут вони позначені як MOOCs.
+Деколи вам необхідно буде чекати декілька місяців, щоб отримати такі матеріали, через те що курси мають свої цикли та сесії. Курси на Lynda.com не є безкоштовними.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+    Я буду радий якщо ви допоможете мені знайти та додати відео що доступні завжди і доступні безкоштовно.
+    Наприклад відео викладені на YouTube.
+    Мені також подобається використовувати відкриті лекції університетів (МІТ, Harvard, і т.д.).
 
 
-## Interview Process & General Interview Prep
+## Процес інтерв'ю & Загальна підготовка до інтерв'ю
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)

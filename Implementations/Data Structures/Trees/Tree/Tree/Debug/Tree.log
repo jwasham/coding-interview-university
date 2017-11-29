@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\chris\documents\github\coding-interview-university\implementations\data structures\trees\tree\tree\tree.h(139): warning C4715: 'Tree::find': not all control paths return a value
+  Tree.vcxproj -> C:\Users\Chris\Documents\GitHub\coding-interview-university\Implementations\Data Structures\Trees\Tree\Debug\Tree.exe
+  Tree.vcxproj -> C:\Users\Chris\Documents\GitHub\coding-interview-university\Implementations\Data Structures\Trees\Tree\Debug\Tree.pdb (Partial PDB)

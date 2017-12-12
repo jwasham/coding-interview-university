@@ -1,4 +1,4 @@
-# Kodlama Mülakat Üniversitesi
+# Kodlama Mülakatı Üniversitesi
 
 > Aslında bunu yazılım mühendisi olabilmek için kısa bir yapılacaklar listesi olarak hazırladım,
 > ama bugün gördüğünüz büyük listeye dönüştü. Bu çalışma planını tamamladıktan sonra, [Amazon tarafından
@@ -458,35 +458,34 @@ Bunların hepsine ihtiyacın yok. Sadece [mülakat için bir dil](#pick-one-lang
 
 Neden bunların hepsinde kod var?
 - Ben bıkana kadar, pratik, pratik, pratik, ve sorunsuzca yapılabilir(bazılarının bir çok köşe durumu var ve hatırlanması için defter tutma ayrıntıları var)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+- Ham kısıtlamalar ile çalışın (Çöp toplayıcı yardımı olmadan belleği ayırma / boşaltma (Python hariç))
+- Yerleşik türlerden faydalanarak, yerleşik araçları gerçek dünya kullanımında tecrübe edindim. (kendi bağlı liste uygulamamı üründe kullanmayacağım.)
 
-I may not have time to do all of these for every subject, but I'll try.
+Her konu için bunları yapmaya vaktim olmayabilir, ama deneyeceğim.
 
-You can see my code here:
+Kodumu buradan görebilirsiniz:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Her algoritmanın cesaretlerini ezberlemenize gerek yok.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdileri test edin. Sonra bilgisayar dışında test edin.
 
-## Prerequisite Knowledge
+## Önkoşul Bilgisi
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **C Öğren**
+    - C her yerde. Kitaplarda, derslerde ve videolarda örnekler göreceksin, çalışırken *her yerde*.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+        - Bu kısa bir kitap,C dili üzerinde büyük bir ipucu verir, ve biraz pratik yaparsanız hızlı bir şekilde yetkinleşebilirsiniz.  C'yi anlarsanız programların ve hafızaların nasıl çalıştığını anlarsınız.
+        - [sorulara cevap verin](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+- [ ] **Bilgisayarlar programları nasıl işlerler:**
+    - [ ] [CPU programı nasıl yürütür (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [Makine Kodu Talimatları (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
+## Algoritma karmaşıklığı / Big-O / Asimptotik analiz
+- uygulanacak bir şey değil
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -506,64 +505,63 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+    Bazı dersler çok matematik içeriyorsa, aşağıya atlayıp ayrık matematik videolarını izleyerek arkaplan bilgisi edilebilirsiniz.
 
-## Data Structures
+## Veri Yapıları
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+- ### Diziler
+    - Otomatik olarak yeniden boyutlandırılan bir vektör uygulayın.
+    - [ ] Tanım:
+        - [Diziler (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UC Berkeley CS61B - Lineer ve Çok Boyutlu Diziler (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [Basit Diziler (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [Çok Boyutlu (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Dinamik Diziler (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Pürüzlü Diziler (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Pürüzlü Diziler (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [Dizileri yeniden boyutlandırma (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+    - [ ] Vektör uygulayın (otomatik yeniden boyutlandırmaya sahip değiştirilebilir dizi):
+        - [ ] Dizileri ve işaretçileri kullanarak kodlama pratiği yapın, ve indexleme kullanmak yerine işaretçi matematiği kullanarak bir indexe atlayın.
+        - [ ] ayrılmış belleğe sahip yeni ham veri dizisi
+            - kaputun altında int dizini kullanabilir, özelliklerini kullanamazsınız.
+            - 16 ile başlayın, başlangıç sayısı daha büyükse, 2'nin katlarını kullanın - 16, 32, 64, 128
+        - [ ] size() - öğe sayısı
+        - [ ] capacity() - tutabileceği öğe sayısı
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(index) - verilen indekse ait öğeyi döndürür, eğer o sınırlarda indeks yoksa patlar.
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - [ ] insert(index, item) - indekse öğe ekler, bu dizinin değerini ve arkasındaki öğeleri sağa kaydırır.
+        - [ ] prepend(item) - indeks 0'dan yukarıya eklemek için kullanılır
+        - [ ] pop() - en sondakini kaldırır, geri döndürür
+        - [ ] delete(index) - verilen indeksteki öğeyi siler, arkadaki öğeleri sola kaydırır.
+        - [ ] remove(item) - öğeyi arar ve onu tutan indeksi kaldırır (birden çok indekste olsa bile)
+        - [ ] find(item) - öğeyi arar ve öğeye sahip ilk indeksi döndürür, bulamazsa -1 döndürür
+        - [ ] resize(new_capacity) // özel fonksiyon
+            - kapasiteye erişince, boyutu iki katına çıkarın
+            - bir öğeyi çıkardığınızda, boyut 1/4 kapasiteye sahipse, yarısına yeniden boyutlandırın
+    - [ ] Zaman
+        - O(1) sona ekleme/silmede (daha fazla yer ayırmak için amortize edilir), index, ya da güncelleme
+        - O(n) başka yere ekleme/silmede
+    - [ ] Alan
+        - bellekte bitişiklik, performans artışına yardımcı olur
+        - gereken alan = (dizi kapasitesi, ki >= n) * öğe boyutu, 2n için, yine O(n)
 
-- ### Linked Lists
-    - [ ] Description:
+- ### Bağlı Listeler
+    - [ ] Tanım:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
+            - tüm video değil, Node yapısı ve bellek ayırma için olan bölümler.
+    - [ ] Bağlı Listeler vs Diziler:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+    - [ ] [neden bağlı listelerden kaçınmalısınız (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Yakaladım: Pointer için pointer bilgisine ihtiyacınız var:
+        (bir pointer'ı bir fonksiyona yolladığınızda, bu pointer'ın işaret ettiği adresi değiştirebilir.)
+        Bu sayfa ptr ile ptr arasında bir kavrayış elde etmek içindir. Bu listeyi yukarıdan aşağıya geçiş tarzını tavsiye etmiyorum. Okunabilirlik ve sürdürülebilirlik, zekice olması nedeniyle acı çekici oluyor.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
+    - [ ] uygula (Kuyruk pointer ile yaptım & onsuz yaptım):
         - [ ] size() - returns number of data elements in list
         - [ ] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)

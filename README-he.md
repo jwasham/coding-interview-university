@@ -222,7 +222,7 @@ Print out a "[future Googler](https://github.com/jwasham/google-interview-univer
 ## אודות גוגל
 
 - [ ] לסטודנטים - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] איך החיפש עובד:
+- [ ] איך החיפוש עובד:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
@@ -245,7 +245,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     I like using university lectures.
 
 
-## Interview Process & General Interview Prep
+## תהליך הראיון והכנה כללית לראיון
 
 - [ ] סרטונים:
     - [ ] [איך לעבוד בגוגל: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
@@ -1355,15 +1355,15 @@ Supplemental:
 
 See [Book List above](#book-list)
 
-## Coding exercises/challenges
+## תרגילי/אתגרי קידוד
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+ברגע שלמדתם מעל ומעבר, תתחילו להשתמש במה שלמדתם.
+תעשו אתגרי קידוד כל יום, כמה שאתם יכולים.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Challenge sites:
+אתרים עם אתגרים:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1374,7 +1374,8 @@ Challenge sites:
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
-Maybe:
+ראיונות דמה:
+- [Pramp - להתאמן בראיונות קידוד עם אחרים, בחינם](https://www.pramp.com/)
 - [Mock interviewers from big companies](http://www.gainlo.co/)
 
 ## Once you're closer to the interview

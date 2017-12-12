@@ -1,15 +1,21 @@
-﻿# Google Interview University
+﻿#  कोडिंग साक्षात्कार विश्वविद्यालय
+>मैं मूल रूप से इसे एक सॉफ़्टवेयर इंजीनियर बनने के लिए अध्ययन विषयों की एक छोटी-छोटी सूची के रूप में बनाया था, लेकिन यह आज की बड़ी सूची में बढ़ी है। इस अध्ययन योजना के माध्यम से जाने के बाद, [मुझे अमेज़ॅन पर सॉफ़्टवेयर डेवलपमेंट इंजीनियर के रूप में काम पर रखा गया है !](https://startupnextdoor.com/ive-been-acquired-by->amazon/?src=ciu) आपको संभवतः जितना मैंने किया उतना ही पढ़ना नहीं होगा। वैसे भी, आपको जो भी चाहिए वह यहां है
+>
+>यहां सूचीबद्ध आइटम आपको किसी साफ्टवेयर कंपनी के बारे में साक्षात्कार में अच्छी तरह से तैयार करेंगे, जिनमें दिग्गज, अमेज़ॅन, फेसबुक, गूगल या माइक्रोसॉफ्ट शामिल हैं।
+>
+>आपको शुभकामनाएं!
 
 ## यह क्या है?
-
-यह मेरा वेब डेवलपर से गूगल सॉफ्टवेर इंजिनियर बनाने की अध्ययन योजना हैं.
+यह एक बड़ी कंपनी के लिए सॉफ्टवेयर इंजीनियर को वेब डेवलपर (स्वयं सिखाया, कोई सीएस डिग्री नहीं) से जाने के लिए मेरी बहु-महीने की अध्ययन योजना है
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-यह लम्बी सूची **गूगल कोचिंग नोट्स** से उद्धरण एव विस्तारित की गयी हैं, ताकि इन बातो को आपको पता चल सके. मैंने आपके इंटरव्यू में मदद कर सकने वाले कुछ अतिरिक्त विषय सूचि के, आखिर में डाले है. 
+यह नए सॉफ़्टवेयर इंजीनियरों या सॉफ़्टवेयर / वेब विकास से सॉफ़्टवेयर इंजीनियरिंग (जहां कंप्यूटर साइंस ज्ञान आवश्यक है) से स्विच करने के लिए है। यदि आपके पास कई वर्षों का अनुभव है और कई वर्षों के सॉफ्टवेयर इंजीनियरिंग अनुभव का दावा कर रहे हैं, तो एक कठिन साक्षात्कार की अपेक्षा करें।
 
-अनेक विषय, **स्टीव येग्गे** की "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" से हैं. 
+यदि आपके पास सॉफ्टवेयर / वेब विकास के कई सालों का अनुभव है, तो ध्यान दें कि सॉफ्टवेयर, वेब डेवलपमेंट से भिन्न Google, अमेज़ॅन, फेसबुक और माइक्रोसॉफ्ट दृश्य सॉफ्टवेयर इंजीनियरिंग जैसी बड़ी सॉफ्टवेयर कंपनियों और उन्हें कंप्यूटर साइंस ज्ञान की आवश्यकता होती है।
 
+यदि आप एक विश्वसनीयता इंजीनियर या सिस्टम इंजीनियर बनना चाहते हैं, तो वैकल्पिक सूची (नेटवर्किंग, सुरक्षा) से अधिक जानें।
+चाहिए
 ---
 
 ## अनुक्रमणिका
@@ -55,7 +61,7 @@
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
     - [गार्बेज कलेक्शन](#garbage-collection)
     - [काशेस](#caches)
-    - [Processes and Threads](#processes-and-threads)
+    - [प्रोसेस और थ्रेड](#processes-and-threads)
     - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
     - [Papers](#papers)
     - [Unicode](#unicode)
@@ -105,8 +111,6 @@
 
 ## इसका उपयोग क्यू करे?
 
-मैं यह योजना का अनुपालन गूगल इनेर्विएव के तयारी के लिए कर रहा हूँ. मैं १९९७ से वेब, सर्विसेज और स्टार्टअप का निर्माण कर रहा हूँ. मेरे पास संगणक शात्र की पदवी ना होक अर्थशात्र की पदवी हैं. मैं अपने कैरियर में बहुत सफल रहा हूँ, पर मुजे गूगल में काम करने की इच्छा हें. मैं एक बड़े सिस्टम में प्रगति और कंप्यूटर प्रणालियों की एक असली समझ प्राप्त करना चाहते हु, अल्गोरिथम की निपुणता, डाटा स्ट्रक्चर का निष्पादन,
-लो-लेवल भाषाए, और वो कैसे काम करती हें. और अगर आपको एनमेंसे किसी की जानकारी नहीं हे तो गूगल आपको नियुन्क्त नहीं करेगा.
 मैंने जब ये परियोजना शुरू की, तब मैं स्टैक और  हीप में फरक नहीं जनता था, मुजे नहीं पता था की Big-O क्या हे, ट्रीज क्या हे, या ग्राफ को पार कैसे करते हैं. अगर मुजे छाटने का अल्गोरिथम लिखना पड़ता तो मैं आपको ये बता सकता हु के वो इतना ख़ास नहीं होगा. जो भी डाटा स्ट्रक्चर का मैंने उपयोग किया वो भाषा में समाविष्ट था, और वो कैसे काम करता हे उसकी कोई जानकारी मुजे नहीं थी. मुजे कभी मेमोरी का संचालन नहीं करता पड़ा, जबतक मेरी चलाई कोई प्रोसेस "out of
 memory" का एरर न दे, और तब मुजे कोई वैकल्पिक हल धुन्दाना पड़ता था. मैंने मेरी जिन्दगी में  बहोत कम मुल्ती-डायमेंशनल ऐरे और बहोत सारे अस्सोसिअतिव् ऐरे का उपयोग किया हे, पर मैंने कोई भी डाटा स्ट्रक्चर शुरू से नहीं लिखा था.
 पर इस अध्ययन योजना का उपयोग करने बाद मेरा नौकरी लगाने का  आत्मविश्वास बहोत बढ़ा हें. यह एक लम्बी योजना हें. यह मेरे लिए बहोत महीनोतक चलेगी. अगर आपको ईंमैसे कुछ पता हैं तो आपको कम वक्त लगेगा.
@@ -122,92 +126,31 @@ memory" का एरर न दे, और तब मुजे कोई वै
 
 [Github-flavored markdown की अधिक जानकारी](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## गूगली मूड में आ जाएँ
+## कभी भी आप चालाक नहीं हो ऐसा ना सोचो
 
-"[फ्यूचर गूगलर](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" साइन की एक (या दो) प्रिंट निकाले और अपने पुरस्कार को आपने नजरो के सामने रखे.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
-## क्या मुजे नौकरी मिली?
-
-मैंने अभीतक प्रयुक्त नहीं किया हें.
-
-मुजे अभीभी कुछ दींन हे ये सूचि समाप्त करने के लिए, और आगे पुरे हफ्ते से में पूरा दिनप्रोग्रामिंग प्रश्न करने वाला हु. ये कुछ हफ्ते तक चलेगा और फिर मैं मेरे रेफेरेल जो की मैं  फेब्रुअरी से रखा हे उससे नौकरी का अर्ज दूंगा.
-
-    Thanks for the referral, JP.
-
-
-## मेरे साथ चले
-
-मैं एक सफ़र पर हु, मेरे साथ चलिए मेरे ब्लॉग से साथ [GoogleyAsHeck.com](https://googleyasheck.com/)
-
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
-- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
-
-## कभीबी आप चालक नहीं हो ऐसा ना सोचो
-
-- गोगल के अभियंता चालक होते हें, पर बहोत लोगो असुरक्षा होती हे की वो नहीं चालक नहीं हें, जबकि वो गूगल में काम करते हें! 
+- सफल सॉफ्टवेयर इंजीनियर चालाक होते हें, पर बहुत लोगो असुरक्षा होती है की वो चालाक नहीं हैं ! 
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-
-## गूगल के बारे में
-
-- [ ] छात्रों के लिए - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] सर्च कैसे काम करता हे:
-    - [ ] [सर्च का विकास (विडियो)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [सर्च कैसे काम करता हैं - एक कहानी](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [सर्च कैसे काम करता हैं](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [सर्च कैसे काम करता हैं - मैट कट्ट्स (विडियो)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [कैसे गूगल अपने सर्च एल्गोरिथ्म में सुधार करता है (विडियो)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] शृंखला:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [हमारी जरूरत पता लगाने के लिए गूगल का गुप्त अध्ययन ](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [गूगल सर्च आपका अगला दिमाग होगा](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [Demis Hassabis का गहरा मन](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [पुष्तक: गूगल कैसे काम करता हैं](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google घोषणा - ओक्टोबर २०१६ (विडियो)](https://www.youtube.com/watch?v=spDg-Q7zmcM)
 
 ## विडियो संसाधनों के बारे में
 
 कुछ विडियो सिर्फ Coursera, EdX, or Lynda.com के वर्ग में दाखिला लेने का बाद ही उपलब्ध हैं. उन्हें MOOC कहा जाता हैं.
-It is free to do so, but sometimes the classes are not in session so you have to wait a couple of months, so you have no access. 
+कभी-कभी कक्षाएं सत्र में नहीं होती हैं इसलिए आपको कुछ महीने इंतजार करना पड़ता है, इसलिए आपके पास पहुंच नहीं है। Lynda.com पाठ्यक्रम मुफ्त नहीं हैं
 
     I'd appreciate your help converting the MOOC video links to public sources to replace the online course विडियो over time. I like using university lectures.
 
 
 ## इंटरव्यू प्रकिया और साधारण इंटरव्यू तयारी
 
-- [ ] विडियो:
-    - [ ] [गूगल में कैसे काम करे -  उमीदवार अनुशिक्षण सत्र (विडियो)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [गूगल भर्तीकर्ताओं की तकनीकी इंटरव्यू टिप्स (विडियो)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [गूगल में कैसे काम करे: तकनीकी रिज्यूमे तयारी (विडियो)](https://www.youtube.com/watch?v=8npJLXkcmu8)
-
-- [ ] लेख:
-    - [ ] [तिन कदमोमे गूगलर बने](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [गूगल में वो नौकरी लो](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(बहोत पुराना)_ [गूगल में नौकरी कैसे ले, इन्तेविएव प्रश्न, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [फोन स्क्रीन वाले सवाल](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
-
-- [ ] अतिरिक्त (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (विडियो)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (विडियो)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] बड़े ४ मैं नौकरी कैसे ले:
-        - [ ] ['बड़े ४ मैं नौकरी कैसे ले - Amazon, Facebook, Google और Microsoft' (विडियो)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [गूगल इंटरव्यू में असफलता](http://alexbowe.com/failing-at-google-interviews/)
+[ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+[ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+[ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+[ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (विडियो)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (विडियो)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] बड़े ४ मैं नौकरी कैसे ले:
+    - [ ] ['बड़े ४ मैं नौकरी कैसे ले - Amazon, Facebook, Google और Microsoft' (विडियो)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
 ## इंटरव्यू के लिए एक संगणक भाषा चुने
-
-मैं इसके बारे में इस छोटे से लेख लिखा था: [महत्वपूर्ण: गूगल इंटरव्यू के लिए एक भाषा चुनें](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
 इंटरव्यू मैं आप कोंसिभी एक भाषा जिसमे आप आरामदायक हो वो चुन सकते हैं, पर गूगल के लिए निम्नलिखित भाषाएँ अच्छी रहेगी:
 
@@ -220,17 +163,134 @@ It is free to do so, but sometimes the classes are not in session so you have to
 - JavaScript
 - Ruby
 
-आप भाषा में बहुत सहज हो, और उसकी जानकार होने की जरूरत है.
+आपको भाषा में बहुत सहज होना चाहिए और जानकार होना चाहिए।
 
 विकल्पों के बारे में अधिक पढ़ें:
 
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
-- https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
 [भाषा संसाधनोंको यहाँ देखें](programming-language-resources.md)
 
 क्युकी में मैं पढ़ रहा हूँ, आपको कुछ C, C++, और Python शामिल दिखेगा. वहाँ कुछ शामिल किताबें, नीचे आखिर में देख ले.
+
+## पुस्तक सूची
+यह मैंने जो इस्तेमाल किया था उससे छोटी सूची है यह आपको समय बचाने के लिए संक्षिप्त है
+
+### इंटरव्यू प्रेप
+- [ ]  प्रोग्रामिंग साक्षात्कार का खुलासा: आपकी अगली नौकरी, दूसरी संस्करण को लैंडिंग करने के लिए रहस्य
+    - सी ++ और जावा में जवाब
+    - यह कोडिंग साक्षात्कार के लिए क्रैकिंग के लिए एक अच्छा वार्म-अप है
+    - बहुत मुश्किल नहीं है, सबसे अधिक समस्याएं आपको साक्षात्कार में जो दिखाई दे रही हैं उससे अधिक आसान हो सकती हैं (मैंने जो पढ़ा है)
+- [ ] कोडिंग साक्षात्कार, 6 वें संस्करण
+    - जावा में जवाब
+
+यदि आपके पास बहुत अधिक समय है:
+
+- [ ] [प्रोग्रामिंग साक्षात्कार के तत्व (सी ++ संस्करण)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [ ] प्रोग्रामिंग साक्षात्कार के तत्व (जावा संस्करण)
+    - [किताब](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+    - [कम्पेनियन प्रोजेक्ट - पुस्तक में हर समस्या के लिए विधि स्टब और टेस्ट](https://github.com/gardncl/elements-of-programming-interviews)
+
+### कंप्यूटर आर्किटेक्चर
+
+यदि कम समय पर:
+
+- [ ] [ग्रेट कोड लिखें: वॉल्यूम 1: मशीन को समझना](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - यह पुस्तक 2004 में प्रकाशित हुई थी, और कुछ समय पुरानी है, लेकिन संक्षिप्त में एक कम्प्यूटर को समझने के लिए यह एक बढ़िया संसाधन है।
+    - लेखक ने एचएलए का आविष्कार किया, इसलिए नमक के एक अनाज के साथ एचएलए में उल्लेख और उदाहरण ले लीजिए। व्यापक रूप से उपयोग नहीं किया जाता है, लेकिन सभ्य उदाहरण कौन सी की तरह लग रहा है।
+    - ये अध्याय आपको एक अच्छी नींव देने के लिए पढ़ने योग्य हैं:
+        - अध्याय 2 - संख्यात्मक प्रतिनिधित्व
+        - अध्याय 3 - बाइनरी अंकगणित और बिट ऑपरेशंस
+        - अध्याय 4 - फ़्लोटिंग-प्वाइंट प्रस्तुति
+        - अध्याय 5 - चरित्र प्रतिनिधित्व
+        - अध्याय 6 - मेमोरी संगठन और एक्सेस
+        - अध्याय 7 - संमिश्र डेटा प्रकार और स्मृति वस्तुएं
+        - अध्याय 9 - सीपीयू वास्तुकला
+        - अध्याय 10 - निर्देश सेट आर्किटेक्चर
+        - अध्याय 11 - स्मृति वास्तुकला और संगठन
+        
+यदि आपके पास अधिक समय है (मुझे यह किताब चाहिए):
+
+- [ ] [कंप्यूटर वास्तुकला, पांचवें संस्करण: एक मात्रात्मक दृष्टिकोण](https://www.amazon.com/dp/012383872X/)
+    - एक अमीर, अधिक अप-टू-डेट (2011) के लिए, लेकिन लंबे समय तक उपचार
+
+### भाषा विशिष्ट
+
+**साक्षात्कार के लिए आपको भाषा चुननी होगी (ऊपर देखें)।** यहां मेरी सिफारिशें भाषा के अनुसार हैं मेरे पास सभी भाषाओं के लिए संसाधन नहीं हैं मैं अतिरिक्त स्वागत करता हूँ
+
+यदि आप इनमें से किसी एक को पढ़ते हैं, तो आपको सभी डेटा संरचनाएं और एल्गोरिदम ज्ञान होना चाहिए, आपको कोडिंग समस्याएं शुरू करने की आवश्यकता होगी। **आप इस प्रोजेक्ट में सभी वीडियो व्याख्यान छोड़ सकते हैं** , अगर आप समीक्षा पसंद नहीं करते।
+
+[यहां अतिरिक्त भाषा-विशिष्ट संसाधन हैं]((programming-language-resources.md)
+
+
+### सी ++
+
+मैंने इन दोनों को नहीं पढ़ा है, लेकिन वे बेहद रेटेड हैं और सेंडविक द्वारा लिखित हैं वह बहुत अच्छा है।
+
+- [ ] [सी ++ में अल्गोरिदम, भाग 1-4: बुनियादी बातों, डेटा संरचना, छंटनी, खोज](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+- [ ] [सी ++ भाग 5 में एल्गोरिदम: ग्राफ़ एल्गोरिदम](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+यदि आपके पास सी ++ के लिए बेहतर सिफारिश है, तो कृपया मुझे बताएं एक व्यापक संसाधन की तलाश में
+
+### जावा
+
+- [ ] [एल्गोरिदम (सेडगेविक और वेन)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - पुस्तक सामग्री के साथ वीडियो (और सेडगेविक!):
+        - [एल्गोरिदम I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
+        - [एल्गोरिदम II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
+या:
+
+- [ ] [जावा में डाटा स्ट्रक्चर और एल्गोरिदम](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - गुडरिक, तामासिया, गोल्डवासेर द्वारा
+    - यूसी बर्कले में सीएस परिचय पाठ्यक्रम के लिए वैकल्पिक पाठ के रूप में प्रयोग किया जाता है
+    - नीचे दिए गए अजगर संस्करण पर मेरी पुस्तक रिपोर्ट देखें। यह पुस्तक उसी विषयों को शामिल करती है
+
+### Python
+
+- [ ] [पायथन में डेटा स्ट्रक्चर और एल्गोरिदम](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - गुडरिक, तामासिया, गोल्डवासेर द्वारा
+    - मुझे यह पुस्तक पसंद है यह सब कुछ और अधिक कवर किया
+    - पायथनिक कोड
+    - मेरी चमकती पुस्तक रिपोर्ट: https://startupnextdoor.com/book-report-data-structures-and-lgorithms-in-python/sss
+    
+### वैकल्पिक पुस्तकें
+
+**कुछ लोग ये सुझाते हैं, लेकिन मुझे लगता है कि यह ज़्यादा पानी में जा रहा है, जब तक कि आपके पास कई सालों तक सॉफ्टवेयर इंजीनियरिंग अनुभव न हो और बहुत कठिन साक्षात्कार की अपेक्षा करें:**
+
+- [ ] [एल्गोरिदम डिजाइन मैनुअल (स्कीएना)](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
+    - एक समीक्षा और समस्या पहचान के रूप में
+    - एल्गोरिथ्म सूची हिस्सेदारी आप एक साक्षात्कार में मिल जाएगा कठिनाई के दायरे से परे है।
+    - इस पुस्तक में 2 भाग हैं: 
+        - डेटा संरचनाओं और एल्गोरिदम पर कक्षा पाठ्यपुस्तक
+            - पेशेवरों:
+                - एक अच्छी समीक्षा है क्योंकि किसी भी एल्गोरिदम पाठ्यपुस्तक होंगे
+                - उद्योग और शिक्षा के क्षेत्र में समस्याओं को सुलझाने के अपने अनुभवों से अच्छी कहानियां
+                - सी में कोड उदाहरण
+            - विपक्ष:
+                - CLRS के रूप में घने या अभेद्य हो सकता है, और कुछ मामलों में, CLRS कुछ विषयों के लिए एक बेहतर विकल्प हो सकता है
+                - अध्याय 7, 8, 9 का पालन करने की कोशिश करने के लिए दर्दनाक हो सकता है, क्योंकि कुछ वस्तुएं अच्छी तरह समझाई नहीं जाती हैं या मुझे जितना अधिक मस्तिष्क की ज़रूरत नहीं है
+                - मुझे गलत मत बताना: मुझे स्कीएना, उनकी शिक्षण शैली और व्यवहार, लेकिन मैं स्टोनी ब्रूक सामग्री नहीं हो सकता
+        - एल्गोरिथ्म सूची:
+            - यह वास्तविक कारण है कि आप इस पुस्तक को खरीदते हैं।
+            - इस भाग के बारे में जानने के लिए एक बार मैं इसके माध्यम से अपना रास्ता बना लिया है यहाँ अद्यतन होगा।
+    - Kindle पर इसे किराए पर कर सकते हैं
+    - अच्छे दामों पर पाठ्य पुस्तकें के लिए Half.com एक महान संसाधन है
+    - उत्तर:
+        - [समाधान की](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [समाधान की](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+    - [शुद्धिपत्र](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+    
+- [ ] [एल्गोरिदम का परिचय]((https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844))
+    - **महत्वपूर्ण:** इस पुस्तक को पढ़ना केवल सीमित मूल्य होगा। यह पुस्तक एल्गोरिदम और डेटा संरचनाओं की एक अच्छी समीक्षा है, लेकिन आपको यह नहीं सिखाती कि अच्छे कोड कैसे लिखें। आपको एक सभ्य समाधान को कुशलतापूर्वक कोडित करने में सक्षम होना होगा।
+    - अच्छे दामों पर पाठ्य पुस्तकें के लिए Half.com एक महान संसाधन है
+    - उर्फ सीएलआर, कभी कभी सीएलआरएस, क्योंकि स्टीन को खेल में देर हो गई थी
+ - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+    - पहले अध्यायों में प्रोग्रामिंग समस्याओं (कुछ बहुत पुराने डेटा टेप का उपयोग करते हुए) के लिए चतुर समाधान प्रस्तुत करते हैं, लेकिन यह सिर्फ एक परिचय है। यह प्रोग्राम डिजाइन और आर्किटेक्चर पर एक गाइडबुक है, जो कोड कोड जैसा है, लेकिन बहुत छोटा है।
+
+- ~~शेन द्वारा "एल्गोरिदम और प्रोग्रामिंग: प्रॉब्लम एंड सॉल्यूशंस"~~
+    - एक अच्छी किताब, लेकिन कई पन्नों पर समस्याओं के माध्यम से काम करने के बाद मैं पास्कल से निराश हो गया, जबकि लूप, 1-अनुक्रमित सरणियां, और अस्पष्ट पद की स्थिति की संतुष्टि परिणाम 
+    - बल्कि किसी अन्य पुस्तक या ऑनलाइन कोडिंग समस्याओं से कोडिंग समस्याओं पर समय बिताना होगा।
 
 ## प्रारंभ करने से पहले
 
@@ -240,34 +300,41 @@ It is free to do so, but sometimes the classes are not in session so you have to
 
 ### १. आपसे यह सब याद नहीं होगा
 
-मैंने घंटो वीडिय के विडियो देखे और टिप्पणिया लिखी, और महीनो बाद मुजे कुछ याद नहीं रहा. सबकी समीक्षा करने के लिए मैंने 3 दिन मेरी तिप्पनिओयो और flashcards बनाने में बितायें (नीचे देखें).
+मैंने घंटो वीडिय के विडियो देखे और टिप्पणिया लिखी, और महीनो बाद मुजे कुछ याद नहीं रहा. सबकी समीक्षा करने के लिए मैंने 3 दिन मेरी तिप्पनिओयो और flashcards बनाने में बितायें 
+कृपया पढ़ें तो आप मेरी गलतियां नहीं करेंगे:
+
+[कंप्यूटर विज्ञान ज्ञान को बनाए रखना](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
 ### २. फ्लाश्कार्ड्स का उपयोग कीजिये 
 
+इस समस्या को हल करने के लिए, मैंने एक छोटे से फ्लैशकार्ड साइट बनाई जहां मैं 2 प्रकार के फ्लैशकार्ड जोड़ सकता था: सामान्य और कोड प्रत्येक कार्ड के पास भिन्न स्वरूपण है।
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+मैंने एक मोबाइल-पहले वेबसाइट बनाई है, इसलिए मैं अपने फोन और टैबलेट पर समीक्षा कर सकता हूं, जहां कहीं भी हूं।
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+अपना खुद का मुफ्त बनाएं:
+ - [फ़्लैशकार्ड साइट रेपो] (https://github.com/jwasham/computer-science-flash-cards)
+ - [मेरे फ़्लैश कार्ड डेटाबेस (पुराने - 1200 कार्ड) :](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db)
+ - [मेरा फ़्लैश कार्ड डेटाबेस (नया - 1800 कार्ड) :](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db)
 
-Make your own for free:
+ध्यान रखें मैं जहाज़ के ऊपर गया और विधानसभा भाषा और पायथन तुल्यता से लेकर मशीन सीखने और आंकड़ों तक सब कुछ कवर करने वाले कार्ड हैं। इसकी आवश्यकता के लिए यह बहुत अधिक है
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+**फ्लैशकार्ड्स पर ध्यान दें:** पहली बार जब आप पहचानते हैं कि आपको जवाब पता है, तो इसे ज्ञात के रूप में चिह्नित नहीं करें आपको उसी कार्ड को देखना होगा और उसे सच में पता होना चाहिए इससे पहले कि आप इसे सच में जानते हैं। पुनरावृत्ति आपके दिमाग में गहरा ज्ञान डाल देगा।
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the 
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in 
-your brain.
+मेरी फ्लैशकार्ड साइट का उपयोग करने का एक विकल्प अनकी है , जिसे कई बार मेरी सिफारिश की गई है यह आपको याद रखने में मदद करने के लिए पुनरावृत्ति प्रणाली का उपयोग करता है यह उपयोगकर्ता के अनुकूल है, सभी प्लेटफ़ॉर्म पर उपलब्ध है और इसमें क्लाउड सिंक सिस्टम है यह आईओएस पर $ 25 का खर्च है, लेकिन अन्य प्लेटफार्मों पर मुफ्त है
 
-### 3. Review, review, review
+अनू प्रारूप में मेरा फ्लैशकार्ड डाटाबेस: https://ankiweb.net/shared/info/25173560 (धन्यवाद @ एक्सआईवेनिया )
 
-I keep a set of cheatsheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
 
-Take a break from programming problems for a half hour and go through your flashcards.
 
-### 4. Focus
+### 3. समीक्षा करें, समीक्षा करें, समीक्षा करें
 
-There are a lot of distractions that can take up valuable time. Focus and concentration is hard.
+मैं ASCII ओएसआई स्टैक, बिग-ओ नोटेशन और अधिक पर धोखा पत्रों का एक सेट रखता हूं। मेरे पास कुछ खाली समय है जब मैं उन्हें पढ़ता हूं।
+
+एक आधे घंटे के लिए प्रोग्रामिंग समस्याओं से एक ब्रेक ले लो और अपने flashcards के माध्यम से जाना
+
+### 4. फोकस
+
+ऐसे कई विकर्षण हैं जो कि मूल्यवान समय ले सकते हैं फोकस और एकाग्रता कठिन हैं
 
 ## इसमे क्या समाविष्ट नहीं हे
 
@@ -282,77 +349,70 @@ There are a lot of distractions that can take up valuable time. Focus and concen
 कुछ विषय एक दिन ले सकते हैं और कुछ ज्यादा.कुचो का सिर्फ पढाई हो सकती हैं पर अमल नहीं हो सकता.
 
 हर दिन मैं निचली सूचि से एक विषय लेता हु, उसका विडियो देखता हु, और उसका अमल निचे दिए तरह करता हूँ:
-    C - struct और function का उपयोग करके  जो  struct * या args का  उपयोग करते हैं.
-    C++ - built-in types का उपयोग न करके
-    C++ - built-in types का उपयोग करके, जैसे STL की std::list, linked list के लिए
-    Python - built-in types का उपयोग करके (Python का अभ्यास रखने के लिए)
-    and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-    You may do Java or something else, this is just my thing.
+- C - struct और function का उपयोग करके  जो  struct * या args का  उपयोग करते हैं.
+- C++ - built-in types का उपयोग न करके
+- C++ - built-in types का उपयोग करके, जैसे STL की std::list, linked list के लिए
+- Python - built-in types का उपयोग करके (Python का अभ्यास रखने के लिए)
+- और यह सुनिश्चित करने के लिए परीक्षण लिखते हैं कि मैं इसे सही कर रहा हूं, कभी-कभी बस सरल () कथन का उपयोग कर
+- आप जावा या कुछ और कर सकते हैं, यह सिर्फ मेरी बात है
+आपको इन सभी की ज़रूरत नहीं है साक्षात्कार के लिए आपको केवल एक ही भाषा की आवश्यकता है
 
-Why code in all of these?
-    Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-    Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-    Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+इन सब में कोड क्यों?
+- अभ्यास, अभ्यास, अभ्यास, जब तक मैं इससे बीमार न हो, और यह कोई समस्या नहीं कर सकता (कुछ बहुत बढ़िया मामलों और याद रखने के लिए बहीखाता विवरण)
+- कच्ची बाधाओं के भीतर काम करना (कचरा संग्रहण की सहायता के बिना स्मृति को आवंटित करना / मुक्त करना (पायथन को छोड़कर))
+- अंतर्निहित प्रकारों का उपयोग करें, इसलिए मुझे वास्तविक दुनिया के उपयोग के लिए निर्मित उपकरणों का उपयोग करने का अनुभव है (उत्पादन में अपनी स्वयं की लिंक्ड सूची कार्यान्वयन नहीं लिखना)
 
-I may not have time to do all of these for every subject, but I'll try.
+मेरे पास हर विषय के लिए ये सब करने का समय नहीं है, लेकिन मैं कोशिश करूँगा
 
-You can see my code here:
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+आप यहां अपना कोड देख सकते हैं:
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
+ 
+आपको हर एल्गोरिथम याद करने की आवश्यकता नहीं है।
 
-You don't need to memorize the guts of every algorithm.
+एक व्हाईटबोर्ड या कागज़ पर कोड लिखें, कंप्यूटर नहीं। कुछ नमूना इनपुट के साथ टेस्ट करें फिर इसे कंप्यूटर पर जांचें
 
-Write code on a whiteboard, not a computer. Test with some sample inputs. Then test it out on a computer.
+ ## पूर्वाभ्यास ज्ञान
 
-## Prerequisite Knowledge
+ - [ ] **C जानें**
+    - सी हर जगह है आप पुस्तकों, व्याख्यान, वीडियो, हर जगह जब आप पढ़ रहे हैं, में उदाहरण देखेंगे।
+    - [ ] [सी प्रोग्रामिंग भाषा, खंड 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - यह एक छोटी पुस्तक है, लेकिन यह आपको सी भाषा पर एक महान संभाल देगा और यदि आप इसे थोड़ा अभ्यास करते हैं तो आपको जल्दी से कुशल मिलेगा। समझना सी आपको यह समझने में मदद करता है कि प्रोग्राम और मेमोरी कैसे काम करते हैं 
+        - [सवालों के जवाब](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (विडियो)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (विडियो)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+- [ ] **कंप्यूटर एक प्रोग्राम की प्रक्रिया कैसे करते हैं:**
+    - [ ] [कैसे सीपीयू प्रोग्राम निष्पादित करता है (वीडियो)](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [मशीन कोड निर्देश (वीडियो)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-- [ ] **How floating point numbers are stored:**
-    - [ ] simple 8-bit: [Fractions in binary? (विडियो)](http://math.stackexchange.com/questions/301435/fractions-in-binary)
-    - [ ] 32 bit: [Representation of Floating Point Numbers - 1 (विडियो)](https://www.youtube.com/watch?v=ji3SfClm8TU)
-    - [ ] 64 bit: [IEEE754 32-bit floating point binary (विडियो)](https://www.youtube.com/watch?v=50ZYcZebIec)
-
-- [ ] **Computer Arch Intro:**
-    (first video only - interesting but not required) [Introduction and Basics - Carnegie Mellon - Computer Architecture](https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1)
-
-- [ ] **Compilers**
-    - [ ] [C++ (विडियो)](https://www.youtube.com/watch?v=twodd1KFfGk)
-    - [ ] [Understanding Compiler Optimization (C++) (विडियो)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
-
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
-- [ ] [Harvard CS50 - Asymptotic Notation (विडियो)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (विडियो)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (विडियो)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+## एल्गोरिथम जटिलता / बिग-ओ / असिम्प्टोोटिक विश्लेषण
+- लागू करने के लिए कुछ भी नहीं
+- [ ] [ हार्वर्ड सीएस 50 - असिमप्टोटीक नोटेशन (वीडियो)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [ बिग ओ नोट्स (सामान्य त्वरित ट्यूटोरियल) (वीडियो)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [ बिग ओ नोटेशन (और ओमेगा और थीटा) - सर्वोत्तम गणितीय व्याख्या (वीडियो)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [विडियो](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+    - [स्लाइड](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+- [ ] [एल्गोरिथ्म जटिलता विश्लेषण के लिए एक कोमल परिचय](http://discrete.gr/complexity/)
+- [ ] [विकास के आदेश (वीडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
 - [ ] [Asymptotics (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
 - [ ] [UC बर्कले Big O (विडियो)](https://youtu.be/VIS4YDpuP98)
 - [ ] [UC बर्कले Big Omega (विडियो)](https://youtu.be/ca3e7UVmeUc)
 - [ ] [Amortized Analysis (विडियो)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (विडियो)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
-- [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+- [ ] टॉपकोडर (पुनरावृत्ति संबंध और मास्टर प्रमेय भी शामिल है):
+    - [कम्प्यूटेशनल जटिलता: धारा 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
+    - [कम्प्यूटेशनल जटिलता: धारा 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics विडियो to get the background knowledge.
 
-## Data Structures
+##  डेटा संरचनाएं
 
 - ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (विडियो)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+    - एक स्वचालित रीसाइज़िंग वेक्टर को लागू करें
+    - [ ] विवरण:
+        - [एरे  (विडियो)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [Basic Arrays (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
         - [Multi-dim (विडियो)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
         - [Dynamic Arrays (विडियो)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)

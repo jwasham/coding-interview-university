@@ -1,35 +1,40 @@
 # Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer, 
-> but it grew to the large list you see today. After going through this study plan, [I got hired 
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
+> I originally created this as a short to-do list of study topics for becoming a software engineer,
+> but it grew to the large list you see today. After going through this study plan, [I got hired
+> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > You probably won't have to study as much as I did. Anyway, everything you need is here.
 >
-> The items listed here will prepare you well for in an interview at just about any software company, 
+> The items listed here will prepare you well for in an interview at just about any software company,
 > including the giants: Amazon, Facebook, Google or Microsoft.
 >
 > *Best of luck to you!*
 
 Translations:
 - [中文版本](translations/README-cn.md)
-- [Tiếng Việt - Vietnamese](translations/README-vn.md)
-- translations in progress:
-    - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-    - [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-    - [French](https://github.com/jwasham/coding-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
-    - [Korean](https://github.com/jwasham/coding-interview-university/issues/118)
-    - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-    - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
-    - [German](https://github.com/jwasham/coding-interview-university/issues/135)
-    - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
-    - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+
+Translations in progress:
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [French](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
+- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
 
 ## What is it?
 
@@ -44,7 +49,7 @@ many years of experience and are claiming many years of software engineering exp
 If you have many years of software/web development experience, note that large software companies like Google, Amazon,
 Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 
-If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
+If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
 
 ---
 
@@ -126,8 +131,8 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Compilers](#compilers)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
+    - [Information theory](#information-theory-videos)
+    - [Parity & Hamming Code](#parity--hamming-code-videos)
     - [Entropy](#entropy)
     - [Cryptography](#cryptography)
     - [Compression](#compression)
@@ -142,7 +147,6 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
     - [van Emde Boas Trees](#van-emde-boas-trees)
     - [Augmented Data Structures](#augmented-data-structures)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
     - [Balanced search trees](#balanced-search-trees)
         - AVL trees
         - Splay trees
@@ -157,8 +161,8 @@ If you want to be a reliability engineer or systems engineer, study more from th
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [Math for Fast Processing](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
+    - [Linear Programming](#linear-programming-videos)
+    - [Geometry, Convex hull](#geometry-convex-hull-videos)
     - [Discrete math](#discrete-math)
     - [Machine Learning](#machine-learning)
 - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
@@ -211,6 +215,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 
 ## About Video Resources
 
@@ -236,8 +241,8 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
+    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
 
 ## Pick One Language for the Interview
 
@@ -278,7 +283,9 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 If you have tons of extra time:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+- [ ] Elements of Programming Interviews (Java version)
+    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+    - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
 ### Computer Architecture
 
@@ -365,7 +372,6 @@ OR:
             - this is the real reason you buy this book.
             - about to get to this part. Will update here once I've made my way through it.
     - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
     - Answers:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
@@ -373,7 +379,6 @@ OR:
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
     - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
@@ -464,9 +469,9 @@ Why code in all of these?
 I may not have time to do all of these for every subject, but I'll try.
 
 You can see my code here:
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
 You don't need to memorize the guts of every algorithm.
 
@@ -496,8 +501,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 - [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
 - [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
-- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
+- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
 - [ ] TopCoder (includes recurrence relations and master theorem):
@@ -515,7 +520,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - Implement an automatically resizing vector.
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
         - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
@@ -551,7 +556,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Linked Lists
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation.
     - [ ] Linked List vs Arrays:
@@ -740,7 +746,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
     - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
+    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] Implement a max-heap:
         - [ ] insert
@@ -785,10 +791,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [4. System Sorts](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
 
 - [ ] UC Berkeley:
-    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
-    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
+    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
+    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
+    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
+    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
 
 - [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
@@ -862,8 +868,8 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
     - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
     - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
-    - [ ] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
-    - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
+    - [ ] ~~[CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)~~
+    - [ ] [CS 61B 2014: Weighted graphs (video)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
@@ -1066,9 +1072,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
         - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
     - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
-    - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](https://www.akkadia.org/drepper/cpumemory.pdf)
+    - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
         - The Dynamo paper kicked off the NoSQL revolution
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
     - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
     - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
@@ -1159,7 +1165,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - The first half is enough.
 
 - ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
+    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
@@ -1193,7 +1199,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - simplicity and robustness
         - tradeoffs
         - performance analysis and optimization
-- [ ] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
@@ -1266,9 +1273,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the Video Series section.
+    - For even more, see "Mining Massive Datasets" video series in the [Video Series](#video-series) section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
@@ -1396,6 +1404,7 @@ Challenge sites:
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Codewars](http://www.codewars.com)
+- [HackerEarth](https://www.hackerearth.com/)
 - [HackerRank](https://www.hackerrank.com/)
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
@@ -1403,16 +1412,19 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
+Challenge repos:
+- [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
+
 Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
+- [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
 
 ## Once you're closer to the interview
 
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
 ## Your Resume
 
@@ -1475,7 +1487,7 @@ You're never really done.
 
 ## Additional Books
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+- [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - an oldie but a goodie
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - a modern option
@@ -1653,7 +1665,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
 - ### Augmented Data Structures
-    - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
+    - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
     - Know least one type of balanced binary tree (and know how it's implemented):
@@ -1686,7 +1698,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
             Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
             data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
             networking and file system code) etc.
-        - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+        - [ ] [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
         - [ ] MIT Lecture: Splay Trees:
             - Gets very mathy, but watch the last 10 minutes for sure.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
@@ -1703,7 +1715,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
             hashcodes, a Red-Black tree is used.
         - [ ] [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
-        - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+        - [ ] [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
     - [ ] **2-3 search trees**
@@ -1720,7 +1732,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
             operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
             important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
             2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
-        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
+        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
@@ -1758,12 +1770,12 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
 - ### Network Flows
-    - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Ford-Fulkerson in 5 minutes — Step by step example (video)](https://www.youtube.com/watch?v=Tl90tNtKvxs)
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
 - ### Disjoint Sets & Union Find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
+    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
     - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
 
 - ### Math for Fast Processing
@@ -1910,15 +1922,15 @@ Sit back and enjoy. "Netflix and skill" :P
 - [ ] CSE373 - Analysis of Algorithms (25 videos)
     - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
-- [ ] [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+- [ ] [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
 
-- [ ] [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C)
+- [ ] [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://archive.org/details/ucberkeley-webcast-PL4BBB74C7D2A1049C)
 
-- [ ] [UC Berkeley 61C: Machine Structures (26 videos)](https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
+- [ ] [UC Berkeley 61C: Machine Structures (26 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
 
 - [ ] [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 
-- [ ] [UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)
+- [ ] ~~[UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)~~
 
 - [ ] [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 

@@ -562,32 +562,32 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
         Bu sayfa ptr ile ptr arasında bir kavrayış elde etmek içindir. Bu listeyi yukarıdan aşağıya geçiş tarzını tavsiye etmiyorum. Okunabilirlik ve sürdürülebilirlik, zekice olması nedeniyle acı çekici oluyor.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] uygula (Kuyruk pointer ile yaptım & onsuz yaptım):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+        - [ ] size() - listedeki veri elementlerinin sayısını geri döndürür
+        - [ ] empty() - liste boşsa true döndürür
+        - [ ] value_at(index) - indexteki öğenin içeriğini döndürür (0'dan başlar)
+        - [ ] push_front(value) - listenin başına bir öğe ekler
+        - [ ] pop_front() - liste başındaki öğeyi kaldırıp return eder
+        - [ ] push_back(value) - listenin sonuna öğe ekler
+        - [ ] pop_back() - listenin sonundaki öğeyi kaldırır ve içeriğini return eder
+        - [ ] front() - ilk öğenin içeriğini verir
+        - [ ] back() - son öğenin içeriğini verir
+        - [ ] insert(index, value) - indexe yeni öğe ekler, geçerli öğenin indexi, yeni eklenen indexi gösterir
+        - [ ] erase(index) - verilen indexteki düğümü siler
+        - [ ] value_n_from_end(n) - listenin sonundan başlayarak n. pozisyondaki öğenin içeriğini verir
+        - [ ] reverse() - listeyi ters çevirir
+        - [ ] remove_value(value) - bu değerdeki ilk bulunan içeriği kaldırır
+    - [ ] Çift Bağlı Liste
+        - [Tanım (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - Uygulamaya gerek yok
 
-- ### Stack
+- ### Yığın
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [ ] Uygulamayın. Diziyle gerçekleştirmek önemsiz.
 
-- ### Queue
+- ### Kuyruk
     - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [Kuyruk (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [ ] Implement using linked-list, with tail pointer:

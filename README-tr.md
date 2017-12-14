@@ -590,77 +590,77 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
     - [ ] [Kuyruk (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] Bağlı listeyle birlikte kuyruk işaretçisi kullanarak uygulayın:
+        - enqueue(value) - kuyruktaki pozisyona değer ekler
+        - dequeue() - değeri döndürür ve en son eklenen elemanı kaldırır (ön)
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Sabit boyutlu dizi kullanarak uygulayın:
+        - enqueue(value) - müsait saklama alanının sonuna öğe ekler 
+        - dequeue() - değeri döndürür ve en son eklenen elemanı kaldırır 
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Maliyet:
+        - bağlı liste kullanılarak yapılan kötü bir uygulamada enqueue ve dequeue işlemleri O(n) zaman alır
+            çünkü son öğenin devamına ihtiyacınız var, bu durum da her dizinin dolanmasına neden olur.
+        - enqueue: O(1) (amorti, bağlı liste ve dizi [sondalama])
+        - dequeue: O(1) (bağlı liste ve dizi)
+        - empty: O(1) (bağlı liste ve dizi)
 
-- ### Hash table
-    - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- ### Hash tablosu
+    - [ ] Videolar:
+        - [ ] [Zincirleme ile Hashing (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [ ] [Tablo Katlama, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [Açık Adresleme, Kriptografik Hashleme (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [(İleri Seviye) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(İleri Seviye) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
+    - [ ] Online Kurslar:
+        - [ ] [Hash Fonksiyonlarını Anlama (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
+        - [ ] [Hash Tablolarını Kullanma (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
         - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
         - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] distributed hash tables:
+        - [ ] [Veri Yapıları (video)](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [ ] [Telefon Rehberi Problemi (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] dağıtık hash tabloları:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+    - [ ] Doğrusal sondalama (problama) kullanarak dizi ile uygulayın:
+        - hash(k, m) - m has tablosunun büyüklüğü
+        - add(key, value) - eğer key varsa, değerini güncelle
         - exists(key)
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Daha Fazla Bilgi
 
-- ### Binary search
+- ### İkili arama (Binary search)
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] Uygulama:
+        - binary search (sıralanmış tam sayı dizisine)
+        - binary search (rekürsif kullanarak)
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+- ### Bitsel işlemler
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - 2'nin üslerinden bir çoğunu bilmelisin (2^1 to 2^16 and 2^32)
+    - [ ] Bunlarla bitleri manipüle etmeyi iyi anlayın: &, |, ^, ~, >>, <<
+        - [ ] [kelimeler](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] İyi başlangıç:
+            [Bit Manipülasyonu (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [C Programlama Uygulaması 2-10: Bitsel Operatörler (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Bit Manipülasyonu](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Bitsel Operasyon](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
+    - [ ] 2 ve 1'e tümleyenler
+        - [Binary: Artılar & Eksiler (Neden 2'ye Tümleyen Kullanırız) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [1'e Tümleyen](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [2'ye tümleyen](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] set bitlerinin sayımı
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
@@ -671,33 +671,33 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
     - [ ] absolute value:
         - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Ağaçlar
 
-- ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
+- ### Ağaçlar - Notlar & Arkaplan
+    - [ ] [Series: Çekirdek Ağaçlar (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+    - [ ] [Series: Ağaçlar (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - basit ağaç yapımı
     - traversal
-    - manipulation algorithms
+    - manipülasyon algoritmaları
     - BFS (breadth-first search)
         - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
         - level order (BFS, using queue)
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
+            zaman karmaşıklığı: O(n)
+            alan karmaşıklığı: best: O(1), worst: O(n/2)=O(n)
     - DFS (depth-first search)
         - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
         - notes:
-            time complexity: O(n)
-            space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
+            zaman karmaşıklığı: O(n)
+            alan karmaşıklığı:
+                en iyi: O(log n) - ort. ağaç yüksekliği
+                en kötü: O(n)
         - inorder (DFS: left, self, right)
         - postorder (DFS: left, right, self)
         - preorder (DFS: self, left, right)
 
-- ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+- ### İkili arama ağaçları: BSTs
+    - [ ] [İkili Arama Ağacı İncelemesi (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    - [ ] [Serieler (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - starts with symbol table and goes through BST applications
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)

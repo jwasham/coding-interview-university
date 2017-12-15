@@ -698,7 +698,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
 - ### İkili arama ağaçları: BSTs
     - [ ] [İkili Arama Ağacı İncelemesi (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Serieler (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - starts with symbol table and goes through BST applications
+        - sembol tablosuyla başlar ve BST uygulamalarına geçer
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
@@ -712,23 +712,23 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
         - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+    - [ ] Uygulama:
+        - [ ] insert    // değeri ağaca ekler
+        - [ ] get_node_count // barındırılan düğümlerin sayısını verir
+        - [ ] print_values // minimumdan maximuma doğru ağaçtaki değerleri yazdırır
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] is_in_tree // verilen değer ağaçta varsa true döndrür
+        - [ ] get_height // düğümlerin yüksekliğini döndürür (tek düğümlerin yüksekliği: 1)
+        - [ ] get_min   // ağaçta bulunan minimum değeri verir
+        - [ ] get_max   // ağaçta bulunan maximum değeri verir
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // verilen değerden sonra ağaçtaki en yüksek değeri verir, bulunamazsa -1 verir
 
-- ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+- ### Heap / Öncelik Kuyruğu / Binary Heap
+    - ağaç olarak görselleştirilir, ancak depolama ortamında genellikle doğrusaldır (dizi, bağlı liste)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [ ] [Giriş (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
     - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
     - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
@@ -741,34 +741,34 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
+    - [ ] Max-heap uygulaması:
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+        - [ ] sift_up - eklemek için gerekli
+        - [ ] get_max - maximum öğeyi çıkarmadan return eder
+        - [ ] get_size() - barındırılan eleman sayısını verir
+        - [ ] is_empty() - heap eleman içermiyorsa true döndürür
+        - [ ] extract_max - maximum öğeyi çıkararak döndürür
+        - [ ] sift_down - extract_max için gerekli
+        - [ ] remove(i) - indexdeki öğeyi kaldırır
+        - [ ] heapify - bir dizi öğeden heap oluşturur, heap_sort gerekli
+        - [ ] heap_sort() - sıralanmamış bir dizi alır ve max-heap kullanarak sıralı diziye dönüştürür
+            - not: min-heap kullanmak işlemleri kurtarır, ancak gerekli alan 2 katına çıkacaktır (yerinde yapma).
 
-## Sorting
+## Sıralama
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
+- [ ] Notlar:
+    - Sıralamaları uygula & en iyi/en kötü durumu bil, her birinin ortalama karmaşıklığı:
+        - bubble sort olmaz - çok kötü - O(n^2), n <= 16 hariç
+    - [ ] sıralama algoritmalarında stabilite ("Quicksort stabil mi?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+    - [ ] Hangi algoritmalar bağlı listelerde kullanılabilir? Hangileri dizilerde? Hangileri hepsinde?
+        - Bağlı listeyi sıralamanızı tavsiye etmem, ancak merge sort bunu yapabilir.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
+- Heap sort için, yukarıdaki Heap veri yapısına bakın. Heap sort güzel, ama stabil değil.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
@@ -797,22 +797,22 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
+- [ ] Merge sort kod:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
+- [ ] Quick sort kod:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+- [ ] Uygulama:
+    - [ ] Mergesort: O(n log n) ortalama ve en kötü durum
+    - [ ] Quicksort O(n log n) ortalama durum
+    - Selection sort ve insertion sort her ikisi de O(n^2) ortalama ve en kötü durum
+    - Heapsort için, yukarıdaki Heap veri yapısına bakın.
 
-- [ ] Not required, but I recommended them:
+- [ ] Gerekli değil, fakat tavsiye ediyorum:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
         - [ ] [1. Strings in Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
         - [ ] [2. Key Indexed Counting](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
@@ -826,24 +826,24 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil.. Örnek girdil
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+Özetlemek gerekirse, burada [15 sıralama algoritmasının](https://www.youtube.com/watch?v=kPRA0W1kECg) görsel temsili var.
+Bu konuda daha fazla bilgiye ihtiyacınız varsa, "Sıralama" bölümüne bakın [Bazı Konularda Ek Bilgiler](#additional-detail-on-some-subjects)
 
-## Graphs
+## Graflar
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabilir, bu nedenle bu bölüm ağaçlar ve sıralama algoritmaları gibi uzundur.
 
-- Notes:
-    - There are 4 basic ways to represent a graph in memory:
-        - objects and pointers
-        - adjacency matrix
-        - adjacency list
-        - adjacency map
-    - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none.
+- Notlar:
+    - Grafı bellekte temsil etmek için 4 temel yol vardır:
+        - objeler ve işaretçiler
+        - bitişiklik matrisi
+        - bitişik liste
+        - bitişik map
+    - Her temsilciliği ve artılarını - eksilerini tanıyın.
+    - BFS ve DFS - hesaplama karmaşıklığını bilin, ödün vermelerini verin, gerçek kod uygulamasını bilin.
+    - Bir soru sorulduğunda önce graf tabanlı bir çözüm arayın, eğer yoksa devam edin.
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Skiena Dersleri - güzel giriş:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -851,7 +851,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [ ] Graflar (inceleme ve fazlası):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -866,41 +866,41 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
-- Full Coursera Course:
+- Full Coursera Kursu:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
-    - [ ] single-source shortest path (Dijkstra)
-    - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+- Bunları uygulayacağım:
+    - [ ] DFS ile bitişik liste (rekürsif)
+    - [ ] DFS ile bitişik liste (yığınla iteratif)
+    - [ ] DFS ile bitişik matris (rekürsif)
+    - [ ] DFS ile bitişik matris  (yığınla iteratif)
+    - [ ] BFS ile bitişik liste
+    - [ ] BFS ile bitişik matris
+    - [ ] tek kaynak en kısa yol (Dijkstra)
+    - [ ] minimum yayılan ağaç
+    - DFS-tabanlı algoritmalar (yukarıdaki Aduni videolarına bakın):
+        - [ ] döngüye bak (topolojik sıralama için gerekli, başlamadan önce döngüyü konyrol edeceğiz)
+        - [ ] topolojik sıralama
+        - [ ] bir graftaki bağlı komponentleri saymak
+        - [ ] kuvvetli bağlı komponentleri listele
+        - [ ] iki parçalı graf için kontrol et
 
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+Skienna'nın kitabında (aşağıdaki Kitaplar bölümüne bakın) ve mülakat kitaplarında daha fazla graf pratiği bulabilirsiniz.
 
-## Even More Knowledge
+## Daha Fazla Bilgi
 
-- ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
+- ### Recursif
+    - [ ] Stanford dersleri rekürsif & geri yineleme:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - when it is appropriate to use it
-    - how is tail recursion better than not?
+    - onu kullanmak uygun olduğunda
+    - kuyruk yenilemesi daha iyi değil mi?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Dynamic Programming
+- ### Dinamik Programlama
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:

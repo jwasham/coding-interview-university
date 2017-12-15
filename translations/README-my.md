@@ -9,11 +9,11 @@ a Software Development Engineer at Amazon! You probably won't have to study as m
 ဒီစာရင်း အတိုင်း လေ့လာပြီးတဲ့နောက်မှာတော့ ကျနော့်ကို အမေဇုံ ကုမ္ပဏီမှာ အပျော့ထည် ဖန်တီးထုတ်လုပ်ရေး အင်ဂျင်နီယာ အဖြစ် ရွေးချယ် ခန့်ထားခြင်း ခံခဲ့ရပါတယ်။
 ခင်ဗျားကတော့ ကျနော့်လောက် လေ့လာစရာ များချင်မှ များမှာပါ။  ဘယ်လိုပဲဖြစ်ဖြစ် လိုအပ်တာ အကုန်လုံး ဒီအထဲမှာ ပါပါတယ်။
 
-
-
 The items listed here will prepare you well for in an interview at just about any software company, including the giants: Amazon, Facebook, Google or Microsoft.
+အမေဇုံ (သို့) ဖေ့စ်ဘွတ်ခ် (သို့) ဂူဂယ်ပဲ (သို့) မိုက်ခရိုဆော့ဖ် -- ဘယ် ဆော့ဖ်ဝဲ ထုတ်လုပ်ရေး ကုမ္ပဏီနဲ့ အင်တာဗျူး အတွက်ပဲ ဖြစ်ဖြစ်၊ ဒီစာရင်းမှာ ပါတဲ့ အကြောင်းအရာ အမည် (အမယ်) တွေက ခင်ဗျားကို ကောင်းကောင်း အဆင်သင့် ဖြစ်အောင် ပြင်ဆင်ထားပြီး ဖြစ်စေပါလိမ့်မယ်။
 
 Best of luck to you!
+ကံကောင်းပါစေ !
 
 Translations:
 

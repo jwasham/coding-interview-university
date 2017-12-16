@@ -85,7 +85,11 @@ Japanese (日本語)
 
 
 What is it?
+ဘာလဲဗျ - ဒါ  ?
+
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+ဒါကတော့ ကျနော့် အနေနဲ့ ဝက်ဘ် နည်းပညာသုံး ပရိုဂရမ်တွေ တီထွင်ပြီး ထုတ်လုပ်သူ တစ်ဦး အဖြစ်ကနေ ကုမ္ပဏီကြီး တစ်ခုမှာ အပျော့ထည် အင်ဂျင်နီယာ တစ်ဦး အဖြစ် ခန့်ထားခံရအောင် (ကွန်ပျူတာသိပ္ပံ ဘွဲ့ မရှိပေမယ့် ကိုယ့်ဖာသာကိုယ် လေ့လာ သင်ယူဖို့) တစ်လထက် မကတဲ့ အချိန်ဇယား အစီအစဉ်ပဲ ဖြစ်ပါတယ်။
+
 
 Coding at the whiteboard - from HBO's Silicon Valley
 

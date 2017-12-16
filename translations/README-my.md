@@ -88,12 +88,15 @@ What is it?
 ဘာလဲဗျ - ဒါ  ?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
-ဒါကတော့ ကျနော့် အနေနဲ့ ဝက်ဘ် နည်းပညာသုံး ပရိုဂရမ်တွေ တီထွင်ပြီး ထုတ်လုပ်သူ တစ်ဦး အဖြစ်ကနေ ကုမ္ပဏီကြီး တစ်ခုမှာ အပျော့ထည် အင်ဂျင်နီယာ တစ်ဦး အဖြစ် ခန့်ထားခံရအောင် (ကွန်ပျူတာသိပ္ပံ ဘွဲ့ မရှိပေမယ့် ကိုယ့်ဖာသာကိုယ် လေ့လာ သင်ယူဖို့) တစ်လထက် မကတဲ့ အချိန်ဇယား အစီအစဉ်ပဲ ဖြစ်ပါတယ်။
+ဒါကတော့ ကျနော့်ကိုယ် ကျနော် ဝက်ဘ် နည်းပညာသုံး ပရိုဂရမ်တွေ တီထွင်ထုတ်လုပ်သူ တစ်ဦး အဖြစ်ကနေ ကုမ္ပဏီကြီး တစ်ခုမှာ အပျော့ထည် အင်ဂျင်နီယာ တစ်ဦး အဖြစ် ခန့်ထားခံရအောင် (ကွန်ပျူတာသိပ္ပံ ဘွဲ့ မရှိပေမယ့် ကိုယ့်ဖာသာကိုယ် လေ့လာ သင်ယူဖို့) တစ်လထက် မကတဲ့ အချိန်ဇယား အစီအစဉ်ပဲ ဖြစ်ပါတယ်။
 
 
 Coding at the whiteboard - from HBO's Silicon Valley
+အိတ်ချ်ဘီအို၏ ဆီလီကွန်ဗှယ်လီ အစီအစဉ်မှ ဝှိုက်ဘုတ်တွင် ကုဒ်ရေးခြင်း
 
 This is meant for new software engineers or those switching from software/web development to software engineering (where computer science knowledge is required). If you have many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+ဒီ လေ့လာရေး အစီအစဉ်ဟာ ဆော့ဖ်ဝဲ အင်ဂျင်နီယာ အသစ်တွေ ဒါမှမဟုတ် (အနုပညာသမား တစ်ဦးလို) ဆော့ဖ်ဝဲ/ဝက်ဘ် ပရိုဂရမ် ရေးသားရာကနေ ပြောင်းပြီး ဆော့ဖ်ဝဲကို အင်ဂျင်နီယာ တစ်ဦးလို ရေးမယ့်သူတွေ အတွက် ဖြစ်ပါတယ်  (အင်ဂျင်နီယာလို ရေးတော့မယ် ဆိုရင်တော့ ကွန်ပျူတာသိပ္ပံ အသိပညာ လိုလာပါပြီ)။
+
 
 If you have many years of software/web development experience, note that large software companies like Google, Amazon, Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 

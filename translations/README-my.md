@@ -120,24 +120,62 @@ About Video Resources
 ဗွီဒီယို လေ့လာစရာတွေနဲ့ ပတ်သက်လို့
 
 Interview Process & General Interview Prep
+လူတွေ့စစ်ဆေးခြင်း ဖြစ်စဉ်၊  လူတွေ့စစ်မေးခြင်း အတွက် ယေဘုယျ ကြိုတင် ပြင်ဆင်ခြင်း
+
 Pick One Language for the Interview
+အင်တာဗျူး အတွက် [ပရိုဂရမ်ရေး] ဘာသာစကား တစ်ခုတည်းကို ရွေးထားပါ
+
 Book List
+စာအုပ်စာရင်း 
+
 Before you Get Started
+မစခင်
+
 What you Won't See Covered
+ဒီမှာ မပါတဲ့ဟာတွေ 
+
 Prerequisite Knowledge
+ကြိုတင် သိထားရမယ့်ဟာတွေ
+
 The Daily Plan
+နေ့စဉ် အချိန်ဇယား
+
 Algorithmic complexity / Big-O / Asymptotic analysis
+ဖြေရှင်းနည်း အဆင့်များ၏ ရှုပ်ထွေးမှု /  "အို"-အကြီး /  ချဉ်းကပ်မျဉ်း ဆန်းစစ်နည်း
+
 Data Structures
+အချက်အလက်များအား ဖွဲ့စည်းပုံများ
+
 Arrays
+ဇယးများ
+
 Linked Lists
+ချိတ်ဆက်ထားတဲ့ အမည်များ စာရင်း
+
 Stack
+တစ်ဘက်ပိတ် ဝါးလုံးခေါင်း 
+
 Queue
+တန်းစီခြင်း
+
 Hash table
+အညွှန်းသုံး ဇယား
+
 More Knowledge
+နောက်ထပ် သိစရာ
+
 Binary search
+နှစ်ပိုင်းခွဲ ရှာခြင်း
+
 Bitwise operations
+သုည/တစ် ဘစ်အလိုက် ဆောင်ရွက်ချက်များ
+
 Trees
+အပင်များ
+
 Trees - Notes & Background
+အပင်များ - နောက်ခံသမိုင်းနှင့် မှတ်စုများ
+
 Binary search trees: BSTs
 Heap / Priority Queue / Binary Heap
 balanced search trees (general concept, not details)

@@ -16,31 +16,74 @@ Best of luck to you!
 ကံကောင်းပါစေ !
 
 Translations:
+ဘာသာပြန်ပြီး - 
 
 中文版本
+တရုတ် ဘာသာ
+
 Tiếng Việt - Vietnamese
+ဗီယက်နမ် ဘာသာ
+
 Español
+စပိန် ဘာသာ
+
 Português Brasileiro
+ဘရာဇီး မူကွဲ ပေါ်တူဂီ ဘာသာစကား
+
 Translations in progress:
+ဆောင်ရွက်ဆဲ ဘာသာပြန်ချက်များ -
 
 हिन्दी
 עברית
 Bahasa Indonesia
+အင်ဒိုနီးရှား ဘာသာ
+
 Arabic
+အာရပ် ဘာသာ
+
 Turkish
+တူရကီ ဘာသာ
+
 French
+ပြင်သစ် ဘာသာ
+
 Russian
+ရုရှ ဘာသာ
+
 Ukrainian
+ယူကရိန်း ဘာသာ
+
 Korean(한국어)
+ကိုရီးယား ဘာသာ
+
 Brazilian Portuguese
+ဘရာဇီး မူကွဲ ပေါ်တူဂီ ဘာသာစကား
+
 Telugu
+တယ်လူဂူ ဘာသာ
+
 Polish
+ပိုလန် ဘာသာ
+
 Urdu
+ဥရဒူး ဘာသာ
+
 Thai
+ထိုင်း ဘာသာ
+
 Greek
+ဂရိ ဘာသာ
+
 Italian
+အီတလီ ဘာသာ
+
 Malayalam
+မလေး ဘာသာ
+
 Japanese (日本語)
+ဂျပန် ဘာသာ
+
+
 What is it?
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 

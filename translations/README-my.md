@@ -10,7 +10,7 @@ a Software Development Engineer at Amazon! You probably won't have to study as m
 ခင်ဗျားကတော့ ကျနော့်လောက် လေ့လာစရာ များချင်မှ များမှာပါ။  ဘယ်လိုပဲဖြစ်ဖြစ် လိုအပ်တာ အကုန်လုံး ဒီအထဲမှာ ပါပါတယ်။
 
 The items listed here will prepare you well for in an interview at just about any software company, including the giants: Amazon, Facebook, Google or Microsoft.
-အမေဇုံ (သို့) ဖေ့စ်ဘွတ်ခ် (သို့) ဂူဂယ်ပဲ (သို့) မိုက်ခရိုဆော့ဖ် -- ဘယ် ဆော့ဖ်ဝဲ ထုတ်လုပ်ရေး ကုမ္ပဏီနဲ့ အင်တာဗျူး အတွက်ပဲ ဖြစ်ဖြစ်၊ ဒီစာရင်းမှာ ပါတဲ့ အကြောင်းအရာ အမည် (အမယ်) တွေက ခင်ဗျားကို ကောင်းကောင်း အဆင်သင့် ဖြစ်အောင် ပြင်ဆင်ထားပြီး ဖြစ်စေပါလိမ့်မယ်။
+အမေဇုံ (သို့) ဖေ့စ်ဘွတ်ခ် (သို့) ဂူဂယ် (သို့) မိုက်ခရိုဆော့ဖ် -- ဘယ် ဆော့ဖ်ဝဲ ထုတ်လုပ်ရေး ကုမ္ပဏီနဲ့ အင်တာဗျူး အတွက်ပဲ ဖြစ်ဖြစ်၊ ဒီစာရင်းမှာ ပါတဲ့ အကြောင်းအရာ အမည် (အမယ်) တွေက ခင်ဗျားကို ကောင်းကောင်း အဆင်သင့် ဖြစ်အောင် ပြင်ဆင်ထားပြီး ဖြစ်စေပါလိမ့်မယ်။
 
 Best of luck to you!
 ကံကောင်းပါစေ !
@@ -90,16 +90,14 @@ What is it?
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 ဒါကတော့ ကျနော့်ကိုယ် ကျနော် ဝက်ဘ် နည်းပညာသုံး ပရိုဂရမ်တွေ တီထွင်ထုတ်လုပ်သူ တစ်ဦး အဖြစ်ကနေ ကုမ္ပဏီကြီး တစ်ခုမှာ အပျော့ထည် အင်ဂျင်နီယာ တစ်ဦး အဖြစ် ခန့်ထားခံရအောင် (ကွန်ပျူတာသိပ္ပံ ဘွဲ့ မရှိပေမယ့် ကိုယ့်ဖာသာကိုယ် လေ့လာ သင်ယူဖို့) တစ်လထက် မကတဲ့ အချိန်ဇယား အစီအစဉ်ပဲ ဖြစ်ပါတယ်။
 
-
 Coding at the whiteboard - from HBO's Silicon Valley
 အိတ်ချ်ဘီအို၏ ဆီလီကွန်ဗှယ်လီ အစီအစဉ်မှ ဝှိုက်ဘုတ်တွင် ကုဒ်ရေးခြင်း
 
 This is meant for new software engineers or those switching from software/web development to software engineering (where computer science knowledge is required). If you have many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-ဒီ လေ့လာရေး အစီအစဉ်ဟာ ဆော့ဖ်ဝဲ အင်ဂျင်နီယာ အသစ်တွေ ဒါမှမဟုတ် (အနုပညာသမား တစ်ဦးလို) ဆော့ဖ်ဝဲ/ဝက်ဘ် ပရိုဂရမ် ရေးသားရာကနေ ပြောင်းပြီး ဆော့ဖ်ဝဲကို အင်ဂျင်နီယာ တစ်ဦးလို ရေးမယ့်သူတွေ အတွက် ဖြစ်ပါတယ်  (အင်ဂျင်နီယာလို ရေးတော့မယ် ဆိုရင်တော့ ကွန်ပျူတာသိပ္ပံ အသိပညာ လိုလာပါပြီ)။
-
+ဒီ လေ့လာရေး အစီအစဉ်ဟာ ဆော့ဖ်ဝဲ အင်ဂျင်နီယာ အသစ်တွေ ဒါမှမဟုတ် (အနုပညာသမား တစ်ဦးလို) ဆော့ဖ်ဝဲ/ဝက်ဘ် ပရိုဂရမ် ရေးသားရာကနေ ပြောင်းပြီး ဆော့ဖ်ဝဲကို အင်ဂျင်နီယာ တစ်ဦးလို ရေးမယ့်သူတွေ အတွက် ဖြစ်ပါတယ်  (အင်ဂျင်နီယာလို ရေးတော့မယ် ဆိုရင်တော့ ကွန်ပျူတာသိပ္ပံ အသိပညာ လိုလာပါပြီ)။  ခင်ဗျားမှာ အပျော့ထည်ကို အင်ဂျင်နီယာလို ထုတ်လုပ်တဲ့ အတွေ့အကြုံ နှစ်ပေါင်း များစွာ ရှိတယ်လို့ ပြောရင် ပိုခက်တဲ့ မေးခွန်းတွေ အမေးခံရဖို့ မျှော်လင့်ထားပါ။
 
 If you have many years of software/web development experience, note that large software companies like Google, Amazon, Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
-
+ခင်ဗျားမှာ ဆော့ဖ်ဝဲ/ဝက်ဘ် ပရိုဂရမ် ရေးသားမှု  အတွေ့အကြုံ နှစ်ပေါင်း များစွာ ရှိတယ် ဆိုရင်လည်း -  ဂူဂယ်၊ အမေဇုံ၊ ဖေ့စ်ဘွတ်ခ်နဲ့ မိုက်ခရိုဆော့ဖ်တို့လို ဆော့ဖ်ဝဲကုမ္ပဏီကြီးတွေ အနေနဲ့ ဆော့ဖ်ဝဲ/ဝက်ဘ် ပရိုဂရမ် ရေးသားတာနဲ့  ဆော့ဖ်ဝဲကို အင်ဂျင်နီယာလို ထုတ်လုပ်တာနဲ့ မတူဘူးလို့ သဘောထားပြီး၊ [သူတို့ ခန့်ထားမယ့် လူတွေကို] ကွန်ပျူတာသိပ္ပံ အသိပညာ ရှိရမယ်လို့ သတ်မှတ်ထားပါတယ်။  
 If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
 
 Table of Contents

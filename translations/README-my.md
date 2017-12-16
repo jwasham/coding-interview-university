@@ -177,8 +177,14 @@ Trees - Notes & Background
 အပင်များ - နောက်ခံသမိုင်းနှင့် မှတ်စုများ
 
 Binary search trees: BSTs
+ဘီအက်စ်တီ - နှစ်ပိုင်းခွဲ ရှာနိုင်သည့် အပင်ပုံစံ အချက်အလက် ဖွဲ့စည်းပုံ
+
 Heap / Priority Queue / Binary Heap
+စုပုံမှု / ဦးစားပေးမှုပါ တန်းစီးခြင်း / နှစ်ပိုင်းခွဲနိုင်သည့် စုပုံမှု
+
 balanced search trees (general concept, not details)
+ဟန်ချက်ညီ ရှာဖွေမှု ပြုနိုင်သည့် အပင်များ (ယေဘုယျ သဘောတရားသာ၊  အသေးစိတ် မဟုတ်)
+
 traversals: preorder, inorder, postorder, BFS, DFS
 Sorting
 selection

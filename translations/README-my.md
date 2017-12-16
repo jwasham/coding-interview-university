@@ -99,13 +99,26 @@ This is meant for new software engineers or those switching from software/web de
 If you have many years of software/web development experience, note that large software companies like Google, Amazon, Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 ခင်ဗျားမှာ ဆော့ဖ်ဝဲ/ဝက်ဘ် ပရိုဂရမ် ရေးသားမှု  အတွေ့အကြုံ နှစ်ပေါင်း များစွာ ရှိတယ် ဆိုရင်လည်း -  ဂူဂယ်၊ အမေဇုံ၊ ဖေ့စ်ဘွတ်ခ်နဲ့ မိုက်ခရိုဆော့ဖ်တို့လို ဆော့ဖ်ဝဲကုမ္ပဏီကြီးတွေ အနေနဲ့ ဆော့ဖ်ဝဲ/ဝက်ဘ် ပရိုဂရမ် ရေးသားတာနဲ့  ဆော့ဖ်ဝဲကို အင်ဂျင်နီယာလို ထုတ်လုပ်တာနဲ့ မတူဘူးလို့ သဘောထားပြီး၊ [သူတို့ ခန့်ထားမယ့် လူတွေကို] ကွန်ပျူတာသိပ္ပံ အသိပညာ ရှိရမယ်လို့ သတ်မှတ်ထားပါတယ်။  
 If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+ခင်ဗျား အနေနဲ့ ယုံကြည်စိတ်ချရရေး ဆိုင်ရာ အင်ဂျင်နီယာ သို့မဟုတ် လုပ်ငန်းလည်ပတ်ရေး အင်ဂျင်နီယာ ဖြစ်ချင်ရင် အပိုဆောင်း စာရင်းမှာ ပါတာတွေ  (ကွန်ရက်၊ လုံခြုံရေး ...) ကို ထပ် လေ့လာရပါမယ်။
 
 Table of Contents
+မာတိကာ
+
 What is it?
+ဘာလဲဗျ - ဒါ  ?
+
 Why use it?
+ဘာလို့ ဒါ လုပ်ရမှာလည်း ?
+
 How to use it
+ဒါကို ဘယ်လို သုံးရမလဲ
+
 Don't feel you aren't smart enough
+ခင်ဗျား သိပ် ဉာဏ်မကောင်းပါဘူးလို့ လက်မလျှော့လိုက်နဲ့
+
 About Video Resources
+ဗွီဒီယို လေ့လာစရာတွေနဲ့ ပတ်သက်လို့
+
 Interview Process & General Interview Prep
 Pick One Language for the Interview
 Book List

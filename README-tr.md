@@ -901,9 +901,9 @@ Skienna'nın kitabında (aşağıdaki Kitaplar bölümüne bakın) ve mülakat k
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 - ### Dinamik Programlama
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
-    - [ ] Videos:
+    - Bu konu oldukça zor olabilir, her DP çözülebilir problemin bir rekürsif ilişkisi olarak tanımlanması gerektiği için bununla baş etmek zor olabilir.
+    - Size tavsiyem ilgili model hakkında sağlam bir anlayış elde edene kadar, DP sorunlarının pek çok örneğini incelemenizi öneririm.
+    - [ ] Videolar:
         - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)

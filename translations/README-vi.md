@@ -213,9 +213,9 @@ Ok, bây giờ bạn có thể bắt đầu:
 ## Đừng nghĩ rằng bạn không đủ thông minh
 
 - Các kỹ sư của Google là những người xuất sắc, nhưng nhiều người vẫn cho rằng họ không đủ thông minh, mặc dù họ đang làm việc tại Google.
-
 - [Bí mật của của Thiên Tài Lập Trình  (The myth of the Genius Programmer) - video](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [ulie Pagano: Đi một mình rất nguy hiểm - Cuộc chiến với con quái vật vô hình trong công nghệ](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Hãy tin bạn có thể thay đổi](http://www.aaronsw.com/weblog/dweck)
 
 
 ## Về nguồn video
@@ -1491,7 +1491,7 @@ Bạn không bao giờ thực sự học xong!
 
 ## Sách bổ sung
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+- [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - cũ nhưng mà tốt
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - một sự lựa chọn hiện đại hơn
@@ -1503,7 +1503,7 @@ Bạn không bao giờ thực sự học xong!
     - quyển sách cổ diển về mẫu thiết kế.
 - [ ] [Site Reliability Engineering](https://landing.google.com/sre/book.html)
     - [Site Reliability Engineering: Google chạy các hệ thống của họ như thế nào](https://landing.google.com/sre/)
-- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
+- [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 
 ## Học thêm
 

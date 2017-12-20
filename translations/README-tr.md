@@ -70,4 +70,109 @@ muhendisi CS bilgisi olmalidir.
     - [Stacklar]
     - [Queue(Sıralamak)]
     - [Hash tablosu]
+- [fazladan bilgiler]
+    - [İkil arama(yarılama yöntemi)]
+    - [Bitsel Operatörler]
+- []
+    - []
+    - []
+    - []
+    -
+    -
+- [Sıralama]
+    - Seçerek Sıralama
+    - Sokma Sıralama
+    - Yığınlama Sıralaması
+    - Hızlı Sıralama
+    - Birleştirme
+- [Graflar]
+    - Yönlü Graflar
+    - Yönsüz graflar
+    - komşuluk matrisi graflar
+    - Komşuluk Listesi
+    - traversalar: BFS, DFS
 - [daha fazla bilgiler]
+    - [Özyineleme]
+    - [Dinamik Programlama]
+    - [Nesne Yönelimli Programlama]
+    - [tasarım kalıpları]
+    - [kombinatorikler (n sec k) & ihtimaller]
+    - [NP, NP-Zor kombinatoryal algoritmaları]
+    - [önbellek]
+    - [Islemler ve iplik kavramı]
+    - [Makaleler]
+    - [Testleme]
+    - [zamanlama]
+    - []
+    - [Metin aramalari & şekillendirilme]
+    - [Kayan noktalı sayılar]
+    - [Unicode]
+    - [Endian]
+- [Networking]
+- [Sistem dizayn, ölçeklenirlik, veri işlemleri]
+- [Son inceleme]
+- [Yazilim deneme sorulari]
+- []
+- [Mulakat yaklastiginda]
+- [senin CVn]
+- []
+- [mulakati yapan kisiye bir sorularin olsun]
+- [Isi tutugunda]
+
+---------------- Bundan sonraki hersey seceneklidir ----------------
+
+- [Ek kitaplar]
+- [Ek egitim]
+    - [Derleyici]
+    - [Emacs ve vi(m)]
+    - [Unix command line edatlari]
+    - [Bilgi teorisi]
+    - [Eslik & hamming kodu]
+    - [Entropi]
+    - [Veri Güvenliği]
+    - [Kompresyon]
+    - [Bilgisayar guvenligi]
+    - [cop koleksiyonu]
+    - [paralel programlama]
+    - []
+    - [A*]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Neden kullanilir?
+
+Bu projeyi ilk baslattigimda, Stack ve heap'in arasindaki farki bilmiyordum, Big-0 ne oldugunu bilmiyordum,
+agaclarla(ikili agaclar) alakali hic bir sey de bilmiyordum, hatta bir grapha nasil traverse yaparim da bilmiyordum.
+eger bir siralama algoritmasi yazacak olsaydim size derim ki hic iyi olmayacakti.
+o zamanlarda kullandigim veri yapilari hepsi dile yerlesikti ve icerden nasil calistigini hic bilmiyordum.

@@ -1,3 +1,4 @@
+
 # yazılım görüşme ünevirsetisi
 
 > ilklerde bunu sorftware muhendisi olmak icin yapmayı planladığım şeylerdir,
@@ -39,7 +40,7 @@ Hazirlama asamasinda olan diller
 
 Bu liste kendim icin web-developer(websiteyle ugrasan yazilimci turudur)'dan (kendim calisarak, no CS bilgim yokken) buyuk bir serikette yazilim muhendisi olmak icin aylardir calistigim listedir.
 
-![Tahtada yazilim yapmak - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Beyaz tahtada yazilim yapmak - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 Bu aslinda **yeni yazilim muhendisleri** yada software/web-development ten yazilim muhendislige gecmek isteyen yani (CS bilgisi olmayan) arkadaslar icin yapilmis. Eger CV'inde yillardir yazilimla ugrastigini soyliyorsan, daha zor bir gorusmeye(mulakata) hazir olmalisin.
 
@@ -51,73 +52,74 @@ muhendisi CS bilgisi olmalidir.
 
 ## Içerikler
 
-- [Nedir?]
-- [Neden kullanmalidir?]
-- [Nasil kullanilir]
-- [Kendine yeterince zeki olmadigini dusunme]
-- [Video kaynaklar hakkinda]
+- [Nedir?](#nedir)
+- [Neden kullanmalidir?](#neden-kullanılır)
+- [Nasil kullanilir](#nasıl-kullanılır)
+- [Yeterince zeki olmadığınızı hissetmeyin](#yeterince-zeki-olmadığınızı-hissetmeyin)
+- [Video kaynaklar hakkinda](#video-kaynakları-hakkında)
 - [Gorusme orasinda & genel gorusme hazilama]
 - [Gorusme icin bir dil sec]
-- [Kitap listesi]
-- [Balamadan once]
-- [burada olmadigini goreceginiz seyler]
+- [Kitap Listesi](#book-list)
+- [Başlamadan Önce](#before-you-get-started)
+- [Örtülü Olan Ne Görmüyotsun](#what-you-wont-see-covered)
 - [olmasi gereken bilgiler]
-- [Gunluk plan]
-- [algoritmik 	zorluk / Big-0 / Asimptotik gösterim]
-- [Veri yapıları]
-    - [Arrays(Diziler)]
-    - [Linklenmiş listeler]
-    - [Stacklar]
-    - [Queue(Sıralamak)]
-    - [Hash tablosu]
-- [fazladan bilgiler]
-    - [İkil arama(yarılama yöntemi)]
-    - [Bitsel Operatörler]
-- []
-    - []
-    - []
-    - []
-    -
-    -
+- [Günlük Plan](#the-daily-plan)
+- [Algoritma Karmaşıklığı / Big-O / Asimptotik Analizler](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Veri Yapıları](#data-structures)
+    - [Diziler](#arrays)
+    - [Bağlı Listeler](#linked-lists)
+    - [Yığın](#stack)
+    - [Kuyruk](#queue)
+    - [Hash tablosu](#hash-table)
+- [Ekstra Bilgi](#more-knowledge)
+    - [İkili arama](#binary-search)
+    - [Bitsel operasyonlar](#bitwise-operations)
+- [Ağaçlar](#trees)
+    - [Ağaçlar - Notlar & Arkaplan](#trees---notes--background)
+    - [İkili Arama Ağaçları: BST'ler](#binary-search-trees-bsts)
+    - [Yığın / Öncelik Kuyruğu / İkili Yığın](#heap--priority-queue--binary-heap)
+    - Dengeli arama ağaçları (genel konseptler, detaylar hariç)
+    - Dolaşımlar: preorder, inorder, postorder, BFS, DFS
 - [Sıralama]
     - Seçerek Sıralama
     - Sokma Sıralama
-    - Yığınlama Sıralaması
+    - Yığın Sıralaması
     - Hızlı Sıralama
     - Birleştirme
-- [Graflar]
+- [Graflar](#graphs)
     - Yönlü Graflar
     - Yönsüz graflar
-    - komşuluk matrisi graflar
-    - Komşuluk Listesi
+    - bitişiklik matrisi
+    - bitişiklik Listesi
     - traversalar: BFS, DFS
-- [daha fazla bilgiler]
-    - [Özyineleme]
-    - [Dinamik Programlama]
+- [Fazladan bilgiler](#even-more-knowledge)
+    - [Özyineleme](#recursion)
+    - [Dinamik Programlama](#dynamic-programming)
     - [Nesne Yönelimli Programlama]
     - [tasarım kalıpları]
-    - [kombinatorikler (n sec k) & ihtimaller]
-    - [NP, NP-Zor kombinatoryal algoritmaları]
+    - [Kombinasyonlar (n seçim k) & İhtimaller]
+    - [NP, NP-Complete ve Yaklaşım Algoritmaları]
     - [önbellek]
     - [Islemler ve iplik kavramı]
     - [Makaleler]
-    - [Testleme]
+    - [Test etme]
     - [zamanlama]
-    - []
-    - [Metin aramalari & şekillendirilme]
+    - [Sistem rutinlerini uygulamak]
+    - [Metin aramalari & manipulasyonu]
+    - [Tries]
     - [Kayan noktalı sayılar]
     - [Unicode]
     - [Endian]
 - [Networking]
-- [Sistem dizayn, ölçeklenirlik, veri işlemleri]
-- [Son inceleme]
-- [Yazilim deneme sorulari]
-- []
+- [Sistem dizayni, ölçeklenirlik, veri işlemleri](#system-design-scalability-data-handling) (eğer 4+ yıldan fazla deneyiminiz varsa)
+- [Son Kontrol]
+- [Kodlama Soruları]
+- [Kodlama egzersizleri / yarışmalar]
 - [Mulakat yaklastiginda]
-- [senin CVn]
-- []
+- [CVniz]
+- [mulakata gittiginizde dusunelecekler]
 - [mulakati yapan kisiye bir sorularin olsun]
-- [Isi tutugunda]
+- [isi Aldığınızda]
 
 ---------------- Bundan sonraki hersey seceneklidir ----------------
 
@@ -129,31 +131,15 @@ muhendisi CS bilgisi olmalidir.
     - [Bilgi teorisi]
     - [Eslik & hamming kodu]
     - [Entropi]
-    - [Veri Güvenliği]
+    - [Kriptografi]
     - [Kompresyon]
     - [Bilgisayar guvenligi]
     - [cop koleksiyonu]
     - [paralel programlama]
-    - []
+    - [Mesajlaşma, Serileştirme ve Kuyruklama Sistemleri]
     - [A*]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - [Hızlı Fourier Dönüşümü]
+    - []
 
 
 

@@ -159,6 +159,47 @@ muhendisi CS bilgisi olmalidir.
 ## Neden kullanilir?
 
 Bu projeyi ilk baslattigimda, Stack ve heap'in arasindaki farki bilmiyordum, Big-0 ne oldugunu bilmiyordum,
-agaclarla(ikili agaclar) alakali hic bir sey de bilmiyordum, hatta bir grapha nasil traverse yaparim da bilmiyordum.
+agaclarla alakali hic bir sey de bilmiyordum, hatta bir graphin nasil dolastigini da bilmiyordum.
 eger bir siralama algoritmasi yazacak olsaydim size derim ki hic iyi olmayacakti.
 o zamanlarda kullandigim veri yapilari hepsi dile yerlesikti ve icerden nasil calistigini hic bilmiyordum.
+calistigim bir projede "bellek yetersiz" hatta verene kadar hic bir zaman bellek yonetimi yapmamistim ve buna bir gecici cozumler bulmaya calisirdim
+Hayatımda bir kaç kez çok boyutlu dizileri kullandım ve binlerce birleştirici dizileri kullandım, ama hic bir zaman hicten bir veri yapisi olusturmadim.
+
+bu uzun bir plan. aylarca surebilir. eger bunlarin coguna bilginiz varsa, daha az zamaninizi alacaktir.
+
+## nasil kullanilir
+
+asagidaki hersey bir ana hattir, ve bunlara yukaridan asagiya sirayla gitmeniz gerekiyor.
+
+İlerlemeleri kontrol etmek için listelerde dahil olmak üzere, ben GitHub'ın özel markdown aracını kullanıyorum.
+
+**Bu şekilde öğeleri seçmek için yeni bir dal oluşturun, braketler arasına sadece bir x koyun: [x]**
+
+    bir dali fork yapin ve asigidaki komutlari takip edin
+
+`git checkout -b progress`
+
+`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+
+`git fetch --all`
+
+    Degisikliklerinizi yaptiktan sonra butun kutulari X ile isaretleyin
+
+`git add . `
+
+`git commit -m "Marked x" `
+
+`git rebase jwasham/master `
+
+`git push --force `
+
+[GitHub aromalı markdown hakkında bilgiler](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+
+## Yeterince zeki olmadiginizi hissetmeyiz
+- Basarili yazilim muhendisler zekidir, ama cogu kendine yeterince zeki olmadigi icin guvensizlik yasarlar.
+
+- [Dahi programcilar hakkinda birx efsane](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Yalnız Gitmek Tehlikeli: Teknolojide Görünmez Canavarla Savaşmak](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Degisebilecenizi inanin](http://www.aaronsw.com/weblog/dweck)
+
+## Video Kaynaklar Hakkinda

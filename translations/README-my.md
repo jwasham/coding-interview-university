@@ -216,10 +216,14 @@ undirected
 ဦးတည်ချက်မဲ့
 
 adjacency matrix
+မျဉ်းများ ကိုယ်စားပြု အင်းကွက် (အဂျေဆဲန်စီ မေးထြစ်ခ်စ်)
 
 
 adjacency list
+မျဉ်းများ ကိုယ်စားပြု စာရင်း (အဂျေဆဲန်စီ လစ်ထ်)
+
 traversals: BFS, DFS
+
 Even More Knowledge
 Recursion
 Dynamic Programming

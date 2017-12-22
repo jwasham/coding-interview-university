@@ -203,3 +203,70 @@ asagidaki hersey bir ana hattir, ve bunlara yukaridan asagiya sirayla gitmeniz g
 - [Degisebilecenizi inanin](http://www.aaronsw.com/weblog/dweck)
 
 ## Video Kaynaklar Hakkinda
+
+bazi videoler coursera, edx yada lunda.com kuruslarina katildiginizda ulasabilirsiniz bunlar da MOOC'lar denir.
+bazi dersler aktif olmayabilir buyuzden bir kac ay beklemeniz gerekebilir.
+lynda.com dersleri ucretsiz degildir.
+
+  ucretsiz ve herzaman ulasilabilen bir kaynak, youtube videoleri gibi bir sey eklersiniz memnun kalirim
+  ben universite dersleri kullanmaya tercih ederim
+
+## Mulakat sureci & genel Mulakat hazirligi
+
+- [ ] [ABC: herzaman kodlayin](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)  
+- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [yazilim mulakati suresinde efektif beyaz tahta kullanimi](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] [Teknolojik Yardımı Arındırma](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] Yazilim mulakati anlamak Set 1:
+    - [ ] [Gayle L McDowell - Yazilim mulakati anlamak (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Gayle Laakmann McDowell ile yazilim mulakatini anlamak (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] buyuk dortlukte nasil is tutlur:
+    - [ ] [buyuk dortlukte nasil is tutlur: - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+
+- [ ] hazirlama kursu:
+    - [ ] [Salınmış Yazılım Mühendisliği Mülakatı  (ucretli kurs)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Google'n eski mulakatcisiyle kendine yazilim muhendisligin mukalati icin kendine nasil hazirlayacagini ogren.
+    - [ ] [Veri yapilari, Algoritmalar, ve mulakatlar icin Python (ücretli kurs)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - Python merkezli mülakat hazırlık kursu, veri yapıları, algoritmalar, sahte mülakatlar ve daha fazlası.
+
+## mulakatinizi icin bir dil secin
+
+mulakatin yazilim kismini yaparak istediginiz, ve kullanarak en cok rahat hissetiginiz dili kullanambilirsiniz, ama buyuk seriketler icin, bunlar en saglam seceneklerdir:
+
+- C++
+- Java
+- Python
+
+bunlari da kullanabilirsiniz, once okuyun. Bazi uyarilar olabilir:
+
+- JavaScript
+- Ruby
+
+sececeginiz dilde cok rahaya ve bilgili olmaniz gerekiyordur.
+
+sececeginiz dille alakali daha cok okuyun:
+- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
+- http://blog.codingforinterviews.com/best-programming-language-jobs/
+
+[Dil kaynaklarina goz atin](programming-language-resources.md)
+
+ben C, C++, ve Python ogreniyor oldugum icin asagida bunlari gorecekseniz.
+bazi kitap kaynaklari da vardir, alta bakin.
+
+## Kitap listesi
+
+benim kullandigim listeden daha kisa bir listedir, daha hizlica ogrenmenizi sagliyacak
+
+### Mulakat hazirligi
+
+- [ ] [yazilim mulakati kesifetmek: geleceginizin isi tutmak icin bazi sirlar, ikinci baski](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - C++ v Java da cevaplar.
+    - Bu yazilim mulakati anlamak icin iyi bir isinmadir.
+    - cok ta zor degildir, genel mulakatlarda goreceginiz sorulardan daha kolay olabilir (benim okuduğum kadarıyla)
+- [ ] [Yazilim mulakati anlamak, 6inci baski](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - cevaplar javada yazilmis.
+
+eger ekstra vaktiniz varsa:
+
+- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)

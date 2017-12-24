@@ -1157,30 +1157,28 @@ Nel libro di Skiena potrai trovare molte cose per fare pratica(guarda la sezione
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-## System Design, Scalability, Data Handling
-- **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this.
-- Considerations:
-    - scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - system design
+## System Design, Scalabilità, Gestione di dati
+- **Puoi aspettarti domande di progettazione di sistema se hai 4 o più anni di esperienza.**
+- Scalabilità e System Design sono concetti molto ampi che contengono diversi argomenti e risorse di studio, dal momento che ci sono molte cose da prendere in considerazione quando progetti un sistema hardware o software che è scalabile. Aspettati di passare un bel po' di tempo in questa parte del piano di studio.
+- Considerazioni:
+    - scalabilità
+        - Convertire grandi moli di dati in valori singoli
+        - Trasformare un set di dati in un altro
+        - Gestire grandissime quantità di dati
+    - progettazione di sistema
         - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
+        - interfacce
+        - gerarchie di classi
+        - progettare un sistema sotto certi limiti
+        - semplicità e robustezza
         - tradeoffs
-        - performance analysis and optimization
-- [ ] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+        - analisi di performance e ottimizzazioni
+- [ ] **INIZIA QUI**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Ci sono molte risorse qua. Guarda gli articoli e gli esempi. Ne ho messi alcuni più sotto.
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
@@ -1244,34 +1242,34 @@ Nel libro di Skiena potrai trovare molte cose per fare pratica(guarda la sezione
     - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
     - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+    - [ ] Guarda "Messaging, Serialization, and Queueing Systems" più sotto per informazioni su alcune tecnologie che possono costituire le giunture dei servizi
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the Video Series section.
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - Per altro, vedi "Mining Massive Datasets" nella sezione dedicata ai video
+- [ ] Praticare il processo di progettazione di sistema: qui ci sono alcune idee da provare su carta, ognuna con un po' di documentazione su come è stato gestito nel mondo reale:
+    - recensione: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - define the use cases, with interviewer's help
-            - suggest additional features
-            - remove items that interviewer deems out of scope
-            - assume high availability is required, add as a use case
-        2. Think about constraints:
-            - ask how many requests per month
-            - ask how many requests per second (they may volunteer it or make you do the math)
-            - estimate reads vs. writes percentage
-            - keep 80/20 rule in mind when estimating
-            - how much data written per second
-            - total storage required over 5 years
-            - how much data read per second
-        3. Abstract design:
-            - layers (service, data, caching)
-            - infrastructure: load balancing, messaging
-            - rough overview of any key algorithm that drives the service
-            - consider bottlenecks and determine solutions
-    - Exercises:
+    - flusso:
+        1. Comprensione del problema del suo obiettivo:
+            - definizione dei casi d'uso, con l'aiuto di chi esegue il colloquio
+            - suggerire feature addizionali
+            - rimuovere elementi che l'intervistatore ritiene essere fuori obiettivo
+            - assumere che sia richiesta un'alta disponibilità, aggiunto come caso d'uso
+        2. Pensare ai limiti:
+            - chiedere quante richieste al mese ci sono
+            - chiedere quante richieste al secondo vengono fatte (potrebbero fornirti il dato o dirti di fare il conto)
+            - letture stimate vs. percentuale di scritture
+            - tenere a mente la regola 80/20 quando si stima
+            - quanti dati vengono scritti ogni secondo
+            - spazio totale richiesto in 5 anni
+            - quantità di dati letti in un secondo
+        3. Progettazione astratta:
+            - strati (servizio, dati, caching)
+            - infrastruttura: bilanciamento di carico, messaging
+            - overview semplice degli algoritmi chiave usati dal servizio
+            - considera colli di bottiglia e determina soluzioni
+    - Esercizi:
         - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)

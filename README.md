@@ -14,6 +14,7 @@ Translations:
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
 
 Translations in progress:
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
@@ -24,11 +25,10 @@ Translations in progress:
 - [French](https://github.com/jwasham/coding-interview-university/issues/89)
 - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
-- [Korean (한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
 - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
-- [German](https://github.com/jwasham/coding-interview-university/issues/135)
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
@@ -215,6 +215,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 
 ## About Video Resources
 
@@ -1496,7 +1497,7 @@ You're never really done.
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - aka the "Gang Of Four" book, or GOF
     - the canonical design patterns book
-- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
+- [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 
 ## Additional Learning
 

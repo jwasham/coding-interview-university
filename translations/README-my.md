@@ -223,11 +223,20 @@ adjacency list
 မျဉ်းများ ကိုယ်စားပြု စာရင်း (အဂျေဆဲန်စီ လစ်ထ်)
 
 traversals: BFS, DFS
+လှည့်လည်မှု ပုံစံများ - [ဘေးတိုက် ဦးစွာ ရှာသည့်] ဘီ-အက်ဖှ်-အက်စ် ၊  [အထက်အောက် ဦးစွာ ရှာသည့်] ဒီ-အက်ဖှ်-အက်စ်
 
 Even More Knowledge
+နောက်ထပ် သိမှတ်စရာများ
+
 Recursion
+မိမိကိုယ်ကို မိမိ ခေါ်သည့် ဖန်ရှင် (ရီကာရှင်)
+
 Dynamic Programming
+စရိတ်ချွေတာရန် အဖြေခွဲ အဖြေမှတ်ထားသည့် ဖြေရှင်းနည်း
+
 Object-Oriented Programming
+အချက်အလက်နှင့် သက်ဆိုင်ရာ အပြုအမူတို့ကို အရာဝတ္တု အဖြစ် သဘောထားသည့် ဖြေရှင်းနည်း
+
 Design Patterns
 Combinatorics (n choose k) & Probability
 NP, NP-Complete and Approximation Algorithms

@@ -1281,14 +1281,13 @@ Nel libro di Skiena potrai trovare molte cose per fare pratica(guarda la sezione
 
 ---
 
-## Final Review
+## Riassunto finale
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    Questa sezione contiene video più corti che puoi guardare velocemente per rivedere la maggior parte dei concetti più importanti. Va bene per rinfrescare le proprie conoscenze.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
+- [ ] Serie di corti video da 2-3 minuti (23 video)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
+- [ ] Serie di corti video da 2-5 minuti - Michael Sambol (18 video):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
     - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
@@ -1319,22 +1318,21 @@ Nel libro di Skiena potrai trovare molte cose per fare pratica(guarda la sezione
 
 ---
 
-## Coding Question Practice
+## Pratica su domande di programmazione
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Ora che conosci tutti gli argomenti di informatica illustrati sopra, è giunta l'ora di fare pratica rispondendo alle domande di programmazione.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Questa parte di pratica non consiste nel memorizzare le risposte ai problemi di programmazione.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+Perché ne hai bisogno:
+- riconoscere il problema, e dove inserire i giusti algoritmi e le strutture dati utili
+- ottenere i requisiti per il problema
+- analizzare il problema parlando, come farai al colloquio
+- programmaare su una lavagna o su carta, non usando un computer
+- capire le complessità in termini di tempo e spazio per le tue soluzioni
+- testare le tue soluzioni
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+Inoltre c'è bisogno di risoluzione di problemi essendo comunicativi e metodici. Nei libri dedicati ai colloqui ci sono queste sezioni ma ritengo che la seguente risorsa sia impressionante 
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
@@ -1357,21 +1355,20 @@ Supplemental:
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
-See [Book List above](#book-list)
+Guarda [la lista di libri sopra](#lista-dei-libri)
 
-## Coding exercises/challenges
+## Esercizi e sfide di programmazione
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Fai il maggior numero di sfide che puoi ogni giorno.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+Video di domande da colloquio di programmazione:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
 
-Challenge sites:
+Siti web di sfide:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1383,61 +1380,62 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
-Mock Interviews:
+Falsi colloqui
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 
-## Once you're closer to the interview
+## Una volta che sei più vicino al colloquio
 
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## Il tuo Curriculum Vitae (Resume)
 
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- Guarda alcuni esempi in Cracking The Coding Interview e in Programming Interviews Exposed
 
 
-## Be thinking of for when the interview comes
+## Pensa a cosa aspettarti al colloquio
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Pensa a circa 29 domande che ti verranno fatte, assieme a ciò che ho messo qui di seguito. 
+Prepara 2-3 risposte per ciascuno.
+Devi avere una storia, non solo dati, a proposito di qualcosa che hai compiuto.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Perché vuoi questo lavoro?
+- Che problema grosso hai risolto?
+- Sfide più grandi affrontate?
+- Miglior/Peggior progettazione vista?
+- Idee per migliorare un prodotto esistente.
+- Lavori meglio da solo o come parte di un team?
+- Quali delle tue abilità ed esperienze sarebbero migliori per il ruolo e perché?
+- Con cosa ti sei divertito maggiormente [lavoro x / progetto y]?
+- Qual è stata la sfida maggiore che hai affrontato [lavoro x / progetto y]?
+- Qual è stato il bug pià difficile che hai affrontato [job x / project y]?
+- Cosa hai imparato con [lavoro x / progetto y]?
+- Cosa avresti potuto fare meglio [job x / project y]?
 
-## Have questions for the interviewer
+## Prepara domande per chi ti fa il colloquio
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Ecco alcune delle mie (Potrei conoscere la risposta ma mi piacerebbe avere una loro visione dell'argomento):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- Quanto è grande il team?
+- Come funziona il modello di sviluppo? Usate waterfall/sprints/agile?
+- Sono comuni corse di fretta per una deadline? Oppure c'è flessibilità?
+- Come vengono prese le decisioni nel team?
+- Quanti incontri fate ogni settimana?
+- Pensate che l'ambiente di lavoro ti aiuta a concentrarti?
+- Su cosa state lavorando?
+- Cosa vi piace del lavoro corrente?
+- Qual è la vostra visione sul lavoro che vorreste fare?
 
-## Once You've Got The Job
+## Una volta ottenuto il lavoro
 
-Congratulations!
+Congratulazioni!
 
-Keep learning.
+Continua a imparare
 
-You're never really done.
+Non si smette mai di imparare.
 
 ---
 

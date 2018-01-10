@@ -1290,15 +1290,15 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ---
 
-## Final Review
+## Финальный обзор
 
-    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    В этом разделе вы найдете короткие видео, которые вы можете посмотреть достаточно быстро чтобы пересмотреть наиболее важные моменты. This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
+    Полезно освежать свои знания чаще. It's nice if you want a refresher often.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (18 видео):
+    - [Видео](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
     - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
     - [ ] [02. Analysis of Algorithms](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
@@ -1328,19 +1328,19 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ---
 
-## Coding Question Practice
+## Практика: задачи по программированию
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Теперь, когда вы узнали все вышерассмотренные темы по компютерным наукам, настало время попрактиковаться в решении задач по программированию.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Решение задач по программированию - это не запоминание решений.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+Для чего вам нужно практиковаться в решении задач по программированию:
+- выявление проблем, и умение определять какие структуры данных и алгоритмы походят для их решения
+- сбор требований для задачи
+- проговаривание хода решения задачи, так же как вы будете это делать на интервью
+- написание кода на доске или на бумаге, не на компьютере
+- умение оценивать сложность вашего решения по расходу времени и памяти
+- тестирование решений
 
 There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
 interview books, too, but I found this outstanding:

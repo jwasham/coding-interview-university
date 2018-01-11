@@ -1290,7 +1290,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ---
 
-## Финальный обзор
+## Заключительный обзор
 
     В этом разделе вы найдете короткие видео, которые вы можете посмотреть достаточно быстро чтобы пересмотреть наиболее важные моменты. This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
     Полезно освежать свои знания чаще. It's nice if you want a refresher often.
@@ -1342,13 +1342,13 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 - умение оценивать сложность вашего решения по расходу времени и памяти
 - тестирование решений
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
+Вот пример отличного введения в методичное, общительное решение задач на интервю. Вы так же найдете это в книгах по интервью для программистов, но мне кажется это изумительным: There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
 interview books, too, but I found this outstanding:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
+У вас нет доски дома? Логично. Я поехавший и у меня есть большая доска дома. Но вместо доски можно использователь No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
 large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
 I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
 
@@ -1392,20 +1392,20 @@ Challenge sites:
 Maybe:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
 
-## Once you're closer to the interview
+## Когда вы уже ближе к интервью Once you're closer to the interview
 
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## Ваше резюме
 
 - [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
 
-## Be thinking of for when the interview comes
+## Подумайте об этом когда подходит время интервью Be thinking of for when the interview comes
 
 Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
 Have a story, not just data, about something you accomplished.
@@ -1423,7 +1423,7 @@ Have a story, not just data, about something you accomplished.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
-## Have questions for the interviewer
+## Вопросы для интервьювера Have questions for the interviewer
 
     Some of mine (I already may know answer to but want their opinion or team perspective):
 
@@ -1437,13 +1437,13 @@ Have a story, not just data, about something you accomplished.
 - What do you like about it?
 - What is the work life like?
 
-## Once You've Got The Job
+## Когда вы получили работу Once You've Got The Job
 
-Congratulations!
+Поздравляю! 
 
-- [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+- [10 вещей которые я хотел бы знал в мой первый день в Google10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-Keep learning.
+Продолжайте учиться Keep learning.
 
 You're never really done.
 
@@ -1452,6 +1452,9 @@ You're never really done.
     *****************************************************************************************************
     *****************************************************************************************************
 
+    Все что находится ниже - опционально. Это мои рекоммендации а не от Google.
+    Обучаюсь этому вы узнайте больше о компьютерных науках, и будуте лучше готовы для любой вакансии программиста.
+    Вы станете более всесторонне-развитым разработчиком.
     Everything below this point is optional. These are my recommendations, not Google's.
     By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
     any software engineering job. You'll be a much more well-rounded software engineer.

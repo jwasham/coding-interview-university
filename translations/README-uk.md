@@ -34,7 +34,7 @@ Original: [англійською](README.md)
 - [Чому це використовувати?](#Чому-це-використовувати)
 - [Як це використовувати](#Як-це-використовувати)
 - [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
-- [Про відео-ресурси](#about-video-resources)
+- [Про відео-ресурси](#Про-відео-ресурси)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
@@ -188,14 +188,14 @@ Original: [англійською](README.md)
 [Більше про Github розмітку](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Не почувайтесь недостатньо розумними
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- Успішні розробники програмного забезпечення розумні, але багато з них мають думку, що вони недостатньо досвідчені.
+- [Міф про геніального програміста](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Йти самому небезпечно: у боротьбі з невидимими монстрами в технологіях](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+## Про відео ресурси
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Деякі відео доступні лише при підписці на курси на Coursera, EdX, or Lynda.com class. Вони називаються масовими відкритими онлайн-курсами (MOOCs).
+Деякі курси проводяться з деякою періодичністю і потрібно почекати декілька місяців поки вони стануть знову доступними. Курси на Lynda.com не э безкоштовними.
 
     I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
     I like using university lectures.

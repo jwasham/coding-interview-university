@@ -35,9 +35,9 @@ Original: [англійською](README.md)
 - [Як це використовувати](#Як-це-використовувати)
 - [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
 - [Про відео-ресурси](#Про-відео-ресурси)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
+- [Процес інтерв'ю та загальна підготовка до нього](#Процес-інтервю-та-загальна-підготовка-до-нього)
+- [Обери одну мову для інтерв'ю](#Обери-одну-мову-для-інтервю)
+- [Список книг](#Список-книг)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -201,7 +201,7 @@ Original: [англійською](README.md)
     I like using university lectures.
 
 
-## Interview Process & General Interview Prep
+## Процес інтерв'ю та загальна підготовка до нього
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
@@ -210,41 +210,41 @@ Original: [англійською](README.md)
 - [ ] Cracking The Coding Interview Set 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] How to Get a Job at the Big 4:
+- [ ] Як отримати роботу в великій четвірці:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
-- [ ] Prep Course:
+- [ ] Курс підготовки:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+        - Взнай як підготуватись до інтерв'ю на позицію розробника програмного забезпечення від колишнього інтерв'єра Google.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - Курс з підготовки до інтерв'ю (Python), який покриває структури даних, алгоритми, пробні інтерв'ю та багато іншого.
 
-## Pick One Language for the Interview
+## Обери одну мову для інтерв'ю
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Для написання коду під час інтерв'ю ти можешь обрати мову, з якою тобі зручно працювати, але для великих компаній  найбільше підходять такі мови:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Ти також можеш обрати ці мови, але спочатку краще почитай про них. Можуть бути деякі підводні камені під час їх використання:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Ти повинен добре володіти мовою і бути добре обізнаним.
 
-Read more about choices:
+Почтиай більше стосовно вибору:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Тут можна подивитись ресурси щодо мов](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Нижче ви побачите деяку інформацію по C, C++, і Python тому, що я їх вивчаю. Деякі книги також згадуються, дивись нижче.
 
-## Book List
+## Список книг
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Це коротщий список, аніж я використовував. 
 
 ### Interview Prep
 

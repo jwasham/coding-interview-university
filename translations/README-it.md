@@ -1442,46 +1442,48 @@ Non si smette mai di imparare.
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+    Tutto al di sotto di questo punto è opzionale.
+    Studiando i punti seguenti, avrai un'ulteriore esposizione a molti più concetti legati all'Informatica,
+    e diventerai più preparato ad affrontare un lavoro da ingegnere del software. Sarai un ingegnere del
+    software a tutto tondo.
 
     *****************************************************************************************************
     *****************************************************************************************************
 
 ---
 
-## Additional Books
+## Libri addizionali
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
+    - vecchio ma ottimo
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - a modern option
+    - una scelta moderna
 - [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
+    - un'introduzione semplice ai design pattern
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - aka the "Gang Of Four" book, or GOF
-    - the canonical design patterns book
+    - aka il libro della "Gang Of Four", o GOF
+    - il libro canonico sui design pattern
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-## Additional Learning
+## Apprendimento ulteriore
 
-These topics will likely not come up in an interview, but I added them to help you become a well-rounded
-software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
+Questi argomenti normalmente non verranno fuori durante un colloquio, ma li aggiungo per aiutarti a ottenere
+molte altre conoscenze per essere un buon ingegnere del software, in sostanza tecnologie e algoritmi che si
+aggiungeranno ai tuoi strumenti.
 
-- ### Compilers
+- ### Compilatori
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Emacs and vi(m)
-    - Familiarize yourself with a unix-based code editor
+- ### Emacs e vi(m)
+    - Familiarizza con un editor unix-based
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
+        - set di 4 video:
             - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
             - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
@@ -1489,7 +1491,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
         - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - set di 3 video:
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
@@ -1498,7 +1500,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix command line tools
-    - I filled in the list below from good tools.
+    - Di seguito ho messo strumenti utilissimi.
     - [ ] bash
     - [ ] cat
     - [ ] grep
@@ -1511,37 +1513,32 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Teoria dell'informazione (video)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - [ ] more about Markov processes:
+    - [ ] di più a proposito dei processi di Markov:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below.
 
-- ### Parity & Hamming Code (videos)
+- ### Parità e Codice di Hamming (video)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
-    - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-    - [ ] Hamming Code:
+    - [ ] [Parità](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - [ ] Codice di Hammign:
         - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Entropia
+    - assiucrati di guardare per primi i video sulla teoria dell'informazione
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Crittografia
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - make sure to watch information theory videos first
-    - [ ] Computerphile (videos):
+- ### Compressione
+    - [ ] Computerphile (video):
         - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
         - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
@@ -1577,7 +1574,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
+- ### Messaging, Serialization, e Queueing Systems
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1604,7 +1601,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
     - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- ### Fast Fourier Transform
+- ### Trasformata di Fourier
     - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
     - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
     - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
@@ -1612,7 +1609,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+    - Dato un Bloom filter con m bit e k funzioni hash, inserimento e ottenimento di un valore sono O(k)
     - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
@@ -1622,18 +1619,18 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
-    - used to determine the similarity of documents
-    - the opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same.
+    - usato per determinare la similarità tra documenti
+    - l'opposto di  MD5 o SHA che sono usati per determinare se 2 documenti/stringhe sono esattamente gli stessi.
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
     - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
-- ### Augmented Data Structures
+- ### Strutture Dati aumentate
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
 
-- ### Balanced search trees
+- ### Alberi di ricerca bilanciati
     - Know least one type of balanced binary tree (and know how it's implemented):
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations

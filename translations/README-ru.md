@@ -111,7 +111,7 @@
     - [Emacs и vi(m)](#emacs-and-vim)
     - [Командная строка Unix](#unix-command-line-tools)
     - [Теория информации](#Теория-информации)
-    - [Четность & Код Хемминга](#parity--hamming-code)
+    - [Чётность & Код Хемминга](#Чётность-и-Код-Хемминга)
     - [Энтропия](#entropy)
     - [Криптография](#cryptography)
     - [Сжатие](#compression)
@@ -1568,13 +1568,13 @@ You're never really done.
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - А также смотрите курс-сериал MIT 6.050J Information and Entropy в самом низу.
 
-- ### Parity & Hamming Code (videos)
-    - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
-    - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-    - [ ] Hamming Code:
-        - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
-        - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
-    - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+- ### Чётность и Код Хемминга
+    - [ ] [Вступление](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [ ] [Чётность](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - [ ] Код Хемминга:
+        - [Обнаружение ошибок](https://www.youtube.com/watch?v=1A_NcXxdoCc)
+        - [Исправление ошибок](https://www.youtube.com/watch?v=JAMLuxdHH8o)
+    - [ ] [Проверка ошибок](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### Entropy
     - also see videos below

@@ -110,7 +110,7 @@
     - [Порядок следования байт](#endianness)
     - [Emacs и vi(m)](#emacs-and-vim)
     - [Командная строка Unix](#unix-command-line-tools)
-    - [Теория информации](#information-theory)
+    - [Теория информации](#Теория-информации)
     - [Четность & Код Хемминга](#parity--hamming-code)
     - [Энтропия](#entropy)
     - [Криптография](#cryptography)
@@ -1560,13 +1560,13 @@ You're never really done.
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Теория информации
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - [ ] more about Markov processes:
+    - [ ] Подробнее о Марковских Процессах:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below.
+    - А также смотрите курс-сериал MIT 6.050J Information and Entropy в самом низу.
 
 - ### Parity & Hamming Code (videos)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)

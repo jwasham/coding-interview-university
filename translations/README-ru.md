@@ -115,7 +115,7 @@
     - [Энтропия](#Энтропия)
     - [Криптография](#Криптография)
     - [Сжатие](#Сжатие)
-    - [Сети](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
+    - [Сети](#Сети-и-сетевые-протоколы)
     - [Компьютерная безопасность](#computer-security)
     - [Сборщики мусора](#garbage-collection)
     - [Параллельное программирование](#parallel-programming)
@@ -1600,19 +1600,19 @@ You're never really done.
     - [ ] [Compressor Head плейлист](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [Разработчики Google вживую: GZIP не достаточно!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
-    - otherwise, this is just good to know
+- ### Сети и сетевые протоколы
+    - **Если у вас уже есть опыт с сетями или вы хотить стать системным инженером, то ждите вопросов на эти темы**
+    - В противном случае, это все равно полезно знать 
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [UDP and TCP: Сравнение транспортных протоколов](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [Объяснение TCP/IP and модели OSI](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [Передача пакетов в интернете. Урок про сети и TCP/IP](https://www.youtube.com/watch?v=nomyRJehhnM)
     - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
     - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] [Плейлис на ютубе про сети (21 видео)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Подсети без мифов - Часть 5 CIDR](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
 - ### Computer Security
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)

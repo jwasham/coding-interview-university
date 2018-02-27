@@ -113,7 +113,7 @@
     - [Теория информации](#Теория-информации)
     - [Чётность & Код Хемминга](#Чётность-и-Код-Хемминга)
     - [Энтропия](#Энтропия)
-    - [Криптография](#cryptography)
+    - [Криптография](#Криптография)
     - [Сжатие](#compression)
     - [Сети](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
     - [Компьютерная безопасность](#computer-security)
@@ -1581,12 +1581,12 @@ You're never really done.
     - Затем посмотрите следующее видео
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Криптография
+    - Не забудьте сначала посмотреть видео теории информации
+    - Затем посмотрите следующее видео
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
-    - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
-    - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Криптография: Хеширование](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+    - [ ] [Криптография: Шифрование](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
 - ### Compression
     - make sure to watch information theory videos first

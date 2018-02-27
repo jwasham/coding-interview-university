@@ -114,7 +114,7 @@
     - [Чётность & Код Хемминга](#Чётность-и-Код-Хемминга)
     - [Энтропия](#Энтропия)
     - [Криптография](#Криптография)
-    - [Сжатие](#compression)
+    - [Сжатие](#Сжатие)
     - [Сети](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
     - [Компьютерная безопасность](#computer-security)
     - [Сборщики мусора](#garbage-collection)
@@ -1588,17 +1588,17 @@ You're never really done.
     - [ ] [Криптография: Хеширование](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Криптография: Шифрование](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - make sure to watch information theory videos first
-    - [ ] Computerphile (videos):
-        - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
-        - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
-        - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
-        - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
-        - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
-        - [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
-    - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
-    - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
+- ### Сжатие
+    - Не забудьте сначала посмотреть видео теории информации
+    - [ ] Computerphile (видео на ютубе):
+        - [ ] [Сжатие](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [ ] [Энтропия в сжатие](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [ ] [Инвертированный деревья (Кодовые деревья Хаффмана)](https://www.youtube.com/watch?v=umTbivyJoiI)
+        - [ ] [Экстра - Кодовые деревья Хаффмана](https://www.youtube.com/watch?v=DV8efuB3h2g)
+        - [ ] [Элегантное сжатие текста (LZ 77 Метод)](https://www.youtube.com/watch?v=goOa3DGezUA)
+        - [ ] [Сжатие текста и Теория Вероятностей](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+    - [ ] [Compressor Head плейлист](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [ ] [Разработчики Google вживую: GZIP не достаточно!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
 - ### Networking
     - **if you have networking experience or want to be a systems engineer, expect questions**

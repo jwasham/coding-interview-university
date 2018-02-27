@@ -112,7 +112,7 @@
     - [Командная строка Unix](#unix-command-line-tools)
     - [Теория информации](#Теория-информации)
     - [Чётность & Код Хемминга](#Чётность-и-Код-Хемминга)
-    - [Энтропия](#entropy)
+    - [Энтропия](#Энтропия)
     - [Криптография](#cryptography)
     - [Сжатие](#compression)
     - [Сети](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
@@ -1576,9 +1576,9 @@ You're never really done.
         - [Исправление ошибок](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [Проверка ошибок](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Энтропия
+    - Не забудьте сначала посмотреть видео теории информации
+    - Затем посмотрите следующее видео
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 - ### Cryptography

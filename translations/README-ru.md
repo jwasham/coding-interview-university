@@ -89,8 +89,8 @@
     - [Реализация системных вызовов](#implement-system-routines)
     - [Поиск в строке & манипуляции](#string-searching--manipulations)
 - [Проектирование систем, Масштабируемость, Обработка данных](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Финальный обзор](#final-review)
-- [Практические вопросы по программированию](#coding-question-practice)
+- [Заключительный обзор](#final-review)
+- [Практика: задачи по программированию](#coding-question-practice)
 - [Упражнения по программированию](#coding-exerciseschallenges)
 - [Перед собеседованием](#once-youre-closer-to-the-interview)
 - [Ваше резюме](#your-resume)
@@ -1370,15 +1370,15 @@ Supplemental:
 
 See [Book List above](#book-list)
 
-## Coding exercises/challenges
+## Упражнения по программированию
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Как только вы наполнили свою голову знаниями, самое время применить их на практике.
+Выполняйте упражнения по программированию каждый день, чем больше тем лучше.
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- [ ] [Как найти решение](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Challenge sites:
+Сайты с упражнениями:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1389,7 +1389,7 @@ Challenge sites:
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
-Maybe:
+Возможно:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
 
 ## Когда вы уже ближе к интервью Once you're closer to the interview
@@ -1401,27 +1401,27 @@ Maybe:
 
 ## Ваше резюме
 
-- [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- [10 советов для подготовки (немного) менее ужасного резюме](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- Загляните в раздел по подготовке резюме в книге Cracking The Coding Interview и в конце книги Programming Interviews Exposed
 
 
 ## Подумайте об этом когда подходит время интервью
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Подумайте как отвечать на приблихительно 20 вопросов, подготовьте 2-3 ответа на каждый вопрос Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
+Расскажите историю, а не просто сухие данные а чем-то чего вы добились Have a story, not just data, about something you accomplished.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
+- Почему вы хотите получить эту работу Why do you want this job?
+- Какая самая сложная проблема которую вы решили What's a tough problem you've solved?
 - Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Лучгие/худшие решения с которыми вы сталкивались Best/worst designs seen?
+- Идеи как улучшить существующий продукт от Google Ideas for improving an existing Google product.
+- В чем вы лучше, как часть команды или как иднивидуальный разработчик How do you work best, as an individual and as part of a team?
+- Какие из ваших навыков или что из опыта будет наиболее ценным для данной позиции Which of your skills or experiences would be assets in the role and why?
+- Что вам больше всего понравилось в работе над проектом Х/в компании Х What did you most enjoy at [job x / project y]?
+- Какие самые сложые What was the biggest challenge you faced at [job x / project y]?
+- Как самый сложный баг вам приходилось исправлять What was the hardest bug you faced at [job x / project y]?
+- Чему вы научились What did you learn at [job x / project y]?
+- Чтобы вы могли сделать лучше работая What would you have done better at [job x / project y]?
 
 ## Приготовьте вопросы для интервьювера
 

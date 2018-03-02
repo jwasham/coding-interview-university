@@ -1405,7 +1405,7 @@ Maybe:
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
 
-## Подумайте об этом когда подходит время интервью Be thinking of for when the interview comes
+## Подумайте об этом когда подходит время интервью
 
 Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
 Have a story, not just data, about something you accomplished.
@@ -1423,42 +1423,38 @@ Have a story, not just data, about something you accomplished.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
-## Вопросы для интервьювера Have questions for the interviewer
+## Приготовьте вопросы для интервьювера
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Вот, некоторые из моих (возможно, я уже знаю ответ, но хочу я услышать мнение интервьювера или точку зрения команды):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- Сколько человек в команде? How large is your team?
+- Как выглядит ваш цикл разработки? Работаете ли вы по agile, спринтам или водопад?
+- Насколько часто бывают переработки и дедлайны? Или сроки достаточно гибкие?
+- Как в вашей команде принимаются решения?
+- Сколько встреч вы проводите в неделю?
+- Располагает ли ваше рабочее окружение к концентрации?
+- Над чем вы работаете?
+- Что вам в этом нравится?
+- Как в целом протекает работа?
 
-## Когда вы получили работу Once You've Got The Job
+## Когда вас приняли на работу
 
 Поздравляю! 
 
-- [10 вещей которые я хотел бы знал в мой первый день в Google10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+- [10 вещей которые я хотел бы знать в мой первый рабочий день в Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-Продолжайте учиться Keep learning.
+Не прекращайте учиться.
 
-You're never really done.
+На самом деле это не конец.
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Все что находится ниже - опционально. Это мои рекоммендации а не от Google.
-    Обучаюсь этому вы узнайте больше о компьютерных науках, и будуте лучше готовы для любой вакансии программиста.
+    Все что находится ниже этого места - опционально. Это мои рекоммендации, а не от Google.
+    Изучая все это вы узнаете больше о компьютерных науках, и будуте лучше готовы для любой вакансии программиста.
     Вы станете более всесторонне-развитым разработчиком.
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
     *****************************************************************************************************
     *****************************************************************************************************
 

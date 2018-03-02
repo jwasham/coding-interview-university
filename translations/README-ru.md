@@ -89,8 +89,8 @@
     - [Реализация системных вызовов](#implement-system-routines)
     - [Поиск в строке & манипуляции](#string-searching--manipulations)
 - [Проектирование систем, Масштабируемость, Обработка данных](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Финальный обзор](#final-review)
-- [Практические вопросы по программированию](#coding-question-practice)
+- [Заключительный обзор](#final-review)
+- [Практика: задачи по программированию](#coding-question-practice)
 - [Упражнения по программированию](#coding-exerciseschallenges)
 - [Перед собеседованием](#once-youre-closer-to-the-interview)
 - [Ваше резюме](#your-resume)
@@ -1370,15 +1370,15 @@ Supplemental:
 
 See [Book List above](#book-list)
 
-## Coding exercises/challenges
+## Упражнения по программированию
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Как только вы наполнили свою голову знаниями, самое время применить их на практике.
+Выполняйте упражнения по программированию каждый день, чем больше тем лучше.
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- [ ] [Как найти решение](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Challenge sites:
+Сайты с упражнениями:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1389,7 +1389,7 @@ Challenge sites:
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
-Maybe:
+Возможно:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
 
 ## Когда вы уже ближе к интервью Once you're closer to the interview
@@ -1401,64 +1401,60 @@ Maybe:
 
 ## Ваше резюме
 
-- [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- [10 советов для подготовки (немного) менее ужасного резюме](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- Загляните в раздел по подготовке резюме в книге Cracking The Coding Interview и в конце книги Programming Interviews Exposed
 
 
-## Подумайте об этом когда подходит время интервью Be thinking of for when the interview comes
+## Подумайте об этом когда подходит время интервью
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Подумайте как отвечать на приблихительно 20 вопросов, подготовьте 2-3 ответа на каждый вопрос Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
+Расскажите историю, а не просто сухие данные а чем-то чего вы добились Have a story, not just data, about something you accomplished.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
+- Почему вы хотите получить эту работу Why do you want this job?
+- Какая самая сложная проблема которую вы решили What's a tough problem you've solved?
 - Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Лучгие/худшие решения с которыми вы сталкивались Best/worst designs seen?
+- Идеи как улучшить существующий продукт от Google Ideas for improving an existing Google product.
+- В чем вы лучше, как часть команды или как иднивидуальный разработчик How do you work best, as an individual and as part of a team?
+- Какие из ваших навыков или что из опыта будет наиболее ценным для данной позиции Which of your skills or experiences would be assets in the role and why?
+- Что вам больше всего понравилось в работе над проектом Х/в компании Х What did you most enjoy at [job x / project y]?
+- Какие самые сложые What was the biggest challenge you faced at [job x / project y]?
+- Как самый сложный баг вам приходилось исправлять What was the hardest bug you faced at [job x / project y]?
+- Чему вы научились What did you learn at [job x / project y]?
+- Чтобы вы могли сделать лучше работая What would you have done better at [job x / project y]?
 
-## Вопросы для интервьювера Have questions for the interviewer
+## Приготовьте вопросы для интервьювера
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Вот, некоторые из моих (возможно, я уже знаю ответ, но хочу я услышать мнение интервьювера или точку зрения команды):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- Сколько человек в команде? How large is your team?
+- Как выглядит ваш цикл разработки? Работаете ли вы по agile, спринтам или водопад?
+- Насколько часто бывают переработки и дедлайны? Или сроки достаточно гибкие?
+- Как в вашей команде принимаются решения?
+- Сколько встреч вы проводите в неделю?
+- Располагает ли ваше рабочее окружение к концентрации?
+- Над чем вы работаете?
+- Что вам в этом нравится?
+- Как в целом протекает работа?
 
-## Когда вы получили работу Once You've Got The Job
+## Когда вас приняли на работу
 
 Поздравляю! 
 
-- [10 вещей которые я хотел бы знал в мой первый день в Google10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+- [10 вещей которые я хотел бы знать в мой первый рабочий день в Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-Продолжайте учиться Keep learning.
+Не прекращайте учиться.
 
-You're never really done.
+На самом деле это не конец.
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Все что находится ниже - опционально. Это мои рекоммендации а не от Google.
-    Обучаюсь этому вы узнайте больше о компьютерных науках, и будуте лучше готовы для любой вакансии программиста.
+    Все что находится ниже этого места - опционально. Это мои рекоммендации, а не от Google.
+    Изучая все это вы узнаете больше о компьютерных науках, и будуте лучше готовы для любой вакансии программиста.
     Вы станете более всесторонне-развитым разработчиком.
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
     *****************************************************************************************************
     *****************************************************************************************************
 

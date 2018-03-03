@@ -1292,30 +1292,30 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ## Заключительный обзор
 
-    В этом разделе вы найдете короткие видео, которые вы можете посмотреть достаточно быстро чтобы пересмотреть наиболее важные моменты. This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
-    Полезно освежать свои знания чаще. It's nice if you want a refresher often.
+    В этом разделе вы найдете короткие видео, которые можно посмотреть достаточно быстро чтобы повторить наиболее важные моменты.
+    Полезно освежать свои знания чаще.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Серия 2-3 минутных короткие видео по темам (23 видео)
+    - [Видео](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
 - [ ] Серия коротких 2-5 минутных видео - Michael Sambol (18 видео):
     - [Видео](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
+- [ ] [Видео от Сэджвика - Алгоритмы I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
     - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-    - [ ] [02. Analysis of Algorithms](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
-    - [ ] [03. Stacks and Queues](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
-    - [ ] [04. Elementary Sorts](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
+    - [ ] [02. Анализ Алгоритмов](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
+    - [ ] [03. Стэки и Очереди](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
+    - [ ] [04. Элементарные сортировки](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
     - [ ] [05. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [07. Priority Queues](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
-    - [ ] [08. Elementary Symbol Tables](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
-    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
-    - [ ] [10. Geometric Applications of BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
-    - [ ] [11. Hash Tables](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
-- [ ] [Sedgewick Videos - Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
-    - [ ] [01. Undirected Graphs](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
-    - [ ] [02. Directed Graphs](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
+    - [ ] [07. Приоритетные очереди](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
+    - [ ] [08. Элементарные таблицы символов](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
+    - [ ] [09. Сбалансированные деревья поиска](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
+    - [ ] [10. Геометрические применениния BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
+    - [ ] [11. Хэш таблицы](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
+- [ ] [Видео от Сэджвика - Алгоритмы II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
+    - [ ] [01. Ненаправленные графы](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
+    - [ ] [02. Направленные графы](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
     - [ ] [03. Minimum Spanning Trees](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
-    - [ ] [04. Shortest Paths](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
+    - [ ] [04. Кратчайшие пути](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
     - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
     - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
     - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
@@ -1338,28 +1338,25 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 - выявление проблем, и умение определять какие структуры данных и алгоритмы походят для их решения
 - сбор требований для задачи
 - проговаривание хода решения задачи, так же как вы будете это делать на интервью
-- написание кода на доске или на бумаге, не на компьютере
+- написание кода на доске или на бумаге, но не на компьютере
 - умение оценивать сложность вашего решения по расходу времени и памяти
 - тестирование решений
 
-Вот пример отличного введения в методичное, общительное решение задач на интервю. Вы так же найдете это в книгах по интервью для программистов, но мне кажется это изумительным: There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+Вот пример отличного введения в методичное, коммуникативное решение задач на интервью. Вы так же найдете это в книгах по интервью для программистов, но это подход мне кажется выдающимся:
+[Схема создания алгоритма](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-У вас нет доски дома? Логично. Я поехавший и у меня есть большая доска дома. Но вместо доски можно использователь No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+У вас нет доски дома? Не удивительно. Я не много неормальный и у меня есть большая доска дома. Но вместо доски можно использователь и планшет для рисования из магазина художественных товаров, и практиковаться сидя на диване. Это моя "диванная доска". На фото я положил ручку чтобы иметь представления о размерах. Если вы будете пользоваться ручкой, постоянно будет возникать желание что-то стереть, решение захламляется достаточно быстро.
 
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![моя диванная доска](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+Дополнительно:
 
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
+- [Математика для Топ-кодеров](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [Динамическое программирование - От новичка до продвинутого](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Материалы для интервью от MIT](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
+- [Упражнения по улучшению навыков для определенного языка](http://exercism.io/languages)
 
 **Read and Do Programming Problems (in this order):**
 
@@ -1368,7 +1365,7 @@ Supplemental:
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
-See [Book List above](#book-list)
+См. [Список книг ниже](#book-list)
 
 ## Упражнения по программированию
 
@@ -1390,9 +1387,9 @@ See [Book List above](#book-list)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
 Возможно:
-- [Mock interviewers from big companies](http://www.gainlo.co/)
+- [Тестовые интервьюверы из больших компаний](http://www.gainlo.co/)
 
-## Когда вы уже ближе к интервью Once you're closer to the interview
+## Когда вы уже ближе к интервью
 
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
@@ -1407,27 +1404,27 @@ See [Book List above](#book-list)
 
 ## Подумайте об этом когда подходит время интервью
 
-Подумайте как отвечать на приблихительно 20 вопросов, подготовьте 2-3 ответа на каждый вопрос Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Расскажите историю, а не просто сухие данные а чем-то чего вы добились Have a story, not just data, about something you accomplished.
+Подумайте как отвечать приблизительно на 20 распостраненных вопросов которые задают на интервью, подготовьте 2-3 ответа на каждый из них.
+Расскажите историю, а не просто сухие данные о том, чего вы добились.
 
-- Почему вы хотите получить эту работу Why do you want this job?
-- Какая самая сложная проблема которую вы решили What's a tough problem you've solved?
-- Biggest challenges faced?
-- Лучгие/худшие решения с которыми вы сталкивались Best/worst designs seen?
-- Идеи как улучшить существующий продукт от Google Ideas for improving an existing Google product.
-- В чем вы лучше, как часть команды или как иднивидуальный разработчик How do you work best, as an individual and as part of a team?
-- Какие из ваших навыков или что из опыта будет наиболее ценным для данной позиции Which of your skills or experiences would be assets in the role and why?
-- Что вам больше всего понравилось в работе над проектом Х/в компании Х What did you most enjoy at [job x / project y]?
-- Какие самые сложые What was the biggest challenge you faced at [job x / project y]?
-- Как самый сложный баг вам приходилось исправлять What was the hardest bug you faced at [job x / project y]?
-- Чему вы научились What did you learn at [job x / project y]?
-- Чтобы вы могли сделать лучше работая What would you have done better at [job x / project y]?
+- Почему вы хотите получить эту работу?
+- Какая самая сложная проблема которую вы решили?
+- Самые большие задачи с которыми вам приходилось сталкиваться?
+- Лучшие/худшие дизайн решения с которыми вы сталкивались?
+- Идеи, как улучшить какой-нибудь существующий продукт от Google.
+- Вы более продуктивны как часть команды или как иднивидуальный разработчик?
+- Какие из ваших навыков или что из опыта будет наиболее ценным для данной позиции?
+- Что вам больше всего понравилось в работе над [проектом Х/в компании Х]?
+- Какие самые сложные задачи вы решали в [компании X/проекте Х]?
+- С каким самым сложным багом вам приходилось сталкиваться в [компании X/проекте Х]?
+- Чему вы научились в [компании X/проекте Х]?
+- Что бы вы могли сделать лучше работая в [компании X/проекте Х]?
 
 ## Приготовьте вопросы для интервьювера
 
     Вот, некоторые из моих (возможно, я уже знаю ответ, но хочу я услышать мнение интервьювера или точку зрения команды):
 
-- Сколько человек в команде? How large is your team?
+- Сколько человек в команде?
 - Как выглядит ваш цикл разработки? Работаете ли вы по agile, спринтам или водопад?
 - Насколько часто бывают переработки и дедлайны? Или сроки достаточно гибкие?
 - Как в вашей команде принимаются решения?
@@ -2020,4 +2017,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

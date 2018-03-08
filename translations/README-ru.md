@@ -37,33 +37,33 @@
 - [Получи гугловское настроение](#Получи-гугловское-настроение)
 - [Получил ли я работу?](#Получил-ли-я-работу)
 - [Двигайся вместе со мной](#Двигайся-вместе-со-мной)
-- [Не переживайте о том, что вы не достаточно умны](#Не-переживай-о-том-что-ты-не-достаточно-умный)
+- [Не переживайте о том, что вы недостаточно умны](#Не-переживайте-о-том,-что-вы-недостаточно-умны)
 - [О Google](#О-google)
 - [О видео ресурсах](#О-видео-ресурсах)
 - [Процесс собеседования & Основное в подготовке к интервью](#Процесс-собеседования-Основное-в-подготовке-к-интервью)
 - [Выберите один язык для собеседования](#Выберите-один-язык-для-собеседования)
 - [Список книг](#Список-книг)
 - [Перед тем как вы начнете](#Перед-тем-как-вы-начнете)
-- [Что еще не охвачено](#what-you-wont-see-covered)
-- [Необходимые знания](#prerequisite-knowledge)
-- [План на день](#the-daily-plan)
-- [Сложность алгоритмов / Big-O / Асимптотический анализ](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Структуры данных](#data-structures)
-    - [Массив](#arrays)
-    - [Связанный список](#linked-lists)
-    - [Стек](#stack)
-    - [Очередь](#queue)
-    - [Хэш-таблица](#hash-table)
-- [Дополнительно](#more-knowledge)
-    - [Двоичный поиск](#binary-search)
-    - [Битовые операции](#bitwise-operations)
-- [Деревья](#trees)
-    - [Деревья](#trees---notes--background)
-    - [Двоичное дерево поиска: BSTs](#binary-search-trees-bsts)
-    - [Куча / Очередь с приоритетом / Двоичная куча](#heap--priority-queue--binary-heap)
+- [Что еще не охвачено](#То,-что-не-охватывает-этот-учебный-план)
+- [Необходимые знания](#Необходимые-знания)
+- [План на день](#План-на-день)
+- [Сложность алгоритмов / Big-O / Асимптотический анализ](#Сложность-алгоритмов,-Big-O,-Асимптотический-анализ)
+- [Структуры данных](#Структуры-данных)
+    - [Массивы](#Массивы)
+    - [Связные списки](#Связные-списки-(Linked-Lists))
+    - [Стек](#Стек)
+    - [Очередь](#Очередь)
+    - [Хеш-таблицы](#Хеш-таблица)
+- [Дополнительно](#Дополнительно)
+    - [Двоичный поиск](#Бинарный-поиск)
+    - [Битовые операции](#Побитовые-операции)
+- [Деревья](#Деревья)
+    - [Деревья](#Деревья,-Заметки-и-Основные-понятия)
+    - [Двоичное дерево поиска: BSTs](#Бинарное-дерево-поиска-(BST:-Binary-search-trees))
+    - [Куча / Очередь с приоритетом / Двоичная куча](#Куча,-Приоритетная-очередь,-Бинарная-куча)
     - Сбалансированные деревья поиска (основная идея, без деталей)
     - Обходы: прямой, симметричный, обратный, BFS, DFS
-- [Сортировка](#sorting)
+- [Сортировка](#Сортировка)
     - выбором
     - вставками
     - пирамидальная
@@ -225,7 +225,7 @@ Google не возьмёт тебя на работу.
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Не переживайте о том, что вы не достаточно умны
+## Не переживайте о том, что вы недостаточно умны
 - Успешные инженеры умные, но многие из них переживают, что недостаточно умны.
 - [Миф о гениальных программистах](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [Это опасно, идти в одиночку: Сражаться с невидимыми монстрами в технологиях](https://www.youtube.com/watch?v=1i8ylq4j_EY)
@@ -551,8 +551,7 @@ Google не возьмёт тебя на работу.
     - [ ] [Как CPU выполняет программы (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Коды машинных инструкций(video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Сложность алгоритмов / Big-O / Асимптотический анализ
-- ничего не реализовывать
+## Сложность алгоритмов, Big-O, Асимптотический анализ
 - [ ] [Harvard CS50 - Асимптотическая нотация (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O нотация (основное, короткое руководство) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O нотация (и Omega и Theta) - лучшее математическое объяснение (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -702,7 +701,7 @@ Google не возьмёт тебя на работу.
         - get(key)
         - remove(key)
 
-## Больше знаний
+## Дополнительно
 
 - ### Бинарный поиск
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -741,7 +740,7 @@ Google не возьмёт тебя на работу.
 
 ## Деревья
 
-- ### Деревья - Заметки & Основные понятия
+- ### Деревья, Заметки и Основные понятия
     - [ ] [Основы деревьев (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Деревья (видео)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - базовые конструкции деревьев
@@ -763,7 +762,7 @@ Google не возьмёт тебя на работу.
         - post-order (DFS: левый, правый, вершина)
         - pre-order (DFS: вершина, левый, правый)
 
-- ### Бинарное дерево поиска(Binary search trees): BSTs
+- ### Бинарное дерево поиска (BST: Binary search trees)
     - [ ] [Обзор бинарного дерева поиска (видео)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Лекции (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - начинается с таблицы символов и заканчивая BST приложениями
@@ -793,8 +792,8 @@ Google не возьмёт тебя на работу.
         - [ ] delete_value
         - [ ] get_successor // возвращает следующее максимальное значение в дереве после переданного, -1 если none
 
-- ### Куча / Приоритетная очередь / Бинарная куча
-    - визуализируется как дерево, но обычно храниться в линейных структурах данных (массив, связанные список)
+- ### Куча, Приоритетная очередь, Бинарная куча
+    - визуализируется как дерево, но обычно хранится в линейных структурах данных (массив, связанные список)
     - [ ] [Куча](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Введение (видео)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Наивная реализация (видео)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -802,7 +801,7 @@ Google не возьмёт тебя на работу.
     - [ ] [Замечания к высоте дерева (видео)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
     - [ ] [Базовые операции (видео)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
     - [ ] [Полные двоичные деревья (видео)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Псевдокоде (видео)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Псевдокод (видео)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
     - [ ] [Пирамидальная сортировка - начальные шаги (видео)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Пирамидальная сортировка (видео)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
     - [ ] [Построение кучи (видео)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)

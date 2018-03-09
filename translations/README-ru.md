@@ -83,10 +83,10 @@
     - [NP, NP-полные and Аппроксимирующие алгоритмы](#np-np-complete-and-approximation-algorithms)
     - [Кэш](#caches)
     - [Процессы и нити](#processes-and-threads)
-    - [Статьи](#papers)
-    - [Тестирование](#testing)
-    - [Планирование](#scheduling)
-    - [Реализация системных вызовов](#implement-system-routines)
+    - [Статьи](#Статьи)
+    - [Тестирование](#Тестирование)
+    - [Планирование](#Планирование)
+    - [Реализация системных вызовов](#Реализация-системных-вызовов)
     - [Поиск в строке & манипуляции](#string-searching--manipulations)
 - [Проектирование систем, Масштабируемость, Обработка данных](#system-design-scalability-data-handling) (if you have 4+ years experience)
 - [Финальный обзор](#final-review)
@@ -118,7 +118,7 @@
     - [Сети](#Сети-и-сетевые-протоколы)
     - [Компьютерная безопасность](#Компьютерная-безопасность)
     - [Сборка мусора](#Сборка-мусора-(Garbage-collection))
-    - [Параллельное программирование](#parallel-programming)
+    - [Параллельное программирование](#Параллельное-программирование)
     - [Сообщения, сериализация и системы очередей](#messaging-serialization-and-queueing-systems)
     - [Быстрое преобразование Фурье](#fast-fourier-transform)
     - [Фильтр Блума](#bloom-filter)
@@ -704,9 +704,9 @@ Google не возьмёт тебя на работу.
 ## Дополнительно
 
 - ### Бинарный поиск
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [Бинарный поиск (видео на ютубе)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Бинарный поиск (видео на khanacademy)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [Длинная статья с деталями](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
     - [ ] Реализация:
         - бинарный поиск (на отсортированном числовом массиве)
         - бинарный поиск с использованием рекурсии
@@ -824,7 +824,7 @@ Google не возьмёт тебя на работу.
 ## Сортировка
 
 - [ ] Заметки:
-    - Реализуй сортировки и помни про лучшую/худую, среднюю сложность для каждой:
+    - Напиши код для разный сортировкок и помни про лучшую/худую, среднюю сложность для каждой:
         - не пузырьковая сортировка - она медленная - O(n^2), заисключением n <= 16
     - [ ] устоичивость в алгоритмах сортировки ("Быстрая сортировка устойчива?")
         - [Устоичивость алгоритма сортировки](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
@@ -879,7 +879,7 @@ Google не возьмёт тебя на работу.
     - Сортировка выбором и сортировка вставками обе имеют среднюю и худшую сложность O(n^2)
     - Для пирамидальной сортировки, смотри структуру данных "Куча" выше.
 
-- [ ] Не обязательно, но я рекомендую:
+- [ ] Необязательно, но я рекомендую:
     - [ ] [Седжвик (Sedgewick) - Поразрядная сортировка (6 видео)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
         - [ ] [1. Строки в Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
         - [ ] [2. Ключевые индексные расчеты](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
@@ -905,7 +905,7 @@ Google не возьмёт тебя на работу.
         - список смежности
     - Ознакомьтесь с каждым представлением, его преимуществами и недостатками
     - BFS и DFS - узнайте их вычислительную сложность, соотношение преимуществ и недостатков, способы реализации в коде
-    - Когда вы получили задачу, в первую очередь попробуйте построить свое решение с использованием графов, а затем двигайтесь дальше, если такого решения нет.
+    - Когда вы получили задачу, сначала попробуйте решить её с использованием графов, а затем двигайтесь дальше, если такого решения нет.
 
 - [ ] Лекции профессора Стивена Скина - хорошее введение:
     - [ ] [CSE373 2012 - Лекция 11 - Структуры данных для представления графов (видео)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
@@ -956,7 +956,7 @@ Google не возьмёт тебя на работу.
         - [ ] список сильно связных компонентов
         - [ ] проверку графа на двудольность
 
-Вы найдете больше практических задач на графах в книге Стивена Скина (см раздел книги ниже) и в книгах о прохождении интервью.
+Вы найдете больше практических задач на графах в книге Стивена Скина (см. раздел книги ниже) и в книгах о прохождении интервью.
 
 ## Еще больше знаний
 
@@ -1095,58 +1095,57 @@ Google не возьмёт тебя на работу.
         - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ### Papers
-    - These are Google papers and well-known papers.
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
-    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-        - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
-    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+- ### Статьи
+    - Здесь вы найдете статьи от Google, а также дургие известные статьи.
+    - У вас вряд ли будет время прочитать их все с начала до конца. Я рекоммендую выбирать статьи и главы в них - тратье время грамотно на то, что хотите изучить глубже.
+    - [Любите классические статьи?](https://www.cs.cmu.edu/~crary/819-f09/)
+    - [ ] [1978: Коммуникация последовательных процессов](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+        - [разработка на языке Go](https://godoc.org/github.com/thomas11/csp)
+    - [ ] [2003: Файловая система Google](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+        - в 2012 заменена на Colossus
+    - [ ] [2004: MapReduce: Упрощенная обработка данных на крупных кластерах](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+        - в основном заменена Cloud Dataflow
+    - [ ] [2007: Что каждый программист должен знать о памяти (очень длинная статья, и автор говорит пропускать некоторые разделы)](https://www.akkadia.org/drepper/cpumemory.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
+    - [ ] 2012: AddressSanitizer: Быстрая проверка адресов:
+        - [статья](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+        - [видео](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+    - [ ] 2013: Spanner: Глобальная дистрибутивная база данных Google:
+        - [статья](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+        - [видео](https://www.usenix.org/node/170855)
+    - [ ] [2014: Машинное обучение: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+    - [ ] [2015: Continuous Pipelines в Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
     - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
     - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+    - [ ] [2015: Как разработчики ищут код: на примере](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+    - [ ] [2016: Borg, Omega, и Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-        - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+- ### Тестирование
+    - Нужно пройти:
+        - модульное тестирование
+        - Mock-объекты (от англ. «объект-пародия», «объект-имитация»)
+        - интеграционное тестирование
+        - внедрение зависимости
+    - [ ] [Гибкая методология разработки с James Bach (видео)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [Открытая лекция, данная James Bach на тему тестирования (видео)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - разработка через тестирование (это не то, что мы имели в виду) (видео)](https://vimeo.com/83960706)
+        - [слайды](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    - [ ] [Новая эра разработки через тестирование](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+    - [ ] [Мертва ли разработка через тестирование? (видео)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] [Видео-курс (152 видео) - нужны не все (видео)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [Вэб-разработка через тестирование на Питоне](http://www.obeythetestinggoat.com/pages/book.html#toc)
+    - [ ] Внедрение зависимости:
+        - [ ] [видео](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+        - [ ] [Принципы тестирования](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+    - [ ] [Как писать тесты](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+- ### Планирование
+    - как работает планирование (scheduling) в операционной системе 
+    - можно найти информацию в видео про Операционные системы
 
-- ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+- ### Реализация системных вызовов
+    - пойми, что находится под обложкой библиотек и программных интерфейсов (API), которые ты используешь
+    - можешь ли ты написать код для них?
 
 - ### String searching & manipulations
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)

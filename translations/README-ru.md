@@ -89,14 +89,14 @@
     - [Реализация системных вызовов](#implement-system-routines)
     - [Поиск в строке & манипуляции](#string-searching--manipulations)
 - [Проектирование систем, Масштабируемость, Обработка данных](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Финальный обзор](#final-review)
-- [Практические вопросы по программированию](#coding-question-practice)
+- [Заключительный обзор](#final-review)
+- [Практика: задачи по программированию](#coding-question-practice)
 - [Упражнения по программированию](#coding-exerciseschallenges)
 - [Перед собеседованием](#once-youre-closer-to-the-interview)
 - [Ваше резюме](#your-resume)
-- [О чем нужно думать на собеседовании](#be-thinking-of-for-when-the-interview-comes)
-- [Вопросы к собеседующим](#have-questions-for-the-interviewer)
-- [После того как вы получили работу](#once-youve-got-the-job)
+- [Подумайте об этом когда подходит время собеседования](#be-thinking-of-for-when-the-interview-comes)
+- [Приготовьте вопросы для интервьювера](#have-questions-for-the-interviewer)
+- [Когда вас приняли на работу](#once-youve-got-the-job)
 
 
 ---------------- Все что ниже - опционально ----------------
@@ -1290,95 +1290,92 @@ Google не возьмёт тебя на работу.
 
 ---
 
-## Final Review
+## Заключительный обзор
 
-    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    В этом разделе вы найдете короткие видео, которые можно посмотреть достаточно быстро чтобы повторить наиболее важные моменты.
+    Полезно освежать свои знания чаще.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
+- [ ] Серия 2-3 минутных короткие видео по темам (23 видео)
+    - [Видео](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (18 видео):
+    - [Видео](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] [Видео от Сэджвика - Алгоритмы I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
     - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-    - [ ] [02. Analysis of Algorithms](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
-    - [ ] [03. Stacks and Queues](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
-    - [ ] [04. Elementary Sorts](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
+    - [ ] [02. Анализ Алгоритмов](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
+    - [ ] [03. Стэки и Очереди](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
+    - [ ] [04. Элементарные сортировки](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
     - [ ] [05. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
     - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [07. Priority Queues](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
-    - [ ] [08. Elementary Symbol Tables](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
-    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
-    - [ ] [10. Geometric Applications of BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
-    - [ ] [11. Hash Tables](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
-- [ ] [Sedgewick Videos - Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
-    - [ ] [01. Undirected Graphs](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
-    - [ ] [02. Directed Graphs](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
+    - [ ] [07. Приоритетные очереди](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
+    - [ ] [08. Элементарные таблицы символов](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
+    - [ ] [09. Сбалансированные деревья поиска](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
+    - [ ] [10. Геометрические применениния BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
+    - [ ] [11. Хэш таблицы](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
+- [ ] [Видео от Сэджвика - Алгоритмы II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
+    - [ ] [01. Ненаправленные графы](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
+    - [ ] [02. Направленные графы](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
     - [ ] [03. Minimum Spanning Trees](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
-    - [ ] [04. Shortest Paths](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
+    - [ ] [04. Кратчайшие пути](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
     - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
     - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
     - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-    - [ ] [08. Substring Search](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [09. Regular Expressions](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
-    - [ ] [10. Data Compression](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
+    - [ ] [08. Поиск подстроки](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+    - [ ] [09. Регулярные выражения](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
+    - [ ] [10. Сжатие данных](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
     - [ ] [11. Reductions](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
-    - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
+    - [ ] [12. Линейное программирование](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
     - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
 
-## Coding Question Practice
+## Практика: задачи по программированию
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Теперь, когда вы узнали все вышерассмотренные темы по компютерным наукам, настало время попрактиковаться в решении задач по программированию.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Решение задач по программированию - это не запоминание решений.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+Для чего вам нужно практиковаться в решении задач по программированию:
+- выявление проблем, и умение определять какие структуры данных и алгоритмы походят для их решения
+- сбор требований для задачи
+- проговаривание хода решения задачи, так же как вы будете это делать на собеседовании
+- написание кода на доске или на бумаге, но не на компьютере
+- умение оценивать сложность вашего решения по расходу времени и памяти
+- тестирование решений
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+Вот пример отличного введения в методичное, коммуникативное решение задач на собеседовании. Вы так же найдете это в книгах по интервью для программистов, но это подход мне кажется однм из лучших:
+[Схема разработки алгоритма](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+У вас нет доски дома? Не удивительно. Я немного неормальный и у меня есть большая доска дома. Но вместо доски можно использователь и планшет для рисования из магазина художественных товаров, и практиковаться сидя на диване. Это моя "диванная доска". На фото я положил ручку чтобы иметь вы имели представление о масштабе. Если вы будете пользоваться ручкой, постоянно будет возникать желание что-то исправить и решение захламляется достаточно быстро.
 
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![моя диванная доска](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+Дополнительно:
 
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
+- [Математика для Топ-кодеров](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [Динамическое программирование - От новичка до продвинутого](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Материалы для интервью от MIT](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
+- [Упражнения по улучшению навыков для определенного языка](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**Прочитайте и выполните упражнения (именно в этом порядке):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - решения на C, C++ и Java
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - решения на Java
 
-See [Book List above](#book-list)
+См. [Список книг ниже](#book-list)
 
-## Coding exercises/challenges
+## Упражнения по программированию
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Как только вы заполнили свою голову знаниями, самое время применить их на практике.
+Выполняйте упражнения по программированию каждый день, чем больше тем лучше.
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [ ] [Как найти решение](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- [ ] [Как разбирать задачи из Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Challenge sites:
+Сайты с упражнениями:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1389,73 +1386,71 @@ Challenge sites:
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
-Maybe:
-- [Mock interviewers from big companies](http://www.gainlo.co/)
+Возможно:
+- [Тестовые интервьюверы из больших компаний](http://www.gainlo.co/)
 
-## Once you're closer to the interview
+## Перед собеседованием
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
+- [ ] Cracking The Coding Interview набор 2 (видео):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
+    - [Спросите у меня что угодно: Gayle Laakmann McDowell (автор Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## Ваше резюме
 
-- [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- [10 советов для подготовки (немного) менее ужасного резюме](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- Загляните в раздел по подготовке резюме в книге Cracking The Coding Interview и в конце книги Programming Interviews Exposed
 
+## Подумайте об этом когда подходит время собеседования
 
-## Be thinking of for when the interview comes
+Подумайте как отвечать приблизительно на 20 распостраненных вопросов которые задают на собеседовании, подготовьте 2-3 ответа на каждый из них.
+Расскажите историю, а не просто сухой пересказ о том над чем вы работали.
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+- Почему вы хотите получить эту работу?
+- Какая самая большая проблема которую вам приходилось решать?
+- Самые сложные задачи с которыми вам приходилось сталкиваться?
+- Лучшие/худшие дизайн решения с которыми вы сталкивались?
+- Идеи как улучшить какой-нибудь существующий продукт.
+- Вы более продуктивны как часть команды или как иднивидуальный разработчик?
+- Какие из ваших навыков или что из опыта будет наиболее ценным для данной позиции?
+- Что вам больше всего понравилось в работе над [проектом Х/в компании Х]?
+- Какие самые сложные задачи вы решали в [компании X/проекте Х]?
+- С каким самым сложным багом вам приходилось сталкиваться в [компании X/проекте Х]?
+- Чему вы научились в [компании X/проекте Х]?
+- Что бы вы могли сделать лучше работая в [компании X/проекте Х]?
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+## Приготовьте вопросы для интервьювера
 
-## Have questions for the interviewer
+    Вот, некоторые из моих (возможно, я уже знаю ответ, но хочу я услышать мнение интервьювера или точку зрения команды):
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+- Сколько человек в команде?
+- Как выглядит ваш цикл разработки? Работаете ли вы по agile, спринтам или водопад?
+- Насколько часто бывают переработки и дедлайны? Или сроки достаточно гибкие?
+- Как в вашей команде принимаются решения?
+- Сколько встреч вы проводите в неделю?
+- Располагает ли ваше рабочее окружение к концентрации?
+- Над чем вы работаете?
+- Что вам в этом нравится?
+- Как в целом протекает работа?
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+## Когда вас приняли на работу
 
-## Once You've Got The Job
+Поздравляю! 
 
-Congratulations!
+- [10 вещей которые я хотел бы знать в мой первый рабочий день в Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-- [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+Не прекращайте учиться.
 
-Keep learning.
-
-You're never really done.
+На самом деле это не конец.
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
+    Все что находится ниже этого места - опционально. Это мои рекоммендации, а не от Google.
+    Изучая все это вы узнаете больше о компьютерных науках, и будуте лучше готовы для любой вакансии программиста.
+    Вы станете более всесторонне-развитым разработчиком.
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -2020,4 +2015,3 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-

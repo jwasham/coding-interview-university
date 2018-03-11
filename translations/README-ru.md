@@ -94,9 +94,9 @@
 - [Упражнения по программированию](#coding-exerciseschallenges)
 - [Перед собеседованием](#once-youre-closer-to-the-interview)
 - [Ваше резюме](#your-resume)
-- [О чем нужно думать на собеседовании](#be-thinking-of-for-when-the-interview-comes)
-- [Вопросы к собеседующим](#have-questions-for-the-interviewer)
-- [После того как вы получили работу](#once-youve-got-the-job)
+- [Подумайте об этом когда подходит время собеседования](#be-thinking-of-for-when-the-interview-comes)
+- [Приготовьте вопросы для интервьювера](#have-questions-for-the-interviewer)
+- [Когда вас приняли на работу](#once-youve-got-the-job)
 
 
 ---------------- Все что ниже - опционально ----------------
@@ -1319,11 +1319,11 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
     - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
     - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
     - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-    - [ ] [08. Substring Search](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [09. Regular Expressions](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
-    - [ ] [10. Data Compression](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
+    - [ ] [08. Поиск подстроки](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+    - [ ] [09. Регулярные выражения](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
+    - [ ] [10. Сжатие данных](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
     - [ ] [11. Reductions](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
-    - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
+    - [ ] [12. Линейное программирование](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
     - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
@@ -1337,17 +1337,17 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 Для чего вам нужно практиковаться в решении задач по программированию:
 - выявление проблем, и умение определять какие структуры данных и алгоритмы походят для их решения
 - сбор требований для задачи
-- проговаривание хода решения задачи, так же как вы будете это делать на интервью
+- проговаривание хода решения задачи, так же как вы будете это делать на собеседовании
 - написание кода на доске или на бумаге, но не на компьютере
 - умение оценивать сложность вашего решения по расходу времени и памяти
 - тестирование решений
 
-Вот пример отличного введения в методичное, коммуникативное решение задач на интервью. Вы так же найдете это в книгах по интервью для программистов, но это подход мне кажется выдающимся:
-[Схема создания алгоритма](http://www.hiredintech.com/algorithm-design/)
+Вот пример отличного введения в методичное, коммуникативное решение задач на собеседовании. Вы так же найдете это в книгах по интервью для программистов, но это подход мне кажется однм из лучших:
+[Схема разработки алгоритма](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-У вас нет доски дома? Не удивительно. Я не много неормальный и у меня есть большая доска дома. Но вместо доски можно использователь и планшет для рисования из магазина художественных товаров, и практиковаться сидя на диване. Это моя "диванная доска". На фото я положил ручку чтобы иметь представления о размерах. Если вы будете пользоваться ручкой, постоянно будет возникать желание что-то стереть, решение захламляется достаточно быстро.
+У вас нет доски дома? Не удивительно. Я немного неормальный и у меня есть большая доска дома. Но вместо доски можно использователь и планшет для рисования из магазина художественных товаров, и практиковаться сидя на диване. Это моя "диванная доска". На фото я положил ручку чтобы иметь вы имели представление о масштабе. Если вы будете пользоваться ручкой, постоянно будет возникать желание что-то исправить и решение захламляется достаточно быстро.
 
 ![моя диванная доска](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
@@ -1369,11 +1369,11 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ## Упражнения по программированию
 
-Как только вы наполнили свою голову знаниями, самое время применить их на практике.
+Как только вы заполнили свою голову знаниями, самое время применить их на практике.
 Выполняйте упражнения по программированию каждый день, чем больше тем лучше.
 
 - [ ] [Как найти решение](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [ ] [Как разбирать задачи из Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
 Сайты с упражнениями:
 - [LeetCode](https://leetcode.com/)
@@ -1389,29 +1389,28 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 Возможно:
 - [Тестовые интервьюверы из больших компаний](http://www.gainlo.co/)
 
-## Когда вы уже ближе к интервью
+## Перед собеседованием
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
+- [ ] Cracking The Coding Interview набор 2 (видео):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
+    - [Спросите у меня что угодно: Gayle Laakmann McDowell (автор Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
 ## Ваше резюме
 
 - [10 советов для подготовки (немного) менее ужасного резюме](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
 - Загляните в раздел по подготовке резюме в книге Cracking The Coding Interview и в конце книги Programming Interviews Exposed
 
+## Подумайте об этом когда подходит время собеседования
 
-## Подумайте об этом когда подходит время интервью
-
-Подумайте как отвечать приблизительно на 20 распостраненных вопросов которые задают на интервью, подготовьте 2-3 ответа на каждый из них.
+Подумайте как отвечать приблизительно на 20 распостраненных вопросов которые задают на собеседовании, подготовьте 2-3 ответа на каждый из них.
 Расскажите историю, а не просто сухой пересказ о том над чем вы работали.
 
 - Почему вы хотите получить эту работу?
 - Какая самая большая проблема которую вам приходилось решать?
 - Самые сложные задачи с которыми вам приходилось сталкиваться?
 - Лучшие/худшие дизайн решения с которыми вы сталкивались?
-- Идеи как улучшить какой-нибудь существующий продукт от Google.
+- Идеи как улучшить какой-нибудь существующий продукт.
 - Вы более продуктивны как часть команды или как иднивидуальный разработчик?
 - Какие из ваших навыков или что из опыта будет наиболее ценным для данной позиции?
 - Что вам больше всего понравилось в работе над [проектом Х/в компании Х]?

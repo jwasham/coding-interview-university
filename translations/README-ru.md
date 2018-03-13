@@ -119,9 +119,9 @@
     - [Компьютерная безопасность](#Компьютерная-безопасность)
     - [Сборка мусора](#Сборка-мусора-(Garbage-collection))
     - [Параллельное программирование](#Параллельное-программирование)
-    - [Сообщения, сериализация и системы очередей](#messaging-serialization-and-queueing-systems)
-    - [Быстрое преобразование Фурье](#fast-fourier-transform)
-    - [Фильтр Блума](#bloom-filter)
+    - [Сообщения, сериализация и системы очередей](#Сообщения,-сериализация-и-системы-очередей)
+    - [Быстрое преобразование Фурье](#Быстрое-преобразование-Фурье)
+    - [Фильтр Блума](#Фильтр Блума)
     - [HyperLogLog](#hyperloglog)
     - [Локально-чувствительное хеширование](#locality-sensitive-hashing)
     - [Дерево ван Эмде Боаса](#van-emde-boas-trees)
@@ -824,15 +824,15 @@ Google не возьмёт тебя на работу.
 ## Сортировка
 
 - [ ] Заметки:
-    - Напиши код для разный сортировкок и помни про лучшую/худую, среднюю сложность для каждой:
+    - Напиши код для разных сортировкок и помни про лучшую/худую, среднюю сложность для каждой:
         - не пузырьковая сортировка - она медленная - O(n^2), заисключением n <= 16
-    - [ ] устоичивость в алгоритмах сортировки ("Быстрая сортировка устойчива?")
+    - [ ] устойчивость в алгоритмах сортировки ("Быстрая сортировка устойчива?")
         - [Устоичивость алгоритма сортировки](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Устоичивость в алгоритмах сортировки](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Устоичивость в алгоритмах сортировки](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Алгоритмы сортировки - Устоичивость](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
     - [ ] Какие алгоритмы можно применять для связанного списка? Для массива? А какие для обоих структур данных?
-        - Я не рекомендовал бы сортировать связанный список, но если нужно то сортировка слиянием подходит для этого.
+        - Я не рекомендовал бы сортировать связанный список, но если нужно, то сортировка слиянием подходит для этого.
         - [Сортировка слиянием для связанного списка](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
 - Для пирамидальной сортировки, см. структуру данных "Куча" выше. Пирамидальная сортировка эффективна, но не устойчива.
@@ -1032,8 +1032,7 @@ Google не возьмёт тебя на работу.
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
+    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
@@ -1637,36 +1636,35 @@ You're never really done.
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Эффективное использование Python для высокопроизводительных параллельных вычислений (видео)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
-    - [ ] [Thrift](https://thrift.apache.org/)
-        - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+- ### Сообщения, сериализация и системы очередей
+    - [ ] [Apache Thrift - язык описания интерфейсов](https://thrift.apache.org/)
+        - [Урок по Thrift](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
-        - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+        - [Уроки](https://developers.google.com/protocol-buffers/docs/tutorials)
     - [ ] [gRPC](http://www.grpc.io/)
-        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
-    - [ ] [Redis](http://redis.io/)
-        - [Tutorial](http://try.redis.io/)
-    - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+        - [gRPC для Java разработчиков (видео)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+    - [ ] [Redis — сетевое журналируемое хранилище данных](http://redis.io/)
+        - [Урок](http://try.redis.io/)
     - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
-    - [ ] [RabbitMQ](https://www.rabbitmq.com/)
-        - [Get Started](https://www.rabbitmq.com/getstarted.html)
-    - [ ] [Celery](http://www.celeryproject.org/)
-        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
-    - [ ] [ZeroMQ](http://zeromq.org/)
-        - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+    - [ ] [RabbitMQ - платформа для обмены сообщениями](https://www.rabbitmq.com/)
+        - [Урок](https://www.rabbitmq.com/getstarted.html)
+    - [ ] [Celery - распределенная очередь заданий](http://www.celeryproject.org/)
+        - [Первые шаги с Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+    - [ ] [ZeroMQ - библиотека для передачи сообщений](http://zeromq.org/)
+        - [Вступление к ZeroMQ](http://zeromq.org/intro:read-the-manual)
     - [ ] [ActiveMQ](http://activemq.apache.org/)
-    - [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
-    - [ ] [MessagePack](http://msgpack.org/index.html)
-    - [ ] [Avro](https://avro.apache.org/)
+    - [ ] [Apache Kafka — распределённый программный брокер сообщений](http://kafka.apache.org/documentation.html#introduction)
+    - [ ] [MessagePack - компьютерный формат обмена данными](http://msgpack.org/index.html)
+    - [ ] [Apache Avro](https://avro.apache.org/)
 
-- ### Fast Fourier Transform
+- ### Быстрое преобразование Фурье
     - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
     - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
     - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
     - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
     - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
-- ### Bloom Filter
+- ### Фильтр Блума
     - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
     - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)

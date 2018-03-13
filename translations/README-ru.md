@@ -1658,21 +1658,21 @@ You're never really done.
     - [ ] [Apache Avro](https://avro.apache.org/)
 
 - ### Быстрое преобразование Фурье
-    - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
-    - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
-    - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+    - [ ] [Интерактивное руководство по преобразованию Фурье](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - [ ] [Что такое преобразованию Фурье? Для чего оно нужно?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    - [ ] [Что такое преобразованию Фурье? (видео)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [ ] [Разделяй и властвуй: Быстрое преобразование Фурье (видео)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [ ] [Объяснение Быстрого преобразования Фурье](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Фильтр Блума
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
-    - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
-    - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
-    - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
-    - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
+    - Если у вас есть Фильтр Блума с m битами и к хеширующими функциями, то вставка и тестирование на членство имеют сложность O(k)
+    - [Фильтры Блума](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    - [Фильтры Блума | Добыча огромных наборов данных | Стэндфордский Университет](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [Урок](http://billmill.org/bloomfilter-tutorial/)
+    - [Как написать приложение фильтра Bloom](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
 - ### HyperLogLog
-    - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
+    - [Как посчитать миллиард различных объектов, когда у вас есть только 1.5KB памяти](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
     - used to determine the similarity of documents

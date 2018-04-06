@@ -308,6 +308,7 @@ If you have more time (I want this book):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
     - For a richer, more up-to-date (2011), but longer treatment
+    - UPDATE : a newer edition (2017) is available (https://www.amazon.com/dp/0128119055)
 
 ### Language Specific
 

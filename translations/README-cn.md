@@ -198,7 +198,7 @@
     - [ ] [得到在 Google 的工作机会](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
         - 所有他所提及的事情都列在了下面
     - [ ] _（早已过期）_ [如何得到 Google 的一份工作，面试题，应聘过程](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [手机设备屏幕的问题](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+    - [ ] [电话面试的问题](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] 附加的（虽然 Google 不建议，但我还是添加在此）：
     - [ ] [ABC：永远都要去编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -1174,7 +1174,7 @@
 
 - [ ] C++ Primer Plus, 6th Edition
 
-- [ ] [《Unxi 环境高级编程》 The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+- [ ] [《Unix 环境高级编程》 The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
 
 - [ ] [《编程珠玑》 Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 

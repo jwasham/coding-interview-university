@@ -90,12 +90,12 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
 - [Votre CV](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Ayez les questions pour l'entretien](#have-questions-for-the-interviewer)
+- [Quand vous aurez eu le travial:](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 
-- [Additional Books](#additional-books)
+- [Livres Supplémentaires](#additional-books)
 - [Additional Learning](#additional-learning)
     - [Dynamic Programming](#dynamic-programming)
     - [Compilers](#compilers)

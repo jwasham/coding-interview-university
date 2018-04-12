@@ -57,10 +57,10 @@ opsyonel listeden çalışmalısınız. (Ağ oluşturma, Güvenlik)
 
 ## İçindekiler
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [Bu nedir?](#what-is-it)
+- [Neden kullanılır?](#why-use-it)
+- [Nasıl kullanılır](#how-to-use-it)
+- [Asla yeterince zeki olmadığınızı düşünmeyin](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
@@ -172,3 +172,53 @@ opsyonel listeden çalışmalısınız. (Ağ oluşturma, Güvenlik)
 - [Computer Science Courses](#computer-science-courses)
 
 ---
+
+## Neden kullanılır?
+
+Bu projeyi başlattığım zaman, stack'ten nasıl heap yapıldığını bilmiyordum, Big-O ile alakalı hiçbir şey bilmiyordum,
+ağaçlar(trees) hakkında hiçbir fikrim yoktu. Bir çizge(graph) üzerinde nasıl dolaşılır(traverse) bilmiyordum. Eğer bir
+sıralama algoritması kodlamam gerekiyorsa, size bunun hiç de güzel olmadığını söyleyebilirim.
+Kullandığım tüm veri yapıları(data structures) kullandığım dilin içinde mevcuttu ve ben bunların nasıl çalıştığını
+bilmiyordum. Çalıştırdığım bir işlem bana "out of memory" hatası vermedikçe bellek yönetimi için uğraşmam gerekmemişti ve o
+zaman da sorunu çözmek yerine etrafından dolaşırdım zaten. Hayatım boyunca sadece birkaç kez çok boyutlu dizi(array) ve
+binlerce kez de ilişkili dizi(associative array=hashmap) kullandım, fakat hiç baştan bir veri yapısı yaratmamıştım.
+
+Bu uzun bir plan. Aylarca sürebilir. Eğer bu plandaki birçok şeyle tanışıklığınız varsa çok daha kısa sürecektir.
+
+## Nasıl kullanılır?
+
+Aşağıdaki her şey yalnızca bir taslak ve listedeki elemanları sırayla ele almalısınız.
+
+Ben görev listeleri ve süreç ilerlemesi kontrolü olan GitHub'ın markdown özelliğini kullanıyorum.
+
+**Yeni bir dal(branch) açın, böylece elemanları bu şekilde kontrol edebileceksiniz. Yalnızca köşeli parantez içine bir x koyun: [x]**
+
+
+    Bir branch'i forklayın ve aşağıdakı komutları takip edin
+
+`git checkout -b progress`
+
+`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+
+`git fetch --all`
+
+    Değişikliklerinizi yaptıktan sonra tüm kutuları X ile işaretleyin
+
+`git add . `
+
+`git commit -m "Marked x" `
+
+`git rebase jwasham/master `
+
+`git push --force `
+
+[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+
+## Asla yeterince zeki olmadığınızı düşünmeyin
+- Başarılı yazılım mühendisleri zekidir, ama birçoğu kendisinin yeterince zeki olmadığından endişe duyar.
+- 
+- [Dahi Bilgisayar Programcısı Efsanesi(İngilizce)](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Tek Gitmek Telhikeli: Teknoloji Dünyası'ndaki Görünmez Canavarlarla Savaşmak(İngilizce)](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Değişebileceğinize İnanın!(İngilizce)](http://www.aaronsw.com/weblog/dweck)
+
+

@@ -8,6 +8,7 @@
         - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=USPvePv1uzE)
         - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=y5JmQItfFck)
       - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
+    - [Let us C](https://books.google.co.in/books/about/Let_Us_C.html?id=7HrjAAAACAAJ)
 
 - C++
     - [C++ Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/Cpp_reference.pdf)
@@ -28,6 +29,7 @@
         - Google uses clang-format (there is a command line "style" argument: -style=google)
     - [Efficiency with Algorithms, Performance with Data Structures (video)](https://youtu.be/fHNmRkzxHWs)
     - [Review of C++ concepts (video)](https://www.youtube.com/watch?v=Rub-JsjMhWY)
+    - [Let us C++](https://books.google.co.in/books/about/Let_Us_C++.html?id=6HrjAAAACAAJ)
 
 - Python
     - [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
@@ -39,6 +41,7 @@
     - [CPython Walk (video)](https://www.youtube.com/watch?v=LhadeL7_EIU&list=PLzV58Zm8FuBL6OAv1Yu6AwXZrnsFbbR0S&index=6)
     - [10 Tips for Pythonic Code (video)](https://www.youtube.com/watch?v=_O23jIXsshs)
     - [Beyond PEP 8 -- Best practices for beautiful intelligible code (video)](https://www.youtube.com/watch?v=wf-BqAjZb8M)
+    - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
     
 - Java
     - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
@@ -54,6 +57,15 @@
     - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
     - [Go Proverbs](http://go-proverbs.github.io/)
     - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
+- HTML
+    - [Quick HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB)
+    - [HTML Crash Course for Beginners (1 hr)](https://www.youtube.com/watch?v=UB1O30fR-EE)
+- CSS
+    - [Quick CSS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C)
+    - [CSS Crash Course for absolute Beginners](https://www.youtube.com/watch?v=yfoY53QXEnI)
+- Javascript
+    - [Lern Javascript in 12 minutes](https://www.youtube.com/watch?v=Ukg_U3CnJWI)
+    - [Javascript Beginner Tutorials](https://www.youtube.com/playlist?list=PL41lfR-6DnOrwYi5d824q9-Y6z3JdSgQa)
 - Other Language 1
 - Other Language 2
 - etc

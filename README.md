@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/wilmol/coding-interview-university.svg?branch=master)](https://travis-ci.com/wilmol/coding-interview-university)
+-
+
 # Coding Interview University
 
 > I originally created this as a short to-do list of study topics for becoming a software engineer,

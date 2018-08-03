@@ -28,6 +28,8 @@
         - Google uses clang-format (there is a command line "style" argument: -style=google)
     - [Efficiency with Algorithms, Performance with Data Structures (video)](https://youtu.be/fHNmRkzxHWs)
     - [Review of C++ concepts (video)](https://www.youtube.com/watch?v=Rub-JsjMhWY)
+    - [TheChernoProject](https://www.youtube.com/user/TheChernoProject/playlists)
+        - C++ Tutorials on channel helps you boost your C++ skills.
 
 - Python
     - [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)

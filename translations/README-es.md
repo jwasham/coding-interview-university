@@ -205,7 +205,7 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 
 [Más acerca de los temas de Github para markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## No sienta no es lo suficientemente listo
+## No sienta que no es lo suficientemente listo
 - Los ingenieros de software exitosos son inteligentes pero muchos tienen la inseguridad de no ser lo suficientemente listos.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)

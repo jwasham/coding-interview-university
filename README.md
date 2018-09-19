@@ -5,7 +5,7 @@
 > as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > You probably won't have to study as much as I did. Anyway, everything you need is here.
 >
-> The items listed here will prepare you well for in an interview at just about any software company,
+> The items listed here will prepare you well for an interview at just about any software company,
 > including the giants: Amazon, Facebook, Google or Microsoft.
 >
 > *Best of luck to you!*
@@ -26,7 +26,6 @@ Translations in progress:
 - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
 - [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
 - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
@@ -307,8 +306,9 @@ If short on time:
 
 If you have more time (I want this book):
 
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+- [ ] [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
+    - For a richer, more up-to-date (2017), but longer treatment
+
 
 ### Language Specific
 
@@ -487,8 +487,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+    - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+    - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - nothing to implement
@@ -1026,7 +1028,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - ### Processes and Threads
     - [ ] Computer Science 162 - Operating Systems (25 videos):
         - for processes and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+        - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - Covers:
         - Processes, Threads, Concurrency issues
@@ -1601,7 +1603,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
@@ -1668,7 +1669,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
-    - Know least one type of balanced binary tree (and know how it's implemented):
+    - Know at least one type of balanced binary tree (and know how it's implemented):
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
@@ -1913,7 +1914,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
+- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
 - [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 

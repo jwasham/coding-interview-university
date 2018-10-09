@@ -735,13 +735,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
 - ### Red-Black Tree
-    - [ ][About Red Black Tree (video)][https://www.youtube.com/watch?v=PhY56LpCtP4]
+    - [ ] [About Red Black Tree (video)](https://www.youtube.com/watch?v=PhY56LpCtP4)
 
     - C/C++:
-        - [ ] [Red Black Tree Introduction (article)][https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/]
-        - [ ] [Red Black Tree Insertion (video)][https://www.youtube.com/watch?v=YCo2-H2CL6Q]
-        - [ ] [Red Black Tree Deletion (article)][https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/]
-        - [ ] [Red Black Tree V.S. AVL Tree (article)][https://www.geeksforgeeks.org/red-black-tree-vs-avl-tree/]
+        - [ ] [Red Black Tree Introduction (article)](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
+        - [ ] [Red Black Tree Insertion (video)](https://www.youtube.com/watch?v=YCo2-H2CL6Q)
+        - [ ] [Red Black Tree Deletion (article)](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)
+        - [ ] [Red Black Tree V.S. AVL Tree (article)](https://www.geeksforgeeks.org/red-black-tree-vs-avl-tree/)
 
     - [ ] Implement:
         - [ ] insert    // insert value into tree on O(logn)

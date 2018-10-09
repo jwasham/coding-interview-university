@@ -734,6 +734,29 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] delete_value
         - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
+- ### Red-Black Tree
+    - [ ][About Red Black Tree (video)][https://www.youtube.com/watch?v=PhY56LpCtP4]
+
+    - C/C++:
+        - [ ] [Red Black Tree Introduction (article)][https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/]
+        - [ ] [Red Black Tree Insertion (video)][https://www.youtube.com/watch?v=YCo2-H2CL6Q]
+        - [ ] [Red Black Tree Deletion (article)][https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/]
+        - [ ] [Red Black Tree V.S. AVL Tree (article)][https://www.geeksforgeeks.org/red-black-tree-vs-avl-tree/]
+
+    - [ ] Implement:
+        - [ ] insert    // insert value into tree on O(logn)
+        - [ ] get_node_count // get count of values stored
+        - [ ] print_values // prints the values in the tree, from min to max
+        - [ ] delete_tree
+        - [ ] is_in_tree // returns true if given value exists in the tree
+        - [ ] get_height // returns the height in nodes (single node's height is 1)
+        - [ ] get_min   // returns the minimum value stored in the tree
+        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] delete_value // delete value in logn
+        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+
+
+
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))

@@ -1456,18 +1456,18 @@ Google не возьмёт тебя на работу.
 
 ---
 
-## Additional Books
+## Дополнительная литература
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
-- [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - a modern option
-- [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
-- [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
-- [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - aka the "Gang Of Four" book, or GOF
-    - the canonical design patterns book
+- [ ] [Среда программирования Unix](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+    - проверенно временем
+- [ ] [Командная строка Linux: введение](https://www.amazon.com/dp/1593273894/)
+    - современный вариант
+- [ ] [Протокол TCP/IP с иллюстрациями(серия книг)](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
+- [ ] [Погружение в шаблоны проектирования](https://www.amazon.com/gp/product/0596007124/)
+    - введение в шаблоны проектирования
+- [ ] [Шаблоны проектирования: переиспользование компонент в ООП](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+    - аля книга "Банды четырех", или GOF
+    - каноническая книга про шаблоны проектирования
 - [ ] [Site Reliability Engineering](https://landing.google.com/sre/book.html)
     - [Site Reliability Engineering: How Google Runs Production Systems](https://landing.google.com/sre/)
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)

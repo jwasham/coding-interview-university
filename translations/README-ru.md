@@ -1,17 +1,17 @@
 # Google Interview University
 
-Оригинальная  версия: [Английский](../README.md) 
+Оригинальная версия: [Английский](../README.md) 
 
 ## Для кого это?
 
-Это мой учебный план рассчитанный на несколько месяцев для веб-разработчиков, не имеющих образования в Computer Science (CS)
+Это мой учебный план, рассчитанный на несколько месяцев для веб-разработчиков, не имеющих образования в Computer Science (CS)
 и планирующих работать инженерами-программистами (software engineer) в компании Google. 
 
 ![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
 За основу учебного плана я взял список вопросов **Google's coaching notes** и значительно расширил его. Тут вы найдёте 
-много полезных вещей, которые необходимо знать. Дополнительные вопросы я добавил в конец списка, их могут задавать на 
-интервью, так же они могут быть полезны в решении повседневных задач. Некоторые пункты я взял из поста Стива Йеги (Steve Yegge) 
+много полезных вещей, которые необходимо знать. Дополнительные вопросы я добавил в конец списка: их могут задавать на 
+интервью, a также они могут быть полезны в решении повседневных задач. Некоторые пункты я взял из поста Стива Йеги (Steve Yegge) 
 "[Получить работу в Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)", а некоторые слово в слово 
 соответствуют вопросам, разбираемых Google в их постах о подготовке.
 
@@ -24,8 +24,8 @@
 Если вы обладаете многолетним опытом разработки ПО, помните, что Google разделяет понятия инженер-программист и 
 разработчик ПО/веб-разработчик. Первое требует знаний в области CS.
 
-Если вы хотите быть инженерами обеспечивающими надежность ПО или системными инженерами, то уделить внимание вопросом из
-опционального списка (разделы сеть, безопасность).
+Если вы хотите быть инженерами обеспечивающими надежность ПО или системными инженерами, то уделите внимание вопросам из
+опционального списка (разделы Сеть, Безопасность).
 
 ---
 
@@ -37,33 +37,33 @@
 - [Получи гугловское настроение](#Получи-гугловское-настроение)
 - [Получил ли я работу?](#Получил-ли-я-работу)
 - [Двигайся вместе со мной](#Двигайся-вместе-со-мной)
-- [Не переживайте о том, что вы не достаточно умны](#Не-переживай-о-том-что-ты-не-достаточно-умный)
+- [Не переживайте о том, что вы недостаточно умны](#Не-переживайте-о-том,-что-вы-недостаточно-умны)
 - [О Google](#О-google)
 - [О видео ресурсах](#О-видео-ресурсах)
 - [Процесс собеседования & Основное в подготовке к интервью](#Процесс-собеседования-Основное-в-подготовке-к-интервью)
 - [Выберите один язык для собеседования](#Выберите-один-язык-для-собеседования)
 - [Список книг](#Список-книг)
 - [Перед тем как вы начнете](#Перед-тем-как-вы-начнете)
-- [Что еще не охвачено](#what-you-wont-see-covered)
-- [Необходимые знания](#prerequisite-knowledge)
-- [План на день](#the-daily-plan)
-- [Сложность алгоритмов / Big-O / Асимптотический анализ](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Структуры данных](#data-structures)
-    - [Массив](#arrays)
-    - [Связанный список](#linked-lists)
-    - [Стек](#stack)
-    - [Очередь](#queue)
-    - [Хэш-таблица](#hash-table)
-- [Дополнительно](#more-knowledge)
-    - [Двоичный поиск](#binary-search)
-    - [Битовые операции](#bitwise-operations)
-- [Деревья](#trees)
-    - [Деревья](#trees---notes--background)
-    - [Двоичное дерево поиска: BSTs](#binary-search-trees-bsts)
-    - [Куча / Очередь с приоритетом / Двоичная куча](#heap--priority-queue--binary-heap)
+- [Что еще не охвачено](#То,-что-не-охватывает-этот-учебный-план)
+- [Необходимые знания](#Необходимые-знания)
+- [План на день](#План-на-день)
+- [Сложность алгоритмов / Big-O / Асимптотический анализ](#Сложность-алгоритмов,-Big-O,-Асимптотический-анализ)
+- [Структуры данных](#Структуры-данных)
+    - [Массивы](#Массивы)
+    - [Связные списки](#Связные-списки-(Linked-Lists))
+    - [Стек](#Стек)
+    - [Очередь](#Очередь)
+    - [Хеш-таблицы](#Хеш-таблица)
+- [Дополнительно](#Дополнительно)
+    - [Двоичный поиск](#Бинарный-поиск)
+    - [Битовые операции](#Побитовые-операции)
+- [Деревья](#Деревья)
+    - [Деревья](#Деревья,-Заметки-и-Основные-понятия)
+    - [Двоичное дерево поиска: BSTs](#Бинарное-дерево-поиска-(BST:-Binary-search-trees))
+    - [Куча / Очередь с приоритетом / Двоичная куча](#Куча,-Приоритетная-очередь,-Бинарная-куча)
     - Сбалансированные деревья поиска (основная идея, без деталей)
     - Обходы: прямой, симметричный, обратный, BFS, DFS
-- [Сортировка](#sorting)
+- [Сортировка](#Сортировка)
     - выбором
     - вставками
     - пирамидальная
@@ -83,10 +83,10 @@
     - [NP, NP-полные and Аппроксимирующие алгоритмы](#np-np-complete-and-approximation-algorithms)
     - [Кэш](#caches)
     - [Процессы и нити](#processes-and-threads)
-    - [Статьи](#papers)
-    - [Тестирование](#testing)
-    - [Планирование](#scheduling)
-    - [Реализация системных вызовов](#implement-system-routines)
+    - [Статьи](#Статьи)
+    - [Тестирование](#Тестирование)
+    - [Планирование](#Планирование)
+    - [Реализация системных вызовов](#Реализация-системных-вызовов)
     - [Поиск в строке & манипуляции](#string-searching--manipulations)
 - [Проектирование систем, Масштабируемость, Обработка данных](#system-design-scalability-data-handling) (if you have 4+ years experience)
 - [Заключительный обзор](#final-review)
@@ -110,18 +110,18 @@
     - [Порядок следования байт](#endianness)
     - [Emacs и vi(m)](#emacs-and-vim)
     - [Командная строка Unix](#unix-command-line-tools)
-    - [Теория информации](#information-theory)
-    - [Четность & Код Хемминга](#parity--hamming-code)
-    - [Энтропия](#entropy)
-    - [Криптография](#cryptography)
-    - [Сжатие](#compression)
-    - [Сети](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Компьютерная безопасность](#computer-security)
-    - [Сборщики мусора](#garbage-collection)
-    - [Параллельное программирование](#parallel-programming)
-    - [Сообщения, сериализация и системы очередей](#messaging-serialization-and-queueing-systems)
-    - [Быстрое преобразование Фурье](#fast-fourier-transform)
-    - [Фильтр Блума](#bloom-filter)
+    - [Теория информации](#Теория-информации)
+    - [Чётность & Код Хемминга](#Чётность-и-Код-Хемминга)
+    - [Энтропия](#Энтропия)
+    - [Криптография](#Криптография)
+    - [Сжатие](#Сжатие)
+    - [Сети](#Сети-и-сетевые-протоколы)
+    - [Компьютерная безопасность](#Компьютерная-безопасность)
+    - [Сборка мусора](#Сборка-мусора-(Garbage-collection))
+    - [Параллельное программирование](#Параллельное-программирование)
+    - [Сообщения, сериализация и системы очередей](#Сообщения,-сериализация-и-системы-очередей)
+    - [Быстрое преобразование Фурье](#Быстрое-преобразование-Фурье)
+    - [Фильтр Блума](#Фильтр Блума)
     - [HyperLogLog](#hyperloglog)
     - [Локально-чувствительное хеширование](#locality-sensitive-hashing)
     - [Дерево ван Эмде Боаса](#van-emde-boas-trees)
@@ -156,7 +156,7 @@
 ## Чем это полезно?
 
 Я следую этому плану, готовясь к собеседованию в Google. Я разрабатываю веб-приложения, сервисы и запускаю стартапы с 
-1997 года. У меня есть степень по экономике, но нет по CS. До сих пор у меня очень успешная карьера, но я хочу работать 
+1997 года. У меня есть степень по экономике, но нет по CS. На данные момент у меня очень успешная карьера, но я хочу работать 
 в Google. Я хочу работать с большими системами и понять принципы их работы, изучить эффективность алгоритмов и различные 
 структуры данных, узнать, как работают низкоуровневые языки программирования. Если ты не знаешь что-то из перечисленного, 
 Google не возьмёт тебя на работу.
@@ -173,11 +173,11 @@ Google не возьмёт тебя на работу.
 
 ## Как пользоваться
 
-Ниже описан способ использования, вы должны выпонить пункты в описаном порядке.  
+Ниже описан способ использования, вы должны выполнить пункты в описанном порядке.  
 
-Я использую  разметку Github, включая список задач для оценки прогресса.
+Я использую разметку Github, включающую список задач для оценки прогресса.
 
-- [x] Создай новую ветку и тогда вы сможете оставлять отметки у элементов списка, просто добавляя x внутрь скобок: [x]
+- [x] Создай новую ветку и тогда ты сможешь оставлять отметки у элементов списка, просто добавляя x внутрь скобок: [x]
 
        Скопируй репозиторий и выполни команды перечисленные ниже
 
@@ -215,7 +215,7 @@ Google не возьмёт тебя на работу.
 
 Моя история: [Почему я готовился в течении 8 месяцев для собеседования в Google](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-Я еще на пути к цели. Двигаемся вперед:
+Я ещё на пути к цели. Двигаемся вперёд:
  
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
@@ -225,8 +225,8 @@ Google не возьмёт тебя на работу.
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Не переживайте о том, что вы не достаточно умны
-- Инженеры в Google умные, но многие из них переживают что недостаточно, хотя там уже работают.
+## Не переживайте о том, что вы недостаточно умны
+- Успешные инженеры умные, но многие из них переживают, что недостаточно умны.
 - [Миф о гениальных программистах](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [Это опасно, идти в одиночку: Сражаться с невидимыми монстрами в технологиях](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
@@ -301,12 +301,12 @@ Google не возьмёт тебя на работу.
 - Java
 - Python
 
-Так же подойдут:
+Также подойдут:
 
 - JavaScript
 - Ruby
 
-Для вас должно быть комфортно писать программы на выбранном языке и вы должны его хорошо знать.
+Вы должны хорошо знать выбранный язык и уметь комфортно писать на нём программы.
 
 Подробнее о выборе:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
@@ -319,12 +319,12 @@ Google не возьмёт тебя на работу.
 
 ## Список книг
 
-Это краткий список, того чем я пользовался. Он сокращен, для того что-бы сэкономить ваше время.
+Это краткий список того, чем я пользовался. Он сокращен для того, чтобы сэкономить ваше время.
 
 ### Подготовка к собеседованию
 
 - [ ] [Собеседование по программированию в подробнастях: Секреты получения твоей следующей работы, 2-е издание](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - ответы на  C++ и Java
+    - ответы на C++ и Java
     - рекомендации Google по обучению кандидатов
     - это отличная разминка перед подробным разбором собеседования по программированию
     - не так уж и сложно, некоторые задачи проще чем вам кажутся на собеседовании (из того что я прочитал)
@@ -338,7 +338,7 @@ Google не возьмёт тебя на работу.
 
 - [ ] [Элементы собеседования по программированию](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - весь код написан на C++, полезна если вы планируете использовать C++ на собеседовании 
-    - хорошая книга, описывающая решения общих задач.
+    - хорошая книга, описывающая решения общих задач
 
 ### Архитектура компьютера
 
@@ -405,7 +405,7 @@ Google не возьмёт тебя на работу.
 
 ### Опциональные книги
 
-**Некоторые рекомендую эти книги, но я думаю это перебор, если только вы не инженер-программист с большим опытом работы и не ожидаете более сложного собеседования.
+**Некоторые рекомендуют эти книги, но я думаю это перебор, если только вы не инженер-программист с большим опытом работы и не ожидаете более сложного собеседования.
 
 - [ ] [Руководство по разработке алгоритмов](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - Как обзор и описание проблем
@@ -461,7 +461,7 @@ Google не возьмёт тебя на работу.
 ### 1. Вы не сможете сразу запомнить все
 
 Я смотрел часами видео делая заметки, но спустя несколько месяцев многое из этого я не помнил. После чего потратил
-3 дня разбираясь в своих заметках и делая карточки-напоминания(flashcards), для того что бы потом можно было повторить пройденный материал.
+3 дня разбираясь в своих заметках и делая карточки-напоминания (flashcards) для того, чтобы потом можно было повторить пройденный материал.
 
 Прочитайте пожалуйста эту статью, что бы не совершать моих ошибок:
 
@@ -469,7 +469,7 @@ Google не возьмёт тебя на работу.
 
 ### 2. Используйте карточки-напоминания
 
-Для решения этой проблемы я сделал не большой сайт, на котором можно добавлять карточки двух типов: общие и с кодом.
+Для решения этой проблемы я сделал небольшой сайт, на котором можно добавлять карточки двух типов: общие и с кодом.
 Каждая карта имеет разный формат.
 
 Я сделал мобильную версию сайта и могу читать карточки на мобильном телефоне или планшете. 
@@ -484,7 +484,7 @@ Google не возьмёт тебя на работу.
 запомнить материал.
 
 В качестве альтернативы вы можете использовать сайт [Anki](http://ankisrs.net/), который мне рекомендовали много раз. Он использует систему повторений для того что бы помочь вам запомнить.
-Это ресурс user-friendly, доступен на всех платформах и имеет возможность синхронизации с облаком. На платформе iOS стоит 25$ на других бесплатный.
+Это ресурс user-friendly, доступен на всех платформах и имеет возможность синхронизации с облаком. На платформе iOS стоит 25$, на других бесплатный.
 
 Моя база данных в формате Anki: https://ankiweb.net/shared/info/25173560 (спасибо [@xiewenya](https://github.com/xiewenya))
 
@@ -543,7 +543,7 @@ Google не возьмёт тебя на работу.
 - [ ] **Изучайте C**
     - С используется везде. Вы встретите примеры в книгах, лекциях, видео, везде, пока вы будите учиться.
     - [ ] [Язык программирования С, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - Это не большая книга, но после ее прочтения вы получите необходимые знания по С и если будите практиковать, 
+        - Это небольшая книга, но после ее прочтения вы получите необходимые знания по С и если будите практиковать, 
         то достаточно быстро его освоите. Понимание С поможет вам понять как программы и память работают. 
         - [ответы на вопросы](https://github.com/lekkas/c-algorithms) 
 
@@ -551,8 +551,7 @@ Google не возьмёт тебя на работу.
     - [ ] [Как CPU выполняет программы (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Коды машинных инструкций(video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Сложность алгоритмов / Big-O / Асимптотический анализ
-- ничего не реализовывать
+## Сложность алгоритмов, Big-O, Асимптотический анализ
 - [ ] [Harvard CS50 - Асимптотическая нотация (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O нотация (основное, короткое руководство) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O нотация (и Omega и Theta) - лучшее математическое объяснение (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -702,12 +701,12 @@ Google не возьмёт тебя на работу.
         - get(key)
         - remove(key)
 
-## Больше знаний
+## Дополнительно
 
 - ### Бинарный поиск
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [Бинарный поиск (видео на ютубе)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Бинарный поиск (видео на khanacademy)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [Длинная статья с деталями](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
     - [ ] Реализация:
         - бинарный поиск (на отсортированном числовом массиве)
         - бинарный поиск с использованием рекурсии
@@ -741,7 +740,7 @@ Google не возьмёт тебя на работу.
 
 ## Деревья
 
-- ### Деревья - Заметки & Основные понятия
+- ### Деревья, Заметки и Основные понятия
     - [ ] [Основы деревьев (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Деревья (видео)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - базовые конструкции деревьев
@@ -763,7 +762,7 @@ Google не возьмёт тебя на работу.
         - post-order (DFS: левый, правый, вершина)
         - pre-order (DFS: вершина, левый, правый)
 
-- ### Бинарное дерево поиска(Binary search trees): BSTs
+- ### Бинарное дерево поиска (BST: Binary search trees)
     - [ ] [Обзор бинарного дерева поиска (видео)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Лекции (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - начинается с таблицы символов и заканчивая BST приложениями
@@ -793,8 +792,8 @@ Google не возьмёт тебя на работу.
         - [ ] delete_value
         - [ ] get_successor // возвращает следующее максимальное значение в дереве после переданного, -1 если none
 
-- ### Куча / Приоритетная очередь / Бинарная куча
-    - визуализируется как дерево, но обычно храниться в линейных структурах данных (массив, связанные список)
+- ### Куча, Приоритетная очередь, Бинарная куча
+    - визуализируется как дерево, но обычно хранится в линейных структурах данных (массив, связанные список)
     - [ ] [Куча](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Введение (видео)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Наивная реализация (видео)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -802,7 +801,7 @@ Google не возьмёт тебя на работу.
     - [ ] [Замечания к высоте дерева (видео)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
     - [ ] [Базовые операции (видео)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
     - [ ] [Полные двоичные деревья (видео)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Псевдокоде (видео)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Псевдокод (видео)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
     - [ ] [Пирамидальная сортировка - начальные шаги (видео)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Пирамидальная сортировка (видео)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
     - [ ] [Построение кучи (видео)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
@@ -825,15 +824,15 @@ Google не возьмёт тебя на работу.
 ## Сортировка
 
 - [ ] Заметки:
-    - Реализуй сортировки и помни про лучшую/худую, среднюю сложность для каждой:
+    - Напиши код для разных сортировкок и помни про лучшую/худую, среднюю сложность для каждой:
         - не пузырьковая сортировка - она медленная - O(n^2), заисключением n <= 16
-    - [ ] устоичивость в алгоритмах сортировки ("Быстрая сортировка устойчива?")
+    - [ ] устойчивость в алгоритмах сортировки ("Быстрая сортировка устойчива?")
         - [Устоичивость алгоритма сортировки](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Устоичивость в алгоритмах сортировки](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Устоичивость в алгоритмах сортировки](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Алгоритмы сортировки - Устоичивость](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
     - [ ] Какие алгоритмы можно применять для связанного списка? Для массива? А какие для обоих структур данных?
-        - Я не рекомендовал бы сортировать связанный список, но если нужно то сортировка слиянием подходит для этого.
+        - Я не рекомендовал бы сортировать связанный список, но если нужно, то сортировка слиянием подходит для этого.
         - [Сортировка слиянием для связанного списка](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
 - Для пирамидальной сортировки, см. структуру данных "Куча" выше. Пирамидальная сортировка эффективна, но не устойчива.
@@ -880,7 +879,7 @@ Google не возьмёт тебя на работу.
     - Сортировка выбором и сортировка вставками обе имеют среднюю и худшую сложность O(n^2)
     - Для пирамидальной сортировки, смотри структуру данных "Куча" выше.
 
-- [ ] Не обязательно, но я рекомендую:
+- [ ] Необязательно, но я рекомендую:
     - [ ] [Седжвик (Sedgewick) - Поразрядная сортировка (6 видео)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
         - [ ] [1. Строки в Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
         - [ ] [2. Ключевые индексные расчеты](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
@@ -906,7 +905,7 @@ Google не возьмёт тебя на работу.
         - список смежности
     - Ознакомьтесь с каждым представлением, его преимуществами и недостатками
     - BFS и DFS - узнайте их вычислительную сложность, соотношение преимуществ и недостатков, способы реализации в коде
-    - Когда вы получили задачу, в первую очередь попробуйте построить свое решение с использованием графов, а затем двигайтесь дальше, если такого решения нет.
+    - Когда вы получили задачу, сначала попробуйте решить её с использованием графов, а затем двигайтесь дальше, если такого решения нет.
 
 - [ ] Лекции профессора Стивена Скина - хорошее введение:
     - [ ] [CSE373 2012 - Лекция 11 - Структуры данных для представления графов (видео)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
@@ -957,7 +956,7 @@ Google не возьмёт тебя на работу.
         - [ ] список сильно связных компонентов
         - [ ] проверку графа на двудольность
 
-Вы найдете больше практических задач на графах в книге Стивена Скина (см раздел книги ниже) и в книгах о прохождении интервью.
+Вы найдете больше практических задач на графах в книге Стивена Скина (см. раздел книги ниже) и в книгах о прохождении интервью.
 
 ## Еще больше знаний
 
@@ -1033,8 +1032,7 @@ Google не возьмёт тебя на работу.
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
+    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem, and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
@@ -1096,58 +1094,57 @@ Google не возьмёт тебя на работу.
         - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ### Papers
-    - These are Google papers and well-known papers.
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
-    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-        - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
-    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+- ### Статьи
+    - Здесь вы найдете статьи от Google, а также дургие известные статьи.
+    - У вас вряд ли будет время прочитать их все с начала до конца. Я рекоммендую выбирать статьи и главы в них - тратье время грамотно на то, что хотите изучить глубже.
+    - [Любите классические статьи?](https://www.cs.cmu.edu/~crary/819-f09/)
+    - [ ] [1978: Коммуникация последовательных процессов](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+        - [разработка на языке Go](https://godoc.org/github.com/thomas11/csp)
+    - [ ] [2003: Файловая система Google](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+        - в 2012 заменена на Colossus
+    - [ ] [2004: MapReduce: Упрощенная обработка данных на крупных кластерах](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+        - в основном заменена Cloud Dataflow
+    - [ ] [2007: Что каждый программист должен знать о памяти (очень длинная статья, и автор говорит пропускать некоторые разделы)](https://www.akkadia.org/drepper/cpumemory.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
+    - [ ] 2012: AddressSanitizer: Быстрая проверка адресов:
+        - [статья](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+        - [видео](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+    - [ ] 2013: Spanner: Глобальная дистрибутивная база данных Google:
+        - [статья](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+        - [видео](https://www.usenix.org/node/170855)
+    - [ ] [2014: Машинное обучение: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+    - [ ] [2015: Continuous Pipelines в Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
     - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
     - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+    - [ ] [2015: Как разработчики ищут код: на примере](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+    - [ ] [2016: Borg, Omega, и Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-        - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+- ### Тестирование
+    - Нужно пройти:
+        - модульное тестирование
+        - Mock-объекты (от англ. «объект-пародия», «объект-имитация»)
+        - интеграционное тестирование
+        - внедрение зависимости
+    - [ ] [Гибкая методология разработки с James Bach (видео)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [Открытая лекция, данная James Bach на тему тестирования (видео)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - разработка через тестирование (это не то, что мы имели в виду) (видео)](https://vimeo.com/83960706)
+        - [слайды](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    - [ ] [Новая эра разработки через тестирование](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+    - [ ] [Мертва ли разработка через тестирование? (видео)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] [Видео-курс (152 видео) - нужны не все (видео)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [Вэб-разработка через тестирование на Питоне](http://www.obeythetestinggoat.com/pages/book.html#toc)
+    - [ ] Внедрение зависимости:
+        - [ ] [видео](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+        - [ ] [Принципы тестирования](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+    - [ ] [Как писать тесты](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+- ### Планирование
+    - как работает планирование (scheduling) в операционной системе 
+    - можно найти информацию в видео про Операционные системы
 
-- ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+- ### Реализация системных вызовов
+    - пойми, что находится под обложкой библиотек и программных интерфейсов (API), которые ты используешь
+    - можешь ли ты написать код для них?
 
 - ### String searching & manipulations
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
@@ -1555,74 +1552,74 @@ Google не возьмёт тебя на работу.
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Теория информации
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - [ ] more about Markov processes:
+    - [ ] Подробнее о Марковских Процессах:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below.
+    - А также смотрите курс-сериал MIT 6.050J Information and Entropy в самом низу.
 
-- ### Parity & Hamming Code (videos)
-    - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
-    - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-    - [ ] Hamming Code:
-        - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
-        - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
-    - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+- ### Чётность и Код Хемминга
+    - [ ] [Вступление](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [ ] [Чётность](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - [ ] Код Хемминга:
+        - [Обнаружение ошибок](https://www.youtube.com/watch?v=1A_NcXxdoCc)
+        - [Исправление ошибок](https://www.youtube.com/watch?v=JAMLuxdHH8o)
+    - [ ] [Проверка ошибок](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Энтропия
+    - Не забудьте сначала посмотреть видео теории информации
+    - Затем посмотрите следующее видео
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Криптография
+    - Не забудьте сначала посмотреть видео теории информации
+    - Затем посмотрите следующее видео
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
-    - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
-    - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Криптография: Хеширование](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+    - [ ] [Криптография: Шифрование](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - make sure to watch information theory videos first
-    - [ ] Computerphile (videos):
-        - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
-        - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
-        - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
-        - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
-        - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
-        - [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
-    - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
-    - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
+- ### Сжатие
+    - Не забудьте сначала посмотреть видео теории информации
+    - [ ] Computerphile (видео на ютубе):
+        - [ ] [Сжатие](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [ ] [Энтропия в сжатии](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [ ] [Инвертированный деревья (Кодовые деревья Хаффмана)](https://www.youtube.com/watch?v=umTbivyJoiI)
+        - [ ] [Экстра - Кодовые деревья Хаффмана](https://www.youtube.com/watch?v=DV8efuB3h2g)
+        - [ ] [Элегантное сжатие текста (LZ 77 Метод)](https://www.youtube.com/watch?v=goOa3DGezUA)
+        - [ ] [Сжатие текста и Теория Вероятностей](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+    - [ ] [Compressor Head плейлист](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [ ] [Разработчики Google вживую: GZIP не достаточно!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
-    - otherwise, this is just good to know
+- ### Сети и сетевые протоколы
+    - **Если у вас уже есть опыт с сетями или вы хотить стать системным инженером, то ждите вопросов на эти темы**
+    - В противном случае, это все равно полезно знать 
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [UDP and TCP: Сравнение транспортных протоколов](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [Объяснение TCP/IP and модели OSI](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [Передача пакетов в интернете. Урок про сети и TCP/IP](https://www.youtube.com/watch?v=nomyRJehhnM)
     - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
     - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] [Плейлис на ютубе про сети (21 видео)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Подсети без мифов - Часть 5 CIDR](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
-- ### Computer Security
-    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
-        - [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
-        - [ ] [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
-        - [ ] [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- ### Компьютерная безопасность
+    - [MIT (23 видео)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Вступление, Моделирование угроз](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Аттаки для перехвата контроля ](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+        - [ ] [Переполнение буфера: использование и защита](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+        - [ ] [Разделение привилегий](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Возможности](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Машинный код в песочнице](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
+        - [ ] [Модель веб-безопасности](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Защита веб-приложений](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Символическое выполнение программ](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Безопасность сети](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Сетевые протоколы](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Атака по сторонним каналам](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Сборка мусора (Garbage collection)
     - [ ] [Компиляторы (видео)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
@@ -1634,44 +1631,43 @@ Google не возьмёт тебя на работу.
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Эффективное использование Python для высокопроизводительных параллельных вычислений (видео)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
-    - [ ] [Thrift](https://thrift.apache.org/)
-        - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+- ### Сообщения, сериализация и системы очередей
+    - [ ] [Apache Thrift - язык описания интерфейсов](https://thrift.apache.org/)
+        - [Урок по Thrift](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
-        - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+        - [Уроки](https://developers.google.com/protocol-buffers/docs/tutorials)
     - [ ] [gRPC](http://www.grpc.io/)
-        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
-    - [ ] [Redis](http://redis.io/)
-        - [Tutorial](http://try.redis.io/)
-    - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+        - [gRPC для Java разработчиков (видео)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+    - [ ] [Redis — сетевое журналируемое хранилище данных](http://redis.io/)
+        - [Урок](http://try.redis.io/)
     - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
-    - [ ] [RabbitMQ](https://www.rabbitmq.com/)
-        - [Get Started](https://www.rabbitmq.com/getstarted.html)
-    - [ ] [Celery](http://www.celeryproject.org/)
-        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
-    - [ ] [ZeroMQ](http://zeromq.org/)
-        - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+    - [ ] [RabbitMQ - платформа для обмены сообщениями](https://www.rabbitmq.com/)
+        - [Урок](https://www.rabbitmq.com/getstarted.html)
+    - [ ] [Celery - распределенная очередь заданий](http://www.celeryproject.org/)
+        - [Первые шаги с Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+    - [ ] [ZeroMQ - библиотека для передачи сообщений](http://zeromq.org/)
+        - [Вступление к ZeroMQ](http://zeromq.org/intro:read-the-manual)
     - [ ] [ActiveMQ](http://activemq.apache.org/)
-    - [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
-    - [ ] [MessagePack](http://msgpack.org/index.html)
-    - [ ] [Avro](https://avro.apache.org/)
+    - [ ] [Apache Kafka — распределённый программный брокер сообщений](http://kafka.apache.org/documentation.html#introduction)
+    - [ ] [MessagePack - компьютерный формат обмена данными](http://msgpack.org/index.html)
+    - [ ] [Apache Avro](https://avro.apache.org/)
 
-- ### Fast Fourier Transform
-    - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
-    - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
-    - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+- ### Быстрое преобразование Фурье
+    - [ ] [Интерактивное руководство по преобразованию Фурье](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - [ ] [Что такое преобразованию Фурье? Для чего оно нужно?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    - [ ] [Что такое преобразованию Фурье? (видео)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [ ] [Разделяй и властвуй: Быстрое преобразование Фурье (видео)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [ ] [Объяснение Быстрого преобразования Фурье](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
-- ### Bloom Filter
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
-    - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
-    - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
-    - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
-    - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
+- ### Фильтр Блума
+    - Если у вас есть Фильтр Блума с m битами и к хеширующими функциями, то вставка и тестирование на членство имеют сложность O(k)
+    - [Фильтры Блума](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    - [Фильтры Блума | Добыча огромных наборов данных | Стэндфордский Университет](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [Урок](http://billmill.org/bloomfilter-tutorial/)
+    - [Как написать приложение фильтра Bloom](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
 - ### HyperLogLog
-    - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
+    - [Как посчитать миллиард различных объектов, когда у вас есть только 1.5KB памяти](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
     - used to determine the similarity of documents

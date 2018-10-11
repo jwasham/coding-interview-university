@@ -1703,19 +1703,15 @@ Google не возьмёт тебя на работу.
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### Balanced search trees
-    - Know least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-        to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code.
-        - splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets.
-    - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+- ### Сбалансированные деревья поиска
+    - Знать как минимум один тип сбалансированного дерева поиска (и как его осуществить):
+    - "Среди сбалансированных деревьев поиска AVL и 2/3 деревья теперь в прошлом, и красно-черные деревья все больше набирают популярность. Довольно интересный саморегулирующийся тип это расширяющееся дерево, который использует для перемещения любого ключа к вершине" - Стивен Сол Лекена
+    - Из всех них я предпочел написать расширяющееся дерево. Из того, что я читал, писать реализации сбалансированного дерева поиска на интервью не понадобится. Но я хотел преодолеть еще одну задачу в програмировании, и будем честны, расширяющиеся деревья превосходны. И я прочитал довольно много про красно-черные деревья.
+        - расширяющееся дерево: вставка, поиска, и удаление
+        Если вы решите реализовать красно-черное дерево напишите:
+        - функции поиска и вставки, пропустите удаление
+    - Я хочу изучить побольше про B-деревья, т.к. они применимы при работе с очень большими данными
+    - [ ] [Сбалансированный поиск дерева](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
     - [ ] **AVL trees**
         - In practice:

@@ -1,12 +1,12 @@
-# 구글 인터뷰 대학(Google Interview University)
+# 코딩 인터뷰 대학(Coding Interview University)
 
 > 나는 원래 이것을 소프트웨어 엔지니어가 되기 위한 짧은 연구 목록으로 만들었다.
 > 그러나 지금 당신이 볼수 있듯이 이 목록은 매우 커졌다. 이 목록을 숙지 한 후, 
 > [나는 아마존에 소프트웨어 엔지니어로 채용됐다](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> 를 보면 당신은 아마 내가 한 것처럼 많이 공부할 필요는 없을 것이다. 어쨌든 당신이 필요로 하는 모든 것은 여기에 있다.
+> 당신은 아마 내가 한 것처럼 많이 공부할 필요는 없을 것이다. 어쨌든 당신이 필요로 하는 모든 것은 여기에 있다.
 >
-> 여기에 나열된 목록들은 거의 모든 소프트웨어 회사의 인터뷰를 준비하는데에 도움이 될것이다.
-> 아마존, 페이스북, 구글, 마이크로소프트 같은 거대 기업을 포함.
+> 여기에 나열된 목록들은 아마존, 페이스북, 구글, 마이크로소프트 같은 거대 기업을 포함한 거의 모든 소프트웨어 회사의 인터뷰를 준비하는데에 도움이 될것이다.
+> 
 >
 > *행운을 빈다!*
 
@@ -26,9 +26,9 @@
     - [브라질 포르투갈어](https://github.com/jwasham/google-interview-university/issues/113)
 	- [한국어](https://github.com/jwasham/google-interview-university/issues/118)
 
-## 구글 인터뷰 대학이란?
+## 코딩 인터뷰 대학이란?
 
-구글 인터뷰 대학은 웹 개발자(컴퓨터공학 학위 없이 독학한)에서 구글의 소프트웨어 엔지니어가 되기 위한 나의 몇 달 간의 공부 계획이다.
+코딩 인터뷰 대학은 웹 개발자(컴퓨터공학 학위 없이 독학)에서 구글의 소프트웨어 엔지니어가 되기 위한 나의 몇 달 간의 공부 계획이다.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
@@ -46,7 +46,7 @@
 
 ## Table of Contents
 
-- [구글 인터뷰 대학이란?](#구글-인터뷰-대학이란)
+- [코딩 인터뷰 대학이란?](#코딩-인터뷰-대학이란)
 - [Why use it?](#why-use-it)
 - [How to use it?](#how-to-use-it)
 - [구글 분위기 내기](#구글-분위기-내기)

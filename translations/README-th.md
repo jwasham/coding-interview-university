@@ -5,7 +5,7 @@
 >
 > *ขอให้คุณโชคดี!*
 
-การแปลภาษา:
+ภาษาอื่นๆ:
 - [中文版本](translations/README-cn.md)
 - กำลังดำเนินการแปลภาษา:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
@@ -32,7 +32,7 @@
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-บทความนี้สำหรับคนที่อยากเป็น **วิศวกรซอฟต์แวร์** หรือต้องการเปลี่ยนมาจากนักพัฒนาซอฟต์แวร์หรือนักพัฒนาเว็บไซด์มาเป็นวิศวกรซอฟต์แวร์ (ผู้ซึ่งมีความรู้ความเข้าใจลึกซึ่งในหลักการของวิทยาการคอมพิวเตอร์) ถ้าคุณมีประสบการณ์หลายปีและมั่นใจในประสบการณ์การเป็นวิศวกรซอฟต์แวร์ของคุณ จะได้เจอการสัมภาษณ์ที่ยากขึ้นแน่นอน
+บทความนี้สำหรับคนที่อยากเป็น **วิศวกรซอฟต์แวร์** หรือต้องการเปลี่ยนมาจากนักพัฒนาซอฟต์แวร์หรือนักพัฒนาเว็บไซด์มาเป็นวิศวกรซอฟต์แวร์ (ผู้ซึ่งมีความรู้ความเข้าใจลึกซึ้งในหลักการของวิทยาการคอมพิวเตอร์) ถ้าคุณมีประสบการณ์หลายปีและมั่นใจในประสบการณ์การเป็นวิศวกรซอฟต์แวร์ของคุณ จะได้เจอการสัมภาษณ์ที่ยากขึ้นแน่นอน
 
 ถ้าคุณมีประสบการณ์การพัฒนาซอฟต์แวร์หรือเว็บไซต์มาหลายปี แต่ในบริษัทซอฟต์แวร์ขนาดใหญ่ของโลกอย่าง Google Amazon Facebook และ Microsoft มองการพัฒนาซอฟต์แวร์ของวิศวกรซอฟต์แวร์ที่ต่างกันออกไปจากการพัฒนาซอฟต์แวร์หรือเว็บไซต์โดยทั่วๆไป และบริษัทที่กล่าวมานี้ก็ต้องการความรู้ทางวิทยาการคอมพิวเตอร์ที่เข้มข้นอย่างมาก
 
@@ -202,7 +202,7 @@
 บางวิดีโอนั้น สามารถเข้าถึงได้เฉพาะการลงทะเบียนเรียนใน Coursera, EdX หรือ Lynda.com ซึ่งเรียกว่า MOOCs
 บางครั้งคอร์สที่คุณต้องการเข้าไปดูวิดีโอนั้นยังไม่เปิด คุณจำเป็นต้องรอประมาณสองสามเดือน ส่วน Lynda.com นั้นต้องเสียเงิน
 
-    ผมยินดีหากคุณช่วยเพิ่มแหล่งความรู้ที่ฟรีและสามารถเข้าถึงได้แบบสาธารณะ เช่น วิดีโอใน YouTube ที่เป็นวิดีโอที่ใช้ในคอร์สเรียนนั้นๆ 
+    ผมยินดีหากคุณช่วยเพิ่มแหล่งความรู้ที่ฟรีและสามารถเข้าถึงได้แบบสาธารณะ เช่น วิดีโอใน YouTube ที่เป็นวิดีโอที่ใช้ในคอร์สเรียนนั้นๆ
     ซึ่งผมชอบใช้บทเรียนที่มาจากมหาวิทยาลัยต่างๆ 
 
 
@@ -242,7 +242,7 @@ You need to be very comfortable in the language and be knowledgeable.
 
 [See language resources here](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+คุณอาจจะเห็นแหล่งเรียนรู้เกี่ยวกับภาษา C, C++ และ Python ข้างใต้นี้ เพราะเราก็ยังคงศึกษาเรียนรู้กันอยู่ตลอด และมีหนังสือที่เกี่ยวข้องด้านล่าง
 
 ## รายชื่อหนังสือ
 
@@ -262,7 +262,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
 
-### สถาปัตยกรรม คอมพิวเตอร์ 
+### สถาปัตยกรรม คอมพิวเตอร์
 
 หากคุณมีเวลาน้อย:
 
@@ -367,7 +367,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## ก่อนที่จะเริ่มต้น 
+## ก่อนที่จะเริ่มต้น
 
 This list grew over many months, and yes, it kind of got out of hand.
 
@@ -450,7 +450,7 @@ There are a lot of distractions that can take up valuable time. Focus and concen
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+คุณไม่จำเป็นต้องจำรายละเอียดทุกอย่างของทุกอัลกอริธึม
 
 เขียนโค้ดลงกระดานหรือกระดาษ ไม่ใช่ในเครื่องคอมพิวเตอร์ ทดสอบโดยใช้ข้อมูลตัวอย่าง จากนั้นลองรันจริงๆ ในเครื่องคอมพิวเตอร์
 
@@ -1320,17 +1320,17 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Coding Question Practice
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+ขณะนี้คุณมีความรู้เกี่ยวกับวิทยการคอมพิวเตอร์ทุกหัวข้อด้านบนแล้ว ก็ถึงเวลาฝึกซ้อมตอบคำถามเกี่ยวกับปัญหาด้านการโค้ดดิ้ง
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**การฝึกซ้อมนี้ ไม่เกี่ยวข้องกับการท่องจำตอบของโจทย์ด้านการเขียนโปรแกรม**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+ทำไมคุณจึงต้องฝึกซ้อม:
+- เพื่อทดสอบความเข้าใจโจทย์ ว่า ควรใช้โครงสร้างช้อมูลใด และ อัลกอริธึมใด ที่เหมาะสมกับโจทย์
+- รวบรวมสิ่งที่โจทย์ต้องการ
+- พูดคุยเป็นภาษาของคุณ เฉกเช่นเดียวกับเมื่อคุณไปสัมภาษณ์
+- เขียนโค้ดบนกระดาน, กระดาษ ไม่ใช่ในคอมพิวเตอร์
+- ได้คำตอบออกมา พร้อมกับประสิทธิภาพของคำตอบของคุณ
+- ทดสอบคำตอบของคุณ
 
 There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
 interview books, too, but I found this outstanding:
@@ -1455,12 +1455,12 @@ You're never really done.
 ## Additional Books
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
+    - หนังสือเก่า แต่ยังเก๋า
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - a modern option
 - [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
+    - แนะนำ design patterns ตั้งแต่เริ่มต้น
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - aka the "Gang Of Four" book, or GOF
     - the canonical design patterns book
@@ -1770,7 +1770,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - see videos below
 
 - ### การเรียนรู้ของเครื่อง (Machine Learning)
-    - [ ] Why ML?
+    - [ ] ทำไมต้อง ML?
         - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
@@ -1788,8 +1788,8 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
         - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
-        - Books:
+    - แหล่งเรียนรู้:
+        - หนังสือ:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
             - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
             - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)

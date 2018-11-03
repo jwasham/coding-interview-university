@@ -689,21 +689,19 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - basic tree construction
     - traversal
     - manipulation algorithms
-    - BFS (breadth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-        - level order (BFS, using queue)
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
-    - DFS (depth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-        - notes:
-            time complexity: O(n)
-            space complexity:
+    - [ ] [BFS(breadth-first search) and DFS(depth-first search)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+        - BFS notes:
+           - level order (BFS, using queue)
+           - time complexity: O(n)
+           - space complexity: best: O(1), worst: O(n/2)=O(n)
+        - DFS notes:
+            - time complexity: O(n)
+            - space complexity:
                 best: O(log n) - avg. height of tree
                 worst: O(n)
-        - inorder (DFS: left, self, right)
-        - postorder (DFS: left, right, self)
-        - preorder (DFS: self, left, right)
+            - inorder (DFS: left, self, right)
+            - postorder (DFS: left, right, self)
+            - preorder (DFS: self, left, right)
 
 - ### Binary search trees: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -852,7 +850,11 @@ Graphs can be used to represent many problems in computer science, so this secti
     - Familiarize yourself with each representation and its pros & cons
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
-
+    
+- [ ] MIT(videos):
+    - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+    - [ ] [Depth-First Search]((https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+    
 - [ ] Skiena Lectures - great intro:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
@@ -1755,7 +1757,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 - ### Disjoint Sets & Union Find
     - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
+    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)

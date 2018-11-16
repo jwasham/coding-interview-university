@@ -10,13 +10,19 @@
 >
 > *Best of luck to you!*
 
-Translations:
+<details>
+<summary>Translations:</summary>
+
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
 
-Translations in progress:
+</details>
+
+<details>
+<summary>Translations in progress:</summary>
+
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
 - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
@@ -34,6 +40,8 @@ Translations in progress:
 - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
+
+</details>
 
 ## What is it?
 

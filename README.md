@@ -133,6 +133,9 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ---------------- Everything below this point is optional ----------------
 
+<details>
+<summary>Additional Resources</summary>
+
 - [Additional Books](#additional-books)
 - [Additional Learning](#additional-learning)
     - [Compilers](#compilers)
@@ -175,6 +178,8 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 - [Video Series](#video-series)
 - [Computer Science Courses](#computer-science-courses)
+
+</details>
 
 ---
 

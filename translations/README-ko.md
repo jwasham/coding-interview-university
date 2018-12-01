@@ -68,7 +68,7 @@
 - [도서 목록](#도서-목록)
 - [시작하기 전에](#시작하기-전에)
 - [다루지 않을 것](#다루지-않을-것)
-- [선수 과목](#선수-과목)
+- [선수 지식](#선수-지식)
 - [하루 하루의 계획](#하루-하루의-계획)
 - [알고리즘 복잡도 / Big-O / 점근적 분석](#알고리즘-복잡도--big-o--점근적-분석)
 - [자료구조](#자료구조)
@@ -78,40 +78,45 @@
     - [큐](#큐)
     - [해쉬 테이블](#해쉬-테이블)
 - [추가 지식](#more-knowledge)
-    - [이진 검색](#binary-search)
+    - [이진 탐색/이진 검색](#binary-search)
     - [비트 연산](#bitwise-operations)
 - [트리](#trees)
     - [트리 - 배경지식](#trees---notes--background)
-    - [이진 탐색 트리: BSTs](#binary-search-trees-bsts)
+    - [이진 탐색 트리(BST)](#binary-search-trees-bsts)
     - [힙 / 우선순위 큐 / 이진 힙](#heap--priority-queue--binary-heap)
     - 균형 탐색 트리 (간단한 개념)
-    - 트리운행: 전위운행, 중위운행, 후위운행, 너비우선탐색(BFS), 깊이우선탐색(DFS)
+    - 트리 순회: 전위 순회, 중위 순회, 후위 순회, 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)
 - [정렬](#sorting)
-    - 선택정렬
-    - 삽입정렬
-    - 힙정렬
-    - 퀵정렬
-    - 병합정렬
+    - 선택 정렬
+    - 삽입 정렬
+    - 힙 정렬
+    - 퀵 정렬
+    - 병합 정렬
 - [그래프](#graphs)
     - 방향 그래프
     - 무방향 그래프
-    - 인접행렬
-    - 인접리스트
-    - 운행: 너비우선탐색(BFS), 깊이우선탐색(DFS)
+    - 인접 행렬
+    - 인접 리스트
+    - 그래프 순회: 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)
 - [더 많은 지식](#even-more-knowledge)
     - [재귀](#recursion)
     - [동적 프로그래밍](#dynamic-programming)
     - [객체 지향 프로그래밍](#object-oriented-programming)
     - [디자인 패턴](#design-patterns)
     - [조합 & 확률](#combinatorics-n-choose-k--probability)
-    - [NP, NP-완전 and 근사 알고리즘](#np-np-complete-and-approximation-algorithms)
-    - [캐쉬](#caches)
+    - [NP와 NP-완전, 그리고 근사 알고리즘](#np-np-complete-and-approximation-algorithms)
+    - [캐시](#caches)
     - [프로세스와 쓰레드](#processes-and-threads)
     - [논문](#papers)
-    - [테스팅](#testing)
-    - [스케쥴링](#scheduling)
+    - [테스트](#테스트)
+    - [스케줄링](#scheduling)
     - [시스템 루틴의 구현](#implement-system-routines)
     - [문자열 검색 & 조작](#string-searching--manipulations)
+    - [트라이](#tries)
+    - [부동 소수점](#floating-point-numbers)
+    - [유니코드](#unicode)
+    - [엔디언(Endianness)](#endianness)
+- [네트워크](#networking)
 - [시스템 디자인, 확장성, 데이터 핸들링](#system-design-scalability-data-handling) (4년 이상 경력자를 위한 주제)
 - [최종 리뷰](#final-review)
 - [코딩 문제 연습](#coding-question-practice)
@@ -534,7 +539,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 컴퓨터에 코딩하지 말고 와이트보드나 종이에 적어보아라. 인풋 값으로 샘플 테스트를 해 보아라. 그리고 컴퓨터로 테스트해 보아라.
 
-## 선수 과목
+## 선수 지식
 
 - [ ] **Learn C**
     - C 는 어디에나 있다. 당신은 책이나 강의, 비디오 등 공부하는 동안 모든 곳에서 예제를 볼 것이다.
@@ -1147,7 +1152,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### 테스팅
+- ### 테스트
     - 알아 두어야 할 것:
         - 유닛 테스트는 어떻게 작동하는지
         - mock object 는 무엇인지
@@ -1892,7 +1897,7 @@ You're never really done.
     - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Discrete math
-    - see videos below
+    - 아래에 있는 영상을 확인하세요.
 
 - ### Machine Learning
     - [ ] Why ML?
@@ -1993,7 +1998,7 @@ You're never really done.
         - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## 영상 자료
 
 Sit back and enjoy. "Netflix and skill" :P
 

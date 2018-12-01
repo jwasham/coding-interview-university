@@ -10,14 +10,19 @@
 >
 > *행운을 빈다!*
 
-번역:
+
+<details>
+<summary>번역:</summary>
 
 - [베트남어](translations/README-vi.md)
 - [브라질 포르투갈어](translations/README-ptbr.md)
 - [스페인어](translations/README-es.md)
 - [중국어](translations/README-cn.md)
 
-진행 중인 번역
+</details>
+
+<details>
+<summary>진행 중인 번역:</summary>
 
 - [그리스어](https://github.com/jwasham/coding-interview-university/issues/166)
 - [러시아어](https://github.com/jwasham/coding-interview-university/issues/87)
@@ -37,6 +42,7 @@
 - [히브리어](https://github.com/jwasham/coding-interview-university/issues/82)
 - [힌디어](https://github.com/jwasham/coding-interview-university/issues/81)
 
+</details>
 
 ## 코딩 인터뷰 대학이란?
 
@@ -197,6 +203,9 @@
 
 ## How to use it?
 
+<details>
+<summary>How to use it?</summary>
+
 아래의 모든 것은 대략적인 개요이며 당신은 위에서 아래 순서대로 진행해야 한다.
 
 진행상황을 확인하기 위한 목록를 포함하여, 나는 Github'special markdown flavor를 사용하고 있다.
@@ -223,6 +232,7 @@
 
 [Github-flavored markdown에 대하여](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
+</details>
 
 ## 당신은 충분히 똑똑합니다
 - 구글 엔지니어들은 똑똑합니다. 하지만 그들 조차도 자신들의 지적 능력면에 대해서 불안감을 갖기 일쑤입니다.
@@ -238,6 +248,9 @@
     저는 대학 강의 듣는 것을 좋아합니다.
 
 ## 인터뷰 과정 & 전반적인 인터뷰 준비 과정
+
+<details>
+<summary>인터뷰 과정 & 전반적인 인터뷰 준비 과정</summary>
 
 - [ ] 비디오:
 
@@ -273,6 +286,7 @@
       - [ ] ['Big 4에 취업하는 방법 - Amazon, Facebook, Google & Microsoft' (영상)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [구글 인터뷰 실패기](http://alexbowe.com/failing-at-google-interviews/)
 
+</details>
 
 ## 인터뷰를 위한 언어 고르기
 
@@ -324,6 +338,8 @@
     - Google Careers site에서 추천되었기 때문에 [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
     - 만일 당신이 다른 사람들의 "The Google Resume"를 참고자료로 봤다면, "Cracking the Coding Interview"는 그것을 대신할 수 있는 책이다.
 
+<details>
+<summary>만일 당신이 많은 여유 시간이 있다면:</summary>
 
 만일 당신이 많은 여유 시간이 있다면:
 
@@ -331,6 +347,7 @@
     - 모든 코드가 C++로 되어있다, 만일 당신의 인터뷰에서 C++를 사용하길 고려한다면 정말 좋은 책이다.
     - 일반적인 문제들을 해결하기 위해 좋은 책이다.
 
+</details>
 
 ### 컴퓨터 구조
 
@@ -350,9 +367,15 @@
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 
-만약에 시간적 여유가 좀 더 있다면 아래 서적을 읽어보는 것을 권유합니다.
+</details>
+
+<details>
+<summary>만약에 시간적 여유가 좀 더 있다면 아래 서적을 읽어보는 것을 권유합니다.</summary>
+
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
     - For a richer, more up-to-date (2011), but longer treatment
+
+</details>
 
 ### 언어 구체적
 
@@ -401,6 +424,9 @@ OR:
 
 **어떤 사람들은 이 책들을 추천한다. 하지만 만약 당신이 소프트웨어 엔지니어링 분야에 오랜 경험이 있고, 그로 인해 훨씬 더 어려운 인터뷰를 볼 것이라 생각하지 않는다면, 나는 이 책들을 공부하는 것이 너무 과하다고 생각한다:**
 
+<details>
+<summary>Optional Books</summary>
+
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition
     - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
@@ -446,6 +472,7 @@ OR:
 
     - Would rather spend time on coding problems from another book or online coding problems.
 
+</details>
 
 ## 시작하기 전에
 
@@ -541,6 +568,9 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 ## 선수 지식
 
+<details>
+<summary>Prerequisite Knowledge</summary>
+
 - [ ] **Learn C**
     - C 는 어디에나 있다. 당신은 책이나 강의, 비디오 등 공부하는 동안 모든 곳에서 예제를 볼 것이다.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
@@ -552,7 +582,13 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
     - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
+</details>
+
 ## 알고리즘 복잡도 / Big-O / 점근적 분석
+
+<details>
+<summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
+
 - nothing to implement
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -576,7 +612,12 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     If some of the lectures are too mathy, you can jump down to the bottom and
     watch the discrete mathematics videos to get the background knowledge.
 
+</details>
+
 ## 자료구조
+
+<details>
+<summary>Data Structures</summary>
 
 - ### 배열
     - 자동 리사이징 벡터 구현하기
@@ -702,7 +743,12 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - get(key)
         - remove(key)
 
+</details>
+
 ## More Knowledge
+
+<details>
+<summary>More Knowledge</summary>
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -739,7 +785,12 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] absolute value:
         - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
 
+</details>
+
 ## Trees
+
+<details>
+<summary>Trees</summary>
 
 - ### Trees - Notes & Background
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
@@ -822,7 +873,12 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
+</details>
+
 ## Sorting
+
+<details>
+<summary>Sorting</summary>
 
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
@@ -897,7 +953,12 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
+</details>
+
 ## 그래프
+
+<details>
+<summary>Graphs</summary>
 
 그래프는 컴퓨터 과학의 여러 문제들을 표현하는 데 사용할 수 있다. 때문에 이 섹션은 트리나 정렬 섹션처럼 길다.
 
@@ -957,6 +1018,8 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] check for bipartite graph
 
 Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그래프 실습을 할 수 있다.
+
+</details>
 
 ## Even More Knowledge
 
@@ -1244,6 +1307,10 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ## System Design, Scalability, Data Handling
+
+<details>
+<summary>System Design, Scalability, Data Handling</summary>
+
 - **You can expect system design questions if you have 4+ years of experience.**
 - Scalability and System Design are very large topics with many topics and resources, since
       there is a lot to consider when designing a software/hardware system that can scale.
@@ -1367,9 +1434,14 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
+</details>
+
 ---
 
 ## 최종 검토
+
+<details>
+<summary>Final Review</summary>
 
     이 섹션에는 중요한 개념들을 빠르게 검토할 수 있는 짧은 영상들이 포함되어 있다.
     복습을 하고자 한다면, 이 영상들이 도움이 될 것이다.
@@ -1405,9 +1477,14 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
     - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
+</details>
+
 ---
 
 ## 코딩 문제 연습
+
+<details>
+<summary>Coding Question Practice</summary>
 
 이제 당신은 위의 컴퓨터 과학 주제들을 모두 알고 있으므로, 코딩 문제에 답하는 것을 연습할 차례이다.
 
@@ -1448,7 +1525,12 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
 [위의 도서 목록](#book-list)을 보라
 
+</details>
+
 ## Coding exercises/challenges
+
+<details>
+<summary>Coding Question Practice</summary>
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
@@ -1469,6 +1551,8 @@ Challenge sites:
 
 Maybe:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
+
+</details>
 
 ## Once you're closer to the interview
 
@@ -1543,7 +1627,10 @@ You're never really done.
 
 ## Additional Books
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+<details>
+<summary>Additional Books</summary>
+
+- [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - an oldie but a goodie
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - a modern option
@@ -1557,7 +1644,12 @@ You're never really done.
     - [Site Reliability Engineering: How Google Runs Production Systems](https://landing.google.com/sre/)
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
+</details>
+
 ## Additional Learning
+
+<details>
+<summary>Additional Learning</summary>
 
 - ### Compilers
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1854,6 +1946,9 @@ You're never really done.
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
 
+---
+
+---
 
 - ### k-D Trees
     - great for finding number of points in a rectangle or higher dimension object
@@ -1999,8 +2094,18 @@ You're never really done.
         - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
 ## 영상 자료
+</details>
+
+## Video Series
+
+</details>
+
+---
+
 
 Sit back and enjoy. "Netflix and skill" :P
+<details>
+<summary>비디오 시리즈</summary>
 
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -2062,10 +2167,17 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
+</details>
+
 ## Computer Science Courses
 
-- [온라인 CS 코스의 경로](https://github.com/open-source-society/computer-science)
-- [CS 코스의 경로 (많은 온라인 강의가 포함되어 있는 경로)](https://github.com/prakhar1989/awesome-courses)
+<details>
+<summary>컴퓨터 과학 수업들</summary>
+
+- [온라인 컴퓨터 과학 수업들](https://github.com/open-source-society/computer-science)
+- [(많은 온라인 강의가 있는) 컴퓨터 과학 수업들](https://github.com/prakhar1989/awesome-courses)
+
+</details>
 
 ## 라이센스
 

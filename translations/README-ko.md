@@ -189,10 +189,6 @@
 
 ## Why use it?
 
-나는 구글 인터뷰를 준비하기 위해 이 계획을 따랐다. 1997년 부터 나는 웹과 서비스를 개발하고 스타트업을 세웠다. 나는 컴퓨터과학이 아닌 경제학 학위를 가지고 있다.
-나의 커리어는 굉장히 성공적이어왔지만, 나는 구글에서 일하고 싶었다. 나는 더 큰 시스템을 다루고 컴퓨터 시스템, 알고리즘 효율, 자료구조 퍼포먼스, 저급 언어 등과 그 것들이 어떻게 작동하는지에 대하여
-이해하고 싶었다. 그리고 당신이 그런 것들을 모른다면 구글은 당신을 채용하지 않을 것이다.
-
 내가 이 프로젝트를 시작했을 때, 나는 힙스택, Big-O, 트리, 그래프 운행 등에 대하여 전혀 아는 바가 없었다.
 만약 내가 정렬 알고리즘을 코딩해야했다면, 나는 그리 잘 하지 못했을 것이다.
 모든 사용했던 모든 자료 구조는 언어 안에서 구현 되어 있던 것들이고, 나는 그 것들이 보이는 것 아래서 어떻게 작동하고 있는지 알지 못했다.
@@ -328,18 +324,13 @@
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - C++ 과 JAVA 문제의 답변을 위해서
-    - 구글 지원자를 위해 추천되었기 때문에
     - Cracking the Coding Interview 책을 위한 좋은 사전학습용 책이기 때문에
     - 어렵지 않고, 당신이 인터뷰에서 마주할 대부분의 문제들 보다 쉽기 때문에
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - JAVA 문제의 답변을 위해서
-    - Google Careers site에서 추천되었기 때문에 [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - 만일 당신이 다른 사람들의 "The Google Resume"를 참고자료로 봤다면, "Cracking the Coding Interview"는 그것을 대신할 수 있는 책이다.
 
 <details>
 <summary>만일 당신이 많은 여유 시간이 있다면:</summary>
-
-만일 당신이 많은 여유 시간이 있다면:
 
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - 모든 코드가 C++로 되어있다, 만일 당신의 인터뷰에서 C++를 사용하길 고려한다면 정말 좋은 책이다.
@@ -458,14 +449,7 @@ OR:
         - algorithm catalog:
             - this is the real reason you buy this book.
             - about to get to this part. Will update here once I've made my way through it.
-    - To quote Yegge: "More than any other book it helped me understand just how astonishingly commonplace
-        (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
-        covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
-        of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
-        them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
-        great way to learn how to identify hundreds of problem types."
     - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
     - Answers:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
@@ -473,8 +457,6 @@ OR:
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
     - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
-    - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
@@ -538,8 +520,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 ## 다루지 않을 것
 
-이 큰 주제들은 모두 Google 인터뷰 코칭 노트에서 개인적인 to-do list로 시작되었다.
-이 기술들은 널리 퍼져 있는 기술이지만, Google 인터뷰 코칭 노트에서 언급 되지 않았다:
+이 기술들은 널리 퍼져 있는 기술이지만, 여기서 다루는 부분은 아닙니다:
 
 - SQL
 - Javascript
@@ -1201,7 +1182,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 - ### Papers
-    - These are Google papers and well-known papers.
     - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
     - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
         - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
@@ -1303,7 +1283,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
 
-
 - ### Networking
     - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - otherwise, this is just good to know
@@ -1332,7 +1311,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - Scalability and System Design are very large topics with many topics and resources, since
       there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this.
-- Considerations from Yegge:
+- Considerations:
     - scalability
         - Distill large data sets to single values
         - Transform one data set to another

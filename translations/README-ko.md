@@ -153,6 +153,7 @@
     - [가비지 콜렉션](#garbage-collection)
     - [병렬 프로그래밍](#parallel-programming)
     - [메세징, 직렬화, 그리고 큐잉 시스템](#messaging-serialization-and-queueing-systems)
+    - [A* 알고리즘](#a)
     - [고속 푸리에 변환(FFT)](#fast-fourier-transform)
     - [블룸 필터](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
@@ -180,7 +181,7 @@
     - [이산수학](#discrete-math)
     - [기계학습](#machine-learning)
 - [몇몇 주제에 대한 세부사항](#additional-detail-on-some-subjects)
-- [영상 자료](#영상-자료)
+- [영상 자료](#video-series)
 - [컴퓨터 과학 강의들](#computer-science-courses)
 - [라이센스](#라이센스)
 
@@ -481,9 +482,7 @@ OR:
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-
     - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-
     - Would rather spend time on coding problems from another book or online coding problems.
 
 </details>
@@ -1825,6 +1824,11 @@ You're never really done.
     - [ ] [MessagePack](http://msgpack.org/index.html)
     - [ ] [Avro](https://avro.apache.org/)
 
+- ### A*
+    - [ ] [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
+    - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
+    - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+
 - ### Fast Fourier Transform
     - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
     - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
@@ -2112,13 +2116,9 @@ You're never really done.
         - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## 영상 자료
 </details>
 
 ## Video Series
-
-</details>
-
 
 
 Sit back and enjoy. "Netflix and skill" :P

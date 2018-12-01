@@ -11,20 +11,32 @@
 > *행운을 빈다!*
 
 번역:
+
+- [베트남어](translations/README-vi.md)
+- [브라질 포르투갈어](translations/README-ptbr.md)
+- [스페인어](translations/README-es.md)
 - [중국어](translations/README-cn.md)
-- 진행 중인 번역:
-    - [스페인어](https://github.com/jwasham/google-interview-university/issues/80)
-    - [힌디어](https://github.com/jwasham/google-interview-university/issues/81)
-	- [히브리어](https://github.com/jwasham/google-interview-university/issues/82)
-    - [바하사 인도네시아어](https://github.com/jwasham/google-interview-university/issues/101)
-    - [아랍어](https://github.com/jwasham/google-interview-university/issues/98)
-    - [베트남어](https://github.com/jwasham/google-interview-university/issues/92)
-    - [터키어](https://github.com/jwasham/google-interview-university/issues/90)
-    - [프랑스어](https://github.com/jwasham/google-interview-university/issues/89)
-    - [러시아어](https://github.com/jwasham/google-interview-university/issues/87)
-    - [우크라이나어](https://github.com/jwasham/google-interview-university/issues/106)
-    - [브라질 포르투갈어](https://github.com/jwasham/google-interview-university/issues/113)
-	- [한국어](https://github.com/jwasham/google-interview-university/issues/118)
+
+진행 중인 번역
+
+- [그리스어](https://github.com/jwasham/coding-interview-university/issues/166)
+- [러시아어](https://github.com/jwasham/coding-interview-university/issues/87)
+- [말라얄람어](https://github.com/jwasham/coding-interview-university/issues/239)
+- [바하사 인도네시아어](https://github.com/jwasham/coding-interview-university/issues/101)
+- [아랍어](https://github.com/jwasham/coding-interview-university/issues/98)
+- [우르두어](https://github.com/jwasham/coding-interview-university/issues/140)
+- [우크라이나어](https://github.com/jwasham/coding-interview-university/issues/106)
+- [이탈리아어](https://github.com/jwasham/coding-interview-university/issues/170)
+- [일본어](https://github.com/jwasham/coding-interview-university/issues/257)
+- [태국어](https://github.com/jwasham/coding-interview-university/issues/156)
+- [터키어](https://github.com/jwasham/coding-interview-university/issues/90)
+- [텔루구어](https://github.com/jwasham/coding-interview-university/issues/117)
+- [폴란드어](https://github.com/jwasham/coding-interview-university/issues/122)
+- [프랑스어](https://github.com/jwasham/coding-interview-university/issues/89)
+- [한국어](https://github.com/jwasham/coding-interview-university/issues/118)
+- [히브리어](https://github.com/jwasham/coding-interview-university/issues/82)
+- [힌디어](https://github.com/jwasham/coding-interview-university/issues/81)
+
 
 ## 코딩 인터뷰 대학이란?
 

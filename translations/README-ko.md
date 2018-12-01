@@ -46,19 +46,19 @@
 
 ## 코딩 인터뷰 대학이란?
 
-코딩 인터뷰 대학은 웹 개발자(컴퓨터공학 학위 없이 독학)에서 구글의 소프트웨어 엔지니어가 되기 위한 나의 몇 달 간의 공부 계획이다.
+코딩 인터뷰 대학은 웹 개발자(컴퓨터공학 학위 없이 독학)에서 구글의 소프트웨어 엔지니어가 되기 위한 나의 몇 달간의 공부 계획이다.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-이 기나긴 리스트는 **구글 코칭 노트**에서 선별되고 확장된 것으로 여러분이 알아야 할 내용이다. 맨 아래에는 인터뷰에 등장하거나 문제를 푸는 데에 도움이 될 만한 추가적인 내용이 있다. 많은 내용이 Steve Yegge의  "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"이라는 책에서 나왔으며, 때때로 구글 코칭 노트의 내용을 그대로 담고있기도 하다.
+이 기나긴 리스트는 **구글 코칭 노트**에서 선별되고 확장된 것으로 여러분이 알아야 할 내용이다. 맨 아래에는 인터뷰에 등장하거나 문제를 푸는 데에 도움이 될 만한 추가적인 내용이 있다. 많은 내용이 Steve Yegge의  "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"이라는 책에서 나왔으며, 때때로 구글 코칭 노트의 내용을 그대로 담고 있기도 하다.
 
-나는 Yegge의 추천으로부터 여러분이 알아야만 할 내용들을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다
+나는 Yegge의 추천내용 중 여러분이 알아야만 할 내용을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다.
 
 만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다. [더 보기](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
 만약 당신이 여러 해의 소프트웨어/웹 개발 경험을 가지고 있다면, 구글은 소프트웨어 엔지니어링을 소프트웨어/웹 개발과 다르게 바라보고 있으며 컴퓨터과학 지식을 요구한다는 사실에 주목하도록 하자.
 
-신뢰할만한 엔지니어, 혹은 시스템 엔지니어가 되고 싶다면 선택적 주제 목록(네트워크, 보안 등)을 더 공부하도록 하자.
+믿음직한 엔지니어 혹은 시스템 엔지니어가 되고 싶다면, 선택적인 주제 목록(네트워크, 보안 등)을 더 공부하도록 하자.
 
 ---
 
@@ -189,10 +189,13 @@
 
 ## Why use it?
 
-내가 이 프로젝트를 시작했을 때, 나는 힙스택, Big-O, 트리, 그래프 운행 등에 대하여 전혀 아는 바가 없었다.
-만약 내가 정렬 알고리즘을 코딩해야했다면, 나는 그리 잘 하지 못했을 것이다.
-모든 사용했던 모든 자료 구조는 언어 안에서 구현 되어 있던 것들이고, 나는 그 것들이 보이는 것 아래서 어떻게 작동하고 있는지 알지 못했다.
-나는 진행 중인 프로세스가 메모리 부족 에러를 메세지를 보내지 않는 한 메모리를 관리할 필요가 없었고, 나는 회피방법을 찾아야만 했다.
+나는 구글 인터뷰를 준비하기 위해 이 계획을 따랐다. 1997년부터 나는 웹과 서비스를 개발하고 스타트업을 세웠다. 나는 컴퓨터과학이 아닌 경제학 학위를 가지고 있다.
+나의 커리어는 굉장히 성공적이어왔지만, 나는 구글에서 일하고 싶었다. 나는 더 큰 시스템을 다루고 컴퓨터 시스템, 알고리즘 효율, 자료구조 퍼포먼스, 저급 언어 등과 그것들이 어떻게 작동하는지에 대하여 이해하고 싶었다. 그리고 당신이 그런 것들을 모른다면 구글은 당신을 채용하지 않을 것이다.
+
+내가 이 프로젝트를 시작했을 때, 나는 힙이나 스택, 시간복잡도, 트리, 그래프 순회 등에 대하여 전혀 아는 바가 없었다.
+만약 내가 정렬 알고리즘을 코딩해야 했다면, 나는 그리 잘하지 못했을 것이다.
+모든 사용했던 모든 자료 구조는 언어 안에서 구현되어 있던 것들이고, 나는 그것들이 보이지 않는 곳에서 어떻게 작동하고 있는지 몰랐다.
+나는 실행 중인 프로세스가 메모리 초과 에러를 메시지를 보내지 않는 한 메모리를 관리할 필요가 없었고, 나는 해결책을 찾아야만 했다.
 나는 몇몇 다차원 배열이나 연관 배열을 사용해왔지만, 자료구조를 처음부터 구현해본 적은 없었다.
 
 하지만 이 공부 계획을 진행하면서 나는 내가 고용될 것이라는 자신감을 갖게 되었다. 이 것은 내게 여러 달이 필요한 긴 계획이다.
@@ -205,11 +208,11 @@
 
 아래의 모든 것은 대략적인 개요이며 당신은 위에서 아래 순서대로 진행해야 한다.
 
-진행상황을 확인하기 위한 목록를 포함하여, 나는 Github'special markdown flavor를 사용하고 있다.
+이 문서는 진행 상황을 확인하기 위한 목록 작성부터 다른 곳에도, Github식 마크다운 문법을 사용하고 있다.
 
 **새 브랜치를 만들어서 중괄호에 x표를 넣는 식으로 항목을 체크하라: [x]**
 
-	브랜치를 포크하고 아래의 명령을 따라라
+    브랜치를 포크하고 아래의 명령을 따라라
 
 `git checkout -b progress`
 
@@ -227,7 +230,7 @@
 
 `git push --force `
 
-[Github-flavored markdown에 대하여](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Github식 마크다운에 대하여](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 </details>
 
@@ -636,7 +639,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
             - 배열 메소드 등의 기능을 활용하지 않으면서 정수 배열에 메모리를 할당할 수 있어야 함
             - 16으로 시작하거나 시작하는 숫자가 크다면 2의 제곱수(16, 32, 64, 128)로 시작
         - [ ] size() - 항목의 개수
-        - [ ] capacity() - 들어갈 수 있는 항목의 최대 개수number of items it can hold
+        - [ ] capacity() - 들어갈 수 있는 항목의 최대 개수
         - [ ] is_empty()
         - [ ] at(index) - 인덱스에 있는 항목을 돌려주고, 인덱스가 범위 밖이면 에러를 냄
         - [ ] push(item)
@@ -1026,15 +1029,15 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 <summary>더 많은 지식</summary>
 
 - ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
+    - [ ] 재귀와 백트래킹에 대한 스탠포드 대학 강의:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
     - when it is appropriate to use it
-    - how is tail recursion better than not?
-        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+    - 꼬리 재귀를 사용하는 게 그렇지 않은 것보다 얼마나 나은가요?
+        - [ ] [꼬리 재귀가 무엇이고 왜 그게 좋지 않은지에 대하여](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [꼬리 재귀 (영상)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 
 - ### Dynamic Programming    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
@@ -1241,8 +1244,8 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [테스트 어떻게 작성하는지](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+    - 운영체제(OS)에서 어떻게 동작하는지
+    - 운영 체제 관련 영상들에서 알아보실 수 있습니다.
 
 - ### Implement system routines
     - understand what lies beneath the programming APIs you use
@@ -2047,8 +2050,8 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 ## Video Series
 
+편하게 보세요. "Netflix and skill"이라니까요 :P
 
-Sit back and enjoy. "Netflix and skill" :P
 <details>
 <summary>비디오 시리즈</summary>
 
@@ -2119,7 +2122,7 @@ Sit back and enjoy. "Netflix and skill" :P
 <details>
 <summary>컴퓨터 과학 수업들</summary>
 
-- [온라인 컴퓨터 과학 수업들](https://github.com/open-source-society/computer-science)
+- [컴퓨터 과학 온라인 수업들](https://github.com/open-source-society/computer-science)
 - [(많은 온라인 강의가 있는) 컴퓨터 과학 수업들](https://github.com/prakhar1989/awesome-courses)
 
 </details>

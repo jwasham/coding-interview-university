@@ -302,7 +302,6 @@
 
 아래 언어들을 사용할 수 있지만 주의하여야 합니다.
 
-
 - JavaScript
 - Ruby
 
@@ -315,11 +314,9 @@
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-
 [프로그래밍 언어 참고목록](programming-language-resources.md)
 
 제가 공부하고 있는 C, C++, Python 강의를 아래서 볼 수 있습니다. 아래를 보시면 관련된 책들이 몇 개 있습니다.
-
 
 ## 도서 목록
 
@@ -357,6 +354,9 @@
     - 이 책은 2004년에 출판된 다소 구식의 책이지만, 간략히 컴퓨터를 이해하는 데에 훌륭한 자료입니다.
     - 이 책의 저자는 HLA를 발명했습니다. 그래서 회의적인 시선으로 HLA에 대해 언급하고 예로 듭니다. 널리 읽히지는 않지만, 어셈블리가 어떻게 생겼는 지를 보여주는 좋은 예입니다.
     - 이 장들은 당신에게 탄탄한 기초를 세워줄 것입니다:
+      <details>
+      <summary>......</summary>
+
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -389,6 +389,9 @@
 
 ### C++
 
+<details>
+<summary>C++</summary>
+
 나는 아래의 두 책들을 읽지 않았습니다. 하지만 Sedgewick이 높게 평가한 책들입니다. 그는 정말 대단한 사람입니다.
 
 
@@ -397,7 +400,12 @@
 
 C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적인 자료를 찾고 있습니다.
 
+</details>
+
 ### Java
+
+<details>
+<summary>Java</summary>
 
 - [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
     - videos with book content (and Sedgewick!):
@@ -411,7 +419,12 @@ OR:
     - UC버클리 대학의  CS입문 과정의 선택 텍스트로 사용됨
     - 아래에서 Python 버전에 대한 나의 책 보고서를 참조하십시오. 이 책은 동일한 주제를 다루고 있습니다.
 
+</details>
+
 ### Python
+
+<details>
+<summary>Python</summary>
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - by Goodrich, Tamassia, Goldwasser
@@ -419,6 +432,7 @@ OR:
     - Pythonic code
     - 나의 열렬한 서적 보고서: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
+</details>
 
 ### 선택 도서
 
@@ -1023,6 +1037,9 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
 ## Even More Knowledge
 
+<details>
+<summary>더 많은 지식</summary>
+
 - ### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
@@ -1287,7 +1304,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
 
----
 
 - ### Networking
     - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
@@ -1305,6 +1321,8 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] Sockets:
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+
+</details>
 
 ## System Design, Scalability, Data Handling
 
@@ -1498,7 +1516,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - 당신의 풀이의 시간, 공간 복잡도를 제시하기
 - 당신의 해답을 테스팅하기
 
-
 체계적이고 소통하는 인터뷰에서의 문제풀이에 관한 좋은 시작점이 있다. 당신은 프로그래밍 인터뷰 책에서 이 서식을 얻을 수도 있지만, 나는 이 것이 가장 좋다고 본다: [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
@@ -1618,7 +1635,6 @@ You're never really done.
     아래의 모든 것들은 선택 사항이다. 이 것들은 Google의 권장사항이 아니라, 나의 추천사항이다.
     당신은 이것들을 공부함으로써 더 많은 CS 개념들에 대해 알 수 있을 것이며, 소프트웨어 엔지니어링 직업을 준비하는 데에도 도움이 될 것
     이다. 더불어 당신은 훨씬 더 균형 잡힌 소프트웨어 엔지니어가 될 것이다.
-
 
     *****************************************************************************************************
     *****************************************************************************************************
@@ -1946,9 +1962,7 @@ You're never really done.
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
 
----
 
----
 
 - ### k-D Trees
     - great for finding number of points in a rectangle or higher dimension object
@@ -2021,9 +2035,14 @@ You're never really done.
         - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
         - Data School: http://www.dataschool.io/
 
---
+</details>
+
+---
 
 ## Additional Detail on Some Subjects
+
+<details>
+<summary>Additional Detail on Some Subjects</summary>
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
@@ -2100,7 +2119,6 @@ You're never really done.
 
 </details>
 
----
 
 
 Sit back and enjoy. "Netflix and skill" :P

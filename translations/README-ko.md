@@ -119,7 +119,7 @@
     - [유니코드](#unicode)
     - [엔디언(Endianness)](#endianness)
 - [네트워크](#networking)
-- [시스템 디자인, 확장성, 데이터 핸들링](#system-design-scalability-data-handling) (4년 이상 경력자를 위한 주제)
+- [시스템 디자인, 확장성, 데이터 핸들링](#시스템-디자인-확장성-데이터-핸들링) (4년 이상 경력자를 위한 주제)
 - [최종 검토](#최종-검토)
 - [코딩 문제 연습](#코딩-문제-연습)
 - [코딩 연습/도전](#코딩-연습도전)
@@ -277,11 +277,9 @@
 - JavaScript
 - Ruby
 
+당신은 당신의 언어에 매우 익숙하고 그 언어에 대해 잘 알아야 합니다.
 
-당신은 당신의 언어에 익숙하고 그 언어에 대해 잘 알아야 합니다.
-
-언어 선택을 도와줄 만한 읽을 거리들
-
+언어 선택을 도움이 될 만한 읽을 거리들
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
@@ -458,17 +456,18 @@ OR:
 
 ### 2. Flashcard를 사용하자.
 
-이 문제를 해결하기 위해 나는 2가지 종류(일반적인 내용, 코드)의 flashcard를 보관하고 추가할 수 있는 작은 사이트를 만들었다. 각 카드는 다른 서식을 가지고 있다.
+이 문제를 해결하기 위해 나는 2가지 종류(일반적인 내용, 코드)의 flashcard를 보관하고 추가할 수 있는 작은 사이트를 만들었다.
+각 카드는 다른 서식을 가지고 있다.
 
 이 사이트는 모바일에 최적화 되어있기 때문에 내 전화기나 태블릿 어디에서든 이를 확인할 수 있다.
 
-당신만의 카드를 만들어보자(무료로):
+당신만의 카드를 무료로 만들어보자:
 
 - [Flashcard 사이트 repo](https://github.com/jwasham/computer-science-flash-cards)
 - [내 flashcard 데이터베이스 (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [내 flashcard 데이터베이스 (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-앞에서도 언급했듯이 나는 불필요하게 많은 것을 공부하려고 했고, 내 카드의 내용들은 어셈블리 언어와 Python의 자잘한 지식들부터 기계 학습과 통계학까지 넘나들게 되었다. 결국 구글이 요구하는 것보다 훨씬 멀리 가버리고 말았다.
+앞에서도 언급했듯이 나는 불필요하게 많은 것을 공부하려고 했고, 내 카드의 내용들은 어셈블리 언어와 Python의 자잘한 지식들부터 기계 학습과 통계학까지 넘나들게 되었다. 결국 기업이 요구하는 것보다 훨씬 멀리 가버리고 말았다.
 
 **flashcard에 대한 참고사항:** 답을 할 수 있더라도 처음부터 안다고 표시하지 말자. 정확히 알기 전까지는 같은 카드를 보고 여러 번 답변할 수 있어야한다.
 반복 학습을 통해 해당 지식은 당신의 뇌에 깊이 각인될 것이다.
@@ -533,18 +532,18 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 <details>
 <summary>Prerequisite Knowledge</summary>
 
-- [ ] **Learn C**
+- [ ] **C언어 배우기**
     - C 는 어디에나 있다. 당신은 책이나 강의, 비디오 등 공부하는 동안 모든 곳에서 예제를 볼 것이다.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - 이 책은 분량이 적은 책이지만 C 를 잘 다룰 수 있게 해 줄 것이다. 또한 조금만 연습하더라도 연습량에 비해 빠르게 배울 수 있을 것이다. C 를 이해하는 것은 프로그램과 메모리가 어떻게 돌아가는지 이해하는 것을 도와준다.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+        - 이 책은 분량이 적은 책이지만 C언어를 잘 다룰 수 있게 해 줄 것이다. 또한 조금만 연습하더라도 연습량에 비해 빠르게 배울 수 있을 것이다. C언어를 이해하는 것은 프로그램과 메모리가 어떻게 돌아가는지 이해하는 것을 도와준다.
+        - [질의 응답](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How CPU executes a program](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
-    - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
-    - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+- [ ] **컴퓨터가 프로그램을 어떻게 처리하는 지:**
+    - [ ] [CPU는 프로그램을 어떻게 실행하는 지 (영상)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] [컴퓨터의 계산 방법 - ALU (영상)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [레지스터와 RAM (영상)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [중앙처리장치(CPU) (영상)](https://youtu.be/FZGugFqdr60)
+    - [ ] [명렁어와 프로그램 (영상)](https://youtu.be/zltgXvg6r3k)
 
 </details>
 
@@ -553,13 +552,13 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 <details>
 <summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
 
-- nothing to implement
+- 구현할 것은 없다.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+    - [동영상](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [슬라이드 자료](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 - [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
 - [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
@@ -573,8 +572,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+    일부 강의가 너무 수학적이라면, 아래로 가서 이산 수학에 대한 동영상을 보며 배경 지식을 쌓아보세요.
 
 </details>
 
@@ -701,9 +699,9 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+    - [ ] Linear probing을 사용하여 배열로 구현해보기
+        - hash(k, m) - m은 해시 테이블의 크기
+        - add(key, value) - 키가 이미 존재한다면, 값을 갱신한다.
         - exists(key)
         - get(key)
         - remove(key)
@@ -1222,12 +1220,11 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    이 주제를 더 자세히 알고 싶으시다면, [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)에서 "문자열 매칭" 섹션을 읽어보세요.
 
 - ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path.
-    - I read through code, but will not implement.
+    - 트라이에는 여러 종류가 있다는 것을 유의하라. 어떤 건 접두사가 있는 데, 어떤 건 그렇지 않고 또 어떤 것은 경로 추적을 위해 비트 대신에 문자열을 사용한다.
+    - 나는 코드만 읽었고, 구현은 안 했다.
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
         - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
@@ -1258,8 +1255,8 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - The first half is enough.
 
 - ### Networking
-    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
-    - otherwise, this is just good to know
+    - **만약 당신이 네트워크에 대한 경험이 있거나 operations engineer 또는 믿음직한 엔지니어가 되고 싶다면 받을 수 있는 질문들**
+    - 즉, 알면 좋은 것들이다.
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
@@ -1270,22 +1267,22 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
     - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
-    - [ ] Sockets:
+    - [ ] 소켓:
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 </details>
 
-## System Design, Scalability, Data Handling
+## 시스템 디자인, 확장성, 데이터 핸들링
 
 <details>
 <summary>System Design, Scalability, Data Handling</summary>
 
-- **You can expect system design questions if you have 4+ years of experience.**
+- **4년 이상의 경력자라면 이런 시스템 디자인 질문들을 받을 수 있다.**
 - Scalability and System Design are very large topics with many topics and resources, since
       there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this.
-- Considerations:
+- 고려사항:
     - scalability
         - Distill large data sets to single values
         - Transform one data set to another
@@ -1298,13 +1295,13 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - simplicity and robustness
         - tradeoffs
         - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [ ] **여기서 시작하세요**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - 여기에 리소스가 정말 많이 있습니다. 글과 예제들을 살펴보세요. 일부는 아래에도 적어놓았습니다.
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
@@ -1449,8 +1446,8 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 체계적이고 소통하는 인터뷰에서의 문제풀이에 관한 좋은 시작점이 있다. 당신은 프로그래밍 인터뷰 책에서 이 서식을 얻을 수도 있지만, 나는 이 것이 가장 좋다고 본다: [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 집에 화이트보드가 없는가? 그럴 수 있다. 나는 커다란 화이트보드를 가진 괴짜이다. 화이트보드 대신에 상점에서 큰 도화지를 사오자.
-소파에 앉아서 연습할 수 있다. 이 것은 내 "소파 화이트보드"이다. 크기 비교를 위해 사진에 펜을 추가하였다. 펜을 쓰면, 곧 지우고 싶어질 것이다.
-금방 지저분해 진다.
+소파에 앉아서 연습할 수 있다. 이 것은 내 "소파 화이트보드"이다.
+크기 비교를 위해 사진에 펜을 추가하였다. 펜을 쓰면, 곧 지우고 싶어질 것이다. 금방 지저분해 진다.
 
 ![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
@@ -1464,11 +1461,11 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 **읽고 프로그래밍 문제 풀기 (순서대로):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - C, C++, Java로 답변
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Java로 답변
 
-[위의 도서 목록](#도서-목록)을 보라
+[위의 도서 목록](#도서-목록)을 보세요.
 
 </details>
 
@@ -1477,13 +1474,13 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 <details>
 <summary>Coding Question Practice</summary>
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+공부하는 게 머리에 잘 안 들어올 때, 한번 해보세요.
+가능한 한 매일 코딩 챌린지를 하는겁니다.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+코딩 인터뷰 질문들 영상:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
 
@@ -1504,7 +1501,7 @@ Challenge sites:
 Challenge repos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
-Mock Interviews:
+모의 면접:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
@@ -1528,11 +1525,11 @@ Mock Interviews:
 당신이 성취한 것에 대해 데이터 뿐만 아니라 스토리를 만들어라.
 
 - 왜 이 직업을 원합니까?
-- 당신이 풀었던 문제중 힘들었던 문제는?
+- 당신이 풀었던 문제 중 힘들었던 문제는?
 - 큰 도전에 직면한 적은?
-- 최고의/최악의 디자인을 본적이 있는가?
-- 현존하는 구글 제품들에 대해 향상시킬수 있는 아이디어
-- 개인적으로 일할 때 가장 잘 일하는가? 아니면 팀원으로서 있을 때?
+- 최고의/최악의 디자인을 본 적이 있는가?
+- 현존하는 제품을 향상시킬 수 있는 아이디어
+- 개인적으로 일할 때 가장 잘 일 하는가? 아니면 팀원으로서 있을 때?
 - 어떤 기술과 경험들이 당신의 역할에서 자산이 되었으며 그 이유는?
 - 어떤 것이 가장 즐거웠는가 [job x / project y]?
 - 무엇이 가장 큰 도전이었는가 [job x / project y]?
@@ -1542,25 +1539,25 @@ Mock Interviews:
 
 ## 면접관에게 받았던 질문들
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    내 경우에는 이랬다. (I already may know answer to but want their opinion or team perspective):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
+- 얼마나 큰 팀에 있었나요?
+- 당신의 개발 사이클은 어떤 모습인가요? 폭포수(워터폴)/스프린트/애자일인가요?
+- 보통 마감까지 달리시는 편인가요? 아니면 여유롭게 하시는 편인가요?
+- 팀 내에서 의사 결정은 어떻게 하나요?
+- 당신은 한 주에 미팅을 얼마나 한다고 생각하나요?
+- 업무 환경이 집중력에 도움이 된다고 생각하나요?
+- 지금은 어떤 일을 하고 계신가요?
 - What do you like about it?
-- What is the work life like?
+- 어떤 Work life를 생각하시나요?
 
-## Once You've Got The Job
+## 취직했다면
 
-Congratulations!
+축하드립니다!
 
-Keep learning.
+꾸준히 공부하시길 바랍니다.
 
-You're never really done.
+끝난게 아니니까요.
 
 ---
 
@@ -1973,26 +1970,26 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 - [ ] [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
 
-- [ ] **String Matching**
-    - [ ] Rabin-Karp (videos):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
+- [ ] **문자열 매칭
+    - [ ] 라빈-카프(Rabin-Karp) (동영상):
+        - [라빈 카프 알고리즘](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
         - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [최적화: 구현과 분석](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - [ ] Knuth-Morris-Pratt (KMP):
-        - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
-    - [ ] Boyer–Moore string search algorithm
+        - [The Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
+    - [ ] 보이어-무어(Boyer–Moore) 문자열 검색 알고리즘
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
     - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
         - starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
-        - nice explanation of tries
-        - can be skipped
+        - 트라이(tries)에 대해서 잘 설명하고 있다.
+        - 이건 생략 가능
 
-- [ ] **Sorting**
+- [ ] **정렬**
 
-    - [ ] Stanford lectures on sorting:
+    - [ ] 스탠포드 대학의 정렬 강의들:
         - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
         - [ ] [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
     - [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):

@@ -209,7 +209,7 @@
 
 `git checkout -b progress`
 
-`git remote add jwasham https://github.com/jwasham/google-interview-university`
+`git remote add jwasham https://github.com/jwasham/coding-interview-university`
 
 `git fetch --all`
 
@@ -258,7 +258,7 @@
 
 - [ ] 준비 코스:
     - [ ] [소프트웨어 엔지니어 인터뷰 대공개 (유료 강좌)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - 전직 구글 엔지니어로부터 당신이 어떻게 소프트웨어 엔지니어 인터뷰를 준비해야 하는지 배우게 됩니다.
+        - 전직 구글 면접관이 당신이 어떻게 소프트웨어 엔지니어 인터뷰를 준비해야 하는지 알려줍니다.
     - [ ] [자료 구조, 알고리즘 그리고 면접을 위한 파이썬! (유료 강좌)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
         - 자료 구조와 알고리즘, 모의 면접 등을 다루는 파이썬 중점 면접의 준비 강좌입니다.
 
@@ -317,8 +317,6 @@
 
 ### 컴퓨터 구조
 
-준비기간이 짧을 때,
-
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - 이 책은 2004년에 출판된 다소 구식의 책이지만, 간략히 컴퓨터를 이해하는 데에 훌륭한 자료입니다.
     - 이 책의 저자는 HLA를 발명했습니다. 그래서 회의적인 시선으로 HLA에 대해 언급하고 예로 듭니다. 널리 읽히지는 않지만, 어셈블리가 어떻게 생겼는 지를 보여주는 좋은 예입니다.
@@ -336,7 +334,7 @@
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 
-</details>
+      </details>
 
 <details>
 <summary>만약에 시간적 여유가 좀 더 있다면 아래 서적을 읽어보는 것을 권유합니다.</summary>
@@ -398,7 +396,7 @@ OR:
     - by Goodrich, Tamassia, Goldwasser
     - 나는 이 책을 사랑한다. 이 책은 모든 것을 다룬다.
     - Pythonic code
-    - 나의 열렬한 서적 보고서: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - 나의 열렬한 서적 보고서: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 </details>
 
@@ -457,7 +455,7 @@ OR:
 
 꼭 읽고 내가 한 실수들을 반복하지 않길 바란다.
 
-[Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
+[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
 ### 2. Flashcard를 사용하자.
 
@@ -499,7 +497,6 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 - SQL
 - Javascript
 - HTML, CSS, 그리고 다른 프론트엔드 기술들
-
 
 ## 하루 하루의 계획
 

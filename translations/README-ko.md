@@ -61,8 +61,8 @@
 ## 목차
 
 - [코딩 인터뷰 대학이란?](#코딩-인터뷰-대학이란)
-- [Why use it?](#why-use-it)
-- [How to use it?](#how-to-use-it)
+- [이걸 왜 써야하죠?](#이걸-왜-써야하죠)
+- [어떻게 쓰면 되나요?](#어떻게-쓰면-되나요)
 - [당신은 충분히 똑똑합니다](#당신은-충분히-똑똑합니다)
 - [영상 자료에 관하여](#영상-자료에-관하여)
 - [인터뷰 과정 & 전반적인 인터뷰 준비 과정](#인터뷰-과정--전반적인-인터뷰-준비-과정)
@@ -70,7 +70,7 @@
 - [도서 목록](#도서-목록)
 - [시작하기 전에](#시작하기-전에)
 - [다루지 않을 것](#다루지-않을-것)
-- [선수 지식](#선수-지식)
+- [먼저 알아야 할 지식](#먼저-알아야-할-지식)
 - [하루 하루의 계획](#하루-하루의-계획)
 - [알고리즘 복잡도 / Big-O / 점근적 분석](#알고리즘-복잡도--big-o--점근적-분석)
 - [자료구조](#자료구조)
@@ -78,8 +78,8 @@
     - [링크드 리스트](#링크드-리스트)
     - [스택](#스택)
     - [큐](#큐)
-    - [해쉬 테이블](#해쉬-테이블)
-- [추가 지식](#more-knowledge)
+    - [해시 테이블](#해시-테이블)
+- [추가 지식](#추가-지식)
     - [이진 탐색/이진 검색](#binary-search)
     - [비트 연산](#bitwise-operations)
 - [트리](#trees)
@@ -120,16 +120,16 @@
     - [엔디언(Endianness)](#endianness)
 - [네트워크](#networking)
 - [시스템 디자인, 확장성, 데이터 핸들링](#system-design-scalability-data-handling) (4년 이상 경력자를 위한 주제)
-- [최종 리뷰](#final-review)
-- [코딩 문제 연습](#coding-question-practice)
-- [코딩 연습 / 도전](#coding-exerciseschallenges)
-- [인터뷰가 얼마 남지 않았을 때](#once-youre-closer-to-the-interview)
-- [이력서](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [직업을 갖게 되었을 때](#once-youve-got-the-job)
+- [최종 검토](#최종-검토)
+- [코딩 문제 연습](#코딩-문제-연습)
+- [코딩 연습/도전](#코딩-연습도전)
+- [인터뷰가 얼마 남지 않았을 때](#인터뷰가-얼마-남지-않았을-때)
+- [이력서](#이력서)
+- [인터뷰가 다가오면 생각해보기](#인터뷰가-다가오면-생각해보기)
+- [면접관에게 받았던 질문들](#면접관에게-받았던-질문들)
+- [취직했다면](#취직했다면)
 
----------------- Everything below this point is optional ----------------
+---------------- 여기부터는 선택사항입니다. ----------------
 
 - [추가 도서](#additional-books)
 - [추가 주제](#additional-learning)
@@ -139,7 +139,7 @@
     - [엔디언](#endianness)
     - [Emacs 와 vi(m)](#emacs-and-vim)
     - [유닉스 명령어 도구](#unix-command-line-tools)
-    - [정보 이론](#information-theory)
+    - [정보 이론](#information-theory-videos)
     - [패리티 & 해밍코드](#parity--hamming-code)
     - [엔트로피](#entropy)
     - [암호기법](#cryptography)
@@ -176,14 +176,14 @@
     - [기하학, 볼록 껍질](#geometry-convex-hull)
     - [이산수학](#discrete-math)
     - [기계학습](#machine-learning)
-- [몇몇 주제에 대한 세부사항](#additional-detail-on-some-subjects)
+- [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)
 - [영상 자료](#video-series)
-- [컴퓨터 과학 강의들](#computer-science-courses)
+- [컴퓨터 과학 강의들](#컴퓨터-과학-강의들)
 - [라이센스](#라이센스)
 
 ---
 
-## Why use it?
+## 이걸 왜 써야하죠?
 
 내가 이 프로젝트를 시작했을 때, 나는 힙이나 스택, 시간복잡도, 트리, 그래프 순회 등에 대하여 전혀 아는 바가 없었다.
 만약 내가 정렬 알고리즘을 코딩해야 했다면, 나는 그리 잘하지 못했을 것이다.
@@ -194,7 +194,7 @@
 하지만 이 공부 계획을 진행하면서 나는 내가 고용될 것이라는 자신감을 갖게 되었다. 이 것은 내게 여러 달이 필요한 긴 계획이다.
 만약 당신이 이 중 많은 내용에 익숙하다면 시간은 훨씬 덜 들 것이다.
 
-## How to use it?
+## 어떻게 사용하면 되나요?
 
 <details>
 <summary>How to use it?</summary>
@@ -292,7 +292,6 @@
 ## 도서 목록
 
 아래의 목록은 내가 공부했던 책들보다는 적다. 당신의 시간을 절약하기 위해 몇몇 책들은 생략하였다.
-
 
 ### 인터뷰 준비를 위해서
 
@@ -529,7 +528,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 컴퓨터에 코딩하지 말고 와이트보드나 종이에 적어보아라. 인풋 값으로 샘플 테스트를 해 보아라. 그리고 컴퓨터로 테스트해 보아라.
 
-## 선수 지식
+## 먼저 알아야 할 지식
 
 <details>
 <summary>Prerequisite Knowledge</summary>
@@ -681,8 +680,8 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### 해쉬 테이블
-    - [ ] Videos:
+- ### 해시 테이블
+    - [ ] 동영상들:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -690,7 +689,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
+    - [ ] 온라인 강의들:
         - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
         - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
         - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
@@ -711,7 +710,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 </details>
 
-## More Knowledge
+## 추가 지식
 
 <details>
 <summary>More Knowledge</summary>
@@ -915,7 +914,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+If you need more detail on this subject, see "Sorting" section in [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)
 
 </details>
 
@@ -1210,8 +1209,8 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - 운영 체제 관련 영상들에서 알아보실 수 있습니다.
 
 - ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+    - 당신이 사용하는 프로그래밍 API들이 어떤 이점을 가져오는지 이해하기
+    - 그리고 그것들을 구현할 수 있는가?
 
 - ### String searching & manipulations
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
@@ -1469,11 +1468,11 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
-[위의 도서 목록](#book-list)을 보라
+[위의 도서 목록](#도서-목록)을 보라
 
 </details>
 
-## Coding exercises/challenges
+## 코딩 연습/도전
 
 <details>
 <summary>Coding Question Practice</summary>
@@ -1512,13 +1511,13 @@ Mock Interviews:
 
 </details>
 
-## Once you're closer to the interview
+## 인터뷰가 얼마 남지 않았을 때
 
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
-## Your Resume
+## 이력서
 
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
@@ -1541,7 +1540,7 @@ Mock Interviews:
 - 무엇을 배웠는가 [job x / project y]?
 - 무엇이 향상되었는가 [job x / project y]?
 
-## Have questions for the interviewer
+## 면접관에게 받았던 질문들
 
     Some of mine (I already may know answer to but want their opinion or team perspective):
 
@@ -1932,7 +1931,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 ---
 
-## Additional Detail on Some Subjects
+## 몇몇 주제에 대한 세부사항
 
 <details>
 <summary>Additional Detail on Some Subjects</summary>
@@ -2076,13 +2075,13 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 </details>
 
-## Computer Science Courses
+## 컴퓨터 과학 강의들
 
 <details>
-<summary>컴퓨터 과학 수업들</summary>
+<summary>Computer Science Courses</summary>
 
-- [컴퓨터 과학 온라인 수업들](https://github.com/open-source-society/computer-science)
-- [(많은 온라인 강의가 있는) 컴퓨터 과학 수업들](https://github.com/prakhar1989/awesome-courses)
+- [컴퓨터 과학 온라인 강의들](https://github.com/open-source-society/computer-science)
+- [(많은 온라인 강의가 있는) 컴퓨터 과학 강의들](https://github.com/prakhar1989/awesome-courses)
 
 </details>
 

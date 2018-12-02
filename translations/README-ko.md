@@ -46,17 +46,13 @@
 
 ## 코딩 인터뷰 대학이란?
 
-코딩 인터뷰 대학은 웹 개발자(컴퓨터공학 학위 없이 독학)에서 구글의 소프트웨어 엔지니어가 되기 위한 나의 몇 달간의 공부 계획이다.
+코딩 인터뷰 대학은 (컴퓨터공학 학위 없이 독학한) 웹 개발자에서 큰 회사의 소프트웨어 엔지니어가 되기 위한 나의 몇 달간의 공부 계획이다.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
-이 기나긴 리스트는 **구글 코칭 노트**에서 선별되고 확장된 것으로 여러분이 알아야 할 내용이다. 맨 아래에는 인터뷰에 등장하거나 문제를 푸는 데에 도움이 될 만한 추가적인 내용이 있다. 많은 내용이 Steve Yegge의  "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"이라는 책에서 나왔으며, 때때로 구글 코칭 노트의 내용을 그대로 담고 있기도 하다.
+이 글은 **신입 소프트웨어 엔지니어** 혹은 소프트웨어/웹 개발에서 (컴퓨터과학 지식이 필요한) 소프트웨어 엔지니어링으로 전환자고자 하는 사람들을 위한 글입니다. 만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다.
 
-나는 Yegge의 추천내용 중 여러분이 알아야만 할 내용을 추려내었다. 구글과의 연락으로 얻은 정보를 바탕으로 그의 추천내용을 수정하였다. 이 리스트는 신입 소프트웨어 엔지니어, 혹은 소프트웨어/웹 개발에서 소프트웨어 엔지니어링(컴퓨터과학 지식이 필요한)으로 전환하는 사람들을 위한 것이다.
-
-만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다. [더 보기](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
-
-만약 당신이 여러 해의 소프트웨어/웹 개발 경험을 가지고 있다면, 구글은 소프트웨어 엔지니어링을 소프트웨어/웹 개발과 다르게 바라보고 있으며 컴퓨터과학 지식을 요구한다는 사실에 주목하도록 하자.
+만약 당신이 여러 해의 소프트웨어/웹 개발 경험을 가지고 있다면, 구글과 아마존, 페이스북 그리고 마이크로소프트과 같은 큰 규모의 소프트웨어 회사들은 소프트웨어 엔지니어링을 소프트웨어/웹 개발과 다르게 바라보고 있으며 컴퓨터과학 지식을 요구한다는 사실에 주목하도록 하자.
 
 믿음직한 엔지니어 혹은 시스템 엔지니어가 되고 싶다면, 선택적인 주제 목록(네트워크, 보안 등)을 더 공부하도록 하자.
 
@@ -189,9 +185,6 @@
 
 ## Why use it?
 
-나는 구글 인터뷰를 준비하기 위해 이 계획을 따랐다. 1997년부터 나는 웹과 서비스를 개발하고 스타트업을 세웠다. 나는 컴퓨터과학이 아닌 경제학 학위를 가지고 있다.
-나의 커리어는 굉장히 성공적이어왔지만, 나는 구글에서 일하고 싶었다. 나는 더 큰 시스템을 다루고 컴퓨터 시스템, 알고리즘 효율, 자료구조 퍼포먼스, 저급 언어 등과 그것들이 어떻게 작동하는지에 대하여 이해하고 싶었다. 그리고 당신이 그런 것들을 모른다면 구글은 당신을 채용하지 않을 것이다.
-
 내가 이 프로젝트를 시작했을 때, 나는 힙이나 스택, 시간복잡도, 트리, 그래프 순회 등에 대하여 전혀 아는 바가 없었다.
 만약 내가 정렬 알고리즘을 코딩해야 했다면, 나는 그리 잘하지 못했을 것이다.
 모든 사용했던 모든 자료 구조는 언어 안에서 구현되어 있던 것들이고, 나는 그것들이 보이지 않는 곳에서 어떻게 작동하고 있는지 몰랐다.
@@ -235,9 +228,10 @@
 </details>
 
 ## 당신은 충분히 똑똑합니다
-- 구글 엔지니어들은 똑똑합니다. 하지만 그들 조차도 자신들의 지적 능력면에 대해서 불안감을 갖기 일쑤입니다.
+- 성공한 소프트웨어 엔지니어들은 똑똑합니다. 하지만 그들 조차도 자신들의 지적 능력면에 대해서 불안감을 갖기 일쑤입니다.
 - [천재 프로그래머에 대한 미신(迷信)](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [위험한 홀로서기: 테크 산업의 보이지 않는 괴물들의 전쟁](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 
 ## 영상 자료에 관하여
 
@@ -252,53 +246,31 @@
 <details>
 <summary>인터뷰 과정 & 전반적인 인터뷰 준비 과정</summary>
 
-- [ ] 비디오:
-
-    - [ ] [구글에서 일하게 되는법: 기술 인터뷰 준비하기 (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [구글에서 일하게 되는법: 코딩/기술 인터뷰 예시 (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [구글에서 일하게 되는법 - 지원자 코칭 시간 (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [구글 리크루터들이 공유한 기술 인터뷰 팁들 (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [구글에서 일하게 되는법: 기술 레쥬메 준비 (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
-
-- [ ] 읽을 거리들:
-
-    - [ ] [구글러 되기 3단계](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [구글에서 그 직업 갖기](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-      - 이 글에서 저자가 언급한 당신이 알아야 할 모든 것들은 이 리스트 아래에 소개되어 있습니다.
-    - [ ] _(아주 오래됨)_ [구글에 취업하는 방법, 인터뷰 질문들, 채용 절차](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [화상통화 인터뷰 질문들](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
-
+- [ ] [ABC: 항상 코딩 하라](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [ ] [화이트 보드 쓰기](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [코딩 인터뷰에서 화이트 보드 효율적으로 쓰기](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] 코딩 인터뷰 정복 Set 1:
+    - [ ] [Gayle L McDowell - 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [저자와 함께하는 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] Big 4에 취업하는 방법:
+    - [ ] ['Big 4에 취업하는 방법 - Amazon, Facebook, Google & Microsoft' (영상)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
 - [ ] 준비 코스:
     - [ ] [소프트웨어 엔지니어 인터뷰 대공개 (유료 강좌)](https://www.udemy.com/software-engineer-interview-unleashed):
         - 전직 구글 엔지니어로부터 당신이 어떻게 소프트웨어 엔지니어 인터뷰를 준비해야 하는지 배우게 됩니다.
-
-- [ ] 부가물 (구글이 추천하지않은 내가 더한 것들):
-    - [ ] [ABC: 항상 코딩 하라](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [학위 없이 구글에 들어가기 4단계](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [화이트 보드 쓰기](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [채용, 관리, 문화에 대한 구글의 생각](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [코딩 인터뷰에서 화이트 보드 효율적으로 쓰기](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] 코딩 인터뷰 정복 Set 1:
-      - [ ] [Gayle L McDowell - 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-      - [ ] [저자와 함께하는 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] Big 4에 취업하는 방법:
-      - [ ] ['Big 4에 취업하는 방법 - Amazon, Facebook, Google & Microsoft' (영상)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [구글 인터뷰 실패기](http://alexbowe.com/failing-at-google-interviews/)
+    - [ ] [자료 구조, 알고리즘 그리고 면접을 위한 파이썬! (유료 강좌)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - 자료 구조와 알고리즘, 모의 면접 등을 다루는 파이썬 중점 면접의 준비 강좌입니다.
 
 </details>
 
 ## 인터뷰를 위한 언어 고르기
 
-인터뷰때 사용할 언어 고르는 법에 대해 짧은 글을 하나 썼습니다: [구글 인터뷰를 위한 언어 고르기](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
-
-인터뷰때에 당신이 쓰기에 편한 언어를 선택해도 되지만, 구글 인터뷰에 선호되는 언어들은 다음과 같습니다.
-
+인터뷰때에 당신이 쓰기에 편한 언어를 선택해도 되지만, 큰 기업들은 보통 아래의 언어들을 선택합니다.
 
 - C++
 - Java
 - Python
-
 
 아래 언어들을 사용할 수 있지만 주의하여야 합니다.
 
@@ -312,7 +284,6 @@
 
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
-- https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
 [프로그래밍 언어 참고목록](programming-language-resources.md)
 
@@ -391,7 +362,6 @@
 <summary>C++</summary>
 
 나는 아래의 두 책들을 읽지 않았습니다. 하지만 Sedgewick이 높게 평가한 책들입니다. 그는 정말 대단한 사람입니다.
-
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
@@ -506,8 +476,6 @@ OR:
 **flashcard에 대한 참고사항:** 답을 할 수 있더라도 처음부터 안다고 표시하지 말자. 정확히 알기 전까지는 같은 카드를 보고 여러 번 답변할 수 있어야한다.
 반복 학습을 통해 해당 지식은 당신의 뇌에 깊이 각인될 것이다.
 
-
-
 나의 flashcard site를 사용하는 대신 [Anki](http://ankisrs.net/)를 사용해도 된다. 나는 이 것을 여러 번 추천받았다. 이것은 당신이 기억하는 것을 돕기 위해 반복적인 시스템을 사용한다.
 
 이것은 사용자 친화적이며, 모든 플랫폼에서 사용가능하다. 또한 클라우드 동기화 시스템을 제공한다. 이것은 iOS에서는 $25이지만 다른 플랫폼에서는 무료로 사용 가능하다.
@@ -556,11 +524,9 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 모든 주제에 대한 모든 것을 할 수 없지만 나는 노력했다.
 
 나의 코드를 여기서 확인하세요:
-
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
-
 
 당신은 모든 알고리즘에 대해서 기억할 필요는 없다.
 
@@ -576,7 +542,6 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - 이 책은 분량이 적은 책이지만 C 를 잘 다룰 수 있게 해 줄 것이다. 또한 조금만 연습하더라도 연습량에 비해 빠르게 배울 수 있을 것이다. C 를 이해하는 것은 프로그램과 메모리가 어떻게 돌아가는지 이해하는 것을 도와준다.
         - [answers to questions](https://github.com/lekkas/c-algorithms)
-
 
 - [ ] **How computers process a program:**
     - [ ] [How CPU executes a program](https://www.youtube.com/watch?v=XM4lGflQFvA)
@@ -1487,8 +1452,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
 체계적이고 소통하는 인터뷰에서의 문제풀이에 관한 좋은 시작점이 있다. 당신은 프로그래밍 인터뷰 책에서 이 서식을 얻을 수도 있지만, 나는 이 것이 가장 좋다고 본다: [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-[My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
-
 집에 화이트보드가 없는가? 그럴 수 있다. 나는 커다란 화이트보드를 가진 괴짜이다. 화이트보드 대신에 상점에서 큰 도화지를 사오자.
 소파에 앉아서 연습할 수 있다. 이 것은 내 "소파 화이트보드"이다. 크기 비교를 위해 사진에 펜을 추가하였다. 펜을 쓰면, 곧 지우고 싶어질 것이다.
 금방 지저분해 진다.
@@ -1608,8 +1571,7 @@ You're never really done.
     *****************************************************************************************************
     *****************************************************************************************************
 
-
-    아래의 모든 것들은 선택 사항이다. 이 것들은 Google의 권장사항이 아니라, 나의 추천사항이다.
+    아래의 모든 것들은 선택 사항이다.
     당신은 이것들을 공부함으로써 더 많은 CS 개념들에 대해 알 수 있을 것이며, 소프트웨어 엔지니어링 직업을 준비하는 데에도 도움이 될 것
     이다. 더불어 당신은 훨씬 더 균형 잡힌 소프트웨어 엔지니어가 될 것이다.
 

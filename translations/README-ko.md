@@ -82,19 +82,19 @@
 - [추가 지식](#추가-지식)
     - [이진 탐색/이진 검색](#binary-search)
     - [비트 연산](#bitwise-operations)
-- [트리](#trees)
+- [트리](#트리)
     - [트리 - 배경지식](#trees---notes--background)
     - [이진 탐색 트리(BST)](#binary-search-trees-bsts)
     - [힙 / 우선순위 큐 / 이진 힙](#heap--priority-queue--binary-heap)
     - 균형 탐색 트리 (간단한 개념)
     - 트리 순회: 전위 순회, 중위 순회, 후위 순회, 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)
-- [정렬](#sorting)
+- [정렬](#정렬)
     - 선택 정렬
     - 삽입 정렬
     - 힙 정렬
     - 퀵 정렬
     - 병합 정렬
-- [그래프](#graphs)
+- [그래프](#그래프)
     - 방향 그래프
     - 무방향 그래프
     - 인접 행렬
@@ -347,7 +347,7 @@
 
 이 중 하나를 읽으려면 코딩 문제 푸는 데 필요한 데이터 구조 및 알고리즘 지식이 있어야합니다.
 
-**You can skip all the video lectures in this project**, unless you'd like a review.
+검토(review)를 좋아하지 않는다면, **이 프로젝트의 모든 영상은 생략해도 됩니다.**
 
 [Additional language-specific resources here.](programming-language-resources.md)
 
@@ -375,7 +375,7 @@ C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적�
         - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
         - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
-OR:
+또는:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - by Goodrich, Tamassia, Goldwasser
@@ -406,37 +406,37 @@ OR:
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
+    - 알고리즘 카탈로그 부분은 면접에서 다루는 난이도의 범주를 훨씬 넘깁니다.
+    - 이 책은 2개의 파트가 있습니다:
         - class textbook on data structures and algorithms
-            - pros:
+            - 장점:
                 - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
+                - 산학과 연구에서 문제들을 해결한 그의 경험을 이야기하는 것이 좋음
+                - 예제 코드가 C언어
+            - 단점:
+                - CLRS처럼 너무 함축되어 있어서 헤아리기 힘들 수 있다. 그래서 어떤 주제는 CLRS를 읽는 게 더 나을 수도 있다.
+                - 7, 8, 9장은 따라가기 힘들 수 있다. 어떤 항목들은 설명이 잘 안되어있거나 더 많은 배경 지식이 필요하기 때문이다.
+                - (오해하지 마세요) 전 Skiena씨와 그 분의 교육 스타일과 매너리즘은 좋아합니다만, 스토니브룩 대학의 자료는 그렇지 않더군요.
+        - 알고리즘 카탈로그:
+            - 이게 이 책을 사는 진짜 이유
             - about to get to this part. Will update here once I've made my way through it.
-    - Can rent it on kindle
+    - 아마존 킨들에서 도서 대여 가능
     - Answers:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+    - **중요:** 이 책을 읽으면 특별한 가치를 얻을 수 있습니다. 이 책은 알고리즘과 자료구조를 훌륭하게 살피고 있지만, 좋은 코드를 작성하는 법을 알려주지는 않습니다. 괜찮은 솔루션을 코드로 효율적으로 옮겨적을 줄 알아야합니다.
+    - CLR 또는 CLRS로 알려져있습니다. (역: 저자들 이름의 첫글자를 따서 CLRS라고 불리지만, 초판에는 Stein이 없었습니다.)
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
+    - 처음 두 장은 (데이터 테이프를 사용한 아주 오래된) 문제를 프로그래밍하는 기발한 솔루션을 보여줍니다. 하지만,
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
+    - 좋은 책. 하지만 몇 페이지 넘기면서 문제를 해결한 후에 파스칼, do while 반복문, 1-indexed 배열, unclear post-condition satisfaction results를 보고 좌절했다.
+    - 다른 책이나 온라인 코딩 문제에 있는 코딩 문제를 보는 게 나을 것 같다.
 
 </details>
 
@@ -608,15 +608,15 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - [ ] delete(index) - delete item at index, shifting all trailing elements left
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - [ ] resize(new_capacity) // private 함수
+            - 용량이 꽉 차면, 그 두배로 크기를 조정한다.
+            - item을 하나 꺼낼 때, 용량이 1/4이라면, 용량을 절반으로 줄인다.
+    - [ ] 시간 복잡도
+        - 접근, 수정, 끝에 추가/삭제하는 데 O(1)
+        - 다른 곳에 추가/삭제하는 데 O(n)
+    - [ ] 공간 복잡도
+        - 메모리에 연속적으로 있어서, 근접성이 성능을 향상시킨다.
+        - 필요한 공간 = (n 이상인 배열의 용량) * item의 크기, 하지만 2n 크기에서는 여전히 O(n)
 
 - ### 링크드 리스트
     - [ ] 설명:
@@ -716,16 +716,16 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] [자세한 내용](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] 구현:
+        - (정수가 정렬된 배열에서) 이진 탐색
+        - 재귀를 사용한 이진 탐색
 
 - ### Bitwise operations
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
+    - [ ] 비트 연산자(&, |, ^, ~, >>, <<) 제대로 이해하기
+        - [ ] [워드](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] 시작하기 좋은 곳:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -733,10 +733,10 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
+    - [ ] 2의 보수와 1의 보수
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
+        - [1의 보수](https://ko.wikipedia.org/wiki/1의_보수)
+        - [2의 보수](https://ko.wikipedia.org/wiki/2의_보수)
     - [ ] count set bits
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
@@ -750,7 +750,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 </details>
 
-## Trees
+## 트리
 
 <details>
 <summary>Trees</summary>
@@ -758,22 +758,24 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 - ### Trees - Notes & Background
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - [ ] [BFS(breadth-first search) and DFS(depth-first search)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        - BFS notes:
-           - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
-        - DFS notes:
-            - time complexity: O(n)
-            - space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-            - inorder (DFS: left, self, right)
-            - postorder (DFS: left, right, self)
-            - preorder (DFS: self, left, right)
+    - 트리 기초 형태 만들기
+    - 순회
+    - 알고리즘 다루기
+    - [ ] [BFS(너비-우선 탐색;breadth-first search) and DFS(깊이-우선 탐색;depth-first search)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+        - BFS 노트:
+           - level order (BFS, 큐를 사용하여)
+           - 시간 복잡도: O(n)
+           - 공간 복잡도:
+                최고: O(1)
+                최악: O(n/2)=O(n)
+        - DFS 노트:
+            - 시간 복잡도: O(n)
+            - 공간 복잡도:
+                최고: O(log n) - 평균적으로, 트리의 높이이다.
+                최악: O(n)
+            - 중위(inorder) (DFS: 왼쪽, 자신, 오른쪽)
+            - 후위(postorder) (DFS: 왼쪽, 오른쪽, 자신)
+            - 전위(preorder) (DFS: 자신, 왼쪽, 오른쪽)
 
 - ### Binary search trees: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -782,78 +784,78 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] [이진 탐색 트리 - C/C++로 구현하기 (영상)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] [BST 구현 - 스택과 힙에 메모리 할당 (영상)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [이진 탐색 트리에서 가장 작은 원소와 가장 큰 원소 찾기 (영상)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진 트리의 높이 구하기 (영상)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [이진 트리 순회 - 너비-우선과 깊이-우선 전략 (영상)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] [이진 트리: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진 트리 순회: 전위, 중위, 후위 (영상)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진 트리가 이진 탐색 트리인지 아닌 지 확인하기 (영상)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진 탐색 트리에서 노드 삭제하기 (영상)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+    - [ ] 구현:
+        - [ ] insert    // 트리에 어떤 값을 삽입
+        - [ ] get_node_count // 저장된 값들의 개수 세기
+        - [ ] print_values // 트리 안의 값들을 최소부터 최대까지 출력
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] is_in_tree // 주어진 값이 트리 안에 있는 지를 반환
+        - [ ] get_height // 어떤 노드의 높이를 반환 (노드 하나의 높이는 1이다.)
+        - [ ] get_min   // 트리에 저장된 값 중 가장 작은 값을 반환
+        - [ ] get_max   // 트리에 저장된 값 중 가장 큰 값을 반환
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // 값이 주어지면, 다음으로 가장 큰 값을, 없으면 -1을 반환
 
 - ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
-    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - 트리처럼 보여지지만, 보통은 선형으로 저장됩니다. (배열, 링크드리스트처럼)
+    - [ ] [힙(Heap)](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [소개 (영상)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [ ] [Naive한 구현들 (영상)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [이진 트리 (영상)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
     - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
-    - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
+    - [ ] [기본 연산들 (영상)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [완전 이진 트리 (영상)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [의사 코드(Pseudocode) (영상)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [힙 정렬 - 시작하기 (영상)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [힙 정렬 (영상)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [힙 만들기 (영상)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [MIT: 힙과 힙 정렬 (영상)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B Lecture 24: 우선순위 큐 (영상)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
+    - [ ] [선형 시간에 힙 만들기 (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] max-heap 구현하기:
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+        - [ ] sift_up - `insert` 하려면 필요
+        - [ ] get_max - 최대 원소를 반환하되, 삭제는 하지 않는다.
+        - [ ] get_size() - 저장된 원소들의 개수를 반환
+        - [ ] is_empty() - 힙에 원소를 하나도 없는 지 반환
+        - [ ] extract_max - 최대 원소를 반환하고, 그걸 삭제한다.
+        - [ ] sift_down - `extract_max` 하려면 필요하다
+        - [ ] remove(x) - x번째 원소를 삭제
+        - [ ] heapify - 배열에 있는 원소들로 힙을 만든다. `heap_sort` 하려면 필요
+        - [ ] heap_sort() - 정렬되지 않은 배열을 받아서 정렬된 배열로 만든다. 추가 메모리 없이 제자리에서 max-heap을 사용한다.
+            - 노트: min-heap을 사용하면 연산을 줄일 수 있지만, 공간이 두 배로 필요합니다. (제자리에서 못 하기 때문에)
 
 </details>
 
-## Sorting
+## 정렬
 
 <details>
 <summary>Sorting</summary>
 
 - [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
-        - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
-        - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
-        - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-        - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
-        - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+    - 정렬들 구현 & 각 정렬의 최적의 경우/최악의 경우, 평균적인 복잡도를 알기:
+        - 버블 소트 쓰지 마세요 - 끔찍하니까요 - n이 16이하 제외하고 O(n^2)
+    - [ ] 정렬 알고리즘들의 안정성 ("퀵소트는 안정적인가?")
+        - [정렬 알고리즘의 안정성](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
+        - [정렬 알고리즘들의 안정성](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
+        - [정렬 알고리즘들의 안정성](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+        - [정렬 알고리즘들 - 안정성](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
+    - [ ] 어떤 알고리즘들에 연결 리스트를 쓸 수 있는가? 배열은? 둘 다는?
+        - 연결 리스트를 정렬하는 것은 추천하지 않지만, 병합 정렬은 가능합니다.
+        - [링크드 리스트로 병합 정렬](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
+- 힙소트의 경우, 위의 힙 데이터 구조를 보세요. 힙 정렬은 훌륭하지만 안정적이지 못합니다.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
@@ -874,31 +876,31 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
     - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
 
-- [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
-- [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
-- [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-- [ ] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
-- [ ] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
-- [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
-- [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
+- [ ] [Bubble Sort (영상)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
+- [ ] [Analyzing Bubble Sort (영상)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
+- [ ] [삽입 정렬과 병합 정렬 (영상)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- [ ] [삽입 (영상)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
+- [ ] [병합 정렬 (영상)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
+- [ ] [퀵 정렬 (영상)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
+- [ ] [선택 정렬 (영상)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
+- [ ] 병합 정렬 코드:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
-    - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
-    - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-    - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+- [ ] 퀵 정렬 코드:
+    - [ ] [구현 (C언어)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
+    - [ ] [구현 (C언어)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
+    - [ ] [구현 (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+- [ ] 구현:
+    - [ ] 병합 정렬: 평균과 최악의 경우 O(n log n)
+    - [ ] 퀵 정렬: 평균적인 경우 O(n log n) 
+    - 선택 정렬과 삽입 정렬은 둘 다 평균과 최악의 경우에 O(n^2)
+    - 힙 정렬의 경우, 위의 힙 데이터 구조를 보세요.
 
-- [ ] Not required, but I recommended them:
-    - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
+- [ ] 필요한 건 아니지만, 아래도 추천합니다:
+    - [ ] [Sedgewick - 기수 정렬(Radix Sorts) (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
@@ -911,8 +913,8 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)
+개략적으로 보자면, 여기에 시각적으로 나타낸 [15가지 정렬 알고리즘들](https://www.youtube.com/watch?v=kPRA0W1kECg)을 보세요.
+이 주제에 대해서 더 자세히 알고 싶다면, [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)에서 "정렬" 섹션를 보세요.
 
 </details>
 
@@ -963,22 +965,22 @@ If you need more detail on this subject, see "Sorting" section in [몇몇 주제
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - 내가 구현할 것:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
-    - [ ] single-source shortest path (Dijkstra)
-    - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+    - [ ] DFS with 인접 리스트 (재귀)
+    - [ ] DFS with 인접 리스트 (스택을 쓴 비재귀)
+    - [ ] DFS with 인접 행렬 (재귀)
+    - [ ] DFS with 인접 행렬 (스택을 쓴 비재귀)
+    - [ ] BFS with 인접 리스트
+    - [ ] BFS with 인접 행렬
+    - [ ] 단일 출발지 최단 경로 (다익스트라)
+    - [ ] 최소 신장 트리 (MST;minimum spanning tree)
+    - DFS-기반 알고리즘들 (위의 Aduni 영상들을 보세요):
+        - [ ] 사이클 검사/확인 (위상 정렬할 때 필요합니다. 시작하기 전에 검사해야 하거든요.)
+        - [ ] 위상 정렬
+        - [ ] 그래프 내의 연결 요소(Connected Component)들 개수
+        - [ ] 강연결요소(SCC;Strongly Connected Component)들 나열하기
+        - [ ] 이분 그래프 확인하기
 
-Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그래프 실습을 할 수 있다.
+Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그래프 실습을 할 수 있습니다.
 
 </details>
 
@@ -993,23 +995,24 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - when it is appropriate to use it
+    - 재귀는 언제 사용해야 하는 지
     - 꼬리 재귀를 사용하는 게 그렇지 않은 것보다 얼마나 나은가요?
         - [ ] [꼬리 재귀가 무엇이고 왜 그게 좋지 않은지에 대하여](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [꼬리 재귀 (영상)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 
-- ### Dynamic Programming    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
+- ### Dynamic Programming
+    - 이 주제는 아주 어렵습니다. DP로 풀리는 각 문제마다 어떤 점화식을 정의해야 하는데 그게 까다롭습니다.
+    - 얽혀있는 패턴들을 확실히 이해할 때까지, 많은 DP 예시 문제들을 찾아보기를 권합니다.
     - [ ] Videos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
-        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - Skiena씨의 영상들은 따라가기 힘듭니다. 가끔 화이트보드를 사용하시는 데 너무 작아서 보기가 힘들거든요.
+        - [ ] [Skiena: CSE373 2012 - Lecture 19 - 동적 프로그래밍 소개 (영상)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
-        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
-        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
-        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
-        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+        - [ ] [Skiena: CSE373 2012 - Lecture 21 - 동적 프로그래밍 예제들 (영상)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - Lecture 22 - 동적 프로그래밍의 활용 (영상)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        - [ ] [Simonson: Dynamic Programming 0 (59:18부터 시작) (영상)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (영상)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [Simonson: Dynamic programming II - Lecture 12 (영상)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
         - [ ] List of individual DP problems (each is short):
             [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
     - [ ] Yale Lecture notes:
@@ -1025,24 +1028,24 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
+    - [ ] 객체 지향 소프트웨어 공학: UML과 JAVA를 사용한 소프트웨어 개발 (21개의 영상):
         - Can skip this if you have a great grasp of OO and OO design practices.
         - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] SOLID OOP Principles:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
         - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+            - [더 알아보기](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
         - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
         - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
         - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
             - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
         - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
             - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - ### Design patterns
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)

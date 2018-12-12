@@ -144,7 +144,7 @@
     - [엔트로피](#entropy)
     - [암호기법](#cryptography)
     - [압축](#compression)
-    - [네트워크](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
+    - [네트워크](#networking) (만약 당신이 네트워크에 대한 경험이 있거나 시스템 엔지이너가 되고 싶다면 받을 수 있는 질문들)
     - [컴퓨터 보안](#computer-security)
     - [가비지 콜렉션](#garbage-collection)
     - [병렬 프로그래밍](#parallel-programming)
@@ -341,7 +341,7 @@
 
 </details>
 
-### 언어 구체적
+### 특정 언어 관련
 
 **인터뷰를 위해 당신의 언어를 선택하여야 합니다 (윗글 참조)** 아래는 제가 추천하는 언어들입니다. 이 언어들중에 부연설명이나 부가 자료들이 있다면 나눠 주세요.
 
@@ -619,21 +619,21 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - ### 링크드 리스트
-    - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [ ] 설명:
+        - [ ] [단일 연결 리스트 (영상)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [CS 61B - 연결 리스트 1 (영상)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - 연결 리스트 2 (영상)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
+            - 전체 영상은 아니고, 노드 구조와 메모리 할당에 대한 부분입니다.
+    - [ ] 연결 리스트 vs 배열:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
+        - [실세계에서의 연결 리스트 Vs 배열 (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] [왜 연결 리스트를 기피해야 하는지 (영상)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] 짚고가기: 이중 포인터에 대한 지식이 필요하다면:
         (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+        이 페이지는 포인터가 포인터를 가리키는 것을 파악하는 정도입니다. 저는 아래 목록을 순서대로 읽지 않기를 권장합니다. 가독성과 유지 보수성이 더 좋기 때문입니다.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
+    - [ ] 구현 (저는 tail 포인터가 있는 것과 없는 것 모두 구현했었습니다.):
         - [ ] size() - returns number of data elements in list
         - [ ] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
@@ -648,9 +648,9 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+    - [ ] 이중 연결 리스트
+        - [설명 (영상)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - 구현할 필요는 없습니다.
 
 - ### 스택
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
@@ -662,16 +662,16 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] tail 포인터가 있는 연결 리스트를 사용하여 구현하기:
+        - enqueue(value) - tail이 가리키는 곳에 value를 추가한다
+        - dequeue() - value를 반환하고 가장 최근에 추가된 원소(front)를 제거한다.
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] 고정 길이 배열을 사용하여 구현하기:
+        - enqueue(value) - 사용 가능한 저장 공간의 끝에 item을 추가한다.
+        - dequeue() - value를 반환하고 가장 최근에 추가된 원소를 제거한다.
         - empty()
         - full()
-    - [ ] Cost:
+    - [ ] 비용:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])

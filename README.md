@@ -230,7 +230,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 ## Don't feel you aren't smart enough
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ) [X]
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 - [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 

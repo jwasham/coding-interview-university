@@ -13,18 +13,18 @@
 번역:
 - [중국어](translations/README-cn.md)
 - 진행 중인 번역:
-    - [스페인어](https://github.com/jwasham/google-interview-university/issues/80)
-    - [힌디어](https://github.com/jwasham/google-interview-university/issues/81)
-	- [히브리어](https://github.com/jwasham/google-interview-university/issues/82)
-    - [바하사 인도네시아어](https://github.com/jwasham/google-interview-university/issues/101)
-    - [아랍어](https://github.com/jwasham/google-interview-university/issues/98)
-    - [베트남어](https://github.com/jwasham/google-interview-university/issues/92)
-    - [터키어](https://github.com/jwasham/google-interview-university/issues/90)
-    - [프랑스어](https://github.com/jwasham/google-interview-university/issues/89)
-    - [러시아어](https://github.com/jwasham/google-interview-university/issues/87)
-    - [우크라이나어](https://github.com/jwasham/google-interview-university/issues/106)
-    - [브라질 포르투갈어](https://github.com/jwasham/google-interview-university/issues/113)
-	- [한국어](https://github.com/jwasham/google-interview-university/issues/118)
+    - [스페인어](https://github.com/jwasham/coding-interview-university/issues/80)
+    - [힌디어](https://github.com/jwasham/coding-interview-university/issues/81)
+	- [히브리어](https://github.com/jwasham/coding-interview-university/issues/82)
+    - [바하사 인도네시아어](https://github.com/jwasham/coding-interview-university/issues/101)
+    - [아랍어](https://github.com/jwasham/coding-interview-university/issues/98)
+    - [베트남어](https://github.com/jwasham/coding-interview-university/issues/92)
+    - [터키어](https://github.com/jwasham/coding-interview-university/issues/90)
+    - [프랑스어](https://github.com/jwasham/coding-interview-university/issues/89)
+    - [러시아어](https://github.com/jwasham/coding-interview-university/issues/87)
+    - [우크라이나어](https://github.com/jwasham/coding-interview-university/issues/106)
+    - [브라질 포르투갈어](https://github.com/jwasham/coding-interview-university/issues/113)
+	- [한국어](https://github.com/jwasham/coding-interview-university/issues/118)
 
 ## 코딩 인터뷰 대학이란?
 
@@ -194,7 +194,7 @@
 
 `git checkout -b progress`
 
-`git remote add jwasham https://github.com/jwasham/google-interview-university`
+`git remote add jwasham https://github.com/jwasham/coding-interview-university`
 
 `git fetch --all`
 
@@ -212,10 +212,10 @@
 
 ## 구글 분위기 내기
 
-"[미래의 구글러](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)"를 인쇄하고
+"[미래의 구글러](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)"를 인쇄하고
 자주 바라보자.
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
+[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)
 
 ## Did I Get the Job?
 
@@ -235,7 +235,7 @@ I'm in the queue right now. Hope to interview soon.
 - Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
 - LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
 
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
+![John Washam - Coding Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 
 ## 당신은 충분히 똑똑합니다
@@ -747,7 +747,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -1323,7 +1323,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help

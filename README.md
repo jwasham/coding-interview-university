@@ -496,7 +496,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **How computers process a program:**
-    - [ ] [How CPU executes a program](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
     - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
     - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
@@ -718,7 +718,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - basic tree construction
     - traversal
     - manipulation algorithms
-    - [ ] [BFS(breadth-first search) and DFS(depth-first search)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+    - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS notes:
            - level order (BFS, using queue)
            - time complexity: O(n)
@@ -984,7 +984,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
         - Can skip this if you have a great grasp of OO and OO design practices.
-        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+        - [OOSE: Software Dev Using UML and Java (video)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] SOLID OOP Principles:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
@@ -1159,7 +1159,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (video)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### Floating Point Numbers
     - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
@@ -1180,15 +1180,15 @@ Graphs can be used to represent many problems in computer science, so this secti
     - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
-    - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-    - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
-    - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
-    - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial. (video)](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [HTTP (video)](https://www.youtube.com/watch?v=WGJrLqtX7As)
+    - [ ] [SSL and HTTPS (video)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL/TLS (video)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+    - [ ] [HTTP 2.0 (video)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+    - [ ] [Video Series (21 videos) (video)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Subnetting Demystified - Part 5 CIDR Notation (video)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
     - [ ] Sockets:
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
@@ -1698,8 +1698,8 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 - ### Bloom Filter
     - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
-    - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
-    - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
     - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 

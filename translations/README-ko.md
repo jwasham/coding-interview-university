@@ -18,7 +18,6 @@
 - [브라질 포르투갈어](translations/README-ptbr.md)
 - [스페인어](translations/README-es.md)
 - [중국어](translations/README-cn.md)
-
 </details>
 
 <details>
@@ -41,7 +40,6 @@
 - [한국어](https://github.com/jwasham/coding-interview-university/issues/118)
 - [히브리어](https://github.com/jwasham/coding-interview-university/issues/82)
 - [힌디어](https://github.com/jwasham/coding-interview-university/issues/81)
-
 </details>
 
 ## 코딩 인터뷰 대학이란?

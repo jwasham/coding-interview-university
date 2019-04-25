@@ -8,7 +8,7 @@
 ## यह क्या है?
 यह एक बड़ी कंपनी के लिए सॉफ्टवेयर इंजीनियर को वेब डेवलपर (स्वयं सिखाया, कोई सीएस डिग्री नहीं) से जाने के लिए मेरी बहु-महीने की अध्ययन योजना है
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 यह नए सॉफ़्टवेयर इंजीनियरों या सॉफ़्टवेयर / वेब विकास से सॉफ़्टवेयर इंजीनियरिंग (जहां कंप्यूटर साइंस ज्ञान आवश्यक है) से स्विच करने के लिए है। यदि आपके पास कई वर्षों का अनुभव है और कई वर्षों के सॉफ्टवेयर इंजीनियरिंग अनुभव का दावा कर रहे हैं, तो एक कठिन साक्षात्कार की अपेक्षा करें।
 

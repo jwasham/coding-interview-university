@@ -38,7 +38,7 @@ Traducciones:
 
 Este es mi plan de estudios de varios meses para pasar de ser un Desarrollador Web (Autodidacta, sin título) a un Ingeniero de Software para una gran compañía.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Esto es para los **nuevos Ingenieros de Software** o aquellos que quieren cambiar del Desarrollo de Software/Web a Ingeniero de Software (Donde el conocimiento de las Ciencias de Computación es requerido). Si tiene varios años de experiencia y clama tenerlos como Ingeniero de Software, espere una entrevista más ardua.
 

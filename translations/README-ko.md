@@ -46,7 +46,7 @@
 
 코딩 인터뷰 대학은 (컴퓨터공학 학위 없이 독학한) 웹 개발자에서 큰 회사의 소프트웨어 엔지니어가 되기 위한 나의 몇 달간의 공부 계획이다.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 이 글은 **신입 소프트웨어 엔지니어** 혹은 소프트웨어/웹 개발에서 (컴퓨터과학 지식이 필요한) 소프트웨어 엔지니어링으로 전환자고자 하는 사람들을 위한 글입니다. 만약 당신이 여러 해의 소프트웨어 엔지니어링 경력이 있다면, 더 어려운 인터뷰가 예상된다.
 

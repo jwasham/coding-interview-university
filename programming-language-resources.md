@@ -7,7 +7,7 @@
     - GDB:
         - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=USPvePv1uzE)
         - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=y5JmQItfFck)
-      - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
+        - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
     - [Let us C](https://books.google.co.in/books/about/Let_Us_C.html?id=7HrjAAAACAAJ)
 
 - C++

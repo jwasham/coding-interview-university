@@ -197,7 +197,7 @@ Ok, bây giờ bạn có thể bắt đầu:
 - Fork repo này.
 - Clone bản fork của bạn về máy tính cá nhân.
     ```
-    git clone https://github.com/<your-username>/google-interview-university
+    git clone https://github.com/<your-username>/coding-interview-university
     ```
 - Chạy các dòng lệnh sau
 - Tạo một branch mới để đánh dấu tiến độ của bạn:

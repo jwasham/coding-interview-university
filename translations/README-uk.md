@@ -1,4 +1,4 @@
-# Google Interview University
+# Coding Interview University
 
 Original: [англійською](README.md)
 
@@ -171,7 +171,7 @@ Original: [англійською](README.md)
 
 `git checkout -b progress`
 
-`git remote add jwasham https://github.com/jwasham/google-interview-university`
+`git remote add jwasham https://github.com/jwasham/coding-interview-university`
 
 `git fetch --all`
 

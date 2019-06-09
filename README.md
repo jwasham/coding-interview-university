@@ -849,9 +849,6 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ## Graphs
 
-<details>
-<summary>Graphs</summary>
-
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
 
 - Notes:
@@ -909,8 +906,6 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] count connected components in a graph
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
-
-</details>
 
 ## Even More Knowledge
 

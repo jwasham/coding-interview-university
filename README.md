@@ -1291,9 +1291,6 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## Final Review
 
-<details>
-<summary>Final Review</summary>
-
     This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
 
@@ -1303,8 +1300,6 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
-
-</details>
 
 ---
 

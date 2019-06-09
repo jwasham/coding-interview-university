@@ -654,8 +654,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## More Knowledge
 
-<details>
-<summary>More Knowledge</summary>
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -691,8 +689,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Swap](https://bits.stephan-brumme.com/swap.html)
     - [ ] absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
-
-</details>
 
 ## Trees
 

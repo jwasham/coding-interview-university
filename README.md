@@ -692,8 +692,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Trees
 
-<details>
-<summary>Trees</summary>
 
 - ### Trees - Notes & Background
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
@@ -773,8 +771,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] heapify - create a heap from an array of elements, needed for heap_sort
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
-
-</details>
 
 ## Sorting
 

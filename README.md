@@ -12,13 +12,15 @@
 >
 > *Best of luck to you!*
 
-##Translations:
+<details>
+<summary>Translations:</summary>
 
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
 
+</details>
 
 <details>
 <summary>Translations in progress:</summary>

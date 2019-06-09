@@ -1162,9 +1162,6 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## System Design, Scalability, Data Handling
 
-<details>
-<summary>System Design, Scalability, Data Handling</summary>
-
 **You can expect system design questions if you have 4+ years of experience.**
 
 - Scalability and System Design are very large topics with many topics and resources, since
@@ -1289,8 +1286,6 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
-
-</details>
 
 ---
 

@@ -909,8 +909,6 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## Even More Knowledge
 
-<details>
-<summary>Even More Knowledge</summary>
 
 - ### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
@@ -1161,8 +1159,6 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] Sockets:
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
-
-</details>
 
 ## System Design, Scalability, Data Handling
 

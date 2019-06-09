@@ -502,9 +502,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 
-<details>
-<summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
-
 - Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
 - If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
@@ -527,7 +524,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-</details>
 
 ## Data Structures
 

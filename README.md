@@ -774,9 +774,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Sorting
 
-<details>
-<summary>Sorting</summary>
-
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
@@ -849,8 +846,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-
-</details>
 
 ## Graphs
 

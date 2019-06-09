@@ -1305,8 +1305,6 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## Coding Question Practice
 
-<details>
-<summary>Coding Question Practice</summary>
 
 Now that you know all the computer science topics above, it's time to practice answering coding problems.
 
@@ -1346,12 +1344,11 @@ Supplemental:
 
 See [Book List above](#book-list)
 
-</details>
+
 
 ## Coding exercises/challenges
 
-<details>
-<summary>Coding Question Practice</summary>
+
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
@@ -1385,7 +1382,6 @@ Mock Interviews:
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
 
-</details>
 
 ## Once you're closer to the interview
 
@@ -1919,8 +1915,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 Sit back and enjoy. "Netflix and skill" :P
 
-<details>
-<summary>Video Series</summary>
 
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1982,7 +1976,6 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-</details>
 
 ## Computer Science Courses
 

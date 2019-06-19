@@ -247,6 +247,9 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 ## Interview Process & General Interview Prep
 
+<details>
+<summary>Interview Process & General Interview Prep</summary>
+
 - [x] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [x] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [x] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
@@ -267,6 +270,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
         - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
 
+</details>
 
 ## Pick One Language for the Interview
 
@@ -280,6 +284,8 @@ You could also use these, but read around first. There may be caveats:
 
 - JavaScript
 - Ruby
+
+Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
 
 You need to be very comfortable in the language and be knowledgeable.
 
@@ -485,6 +491,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Prerequisite Knowledge
 
+<details>
+<summary>Prerequisite Knowledge</summary>
+
 - [ ] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
@@ -499,8 +508,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [x] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
+</details>
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
+
+<details>
+<summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
 
 - Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
@@ -508,7 +521,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [x] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] :
+- [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [x] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
@@ -524,8 +537,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
+</details>
 
 ## Data Structures
+
+<details>
+<summary>Data Structures</summary>
 
 - ### Arrays
     - Implement an automatically resizing vector.
@@ -652,8 +669,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - get(key)
         - remove(key)
 
+</details>
+
 ## More Knowledge
 
+<details>
+<summary>More Knowledge</summary>
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -690,8 +711,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
+</details>
+
 ## Trees
 
+<details>
+<summary>Trees</summary>
 
 - ### Trees - Notes & Background
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
@@ -772,7 +797,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
+</details>
+
 ## Sorting
+
+<details>
+<summary>Sorting</summary>
 
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
@@ -847,7 +877,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
+</details>
+
 ## Graphs
+
+<details>
+<summary>Graphs</summary>
 
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
 
@@ -907,8 +942,12 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
+</details>
+
 ## Even More Knowledge
 
+<details>
+<summary>Even More Knowledge</summary>
 
 - ### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
@@ -1160,7 +1199,12 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
+</details>
+
 ## System Design, Scalability, Data Handling
+
+<details>
+<summary>System Design, Scalability, Data Handling</summary>
 
 **You can expect system design questions if you have 4+ years of experience.**
 
@@ -1287,9 +1331,14 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
+</details>
+
 ---
 
 ## Final Review
+
+<details>
+<summary>Final Review</summary>
 
     This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
@@ -1301,10 +1350,14 @@ Graphs can be used to represent many problems in computer science, so this secti
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
+</details>
+
 ---
 
 ## Coding Question Practice
 
+<details>
+<summary>Coding Question Practice</summary>
 
 Now that you know all the computer science topics above, it's time to practice answering coding problems.
 
@@ -1344,11 +1397,12 @@ Supplemental:
 
 See [Book List above](#book-list)
 
-
+</details>
 
 ## Coding exercises/challenges
 
-
+<details>
+<summary>Coding Question Practice</summary>
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
@@ -1382,6 +1436,7 @@ Mock Interviews:
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
 
+</details>
 
 ## Once you're closer to the interview
 
@@ -1915,6 +1970,8 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 Sit back and enjoy. "Netflix and skill" :P
 
+<details>
+<summary>Video Series</summary>
 
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1976,6 +2033,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
+</details>
 
 ## Computer Science Courses
 

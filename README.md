@@ -384,7 +384,7 @@ OR:
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - by Goodrich, Tamassia, Goldwasser
     - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - see my book report on the Python version below. This book will be covering the same topics.
 
 </details>
 

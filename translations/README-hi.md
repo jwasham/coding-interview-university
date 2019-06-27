@@ -960,7 +960,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Pages 1048 - 1140 in CLRS if you have it.
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (विडियो)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (विडियो)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (विडियो)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)

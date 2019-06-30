@@ -415,7 +415,9 @@ through my notes and making flashcards so I could review.
 
 Read please so you won't make my mistakes:
 
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
+[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
+
+Here is another great course on Coursera for [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn).
 
 ### 2. Use Flashcards
 

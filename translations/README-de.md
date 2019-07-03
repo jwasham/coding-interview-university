@@ -1,16 +1,17 @@
 # Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+> Ursprünglich habe ich dies als eine kurze To-Do Liste von Studienthemen angefangen um SOftware Engineer zu werden,
+> aber es ist zu der riesigen Liste herangewachsen die man heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
+> habe, [wurde ich als Software Entwickler bei Amazon eingestellt.](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Wahrscheinlich wirst du nicht so viel lernen brauchen wie ich es getan habe. Aber egal, alles was du brauchst, findest
+> du hier.
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> Ich habe ungefähr 8-12 Stunden am Tag gelernt, und das für mehrere Monate. Hier ist meine Geschichte: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> The items listed here will prepare you well for an interview at just about any software company,
-> including the giants: Amazon, Facebook, Google or Microsoft.
+> Die Einträge in dieser Liste werden dich gut auf ein Vorstellungsgepräch bei so gut wie jeder Software Firma vorbereiten,
+> so bei den Giganten: Amazon, Facebook, Google oder Micrososft.
 >
-> *Best of luck to you!*
+> *Viel Glück!*
 
 <details>
 <summary>Übersetzungen:</summary>
@@ -69,8 +70,8 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Worum es geht](#what-is-it)
 - [Warum solltest du das hier lesen?](#why-use-it)
 - [Wie man dies hier benutzt](#how-to-use-it)
-- [Glaub nicht, dass du nicht klug genug bist](#dont-feel-you-arent-smart-enough)
-- [Über Video Resourcen](#about-video-resources)
+- [Halt dich nicht für dümmer als du bist](#dont-feel-you-arent-smart-enough)
+- [Über Videoquellen](#about-video-resources)
 - [Ablauf von Vorstellungsgesprächen und allgemeine Vorbereitung darauf](#interview-process--general-interview-prep)
 - [Wähle eine Sprache für das Vorstellungsgespräch](#pick-one-language-for-the-interview)
 - [Buchliste](#book-list)
@@ -136,7 +137,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 ---------------- Alles unter der Linie ist optional ----------------
 
 <details>
-<summary>Additional Resources</summary>
+<summary>Zusätzliche Materialien</summary>
 
 - [Zusätzliche Bücher](#additional-books)
 - [Zusätzliches Wissen](#additional-learning)
@@ -188,28 +189,30 @@ Liste (Netzwerke, Sicherheit) ansehen.
 
 ## Warum solltest du das hier lesen?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Als ich dieses Projekt angefangen habe, konnte ich einen Stack nicht von einem Heap unterscheiden, wusste nichts von 
+Groß-O, nichts über Bäume, oder wie man einen Graphen durchläuft. Wenn ich einen Sortieralgorithmuss hätte schreiben sollen,
+dann wäre der nicht besonders gut geworden, so viel kann ich dir sagen. Jede Datenstruktur die jemals benutzt habe war 
+direkt in der Programmiersprache eingebaut, und ich hatte keine Ahnung wie sie funktioniert haben. Ich muss niemals 
+Speichermanagement betreiben, außer einer der Prozesse die ich ausgeführt hatte hat einen "out of memory" Fehler gehabt. 
+Und wenn das passiert ist, musste ich einen Umweg finden. Ich habe ein paar mehrdimensionale Arrays in meinen Leben benutzt
+und ein paar tausend assoziative Arrays, aber ich habe nie selbst eine Datenstruktur von Grund auf neu geschrieben. 
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Es ist ein großer Plan. Es könnte mehrere Monate dauern. Falls dir schon vieles von dem bekannt ist, wird es dich viel 
+weniger Zeit kosten.
 
-## How to use it
+## Wie man dies hier benutzt
 
 <details>
-<summary>How to use it</summary>
+<summary>Wie man dies hier benutzt</summary>
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Alles hier drunter ist ein Umriss, und du solltest die Aufgaben von oben nach untern abarbeiten.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste um den Fortschritt zu prüfen.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Erstelle einen neuen Branch. Damit du Einträge abhaken kannst, füge einfach nur ein x in eckigen Klammern ein: [x]**
 
 
-    Fork a branch and follow the commands below
+    Erstelle einen Fork dieses Projekts und gib die folgenden Kommandos ein
 
 `git checkout -b progress`
 
@@ -217,7 +220,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Hake alle Kästchen mit x ab nachdem du die Änderungen vollzogen hast
 
 `git add .`
 
@@ -227,25 +230,26 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force`
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Mehr über die Markdown Version von GitHub](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 </details>
 
-## Don't feel you aren't smart enough
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+## Halt dich nicht für dümmer als du bist
+- Erfolgreiche Software Engineers sind klug, aber viele sind sich unsicher ob sie klug genug sind.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 - [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 - [Think you're not smart enough to work at Google? Well, think again](https://www.youtube.com/watch?v=uPOJ1PR50ag)
 
-## About Video Resources
+## Über Videoquellen
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
+Auf manche Videos kann man nur zugreifen indem man sich bei einem Coursera- oder EdX-Kurs einschreibt. Das sind so
+genannte MOOCS. Manchmal werden die Kurse gerade nicht angeboten und man muss ein paar Monate warten. Man hat dann
+keinen Zugriff darauf.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
-
+    Ich würde mich sehr freuen wenn du mir dabei hilfst kostenlose und immer verfügbare öffentliche Quellen hinzuzufügen,
+    wie z.B. YouTube Videos um die Online Kurse zu ergänzen.
+    Ich benutze gerne Vorlesungen von Hochschulen.
 
 ## Interview Process & General Interview Prep
 
@@ -381,10 +385,10 @@ If you have a better recommendation for C++, please let me know. Looking for a c
         - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
         - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
-OR:
+ODER:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
+    - von Goodrich, Tamassia, Goldwasser
     - used as optional text for CS intro course at UC Berkeley
     - see my book report on the Python version below. This book covers the same topics.
 
@@ -396,7 +400,7 @@ OR:
 <summary>Python</summary>
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
+    - von Goodrich, Tamassia, Goldwasser
     - I loved this book. It covered everything and more.
     - Pythonic code
     - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
@@ -449,7 +453,7 @@ I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I s
 
 Take a break from programming problems for a half hour and go through your flashcards.
 
-### 4. Focus
+### 4. Fokus
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
 
@@ -459,7 +463,7 @@ These are prevalent technologies but not part of this study plan:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, und andere Front-end Technologien
 
 ## The Daily Plan
 
@@ -525,7 +529,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+    - [Folien](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 - [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
 - [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
@@ -652,7 +656,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
+    - [ ] Online Kurse:
         - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
         - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
         - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
@@ -993,7 +997,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
         - Can skip this if you have a great grasp of OO and OO design practices.
         - [OOSE: Software Dev Using UML and Java (video)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] SOLID OOP Principles:
+    - [ ] SOLID OOP Prinzipien:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
         - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
@@ -1226,7 +1230,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - simplicity and robustness
         - tradeoffs
         - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [ ] **HIER ANFANGEN**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
@@ -1245,10 +1249,10 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Infographic](http://thesecretlivesofdata.com/raft/)
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
-- [ ] Scalability:
+- [ ] Skalierbarkeit:
     - You don't need all of these. Just pick a few that interest you.
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] Short series:
+    - [ ] Kurzreihen:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
         - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
         - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -1301,7 +1305,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - For even more, see "Mining Massive Datasets" video series in the [Video Series](#video-series) section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - Review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
     - flow:
@@ -1615,7 +1619,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - See more in MIT 6.050J Information and Entropy series below.
 
-- ### Parity & Hamming Code (videos)
+- ### Parität und Hamming Code (videos)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - [ ] Hamming Code:
@@ -2033,7 +2037,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
 
-- [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
+- [ ] [Graph Theory von Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
 </details>
 
@@ -2042,14 +2046,14 @@ Sit back and enjoy. "Netflix and skill" :P
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Papers
+## Paper
 
 <details>
-<summary>Papers</summary>
+<summary>Paper</summary>
 
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-    - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
+    - [implementiert in Go](https://godoc.org/github.com/thomas11/csp)
 - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
     - replaced by Colossus in 2012
 - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
@@ -2063,7 +2067,7 @@ Sit back and enjoy. "Netflix and skill" :P
 - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
 - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
 - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-    - paper not available
+    - Paper nicht verfügbar
 - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
     - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
@@ -2079,6 +2083,6 @@ Sit back and enjoy. "Netflix and skill" :P
 
 </details>
 
-## LICENSE
+## Lizenz
 
 [CC-BY-SA-4.0](./LICENSE.txt)

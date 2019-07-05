@@ -1,10 +1,9 @@
 # Coding Interview University
 
-> Ursprünglich habe ich dies als eine kurze To-Do Liste von Studienthemen angefangen um SOftware Engineer zu werden,
+> Ursprünglich habe ich dies als eine kurze To-Do Liste von Studienthemen angefangen um Software Engineer zu werden,
 > aber es ist zu der riesigen Liste herangewachsen die man heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
 > habe, [wurde ich als Software Entwickler bei Amazon eingestellt.](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> Wahrscheinlich wirst du nicht so viel lernen brauchen wie ich es getan habe. Aber egal, alles was du brauchst, findest
-> du hier.
+> Wahrscheinlich wirst du nicht so viel lernen müssen wie ich. Aber egal, alles was man brauchst, findest man hier.
 >
 > Ich habe ungefähr 8-12 Stunden am Tag gelernt, und das für mehrere Monate. Hier ist meine Geschichte: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
@@ -53,8 +52,8 @@ Das ist mein mehrmonatiger Lernplan um vom Web Developer (Selbststudium, kein Ab
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Dies ist gedacht für **neue Software Engineure** oder solche die von der Software/Web Entwicklung zum Software 
-Engineering wechseln wollen (wobei Informatikkenntnisse benötigt werden). Falls du behauptest mehrere Jahre an Erfahrung
-als Software Engineer zu haben, erwartet dich ein hartes Vorstellungsgespräch.
+Engineering wechseln wollen (wobei Informatikkenntnisse benötigt werden). Falls man behauptet mehrere Jahre an Erfahrung
+als Software Engineer zu haben, erwartet einen ein hartes Vorstellungsgespräch.
 
 Falls du schon mehrere Jahre Erfahung in der Software/Webenteicklung hast, muss dir klar sein, dass große Software
 Unternehmen wie Google, Amazon, Facebook oder Microsoft Software Engineering und Software Entwicklung 
@@ -77,7 +76,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Buchliste](#book-list)
 - [Bevor du anfängst](#before-you-get-started)
 - [Was hier nicht behandelt wird](#what-you-wont-see-covered)
-- [Vorausgesetztes Wissen](#prerequisite-knowledge)
+- [Voraussetzungen](#prerequisite-knowledge)
 - [Der Tagesplan](#the-daily-plan)
 - [Komplexitätstheorie / Big-O (Groß-O Notation) / Asymptotische Analyse](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Datenstrukturen](#data-structures)
@@ -181,7 +180,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Weitere Details für ausgewählte Themen](#additional-detail-on-some-subjects)
 - [Videoreihen](#video-series)
 - [Infomatikkurse](#computer-science-courses)
-- [Wissenschaftliche Abhandlungen](#papers)
+- [Paper (Wissenschaftliche Artikel)](#papers)
 
 </details>
 
@@ -251,127 +250,128 @@ keinen Zugriff darauf.
     wie z.B. YouTube Videos um die Online Kurse zu ergänzen.
     Ich benutze gerne Vorlesungen von Hochschulen.
 
-## Interview Process & General Interview Prep
+## Ablauf von Vorstellungsgesprächen und allgemeine Vorbereitung darauf
 
 <details>
-<summary>Interview Process & General Interview Prep</summary>
+<summary>Ablauf von Vorstellungsgesprächen und allgemeine Vorbereitung darauf</summary>
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] Cracking The Coding Interview Set 1:
+- [ ] Cracking The Coding Interview Teil 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] How to Get a Job at the Big 4:
+- [ ] Wie man einen Job bei den Großen 4 bekommt:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
-- [ ] Prep Course:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
-    - [ ] [Intro to Data Structures and Algorithms using Python! (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - A free Python centric data structures and algorithms course.
-    - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
+- [ ] Vorbereitungskurse:
+    - [ ] [Software Engineer Interview Unleashed (kostenpflichtiger Kurs)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Hier lernt von einem ehemaligen Google Interviewer wie man sich auf ein Vorstellungsgespräch als Software Engineer vorbereitet.
+    - [ ] [Python for Data Structures, Algorithms, and Interviews! (kostenpflichtiger Kurs)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - Ein auf Python zugeschnittener Kurs welcher Datenstrukturen, Algorithme, Testinterviews und noch viel mehr behandelt.
+    - [ ] [Intro to Data Structures and Algorithms using Python! (kostenloser Kurs auf Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
+        - Ein kostenloser auf Python zentrierter Kurs über Datenstrukturen und Algorithmen.
+    - [ ] [Data Structures and Algorithms Nanodegree! (kostenpflichtiges Nandegree Kurs auf Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
+        - Hol dir praktische Erfahrungen im Umgang mit über 100 Datenstrukturen und Algorithmen unter der Führung eines engagierten Mentors der dir dabei hilft dich auf Vorstellungsgespräche und Beispiele aus den Berufsleben vorzubereiten.
 
 </details>
 
-## Pick One Language for the Interview
+## Wähle eine Sprache für das Vorstellungsgespräch
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Man sollte eine Sprache wählen mit der man sich wohl fühlt beim Codingteil des Vorstellungsgesprächs.
+Aber für große Firmen sind das valide Optionen:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Man könnte auch diese verwenden, aber pass auf. Es könnte eineige Vorbehalte geben:
 
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+Hier ist ein Artikel den ich über die Auswahl der Programmiersprache für das Vorstellungsgespräch geschrieben habe: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
 
-You need to be very comfortable in the language and be knowledgeable.
+Du musst dich mit der Sprache wohl fühlen und auskennen.
 
-Read more about choices:
+Hier kannst du mehr über die Wahl lesen:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Siehe language resources](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Unten sind ein paar Materialien zu C, C++ und Python zu finden, weil ich das gerade lerne. Es gehören einige Bücher dazu, siehe unten.
 
-## Book List
+## Buchliste
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Die Liste ist kürzer als die, die ich tatsächlich benutzt habe. Ich habe es etwas abgekürzt um euch Zeit zu sparen.
 
-### Interview Prep
+### Vorbereitung auf das Vorstellungsgespräch
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - Antworten in C++ und Java
+    - eine gute Aufwärmübung für Cracking the Coding Interview
+    - nicht allzu schwer, die meisten Probelem sind einfacher als das was ihr in Vorstellungsgesprächen sehen werdet (von dem was ich so gelesen habe)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Antworten in Java
 
 <details>
-<summary>If you have tons of extra time:</summary>
+<summary>Wenn man extrem viel Zeit hat:</summary>
 
-Choose one:
+Such dir eins aus:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] Elements of Programming Interviews (Java version)
-    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+    - [Buch](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
 </details>
 
-### Computer Architecture
+### Rechnerarchitektur
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - Das Buch wurde 2004 veröffentlicht und ist etwas veraltet, aber es ist eine hervorragende Quelle um Computer in Kürze zu verstehen.
+    - Der Autor hat [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) erfunden, also sollte man die Erwähnungen und Beispiele in HLA mit Vorsicht genießen. Nicht weit verbreitet, aber ein nettes Beispiel wie Assembly Code aussehen kann.
+    - Diese Kapitel sind es wert zu lesen um euch eine gute Grundlage zu geben:
       <details>
       <summary>......</summary>
 
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
+        - Kapitel 2 - Numeric Representation
+        - Kapitel 3 - Binary Arithmetic and Bit Operations
+        - Kapitel 4 - Floating-Point Representation
+        - Kapitel 5 - Character Representation
+        - Kapitel 6 - Memory Organization and Access
+        - Kapitel 7 - Composite Data Types and Memory Objects
+        - Kapitel 9 - CPU Architecture
+        - Kapitel 10 - Instruction Set Architecture
+        - Kapitel 11 - Memory Architecture and Organization
 
       </details>
 
 
-### Language Specific
+### Sprachspezifisch
 
-**You need to choose a language for the interview (see above).**
+**Man muss sich für das Vorstellungsgespräch für eine Programmiersprache entschieden haben (siehe oben).**
 
-Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+Hier sind meine Empfehlungen geordnet nach Sprache. Ich habe nicht für alle Sprachen Material. Ich begrüße Ergänzugen.
 
-If you read through one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Wenn du dich durch eins davon durchgelsen hast, solltest du genügende Wissen über Datenstrukturen und Algorithmen haben um Coding Probleme lösen zu können.
+**Man kann alle Videolektionen in diesen Projekt überspringen**, außer du willst eine Auffrischung.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Zusätzliches sprachspezifisches Material hier.](programming-language-resources.md)
 
 ### C++
 
 <details>
 <summary>C++</summary>
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Ich habe diese beiden zwar nicht gelesen, aber sie sind gut bewertet und von Sedgewick geschrieben. Er ist super.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Wenn du eine bessere Empfehlung für C++ hast, bitte lass es mich wissen. Ich suche nach umfassenden Material.
 
 </details>
 
@@ -380,8 +380,8 @@ If you have a better recommendation for C++, please let me know. Looking for a c
 <details>
 <summary>Java</summary>
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!) on coursera:
+- [ ] [Algorithms (Sedgewick und Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Videos mit Buchinhalt (und Sedgewick!) auf Coursera:
         - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
         - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -389,8 +389,8 @@ ODER:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - von Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - wird bei der UC Berkeley als Zusatzmaterial für den Informatik Einstieg benutzt
+    - siehe Zusammenfassung zur Python Version, dieses Buch behandelt die selben Themen.
 
 </details>
 
@@ -401,114 +401,116 @@ ODER:
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - von Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - Ich habe dieses Buch gelibet. Es hat alles behandelt und mehr.
+    - Python-hafter Code
+    - meine feurige Rezension: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 </details>
 
 
-## Before you Get Started
+## Bevor du anfängst
 
-This list grew over many months, and yes, it kind of got out of hand.
+Diese Liste ist über mehrere Monate gewachsen. Und ja, sie ist etwas aus dem Ruder gelaufen.
 
-Here are some mistakes I made so you'll have a better experience.
+Hier einige Fehler die ich gemacht habe, damit ihr ein besseres Erlebnis haben könnt.
 
-### 1. You Won't Remember it All
+### 1. Du wirst dich nicht an alles erinnern können
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Ich habe stundelang Videos gesehen und reichlich Notizen geschrieben. Monate später gab es viel an das ich mich nicht mehr erinnern konnte.
+Ich habe 3 Tage damit verbracht meine Notizen durchzugehen und daraus Lernkarten zu erstellen, damit ich alles nochmal wiederholen konnte.
 
-Read please so you won't make my mistakes:
+Bitte lesen damit ihr nicht meine Fehler wiederholt:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Benutz Lernkarten
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Um das Problem zu lösen, habe ich eine kleine Webseite erstellt wo ich 2 Arten von Lernkarten anlegen kann: Allgemein und Code.
+Jede Karte hat ihr eigenes Format.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Ich habe eine mobile-first Webseite gemacht, damit ich auf meinen Smart Phone oder Tablet lernen kann, egal wo ich mich befinde.
 
-Make your own for free:
+Erstell kostenlos deine eigenen Lernkarten:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Lernkarten-Webseiten Repo](https://github.com/jwasham/computer-science-flash-cards)
+- [Meine Lernkarten Databank (alt - 1200 Karten)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
+- [Meine Lernkarten Databank (neu - 1800 Karten)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+Achtung, ich habe es übertrieben und Lernkarten über alles erstellt, von Assembly und Python Trivia bis hin zu Machine Learning und Statistik. Das ist viel mehr als eigentlich notwendig.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Anmerkung zu Lernkarten:** Wenn man sich einmal an eine Antwort erinnert, sollte man das nicht als Wissen ansehen.
+Man muss sich die Karte mehrmals ansehen und richtig beantworten bevor man es tatsächlich weiß. Wiederholung wird das
+Wissen tiefer in euren Verstand verankern.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Eine Alternative zu Lernkarten ist [Anki](http://ankisrs.net/), was mir schon öfters empfohlen wurde. 
+Es benutzt ein Erinnerungssystem um einen dabei zu helfen sich zu erinnern.
+Es ist benutzerfreundlich, auf allen Plattformen erhaältlich und kann sich mit der Cloud synchronisieren.
+Es kostet 25$ auf iOS aber es ist kostenlos für andere Plattformen.  
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Meine Lernkarten Sammlung im Anki Format: https://ankiweb.net/shared/info/25173560 (Danke [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Wiederholen, wiederholen , wiederholen
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Ich behalte eine Reihe von Spickzetteln über ASCII, OSI Stack, Groß-O Notation, und mehr. Ich lerne sie in meiner Freizeit.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Nimm dir eine Pause vom Programmieren für eine halbe Stunde und gehe deine Lernkarten durch.
 
 ### 4. Fokus
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Es gibt eine Menge Ablenkungen die dir deine kostbare Zeit stehlen können. Fokussiert und konzentriert zu bleiben ist schwer.
 
-## What you won't see covered
+## Was hier nicht behandelt wird
 
-These are prevalent technologies but not part of this study plan:
+Das sind weit verbreitete Technologien aber nicht Teil des Lehrplans:
 
 - SQL
 - Javascript
 - HTML, CSS, und andere Front-end Technologien
 
-## The Daily Plan
+## Der Tagesplan
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Einige der Themen brauchen einen Tag, für andere braucht man mehrere Tage. Manche sind reines Lernen ohne das man was implementiert.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Jeden Tag nehme ich mir ein Thema aus der Liste unten vor, schaue Videos über das Thema, und schreibe eine Implementierung in:
+- C - mit structs and Funktionen die ein struct Pointer und und etwas anderes als Argumente benutzen.
+- C++ - ohne vorgefertigte Typen
+- C++ - mit vorgefertigte Typen, wie STL's std::list für verkettete Listen
+- Python - mit vorgefertigte Typen (um Python weiterhin zu üben)
+- und ich schreibe Tests um sicher zu gehen, dass ich richitg liege, manchmal sind das nur einfache assert() Statements
+- Du könntest auch Java oder etwas anderes machen, das ist nur das was ich tue.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Man brauchst nicht alles davon. Man braucht nur [eine Sprache für das Vorstellungsgepräch](#pick-one-language-for-the-interview).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python or Java))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Warum ich in all diesen Sprachen programmiere?
+- Üben, üben, üben, bis ich kotzen muss und es im Schlaf beherrsche (manche Probleme haben viele Sonderfälle und Wissen an das man sich erinnern muss)
+- Unter erschwerten Voraussetzungen arbeiten können (Speicher allokieren/freigeben ohne die Hilfe einer Garbage Collection (Ausnahmen sind Python oder Java))
+- Vorgefertigte Typen verwenden damit ich Erfahrung im Umgang für echte Anwendungsfälle haben (ich werde sich meine eigene verkettete Liste im Alltag implementieren)
 
-I may not have time to do all of these for every subject, but I'll try.
+Vielleicht habe ich nicht die Zeit um das alles für jedes Thema zu machen, aber ich werde es versuchen.
 
-You can see my code here:
+Man findet meinen Code hier:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Man muss sich nicht bei jeden Algorithmus an alle Details erinnern können.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit ein paar einfachen Eingaben. Dann kannst du es am Computer testen.
 
-## Prerequisite Knowledge
+## Voraussetzungen
 
 <details>
-<summary>Prerequisite Knowledge</summary>
+<summary>Voraussetzungen</summary>
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **Lerne C**
+    - C ist überall. Du wirst Beispiele in Büchern, Vorlesungen, Videos, und generell *überall* finden während du lernst.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+        - Das ist ein kurzes Buch, aber es wird dich viel über die C Sprache lehren und wenn du ein bisschen übst,
+			wirst du schnell darin bewandert sein. C zu Verstehen hilft dir zu verstehen wie Programme und Speicher funktionieren.
+        - [Antworten auf Fragen](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+- [ ] **Wie Computer einen Prozess ausführen:**
+    - [ ] [Wie der Prozessor ein Programm ausführt (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
     - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
     - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
@@ -545,10 +547,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 </details>
 
-## Data Structures
+## Datenstrukturen
 
 <details>
-<summary>Data Structures</summary>
+<summary>Datenstrukturen</summary>
 
 - ### Arrays
     - Implement an automatically resizing vector.
@@ -580,10 +582,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
+    - [ ] Zeit
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
-    - [ ] Space
+    - [ ] Speicher
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
@@ -619,12 +621,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+        - gibt keinen Grund das zu implementieren
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [ ] Werde ich nicht implementieren. Implementierung mittels Array ist trivial.
 
 - ### Queue
     - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
@@ -851,11 +853,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
+- [ ] Merge Sort code:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
+- [ ] Quick Sort code:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
@@ -885,14 +887,14 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 </details>
 
-## Graphs
+## Graphen
 
 <details>
-<summary>Graphs</summary>
+<summary>Graphen</summary>
 
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
 
-- Notes:
+- Bemerkungen:
     - There are 4 basic ways to represent a graph in memory:
         - objects and pointers
         - adjacency matrix
@@ -1956,7 +1958,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - nice explanation of tries
         - can be skipped
 
-- [ ] **Sorting**
+- [ ] **Sortierung**
 
     - [ ] Stanford lectures on sorting:
         - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
@@ -1972,12 +1974,12 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 </details>
 
-## Video Series
+## Videoreihen
 
-Sit back and enjoy. "Netflix and skill" :P
+Lehn dich zurück und genieße. "Netflix and skill" :P
 
 <details>
-<summary>Video Series</summary>
+<summary>Videoreihen</summary>
 
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1989,9 +1991,9 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics von Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 
-- [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
+- [ ] [Discrete Mathematics Part 1 von Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
 - [ ] CSE373 - Analysis of Algorithms (25 videos)
     - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
@@ -2032,7 +2034,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
 
-- [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
+- [ ] [Introduction to Cryptography von Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
 
 - [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
@@ -2046,23 +2048,23 @@ Sit back and enjoy. "Netflix and skill" :P
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Paper
+## Paper (Wissenschaftliche Artikel)
 
 <details>
-<summary>Paper</summary>
+<summary>Paper (Wissenschaftliche Artikel)</summary>
 
-- [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
+- [Liebst du klassische Paper?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
     - [implementiert in Go](https://godoc.org/github.com/thomas11/csp)
 - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-    - replaced by Colossus in 2012
+    - ersetzt durch Colossus in 2012
 - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-    - mostly replaced by Cloud Dataflow?
+    - größtenteils ersetzt durch Cloud Dataflow?
 - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
     - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
 - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
-    - The Dynamo paper kicked off the NoSQL revolution
+    - Das Dynamo Paper hat die NoSQL Revolution ausgelöst.
 - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
 - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
 - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)

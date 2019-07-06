@@ -78,14 +78,14 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Was hier nicht behandelt wird](#what-you-wont-see-covered)
 - [Voraussetzungen](#prerequisite-knowledge)
 - [Der Tagesplan](#the-daily-plan)
-- [Komplexitätstheorie / Big-O (Groß-O Notation) / Asymptotische Analyse](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Algorithmische Komplexität / Big-O (Groß-O Notation) / Asymptotische Analyse](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Datenstrukturen](#data-structures)
     - [Arrays (Felder)](#arrays)
     - [Linked Lists (verkettete Listen)](#linked-lists)
     - [Stack (Stapel)](#stack)
     - [Queue (Wartenschlangen)](#queue)
-    - [Hash table (Hashtabellen)](#hash-table)
-- [Sonstiges](#more-knowledge)
+    - [Hash table (Hashtabelle)](#hash-table)
+- [Mehr](#more-knowledge)
     - [Binärsuche](#binary-search)
     - [Bitweise Operationen](#bitwise-operations)
 - [Trees (Bäume)](#trees)
@@ -518,17 +518,17 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 
 </details>
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Algorithmische Komplexität / Big-O (Groß-O Notation) / Asymptotische Analyse
 
 <details>
-<summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
+<summary>Algorithmische Komplexität / Big-O (Groß-O Notation) / Asymptotische Analyse</summary>
 
-- Nothing to implement
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
+- nichts zum Implementieren
+- Es sind eine Menge Videos hier aufgelistet. Schau dir einfach so viele an bis du es verstanden hast. Man kann immer wieder zurückgehen und nochmal anschauen.
+- Falls einige der Vorträge zu mathemtaisch sind, kann man ans untere Ende springen und sich Videos über diskrete Mathematik anschauen um das notwendige Hintergrundwissen zu bekommen.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Big O Notations (kleines Tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - beste mathematische Erklärung (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [Folien](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
@@ -539,10 +539,10 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
-- [ ] TopCoder (includes recurrence relations and master theorem):
+- [ ] TopCoder (beinhält Differenzgleichungen und Master Theorem
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [Spickzettel](http://bigocheatsheet.com/)
 
 
 </details>
@@ -552,9 +552,9 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <details>
 <summary>Datenstrukturen</summary>
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
+- ### Arrays (Felder)
+	- implementiere ein automatisch mitwachsenden Vektor 
+    - [ ] Beschreibung:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
@@ -563,93 +563,93 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
         - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+    - [ ] Implementiere ein Vektor (veränderbares Array was automatisch seine Größe verändert):
+        - [ ] Übe Arrays und Pointer (Zeiger) zu coden, und benutze Pointerberechnung um ein Element aus einem Array auszuwählen statt den Index zu benutzen.
+        - [ ] neues Rohdaten-Array mit allokierten Speicher
+            - man kann intern ein int Array dafür verwenden, aber nicht die Features davon
+            - fang an mit der Größe 16, oder wenn die Startnummer schön größer ist, benutze 2er-Potenzen - 16, 32, 64, 128
+        - [ ] size() - Anzahl der Elmente
+        - [ ] capacity() - Anzahl der Elemente die es enthalten kann
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(index) - gibt das Element an der gegebenen Index zurück, expolodiert wenn der Index außerhalb der Grenzen ist
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] insert(index, item) - fügt ein Element an der Index-Position ein, schiebt den ursprünglichen Wert vom Index und alle nachfolgenden Elemente eins nach rechts weiter
+        - [ ] prepend(item) - ist dasselbe wie oben mit Index 0
+        - [ ] pop() - entfernt das letzte Element und gibt dessen Wert zurürck
+        - [ ] delete(index) - lösche das Element an der Indexposition und verschiebe jedes Element danach eins nach links
+        - [ ] remove(item) - sucht den Wert und entfernt den Index der ihn enthält (auch wenn es mehrere Stellen sind)
+        - [ ] find(item) - sucht den Wert und gibt den ersten Index mit diesen Wert, -1 wenn der Wert nicht gefunden wird
         - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
+			- wenn man die Kapazität erreicht hat, verdopple die Kapazität
+            - wenn du ein Element löscht und die Größe ist nur 1/4 der Kapazität, halbiere die Kapazität
     - [ ] Zeit
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
+        - O(1) um am Ende etwas hinzuzufügen/zu löschen (amortisiert bei Verwendung von zusätzlichen Speicher), Indexzugriff, oder update
         - O(n) to insert/remove elsewhere
     - [ ] Speicher
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - zusammenhängend im Speicher, Nähe hilft der Performance
+        - benötigter Speicher = (Array Kapazität, welche >= n ist) * Größe eines Elements, aber selbst bei 2n, immer noch O(n)
 
-- ### Linked Lists
+- ### Linked Lists (verkettete Listen)
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
+            - nicht das ganze Video nur die Teile über Knotenstruktur und Speicherverwaltung.
     - [ ] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+    - [ ] Achtung:  du brauchst Wissen über Pointer von Pointern:
+        (für den Fall, dass man einen Pointer an eine Funktion übergibt und die Funktion die Adresse verändern kann zu der der Pointer zeigt)
+        Diese Seite ist dafür Pointer von Pointern grob zu verstehen. Ich würde diese Art der Listentraversierung nicht empfehlen. Lesbarkeit und Wartbarkeit leiden darunter wenn man versucht clever zu sein.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+    - [ ] Implementierung (ich habe es mit Tail-Pointern gemacht und ohne):
+        - [ ] size() - gibt Anzahl der Datenelemente in der Liste zurück
+        - [ ] empty() - bool gibt true zurück wenn leer
+        - [ ] value_at(index) - gibt den Wert an der Stelle index zurück (angefangen bei 0 für das erste ELement)
+        - [ ] push_front(value) - fügt eine Element an den Anfang der List ein
+        - [ ] pop_front() - löscht das erste Element und gibt dessen Wert zurück
+        - [ ] push_back(value) - fügt ein Element ans Ende ein
+        - [ ] pop_back() - löscht das letzte Element und gibt dessen Wert zurück
+        - [ ] front() - hole den Wert des ersten Elements
+        - [ ] back() - hole den Wert des letzten Elements
+        - [ ] insert(index, value) - fügt Wert an der Indexposition ein, das neue Element an der Stelle zeigt auf das aktuelle Element an der Stelle
+        - [ ] erase(index) - löscht das Element an der gegebenen Stelle
+        - [ ] value_n_from_end(n) - gibt den Wert an der nten Position von hinten zurück
+        - [ ] reverse() - kehrt die Liste um
+        - [ ] remove_value(value) - entfernt das erste Element aus der Liste mit diesen Wert
+    - [ ] Doubly-linked List (doppelt verkettete Listen)
+        - [Erklärung (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - gibt keinen Grund das zu implementieren
 
-- ### Stack
+- ### Stack (Stapel)
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Werde ich nicht implementieren. Implementierung mittels Array ist trivial.
 
-- ### Queue
+- ### Queue (Warteschlangen)
     - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] Implementierung mittels verketteten Listen, mit Tail-Pointer:
+        - enqueue(value) - fügt Wert am Ende ein
+        - dequeue() - gibt das älteste Element (am Anfang der Liste) zurück und löscht es
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Implementierung mittels Arrays fester Größe:
+        - enqueue(value) - fügt ein Element am Ende des verfügbaren Speicherplatzes ein
+        - dequeue() - gibt das älteste Element zurück und löscht es
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Kosten:
+		- eine schlechte Implementierung wo man am Kopf einreiht und am Schwanz ausreiht wäre O(n)
+			weil man das vorletzte Element braucht, wodurch man die Liste komplett durchgehen muss
+        - enqueue: O(1) (amortisiert, verkettete Liste und Array)
+        - dequeue: O(1) (verkettete Liste und Array)
+        - empty: O(1) (verkettete Liste und Array)
 
-- ### Hash table
+- ### Hash table (Hashtabelle)
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -666,37 +666,37 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] distributed hash tables:
+        - [ ] verteilte Hashtabellen:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+    - [ ] Implementierung mit Array und linear probing
+        - hash(k, m) - m ist die Größe der Hashtabelle
+        - add(key, value) - falls key schon existiert, wird Wert überschrieben
         - exists(key)
         - get(key)
         - remove(key)
 
 </details>
 
-## More Knowledge
+## Mehr
 
 <details>
-<summary>More Knowledge</summary>
+<summary>Mehr</summary>
 
-- ### Binary search
+- ### Binärsuche
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] [Details](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] Implementierung:
+        - Binärsuche (auf einen sortierten Array von Ganzzahlen)
+        - Binärsuche mittles Rekursion
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
+- ### Bitweise Operationen
+    - [ ] [Bits Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] Erhalte sehr gutes Verständnis Bits zu manipulieren mit: &, |, ^, ~, >>, <<
+        - [ ] [Wörter](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] Gute Einführung:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -704,52 +704,52 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
+    - [ ] Zweier- und Einerkomplement
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
+    - [ ] Bits zählen
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] round to next power of 2:
+    - [ ] zur nächsten Zweierpotenz runden:
         - [Round Up To Next Power Of Two](https://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
+    - [ ] Werte tauschen:
         - [Swap](https://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
+    - [ ] Absolutwert:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
 </details>
 
-## Trees
+## Trees (Bäume)
 
 <details>
-<summary>Trees</summary>
+<summary>Trees (Bäume)</summary>
 
-- ### Trees - Notes & Background
+- ### Trees - Notizen und Hintergrund
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
+    - generell Baumerstellung
+    - Traversieren
+    - Algorithmen zum Manipulieren
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        - BFS notes:
-           - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
-        - DFS notes:
-            - time complexity: O(n)
-            - space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-            - inorder (DFS: left, self, right)
-            - postorder (DFS: left, right, self)
-            - preorder (DFS: self, left, right)
+        - BFS (Breitensuche) Notizen:
+           - Ebenenreihenfolge (BFS, mittels Queue)
+           - Zeitkomplexität: O(n)
+           - Speicherkomplexität: beste: O(1), schlechteste: O(n/2)=O(n)
+        - DFS (Tiefensuche) Notizen:
+            - Zeitkomplexität: O(n)
+            - Speicherkomplexität:
+                beste: O(log n) - durchschnittliche Höhe eines Baumes
+                schlechteste: O(n)
+            - inorder (DFS: links, selber, rechts)
+            - postorder (DFS: links, rechts, selber)
+            - preorder (DFS: selber, links, rechts)
 
-- ### Binary search trees: BSTs
+- ### Binary search trees: BSTs (Binäre Suchbäume)
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - starts with symbol table and goes through BST applications
+        - startet mit Symboltabelle und geht durch die BST Anwendungen
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
@@ -764,20 +764,20 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+        - [ ] insert    // füge Wert in Baum ein
+        - [ ] get_node_count // gibt ANzahl gespeicherter Werte
+        - [ ] print_values // gibt die Werte im Baum aus, vom Minimum zum Maximum
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] is_in_tree // gibt true zurück wenn der gegebene Wert im Baum vorkommt
+        - [ ] get_height // gibt die Höhe in Knoten zurück (Höhe eines einzelnen Knotens ist 1)
+        - [ ] get_min   // gibt den kleinsten Wert zurück der im Baum gespeichert ist
+        - [ ] get_max   // gibt den größten Wert zurück der im Baum gespeichert ist
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // gibt vom gegebenen Wert den nächstgrößeren Wert im Baum zurück, -1 wenn der nicht existiert
 
-- ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+- ### Heap (Haufen) / Priority Queue (Prioritätswarteschlange) / Binary Heap (Binärer Haufen)
+    - visualisiert als Baum, aber wächst üblicherweise linear im Speicher (Array, Linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -792,39 +792,39 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
+    - [ ] Implementierung eines Max-Heap:
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+        - [ ] sift_up - gebraucht fürs Einfügen
+        - [ ] get_max - gibt den größten Wert zurück, ohne ihn zu löschen
+        - [ ] get_size() - gibt Anzahl gespeicherter Element zurück
+        - [ ] is_empty() - gibt true zurück wenn der Heap keine Elemente enthält
+        - [ ] extract_max - gibt das Max-Element zurück, löscht es
+        - [ ] sift_down - gebraucht für extract_max
+        - [ ] remove(i) - entfernt Element an Position i
+        - [ ] heapify - erstellt einen Heap aus einen Array, gebraucht für heap_sort
+        - [ ] heap_sort() - nimmt ein unsortiertes Array und verwandelt es in ein sortiertes Array (in-place) mittles Max Heap
+            - Bemerkung: stattdessen einen Min Heap zu verwenden würde weniger Operationen brauchen, aber den Speicherbedarf verdoppeln (kann man nicht in-place machen).
 
 </details>
 
-## Sorting
+## Sortierung
 
 <details>
-<summary>Sorting</summary>
+<summary>Sortierung</summary>
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
+- [ ] Bemerkungen:
+    - Implementiere Sortierungen und weiß best case/worst case, durchschnittliche Komplexität von jeden:
+        - kein Bubble Sort - es ist furchtbar - O(n^2), außer wenn n <= 16
+    - [ ] Stabilität in Sortieralgorithmen ("Ist Quicksort stabil?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+    - [ ] Welche Algorithmen können mit verketteten Listen genutzt werden? Welche mit Arrays? Welche bei beiden?
+        - Ich würde nicht empfehlen verkettete Listen zu sortieren, aber Merge Sort ist machbar.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
+- Für Heap Sort, siehe Heap Datenstruktur oben. Heap Sort ist toll, aber nicht stabil.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
@@ -853,18 +853,18 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge Sort code:
+- [ ] Merge Sort Code:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick Sort code:
+- [ ] Quick Sort Code:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
+- [ ] Implementierung:
+    - [ ] Mergesort: O(n log n) Durchschnitt und worst case
+    - [ ] Quicksort O(n log n) Durchschnitt
     - Selection sort and insertion sort are both O(n^2) average and worst case
     - For heapsort, see Heap data structure above.
 

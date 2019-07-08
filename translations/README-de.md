@@ -121,16 +121,16 @@ Liste (Netzwerke, Sicherheit) ansehen.
     - [Tries (Präfixbäume)](#tries)
     - [Fließkommazahlen](#floating-point-numbers)
     - [Unicode](#unicode)
-    - [Byte-Reihenfolge](#endianness)
+    - [Endianness (Byte-Reihenfolge)](#endianness)
 - [Netzwerke](#networking)
-- [Systementwurf, Skalierbarkeit, Datenverarbeitung](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Abschließende Prüfung](#final-review)
-- [Coding Fragen Übung](#coding-question-practice)
+- [Systementwurf, Skalierbarkeit, Datenverarbeitung](#system-design-scalability-data-handling) (wenn du 4+ Jahre erfahrung hast)
+- [Finaler Rückblick](#final-review)
+- [Übungen zu Programmieraufgaben](#coding-question-practice)
 - [Programmieraufgaben/Wettbewerbe](#coding-exerciseschallenges)
 - [Wenn das Vorstellungsgespräch bald ansteht](#once-youre-closer-to-the-interview)
 - [Dein Lebenslauf](#your-resume)
 - [Denk dran wenn das Vorstellungsgespräch kommt](#be-thinking-of-for-when-the-interview-comes)
-- [Stell fragen an den Interviewer](#have-questions-for-the-interviewer)
+- [Stell Fragen an den Interviewer](#have-questions-for-the-interviewer)
 - [Wenn du den Job bekommst](#once-youve-got-the-job)
 
 ---------------- Alles unter der Linie ist optional ----------------
@@ -177,7 +177,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
     - [Geometrie, Konvexe Hülle](#geometry-convex-hull-videos)
     - [Diskrete Mathematik](#discrete-math)
     - [Machine Learning (maschinelles Lernen)](#machine-learning)
-- [Weitere Details für ausgewählte Themen](#additional-detail-on-some-subjects)
+- [Weitere Details zu ausgewählten Themen](#additional-detail-on-some-subjects)
 - [Videoreihen](#video-series)
 - [Infomatikkurse](#computer-science-courses)
 - [Paper (Wissenschaftliche Artikel)](#papers)
@@ -1155,12 +1155,12 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    Wer noch mehr Details zu diesen Thema erfahren möchte, sollte sich den "String Matching" Abschnitt unter [Weitere Details zu ausgewählten Themen](#additional-detail-on-some-subjects) ansehen
 
-- ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path.
-    - I read through code, but will not implement.
+- ### Tries (Präfixbäume)
+    - Achtung, es gibt mehrere Arten von Tries. Manche haben Präfixe, manche nicht, und manche benutzen Strings anstelle von Bits
+        um den Pfad zu markieren.
+    - Ich habe mir den Code durchgelesen, aber werde es nicht selber implementieren.
     - [ ] [Sedgewick - Tries (3 Videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
         - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
@@ -1175,24 +1175,24 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (video)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### Floating Point Numbers
-    - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
-    - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+- ### Fließkommazahlen
+    - [ ] 8 Bit: [Representation of Floating Point Numbers - 1 (Video - es gibt einen Fehler in den Berechnungen - siehe Videobeschreibung)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] 32 Bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
 - ### Unicode
     - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
     - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
 
-- ### Endianness
+- ### Endianness (Byte-Reihenfolge)
     - [ ] [Big And Little Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+        - Sehr technischer Vortrag für Kernel-Devs. Keine Sorge wenn du das meiste nicht verstehst.
+        - Die erste Hälfte ist ausreichend.
 
-- ### Networking
-    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
-    - otherwise, this is just good to know
+- ### Netzwerke
+    - **Wenn man Erfahrungen mit Netzwerken hat oder Reliability Engineer oder Operations Engineer werden will, erwartet Fragen dazu**
+    - ansonsten, ist es nur gut zu wissen
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
@@ -1209,36 +1209,36 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
 
 </details>
 
-## System Design, Scalability, Data Handling
+## Systementwurf, Skalierbarkeit, Datenverarbeitung
 
 <details>
-<summary>System Design, Scalability, Data Handling</summary>
+<summary>Systementwurf, Skalierbarkeit, Datenverarbeitung</summary>
 
-**You can expect system design questions if you have 4+ years of experience.**
+**Man kann mit Fragen über Systementwurf rechnen, falls man 4+ Erfahrung hat.**
 
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this.
-- Considerations:
-    - scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - system design
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
+- Skalierbarkeit und Systementwurf sind sehr große Themengebiete mit vielen verschiedenen Themen und Quellen, 
+	  weil es so viel zu beachten gibt wenn man eine Software/Hardware baut die skalierbar ist.
+	  Erwarte viel Zeit damit zu verbringen.
+- Überlegungen:
+    - Skalierbarkeit
+        - vereinfache große Datenmengen zu Einzelwerten
+        - Transformiere einen Datensatz in einen anderen
+        - gehe mit absurd großen Datenmenegen um
+    - Systementwurf
+        - Feature Sets
+        - Schnittstelen
+        - Klassenhierarchien
+        - entwerfe System unter bestimmte Vorgaben
+        - Einfachheit und Robustheit
+        - Kompromisse
+        - Performance Analyse und Optimierung
 - [ ] **HIER ANFANGEN**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Es gibt hier viele Quellen. Sieh dir Artikel und Beispiel an. Ich habe ein paar davon unten hingeschrieben.
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
@@ -1301,59 +1301,59 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
     - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+    - [ ] Siehe "Messaging, Serialization und Queueing Systems" weiter unten für Infos über manche Technologien die Services miteinander verbinden können
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the [Video Series](#video-series) section.
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
+    - Für sogar noch mehr, siehe "Mining Massive Datasets" Videoreihen im [Videoreihen](#video-series) Abschnitt.
+- [ ] Übe den Prozess des Systementwurfs: Hier sind ein paar Ideen die man auf Papier durchspielen kann, jede mit einer Dokumentation wie es in der echten Welt umgesetzt wurde:
     - Review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - define the use cases, with interviewer's help
-            - suggest additional features
-            - remove items that interviewer deems out of scope
-            - assume high availability is required, add as a use case
-        2. Think about constraints:
-            - ask how many requests per month
-            - ask how many requests per second (they may volunteer it or make you do the math)
-            - estimate reads vs. writes percentage
-            - keep 80/20 rule in mind when estimating
-            - how much data written per second
-            - total storage required over 5 years
-            - how much data read per second
-        3. Abstract design:
-            - layers (service, data, caching)
-            - infrastructure: load balancing, messaging
-            - rough overview of any key algorithm that drives the service
-            - consider bottlenecks and determine solutions
-    - Exercises:
-        - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
-        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
-        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
-        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
-        - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
+    - [Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - Ablauf:
+        1. Verstehe das Problem und den Umfang:
+            - definiere den Anwendungsfall , was dem Interviewer helfen wird
+            - schlage zusätzliche Funktionen vor
+            - entferne Elemente die laut Interviewer nicht zum Umfang passen
+            - nimme an das hohe Erreichbarkeit gefordert ist, füge das zu den Anwendungsfällen hinzu
+        2. Denke über Beschränkungen nach:
+            - frag wie viele Anfragen im Monat es gibt
+            - frag wie viele Anfragen in der Sekunde es gibt (sie sagen es entweder freiwillig oder du solltest es selbst ausrechnen)
+            - schätze prozentuales Verhältnis zwischen Lese- und Schreibzugriffe
+            - denk an die 80/20 Regel in mind bei der Schätzung
+            - wie viel Daten pro Sekunde geschrieben werden
+            - absoluter Speicherverbrauch für 5 Jahre
+            - wie viele Daten pro Sekunde gelesen werden
+        3. Abstrakter Entwurf:
+            - Ebenen (Service, Daten, Caching)
+            - Infrastruktur: Load Balancing, Messaging
+            - grobe Übersicht einiger Schlüsselalgorithmen die den Service antreiben
+            - berücksichtige Flaschenhalse und finde Lösungen
+    - Übungen:
+        - [Entwerfe ein CDN Netzwerk: alter Artikel](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
+        - [Entwerfe ein System um zufällige einmalige IDs zu generieren](https://blog.twitter.com/2010/announcing-snowflake)
+        - [Entwerfe ein Online Multiplayer Kartenspiel](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
+        - [Entwerfe eine Key-Value Datenbank](http://www.slideshare.net/dvirsky/introduction-to-redis)
+        - [Entwerfe einen System um Bilder zu teilen](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+        - [Entwerfe ein Empfehlungssystem](http://ijcai13.org/files/tutorial_slides/td3.pdf)
+        - [Entwerfe ein URL-Shortener System: von oben kopiert](http://www.hiredintech.com/system-design/the-system-design-process/)
+        - [Entwerfe ein Cache System](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
 </details>
 
 ---
 
-## Final Review
+## Finaler Rückblick
 
 <details>
-<summary>Final Review</summary>
+<summary>Finaler Rückblick</summary>
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+	Dieser Abschnitt enthält kürzere Videos die man sich ziemlich schnell anschauen kann um die wichtigsten Konzepte nochmal zu wiederholen.
+    Das ist ganz gut falls man sein Wissen öfter mal auffrischen möchte.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
+- [ ] Reihe mit kurzen 2-3 Minuten Videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
+- [ ] Reihe mit kurzen 2-5 Minuten Videos - Michael Sambol (18 videos):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
@@ -1362,67 +1362,68 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
 
 ---
 
-## Coding Question Practice
+## Übungen zu Programmieraufgaben
 
 <details>
-<summary>Coding Question Practice</summary>
+<summary>Übungen zu Programmieraufgaben</summary>
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Jetzt da ihr alle Informatikfragen von oben kennt, wird es Zeit Antworten auf Codingfragen zu üben.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Bei den Übungen geht es nicht darum sich die Antworten zu merken.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+Warum du üben musst Programmieraufgaben zu lösen:
+- Probleme wiedererkennen, und welche Datenstrukturen und Algorithmen sich dazu eignen
+- Anforderungen an das Problem sammeln
+- das Problem zu besprechen wie man es im Vorstellungsgespräch tun würde
+- auf der Tafel oder dem Papier zu entwickeln, nicht auf den Computer
+- die Zeit- und Speicherkomplexität zu ermittlen
+- sein Lösung zu testen
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+Es gibt eine großartige Einführung für das methodische, kommunikative Problem lösen in einem Vorstellungsgespräch.
+Das kann man auch von Büchern über Vorstellungsgespräche lernen, aber das fand ich herausragend:
+[Algorithm Design Canvas](http://www.hiredintech.com/algorithm-design/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+Keine Tafel zu hause? Macht Sinn. Ich bin ein Spinner und habe eine große Tafel.
+Anstelle einer Tafel hol dir ein großes Zeichenbrett aus dem Kunstladen. Du kannst auf dem Sofa sitzen und üben.
+Das ist meine "Sofatafel". Ich habe auf den Foto ein Stift dazu gelegt um die Größenverhältnisse darzustellen.
+Wenn man mit Stift schreibt, wünscht man sich man könnte löschen. Wird schnell sehr unordentlich.
 
-![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+![meine Sofatafel](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-Supplemental:
+Zusatz:
 
 - [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**Lese und löse Programmieraufgaben (in dieser Reihenfolge):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - Antworten in C, C++ und Java
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Antworten in Java
 
-See [Book List above](#book-list)
+Siehe [Buchliste oben](#book-list)
 
 </details>
 
-## Coding exercises/challenges
+## Programmieraufgaben/Wettbewerbe
 
 <details>
-<summary>Coding Question Practice</summary>
+<summary>Programmieraufgaben/Wettbewerbe</summary>
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Nachdem du dir die grauen Zellen weg gelernt hast, lass die grauen Zellen arbeiten.
+Nimm jeden Tag eine Herausforderung an, so viele wie du kannst.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+Videos über Codingfragen im Vorstellungsgespräch:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
 
-Challenge sites:
+Wettbewerbsseiten:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1436,7 +1437,7 @@ Challenge sites:
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 
-Challenge repos:
+Wettbewerbsrepos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Mock Interviews:
@@ -1446,119 +1447,120 @@ Mock Interviews:
 
 </details>
 
-## Once you're closer to the interview
+## Wenn das Vorstellungsgespräch bald ansteht
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
+- [ ] Cracking The Coding Interview Teil 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
-## Your Resume
+## Dein Lebenslauf
 
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- Siehe Lebenslauf Vorbereitung in Cracking The Coding Interview und den hinteren Teil von Programming Interviews Exposed
 
 
-## Be thinking of for when the interview comes
+## Denk dran wenn das Vorstellungsgespräch kommt
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Rechne mit 20 Interviewfragen die dir gestellt werden, zusammen mit den unteren Zeilen. Bereite 2 - 3 Antworten für jede vor.
+Bereite ein Geschichte vor, nicht nur ein paar Infos, über etwas das du erreicht hast.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Warum möchtest du den Job?
+- Was ist ein schweres Problem das du gelöst hast?
+- Die größte Herausforderung vor der du standest?
+- Bester/schlechtester Entwurf den du gesehen hast?
+- Ideen um ein bestehendes Produkt zu verbessern.
+- Wie arbeitest du am Besten, als Individuum und als Teil eines Teams?
+- Welche deiner Fertigkeiten und Erfahrungen würden dir in der Rolle helfen und warum?
+- Was hat dir am meisten Spaß gemacht an [Job x / Projekt y]?
+- Was war die größte Herausforderung im [Job x / Projekt y]?
+- Was war der schwerste Bug den du bearbeitet hast in [Job x / Projekt y]?
+- Was hast du in [Job x / Projekt y] gelernt?
+- Was hättest du gerne besser gemacht in [Job x / Projekt y]?
 
-## Have questions for the interviewer
+## Stell Fragen an den Interviewer
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+	Einige von meinen (ich weiß vielleicht schon die Antwort aber möchte gerne ihre Meinung oder die Meinung des Teams hören):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- Wie groß ist das Team?
+- Wie sieht der Entwicklungszyklus aus? Macht ihr Wasserfall/Sprints/agil?
+- Wird oft zu Abgabeterminen gehetzt? Oder seid ihr flexibel?
+- Wie werden Entscheidungen in euren Team getroffen?
+- Wie viele Meetings habt ihr pro Woche?
+- Hilft dir die Arbeitsumgebung dich zu konzentrieren?
+- Woran arbeitet ihr gerade?
+- Was gefällt dir daran?
+- Wie ist das Arbeitsleben so?
 
-## Once You've Got The Job
+## Wenn du den Job bekommst
 
-Congratulations!
+Gratulation!
 
-Keep learning.
+Lerne weiter.
 
-You're never really done.
-
----
-
-    *****************************************************************************************************
-    *****************************************************************************************************
-
-    Everything below this point is optional.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
-    *****************************************************************************************************
-    *****************************************************************************************************
+Man ist nie wirklich fertig.
 
 ---
 
-## Additional Books
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+    Alles unterhalb hiervon ist optional.
+	Wenn man das studiert, bekommt man mehr Wissen zu Informatikkonzepten, und wird besser auf
+	einen Software Engineer Job vorbereitet sein. 
+	Everything below this point is optional. Man ist dann ein abgerundeterer Software Engineer.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---
+
+## Zusätzliche Bücher
 
 <details>
-<summary>Additional Books</summary>
+<summary>Zusätzliche Bücher</summary>
 
 - [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
-    - an oldie but a goodie
+    - alt aber gut
 - [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - a modern option
+    - eine moderne Variante
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
+    - eine behutsame Einführung zu Design Patterns
 - [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - aka the "Gang Of Four" book, or GOF
-    - the canonical design patterns book
+    - auch bekannt als das "Gang Of Four" Buch, oder GOF
+    - das anerkannte Buch zu Design Patterns
 - [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
-        - class textbook on data structures and algorithms
-            - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - Can rent it on kindle
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+    - Als ein Rückblick und zur Problemerkennung
+    - Der Katalog an Algorithmen ist weit über den Schwierigkeitsgrad den man in Vorstellungsgesprächen hat.
+    - Dieses Buch besteht aus 2 Teilen:
+        - Textbuch über Datenstrukturen und Algorithmen
+            - Vorteile:
+                - guter Rückblick wie jedes Algorithmen Textbuch es wäre
+                - nette Erfahrungsberichte wie er Probleme gelöst hat aus der Industrie oder in der akademischen Welt
+                - Codebeispiele in C
+            - Nachteile:
+                - kann so vollgestopft und unzugänglich sein wie CLRS, und bei einigen Themen wäre CLRS die bessere Wahl
+                - Kapitel 7, 8, 9 sind extrem schwer zu folgen, weil einige Dinge nicht gur erklärt werden oder ich einfach zu dumm bin
+                - versteh mich nicht falsch: Ich mag Skiena, seine Art zu Unterrichten, seine Eigenheiten, aber ich mag nicht das Stony Brook Material.
+        - Algorithmenkatalog:
+            - Das ist der eigentliche Grund weswegen ich dieses Buch gekauft habe.
+            - muss mich noch einlesen. Werde das hier ergänzen sobald ich durch bin.
+    - kann man auf den Kindle ausleihen
+    - Antworten:
+        - [Lösungen](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [Lösungen](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+    - **Wichtig:** Das Buch zu lesen ist nur eingschränkt von Nutzen. Das Buch ist ein toller Rückblick auf Algorithmen und Datenstrukturen, aber man lernt dadurch nicht guten Code zu schreiben. Man muss in der Lage sein effizient vernünftigen Code zu schreiben.
+    - aka CLR, manchmal CLRS, weil Stein erst später dazu kam
 
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
-    - For a richer, more up-to-date (2017), but longer treatment
+    - Für eine tiefere, aktuellere (2017), aber auch längere Behandlung
 
 - [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+    - Die ersten paar Kapitel beinhalten clevere Lösungen auf Programmieraufgaben (einige sehr alte mit Datenkasetten) aber
+      es reicht aus für eine Einführung. Das ist ein Ratgeber zu Programmentwurf und -architektur, vergleichbar mit Code Complete, aber viel kürzer.
 
 </details>
 
@@ -1572,18 +1574,18 @@ You're never really done.
 These topics will likely not come up in an interview, but I added them to help you become a well-rounded
 software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
 
-- ### Compilers
+- ### Compiler
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Emacs and vi(m)
+- ### Emacs und vi(m)
     - Familiarize yourself with a unix-based code editor
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
+        - Reihe mit 4 Videos:
             - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
             - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
@@ -1591,7 +1593,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
         - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - Reihe mit 3 Videos:
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
@@ -1869,7 +1871,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - see videos below
 
 - ### Machine Learning
-    - [ ] Why ML?
+    - [ ] Warum ML?
         - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
@@ -1878,9 +1880,9 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
     - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
     - [ ] [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses:
+    - Kurse:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - [nur Videos](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
         - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
@@ -1899,10 +1901,10 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 ---
 
-## Additional Detail on Some Subjects
+## Weitere Details zu ausgewählten Themen
 
 <details>
-<summary>Additional Detail on Some Subjects</summary>
+<summary>Weitere Details zu ausgewählten Themen</summary>
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
@@ -1976,7 +1978,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 ## Videoreihen
 
-Lehn dich zurück und genieße. "Netflix and skill" :P
+Zurücklehnen und genießen. "Netflix and skill" :P
 
 <details>
 <summary>Videoreihen</summary>

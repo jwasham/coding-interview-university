@@ -149,9 +149,9 @@ Liste (Netzwerke, Sicherheit) ansehen.
     - [Kryptographie](#cryptography)
     - [Kompression](#compression)
     - [Sicherheit](#computer-security)
-    - [Garbage collection (automatische Speicherverwaltung)](#garbage-collection)
+    - [Garbage collection (automatische Speicherbereinigung)](#garbage-collection)
     - [Parallelisierung](#parallel-programming)
-    - [Messaging, Serialisierung und Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Messaging, Serialisierung und Queueing Systeme](#messaging-serialization-and-queueing-systems)
     - [A*](#a)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
@@ -159,17 +159,17 @@ Liste (Netzwerke, Sicherheit) ansehen.
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
     - [van Emde Boas Trees](#van-emde-boas-trees)
     - [Augmentierte Datenstrukturen](#augmented-data-structures)
-    - [Balancierte Suchbäume](#balanced-search-trees)
+    - [Balanced search trees (Balancierte Suchbäume)](#balanced-search-trees)
         - AVL Bäume
         - Splay Bäume
         - Rot-Schwarz-Bäume
-        - 2-3 Suchbäume
+        - 2-3 Bäume
         - 2-3-4 Bäume (aka 2,4 Bäume)
         - N-fache (K-fache, M-fache) Bäume
         - B-Bäume
     - [k-D Bäume](#k-d-trees)
-    - [Skip-Listen](#skip-lists)
-    - [Netwerk Flüsse und Schnitte](#network-flows)
+    - [Skip Listen](#skip-lists)
+    - [Netzwerkflüsse](#network-flows)
     - [Disjunkte Mengen & Union Find](#disjoint-sets--union-find)
     - [Mathematik für schnelle Berechnungen](#math-for-fast-processing)
     - [Treap](#treap)
@@ -1566,13 +1566,14 @@ Man ist nie wirklich fertig.
 
 </details>
 
-## Additional Learning
+## Zusätzliches Wissen
 
 <details>
-<summary>Additional Learning</summary>
+<summary>Zusätzliches Wissen</summary>
 
-These topics will likely not come up in an interview, but I added them to help you become a well-rounded
-software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
+Diese Themen werden vermutlich nicht in einen Vorstellungsgepräch aufkommen, aber ich habe sie trotzdem hinzugeüfgt
+um euch dabei zu helfen ein vollständiger Software Engineer zu werden und damit ihr über bestimmte Technologien und
+Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt.
 
 - ### Compiler
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1581,7 +1582,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - ### Emacs und vi(m)
-    - Familiarize yourself with a unix-based code editor
+    - macht euch bekannt mit Unix-basierten Code Editoren
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
@@ -1601,8 +1602,8 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix command line tools
-    - I filled in the list below from good tools.
+- ### Unix Kommandozeilenwerkzeuge
+    - Ich habe in die Liste unten nützliche Werkzeuge gepackt.
     - [ ] bash
     - [ ] cat
     - [ ] grep
@@ -1615,13 +1616,13 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Informationstheorie (Videos)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - [ ] more about Markov processes:
+    - [ ] mehr über Markov-Prozesse:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below.
+    - für mehr, siehe "MIT 6.050J: Information and Entropy" weiter unten.
 
 - ### Parität und Hamming Code (videos)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
@@ -1631,20 +1632,20 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Entropie
+    - siehe Videos unten
+    - stell sicher, dass du zuerst die Informationstheorie Videos gesehen hast
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Kryptographie
+    - siehe Videos unten
+    - stell sicher, dass du zuerst die Informationstheorie Videos gesehen hast
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - make sure to watch information theory videos first
+- ### Kompression
+    - stell sicher, dass du zuerst die Informationstheorie Videos gesehen hast
     - [ ] Computerphile (videos):
         - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
@@ -1655,7 +1656,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Computer Security
+- ### Sicherheit
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1670,16 +1671,16 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Garbage collection
+- ### Garbage collection (automatische Speicherbereinigung)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
+- ### Parallelisierung
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
+- ### Messaging, Serialisierung und Queueing Systeme
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1714,7 +1715,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+	- Gegeben ein Bloom Filter mit m Bits und k Hashingfunktionen, beides insertion und membership-Tests sind O(k)
     - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
@@ -1732,143 +1733,144 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
-- ### Augmented Data Structures
+- ### Augmentierte Datenstrukturen
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
-- ### Balanced search trees
-    - Know at least one type of balanced binary tree (and know how it's implemented):
+- ### Balanced search trees (Balancierte Suchbäume)
+	- mind. 1 Art von Balancierten Suchbäumen kennen (und wissen wie es implementiert wird)
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code.
-        - splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets.
+    - Ich habe mich dazu entschieden einen Splay Tree zu implementieren. Von dem was ich gelesen habe, wird man kein
+        balanciereten Suchbaum in einem Vorstellungsgespräch implementieren. ABer ich wollte die Erfahrung machen selber einen zu coden
+        und seien wir mal ehrlich, Splay Trees sind Alleskönner. Ich habe eine Menge Code für Rot-Schwarz Bäume gelesen.
+        - Splay Tree: insert, search, delete Funktionen
+		Falls man mit einen Rot-Schwarz Baum endet, versuch das:
+        - search und insertion Funktionen, delete überspringen
+    - Ich möchte mehr über B-Bäume lernen da sie so weit verbreitet sind bei riesigen Datenmengen.
     - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
-    - [ ] **AVL trees**
-        - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
-            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-            attractive for data structures that may be built once and loaded without reconstruction, such as language
-            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
+    - [ ] **AVL Trees**
+        - In der Praxis:
+			Meines Wissens nach werden sie nicht so oft in der Praxis verwendet, aber ich könnte mir vorstellen wo sie verwendet werden:
+            Der AVL Tree ist eine weitere Datenstruktur die O(log n) Suchen, Einfügen und Löschen unterstützt.
+			Sie sind strenger balanciert als Rot-Schwarz Bäume, was das EInfügen und Löschen verlangsamt aber das Auslesen beschleunigt.
+			Das macht sie attraktiv für Datenstrukturen die nur einmal aufgebaut und geladen werden ohne Umbau,
+			so wie Wörterbücher für Sprachen (oder für Programme, wie z.B. der Opcode eines Assemblers oder Interpreters).
         - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
         - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
 
-    - [ ] **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking and file system code) etc.
+    - [ ] **Splay Trees**
+        - In der Praxis:
+			Splay Trees werden typischerweise bei der Implementierung von Caches, Speicherverwaltung, Routers, Garbage Collectoren,
+			Datenkompression, Ropes (Ersatz für String, gebraucht für lange Texte), in Windows NT (im virtuellen Speicher,
+			Netzwerk und Dateisystem Code) etc. verwendet
         - [ ] [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
-        - [ ] MIT Lecture: Splay Trees:
-            - Gets very mathy, but watch the last 10 minutes for sure.
+        - [ ] MIT Vorlesung: Splay Trees:
+            - Wird sehr mathematisch, aber man sollte sich auf jeden Fall die letzten 10 Minuten ansehen.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
-    - [ ] **Red/black trees**
-        - these are a translation of a 2-3 tree (see below)
-        - In practice:
-            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-            Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
-            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-            hashcodes, a Red-Black tree is used.
-        - [ ] [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+    - [ ] **Red/black trees (Rot-Schwarz Bäume)**
+        - sind eine umgewandelte Form von 2-3 Bäumen (siehe unten)
+        - In der Praxis:
+			Rot-Schwarz Bäume bieten eine worst-case Laufzeitgarantie für Einfügen, Löschen und suchen.
+			Das macht sie nicht nur wertvoll für zeitkritische Anwendungen wie Echtzeitanwendungen,
+			sondern es macht sie auch zu wertvollen Bausteinen in andere Datenstrukturen mit worst-case Garantien.
+			Z.B. viele Datenstrukturen aus der algorithmischen Geometrie können auf Rot-Schwarz Bäumen basieren,
+			und der Completely Fair Scheduler der in aktuellen Linux Kernels verwendet wird benutzt Rot-Schwaz Bäume.
+			In Java 8 wurde die Collection Hashmao so angepasst, dass anstelle einer verketteten Listen ein Rot-Schwarz Baum
+			benutzt wird um identische Elemente mit schlechten Hashwerten zu speichern.
+        - [ ] [Aduni - Algorithms - Lecture 4 (Link springt direkt zum Anfang) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
-    - [ ] **2-3 search trees**
-        - In practice:
-            2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
-        - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
+    - [ ] **2-3 Bäume**
+        - In der Praxis:
+            Bei 2-3 Suchbäumen kann man schneller einfügen zu Lasten von langsameren Suchen (weil die Höhe größer ist verglichen mit AVL Trees).
+        - Man würde einen 2-3 Tree nur sehr selten verwenden, weil deren Implementierung mehrere verschiedene Arten von Knoten umfasst. Stattdessen benutzt man Rot-Schwarz Bäume.
         - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-    - [ ] **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
+    - [ ] **2-3-4 Bäume (aka 2-4 Bäume)**
+        - In der Praxis:
+			Für jeden 2-4 Baum exist ein Rot-Schwarz Baum mit Datenelementen in der selben Reihenfolge.
+			Das Einfügen und Löschen auf 2-4 Bäumen ist äquivalent zum Farbwechsel und Rotation im Rot-Schwarz Baum.
+			Das macht 2-4 Bäume zu einen wichtigen Werkzeug um die Logik hinter Rot-Schwarz Bäumen zu verstehen,
+			und deswegen führen viele Algorithmen Bücher für Einsteiger 2-4 Bäume direkt vor Rot-Schwarz Bäumen ein
+			selbst obwohl **2-4 trees nicht oft in der Praxis benutzt werden**.
         - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
-    - [ ] **N-ary (K-ary, M-ary) trees**
-        - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
-        - 2-3 trees are 3-ary
+    - [ ] **N-fache (K-fache, M-fache) Bäume**
+        - Notiz: das N oder K ist der Verzweigungsgrad (max Zweige)
+        - Binärbäume sind 2-fache Bäume, mit Verzweigungsgrad = 2
+        - 2-3 Trees sind 3-fache
         - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
-    - [ ] **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address.
+    - [ ] **B-Bäume**
+        - Fun Fact: Es ist ein Mysterium, aber das B könnte für Boeing, Balanciert, oder Bayer (Co-Erfinder) stehen
+        - In der Praxis:
+			B-Bäume sind weit verbreitet in Datenbanken. Die meisten modernen Dateisysteme sind B-Bäume (oder Varianten davon).
+            Zusätzlich zum Einsatz in Datenbanken, werden B-Bäume auch in Dateisystemen benutzt um schnellen Zugriff auf einen
+			beliebigen Block in einer bestimmten Datei zu ermöglichen.
+			Das Grundproblem ist es die Adresse eines Dateiblockes in die Adresse eines Diskblocks (oder eines Zylinder-Kopf-Sektors) zu verwandeln.
         - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
         - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - covers cache-oblivious B-Trees, very interesting data structures
-                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+                - behandelt cache-oblivious B-Bäume, sehr interessante Datenstrukturen
+                - die ersten 37 Minuten sind sehr technisch, können übersprungen werden (B ist Blockgröße, Cache Zeilen Länge)
 
 
-- ### k-D Trees
-    - great for finding number of points in a rectangle or higher dimension object
-    - a good fit for k-nearest neighbors
+- ### k-D Bäume
+    - großartig um mehrere Punkte in einem Rechteck oder höherdimensionalen Objekten zu finden
+    - gut geeignet für k-nearest neighbors
     - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
     - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
-- ### Skip lists
+- ### Skip Listen
     - "These are somewhat of a cult data structure" - Skiena
     - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Network Flows
+- ### Netzwerkflüsse
     - [ ] [Ford-Fulkerson in 5 minutes — Step by step example (video)](https://www.youtube.com/watch?v=Tl90tNtKvxs)
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ### Disjoint Sets & Union Find
+- ### Disjunkte Mengen & Union Find
     - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
     - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
-- ### Math for Fast Processing
+- ### Mathematik für schnelle Berechnungen
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
 - ### Treap
-    - Combination of a binary search tree and a heap
+    - Kombination eines binären Suchbaums mit eine Heap
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
     - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ### Linear Programming (videos)
+- ### Lineare Programmierung (videos)
     - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
     - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
     - [ ] [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
-- ### Geometry, Convex hull (videos)
+- ### Geometrie, Konvexe Hülle (videos)
     - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
     - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
-    - see videos below
+- ### Diskrete Mathematik
+    - siehe Videos unten
 
 - ### Machine Learning
     - [ ] Warum ML?
@@ -1883,14 +1885,14 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - Kurse:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [nur Videos](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+              - siehe Videos 12-18 für einen Auffrisung von Linearer Algebra (14 und 15 sind Duplikate)
         - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
         - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
-        - Books:
+    - Quellen:
+        - Bücher:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
             - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
             - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
@@ -1906,9 +1908,9 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 <details>
 <summary>Weitere Details zu ausgewählten Themen</summary>
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+	Ich habe das hinzugefügt um eine Ideen weiter oben zu verstärken, aber ich wollte sie nicht 
+	oben hinzufügen weil es sonst zu viel wäre. Es ist leicht es mit einen Thema zu übertreiben.
+	Ihr wollt doch noch in diesen Jahrhundert eingestellt werden, oder?
 
 - [ ] **Union-Find**
     - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
@@ -1927,11 +1929,11 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
     - [ ] [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] **Advanced Graph Processing** (videos)
+- [ ] **Fortgeschrittene Graphbearbeitung** (Videos)
     - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
+- [ ] MIT **Wahrscheinlichkeit** (mathematisch, es wird langsam angegangen was gut bei Mathe ist) (Videos):
     - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
@@ -1951,28 +1953,28 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - [ ] Knuth-Morris-Pratt (KMP):
-        - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
+        - [The Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
     - [ ] Boyer–Moore string search algorithm
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
     - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
-        - starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
-        - nice explanation of tries
-        - can be skipped
+        - fängt großartig an, wird aber nach KMP viel schwieriger als es sein müsste
+        - gute Erklärung von Tries
+        - kann übersprungen werden
 
 - [ ] **Sortierung**
 
-    - [ ] Stanford lectures on sorting:
+    - [ ] Stanford Vorlesungen über Sortierung:
         - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
         - [ ] [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
     - [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):
         - [ ] [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
         - [ ] [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
-    - [ ] Steven Skiena lectures on sorting:
-        - [ ] [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
-        - [ ] [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
+    - [ ] Steven Skiena Vorlesungen über Sortierung:
+        - [ ] [Vorlesung beginnt ab 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+        - [ ] [Vorlesung beginnt ab 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [Vorlesung beginnt ab 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [Vorlesung beginnt ab 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
 </details>
 

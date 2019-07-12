@@ -1,14 +1,14 @@
 # Coding Interview University
 
-> Ursprünglich habe ich dies als eine kurze To-Do Liste von Studienthemen angefangen um Software Engineer zu werden,
-> aber es ist zu der riesigen Liste herangewachsen die man heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
-> habe, [wurde ich als Software Entwickler bei Amazon eingestellt.](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> Wahrscheinlich wirst du nicht so viel lernen müssen wie ich. Aber egal, alles was man brauchst, findest man hier.
+> Ursprünglich habe ich dies als eine kurze To-do Liste von Studienthemen angefangen, um Software Engineer zu werden,
+> aber es ist zu der riesigen Liste herangewachsen, die man heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
+> habe, [wurde ich als Software Entwickler bei Amazon eingestellt](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Wahrscheinlich wirst du nicht so viel lernen müssen wie ich. Aber egal, alles was man braucht, findest man hier.
 >
 > Ich habe ungefähr 8-12 Stunden am Tag gelernt, und das für mehrere Monate. Hier ist meine Geschichte: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> Die Einträge in dieser Liste werden dich gut auf ein Vorstellungsgepräch bei so gut wie jeder Software Firma vorbereiten,
-> so bei den Giganten: Amazon, Facebook, Google oder Micrososft.
+> Die Einträge in dieser Liste werden dich gut auf ein Vorstellungsgespräch bei so gut wie jeder Software Firma vorbereiten,
+> so bei den Giganten: Amazon, Facebook, Google oder Microsoft.
 >
 > *Viel Glück!*
 
@@ -47,15 +47,15 @@
 
 ## Worum es geht
 
-Das ist mein mehrmonatiger Lernplan um vom Web Developer (Selbststudium, kein Abschluss in Informatik) zum Software Engineer bei einer großen Firma zu wechseln.
+Das ist mein mehrmonatiger Lehrplan um sich vom Web Developer (Selbststudium, kein Abschluss in Informatik) zum Software Engineer bei einer großen Firma zu entwickeln.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Dies ist gedacht für **neue Software Engineure** oder solche die von der Software/Web Entwicklung zum Software 
+Dies ist gedacht für **neue Software Engineers** oder solche die von der Software/Web Entwicklung zum Software 
 Engineering wechseln wollen (wobei Informatikkenntnisse benötigt werden). Falls man behauptet mehrere Jahre an Erfahrung
 als Software Engineer zu haben, erwartet einen ein hartes Vorstellungsgespräch.
 
-Falls du schon mehrere Jahre Erfahung in der Software/Webenteicklung hast, muss dir klar sein, dass große Software
+Falls du schon mehrere Jahre Erfahrung in der Software/Webentwicklung hast, muss dir klar sein, dass große Software
 Unternehmen wie Google, Amazon, Facebook oder Microsoft Software Engineering und Software Entwicklung 
 als unterschiedliche Dinge ansehen, und sie setzen Informatikkenntnisse voraus.
 
@@ -189,12 +189,12 @@ Liste (Netzwerke, Sicherheit) ansehen.
 ## Warum solltest du das hier lesen?
 
 Als ich dieses Projekt angefangen habe, konnte ich einen Stack nicht von einem Heap unterscheiden, wusste nichts von 
-Groß-O, nichts über Bäume, oder wie man einen Graphen durchläuft. Wenn ich einen Sortieralgorithmuss hätte schreiben sollen,
+Groß-O, nichts über Bäume, oder wie man einen Graphen durchläuft. Wenn ich einen Sortieralgorithmus hätte schreiben sollen,
 dann wäre der nicht besonders gut geworden, so viel kann ich dir sagen. Jede Datenstruktur die jemals benutzt habe war 
 direkt in der Programmiersprache eingebaut, und ich hatte keine Ahnung wie sie funktioniert haben. Ich muss niemals 
-Speichermanagement betreiben, außer einer der Prozesse die ich ausgeführt hatte hat einen "out of memory" Fehler gehabt. 
+Speichermanagement betreiben, außer einer der Prozesse, die ich ausgeführt hatte hat einen "out of memory" Fehler gehabt. 
 Und wenn das passiert ist, musste ich einen Umweg finden. Ich habe ein paar mehrdimensionale Arrays in meinen Leben benutzt
-und ein paar tausend assoziative Arrays, aber ich habe nie selbst eine Datenstruktur von Grund auf neu geschrieben. 
+und ein paar Tausend assoziative Arrays, aber ich habe nie selbst eine Datenstruktur von Grund auf neu geschrieben. 
 
 Es ist ein großer Plan. Es könnte mehrere Monate dauern. Falls dir schon vieles von dem bekannt ist, wird es dich viel 
 weniger Zeit kosten.
@@ -206,7 +206,7 @@ weniger Zeit kosten.
 
 Alles hier drunter ist ein Umriss, und du solltest die Aufgaben von oben nach untern abarbeiten.
 
-Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste um den Fortschritt zu prüfen.
+Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste, um den Fortschritt zu prüfen.
 
 **Erstelle einen neuen Branch. Damit du Einträge abhaken kannst, füge einfach nur ein x in eckigen Klammern ein: [x]**
 
@@ -219,7 +219,7 @@ Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste
 
 `git fetch --all`
 
-    Hake alle Kästchen mit x ab nachdem du die Änderungen vollzogen hast
+    Hake alle Kästchen mit x ab, nachdem du die Änderungen vollzogen hast
 
 `git add .`
 
@@ -234,7 +234,7 @@ Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste
 </details>
 
 ## Halt dich nicht für dümmer als du bist
-- Erfolgreiche Software Engineers sind klug, aber viele sind sich unsicher ob sie klug genug sind.
+- Erfolgreiche Software Engineers sind klug, aber viele sind sich unsicher, ob sie klug genug sind.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 - [Believe you can change](http://www.aaronsw.com/weblog/dweck)
@@ -242,12 +242,12 @@ Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste
 
 ## Über Videoquellen
 
-Auf manche Videos kann man nur zugreifen indem man sich bei einem Coursera- oder EdX-Kurs einschreibt. Das sind so
+Auf manche Videos kann man nur zugreifen, indem man sich bei einem Coursera- oder EdX-Kurs einschreibt. Das sind so
 genannte MOOCS. Manchmal werden die Kurse gerade nicht angeboten und man muss ein paar Monate warten. Man hat dann
 keinen Zugriff darauf.
 
-    Ich würde mich sehr freuen wenn du mir dabei hilfst kostenlose und immer verfügbare öffentliche Quellen hinzuzufügen,
-    wie z.B. YouTube Videos um die Online Kurse zu ergänzen.
+    Ich würde mich sehr freuen, wenn du mir dabei hilfst kostenlose und immer verfügbare öffentliche Quellen hinzuzufügen,
+    wie z.B. YouTube Videos, um die Online Kurse zu ergänzen.
     Ich benutze gerne Vorlesungen von Hochschulen.
 
 ## Ablauf von Vorstellungsgesprächen und allgemeine Vorbereitung darauf
@@ -269,7 +269,7 @@ keinen Zugriff darauf.
     - [ ] [Software Engineer Interview Unleashed (kostenpflichtiger Kurs)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Hier lernt von einem ehemaligen Google Interviewer wie man sich auf ein Vorstellungsgespräch als Software Engineer vorbereitet.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (kostenpflichtiger Kurs)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - Ein auf Python zugeschnittener Kurs welcher Datenstrukturen, Algorithme, Testinterviews und noch viel mehr behandelt.
+        - Ein auf Python zugeschnittener Kurs welcher Datenstrukturen, Algorithmen, Testinterviews und noch viel mehr behandelt.
     - [ ] [Intro to Data Structures and Algorithms using Python! (kostenloser Kurs auf Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
         - Ein kostenloser auf Python zentrierter Kurs über Datenstrukturen und Algorithmen.
     - [ ] [Data Structures and Algorithms Nanodegree! (kostenpflichtiges Nandegree Kurs auf Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
@@ -279,21 +279,21 @@ keinen Zugriff darauf.
 
 ## Wähle eine Sprache für das Vorstellungsgespräch
 
-Man sollte eine Sprache wählen mit der man sich wohl fühlt beim Codingteil des Vorstellungsgesprächs.
+Man sollte eine Sprache wählen mit der man sich wohlfühlt beim Codingteil des Vorstellungsgesprächs.
 Aber für große Firmen sind das valide Optionen:
 
 - C++
 - Java
 - Python
 
-Man könnte auch diese verwenden, aber pass auf. Es könnte eineige Vorbehalte geben:
+Man könnte auch diese verwenden, aber pass auf. Es könnte einige Vorbehalte geben:
 
 - JavaScript
 - Ruby
 
 Hier ist ein Artikel den ich über die Auswahl der Programmiersprache für das Vorstellungsgespräch geschrieben habe: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
 
-Du musst dich mit der Sprache wohl fühlen und auskennen.
+Du musst dich mit der Sprache wohlfühlen und auskennen.
 
 Hier kannst du mehr über die Wahl lesen:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
@@ -305,14 +305,14 @@ Unten sind ein paar Materialien zu C, C++ und Python zu finden, weil ich das ger
 
 ## Buchliste
 
-Die Liste ist kürzer als die, die ich tatsächlich benutzt habe. Ich habe es etwas abgekürzt um euch Zeit zu sparen.
+Die Liste ist kürzer als die, die ich tatsächlich benutzt habe. Ich habe es etwas abgekürzt, um euch Zeit zu sparen.
 
 ### Vorbereitung auf das Vorstellungsgespräch
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - Antworten in C++ und Java
     - eine gute Aufwärmübung für Cracking the Coding Interview
-    - nicht allzu schwer, die meisten Probelem sind einfacher als das was ihr in Vorstellungsgesprächen sehen werdet (von dem was ich so gelesen habe)
+    - nicht allzu schwer, die meisten Probleme sind einfacher als das, was ihr in Vorstellungsgesprächen sehen werdet (von dem, was ich so gelesen habe)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Antworten in Java
 
@@ -331,7 +331,7 @@ Such dir eins aus:
 ### Rechnerarchitektur
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - Das Buch wurde 2004 veröffentlicht und ist etwas veraltet, aber es ist eine hervorragende Quelle um Computer in Kürze zu verstehen.
+    - Das Buch wurde 2004 veröffentlicht und ist etwas veraltet, aber es ist eine hervorragende Quelle, um Computer in Kürze zu verstehen.
     - Der Autor hat [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) erfunden, also sollte man die Erwähnungen und Beispiele in HLA mit Vorsicht genießen. Nicht weit verbreitet, aber ein nettes Beispiel wie Assembly Code aussehen kann.
     - Diese Kapitel sind es wert zu lesen um euch eine gute Grundlage zu geben:
       <details>
@@ -354,10 +354,10 @@ Such dir eins aus:
 
 **Man muss sich für das Vorstellungsgespräch für eine Programmiersprache entschieden haben (siehe oben).**
 
-Hier sind meine Empfehlungen geordnet nach Sprache. Ich habe nicht für alle Sprachen Material. Ich begrüße Ergänzugen.
+Hier sind meine Empfehlungen geordnet nach Sprache. Ich habe nicht für alle Sprachen Material. Ich begrüße Ergänzungen.
 
-Wenn du dich durch eins davon durchgelsen hast, solltest du genügende Wissen über Datenstrukturen und Algorithmen haben um Coding Probleme lösen zu können.
-**Man kann alle Videolektionen in diesen Projekt überspringen**, außer du willst eine Auffrischung.
+Wenn du dich durch eins davon durchgelesen hast, solltest du genügende Wissen über Datenstrukturen und Algorithmen haben, um Coding Probleme lösen zu können.
+**Man kann alle Videolektionen in diesem Projekt überspringen**, außer du willst eine Auffrischung.
 
 [Zusätzliches sprachspezifisches Material hier.](programming-language-resources.md)
 
@@ -390,7 +390,7 @@ ODER:
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - von Goodrich, Tamassia, Goldwasser
     - wird bei der UC Berkeley als Zusatzmaterial für den Informatik Einstieg benutzt
-    - siehe Zusammenfassung zur Python Version, dieses Buch behandelt die selben Themen.
+    - siehe Zusammenfassung zur Python Version, dieses Buch behandelt dieselben Themen.
 
 </details>
 
@@ -401,7 +401,7 @@ ODER:
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - von Goodrich, Tamassia, Goldwasser
-    - Ich habe dieses Buch gelibet. Es hat alles behandelt und mehr.
+    - Ich habe dieses Buch geliebt. Es hat alles behandelt und mehr.
     - Python-hafter Code
     - meine feurige Rezension: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
@@ -416,8 +416,8 @@ Hier einige Fehler die ich gemacht habe, damit ihr ein besseres Erlebnis haben k
 
 ### 1. Du wirst dich nicht an alles erinnern können
 
-Ich habe stundelang Videos gesehen und reichlich Notizen geschrieben. Monate später gab es viel an das ich mich nicht mehr erinnern konnte.
-Ich habe 3 Tage damit verbracht meine Notizen durchzugehen und daraus Lernkarten zu erstellen, damit ich alles nochmal wiederholen konnte.
+Ich habe stundenlang Videos gesehen und reichlich Notizen geschrieben. Monate später gab es viel, an das ich mich nicht mehr erinnern konnte.
+Ich habe 3 Tage damit verbracht meine Notizen durchzugehen und daraus Lernkarten zu erstellen, damit ich alles noch mal wiederholen konnte.
 
 Bitte lesen damit ihr nicht meine Fehler wiederholt:
 
@@ -425,10 +425,10 @@ Bitte lesen damit ihr nicht meine Fehler wiederholt:
 
 ### 2. Benutz Lernkarten
 
-Um das Problem zu lösen, habe ich eine kleine Webseite erstellt wo ich 2 Arten von Lernkarten anlegen kann: Allgemein und Code.
+Um das Problem zu lösen, habe ich eine kleine Webseite erstellt, wo ich 2 Arten von Lernkarten anlegen kann: Allgemein und Code.
 Jede Karte hat ihr eigenes Format.
 
-Ich habe eine mobile-first Webseite gemacht, damit ich auf meinen Smart Phone oder Tablet lernen kann, egal wo ich mich befinde.
+Ich habe eine mobile-first Webseite gemacht, damit ich auf meinen Smartphone oder Tablet lernen kann, egal wo ich mich befinde.
 
 Erstell kostenlos deine eigenen Lernkarten:
 
@@ -439,13 +439,13 @@ Erstell kostenlos deine eigenen Lernkarten:
 Achtung, ich habe es übertrieben und Lernkarten über alles erstellt, von Assembly und Python Trivia bis hin zu Machine Learning und Statistik. Das ist viel mehr als eigentlich notwendig.
 
 **Anmerkung zu Lernkarten:** Wenn man sich einmal an eine Antwort erinnert, sollte man das nicht als Wissen ansehen.
-Man muss sich die Karte mehrmals ansehen und richtig beantworten bevor man es tatsächlich weiß. Wiederholung wird das
+Man muss sich die Karte mehrmals ansehen und richtig beantworten, bevor man es tatsächlich weiß. Wiederholung wird das
 Wissen tiefer in euren Verstand verankern.
 
 Eine Alternative zu Lernkarten ist [Anki](http://ankisrs.net/), was mir schon öfters empfohlen wurde. 
 Es benutzt ein Erinnerungssystem um einen dabei zu helfen sich zu erinnern.
-Es ist benutzerfreundlich, auf allen Plattformen erhaältlich und kann sich mit der Cloud synchronisieren.
-Es kostet 25$ auf iOS aber es ist kostenlos für andere Plattformen.  
+Es ist benutzerfreundlich, auf allen Plattformen erhältlich und kann sich mit der Cloud synchronisieren.
+Es kostet 25$ auf iOS, aber es ist kostenlos für andere Plattformen.  
 
 Meine Lernkarten Sammlung im Anki Format: https://ankiweb.net/shared/info/25173560 (Danke [@xiewenya](https://github.com/xiewenya))
 
@@ -457,11 +457,11 @@ Nimm dir eine Pause vom Programmieren für eine halbe Stunde und gehe deine Lern
 
 ### 4. Fokus
 
-Es gibt eine Menge Ablenkungen die dir deine kostbare Zeit stehlen können. Fokussiert und konzentriert zu bleiben ist schwer.
+Es gibt eine Menge Ablenkungen, die deine kostbare Zeit stehlen können. Fokussiert und konzentriert zu bleiben ist schwer.
 
 ## Was hier nicht behandelt wird
 
-Das sind weit verbreitete Technologien aber nicht Teil des Lehrplans:
+Das sind weitverbreitete Technologien aber nicht Teil des Lehrplans:
 
 - SQL
 - Javascript
@@ -472,21 +472,21 @@ Das sind weit verbreitete Technologien aber nicht Teil des Lehrplans:
 Einige der Themen brauchen einen Tag, für andere braucht man mehrere Tage. Manche sind reines Lernen ohne das man was implementiert.
 
 Jeden Tag nehme ich mir ein Thema aus der Liste unten vor, schaue Videos über das Thema, und schreibe eine Implementierung in:
-- C - mit structs and Funktionen die ein struct Pointer und und etwas anderes als Argumente benutzen.
+- C - mit structs und Funktionen die ein struct Pointer und und etwas anderes als Argumente benutzen.
 - C++ - ohne vorgefertigte Typen
 - C++ - mit vorgefertigte Typen, wie STL's std::list für verkettete Listen
 - Python - mit vorgefertigte Typen (um Python weiterhin zu üben)
-- und ich schreibe Tests um sicher zu gehen, dass ich richitg liege, manchmal sind das nur einfache assert() Statements
-- Du könntest auch Java oder etwas anderes machen, das ist nur das was ich tue.
+- und ich schreibe Tests um sicherzugehen, dass ich richtig liege, manchmal sind das nur einfache assert() Statements
+- Du könntest auch Java oder etwas anderes machen. Das ist nur das, was ich tue.
 
-Man brauchst nicht alles davon. Man braucht nur [eine Sprache für das Vorstellungsgepräch](#pick-one-language-for-the-interview).
+Man braucht nicht alles davon. Man braucht nur [eine Sprache für das Vorstellungsgespräch](#pick-one-language-for-the-interview).
 
 Warum ich in all diesen Sprachen programmiere?
-- Üben, üben, üben, bis ich kotzen muss und es im Schlaf beherrsche (manche Probleme haben viele Sonderfälle und Wissen an das man sich erinnern muss)
+- Üben, üben, üben, bis ich kotzen muss und es im Schlaf beherrsche (manche Probleme haben viele Sonderfälle und Wissen, an das man sich erinnern muss)
 - Unter erschwerten Voraussetzungen arbeiten können (Speicher allokieren/freigeben ohne die Hilfe einer Garbage Collection (Ausnahmen sind Python oder Java))
 - Vorgefertigte Typen verwenden damit ich Erfahrung im Umgang für echte Anwendungsfälle haben (ich werde sich meine eigene verkettete Liste im Alltag implementieren)
 
-Vielleicht habe ich nicht die Zeit um das alles für jedes Thema zu machen, aber ich werde es versuchen.
+Vielleicht habe ich nicht die Zeit, um das alles für jedes Thema zu machen, aber ich werde es versuchen.
 
 Man findet meinen Code hier:
  - [C](https://github.com/jwasham/practice-c)
@@ -503,10 +503,10 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Voraussetzungen</summary>
 
 - [ ] **Lerne C**
-    - C ist überall. Du wirst Beispiele in Büchern, Vorlesungen, Videos, und generell *überall* finden während du lernst.
+    - C ist überall. Du wirst Beispiele in Büchern, Vorlesungen, Videos, und generell *überall* finden, während du lernst.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - Das ist ein kurzes Buch, aber es wird dich viel über die C Sprache lehren und wenn du ein bisschen übst,
-			wirst du schnell darin bewandert sein. C zu Verstehen hilft dir zu verstehen wie Programme und Speicher funktionieren.
+			wirst du schnell darin bewandert sein. C zu verstehen, hilft dir zu verstehen, wie Programme und Speicher funktionieren.
         - [Antworten auf Fragen](https://github.com/lekkas/c-algorithms)
 
 - [ ] **Wie Computer einen Prozess ausführen:**
@@ -524,8 +524,8 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Algorithmische Komplexität / Big-O (Groß-O Notation) / Asymptotische Analyse</summary>
 
 - nichts zum Implementieren
-- Es sind eine Menge Videos hier aufgelistet. Schau dir einfach so viele an bis du es verstanden hast. Man kann immer wieder zurückgehen und nochmal anschauen.
-- Falls einige der Vorträge zu mathemtaisch sind, kann man ans untere Ende springen und sich Videos über diskrete Mathematik anschauen um das notwendige Hintergrundwissen zu bekommen.
+- Es sind eine Menge Videos hier aufgelistet. Schau dir einfach so viele an, bis du es verstanden hast. Man kann immer wieder zurückgehen und noch mal anschauen.
+- Falls einige der Vorträge zu mathematisch sind, kann man ans untere Ende springen und sich Videos über diskrete Mathematik anschauen, um das notwendige Hintergrundwissen zu bekommen.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (kleines Tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - beste mathematische Erklärung (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)

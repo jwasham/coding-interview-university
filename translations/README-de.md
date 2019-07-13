@@ -530,7 +530,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 - [ ] [Big O Notations (kleines Tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - beste mathematische Erklärung (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [Video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [Folien](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 - [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
@@ -539,7 +539,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
-- [ ] TopCoder (beinhält Differenzgleichungen und Master Theorem
+- [ ] TopCoder (beinhält Differenzgleichungen und Master-Theorem)
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Spickzettel](http://bigocheatsheet.com/)
@@ -553,7 +553,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Datenstrukturen</summary>
 
 - ### Arrays (Felder)
-	- implementiere ein automatisch mitwachsenden Vektor 
+	- implementiere einen automatisch mitwachsenden Vektor 
     - [ ] Beschreibung:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
@@ -563,52 +563,52 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
         - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-    - [ ] Implementiere ein Vektor (veränderbares Array was automatisch seine Größe verändert):
-        - [ ] Übe Arrays und Pointer (Zeiger) zu coden, und benutze Pointerberechnung um ein Element aus einem Array auszuwählen statt den Index zu benutzen.
+    - [ ] Implementiere ein Vektor (veränderbares Array, das automatisch seine Größe verändert):
+        - [ ] Übe Arrays und Pointer (Zeiger) zu coden, und benutze Pointerberechnung, um ein Element aus einem Array auszuwählen statt den Index zu benutzen.
         - [ ] neues Rohdaten-Array mit allokierten Speicher
             - man kann intern ein int Array dafür verwenden, aber nicht die Features davon
-            - fang an mit der Größe 16, oder wenn die Startnummer schön größer ist, benutze 2er-Potenzen - 16, 32, 64, 128
-        - [ ] size() - Anzahl der Elmente
+            - fang an mit der Größe 16, oder wenn die Startnummer schön größer ist, benutze Zweier-Potenzen - 16, 32, 64, 128
+        - [ ] size() - Anzahl der Elemente
         - [ ] capacity() - Anzahl der Elemente die es enthalten kann
         - [ ] is_empty()
-        - [ ] at(index) - gibt das Element an der gegebenen Index zurück, expolodiert wenn der Index außerhalb der Grenzen ist
+        - [ ] at(index) - gibt das Element an der gegebenen Index zurück, explodiert wenn der Index außerhalb der Grenzen ist
         - [ ] push(item)
         - [ ] insert(index, item) - fügt ein Element an der Index-Position ein, schiebt den ursprünglichen Wert vom Index und alle nachfolgenden Elemente eins nach rechts weiter
         - [ ] prepend(item) - ist dasselbe wie oben mit Index 0
-        - [ ] pop() - entfernt das letzte Element und gibt dessen Wert zurürck
+        - [ ] pop() - entfernt das letzte Element und gibt dessen Wert zurück
         - [ ] delete(index) - lösche das Element an der Indexposition und verschiebe jedes Element danach eins nach links
-        - [ ] remove(item) - sucht den Wert und entfernt den Index der ihn enthält (auch wenn es mehrere Stellen sind)
+        - [ ] remove(item) - sucht den Wert und entfernt den Index, der ihn enthält (auch wenn es mehrere Stellen sind)
         - [ ] find(item) - sucht den Wert und gibt den ersten Index mit diesen Wert, -1 wenn der Wert nicht gefunden wird
-        - [ ] resize(new_capacity) // private function
+        - [ ] resize(new_capacity) // private Funktion
 			- wenn man die Kapazität erreicht hat, verdopple die Kapazität
             - wenn du ein Element löscht und die Größe ist nur 1/4 der Kapazität, halbiere die Kapazität
     - [ ] Zeit
         - O(1) um am Ende etwas hinzuzufügen/zu löschen (amortisiert bei Verwendung von zusätzlichen Speicher), Indexzugriff, oder update
-        - O(n) to insert/remove elsewhere
+        - O(n) um an eine andere Stelle hinzuzufügen oder zu löschen
     - [ ] Speicher
         - zusammenhängend im Speicher, Nähe hilft der Performance
         - benötigter Speicher = (Array Kapazität, welche >= n ist) * Größe eines Elements, aber selbst bei 2n, immer noch O(n)
 
 - ### Linked Lists (verkettete Listen)
-    - [ ] Description:
+    - [ ] Erklärung:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - nicht das ganze Video nur die Teile über Knotenstruktur und Speicherverwaltung.
-    - [ ] Linked List vs Arrays:
+    - [ ] Linked Lists vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Achtung:  du brauchst Wissen über Pointer von Pointern:
-        (für den Fall, dass man einen Pointer an eine Funktion übergibt und die Funktion die Adresse verändern kann zu der der Pointer zeigt)
-        Diese Seite ist dafür Pointer von Pointern grob zu verstehen. Ich würde diese Art der Listentraversierung nicht empfehlen. Lesbarkeit und Wartbarkeit leiden darunter wenn man versucht clever zu sein.
+    - [ ] Achtung:  du brauchst Wissen über Pointer auf Pointer:
+        (für den Fall, dass man einen Pointer an eine Funktion übergibt und die Funktion die Adresse verändern kann, zu der der Pointer zeigt)
+        Diese Seite ist dafür Pointer auf Pointer grob zu verstehen. Ich würde diese Art der Listentraversierung nicht empfehlen. Lesbarkeit und Wartbarkeit leiden darunter wenn man versucht clever zu sein.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implementierung (ich habe es mit Tail-Pointern gemacht und ohne):
         - [ ] size() - gibt Anzahl der Datenelemente in der Liste zurück
         - [ ] empty() - bool gibt true zurück wenn leer
-        - [ ] value_at(index) - gibt den Wert an der Stelle index zurück (angefangen bei 0 für das erste ELement)
-        - [ ] push_front(value) - fügt eine Element an den Anfang der List ein
+        - [ ] value_at(index) - gibt den Wert an der Stelle index zurück (angefangen bei 0 für das erste Element)
+        - [ ] push_front(value) - fügt ein Element an den Anfang der List ein
         - [ ] pop_front() - löscht das erste Element und gibt dessen Wert zurück
         - [ ] push_back(value) - fügt ein Element ans Ende ein
         - [ ] pop_back() - löscht das letzte Element und gibt dessen Wert zurück
@@ -616,11 +616,11 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] back() - hole den Wert des letzten Elements
         - [ ] insert(index, value) - fügt Wert an der Indexposition ein, das neue Element an der Stelle zeigt auf das aktuelle Element an der Stelle
         - [ ] erase(index) - löscht das Element an der gegebenen Stelle
-        - [ ] value_n_from_end(n) - gibt den Wert an der nten Position von hinten zurück
+        - [ ] value_n_from_end(n) - gibt den Wert an der n-ten Position von hinten zurück
         - [ ] reverse() - kehrt die Liste um
         - [ ] remove_value(value) - entfernt das erste Element aus der Liste mit diesen Wert
     - [ ] Doubly-linked List (doppelt verkettete Listen)
-        - [Erklärung (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [Erklärung (Video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - gibt keinen Grund das zu implementieren
 
 - ### Stack (Stapel)
@@ -649,7 +649,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - dequeue: O(1) (verkettete Liste und Array)
         - empty: O(1) (verkettete Liste und Array)
 
-- ### Hash table (Hashtabelle)
+- ### Hash table (Hash-Tabelle)
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -666,12 +666,12 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] verteilte Hashtabellen:
+        - [ ] verteilte Hash-Tabellen:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] Implementierung mit Array und linear probing
-        - hash(k, m) - m ist die Größe der Hashtabelle
+        - hash(k, m) - m ist die Größe der Hash-Tabelle
         - add(key, value) - falls key schon existiert, wird Wert überschrieben
         - exists(key)
         - get(key)
@@ -689,11 +689,11 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [Details](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
     - [ ] Implementierung:
-        - Binärsuche (auf einen sortierten Array von Ganzzahlen)
-        - Binärsuche mittles Rekursion
+        - Binärsuche (auf einem sortierten Array von Ganzzahlen)
+        - Binärsuche mittels Rekursion
 
 - ### Bitweise Operationen
-    - [ ] [Bits Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - man sollte viele der Zweierpotenzen kennen (von 2^1 über 2^16 und 2^32)
     - [ ] Erhalte sehr gutes Verständnis Bits zu manipulieren mit: &, |, ^, ~, >>, <<
         - [ ] [Wörter](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Gute Einführung:
@@ -712,7 +712,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] zur nächsten Zweierpotenz runden:
+    - [ ] zur nächsten Zweierpotenz aufrunden:
         - [Round Up To Next Power Of Two](https://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
     - [ ] Werte tauschen:
         - [Swap](https://bits.stephan-brumme.com/swap.html)
@@ -730,14 +730,14 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - generell Baumerstellung
-    - Traversieren
-    - Algorithmen zum Manipulieren
+    - Traversieren (Durchlaufen)
+    - Algorithmen zur Manipulation
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        - BFS (Breitensuche) Notizen:
+        - BFS (Breitensuche) Bemerkungen:
            - Ebenenreihenfolge (BFS, mittels Queue)
            - Zeitkomplexität: O(n)
            - Speicherkomplexität: beste: O(1), schlechteste: O(n/2)=O(n)
-        - DFS (Tiefensuche) Notizen:
+        - DFS (Tiefensuche) Bemerkungen:
             - Zeitkomplexität: O(n)
             - Speicherkomplexität:
                 beste: O(log n) - durchschnittliche Höhe eines Baumes
@@ -749,7 +749,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 - ### Binary search trees: BSTs (Binäre Suchbäume)
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - startet mit Symboltabelle und geht durch die BST Anwendungen
+        - startet mit Symboltabelle und geht durch die Anwendungsgebiete für BST
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
@@ -765,7 +765,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
         - [ ] insert    // füge Wert in Baum ein
-        - [ ] get_node_count // gibt ANzahl gespeicherter Werte
+        - [ ] get_node_count // gibt Anzahl gespeicherter Werte zurück
         - [ ] print_values // gibt die Werte im Baum aus, vom Minimum zum Maximum
         - [ ] delete_tree
         - [ ] is_in_tree // gibt true zurück wenn der gegebene Wert im Baum vorkommt
@@ -777,7 +777,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] get_successor // gibt vom gegebenen Wert den nächstgrößeren Wert im Baum zurück, -1 wenn der nicht existiert
 
 - ### Heap (Haufen) / Priority Queue (Prioritätswarteschlange) / Binary Heap (Binärer Haufen)
-    - visualisiert als Baum, aber wächst üblicherweise linear im Speicher (Array, Linked list)
+    - visualisiert als Baum, aber wächst üblicherweise linear im Speicher (Array, Linked List)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -801,9 +801,9 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] extract_max - gibt das Max-Element zurück, löscht es
         - [ ] sift_down - gebraucht für extract_max
         - [ ] remove(i) - entfernt Element an Position i
-        - [ ] heapify - erstellt einen Heap aus einen Array, gebraucht für heap_sort
+        - [ ] heapify - erstellt einen Heap aus einem Array, gebraucht für heap_sort
         - [ ] heap_sort() - nimmt ein unsortiertes Array und verwandelt es in ein sortiertes Array (in-place) mittles Max Heap
-            - Bemerkung: stattdessen einen Min Heap zu verwenden würde weniger Operationen brauchen, aber den Speicherbedarf verdoppeln (kann man nicht in-place machen).
+            - Bemerkung: stattdessen einen Min Heap zu verwenden, würde weniger Operationen brauchen, aber den Speicherbedarf verdoppeln (kann man nicht in-place machen).
 
 </details>
 
@@ -813,7 +813,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Sortierung</summary>
 
 - [ ] Bemerkungen:
-    - Implementiere Sortierungen und weiß best case/worst case, durchschnittliche Komplexität von jeden:
+    - Implementiere Sortierungen und kenne best case/worst case, durchschnittliche Komplexität von jeden:
         - kein Bubble Sort - es ist furchtbar - O(n^2), außer wenn n <= 16
     - [ ] Stabilität in Sortieralgorithmen ("Ist Quicksort stabil?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
@@ -821,7 +821,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
     - [ ] Welche Algorithmen können mit verketteten Listen genutzt werden? Welche mit Arrays? Welche bei beiden?
-        - Ich würde nicht empfehlen verkettete Listen zu sortieren, aber Merge Sort ist machbar.
+        - Ich würde nicht empfehlen, verkettete Listen zu sortieren, aber Mergesort ist machbar.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
 - Für Heap Sort, siehe Heap Datenstruktur oben. Heap Sort ist toll, aber nicht stabil.
@@ -853,11 +853,11 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge Sort Code:
+- [ ] Mergesort Code:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick Sort Code:
+- [ ] Quicksort Code:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
@@ -865,8 +865,8 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 - [ ] Implementierung:
     - [ ] Mergesort: O(n log n) Durchschnitt und worst case
     - [ ] Quicksort O(n log n) Durchschnitt
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+    - Selection Sort und Insertion Ssort sind beide O(n^2) im Durchschnitt und worst case
+    - Für Heap Sort, siehe Heap Datenstruktur oben.
 
 - [ ] Nicht vorgeschrieben, aber würde ich empfehlen:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
@@ -882,7 +882,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-Als Zusammenfassung hier ist eine grafische Darstellung von [15 Sortieralgorithmen](https://www.youtube.com/watch?v=kPRA0W1kECg).
+Als Zusammenfassung ist hier eine grafische Darstellung von [15 Sortieralgorithmen](https://www.youtube.com/watch?v=kPRA0W1kECg).
 Falls du noch mehr zu dem Thema wissen willst, schau dir "Sortierung" unter [Weitere Details für ausgewählte Themen](#additional-detail-on-some-subjects) an
 
 </details>
@@ -892,23 +892,23 @@ Falls du noch mehr zu dem Thema wissen willst, schau dir "Sortierung" unter [Wei
 <details>
 <summary>Graphen</summary>
 
-Graphen können genutzt werden um damit viele verschiedene Probleme in der Informatik darzustellen. Deswegen ist dieser Abschnitt so lang wie Bäume und Sortierung.
+Graphen können genutzt werden, um damit viele verschiedene Probleme in der Informatik darzustellen. Deswegen ist dieser Abschnitt so lang wie Bäume und Sortierung.
 
 - Bemerkungen:
-    - Es gibt 4 verschiedene Arten einen Graph im Speicher zu repräsentieren:
+    - Es gibt 4 verschiedene Arten einen Graphen im Speicher zu repräsentieren:
         - Objekte und Pointer
         - Adjazenzmatrix
         - Adjazenzliste
         - adjacency map
     - bekanntmachen mit jeder dieser Repräsentationen und ihrer Vor- und Nachteile
     - BFS und DFS - kenne Komplexität, ihre Kompromisse, und wie man sie mit echten Code umsetzt
-    - Wenn eine Frage gestellt wird, suche zuerst nach einer graphbasierten Lösung, dann geh weiter wenn es keine gibt.
+    - Wenn eine Frage gestellt wird, suche zuerst nach einer graphbasierten Lösung, dann geh weiter, wenn es keine gibt.
 
 - [ ] MIT(videos):
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
     - [ ] [Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Skiena Vorlesungen - tolle Einführung:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -916,7 +916,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Graphs (review and more):
+- [ ] Graphen (Besprechung und mehr):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -938,7 +938,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] DFS mit Adjazenzliste (rekursiv)
     - [ ] DFS mit Adjazenzliste (iterativ mit Stack)
     - [ ] DFS mit Adjazenzmatrix (rekursiv)
-    - [ ] DFS mit Adjazenzmatrix(iterativ mit Stack)
+    - [ ] DFS mit Adjazenzmatrix (iterativ mit Stack)
     - [ ] BFS mit Adjazenzliste
     - [ ] BFS mit Adjazenzmatrix
     - [ ] Kürzester Pfad (Dijkstra)
@@ -958,7 +958,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
 <summary>Noch mehr</summary>
 
 - ### Rekursion
-    - [ ] Stanford Vorlesung über Recursion und Backtracking:
+    - [ ] Stanford Vorlesung über Rekursion und Backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
@@ -969,11 +969,11 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 - ### Dynamische Programming
-    - Wahrscheinlich wirst du im Vorstellungsgespräch nichts mit dynamischer Programmierung zu tun haben, aber es ist wert zu erkennen wann ein Problem für dynaische Programmierung geeignet ist.
+    - Wahrscheinlich wirst du im Vorstellungsgespräch nichts mit dynamischer Programmierung zu tun haben, aber es ist wert zu erkennen, wann ein Problem für dynamische Programmierung geeignet ist.
     - Dieses Thema kann ziemlich schwer sein. Jedes DP Problem muss als Rekursion dargestellt werden, und darauf zu kommen kann schwer sein.
-    - Ich schlage vor, dass man sich viele DP Probleme ansieht bis man ein gutes Verständnis vom zugrundeliegenden Muster hat.
+    - Ich schlage vor, dass man sich viele DP Probleme ansieht bis man ein gutes Verständnis vom zugrunde liegenden Muster hat.
     - [ ] Videos:
-        - die Skiena Videos kann man manchmal schwer folgen, weil er manchmal auf einer Tafel schreibt was zu klein zum Lesen ist
+        - die Skiena Videos kann man manchmal schwer folgen, weil er manchmal auf einer Tafel schreibt, was zu klein zum Lesen ist
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -981,7 +981,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - [ ] [Simonson: Dynamic Programming 0 (fängt an bei 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
         - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
-        - [ ] Liste einzelnen DP Problemen (jedes Problem ist klein):
+        - [ ] Liste von einzelnen DP Problemen (jedes Problem ist klein):
             [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
     - [ ] Yale Vorlesungsnotizen:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
@@ -1002,22 +1002,22 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] SOLID OOP Prinzipien:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Eine einzige Zuständigkeit für jedes Objekt](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
             - [mehr dazu](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension but not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
+        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [Darüber dass Objekte bereit zur Erweiterung aber zur Veränderung sind](https://en.wikipedia.org/wiki/Open/closed_principle)
             - [mehr dazu](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Basisklasse und erbende Klasse folgen dem "IST EIN(E)"-Prinzip](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
             - [mehr dazu](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
+        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | Verbraucher sollten nicht dazu gezwungen werden ein Interface zu implementieren, dass sie nicht benutzen
             - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
             - [mehr dazu](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
+        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduziere Abhängigkeiten beim Zusammenbau von Objekten.
             - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
             - [mehr dazu](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - ### Design Patterns (Entwurfsmuster)
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn diese Patterns:
+    - [ ] Lerne diese Muster:
         - [ ] Strategy
         - [ ] Singleton
         - [ ] Adapter
@@ -1040,7 +1040,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - Ich weiß das anerkannte Buch ist "Design Patterns: Elements of Reusable Object-Oriented Software", aber Head First ist großartig wenn man mit OO einsteigt.
+        - Ich weiß das legitime Buch ist "Design Patterns: Elements of Reusable Object-Oriented Software", aber Head First ist großartig wenn man mit OO einsteigt.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
     - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
@@ -1052,12 +1052,12 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] Khan Academy:
         - Kursstruktur:
             - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Nur die Videos - 41 (jedes ist kurz und leicht zu verstehen):
+        - Nur die 41 Videos (jedes ist kurz und leicht zu verstehen):
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-vollständig und Heuristiken
     - Kenne die bekanntesten NP-vollständigen Probleme, wie z.B. Traveling Salesman und das Rucksackproblem,
-        und sei in der Lage die zu erkennen wenn ein Interviewer heimlich danach frägt.
+        und sei in der Lage die zu erkennen, wenn ein Interviewer heimlich danach fragt.
     - Wissen was NP-vollständig bedeutet.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
@@ -1111,7 +1111,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - Thread-Ressourcenverwaltung (teilt sich das obere (minus Stack) mit anderen Threads in selben Prozess aber jeder mit einzelnen Befehlszähler, Stackzähler, Registern, und Stack)
         - Forking ist einfach Copy on Write (nur lesend) bis der neue Prozess in den Speicher schreibt, dann wird eine komplette Kopie erstellt.
         - Kontextwechsel
-            - Wie wird Kontextwechsel vom Betriebssystem und der zugrundeliegenden Hardware gehandhabt
+            - Wie wird Kontextwechsel vom Betriebssystem und der zugrunde liegenden Hardware gehandhabt
     - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
     - [ ] Parallelität in Python (Videos):
         - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
@@ -1127,22 +1127,22 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - wie Unit Tests funktionieren
         - was sind Mockobjekte
         - was ist ein Integration Test
-        - Was ist dependency injection
+        - Was ist Dependency Injection
     - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
     - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
     - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+        - [Folien](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
     - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
     - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
     - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
     - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
+    - [ ] Dependency Injection:
         - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Scheduling
-    - in einen Betriebssystem, wie funktioniert es
+    - in einem Betriebssystem, wie funktioniert es
     - kann von Betriebssystem Videos gelernt werden
 
 - ### Stringsuche und -manipulation
@@ -1155,10 +1155,10 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    Wer noch mehr Details zu diesen Thema erfahren möchte, sollte sich den "String Matching" Abschnitt unter [Weitere Details zu ausgewählten Themen](#additional-detail-on-some-subjects) ansehen
+    Wer noch mehr Details zu diesem Thema erfahren möchte, sollte sich den "String Matching" Abschnitt unter [Weitere Details zu ausgewählten Themen](#additional-detail-on-some-subjects) ansehen
 
 - ### Tries (Präfixbäume)
-    - Achtung, es gibt mehrere Arten von Tries. Manche haben Präfixe, manche nicht, und manche benutzen Strings anstelle von Bits
+    - Achtung, es gibt mehrere Arten von Tries. Manche haben Präfixe, manche nicht, und manche benutzen Strings anstelle von Bits,
         um den Pfad zu markieren.
     - Ich habe mir den Code durchgelesen, aber werde es nicht selber implementieren.
     - [ ] [Sedgewick - Tries (3 Videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
@@ -1191,7 +1191,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - Die erste Hälfte ist ausreichend.
 
 - ### Netzwerke
-    - **Wenn man Erfahrungen mit Netzwerken hat oder Reliability Engineer oder Operations Engineer werden will, erwartet Fragen dazu**
+    - **Wenn man Erfahrungen mit Netzwerken hat, oder Reliability Engineer oder Operations Engineer werden will, erwartet Fragen dazu**
     - ansonsten, ist es nur gut zu wissen
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
@@ -1217,16 +1217,16 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
 **Man kann mit Fragen über Systementwurf rechnen, falls man 4+ Erfahrung hat.**
 
 - Skalierbarkeit und Systementwurf sind sehr große Themengebiete mit vielen verschiedenen Themen und Quellen, 
-	  weil es so viel zu beachten gibt wenn man eine Software/Hardware baut die skalierbar ist.
+	  weil es so viel zu beachten gibt, wenn man eine Software/Hardware baut, die skalierbar ist.
 	  Erwarte viel Zeit damit zu verbringen.
 - Überlegungen:
     - Skalierbarkeit
         - vereinfache große Datenmengen zu Einzelwerten
         - Transformiere einen Datensatz in einen anderen
-        - gehe mit absurd großen Datenmenegen um
+        - gehe mit absurd großen Datenmengen um
     - Systementwurf
         - Feature Sets
-        - Schnittstelen
+        - Schnittstellen
         - Klassenhierarchien
         - entwerfe System unter bestimmte Vorgaben
         - Einfachheit und Robustheit
@@ -1238,7 +1238,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Es gibt hier viele Quellen. Sieh dir Artikel und Beispiel an. Ich habe ein paar davon unten hingeschrieben.
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Es gibt hier viele Quellen. Sieh dir Artikel und Beispiele an. Ich habe ein paar davon unten hingeschrieben.
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
@@ -1252,7 +1252,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Skalierbarkeit:
-    - Das braucht man nicht alles. Sucht euch einfach die paar Themen raus die euch interessieren.
+    - Das braucht man nicht alles. Sucht euch einfach die paar Themen raus, die euch interessieren.
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
     - [ ] Kurzreihen:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
@@ -1272,7 +1272,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
     - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU)
     - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
     - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
-        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
+        - [Video](https://www.youtube.com/watch?v=G-lGCC4KKok)
     - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
     - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
@@ -1306,13 +1306,13 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - Für sogar noch mehr, siehe "Mining Massive Datasets" Videoreihen im [Videoreihen](#video-series) Abschnitt.
-- [ ] Übe den Prozess des Systementwurfs: Hier sind ein paar Ideen die man auf Papier durchspielen kann, jede mit einer Dokumentation wie es in der echten Welt umgesetzt wurde:
+- [ ] Übe den Prozess des Systementwurfs: Hier sind ein paar Ideen, die man auf Papier durchspielen kann, jede mit einer Dokumentation wie es in der echten Welt umgesetzt wurde:
     - Review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
     - Ablauf:
         1. Verstehe das Problem und den Umfang:
-            - definiere den Anwendungsfall , was dem Interviewer helfen wird
+            - definiere den Anwendungsfall, was dem Interviewer helfen wird
             - schlage zusätzliche Funktionen vor
             - entferne Elemente die laut Interviewer nicht zum Umfang passen
             - nimme an das hohe Erreichbarkeit gefordert ist, füge das zu den Anwendungsfällen hinzu
@@ -1320,7 +1320,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
             - frag wie viele Anfragen im Monat es gibt
             - frag wie viele Anfragen in der Sekunde es gibt (sie sagen es entweder freiwillig oder du solltest es selbst ausrechnen)
             - schätze prozentuales Verhältnis zwischen Lese- und Schreibzugriffe
-            - denk an die 80/20 Regel in mind bei der Schätzung
+            - denk an die 80/20 Regel bei der Schätzung
             - wie viel Daten pro Sekunde geschrieben werden
             - absoluter Speicherverbrauch für 5 Jahre
             - wie viele Daten pro Sekunde gelesen werden
@@ -1328,7 +1328,7 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
             - Ebenen (Service, Daten, Caching)
             - Infrastruktur: Load Balancing, Messaging
             - grobe Übersicht einiger Schlüsselalgorithmen die den Service antreiben
-            - berücksichtige Flaschenhalse und finde Lösungen
+            - berücksichtige Flaschenhälse und finde Lösungen
     - Übungen:
         - [Entwerfe ein CDN Netzwerk: alter Artikel](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
         - [Entwerfe ein System um zufällige einmalige IDs zu generieren](https://blog.twitter.com/2010/announcing-snowflake)
@@ -1348,8 +1348,8 @@ Graphen können genutzt werden um damit viele verschiedene Probleme in der Infor
 <details>
 <summary>Finaler Rückblick</summary>
 
-	Dieser Abschnitt enthält kürzere Videos die man sich ziemlich schnell anschauen kann um die wichtigsten Konzepte nochmal zu wiederholen.
-    Das ist ganz gut falls man sein Wissen öfter mal auffrischen möchte.
+	Dieser Abschnitt enthält kürzere Videos, die man sich ziemlich schnell anschauen kann, um die wichtigsten Konzepte noch mal zu wiederholen.
+    Das ist ganz gut, falls man sein Wissen öfter mal auffrischen möchte.
 
 - [ ] Reihe mit kurzen 2-3 Minuten Videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
@@ -1376,17 +1376,17 @@ Warum du üben musst Programmieraufgaben zu lösen:
 - Anforderungen an das Problem sammeln
 - das Problem zu besprechen wie man es im Vorstellungsgespräch tun würde
 - auf der Tafel oder dem Papier zu entwickeln, nicht auf den Computer
-- die Zeit- und Speicherkomplexität zu ermittlen
-- sein Lösung zu testen
+- die Zeit- und Speicherkomplexität zu ermitteln
+- seine Lösung zu testen
 
 Es gibt eine großartige Einführung für das methodische, kommunikative Problem lösen in einem Vorstellungsgespräch.
 Das kann man auch von Büchern über Vorstellungsgespräche lernen, aber das fand ich herausragend:
 [Algorithm Design Canvas](http://www.hiredintech.com/algorithm-design/)
 
-Keine Tafel zu hause? Macht Sinn. Ich bin ein Spinner und habe eine große Tafel.
+Keine Tafel zu Hause? Macht Sinn. Ich bin ein Spinner und habe eine große Tafel.
 Anstelle einer Tafel hol dir ein großes Zeichenbrett aus dem Kunstladen. Du kannst auf dem Sofa sitzen und üben.
-Das ist meine "Sofatafel". Ich habe auf den Foto ein Stift dazu gelegt um die Größenverhältnisse darzustellen.
-Wenn man mit Stift schreibt, wünscht man sich man könnte löschen. Wird schnell sehr unordentlich.
+Das ist meine "Sofatafel". Ich habe auf den Foto ein Stift dazu gelegt, um die Größenverhältnisse darzustellen.
+Wenn man mit Stift schreibt, wünscht man sich, man könnte löschen. Wird schnell sehr unordentlich.
 
 ![meine Sofatafel](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
@@ -1441,9 +1441,9 @@ Wettbewerbsrepos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
-- [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - Das habe ich benutzt und es hat mir dabei geholfen vor den Telefon- und Vor-Ort-Gesprächen besser zu entspannen.
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer Modell um Vorstellungsgespräche zu üben
+- [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - hilft auch Kandidaten den Prozess zu beschleunigen indem mehrere Vorstellungsgespräche bei Techfirmen übersprungen werden.
 
 </details>
 
@@ -1455,13 +1455,13 @@ Mock Interviews:
 
 ## Dein Lebenslauf
 
-- Siehe Lebenslauf Vorbereitung in Cracking The Coding Interview und den hinteren Teil von Programming Interviews Exposed
+- Siehe Lebenslaufvorbereitung in Cracking The Coding Interview und den hinteren Teil von Programming Interviews Exposed
 
 
 ## Denk dran wenn das Vorstellungsgespräch kommt
 
 Rechne mit 20 Interviewfragen die dir gestellt werden, zusammen mit den unteren Zeilen. Bereite 2 - 3 Antworten für jede vor.
-Bereite ein Geschichte vor, nicht nur ein paar Infos, über etwas das du erreicht hast.
+Bereite eine Geschichte vor, nicht nur ein paar Infos, über etwas das du erreicht hast.
 
 - Warum möchtest du den Job?
 - Was ist ein schweres Problem das du gelöst hast?
@@ -1483,7 +1483,7 @@ Bereite ein Geschichte vor, nicht nur ein paar Infos, über etwas das du erreich
 - Wie groß ist das Team?
 - Wie sieht der Entwicklungszyklus aus? Macht ihr Wasserfall/Sprints/agil?
 - Wird oft zu Abgabeterminen gehetzt? Oder seid ihr flexibel?
-- Wie werden Entscheidungen in euren Team getroffen?
+- Wie werden Entscheidungen in eurem Team getroffen?
 - Wie viele Meetings habt ihr pro Woche?
 - Hilft dir die Arbeitsumgebung dich zu konzentrieren?
 - Woran arbeitet ihr gerade?
@@ -1506,7 +1506,7 @@ Man ist nie wirklich fertig.
     Alles unterhalb hiervon ist optional.
 	Wenn man das studiert, bekommt man mehr Wissen zu Informatikkonzepten, und wird besser auf
 	einen Software Engineer Job vorbereitet sein. 
-	Everything below this point is optional. Man ist dann ein abgerundeterer Software Engineer.
+	Man ist dann ein abgerundeterer Software Engineer.
 
     *****************************************************************************************************
     *****************************************************************************************************
@@ -1531,7 +1531,7 @@ Man ist nie wirklich fertig.
 - [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - Als ein Rückblick und zur Problemerkennung
-    - Der Katalog an Algorithmen ist weit über den Schwierigkeitsgrad den man in Vorstellungsgesprächen hat.
+    - Der Katalog an Algorithmen ist weit über den Schwierigkeitsgrad, den man in Vorstellungsgesprächen hat.
     - Dieses Buch besteht aus 2 Teilen:
         - Textbuch über Datenstrukturen und Algorithmen
             - Vorteile:
@@ -1540,19 +1540,19 @@ Man ist nie wirklich fertig.
                 - Codebeispiele in C
             - Nachteile:
                 - kann so vollgestopft und unzugänglich sein wie CLRS, und bei einigen Themen wäre CLRS die bessere Wahl
-                - Kapitel 7, 8, 9 sind extrem schwer zu folgen, weil einige Dinge nicht gur erklärt werden oder ich einfach zu dumm bin
-                - versteh mich nicht falsch: Ich mag Skiena, seine Art zu Unterrichten, seine Eigenheiten, aber ich mag nicht das Stony Brook Material.
+                - Kapitel 7, 8, 9 sind extrem schwer zu folgen, weil einige Dinge nicht gut erklärt werden oder ich einfach zu dumm bin
+                - versteh mich nicht falsch: Ich mag Skiena, seine Art zu unterrichten, seine Eigenheiten, aber ich mag nicht das Stony Brook Material.
         - Algorithmenkatalog:
-            - Das ist der eigentliche Grund weswegen ich dieses Buch gekauft habe.
-            - muss mich noch einlesen. Werde das hier ergänzen sobald ich durch bin.
+            - Das ist der eigentliche Grund, weswegen ich dieses Buch gekauft habe.
+            - muss mich noch einlesen. Werde das hier ergänzen, sobald ich durch bin.
     - kann man auf den Kindle ausleihen
     - Antworten:
         - [Lösungen](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Lösungen](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+    - [Korrekturverzeichnis](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Wichtig:** Das Buch zu lesen ist nur eingschränkt von Nutzen. Das Buch ist ein toller Rückblick auf Algorithmen und Datenstrukturen, aber man lernt dadurch nicht guten Code zu schreiben. Man muss in der Lage sein effizient vernünftigen Code zu schreiben.
+    - **Wichtig:** Das Buch zu lesen ist nur eingeschränkt von Nutzen. Das Buch ist ein toller Rückblick auf Algorithmen und Datenstrukturen, aber man lernt dadurch nicht guten Code zu schreiben. Man muss in der Lage sein effizient vernünftigen Code zu schreiben.
     - aka CLR, manchmal CLRS, weil Stein erst später dazu kam
 
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
@@ -1571,9 +1571,9 @@ Man ist nie wirklich fertig.
 <details>
 <summary>Zusätzliches Wissen</summary>
 
-Diese Themen werden vermutlich nicht in einen Vorstellungsgepräch aufkommen, aber ich habe sie trotzdem hinzugeüfgt
+Diese Themen werden vermutlich nicht in einen Vorstellungsgespräch aufkommen, aber ich habe sie trotzdem hinzugefügt
 um euch dabei zu helfen ein vollständiger Software Engineer zu werden und damit ihr über bestimmte Technologien und
-Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt.
+Algorithmen Bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt.
 
 - ### Compiler
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1725,8 +1725,8 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
-    - used to determine the similarity of documents
-    - the opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same.
+    - wird benutzt um die Ähnlichkeit von Dokumenten zu bestimmen
+    - Das Gegenteil von MD5 oder SHA, die benutzt werden, um festzustellen ob 2 Dokumente/Strings genau gleich sind.
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
@@ -1742,19 +1742,19 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
     - Ich habe mich dazu entschieden einen Splay Tree zu implementieren. Von dem was ich gelesen habe, wird man kein
-        balanciereten Suchbaum in einem Vorstellungsgespräch implementieren. ABer ich wollte die Erfahrung machen selber einen zu coden
+        balancierten Suchbaum in einem Vorstellungsgespräch implementieren. Aber ich wollte die Erfahrung machen selber einen zu coden
         und seien wir mal ehrlich, Splay Trees sind Alleskönner. Ich habe eine Menge Code für Rot-Schwarz Bäume gelesen.
         - Splay Tree: insert, search, delete Funktionen
 		Falls man mit einen Rot-Schwarz Baum endet, versuch das:
         - search und insertion Funktionen, delete überspringen
-    - Ich möchte mehr über B-Bäume lernen da sie so weit verbreitet sind bei riesigen Datenmengen.
+    - Ich möchte mehr über B-Bäume lernen, da sie so weit verbreitet sind bei riesigen Datenmengen.
     - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
     - [ ] **AVL Trees**
         - In der Praxis:
 			Meines Wissens nach werden sie nicht so oft in der Praxis verwendet, aber ich könnte mir vorstellen wo sie verwendet werden:
             Der AVL Tree ist eine weitere Datenstruktur die O(log n) Suchen, Einfügen und Löschen unterstützt.
-			Sie sind strenger balanciert als Rot-Schwarz Bäume, was das EInfügen und Löschen verlangsamt aber das Auslesen beschleunigt.
+			Sie sind strenger balanciert als Rot-Schwarz Bäume, was das Einfügen und Löschen verlangsamt aber das Auslesen beschleunigt.
 			Das macht sie attraktiv für Datenstrukturen die nur einmal aufgebaut und geladen werden ohne Umbau,
 			so wie Wörterbücher für Sprachen (oder für Programme, wie z.B. der Opcode eines Assemblers oder Interpreters).
         - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
@@ -1780,8 +1780,8 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
 			sondern es macht sie auch zu wertvollen Bausteinen in andere Datenstrukturen mit worst-case Garantien.
 			Z.B. viele Datenstrukturen aus der algorithmischen Geometrie können auf Rot-Schwarz Bäumen basieren,
 			und der Completely Fair Scheduler der in aktuellen Linux Kernels verwendet wird benutzt Rot-Schwaz Bäume.
-			In Java 8 wurde die Collection Hashmao so angepasst, dass anstelle einer verketteten Listen ein Rot-Schwarz Baum
-			benutzt wird um identische Elemente mit schlechten Hashwerten zu speichern.
+			In Java 8 wurde die Collection Hashmap so angepasst, dass anstelle einer verketteten Listen ein Rot-Schwarz Baum
+			benutzt wird, um identische Elemente mit schlechten Hashwerten zu speichern.
         - [ ] [Aduni - Algorithms - Lecture 4 (Link springt direkt zum Anfang) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
@@ -1797,17 +1797,17 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
 
     - [ ] **2-3-4 Bäume (aka 2-4 Bäume)**
         - In der Praxis:
-			Für jeden 2-4 Baum exist ein Rot-Schwarz Baum mit Datenelementen in der selben Reihenfolge.
+			Für jeden 2-4 Baum existiert ein Rot-Schwarz Baum mit Datenelementen in derselben Reihenfolge.
 			Das Einfügen und Löschen auf 2-4 Bäumen ist äquivalent zum Farbwechsel und Rotation im Rot-Schwarz Baum.
-			Das macht 2-4 Bäume zu einen wichtigen Werkzeug um die Logik hinter Rot-Schwarz Bäumen zu verstehen,
-			und deswegen führen viele Algorithmen Bücher für Einsteiger 2-4 Bäume direkt vor Rot-Schwarz Bäumen ein
-			selbst obwohl **2-4 trees nicht oft in der Praxis benutzt werden**.
+			Das macht 2-4 Bäume zu einem wichtigen Werkzeug, um die Logik hinter Rot-Schwarz Bäumen zu verstehen.
+			Und deswegen führen viele Algorithmen Bücher für Einsteiger 2-4 Bäume direkt vor Rot-Schwarz Bäumen ein
+			selbst obwohl **2-4 Trees nicht oft in der Praxis benutzt werden**.
         - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
     - [ ] **N-fache (K-fache, M-fache) Bäume**
-        - Notiz: das N oder K ist der Verzweigungsgrad (max Zweige)
+        - Notiz: das N oder K ist der Verzweigungsgrad (max. Zweige)
         - Binärbäume sind 2-fache Bäume, mit Verzweigungsgrad = 2
         - 2-3 Trees sind 3-fache
         - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
@@ -1816,7 +1816,7 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
         - Fun Fact: Es ist ein Mysterium, aber das B könnte für Boeing, Balanciert, oder Bayer (Co-Erfinder) stehen
         - In der Praxis:
 			B-Bäume sind weit verbreitet in Datenbanken. Die meisten modernen Dateisysteme sind B-Bäume (oder Varianten davon).
-            Zusätzlich zum Einsatz in Datenbanken, werden B-Bäume auch in Dateisystemen benutzt um schnellen Zugriff auf einen
+            Zusätzlich zum Einsatz in Datenbanken werden B-Bäume auch in Dateisystemen benutzt, um schnellen Zugriff auf einen
 			beliebigen Block in einer bestimmten Datei zu ermöglichen.
 			Das Grundproblem ist es die Adresse eines Dateiblockes in die Adresse eines Diskblocks (oder eines Zylinder-Kopf-Sektors) zu verwandeln.
         - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
@@ -1853,7 +1853,7 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
 - ### Treap
-    - Kombination eines binären Suchbaums mit eine Heap
+    - Kombination eines binären Suchbaums mit einem Heap
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
     - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
@@ -1885,7 +1885,7 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
     - Kurse:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [nur Videos](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - siehe Videos 12-18 für einen Auffrisung von Linearer Algebra (14 und 15 sind Duplikate)
+              - siehe Videos 12-18 für eine Auffrischung zu Linearer Algebra (14 und 15 sind Duplikate)
         - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
@@ -1908,9 +1908,9 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
 <details>
 <summary>Weitere Details zu ausgewählten Themen</summary>
 
-	Ich habe das hinzugefügt um eine Ideen weiter oben zu verstärken, aber ich wollte sie nicht 
-	oben hinzufügen weil es sonst zu viel wäre. Es ist leicht es mit einen Thema zu übertreiben.
-	Ihr wollt doch noch in diesen Jahrhundert eingestellt werden, oder?
+	Ich habe das hinzugefügt, um einige Ideen weiter oben zu verstärken, aber ich wollte sie nicht 
+	oben hinzufügen, weil es sonst zu viel wäre. Es ist leicht es mit einen Thema zu übertreiben.
+	Ihr wollt doch noch in diesem Jahrhundert eingestellt werden, oder?
 
 - [ ] **Union-Find**
     - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
@@ -1933,7 +1933,7 @@ Algorithmen bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
     - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] MIT **Wahrscheinlichkeit** (mathematisch, es wird langsam angegangen was gut bei Mathe ist) (Videos):
+- [ ] MIT **Wahrscheinlichkeit** (mathematisch, es wird langsam angegangen, was gut bei Mathe ist) (Videos):
     - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
@@ -2049,8 +2049,8 @@ Zurücklehnen und genießen. "Netflix and skill" :P
 
 ## Informatikkurse
 
-- [Liste von Online Informatkkursen](https://github.com/open-source-society/computer-science)
-- [Liste von Informatkkursen (viele mit Online Vorlesungen)](https://github.com/prakhar1989/awesome-courses)
+- [Liste von Online Informatikkursen](https://github.com/open-source-society/computer-science)
+- [Liste von Informatikkursen (viele mit Online Vorlesungen)](https://github.com/prakhar1989/awesome-courses)
 
 ## Paper (Wissenschaftliche Artikel)
 

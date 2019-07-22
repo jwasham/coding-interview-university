@@ -172,7 +172,9 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Es un plan largo, puede que tome unos meses; pero si le resulta familiar mucho de esto, le tomara mucho menos tiempo.
+Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me tomó varios meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo.
+
+Es un plan largo, puede que tome unos meses; pero si le resulta familiar mucho de esto, le tomara mucho menos tiempo.
 
 ## Cómo usarlo
 
@@ -207,12 +209,14 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 - Los ingenieros de software exitosos son inteligentes pero muchos tienen la inseguridad de no ser lo suficientemente listos.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
+- [Think you're not smart enough to work at Google? Well, think again](https://www.youtube.com/watch?v=uPOJ1PR50ag)
 
 ## Acerca de los recursos de vídeo
     Algunos videos solo están disponibles inscribiéndose a una clase de Coursera, EdX, o Lynda.com. Estos son llamados MOOCs.
-    En ocasiones las clases no están en sesión, es decir que no tendrá acceso y tendrá que esperar un par de meses. Los cursos de Lynda.com no son gratuitos.
+    En ocasiones las clases no están en sesión por lo que tendrá que esperar un par de meses, por lo que no tiene acceso. Los cursos de Lynda.com no son gratuitos.
 
-    Apreciaría su ayuda añadiendo fuentes siempre disponibles, públicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
+    Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
 
     Me gustan recursos provenientes de universidades.
 

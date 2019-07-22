@@ -216,7 +216,7 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
     Algunos videos solo están disponibles inscribiéndose a una clase de Coursera, EdX, o Lynda.com. Estos son llamados MOOCs.
     En ocasiones las clases no están en sesión por lo que tendrá que esperar un par de meses, por lo que no tiene acceso. Los cursos de Lynda.com no son gratuitos.
 
-    Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
+    Apreciaría su ayuda añadiendo recursos disponibles, públicos y gratuitos como videos de Youtube para acompañar a los videos del curso en línea.
 
     Me gustan recursos provenientes de universidades.
 

@@ -1,6 +1,6 @@
 # Coding Interview University
 
-> Ursprünglich habe ich dies als eine kurze To-do Liste von Studienthemen angefangen, um Software Engineer zu werden,
+> Ursprünglich habe ich dies als eine kurze To-do Liste von Studienthemen angefangen, um Softwareingenieur zu werden,
 > aber es ist zu der riesigen Liste herangewachsen, die man heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
 > habe, [wurde ich als Software Entwickler bei Amazon eingestellt](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > Wahrscheinlich wirst du nicht so viel lernen müssen wie ich. Aber egal, alles was man braucht, findest man hier.
@@ -47,13 +47,13 @@
 
 ## Worum es geht
 
-Das ist mein mehrmonatiger Lehrplan um sich vom Web Developer (Selbststudium, kein Abschluss in Informatik) zum Software Engineer bei einer großen Firma zu entwickeln.
+Das ist mein mehrmonatiger Lehrplan um sich vom Web Developer (Selbststudium, kein Abschluss in Informatik) zum Softwareingenieur bei einer großen Firma zu entwickeln.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Dies ist gedacht für **neue Software Engineers** oder solche die von der Software/Web Entwicklung zum Software 
+Dies ist gedacht für **neue Softwareingenieure** oder solche die von der Software/Web Entwicklung zum Software 
 Engineering wechseln wollen (wobei Informatikkenntnisse benötigt werden). Falls man behauptet mehrere Jahre an Erfahrung
-als Software Engineer zu haben, erwartet einen ein hartes Vorstellungsgespräch.
+als Softwareingenieur zu haben, erwartet einen ein hartes Vorstellungsgespräch.
 
 Falls du schon mehrere Jahre Erfahrung in der Software/Webentwicklung hast, muss dir klar sein, dass große Software
 Unternehmen wie Google, Amazon, Facebook oder Microsoft Software Engineering und Software Entwicklung 
@@ -73,7 +73,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Über Videoquellen](#about-video-resources)
 - [Ablauf von Vorstellungsgesprächen und allgemeine Vorbereitung darauf](#interview-process--general-interview-prep)
 - [Wähle eine Sprache für das Vorstellungsgespräch](#pick-one-language-for-the-interview)
-- [Buchliste](#book-list)
+- [Literaturliste](#book-list)
 - [Bevor du anfängst](#before-you-get-started)
 - [Was hier nicht behandelt wird](#what-you-wont-see-covered)
 - [Voraussetzungen](#prerequisite-knowledge)
@@ -109,12 +109,12 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Noch mehr](#even-more-knowledge)
     - [Rekursion](#recursion)
     - [Dynamische Programmierung](#dynamic-programming)
-    - [Object-orientierte Programmierung](#object-oriented-programming)
+    - [Objektorientierte Programmierung](#object-oriented-programming)
     - [Design Patterns (Entwurfsmuster)](#design-patterns)
     - [Kombinatorik (n über k) und Wahrscheinlichkeiten](#combinatorics-n-choose-k--probability)
     - [NP, NP-Vollständig und Heuristiken](#np-np-complete-and-approximation-algorithms)
     - [Caches](#caches)
-    - [Proczsse und Threads](#processes-and-threads)
+    - [Prozesse und Threads](#processes-and-threads)
     - [Testen](#testing)
     - [Scheduling](#scheduling)
     - [Stringsuche und -manipulationen](#string-searching--manipulations)
@@ -140,7 +140,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 
 - [Zusätzliche Bücher](#additional-books)
 - [Zusätzliches Wissen](#additional-learning)
-    - [Compilers (Übersetzer)](#compilers)
+    - [Compiler (Übersetzer)](#compilers)
     - [Emacs und vi(m)](#emacs-and-vim)
     - [Unix Kommandozeilenwerkzeuge](#unix-command-line-tools)
     - [Informationstheorie](#information-theory-videos)
@@ -180,7 +180,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Weitere Details zu ausgewählten Themen](#additional-detail-on-some-subjects)
 - [Videoreihen](#video-series)
 - [Infomatikkurse](#computer-science-courses)
-- [Paper (Wissenschaftliche Artikel)](#papers)
+- [Paper (Wissenschaftliche Veröffentlichtungen)](#papers)
 
 </details>
 
@@ -234,7 +234,7 @@ Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste
 </details>
 
 ## Halt dich nicht für dümmer als du bist
-- Erfolgreiche Software Engineers sind klug, aber viele sind sich unsicher, ob sie klug genug sind.
+- Erfolgreiche Softwareingenieure sind klug, aber viele sind sich unsicher, ob sie klug genug sind.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 - [Believe you can change](http://www.aaronsw.com/weblog/dweck)
@@ -303,7 +303,7 @@ Hier kannst du mehr über die Wahl lesen:
 
 Unten sind ein paar Materialien zu C, C++ und Python zu finden, weil ich das gerade lerne. Es gehören einige Bücher dazu, siehe unten.
 
-## Buchliste
+## Literaturliste
 
 Die Liste ist kürzer als die, die ich tatsächlich benutzt habe. Ich habe es etwas abgekürzt, um euch Zeit zu sparen.
 
@@ -1404,7 +1404,7 @@ Zusatz:
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Antworten in Java
 
-Siehe [Buchliste oben](#book-list)
+Siehe [Literaturliste oben](#book-list)
 
 </details>
 
@@ -1505,8 +1505,8 @@ Man ist nie wirklich fertig.
 
     Alles unterhalb hiervon ist optional.
 	Wenn man das studiert, bekommt man mehr Wissen zu Informatikkonzepten, und wird besser auf
-	einen Software Engineer Job vorbereitet sein. 
-	Man ist dann ein abgerundeterer Software Engineer.
+	einen Softwareingenieur Job vorbereitet. 
+	Man ist dann ein abgerundeterer Softwareingenieur.
 
     *****************************************************************************************************
     *****************************************************************************************************
@@ -1572,7 +1572,7 @@ Man ist nie wirklich fertig.
 <summary>Zusätzliches Wissen</summary>
 
 Diese Themen werden vermutlich nicht in einen Vorstellungsgespräch aufkommen, aber ich habe sie trotzdem hinzugefügt
-um euch dabei zu helfen ein vollständiger Software Engineer zu werden und damit ihr über bestimmte Technologien und
+um euch dabei zu helfen ein vollständiger Softwareingenieur zu werden und damit ihr über bestimmte Technologien und
 Algorithmen Bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt.
 
 - ### Compiler
@@ -2052,10 +2052,10 @@ Zurücklehnen und genießen. "Netflix and skill" :P
 - [Liste von Online Informatikkursen](https://github.com/open-source-society/computer-science)
 - [Liste von Informatikkursen (viele mit Online Vorlesungen)](https://github.com/prakhar1989/awesome-courses)
 
-## Paper (Wissenschaftliche Artikel)
+## Paper (Wissenschaftliche Veröffentlichtungen)
 
 <details>
-<summary>Paper (Wissenschaftliche Artikel)</summary>
+<summary>Paper (Wissenschaftliche Veröffentlichtungen)</summary>
 
 - [Liebst du klassische Paper?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)

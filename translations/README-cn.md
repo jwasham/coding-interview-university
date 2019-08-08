@@ -133,7 +133,7 @@
 
 ## 拥有一名 Googler 的心态
 
-把一个（或两个）印有“[future Googler](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)”的图案打印出来，并用你誓要成功的眼神盯着它。
+把一个（或两个）印有 “future Googler” 的图案打印出来，并用你誓要成功的眼神盯着它。
 
 ## 我得到了工作吗？
 

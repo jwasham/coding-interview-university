@@ -1,7 +1,7 @@
 # الإعداد لجوجل
 
 الترجمه:
-- [中文版本](translations/README-cn.md)
+- [中文版本](README-cn.md)
 - الترجمات تحت الاعداد:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)

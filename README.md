@@ -197,7 +197,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## [x] Get in a Googley Mood
+[x] ## Get in a Googley Mood
 
 Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 

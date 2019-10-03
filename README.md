@@ -13,6 +13,8 @@
 > *Best of luck to you!*
 
 <details>
+    this is it
+    
 <summary>Translations:</summary>
 
 - [中文版本](translations/README-cn.md)

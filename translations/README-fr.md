@@ -27,7 +27,7 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 ## Table of Contents
 
 - [C'est quoi?](#what-is-it)
-- [Pourquoi l'utilisier?](#why-use-it)
+- [Pourquoi l'utiliser?](#why-use-it)
 - [Comment s'en servir](#how-to-use-it)
 - [Se mettre dans l'humeur Googley](#get-in-a-googley-mood)
 - [J'ai décroché le Job?](#did-i-get-the-job)
@@ -37,7 +37,7 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [A propos des ressources vidéo](#about-video-resources)
 - [Déroulement de l'entretien & préparations générales à l'entretien](#interview-process--general-interview-prep)
 - [Choisir un langage pour l'entretien](#pick-one-language-for-the-interview)
-- [List de livres](#book-list)
+- [Liste de livres](#book-list)
 - [Avant de commencer](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)

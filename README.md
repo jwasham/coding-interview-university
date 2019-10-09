@@ -131,7 +131,7 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+--------------- Everything below this point is optional ---------------
 
 <details>
 <summary>Additional Resources</summary>

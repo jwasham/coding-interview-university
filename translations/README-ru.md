@@ -1502,7 +1502,7 @@ Google не возьмёт тебя на работу.
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Floating Point Numbers
+- ### Числа с плавающей точкой
     - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
@@ -1510,36 +1510,36 @@ Google не возьмёт тебя на работу.
     - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
     - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
 
-- ### Endianness
+- ### Порядок байт (Endianness)
     - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+        - Очень техническая беседа для разработчиков ядер. Не переживайте, если что-то выше вашего понимания.
+        - Первой половины достаточно.
 
-- ### Emacs and vi(m)
-    - suggested by Yegge, from an old Amazon recruiting post: Familiarize yourself with a unix-based code editor
+- ### Emacs и vi(m)
+    - предложено Yegge, из старого поста по найму в Amazon: Familiarize yourself with a unix-based code editor
     - vi(m):
-        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [Редактирование с vim 01 - Установка, настройка и Режимы (видео на англ.)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
+        - Набор из 4 видео:
             - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
             - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
             - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
-        - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
+        - [Использование Vi вместо Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
-        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - [Основы Emacs Руководство (видео на англ.)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
+        - набор из 3 (видео на англю):
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
-        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
-        - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
+        - [Режим Зла: Или, Как Я Перестал Беспокоиться И Полюбил Emacs (видео на англ.)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [Написание программ на языке C в Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
+        - [(возможно) Погружение в Org режим: Управляя структурой (видео на англ.)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix command line tools
-    - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.
+- ### Инструменты командной строки Unix
+    - предложено Yegge, из старого поста по найму в Amazon. Я создал список ниже с хорошими утилитами.
     - [ ] bash
     - [ ] cat
     - [ ] grep

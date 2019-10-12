@@ -29,6 +29,7 @@
     - [Efficiency with Algorithms, Performance with Data Structures (video)](https://youtu.be/fHNmRkzxHWs)
     - [Review of C++ concepts (video)](https://www.youtube.com/watch?v=Rub-JsjMhWY)
     - [Let us C++](https://books.google.co.in/books/about/Let_Us_C++.html?id=6HrjAAAACAAJ)
+    - [C++ Primer](https://books.google.co.in/books/about/C++_Primer.html?id=J1HMLyxqJfgC&redir_esc=y)
 - Python
     - [Python Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
     - [Python in One Video](https://www.youtube.com/watch?v=N4mEzFDjqtA)

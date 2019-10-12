@@ -70,10 +70,10 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
     - matrice d'adjacence
     - liste d'adjacence
     - parcours: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
+- [Encore Plus de Connaissances](#even-more-knowledge)
     - [Récursivité](#recursion)
     - [Programmation orientée objet](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
+    - [Modèles de conception](#design-patterns)
     - [Combinatoire (k parmi n) et probabilité](#combinatorics-n-choose-k--probability)
     - [NP, NP-complet et les Algorithmes d'approximation](#np-np-complete-and-approximation-algorithms)
     - [Caches](#caches)
@@ -82,208 +82,211 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
     - [Tests](#testing)
     - [Ordonnancement](#scheduling)
     - [Implémentation des routines système](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+    - [String recherche et maninpulation](#string-searching--manipulations)
+- [Conception, scalabilité, manipulation du système](#system-design-scalability-data-handling) (si vous avez plus de 4 ans d'expérience)
+- [Examen final](#final-review)
+- [Question de codage](#coding-question-practice)
+- [Exercices de codage / défis](#coding-exerciseschallenges)
+- [Une fois que vous êtes plus proche de l'interview](#once-youre-closer-to-the-interview)
 - [Votre CV](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+- [Pensez à pour quand l'interview vient](#be-thinking-of-for-when-the-interview-comes)
 - [Ayez les questions pour l'entretien](#have-questions-for-the-interviewer)
 - [Quand vous aurez eu le travial:](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 
 - [Livres Supplémentaires](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Compilers](#compilers)
-    - [Floating Point Numbers](#floating-point-numbers)
+- [Apprentissage supplémentaire](#additional-learning)
+    - [Programmation dynamique](#dynamic-programming)
+    - [Compilateurs](#compilers)
+    - [Nombres à virgule flottante](#floating-point-numbers)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
+    - [Emacs et vi(m)](#emacs-and-vim)
+    - [Outils de ligne de commande Unix](#unix-command-line-tools)
+    - [Théorie de l'information](#information-theory)
+    - [Code de parité et de Hamming](#parity--hamming-code)
+    - [Entropie](#entropy)
+    - [Cryptographie](#cryptography)
     - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [Networking](#networking) (si vous avez de l'expérience en réseautage ou si vous voulez être un ingénieur système, attendez des questions)
+    - [informatique sécurisée](#computer-security)
+    - [Collecte des ordures](#garbage-collection)
+    - [Programmation parallèle](#parallel-programming)
+    - [Systèmes de messagerie, de sérialisation et de queueing systèmes](#messaging-serialization-and-queueing-systems)
+    - [Transformée de Fourier Rapide](#fast-fourier-transform)
+    - [Filtre Bloom](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Tries](#tries)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Hashing sensible à la localité](#locality-sensitive-hashing)
+    - [van Emde Boas Arbres](#van-emde-boas-arbres)
+    - [Structures de data augmentées](#augmented-data-structures)
+    - [Essais](#tries)
+    - [N-ary (K-ary, M-ary) arbres](#n-ary-k-ary-m-ary-arbres)
+    - [Arbres de recherche équilibrés](#balanced-search-arbres)
+        - AVL arbres
+        - Splay arbres
+        - Red/black arbres
+        - 2-3 search arbres
+        - 2-3-4 arbres (aka 2-4 arbres)
+        - N-ary (K-ary, M-ary) arbres
+        - B-arbres
+    - [k-D arbres](#k-d-arbres)
+    - [Liste pour Ignorer](#skip-lists)
+    - [Network Flux](#network-flows)
+    - [Ensembles disjoints et recherche d'union](#disjoint-sets--union-find)
+    - [Math pour le traitement rapide](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-    - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+    - [Programmation linéaire](#linear-programming)
+    - [Géométrie, coque convexe](#geometry-convex-hull)
+    - [Mathématiques discrètes](#discrete-math)
+    - [Apprentissage machine](#machine-learning)
+    - [Aller](#go)
+- [Additional Detail on Some Subjects](#plus-détail-sur-certains-sujets)
+- [Série vidéo](#video-series)
+- [Cours d'informatique](#computer-science-courses)
 
 ---
 
-## Why use it?
+## Pourquoi l'utiliser?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+Je suis ce plan pour préparer mon entretien avec Google. J'ai construit la toile, la construction
+services, et le lancement de startups depuis 1997. J'ai un diplôme en économie, pas un diplôme en informatique. J'ai
+eu beaucoup de succès dans ma carrière, mais je veux travailler chez Google. Je veux progresser dans de plus grands systèmes
+et d’avoir une réelle compréhension des systèmes informatiques, de l’efficacité algorithmique, des performances de la structure de données,
+langues de bas niveau, et comment tout cela fonctionne. Et si vous ne le connaissez pas, Google ne vous embauchera pas.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Quand j'ai commencé ce projet, je ne connaissais pas une pile d'un tas, je ne connaissais rien de Big-O, rien des arbres, ou comment
+traverser un graphique. Si je devais coder un algorithme de tri, je peux vous dire qu'il n'aurait pas été très bon.
+Toutes les structures de données que j'ai utilisées étaient intégrées au langage et je ne savais pas comment elles fonctionnaient.
+sous le capot du tout. Je n’ai jamais eu à gérer la mémoire à moins qu’un processus que j’exécutais ne donne une
+mémoire ", et ensuite je devrais trouver une solution de contournement. J'ai utilisé quelques tableaux multidimensionnels dans ma vie et
+des milliers de tableaux associatifs, mais je n'ai jamais créé de structures de données à partir de rien.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Mais après avoir étudié ce plan d'étude, j'ai toute confiance que je serai embauché. C'est un long plan. Ça va me prendre
+mois. Si vous en connaissez déjà beaucoup, cela vous prendra beaucoup moins de temps.
 
-## How to use it
+## Comment l'utiliser
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Tout ce qui suit est un aperçu, et vous devriez aborder les éléments dans l’ordre, de haut en bas.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+J'utilise la variante spéciale de Github, notamment des listes de tâches pour vérifier les progrès.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+- [x] Créez une nouvelle branche pour pouvoir vérifier les éléments de ce type, il suffit de mettre un x entre crochets: [x]
 
 
-    Fork a branch and follow the commands below
+    Créez une branche et suivez les commandes ci-dessous
 
 `git checkout -b progress`
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+`git remote ajoute jwasham https: // github.com / jwasham / coding-interview-university`
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Marquez toutes les cases avec X après avoir terminé vos modifications
 
-`git add . `
+`git add. `
 
-`git commit -m "Marked x" `
+`git commit -m" Marked x "`
 
-`git rebase jwasham/master `
+`git rebase jwasham / master`
 
-`git push --force `
+`git push --force`
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[En savoir plus sur le démarquage à saveur Github] (https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Mettez-vous dans l'ambiance de Googley
 
-Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Imprimez un signe "[[futur Googler] (https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)" et gardez les yeux sur le prix. .
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)
+[!] extras / future-googler.pdf)
 
-## Did I Get the Job?
+## Ai-je obtenu le travail?
 
-I'm in the queue right now. Hope to interview soon.
+Je suis dans la queue en ce moment. J'espère pouvoir interviewer bientôt.
 
-    Thanks for the referral, JP.
+    Merci pour la référence, JP.
 
-## Follow Along with Me
-
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
-
-I'm on the journey, too. Follow along:
-
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
-- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Coding Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
-
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## About Google
-
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
-
-## About Video Resources
-
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+## Suivez avec moi
 
 
-## Interview Process & General Interview Prep
+Mon histoire: [Pourquoi j'ai étudié à temps plein pendant 8 mois pour une interview avec Google] (https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a- google-interview-cc662ce9bb13)
 
-- [ ] Videos:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+Je suis aussi en voyage. Suivre:
 
-- [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+- ** Blog **: [GoogleyAsHeck.com] (https://googleyasheck.com/)
+- Twitter: [@googleyasheck] (https://twitter.com/googleyasheck)
+- Twitter: [@StartupNextDoor] (https://twitter.com/StartupNextDoor)
+- Google+: [+ Googleyasheck] (https://plus.google.com/+Googleyasheck)
+- LinkedIn: [johnawasham] (https://www.linkedin.com/in/johnawasham)
 
-- [ ] Prep Courses:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+! [John Washam - Coding Interview University] (https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-- [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+## Ne vous sentez pas assez malin
+- Les ingénieurs de Google sont intelligents, mais nombreux sont ceux qui craignent de ne pas être assez intelligents, même s'ils travaillent chez Google.
+- [Le ​​mythe du programmeur Genius] (https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Il est dangereux de rester seul: Combattre les monstres invisibles dans les technologies] (https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
+## À propos de Google
+
+- [] Pour les étudiants - [Google Careers: Guide de développement technique] (https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [] Comment fonctionne la recherche:
+    - [] [L'évolution de la recherche (vidéo)] (https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [] [Comment fonctionne la recherche - l'histoire] (https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [] [Fonctionnement de la recherche] (https://www.google.com/insidesearch/howsearchworks/)
+    - [] [Fonctionnement de la recherche - Matt Cutts (vidéo)] (https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [] [Comment Google apporte des améliorations à son algorithme de recherche (vidéo)] (https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] Séries:
+    - [] [Comment Google a-t-il traité avec Mobile] (https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [] [Étude secrète de Google pour déterminer nos besoins] (https://backchannel.com/googles-secret-study-to-find-out-our-ne-needs-eba8700263bf)
+    - [] [La recherche Google sera votre prochain cerveau] (https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [] [L'esprit profond de Demis Hassabis] (https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+- [] [Livre: How Google Works] (https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [] [Annonce faite par Google - octobre 2016 (vidéo)] (https://www.youtube.com/watch?v=q4y0KOeXViI)
+
+## À propos des ressources vidéo
+
+Certaines vidéos ne sont disponibles qu'en s'inscrivant à un cours Coursera, EdX ou Lynda.com. Ce sont les MOOC.
+Parfois, les cours ne sont pas en session, il faut donc attendre quelques mois pour ne pas y avoir accès. Les cours Lynda.com ne sont pas gratuits.
+
+    J'apprécierais votre aide pour ajouter des sources publiques gratuites et toujours disponibles, telles que des vidéos YouTube pour accompagner les vidéos de cours en ligne.
+    J'aime utiliser les conférences universitaires.
+
+
+
+## Processus d'entrevue et préparation générale à l'entrevue
+
+- [ ] Vidéos:
+    - [] [Comment travailler chez Google: préparation à une interview technique (vidéo)] (https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [] [Comment travailler chez Google: exemple d'entrevue de codage / d'ingénierie (vidéo)] (https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [] [Comment travailler chez Google - Session de coaching de candidat (vidéo)] (https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [] [Google Recruiters partage ses astuces pour les entretiens techniques (vidéo)] (https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [] [Comment travailler chez Google: Préparation du curriculum vitae (vidéo)] (https://www.youtube.com/watch?v=8npJLXkcmu8)
+
+- [ ] Des articles:
+    - [] [Devenir googler en trois étapes] (http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [] [Obtenir ce travail chez Google] (http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - toutes les choses qu'il mentionne que vous devez savoir sont énumérées ci-dessous
+    - [] _ ​​(très daté) _ [Comment trouver un emploi chez Google, questions d'entretien, processus de recrutement] (http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job -at-google-interview-questions-embauche-processus.html)
+    - [] [Questions sur l'écran du téléphone] (http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+
+
+- [] cours préparatoires:
+    - [] [Entretien de l’ingénieur logiciel lâché (cours payant)] (https://www.udemy.com/software-engineer-interview-unleashed):
+        - Apprenez à vous préparer aux entretiens avec un ingénieur logiciel d'un ancien intervieweur de Google.
+
+- [] Supplémentaire (non suggéré par Google mais j'ai ajouté):
+    - [] [ABC: Toujours coder] (https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [] [Quatre étapes pour Google sans diplôme]
+    - [] [Tableau blanc] (https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [] [Ce que Google pense de l'embauche, de la gestion et de la culture] (http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [] [Tableau blanc efficace pendant les entretiens de programmation] (http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [] Cracking The Coding Interview Set 1:
+        - [] [Gayle L McDowell - Cracking The Coding Interview (vidéo)] (https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [] [Entrevue avec l'auteur Gayle Laakmann McDowell (vidéo)] (https://www.youtube.com/watch?v=aClxtDcdpsQ) (vidéo)]
+    - [] Comment obtenir un emploi chez Big 4:
+        - [] ['Comment obtenir un emploi chez Big 4 - Amazon, Facebook, Google et Microsoft' (vidéo)] (https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [] [Échec aux entrevues Google] (http://alexbowe.com/failing-at-google-interviews/)
+	
 ## Pick One Language for the Interview
 
 I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
@@ -294,154 +297,155 @@ You can use a language you are comfortable in to do the coding part of the inter
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Vous pouvez aussi les utiliser, mais lisez d'abord. Il peut y avoir des mises en garde:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Vous devez être très à l'aise dans la langue et avoir des connaissances.
 
-Read more about choices:
+En savoir plus sur les choix:
+
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Voir les ressources linguistiques ici] (programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Vous verrez l'apprentissage C, C ++ et Python inclus ci-dessous, car j'apprends. Il y a quelques livres impliqués, voir le bas.
 
-## Book List
+## Liste de livres
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+C'est une liste plus courte que celle que j'ai utilisée. Ceci est abrégé pour vous faire gagner du temps.
 
 ### Interview Prep
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+- [] [Entrevues de programmation révélées: Secrets pour décrocher votre prochain emploi, 2e édition] (http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - réponses en C ++ et Java
+    - recommandé dans Google candidat coaching
+    - Ceci est un bon échauffement pour Cracking the Coding Interview
+    - pas trop difficile, la plupart des problèmes peuvent être plus faciles que ce que vous verrez dans une interview (d'après ce que j'ai lu)
+- [] [Cracking the Coding Interview, 6ème édition] (http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - réponses en Java
+    - recommandé sur le [site Google Careers] (https://www.google.com/about/careers/how-we-hire/interview/)
+    - Si vous voyez des gens faire référence à "The Google Resume", il s'agit d'un livre remplacé par "Cracking the Coding Interview".
 
-If you have tons of extra time:
+Si vous avez des tonnes de temps supplémentaire:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+- [] [Éléments des entrevues de programmation] (https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+    - tout le code est en C ++, très bon si vous cherchez à utiliser le C ++ dans votre interview
+    - un bon livre sur la résolution de problèmes en général.
 
 ### Computer Architecture
 
-If short on time:
+Si peu de temps:
 
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
+- [] [Écrire un bon code: Volume 1: Comprendre la machine] (https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - Le livre a été publié en 2004 et est un peu dépassé, mais c'est une excellente ressource pour comprendre un ordinateur en bref.
+    - L’auteur a inventé HLA. Prenez donc des mentions et des exemples dans HLA avec un grain de sel. Pas largement utilisé, mais des exemples décents de ce à quoi ressemble l'assemblage.
+    - Ces chapitres méritent d'être lus pour vous donner une bonne base:
+        - Chapitre 2 - Représentation numérique
+        - Chapitre 3 - Arithmétique binaire et opérations sur les bits
+        - Chapitre 4 - Représentation en virgule flottante
+        - Chapitre 5 - Représentation du personnage
+        - Chapitre 6 - Organisation de la mémoire et accès
+        - Chapitre 7 - Types de données composites et objets de mémoire
+        - Chapitre 9 - Architecture de la CPU
+        - Chapitre 10 - Architecture du jeu d'instructions
+        - Chapitre 11 - Architecture et organisation de la mémoire
 
-If you have more time (I want this book):
+Si vous avez plus de temps (je veux ce livre):
 
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+- [] [Architecture informatique, cinquième édition: une approche quantitative] (https://www.amazon.com/dp/012383872X/)
+    - Pour un traitement plus riche, plus actuel (2011), mais plus long.
+	
+### Spécifique à la langue
 
-### Language Specific
+** Vous devez choisir une langue pour l'entretien (voir ci-dessus). ** Voici mes recommandations par langue. Je n'ai pas de ressources pour toutes les langues. Je me félicite des ajouts.
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+Si vous lisez l’un de ceux-ci, vous devriez avoir toutes les connaissances en structures de données et en algorithmes dont vous aurez besoin pour commencer à résoudre des problèmes de codage.
+** Vous pouvez ignorer toutes les conférences vidéo de ce projet **, sauf si vous souhaitez une critique.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+[Ressources supplémentaires spécifiques aux langues ici.] (Programming-language-resources.md)
 
-[Additional language-specific resources here.](programming-language-resources.md)
+### C ++
 
-### C++
+Je n'ai pas lu ces deux articles, mais ils sont très bien notés et écrits par Sedgewick. Il est génial.
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+- [] [Algorithmes en C ++, Parties 1-4: Principes de base, Structure des données, Tri, Recherche] (https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+- [] [Algorithmes en C ++, partie 5: algorithmes de graphes] (https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Si vous avez une meilleure recommandation pour C ++, faites-le moi savoir. Vous recherchez une ressource complète.
 
 ### Java
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
-        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
-        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
+- [] [Algorithmes (Sedgewick et Wayne)] (https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - vidéos avec contenu de livre (et Sedgewick!):
+        - [Algorithmes I] (https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
+        - [Algorithmes II] (https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
 
-OR:
+OU:
 
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+- [] [Structures de données et algorithmes en Java] (https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - par Goodrich, Tamassia, Goldwasser
+    - utilisé comme texte facultatif pour le cours d'introduction CS à l'UC Berkeley
+    - voir mon rapport de livre sur la version Python ci-dessous. Ce livre couvre les mêmes sujets.
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+- [] [Structures de données et algorithmes en Python] (https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - par Goodrich, Tamassia, Goldwasser
+    - J'ai adoré ce livre. Il couvrait tout et plus.
+    - code pythonique
+    - mon rapport de livre lumineux: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### Livres facultatifs
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+** Certaines personnes les recommandent, mais je pense que ça va trop loin, sauf si vous avez plusieurs années d'expérience en génie logiciel et si vous vous attendez à une interview beaucoup plus dure: **
 
-- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
-        - class textbook on data structures and algorithms
-            - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - To quote Yegge: "More than any other book it helped me understand just how astonishingly commonplace
-        (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
-        covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
-        of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
-        them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
-        great way to learn how to identify hundreds of problem types."
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+- [] [Manuel de conception d'algorithmes] (http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+    - en tant que revue et reconnaissance de problèmes
+    - La partie du catalogue de l'algorithme dépasse de loin le problème que vous rencontrerez lors d'une interview.
+    - Ce livre comporte 2 parties:
+        - manuel de classe sur les structures de données et les algorithmes
+            - avantages:
+                - est une bonne critique comme n'importe quel manuel d'algorithmes serait
+                - belles histoires de ses expériences de résolution de problèmes dans l'industrie et le monde universitaire
+                - exemples de code en C
+            - les inconvénients:
+                - peut être aussi dense ou impénétrable que le CLRS, et dans certains cas, le CLRS peut constituer une meilleure alternative pour certains sujets
+                - Les chapitres 7, 8 et 9 peuvent être difficiles à suivre, car certains éléments ne sont pas bien expliqués ou nécessitent plus de cervelle que moi.
+                - ne vous méprenez pas: j'aime Skiena, son style d'enseignement et ses manières, mais je ne suis peut-être pas du matériel de Stony Brook.
+        - catalogue d'algorithmes:
+            - c'est la vraie raison pour laquelle vous achetez ce livre.
+            - sur le point d'arriver à cette partie. Mettra à jour ici une fois que je l'ai fait mon chemin.
+    - Pour citer Yegge: "Plus que tout autre livre, cela m'a aidé à comprendre à quel point étonnamment banal
+        Les problèmes de graphes (et d’importants) sont - ils devraient faire partie de la boîte à outils de chaque programmeur qui travaille. Le livre aussi
+        couvre les structures de données de base et les algorithmes de tri, ce qui est un avantage appréciable. Mais la mine d'or est la seconde moitié
+        du livre, qui est une sorte d’encyclopédie de 1-page sur des zillions de problèmes utiles et sur diverses manières de résoudre
+        eux, sans trop de détails. Presque chaque page contient une image simple, ce qui la rend facile à mémoriser. C'est un
+        excellent moyen d’apprendre à identifier des centaines de types de problèmes. "
+    - Peut louer sur kindle
+    - Half.com est une excellente ressource pour des manuels à bon prix.
+    - Réponses:
+        - [Solutions] (http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_ (Second_Edition))
+        - [Solutions] (http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+    - [Errata] (http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
-- [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+- [] [Introduction aux algorithmes] (https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+    - ** Important: ** La lecture de ce livre n'aura qu'une valeur limitée. Ce livre est une excellente revue des algorithmes et des structures de données, mais ne vous apprendra pas comment écrire un bon code. Vous devez être capable de coder une solution décente efficacement.
+    - Pour citer Yegge: "Mais si vous souhaitez participer à vos entretiens * préparé *, envisagez de reporter votre candidature jusqu'à ce que vous ayez parcouru ce livre."
+    - Half.com est une excellente ressource pour des manuels à bon prix.
+    - aka CLR, parfois CLRS, parce que Stein était en retard au jeu
 
-- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+- [] [Perles de programmation] (http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+    - Les deux premiers chapitres présentent des solutions intelligentes aux problèmes de programmation (certains très anciens utilisant une bande de données), mais
+      c'est juste une intro. C’est un guide sur la conception et l’architecture de programmes, un peu comme Code Complete, mais beaucoup plus court.
 
-- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
+- ~~ "Algorithmes et programmation: problèmes et solutions" de Shen ~~
+    - Un bon livre, mais après avoir résolu des problèmes sur plusieurs pages, je me suis senti frustré par Pascal, je fais des boucles while, des tableaux à 1 index et des résultats de satisfaction post-condition peu clairs.
+    - Vous préféreriez passer du temps sur les problèmes de codage d'un autre livre ou les problèmes de codage en ligne.
 
 
 ## Before you Get Started

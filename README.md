@@ -1808,6 +1808,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
             block in a particular file. The basic problem is turning the file block i address into a disk block
             (or perhaps to a cylinder-head-sector) address.
         - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
+        - [ ] [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
         - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
         - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)

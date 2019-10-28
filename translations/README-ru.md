@@ -1,4 +1,4 @@
-https://twitter.com/home# Google Interview University
+# Google Interview University
 
 Оригинальная версия: [Английский](../README.md) 
 

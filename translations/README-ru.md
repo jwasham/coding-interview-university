@@ -1755,14 +1755,12 @@ Google не возьмёт тебя на работу.
         - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
     - [ ] **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
-        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
-        - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+        - На практике:
+            На каждое 2-4 дерево, существуют соответствующие красно-чёрные деревья с элементами данных в таком же порядке. Операции вставки и удаления на 2-4 деревьях эквивалентны изменению цвета и ротациям в красно-чёрных деревьях. 
+            Таким образом, 2-4 деревья являются важным инструментом в понимании логики красно-чёрных деревьев, именно поэтому много вводных учебников по алгоритмам начинают с 2-4 деревьев прямо перед красно-черными, несмотря на то, что **2-4 деревья редко используются на практике**.
+        - [ ] [CS 61B Лекция 26: Сбалансированные деревья поиска (видео)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
+        - [ ] [234-Деревья Снизу Вверх (видео)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [234-Деревья Сверху Вниз (видео)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
     - [ ] **N-ary (K-ary, M-ary) trees**
         - note: the N or K is the branching factor (max branches)

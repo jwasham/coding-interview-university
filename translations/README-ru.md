@@ -1764,11 +1764,11 @@ Google не возьмёт тебя на работу.
         - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
-    - [ ] **N-ary (K-ary, M-ary) trees**
-        - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
-        - 2-3 trees are 3-ary
-        - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+    - [ ] **N-ичные (K-ичные, M-ичные) деревья**
+        - заметка: N или K это фактор ветвления (максимальное количество веток у каждого корня)
+        - бинарные деревья являются 2-ичными деревьями, где фактор ветвления = 2
+        - 2-3 деревья 3-ичные
+        - [ ] [K-ичные деревья (en)](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - [ ] **B-Trees**
         - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)

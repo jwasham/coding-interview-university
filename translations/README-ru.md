@@ -1768,21 +1768,18 @@ Google не возьмёт тебя на работу.
         - 2-3 trees are 3-ary
         - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
-    - [ ] **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address.
-        - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
-        - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
-        - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - covers cache-oblivious B-Trees, very interesting data structures
-                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
-
+    - [ ] **B-Деревья**
+        - забавно, но факт: это загадка, ведь B здесь может значить Boeing, сБалансированный, или Байер (фамилия ко-создателя)
+        - На практике:
+            B-Деревья очень широко используются в базах данных. Большинство современных файловых систем используют B-деревья (или вариации, B+ и B* деревья). 
+            В дополнение к использованию в базах данных, B-дерево также применяют в файловых системах для быстрого рандомного доступа к произвольному блоку в конкретном файле. Основная проблема это превратить адрес i файлового блока в адрес дискового блока или, например, в CHS (цилиндр-голова-сектор).
+        - [ ] [B-Деревья (en)](https://en.wikipedia.org/wiki/B-tree)
+        - [ ] [Введение в B-Деревья (видео)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+        - [ ] [B-Деревья Определение и Вставка (видео)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [B-Деревья Удаление (видео)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [MIT 6.851 - Модели Иерархии Памяти (видео)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+                - включает кэш-агностические B-Деревья, крайне интересные структуры данных
+                - первые 37 минут очень технические, можно пропустить (B это размер блока, размер кэша)
 
 - ### k-D Деревья
     - прекрасны для нахождения всех точек в прямоугольнике или более многомерном объекте

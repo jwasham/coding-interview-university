@@ -1790,10 +1790,10 @@ Google не возьмёт тебя на работу.
     - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
     - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
-- ### Skip lists
-    - "These are somewhat of a cult data structure" - Skiena
-    - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
+- ### Список с пропусками
+    - "А это что-то из разряда культа в мире структур данных" - Стивен Скиена
+    - [ ] [Рандомизация: Список с пропусками (видео)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Для анимаций и чуть побольше деталей](https://en.wikipedia.org/wiki/Skip_list)
 
 - ### Network Flows
     - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)

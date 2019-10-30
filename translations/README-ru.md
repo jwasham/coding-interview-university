@@ -1803,11 +1803,11 @@ Google не возьмёт тебя на работу.
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
-- ### Treap
-    - Combination of a binary search tree and a heap
-    - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
-    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
-    - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
+- ### Декартово дерево
+    - Комбинация бинарного поискового дерева и структуры данных "куча"
+    - [ ] [Декартово дерево](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%B2%D0%BE_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE)
+    - [ ] [Структуры данных: Декартово Дерево на пальцах (видео)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [ ] [Применения в множествах](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
 - ### Linear Programming (videos)
     - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)

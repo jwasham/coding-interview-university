@@ -1784,11 +1784,11 @@ Google не возьмёт тебя на работу.
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
 
 
-- ### k-D Trees
-    - great for finding number of points in a rectangle or higher dimension object
-    - a good fit for k-nearest neighbors
-    - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
-    - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+- ### k-D Деревья
+    - прекрасны для нахождения всех точек в прямоугольнике или более многомерном объекте
+    - хорошо подходят для k-ближайших соседей
+    - [ ] [Kd Деревья (видео)](https://www.youtube.com/watch?v=W94M9D_yXKk)
+    - [ ] [kNN Алгоритм K-d дерева (видео)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
 - ### Список с пропусками
     - "А это что-то из разряда культа в мире структур данных" - Стивен Скиена

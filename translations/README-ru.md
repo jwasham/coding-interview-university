@@ -1667,10 +1667,10 @@ Google не возьмёт тебя на работу.
 - ### HyperLogLog
     - [Как посчитать миллиард различных объектов, когда у вас есть только 1.5KB памяти](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
-- ### Locality-Sensitive Hashing
-    - used to determine the similarity of documents
-    - the opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same.
-    - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
+- ### Хэширование с учетом локальных особенностей
+    - используется для определения сходства документов
+    - противоположность MD5 или SHA, которые используются для определения, являются ли 2 документа / строки одинаковыми.
+    - [Simhashing (надеюсь) стало проще](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
     - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)

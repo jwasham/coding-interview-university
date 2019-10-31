@@ -1790,10 +1790,10 @@ Google не возьмёт тебя на работу.
     - [ ] [Рандомизация: Список с пропусками (видео)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Для анимаций и чуть побольше деталей](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Network Flows
-    - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+- ### Транспортные сети
+    - [ ] [Алгоритм Форд — Фалкерсона за 5 минут (видео)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Алгоритм Форд — Фалкерсона (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Транспортные сети (видео)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
 - ### Непересекающиеся Множества и Система Непересекающихся Множеств
     - [ ] [UCB 61B - Непересекающиеся Множества; Сортировка и выборка (видео)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)

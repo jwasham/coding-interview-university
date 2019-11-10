@@ -1,0 +1,35 @@
+import ctypes
+
+"""
+ctypes is a foreign function library for Python. It provides C compatible data types, and allows calling functions in DLLs or shared libraries. It can be used to wrap these libraries in pure Python.
+"""
+class DynamucArray(object):
+        def __init__(self):
+                self.n = 0
+                self.capacity = 1
+                self.A = self.make_array(self.capacity)
+
+        def __len__(self):
+                return self.n #return number of elements
+
+        def __getitem__(self,k):
+                if k>=0 & k <self.n:
+                        return self.A[k]
+                else:
+                        retun IndexError("Index out of bounds")
+                        
+        def append(self, element):
+                if self.n == self.capacity:
+                        self.resize(2 * self.capacity)
+
+                self.A[self.n] = element
+                self.n = self.n + 1
+        def resize(self, new_capacity):
+                B = self.make_array(new_capacity)
+                for k in range(self.n):
+                        B[k] = self.A[k]
+                self.A  = B
+                self.capacity = new_capacity
+
+        def make_array(self, new_capacity):
+                return (new_capacity * ctypes.py_object)()

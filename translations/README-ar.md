@@ -1,7 +1,7 @@
 # الإعداد لجوجل
 
 الترجمه:
-- [中文版本](translations/README-cn.md)
+- [中文版本](README-cn.md)
 - الترجمات تحت الاعداد:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
@@ -1639,7 +1639,6 @@ You're never really done.
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)

@@ -277,7 +277,7 @@ Bạn sẽ thấy vài tài liệu về C, C++ và Python bên dưới, vì tôi
 ### Chuẩn bị phỏng vấn
 
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - Có câu trả lời bằng C++ và Java
     - Được khuyến khích bởi các khóa hướng dẫn của Google.
     - Đây là một phần luyện tập tốt trước khi bắt đầu với quyển Cracking the Coding Interview

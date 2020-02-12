@@ -7,8 +7,8 @@
 >
 > I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> The items listed here will prepare you well for an interview at just about any software company,
-> including the giants: Amazon, Facebook, Google or Microsoft.
+> The items listed here will prepare you well for a technical interview at just about any software company,
+> including the giants: Amazon, Facebook, Google, and Microsoft.
 >
 > *Best of luck to you!*
 
@@ -388,7 +388,7 @@ It's user-friendly, available on all platforms and has a cloud sync system. It c
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
-### 3. While you're learning data structures and algorithms, start doing coding questions.
+### 3. Start doing coding interview questions while you're learning data structures and algorithms, 
 
 You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. Once you've learned a topic, 
 and feel comfortable with it, like linked lists, open one of the coding interview books and do a couple of questions regarding 

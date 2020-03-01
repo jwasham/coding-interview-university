@@ -1002,7 +1002,6 @@ Graphs can be used to represent many problems in computer science, so this secti
         - Modern concurrency constructs with multicore processors
         - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-        - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
         - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
         - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.

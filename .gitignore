@@ -1,4 +1,5 @@
 .idea
+*.iml
 personal-9894.md
 
 # Targets Windows & Unix temporary files
@@ -14,3 +15,4 @@ personal-9894.md
 .Trashes
 ehthumbs.db
 Thumbs.db
+

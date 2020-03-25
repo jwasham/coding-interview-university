@@ -8,7 +8,7 @@
 ## यह क्या है?
 यह एक बड़ी कंपनी के लिए सॉफ्टवेयर इंजीनियर को वेब डेवलपर (स्वयं सिखाया, कोई सीएस डिग्री नहीं) से जाने के लिए मेरी बहु-महीने की अध्ययन योजना है
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 यह नए सॉफ़्टवेयर इंजीनियरों या सॉफ़्टवेयर / वेब विकास से सॉफ़्टवेयर इंजीनियरिंग (जहां कंप्यूटर साइंस ज्ञान आवश्यक है) से स्विच करने के लिए है। यदि आपके पास कई वर्षों का अनुभव है और कई वर्षों के सॉफ्टवेयर इंजीनियरिंग अनुभव का दावा कर रहे हैं, तो एक कठिन साक्षात्कार की अपेक्षा करें।
 
@@ -960,7 +960,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - Pages 1048 - 1140 in CLRS if you have it.
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (विडियो)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (विडियो)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (विडियो)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)

@@ -1298,18 +1298,24 @@ Coding Interview Question Videos:
 - [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
     - These are my new favorite. You can watch several in a short time.
     - Good explanations of solution and the code.
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
 Challenge sites:
 - [LeetCode](https://leetcode.com/)
-- [TopCoder](https://www.topcoder.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
-- [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/)
+    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
+    - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode) 
+    - See Nick White Videos above for short code-throughs
 - [HackerRank](https://www.hackerrank.com/)
-- [Codility](https://codility.com/programmers/)
+- [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
+
+Language-learning sites, with challenges:
+- [Codewars](http://www.codewars.com)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 

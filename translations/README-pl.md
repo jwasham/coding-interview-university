@@ -1,29 +1,29 @@
-# Coding Interview University
+# Przygotowanie do rozmowy kwalifikacyjnej w Google - Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+> Pierwotnie stworzyłem ten projekt, jako krótką listę tematów do nauki, które warto poznać aby zostać Software Engineer,
+> ale powiększył się do dużej listy, którą widzisz dzisiaj. Po przejściu przez ten plan studiów [zostałem zatrudniony
+> jako Software Development Engineer w Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Prawdopodobnie nie będziesz musiał uczyć się tak dużo jak ja. W każdym razie wszystko, czego potrzebujesz, jest tutaj.
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> Przez kilka miesięcy uczyłem się około 8-12 godzin dziennie. Oto moja historia: [Dlaczego uczyłem się w pełnym wymiarze godzin przez 8 miesięcy na rozmowę w Google](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
+> Pozycje wymienione tutaj dobrze przygotują cię na wywiad techniczny w prawie każdej firmie zajmującej się wytwarzaniem oprogramowania, włączając w to takich gigantów jak: Amazon, Facebook, Google, and Microsoft.
 >
-> *Best of luck to you!*
+> *Powodzenia!*
 
 <details>
-<summary>Translations:</summary>
+<summary>Tłumaczenia:</summary>
 
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
+- [Polish](https://github.com/mbiesiad/coding-interview-university/blob/master/translations/README-pl.md)
 
 </details>
 
 <details>
-<summary>Translations in progress:</summary>
+<summary>Tłumaczenia w trakcie:</summary>
 
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
@@ -35,7 +35,6 @@
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
 - [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
@@ -45,33 +44,30 @@
 
 </details>
 
-## What is it?
+## Co to jest?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+To jest mój wielomiesięczny plan nauki od przejścia od programisty (samouka, bez dyplomu CS - informatyki) do inżyniera oprogramowania dla dużej firmy.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+Jest to przeznaczone dla **początkujących software engineers** lub tych przełączających się z software/web development na software engineering (gdzie wiedza z informatyki jest wymagana). Jeśli masz wieloletnie doświadczenie i stwierdziłeś, że masz wieloletnie doświadczenie w inżynierii oprogramowania, oczekuj trudniejszej rozmowy.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+Jeśli masz wieloletnie doświadczenie w tworzeniu oprogramowania/stron internetowych, pamiętaj, że duże firmy programistyczne, takie jak Google, Amazon, Facebook i Microsoft postrzegają inżynierię oprogramowania jako inną niż tworzenie oprogramowania / stron internetowych i wymagają wiedzy informatycznej.
 
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+Jeśli chcesz być inżynierem ds. niezawodności i bezpieczeństwa lub systemów, zapoznaj się z listą dodatkową (sieć, bezpieczeństwo).
 
 ---
 
-## Table of Contents
+## Spis treści
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
+- [Co to jest?](#what-is-it)
+- [Dlaczego z tego korzystać?](#why-use-it)
 - [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
+- [Nie czuj, że nie jesteś wystarczająco mądry](#dont-feel-you-arent-smart-enough)
+- [Informacje o materiałach wideo](#about-video-resources)
+- [Proces rozmowy i ogólne przygotowanie do rekrutacji](#interview-process--general-interview-prep)
+- [Wybierz jeden język do rozmowy kwalifikacyjnej](#pick-one-language-for-the-interview)
+- [Lista książek](#book-list)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -131,9 +127,9 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+---------------- Wszystko poniżej tego punktu jest nadprogramowe ----------------
 
-## Additional Resources
+## Dodatkowe materiały
 
 - [Additional Books](#additional-books)
 - [Additional Learning](#additional-learning)
@@ -181,24 +177,21 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ---
 
-## Why use it?
+## Dlaczego z tego korzystać?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Kiedy rozpocząłem ten projekt, nie rozpoznawałem stosu (stack) od sterty (heap), nie znałem notacji dużego O (złożoności obliczeniowej algorytmów, asymptotycznego tempa wzrostu), nie wiedziałem nic o drzewach ani tego, jak przejść przez graf. Gdybym musiał kodować algorytm sortowania, mogę powiedzieć, że nie byłby zbyt dobry.
+Wszystkie struktury danych, z którymi miałem kiedykolwiek do czynienia, były wbudowane w język i nie wiedziałem w ogóle, jak działają pod maską. Nigdy nie musiałem zarządzać pamięcią, chyba że uruchamiany przeze mnie proces wyrzuciłby błąd "out of
+memory", a potem musiałbym znaleźć obejście. W swoim życiu użyłem kilku wielowymiarowych tablic i tysiące tablic asocjacyjnych, ale nigdy nie tworzyłem struktur danych od zera.
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+To długi plan. Może on zająć miesiące. Jeśli jednak znasz już co nieco z tego, zajmie ci to znacznie mniej czasu.
 
-## How to use it
+## Jak tego używać
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Wszystko poniżej jest konspektem i powinieneś zajmować się tymi punktami w kolejności od góry do dołu.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Używam specjalnej odmiany Markdown GitHub, w tym list zadań do sprawdzania postępów.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Utwórz nową gałąź (brancha), aby móc sprawdzać te pozycje, po prostu wstawiając x w nawiasach: [x]**
 
 
     Fork a branch and follow the commands below
@@ -219,25 +212,25 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force`
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Więcej na temat Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 
-## Don't feel you aren't smart enough
+## Nie uważaj, że nie jesteś wystarczająco mądry
 
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+- Odnoszący sukcesy inżynierowie oprogramowania są mądrzy, ale wielu nie ma pewności siebie odnośnie tego, że nie są wystarczająco mądrzy.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+## Informacje o materiałach wideo
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
+Niektóre filmy są dostępne tylko po zapisaniu się na kurs Coursera lub EdX. Są to tak zwane MOOC.
+Czasami zajęcia nie są w sesji, więc musisz poczekać kilka miesięcy, więc wtedy nie masz dostępu.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+    Będę wdzięczny za pomoc w dodawaniu bezpłatnych i zawsze dostępnych źródeł publicznych, takich jak filmy z YouTube, które towarzyszą filmom z kursów online.
+    Lubię korzystać z wykładów uniwersyteckich.
 
 
-## Interview Process & General Interview Prep
+## Proces rozmowy i ogólne przygotowanie do rekrutacji
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
@@ -253,55 +246,55 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+        - Dowiedz się, jak przygotować się na rozmowę kwalifikacyjną na inżyniera oprogramowania od byłego rekrutera Google.
     - [ ] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - Kurs przygotowujący do rekrutacji skoncentrowanej na Pythonie, który obejmuje struktury danych, algorytmy, próbne zadania i wiele innych.
     - [ ] [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - A free Python centric data structures and algorithms course.
+        - Darmowy kurs struktur i algorytmów skoncentrowanych na języku Python.
     - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
+        - Przećwicz praktyczne ćwiczenia z ponad 100 struktur danych i ćwiczeń algorytmicznych oraz wskazówek od dedykowanego mentora, aby pomóc Ci przygotować się na rozmowy kwalifikacyjne i scenariusze w miejscu pracy.
 
-## Pick One Language for the Interview
+## Wybierz jeden język do rozmowy kwalifikacyjnej
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Możesz użyć języka, w którym czujesz się komfortowo, aby wykonać część wywiadu dotyczącą programowania, ale w przypadku dużych firm są to solidne propozycje:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Możesz ich również użyć, ale najpierw przeczytaj co nieco. Mogą istnieć zastrzeżenia:
 
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+Oto artykuł, który napisałem o wyborze języka do rozmowy kwalifikacyjnej: [Wybierz jeden język do wywiadu kodującego](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
 
-You need to be very comfortable in the language and be knowledgeable.
+Musisz czuć się bardzo wygodnie w języku i posiadać z niego wiedzę.
 
-Read more about choices:
+Przeczytaj więcej na temat wyborów tutaj:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Zobacz materiały językowe tutaj](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Poniżej zobaczysz trochę uczenia się C, C ++ i Python, ponieważ uczę się. W grę wchodzi kilka książek, patrz na dole.
 
-## Book List
+## Lista książek
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+To jest krótsza lista niż ta, której użyłem. Jest to skrócone, aby zaoszczędzić czas.
 
-### Interview Prep
+### Przygotowanie do rozmowy rekrutacyjnej
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - odpowiedzi w C++ oraz Java
+    - to dobra rozgrzewka przed Cracking the Coding Interview
+    - nie jest zbyt trudne, większość problemów może być łatwiejsza niż to, co zobaczysz podczas rekrutacji (z tego, co przeczytałem)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - odpowiedzi w Java
 
-### If you have tons of extra time:
+### Jeśli masz mnóstwo dodatkowego czasu:
 
-Choose one:
+Wybierz jeden:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
@@ -309,14 +302,14 @@ Choose one:
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-### Language Specific
+### Konkretny język
 
-**You need to choose a language for the interview (see above).**
+**Musisz wybrać język do rozmowy kwalifikacyjnej (patrz powyżej).**
 
-Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+Oto moje rekomendacje według języka. Nie mam materiałów dla wszystkich języków. Miło widziane dodatki.
 
-If you read through one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Jeśli zapoznasz się z jednym z nich, powinieneś mieć całą wiedzę na temat struktur danych i algorytmów, których potrzebujesz, aby zacząć robić problemy z kodowaniem.
+**Możesz pominąć wszystkie wykłady wideo w tym projekcie**, chyba że chcesz recenzję.
 
 [Additional language-specific resources here.](programming-language-resources.md)
 
@@ -1857,7 +1850,7 @@ You're never really done.
         - nice explanation of tries
         - can be skipped
 
-- **Sorting**
+- **Sortowania**
 
     - Stanford lectures on sorting:
         - [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
@@ -1871,9 +1864,9 @@ You're never really done.
         - [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## Serie wideo
 
-Sit back and enjoy. "Netflix and skill" :P
+Usiądź i spędź miło czas. "Netflix and skill" :P
 
 - [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1935,12 +1928,12 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## Kursy Computer Science
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Papers
+## Literatura
 
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
@@ -1973,6 +1966,8 @@ Sit back and enjoy. "Netflix and skill" :P
 - [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
 
-## LICENSE
+## LICENCJA
 
 [CC-BY-SA-4.0](./LICENSE.txt)
+
+Polska wersja od: @[mbiesiad](https://github.com/mbiesiad)

@@ -215,7 +215,7 @@ Używam specjalnej odmiany Markdown GitHub, w tym list zadań do sprawdzania pos
 [Więcej na temat Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 
-## Nie uważaj, że nie jesteś wystarczająco mądry
+## Nie uważaj, że jesteś niewystarczająco mądry
 
 - Odnoszący sukcesy inżynierowie oprogramowania są mądrzy, ale wielu nie ma pewności siebie odnośnie tego, że nie są wystarczająco mądrzy.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
@@ -392,99 +392,98 @@ aby czuć się z tym komfortowo, np. listy powiązane - otwórz jedną z książ
 ale do tego jak zastosować wiedzę. Polecam kilka książek i stron.
 Zobacz tutaj, aby uzyskać więcej informacji: [Praktyczne pytania programistyczne](#coding-question-practice)
 
-### 4. Review, review, review
+### 4. Przeglądaj, przeglądaj, przeglądaj
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Trzymam zestaw ściąg na ASCII, stos OSI, notacje Big-O i inne. Przeglądam je, kiedy mam trochę wolnego czasu.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Zrób sobie przerwę od problemów programistycznych na pół godziny i przejrzyj swoje fiszki.
 
-### 5. Focus
+### 5. Skupienie
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music 
-without lyrics and you'll be able to focus pretty well.
+Istnieje wiele czynników, które mogą zająć cenny czas. Skupienie i koncentracja są trudne. Włącz muzykę bez słów, a będziesz w stanie całkiem dobrze się skupić.
 
-## What you won't see covered
+## Czego tutaj nie zobaczysz
 
-These are prevalent technologies but not part of this study plan:
+Są to dominujące technologie, ale nie są częścią tego planu nauki:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, oraz inne technologie frontend
 
-## The Daily Plan
+## Plan dzienny
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Niektóre przedmioty zajmą jeden dzień, a inne kilka dni. Niektórzy dopiero się uczą nie mając nic do zaimplementowania.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Każdego dnia biorę jeden temat z poniższej listy, oglądam filmy na ten temat i piszę implementację w:
+- C - używając struktur i funkcji, które mają * i coś jeszcze jako args.
+- C++ - bez używania wbudowanych typów
+- C++ - używając wbudowanych typów, takich jak z STL np. std::list dla linked list
+- Python - używając wbudowanych typów (aby ćwiczyć Python)
+- i piszę testy, aby upewnić się, że robię to dobrze, czasem używając prostych instrukcji assert()
+- Możesz tak robić z Java lub czymś innym, to po prostu moje podejście.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Nie potrzebujesz tych wszystkich. Do rozmowy potrzebny jest tylko [jeden język](#pick-one-language-for-the-interview).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python or Java))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Po co kodować w tych wszystkich?
+- Ćwiczenia, ćwiczenia, ćwiczenia, dopóki nie mam tego dość, i mogę to zrobić bez problemu (niektórzy mają wiele skrajnych przypadków i szczegółów księżek do zapamiętania)
+- Praca w ramach surowych ograniczeń (przydzielanie / zwalnianie pamięci bez pomocy odśmiecania (z wyjątkiem Pythona lub Java))
+- Korzystam z wbudowanych typów, więc mam doświadczenie w korzystaniu z wbudowanych narzędzi do użytku w świecie rzeczywistym (nie zamierzam pisać własnej implementacji list powiązanych na produkcji)
 
-I may not have time to do all of these for every subject, but I'll try.
+Może nie mam czasu na zrobienie wszystkich tych rzeczy dla każdego przedmiotu, ale próbuję.
 
-You can see my code here:
+Możesz zobaczyć moje kody tutaj:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Nie musisz zapamiętywać wnętrzności każdego algorytmu.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi przykładowymi danymi wejściowymi. Następnie przetestuj na komputerze.
 
-## Prerequisite Knowledge
+## Wymagana wiedza
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **Nauka C**
+    - C jest wszędzie. Przykłady znajdziesz w książkach, wykładach, filmach, *wszędzie* podczas nauki.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+        - Jest to krótka książka, ale zapewni doskonałą znajomość języka C i jeśli trochę go przećwiczysz
+            szybko osiągniesz biegłość. Zrozumienie C pomaga zrozumieć, jak działają programy i pamięć.
+        - [odpowiedzi na pytania](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
-    - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
-    - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+- [ ] **Jak komputery przetwarzają program:**
+    - [ ] [Jak procesor wykonuje program (wideo)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] [Jak komputery liczą - ALU (wideo)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [Rejestry i pamięć RAM (wideo)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [Central Processing Unit (CPU) - procesor (wideo)](https://youtu.be/FZGugFqdr60)
+    - [ ] [Instrukcje i programy (wideo)](https://youtu.be/zltgXvg6r3k)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Złożoność algorytmiczna / Big-O / Analiza asymptotyczna
 
-- Nothing to implement
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- Nic do implementacji
+- Tutaj jest wiele filmów. Po prostu oglądaj wystarczająco długo, aż zrozumiesz. Zawsze możesz wrócić i przejrzeć ponownie.
+- Jeśli niektóre wykłady są zbyt matematyczne, możesz zeskoczyć na dół i obejrzeć filmy z matematyki dyskretnej, aby uzyskać podstawową wiedzę.
+- [ ] [Harvard CS50 - Notacja asymptotyczna (wideo)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (ogólny szybki samouczek) (wideo)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (oraz Omega i Theta) - najlepsze wyjaśnienia matematyczne (wideo)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+    - [wideo](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [prezentacja](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
-- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+- [ ] [Orders of Growth (wideo)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
+- [ ] [Asymptotics (wideo)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
+- [ ] [UC Berkeley Big O (wideo)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [UC Berkeley Big Omega (wideo)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
+- [ ] [Amortized Analysis (wideo)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Illustrating "Big O" (wideo)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [Ściągawka](http://bigocheatsheet.com/)
 
-## Data Structures
+## Struktury danych
 
 - ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
+    - Zaimplementuj wektor automatycznie zmieniający rozmiar.
+    - [ ] Opis:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
@@ -493,11 +492,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
         - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-    - [ ] Implement a vector (mutable array with automatic resizing):
+    - [ ] Zaimplementuj vector (mutable array z automatycznym zmienianiem rozmiaru):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
+            - potraf zaalokować int array pod maską, bez używania gotowych funkcji
+            - zacznij z 16, lub jeśli liczba początkowa jest większa, użyj potęgi 2 - 16, 32, 64, 128
         - [ ] size() - number of items
         - [ ] capacity() - number of items it can hold
         - [ ] is_empty()
@@ -510,16 +509,16 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
         - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
+            - po osiągnięciu pojemności zmień rozmiar, aby podwoić rozmiar
+            - podczas usuwania elementu, jeśli rozmiar wynosi 1/4 pojemności, przeskaluj do połowy
     - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
+        - O(1) to add/remove na koniec (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
     - [ ] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
+- ### Listy łączone
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
@@ -549,16 +548,16 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+    - [ ] Lista podwójnie łączona
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
-- ### Stack
+- ### Stos
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Will not implement. Implementing with array is trivial.
 
-- ### Queue
+- ### Kolejka
     - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
@@ -607,7 +606,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Więcej wiedzy
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -617,7 +616,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search (on sorted array of integers)
         - binary search using recursion
 
-- ### Bitwise operations
+- ### Operacje bitowe
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
@@ -642,9 +641,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Drzewa
 
-- ### Trees - Notes & Background
+- ### Drzewa - uwagi & zarys
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
@@ -694,7 +693,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] delete_value
         - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
-- ### Heap / Priority Queue / Binary Heap
+- ### Sterta / kolejka priorytetowa / sterta binarna
     - visualized as a tree, but is usually linear in storage (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
@@ -723,9 +722,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
-## Sorting
+## Sortowanie
 
-- [ ] Notes:
+- [ ] Uwagi:
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
     - [ ] stability in sorting algorithms ("Is Quicksort stable?")
@@ -798,11 +797,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
-## Graphs
+## Grafy
 
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
 
-- Notes:
+- Uwagi:
     - There are 4 basic ways to represent a graph in memory:
         - objects and pointers
         - adjacency matrix
@@ -812,11 +811,11 @@ Graphs can be used to represent many problems in computer science, so this secti
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
-- [ ] MIT(videos):
+- [ ] MIT (filmy):
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
     - [ ] [Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
-- [ ] Skiena Lectures - great intro:
+- [ ] Wykłady Skiena - świetne wprowadzenie:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
@@ -860,7 +859,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## Even More Knowledge
 
-- ### Recursion
+- ### Rekursja
     - [ ] Stanford lectures on recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -1016,7 +1015,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
     - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
     - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+        - [prezentacja](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
     - [ ] Dependency injection:
         - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
@@ -1108,7 +1107,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - simplicity and robustness
         - tradeoffs
         - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [ ] **ZACZNIJ TUTAJ**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
@@ -1273,7 +1272,7 @@ Supplemental:
 See [Book List above](#book-list)
 
 
-## Coding exercises/challenges
+## Zadania/wyzwania programistyczne
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
@@ -1318,13 +1317,13 @@ Mock Interviews:
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
 
 
-## Once you're closer to the interview
+## Gdy już jesteś bliżej rozmowy rekrutacyjnej
 
 - Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
-## Your Resume
+## Twoje CV
 
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
 
@@ -1347,7 +1346,7 @@ Have a story, not just data, about something you accomplished.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
-## Have questions for the interviewer
+## Pytania dla rekrutera
 
     Some of mine (I already may know answer to but want their opinion or team perspective):
 
@@ -1384,7 +1383,7 @@ You're never really done.
 
 ---
 
-## Additional Books
+## Dodatkowe książki
 
     These are here so you can dive into a topic you find interesting.
 
@@ -1444,18 +1443,18 @@ You're never really done.
     - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
       that is just an intro. This a guidebook on program design and architecture.
 
-## Additional Learning
+## Dodatkowe materiały
     
-    I added them to help you become a well-rounded software engineer, and to be aware of certain 
-    technologies and algorithms, so you'll have a bigger toolbox.
+    Dodałem je, aby pomóc Ci zostać wszechstronnym inżynierem oprogramowania i mieć świadomość 
+    technologii i algorytiki, dzięki czemu będziesz mieć większy zestaw narzędzi.
 
-- ### Compilers
+- ### Kompilatory
     - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Emacs and vi(m)
+- ### Emacs oraz vi(m)
     - Familiarize yourself with a unix-based code editor
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
@@ -1476,7 +1475,7 @@ You're never really done.
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix command line tools
+- ### Narzędzia wiersza poleceń systemu Unix
     - I filled in the list below from good tools.
     - bash
     - cat
@@ -1490,7 +1489,7 @@ You're never really done.
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Teoria informacji (filmy)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - more about Markov processes:
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1506,19 +1505,19 @@ You're never really done.
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
+- ### Entropia
     - also see videos below
     - make sure to watch information theory videos first
     - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
+- ### Kryptografia
     - also see videos below
     - make sure to watch information theory videos first
     - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
+- ### Kompresja
     - make sure to watch information theory videos first
     - Computerphile (videos):
         - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
@@ -1530,7 +1529,7 @@ You're never really done.
     - [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Computer Security
+- ### Bezpieczeństwo komputerowe
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1545,7 +1544,7 @@ You're never really done.
         - [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Garbage collection
+- ### Garbage collection - Odśmiecanie pamięci
     - [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
@@ -1581,14 +1580,14 @@ You're never really done.
     - [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
     - [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- ### Fast Fourier Transform
+- ### Szybka transformata Fouriera
     - [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
     - [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
     - [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
     - [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
     - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
-- ### Bloom Filter
+- ### Filtr Blooma
     - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
     - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
@@ -1743,11 +1742,11 @@ You're never really done.
     - [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
-    - see videos below
+- ### Matematyka dyskretna
+    - zobacz wideo poniżej
 
-- ### Machine Learning
-    - Why ML?
+- ### Machine Learning - Uczenie maszynowe
+    - Czemu ML?
         - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
@@ -1775,7 +1774,7 @@ You're never really done.
 
 ---
 
-## Additional Detail on Some Subjects
+## Dodatkowe szczegóły na niektóre tematy
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
@@ -1805,7 +1804,7 @@ You're never really done.
     - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
     - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- **More Dynamic Programming** (videos)
+- **Bardziej dynamiczne programowanie** (wideos)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
     - [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
     - [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
@@ -1814,11 +1813,11 @@ You're never really done.
     - [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
     - [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- **Advanced Graph Processing** (videos)
+- **Zaawansowane przetwarzanie wykresów** (wideos)
     - [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
+- MIT **Prawdopodobieństwo** (matma, i idź po mału, co jest dobre dla takich rzeczy) (wideos):
     - [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)

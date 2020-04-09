@@ -19,7 +19,7 @@
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
-- [Polish](https://github.com/mbiesiad/coding-interview-university/blob/master/translations/README-pl.md)
+- [Polish](translations/README-pl.md)
 
 </details>
 

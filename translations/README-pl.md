@@ -311,89 +311,86 @@ Oto moje rekomendacje według języka. Nie mam materiałów dla wszystkich języ
 Jeśli zapoznasz się z jednym z nich, powinieneś mieć całą wiedzę na temat struktur danych i algorytmów, których potrzebujesz, aby zacząć robić problemy z kodowaniem.
 **Możesz pominąć wszystkie wykłady wideo w tym projekcie**, chyba że chcesz recenzję.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Dodatkowe materiały specyficzne dla języka tutaj.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Nie przeczytałem tych dwóch, ale są wysoko ocenione i napisane przez Sedgewicka. On jest wspaniały.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Jeśli masz lepszą rekomendację dla C++, daj mi znać. W poszukiwaniu wyczerpującego materiału.
 
 ### Java
 
 - [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!) on coursera:
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+    - filmy z zawartością książek (i Sedgewick!) na coursera:
+        - [Algorytmy I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorytmy II](https://www.coursera.org/learn/algorithms-part2)
 
-OR:
+LUB:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - od Goodrich, Tamassia, Goldwasser
+    - używany jako opcjonalny tekst dla kursu wprowadzającego dla informatyki na UC Berkeley
+    - zobacz moją recenzję książki na temat wersji Python poniżej. Ta książka obejmuje te same tematy.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - od Goodrich, Tamassia, Goldwasser
+    - Uwielbiam tę książkę. Obejmowała wszystko i więcej.
+    - kod Pythona
+    - moja entuzjastyczna recenzja: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 
-## Before you Get Started
+## Zanim zaczniesz
 
-This list grew over many months, and yes, it kind of got out of hand.
+Ta lista rosła przez wiele miesięcy i tak, wymknęła się spod kontroli.
 
-Here are some mistakes I made so you'll have a better experience.
+Oto kilka błędów, które popełniłem, rzuć okiem - dzięki temu będziesz mieć lepsze odczucia.
 
-### 1. You Won't Remember it All
+### 1. Nie zapamiętasz tego wszystkiego
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Oglądałem godziny filmów i robiłem obszerne notatki, a miesiące później wiele nie pamiętałem. Spędziłem 3 dni
+na moje notatki i tworzenie fiszek, abym mógł je przejrzeć.
 
-Read please so you won't make my mistakes:
+Przeczytaj proszę, żebyś nie popełnił moich błędów:
 
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
+[Utrzymanie wiedzy informatycznej](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
-A course recommended to me (haven't taken it): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn)
+Kurs zalecany mi (jeszcze go nie zacząłem): [Naucz się, jak się uczyć](https://www.coursera.org/learn/learning-how-to-learn)
 
-### 2. Use Flashcards
+### 2. Użyj Flashcards
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Aby rozwiązać problem, stworzyłem małą stronę z fiszkami (flashcards), w której mogłem dodać fiszki 2 typów: ogólne i kod.
+Każda karta ma inne formatowanie.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Stworzyłem witrynę mobilną, aby móc przeglądać na moim telefonie i tablecie, gdziekolwiek jestem.
 
-Make your own for free:
+Stwórz własną za darmo:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 - [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+Pamiętaj, że poszedłem ostro i mam karty obejmujące wszystko, od języka asemblera i ciekawostek Python po uczenie maszynowe i statystyki. To o wiele za dużo na to, w stosunku do tego co jest wymagane.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Uwaga odnośnie fiszek:** Gdy rozpoznasz odpowiedź po raz pierwszy, nie oznaczaj jej jako znanej. Musisz zobaczyć
+tę samą kartę i odpowiedzieć kilka razy poprawnie, zanim się nauczysz porzadnie. Powtarzanie pogłębi tę wiedzę.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Alternatywą dla korzystania z mojej strony z kartami jest [Anki](http://ankisrs.net/), która była mi polecana wiele razy. Używa systemu powtarzania, aby pomóc Ci zapamiętać.
+Jest przyjazna dla użytkownika, dostępna na wszystkich platformach i ma system synchronizacji w chmurze. Kosztuje $25 na iOS ale jest darmowa na innych platformach.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Moja baza danych fiszekw formacie Anki: https://ankiweb.net/shared/info/25173560 (dzięki [@xiewenya](https://github.com/xiewenya))
 
-### 3. Start doing coding interview questions while you're learning data structures and algorithms, 
+### 3. Zacznij robić pytania programistyczne do rozmowy kwalifikacyjnej, ucząc się struktur danych i algorytmów
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. Once you've learned a topic, 
-and feel comfortable with it, like linked lists, open one of the coding interview books and do a couple of questions regarding 
-linked lists. Then move on to the next learning topic. Then later, go back and do another linked list problem, 
-or recursion problem, or whatever. But keep doing problems while you're learning. You're not being hired for knowledge, 
-but how you apply the knowledge. There are several books and sites I recommend. 
-See here for more: [Coding Question Practice](#coding-question-practice)
+Musisz zastosować zdobytą wiedzę do rozwiązywania problemów, inaczej zapomnisz. Popełniłem ten błąd. Gdy nauczysz się tematu,
+aby czuć się z tym komfortowo, np. listy powiązane - otwórz jedną z książek o rekrutacji IT i zrób kilka pytań dotyczących list powiązanych (linked lists). Następnie przejdź do następnego tematu do nauki. Potem wróć i zrób kolejne zadanie z listą powiązaną, problem z rekurencją lub cokolwiek innego. Ale rób zadania podczas nauki. Nie jesteś zatrudniony do wiedzy,
+ale do tego jak zastosować wiedzę. Polecam kilka książek i stron.
+Zobacz tutaj, aby uzyskać więcej informacji: [Praktyczne pytania programistyczne](#coding-question-practice)
 
 ### 4. Review, review, review
 

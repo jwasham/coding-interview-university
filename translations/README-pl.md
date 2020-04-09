@@ -75,41 +75,41 @@ Jeśli chcesz być inżynierem ds. niezawodności i bezpieczeństwa lub systemó
 - [Złożoność algorytmiczna / Big-O / Analiza asymptotyczna](#złożoność-algorytmiczna--big-o--analiza-asymptotyczna)
 - [Struktury danych](#struktury-danych)
     - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
+    - [Listy łączone](#listy-łączone)
+    - [Stos](#stos)
+    - [Kolejka](#kolejka)
     - [Hash table](#hash-table)
 - [Więcej wiedzy](#więcej-wiedzy)
     - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
+    - [Operacje bitowe](#operacje-bitowe)
 - [Drzewa](#drzewa)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - [Drzewa - uwagi & zarys](#trees---uwagi--zarys)
+    - [Binary search trees: BSTs - drzewa binarne](#binary-search-trees-bsts--drzewa-binarne)
+    - [Sterta / kolejka priorytetowa / sterta binarna](#sterta--kolejka-priorytetowa--sterta-binarna)
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS
 - [Sortowanie](#sortowanie)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
+    - selection (sortowanie przez wybieranie)
+    - insertion (sortowanie przez wstawianie)
+    - heapsort (sortowanie przez kopcowanie)
+    - quicksort (sortowanie szybkie)
+    - merge sort (sortowanie przez scalanie)
 - [Grafy](#grafy)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
+    - skierowany
+    - nieskierowany
+    - macierz sąsiedztwa
+    - lista sąsiedztwa
     - traversals: BFS, DFS
 - [Znów więcej wiedzy](#znów-więcej-wiedzy)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+    - [Rekursja](#rekursja)
+    - [Programowanie dynamiczne](#programowanie-dynamiczne)
+    - [Object-Oriented Programming - programowanie obiektowe](#object-oriented-programming--programowanie-obiektowe)
+    - [wzorce-projektowe](#wzorce-projektowe)
+    - [Kombinatoryka (n choose k) & probabilistyka](#kombinatoryka-n-choose-k--probabilistyka)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
     - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
+    - [Procesy i wątki](#procesy-i-wątki)
+    - [Testowanie](#testowanie)
     - [Scheduling](#scheduling)
     - [String searching & manipulations](#string-searching--manipulations)
     - [Tries](#tries)
@@ -1038,23 +1038,25 @@ Grafy mogą być wykorzystane do przedstawienia wielu problemów w informatyce, 
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 - ### Tries
-> Trie to drzewo węzłów, które obsługuje operacje Znajdź i Wstaw [etc (...)](https://pl.wikipedia.org/wiki/Drzewo_trie)
-    - Uwaga: istnieją różne rodzaje drzew tries. Niektóre mają prefixy, niektóre nie, a niektóre używają stringów zamiast bitów
-        do śledzenia ścieżki.
-    - Czytam kod, ale go nie implementuję.
-    - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
-    - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] Short course videos:
-        - [ ] [Introduction To Tries (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-    - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
-    - [ ] [Stanford Lecture (real world use case) (wideo)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (wideo)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+
+Trie to drzewo węzłów, które obsługuje operacje Znajdź i Wstaw [etc (...)](https://pl.wikipedia.org/wiki/Drzewo_trie)
+
+  - Uwaga: istnieją różne rodzaje drzew tries. Niektóre mają prefixy, niektóre nie, a niektóre używają stringów zamiast bitów
+       do śledzenia ścieżki.
+   - Czytam kod, ale go nie implementuję.
+   - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+   - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
+   - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
+   - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+   - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+   - [ ] Short course videos:
+   - [ ] [Introduction To Tries (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+   - [ ] [Performance Of Tries (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+   - [ ] [Implementing A Trie (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+   - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+   - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
+   - [ ] [Stanford Lecture (real world use case) (wideo)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+   - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (wideo)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### Floating Point Numbers
     - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)

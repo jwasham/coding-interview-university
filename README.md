@@ -19,6 +19,7 @@
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
+- [Polish](translations/README-pl.md)
 
 </details>
 
@@ -35,7 +36,6 @@
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
 - [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
@@ -604,7 +604,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
         - [ ] [Language Support Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] distributed hash tables:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
@@ -1294,18 +1294,28 @@ Take coding challenges every day, as many as you can.
 Coding Interview Question Videos:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Super for walkthroughs of problem solutions.
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Good explanations of solution and the code.
+    - You can watch several in a short time.
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
 Challenge sites:
 - [LeetCode](https://leetcode.com/)
-- [TopCoder](https://www.topcoder.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
-- [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/)
+    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
+    - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode) 
+    - See Nick White Videos above for short code-throughs
 - [HackerRank](https://www.hackerrank.com/)
-- [Codility](https://codility.com/programmers/)
+- [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
+
+Language-learning sites, with challenges:
+- [Codewars](http://www.codewars.com)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 

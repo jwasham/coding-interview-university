@@ -474,7 +474,7 @@
         - 迭代式二分查找
 
 - ### 按位运算（Bitwise operations）
-    - [ ] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf)
+    - [ ] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf)
         - 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
     - [ ] 好好理解位操作符的含义：&、|、^、~、>>、<<
         - [ ] [字码（words）](https://en.wikipedia.org/wiki/Word_(computer_architecture))

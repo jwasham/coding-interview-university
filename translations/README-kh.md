@@ -229,3 +229,114 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - ទទួលបានការអនុវត្តជាក់ស្តែងជាមួយនឹងរចនាសម្ព័ន្ធទិន្នន័យជាង ១០០ លំហាត់ និងការណែនាំពីអ្នកបងៀនដើម្បីជួយរៀបចំអ្នកសម្រាប់ការសម្ភាសន៍ និង ដាក់ការងារ។
         
 ---
+
+### Pick One Language for the Interview
+## ជ្រើសរើសភាសាមួយសម្រាប់ការសម្ភាសន៍
+
+អ្នកអាចប្រើភាសាដែលអ្នកមានភាពងាយស្រួលក្នុងការសរសេរកូដសំភាសន៍ប៉ុន្តែសម្រាប់ក្រុមហ៊ុនធំ ៗ ទាំងនេះគឺជាជំរើសដ៏រឹងមាំ៖
+
+- C ++
+- Java
+- Python
+
+អ្នកក៏អាចប្រើរបស់ទាំងនេះដែរប៉ុន្តែត្រូវអានជាមុនសិន។ វាអាចមានការនិយាយតៗគ្នា៖
+
+- JavaScript
+- Ruby
+
+នេះគឺជាអត្ថបទមួយដែលខ្ញុំបានសរសេរអំពីការជ្រើសរើសភាសាសម្រាប់ការសម្ភាសន៍៖ [ជ្រើសរើសយកភាសាមួយសម្រាប់ការសម្ភាសន៍សរសេរកូដ](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+
+អ្នកគួររេីសភាសាដែលអ្នកទំលាប់ជាមួយ និង មានចំណេះដឹង។
+
+សូមអានបន្ថែមអំពីជំរើស៖
+- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
+- http://blog.codingforinterviews.com/best-programming-language-jobs/
+
+[មើលធនធានភាសានៅទីនេះ](programming-language-resources.md)
+
+អ្នកនឹងឃើញការរៀន C, C ++ និង Python ខាងក្រោមព្រោះខ្ញុំកំពុងរៀន។ មានសៀវភៅពីរបីដែលពាក់ព័ន្ធសូមមើលនៅខាងក្រោម។
+        
+---
+
+### Book List
+## បញ្ជីសៀវភៅ
+
+នេះគឺជាបញ្ជីខ្លីជាងអ្វីដែលខ្ញុំបានប្រើ។ នេះត្រូវបានសង្ខេបដើម្បីជួយសន្សំសំចៃពេលវេលារបស់អ្នក។
+
+---
+
+### Interview Prep
+## ត្រៀមការសម្ភាសន៍
+
+- [] [សំភាសន៍ការសរសេរកម្មវិធីបង្ហាញ: ការសរសេរកូដវិធីរបស់អ្នកតាមរយៈការសំភាសន៍, បោះពុម្ពលើកទី ៤](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - ចម្លើយសរសេរ C++ និង Java
+    - នេះគឺជាសមដ៏ល្អសម្រាប់ការបំបែកសំភាសន៍កូដ
+    - មិនពិបាកពេកទេ បញ្ហាភាគច្រើនប្រហែលជាងាយស្រួលជាងអ្វីដែលអ្នកបានឃើញក្នុងបទសម្ភាសន៍ (ពីអ្វីដែលខ្ញុំបានអាន)
+- [] [ការសំភាសន៍ការសរសេរកូដការបោះពុម្ពលើកទី ៦](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - ចម្លើយនសរសេរជា Java
+    
+---
+
+### If you have tons of extra time:
+## ប្រសិនបើអ្នកមានពេលវេលាបន្ថែមច្រេីន
+
+ជ្រើសរើសមួយ:
+
+- [] [ធាតុផ្សំនៃបទសម្ភាសន៍សរសេរកម្មវិធី (កំណែ C ++)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [] [ធាតុផ្សំនៃការសំភាសន៍សរសេរកម្មវិធីក្នុង Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [] ធាតុនៃការសំភាសន៍សរសេរកម្មវិធី (កំណែ Java)
+    - [សៀវភៅ](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+    - [គម្រោង - វិធីសាស្រ្ត Stub និងករណីតេស្តិ៍សម្រាប់រាល់បញ្ហាក្នុងសៀវភៅ](https://github.com/gardncl/elements-of-programming-interviews)
+
+---
+
+### Language Specific
+## ភាសាជាក់លាក់
+
+**អ្នកត្រូវជ្រើសរើសភាសាសំរាប់សំភាសន៍ (សូមមើលខាងលើ) ។**
+
+នេះជាអ្នីដែលខ្ញុំគិតថាអ្នកគួរមេីល។ ខ្ញុំមិនមានធនធានសម្រាប់ភាសាទាំងអស់ទេ។ ខ្ញុំស្វាគមន៍ការដាក់បន្ថែមពីអ្នក។
+
+ប្រសិនបើអ្នកអានចំណុចមួយក្នុងចំណោមចំណុចទាំងនេះអ្នកគួរតែមានចំនេះដឹង Data Structure និងចំណេះដឹងអំពីក្បួនដោះស្រាយ (Algorithm) ដែលអ្នកត្រូវចាប់ផ្តើមធ្វើបញ្ហាសរសេរកូដ។
+
+**អ្នកអាចរំលងការបង្រៀនវីដេអូទាំងអស់នៅក្នុងគម្រោងនេះ** លើកលែងតែអ្នកចង់ពិនិត្យឡើងវិញ។
+
+[ធនធានភាសាជាក់លាក់នៅទីនេះ។](programming-language-resources.md)
+
+---
+
+## C++
+
+ខ្ញុំមិនបានអានទាំងពីរនេះទេ ប៉ុន្តែវាត្រូវបានវាយតម្លៃនិងសរសេរយ៉ាងខ្ពស់ដោយ Sedgewick ។ គាត់អស្ចារ្យណាស់។
+
+- [] [វិធីដោះស្រាយក្នុង C++, ផ្នែក ១-៤៖ មូលដ្ឋានគ្រឹះរចនាសម្ព័ន្ធទិន្នន័យ (Data Structure) តម្រៀប (Sort) ស្វែងរក (Searching)](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+- [] [វិធីដោះស្រាយក្នុង C++ ភាគ ៥៖ ក្បួនដោះស្រាយក្រាហ្វិច](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+ប្រសិនបើអ្នកមានអនុសាសន៍ល្អប្រសើរសម្រាប់ C++ សូមប្រាប់ខ្ញុំឱ្យដឹង។ រកមើលធនធានទូលំទូលាយ។
+
+---
+
+## Java
+
+- [] [វិធីដោះស្រាយ (Sedgewick និង Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - វីដេអូដែលមានមាតិកាសៀវភៅ (និង Sedgewick!) លើវគ្គសិក្សា៖
+        - [ក្បួនដោះស្រាយ I](https://www.coursera.org/learn/algorithms-part1)
+        - [ក្បួនដោះស្រាយទី ២](https://www.coursera.org/learn/algorithms-part2)
+
+រឺ៖
+
+- [] [រចនាសម្ព័ន្ធទិន្នន័យ (Data Structure) និងក្បួនដោះស្រាយ Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - ដោយហ្គ្រីដល (Goodrich), តាតសាសៀ (Tamassia), ហ្គោវីស (Goldwasser)
+    - អត្ថបទសម្រាប់វគ្គសិក្សាសំរាប់ថ្នាក់ដំបូងរបស់វិទ្យាសាស្ត្រកុំព្យូទ័រនៅឯ UC Berkeley
+    - សូមមើលរបាយការណ៍សៀវភៅរបស់ខ្ញុំស្តីពីកំណែ Python ខាងក្រោម។ សៀវភៅនេះមានប្រធានបទដូចគ្នា។
+
+---
+
+## Python
+- [] [រចនាសម្ព័ន្ធទិន្នន័យ (Data Structure) និងក្បួនដោះស្រាយ (Algorithm) ក្នុង Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - ដោយហ្គ្រីដល (Goodrich), តាតសាសៀ (Tamassia), ហ្គោវីស (Goldwasser)
+    - ខ្ញុំចូលចិត្តសៀវភៅនេះ។ វាគ្របដណ្តប់អ្វីៗគ្រប់យ៉ាងនិងច្រើនទៀត។
+    - លេខកូដព្យញ្ជនៈ
+    - របាយការណ៍សៀវភៅរបស់ខ្ញុំ៖ https://startupnextdoor.com/book-report-data-structures-and-al algorithms-in-python/
+    
+---

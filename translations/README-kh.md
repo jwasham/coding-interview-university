@@ -4,11 +4,10 @@
 ### បង្កើតដោយ: [@John Washam](https://github.com/jwasham)
 ### បកប្រែជាភាសារខ្មែរដោយ: [@Vortana Say](https://github.com/vsay01)
 
-> ពីដំបូងខ្ញុំបង្កើតនេះជាបញ្ជីប្រធានបទត្រូវធ្វើខ្លីដើម្បីក្លាយជាវិស្វករអភិវឌ្ឍន៍កម្មវិធី ប៉ុន្តែវាបានកើនឡើងដល់បញ្ជីធំដែលអ្នកបានឃើញសព្វថ្ងៃនេះ។ បន្ទាប់ពីឆ្លងកាត់គំរោងសិក្សានេះខ្ញុំបានក្លាយ
-> ជាវិស្វករអភិវឌ្ឍន៍កម្មវិធីនៅអាមាហ្សូន (Amazon) ] (https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> ពីដំបូងខ្ញុំបង្កើតនេះជាបញ្ជីប្រធានបទត្រូវធ្វើខ្លីដើម្បីក្លាយជាវិស្វករអភិវឌ្ឍន៍កម្មវិធី ប៉ុន្តែវាបានកើនឡើងដល់បញ្ជីធំដែលអ្នកបានឃើញសព្វថ្ងៃនេះ។ បន្ទាប់ពីឆ្លងកាត់គំរោងសិក្សានេះ    [ ខ្ញុំបានក្លាយ ជាវិស្វករអភិវឌ្ឍន៍កម្មវិធីនៅអាមាហ្សូន (Amazon)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 > អ្នកប្រហែលជាមិនចាំបាច់សិក្សាច្រេីនដូចខ្ញុំទេ។ ទោះយ៉ាងណាក៏ដោយអ្វីគ្រប់យ៉ាងដែលអ្នកត្រូវការគឺនៅទីនេះ។
 >
-> ខ្ញុំបានសិក្សាប្រហែលជា ៨ ទៅ ១២ ម៉ោងក្នុងមួយថ្ងៃអស់រយៈពេលជាច្រើនខែ។ អ្នកអាចអានារឿងរបស់ខ្ញុំ៖ [ហេតុអ្វីខ្ញុំសិក្សាពេញម៉ោងរយៈពេល ៨ ខែសំរាប់ការសំភាសន៍ហ្គូហ្គល] (https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a -google-interview-cc662ce9bb13)
+> ខ្ញុំបានសិក្សាប្រហែលជា ៨ ទៅ ១២ ម៉ោងក្នុងមួយថ្ងៃអស់រយៈពេលជាច្រើនខែ។ អ្នកអាចអានារឿងរបស់ខ្ញុំ៖ [ហេតុអ្វីខ្ញុំសិក្សាពេញម៉ោងរយៈពេល ៨ ខែសំរាប់ការសំភាសន៍ហ្គូហ្គល](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
 > ចំណុចដែលបានរាយនៅទីនេះនឹងជួយអ្នករៀបចំការសំភាសន៍បច្ចេកទេសនៅក្រុមហ៊ុនកម្មវិធីណាមួយ។
 > រាប់បញ្ចូលទាំងក្រុមហ៊ុនធំៗដូចជា Amazon, Facebook, Google និង Microsoft ។
@@ -121,6 +120,7 @@
 
 ---
 
+## What is it? 
 ## តើវាគឺជាអ្វី?
 
 នេះគឺជាគំរោងសិក្សារបស់ខ្ញុំដែលមានរយៈពេលជាច្រើនខែសំរាប់ការរៀនក្លាយពីអ្នកបង្កើតគេហទំព័រ (បង្រៀនដោយខ្លួនឯង និង មិនមានសញ្ញាប័ត្រ
@@ -139,6 +139,7 @@
 
 ---
 
+### Why use it? 
 ## ហេតុអ្វីប្រើវា?
 
 នៅពេលដែលខ្ញុំចាប់ផ្តើមគំរោងនេះ ខ្ញុំមិនដឹងពី stack, heap, Big-O, trees និង មិនដឹងរបៀបឆ្លងកាត់ក្រាហ្វ។ ប្រសិនបើខ្ញុំត្រូវសរសេរកូដដោះស្រាយ Sort ខ្ញុំអាចប្រាប់អ្នកថាវានឹងមិនល្អទេ។
@@ -149,7 +150,9 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 
 ---
 
+### How to use it?
 ## របៀបប្រើវា
+
 
 អ្វីគ្រប់យ៉ាងខាងក្រោមគឺជាគ្រោង អ្នកគួរតែដោះស្រាយតាមលំដាប់ពីលើចុះក្រោម។
 
@@ -175,16 +178,20 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 
 `git push --force`
 
-[ព័ត៌មានបន្ថែមអំពីសញ្ញាសម្គាល់ Github]] (https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[ព័ត៌មានបន្ថែមអំពីសញ្ញាសម្គាល់ Github]](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ---
 
+### Don't feel you aren't smart enough
 ## កុំមានអារម្មណ៍ថាអ្នកមិនឆ្លាតគ្រប់គ្រាន់
 
 - វិស្វករអភិវឌ្ឍន៍កម្មវិធីដែលទទួលបានជោគជ័យគឺឆ្លាត ប៉ុន្តែមនុស្សជាច្រើនមានអារម្មណ៍ដែលពួកគេមិនឆ្លាតគ្រប់គ្រាន់។
-- [រឿងរបស់អ្នកសរសេរកម្មវិធីដែលមានទេពកោសល្យ] (https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [វាមានគ្រោះថ្នាក់ក្នុងការទៅតែម្នាក់ឯង: ការប្រយុទ្ធនឹងសត្វចម្លែកដែលចេះបំបាំងកាយនៅក្នុងបច្ចេកវិទ្យា] (https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [រឿងរបស់អ្នកសរសេរកម្មវិធីដែលមានទេពកោសល្យ](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [វាមានគ្រោះថ្នាក់ក្នុងការទៅតែម្នាក់ឯង: ការប្រយុទ្ធនឹងសត្វចម្លែកដែលចេះបំបាំងកាយនៅក្នុងបច្ចេកវិទ្យា](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
+---
+
+### About Video Resources
 ## ធនធានវីដេអូ
 
 វីដេអូខ្លះអាចប្រើបានតែតាមរយៈការចុះឈ្មោះចូលរៀនវគ្គ Coursera ឬ EdX ប៉ុណ្ណោះ។ ទាំងនេះត្រូវបានគេហៅថា MOOCs ។
@@ -196,28 +203,29 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
     
 ---
 
+### Interview Process & General Interview Prep
 ## ដំណើរការសំភាសន៍និងកម្មវិធីសម្ភាសន៍ទូទៅ
 
-- [] [ABC: តែងតែសរសេរកូដ] (https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [] [ការប្រេីប្រាស់ក្តារខៀន] (https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [] [ការប្រេីប្រាស់ក្តារខៀនមានប្រសិទ្ធិភាពក្នុងពេលសម្ភាសន៍កម្មវិធី] (http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-- [] [ជ្រើសរើសបុគ្គលិកជំនាញបច្ចេកវិទ្យា] (https://www.youtube.com/watch?v=N233T0epWTs)
+- [] [ABC: តែងតែសរសេរកូដ](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [] [ការប្រេីប្រាស់ក្តារខៀន](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [] [ការប្រេីប្រាស់ក្តារខៀនមានប្រសិទ្ធិភាពក្នុងពេលសម្ភាសន៍កម្មវិធី](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [] [ជ្រើសរើសបុគ្គលិកជំនាញបច្ចេកវិទ្យា](https://www.youtube.com/watch?v=N233T0epWTs)
 - [] វិធីរកការងារនៅក្រុមហ៊ុនធំ ៤៖
-    - [] [របៀបរកការងារធ្វើនៅក្រុមហ៊ុនធំ ៤ - Amazon, Facebook, Google និង Microsoft (មានវីដេអូ)] (https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [] [របៀបរកការងារធ្វើនៅក្រុមហ៊ុនធំ ៤ - Amazon, Facebook, Google និង Microsoft (មានវីដេអូ)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 - [បំបែកការសម្ភាសន៍ការសរសេរកូដ ១៖
-    - [] [ហ្គេលឡេអិលម៉ាកឌូវែល (Gayle L McDowell) - បំបែកការសម្ភាសន៍ការសរសេរកូដ (វីដេអូ)] (https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [] [បំបែកបទសម្ភាសន៍នៃការសរសេរកូដជាមួយអ្នកនិពន្ធហ្គេលឡាឡាក់មែនម៉ាកម៉ាកឌូវែល (Gayle Laakmann McDowell)  (វីដេអូ)] (https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [] [ហ្គេលឡេអិលម៉ាកឌូវែល (Gayle L McDowell) - បំបែកការសម្ភាសន៍ការសរសេរកូដ (វីដេអូ)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [] [បំបែកបទសម្ភាសន៍នៃការសរសេរកូដជាមួយអ្នកនិពន្ធហ្គេលឡាឡាក់មែនម៉ាកម៉ាកឌូវែល (Gayle Laakmann McDowell)  (វីដេអូ)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
 - [] បំបែកបទសម្ភាសន៍កូដហ្វេសប៊ុក
-    - [] [វិធីសាស្រ្ត] (https://www.youtube.com/watch?v=wCl9kvQGHPI)
-    - [] [ពន្យល់ពីបញ្ហា] (https://www.youtube.com/watch?v=4UWDyJq8jZg)
+    - [] [វិធីសាស្រ្ត](https://www.youtube.com/watch?v=wCl9kvQGHPI)
+    - [] [ពន្យល់ពីបញ្ហា](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - [] វគ្គសិក្សាត្រៀម:
-    - [] [សំភាសន៍វិស្វករអភិវឌ្ឍន៍កម្មវិធី (មិនបានបង់ប្រាក់)] (https://www.udemy.com/software-engineer-interview-unleashed)៖
+    - [] [សំភាសន៍វិស្វករអភិវឌ្ឍន៍កម្មវិធី (មិនបានបង់ប្រាក់)](https://www.udemy.com/software-engineer-interview-unleashed)៖
         - រៀនពីរបៀបដើម្បីត្រៀមខ្លួនសម្រាប់ការសម្ភាសន៍វិស្វករអភិវឌ្ឍន៍កម្មវិធីពីអ្នកសំភាសន៍របស់ហ្គូហ្គោល (Google) ។
-    - [] [Python សម្រាប់រចនាសម្ព័ន្ធទិន្នន័យក្បួនដោះស្រាយនិងសំភាសន៍ (វគ្គសិក្សាបង់លុយ)] (https://www.udemy.com/python-for-data-structures- algorithms-and-interviews/)៖
+    - [] [Python សម្រាប់រចនាសម្ព័ន្ធទិន្នន័យក្បួនដោះស្រាយនិងសំភាសន៍ (វគ្គសិក្សាបង់លុយ)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/)៖
         - វគ្គសិក្សាសំភាសន៍ Python ដែលផ្តោតលើរចនាសម្ព័ន្ធទិន្នន័យក្បួនដោះស្រាយ ការសំភាសន៍សាកល្បងនិងច្រើនទៀត។
-    - [] [ការណែនាំអំពីរចនាសម្ព័ន្ធទិន្នន័យនិងក្បួនដោះស្រាយដោយប្រើ Python (វគ្គសិក្សាឥតគិតថ្លៃរបស់ Udacity)] (https://www.udacity.com/course/data-structures-and-al algorithms-in-python--ud513)៖
+    - [] [ការណែនាំអំពីរចនាសម្ព័ន្ធទិន្នន័យនិងក្បួនដោះស្រាយដោយប្រើ Python (វគ្គសិក្សាឥតគិតថ្លៃរបស់ Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)៖
         - រចនាសម្ព័នធ័រណេតនិងអ័រហ្គ្រែនដោយឥតគិតថ្លៃ។
-    - [] [រចនាសម្ព័នទិន្នន័យនិងក្បួនដោះស្រាយ! (Udacity បង់ Nanodegree)] (https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)៖
+    - [] [រចនាសម្ព័នទិន្នន័យនិងក្បួនដោះស្រាយ! (Udacity បង់ Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)៖
         - ទទួលបានការអនុវត្តជាក់ស្តែងជាមួយនឹងរចនាសម្ព័ន្ធទិន្នន័យជាង ១០០ លំហាត់ និងការណែនាំពីអ្នកបងៀនដើម្បីជួយរៀបចំអ្នកសម្រាប់ការសម្ភាសន៍ និង ដាក់ការងារ។
         
 ---

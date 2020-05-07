@@ -403,3 +403,132 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 មានការរំខានជាច្រើនដែលអាចចំណាយពេលដ៏មានតម្លៃ។ ការផ្តោតអារម្មណ៍គឺពិបាក។ បើកតន្ត្រីមួយចំនួនដែលគ្មានទំនុកច្រៀងទេអ្នកនឹងអាចផ្តោតអារម្មណ៍បានល្អ។
 
 ---
+
+### What you won't see covered
+## អ្វីដែលអ្នកនឹងមិនឃើញគ្របដណ្តប់
+
+ទាំងនេះជាបច្ចេកវិទ្យាដែលមានជាទូទៅប៉ុន្តែមិនមែនជាផ្នែកនៃផែនការសិក្សានេះទេ៖
+
+- SQL
+- Javascript
+- HTML, CSS និងបច្ចេកវិទ្យាផ្នែក front-end
+
+---
+
+### The Daily Plan
+## ផែនការប្រចាំថ្ងៃ
+
+មុខវិជ្ជាខ្លះចំណាយពេលមួយថ្ងៃហើយ មុខវិជ្ជាខ្លះនឹងចំណាយពេលច្រើនថ្ងៃ។ អ្នកខ្លះរៀនតែគ្មានអ្វីអនុវត្ត។
+
+ជារៀងរាល់ថ្ងៃខ្ញុំយកប្រធានបទមួយចេញពីបញ្ជីខាងក្រោមមើលវីដេអូអំពីប្រធានបទនោះហើយសរសេរកូតនៅក្នុង៖
+- C - ប្រើរចនាសម្ព័ន្ធ និង មុខងារដែលយករចនាសម្ព័ន្ធ * និង អ្វីផ្សេងទៀតជា Arguments។
+- C++ - ដោយមិនប្រើមុខងារដែលភ្ជាប់មកជាមួយនឹង ភាសា
+- C++ - ប្រើប្រភេទដែលមានស្រាប់ដូចជា STL's::list សម្រាប់បញ្ជីភ្ជាប់ (Linked list)
+- Python - ប្រើប្រភេទដែលមានស្រាប់ (ដើម្បីរំលឹក Python)
+- និងសរសេរការធ្វើតេស្តដើម្បីធានាថាខ្ញុំធ្វើវាបានត្រឹមត្រូវពេលខ្លះគ្រាន់តែប្រើសេចក្តីថ្លែងអះអាងសាមញ្ញ assert()
+- អ្នកអាចធ្វើ Jav ឬ អ្វីផ្សេងទៀតនេះគ្រាន់តែជារឿងរបស់ខ្ញុំប៉ុណ្ណោះ។
+
+អ្នកមិនត្រូវការរបស់ទាំងអស់នេះទេ។ អ្នកត្រូវការតែ [ភាសាមួយសម្រាប់ការសម្ភាសន៍](#pick-one-language-for-the-interview) ។
+
+ហេតុអ្វីត្រូវកូដទាំងអស់នេះ?
+- អនុវត្ត អនុវត្ត អនុវត្តរហូតដល់ខ្ញុំច្បាស់ហើយអាចធ្វើវាដោយគ្មានបញ្ហា (អ្នកខ្លះមានករណីកំរច្រើន និង ព័ត៌មានលំអិតនៃការរក្សាទុកសៀវភៅដើម្បីចងចាំ)
+- ធ្វើការនៅក្នុងឧបសគ្គ (បែងចែក / លុបចេញអង្គចងចាំ (Memory) ដោយគ្មានជំនួយពីការប្រមូលសំរាម (Gabage Collection) (លើកលែងតែ Python ឬ Java))
+- ប្រើប្រភេទដែលមានស្រាប់ដូច្នេះខ្ញុំមានបទពិសោធន៍ប្រើឧបករណ៍ដែលមានស្រាប់សម្រាប់ការប្រើប្រាស់ដូចពេលធ្វេីការ (មិនមែនថាសរសេរការអនុវត្តន៍បញ្ជី (Linked List) របស់ខ្ញុំផ្ទាល់ក្នុងពេលធ្វេីការ)
+
+ខ្ញុំប្រហែលជាមិនមានពេលវេលាដើម្បីធ្វើការទាំងអស់សម្រាប់មុខវិជ្ជាទាំងអស់នោះទេប៉ុន្តែខ្ញុំនឹងព្យាយាម។
+
+អ្នកអាចឃើញកូដរបស់ខ្ញុំនៅទីនេះ៖
+
+- [C](https://github.com/jwasham/practice-c)
+- [C++](https://github.com/jwasham/practice-cpp)
+- [Python](https://github.com/jwasham/practice-python)
+
+អ្នកមិនចាំបាច់ទន្ទេញចាំគ្រប់ក្បួនដោះស្រាយទាំងអស់។
+
+សរសេរកូដនៅលើក្ដារខៀនឬក្រដាស មិនមែនកុំព្យូទ័រទេ។ សាកល្បងជាមួយធាតុចូលគំរូមួយចំនួន។ បន្ទាប់មកសាកល្បងវានៅលើកុំព្យូទ័រ។
+
+## ចំណេះដឹងចាំបាច់
+
+- [] **រៀន C**
+    - C គឺនៅគ្រប់ទីកន្លែង។ អ្នកនឹងឃើញឧទាហរណ៍នៅក្នុងសៀវភៅការបង្រៀនវីដេអូ *នៅគ្រប់ទីកន្លែង* ពេលអ្នកកំពុងសិក្សា។
+    
+    - [] [ភាសាសរសេរកម្មវិធី C, ភាគ ២](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        
+        - នេះគឺជាសៀវភៅខ្លីមួយប៉ុន្តែវានឹងផ្តល់ឱ្យអ្នកនូវភាសា C យ៉ាងល្អហើយប្រសិនបើអ្នកអនុវត្តវាបន្តិច អ្នកនឹងឆាប់ស្ទាត់ជំនាញ។ ការយល់ដឹង C ជួយអ្នកឱ្យយល់ពីរបៀបដែលកម្មវិធីនិងការចងចាំដំណើរការ។
+        
+        - [ចម្លើយចំពោះសំណួរ](https://github.com/lekkas/c-algorithms)
+
+- [] **របៀបដែលកុំព្យូទ័រដំណើរការកម្មវិធី:**
+    - [] [តើស៊ីភីយូប្រតិបត្តិកម្មវិធីមួយយ៉ាងដូចម្តេច? (វីដេអូ)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [] [របៀបគណនាកុំព្យូទ័រ - ALU (វីដេអូ)](https://youtu.be/1I5ZMmrOfnA)
+    - [] [ចុះបញ្ជី (Registers) និង រ៉េម (RAM) (វីដេអូ)](https://youtu.be/fpnE6UAfbtU)
+    - [] [អង្គភាពកែច្នៃកណ្តាល (ស៊ីភីយូ) (The Central Processing Unit) (វីដេអូ)](https://youtu.be/FZGugFqdr60)
+    - [] [សេចក្តីណែនាំនិងកម្មវិធី (វីដេអូ)](https://youtu.be/zltgXvg6r3k)
+
+---
+
+### Algorithmic complexity / Big-O / Asymptotic analysis
+## ភាពស្មុគស្មាញនៃក្បួនដោះស្រាយ / ការវិភាគ Big-O
+
+- គ្មានអ្វីត្រូវអនុវត្តទេ
+- មានវីដេអូជាច្រើននៅទីនេះ។ គ្រាន់តែមើលឱ្យបានគ្រប់គ្រាន់រហូតដល់អ្នកយល់។ អ្នកអាចត្រលប់មកពិនិត្យឡើងវិញជានិច្ច។
+- ប្រសិនបើការបង្រៀនមួយចំនួនមានភាពស្រងូតស្រងាត់អ្នកអាចរំលងដល់ក្រោមហើយមើលវីដេអូគណិតវិទ្យាដែលដាច់ពីគ្នាដើម្បីទទួលបានចំណេះដឹងជាមូលដ្ឋាន។
+- [] [Harvard CS50 - Asymptotic Notation (វីដេអូ)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [] [កំណត់ចំណាំ Big-O (ការបង្រៀនរហ័សទូទៅ) (វីដេអូ)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [] [Big O Notation (និង Omega និង Theta) - ការពន្យល់គណិតវិទ្យាល្អបំផុត (វីដេអូ)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [] Skiena៖
+    - [វីដេអូ](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ស្លាយ](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+- [] [ការណែនាំមួយចំពោះការវិភាគស្មុគស្មាញនៃគណិតវិទ្យា](http://discrete.gr/complexity/)
+- [] [លំដាប់នៃការលូតលាស់ (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
+- [] [ការវិភាគអាមីស្តូតូទិក (Amortized) (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
+- [] [UC Berkeley Big O (មានវីដេអូ)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [] [UC Berkeley Big Omega (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
+- [] [ការវិភាគរំលោះ (Amortized) (វីដេអូ)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [] [បង្ហាញរូបភាព "Big-O" (វីដេអូ)](https://www.coursera.org/lecture/alacticmic-thinking-1/illustrating-big-o-YVqzv)
+- [] TopCoder (រួមបញ្ចូលទាំងទំនាក់ទំនងកើតឡើងវិញនិងទ្រឹស្តីបទមេ)៖
+    - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ១](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
+    - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ២](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
+- [] [សន្លឹកជំនួយ](http://bigocheatsheet.com/)
+
+---
+
+### Data Structures
+## រចនាសម្ព័ន្ធទិន្នន័យ
+
+- ### Arrays
+    - អនុវត្តវ៉ិចទ័រប្តូរទំហំដោយស្វ័យប្រវត្តិ។
+    - [] ការពិពណ៌នា៖
+        - [Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        -[UC Berkeley CS61B - អារេ លីនែអ៊ែរ និង ពហុវិមាត្រ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (ចាប់ផ្តើមមើលចាប់ពី ១៥នាទី ៣២វិនាទី)
+        - [Arrays មូលដ្ឋាន (វីដេអូ)](https://archive.org/details/0102What YouShouldKnow/02_04-basicArrays.mp4)
+        - [ពហុវិមាត្រ (វីដេអូ)](https://archive.org/details/0102What YouShouldKnow/02_05-multidimensionalArrays.mp4)
+        - [Arrays ឌីណាមិចេ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged Arrays (វីដេអូ)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Jagged Arrays (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
+        - [ការប្តូរទំហំ Arrays (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+    - [] អនុវត្តវ៉ិចទ័រ (បំលែង Arrays ដោយប្តូរទំហំស្វ័យប្រវត្តិ)៖
+        - [] អនុវត្តការសរសេរកូដដោយប្រើArrays និង ទ្រនិចចង្អុល និង គណិតទ្រនិចដើម្បីលោតទៅសន្ទស្សន៍មួយ។
+        - [] Arrays ទិន្នន័យថ្មីដែលមានអង្គចងចាំបម្រុងទុក
+            - អាចបែងចែកArraysនៅក្រោមក្រណាត់ដោយគ្រាន់តែមិនប្រើលក្ខណៈពិសេសរបស់វា
+            - ចាប់ផ្តើមជាមួយលេខ ១៦ ឬបើលេខចាប់ផ្តើមធំជាងប្រើថាមពល ២ - ១៦, ៣២, ៦៤, ១២៨
+        - [] size() - ចំនួនធាតុ
+        - [] capacity() - ចំនួនធាតុដែលវាអាចផ្ទុកបាន
+        - [] is_empty()
+        - [] at(index) - ត្រឡប់ធាតុនៅសន្ទស្សន៍ដែលបានផ្តល់ឱ្យផ្លុំឡើងប្រសិនបើសន្ទស្សន៍នៅក្រៅព្រំដែន
+        - [] push(item)
+        - [] insert(index, item) - បញ្ចូលធាតុនៅសន្ទស្សន៍ប្តូរតម្លៃសន្ទស្សន៍និងធាតុនៅខាងក្រោមទៅខាងស្តាំ
+        - [] prepend (item) - អាចប្រើបញ្ចូលខាងលើនៅសន្ទស្សន៍ ០
+        - [] pop() - ដកចេញពីចុងបញ្ចប់តម្លៃត្រឡប់មកវិញ
+        - [] delete(index) - លុបធាតុនៅលិបិក្រមផ្លាស់ប្តូរធាតុនៅពីក្រោយទាំងអស់
+        - [] remove(item) - រកមើលតម្លៃនិងយកលិបិក្រមដែលផ្ទុកវាចេញ (ទោះបីជានៅកន្លែងច្រើនក៏ដោយ)
+        - [] find(item) - រកមើលតម្លៃហើយត្រឡប់សន្ទស្សន៍ដំបូងជាមួយតម្លៃនោះ -1 បើរកមិនឃើញ
+        - [] resize(new_capacity) // មុខងារឯកជន
+            - នៅពេលដែលអ្នកឈានដល់សមត្ថភាព, ផ្លាស់ប្តូរទំហំទ្វេដងទំហំ
+            - នៅពេលដែលចាប់យកវត្ថុមួយប្រសិនបើទំហំគឺ 1/4 នៃសមត្ថភាព, ផ្លាស់ប្តូរទំហំដល់ពាក់កណ្តាល
+    - [] ពេលវេលា
+        - O(១) ត្រូវបន្ថែម / ដកចេញនៅចុងបញ្ចប់ (សងប្រាក់សម្រាប់ការបែងចែកសម្រាប់ទំហំបន្ថែម) សន្ទស្សន៍ឬបច្ចុប្បន្នភាព
+        - O(n) ដើម្បីបញ្ចូល / ដកចេញនៅកន្លែងផ្សេងទៀត
+    - [] លំហ
+        - ជាប់ទាក់ទងនឹងការចងចាំដូច្នេះភាពជិតស្និទ្ធជួយដល់ការអនុវត្ត
+        - ទំហំត្រូវការ = (ទំហំ Array, ដែលជា >= n) * ទំហំនៃធាតុ, ប៉ុន្តែបើទោះបីជា 2n, នៅតែ O (n)

@@ -501,8 +501,8 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
     - [] ការពិពណ៌នា៖
         - [Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         -[UC Berkeley CS61B - អារេ លីនែអ៊ែរ និង ពហុវិមាត្រ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (ចាប់ផ្តើមមើលចាប់ពី ១៥នាទី ៣២វិនាទី)
-        - [Arrays មូលដ្ឋាន (វីដេអូ)](https://archive.org/details/0102What YouShouldKnow/02_04-basicArrays.mp4)
-        - [ពហុវិមាត្រ (វីដេអូ)](https://archive.org/details/0102What YouShouldKnow/02_05-multidimensionalArrays.mp4)
+        - [Arrays មូលដ្ឋាន (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
+        - [ពហុវិមាត្រ (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [Arrays ឌីណាមិចេ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (វីដេអូ)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
@@ -515,20 +515,56 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [] size() - ចំនួនធាតុ
         - [] capacity() - ចំនួនធាតុដែលវាអាចផ្ទុកបាន
         - [] is_empty()
-        - [] at(index) - ត្រឡប់ធាតុនៅសន្ទស្សន៍ដែលបានផ្តល់ឱ្យផ្លុំឡើងប្រសិនបើសន្ទស្សន៍នៅក្រៅព្រំដែន
+        - [] at(index) - ត្រឡប់ធាតុនៅទីតាំងដែលបានផ្តល់ឱ្យ បេីទីតាំងនៅក្រៅព្រំដែន វានឹង មានកុំហស
         - [] push(item)
-        - [] insert(index, item) - បញ្ចូលធាតុនៅសន្ទស្សន៍ប្តូរតម្លៃសន្ទស្សន៍និងធាតុនៅខាងក្រោមទៅខាងស្តាំ
-        - [] prepend (item) - អាចប្រើបញ្ចូលខាងលើនៅសន្ទស្សន៍ ០
+        - [] insert(index, item) - បញ្ចូលធាតុនៅទីតាំង ប្តូរតម្លៃទីតាំង និងធាតុនៅខាងក្រោមទៅខាងស្តាំ
+        - [] prepend (item) - អាចប្រើបញ្ចូលខាងលើនៅទីតាំង ០
         - [] pop() - ដកចេញពីចុងបញ្ចប់តម្លៃត្រឡប់មកវិញ
-        - [] delete(index) - លុបធាតុនៅលិបិក្រមផ្លាស់ប្តូរធាតុនៅពីក្រោយទាំងអស់
-        - [] remove(item) - រកមើលតម្លៃនិងយកលិបិក្រមដែលផ្ទុកវាចេញ (ទោះបីជានៅកន្លែងច្រើនក៏ដោយ)
-        - [] find(item) - រកមើលតម្លៃហើយត្រឡប់សន្ទស្សន៍ដំបូងជាមួយតម្លៃនោះ -1 បើរកមិនឃើញ
+        - [] delete(index) - លុបធាតុនៅទីតាំងដែលអោយ ផ្លាស់ប្តូរធាតុនៅពីក្រោយទាំងអស់
+        - [] remove(item) - រកមើលតម្លៃនិងយកទីតាំងចេញដែលផ្ទុកវាចេញ (ទោះបីជានៅកន្លែងច្រើនក៏ដោយ)
+        - [] find(item) - រកមើលតម្លៃហើយត្រឡប់វិញនៅទីតាំងដំបូងជាមួយតម្លៃនោះ បើរកមិនឃើញត្រលប់វិញ -1
         - [] resize(new_capacity) // មុខងារឯកជន
-            - នៅពេលដែលអ្នកឈានដល់សមត្ថភាព, ផ្លាស់ប្តូរទំហំទ្វេដងទំហំ
-            - នៅពេលដែលចាប់យកវត្ថុមួយប្រសិនបើទំហំគឺ 1/4 នៃសមត្ថភាព, ផ្លាស់ប្តូរទំហំដល់ពាក់កណ្តាល
+            - ពេលទំហំ Array ដល់កំណត់, ផ្លាស់ប្តូរទំហំទ្វេដងទំហំ
+            - នៅពេលដែលចាប់យកវត្ថុមួយ ប្រសិនបើទំហំគឺ 1/4 នៃទំហំសរុប, ផ្លាស់ប្តូរទំហំដល់ពាក់កណ្តាល
     - [] ពេលវេលា
-        - O(១) ត្រូវបន្ថែម / ដកចេញនៅចុងបញ្ចប់ (សងប្រាក់សម្រាប់ការបែងចែកសម្រាប់ទំហំបន្ថែម) សន្ទស្សន៍ឬបច្ចុប្បន្នភាព
+        - O(១) ត្រូវបន្ថែម / ដកចេញនៅចុងបញ្ចប់ (សងវិញសម្រាប់ការបែងចែកសម្រាប់ទំហំបន្ថែម) ទីតាំង
         - O(n) ដើម្បីបញ្ចូល / ដកចេញនៅកន្លែងផ្សេងទៀត
     - [] លំហ
         - ជាប់ទាក់ទងនឹងការចងចាំដូច្នេះភាពជិតស្និទ្ធជួយដល់ការអនុវត្ត
-        - ទំហំត្រូវការ = (ទំហំ Array, ដែលជា >= n) * ទំហំនៃធាតុ, ប៉ុន្តែបើទោះបីជា 2n, នៅតែ O (n)
+        - ទំហំត្រូវការ = (ទំហំ Array, ដែល >= n) * ទំហំនៃធាតុ, ប៉ុន្តែបើទោះបីជា 2n, នៅតែ O (n)
+
+---
+
+- ### Linked Lists
+    - [] ការពិពណ៌នា៖
+        - [] [Singly Linked Lists (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [] [CS 61B - Linked Lists ១ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [] [CS 61B - Linked Lists ២ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [] [កូដ C (វីដេអូ)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+        - មិនមែនវីដេអូទាំងមូលទេគឺគ្រាន់តែជាផ្នែកអំពីរចនាសម្ព័ន្ធ (Data Structure) និងការបែងចែក Memory ។
+    - [] Linked List vs Arrays:
+        - [Core Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [នៅក្នុងពិភពពិត Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [] [ហេតុអ្វីអ្នកគួរចៀសវាង linked lists (វីដេអូ)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [] Gotcha: you need pointer to pointer knowledge:
+        (សម្រាប់ពេលអ្នកហុច pointer ទៅមុខងារមួយដែលអាចផ្លាស់ប្តូរអាស័យដ្ឋានដែលព្រួញចង្អុល)
+        ទំព័រនេះគ្រាន់តែដើម្បីស្វែងយល់ពី pointer ទៅ pointer ។ ខ្ញុំមិនណែនាំបញ្ជីឈ្មោះបែបត្រាប់តាមនេះទេ។ ភាពងាយស្រួលក្នុងការអាននិងរក្សាបាននូវភាពលំបាកដោយសារតែភាពឆ្លាតវៃ។
+        - [Pointer ទៅ pointer](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [] អនុវត្ត (ខ្ញុំបានធ្វើដោយប្រើទ្រនិចកន្ទុយនិងដោយគ្មាន)៖
+        - [] size() - ត្រឡប់ចំនួនធាតុទិន្នន័យក្នុងបញ្ជី
+        - [] empty() - bool ត្រឡប់ពិតបើទទេ
+        - [] value_at(index) - ត្រឡប់តម្លៃនៃធាតុទី (ចាប់ផ្តើមពីលេខ ០ ដំបូង)
+        - [] push_front(តម្លៃ) - បន្ថែមធាតុនៅខាងមុខបញ្ជី
+        - [] pop_front() - យកធាតុខាងមុខចេញហើយប្រគល់តម្លៃរបស់វាមកវិញ
+        - [] push_back(តម្លៃ) - បន្ថែមធាតុនៅចុងបញ្ចប់
+        - [] pop_back() - យកធាតុបញ្ចប់ហើយត្រឡប់តម្លៃរបស់វា
+        - [] front() - ទទួលបានតម្លៃនៃធាតុខាងមុខ
+        - [] back() - ទទួលបានតម្លៃនៃធាតុបញ្ចប់
+        - [] insert(index, តម្លៃ) - បញ្ចូលតម្លៃនៅindex ដូច្នេះធាតុបច្ចុប្បន្ននៅindexនោះត្រូវបានចង្អុលទៅធាតុថ្មីនៅindex។
+        - [] erase(index) - យក Node ចេញនៅ index ដែលបានផ្តល់ឱ្យ
+        - [] value_n_from_end(n) - ត្រឡប់តម្លៃ Node ទីពីខាងចុងបញ្ជី
+        - [] reverse() - បញ្ច្រាស់បញ្ជី
+        - [] remove_value(តម្លៃ) - លុបធាតុដំបូងក្នុងបញ្ជីជាមួយតម្លៃនេះ
+    - [] Doubly-linked List
+        - [ការពិពណ៌នា (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - មិនចាំបាច់អនុវត្តទេ

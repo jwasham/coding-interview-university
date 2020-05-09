@@ -568,3 +568,99 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
     - [] Doubly-linked List
         - [ការពិពណ៌នា (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - មិនចាំបាច់អនុវត្តទេ
+
+---
+
+- ### Stack
+    - [] [Stack (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [] [ការប្រើ Stack ចូលមុនចេញក្រោយ (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [] នឹងមិនអនុវត្តទេ។ ការអនុវត្តជាមួយ Array គឺមិនសំខាន់។
+
+- ### Queue
+    - [] [ការប្រើ Queue ចូលមុនចេញមុន(វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [] [Queue (វីដេអូ)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [] [Queue អាទិភាព (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [] ប្រើ linked-list ដែលមានភ្ជាប់ជាមួយទ្រនិចនៅកន្ទុយ៖
+        - enqueue(តម្លៃ) - បន្ថែមតម្លៃនៅទីតាំងនៅកន្ទុយ
+        - dequeue() - ត្រឡប់តម្លៃនិងយកធាតុដែលបានបន្ថែមថ្មីៗចេញ (ផ្នែកខាងមុខ)
+        - empty()
+    - [] អនុវត្តដោយប្រើអារេ Array ទំហំថេរ៖
+        - enqueue(តម្លៃ) - បន្ថែមធាតុនៅចុងបញ្ចប់នៃការផ្ទុកដែលមាន
+        - dequeue() - ត្រឡប់តម្លៃនិងយកធាតុដែលបានបន្ថែមថ្មីៗចេញ
+        - empty()
+        - full()
+    - [] ថ្លៃ៖
+        - ការអនុវត្តមិនល្អដោយប្រើlinked listដែលអ្នករៀបជាជួរនៅនឹងក្បាលនិងដេស្កាយនៅកន្ទុយប្រហែលជា O(n)
+            ដោយសារតែអ្នកត្រូវការនៅជាប់នឹងធាតុចុងក្រោយ, បណ្តាលឱ្យ dequeue គ្នាឆ្លងកាត់ពេញលេញ
+        - enqueue: O(1) (amortized, linked list and array [probing])
+        - dequeue: O(1) (linked list and array)
+        - empty: O(1) (linked list and array)
+
+- ### តារាងហាស (Hash table)
+    - [] វីដេអូ៖
+        - [] [Hashing with Chaining (វីដេអូ)](https://www.youtube.com/watch?v=0M_kIqwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [] [Table Doubling, Karp-Rabin (វីដេអូ)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [] [Open Addressing, Cryptographic Hashing (វីដេអូ)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [] [PyCon 2010: វចនានុក្រមដ៏អស្ចារ្យ (វីដេអូ)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [] [(កម្រិតខ្ពស់) Randomization: Universal & Perfect Hashing (វីដេអូ)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [] [(ជឿនលឿន) Perfect hashing (វីដេអូ)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+
+    - [] វគ្គសិក្សាអនឡាញ៖
+        - [] [ស្វែងយល់អំពីមុខងារ Hash (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
+        - [] [ការប្រើតារាងHash (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
+        - [] [គាំទ្រ Hash (វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/06_04- ឧបត្ថម្ភគាំទ្រហាន់ឌ្រី)
+        - [] [តារាងជំនួយភាសា Hash(វីដេអូ)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
+        - [] [Core Hash Tables (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [] [រចនាសម្ព័ន្ធទិន្នន័យ (វីដេអូ)](https://www.coursera.org/learn/data-structures/home/week/4)
+        - [] [បញ្ហាសៀវភៅទូរស័ព្ទ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [តារាងចែកចាយ]
+            - [ការផ្ទុកឡើងភ្លាមៗនិងការបង្កើនប្រសិទ្ធភាពផ្ទុកនៅក្នុងប្រអប់ឯកសារ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [តារាងហាសចែកចាយ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+
+    - [] អនុវត្តជាមួយអារេដោយប្រើការស៊ើបអង្កេតលីនេអ៊ែរ
+        - hash(k, m) - m គឺជាទំហំនៃតារាង hash
+        - add(key, value) - ប្រសិនបើមានកូនសោររួចហើយ, ធ្វើបច្ចុប្បន្នភាពតម្លៃ
+        - exists(key)
+        - get(key)
+        - remove(key)
+
+---
+
+### More Knowledge
+## ចំណេះដឹងបន្ថែម
+
+- ### Binary search
+    - [] [Binary search (វីដេអូ)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [] [Binary search (វីដេអូ)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [] [លម្អិត](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [] អនុវត្ត៖
+        - Binary search (នៅលើជួរអារេនៃចំនួនគត់)
+        - Binary search ដោយប្រើការហៅខ្លួនឯង
+
+- ### ប្រតិបតិ្តការ Bitwise
+    - [] [សន្លឹកជំនួយ Bits](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) 
+        - អ្នកគួរតែស្គាល់ អំណាច ២ ពី (២ ^ ១ ដល់ ២ ^ ១៦ និង ២ ^ ៣២)
+    - [] ទទួលបានការយល់ដឹងដ៏ល្អអំពីការរៀបចំBitsជាមួយ៖ &, |, ^, ~, >>, <<
+        - [] [ពាក្យ](https://en.wikipedia.org/wiki/Word_ (computer_architecture))
+        - [] ការណែនាំល្អ៖
+            ការធ្វើចលនាBits (វីដេអូ)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [] [C ការបង្រៀនសរសេរកម្មវិធី ២-១០: ប្រតិបត្តិការ Bitwise (វីដេអូ)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [] [ការរៀបចំBits](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [] [ប្រតិបតិ្តការ Bitwise](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        - [] [The Bit Twiddler](https://bits.stephan-brumme.com/)
+        - [] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
+        - [] [Bit Hacks (វីដេអូ)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
+    - [] 2s និង 1s បំពេញបន្ថែម
+        - [Binary: Plusses & Minuses (ហេតុអ្វីយើងប្រើសមពីរ) (វីដេអូ)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [១s បំពេញ](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [២ វិនាទីបំពេញ](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [] រាប់សំណុំ bits
+        - [វិធី ៤ យ៉ាងដើម្បីរាប់ប៊ីតជាសាមសិបប៊ីត (វីដេអូ)](https://youtu.be/Hzuzo9NJrlc)
+        - [រាប់ប៊ីត](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [របៀបរាប់ចំនួនសំណុំប៊ីតក្នុងចំនួនគត់ ៣២ ប៊ីត](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit- ចំនួនគត់)
+    - [] ប្តូរតម្លៃ
+        - [ប្តូរ](https://bits.stephan-brumme.com/swap.html)
+    - [] តម្លៃដាច់ខាត:
+        - [អាំងតេក្រាលពេញលេញ](https://bits.stephan-brumme.com/absInteger.html)

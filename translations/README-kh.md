@@ -718,3 +718,32 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [ ] is_binary_search_tree
         - [ ] delete_value
         - [ ] get_successor // ត្រឡប់តម្លៃខ្ពស់បំផុតបន្ទាប់នៅក្នុងtreeបន្ទាប់ពីតម្លៃដែលបានផ្ដល់ ៕ បើគ្មានត្រឡប់ -1
+        
+- ### Heap / Priority Queue / Binary Heap
+    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [សេចក្តីផ្តើម (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [ ] [ការអនុវត្តដំបូង (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [Binary Trees (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [កំពស់ Tree (វីដេអូ)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] [ប្រតិបត្តិការមូលដ្ឋាន (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Binary Trees ពេញលេញ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [Pseudocode (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Heap Sort - លោតដើម្បីចាប់ផ្ដើម (វីដេអូ)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Heap Sort (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [ការកសាង heap (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [MIT: Heaps និង Heap Sort (វីដេអូ)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B មេរៀន 24: Priority Queues (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
+    - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] ការអនុវត្ត max-heap:
+        - [ ] insert
+        - [ ] sift_up - ត្រូវការសំរាប់បញ្ចូល
+        - [ ] get_max - ត្រឡប់ធាតុអតិបរិមាដោយមិនយកវាចេញ
+        - [ ] get_size() - ត្រឡប់ចំនួននៃធាតុដែលបានរក្សាទុក
+        - [ ] is_empty() - ត្រឡប់ពិតប្រសិនបើ heap មិនមានធាតុ
+        - [ ] extract_max - ត្រឡប់ធាតុអតិបរិមាយកវាចេញ
+        - [ ] sift_down - ត្រូវការសំរាប់ extract_max
+        - [ ] remove(i) - យកធាតុចេញនៅ index x
+        - [ ] heapify - បង្កើតheap ពីធាតុជាច្រើនដែលត្រូវការសម្រាប់ heap_sort
+        - [ ] heap_sort() - យកarray ដែលមិនបានតម្រៀបហើយប្រែក្លាយវាទៅជាកន្លែងដែលបានតម្រៀបតាមកន្លែងដោយប្រើheapអតិបរមា។ t
+            - ចំណាំ៖ ការប្រើ heap តូច ជំនួសនឹងជួយសន្សំប្រតិបត្តិការ ប៉ុន្តែត្រូវការទំហំទ្វេដង (មិនអាចធ្វើនៅនឹងកន្លែង) ។

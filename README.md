@@ -1084,7 +1084,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 - ### Networking
     - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - otherwise, this is just good to know
-    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
+    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/computers-and-internet-code-org)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
     - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial. (video)](https://www.youtube.com/watch?v=nomyRJehhnM)

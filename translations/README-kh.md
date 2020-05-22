@@ -886,3 +886,45 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
         - [ ] រាប់សមាសធាតុដែលបានភ្ជាប់នៅក្នុងក្រាហ្វ
         - [ ] រាយសមាសធាតុដែលភ្ជាប់គ្នាយ៉ាងខ្លាំង
         - [ ] ពិនិត្យក្រាហ្វិច bipartite
+
+---
+
+## Even More Knowledge
+## ចំណេះដឹងបន្ធែម
+
+- ### Recursion
+    - [ ] ការបង្រៀនរបស់ Stanford លេី recursion និង backtracking:
+        - [ ] [មេរៀនទី 8 | Programming Abstractions (វីដេអូ)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [មេរៀនទី 9 | Programming Abstractions (វីដេអូ)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [មេរៀនទី 10 | Programming Abstractions (វីដេអូ)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [មេរៀនទី 11 | Programming Abstractions (វីដេអូ)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+    - នៅពេលដែលសមរម្យដើម្បីប្រើវា
+    - តេី tail recursion ប្រសើរជាងអត់?
+        - [ ] [អ្វីជា Tail Recursion និង ហេតុអ្វីបានជាវាអាក្រក់?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [Tail Recursion (វីដេអូ)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+
+- ### Dynamic Programming
+    - អ្នកប្រហែលជាមិនឃើញមានបញ្ហានៃការសរសេរកម្មវិធី dynamic programming នៅក្នុងបទសម្ភាសន៍របស់អ្នកទេ ប៉ុន្តែវាសមនឹងទទួលបានការទទួលស្គាល់នូវបញ្ហាមួយក្នុងនាមជាបេក្ខជនសម្រាប់ការសរសេរកម្មវិធី dynamic programming។
+    - ប្រធានបទនេះអាចជាការពិបាកណាស់, ព្រោះថាបញ្ហារបស់ DP នីមួយៗត្រូវបានកំណត់ថាជាការទាក់ទងគ្នា
+    - ខ្ញុំស្នើឱ្យក្រឡេកមើលឧទាហរណ៍ជាច្រើននៃបញ្ហា DP រហូតទាល់តែអ្នកមានការយល់ដឹងច្បាស់អំពីគំរូដែលពាក់ព័ន្ធ។
+    - [ ] វីដេអូ:
+        - វីដេអូ Skiena អាចពិបាកធ្វើតាមព្រោះពេលខ្លះគាត់ប្រើក្តារខៀនដែលវាមើលមិនឃើញ
+        - [ ] [Skiena: CSE373 2012 - មេរៀនទី 19 - ការណែនាំអំពី Dynamic Programming (វីដេអូ)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - [ ] [Skiena: CSE373 2012 - មេរៀនទី 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        - [ ] [Skiena: CSE373 2012 - មេរៀនទី 21 - ឧទាហរណ៍ Dynamic Programming (វីដេអូ)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - មេរៀនទី 22 - ការអនុវត្តកម្មវិធី Dynamic Programming (វីដេអូ)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        - [ ] [Simonson: Dynamic Programming 0 (ចាប់ផ្តេីមពី 59:18) (វីដេអូ)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [ ] [Simonson: Dynamic Programming I - មេរៀនទី 11 (វីដេអូ)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [Simonson: Dynamic programming II - មេរៀនទី 12 (វីដេអូ)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+        - [ ] បញ្ជីបញ្ហារបស់ DP (នីមួយៗខ្លី):
+            [Dynamic Programming (វីដេអូ)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+    - [ ] Yale Lecture notes:
+        - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+    - [ ] Coursera:
+        - [ ] [បញ្ហា RNA secondary structure (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [A dynamic programming algorithm (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [បង្ហាញរូបភាពពីវិធីដោះស្រាយ DP (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        - [ ] [ពេលវេលាដំណើរការនៃ DP algorithm (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
+        - [ ] [DP vs. recursive implementation (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [Global pairwise sequence alignment (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        - [ ] [Local pairwise sequence alignment (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)

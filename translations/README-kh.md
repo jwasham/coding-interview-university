@@ -747,3 +747,80 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [ ] heapify - បង្កើតheap ពីធាតុជាច្រើនដែលត្រូវការសម្រាប់ heap_sort
         - [ ] heap_sort() - យកarray ដែលមិនបានតម្រៀបហើយប្រែក្លាយវាទៅជាកន្លែងដែលបានតម្រៀបតាមកន្លែងដោយប្រើheapអតិបរមា។ t
             - ចំណាំ៖ ការប្រើ heap តូច ជំនួសនឹងជួយសន្សំប្រតិបត្តិការ ប៉ុន្តែត្រូវការទំហំទ្វេដង (មិនអាចធ្វើនៅនឹងកន្លែង) ។
+
+---
+
+## Sorting
+
+- [ ] កំណត់សំគាល់:
+    - អនុវត្ត sorts និងដឹងពីករណីដែលល្អ និង ដែលអាក្រក់, ភាពស្មុគស្មាញជាមធ្យមនីមួយៗ:
+        - កុំប្រេី bubble sort - វាមិនល្អ - O(n^2), លុះត្រាតែ n <= 16
+    - [ ] ស្ថេរភាពក្នុងក្បួនដោះស្រាយ sorting ("តើ Quicksort មានស្ថេរភាពឬ?")
+        - [ស្ថេរភាពក្នុងក្បួនដោះស្រាយ Sorting](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
+        - [ស្ថេរភាពក្នុងក្បួនដោះស្រាយ Sorting](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
+        - [ស្ថេរភាពក្នុងក្បួនដោះស្រាយ Sorting](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+        - [ស្ថេរភាពក្នុងក្បួនដោះស្រាយ Sorting](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
+    - [ ] តើក្បួនដោះស្រាយអ្វីខ្លះអាចត្រូវបានប្រើ linked lists? អាចត្រូវបានប្រើ arrays? អាចត្រូវបានប្រើទាំងពីរ?
+        - ខ្ញុំនឹងមិនណែនាំឱ្យ Sort ជាមួយ linked list ប៉ុន្តែអាចប្រេី Merge Sort។
+        - [Merge Sort សំរាប់ Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+
+- សំរាប់ heapsort, សូមមេីល Heap data structure ខាងលេី. Heap sort គឺល្អ, ប៉ុន្តែមិនមានស្ថេរភាពទេ.
+
+- [ ] [Sedgewick - Mergesort (5 វីដេអូ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+    - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
+    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+    - [ ] [3. ភាពស្មុគស្មាញ Sorting](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
+    - [ ] [4. ប្រៀបធៀប](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
+    - [ ] [5. ស្ថេរភាព](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+
+- [ ] [Sedgewick - Quicksort (4 វីដេអូរ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+    - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
+    - [ ] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+    - [ ] [3. Keys ស្ទួន](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
+    - [ ] [4. Sorts ជាប្រព័ន្ធ](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+
+- [ ] UC Berkeley:
+    - [ ] [CS 61B មេរៀនទី 29: Sorting I (វីដេអូរ)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
+    - [ ] [CS 61B មេរៀនទី 30: Sorting II (វីដេអូរ)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
+    - [ ] [CS 61B មេរៀនទី 32: Sorting III (វីដេអូរ)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
+    - [ ] [CS 61B មេរៀនទី 33: Sorting V (វីដេអូរ)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
+
+- [ ] [Bubble Sort (វីដេអូរ)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
+- [ ] [វិភាគ Bubble Sort (វីដេអូរ)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
+- [ ] [Insertion Sort, Merge Sort (វីដេអូរ)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- [ ] [Insertion Sort (វីដេអូរ)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
+- [ ] [Merge Sort (វីដេអូរ)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
+- [ ] [Quicksort (វីដេអូរ)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
+- [ ] [Selection Sort (វីដេអូរ)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
+
+- [ ] កូដ Merge sort:
+    - [ ] [ការប្រើប្រាស់ output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
+    - [ ] [ការប្រើប្រាស់ output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
+    - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
+- [ ] កូដ Quick sort:
+    - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
+    - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
+    - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] អនុវត្ត:
+    - [ ] Mergesort: O(n log n) ករណីមធ្យម និង អាក្រក់បំផុត
+    - [ ] Quicksort O(n log n) ករណីមធ្យម
+    - Selection sort និង insertion sort ទាំងពីរគឺ O(n^2) សំរាប់ករណីមធ្យម និង អាក្រក់បំផុត
+    - ចំពោះ heapsort, សូមមេីល Heap data structure ខាងលេី.
+
+- [ ] មិនចាំបាច់ទេ ប៉ុន្តែខ្ញុំសូមណែនាំពួកគេ:
+    - [ ] [Sedgewick - Radix Sorts (6 វីដេអូរ)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
+        - [ ] [1. Strings ក្នុង Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+        - [ ] [2. ការរាប់ Key Indexed](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
+        - [ ] [3. តម្រៀបខ្ទង់អក្សរដំបូងដែលមានខ្ទង់តិចបំផុត Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] [5. វិធី ៣ Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
+    - [ ] [Radix Sort (វីដេអូរ)](https://www.youtube.com/watch?v=xhr26ia4k38)
+    - [ ] [Radix Sort, Counting Sort (linear time given constraints) (វីដេអូរ)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (វីដេអូរ)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Sorting in Linear Time (វីដេអូរ)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
+
+ជាការសង្ខេបនេះគឺជាការបង្ហាញជាក់ស្តែងនៃ [១៥ វិធីដោះស្រាយ Sorting](https://www.youtube.com/watch?v=kPRA0W1kECg) ។
+ប្រសិនបើអ្នកត្រូវការព័ត៌មានលម្អិតបន្ថែមលើប្រធានបទនេះសូមមើលផ្នែក "Sorting" នៅក្នុង [ព័ត៌មានលំអិតលើប្រធានបទមួយចំនួន](#additional-detail-on-some-subjects)

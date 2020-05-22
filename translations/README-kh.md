@@ -824,3 +824,65 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 
 ជាការសង្ខេបនេះគឺជាការបង្ហាញជាក់ស្តែងនៃ [១៥ វិធីដោះស្រាយ Sorting](https://www.youtube.com/watch?v=kPRA0W1kECg) ។
 ប្រសិនបើអ្នកត្រូវការព័ត៌មានលម្អិតបន្ថែមលើប្រធានបទនេះសូមមើលផ្នែក "Sorting" នៅក្នុង [ព័ត៌មានលំអិតលើប្រធានបទមួយចំនួន](#additional-detail-on-some-subjects)
+
+---
+
+## Graphs
+
+Graphs អាចត្រូវបានប្រើដើម្បីបង្ហាញពីបញ្ហាជាច្រើននៅក្នុងវិទ្យាសាស្ត្រកុំព្យូទ័រ ដូចជា Trees និង Sorting។
+
+- កំណត់ចំណាំ:
+    -  មានវិធីជាមូលដ្ឋានចំនួន ៤ ដើម្បីតំណាង graph ក្នុង memory:
+        - objects និង pointers
+        - adjacency matrix
+        - adjacency list
+        - adjacency map
+    - ស្គាល់ខ្លួនឯងជាមួយនឹង Graphs និង គុណសម្បត្តិនិងគុណវិបត្តិរបស់វា
+    - BFS និង DFS - ដឹងពីភាពស្មុគស្មាញក្នុងការគណនាការជួញដូររបស់ពួកគេ និង វិធីអនុវត្តកូដពិតប្រាកដ
+    - នៅពេលសួរសំណួរសូមស្វែងរកដំណោះស្រាយដែលមានមូលដ្ឋានលើ Graphs ជាមុនសិនបន្ទាប់មកបន្តទៅមុខទៀតប្រសិនបើគ្មាន។ 
+
+- [ ] MIT(វីដេអូ):
+    - [ ] [ការស្វែងរក Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+    - [ ] [ការស្វែងរក Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+
+- [ ] ការបង្រៀន Skiena - ការណែនាំ:
+    - [ ] [CSE373 2012 - មេរៀនទី 11 - Graph Data Structures (វីដេអូ)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
+    - [ ] [CSE373 2012 - មេរៀនទី 12 - Breadth-First Search (វីដេអូ)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
+    - [ ] [CSE373 2012 - មេរៀនទី 13 - Graph Algorithms (វីដេអូ)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
+    - [ ] [CSE373 2012 - មេរៀនទី 14 - Graph Algorithms (បន្ត) (វីដេអូ)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2012 - មេរៀនទី 15 - Graph Algorithms (បន្ត 2) (វីដេអូ)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2012 - មេរៀនទី 16 - Graph Algorithms (បន្ត 3) (វីដេអូ)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+
+- [ ] Graphs (ពិនិត្យឡើងវិញ និង ច្រើនទៀត):
+
+    - [ ] [6.006 Single-Source Shortest Paths Problem (វីដេអូ)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Dijkstra (វីដេអូ)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Bellman-Ford (វីដេអូ)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
+    - [ ] [6.006 Speeding Up Dijkstra (វីដេអូ)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
+    - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  មេរៀនទី 6 (វីដេអូ)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - មេរៀនទី 7 (វីដេអូ)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
+    - [ ] [Aduni: Graph Algorithms III: Shortest Path - មេរៀនទី 8 (វីដេអូ)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
+    - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - មេរៀនទី 9 (វីដេអូ)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
+    - [ ] ~~[CS 61B 2014 (starting at 58:09) (វីដេអូ)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)~~
+    - [ ] [CS 61B 2014: Weighted graphs (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
+    - [ ] [Greedy Algorithms: Minimum Spanning Tree (វីដេអូ)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (វីដេអូ)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+
+- វគ្គសិក្សា Coursera:
+    - [ ] [Algorithms on Graphs (វីដេអូ)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
+
+- ខ្ញុំនឹងអនុវត្ត:
+    - [ ] DFS ជាមួយ adjacency list (recursive)
+    - [ ] DFS ជាមួយ adjacency list (iterative with stack)
+    - [ ] DFS ជាមួយ adjacency matrix (recursive)
+    - [ ] DFS ជាមួយ adjacency matrix (iterative with stack)
+    - [ ] BFS ជាមួយ adjacency list
+    - [ ] BFS ជាមួយ adjacency matrix
+    - [ ] single-source shortest path (Dijkstra)
+    - [ ] minimum spanning tree
+    - DFS-based algorithms (សូមមេីល Aduni វីដេអូ ខាងលេី):
+        - [ ] ពិនិត្យ cycle (ត្រូវការសំរាប់ topological sort ព្រោះយើងនឹងពិនិត្យមើលវដ្តមុនពេលចាប់ផ្តើម)
+        - [ ] topological sort
+        - [ ] រាប់សមាសធាតុដែលបានភ្ជាប់នៅក្នុងក្រាហ្វ
+        - [ ] រាយសមាសធាតុដែលភ្ជាប់គ្នាយ៉ាងខ្លាំង
+        - [ ] ពិនិត្យក្រាហ្វិច bipartite

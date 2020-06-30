@@ -7,15 +7,18 @@
 |  日期 |  事件 |  其他 | 
 |---|---|---|
 |  2020/04/09 |建立tw_translation_progress_log.md   |   |
-
+|  2020/04/14 |完成  程序與執行緒(Processes&Threads) 翻譯  |   |
+Testing
+String searching & manipulations
+Tries
 # To be done...
 ## 雜湊表
 ## Heap/Priority Queue/Binary Heap
 ## 更多知識:
-    程序與執行緒(Processes&Threads)
-    Testing
-    String searching & manipulations
-    Tries
+    <!-- 程序與執行緒(Processes&Threads) -->
+    <!-- Testing -->
+    <!-- String searching & manipulations -->
+    <!-- Tries -->
     Floating Point Numbers
     Unicode
     Endianness

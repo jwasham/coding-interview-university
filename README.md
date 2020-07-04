@@ -733,7 +733,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
-## Sorting
+## Sorting - (Chris C - reading)
 
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
@@ -808,7 +808,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
-## Graphs
+## Graphs - (Chris C - reading)
 
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
 

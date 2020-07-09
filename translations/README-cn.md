@@ -131,12 +131,6 @@
 
 [更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## 拥有一名 Googler 的心态
-
-把一个（或两个）印有“[future Googler](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)”的图案打印出来，并用你誓要成功的眼神盯着它。
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)
-
 ## 我得到了工作吗？
 
 我还没去应聘。
@@ -480,7 +474,7 @@
         - 迭代式二分查找
 
 - ### 按位运算（Bitwise operations）
-    - [ ] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf)
+    - [ ] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf)
         - 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
     - [ ] 好好理解位操作符的含义：&、|、^、~、>>、<<
         - [ ] [字码（words）](https://en.wikipedia.org/wiki/Word_(computer_architecture))

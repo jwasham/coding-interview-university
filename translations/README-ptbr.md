@@ -650,7 +650,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - busca binária usando recursividade
 
 - ### Lógica binária 
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) (Folha de consultas sobre Bits) - você deve conhecer várias das potências de 2 de (2^1 até 2^16 e 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) (Folha de consultas sobre Bits) - você deve conhecer várias das potências de 2 de (2^1 até 2^16 e 2^32)
     - [ ] Consiga um bom entendimento sobre manipulação de bits com: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture)) (palavras)
         - [ ] Boa introdução:
@@ -1598,7 +1598,6 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh) (Ataques Side-Channel)
 
 - ### Coleta de lixo
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25) (Coleta de lixo - Java)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff) (Compiladores - vídeo)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI) (Coleta de lixo em Python - vídeo)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits) (Mergulhando Fundo em Java: Coleta de Lixo é Bom)

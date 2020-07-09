@@ -1,12 +1,12 @@
 # 코딩 인터뷰 대학(Coding Interview University)
 
 > 나는 원래 이것을 소프트웨어 엔지니어가 되기 위한 짧은 연구 목록으로 만들었다.
-> 그러나 지금 당신이 볼수 있듯이 이 목록은 매우 커졌다. 이 목록을 숙지 한 후, 
+> 그러나 지금 당신이 볼수 있듯이 이 목록은 매우 커졌다. 이 목록을 숙지 한 후,
 > [나는 아마존에 소프트웨어 엔지니어로 채용됐다](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > 당신은 아마 내가 한 것처럼 많이 공부할 필요는 없을 것이다. 어쨌든 당신이 필요로 하는 모든 것은 여기에 있다.
 >
 > 여기에 나열된 목록들은 아마존, 페이스북, 구글, 마이크로소프트 같은 거대 기업을 포함한 거의 모든 소프트웨어 회사의 인터뷰를 준비하는데에 도움이 될것이다.
-> 
+>
 >
 > *행운을 빈다!*
 
@@ -720,7 +720,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - 재귀를 사용한 이진 탐색
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] 비트 연산자(&, |, ^, ~, >>, <<) 제대로 이해하기
         - [ ] [워드](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] 시작하기 좋은 곳:
@@ -893,7 +893,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 - [ ] 구현:
     - [ ] 병합 정렬: 평균과 최악의 경우 O(n log n)
-    - [ ] 퀵 정렬: 평균적인 경우 O(n log n) 
+    - [ ] 퀵 정렬: 평균적인 경우 O(n log n)
     - 선택 정렬과 삽입 정렬은 둘 다 평균과 최악의 경우에 O(n^2)
     - 힙 정렬의 경우, 위의 힙 데이터 구조를 보세요.
 
@@ -934,7 +934,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 - [ ] MIT(영상):
     - [ ] [너비 우선 탐색(BFS;Breadth-First Search)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-    - [ ] [깊이 우선 탐색(DFS;Depth-First Search)]((https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+    - [ ] [깊이 우선 탐색(DFS;Depth-First Search)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
 - [ ] Skiena의 강좌 - 시작하기 아주 좋습니다:
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)

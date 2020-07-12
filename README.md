@@ -19,6 +19,7 @@
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
+- [繁體中文](translations/README-tw.md)
 
 </details>
 

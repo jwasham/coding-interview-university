@@ -662,7 +662,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - Tìm kiếm nhị phân sử dụng đệ quy
 
 - ### Toán tử trên bit
-    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-cheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
+    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-sheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
     - [ ] Hãy chuẩn bị một nền tảng tốt về các biến đổi bit với các toán tử: &, |, ^, ~, >>, <<
         - [ ] [words (thuật ngữ trong kiến trúc máy tính)](https://en.wikipedia.org/wiki/Word_(computer_architecture) )
         - [ ] Bài mở đầu:

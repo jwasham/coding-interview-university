@@ -720,7 +720,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - 재귀를 사용한 이진 탐색
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] 비트 연산자(&, |, ^, ~, >>, <<) 제대로 이해하기
         - [ ] [워드](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] 시작하기 좋은 곳:

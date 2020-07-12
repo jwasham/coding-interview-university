@@ -20,6 +20,7 @@
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
 - [Polish](translations/README-pl.md)
+- [繁體中文](translations/README-tw.md)
 
 </details>
 

@@ -204,6 +204,12 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
     Fork a branch and follow the commands below
 
+Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
+
+    Clone to your local repo
+
+`git clone git@github.com:<your_github_username>/coding-interview-university.git`
+
 `git checkout -b progress`
 
 `git remote add jwasham https://github.com/jwasham/coding-interview-university`
@@ -217,6 +223,8 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 `git commit -m "Marked x"`
 
 `git rebase jwasham/master`
+
+`git push --set-upstream origin progress`
 
 `git push --force`
 

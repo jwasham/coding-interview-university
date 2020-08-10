@@ -467,9 +467,9 @@ Por que programar em todas essas linguagens?
 Talvez eu não tenha tempo para fazer tudo isso para cada tema, mas eu vou tentar.
 
 Você pode ver meu código aqui:
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
 Você não precisa memorizar os detalhes intrínsecos de cada algoritmo.
 

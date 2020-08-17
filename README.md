@@ -1318,6 +1318,7 @@ Challenge sites:
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
+- [Code Exercises](https://code-exercises.com)
 
 Language-learning sites, with challenges:
 - [Codewars](http://www.codewars.com)

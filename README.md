@@ -465,12 +465,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - [ ] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+    - [ ] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - [answers to questions](https://github.com/lekkas/c-algorithms)
-    - [ ] [The C Programming Language](https://www.amazon.in/Programming-Language-Kernighan-Dennis-Ritchie/dp/9332549443/ref=sr_1_1?dchild=1&qid=1598874882&refinements=p_27%3ADennis+Ritchie&s=books&sr=1-1)
-        - This is the original documentation, guide, tutorial and a comprehensive book to learn and master the C language. It includes exercises for practice as well.
 
 - [ ] **How computers process a program:**
     - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)

@@ -333,6 +333,9 @@ I haven't read these two, but they are highly rated and written by Sedgewick. He
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+- [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
+    - Rich and detailed collection of Data Structures and Algorithms.
+    - Great for first-timers.
 
 If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
 
@@ -357,7 +360,7 @@ OR:
     - I loved this book. It covered everything and more.
     - Pythonic code
     - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-
+- [ ] [Open Data Structures in Python](https://opendatastructures.org/ods-python.pdf)
 
 ## Before you Get Started
 
@@ -466,6 +469,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - [answers to questions](https://github.com/lekkas/c-algorithms)
+    - [ ] [The C Programming Language](https://www.amazon.in/Programming-Language-Kernighan-Dennis-Ritchie/dp/9332549443/ref=sr_1_1?dchild=1&qid=1598874882&refinements=p_27%3ADennis+Ritchie&s=books&sr=1-1)
+        - This is the original documentation, guide, tutorial and a comprehensive book to learn and master the C language. It includes exercises for practice as well.
 
 - [ ] **How computers process a program:**
     - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)

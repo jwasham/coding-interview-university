@@ -431,7 +431,7 @@
 
  ## 先備知識
 
-- [ ] **學習C++**
+- [ ] **學習C**
     - C語言無所不在。在你學習的過程中，幾乎任何一本書、課程，或者影片中你都能看到他的身影。
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - 這本書還滿輕薄的，但他能讓你有初步對於C語言的認識。看著這本書並且練習，你能更快地掌握C語言。理解C語言能讓你更了解程式的運作以及內部記憶體配置。

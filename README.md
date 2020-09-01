@@ -371,9 +371,9 @@ Here are some mistakes I made so you'll have a better experience.
 ### 1. You Won't Remember it All
 
 I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+through my notes and making flashcards, so I could review.
 
-Read please so you won't make my mistakes:
+Please, read so you won't make my mistakes:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
@@ -384,7 +384,7 @@ A course recommended to me (haven't taken it): [Learning how to Learn](https://w
 To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
 Each card has different formatting.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+I made a mobile-first website, so I could review on my phone and tablet, wherever I am.
 
 Make your own for free:
 
@@ -448,7 +448,7 @@ You don't need all these. You need only [one language for the interview](#pick-o
 Why code in all of these?
 - Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
 - Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python or Java))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+- Make use of built-in types, so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
 
 I may not have time to do all of these for every subject, but I'll try.
 
@@ -468,7 +468,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+        - [Answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **How computers process a program:**
     - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
@@ -481,7 +481,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
+- If some lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -515,7 +515,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
+        - [ ] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
         - [ ] size() - number of items
@@ -554,7 +554,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
+    - [ ] Implement (I did with tail pointer & without):
         - [ ] size() - returns number of data elements in list
         - [ ] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
@@ -620,7 +620,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
-    - [ ] implement with array using linear probing
+    - [ ] Implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
         - exists(key)
@@ -654,13 +654,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
+    - [ ] Count set bits
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] swap values:
+    - [ ] Swap values:
         - [Swap](https://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
+    - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
 ## Trees
@@ -748,7 +748,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
+    - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
@@ -829,7 +829,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - adjacency list
         - adjacency map
     - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
+    - BFS and DFS - know their computational complexity, their trade offs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
 - [ ] MIT(videos):
@@ -1513,7 +1513,7 @@ You're never really done.
 
 - ### Information theory (videos)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - more about Markov processes:
+    - More about Markov processes:
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
@@ -1668,7 +1668,7 @@ You're never really done.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - **Red/black trees**
-        - these are a translation of a 2-3 tree (see below)
+        - These are a translation of a 2-3 tree (see below).
         - In practice:
             Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
             Not only does this make them valuable in time-sensitive applications such as real-time applications,
@@ -1707,7 +1707,7 @@ You're never really done.
         - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
         - In Practice:
             B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
             its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
@@ -1765,7 +1765,7 @@ You're never really done.
     - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Discrete math
-    - see videos below
+    - See videos below
 
 - ### Machine Learning
     - Why ML?

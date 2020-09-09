@@ -73,13 +73,13 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Conhecimento Prévio](#conhecimento-prévio)
 - [Complexidade Algorítmica / Big-O / Análise assintótica](#complexidade-algorítmica--big-o--análise-assintótica)
 - [Estrutura de Dados](#estrutura-de-dados)
-    - [Arrays](#arrays)
-    - [Listas Ligadas](#listas-ligadas)
-    - [Stack](#stack)
-    - [Queue (Fila)](#queue-fila)
+    - [Vetores (Arrays)](#arrays)
+    - [Listas Ligadas (Linked List)](#listas-ligadas)
+    - [Pilha (Stack)](#stack)
+    - [Fila (Queue)](#queue-fila)
     - [Tabela hash](#tabela-hash)
 - [Mais Conhecimento](#mais-conhecimento)
-    - [Busca binária](#busca-binária)
+    - [Busca binária ( Binary Search)](#busca-binária)
     - [Lógica binária](#lógica-binária)
 - [Árvores](#Árvores)
     - [Árvores - Anotações e Fundamentos](#Árvores---anotações-e-fundamentos)
@@ -88,17 +88,17 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - árvores de busca balanceadas (conceito geral, não detalhes)
     - transversais: pré-ordem, em-ordem (ordem simétrica), pós-ordem, busca em largura, busca em profundidade
 - [Ordenação](#ordenação)
-    - seleção
-    - inserção
-    - heapsort
-    - quicksort
-    - ordenação por mistura (merge sort)
+    - Seleção
+    - Inserção
+    - Heapsort
+    - Quicksort
+    - Merge sort
 - [Grafos](#grafos)
-    - directed
-    - undirected
-    - matriz de adjacência
-    - lista de adjacência
-    - traversals: BFS, DFS
+    - Diretos
+    - Indiretos
+    - Matriz de Adjacência
+    - Lista de Adjacência
+    - Traversals: BFS, DFS
 - [Ainda Mais Conhecimento](#ainda-mais-conhecimento)
     - [Recursão](#recursão)
     - [Programação Dinâmica](#programação-dinâmica)
@@ -113,7 +113,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Agendamento](#agendamento)
     - [Implementar rotinas de sistema](#implementar-rotinas-de-sistema)
     - [Busca de string e manipulações](#busca-de-string-e-manipulações)
-    - [Tries (ou Árvore de Prefixos)](#tries-ou-Árvore-de-prefixos)
+    - [Árvore de Prefixos (Tries)](#tries-ou-Árvore-de-prefixos)
     - [Números de Ponto Flutuantes ("Floating Point Numbers")](#números-de-ponto-flutuantes-floating-point-numbers)
     - [Unicode](#unicode)
     - [Extremidade (ordenação) (ou "endianness" em Inglês)](#extremidade-ordenação-ou-endianness-em-inglês)

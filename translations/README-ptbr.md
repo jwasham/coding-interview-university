@@ -1,12 +1,12 @@
 # Universidade de Entrevista de Programação
 
-> Originalmente eu criei isso como uma pequena lista to-do de tópicos de estudo para se tornar um engenheiro de software, 
-> mas isso cresceu para a grande lista que você vê hoje. Após passar por esse plano de estudo, [Eu fui contratado 
+> Originalmente eu criei isso como uma pequena lista to-do (a fazer) de tópicos de estudo para se tornar um engenheiro de software, 
+> mas isso cresceu para este imenso acervo que você consulta hoje. Após passar por todo esse plano de estudo, [Eu fui contratado 
 > como Engenheiro de Desenvolvimento de Software na Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
 > Você provavelmente não vai precisar estudar tanto quanto eu. De qualquer maneira, tudo que você precisa está aqui.
 >
 > Os itens listados aqui irão preparar você muito bem para uma entrevista em praticamente qualquer empresa de software, 
-> incluindo as gigantes: Amazon, Facebook, Google ou Microsoft.
+> incluindo as gigantes como: Amazon, Facebook, Google ou Microsoft.
 >
 > *Boa sorte para todos vocês!*
 
@@ -42,14 +42,14 @@ Traduções em progresso:
     
 ## O que é isso?
 
-Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software para uma grande empresa.
+Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software em uma grande empresa.
 
 ![Programando no quadro branco - do Vale do Silício da HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Essa longa lista foi extraída e expandida a partir das **anotações de treinamento da Google**, então essas são as coisas que você precisa saber.
 Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge's e às vezes são expressados palavra-por-palavra nas anotações de treinamento da Google.
 
-Isso é direcionado à **engenheiros de software novos** ou àqueles que estão migrando de desenvolvimento de software/web para engenharia de software (onde conhecimento de ciência da computação é necessário). Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
+Isso é direcionado à **novos engenheiros de software**, ou àqueles que estão migrando de desenvolvimento de software/web para engenharia de software, onde conhecimento sobre  ciência da computação é necessário. Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
 
 Se você tem vários anos de experiência com desenvolvimento de software/web, observe que grandes empresas como Google, Amazon, Facebook e Microsoft consideram engenharia de software como algo distinto de desenvolvimento de software/web e elas requerem conhecimento de ciência da computação.
 
@@ -77,7 +77,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Listas Ligadas (Linked List)](#listas-ligadas)
     - [Pilha (Stack)](#stack)
     - [Fila (Queue)](#queue-fila)
-    - [Tabela hash](#tabela-hash)
+    - [Tabela hash (Hash Table)](#tabela-hash)
 - [Mais Conhecimento](#mais-conhecimento)
     - [Busca binária ( Binary Search)](#busca-binária)
     - [Lógica binária](#lógica-binária)
@@ -178,13 +178,13 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 ## Por que usar?
 
 Quando eu comecei esse projeto, eu não sabia diferenciar memória dinâmica de memória estática, não sabia notação Big-O, árvores, ou como percorrer um grafo. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
-Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por debaixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns arrays multidimensionais na minha vida e milhares de arrays associativos, mas eu nunca criei estruturas de dados do zero.
+Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por debaixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns vetores multidimensionais na minha vida e milhares de vetores associativos, mas eu nunca criei estruturas de dados do zero.
 
 É um longo plano. Você vai levar meses. Se você já é familiarizado com muitas dessas coisas, você vai precisar de muito menos tempo. 
 
 ## Como usar
 
-Tudo abaixo é um esboço, e você deve abordar os itens em ordem de cima para baixo.
+**Tudo abaixo é um esboço**, e você deve abordar os itens em ordem de cima para baixo.
 
 Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de tarefas para verificar o progresso.
 
@@ -393,9 +393,9 @@ OU:
 
 ## Antes de começar
 
-Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle.
+Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle!
 
-Aqui estão alguns erros que eu cometi para que você tenha uma experiência melhor.
+**Aqui estão alguns erros que eu cometi para que você tenha uma experiência melhor**.
 
 ### 1. Você não se lembrará de tudo
 

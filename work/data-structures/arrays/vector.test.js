@@ -179,9 +179,55 @@ describe("Vector", () => {
     });
   });
 
-  describe("delete", () => {});
+  describe("delete", () => {
+    it("should remove item at index 5", () => {
+      const vector = new Vector();
 
-  describe("remove", () => {});
+      vector.insert(5, "foobar");
+      vector.insert(4, "foobar");
 
-  describe("find", () => {});
+      expect(vector.at(4)).toBe("foobar");
+      expect(vector.at(5)).toBe("foobar");
+
+      vector.delete(5);
+
+      expect(vector.at(4)).toBe("foobar");
+      expect(vector.at(5)).toBeNull();
+    });
+  });
+
+  describe("remove", () => {
+    it("should remove item at index 4 and 6", () => {
+      const vector = new Vector();
+
+      vector.insert(4, "1");
+      vector.insert(5, "2");
+      vector.insert(6, "1");
+
+      expect(vector.at(4)).toBe("1");
+      expect(vector.at(5)).toBe("2");
+      expect(vector.at(6)).toBe("1");
+
+      vector.remove("1");
+
+      expect(vector.at(4)).toBeNull();
+      expect(vector.at(5)).toBe("2");
+      expect(vector.at(6)).toBeNull();
+    });
+  });
+
+  describe("find", () => {
+    it("should return 5", () => {
+      const vector = new Vector();
+      vector.insert(3, "2");
+      vector.insert(5, "1");
+      vector.insert(6, "1");
+      expect(vector.find("1")).toBe(5);
+    });
+
+    it("should return -1 when not found", () => {
+      const vector = new Vector();
+      expect(vector.find("1")).toBe(-1);
+    });
+  });
 });

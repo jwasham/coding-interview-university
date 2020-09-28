@@ -1,8 +1,11 @@
 class Vector {
   #vector = {};
-  #capacity = 16;
+  #capacity = 15;
   #size = 0;
 
+  /**
+   * Creates a vector.
+   */
   constructor() {
     // Set initial capacity
     for (let index = 0; index < this.#capacity; index++) {
@@ -20,22 +23,17 @@ class Vector {
   }
 
   get capacity() {
-    return this.#capacity;
+    return this.#capacity+1;
   }
 
   /**
    * Determines if vector is empty.
-   * Ω(1) - O(n)
+   * Ω(1)
    * 
+   * @returns {boolean}
    */
   get isEmpty() {
-    for (let index = 0; index < this.#capacity; index++) {
-      if (this.#vector[index] !== null) {
-        return false;
-      }
-    }
-
-    return true;
+    return this.#size <= 0;
   }
 
   /**
@@ -46,11 +44,11 @@ class Vector {
    * @returns {any}
    */
   at = (index) => {
-    if (index >= this.#capacity || index < 0) {
+    if (index >= this.capacity || index < 0) {
       throw Error("Index out of boundaries");
     }
 
-    for (let i = 0; i < this.#capacity; i++) {
+    for (let i = 0; i < this.capacity; i++) {
       if (i === index) {
         return this.#vector[i];
       }
@@ -64,7 +62,11 @@ class Vector {
    * @param {any} item 
    */
   push = (item) => {
-    this.#vector[size] = item;
+    if(this.#size >= this.capacity) {
+      this.#resize(this.capacity*2);
+    }
+
+    this.#vector[this.#size] = item;
     this.#size += 1;
   };
 
@@ -75,9 +77,13 @@ class Vector {
    * @param {any} item 
    */
   insert = (index, item) => {
+    if (index >= this.capacity || index < 0) {
+      throw Error("Index out of boundaries");
+    }
+    
     // Check if there is space on the vector before add the item.    
-    if(this.#size === this.#capacity) {
-      this.#resize(this.#capacity*2);
+    if(this.#size >= this.capacity) {
+      this.#resize(this.capacity*2);
     }
 
     if(this.#vector[index] !== null) {
@@ -107,14 +113,19 @@ class Vector {
    * @returns {any} - The deleted item.
    */
   pop = () => {
-    const deletedItem = this.#vector[this.#size];
-
-    if(deletedItem === null) {
-      return null;
+    debugger
+    const deletedItem = this.#vector[this.#size-1];
+    
+    if(deletedItem === undefined) {
+      return undefined;
     }
 
-    this.#vector[this.#size] = null;;
+    this.#vector[this.#size-1] = null;
     this.#size -= 1;
+
+    if(this.#size <= this.capacity / 4){
+      this.#resize(this.capacity/2);
+    }
 
     return deletedItem;
   };
@@ -142,28 +153,24 @@ class Vector {
    * @param {number} size - new size of the vector.
    */
   #resize = (size) => {
+    debugger
     // Increase capacity
-    if(size > this.#capacity) {
-      for (let index = this.#capacity; index < size; index++) {
+    if(size > this.capacity) {
+      for (let index = this.capacity; index < size; index++) {
         this.#vector[index] = null;
       }
+
     }
- 
+    
     // Decrease capacity
-    if(size < this.#capacity) {
-      for (let index = this.#capacity; index > size; index--) {
-        delete this.#vector[index-1]
+    if(size < this.capacity) {
+      for (let index = this.#capacity; index >= size; index--) {
+        delete this.#vector[index]
       }
     }
+
+    this.#capacity = size-1;
   };
 }
 
-const v1 = new Vector();
-
-v1.insert(0, 'hello')
-v1.insert(1, 'hello')
-v1.insert(2, 'hello')
-v1.print()
-
-v1.insert(0, 'foobar');
-v1.print()
+module.exports = Vector;

@@ -1,0 +1,8 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "jest",
+            "@types/jest"
+        ]
+    }
+}

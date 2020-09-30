@@ -418,6 +418,8 @@ I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I s
 
 Take a break from programming problems for a half hour and go through your flashcards.
 
+Follow a plan to review the stuff you learnt using Spaced repetitions, use [this](Revision-plan.md)  as a sample.
+
 ### 5. Focus
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music 

@@ -503,7 +503,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Data Structures
 
 - ### Arrays
-    - Implement an automatically resizing vector
+    - Implement an automatically resizing vector.
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
@@ -892,9 +892,9 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 - ### Dynamic Programming
-    - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a problem as being a candidate for dynamic programming
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved
+    - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a problem as being a candidate for dynamic programming.
+    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
+    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:
         - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
@@ -1148,7 +1148,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Scalability:
-    - You don't need all of these. Just pick a few that interest you
+    - You don't need all of these. Just pick a few that interest you.
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
     - [ ] Short series:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
@@ -1708,7 +1708,7 @@ You're never really done.
         - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - **B-Trees**
-        - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
         - In Practice:
             B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
             its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary

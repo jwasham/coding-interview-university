@@ -1,0 +1,42 @@
+very standard approace, split by fast/slow pointer, left to node.left, right to node.right and return the node, need to check the corner case when there is one node. 
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution(object):
+    def sortedListToBST(self, head):
+        """
+        :type head: ListNode
+        :rtype: TreeNode
+        """
+        if not head:
+            return None
+        fast = head
+        slow = head
+        preslow = None
+        while fast and fast.next:
+            fast = fast.next
+            fast = fast.next
+            preslow = slow
+            slow = slow.next
+            
+        right = slow.next
+        left = head
+        node = TreeNode(slow.val)      
+        # if there is preslow point that means fat and slow never run, so only one node
+        if preslow:
+            preslow.next = None
+        else:
+            return node
+
+        node.left = self.sortedListToBST(left)
+        node.right = self.sortedListToBST(right)
+        return node

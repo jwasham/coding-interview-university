@@ -41,6 +41,7 @@
     - [10 Tips for Pythonic Code (video)](https://www.youtube.com/watch?v=_O23jIXsshs)
     - [Beyond PEP 8 -- Best practices for beautiful intelligible code (video)](https://www.youtube.com/watch?v=wf-BqAjZb8M)
     - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+    - [Coding Interview Essentials](https://github.com/ajinkyal121/coding-interview-university/blob/master/extras/cheat%20sheets/Coding%20Interview%20Python%20Language%20Essentials.pdf)
 - Java
     - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
     - [Software Construction In Java (video)](https://www.edx.org/course/software-construction-java-mitx-6-005-1x)

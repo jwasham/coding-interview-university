@@ -871,7 +871,7 @@
 - ### 进程（Processe）和线程（Thread）
     - [ ] 计算机科学 162 - 操作系统 (25 个视频):
         - 视频 1-11 是关于进程和线程
-        - [操作系统和系统编程 (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+        - [操作系统和系统编程 (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [进程和线程的区别是什么?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - 涵盖了:
         - 进程、线程、协程

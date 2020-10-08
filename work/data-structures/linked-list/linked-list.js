@@ -122,30 +122,62 @@ class LinkedList {
     // TODO
   };
 
+  /**
+   * Get the first value on the list.
+   * @returns {any}
+   */
   front = () => {
     // TODO
   };
 
+    /**
+   * Get the last value on the list.
+   * @returns {any}
+   */
   back = () => {
     // TODO
   };
 
+  /**
+   * Insert a value at given index.
+   * 
+   * @param {any} value 
+   * @param {number} index 
+   */
   insert = (value, index) => {
     // TODO
   };
 
+  /**
+   * Removes node at given index.
+   * 
+   * @param {number} index 
+   */
   erase = (index) => {
     // TODO
   };
 
+  /**
+   * Returns the value of the node at nth position from the end of the list.
+   * 
+   * @param {any} n 
+   */
   valueNFromEnd = (n) => {
     // TODO
   };
 
+  /**
+   * Reverses the list.
+   * 
+   */
   reverse = () => {
     // TODO
   };
 
+  /**
+   * Removes the first item in the list with this value.
+   * @param {any} value 
+   */
   removeValue = (value) => {
     // TODO
   };

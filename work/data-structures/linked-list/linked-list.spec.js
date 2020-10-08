@@ -118,6 +118,18 @@ describe("Linked list", () => {
       expect(list.front()).toBe(3);
     });
 
+    it("should shift values to the right", () => {
+      const list = new LinkedList();
+      list.pushFront(1);
+      list.pushFront(2);
+      list.pushFront(3);
+      list.pushFront(4);
+      expect(list.valueAt(0)).toBe(4);
+      expect(list.valueAt(1)).toBe(3);
+      expect(list.valueAt(2)).toBe(2);
+      expect(list.valueAt(3)).toBe(1);
+    });
+
     it("should size be 3", () => {
       const list = new LinkedList(node1);
       list.pushFront(1);
@@ -248,7 +260,7 @@ describe("Linked list", () => {
       list.pushBack(1);
       list.pushBack(2);
       list.pushBack(3);
-      list.popBack()
+      list.popBack();
       expect(list.valueAt(0)).toBe(1);
       expect(list.valueAt(1)).toBe(2);
       expect(list.valueAt(2)).toBeNull();
@@ -261,42 +273,304 @@ describe("Linked list", () => {
   });
 
   describe("front", () => {
-    it('should return null', () => {
+    it("should return null", () => {
       const list = new LinkedList();
       expect(list.front()).toBeNull();
-    })
-    
-    it('should return first value', () => {
+    });
+
+    it("should return first value", () => {
       const list = new LinkedList();
       list.pushBack(1);
       list.pushBack(2);
       list.pushBack(3);
       expect(list.front()).toBe(1);
-    })
+    });
   });
 
   describe("back", () => {
-    it('should return null', () => {
+    it("should return null", () => {
       const list = new LinkedList();
       expect(list.back()).toBeNull();
-    })
-    
-    it('should return last value', () => {
+    });
+
+    it("should return last value", () => {
       const list = new LinkedList();
       list.pushBack(1);
       list.pushBack(2);
       list.pushBack(3);
       expect(list.back()).toBe(3);
-    })
+    });
   });
 
-  describe("insert", () => {});
+  describe("insert", () => {
+    it("should add new node at index 0", () => {
+      const list = new LinkedList();
+      list.insert(1, 0);
+      expect(list.valueAt(0)).toBe(1);
+    });
 
-  describe("erase", () => {});
+    it("should set header when index is 0", () => {
+      const list = new LinkedList();
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.insert(4, 0);
+      expect(list.valueAt(0)).toBe(4);
+      expect(list.head.data).toBe(4);
+    });
+
+    it("should set tail when inserted at last index", () => {
+      const list = new LinkedList();
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.insert(4, 3);
+      expect(list.valueAt(3)).toBe(4);
+      expect(list.tail.data).toBe(4);
+    });
+
+    it("should shift values to the right", () => {
+      const list = new LinkedList();
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.insert(4, 0);
+      expect(list.valueAt(0)).toBe(4);
+      expect(list.valueAt(1)).toBe(1);
+      expect(list.valueAt(2)).toBe(2);
+      expect(list.valueAt(3)).toBe(3);
+    });
+
+    it("should increase size", () => {
+      const list = new LinkedList();
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.insert(4, 0);
+      expect(list.size).toBe(4);
+    });
+
+    it("should throw error when index less than 0", () => {
+      const list = new LinkedList();
+
+      try {
+        list.insert(1, -1);
+      } catch (error) {
+        expect(error).toMatchObject(new Error("Index out of boundaries"));
+      }
+    });
+
+    it("should throw error when index greater than its size", () => {
+      const list = new LinkedList();
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      try {
+        list.insert(50, 50);
+      } catch (error) {
+        expect(error).toMatchObject(new Error("Index out of boundaries"));
+      }
+    });
+  });
+
+  describe("erase", () => {
+    it('should remove value at given index', () => {
+      const list = new LinkedList();
+
+      list.insert(1, 0);
+      expect(list.valueAt(0)).toBe(0);      
+      list.erase(0);
+      expect(list.valueAt(0)).toBeNull();      
+    })
+
+    it('should set header when first value was erased', () => {
+      const list = new LinkedList();
+
+      list.insert(1, 0);
+      list.insert(2, 1);
+
+      expect(list.head.data).toBe(1);      
+      list.erase(0);
+      expect(list.head.data).toBe(2);  
+      list.erase(0);
+      expect(list.head.data).toBeNull();  
+    })
+
+    it('should set tail when last value was erased', () => {
+      const list = new LinkedList();
+
+      list.insert(1, 0);
+      list.insert(2, 1);
+
+      expect(list.tail.data).toBe(2);      
+      list.erase(1);
+      expect(list.tail.data).toBe(1);  
+      list.erase(0);
+      expect(list.tail.data).toBeNull();  
+    })
+    
+
+    it("should decrease size", () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+
+      expect(list.size).toBe(4);
+
+      list.erase(0);
+      list.erase(1);
+      list.erase(2);
+      list.erase(3);
+      list.erase(0);
+
+      expect(list.size).toBe(0);
+    });
+
+    it("should shift values on the list", () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+
+      expect(list.valueAt(1)).toBe(2);
+
+      list.erase(1);
+
+      expect(list.valueAt(1)).toBe(3);
+    });
+
+    it("should throw error when index less than 0", () => {
+      const list = new LinkedList();
+
+      try {
+        list.erase(-5);
+      } catch (error) {
+        expect(error).toMatchObject(new Error("Index out of boundaries"));
+      }
+    });
+
+    it("should throw error when index greater than its size", () => {
+      const list = new LinkedList();
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+
+      try {
+        list.erase(20);
+      } catch (error) {
+        expect(error).toMatchObject(new Error("Index out of boundaries"));
+      }
+    });
+  });
 
   describe("valueNFromEnd", () => {});
 
-  describe("reverse", () => {});
+  describe("reverse", () => {
+    it('should reverse the list', () => {
+      const list = new LinkedList();
 
-  describe("removeValue", () => {});
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+  
+      expect(list.valueAt(0)).toBe(1);
+      expect(list.valueAt(1)).toBe(2);
+      expect(list.valueAt(2)).toBe(3);
+      expect(list.valueAt(3)).toBe(4);
+  
+      list.reverse()
+  
+      expect(list.valueAt(0)).toBe(4);
+      expect(list.valueAt(1)).toBe(3);
+      expect(list.valueAt(2)).toBe(2);
+      expect(list.valueAt(3)).toBe(1);  
+    })
+    
+    it('should head and tail be reversed', () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+  
+      expect(list.head.data).toBe(1);
+      expect(list.tail.data).toBe(4);
+  
+      list.reverse()
+  
+      expect(list.head.data).toBe(4);
+      expect(list.tail.data).toBe(1);
+    })
+  });
+
+  describe("removeValue", () => {
+    it('should decrease size', () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+  
+      expect(list.size).toBe(4);
+  
+      list.removeValue(0)
+      list.removeValue(1)
+      list.removeValue(2)
+      list.removeValue(3)
+      list.removeValue(4)
+      list.removeValue(4)
+  
+      expect(list.size).toBe(0);
+    })
+
+    it('should remove found value', () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+      list.removeValue(3);
+
+      expect(list.valueAt(0)).toBe(1);
+      expect(list.valueAt(1)).toBe(2);
+      expect(list.valueAt(2)).toBe(4);
+      expect(list.valueAt(3)).toBeNull();
+    })
+
+    it('should remove value once', () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(1);
+      list.pushBack(1);
+      list.pushBack(1);
+      list.removeValue(1);
+
+      expect(list.valueAt(0)).toBe(1);
+      expect(list.valueAt(1)).toBe(1);
+      expect(list.valueAt(2)).toBe(1);
+      expect(list.valueAt(3)).toBeNull();
+    })
+    
+    it('should do nothing when not found', () => {
+      
+    })
+    
+    it('should update head on first coincidence', () => {
+      
+    })
+    
+    it('should update tail on last coincidence', () => {
+      
+    })
+  });
 });

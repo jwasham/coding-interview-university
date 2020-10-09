@@ -1311,6 +1311,9 @@ Coding Interview Question Videos:
     - Good explanations of solution and the code
     - You can watch several in a short time
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+- [SDE Skills - LeetCode Solutions](https://www.youtube.com/playlist?list=PLBtMh4xfa9FGvYK-RMiBN7C43nejyScyU)
+    - Videos are in Discussion format
+    - Watch for learning about multiple approaches to problems
 
 Challenge sites:
 - [LeetCode](https://leetcode.com/)

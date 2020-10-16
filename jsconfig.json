@@ -1,8 +1,15 @@
 {
     "typeAcquisition": {
+        "enable": true,
         "include": [
             "jest",
-            "@types/jest"
-        ]
-    }
+            "mocha",
+            "node",
+            "jasmine"
+        ],
+    },
+    "compilerOptions": {
+        "rootDir": "./work",
+        "target": "es2020"
+    },
 }

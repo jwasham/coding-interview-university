@@ -1,95 +1,107 @@
 class LinkedNode {
-  #data;
-  #next;
+  #data: any;
+  #next: LinkedNode;
 
   /**
    * Creates a new node.
-   * 
-   * @param {any} data 
+   *
+   * @param {any} data
    */
-  constructor(data)  {
+  constructor(data) {
     this.#data = data;
     this.#next = null;
-  }  
+  }
 
   /**
    * Set/Get node data.
-   * 
+   *
    * @param {any} - New data value.
-   * @returns {any}
    */
-  set data(data) {
+  set data(data: any) {
     this.#data = data;
   }
 
   /**
    * Set/Get next node.
-   * 
+   *
    * @param {LinkedNode} - A node.
-   * @returns {LinkedNode|null}
    */
-  set next(node) {
+  set next(node: LinkedNode) {
     this.#next = node;
   }
 
-  get data() {
+  get data(): any {
     return this.#data;
   }
 
-  get next() {
+  get next(): LinkedNode {
     return this.#next;
   }
 }
 
 class LinkedList {
-  #head;
-  #tail;
+  #head: LinkedNode;
+  #tail: LinkedNode;
+  #size: number;
 
-  constructor()  {
+  constructor() {
     this.#head = null;
     this.#tail = null;
+    this.#size = 0;
   }
 
-  get head() {
+  get head(): LinkedNode {
     return this.#head;
   }
 
-  get tail() {
+  get tail(): LinkedNode {
     return this.#tail;
   }
 
   /**
    * Get the number of elements on the list.
-   * 
+   *
    * @returns {number}
    */
-  get size() {
-    return 0;
+  get size(): Number {
+    return this.#size;
   }
 
   /**
    * Determines if linked list is empty.
-   * 
+   *
    * @returns {boolean}
    */
-  get empty() {
-    return this.#head === null;
+  get empty(): boolean {
+    return this.#size === 0;
   }
 
   /**
    * Get the value at given index.
-   * 
+   *
    * @param {number} index
-   * @returns {any} 
+   * @returns {LinkedNode|null}
    */
-  valueAt(index) {
-    return 0;
+  valueAt(index: number): LinkedNode {
+    if (index >= 0 && index < this.#size && this.#head) {
+      let node = this.#head;
+
+      for (let i = 0; i < index; i++) {
+        if (node.next) {
+          node = node.next;
+        }
+      }
+
+      return node.data;
+    }
+
+    return null;
   }
 
   /**
    * Adds an item to the front of the list.
-   * 
-   * @param {any} value 
+   *
+   * @param {any} value
    */
   pushFront = (value) => {
     // TODO
@@ -97,7 +109,7 @@ class LinkedList {
 
   /**
    * Remove front item and return its value.
-   * 
+   *
    * @returns {any} - Removed item's value.
    */
   popFront = () => {
@@ -106,16 +118,28 @@ class LinkedList {
 
   /**
    * Add new value at end of the list.
-   * 
-   * @param {any} value 
+   *
+   * @param {any} value
    */
   pushBack = (value) => {
-    // TODO
+    const node = new LinkedNode(value);
+
+    if (!this.#head) {
+      this.#head = node;
+    }
+
+    if (this.#tail) {
+      const prevNode = this.#tail;
+      prevNode.next = node;
+    }
+
+    this.#tail = node;
+    this.#size += 1;
   };
 
   /**
    * Removes last item on the list.
-   * 
+   *
    * @returns {any} - Removed value.
    */
   popBack = () => {
@@ -130,7 +154,7 @@ class LinkedList {
     // TODO
   };
 
-    /**
+  /**
    * Get the last value on the list.
    * @returns {any}
    */
@@ -140,9 +164,9 @@ class LinkedList {
 
   /**
    * Insert a value at given index.
-   * 
-   * @param {any} value 
-   * @param {number} index 
+   *
+   * @param {any} value
+   * @param {number} index
    */
   insert = (value, index) => {
     // TODO
@@ -150,8 +174,8 @@ class LinkedList {
 
   /**
    * Removes node at given index.
-   * 
-   * @param {number} index 
+   *
+   * @param {number} index
    */
   erase = (index) => {
     // TODO
@@ -159,8 +183,8 @@ class LinkedList {
 
   /**
    * Returns the value of the node at nth position from the end of the list.
-   * 
-   * @param {any} n 
+   *
+   * @param {any} n
    */
   valueNFromEnd = (n) => {
     // TODO
@@ -168,7 +192,7 @@ class LinkedList {
 
   /**
    * Reverses the list.
-   * 
+   *
    */
   reverse = () => {
     // TODO
@@ -176,11 +200,11 @@ class LinkedList {
 
   /**
    * Removes the first item in the list with this value.
-   * @param {any} value 
+   * @param {any} value
    */
   removeValue = (value) => {
     // TODO
   };
 }
 
-module.exports = LinkedList
+export { LinkedList };

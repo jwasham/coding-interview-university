@@ -1,4 +1,8 @@
-const LinkedList = require("./linked-list");
+/// <reference types="jest" />
+/// <reference types="mocha" />
+/// <reference types="jasmine" />
+
+const {LinkedList} = require("./linked-list");
 
 describe("Linked list", () => {
   describe("size", () => {
@@ -112,9 +116,9 @@ describe("Linked list", () => {
 
     it("should add node to the front when more nodes exist on the list", () => {
       const list = new LinkedList();
-      list.pushFront(node1);
-      list.pushFront(node2);
-      list.pushFront(node3);
+      list.pushFront(1);
+      list.pushFront(2);
+      list.pushFront(3);
       expect(list.front()).toBe(3);
     });
 
@@ -131,7 +135,7 @@ describe("Linked list", () => {
     });
 
     it("should size be 3", () => {
-      const list = new LinkedList(node1);
+      const list = new LinkedList();
       list.pushFront(1);
       list.pushFront(2);
       list.pushFront(3);
@@ -196,7 +200,9 @@ describe("Linked list", () => {
     it("should set tail to last given node", () => {
       const list = new LinkedList();
       list.pushBack(1);
+      expect(list.tail.data).toBe(1);
       list.pushBack(2);
+      expect(list.tail.data).toBe(2);
       list.pushBack(3);
       expect(list.tail.data).toBe(3);
     });
@@ -562,15 +568,48 @@ describe("Linked list", () => {
     })
     
     it('should do nothing when not found', () => {
-      
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+      list.removeValue(5);
+
+      expect(list.valueAt(0)).toBe(1);
+      expect(list.valueAt(1)).toBe(2);
+      expect(list.valueAt(2)).toBe(3);
+      expect(list.valueAt(3)).toBe(4);
     })
     
     it('should update head on first coincidence', () => {
-      
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+
+      expect(list.head.data).toBe(1);      
+
+      list.removeValue(1);
+
+      expect(list.head.data).toBe(2);      
     })
     
     it('should update tail on last coincidence', () => {
-      
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(4);
+
+      expect(list.tail.data).toBe(4);      
+
+      list.removeValue(4);
+
+      expect(list.tail.data).toBe(3);      
     })
   });
 });

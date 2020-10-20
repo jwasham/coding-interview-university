@@ -5,6 +5,8 @@
 > [나는 아마존에 소프트웨어 엔지니어로 채용됐다](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > 당신은 아마 내가 한 것처럼 많이 공부할 필요는 없을 것이다. 어쨌든 당신이 필요로 하는 모든 것은 여기에 있다.
 >
+> 몇 달 동안 하루에 8-12 시간 정도 공부했습니다. 이것이 제 이야기입니다. [Google 인터뷰를 위해 8 개월 동안 풀 타임으로 공부 한 이유](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+>
 > 여기에 나열된 목록들은 아마존, 페이스북, 구글, 마이크로소프트 같은 거대 기업을 포함한 거의 모든 소프트웨어 회사의 인터뷰를 준비하는데에 도움이 될것이다.
 >
 >
@@ -14,32 +16,34 @@
 <details>
 <summary>번역:</summary>
 
-- [베트남어](translations/README-vi.md)
-- [브라질 포르투갈어](translations/README-ptbr.md)
-- [스페인어](translations/README-es.md)
 - [중국어](translations/README-cn.md)
+- [베트남어](translations/README-vi.md)
+- [스페인어](translations/README-es.md)
+- [브라질 포르투갈어](translations/README-ptbr.md)
+- [폴란드어](translations/README-pl.md)
+- [타이완어](translations/README-tw.md)
 </details>
 
 <details>
 <summary>진행 중인 번역:</summary>
 
-- [그리스어](https://github.com/jwasham/coding-interview-university/issues/166)
-- [러시아어](https://github.com/jwasham/coding-interview-university/issues/87)
-- [말라얄람어](https://github.com/jwasham/coding-interview-university/issues/239)
+- [힌디어](https://github.com/jwasham/coding-interview-university/issues/81)
+- [히브리어](https://github.com/jwasham/coding-interview-university/issues/82)
 - [바하사 인도네시아어](https://github.com/jwasham/coding-interview-university/issues/101)
 - [아랍어](https://github.com/jwasham/coding-interview-university/issues/98)
-- [우르두어](https://github.com/jwasham/coding-interview-university/issues/140)
-- [우크라이나어](https://github.com/jwasham/coding-interview-university/issues/106)
-- [이탈리아어](https://github.com/jwasham/coding-interview-university/issues/170)
-- [일본어](https://github.com/jwasham/coding-interview-university/issues/257)
-- [태국어](https://github.com/jwasham/coding-interview-university/issues/156)
 - [터키어](https://github.com/jwasham/coding-interview-university/issues/90)
-- [텔루구어](https://github.com/jwasham/coding-interview-university/issues/117)
-- [폴란드어](https://github.com/jwasham/coding-interview-university/issues/122)
 - [프랑스어](https://github.com/jwasham/coding-interview-university/issues/89)
+- [러시아어](https://github.com/jwasham/coding-interview-university/issues/87)
+- [우크라이나어](https://github.com/jwasham/coding-interview-university/issues/106)
 - [한국어](https://github.com/jwasham/coding-interview-university/issues/118)
-- [히브리어](https://github.com/jwasham/coding-interview-university/issues/82)
-- [힌디어](https://github.com/jwasham/coding-interview-university/issues/81)
+- [텔루구어](https://github.com/jwasham/coding-interview-university/issues/117)
+- [우르두어](https://github.com/jwasham/coding-interview-university/issues/140)
+- [태국어](https://github.com/jwasham/coding-interview-university/issues/156)
+- [그리스어](https://github.com/jwasham/coding-interview-university/issues/166)
+- [이탈리아어](https://github.com/jwasham/coding-interview-university/issues/170)
+- [말라얄람어](https://github.com/jwasham/coding-interview-university/issues/239)
+- [일본어](https://github.com/jwasham/coding-interview-university/issues/257)
+
 </details>
 
 ## 코딩 인터뷰 대학이란?
@@ -107,7 +111,6 @@
     - [NP와 NP-완전, 그리고 근사 알고리즘](#np-np-complete-and-approximation-algorithms)
     - [캐시](#caches)
     - [프로세스와 쓰레드](#processes-and-threads)
-    - [논문](#papers)
     - [테스트](#테스트)
     - [스케줄링](#scheduling)
     - [시스템 루틴의 구현](#implement-system-routines)
@@ -116,7 +119,7 @@
     - [부동 소수점](#floating-point-numbers)
     - [유니코드](#unicode)
     - [엔디언(Endianness)](#endianness)
-- [네트워크](#networking)
+    - [네트워크](#networking)
 - [시스템 디자인, 확장성, 데이터 핸들링](#시스템-디자인-확장성-데이터-핸들링) (4년 이상 경력자를 위한 주제)
 - [최종 검토](#최종-검토)
 - [코딩 문제 연습](#코딩-문제-연습)
@@ -132,9 +135,6 @@
 - [추가 도서](#additional-books)
 - [추가 주제](#additional-learning)
     - [컴파일러](#compilers)
-    - [부동 소수점 수](#floating-point-numbers)
-    - [유니코드](#unicode)
-    - [엔디언](#endianness)
     - [Emacs 와 vi(m)](#emacs-and-vim)
     - [유닉스 명령어 도구](#unix-command-line-tools)
     - [정보 이론](#information-theory-videos)
@@ -142,7 +142,6 @@
     - [엔트로피](#entropy)
     - [암호기법](#cryptography)
     - [압축](#compression)
-    - [네트워크](#networking) (만약 당신이 네트워크에 대한 경험이 있거나 시스템 엔지이너가 되고 싶다면 받을 수 있는 질문들)
     - [컴퓨터 보안](#computer-security)
     - [가비지 콜렉션](#garbage-collection)
     - [병렬 프로그래밍](#parallel-programming)
@@ -154,8 +153,6 @@
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
     - [van Emde Boas 트리](#van-emde-boas-trees)
     - [Augmented Data Structures](#augmented-data-structures)
-    - [트라이(Tries)](#tries)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
     - [균형 탐색 트리](#balanced-search-trees)
         - AVL 트리
         - Splay 트리
@@ -177,7 +174,7 @@
 - [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)
 - [영상 자료](#video-series)
 - [컴퓨터 과학 강의들](#컴퓨터-과학-강의들)
-- [라이센스](#라이센스)
+- [논문들](#논문들)
 
 ---
 
@@ -194,8 +191,7 @@
 
 ## 어떻게 사용하면 되나요?
 
-<details>
-<summary>How to use it?</summary>
+
 
 아래의 모든 것은 대략적인 개요이며 당신은 위에서 아래 순서대로 진행해야 한다.
 
@@ -204,6 +200,12 @@
 **새 브랜치를 만들어서 중괄호에 x표를 넣는 식으로 항목을 체크하라: [x]**
 
     브랜치를 포크하고 아래의 명령을 따라라
+
+포크 버튼을 눌러 Github https://github.com/jwasham/coding-interview-university 레포지토리를 포크하라. 
+
+    로컬 레포지토리에 클론하라.
+
+`git clone git@github.com:<your_github_username>/coding-interview-university.git`
 
 `git checkout -b progress`
 
@@ -219,48 +221,47 @@
 
 `git rebase jwasham/master `
 
-`git push --force `
+`git push --set-upstream origin progress`
+
+`git push --force`
 
 [Github식 마크다운에 대하여](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-</details>
 
 ## 당신은 충분히 똑똑합니다
 - 성공한 소프트웨어 엔지니어들은 똑똑합니다. 하지만 그들 조차도 자신들의 지적 능력면에 대해서 불안감을 갖기 일쑤입니다.
 - [천재 프로그래머에 대한 미신(迷信)](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [위험한 홀로서기: 테크 산업의 보이지 않는 괴물들의 전쟁](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 
 ## 영상 자료에 관하여
 
-몇몇 영상들은 Cousera, Edx, Lynda.com 클래스에 등록하여야만 시청이 가능합니다. 이것들은 MOOCs라고 불리는데요.
-강의가 없는 경우에는 몇 달 동안 기다려야 할 수도 있습니다. Lynda.com 강좌들은 무료가 아닙니다.
+몇몇 영상들은 Cousera, Edx에 등록을 해야만 접근할 수 있습니다. 이것들은 MOOCs라고 불리는데요.
+강의가 없는 경우에는 몇 달 동안 기다려야 할 수도 있습니다.
 
     여러분이 YouTube 온라인 강의 동영상과 같이 무료이고 항상 접근 가능한 동영상 소스들을 추가해주면 정말 감사하겠습니다.
     저는 대학 강의 듣는 것을 좋아합니다.
 
 ## 인터뷰 과정 & 전반적인 인터뷰 준비 과정
 
-<details>
-<summary>인터뷰 과정 & 전반적인 인터뷰 준비 과정</summary>
-
 - [ ] [ABC: 항상 코딩 하라](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [화이트 보드 쓰기](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [코딩 인터뷰에서 화이트 보드 효율적으로 쓰기](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] Big 4에 취업하는 방법:
+    - [ ] ['Big 4에 취업하는 방법 - Amazon, Facebook, Google & Microsoft' (영상)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 - [ ] 코딩 인터뷰 정복 Set 1:
     - [ ] [Gayle L McDowell - 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [저자와 함께하는 코딩 인터뷰 정복 (영상)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] Big 4에 취업하는 방법:
-    - [ ] ['Big 4에 취업하는 방법 - Amazon, Facebook, Google & Microsoft' (영상)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-
+- [ ] 페이스북 코딩 인터뷰 정복
+    - [ ] [접근법](https://www.youtube.com/watch?v=wCl9kvQGHPI)
+    - [ ] [문제 풀이](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - [ ] 준비 코스:
     - [ ] [소프트웨어 엔지니어 인터뷰 대공개 (유료 강좌)](https://www.udemy.com/software-engineer-interview-unleashed):
         - 전직 구글 면접관이 당신이 어떻게 소프트웨어 엔지니어 인터뷰를 준비해야 하는지 알려줍니다.
     - [ ] [자료 구조, 알고리즘 그리고 면접을 위한 파이썬! (유료 강좌)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
         - 자료 구조와 알고리즘, 모의 면접 등을 다루는 파이썬 중점 면접의 준비 강좌입니다.
-
-</details>
+    - [ ] [Intro to Data Structures and Algorithms using Python (Udacity 무료 강좌))](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
+        - 파이썬 중심적 자료구조와 알고리즘 강좌.
+    - [ ] [자료구조와 알고리즘 나노학위! (Udacity 유료 나노학위)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
+        - 100개 이상의 자료구조, 알고리즘 실습과 당신의 인터뷰, 취업을 도울 섬세한 멘토의 가이드
 
 ## 인터뷰를 위한 언어 고르기
 
@@ -275,9 +276,11 @@
 - JavaScript
 - Ruby
 
+코딩 인터뷰를 위한 언어를 선택하는 것과 관련하여 제가 쓴 글입니다: [코딩 인터뷰를 위한 언어 선택하기](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+
 당신은 당신의 언어에 매우 익숙하고 그 언어에 대해 잘 알아야 합니다.
 
-언어 선택을 도움이 될 만한 읽을 거리들
+언어 선택에 도움이 될 만한 읽을 거리들
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
@@ -298,46 +301,15 @@
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - JAVA 문제의 답변을 위해서
 
-<details>
-<summary>만일 당신이 많은 여유 시간이 있다면:</summary>
+### 만일 당신이 많은 여유 시간이 있다면:
+
+하나를 선택:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - 모든 코드가 C++로 되어있다, 만일 당신의 인터뷰에서 C++를 사용하길 고려한다면 정말 좋은 책이다.
-    - 일반적인 문제들을 해결하기 위해 좋은 책이다.
+- [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
 - [ ] Elements of Programming Interviews (Java version)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
-
-</details>
-
-### 컴퓨터 구조
-
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - 이 책은 2004년에 출판된 다소 구식의 책이지만, 간략히 컴퓨터를 이해하는 데에 훌륭한 자료입니다.
-    - 이 책의 저자는 HLA를 발명했습니다. 그래서 회의적인 시선으로 HLA에 대해 언급하고 예로 듭니다. 널리 읽히지는 않지만, 어셈블리가 어떻게 생겼는 지를 보여주는 좋은 예입니다.
-    - 이 장들은 당신에게 탄탄한 기초를 세워줄 것입니다:
-      <details>
-      <summary>......</summary>
-
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
-
-      </details>
-
-<details>
-<summary>만약에 시간적 여유가 좀 더 있다면 아래 서적을 읽어보는 것을 권유합니다.</summary>
-
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
-
-</details>
 
 ### 특정 언어 관련
 
@@ -351,22 +323,17 @@
 
 ### C++
 
-<details>
-<summary>C++</summary>
-
 나는 아래의 두 책들을 읽지 않았습니다. 하지만 Sedgewick이 높게 평가한 책들입니다. 그는 정말 대단한 사람입니다.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+- [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
+    - 자세하고 많은 자료구조와 알고리즘.
+    - 처음 시도 하는 사람에게 좋은 선택.
 
 C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적인 자료를 찾고 있습니다.
 
-</details>
-
 ### Java
-
-<details>
-<summary>Java</summary>
 
 - [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
     - videos with book content (and Sedgewick!) on coursera:
@@ -380,63 +347,14 @@ C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적�
     - UC버클리 대학의  CS입문 과정의 선택 텍스트로 사용됨
     - 아래에서 Python 버전에 대한 나의 책 보고서를 참조하십시오. 이 책은 동일한 주제를 다루고 있습니다.
 
-</details>
-
 ### Python
-
-<details>
-<summary>Python</summary>
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - by Goodrich, Tamassia, Goldwasser
     - 나는 이 책을 사랑한다. 이 책은 모든 것을 다룬다.
     - Pythonic code
     - 나의 열렬한 서적 보고서: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-
-</details>
-
-### 선택 도서
-
-**어떤 사람들은 이 책들을 추천한다. 하지만 만약 당신이 소프트웨어 엔지니어링 분야에 오랜 경험이 있고, 그로 인해 훨씬 더 어려운 인터뷰를 볼 것이라 생각하지 않는다면, 나는 이 책들을 공부하는 것이 너무 과하다고 생각한다:**
-
-<details>
-<summary>Optional Books</summary>
-
-- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - 알고리즘 카탈로그 부분은 면접에서 다루는 난이도의 범주를 훨씬 넘깁니다.
-    - 이 책은 2개의 파트가 있습니다:
-        - class textbook on data structures and algorithms
-            - 장점:
-                - is a good review as any algorithms textbook would be
-                - 산학과 연구에서 문제들을 해결한 그의 경험을 이야기하는 것이 좋음
-                - 예제 코드가 C언어
-            - 단점:
-                - CLRS처럼 너무 함축되어 있어서 헤아리기 힘들 수 있다. 그래서 어떤 주제는 CLRS를 읽는 게 더 나을 수도 있다.
-                - 7, 8, 9장은 따라가기 힘들 수 있다. 어떤 항목들은 설명이 잘 안되어있거나 더 많은 배경 지식이 필요하기 때문이다.
-                - (오해하지 마세요) 전 Skiena씨와 그 분의 교육 스타일과 매너리즘은 좋아합니다만, 스토니브룩 대학의 자료는 그렇지 않더군요.
-        - 알고리즘 카탈로그:
-            - 이게 이 책을 사는 진짜 이유
-            - about to get to this part. Will update here once I've made my way through it.
-    - 아마존 킨들에서 도서 대여 가능
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
-
-- [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **중요:** 이 책을 읽으면 특별한 가치를 얻을 수 있습니다. 이 책은 알고리즘과 자료구조를 훌륭하게 살피고 있지만, 좋은 코드를 작성하는 법을 알려주지는 않습니다. 괜찮은 솔루션을 코드로 효율적으로 옮겨적을 줄 알아야합니다.
-    - CLR 또는 CLRS로 알려져있습니다. (역: 저자들 이름의 첫글자를 따서 CLRS라고 불리지만, 초판에는 Stein이 없었습니다.)
-
-- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - 처음 두 장은 (데이터 테이프를 사용한 아주 오래된) 문제를 프로그래밍하는 기발한 솔루션을 보여줍니다. 하지만,
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
-
-- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - 좋은 책. 하지만 몇 페이지 넘기면서 문제를 해결한 후에 파스칼, do while 반복문, 1-indexed 배열, unclear post-condition satisfaction results를 보고 좌절했다.
-    - 다른 책이나 온라인 코딩 문제에 있는 코딩 문제를 보는 게 나을 것 같다.
-
-</details>
+- [ ] [Open Data Structures in Python](https://opendatastructures.org/ods-python.pdf)
 
 ## 시작하기 전에
 
@@ -451,6 +369,8 @@ C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적�
 꼭 읽고 내가 한 실수들을 반복하지 않길 바란다.
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
+
+내가 추천받은 강좌 (아직 수업을 들어보지는 않았다): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 
 ### 2. Flashcard를 사용하자.
 
@@ -476,13 +396,20 @@ C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적�
 
 Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
-### 3. 검토, 검토, 검토
+### 3. 자료구조와 알고리즘을 배우면서 코딩 인터뷰를 시작하라 
+
+문제를 풀기 위해 배웠던 무언가를 적용하는 것이 필요합니다., 그렇지 않으면 까먹을 겁니다. 내가 이 실수를 했습니다. 한 주제를 익혔다면 , 
+ 링크드 리스트와 같이 그 주제에 좀 익숙해졌다면, 코딩 인터뷰 책 한권을 펴서 링크드 리스트와 관련된 문제를 몇개 풀어보십시오. 그리고 나서 다시 돌아가 다른 링크드리스트 문제를 해결하던, 회귀 문제나 다른 것을 하십시오. 하지만 배우면서 문제를 계속해서 푸십시오. 당신은 지식 자체의 소유가 아니라 그 지식을 적용할 수 있기에 고용되는 것입니다. 
+다음은 제가 추천하는 책과 사이트들입니다.. 
+좀 더 알아보고 싶다면: [Coding Question Practice](#coding-question-practice)
+
+### 4. 검토, 검토, 검토
 
 나는 ASCII, OSI 구조, Big-O 표기법 등에 관한 일련의 치트시트를 만들어 놓고, 여유 시간이 날 때마다  공부한다.
 
 30분 동안 프로그래밍 문제를 해결하고, flashcard를 살펴보자.
 
-### 4. 집중
+### 5. 집중
 
 주의를 산만하게 만드는 많은 것이 있으며, 이것들은 우리의 귀중한 시간을 뺏어간다. 주의를 집중하는 것은 힘든 일이다.
 
@@ -517,18 +444,15 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 모든 주제에 대한 모든 것을 할 수 없지만 나는 노력했다.
 
 나의 코드를 여기서 확인하세요:
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
 당신은 모든 알고리즘에 대해서 기억할 필요는 없다.
 
 컴퓨터에 코딩하지 말고 와이트보드나 종이에 적어보아라. 인풋 값으로 샘플 테스트를 해 보아라. 그리고 컴퓨터로 테스트해 보아라.
 
 ## 먼저 알아야 할 지식
-
-<details>
-<summary>Prerequisite Knowledge</summary>
 
 - [ ] **C언어 배우기**
     - C 는 어디에나 있다. 당신은 책이나 강의, 비디오 등 공부하는 동안 모든 곳에서 예제를 볼 것이다.
@@ -543,14 +467,11 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [중앙처리장치(CPU) (영상)](https://youtu.be/FZGugFqdr60)
     - [ ] [명렁어와 프로그램 (영상)](https://youtu.be/zltgXvg6r3k)
 
-</details>
-
 ## 알고리즘 복잡도 / Big-O / 점근적 분석
 
-<details>
-<summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
-
 - 구현할 것은 없다.
+- 여기에는 다양한 영상들이 있다. 이해할 때까지 충분히 보고 언제든지 다시 돌아와서 복습할 수 있다.
+- 일부 강의가 너무 수학적이라면, 아래로 가서 이산 수학에 대한 동영상을 보며 배경 지식을 쌓아보세요.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -569,15 +490,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
-
-    일부 강의가 너무 수학적이라면, 아래로 가서 이산 수학에 대한 동영상을 보며 배경 지식을 쌓아보세요.
-
-</details>
-
 ## 자료구조
-
-<details>
-<summary>Data Structures</summary>
 
 - ### 배열
     - 자동 리사이징 벡터 구현하기
@@ -704,12 +617,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - get(key)
         - remove(key)
 
-</details>
-
 ## 추가 지식
-
-<details>
-<summary>More Knowledge</summary>
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -731,27 +639,21 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
+        - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
     - [ ] 2의 보수와 1의 보수
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1의 보수](https://ko.wikipedia.org/wiki/1의_보수)
         - [2의 보수](https://ko.wikipedia.org/wiki/2의_보수)
-    - [ ] count set bits
+    - [ ] Count set bits
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] round to next power of 2:
-        - [Round Up To Next Power Of Two](https://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
+    - [ ] Swap values:
         - [Swap](https://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
+    - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-</details>
-
 ## 트리
-
-<details>
-<summary>Trees</summary>
 
 - ### Trees - Notes & Background
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
@@ -834,12 +736,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - [ ] heap_sort() - 정렬되지 않은 배열을 받아서 정렬된 배열로 만든다. 추가 메모리 없이 제자리에서 max-heap을 사용한다.
             - 노트: min-heap을 사용하면 연산을 줄일 수 있지만, 공간이 두 배로 필요합니다. (제자리에서 못 하기 때문에)
 
-</details>
-
 ## 정렬
-
-<details>
-<summary>Sorting</summary>
 
 - [ ] Notes:
     - 정렬들 구현 & 각 정렬의 최적의 경우/최악의 경우, 평균적인 복잡도를 알기:
@@ -914,20 +811,16 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 개략적으로 보자면, 여기에 시각적으로 나타낸 [15가지 정렬 알고리즘들](https://www.youtube.com/watch?v=kPRA0W1kECg)을 보세요.
 이 주제에 대해서 더 자세히 알고 싶다면, [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)에서 "정렬" 섹션를 보세요.
 
-</details>
-
 ## 그래프
-
-<details>
-<summary>Graphs</summary>
 
 그래프는 컴퓨터 과학의 여러 문제들을 표현하는 데 사용할 수 있다. 때문에 이 섹션은 트리나 정렬 섹션처럼 길다.
 
 - 노트:
-    - 메모리에 그래프를 표시하는 세 가지 기본 방법이 있다:
+    - 메모리에 그래프를 표시하는 네 가지 기본 방법이 있다:
         - 오브젝트와 포인터
         - 행렬
         - 인접 리스트
+        - 인접 맵
     - 각각의 표현과 장단점을 숙지하라.
     - 넓이 우선 탐색(BFS)와 깊이 우선 탐색(DFS) - 계산상의 복잡성, 장단점, 실제 코드로 구현하는 방법을 알아야 한다.
     - 질문을 받을 시 먼저 그래프 기반 솔루션을 찾고, 없을 경우에 다른 솔루션으로 넘어가라.
@@ -980,12 +873,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그래프 실습을 할 수 있습니다.
 
-</details>
-
 ## Even More Knowledge
-
-<details>
-<summary>더 많은 지식</summary>
 
 - ### Recursion
     - [ ] 재귀와 백트래킹에 대한 스탠포드 대학 강의:
@@ -1000,6 +888,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
 
 - ### Dynamic Programming
+    - 인터뷰에서 DP 문제를 접하지 않을 수도 있습니다. 하지만 알고 있는게 미뤄두는 것 보다 낫습니다.
     - 이 주제는 아주 어렵습니다. DP로 풀리는 각 문제마다 어떤 점화식을 정의해야 하는데 그게 까다롭습니다.
     - 얽혀있는 패턴들을 확실히 이해할 때까지, 많은 DP 예시 문제들을 찾아보기를 권합니다.
     - [ ] Videos:
@@ -1026,24 +915,8 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] 객체 지향 소프트웨어 공학: UML과 JAVA를 사용한 소프트웨어 개발 (21개의 영상):
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] SOLID OOP Principles:
-        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [더 알아보기](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
-            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
-            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [더 알아보기](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - ### Design patterns
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
@@ -1136,7 +1009,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - Modern concurrency constructs with multicore processors
         - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-        - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
         - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
         - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
@@ -1152,38 +1024,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ### Papers
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
-    - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
-    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
-    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
-        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
-    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
-    - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
-        - The Dynamo paper kicked off the NoSQL revolution
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
-    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
-    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
-    - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
-    - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
-
 - ### 테스트
     - 알아 두어야 할 것:
         - 유닛 테스트는 어떻게 작동하는지
@@ -1194,10 +1034,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [소프트웨어 테스트에 대한 James Bach의 무료 강의 (비디오)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
     - [ ] [Steve Freeman - Test-Driven 개발 (이것은 우리가 의미하는 것은 아니다) (비디오)](https://vimeo.com/83960706)
         - [참고자료](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD는 끝났다. 오래 사는 테스팅.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [TDD는 정말 끝났는가? (비디오)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [비디오 시리즈 (152 개) - 다 볼 필요 없음 (비디오)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [파이턴과 함께하는 Test-Driven 웹 개발](http://www.obeythetestinggoat.com/pages/book.html#toc)
     - [ ] 의존성 주입:
         - [ ] [비디오](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
@@ -1206,10 +1042,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - ### Scheduling
     - 운영체제(OS)에서 어떻게 동작하는지
     - 운영 체제 관련 영상들에서 알아보실 수 있습니다.
-
-- ### Implement system routines
-    - 당신이 사용하는 프로그래밍 API들이 어떤 이점을 가져오는지 이해하기
-    - 그리고 그것들을 구현할 수 있는가?
 
 - ### String searching & manipulations
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
@@ -1272,12 +1104,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-</details>
-
 ## 시스템 디자인, 확장성, 데이터 핸들링
-
-<details>
-<summary>System Design, Scalability, Data Handling</summary>
 
 - **4년 이상의 경력자라면 이런 시스템 디자인 질문들을 받을 수 있다.**
 - Scalability and System Design are very large topics with many topics and resources, since
@@ -1308,10 +1135,11 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
 - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
 - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-- [ ] Paxos Consensus algorithm:
-    - [short video](https://www.youtube.com/watch?v=s8JqcZtvnsM)
-    - [extended video with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
-    - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+- [ ] Consensus Algorithms:
+    - [ ] Paxos - [Paxos Agreement - Computerphile (video)](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+    - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)
+        - [ ] [Easy-to-read paper](https://raft.github.io/)
+        - [ ] [Infographic](http://thesecretlivesofdata.com/raft/)
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Scalability:
@@ -1345,7 +1173,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
     - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
     - [ ] [Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
-    - [ ] [Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
     - [ ] [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
     - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
     - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
@@ -1354,7 +1181,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
     - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
     - [ ] [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
-    - [ ] [Does AMP Counter An Existential Threat To Google?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
     - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
     - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
     - [ ] [Serverless (very long, just need the gist)](http://martinfowler.com/articles/serverless.html)
@@ -1404,14 +1230,9 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
-</details>
-
 ---
 
 ## 최종 검토
-
-<details>
-<summary>Final Review</summary>
 
     이 섹션에는 중요한 개념들을 빠르게 검토할 수 있는 짧은 영상들이 포함되어 있다.
     복습을 하고자 한다면, 이 영상들이 도움이 될 것이다.
@@ -1423,14 +1244,9 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
-</details>
-
 ---
 
 ## 코딩 문제 연습
-
-<details>
-<summary>Coding Question Practice</summary>
 
 이제 당신은 위의 컴퓨터 과학 주제들을 모두 알고 있으므로, 코딩 문제에 답하는 것을 연습할 차례이다.
 
@@ -1450,7 +1266,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 소파에 앉아서 연습할 수 있다. 이 것은 내 "소파 화이트보드"이다.
 크기 비교를 위해 사진에 펜을 추가하였다. 펜을 쓰면, 곧 지우고 싶어질 것이다. 금방 지저분해 진다.
 
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![my sofa whiteboard](https://camo.githubusercontent.com/880d361d19c21cf62d49846283c2742890b53905/68747470733a2f2f64336a32706b6d6a74696e366f752e636c6f756466726f6e742e6e65742f6172745f626f6172645f736d5f322e6a7067)
 
 보충:
 
@@ -1468,12 +1284,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
 [위의 도서 목록](#도서-목록)을 보세요.
 
-</details>
-
 ## 코딩 연습/도전
-
-<details>
-<summary>Coding Question Practice</summary>
 
 공부하는 게 머리에 잘 안 들어올 때, 한번 해보세요.
 가능한 한 매일 코딩 챌린지를 하는겁니다.
@@ -1484,18 +1295,28 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 코딩 인터뷰 질문들 영상:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Good explanations of solution and the code.
+    - You can watch several in a short time.
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
 Challenge sites:
 - [LeetCode](https://leetcode.com/)
-- [TopCoder](https://www.topcoder.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
-- [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/)
+    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
+    - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode) 
+    - See Nick White Videos above for short code-throughs
 - [HackerRank](https://www.hackerrank.com/)
-- [Codility](https://codility.com/programmers/)
+- [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
+- [Code Exercises](https://code-exercises.com)
+
+Language-learning sites, with challenges:
+- [Codewars](http://www.codewars.com)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 
@@ -1506,8 +1327,7 @@ Challenge repos:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
-
-</details>
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously. 
 
 ## 인터뷰가 얼마 남지 않았을 때
 
@@ -1551,6 +1371,7 @@ Challenge repos:
 - 지금은 어떤 일을 하고 계신가요?
 - What do you like about it?
 - 어떤 Work life를 생각하시나요?
+- 워라밸은 어떤게 좋나요?
 
 ## 취직했다면
 
@@ -1576,8 +1397,7 @@ Challenge repos:
 
 ## Additional Books
 
-<details>
-<summary>Additional Books</summary>
+    아래는 당신이 흥미로워하는 주제에 대해 공부할 수 있는 자료들입니다.
 
 - [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - an oldie but a goodie
@@ -1590,16 +1410,55 @@ Challenge repos:
     - aka the "Gang Of Four" book, or GOF
     - the canonical design patterns book
 - [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
+- [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+    - As a review and problem recognition
+    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
+    - This book has 2 parts:
+        - class textbook on data structures and algorithms
+            - pros:
+                - is a good review as any algorithms textbook would be
+                - nice stories from his experiences solving problems in industry and academia
+                - code examples in C
+            - cons:
+                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
+                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
+                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
+        - algorithm catalog:
+            - this is the real reason you buy this book.
+            - about to get to this part. Will update here once I've made my way through it.
+    - Can rent it on kindle
+    - Answers:
+        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+- [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
+    - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
+    - These chapters are worth the read to give you a nice foundation:
+        - Chapter 2 - Numeric Representation
+        - Chapter 3 - Binary Arithmetic and Bit Operations
+        - Chapter 4 - Floating-Point Representation
+        - Chapter 5 - Character Representation
+        - Chapter 6 - Memory Organization and Access
+        - Chapter 7 - Composite Data Types and Memory Objects
+        - Chapter 9 - CPU Architecture
+        - Chapter 10 - Instruction Set Architecture
+        - Chapter 11 - Memory Architecture and Organization
+- [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
+    - aka CLR, sometimes CLRS, because Stein was late to the game
 
-</details>
+- [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
+    - For a richer, more up-to-date (2017), but longer treatment
+
+- [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
+      that is just an intro. This a guidebook on program design and architecture.
 
 ## Additional Learning
 
-<details>
-<summary>Additional Learning</summary>
 
-These topics will likely not come up in an interview, but I added them to help you become a well-rounded
-software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
+    두루 갖춘 소프트웨어 엔지니어가 되는데 도움이 될만한 것들을 추가했습니다. 이를 통해 더 큰 도구들을 다루실 수 있게 되실 겁니다.
 
 - ### Compilers
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1630,116 +1489,115 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 - ### Unix command line tools
     - I filled in the list below from good tools.
-    - [ ] bash
-    - [ ] cat
-    - [ ] grep
-    - [ ] sed
-    - [ ] awk
-    - [ ] curl or wget
-    - [ ] sort
-    - [ ] tr
-    - [ ] uniq
-    - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
-    - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
+    - bash
+    - cat
+    - grep
+    - sed
+    - awk
+    - curl or wget
+    - sort
+    - tr
+    - uniq
+    - [strace](https://en.wikipedia.org/wiki/Strace)
+    - [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
 - ### Information theory (videos)
-    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - [ ] more about Markov processes:
-        - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+    - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
+    - More about Markov processes:
+        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - See more in MIT 6.050J Information and Entropy series below.
 
 - ### Parity & Hamming Code (videos)
-    - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
-    - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-    - [ ] Hamming Code:
+    - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - Hamming Code:
         - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
-    - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+    - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### Entropy
     - also see videos below
     - make sure to watch information theory videos first
-    - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
+    - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 - ### Cryptography
     - also see videos below
     - make sure to watch information theory videos first
-    - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
-    - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
-    - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
+    - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+    - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
 - ### Compression
     - make sure to watch information theory videos first
-    - [ ] Computerphile (videos):
-        - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
-        - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
-        - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
-        - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
-        - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
-        - [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
-    - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
-    - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
+    - Computerphile (videos):
+        - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
+        - [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
+        - [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
+        - [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+    - [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
 - ### Computer Security
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
-        - [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
-        - [ ] [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
-        - [ ] [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+        - [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+        - [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
+        - [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
-    - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
-    - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+    - [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    - [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
+    - [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### Parallel Programming
-    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+    - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### Messaging, Serialization, and Queueing Systems
-    - [ ] [Thrift](https://thrift.apache.org/)
+    - [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
-    - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
+    - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
         - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
-    - [ ] [gRPC](http://www.grpc.io/)
+    - [gRPC](http://www.grpc.io/)
         - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
-    - [ ] [Redis](http://redis.io/)
+    - [Redis](http://redis.io/)
         - [Tutorial](http://try.redis.io/)
-    - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
-    - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
-    - [ ] [RabbitMQ](https://www.rabbitmq.com/)
+    - [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+    - [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
+    - [RabbitMQ](https://www.rabbitmq.com/)
         - [Get Started](https://www.rabbitmq.com/getstarted.html)
-    - [ ] [Celery](http://www.celeryproject.org/)
+    - [Celery](http://www.celeryproject.org/)
         - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
-    - [ ] [ZeroMQ](http://zeromq.org/)
+    - [ZeroMQ](http://zeromq.org/)
         - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
-    - [ ] [ActiveMQ](http://activemq.apache.org/)
-    - [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
-    - [ ] [MessagePack](http://msgpack.org/index.html)
-    - [ ] [Avro](https://avro.apache.org/)
+    - [ActiveMQ](http://activemq.apache.org/)
+    - [Kafka](http://kafka.apache.org/documentation.html#introduction)
+    - [MessagePack](http://msgpack.org/index.html)
+    - [Avro](https://avro.apache.org/)
 
 - ### A*
-    - [ ] [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-    - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
-    - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+    - [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
+    - [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
+    - [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
 - ### Fast Fourier Transform
-    - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
-    - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
-    - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+    - [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    - [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
     - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
@@ -1757,11 +1615,11 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
-    - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-    - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+    - [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    - [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
 - ### Augmented Data Structures
-    - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
+    - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
     - Know at least one type of balanced binary tree (and know how it's implemented):
@@ -1775,31 +1633,31 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         If you end up implementing red/black tree try just these:
         - search and insertion functions, skipping delete
     - I want to learn more about B-Tree since it's used so widely with very large data sets.
-    - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+    - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
-    - [ ] **AVL trees**
+    - **AVL trees**
         - In practice:
             From what I can tell, these aren't used much in practice, but I could see where they would be:
             The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
             balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
-        - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
 
-    - [ ] **Splay trees**
+    - **Splay trees**
         - In practice:
             Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
             data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
             networking and file system code) etc.
-        - [ ] [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
-        - [ ] MIT Lecture: Splay Trees:
+        - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
+        - MIT Lecture: Splay Trees:
             - Gets very mathy, but watch the last 10 minutes for sure.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
-    - [ ] **Red/black trees**
+    - **Red/black trees**
         - these are a translation of a 2-3 tree (see below)
         - In practice:
             Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
@@ -1809,47 +1667,47 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
             the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
             the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
             hashcodes, a Red-Black tree is used.
-        - [ ] [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
-        - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
-        - [ ] [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+        - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
+        - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
-    - [ ] **2-3 search trees**
+    - **2-3 search trees**
         - In practice:
             2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
         - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
-        - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
-        - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+        - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+        - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-    - [ ] **2-3-4 Trees (aka 2-4 trees)**
+    - **2-3-4 Trees (aka 2-4 trees)**
         - In practice:
             For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
             operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
             important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
             2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
-        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
-        - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+        - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
+        - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
-    - [ ] **N-ary (K-ary, M-ary) trees**
+    - **N-ary (K-ary, M-ary) trees**
         - note: the N or K is the branching factor (max branches)
         - binary trees are a 2-ary tree, with branching factor = 2
         - 2-3 trees are 3-ary
-        - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+        - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
-    - [ ] **B-Trees**
+    - **B-Trees**
         - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
         - In Practice:
             B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
             its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
             block in a particular file. The basic problem is turning the file block i address into a disk block
             (or perhaps to a cylinder-head-sector) address.
-        - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
-        - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
-        - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+        - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
+        - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+        - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
 
@@ -1857,57 +1715,57 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 - ### k-D Trees
     - great for finding number of points in a rectangle or higher dimension object
     - a good fit for k-nearest neighbors
-    - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
-    - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+    - [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
+    - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
 - ### Skip lists
     - "These are somewhat of a cult data structure" - Skiena
-    - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
+    - [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
 - ### Network Flows
-    - [ ] [Ford-Fulkerson in 5 minutes — Step by step example (video)](https://www.youtube.com/watch?v=Tl90tNtKvxs)
-    - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+    - [Ford-Fulkerson in 5 minutes — Step by step example (video)](https://www.youtube.com/watch?v=Tl90tNtKvxs)
+    - [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
 - ### Disjoint Sets & Union Find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
+    - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
+    - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
 - ### Math for Fast Processing
-    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+    - [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
 - ### Treap
     - Combination of a binary search tree and a heap
-    - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
-    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
-    - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
+    - [Treap](https://en.wikipedia.org/wiki/Treap)
+    - [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
 - ### Linear Programming (videos)
-    - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
-    - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
-    - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
-    - [ ] [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
+    - [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
+    - [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
+    - [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
+    - [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
 - ### Geometry, Convex hull (videos)
-    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
-    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+    - [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
+    - [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Discrete math
     - 아래에 있는 영상을 확인하세요.
 
 - ### Machine Learning
-    - [ ] Why ML?
-        - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
-        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
-        - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
-    - [ ] [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
-    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
-    - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
-    - [ ] [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - Why ML?
+        - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
+        - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
+        - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
+    - [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+    - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+    - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
     - Courses:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
@@ -1925,163 +1783,198 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
         - Data School: http://www.dataschool.io/
 
-</details>
-
 ---
 
 ## 몇몇 주제에 대한 세부사항
-
-<details>
-<summary>Additional Detail on Some Subjects</summary>
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
     You want to get hired in this century, right?
 
-- [ ] **Union-Find**
-    - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [ ] [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [ ] [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+- **SOLID**   
+    - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+    - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+        - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+    - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension but not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+    - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+    - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
+        - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+    - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
+        - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
-- [ ] **More Dynamic Programming** (videos)
-    - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
-    - [ ] [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
-    - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
-    - [ ] [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
-    - [ ] [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] **Advanced Graph Processing** (videos)
-    - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
-    - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
+- **Union-Find**
+    - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
+    - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
+    - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
+    - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
+    - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
+    - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- [ ] MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
-    - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Variables](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
-    - [ ] [MIT 6.042J - Expectation I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Expectation II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
+- **More Dynamic Programming** (videos)
+    - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
+    - [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+    - [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+    - [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
+    - [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+- **Advanced Graph Processing** (videos)
+    - [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
+    - [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] **문자열 매칭
-    - [ ] 라빈-카프(Rabin-Karp) (동영상):
+- MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
+    - [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Random Variables](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
+    - [MIT 6.042J - Expectation I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Expectation II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
+
+- [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+
+- **문자열 매칭
+    - 라빈-카프(Rabin-Karp) (동영상):
         - [라빈 카프 알고리즘](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
         - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
         - [최적화: 구현과 분석](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
-    - [ ] Knuth-Morris-Pratt (KMP):
+    - Knuth-Morris-Pratt (KMP):
         - [The Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
-    - [ ] 보이어-무어(Boyer–Moore) 문자열 검색 알고리즘
+    - 보이어-무어(Boyer–Moore) 문자열 검색 알고리즘
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
-    - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
+    - [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
         - starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
         - 트라이(tries)에 대해서 잘 설명하고 있다.
         - 이건 생략 가능
 
-- [ ] **정렬**
+- **정렬**
 
-    - [ ] 스탠포드 대학의 정렬 강의들:
-        - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
-    - [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):
-        - [ ] [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
-        - [ ] [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
-    - [ ] Steven Skiena lectures on sorting:
-        - [ ] [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
-        - [ ] [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
-
-</details>
+    - 스탠포드 대학의 정렬 강의들:
+        - [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
+        - [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
+    - Shai Simonson, [Aduni.org](http://www.aduni.org/):
+        - [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
+        - [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+    - Steven Skiena lectures on sorting:
+        - [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+        - [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
 ## Video Series
 
 편하게 보세요. "Netflix and skill"이라니까요 :P
 
-<details>
-<summary>비디오 시리즈</summary>
+- [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
-- [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+- [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
 
-- [ ] [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
+- [MIT 18.06 Linear Algebra, Spring 2005 (35 videos)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
 
-- [ ] [MIT 18.06 Linear Algebra, Spring 2005 (35 videos)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+- [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
+- [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
+- [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
-- [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
-
-- [ ] CSE373 - Analysis of Algorithms (25 videos)
+- CSE373 - Analysis of Algorithms (25 videos)
     - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
-- [ ] [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+- [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
 
-- [ ] [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://archive.org/details/ucberkeley-webcast-PL4BBB74C7D2A1049C)
+- [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://archive.org/details/ucberkeley-webcast-PL4BBB74C7D2A1049C)
 
-- [ ] [UC Berkeley 61C: Machine Structures (26 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
+- [UC Berkeley 61C: Machine Structures (26 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
 
-- [ ] [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+- [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 
-- [ ] ~~[UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)~~
+- ~~[UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)~~
 
-- [ ] [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- [ ] [Carnegie Mellon - Computer Architecture Lectures (39 videos)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
+- [Carnegie Mellon - Computer Architecture Lectures (39 videos)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
 
-- [ ] [MIT 6.006: Intro to Algorithms (47 videos)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
+- [MIT 6.006: Intro to Algorithms (47 videos)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
 
-- [ ] [MIT 6.033: Computer System Engineering (22 videos)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
+- [MIT 6.033: Computer System Engineering (22 videos)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
 
-- [ ] [MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
+- [MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
 
-- [ ] [MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
+- [MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
 
-- [ ] [MIT 6.046: Design and Analysis of Algorithms (34 videos)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [MIT 6.046: Design and Analysis of Algorithms (34 videos)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- [ ] [MIT 6.050J: Information and Entropy, Spring 2008 (19 videos)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
+- [MIT 6.050J: Information and Entropy, Spring 2008 (19 videos)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
 
-- [ ] [MIT 6.851: Advanced Data Structures (22 videos)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+- [MIT 6.851: Advanced Data Structures (22 videos)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 
-- [ ] [MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+- [MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
-- [ ] [Harvard COMPSCI 224: Advanced Algorithms (25 videos)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+- [Harvard COMPSCI 224: Advanced Algorithms (25 videos)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
 
-- [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
 
-- [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
+- [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
 
-- [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
+- [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
 
-- [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
-
-</details>
+- [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
 ## 컴퓨터 과학 강의들
-
-<details>
-<summary>Computer Science Courses</summary>
 
 - [컴퓨터 과학 온라인 강의들](https://github.com/open-source-society/computer-science)
 - [(많은 온라인 강의가 있는) 컴퓨터 과학 강의들](https://github.com/prakhar1989/awesome-courses)
 
-</details>
+## Computer Science Courses
+
+- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
+- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
+
+## Papers
+- [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
+- [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+    - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
+- [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+    - replaced by Colossus in 2012
+- [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+    - mostly replaced by Cloud Dataflow?
+- [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+    - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
+- [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
+- [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+    - The Dynamo paper kicked off the NoSQL revolution
+- [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+- [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
+- [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
+- [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
+    - paper not available
+- 2012: AddressSanitizer: A Fast Address Sanity Checker:
+    - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+    - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+- 2013: Spanner: Google’s Globally-Distributed Database:
+    - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+    - [video](https://www.usenix.org/node/170855)
+- [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+- [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
+- [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+- [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+- [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+- [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
 ## 라이센스
 

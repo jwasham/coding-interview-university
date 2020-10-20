@@ -195,7 +195,7 @@
     - [ ] [电话面试的问题](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] 附加的（虽然 Google 不建议，但我还是添加在此）：
-    - [ ] [ABC：永远都要去编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [ABC：不要停止编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
     - [ ] [四步成为 Google 里一名没有学位的员工](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [共享白板（Whiteboarding）](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
     - [ ] [Google 是如何看待应聘、管理和公司文化](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
@@ -307,7 +307,7 @@
 ## 必备知识
 
 - [ ] **计算机是如何处理一段程序：**
-    - [ ] [CPU 是如何执行代码（视频）](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [CPU 是如何执行代码（视频）](https://www.youtube.com/watch?v=XM4lGflQFvA)
     - [ ] [机器码指令（视频）](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
 - [ ] **编译器**
@@ -871,7 +871,7 @@
 - ### 进程（Processe）和线程（Thread）
     - [ ] 计算机科学 162 - 操作系统 (25 个视频):
         - 视频 1-11 是关于进程和线程
-        - [操作系统和系统编程 (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+        - [操作系统和系统编程 (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [进程和线程的区别是什么?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - 涵盖了:
         - 进程、线程、协程

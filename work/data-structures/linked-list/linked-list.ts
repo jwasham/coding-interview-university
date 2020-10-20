@@ -63,7 +63,7 @@ class LinkedList {
    *
    * @returns {number}
    */
-  get size(): Number {
+  get size(): number {
     return this.#size;
   }
 
@@ -104,7 +104,15 @@ class LinkedList {
    * @param {any} value
    */
   pushFront = (value) => {
-    // TODO
+    const newNode = new LinkedNode(value);
+    
+    if(!this.#tail) {
+      this.#tail = newNode;
+    }
+    
+    newNode.next = this.#head;
+    this.#head = newNode;
+    this.#size += 1;
   };
 
   /**
@@ -112,8 +120,23 @@ class LinkedList {
    *
    * @returns {any} - Removed item's value.
    */
-  popFront = () => {
-    // TODO
+  popFront = () : any => {
+    if(!this.empty) {
+      const removedNode = this.#head;
+
+      if(this.#size === 1) {
+        this.#head = null;
+        this.#tail = null;
+      } else {
+        this.#head = removedNode.next;
+      }
+
+      this.#size -= 1;
+
+      return removedNode.data;
+    }
+
+    return null;
   };
 
   /**
@@ -142,24 +165,54 @@ class LinkedList {
    *
    * @returns {any} - Removed value.
    */
-  popBack = () => {
-    // TODO
+  popBack = () : any => {
+    if(!this.empty) {
+      const removedNode = this.#tail;
+
+      if(this.#size === 1) {
+        this.#head = null;
+        this.#tail = null;
+      } else {
+        let nextNode = this.#head;
+        let prevNode = null;
+
+        // Find previous node
+        while (nextNode) {
+          if(nextNode.next && !nextNode.next.next) {
+            prevNode = nextNode;
+          }
+
+          nextNode = nextNode.next;
+        }
+
+        // Remove the node reference
+        prevNode.next = null;
+
+        // Update tail to last node
+        this.#tail = prevNode;
+      }
+
+      this.#size -= 1;
+      return removedNode.data;
+    }
+
+    return null;
   };
 
   /**
    * Get the first value on the list.
    * @returns {any}
    */
-  front = () => {
-    // TODO
+  front = () : any => {
+    return this.#head ? this.#head.data : null;
   };
 
   /**
    * Get the last value on the list.
    * @returns {any}
    */
-  back = () => {
-    // TODO
+  back = () : any => {
+    return this.#tail ? this.#tail.data : null;
   };
 
   /**

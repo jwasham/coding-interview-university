@@ -111,7 +111,7 @@ describe("Linked list", () => {
     it("should add node to the front when empty", () => {
       const list = new LinkedList();
       list.pushFront(1);
-      expect(list.front()).toBe(1);
+      expect(list.valueAt(0)).toBe(1);
     });
 
     it("should add node to the front when more nodes exist on the list", () => {
@@ -119,7 +119,7 @@ describe("Linked list", () => {
       list.pushFront(1);
       list.pushFront(2);
       list.pushFront(3);
-      expect(list.front()).toBe(3);
+      expect(list.valueAt(0)).toBe(3);
     });
 
     it("should shift values to the right", () => {
@@ -168,6 +168,24 @@ describe("Linked list", () => {
       expect(list.head.data).toBe(2);
     });
 
+    it("should remove item at front", () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+
+      list.popFront();
+      expect(list.valueAt(0)).toBe(2);
+
+      list.popFront();
+      expect(list.valueAt(0)).toBe(3);
+
+      list.popFront();
+      expect(list.valueAt(0)).toBeNull();
+    });
+
+
     it("should return removed node value", () => {
       const list = new LinkedList();
       list.pushBack(1);
@@ -183,6 +201,7 @@ describe("Linked list", () => {
 
       expect(list.size).toBe(3);
 
+      list.popFront();
       list.popFront();
       list.popFront();
       list.popFront();
@@ -251,6 +270,8 @@ describe("Linked list", () => {
       expect(list.tail.data).toBe(2);
       list.popBack();
       expect(list.tail.data).toBe(1);
+      list.popBack();
+      expect(list.tail).toBeNull();
     });
 
     it("should return removed value", () => {

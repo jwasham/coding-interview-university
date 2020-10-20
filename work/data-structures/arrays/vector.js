@@ -191,7 +191,6 @@ class Vector {
    * @param {number} size - new size of the vector.
    */
   #resize = (size) => {
-    debugger;
     // Increase capacity
     if (size > this.capacity) {
       for (let index = this.capacity; index < size; index++) {

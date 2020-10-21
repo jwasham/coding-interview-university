@@ -105,11 +105,11 @@ class LinkedList {
    */
   pushFront = (value) => {
     const newNode = new LinkedNode(value);
-    
-    if(!this.#tail) {
+
+    if (!this.#tail) {
       this.#tail = newNode;
     }
-    
+
     newNode.next = this.#head;
     this.#head = newNode;
     this.#size += 1;
@@ -120,11 +120,11 @@ class LinkedList {
    *
    * @returns {any} - Removed item's value.
    */
-  popFront = () : any => {
-    if(!this.empty) {
+  popFront = (): any => {
+    if (!this.empty) {
       const removedNode = this.#head;
 
-      if(this.#size === 1) {
+      if (this.#size === 1) {
         this.#head = null;
         this.#tail = null;
       } else {
@@ -165,11 +165,11 @@ class LinkedList {
    *
    * @returns {any} - Removed value.
    */
-  popBack = () : any => {
-    if(!this.empty) {
+  popBack = (): any => {
+    if (!this.empty) {
       const removedNode = this.#tail;
 
-      if(this.#size === 1) {
+      if (this.#size === 1) {
         this.#head = null;
         this.#tail = null;
       } else {
@@ -178,7 +178,7 @@ class LinkedList {
 
         // Find previous node
         while (nextNode) {
-          if(nextNode.next && !nextNode.next.next) {
+          if (nextNode.next && !nextNode.next.next) {
             prevNode = nextNode;
           }
 
@@ -203,7 +203,7 @@ class LinkedList {
    * Get the first value on the list.
    * @returns {any}
    */
-  front = () : any => {
+  front = (): any => {
     return this.#head ? this.#head.data : null;
   };
 
@@ -211,7 +211,7 @@ class LinkedList {
    * Get the last value on the list.
    * @returns {any}
    */
-  back = () : any => {
+  back = (): any => {
     return this.#tail ? this.#tail.data : null;
   };
 
@@ -222,7 +222,42 @@ class LinkedList {
    * @param {number} index
    */
   insert = (value, index) => {
-    // TODO
+    if (index < 0 || index > this.size) {
+      throw new Error("Index out of boundaries");
+    }
+
+    const newNode = new LinkedNode(value);
+
+    if (this.empty) {
+      this.#head = newNode;
+    } else {
+      let node = this.head;
+      let prevNode = null;
+
+      if (index === 0) {
+        newNode.next = node;
+        this.#head = newNode;
+      }
+      else {
+        for (let i = 0; i < this.size; i++) {
+          if (i === index) {
+            newNode.next = node;
+            prevNode.next = newNode;
+            break;
+          }
+
+          prevNode = node;
+          node = node.next || node;
+        }
+
+        if(index === this.size) {
+          this.#tail = newNode;
+          node.next = newNode;
+        }
+      }
+    }
+
+    this.#size += 1;
   };
 
   /**

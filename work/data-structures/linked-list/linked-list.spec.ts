@@ -361,11 +361,15 @@ describe("Linked list", () => {
       list.pushBack(1);
       list.pushBack(2);
       list.pushBack(3);
-      list.insert(4, 0);
-      expect(list.valueAt(0)).toBe(4);
-      expect(list.valueAt(1)).toBe(1);
-      expect(list.valueAt(2)).toBe(2);
+      list.pushBack(4);
+      list.pushBack(5);
+      list.insert(6, 2);
+      expect(list.valueAt(0)).toBe(1);
+      expect(list.valueAt(1)).toBe(2);
+      expect(list.valueAt(2)).toBe(6);
       expect(list.valueAt(3)).toBe(3);
+      expect(list.valueAt(4)).toBe(4);
+      expect(list.valueAt(5)).toBe(5);
     });
 
     it("should increase size", () => {

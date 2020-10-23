@@ -237,8 +237,7 @@ class LinkedList {
       if (index === 0) {
         newNode.next = node;
         this.#head = newNode;
-      }
-      else {
+      } else {
         for (let i = 0; i < this.size; i++) {
           if (i === index) {
             newNode.next = node;
@@ -250,7 +249,7 @@ class LinkedList {
           node = node.next || node;
         }
 
-        if(index === this.size) {
+        if (index === this.size) {
           this.#tail = newNode;
           node.next = newNode;
         }
@@ -266,7 +265,36 @@ class LinkedList {
    * @param {number} index
    */
   erase = (index) => {
-    // TODO
+    if (index < 0 || index > this.size) {
+      throw new Error("Index out of boundaries");
+    }
+
+    if (!this.head) {
+      return;
+    }
+
+    if(index === 0) {
+      this.#head = this.head.next;
+      this.#tail = this.size === 1 ? this.#head : this.#tail;
+    } else {
+      let node = this.head;
+      let prevNode = null;
+  
+      for (let i = 0; i < index; i++) {
+        if (node.next) {
+          prevNode = node;
+          node = node.next;
+        }
+      }
+  
+      if(prevNode) {
+        prevNode.next = node ? node.next : null;
+      }
+
+      this.#tail = index+1 === this.size ? prevNode : this.tail;
+    }
+
+    this.#size -= 1;
   };
 
   /**
@@ -283,7 +311,12 @@ class LinkedList {
    *
    */
   reverse = () => {
-    // TODO
+    if(this.size > 1) {
+      for (let index = 0; index < this.size; index++) {
+
+        
+      }
+    }
   };
 
   /**

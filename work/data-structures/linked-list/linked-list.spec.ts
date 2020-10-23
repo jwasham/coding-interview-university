@@ -408,36 +408,38 @@ describe("Linked list", () => {
     it('should remove value at given index', () => {
       const list = new LinkedList();
 
-      list.insert(1, 0);
-      expect(list.valueAt(0)).toBe(0);      
-      list.erase(0);
-      expect(list.valueAt(0)).toBeNull();      
+      list.insert(0, 0);
+      list.insert(1, 1);
+      list.insert(2, 2);
+      expect(list.valueAt(1)).toBe(1);      
+      list.erase(1);
+      expect(list.valueAt(1)).toBe(2);      
     })
 
     it('should set header when first value was erased', () => {
       const list = new LinkedList();
 
-      list.insert(1, 0);
-      list.insert(2, 1);
+      list.insert(0, 0);
+      list.insert(1, 1);
 
-      expect(list.head.data).toBe(1);      
+      expect(list.head.data).toBe(0);      
       list.erase(0);
-      expect(list.head.data).toBe(2);  
+      expect(list.head.data).toBe(1);  
       list.erase(0);
-      expect(list.head.data).toBeNull();  
+      expect(list.head).toBeNull();  
     })
 
     it('should set tail when last value was erased', () => {
       const list = new LinkedList();
 
-      list.insert(1, 0);
-      list.insert(2, 1);
+      list.insert(0, 0);
+      list.insert(1, 1);
 
-      expect(list.tail.data).toBe(2);      
+      expect(list.tail.data).toBe(1);      
       list.erase(1);
-      expect(list.tail.data).toBe(1);  
+      expect(list.tail.data).toBe(0);  
       list.erase(0);
-      expect(list.tail.data).toBeNull();  
+      expect(list.tail).toBeNull();  
     })
     
 
@@ -451,10 +453,9 @@ describe("Linked list", () => {
 
       expect(list.size).toBe(4);
 
-      list.erase(0);
-      list.erase(1);
-      list.erase(2);
       list.erase(3);
+      list.erase(2);
+      list.erase(1);
       list.erase(0);
 
       expect(list.size).toBe(0);
@@ -472,7 +473,9 @@ describe("Linked list", () => {
 
       list.erase(1);
 
+      expect(list.valueAt(0)).toBe(1);
       expect(list.valueAt(1)).toBe(3);
+      expect(list.valueAt(2)).toBe(4);
     });
 
     it("should throw error when index less than 0", () => {
@@ -501,7 +504,7 @@ describe("Linked list", () => {
 
   describe("valueNFromEnd", () => {});
 
-  describe("reverse", () => {
+  describe.only("reverse", () => {
     it('should reverse the list', () => {
       const list = new LinkedList();
 

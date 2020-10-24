@@ -577,7 +577,6 @@ memory" का एरर न दे, और तब मुझे कोई वै
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (विडियो)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
     - traversal

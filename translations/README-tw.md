@@ -624,7 +624,6 @@
 ## 樹狀結構(Tree)
 
 - ### Trees-重點與背景知識
-    - [ ] [Series: Core Trees (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (影片)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 如何建立一棵樹
     - 遍歷

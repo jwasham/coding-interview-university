@@ -679,7 +679,6 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 ## Árvores
 
 - ### Árvores - Anotações e Fundamentos
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees) (Série: Fundamentos de Árvores - vídeo)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees) (Série: Árvores - vídeo)
     - contrução básica de árvore
     - transversal

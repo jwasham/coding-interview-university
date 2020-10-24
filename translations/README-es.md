@@ -664,7 +664,6 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 
 ## Árboles
 - ### Árboles - Notas & Antecedentes
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Construcción básica de árboles
     - Recorrido

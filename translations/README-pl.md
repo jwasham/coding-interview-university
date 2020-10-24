@@ -644,7 +644,6 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
 ## Drzewa
 
 - ### Drzewa - uwagi & zarys
-    - [ ] [Series: Core Trees (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (wideo)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - podstawy budowy drzewa
     - traversal (ścieżki)

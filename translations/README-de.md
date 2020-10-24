@@ -727,7 +727,6 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Trees (Bäume)</summary>
 
 - ### Trees - Notizen und Hintergrund
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - generell Baumerstellung
     - Traversieren (Durchlaufen)

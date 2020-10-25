@@ -692,7 +692,6 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 ## Cây
 
 - ### Cây - Ghi chú và kiến thức nền
-    - [ ] [Chuỗi bài giảng: Căn bản về cây](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Chuỗi bài giảng: Cây](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Xây dựng cây cơ bản.
     - Duyệt cây.

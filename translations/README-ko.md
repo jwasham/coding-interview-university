@@ -656,7 +656,6 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 ## 트리
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 트리 기초 형태 만들기
     - 순회

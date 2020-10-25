@@ -504,7 +504,6 @@
 ## 树（Trees）
 
 - ### 树 —— 笔记 & 背景
-    - [ ] [系列：基本树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [系列：树（视频）](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 基本的树形结构
     - 遍历

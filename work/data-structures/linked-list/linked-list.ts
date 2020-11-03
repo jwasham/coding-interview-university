@@ -312,10 +312,24 @@ class LinkedList {
    */
   reverse = () => {
     if(this.size > 1) {
-      for (let index = 0; index < this.size; index++) {
+      let nodes = []
+      let node = this.head;
 
-        
+      for (let index = 0; index < this.size; index++) {
+        // quitar data!!!
+        nodes[index] = node;
+        node = node.next  
       }
+
+      node = this.head;
+
+      for (let index = 1; index < this.size; index++) {
+        console.log('node.data', node.data)
+        node.next = nodes[index];
+        node = nodes[index];
+      }
+
+      console.log('nodes', nodes)
     }
   };
 

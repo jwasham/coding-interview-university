@@ -1156,9 +1156,9 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Scalability:
-    - You don't need all of these. Just pick a few that interest you.
+    - អ្នកមិនត្រូវការរបស់ទាំងអស់នេះទេ។ គ្រាន់តែជ្រើសរើសយកចំណាប់អារម្មណ៍មួយចំនួនដែលអ្នកចាប់អារម្មណ៍។
     - [ ] [Great overview (វីដេអូ)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] Short series:
+    - [ ] ស៊េរីខ្លីៗ:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
         - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
         - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -1176,7 +1176,7 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
     - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (វីដេអូ)](https://www.youtube.com/watch?v=oodS71YtkGU)
     - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(វីដេអូ)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
     - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
-        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
+        - [វីដេអូ](https://www.youtube.com/watch?v=G-lGCC4KKok)
     - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
     - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (វីដេអូ)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
@@ -1209,31 +1209,31 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (វីដេអូ)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the [វីដេអូ](#video-series) section
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - មេីលបន្ធែម "Mining Massive Datasets" video series in the [វីដេអូ](#video-series) section
+- [ ] ការអនុវត្តដំណើរការរចនាប្រព័ន្ធ៖ នេះគឺជាគំនិតមួយចំនួនដើម្បីព្យាយាមធ្វើការលើក្រដាសនីមួយៗដោយមានឯកសារមួយចំនួនស្តីពីវិធីដែលត្រូវបានដោះស្រាយនៅក្នុងពិភពពិត៖ 
+    - ពិនិត្យឡើងវិញ: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
     - flow:
-        1. Understand the problem and scope:
-            - Define the use cases, with interviewer's help
-            - Suggest additional features
-            - Remove items that interviewer deems out of scope
-            - Assume high availability is required, add as a use case
-        2. Think about constraints:
-            - Ask how many requests per month
-            - Ask how many requests per second (they may volunteer it or make you do the math)
-            - Estimate reads vs. writes percentage
-            - Keep 80/20 rule in mind when estimating
-            - How much data written per second
-            - Total storage required over 5 years
-            - How much data read per second
-        3. Abstract design:
-            - Layers (service, data, caching)
-            - Infrastructure: load balancing, messaging
-            - Rough overview of any key algorithm that drives the service
-            - Consider bottlenecks and determine solutions
-    - Exercises:
+        1. ស្វែងយល់ពីបញ្ហានិងវិសាលភាព
+            - កំណត់ករណីប្រើប្រាស់ដោយមានជំនួយពីអ្នកសម្ភាសន៍
+            - ស្នើលក្ខណៈបន្ថែម
+            - ដកចេញលក្ខណៈដែលអ្នកសម្ភាសន៍គិតថាលើស
+            - សន្មតថាភាពអាចរកបានខ្ពស់ត្រូវបានទាមទារបន្ថែមជាករណីប្រើប្រាស់
+        2. គិតអំពីឧបសគ្គ៖
+             - សួរថាតើមានប៉ុន្មានសំណើរប៉ុន្មានក្នុងមួយខែ
+             - សួរថាតើមានសំណូមពរប៉ុន្មានក្នុងមួយវិនាទី (ពួកគេអាចស្ម័គ្រចិត្តឬធ្វើឱ្យអ្នកធ្វើគណនា)
+             - ប៉ាន់ស្មានអាននឹងសរសេរជាភាគរយ
+             - ចងចាំបទបញ្ជា ៨០/២០ ក្នុងពេលធ្វើការប៉ាន់ស្មាន
+             - តើទិន្នន័យប៉ុន្មានត្រូវបានសរសេរក្នុងមួយវិនាទី
+             - ការផ្ទុកសរុបត្រូវការក្នុងរយៈពេល ៥ ឆ្នាំ
+             - តើទិន្នន័យត្រូវអានប៉ុន្មានដងក្នុងមួយវិនាទី
+        3. ការរចនាអរូបី៖
+             - ស្រទាប់ (សេវាកម្ម ទិន្នន័យ ឃ្លាំងសម្ងាត់ (cache) )
+             - ហេដ្ឋារចនាសម្ព័ន្ធ៖ ផ្ទុកតុល្យភាព(load balacing),  សារ             
+             - ទិដ្ឋភាពទូទៅរដុបនៃក្បួនដោះស្រាយគន្លឹះណាមួយដែលជំរុញសេវាកម្ម
+             - ពិចារណាការរាំងស្ទះនិងកំណត់ដំណោះស្រាយ
+    - លំហាត់:
         - [Design a CDN network: old article](https://kilthub.cmu.edu/articles/Globally_distributed_content_delivery/6605972)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
@@ -1480,34 +1480,34 @@ You're never really done.
     technologies and algorithms, so you'll have a bigger toolbox.
 
 - ### Compilers
-    - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
-    - [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
-    - [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
-    - [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+    - [How a Compiler Works in ~1 minute (វីដេអូ)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
+    - [Harvard CS50 - Compilers (វីដេអូ)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+    - [C++ (វីដេអូ)](https://www.youtube.com/watch?v=twodd1KFfGk)
+    - [Understanding Compiler Optimization (C++) (វីដេអូ)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - ### Emacs and vi(m)
-    - Familiarize yourself with a unix-based code editor
+    - រៀនពី unix-based code editor
     - vi(m):
-        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [Editing With vim 01 - Installation, Setup, and The Modes (វីដេអូ)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
-            - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
-            - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
-            - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
-            - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
+        - ឈុត ៤ (វីដេអូ):
+            - [The vi/vim editor - មេរៀន 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
+            - [The vi/vim editor - មេរៀន 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
+            - [The vi/vim editor - មេរៀន 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
+            - [The vi/vim editor - មេរៀន 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
-        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - [Basics Emacs Tutorial (វីដេអូ)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
+        - ឈុត ៣ (វីដេអូ):
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
-        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (វីដេអូ)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
+        - [(maybe) Org Mode In Depth: Managing Structure (វីដេអូ)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix command line tools
-    - I filled in the list below from good tools.
+    - ខ្ញុំបានបំពេញក្នុងបញ្ជីខាងក្រោមពីឧបករណ៍ល្អ ៗ.
     - bash
     - cat
     - grep
@@ -1520,15 +1520,15 @@ You're never really done.
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Information theory (វីដេអូ)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - More about Markov processes:
+    - បន្ថែមទៀតអំពី Markov processes:
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below
+    - សូមមើលបន្ថែមនៅ MIT 6.050J Information និង Entropy series
 
-- ### Parity & Hamming Code (videos)
+- ### Parity & Hamming Code (វីដេអូ)
     - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - Hamming Code:
@@ -1537,31 +1537,31 @@ You're never really done.
     - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### Entropy
-    - Also see videos below
-    - Make sure to watch information theory videos first
-    - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
+    - សូមមើលវីដេអូខាងក្រោមផង
+    - ត្រូវប្រាកដថាមើលវីដេអូទ្រឹស្តីព័ត៌មានជាមុន
+    - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (វីដេអូ)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 - ### Cryptography
-    - Also see videos below
-    - Make sure to watch information theory videos first
+    - សូមមើលវីដេអូខាងក្រោមផង
+    - ត្រូវប្រាកដថាមើលវីដេអូទ្រឹស្តីព័ត៌មានជាមុន
     - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
 - ### Compression
-    - Make sure to watch information theory videos first
-    - Computerphile (videos):
+    - ត្រូវប្រាកដថាមើលវីដេអូទ្រឹស្តីព័ត៌មានជាមុន
+    - Computerphile (វីដេអូ):
         - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
         - [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
         - [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
         - [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
         - [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
-    - [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [វីដេអូ Compressor Head](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
 - ### Computer Security
-    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+    - [MIT (23 វីដេអូ)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
         - [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
@@ -1576,29 +1576,29 @@ You're never really done.
         - [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    - [GC in Python (វីដេអូ)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+    - [Deep Dive Python: Garbage Collection in CPython (វីដេអូ)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### Parallel Programming
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [Efficient Python for High Performance Parallel Computing (វីដេអូ)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### Messaging, Serialization, and Queueing Systems
     - [Thrift](https://thrift.apache.org/)
-        - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+        - [ការបង្រៀន](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
-        - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+        - [ការបង្រៀន](https://developers.google.com/protocol-buffers/docs/tutorials)
     - [gRPC](http://www.grpc.io/)
-        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+        - [gRPC 101 for Java Developers (វីដេអូ)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [Redis](http://redis.io/)
-        - [Tutorial](http://try.redis.io/)
+        - [ការបង្រៀន](http://try.redis.io/)
     - [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
     - [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [RabbitMQ](https://www.rabbitmq.com/)
-        - [Get Started](https://www.rabbitmq.com/getstarted.html)
+        - [ចាប់ផ្តើម](https://www.rabbitmq.com/getstarted.html)
     - [Celery](http://www.celeryproject.org/)
-        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+        - [ជំហានដំបូងជាមួយ Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
     - [ZeroMQ](http://zeromq.org/)
         - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
     - [ActiveMQ](http://activemq.apache.org/)
@@ -1608,20 +1608,20 @@ You're never really done.
 
 - ### A*
     - [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-    - [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
-    - [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+    - [A* Pathfinding Tutorial (វីដេអូ)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
+    - [A* Pathfinding (E01: algorithm explanation) (វីដេអូ)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
 - ### Fast Fourier Transform
     - [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
     - [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    - [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [What is the Fourier Transform? (វីដេអូ)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [Divide & Conquer: FFT (វីដេអូ)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
     - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+    - ចំពោះBloom filterមួយដែលមាន m bits និង មុខងារhasing k, ទាំងការបញ្ចូលនិងការធ្វើតេស្តសមាជិកភាពគឺO(k)
     - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
-    - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [Bloom Filters | Mining of Massive Datasets | Stanford University (វីដេអូ)](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
     - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
@@ -1629,52 +1629,52 @@ You're never really done.
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
-    - Used to determine the similarity of documents
-    - The opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same
+    - ប្រើដើម្បីកំណត់ភាពស្រដៀងគ្នានៃឯកសារ
+    - ការផ្ទុយមកពី MD5 ឬ SHA ដែលត្រូវបានប្រើដើម្បីកំណត់ថាតើឯកសារ ឬ ខ្សែអក្សរចំនួន ២ ពិតជាដូចគ្នា
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
-    - [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    - [Divide & Conquer: van Emde Boas Trees (វីដេអូ)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
 - ### Augmented Data Structures
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
-    - Know at least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-        to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code
-        - Splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - Search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets
+    - ស្គាល់យ៉ាងហោចណាស់មែកធាងគោលពីរដែលមានតុល្យភាព (balanced binary tree) (និងដឹងពីរបៀបដែលវាត្រូវបានអនុវត្ត)៖ 
+    - “ ក្នុងចំណោមដើមឈើស្វែងរកដែលមានតុល្យភាពដើម (balanced binary tree) AVL និងដើមឈើ ២/៣មិនពេញនិយមទេ៕ red-black trees ហាក់ដូចជាមានប្រជាប្រិយភាពជាង។
+         រចនាសម្ពន្ធ័ទិន្នន័យរៀបចំដោយខ្លួនឯងដែលគួរឱ្យចាប់អារម្មណ៍ជាពិសេសគឺមែកឈើsplay tree ដែលប្រើការបង្វិល
+         ដើម្បីផ្លាស់ទីកូនសោណាដែលបានចូលទៅកាន់ឬស។ "- ស្គីណា (Skiena)
+    - ក្នុងចំណោមទាំងនេះខ្ញុំបានជ្រើសរើសអនុវត្តមែកឈើ splay tree ។ ពីអ្វីដែលខ្ញុំបានអានអ្នកនឹងមិនអនុវត្តទេនៅមែកធាងស្វែងរកមានតុល្យភាពនៅក្នុងបទសម្ភាសន៍របស់អ្នក។ ប៉ុន្តែខ្ញុំចង់បង្ហាញលេខកូដ
+         ហើយប្រឈមមុខនឹងវា ។ ខ្ញុំបានអានលេខកូដred-black treeច្រើន
+        - Splay tree: បញ្ចូល, ស្វែងរក, លុប
+        ប្រសិនបើអ្នកអនុវត្តដើមឈើក្រហម / ខ្មៅសាកល្បងទាំងនេះ៖
+        - មុខងារស្វែងរក និង ការបញ្ចូល ការរំលងលុប
+    - ខ្ញុំចង់រៀនបន្ថែមទៀតអំពី B-Tree ចាប់តាំងពីវាត្រូវបានគេប្រើយ៉ាងទូលំទូលាយជាមួយសំណុំទិន្នន័យធំ ៗ
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
     - **AVL trees**
-        - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
-            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-            attractive for data structures that may be built once and loaded without reconstruction, such as language
-            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
-        - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - ក្នុងការអនុវត្ត ៖
+            តាមអ្វីដែលខ្ញុំអាចប្រាប់បាន អ្វីៗទាំងនេះមិនត្រូវបានគេប្រើច្រើនទេនៅក្នុងការអនុវត្តប៉ុន្តែខ្ញុំអាចមើលឃើញកន្លែងដែលពួកគេប្រីវា៖
+             AVL Tree គឺជារចនាសម្ព័នមួយផ្សេងទៀតដែលគាំទ្រដល់ការស្វែងរក (បញ្ចូល n) ការបញ្ចូល និង ការដកយកចេញ។ វាកាន់តែម៉ឺងម៉ាត់
+             មានតុល្យភាពជាងដើមឈើខ្មៅក្រហម (red-black tree) ដែលមានការបញ្ចូលយឺត និង ដកចេញយឺត ប៉ុន្តែការទាញមកវិញលឿនជាងមុន។ នេះធ្វើឱ្យវា
+             មានភាពទាក់ទាញសម្រាប់រចនាសម្ព័ន្ធទិន្នន័យដែលអាចត្រូវបានសាងសង់ម្តងហើយផ្ទុកដោយមិនមានការកសាងឡើងវិញដូចជាភាសា
+             វចនានុក្រម (ឬវចនានុក្រមកម្មវិធីដូចជា opcodes របស់ assembler ឬ interpreter)
+         
+        - [MIT AVL Trees / AVL Sort (វីដេអូ)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [AVL Trees (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [AVL Tree Implementation (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
 
     - **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking and file system code) etc
-        - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
+        - ក្នុងការអនុវត្ត ៖
+            Splay trees ត្រូវបានប្រើជាធម្មតាក្នុងការអនុវត្ត caches, memory allocators, routers, garbage collectors,
+            data compression, ropes (ការជំនួស string ដែលប្រើសម្រាប់ long text strings), ក្នុង Windows NT (ក្នុង virtual memory,
+            networking និង file system code) ជាដេីម
+        - [CS 61B: Splay Trees (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
         - MIT Lecture: Splay Trees:
-            - Gets very mathy, but watch the last 10 minutes for sure.
-            - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
+            - វាមានគណិតច្រេីន តែអាចមេីល១០ នាទីចុងក្រោយបាន
+            - [វីដេអូ](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - **Red/black trees**
         - នេះជាការពិពណ៌នាអំពីដេីមឈេី 2-3 (មើលខាងក្រោម).

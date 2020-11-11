@@ -693,7 +693,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - Binärsuche mittels Rekursion
 
 - ### Bitweise Operationen
-    - [ ] [Bits Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - man sollte viele der Zweierpotenzen kennen (von 2^1 über 2^16 und 2^32)
+    - [ ] [Bits Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - man sollte viele der Zweierpotenzen kennen (von 2^1 über 2^16 und 2^32)
     - [ ] Erhalte sehr gutes Verständnis Bits zu manipulieren mit: &, |, ^, ~, >>, <<
         - [ ] [Wörter](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Gute Einführung:
@@ -727,7 +727,6 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Trees (Bäume)</summary>
 
 - ### Trees - Notizen und Hintergrund
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - generell Baumerstellung
     - Traversieren (Durchlaufen)

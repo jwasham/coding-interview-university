@@ -277,7 +277,7 @@ Bạn sẽ thấy vài tài liệu về C, C++ và Python bên dưới, vì tôi
 ### Chuẩn bị phỏng vấn
 
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - Có câu trả lời bằng C++ và Java
     - Được khuyến khích bởi các khóa hướng dẫn của Google.
     - Đây là một phần luyện tập tốt trước khi bắt đầu với quyển Cracking the Coding Interview
@@ -662,7 +662,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - Tìm kiếm nhị phân sử dụng đệ quy
 
 - ### Toán tử trên bit
-    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-cheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
+    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-sheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
     - [ ] Hãy chuẩn bị một nền tảng tốt về các biến đổi bit với các toán tử: &, |, ^, ~, >>, <<
         - [ ] [words (thuật ngữ trong kiến trúc máy tính)](https://en.wikipedia.org/wiki/Word_(computer_architecture) )
         - [ ] Bài mở đầu:
@@ -692,7 +692,6 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 ## Cây
 
 - ### Cây - Ghi chú và kiến thức nền
-    - [ ] [Chuỗi bài giảng: Căn bản về cây](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Chuỗi bài giảng: Cây](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Xây dựng cây cơ bản.
     - Duyệt cây.

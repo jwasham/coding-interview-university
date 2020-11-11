@@ -415,7 +415,7 @@ Tenga en cuenta que empecé desde abajo y hay tarjetas que cubren todo, desde el
 
 Una alternativa a usar mi sitio de tarjetas es [Anki](http://ankisrs.net/), que me ha sido recomendado muchas veces. Usa un sistema de repetición para ayudarle a recordar. Es amigable con el usuario y disponible para todas las plataformas y tiene un sistema de sincronización en la nube. Cuesta $25 en iOS pero es gratuito en las otras plataformas.
 
-Mis tarjetas en ek formato de Anki: https://ankiweb.net/shared/info/25173560 (Gracias[@xiewenya](https://github.com/xiewenya))
+Mis tarjetas en el formato de Anki: https://ankiweb.net/shared/info/25173560 (Gracias[@xiewenya](https://github.com/xiewenya))
 
 ### 3. Revise, revise, revise
 
@@ -636,7 +636,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - Búsqueda binaria usando recursión
 
 - ### Operaciones bit a bit
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
     - [ ] Obtenga un buen entendimiento de la manipulación de bits con: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Buena introducción:
@@ -664,7 +664,6 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 
 ## Árboles
 - ### Árboles - Notas & Antecedentes
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Construcción básica de árboles
     - Recorrido

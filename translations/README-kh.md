@@ -1245,84 +1245,80 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
 
 ---
 
-## Final Review
+## Final Review (ការពិនិត្យចុងក្រោយ)
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    ផ្នែកនេះនឹងមានវីដេអូខ្លីៗដែលអ្នកអាចមើលបានយ៉ាងរហ័សដើម្បីពិនិត្យឡើងវិញនូវគោលគំនិតសំខាន់ៗ។ វាល្អណាស់ប្រសិនបើអ្នកចង់ធ្វើឱ្យស្រស់ជាងមុន។
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-- [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+- [ ] Series of 2-3 minutes short subject videos (23 វីដេអូ)
+    - [វីដេអូ](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 វីដេអូ):
+    - [វីដេអូ](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] [វីដេអូ Sedgewick - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+- [ ] [វីដេអូ Sedgewick - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
 ---
 
-## Coding Question Practice
+## Coding Question Practice (ការអនុវត្តសំណួរសរសេរកូដ)
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+ឥឡូវអ្នកដឹងពីប្រធានបទវិទ្យាសាស្ត្រកុំព្យូទ័រទាំងអស់ខាងលើ វាដល់ពេលត្រូវអនុវត្តការឆ្លើយសំនួរបញ្ហា។ 
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**ការអនុវត្តសំណួរសរសេរកូដមិនមែនអំពីការទន្ទេញចម្លើយចំពោះបញ្ហាសរសេរកម្មវិធីទេ។**
 
-Why you need to practice doing programming problems:
-- Problem recognition, and where the right data structures and algorithms fit in
-- Gathering requirements for the problem
-- Talking your way through the problem like you will in the interview
-- Coding on a whiteboard or paper, not a computer
-- Coming up with time and space complexity for your solutions
-- Testing your solutions
+មូលហេតុដែលអ្នកត្រូវអនុវត្តធ្វើបញ្ហាសរសេរកម្មវិធី៖
+- ការទទួលស្គាល់បញ្ហានិងកន្លែងដែលរចនាសម្ព័ន្ធទិន្នន័យត្រឹមត្រូវនិងក្បួនដោះស្រាយត្រូវគ្នា
+- ការប្រមូលផ្តុំតម្រូវការសម្រាប់បញ្ហា
+- និយាយពីបញ្ហាដូចជាអ្នកនឹងជួបអ្នកសម្ភាសន៍ដែរ
+- សរសេរកូដនៅលើក្តារខៀនឬក្រដាសមិនមែនកុំព្យូទ័រទេ
+- មានពេលវេលានិងចន្លោះស្មុគស្មាញសម្រាប់ដំណោះស្រាយរបស់អ្នក
+- សាកល្បងតេសដំណោះស្រាយរបស់អ្នក
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+មានការណែនាំដ៏ល្អសំរាប់វិធីសាស្រ្តដោះស្រាយបញ្ហាដែលមានលក្ខណៈជាបញ្ហាក្នុងការសំភាសន៍។ អ្នកនឹងទទួលបានពីកម្មវិធីសៀវភៅសំភាសន៍ផងដែរប៉ុន្តែខ្ញុំបានរកឃើញថាលេចធ្លោនេះ៖
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick. I use a pencil 
-and eraser.
+គ្មានក្តារខៀននៅផ្ទះទេ? ខ្ញុំជាមនុស្សចំលែកនិងមានក្តារខៀនធំ។ ជំនួសឱ្យក្តារខៀន សូមរើសយកផ្ទាំងគំនូរធំ ៗ ពីហាងសិល្បៈ។ អ្នកអាចអង្គុយលើសាឡុងនិងអនុវត្តបាន។ នេះគឺជា "សាឡុងក្តារចុច" របស់ខ្ញុំ។
+ខ្ញុំបានបន្ថែមប៊ិចនៅក្នុងរូបថតសម្រាប់ខ្នាត។ ប្រសិនបើអ្នកប្រើប៊ិចអ្នកនឹងចង់លុបចោល។ ឆាប់រញ៉េរញ៉ៃ។ ខ្ញុំប្រើខ្មៅដៃនិងជ័រលុប។
 
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-Supplemental:
+បន្ថែម:
 
 - [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**អាននិងធ្វើបញ្ហាកម្មវិធី (តាមលំដាប់លំដោយ):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - ចម្លើយជា C, C++ និង Java
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - ចម្លើយជា Java
 
-See [Book List above](#book-list)
+មេីលសៀភៅ [Book List above](#book-list)
 
 
 ## Coding exercises/challenges
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+នៅពេលដែលអ្នកបានរៀនខួរក្បាលរបស់អ្នកហើយ សូមដាក់ខួរក្បាលទាំងនោះឱ្យដំណើរការ។
+យកបញ្ហាប្រឈមនៃការសរសេរកូដជារៀងរាល់ថ្ងៃតាមដែលអ្នកអាចធ្វើបាន។
 
 - [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
 - [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
-- [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+វីឌីអូសំភាសន៍ការសរសេរកូដ:
+- [IDeserve (88 វីដេអូ)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
     - Super for walkthroughs of problem solutions
-- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
-    - You can watch several in a short time
+- [Nick White - LeetCode Solutions (187 វីដេអូ)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - ការពន្យល់ល្អអំពីដំណោះស្រាយនិងលេខកូដ
+    - អ្នកអាចមើលបានច្រើនក្នុងរយៈពេលដ៏ខ្លី
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
-Challenge sites:
+គេហទំព័រប្រកួតប្រជែង:
 - [LeetCode](https://leetcode.com/)
-    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing
+    - គេហទំព័របញ្ហាសរសេរកូដដែលខ្ញុំចូលចិត្តបំផុត។ វាមានតម្លៃសម្រាប់ការជាវប្រាក់សម្រាប់រយៈពេល 1-2 ខែដែលអ្នកទំនងជានឹងរៀបចំ
     - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode) 
-    - See Nick White Videos above for short code-throughs
+    - សូមមើលវីដេអូស Nick ខាងលើសម្រាប់លេខកូដខ្លី
 - [HackerRank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
@@ -1331,7 +1327,7 @@ Challenge sites:
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com)
 
-Language-learning sites, with challenges:
+គេហទំព័រសិក្សាភាសាដែលមានបញ្ហាប្រឈម៖
 - [Codewars](http://www.codewars.com)
 - [Codility](https://codility.com/programmers/)
 - [HackerEarth](https://www.hackerearth.com/)
@@ -1348,112 +1344,112 @@ Mock Interviews:
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously. 
 
 
-## Once you're closer to the interview
+## នៅពេលអ្នកជិតដល់ការសម្ភាសន៍
 
-- Cracking The Coding Interview Set 2 (videos):
+- Cracking The Coding Interview Set 2 (វីដេអូ):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
-## Your Resume
+## ប្រវត្តិរូបសង្ខេបរបស់អ្នក
 
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- មើលបន្តការរៀបចំរបស់នៅក្នុង Cracking The Coding Interview និង back of Programming Interviews Exposed
 
 
-## Be thinking of for when the interview comes
+## ត្រូវគិតអំពីពេលសម្ភាសន៍មកដល់
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+គិតអំពីសំណួរសំភាសន៍ចំនួន 20 ដែលអ្នកនឹងទទួលបានរួមជាមួយធាតុខាងក្រោម។ មានចម្លើយ ២-៣ សម្រាប់ចម្លើយនីមួយៗ។
+មានរឿងរ៉ាវមិនមែនគ្រាន់តែទិន្នន័យអំពីអ្វីដែលអ្នកបានសំរេចនោះទេ។
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- ហេតុអ្វីបានជាអ្នកចង់បានការងារនេះ?
+- តើអ្វីជាបញ្ហាដ៏លំបាកដែលអ្នកបានដោះស្រាយ?
+- បញ្ហាធំ ៗ ដែលប្រឈមមុខ?
+- ការរចនាម៉ូដណាដែលល្អបំផុត / អាក្រក់បំផុត?
+- គំនិតសម្រាប់កែលម្អផលិតផលដែលមានស្រាប់
+- តើអ្នកធ្វើការបានល្អបំផុតដោយរបៀបណាក្នុងនាមជាបុគ្គលនិងជាក្រុម?
+- ជំនាញឬបទពិសោធន៍ណាមួយរបស់អ្នកដែលជាទ្រព្យសម្បត្តិនៅក្នុងតួនាទីហើយហេតុអ្វី?
+- តើអ្វីដែលអ្នកពេញចិត្តបំផុតនៅ [ការងារ x / គម្រោង y]?
+- តើអ្វីជាបញ្ហាប្រឈមដ៏ធំបំផុតដែលអ្នកបានប្រឈមនៅ [ការងារ x / គម្រោង y]?
+- តើអ្វីទៅជាកំហុសដ៏លំបាកបំផុតដែលអ្នកបានជួបប្រទះនៅ [ការងារ x / គម្រោង y]?
+- តើអ្នកបានរៀនអ្វីខ្លះនៅ [ការងារ x / គំរោង y]?
+តើអ្នកនឹងធ្វើអ្វីបានល្អជាងនៅ [ការងារ x / គំរោង y]?
 
-## Have questions for the interviewer
+## Have questions for the interviewer (មានសំណួរសម្រាប់អ្នកសម្ភាសន៍)
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    សំនួរខ្លះរបស់ខ្ញុំ (ខ្ញុំប្រហែលជាដឹងចម្លើយរួចហើយប៉ុន្តែចង់បានយោបល់ឬទស្សនៈក្រុមរបស់ពួកគេ)
+    
+- តើក្រុមរបស់អ្នកមានទំហំប៉ុនណា?
+- តើវដ្ដ dev របស់អ្នកមើលទៅដូចអ្វី? តើអ្នកធ្វើទឹកជ្រោះទឹកពន្លក / ឆាប់រហ័សទេ?
+- តើប្រញាប់ប្រញាល់ដល់ពេលវេលាកំណត់ទេ? ឬមានភាពបត់បែន?
+- តើការសម្រេចចិត្តត្រូវបានធ្វើឡើងនៅក្នុងក្រុមរបស់អ្នកយ៉ាងដូចម្តេច?
+- តើអ្នកមានការប្រជុំប៉ុន្មានដងក្នុងមួយសប្តាហ៍?
+- តើអ្នកមានអារម្មណ៍ថាបរិយាកាសការងាររបស់អ្នកជួយអ្នកក្នុងការផ្តោតអារម្មណ៍ទេ?
+- តើអ្នកកំពុងធ្វើអ្វី?
+- តើអ្នកចូលចិត្តអ្វី?
+- ជីវិតការងារដូចជាអ្វី?
+- តើការងារ / ជីវិតមានតុល្យភាពយ៉ាងដូចម្តេច?
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
-- How is work/life balance?
+## Once You've Got The Job (នៅពេលដែលអ្នកមានការងារធ្វើ)
 
-## Once You've Got The Job
+សូមអបអរសាទរ!
 
-Congratulations!
+បន្តរៀន។
 
-Keep learning.
-
-You're never really done.
-
----
-
-    *****************************************************************************************************
-    *****************************************************************************************************
-
-    Everything below this point is optional.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
-    *****************************************************************************************************
-    *****************************************************************************************************
+រៀនមិនចេះចប់។
 
 ---
 
-## Additional Books
+    *****************************************************************************************************
+    *****************************************************************************************************
 
-    These are here so you can dive into a topic you find interesting.
+    អ្វីគ្រប់យ៉ាងនៅខាងក្រោមចំណុចនេះគឺស្រេចចិត្តបេីចង់មេីល។
+    តាមរយៈការសិក្សាទាំងនេះ អ្នកនឹងទទួលបានការយល់ដឹងកាន់តែច្រើនពីគំនិតវិទ្យាសាស្ត្រកុំព្យូទ័រ ហើយអ្នកនឹងត្រូវបានរៀបចំខ្លួនឱ្យកាន់តែប្រសើរ
+    ការងារវិស្វកម្មផ្នែកទន់ណាមួយ។ អ្នកនឹងក្លាយជាវិស្វករផ្នែកទន់ដែលមានចំេនះពេញលេញ។
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---
+
+## Additional Books (សៀវភៅបន្ថែម)
+
+    ទាំងនេះគឺនៅទីនេះដូច្នេះអ្នកអាចចូលទៅក្នុងប្រធានបទដែលអ្នកចាប់អារម្មណ៍។ 
 
 - [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
-    - An oldie but a goodie
+    - ចាស់តែល្អ
 - [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - A modern option
+    - ជម្រើសទំនើប
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - A gentle introduction to design patterns
+    - ការណែនាំ design patterns
 - [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - AKA the "Gang Of Four" book, or GOF
     - The canonical design patterns book
 - [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview
-    - This book has 2 parts:
-        - Class textbook on data structures and algorithms
-            - Pros:
-                - Is a good review as any algorithms textbook would be
-                - Nice stories from his experiences solving problems in industry and academia
-                - Code examples in C
-            - Cons:
+    - ជាការពិនិត្យឡើងវិញនិងការទទួលស្គាល់បញ្ហា
+    - ផ្នែកកាតាឡុកក្បួនដោះស្រាយគឺហួសពីវិសាលភាពនៃការពិបាកដែលអ្នកនឹងជួបសម្ភាសន៍
+    - សៀវភៅនេះមានពីរផ្នែក៖
+        - សៀវភៅសិក្សាថ្នាក់ស្តីពីរចនាសម្ព័ន្ធទិន្នន័យនិងក្បួនដោះស្រាយ
+            - គុណសម្បត្តិ:
+                - គឺជាការពិនិត្យឡើងវិញដ៏ល្អមួយដែលជាសៀវភៅក្បួនដោះស្រាយណាមួយ
+                - រឿងល្អ ៗ ពីបទពិសោធន៍របស់គាត់ដោះស្រាយបញ្ហានៅក្នុងឧស្សាហកម្មនិងបណ្ឌិតសភា
+                - ឧទាហរណ៍កូដនៅក្នុង C
+            - គុណវិបត្តិ:
                 - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
                 - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
         - Algorithm catalog:
-            - This is the real reason you buy this book
-            - About to get to this part. Will update here once I've made my way through it
-    - Can rent it on kindle
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+           - នេះជាហេតុផលពិតប្រាកដដែលអ្នកទិញសៀវភៅនេះ
+            - ហៀបនឹងចូលដល់ផ្នែកនេះ។ នឹងធ្វើបច្ចុប្បន្នភាពនៅទីនេះនៅពេលដែលខ្ញុំបានឆ្លងកាត់វា
+    - អាចជួលវានៅលើ Kindle
+    - ចម្លើយ:
+        - [ដំណោះស្រាយ](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [ដំណោះស្រាយ](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 - [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief
+    - សៀវភៅនេះត្រូវបានបោះពុម្ពផ្សាយក្នុងឆ្នាំ ២០០៤ ហើយវាហួសសម័យបន្តិចប៉ុន្តែវាជាធនធានដ៏អស្ចារ្យសម្រាប់ការស្វែងយល់អំពីកុំព្យូទ័រដោយសង្ខេប
     - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like
-    - These chapters are worth the read to give you a nice foundation:
+    - ជំពូកទាំងនេះពិតជាមានប្រយោជន៍ក្នុងការអានដើម្បីផ្តល់ឱ្យអ្នកនូវគ្រឹះដ៏ល្អមួយ:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -1464,20 +1460,18 @@ You're never really done.
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently
+    - **សំខាន់ៈ** ការអានសៀវភៅនេះនឹងមានតម្លៃតែប៉ុណ្ណោះ។ សៀវភៅនេះគឺជាការពិនិត្យឡើងវិញដ៏អស្ចារ្យនៃក្បួនដោះស្រាយនិងរចនាសម្ព័ន្ធទិន្នន័យប៉ុន្តែនឹងមិនបង្រៀនអ្នកពីរបៀបសរសេរកូដល្អទេ។ អ្នកត្រូវតែចេះសរសេរកូដដំណោះស្រាយប្រកបដោយប្រសិទ្ធភាព
     - AKA CLR, sometimes CLRS, because Stein was late to the game
 
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
     - For a richer, more up-to-date (2017), but longer treatment
 
 - [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture
+    - ជំពូកដំបូង បង្ហាញនូវដំណោះស្រាយដ៏ឆ្លាតវៃចំពោះបញ្ហាសរសេរកម្មវិធី (ខ្លះចាស់ដោយប្រើខ្សែអាត់ទិន្នន័យ) ប៉ុន្តែនោះគ្រាន់តែជាការណែនាំប៉ុណ្ណោះ។ សៀវភៅណែនាំស្តីពីការរចនាកម្មវិធីនិងស្ថាបត្យកម្ម
 
 ## Additional Learning
     
-    I added them to help you become a well-rounded software engineer, and to be aware of certain 
-    technologies and algorithms, so you'll have a bigger toolbox.
+    ខ្ញុំបានបន្ថែមពួកគេដើម្បីជួយអ្នកឱ្យក្លាយជាវិស្វករផ្នែកទន់ដែលមានមានចំេណះពេញលេញហើយត្រូវដឹងច្បាស់បច្ចេកវិទ្យានិងក្បួនដោះស្រាយដូច្នេះអ្នកនឹងមានប្រអប់ឧបករណ៍ធំជាងមុន។
 
 - ### Compilers
     - [How a Compiler Works in ~1 minute (វីដេអូ)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)

@@ -1954,6 +1954,11 @@ Sit back and enjoy. "Netflix and skill" :P
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
+## Algorithms implementation 
+
+- [Multiple Algorithms implementation by Princeton University)](https://algs4.cs.princeton.edu/code)
+
+
 ## Papers
 
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)

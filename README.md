@@ -1,4 +1,4 @@
-# Coding Interview University
+# Coding Interview University: Jack Sanderson
 
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
 > but it grew to the large list you see today. After going through this study plan, [I got hired

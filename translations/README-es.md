@@ -172,7 +172,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo.
+Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me tomará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo.
 
 Es un plan largo, puede tome unos meses; pero si le resulta familiar mucho de esto le tomara mucho menos tiempo.
 

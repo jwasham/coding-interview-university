@@ -1,17 +1,12 @@
 # Coding Interview University: Jack Sanderson
 
+<details>
+<summary>Foreward:</summary>
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
 > but it grew to the large list you see today. After going through this study plan, [I got hired
 > as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > You probably won't have to study as much as I did. Anyway, everything you need is here.
->
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
->
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
->
-> _Best of luck to you!_
-
+</details>
 <details>
 <summary>Translations:</summary>
 

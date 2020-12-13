@@ -18,7 +18,7 @@
     - [functions](https://www.cprogramming.com/tutorial/lesson4.html)
     - [references](https://www.geeksforgeeks.org/references-in-c/)
     - [templates](https://www.cprogramming.com/tutorial/templates.html)
-    - compilation
+    - [compilation](https://www.youtube.com/watch?v=ZTu0kf-7h08)
     - [scope & linkage](https://www.learncpp.com/cpp-tutorial/scope-duration-and-linkage-summary/)
     - [namespaces](https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm)
     - [OOP](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)

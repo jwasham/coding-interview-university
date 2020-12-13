@@ -239,6 +239,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     I like using university lectures.
 
 </details>
+
 ## Interview Process & General Interview Prep
 
 - [x] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -270,7 +271,7 @@ You can use a language you are comfortable in to do the coding part of the inter
 
 - C++
 - Java
-- Python
+- Python ( My Choice)
 
 You could also use these, but read around first. There may be caveats:
 
@@ -297,11 +298,9 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 ### Interview Prep
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-  - answers in C++ and Java
-  - this is a good warm-up for Cracking the Coding Interview
-  - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+  - answering in Python
+  - on chapter 5
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-  - answers in Java
 
 ### If you have tons of extra time:
 
@@ -480,7 +479,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 
-- Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review
 - If some lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge
 - [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
@@ -540,7 +538,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Linked Lists
 
   - [ ] Description:
-    - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+    - [ X ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
     - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
   - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation

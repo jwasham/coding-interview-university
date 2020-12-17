@@ -219,7 +219,7 @@ Fork the GitHub repo https://github.com/jwasham/coding-interview-university by c
 
 `git add .`
 
-`git commit -m "Marked x"`
+`git commit -m "Marked X"`
 
 `git rebase jwasham/master`
 

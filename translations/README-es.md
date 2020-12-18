@@ -1,6 +1,6 @@
 ﻿# Coding Interview University
 
-- Versión original: [Inglés](README.md)
+- Versión original: [Inglés](../README.md)
 
 > Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon!(Art. Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 

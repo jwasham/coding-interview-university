@@ -1,37 +1,60 @@
-# الإعداد لجوجل
+# الإعداد لمقابلة البرمجة
 
-الترجمه:
-- [中文版本](README-cn.md)
-- الترجمات تحت الاعداد:
-    - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/coding-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-    - [French](https://github.com/jwasham/coding-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
-    - [Korean](https://github.com/jwasham/coding-interview-university/issues/118)
-    - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
+> أنشأتها في المقام الأول كلائحة قصيرة من المواضيع الدراسية لكيف يصبح المرء مهندس برمجيات, و ولكن سرعان ما كبرت هذه القائمة الى ما تراه امامك اليوم. بعد خوض هذه الخطة الدراسية, 
+[تم توظيفي كمهندس تطوير  برمجيات لدى أمازون](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! على الاغلب لن تحتاج إلى ان تدرس بالقدر الذي درسته أنا. لكن على كل حال كل ما تحتاج إليه موجود 
+هنا
+> 
+> درست لمدة ٨-١٢ ساعة في اليوم, لعدة أشهر. هذه هي قصتي: [لماذا درست دواما كاملا لمدة ثمانية أشهر من أجل مقابلة لدا قوقل](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> 
+> العناصر المذكورة في هذه اللائحة ستجهزك جيدا لمقابلة تقنية مع تقريبا أي شركة برمجية, حتى الشركات العملاقة: أمازون, فيسبوك, قوقل, و ميكروسوف
+> 
+> بالتوفيق
+
+<details>
+<summary>الترجمات:</summary>
+
+- [中文版本](translations/README-cn.md)
+- [Tiếng Việt - الفيتنامبة](translations/README-vi.md)
+- [الإسبانية](translations/README-es.md)
+- [(البرتغالية (البرازيلية](translations/README-ptbr.md)
+- [البولندية](translations/README-pl.md)
+- [繁體中文](translations/README-tw.md)
+- [اليابانية (日本語)](translations/README-ja.md)
+- [الروسية](translations/README-ru.md)
+
+</details>
+
+<details>
+<summary>ترجمات تحت الإعداد:</summary>
+
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [الإندونيسية](https://github.com/jwasham/coding-interview-university/issues/101)
+- [العربية](https://github.com/jwasham/coding-interview-university/issues/98)
+- [التركية](https://github.com/jwasham/coding-interview-university/issues/90)
+- [الفرنسية](https://github.com/jwasham/coding-interview-university/issues/89)
+- [الأكرانية](https://github.com/jwasham/coding-interview-university/issues/106)
+- [الكورية(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [أردو](https://github.com/jwasham/coding-interview-university/issues/140)
+- [التايلندية](https://github.com/jwasham/coding-interview-university/issues/156)
+- [اليونانية](https://github.com/jwasham/coding-interview-university/issues/166)
+- [الإيطالية](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+
+</details>
 
 ## ماهذا؟
-هي خطة من عدة أشهر من مطور تطبيقات ويب (قائمة على التعليم الذاتي، ومبدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات بجوجل
+هي خطتي متعددة الأشهر للوصول من مطور ويب (تعليم ذاتي، بدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات لشركة عملاقة
 
 
-![HBO كتابة الكود علي السبورة - من وادي السيليكون](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-هذه القائمة الطويلة تم إعدادها من ملاحظات الإعداد لجوجل، لذلك هي الأشياء مطالب بمعرفتها.
-هناك أشياء إضافية أضفتها في آخر القائمة التي ربما تأتي في المقابلة الشخصية أو تساعد في حل المشاكل البرمجية. كتيرا من العناصر من: كتاب ستيف ياج "[احصل على وظيفة بجوجل](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" ومن حين لآخر ملاحظات الإعداد لجوجل.
-لقد قلصت ماستحتاجه من ملاحظات ياج. وقمت بتعديل متطلبات ياج.
-من معلومات تم الحصول عليها من معارفي بجوجل. هذا يعني أنه من **من مهندسين برمجيات جدد** أو من الذين غيروا مسار العمل من تطوير الويب والبرمجيات إلى مهندس برمجيات(حيث علوم الحساب أمر أساسي). لو لديك كتير من سنوات الخبرة في هندسة البرمجيات توقع المقابلة الشخصية الأصعب.
-[اقرأ المزيد](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+تم إعدادها لمهنسي البرمجيات الجدد او أولئك المنتقلين من تطوير الويب إلى هندسة البرمجيات (حيث المعرفة بعلوم الحاسب ضرورية) إذا كان لديك العديد من سنوات الخبرة في بناء تطبيقات الويب أو البرمجيات، خذ في عين الإعتبار ان المقابلة ستكون اصعب
 
-إذا كان لديك العديد من سنوات الخبرة في بناء تطبيقات الويب أو البرمجيات، لاحظ أن رؤية جوجل لهندسة البرمجيات تختلف عن منظور تطوير التطبيقات أو البرمجيات وتطلب معرفة بعلوم الحاسب.
+إذا كانت لديك العديد من سنوات الخبرة في تطوير الويب, خذ في عين الإعتبار أن الشركات االبرمجية الضخمة مثل قوقل, فيسبوك, و ميكروسوفت ينظرون إلى هندسة البرمجيات بشكل مختلف عن تطوير البرمجيات/ويب, و تحتاج إلى معرفة علوم الحاسب
 
-أذا كنت تريد أن تصبح مهندس أنظمة أو مهندس ++، اقرأ المزيد من القائمة الاختيارية عن(شبكات الحاسب، والحماية).
+إذا اردت ان تصبح مهندس موثوقية أو مهندس عمليات, ادرس اكثر من القائمة الإختيارية (شبكات, امن)
 
 ---
 
@@ -48,11 +71,11 @@
 - [عن مصادر الفديو](#about-video-resources)
 - [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#interview-process--general-interview-prep)
 - [اختر لغة برمجية واحدة للمقابلة البرمجية](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [لائحة الكتب](#book-list)
+- [قبل أن تبدأ](#before-you-get-started)
+- [ما لن تجده هنا](#what-you-wont-see-covered)
+- [معرفة مسبقة](#prerequisite-knowledge)
+- [الخطة اليومية](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)

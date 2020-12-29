@@ -316,7 +316,7 @@ Se você tem mais tempo (eu quero esse livro):
 Se você ler um desses, você deverá ter todo conhecimento de estrutura de dados e algoritmos que precisará para começar a resolver problemas de programação. 
 **Você pode pular todas as aulas em vídeo nesse projeto**, a não ser que você queira uma revisão.
 
-[Recursos adicionais específicos a cada linguagem aqui.](programming-language-resources.md)
+[Recursos adicionais específicos a cada linguagem aqui.](/jwasham/coding-interview-university/blob/master/programming-language-resources.md)
 
 ### C++
 

@@ -1284,44 +1284,42 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## [Latihan Pertanyaan Pemrograman
+## Latihan Pertanyaan Pemrograman
 
 Sekarang setelah kamu mengetahui semua topik ilmu komputer di atas, sekarang saatnya berlatih menjawab soal coding.
 
 **Latihan pertanyaan coding bukan tentang menghafal jawaban atas masalah pemrograman.**
 
 Mengapa Anda perlu berlatih mengerjakan soal pemrograman:
-- pengenalan masalah, dan di mana struktur data dan algoritme yang tepat cocok
-- mengumpulkan persyaratan untuk masalah tersebut
-- berbicara melalui masalah seperti yang akan Anda lakukan dalam wawancara
-- coding di papan tulis atau kertas, bukan di komputer
-- hadir dengan kerumitan ruang dan waktu untuk solusi Anda
-- menguji solusi Anda
+- Pengenalan masalah, dan di mana struktur data dan algoritme yang tepat cocok
+- Mengumpulkan persyaratan untuk masalah tersebut
+- Berbicara tentang masalah seperti yang akan Anda lakukan dalam wawancara
+- Coding di papan tulis atau kertas, bukan di komputer
+- Hadir dengan kerumitan ruang dan waktu untuk solusi Anda
+- Menguji solusi Anda
 
-Ada pengantar yang bagus untuk pemecahan masalah metodis dan komunikatif dalam sebuah wawancara. Anda akan mendapatkan ini dari buku wawancara pemrograman juga, tapi saya menemukan ini luar biasa:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+Ada pengantar yang bagus untuk pemecahan masalah metodis dan komunikatif dalam sebuah wawancara.
+Anda juga akan mendapatkan ini dari buku wawancara pemrograman, tetapi menurut saya ini luar biasa:
+[Kanvas desain algoritme](http://www.hiredintech.com/algorithm-design/)
 
-[My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
+Tidak ada papan tulis di rumah? Itu masuk akal. Saya orang aneh dan memiliki papan tulis besar. Alih-alih papan tulis, belilah papan gambar besar dari toko seni. Anda bisa duduk di sofa dan berlatih. Ini adalah "papan tulis sofa" saya.
+Saya menambahkan pena di foto untuk skala. Jika Anda menggunakan pena, Anda pasti berharap dapat menghapusnya. Cepat berantakan. Saya menggunakan pensil dan penghapus.
 
-Tidak ada papan tulis di rumah? Itu masuk akal. Saya orang aneh dan memiliki papan tulis besar. Alih-alih papan tulis, pilih file
-papan gambar besar dari toko seni. Anda bisa duduk di sofa dan berlatih. Ini adalah "papan tulis sofa" saya.
-Saya menambahkan pena di foto untuk skala. Jika Anda menggunakan pena, Anda pasti berharap dapat menghapusnya. Cepat berantakan.
-
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![papan tulis sofa saya](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Tambahan:
 
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
+- [Matematika untuk Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
+- [Pemrograman Dinamis - Dari Pemula hingga Mahir](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Materi Wawancara MIT](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
+- [Latihan untuk menjadi lebih baik pada bahasa tertentu](http://exercism.io/languages)
 
 **Baca dan Lakukan Masalah Pemrograman (dalam urutan ini):**
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+- [ ] [Wawancara Pemrograman Terkena: Rahasia Mendaratkan Pekerjaan Berikutnya Anda, Edisi ke-2](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - jawaban di C, C++ dan Java
+- [ ] [Cracking the Coding Interview, Edisi ke-6](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - jawaban di Java
 
 Lihat [Daftar Buku di atas](#book-list)
 

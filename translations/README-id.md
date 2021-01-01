@@ -84,8 +84,8 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
 - [Latihan Pertanyaan Pemrograman](#latihan-pertanyaan-pemrograman)
 - [Soal-soal Pemrograman](#soal-soal-pemrograman)
 - [Menjelang Proses Interview](#menjelang-proses-interview)
-- [CV Anda](#cv-anda)
-- [Perkirakan Pertanyaan Yang Akan Diajukan](#perkirakan-pertanyaan-yang-akan-diajukan)
+- [Resume Anda](#resume-anda)
+- [Pikirkan saat wawancara datang](#pikirkan-saat-wawancara-datang)
 - [Bertanyalah Pada Pewawancara](#bertanyalah-pada-pewawancara)
 - [Saat Anda Berhasil Mendapatkan Pekerjaannya](#saat-anda-berhasil-mendapatkan-pekerjaannya)
 
@@ -95,21 +95,22 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
 - [Materi Tambahan](#materi-tambahan)
     - [Pemrograman Dinamis](#pemrograman-dinamis)
     - [Kompilator](#kompilator)
-    - [Bilangan Titik Mengambang](#bilangan-titik-mengambang)
+    - [Angka Titik Mengambang](#angka-titik-mengambang)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Teori Informasi](#teori-informasi)
+    - [Teori Informasi](#teori-informasi-video)
     - [Pariti & Kode Hamming](#pariti--kode-hamming)
     - [Entropi](#entropi)
     - [Kriptografi](#kriptografi)
     - [Kompresi](#kompresi)
     - [Jaringan](#jaringan) (bersiaplah mendapatkan pertanyaan jaringan apabila anda ingin menjadi system engineer)
-    - [Sekuritas Komputer](#sekuritas-komputer)
+    - [Keamanan komputer](#keamanan-komputer)
     - [Garbage collection](#garbage-collection)
     - [Pemrograman Paralel](#pemrograman-paralel)
     - [Pengiriman Pesan, Serialisasi, dan Sistem Queueing](#pengiriman-pesan-serialisasi-dan-sistem-queueing)
+    - [A*](#a)
     - [Fast Fourier Transform](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
@@ -137,9 +138,11 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
     - [Matematika Diskrit](#matematika-diskrit)
     - [Pembelajaran Mesin](#pembelajaran-mesin)
     - [Go](#go)
-- [Detil Tambahan pada Beberapa Subjek](#detil-tambahan-pada-beberapa-subjek)
+- [Detail Tambahan tentang Beberapa Subjek](#detail-tambahan-tentang-beberapa-subjek)
 - [Seri Video](#seri-video)
 - [Kursus Ilmu Komputer](#kursus-ilmu-komputer)
+- [Implementasi Algoritma](#implementasi-algoritma)
+- [Dokumen](#dokumen)
 
 ---
 
@@ -1102,15 +1105,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+- ### Penjadwalan
+    - di OS, cara kerjanya
+    - dapat diperoleh dari video Sistem Operasi
 
-- ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+- ### Implementasi Rutinitas Sistem
+    - memahami apa yang ada di bawah API pemrograman yang Anda gunakan
+    - bisakah kamu menerapkannya?
 
-- ### String searching & manipulations
+- ### Pencarian String & Manipulasi
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
         - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
@@ -1120,29 +1123,27 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    Jika Anda membutuhkan detail lebih lanjut tentang subjek ini, lihat bagian "String Matching" di [Detail Tambahan pada Beberapa Subjek](#additional-detail-on-some-subjects)
 
 ---
 
-## System Design, Scalability, Data Handling
-- **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this.
-- Considerations from Yegge:
-    - scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - system design
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
-- [ ] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+## Perancangan Sistem, Skalabilitas, Penganganan Data
+- **Anda dapat mengharapkan pertanyaan desain sistem jika Anda memiliki pengalaman 4+ tahun.**
+- Skalabilitas dan Desain Sistem adalah topik yang sangat besar dengan banyak topik dan sumber daya, karena ada banyak hal yang perlu dipertimbangkan saat merancang sistem perangkat lunak / perangkat keras yang dapat diskalakan. Berharap untuk meluangkan sedikit waktu untuk ini.
+- Pertimbangan dari Yegge:
+    - skalabilitas
+        - Saring kumpulan data besar menjadi nilai tunggal
+        - Ubah satu kumpulan data ke kumpulan lainnya
+        - Menangani data dalam jumlah yang sangat besar
+    - desain sistem (system design)
+        - set fitur (features sets)
+        - antarmuka (interfaces)
+        - hierarki kelas (class hierarchies)
+        - merancang sistem di bawah batasan tertentu
+        - kesederhanaan dan ketahanan
+        - pengorbanan (tradeoffs)
+        - analisis dan pengoptimalan kinerja
+- [ ] **MULAI DI SINI**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
@@ -1159,7 +1160,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
-- [ ] Scalability:
+- [ ] Skalabilitas:
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
     - [ ] Short series:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
@@ -1215,29 +1216,29 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the Video Series section.
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - Untuk informasi lebih lanjut, lihat seri video "Menambang Kumpulan Data Besar-besaran (Mining Massive Datasets)" di bagian Seri Video.
+- [ ] Mempraktikkan proses desain sistem: Berikut adalah beberapa ide untuk dicoba di atas kertas, masing-masing dengan beberapa dokumentasi tentang bagaimana hal itu ditangani di dunia nyata:
+    - ulasan: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - define the use cases, with interviewer's help
-            - suggest additional features
-            - remove items that interviewer deems out of scope
-            - assume high availability is required, add as a use case
-        2. Think about constraints:
-            - ask how many requests per month
-            - ask how many requests per second (they may volunteer it or make you do the math)
-            - estimate reads vs. writes percentage
-            - keep 80/20 rule in mind when estimating
-            - how much data written per second
-            - total storage required over 5 years
-            - how much data read per second
-        3. Abstract design:
-            - layers (service, data, caching)
-            - infrastructure: load balancing, messaging
-            - rough overview of any key algorithm that drives the service
-            - consider bottlenecks and determine solutions
+    - aliran:
+        1. Pahami masalah dan cakupannya:
+            - tentukan kasus penggunaan, dengan bantuan pewawancara
+            - menyarankan fitur tambahan
+            - hapus item yang dianggap pewawancara di luar jangkauan
+            - asumsikan ketersediaan tinggi diperlukan, tambahkan sebagai kasus penggunaan
+        2. Pikirkan tentang kendala:
+            - tanyakan berapa permintaan per bulan
+            - tanyakan berapa banyak permintaan per detik (mereka mungkin mengajukannya secara sukarela atau meminta Anda menghitungnya)
+            - memperkirakan persentase membaca vs menulis
+            - ingat aturan 80/20 saat membuat estimasi
+            - berapa banyak data yang ditulis per detik
+            - total penyimpanan yang dibutuhkan selama 5 tahun
+            - berapa banyak data yang dibaca per detik
+        3. Desain abstrak:
+            - lapisan (layanan, data, caching)
+            - infrastruktur: load balancing, perpesanan
+            - gambaran kasar dari setiap algoritma kunci yang menggerakkan layanan
+            - pertimbangkan kemacetan dan tentukan solusinya
     - Exercises:
         - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
@@ -1250,10 +1251,10 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## Final Review
+## Ulasan Akhir
 
-    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    Bagian ini akan memiliki video pendek yang dapat Anda tonton dengan cukup cepat untuk meninjau sebagian besar konsep penting.
+    Sangat menyenangkan jika Anda sering ingin penyegaran.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
@@ -1288,57 +1289,56 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## Coding Question Practice
+## [Latihan Pertanyaan Pemrograman
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Sekarang setelah kamu mengetahui semua topik ilmu komputer di atas, sekarang saatnya berlatih menjawab soal coding.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Latihan pertanyaan coding bukan tentang menghafal jawaban atas masalah pemrograman.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+Mengapa Anda perlu berlatih mengerjakan soal pemrograman:
+- pengenalan masalah, dan di mana struktur data dan algoritme yang tepat cocok
+- mengumpulkan persyaratan untuk masalah tersebut
+- berbicara melalui masalah seperti yang akan Anda lakukan dalam wawancara
+- coding di papan tulis atau kertas, bukan di komputer
+- hadir dengan kerumitan ruang dan waktu untuk solusi Anda
+- menguji solusi Anda
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+Ada pengantar yang bagus untuk pemecahan masalah metodis dan komunikatif dalam sebuah wawancara. Anda akan mendapatkan ini dari buku wawancara pemrograman juga, tapi saya menemukan ini luar biasa:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
 [My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+Tidak ada papan tulis di rumah? Itu masuk akal. Saya orang aneh dan memiliki papan tulis besar. Alih-alih papan tulis, pilih file
+papan gambar besar dari toko seni. Anda bisa duduk di sofa dan berlatih. Ini adalah "papan tulis sofa" saya.
+Saya menambahkan pena di foto untuk skala. Jika Anda menggunakan pena, Anda pasti berharap dapat menghapusnya. Cepat berantakan.
 
 ![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+Tambahan:
 
 - [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**Baca dan Lakukan Masalah Pemrograman (dalam urutan ini):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - answers in C, C++ and Java
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
-See [Book List above](#book-list)
+Lihat [Daftar Buku di atas](#book-list)
 
-## Coding exercises/challenges
+## Soal-soal Pemrograman
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Setelah Anda mempelajari otak Anda, gunakan otak itu untuk bekerja.
+Ambil tantangan pengkodean setiap hari, sebanyak yang Anda bisa.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Challenge sites:
+Situs tantangan:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1352,52 +1352,52 @@ Challenge sites:
 Maybe:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
 
-## Once you're closer to the interview
+## Menjelang Proses Interview
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
+- [ ] Cracking The Coding Interview Set 2 (video):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## Resume Anda
 
 - [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- Lihat Lanjutkan item persiapan di Cracking The Coding Interview dan bagian belakang Wawancara Pemrograman Terkena
 
 
-## Be thinking of for when the interview comes
+## Pikirkan saat wawancara datang
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+Pikirkan sekitar 20 pertanyaan wawancara yang akan Anda dapatkan, bersama dengan baris item di bawah ini. Miliki 2-3 jawaban untuk masing-masing.
+Memiliki cerita, bukan hanya data, tentang sesuatu yang Anda capai.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Mengapa Anda menginginkan pekerjaan ini?
+- Apa masalah sulit yang telah Anda selesaikan?
+- Tantangan terbesar yang dihadapi?
+- Desain terbaik / terburuk terlihat?
+- Ide untuk meningkatkan produk Google yang sudah ada.
+- Bagaimana Anda bekerja dengan baik, sebagai individu dan sebagai bagian dari tim?
+- Keterampilan atau pengalaman mana yang akan menjadi aset dalam peran tersebut dan mengapa?
+- Apa yang paling Anda nikmati di [job x / project y]?
+- Apa tantangan terbesar yang Anda hadapi di [pekerjaan x / proyek y]?
+- Bug tersulit apa yang Anda hadapi di [pekerjaan x / proyek y]?
+- Apa yang Anda pelajari di [pekerjaan x / proyek y]?
+- Apa yang akan Anda lakukan lebih baik di [pekerjaan x / proyek y]?
 
-## Have questions for the interviewer
+## Bertanyalah Pada Pewawancara
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Beberapa milik saya (saya mungkin sudah tahu jawaban tetapi ingin pendapat atau perspektif tim mereka):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- Seberapa besar tim Anda?
+- Seperti apa siklus pengembang Anda? Apakah Anda melakukan waterfall / sprint / agile?
+- Apakah terburu-buru ke tenggat waktu biasa terjadi? Atau apakah ada fleksibilitas?
+- Bagaimana keputusan dibuat dalam tim Anda?
+- Berapa banyak pertemuan yang Anda lakukan per minggu?
+- Apakah Anda merasa lingkungan kerja membantu Anda berkonsentrasi?
+- Apa yang sedang kamu kerjakan?
+- Apa yang Anda suka tentang itu?
+- Seperti apa kehidupan kerja?
 
-## Once You've Got The Job
+## Saat Anda Berhasil Mendapatkan Pekerjaannya
 
 Congratulations!
 
@@ -1421,7 +1421,7 @@ You're never really done.
 
 ---
 
-## Additional Books
+## Buku Tambahan
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
     - an oldie but a goodie
@@ -1437,11 +1437,11 @@ You're never really done.
     - [Site Reliability Engineering: How Google Runs Production Systems](https://landing.google.com/sre/)
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-## Additional Learning
+## Materi Tambahan
 
-- ### Dynamic Programming
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
+- ### Pemrograman Dinamis
+    - Subjek ini bisa jadi sangat sulit, karena setiap masalah yang dapat diselesaikan dalam Pemrograman Dinamis harus didefinisikan sebagai relasi rekursi, dan menyelesaikannya bisa rumit.
+    - Saya sarankan untuk melihat banyak contoh masalah Pemrograman Dinamis sampai Anda memiliki pemahaman yang kuat tentang pola yang terlibat.
     - [ ] Videos:
         - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
@@ -1470,7 +1470,7 @@ You're never really done.
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
     - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
-- ### Floating Point Numbers
+- ### Angka Titik Mengambang
     - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
@@ -1520,7 +1520,7 @@ You're never really done.
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Teori informasi (video)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] more about Markov processes:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1528,7 +1528,7 @@ You're never really done.
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - See more in MIT 6.050J Information and Entropy series below.
 
-- ### Parity & Hamming Code (videos)
+- ### Pariti & Kode Hamming
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - [ ] Hamming Code:
@@ -1536,20 +1536,20 @@ You're never really done.
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Entropi
+    - lihat juga video di bawah ini
+    - pastikan untuk menonton video teori informasi terlebih dahulu
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### Kriptografi
+    - lihat juga video di bawah ini
+    - pastikan untuk menonton video teori informasi terlebih dahulu
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - make sure to watch information theory videos first
+- ### Kompresi
+    - pastikan untuk menonton video teori informasi terlebih dahulu
     - [ ] Computerphile (videos):
         - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
@@ -1560,8 +1560,8 @@ You're never really done.
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
+- ### Jaringan
+    - **jika Anda memiliki pengalaman jaringan atau ingin menjadi insinyur sistem, tunggu pertanyaan**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
@@ -1574,7 +1574,7 @@ You're never really done.
     - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
-- ### Computer Security
+- ### 
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1595,11 +1595,11 @@ You're never really done.
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
+- ### Pemrograman Paralel
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
+- ### Pengiriman Pesan, Serialisasi, dan Sistem Queueing
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1842,141 +1842,198 @@ You're never really done.
 
 --
 
-## Additional Detail on Some Subjects
+## Detail Tambahan tentang Beberapa Subjek
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+    Saya menambahkan ini untuk memperkuat beberapa ide yang sudah disajikan di atas, tetapi tidak ingin memasukkannya di atas karena terlalu banyak. Sangat mudah untuk melakukannya secara berlebihan pada suatu subjek.
+    Anda ingin dipekerjakan di abad ini, bukan?
 
-- [ ] **Union-Find**
-    - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [ ] [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [ ] [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+- **SOLID**   
+    - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+    - [ ] S - [Single Responsibility Principle (Prinsip Tanggung Jawab Tunggal)](http://www.oodesign.com/single-responsibility-principle.html) | [Tanggung jawab tunggal untuk setiap Objek](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+        - [lebih banyak rasa](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+    - [ ] O - [Open/Closed Principle (Prinsip Terbuka / Tertutup)](http://www.oodesign.com/open-close-principle.html)  | [Pada tingkat produksi, Objek siap untuk ekstensi tetapi tidak untuk modifikasi](https://en.wikipedia.org/wiki/Open/closed_principle)
+        - [lebih banyak rasa](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+    - [ ] L - [Liskov Substitution Principle (Prinsip Substitusi Liskov)](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Class Dasar dan Class Turunan mengikuti prinsip 'IS A'](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+        - [lebih banyak rasa](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+    - [ ] I - [Interface segregation principle (Prinsip pemisahan antarmuka)](http://www.oodesign.com/interface-segregation-principle.html) | klien tidak boleh dipaksa untuk mengimplementasikan antarmuka yang tidak mereka gunakan
+        - [Prinsip Pemisahan Antarmuka dalam 5 menit (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+        - [lebih banyak rasa](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+    - [ ] D - [Dependency Inversion principle (Prinsip Ketergantungan Inversi)](http://www.oodesign.com/dependency-inversion-principle.html) | Kurangi dependency dalam komposisi objek.
+        - [Mengapa Prinsip Pembalikan Ketergantungan Dan Mengapa Itu Penting](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+        - [lebih banyak rasa](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
-- [ ] **More Dynamic Programming** (videos)
-    - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
-    - [ ] [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
-    - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
-    - [ ] [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
-    - [ ] [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] **Advanced Graph Processing** (videos)
-    - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
-    - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
+- **Union-Find**
+    - [Gambaran](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
+    - [Implementasi yang Naif](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
+    - [Pohon](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
+    - [Union Berdasarkan Pangkat](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
+    - [Kompresi Jalur](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
+    - [Opsi Analisis](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- [ ] MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
-    - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Variables](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
-    - [ ] [MIT 6.042J - Expectation I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Expectation II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
+- **Lebih banyak Pemrograman Dinamis** (videos)
+    - [6.006: Pemrograman Dinamis I: Fibonacci, Jalur Terpendek](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
+    - [6.006: Pemrograman Dinamis II: Justifikasi Teks, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+    - [6.006: DP III: Tanda kurung, Edit Jarak, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+    - [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [6.046: Pemrograman Dinamis & DP Lanjutan](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [6.046: Pemrograman Dinamis: Jalur Terpendek Semua Pasangan](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
+    - [6.046: Pemrograman Dinamis (pengkajian siswa)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+- **Pemrosesan Graph Lanjutan** (video)
+    - [Algoritma Terdistribusi Sinkron: Pemutusan Simetri. Jalur Terpendek yang Merentangkan Pohon](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
+    - [Algoritma Terdistribusi Asynchronous: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] **String Matching**
-    - [ ] Rabin-Karp (videos):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
-        - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
-        - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
-    - [ ] Knuth-Morris-Pratt (KMP):
-        - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
-    - [ ] Boyer–Moore string search algorithm
-        - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
-        - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
-    - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
-        - starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
-        - nice explanation of tries
-        - can be skipped
+- MIT **Probabilitas** (matematika, dan lakukan perlahan, yang bagus untuk hal-hal matematika) (video):
+    - [MIT 6.042J - Pengenalan Probabilitas](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Probabilitas Bersyarat](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
+    - [DENGAN 6.042J - Kemerdekaan](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Variabel Acak](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
+    - [MIT 6.042J - Harapan I.](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Harapan II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Penyimpangan Besar](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Jalan Acak](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
 
-- [ ] **Sorting**
+- [Simonson: Algoritma Perkiraan (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
 
-    - [ ] Stanford lectures on sorting:
-        - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
-    - [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):
-        - [ ] [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
-        - [ ] [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
-    - [ ] Steven Skiena lectures on sorting:
-        - [ ] [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
-        - [ ] [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
+- **Pencocokan String**
+    - Rabin-Karp (videos):
+        - [Algoritma Rabin Karps](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
+        - [Prekomputasi](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
+        - [Optimasi: Implementasi dan Analisis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Penggandaan Meja, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
+        - [Rolling Hashes, Analisis Amortisasi](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
+    - Knuth-Morris-Pratt (KMP):
+        - [Algoritma Pencocokan String Knuth-Morris-Pratt (KMP)](https://www.youtube.com/watch?v=5i7oKodCRJo)
+    - Algoritma pencarian string Boyer – Moore
+        - [Algoritma Pencarian String Boyer-Moore](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
+        - [Algoritma Boyer-Moore-Horspool Pencarian String Lanjutan (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
+    - [Coursera: Algoritma pada String](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
+        - dimulai dengan baik, tetapi pada saat melewati KMP, hal itu menjadi lebih rumit dari yang seharusnya
+        - penjelasan yang bagus tentang percobaan
+        - bisa dilewati
 
-## Video Series
+- **Penyortiran**
 
-Sit back and enjoy. "Netflix and skill" :P
+    - Kuliah Stanford tentang penyortiran:
+        - [Kuliah 15 | Abstraksi Pemrograman (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
+        - [Kuliah 16 | Abstraksi Pemrograman (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
+    - Shai Simonson, [Aduni.org](http://www.aduni.org/):
+        - [Algoritma - Sortasi - Kuliah 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
+        - [Algoritma - Sorting II - Kuliah 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+    - Steven Skiena memberi kuliah tentang penyortiran:
+        - [kuliah dimulai pada 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+        - [kuliah dimulai pada 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [kuliah dimulai pada 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [kuliah dimulai pada 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-- [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+## Seri Video
 
-- [ ] [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
+Duduk dan nikmati. "Netflix dan keterampilan": P
 
-- [ ] [MIT 18.06 Linear Algebra, Spring 2005 (35 videos)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+- [Daftar masalah Pemrograman Dinamis individu (masing-masing pendek)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
-- [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
+- [x86 Arsitektur, Perakitan, Aplikasi (11 video)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
 
-- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
+- [MIT 18.06 Linear Aljabar, Musim Semi 2005 (35 video)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [Luar Biasa - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
+- [Ilmu Komputer 70, 001 - Musim Semi 2015 - Matematika Diskrit dan Teori Probabilitas](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [ ] CSE373 - Analysis of Algorithms (25 videos)
-    - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
+- [Matematika Diskrit oleh Shai Simonson (19 video)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 
-- [ ] [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+- [Matematika Diskrit Bagian 1 oleh Sarada Herke (5 video)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
-- [ ] [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C)
+- CSE373 - Analysis of Algorithms (25 videos)
+    - [Kuliah Skiena dari Algoritma Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
-- [ ] [UC Berkeley 61C: Machine Structures (26 videos)](https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
+- [UC Berkeley 61B (Musim Semi 2014): Struktur Data (25 video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
 
-- [ ] [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+- [UC Berkeley 61B (Musim Gugur 2006): Struktur Data (39 video)](https://archive.org/details/ucberkeley-webcast-PL4BBB74C7D2A1049C)
 
-- [ ] [UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)
+- [UC Berkeley 61C: Struktur Mesin (26 video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
 
-- [ ] [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- [OOSE: Software Dev Menggunakan UML dan Java (21 video)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 
-- [ ] [Carnegie Mellon - Computer Architecture Lectures (39 videos)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
+- ~~ [UC Berkeley CS 152: Arsitektur dan Teknik Komputer (20 video)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)~~
 
-- [ ] [MIT 6.006: Intro to Algorithms (47 videos)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
+- [MIT 6.004: Struktur Komputasi (49 video)](https://www.youtube.com/playlist?list=PLDSlqjcPpoL64CJdF0Qee5oWqGS6we_Yu)
 
-- [ ] [MIT 6.033: Computer System Engineering (22 videos)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
+- [Carnegie Mellon - Kuliah Arsitektur Komputer (39 video)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
 
-- [ ] [MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
+- [MIT 6.006: Pengantar Algoritma (47 video)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
 
-- [ ] [MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
+- [MIT 6.033: Teknik Sistem Komputer (22 video)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
 
-- [ ] [MIT 6.046: Design and Analysis of Algorithms (34 videos)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [MIT 6.034 Artificial Intelligence, Fall 2010 (30 video)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
 
-- [ ] [MIT 6.050J: Information and Entropy, Spring 2008 (19 videos)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
+- [MIT 6.042J: Matematika untuk Ilmu Komputer, Musim Gugur 2010 (25 video)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
 
-- [ ] [MIT 6.851: Advanced Data Structures (22 videos)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+- [MIT 6.046: Desain dan Analisis Algoritma (34 video)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- [ ] [MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+- [MIT 6.050J: Information and Entropy, Spring 2008 (19 video)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
 
-- [ ] [Harvard COMPSCI 224: Advanced Algorithms (25 videos)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+- [MIT 6.851: Struktur Data Lanjutan (22 video)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 
-- [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [MIT 6.854: Algoritma Lanjutan, Musim Semi 2016 (24 video)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Harvard COMPSCI 224: Algoritma Lanjutan (25 video)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
 
-- [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
-    - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
+- [MIT 6.858 Computer Systems Security, Musim Gugur 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
+- [Stanford: Paradigma Pemrograman (27 video)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
 
-- [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
+- [Pengantar Kriptografi oleh Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
+    - [Situs Kursus bersama dengan Slide dan Kumpulan Soal](http://www.crypto-textbook.com/)
 
-## Computer Science Courses
+- [Menambang Kumpulan Data Besar-besaran - Universitas Stanford (94 video)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
 
-- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
-- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
+- [Teori Grafik oleh Sarada Herke (67 video)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
+
+## Kursus Ilmu Komputer
+
+- [Direktori Kursus CS Online](https://github.com/open-source-society/computer-science)
+- [Direktori Kursus CS (banyak dengan kuliah online)](https://github.com/prakhar1989/awesome-courses)
+
+## Implementasi Algoritma
+
+- [Implementasi Berbagai Algoritma oleh Princeton University)](https://algs4.cs.princeton.edu/code)
+
+## Dokumen
+
+- [Suka makalah klasik?](https://www.cs.cmu.edu/~crary/819-f09/)
+- [1978: Mengkomunikasikan Proses Berurutan](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+    - [implementasi di Go](https://godoc.org/github.com/thomas11/csp)
+- [2003: Sistem Berkas Google](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+    - digantikan oleh Colossus pada tahun 2012
+- [2004: MapReduce: Pemrosesan Data yang Disederhanakan pada Kluster Besar](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+    - kebanyakan digantikan oleh Cloud Dataflow?
+- [2006: Bigtable: Sistem Penyimpanan Terdistribusi untuk Data Terstruktur](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+    - [Melihat ke dalam Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
+- [2006: Layanan Chubby Lock untuk Sistem Terdistribusi yang Dirangkai Secara Longgar](https://research.google.com/archive/chubby-osdi06.pdf)
+- [2007: Dynamo: Toko Nilai Kunci Amazon yang Sangat Tersedia](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+    - Makalah Dynamo memulai revolusi NoSQL
+- [2007: Yang Harus Diketahui Setiap Programmer Tentang Memori (sangat panjang, dan penulis mendorong untuk melewatkan beberapa bagian)](https://www.akkadia.org/drepper/cpumemory.pdf)
+- [2010: Dapper, Infrastruktur Pelacakan Sistem Terdistribusi Skala Besar](https://research.google.com/pubs/archive/36356.pdf)
+- [2010: Dremel: Analisis Interaktif Kumpulan Data Skala Web](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
+- [2012: Colossus Google](https://www.wired.com/2012/07/google-colossus/)
+    - kertas tidak tersedia
+- 2012: AddressSanitizer: A Fast Address Sanity Checker:
+    - [kertas](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+    - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+- 2013: Spanner: Google’s Globally-Distributed Database:
+    - [kertas](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+    - [video](https://www.usenix.org/node/170855)
+- [2014: Pembelajaran Mesin: Kartu Kredit Berbunga Tinggi dari Hutang Teknis](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+- [2015: Continuous Pipelines di Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
+- [2015: Ketersediaan Tinggi dalam Skala Besar: Membangun Infrastruktur Data Google untuk Iklan](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+- [2015: TensorFlow: Machine Learning Skala Besar pada Sistem Terdistribusi Heterogen](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+- [2015: Bagaimana Pengembang Menelusuri Kode: Studi Kasus](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+- [2016: Borg, Omega, dan Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+
+## LICENSE
+
+[CC-BY-SA-4.0](../LICENSE.txt)
+
+Terjemahan Bahasa Indonesia oleh  @[hexatester](https://github.com/hexatester), @[santosomichael](https://github.com/santosomichael), @[dikiaap](https://github.com/dikiaap), @[rvlewerissa](https://github.com/rvlewerissa), @[ziishaned](https://github.com/ziishaned), @[rimonmostafiz](https://github.com/rimonmostafiz), @[hwhung0111](https://github.com/hwhung0111), @[fahminlb33](https://github.com/fahminlb33), @[davidsetyanugraha](https://github.com/davidsetyanugraha)

@@ -1394,22 +1394,21 @@ Memiliki cerita, bukan hanya data, tentang sesuatu yang Anda capai.
 
 ## Saat Anda Berhasil Mendapatkan Pekerjaannya
 
-Congratulations!
+Selamat!
 
-- [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+Terus belajar.
 
-Keep learning.
-
-You're never really done.
+Anda tidak pernah benar-benar selesai.
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+    Segala sesuatu di bawah poin ini bersifat opsional. Ini adalah rekomendasi saya, bukan Google.
+    Dengan mempelajari ini, Anda akan mendapatkan eksposur yang lebih besar ke lebih banyak konsep CS,
+    dan akan lebih siap untuk pekerjaan rekayasa perangkat lunak apa pun.
+    Anda akan menjadi insinyur perangkat lunak yang jauh lebih berpengalaman.
 
     *****************************************************************************************************
     *****************************************************************************************************

@@ -82,7 +82,7 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
 - [Perancangan Sistem, Skalabilitas, Penganganan Data](#perancangan-sistem-skalabilitas-penanganan-data) (jika anda memiliki pengalaman 4 tahun lebih)
 - [Ulasan Akhir](#ulasan-akhir)
 - [Latihan Pertanyaan Pemrograman](#latihan-pertanyaan-pemrograman)
-- [Soal-soal Pemrograman](#soal-soal-pemrograman)
+- [Latihan / tantangan coding](#latihan--tantangan-coding)
 - [Menjelang Proses Interview](#menjelang-proses-interview)
 - [Resume Anda](#resume-anda)
 - [Pikirkan saat wawancara datang](#pikirkan-saat-wawancara-datang)
@@ -1325,40 +1325,61 @@ Tambahan:
 
 Lihat [Daftar Buku di atas](#book-list)
 
-## Soal-soal Pemrograman
+## Latihan / tantangan coding
 
 Setelah Anda mempelajari otak Anda, gunakan otak itu untuk bekerja.
 Ambil tantangan pengkodean setiap hari, sebanyak yang Anda bisa.
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [Bagaimana Menemukan Solusi](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+- [Cara Membedah Pernyataan Masalah Topcoder](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
+
+Video Pertanyaan Wawancara Coding:
+- [IDeserve (88 video)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlist)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Super for walkthroughs of problem solutions
+- [Nick White - LeetCode Solutions (187 Video)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Good explanations of solution and the code
+    - You can watch several in a short time
+- [FisherCoder - Solusi LeetCode](https://youtube.com/FisherCoder)
 
 Situs tantangan:
 - [LeetCode](https://leetcode.com/)
-- [TopCoder](https://www.topcoder.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
-- [Codewars](http://www.codewars.com)
+    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing
+    - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode) 
+    - See Nick White Videos above for short code-throughs
 - [HackerRank](https://www.hackerrank.com/)
-- [Codility](https://codility.com/programmers/)
+- [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
+- [Code Exercises](https://code-exercises.com)
 
-Maybe:
-- [Mock interviewers from big companies](http://www.gainlo.co/)
+Situs pembelajaran bahasa, dengan tantangan:
+- [Codewars](http://www.codewars.com)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
+- [Sphere Online Judge (spoj)](http://www.spoj.com/)
+- [Codechef](https://www.codechef.com/)
+
+Repo tantangan:
+- [Tantangan Interview Coding Interaktif dengan Python](https://github.com/donnemartin/interactive-coding-challenges)
+
+Wawancara Mock:
+- [Gainlo.co: Mock pewawancara dari perusahaan besar](http://www.gainlo.co/) - Saya menggunakan ini dan itu membantu saya bersantai untuk layar ponsel dan wawancara di tempat
+- [Pramp: Wawancara mengejek dari / dengan teman sebaya](https://www.pramp.com/) - model wawancara praktik peer-to-peer
+- [Refdash: Wawancara tiruan dan wawancara yang dipercepat](https://refdash.com/) - juga membantu kandidat mempercepat dengan melewatkan beberapa wawancara dengan perusahaan teknologi
+- [interviewing.io: Berlatih wawancara tiruan dengan insinyur senior](https://interviewing.io) - wawancara desain algoritme / sistem tanpa nama dengan insinyur senior dari FAANG secara anonim.
 
 ## Menjelang Proses Interview
 
-- [ ] Cracking The Coding Interview Set 2 (video):
-    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
-    - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
+- Memecahkan Wawancara Coding 2 Set (video):
+    - [Memecahkan Wawancara Coding](https://www.youtube.com/watch?v=4NIb9l3imAo)
+    - [Memecahkan Wawancara Coding - Seri Speaker Fullstack](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
 ## Resume Anda
 
-- [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
 - Lihat Lanjutkan item persiapan di Cracking The Coding Interview dan bagian belakang Wawancara Pemrograman Terkena
-
 
 ## Pikirkan saat wawancara datang
 

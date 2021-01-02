@@ -1,24 +1,19 @@
 # Coding Interview University
 
-Version original: [Bahasa Inggris](README.md)
+Versi asli: [Bahasa Inggris](../README.md)
 
 ## Ringkasan apa ini?
 
-Ini adalah ringkasan studi saya selama beberapa bulan dari web developer (otodidak, tanpa gelar sarjana informatika) hingga menjadi *software engineer Google*.
+Ini adalah rencana studi multi-bulan saya untuk beralih dari pengembang web (otodidak, tanpa gelar Ilmu Komputer) menjadi insinyur perangkat lunak untuk perusahaan besar.
 
 ![Menulis kode di papan tulis - dikutip dari serial TV Silicon Valley oleh HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Saya telah mengupas catatan **Google's Coaching Note** dan berikut adalah hal-hal penting dari catatan tersebut. Ada beberapa poin yang saya tambahkan pada bagian akhir yang mungkin muncul dalam wawancara atau dapat berguna dalam proses penyelesaian masalah.
-Banyak poin berasal dari artikel Steve Yegge "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)"  yang berisi poin-poin dari **Google's Coaching Note**.
+Ini dimaksudkan untuk **teknisi perangkat lunak baru** atau mereka yang beralih dari pengembangan perangkat lunak/web ke rekayasa perangkat lunak (yang memerlukan pengetahuan ilmu komputer).
+Jika Anda memiliki pengalaman bertahun-tahun dan mengklaim pengalaman rekayasa perangkat lunak bertahun-tahun, nantikan wawancara yang lebih sulit.
 
-Saya sudah meringkas poin-poin penting menurut saran dari Yegge. Saya juga mengubah beberapa rekomendasinya berdasarkan informasi yang saya dapatkan dari kontak saya di Google. Pedoman ini ditujukan untuk *software engineer* baru dan mereka yang ingin beralih profesi dari *web developer* menjadi *software engineer* (dimana ilmu komputer diperlukan). 
+Jika Anda memiliki pengalaman pengembangan perangkat lunak/web selama bertahun-tahun, perhatikan bahwa perusahaan perangkat lunak besar seperti Google, Amazon, Facebook, dan Microsoft memandang rekayasa perangkat lunak berbeda dari pengembangan perangkat lunak/web, dan mereka memerlukan pengetahuan ilmu komputer.
 
-Jika Anda mengaku memiliki pengalaman bertahun-tahun dalam rekayasa perangkat lunak, bersiaplah untuk wawncara yang jauh lebih sulit.
-[Baca lebih lanjut](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
-
-Jika Anda memiliki pengalaman sebagai developer software/web, catat bahwa Google memandang *software engineer* berbeda dari *developer software/web* karena *software engineer* menggunakan ilmu komputer.
-
-Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih banyak pelajari pada bagian tambahan (jaringan, keamanan).
+Jika Anda ingin menjadi insinyur keandalan atau insinyur operasi, pelajari lebih lanjut dari daftar opsional (jaringan, keamanan).
 
 ---
 
@@ -27,9 +22,7 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
 - [Apa ini?](#ringkasan-apa-ini)
 - [Mengapa menggunakan ini?](#mengapa-menggunakan-ini)
 - [Bagaimana cara menggunakannya](#bagaimana-cara-menggunakannya)
-- [Masuk ke Mode Googley](#masuk-ke-mode-googley)
 - [Jangan merasa anda kurang pintar](#jangan-merasa-anda-kurang-pintar)
-- [Tentang Google](#tentang-google)
 - [Tentang Sumber Video](#tentang-sumber-video)
 - [Proses Interview dan Preparasi Wawancara Secara Umum](#proses-interview-dan-preparasi-wawancara-secara-umum)
 - [Pilih Satu Bahasa Pemrograman untuk Wawancara](#pilih-satu-bahasa-pemrograman-untuk-wawancara)
@@ -147,10 +140,7 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
 
 Saya mengikuti rencana ini untuk mempersiapkan saya dalam menghadapi wawancara kerja Google. Sejak 1997, saya telah menciptakan berbagai situs, servis, dan mendirikan startup. Saya memiliki gelar ekonomi, bukan gelar ilmu komputer. Saya telah meraih kesuksesan dalam karir saya, tapi saya ingin bekerja di Google. Saya ingin masuk ke sistem yang lebih besar dan mempunyai pemahaman mendalam tentang sistem komputer, efesiensi algoritma, performa struktur data, bahasa tingkat rendah, dan bagaimana semuanya bekerja. Jika anda tidak mengetahui satu pun, Google tidak akan mempekerjakan anda.
 
-Ketika saya memulai proyek ini, saya tidak tahu tentang stack dari sebuah heap, tidak tahu tentang notasi Big-O apapun, begitupula dengan struktur data trees, atau bagaimana menyusuri sebuah graph. Jika saya harus menulis algoritma penyortiran, saya bisa katakan pada anda bahwa hasilnya tidak akan memuaskan.
-Setiap struktur data yang saya pernah pakai sudah tertanam dalam bahasa yang saya gunakan, dan saya tidak tahu bagaimana mereka bekerja secara riil. Saya tidak pernah diharuskan untuk mengatur penggunaan memori kecuali proses yang saya jalankan akan memberikan error 'memori tidak cukup', sehingga saya harus mencari jalan keluarnya. Saya pernah menggunakan beberapa array multidimensi dalam hidup saya dan ribuan array asosiatif, tapi saya tidak pernah menciptakan struktur data dari nol.
-
-Tetapi setelah menjalani rencana studi ini saya memiliki kepercayaan diri yang tinggi bahwa saya akan diterima. Ini adalah rencana yang panjang. Ini akan menyita waktu saya selama berbulan-bulan. Tetapi jika anda sudah tidak asing lagi dengan materi yang dibutuhkan, hal ini akan membutuhkan waktu jauh lebih sedikit.
+Itu rencana yang panjang. Mungkin butuh waktu berbulan-bulan. Jika Anda sudah terbiasa dengan hal ini, Anda akan membutuhkan lebih sedikit waktu.
 
 ## Bagaimana cara menggunakannya?
 
@@ -173,7 +163,7 @@ Saya menggunakan markdown spesial dari Github, termasuk daftar tugas untuk menge
 
 `git add . `
 
-`git commit -m "Marked x" `
+`git commit -m "Tandai x" `
 
 `git rebase jwasham/master `
 
@@ -181,33 +171,10 @@ Saya menggunakan markdown spesial dari Github, termasuk daftar tugas untuk menge
 
 [Lebih jauh tentang markdown Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Masuk ke Mode Googley
-
-Print satu atau beberapa foto dari "[future Googler](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)" (untuk ditempel tentunya) sebagai reminder anda apa hasil usaha yang anda akan dapatkan.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)
-
 ## Jangan merasa anda kurang pintar
 - Para engineers/programmer di google adalah orang-orang pintar, tapi banyak dari mereka berpikir bahwa mereka tidak cukup pintar, walaupun mereka bekerja di Google.
 - [Mitos dari programmer yang jenius](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [Hal yang berbahaya untuk pergi sendirian: Bertarung dengan monster yang tidak kelihatan di dunia teknologi](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## Tentang Google
-
-- [ ] Untuk pelajar - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] Bagaimana Pencari Bekerja:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Seri:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
 ## Tentang Sumber Video
 

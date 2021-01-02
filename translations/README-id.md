@@ -66,19 +66,23 @@ Jika Anda ingin menjadi teknisi ketahanan sistem atau teknisi sistem, lebih bany
     - adjacency matrix
     - adjacency list
     - traversals: BFS, DFS
-- [Pengetahuan Tambahan Lainnya](#pengetahuan-tambahan-lainnya)
-    - [Rekursi](#rekursi)
-    - [Pemrograman Berbasis Objek](#pemrograman-berbasis-objek)
-    - [Pola Desain](#pola-desain)
-    - [Kombinatorik (n pilih k) & Probabilitas](#kombinatorik-n-pilih-k--probabilitas)
-    - [NP, NP-Lengkap dan Algoritma Aproksimasi](#np-np-lengkap-dan-algoritma-aproksimasi)
-    - [Caches](#caches)
-    - [Proses dan Threads](#proses-dan-threads)
-    - [Tesis](#tesis)
+- [Bahkan Lebih Banyak Pengetahuan](#bahkan-lebih-banyak-pengetahuan)
+    - [Pengulangan (Recursion)](#pengulangan-(recursion))
+    - [Pemrograman Dinamis](#pemrograman-dinamis)
+    - [Pemrograman Berorientasi Objek](#pemrograman-berorientasi-objek)
+    - [Pola desain (Design patterns)](#pola-desain-(design-patterns))
+    - [Kombinatorik (n pilih k) & Probabilitas](#kombinatorik-(n-pilih-k)-&-probabilitas)
+    - [Algoritma NP, NP-Complete dan Approximation](#algoritma-np,-np-complete-dan-approximation)
+    - [Cache](#cache)
+    - [Proses dan Thread](#proses-dan-thread)
     - [Testing](#testing)
     - [Penjadwalan](#penjadwalan)
-    - [Implementasi Rutinitas Sistem](#implementasi-rutinitas-sistem)
-    - [Pencarian String & Manipulasi](#pencarian-string--manipulasi)
+    - [Pencarian & manipulasi string](#pencarian-&-manipulasi-string)
+    - [Tries](#tries)
+    - [Angka Floating Point](#angka-floating-point)
+    - [Unicode](#unicode)
+    - [Endianness](#endianness)
+    - [Jaringan](#jaringan)
 - [Perancangan Sistem, Skalabilitas, Penganganan Data](#Perancangan-Sistem,-Skalabilitas,-Penganganan-Data) (jika anda memiliki pengalaman 4 tahun lebih)
 - [Ulasan Akhir](#ulasan-akhir)
 - [Latihan Pertanyaan Pemrograman](#latihan-pertanyaan-pemrograman)
@@ -913,44 +917,52 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
-## Even More Knowledge
+## Bahkan Lebih Banyak Pengetahuan
 
-- ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - when it is appropriate to use it
-    - how is tail recursion better than not?
-        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+- ### Pengulangan (Recursion)
+    - [ ] Kuliah Stanford tentang rekursi dan backtracking:
+        - [ ] [Kuliah 8 | Abstraksi Pemrograman (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [Kuliah 9 | Abstraksi Pemrograman (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [Kuliah 10 | Abstraksi Pemrograman (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [Kuliah 11 | Abstraksi Pemrograman (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+    - Kapan saat yang tepat untuk menggunakannya?
+    - Bagaimana rekursi ekor lebih baik daripada tidak?
+        - [ ] [Apa Itu Rekursi Ekor Mengapa Sangat Buruk?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [Rekursi Ekor (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Object-Oriented Programming
-    - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] SOLID OOP Principles:
-        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
-        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
-            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
-            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+- ### Pemrograman Dinamis
+    - Anda mungkin tidak akan melihat masalah pemrograman dinamis dalam wawancara Anda, tetapi ada baiknya mengenali masalah sebagai kandidat untuk pemrograman dinamis (Dynamic Programming).
+    - Subjek ini bisa sangat sulit, karena setiap masalah pemecahan masalah pemrograman dinamis harus didefinisikan sebagai relasi rekursi, dan menyelesaikannya bisa rumit.
+    - Saya sarankan untuk melihat banyak contoh masalah pemrograman dinamis sampai Anda memiliki pemahaman yang kuat tentang pola yang terlibat.
+    - [ ] Video:
+        - video Skiena mungkin sulit untuk diikuti karena terkadang dia menggunakan papan tulis, yang terlalu kecil untuk dilihat
+        - [ ] [Skiena: CSE373 2012 - Kuliah 19 - Pengantar Pemrograman Dinamis (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - [ ] [Skiena: CSE373 2012 - Kuliah 20 - Edit Jarak (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        - [ ] [Skiena: CSE373 2012 - Kuliah 21 - Contoh Pemrograman Dinamis (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - Kuliah 22 - Aplikasi Pemrograman Dinamis (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        - [ ] [Simonson: Pemrograman Dinamis 0 (dimulai pada 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [ ] [Simonson: Pemrograman Dinamis I - Kuliah 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [Simonson: Pemrograman dinamis II - Kuliah 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+        - [ ] Daftar masalah individu Pemrograman Dinamis (masing-masing pendek):
+            [Pemrograman Dinamis (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+    - [ ] Catatan Kuliah Yale:
+        - [ ] [Pemrograman Dinamis](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+    - [ ] Coursera:
+        - [ ] [Masalah struktur sekunder RNA (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [Algoritma pemrograman dinamis (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [Mengilustrasikan algoritma DP (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        - [ ] [Waktu berjalan dari algoritma DP (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
+        - [ ] [DP vs. implementasi rekursif (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Design patterns
-    - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
+- ### Pemrograman Berorientasi Objek
+    - [ ] [Optional: UML 2.0 seri (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
+    - [ ] Prinsip SOLID OOP: [Prinsip SOLID (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
+
+- ### Pola desain (Design patterns)
+    - [ ] [Ulasan UML cepat(video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    - [ ] Pelajari pola-pola ini:
         - [ ] strategy
         - [ ] singleton
         - [ ] adapter
@@ -968,159 +980,170 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
-    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    - [ ] [Bab 6 (Bagian 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    - [ ] [Bab 6 (Bagian 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Bab 6 (Bagian 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Serial video (27 video)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
-    - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+        - Saya tahu buku kanoniknya adalah "Design Patterns: Elements of Reusable Object-Oriented Software", tapi Head First sangat bagus untuk pemula hingga OO.
+    - [ ] [Referensi praktis: 101 Pola Desain & Tip untuk Pengembang](https://sourcemaking.com/design-patterns-and-tips)
 
-- ### Combinatorics (n choose k) & Probability
-    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-    - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-    - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+
+- ### Kombinatorik (n pilih k) & Probabilitas
+    - [ ] [Keterampilan Matematika: Bagaimana menemukan Faktorial, Permutasi dan Kombinasi (Pilih) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Jadikan Sekolah: Probabilitas (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    - [ ] [Jadikan Sekolah: Lebih Banyak Kemungkinan dan Rantai Markov (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
     - [ ] Khan Academy:
-        - Course layout:
-            - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Just the videos - 41 (each are simple and each are short):
-            - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+        - Tata letak kursus:
+            - [ ] [Probabilitas Teoritis Dasar](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+        - Hanya videonya - 41 (masing-masing sederhana dan masing-masing pendek):
+            - [ ] [Probabilitas Dijelaskan (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
-    - Know what NP-complete means.
-    - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+- ### Algoritma NP, NP-Complete dan Approximation
+    - Ketahui tentang kelas paling terkenal dari masalah NP-complete, seperti travelling salesman dan knapsack problem,
+        dan kenali mereka saat pewawancara meminta Anda secara tidak langsung.
+    - Ketahui arti NP-complete.
+    - [ ] [Kompleksitas Komputasi (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
-        - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] [Algoritme Serakah. II & Pengantar tentang NP-Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
         - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
     - [ ] Skiena:
-        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
+        - [ ] [CSE373 2012 - Kuliah 23 - Pengantar NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+        - [ ] [CSE373 2012 - Kuliah 24 - Bukti NP-Completeness (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [CSE373 2012 - Kuliah 25 - Tantangan NP-Completeness (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [Kompleksitas: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    - [ ] [Kompleksitas: Algoritma Perkiraan (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    - [ ] [Kompleksitas: Algoritma Parameter Tetap (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - Ppeter Norvig membahas solusi yang hampir optimal untuk masalah penjual keliling:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Pages 1048 - 1140 in CLRS if you have it.
+    - Halaman 1048 - 1140 di CLRS jika Anda memilikinya.
 
-- ### Caches
+- ### Cache
     - [ ] LRU cache:
-        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-        - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+        - [ ] [Keajaiban Cache LRU (100 Hari Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+        - [ ] [Menerapkan LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
         - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
     - [ ] CPU cache:
-        - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-        - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+        - [ ] [MIT 6.004 L15: Hirarki Memori (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+        - [ ] [MIT 6.004 L16: Masalah Cache (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
-    - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - difference between processes and threads
-            - processes
-            - threads
-            - locks
-            - mutexes
-            - semaphores
-            - monitors
-            - how they work
-            - deadlock
-            - livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware
-    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] concurrency in Python (videos):
-        - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
-        - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
-        - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
-            - [reference](http://www.dabeaz.com/GIL)
-        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
-        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
-        - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
-
-- ### Papers
-    - These are Google papers and well-known papers.
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
-    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-        - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
-    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
-    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
-        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
-    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
-    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
-    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
-    - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
-    - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+- ### Proses dan Thread
+    - [ ] Ilmu Komputer 162 - Sistem Operasi (25 video):
+        - untuk proses dan thread lihat video 1-11
+        - [Sistem Operasi dan Pemrograman Sistem (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+    - [Apa Perbedaan Antara Proses dan Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
+    - Meliputi:
+        - Masalah Processes, Threads, Concurrency
+            - Perbedaan antara proses dan thread
+            - Processes
+            - Threads
+            - Locks
+            - Mutexes
+            - Semaphores
+            - Monitors
+            - Bagaimana cara kerjanya?
+            - Deadlock
+            - Livelock
+        - Aktivitas CPU, interupsi, pengalihan konteks
+        - Konstruksi konkurensi modern dengan prosesor multi inti
+        - [Paging, segmentasi, dan memori virtual (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
+        - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+        - Kebutuhan resource proses (memori: kode, penyimpanan statis, stack, heap, dan juga deskriptor file, i /o)
+        - Kebutuhan sumber daya thread (berbagi di atas (dikurangi stack) dengan thread lain dalam proses yang sama tetapi masing-masing memiliki pc, penghitung stack, register, dan stacknya sendiri)
+        - Forking benar-benar menyalin saat menulis (hanya baca) hingga proses baru menulis ke memori, lalu menyalin penuh.
+        - Peralihan konteks
+            - Bagaimana peralihan konteks dimulai oleh sistem operasi dan perangkat keras yang mendasarinya?
+    - [ ] [thread di C ++ (seri - 10 video)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] konkurensi dengan Python (video):
+        - [ ] [Serial pendek tentang thread](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+        - [ ] [Thread Python](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+        - [ ] [Memahami Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+            - [referensi](http://www.dabeaz.com/GIL)
+        - [ ] [David Beazley - Python Concurrency Dari Dasar Ke Atas: LANGSUNG! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+        - [ ] [Keynote David Beazley - Topik Menarik (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+        - [ ] [Mutex dengan Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 - ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
+    - Meliputi:
+        - bagaimana unit testing bekerja
+        - apa itu objek tiruan (mock objects)
+        - apa itu pengujian integrasi (integration testing)
+        - apa itu dependency injection
+    - [ ] [Pengujian Perangkat Lunak Agile dengan James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [Kuliah Terbuka oleh James Bach tentang Pengujian Perangkat Lunak (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - Pengembangan Berbasis Test (bukan itu yang kami maksudkan) (video)](https://vimeo.com/83960706)
         - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
     - [ ] Dependency injection:
         - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-        - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+        - [ ] [Tao dari Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+    - [ ] [Bagaimana menulis tes](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Penjadwalan
-    - di OS, cara kerjanya
-    - dapat diperoleh dari video Sistem Operasi
+    - Di OS, bagaimana cara kerjanya?
+    - Dapat diperoleh dari video Sistem Operasi
 
-- ### Implementasi Rutinitas Sistem
-    - memahami apa yang ada di bawah API pemrograman yang Anda gunakan
-    - bisakah kamu menerapkannya?
+- ### Pencarian & manipulasi string
+    - [ ] [Sedgewick - Suffix Array (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Pencarian Substring (video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+        - [ ] [1. Pengantar Pencarian Substring](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
+        - [ ] [2. Pencarian Substring Brute-Force](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
+        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
+        - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+        - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
+    - [ ] [Pola pencarian dalam teks (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-- ### Pencarian String & Manipulasi
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-    - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
-        - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-        - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
-        - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    Jika Anda membutuhkan detail lebih lanjut tentang subjek ini, lihat bagian "String Matching" di [Detail Tambahan tentang Beberapa Subjek](#detail-tambahan-tentang-beberapa-subjek).
 
-    Jika Anda membutuhkan detail lebih lanjut tentang subjek ini, lihat bagian "String Matching" di [Detail Tambahan pada Beberapa Subjek](#additional-detail-on-some-subjects)
+- ### Tries
+    - Perhatikan bahwa ada berbagai jenis percobaan. Beberapa memiliki prefiks, beberapa tidak, dan beberapa menggunakan bit untuk melacak jalur
+    - Saya membaca kode, tetapi tidak akan menerapkan
+    - [ ] [Sedgewick - Tries (3 video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+        - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
+        - [ ] [3. Operasi Berbasis Karakter](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+    - [ ] [Catatan tentang Struktur Data dan Teknik Pemrograman](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+    - [ ] Video kursus singkat:
+        - [ ] [Pengantar Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [ ] [Menerapkan A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] [Trie: Sebuah Struktur Data Terabaikan](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    - [ ] [TopCoder - Menggunakan Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
+    - [ ] [Kuliah Stanford (kasus penggunaan dunia nyata) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    - [ ] [MIT, Advanced Data Structures, Strings (bisa sangat tidak jelas sekitar setengahnya) (video)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
----
+- ### Angka Floating Point
+    - [ ] simple 8-bit: [Representasi Angka Floating Point - 1 (video - ada kesalahan dalam penghitungan - lihat deskripsi video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] 32 bit: [IEEE754 32-bit floating point biner (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+
+- ### Unicode
+    - [ ] [Minimum Mutlak Setiap Pengembang Perangkat Lunak Sepenuhnya, Secara Positif Harus Tahu Tentang Unicode dan Kumpulan Karakter](http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] [Apa Yang Setiap Programmer Benar-benar, Secara Positif Perlu Diketahui Tentang Unicode Dan Kumpulan Karakter Untuk Bekerja Dengan Teks](http://kunststube.net/encoding/)
+
+- ### Endianness
+    - [ ] [Endian Besar Dan Kecil](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] [Endian Besar Vs Endian Kecil (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [Endian Big And Kecil Dalam/Luar (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        - Pembicaraan yang sangat teknis untuk pengembang kernel. Jangan khawatir jika sebagian besar di atas kepala Anda.
+        - Paruh pertama sudah cukup.
+
+- ### Jaringan
+    - **jika Anda memiliki pengalaman jaringan atau ingin menjadi insinyur keandalan (reliability engineer) atau insinyur operasi (operations engineer), tunggu pertanyaan**
+    - Jika tidak, ini bagus untuk diketahui
+    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/computers-and-internet-code-org)
+    - [ ] [UDP dan TCP: Perbandingan Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [TCP / IP dan Model OSI Dijelaskan! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [Transmisi Paket melalui Internet. Tutorial Jaringan & TCP / IP. (video)](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [HTTP (video)](https://www.youtube.com/watch?v=WGJrLqtX7As)
+    - [ ] [SSL dan HTTPS (video)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL / TLS (video)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+    - [ ] [HTTP 2.0 (video)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+    - [ ] [Seri Video (21 video) (video)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Subnetting Demystified - Bagian 5 CIDR Notation (video)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] Sockets:
+        - [ ] [Java - Sockets - Pengenalan (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+        - [ ] [Pemrograman Socket (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ## Perancangan Sistem, Skalabilitas, Penganganan Data
 

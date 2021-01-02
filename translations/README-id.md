@@ -458,8 +458,7 @@ Disana ada banyak gangguan yang dapat menyita waktu yang berharga. Fokus dan kos
 
 ## Apa yang Tidak Akan Dibahas
 
-Daftar besar ini semua dimulai sebagai daftar to-do pribadi yang dibuat dari catatan Google interview coaching. Ini adalah
-teknologi lazim mereka tetapi tidak disebutkan dalam catatan itu:
+Ini adalah teknologi yang lazim tetapi bukan bagian dari rencana studi ini:
 
 - SQL
 - Javascript

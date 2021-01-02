@@ -280,7 +280,7 @@ Anda akan melihat beberapa C, C++, dan Python di cantumkan di link dibawah, kare
 
 Ini adalah daftar pendek yang saya gunakan. Ini disingkat untuk menghemat waktu Anda.
 
-### Interview Prep
+### Persiapan Interview
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - jawaban di C++ and Java
@@ -289,46 +289,25 @@ Ini adalah daftar pendek yang saya gunakan. Ini disingkat untuk menghemat waktu 
     - tidak terlalu sulit, kebanyakan masalah mungkin lebih mudah daripada apa yang akan anda lihat dalam sebuah wawancara (dari apa yang saya baca)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - jawaban in Java
-    - direkomendasikan di the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - Jika kamu melihat orang-orang mereferensikan "The Google Resume", itu adalah sebuah buku yang diganti oleh "Cracking the Coding Interview".
 
-Jika anda memiliki banyak waktu:
+### Jika anda memiliki banyak waktu:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - semua kode adalah di C++, sangat bagus jika anda menggunakan C++ di wawancara anda.
-    - sebuah buku yang bagus mengenai pemecahan masalah secara umum.
+- [ ] [Elements of Programming Interviews (versi C++)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [ ] Elements of Programming Interviews (Java version)
+    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+    - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-### Computer Architecture
+### Bahasa Spesifik
 
-Jika kekurangan waktu:
+**Anda harus memilih sebuah bahasa pemgrograman untuk wawancara (lihat diatas).**
 
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - Buku ini dirilis pada tahun 2004, dan agak ketinggalan jaman, tetapi dengan sumber daya yang hebat bisa untuk memahami komputer secara singkat.
-    - Penulis menemukan HLA, sehingga menyebutkan dan memberi contoh di HLA dengan sebutir garam. Tidak banyak digunakan, tapi contoh yang baik seperti apa assembly itu.
-    - Bab-bab ini patut dibaca untuk memberikan dasar yang baik:
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
-
-Jika anda punya banyak waktu (Saya ingin buku ini):
-
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - Untuk orang kaya, lebih up-to-date (2011), tapi dengan pemeliharaan jangka panjang
-
-### Language Specific
-
-**Anda harus memilih sebuah bahasa pemgrograman untuk wawancara (lihat diatas).** Berikut adalah rekomendasi bahasa dari saya. Saya tidak memiliki sumber daya untuk semua bahasa. Saya menyambut penambahan.
+Berikut adalah rekomendasi bahasa dari saya. Saya tidak memiliki sumber daya untuk semua bahasa. Saya menyambut penambahan.
 
 Jika meskipun anda membaca salah satu dari ini, anda harus memiliki semua pengetahuan struktur data dan algoritma, anda harus mulai melakukan pemecahan masalah koding.
 **Anda dapat melewati semua video ceramah di proyek ini**, kecuali jika anda ingin sebuah review.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Sumber daya khusus bahasa tambahan di sini.](../programming-language-resources.md)
 
 ### C++
 
@@ -336,78 +315,34 @@ Saya belum membaca keduanya. tapi mereka dinilai sangat bagus dan ditulis oleh S
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+- [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
+    - Kumpulan Struktur dan Algoritma Data yang kaya dan terperinci
+    - Bagus untuk pemula
 
 Jika anda memiliki rekomendasi yang lebih baik untuk C++, tolong beritahu saya. Mencari sumber daya yang komprehensif.
 
 ### Java
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - video dengan buku (dan Sedgewick!):
-        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
-        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
+- [ ] [Algoritma (Sedgewick dan Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - video dengan konten buku (dan Sedgewick!) di coursera:
+        - [Algoritma I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algoritma II](https://www.coursera.org/learn/algorithms-part2)
 
-OR:
+Atau:
 
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- [ ] [Struktur Data dan Algoritma di Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - oleh Goodrich, Tamassia, Goldwasser
     - digunakan sebagai teks opsional untuk kursus pengenalan CS di UC Berkeley
     - lihat laporan buku saya pada versi Python dibawah. Buku ini mencakup topik-topik yang sama.
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+- [ ] [Struktur Data dan Algoritma dengan Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - oleh Goodrich, Tamassia, Goldwasser
     - Saya mencintai buku ini. Mencakup segala hal dan lainnya.
     - kode Pythonic
     - laporan buku saya: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
-
-
-### Optional Books
-
-**Beberapa orang merekomendasikan ini, tapi saya pikir itu akan berlebihan, kecuali jika anda punya pengalaman di software engineering bertahun-tahun dan mengharapkan sebuah wawancara yang jauh lebih sulit**
-
-- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - Sebagai sebuah review dan pengenalan masalah
-    - Bagian katalog algoritma adalah luar lingkup yang baik saat anda mendapatkan kesulitan di wawancara
-    - Buku ini mempunyai 2 bagian:
-        - class textbook on data structures and algorithms
-            - pros:
-                - adalah sebuah review yang bagus sebagai buku algoritma
-                - cerita bagus dari pengalamannya memecahkan masalah dalam industri dan akademisi
-                - contoh kode di C
-            - cons:
-                - dapat secara penuh dan tak tertembus sebagai CLRS, dan dalam beberapa kasus, CLRS mungkin menjadi alternatif yang lebih baik untuk beberapa mata pelajaran
-                - bab 7, 8, 9 bisa menyakitkan untuk mencoba mengikutinya, karena beberapa item yang tidak dijelaskan dengan baik atau membutuhkan kinerja otak yang lebih daripada yang saya miliki
-                - jangan salah paham: Saya suka Skiena, gaya mengajarnya, dan kelakuannya, tapi aku mungkin tidak akan seperti bahan Stony Brook.
-        - algorithm catalog:
-            - ini adalah alasan nyata kamu membeli buku ini
-            - tentang untuk mendapatkan bagian ini. Akan diperbarui disini suatu waktu setelah saya membuat jalan melewati itu.
-    - Mengutip Yegge: "More than any other book it helped me understand just how astonishingly commonplace
-        (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
-        covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
-        of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
-        them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
-        great way to learn how to identify hundreds of problem types."
-    - Dapat menyewa di kindle
-    - Half.com adalah sumber daya yang besar untuk buku dengan harga yang baik.
-    - Jawaban:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
-
-- [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Penting:** Membaca buku ini hanya akan memiliki nilai yang terbatas. Buku ini adalah review besar algoritma dan struktur data, tetapi akan mengajarkan cara menulis kode yang baik. Anda harus dapat mengkode yang layak secara efisien.
-    - Mengutip Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
-    - Half.com adalah sumber daya yang besar untuk buku dengan harga yang baik.
-    - aka CLR, terkadang CLRS, karena Stein terlambat untuk permainan.
-
-- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - Pasangan pertama dari bab yang menyajikan solusi cerdas untuk masalah pemrogramman (beberapa sangat tua saat menggunakan tipe data) tapi itu hanya sebuah intro. Ini sebuah buku panduan tentang program desain dan arsitektur, seperti Code Complete, tapi jauh lebih pendek.
-
-- ~~"Algorithms and Programming: Problems and Solutions" oleh Shen~~
-    - Sebuah buku yang baik, tapi setelah bekerja melalui masalah pada halaman, saya frustasi dengan Pascal, do while loops, 1-indexed arrays, dan hasil post-condition yang tidak jelas.
-    - Lebih suka menghabiskan waktu di masalah coding dari buku lain atau masalah coding online.
-
+- [ ] [Struktur Data Terbuka di Python](https://opendatastructures.org/ods-python.pdf)
 
 ## Sebelum Anda Mulai
 

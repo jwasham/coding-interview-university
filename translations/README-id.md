@@ -206,7 +206,7 @@ Terkadang kelas tidak dalam sesi jadi Anda harus menunggu beberapa bulan, jadi A
         - Kursus algoritme dan struktur data sentris Python gratis.
     - [ ] [Struktur Data dan Algoritma Nanodegree! (Nanodegree berbayar Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
         - Dapatkan praktik langsung dengan lebih dari 100 struktur data dan latihan algoritme serta panduan dari mentor yang berdedikasi untuk membantu mempersiapkan Anda untuk wawancara dan skenario di tempat kerja.
-    - [ ] [Grokking the Behavioral Interview (Kursus gratis edukatif)](https://www.educative.io/courses/grokking-the-behavioral-interview):
+    - [ ] [Grokking Interview Perilaku (Kursus gratis edukatif)](https://www.educative.io/courses/grokking-the-behavioral-interview):
         - Sering kali, bukan kompetensi teknis Anda yang menahan Anda untuk mendapatkan pekerjaan impian Anda, melainkan bagaimana Anda melakukan wawancara perilaku.
 
 ## Pilih Satu Bahasa Pemrograman untuk Wawancara
@@ -478,7 +478,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [Kode C (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - bukan keseluruhan video, hanya bagian tentang struct Node dan alokasi memori
     - [ ] Linked List vs Array:
-        - [Daftar Tertaut Inti Vs Array (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [Daftar Linked List Vs Array (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [Di Dunia Nyata Linked List Vs Array (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [mengapa Anda harus menghindari linked list (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: Anda perlu pengetahuan pointer ke pointer:
@@ -506,7 +506,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 - ### Stack
     - [ ] [Stack (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] Tidak akan diterapkan. Menerapkan dengan array itu sepele
+    - [ ] Tidak akan diterapkan. Implementasi dengan array itu sepele
 
 - ### Queue
     - Queue (Antrean)
@@ -535,7 +535,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [Penggandaan Table, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Open Addressing, Hashing Kriptografi (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [(Lanjutan) Pengacakan: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(Lanjutan) Pengacakan: Universal & Hashing Sempurna (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Lanjutan) Hash sempurna (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Kursus Online:
@@ -609,9 +609,9 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
             - kompleksitas ruang:
                 terbaik: O(log n) - rata-rata. ketinggian tree
                 terburuk: O(n)
-            - dalam urutan (DFS: kiri, sendiri, kanan)
-            - pasca urutan (DFS: kiri, kanan, sendiri)
-            - pra urutan (DFS: sendiri, kiri, kanan)
+            - dalam urutan (DFS: kiri, sendiri/self, kanan)
+            - pasca urutan (DFS: kiri, kanan, sendiri/self)
+            - pra urutan (DFS: sendiri/self, kiri, kanan)
 
 - ### Binary search trees: BSTs
     - [ ] [Ulasan Binary Search Tree (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -630,7 +630,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [Periksa apakah pohon biner adalah binary search tree atau bukan (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Hapus node dari Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Penerus Berurutan di binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
+    - [ ] Implementasikan:
         - [ ] insert    // masukkan nilai ke dalam pohon
         - [ ] get_node_count // dapatkan hitungan nilai yang disimpan
         - [ ] print_values // mencetak nilai di pohon, dari min hingga maks
@@ -644,7 +644,9 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] get_successor // mengembalikan nilai tertinggi berikutnya di pohon setelah nilai yang diberikan, -1 jika none
 
 - ### Heap / Prioritas Antrian / Biner Heap
-    - Heap (tumpykan)
+    - Heap (tumpukan)
+    - Priority Queue (Prioritas Antrian)
+    - Binary Heap (Biner Heap)
     - divisualisasikan sebagai pohon, tetapi biasanya linier dalam penyimpanan (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Pendahuluan (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
@@ -946,7 +948,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
         - Peralihan konteks
             - Bagaimana peralihan konteks dimulai oleh sistem operasi dan perangkat keras yang mendasarinya?
     - [ ] [thread di C ++ (seri - 10 video)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] konkurensi dengan Python (video):
+    - [ ] Konkurensi (Concurrency) dengan Python (video):
         - [ ] [Serial pendek tentang thread](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
         - [ ] [Thread Python](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
         - [ ] [Memahami Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
@@ -1031,7 +1033,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - [ ] [HTTP 2.0 (video)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
     - [ ] [Seri Video (21 video) (video)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [Subnetting Demystified - Bagian 5 CIDR Notation (video)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
-    - [ ] Sockets:
+    - [ ] Socket:
         - [ ] [Java - Sockets - Pengenalan (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Pemrograman Socket (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
@@ -1215,7 +1217,7 @@ Tambahan:
 - [ ] [Cracking the Coding Interview, Edisi ke-6](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - jawaban di Java
 
-Lihat [Daftar Buku di atas](#book-list)
+Lihat [Daftar Buku di atas](#daftar-buku)
 
 ## Latihan / tantangan coding
 

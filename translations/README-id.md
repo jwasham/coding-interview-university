@@ -252,29 +252,28 @@ Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan har
 
 ## Pilih Satu Bahasa Pemrograman untuk Wawancara
 
-Saya menulis artikel pendek tentang topik hal tersebut: [Penting:Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/) (Penting: Pilih Satu Bahasa Pemrograman untuk wawancara dengan Google)
-
-Anda dapat menggunakan sebuah bahasa pemrograman yang nyaman bagi anda untuk melaksanakan salah satu bagian wawancara yaitu sesi mengkoding, tapi bagi Google, berikut adalah beberapa pilihan:
+Anda dapat menggunakan bahasa yang Anda sukai untuk melakukan bagian pengkodean dalam wawancara, tetapi untuk perusahaan besar, ini adalah pilihan yang tepat:
 
 - C++
 - Java
 - Python
 
-Anda juga dapat menggunakan beberapa bahasa pemrograman berikut, tapi cari informasi dahulu tentang hal ini, karena mungkin ada kualifikasi khusus:
+Anda juga bisa menggunakan ini, tapi bacalah dulu. Mungkin ada peringatan:
 
 - JavaScript
 - Ruby
 
-Anda harus sangat nyaman dan memahami bahasa yang akan digunakan untuk wawancara tersebut.
+Berikut adalah artikel yang saya tulis tentang memilih bahasa untuk wawancara: [Pilih Satu Bahasa untuk Wawancara Coding](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
 
-Baca lebih banyak tentang pilihan:
+Anda harus sangat nyaman dalam bahasa tersebut dan berpengetahuan luas.
+
+Baca lebih lanjut tentang pilihan:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
-- https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[Lihat beberapa sumber bahasa pemrograman disini](programming-language-resources.md)
+[Lihat sumber bahasa di sini](../programming-language-resources.md)
 
-Anda akan melihat beberapa C, C++, dan Python di cantumkan di link dibawah, karena saya juga sedang belajar. Ada beberapa buku juga diikutkan dalam list dibawah ini, lihat bagian bawah.
+Anda akan melihat beberapa pembelajaran C, C++, dan Python yang disertakan di bawah ini, karena saya sedang belajar. Ada beberapa buku yang terlibat, lihat bagian bawah.
 
 ## Daftar Buku
 

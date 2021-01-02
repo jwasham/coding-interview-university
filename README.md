@@ -38,7 +38,7 @@
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
 - [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)

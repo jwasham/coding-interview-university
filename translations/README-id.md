@@ -497,16 +497,18 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 ## Ilmu Prasyarat
 
-- [ ] **Belajar C**
-    - C ada dimana-mana. Anda akan melihat contoh di buku, perkuliahan, video, *dimanapun* ketika kamu belajar.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - Ini adalah sebuah buku yang pendek, tapi itu akan memberikanmu sebuah pegangan yang kuat di bahasa C dan Anda akan melakukan latihan kecil
-            dengan secara singkat dan cakap. Memahami C akan membantu anda memahami bagaimana program dan memori itu bekerja.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+- [ ] **belajar C**
+    - C ada dimana-mana. Anda akan melihat contoh di buku, lecture, video, *di mana-mana* saat Anda belajar
+    - [ ] [Bahasa Pemrograman C, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Ini adalah buku singkat, tetapi akan memberi Anda pemahaman yang baik tentang bahasa C dan jika Anda mempraktikkannya sedikit, Anda akan segera menjadi mahir. Memahami C membantu Anda memahami bagaimana program dan memori bekerja
+        - [Jawaban atas pertanyaan](https://github.com/lekkas/c-algorithms)
 
-- [ ] **Bagaimana komputer memproses sebuah program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+- [ ] **Bagaimana komputer memproses program:**
+    - [ ] [Bagaimana CPU menjalankan program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] [Bagaimana komputer menghitung - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [Registers dan RAM (video)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+    - [ ] [Instruksi dan Program (video)](https://youtu.be/zltgXvg6r3k)
 
 ## Kompleksitas Algoritma / Big-O / Analisis Asimptotik
 

@@ -211,11 +211,11 @@ Print satu atau beberapa foto dari "[future Googler](https://github.com/jwasham/
 
 ## Tentang Sumber Video
 
-Beberapa video hanya dapat diakses dengan mengikuti kelas di [Coursera](https://www.coursera.org/), [Edx](https://www.edx.org/), atau [Lynda.com](https://www.lynda.com/). Beberapa link tersebut biasa disebut MOOC (massive open online course) atau belajar online, seperti layaknya anda berkuliah biasa namun bedanya ini online dan diikuti oleh banyak orang dari seluruh dunia.
-Terkadang suatu saat kelas yang ada tidak dapat diikuti untuk sementara, dan harus menunggu beberapa bulan. Karena kelas tersebut ada waktunya dalam pembelajaran, dan ada waktunya untuk mendaftar, layaknya anda berkuliah. Khusus untuk Lynda.com merupakan situs yang berbayar untuk mengakses materinya.
-    
-    Selain saya membagikan ilmu kepada kalian semua, saya juga mengapresiasi bantuan anda untuk menambahkan sumber pembelajaran yang gratis dan selalu terbuka untuk umum, seperti video di youtube untuk sebagai selingan dari kuliah online dari website yang disebutkan diatas.
-    Saya suka menggunakan media pembelajaran berbasiskan universitas.
+Beberapa video hanya tersedia dengan mendaftar di kelas Coursera atau EdX. Ini disebut MOOC.
+Terkadang kelas tidak dalam sesi jadi Anda harus menunggu beberapa bulan, jadi Anda tidak memiliki akses.
+
+    Saya menghargai bantuan Anda untuk menambahkan sumber publik yang gratis dan selalu tersedia, seperti video YouTube untuk menyertai video kursus online.
+    Saya suka menggunakan kuliah universitas.
 
 ## Proses Interview dan Preparasi Wawancara Secara Umum
 

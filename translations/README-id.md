@@ -411,17 +411,19 @@ OR:
 
 ## Sebelum Anda Mulai
 
-Daftar ini tumbuh selama berbulan-bulan, dan ya, itu jenis keluaran dari tangan.
+Daftar ini tumbuh selama berbulan-bulan, dan ya, menjadi sulit untuk diatur.
 
 Berikut adalah beberapa kesalahan yang saya buat sehingga anda akan memiliki pengalaman yang lebih baik.
 
-### 1. Kamu Tidak Akan Mengingat Semuanya
+### 1. Anda Tidak Akan Mengingat Semuanya
 
 Saya menonton video berjam-jam dan mengambil catatan yang berlebihan, dan beberapa bulan kemudian disana ada banyak yang tidak saya ingat. Saya menghabiskan 3 hari melalui catatan saya dan membuat flashcards sehingga saya bisa meninjaunya dengan lebih cepat.
 
 Tolong baca sehingga anda tidak akan membuat kesalahan seperti saya:
 
 [Menguasai Pengetahuan Ilmu Komputer](https://googleyasheck.com/retaining-computer-science-knowledge/)
+
+Sebuah kursus yang direkomendasikan kepada saya (belum pernah saya ambil): [Belajar cara Belajar](https://www.coursera.org/learn/learning-how-to-learn).
 
 ### 2. Menggunakan Flashcards
 
@@ -446,15 +448,23 @@ Ini user-friendly, yang tersedia di semua platform dan memiliki sebuah sistem cl
 
 Database flashcard saya di format Anki: https://ankiweb.net/shared/info/25173560 (terimakasih [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Start doing coding interview questions while you're learning data structures and algorithms 
 
-Aku menyimpan satu set cheat sheet pada ASCII, OSI stack, Big-O notasi, dan banyak lagi. Saya mempelajari mereka ketika saya memiliki beberapa waktu luang.
+Anda perlu menerapkan apa yang Anda pelajari untuk memecahkan masalah, atau Anda akan lupa. Saya melakukan kesalahan ini. Setelah Anda mempelajari suatu topik, dan merasa nyaman dengannya, seperti daftar tertaut, buka salah satu buku wawancara pengkodean dan lakukan beberapa pertanyaan tentang daftar tertaut.
+Kemudian lanjutkan ke topik pembelajaran berikutnya. Kemudian, kembali dan lakukan masalah daftar tertaut lainnya,
+atau masalah rekursi, atau apa pun. Tapi tetaplah mengerjakan soal sambil belajar.
+Anda tidak dipekerjakan karena pengetahuan, tetapi bagaimana Anda menerapkan pengetahuan itu.
+Ada beberapa buku dan situs yang saya rekomendasikan. Lihat di sini untuk lebih lanjut: [Latihan Pertanyaan Pemrograman](#latihan-pertanyaan-pemrograman).
+
+### 4. Review, review, review
+
+Aku menyimpan satu set cheat sheet pada ASCII, OSI stack, Big-O notasi, dan banyak lagi. Saya mempelajarinya ketika saya memiliki waktu luang.
 
 Mengambil istirahat dari masalah pemgrogramman selama setengah jam dan pergi melalui flashcards anda.
 
-### 4. Fokus
+### 5. Fokus
 
-Disana ada banyak gangguan yang dapat menyita waktu yang berharga. Fokus dan kosentrasi adalah hal yang sulit.
+Ada banyak gangguan yang dapat menghabiskan waktu yang berharga. Fokus dan konsentrasi sulit. Nyalakan musik tanpa lirik dan Anda akan dapat fokus dengan baik.
 
 ## Apa yang Tidak Akan Dibahas
 

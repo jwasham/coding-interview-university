@@ -341,7 +341,7 @@ Ini user-friendly, yang tersedia di semua platform dan memiliki sebuah sistem cl
 
 Database flashcard saya di format Anki: https://ankiweb.net/shared/info/25173560 (terimakasih [@xiewenya](https://github.com/xiewenya))
 
-### 3. Start doing coding interview questions while you're learning data structures and algorithms 
+### 3. Mulailah membuat pertanyaan wawancara coding saat Anda mempelajari struktur data dan algoritme
 
 Anda perlu menerapkan apa yang Anda pelajari untuk memecahkan masalah, atau Anda akan lupa. Saya melakukan kesalahan ini. Setelah Anda mempelajari suatu topik, dan merasa nyaman dengannya, seperti daftar tertaut, buka salah satu buku wawancara pengkodean dan lakukan beberapa pertanyaan tentang daftar tertaut.
 Kemudian lanjutkan ke topik pembelajaran berikutnya. Kemudian, kembali dan lakukan masalah daftar tertaut lainnya,
@@ -1903,8 +1903,18 @@ Duduk dan nikmati. "Netflix dan keterampilan": P
 - [2015: Bagaimana Pengembang Menelusuri Kode: Studi Kasus](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - [2016: Borg, Omega, dan Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-## LICENSE
+## LISENSI
 
 [CC-BY-SA-4.0](../LICENSE.txt)
 
-Terjemahan Bahasa Indonesia oleh  @[hexatester](https://github.com/hexatester), @[santosomichael](https://github.com/santosomichael), @[dikiaap](https://github.com/dikiaap), @[rvlewerissa](https://github.com/rvlewerissa), @[ziishaned](https://github.com/ziishaned), @[rimonmostafiz](https://github.com/rimonmostafiz), @[hwhung0111](https://github.com/hwhung0111), @[fahminlb33](https://github.com/fahminlb33), @[davidsetyanugraha](https://github.com/davidsetyanugraha)
+Terjemahan Bahasa Indonesia dipersembahkan oleh
+
+- @[hexatester](https://github.com/hexatester)
+- @[santosomichael](https://github.com/santosomichael)
+- @[dikiaap](https://github.com/dikiaap)
+- @[rvlewerissa](https://github.com/rvlewerissa)
+- @[ziishaned](https://github.com/ziishaned)
+- @[rimonmostafiz](https://github.com/rimonmostafiz)
+- @[hwhung0111](https://github.com/hwhung0111)
+- @[fahminlb33](https://github.com/fahminlb33)
+- @[davidsetyanugraha](https://github.com/davidsetyanugraha)

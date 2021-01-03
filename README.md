@@ -24,6 +24,7 @@
 - [Japanese (日本語)](translations/README-ja.md)
 - [Russian](translations/README-ru.md)
 - [German](translations/README-de.md)
+- [Bahasa Indonesia](translations/README-id.md)
 
 </details>
 

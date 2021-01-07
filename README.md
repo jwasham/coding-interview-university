@@ -438,7 +438,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [ ] **How computers process a program:**
-    - [x] [How CPU executes a program (video)[1]](https://www.youtube.com/watch?v=jFDMZpkUWCw)
+    - [x] [How CPU executes a program (video)[2]](https://www.youtube.com/watch?v=jFDMZpkUWCw)
     - [x] [How computers calculate - ALU (video)[1]](https://youtu.be/1I5ZMmrOfnA)
     - [x] [Registers and RAM (video)[1]](https://youtu.be/fpnE6UAfbtU)
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)

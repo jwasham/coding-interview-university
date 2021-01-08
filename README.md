@@ -441,7 +441,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] [How CPU executes a program (video)[2]](https://www.youtube.com/watch?v=jFDMZpkUWCw)
     - [x] [How computers calculate - ALU (video)[1]](https://youtu.be/1I5ZMmrOfnA)
     - [x] [Registers and RAM (video)[1]](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+    - [x] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis

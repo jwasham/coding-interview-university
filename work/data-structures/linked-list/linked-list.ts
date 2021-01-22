@@ -221,7 +221,7 @@ class LinkedList {
    * @param {any} value
    * @param {number} index
    */
-  insert = (value, index) => {
+  insert = (value, index) : void => {
     if (index < 0 || index > this.size) {
       throw new Error("Index out of boundaries");
     }
@@ -264,7 +264,7 @@ class LinkedList {
    *
    * @param {number} index
    */
-  erase = (index) => {
+  erase = (index) : void => {
     if (index < 0 || index > this.size) {
       throw new Error("Index out of boundaries");
     }
@@ -273,25 +273,25 @@ class LinkedList {
       return;
     }
 
-    if(index === 0) {
+    if (index === 0) {
       this.#head = this.head.next;
       this.#tail = this.size === 1 ? this.#head : this.#tail;
     } else {
       let node = this.head;
       let prevNode = null;
-  
+
       for (let i = 0; i < index; i++) {
         if (node.next) {
           prevNode = node;
           node = node.next;
         }
       }
-  
-      if(prevNode) {
+
+      if (prevNode) {
         prevNode.next = node ? node.next : null;
       }
 
-      this.#tail = index+1 === this.size ? prevNode : this.tail;
+      this.#tail = index + 1 === this.size ? prevNode : this.tail;
     }
 
     this.#size -= 1;
@@ -302,34 +302,44 @@ class LinkedList {
    *
    * @param {any} n
    */
-  valueNFromEnd = (n) => {
-    // TODO
+  valueNFromEnd = (n) : any => {
+    const count = this.#size - n;
+
+    if(count >= 0) {
+      let node = this.#head;
+  
+      for (let index = 0; index < count; index++) {
+        node = node.next;
+      }
+  
+      if(node) {
+        return node.data;
+      }
+    }
+
+    return -1;
   };
 
   /**
    * Reverses the list.
    *
    */
-  reverse = () => {
-    if(this.size > 1) {
-      let nodes = []
+  reverse = () : void => {
+    if (this.size > 1) {
+      const data = [];
       let node = this.head;
 
       for (let index = 0; index < this.size; index++) {
-        // quitar data!!!
-        nodes[index] = node;
-        node = node.next  
+        data.push(node.data);
+        node = node.next;
       }
 
-      node = this.head;
+      node = this.#head;
 
-      for (let index = 1; index < this.size; index++) {
-        console.log('node.data', node.data)
-        node.next = nodes[index];
-        node = nodes[index];
+      for (let index = data.length - 1; index >= 0; index--) {
+        node.data = data[index];
+        node = node.next;
       }
-
-      console.log('nodes', nodes)
     }
   };
 
@@ -337,8 +347,31 @@ class LinkedList {
    * Removes the first item in the list with this value.
    * @param {any} value
    */
-  removeValue = (value) => {
-    // TODO
+  removeValue = (value) : void => {
+    let node = this.#head;
+    let prevNode = null;
+
+      for (let index = 0; index < this.size; index++) {
+        // Found
+        if(node.data === value) {
+          if(!node.next) {
+            this.#tail = prevNode;
+          }
+
+          if(!prevNode){
+            this.#head = node.next;
+          } else {
+            prevNode.next = node.next;
+          }
+
+          this.#size -= 1;
+
+          break;
+        }    
+
+        prevNode = node;
+        node = node.next;
+      }
   };
 }
 

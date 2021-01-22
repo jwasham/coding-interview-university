@@ -502,9 +502,58 @@ describe("Linked list", () => {
     });
   });
 
-  describe("valueNFromEnd", () => {});
+  describe("valueNFromEnd", () => {
+    it('should return 5', () => {
+      const list = new LinkedList();
 
-  describe.only("reverse", () => {
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(5);
+      list.pushBack(4);
+  
+      expect(list.valueNFromEnd(2)).toBe(5);
+    })
+    
+    it('should return 1', () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(5);
+      list.pushBack(4);
+  
+      expect(list.valueNFromEnd(5)).toBe(1);
+    })
+
+    it('should return 4', () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(5);
+      list.pushBack(4);
+  
+      expect(list.valueNFromEnd(1)).toBe(4);
+    })
+
+    it('should return -1', () => {
+      const list = new LinkedList();
+
+      list.pushBack(1);
+      list.pushBack(2);
+      list.pushBack(3);
+      list.pushBack(5);
+      list.pushBack(4);
+  
+      expect(list.valueNFromEnd(0)).toBe(-1);
+      expect(list.valueNFromEnd(6)).toBe(-1);
+    })
+  });
+
+  describe("reverse", () => {
     it('should reverse the list', () => {
       const list = new LinkedList();
 

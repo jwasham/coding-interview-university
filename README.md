@@ -1,5 +1,11 @@
 # Coding Interview University
 
+This is a fork of a repository I found interesting to advance my career. I haven't interviewed for some time, and felt my skills needed an update. Not necessarily for interviews, but for my career and engineering skills. Also, in the future I could choose better candidates and create more productive interviews if I'm in the position of hiring other engineers.
+
+The original sheet can be found in: https://github.com/jwasham/coding-interview-university
+
+My credits and thanks to the author, https://github.com/jwasham.
+
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
 > but it grew to the large list you see today. After going through this study plan, [I got hired
 > as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

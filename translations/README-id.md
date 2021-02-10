@@ -165,7 +165,7 @@ Saya menggunakan markdown spesial dari Github, termasuk daftar tugas untuk menge
 
 `git commit -m "Tandai x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -327,8 +327,8 @@ Saya membuat sebuah mobile-first website jadi saya bisa mereview di telepon dan 
 Membuat punya anda sendiri secara gratis:
 
 - [Repo website flashcards](https://github.com/jwasham/computer-science-flash-cards)
-- [Database flashcards saya (lama - 1200 kartu)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [Database flashcards saya (baru - 1800 kartu)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Database flashcards saya (lama - 1200 kartu)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [Database flashcards saya (baru - 1800 kartu)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Perlu diingat aku pergi keluar kapal dan memiliki kartu meliputi segala sesuatu dari bahasa assembly dan Python trivia untuk pembelajaran machine learning dan statistik. Ini terlalu banyak untuk apa yang diminta oleh Google.
 
@@ -564,7 +564,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - pencarian biner menggunakan rekursi
 
 - ### Operasi Bitwise
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Anda harus mengetahui banyak pangkat 2 dari (2^1 hingga 2^16 dan 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Anda harus mengetahui banyak pangkat 2 dari (2^1 hingga 2^16 dan 2^32)
     - [ ] Dapatkan pemahaman yang sangat baik tentang memanipulasi bit dengan: &, |, ^, ~, >>, <<
         - [ ] [kata-kata](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -1134,7 +1134,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
 - [ ] Mempraktikkan proses desain sistem: Berikut adalah beberapa ide untuk dicoba di atas kertas, masing-masing dengan beberapa dokumentasi tentang bagaimana hal itu ditangani di dunia nyata:
     - review: [Primer Desain Sistem](https://github.com/donnemartin/system-design-primer)
     - [Desain Sistem dari HiredInTech](http://www.hiredintech.com/system-design/)
-    - [contekan (cheat sheet)](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [contekan (cheat sheet)](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - aliran:
         1. Pahami masalah dan cakupannya:
             - Tentukan kasus penggunaan, dengan bantuan pewawancara

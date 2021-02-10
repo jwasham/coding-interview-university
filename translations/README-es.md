@@ -199,7 +199,7 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -406,8 +406,8 @@ Hice un sitio adaptado a moviles para revisarlo en mi celular y en mi Tablet, do
 Haga el suyo gratis:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Tenga en cuenta que empecé desde abajo y hay tarjetas que cubren todo, desde el lenguaje ensamblador y la trivia Python al Machine Learning y estadísticas. Es demasiado para lo que se requiere.
 
@@ -636,7 +636,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - Búsqueda binaria usando recursión
 
 - ### Operaciones bit a bit
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
     - [ ] Obtenga un buen entendimiento de la manipulación de bits con: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Buena introducción:
@@ -1254,7 +1254,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 - [ ] Practicando el proceso de diseño del sistema: Aquí hay algunas ideas para tratar de trabajar en papel, cada una con cierta documentación sobre cómo se manejó en el mundo real:
     - Revisión: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - Flujo:
         1. Comprender el problema y el alcance:
             - Definir los casos de uso, con ayuda del entrevistador

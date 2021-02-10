@@ -219,7 +219,7 @@
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --set-upstream origin progress`
 
@@ -382,8 +382,8 @@ C++에 대한 더 나은 추천 책이 있다면 알려주십시오. 포괄적�
 당신만의 카드를 무료로 만들어보자:
 
 - [Flashcard 사이트 repo](https://github.com/jwasham/computer-science-flash-cards)
-- [내 flashcard 데이터베이스 (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [내 flashcard 데이터베이스 (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [내 flashcard 데이터베이스 (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [내 flashcard 데이터베이스 (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 앞에서도 언급했듯이 나는 불필요하게 많은 것을 공부하려고 했고, 내 카드의 내용들은 어셈블리 언어와 Python의 자잘한 지식들부터 기계 학습과 통계학까지 넘나들게 되었다. 결국 기업이 요구하는 것보다 훨씬 멀리 가버리고 말았다.
 
@@ -628,7 +628,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
         - 재귀를 사용한 이진 탐색
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] 비트 연산자(&, |, ^, ~, >>, <<) 제대로 이해하기
         - [ ] [워드](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] 시작하기 좋은 곳:
@@ -1199,7 +1199,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help

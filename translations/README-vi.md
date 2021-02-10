@@ -207,7 +207,7 @@ Ok, bây giờ bạn có thể bắt đầu:
 - Check các phần đã hoàn thành bằng cách thêm `x` vào giữa cặp ngoặc vuông (`[ ]`), như thế này: `[x]`.
 - Chạy `git add .` để bắt đầu lưu lại các thay đổi.
 - Chạy `git commit -m "commit message" `. Thay `commit message` với ghi chú của bạn cho sự thay đổi đó.
-- Đồng bộ thay đổi với bản fork trên Github của bạn bằng `git push origin master`.
+- Đồng bộ thay đổi với bản fork trên Github của bạn bằng `git push origin main`.
 
 
 ## Đừng nghĩ rằng bạn không đủ thông minh
@@ -429,7 +429,7 @@ Tôi đã làm một trang mobile-first (lấy mobile là trọng tâm phát tri
 Tự tạo cho mình hoàn toàn miễn phí:
 
 - [Repo của trang thẻ ghi nhớ](https://github.com/jwasham/computer-science-flash-cards)
-- [Cơ sở dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
+- [Cơ sở dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
 
 **Ghi chú dành cho các thẻ ghi nhớ:** Lần đầu tiên bạn nhận ra bạn biết câu trả lời, đừng đánh dấu là đã biết.Bạn phải xem thẻ tương tự và đưa ra câu trả lời chính xác vài lần trước khi bạn thực sự khẳng định đã nắm được vấn đề. Lặp đi lặp lại việc này sẽ giúp kiến thức được khắc sâu vào não bạn.
 

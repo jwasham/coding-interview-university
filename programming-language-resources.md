@@ -1,7 +1,7 @@
 ## Programming Language Resources
 
 - C
-    - [ANSI C Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf)
+    - [ANSI C Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf)
     - K&R C book (ANSI C)
     - [Make, Clang (video)](https://www.youtube.com/watch?v=U3zCxnj2w8M)
     - GDB:
@@ -10,8 +10,8 @@
         - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
     - [Let us C](https://books.google.co.in/books/about/Let_Us_C.html?id=7HrjAAAACAAJ)
 - C++
-    - [C++ Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/Cpp_reference.pdf)
-    - [STL Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
+    - [C++ Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/Cpp_reference.pdf)
+    - [STL Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
     - [basics](https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm)
     - [pointers](https://www.cprogramming.com/tutorial/lesson6.html)
     - [class and object](https://www.cprogramming.com/tutorial/lesson12.html)
@@ -32,7 +32,7 @@
     - [Let us C++](https://books.google.co.in/books/about/Let_Us_C++.html?id=6HrjAAAACAAJ)
     - [C++ Primer](https://books.google.co.in/books/about/C++_Primer.html?id=J1HMLyxqJfgC&redir_esc=y)
 - Python
-    - [Python Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
+    - [Python Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
     - [Python in One Video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
     - [Series on 3.4 (video)](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
     - [Statistics for Hackers (video)](https://www.youtube.com/watch?v=Iq9DzN6mvYA)

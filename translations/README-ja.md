@@ -201,7 +201,7 @@ SREまたはシステムエンジニアになりたい場合は、オプショ�
 
 `git commit -m "マークされたx"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
 
 `git push --force`
 
@@ -419,8 +419,8 @@ OR：
 あなた自身を無料で作る：
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [マイフラッシュカードデータベース(旧1200カード)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db)：
-- [マイフラッシュカードデータベース(新1800カード)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db)：
+- [マイフラッシュカードデータベース(旧1200カード)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db)：
+- [マイフラッシュカードデータベース(新1800カード)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db)：
 
 覚えておいてほしいのですが，私はやりすぎてしまい、アセンブリ言語，機械学習のためのPythonのトリビア，統計に至るまですべてのカードをカバーしています。
 何が必要なのかはあまりにも大変です。
@@ -661,7 +661,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- 再帰を利用した二分探索
 
 - ###ビット演算
-	- [ ]  [ビットチートシート- 2 ^ 1から2 ^ 16および2 ^ 32までの2の累乗の多くを知るべきです](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf)
+	- [ ]  [ビットチートシート- 2 ^ 1から2 ^ 16および2 ^ 32までの2の累乗の多くを知るべきです](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-cheet.pdf)
 	- [ ] ＆、|、^、〜、>>、<<を使ってビットを操作することについての本当の理解を得る
 		- [ ]  [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
 		- [ ]  [良いイントロ：ビット操作(動画)](https://www.youtube.com/watch?v=7jkIUgLC29I)
@@ -1287,7 +1287,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - [ ] システム設計プロセスの練習：紙で作業しようとするいくつかのアイデアがあります。実際にどのように処理されたかについてのいくつかの文書があります。
 	- レビュー：[システム設計入門](https://github.com/donnemartin/system-design-primer)
 	- [HiredInTechのシステム設計](http://www.hiredintech.com/system-design/)
-	- [チートシート](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+	- [チートシート](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
 	- 流れ：
         1. 問題と範囲を理解する：
             - 面接官の助けを借りてユースケースを定義する

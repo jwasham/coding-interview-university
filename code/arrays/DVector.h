@@ -21,16 +21,19 @@ namespace DI
 
             void PushBack(std::int64_t Value);
 
-            // std::int64_t Pop();
+            std::int64_t Pop();
 
             void Delete(std::int64_t Index);
 
             std::int64_t Find(std::int64_t Value);
+
+            void Remove(std::int64_t Value);
             
         private:
             void Resize(std::int64_t NewCapacity);
             void DoGrowth(std::int64_t GrowthCapacity);
             void DoShrink(std::int64_t ShrinkCapacity);
+            std::int64_t ValidateIndex(std::int64_t Index);
 
         private:
            std::unique_ptr<std::int64_t[]> Data;

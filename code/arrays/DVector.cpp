@@ -4,12 +4,12 @@ namespace DI
 {
     DVector::DVector(std::int64_t InitCapacity)
     {
-        //TODO Validate Capacity before allocating memory
-
-        CurrentCapacity = InitCapacity;
-        Size = 0;
-        Data = std::unique_ptr<std::int64_t[]>(new std::int64_t[CurrentCapacity]);
-
+        if(InitCapacity > 0)
+        {
+            CurrentCapacity = InitCapacity;
+            Size = 0;
+            Data = std::unique_ptr<std::int64_t[]>(new std::int64_t[CurrentCapacity]);
+        }
     }
 
     std::int64_t DVector::GetSizeOf()
@@ -25,7 +25,15 @@ namespace DI
     std::int64_t DVector::At(std::int64_t Index)
     {
         //TODO Validate if Index out of bounds
-        return Data[Index];
+        try
+        {
+            return Data[ValidateIndex(Index)];
+        }
+        catch(const std::exception& e)
+        {
+            std::cerr << e.what() << '\n';
+            throw;
+        }    
     }
 
     std::int64_t DVector::GetCapacity()
@@ -40,22 +48,23 @@ namespace DI
         ++Size;
     }
 
-    void DVector::Resize(std::int64_t NewCapacity)
+
+
+    std::int64_t DVector::ValidateIndex(std::int64_t Index)
     {
-        if(NewCapacity >= CurrentCapacity)
-        {
-            DoGrowth(NewCapacity);
-        }  
-        else if(NewCapacity <= (CurrentCapacity / 4))
-        {    
-            DoShrink(NewCapacity);
-        }
+        return (Index >= Size || Index < 0) ? throw std::out_of_range("Out of range") : Index;
     }
 
-    // std::int64_t DVector::Pop()
-    // {
-        
-    // }
+    std::int64_t DVector::Pop()
+    {
+        std::int64_t Result = Data[Size - 1];
+
+        --Size;
+
+        Resize(Size);
+
+        return Result;
+    }
 
     std::int64_t DVector::Find(std::int64_t Value)
     {
@@ -75,15 +84,48 @@ namespace DI
 
     void DVector::Delete(std::int64_t Index)
     {
-        for (std::int64_t i = Index; i < Size; ++i)
+        // last index delete
+        try
         {
-            Data[i] = Data[i + 1];
-        }
+            for (std::int64_t i = ValidateIndex(Index); i < Size; ++i)
+            {
+                Data[i] = Data[i + 1];
+            }
 
-        Resize(Size - 1);
-        --Size;
+            Resize(Size - 1);
+            --Size;
+        }
+        catch(const std::exception& e)
+        {
+            std::cerr << e.what() << '\n';
+            throw;
+        }
     }
 
+    void DVector::Remove(std::int64_t Value)
+    {
+        //last index delete
+        for (std::int64_t i = 0; i < Size; i++)
+        {
+            if (Data[i] == Value)
+            {
+                std::cout << "Check " << Data[i] << "Value: " << Value << "Size: "<< Size <<  std::endl;
+                Delete(i);
+            }
+        }
+    }
+
+    void DVector::Resize(std::int64_t NewCapacity)
+    {
+        if(NewCapacity >= CurrentCapacity)
+        {
+            DoGrowth(NewCapacity);
+        }  
+        else if(NewCapacity <= (CurrentCapacity / 4))
+        {    
+            DoShrink(NewCapacity);
+        }
+    }
     void DVector::DoGrowth(std::int64_t GrowthCapacity)
     {   
         //TODO add growth factor
@@ -98,7 +140,7 @@ namespace DI
         Data = std::move(NewData);
     }
 
-        void DVector::DoShrink(std::int64_t ShrinkCapacity )
+    void DVector::DoShrink(std::int64_t ShrinkCapacity)
     {   
         //TODO add shrink factor
 

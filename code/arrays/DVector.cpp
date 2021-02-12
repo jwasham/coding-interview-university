@@ -87,13 +87,23 @@ namespace DI
         // last index delete
         try
         {
-            for (std::int64_t i = ValidateIndex(Index); i < Size; ++i)
+            std::int64_t i = ValidateIndex(Index);
+
+            if (i == (Size - 1))
             {
-                Data[i] = Data[i + 1];
+                Pop();
+            } 
+            else
+            {
+                for (i; i < Size; ++i)
+                {
+                    Data[i] = Data[i + 1];
+                }
+
+                Resize(Size - 1);
+                --Size;
             }
 
-            Resize(Size - 1);
-            --Size;
         }
         catch(const std::exception& e)
         {

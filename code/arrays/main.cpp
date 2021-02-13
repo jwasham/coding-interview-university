@@ -61,5 +61,16 @@ int main()
     std::cout << MyVector.GetSizeOf() << std::endl;
     std::cout << MyVector.GetCapacity() << std::endl;
 
+    MyVector.Prepend(12);
+
+    std::cout << "Insert 12 at 0: " << std::endl;
+    for (int i = 0; i < MyVector.GetSizeOf(); i++)
+    {
+        std::cout << MyVector.At(i) << std::endl;
+    }
+
+    std::cout << MyVector.GetSizeOf() << std::endl;
+    std::cout << MyVector.GetCapacity() << std::endl;
+
     return EXIT_SUCCESS;
 }

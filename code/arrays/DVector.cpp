@@ -149,6 +149,11 @@ namespace DI
         }
     }
 
+    void DVector::Prepend(std::int64_t Value)
+    {
+        Insert(0, Value);
+    }
+
     void DVector::Resize(std::int64_t NewCapacity)
     {
         if(NewCapacity >= CurrentCapacity)

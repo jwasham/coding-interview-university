@@ -30,6 +30,8 @@ namespace DI
             void Remove(std::int64_t Value);
 
             void Insert(std::int64_t Index, std::int64_t Value);
+
+            void Prepend(std::int64_t Value);
             
         private:
             void Resize(std::int64_t NewCapacity);

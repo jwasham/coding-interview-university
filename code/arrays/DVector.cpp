@@ -125,6 +125,30 @@ namespace DI
         }
     }
 
+    void DVector::Insert(std::int64_t Index, std::int64_t Value)
+    {
+        try
+        {   
+            std::int64_t Validated = ValidateIndex(Index);
+            Resize(Size + 1);
+                    
+            for (std::int64_t i = Size - 1; i >= Validated; --i)
+            {
+                Data[i + 1] = Data[i];
+
+                if (i == Validated)
+                {
+                    Data[i] = Value;
+                }
+            }
+            ++Size;
+        }
+        catch(const std::exception& e)
+        {
+            std::cerr << e.what() << '\n';
+        }
+    }
+
     void DVector::Resize(std::int64_t NewCapacity)
     {
         if(NewCapacity >= CurrentCapacity)
@@ -141,7 +165,7 @@ namespace DI
         //TODO add growth factor
         std::unique_ptr<std::int64_t[]> NewData (new std::int64_t[GrowthCapacity * 2]);
 
-        for(std::int64_t i = 0; i < Size; i++)
+        for(std::int64_t i = 0; i < Size; ++i)
         {
             NewData[i] = Data[i];
         }
@@ -156,7 +180,7 @@ namespace DI
 
         std::unique_ptr<std::int64_t[]> NewData (new std::int64_t[ShrinkCapacity / 2]);
 
-        for(std::int64_t i = 0; i < Size; i++)
+        for(std::int64_t i = 0; i < Size; ++i)
         {
             NewData[i] = Data[i];
         }

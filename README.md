@@ -515,7 +515,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] New raw data array with allocated memory
+        - [x] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
         - [x] size() - number of items
@@ -523,7 +523,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [x] is_empty()
         - [x] at(index) - returns item at given index, blows up if index out of bounds
         - [x] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
         - [ ] prepend(item) - can use insert above at index 0
         - [x] pop() - remove from end, return value
         - [x] delete(index) - delete item at index, shifting all trailing elements left

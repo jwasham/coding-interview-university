@@ -208,7 +208,7 @@ Używam specjalnej odmiany Markdown GitHub, w tym list zadań do sprawdzania pos
 
 `git commit -m "Marked x"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
 
 `git push --force`
 
@@ -372,8 +372,8 @@ Stworzyłem witrynę mobilną, aby móc przeglądać na moim telefonie i tableci
 Stwórz własną za darmo:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Pamiętaj, że poszedłem ostro i mam karty obejmujące wszystko, od języka asemblera i ciekawostek Python po uczenie maszynowe i statystyki. To o wiele za dużo na to, w stosunku do tego co jest wymagane.
 
@@ -617,7 +617,7 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
         - binary search using recursion
 
 - ### Operacje bitowe
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Dobrze zrozum manipulowanie bitami korzystając z: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -644,7 +644,6 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
 ## Drzewa
 
 - ### Drzewa - uwagi & zarys
-    - [ ] [Series: Core Trees (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (wideo)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - podstawy budowy drzewa
     - traversal (ścieżki)
@@ -1187,7 +1186,7 @@ Trie to drzewo węzłów, które obsługuje operacje Znajdź i Wstaw [etc (...)]
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Zrozumienie problemu i zakresu:
             - zdefiniowanie przypadków użycia, z pomocą rekrutera

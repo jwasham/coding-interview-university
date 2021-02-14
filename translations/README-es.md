@@ -1,6 +1,6 @@
 ﻿# Coding Interview University
 
-- Versión original: [Inglés](README.md)
+- Versión original: [Inglés](../README.md)
 
 > Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon!(Art. Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 
@@ -172,7 +172,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo.
+Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me tomará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo.
 
 Es un plan largo, puede tome unos meses; pero si le resulta familiar mucho de esto le tomara mucho menos tiempo.
 
@@ -199,7 +199,7 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -406,8 +406,8 @@ Hice un sitio adaptado a moviles para revisarlo en mi celular y en mi Tablet, do
 Haga el suyo gratis:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Tenga en cuenta que empecé desde abajo y hay tarjetas que cubren todo, desde el lenguaje ensamblador y la trivia Python al Machine Learning y estadísticas. Es demasiado para lo que se requiere.
 
@@ -415,7 +415,7 @@ Tenga en cuenta que empecé desde abajo y hay tarjetas que cubren todo, desde el
 
 Una alternativa a usar mi sitio de tarjetas es [Anki](http://ankisrs.net/), que me ha sido recomendado muchas veces. Usa un sistema de repetición para ayudarle a recordar. Es amigable con el usuario y disponible para todas las plataformas y tiene un sistema de sincronización en la nube. Cuesta $25 en iOS pero es gratuito en las otras plataformas.
 
-Mis tarjetas en ek formato de Anki: https://ankiweb.net/shared/info/25173560 (Gracias[@xiewenya](https://github.com/xiewenya))
+Mis tarjetas en el formato de Anki: https://ankiweb.net/shared/info/25173560 (Gracias[@xiewenya](https://github.com/xiewenya))
 
 ### 3. Revise, revise, revise
 
@@ -636,7 +636,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - Búsqueda binaria usando recursión
 
 - ### Operaciones bit a bit
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
     - [ ] Obtenga un buen entendimiento de la manipulación de bits con: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Buena introducción:
@@ -664,7 +664,6 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 
 ## Árboles
 - ### Árboles - Notas & Antecedentes
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Construcción básica de árboles
     - Recorrido
@@ -1255,7 +1254,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 - [ ] Practicando el proceso de diseño del sistema: Aquí hay algunas ideas para tratar de trabajar en papel, cada una con cierta documentación sobre cómo se manejó en el mundo real:
     - Revisión: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - Flujo:
         1. Comprender el problema y el alcance:
             - Definir los casos de uso, con ayuda del entrevistador

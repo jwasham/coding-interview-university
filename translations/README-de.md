@@ -225,7 +225,7 @@ Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste
 
 `git commit -m "Marked x"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
 
 `git push --force`
 
@@ -433,8 +433,8 @@ Ich habe eine mobile-first Webseite gemacht, damit ich auf meinen Smartphone ode
 Erstell kostenlos deine eigenen Lernkarten:
 
 - [Lernkarten-Webseiten Repo](https://github.com/jwasham/computer-science-flash-cards)
-- [Meine Lernkarten Databank (alt - 1200 Karten)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [Meine Lernkarten Databank (neu - 1800 Karten)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Meine Lernkarten Databank (alt - 1200 Karten)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [Meine Lernkarten Databank (neu - 1800 Karten)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Achtung, ich habe es übertrieben und Lernkarten über alles erstellt, von Assembly und Python Trivia bis hin zu Machine Learning und Statistik. Das ist viel mehr als eigentlich notwendig.
 
@@ -693,7 +693,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - Binärsuche mittels Rekursion
 
 - ### Bitweise Operationen
-    - [ ] [Bits Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - man sollte viele der Zweierpotenzen kennen (von 2^1 über 2^16 und 2^32)
+    - [ ] [Bits Spickzettel](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - man sollte viele der Zweierpotenzen kennen (von 2^1 über 2^16 und 2^32)
     - [ ] Erhalte sehr gutes Verständnis Bits zu manipulieren mit: &, |, ^, ~, >>, <<
         - [ ] [Wörter](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Gute Einführung:
@@ -727,7 +727,6 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Trees (Bäume)</summary>
 
 - ### Trees - Notizen und Hintergrund
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - generell Baumerstellung
     - Traversieren (Durchlaufen)
@@ -1309,7 +1308,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
 - [ ] Übe den Prozess des Systementwurfs: Hier sind ein paar Ideen, die man auf Papier durchspielen kann, jede mit einer Dokumentation wie es in der echten Welt umgesetzt wurde:
     - Review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [Spickzettel](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [Spickzettel](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - Ablauf:
         1. Verstehe das Problem und den Umfang:
             - definiere den Anwendungsfall, was dem Interviewer helfen wird

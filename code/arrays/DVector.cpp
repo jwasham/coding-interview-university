@@ -103,7 +103,6 @@ namespace DI
                 Resize(Size - 1);
                 --Size;
             }
-
         }
         catch(const std::exception& e)
         {

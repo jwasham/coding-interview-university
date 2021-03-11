@@ -1,5 +1,6 @@
 #pragma once
 #include <cstdint>
+#include <iostream>
 #include <memory>
 namespace DI
 {
@@ -25,13 +26,14 @@ namespace DI
         private:
             struct ANode
             {
-                std::int64_t Value = 0;
-                std::unique_ptr<struct ANode> Next = nullptr;
+                std::int64_t Value;
+                std::unique_ptr<ANode> Next;
+                ANode(int64_t Value, std::unique_ptr<ANode> Next) : Value{Value}, Next{std::move(Next)} {}
+                ANode(int64_t Value) : Value{Value}, Next{nullptr} {}
+                ~ANode() {std::cout << "Node with Value: " << Value << "destroyed" << "\n"; }
             };
 
-            std::unique_ptr<struct ANode> AddNode(std::int64_t Value, std::unique_ptr<struct ANode> NextPtr);
-            std::unique_ptr<struct ANode> Head;
-            std::unique_ptr<struct ANode> Tail;
+            std::unique_ptr<ANode> Head; 
             std::int64_t Size = 0;
     };
 }

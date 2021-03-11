@@ -6,7 +6,6 @@ namespace DI
     {
         // Create empty List
         Head = nullptr;
-        Tail =  nullptr;
     }
 
     std::int64_t DList::Size()
@@ -16,7 +15,7 @@ namespace DI
 
     bool DList::IsEmpty()
     {
-        if (Size == 0 && Head == nullptr && Tail == nullptr)
+        if (Size == 0 && Head == nullptr)
         {
             return true;
         }
@@ -26,30 +25,103 @@ namespace DI
         }
     }
 
-    std::int64_t At(int64_t Index)
+    std::int64_t DList::At(int64_t Index)
     {
-        std::unique_ptr<struct DList::ANode> CurrentPositionPtr = std::move(Head);
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
 
-        for (std::int64_t i = 0; i < Index; i++)
+        for (std::int64_t i = 0; i <= Index; i++)
         {
-            CurrentPositionPtr = std::move(CurrentPositionPtr->Next);
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
         }
 
-        std:int64_t Result = CurrentPositionPtr->Value;
+        std::int64_t Result = CurrentPositionPtr->get()->Value;
 
         return Result;
     }
 
-    std::unique_ptr<struct DList::ANode> DList::AddNode(std::int64_t Value, std::unique_ptr<struct DList::ANode> NextPtr)
+
+    void DList::PushFront(std::int64_t Value)
     {
-        std::unique_ptr<struct DList::ANode> ptr (new DList::ANode);
+        auto TempPtr = std::make_unique<ANode>(Value, Head);
 
-        ptr->Value = Value;
-        ptr->Next = std::move(NextPtr);
+        Head = std::move(TempPtr);
         Size++;
-
-        return ptr;
     }
 
-    
+    std::int64_t DList::PopFront()
+    {
+        std::int64_t Result = Head->Value;
+
+        Head = std::move(Head->Next);
+        Size--;
+
+        return Result;
+    }
+
+    void DList::PushBack(std::int64_t Value)
+    {
+        auto TempPtr = std::make_unique<ANode>(Value);
+
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+        for (std::int64_t i = 0; i < Size; i++)
+        {
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+        //verify that Next == nullptr means that it's certainly the end
+        CurrentPositionPtr->get()->Next = std::move(TempPtr);
+    }
+
+    std::int64_t DList::PopBack()
+    {
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+        for (std::int64_t i = 0; i < Size - 1; i++)
+        {
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+        std::int64_t Result = CurrentPositionPtr->get()->Next->Value;
+        
+        CurrentPositionPtr->get()->Next = std::move(nullptr);
+
+        return Result;
+    }
+
+    std::int64_t DList::Front()
+    {
+        return Head->Value;
+    }
+
+    std::int64_t DList::Back()
+    {
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+        for (std::int64_t i = 0; i < Size; i++)
+        {
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+        //verify that Next == nullptr means that it's certainly the end
+        std::int64_t Result = CurrentPositionPtr->get()->Value;
+
+        return Result;
+    }
+
+    void DList::Insert(std::int64_t Index, std::int64_t Value)
+    {
+        auto TempPtr = std::make_unique<ANode>(Value);
+
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+        for (std::int64_t i = 0; i < Index; i++)
+        {
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+        TempPtr->Next = std::move(CurrentPositionPtr->get()->Next->Next);
+
+        CurrentPositionPtr->get()->Next->Next = std::move(TempPtr);
+    }
 }

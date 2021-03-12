@@ -124,4 +124,62 @@ namespace DI
 
         CurrentPositionPtr->get()->Next->Next = std::move(TempPtr);
     }
+
+    void DList::Erase(std::int64_t Index)
+    {
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+        for (std::int64_t i = 0; i < Index; i++)
+        {
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+         CurrentPositionPtr->get()->Next = std::move(CurrentPositionPtr->get()->Next->Next);
+    }
+
+    std::int64_t DList::ValueNFromEnd(std::int64_t N)
+    {
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+        std::int64_t RequieredIndex = Size - N;
+
+        for (std::int64_t i = 0; i <= RequieredIndex; i++)
+        {
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+        std::int64_t Result = CurrentPositionPtr->get()->Value;
+
+        return Result;
+    }
+
+    void DList::Reverse()
+    {
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+         for (std::int64_t i = 0; i < (Size - 1); i++)
+        {
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+        Head = std::move(CurrentPositionPtr->get()->Next);
+    }
+
+    void DList::RemoveValue(std::int64_t Value)
+    {
+        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+
+        for (std::int64_t i = 0; i < Size; i++)
+        {
+            if (CurrentPositionPtr->get()->Value == Value)
+            {
+                Erase(i);
+                break;
+            }
+
+            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+        }
+
+
+    }
 }

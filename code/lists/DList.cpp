@@ -2,18 +2,27 @@
 
 namespace DI
 {
-    DList::DList()
+    template<class DataType>
+    DList<DataType>::DList()
     {
         // Create empty List
         Head = nullptr;
     }
 
-    std::int64_t DList::Size()
+    template<class DataType>
+    DList<DataType>::~DList()
+    {
+        //TODO delete all pointers in nodes
+    }
+
+    template<class DataType>
+    std::int64_t DList<DataType>::GetSizeOf()
     {
         return Size;
     }
 
-    bool DList::IsEmpty()
+    template<class DataType>
+    bool DList<class DataType>::IsEmpty()
     {
         if (Size == 0 && Head == nullptr)
         {
@@ -25,161 +34,172 @@ namespace DI
         }
     }
 
-    std::int64_t DList::At(int64_t Index)
+    template<class DataType>
+    DataType DList<DataType>::At(int64_t Index) const
     {
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        DNode<DataType> *CurrentPositionPtr = Head;
 
         for (std::int64_t i = 0; i <= Index; i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        std::int64_t Result = CurrentPositionPtr->get()->Value;
-
-        return Result;
+        return CurrentPositionPtr->Value;
     }
 
-
-    void DList::PushFront(std::int64_t Value)
+    template<class DataType>
+    void DList<class DataType>::PushFront(std::int64_t Value)
     {
-        auto TempPtr = std::make_unique<ANode>(Value, Head);
+        DNode<DataType> *CurrentPositionPtr = DNode(Value, Head);
 
-        Head = std::move(TempPtr);
+        Head = CurrentPositionPtr;
         Size++;
     }
 
-    std::int64_t DList::PopFront()
+    template<class DataType>
+    DataType DList<DataType>::PopFront()
     {
-        std::int64_t Result = Head->Value;
+        DataType Result = Head->Value;
 
-        Head = std::move(Head->Next);
+        DNode<DataType> *NodeToDelete = Head;
+
+        Head = Head->Next;
         Size--;
+
+        delete NodeToDelete;
 
         return Result;
     }
 
-    void DList::PushBack(std::int64_t Value)
+    template<class DataType>
+    void DList<DataType>::PushBack(DataType Value)
     {
-        auto TempPtr = std::make_unique<ANode>(Value);
-
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
         for (std::int64_t i = 0; i < Size; i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
         //verify that Next == nullptr means that it's certainly the end
-        CurrentPositionPtr->get()->Next = std::move(TempPtr);
+        CurrentPositionPtr->Next = ANode<DataType>(Value);
     }
 
-    std::int64_t DList::PopBack()
+    template<class DataType>
+    DataType DList<DataType>::PopBack()
     {
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
         for (std::int64_t i = 0; i < Size - 1; i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        std::int64_t Result = CurrentPositionPtr->get()->Next->Value;
+        DataType Result = CurrentPositionPtr->Next->Value;
         
-        CurrentPositionPtr->get()->Next = std::move(nullptr);
+        delete CurrentPositionPtr->Next;
+
+        CurrentPositionPtr->Next = nullptr;
 
         return Result;
     }
-
-    std::int64_t DList::Front()
+    
+    template<class DataType>
+    DataType DList<DataType>::Front()
     {
         return Head->Value;
     }
 
-    std::int64_t DList::Back()
+    template<class DataType>
+    DataType DList<DataType>::Back()
     {
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
         for (std::int64_t i = 0; i < Size; i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
         //verify that Next == nullptr means that it's certainly the end
-        std::int64_t Result = CurrentPositionPtr->get()->Value;
-
-        return Result;
+        
+        return CurrentPositionPtr->Value;
     }
 
-    void DList::Insert(std::int64_t Index, std::int64_t Value)
+    template<class DataType>
+    void DList<DataType>::Insert(std::int64_t Index, DataType Value)
     {
-        auto TempPtr = std::make_unique<ANode>(Value);
-
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
         for (std::int64_t i = 0; i < Index; i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        TempPtr->Next = std::move(CurrentPositionPtr->get()->Next->Next);
+        DNode<DataType> NodeToAdd(Value, CurrentPositionPtr->Next->Next);
 
-        CurrentPositionPtr->get()->Next->Next = std::move(TempPtr);
+        CurrentPositionPtr->Next = *NodeToAdd;
     }
 
-    void DList::Erase(std::int64_t Index)
+    template<class DataType>
+    void DList<DataType>::Erase(std::int64_t Index)
     {
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
         for (std::int64_t i = 0; i < Index; i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-         CurrentPositionPtr->get()->Next = std::move(CurrentPositionPtr->get()->Next->Next);
+        DNode<DataType> *NodeToDelete = CurrentPositionPtr->Next;
+
+        CurrentPositionPtr->Next = CurrentPositionPtr->Next->Next;
+
+        delete NodeToDelete;
     }
 
-    std::int64_t DList::ValueNFromEnd(std::int64_t N)
+    template<class DataType>
+    DataType DList<DataType>::ValueNFromEnd(std::int64_t N)
     {
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
-        std::int64_t RequieredIndex = Size - N;
+        std::int64_t RequieredIndex = Size - N; // ???
 
         for (std::int64_t i = 0; i <= RequieredIndex; i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;;
         }
 
-        std::int64_t Result = CurrentPositionPtr->get()->Value;
-
-        return Result;
+        return CurrentPositionPtr->Value;
     }
 
-    void DList::Reverse()
+    template<class DataType>
+    void DList<DataType>::Reverse()
     {
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
-         for (std::int64_t i = 0; i < (Size - 1); i++)
+        //TODO change to while... may be
+        for (std::int64_t i = 0; i < (Size - 1); i++)
         {
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        Head = std::move(CurrentPositionPtr->get()->Next);
+        Head = CurrentPositionPtr->Next;
     }
 
-    void DList::RemoveValue(std::int64_t Value)
+    template<class DataType>
+    void DList<DataType>::RemoveValue(DataType Value)
     {
-        auto CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(Head);
+        auto *CurrentPositionPtr = Head;
 
         for (std::int64_t i = 0; i < Size; i++)
         {
-            if (CurrentPositionPtr->get()->Value == Value)
+            if (CurrentPositionPtr->Value == Value)
             {
                 Erase(i);
                 break;
             }
 
-            CurrentPositionPtr = std::make_unique<std::unique_ptr<ANode>>(CurrentPositionPtr->get()->Next);
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
-
-
     }
 }

@@ -1,5 +1,5 @@
 build:
-	g++ -w -std=c++14 \
+	g++ -w -std=c++17 \
 	./*.cpp \
 	-o dlist.exe
 clean:

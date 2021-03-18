@@ -1,3 +1,5 @@
+#include <iostream>
+
 template<class DataType>
 struct DNode
 {

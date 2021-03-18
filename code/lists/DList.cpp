@@ -3,43 +3,47 @@
 namespace DI
 {
     template<class DataType>
-    DList<DataType>::DList()
-    {
-        // Create empty List
-        Head = nullptr;
-    }
-
-    template<class DataType>
     DList<DataType>::~DList()
-    {
-        //TODO delete all pointers in nodes
+    {   
+        auto *CurrentPositionPtr = Head;
+        DNode<DataType> *NextPositionPtr = nullptr;
+
+        while (CurrentPositionPtr)
+        {
+            NextPositionPtr = CurrentPositionPtr->Next;
+            delete CurrentPositionPtr;
+            CurrentPositionPtr = NextPositionPtr;
+        }
     }
 
     template<class DataType>
-    std::int64_t DList<DataType>::GetSizeOf()
+    const size_t DList<DataType>::GetSizeOf() const
     {
+        size_t Size = 0;
+
+        auto *CurrentPositionPtr = Head;
+
+        while (CurrentPositionPtr)
+        {   
+            Size++;
+            CurrentPositionPtr = CurrentPositionPtr->Next;
+        }
+        
         return Size;
     }
 
     template<class DataType>
-    bool DList<class DataType>::IsEmpty()
+    bool DList<DataType>::IsEmpty() const
     {
-        if (Size == 0 && Head == nullptr)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return Head == nullptr;
     }
 
     template<class DataType>
-    DataType DList<DataType>::At(int64_t Index) const
+    const DataType DList<DataType>::At(size_t Index) const
     {
-        DNode<DataType> *CurrentPositionPtr = Head;
+        auto *CurrentPositionPtr = Head; // head must not be nullptr
 
-        for (std::int64_t i = 0; i <= Index; i++)
+        for (size_t i = 0; i <= Index && CurrentPositionPtr->Next != nullptr; i++)
         {
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
@@ -48,23 +52,21 @@ namespace DI
     }
 
     template<class DataType>
-    void DList<class DataType>::PushFront(std::int64_t Value)
+    void DList<DataType>::PushFront(DataType Value)
     {
-        DNode<DataType> *CurrentPositionPtr = DNode(Value, Head);
+        auto *NodeToAdd = new DNode<DataType>(Value, Head);
 
-        Head = CurrentPositionPtr;
-        Size++;
+        Head = NodeToAdd;
     }
 
     template<class DataType>
-    DataType DList<DataType>::PopFront()
+    const DataType DList<DataType>::PopFront()
     {
         DataType Result = Head->Value;
 
-        DNode<DataType> *NodeToDelete = Head;
+        auto *NodeToDelete = Head;
 
         Head = Head->Next;
-        Size--;
 
         delete NodeToDelete;
 
@@ -76,97 +78,101 @@ namespace DI
     {
         auto *CurrentPositionPtr = Head;
 
-        for (std::int64_t i = 0; i < Size; i++)
-        {
+        while(CurrentPositionPtr->Next)
+        {   
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
         //verify that Next == nullptr means that it's certainly the end
-        CurrentPositionPtr->Next = ANode<DataType>(Value);
+        CurrentPositionPtr->Next = new DNode<DataType>(Value);
     }
 
     template<class DataType>
-    DataType DList<DataType>::PopBack()
+    const DataType DList<DataType>::PopBack()
     {
         auto *CurrentPositionPtr = Head;
+        DNode<DataType> *PrevPositionPtr = nullptr;
 
-        for (std::int64_t i = 0; i < Size - 1; i++)
+        while (CurrentPositionPtr->Next)
         {
+            PrevPositionPtr = CurrentPositionPtr;
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        DataType Result = CurrentPositionPtr->Next->Value;
+        DataType Result = CurrentPositionPtr->Value;
         
-        delete CurrentPositionPtr->Next;
+        delete CurrentPositionPtr;
 
-        CurrentPositionPtr->Next = nullptr;
+        PrevPositionPtr->Next = nullptr;
 
         return Result;
     }
     
     template<class DataType>
-    DataType DList<DataType>::Front()
+    const DataType DList<DataType>::Front() const
     {
         return Head->Value;
     }
 
     template<class DataType>
-    DataType DList<DataType>::Back()
+    const DataType DList<DataType>::Back() const
     {
         auto *CurrentPositionPtr = Head;
 
-        for (std::int64_t i = 0; i < Size; i++)
+        while (CurrentPositionPtr->Next)
         {
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
-
-        //verify that Next == nullptr means that it's certainly the end
         
         return CurrentPositionPtr->Value;
     }
 
     template<class DataType>
-    void DList<DataType>::Insert(std::int64_t Index, DataType Value)
+    void DList<DataType>::Insert(size_t Index, DataType Value)
     {
-        auto *CurrentPositionPtr = Head;
+        auto *CurrentPositionPtr = Head; // must not be nullptr
+        DNode<DataType> *PrevPositionPtr = nullptr;
 
-        for (std::int64_t i = 0; i < Index; i++)
+        for (size_t i = 0; i < Index && CurrentPositionPtr != nullptr; ++i)
         {
+            PrevPositionPtr = CurrentPositionPtr;
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        DNode<DataType> NodeToAdd(Value, CurrentPositionPtr->Next->Next);
+        auto *NodeToAdd = new DNode<DataType>(Value, CurrentPositionPtr->Next->Next);
 
-        CurrentPositionPtr->Next = *NodeToAdd;
+        CurrentPositionPtr->Next = NodeToAdd;
+
+        //TODO check insert to front\end behavior
     }
 
     template<class DataType>
-    void DList<DataType>::Erase(std::int64_t Index)
+    void DList<DataType>::Erase(size_t Index)
     {
-        auto *CurrentPositionPtr = Head;
+        auto *CurrentPositionPtr = Head; // must not be nullptr
+        DNode<DataType> *PrevPositionPtr = nullptr;
 
-        for (std::int64_t i = 0; i < Index; i++)
+        for (size_t i = 0; i <= Index; ++i)
         {
+            PrevPositionPtr = CurrentPositionPtr;
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        DNode<DataType> *NodeToDelete = CurrentPositionPtr->Next;
+        PrevPositionPtr->Next = CurrentPositionPtr->Next;
 
-        CurrentPositionPtr->Next = CurrentPositionPtr->Next->Next;
-
-        delete NodeToDelete;
+        delete CurrentPositionPtr;
     }
 
     template<class DataType>
-    DataType DList<DataType>::ValueNFromEnd(std::int64_t N)
+    const DataType DList<DataType>::ValueNFromEnd(size_t N)
     {
         auto *CurrentPositionPtr = Head;
 
-        std::int64_t RequieredIndex = Size - N; // ???
+        size_t RequieredIndex = GetSizeOf() - N; // ???
 
-        for (std::int64_t i = 0; i <= RequieredIndex; i++)
+        for (size_t i = 0; i <= RequieredIndex && CurrentPositionPtr != nullptr; i++)
         {
-            CurrentPositionPtr = CurrentPositionPtr->Next;;
+            CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
         return CurrentPositionPtr->Value;
@@ -177,29 +183,30 @@ namespace DI
     {
         auto *CurrentPositionPtr = Head;
 
-        //TODO change to while... may be
-        for (std::int64_t i = 0; i < (Size - 1); i++)
+        while (CurrentPositionPtr->Next)
         {
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        Head = CurrentPositionPtr->Next;
+        Head = CurrentPositionPtr;
     }
 
     template<class DataType>
     void DList<DataType>::RemoveValue(DataType Value)
     {
-        auto *CurrentPositionPtr = Head;
+        auto *CurrentPositionPtr = Head; // must not be nullptr
+        DNode<DataType> *PrevPositionPtr = nullptr;
 
-        for (std::int64_t i = 0; i < Size; i++)
+        while (CurrentPositionPtr->Next)
         {
-            if (CurrentPositionPtr->Value == Value)
-            {
-                Erase(i);
-                break;
-            }
+            if (CurrentPositionPtr->Value == Value) break;
 
+            PrevPositionPtr = CurrentPositionPtr;
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
+
+        PrevPositionPtr->Next = CurrentPositionPtr->Next;
+
+        delete CurrentPositionPtr;
     }
 }

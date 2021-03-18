@@ -1,10 +1,10 @@
-#include "./DList.h"
 #include "DListTest.h"
+#include "DList.h"
 #include <cassert>
 
 void DListTest::RunTests()
 {
-    void TestSize();
+    void TestGetSizeOf();
     // void TestAt();
     // void DListTestTestPushFront();
     // void TestPopFront();
@@ -21,13 +21,16 @@ void DListTest::RunTests()
 
 void DListTest::TestGetSizeOf()
 {
-    DI::DList List = DI::DList();
+    DI::DList<std::int64_t> List {};
 
-    std::int16_t ItemsToAdd = 10;
-    for (std::int16_t i = 0; i < ItemsToAdd; i++)
+    size_t ItemsToAdd = 10;
+    
+    for (size_t i = 0; i < ItemsToAdd; ++i)
     {
         List.PushBack(10 + i);
     }
     
-    assert(List.GetSizeOf() == ItemsToAdd);
+    size_t Size = List.GetSizeOf();
+
+    assert(Size == ItemsToAdd);
 }

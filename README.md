@@ -199,7 +199,7 @@ It's a long plan. It may take you months. If you are familiar with a lot of this
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+I'm using Github's special markdown flavor, including tasks lists to track progress.
 
 **Create a new branch so you can check items like this, just put an x in the brackets: [x]**
 

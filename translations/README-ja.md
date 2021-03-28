@@ -1794,7 +1794,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [整数演算、Karatsuba倍数(ビデオ)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 	- [中国の剰余定理(暗号で使用)(ビデオ)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
-- ### 
+- ### Treap
 	- 二分探索木とヒープの組み合わせ
 	- [ ]  [Treap](https://en.wikipedia.org/wiki/Treap)
 	- [ ]  [データ構造：Treaps説明(動画)](https://www.youtube.com/watch?v=6podLUYinH8)

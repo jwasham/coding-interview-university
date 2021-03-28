@@ -38,7 +38,8 @@
 
 これは、Webエンジニア(独学で、CS学位なし)から大企業のソフトウェアエンジニアを目指すための私の複数月の学習計画です。
 
-![ホワイトボードでのコーディング - HBOのシリコンバレーから](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![ホワイトボードでのコーディング - HBOのシリコンバレーから](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+
 これは、 **新人ソフトウェアエンジニア** 、またはソフトウェア/ Webエンジニアからソフトウェアエンジニア（CSの知識が必要な場合）に転職する人を対象にしています。
 長年のソフトウェアエ開発経験をお持ちの場合は、より面白い面接を期待してください。
 
@@ -50,7 +51,7 @@ SREまたはシステムエンジニアになりたい場合は、オプショ�
 
 ## 目次
 
-- [これは何？](#何のことなの？)
+- [これは何？](#これは何？)
 - [なぜこれを使うの？](#why-use-it)
 - [使い方](#使い方)
 - [あなたは十分にスマートではないと感じないでください](十分にスマートではありません)
@@ -904,7 +905,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 ## さらに多くの知識
 
-- ###再帰
+- ### 再帰
 	- [ ] 再帰とバックトラックに関するスタンフォードの講義：
 		- [ ]  [講義8 |プログラミングの抽象化(ビデオ)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
 		- [ ]  [講義9 |プログラミングの抽象化(ビデオ)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -915,7 +916,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [テール再帰とは何かなぜそれが悪いのですか？](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
 		- [ ]  [テール再帰(ビデオ)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ###動的プログラミング
+- ### 動的プログラミング
 	- この問題はかなり難しいかもしれません。なぜなら、それぞれのDP可溶性問題は再帰関係として定義されなければならず、それを思い付くのは難しいかもしれないからです。
 	- DPの問題の多くの例を見て、あなたが関連するパターンをしっかりと理解するまでお勧めします。
 	- [ ] 動画：
@@ -991,7 +992,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [人間のデザインパターン](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
 
-- ###組み合わせ(nCk)と確率
+- ### 組み合わせ(nCk)と確率
 	- [ ]  [数学のスキル：階乗、順列、組み合わせの見つけ方(選択)(ビデオ)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
 	- [ ]  [学校を作る：確率(ビデオ)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
 	- [ ]  [学校を作る：確率とマルコフ連鎖(ビデオ)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
@@ -1021,7 +1022,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [JupyterNotebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
 	- あなたが持っているなら、CLRSの1048 - 1140ページ。
 
-- ###キャッシュ
+- ### キャッシュ
 	- [ ]  LRUキャッシュ：
 		- [ ]  [LRUキャッシュの魔法(Google Devの100日間)(ビデオ)](https://www.youtube.com/watch?v=R5ON3iwx78M)
 		- [ ]  [LRU(ビデオ)の実装](https://www.youtube.com/watch?v=bq6N7Ym81iI)
@@ -1030,7 +1031,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [MIT 6.004 L15：メモリ階層(ビデオ)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
 		- [ ]  [MIT 6.004 L16：キャッシュの問題(動画)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ###プロセスとスレッド
+- ### プロセスとスレッド
 	- [ ] コンピュータサイエンス162 - オペレーティングシステム(25ビデオ)：
 		- プロセスとスレッドのためのビデオ表示1-11
 		- [オペレーティングシステムとシステムプログラミング(ビデオ)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
@@ -1067,7 +1068,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [基調講演David Beazley - 興味のあるトピック(Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
 		- [ ]  [Pythonのミューテックス](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ###論文
+- ### 論文
 	- 完全に理解した上ですべてを読むことは、あなたが持っているより多くの時間がかかるでしょう。私は論文とそのセクションを選択することをお勧めします。
 	- [古典的な論文を愛する？](https://www.cs.cmu.edu/~crary/819-f09/)
 	- [ ]  [1978：順次プロセスの通信](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
@@ -1099,7 +1100,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [2015年：開発者がコードを検索する方法：ケーススタディ](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 	- [ ]  [2016：Borg、Omega、Kubernetes](http://static.googleusercontent.com/media/research.google.com/ja//pubs/archive/44843.pdf)
 
-- ###テスト
+- ### テスト
     - カバーするために：
         - ユニット(単体)テストの仕組み
         - モックオブジェクトとは何ですか？
@@ -1118,15 +1119,15 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [テストのタオ](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
 	- [ ]  [テストの書き方](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ###スケジューリング
+- ### スケジューリング
 	- OSで、どのように動作するか
 	- オペレーティングシステムのビデオから収集できます
 
-- ###システムルーチンを実装する
+- ### システムルーチンを実装する
 	- 使用するプログラミングAPIの下にあるものを理解する
     あなたはそれらを実装できますか？
 
-- ###文字列の検索と操作
+- ### 文字列の検索と操作
 	- [ ]  [Sedgewick - 接尾辞配列(ビデオ)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
 	- [ ]  [Sedgewick - サブストリング(文字列の一部)検索(動画)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
 		- [ ]  [1. サブストリング検索の紹介](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
@@ -1138,7 +1139,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
     このテーマについてさらに詳しく知りたい場合は、[いくつかの科目の追加の詳細]の「文字列のマッチング」の項を参照してください(#additional-detail-on-some-subjects)
 
-- ###トライ木
+- ### トライ木
 	- さまざまなトライ木があることに注意してください。いくつかは接頭辞を持ち、あるものはパスを追跡するビットの代わりに文字列を使用します。
 	- 私はコードを読んだが、実装しないだろう。
 	- [ ]  [Sedgewick - 試してみる(3ビデオ)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
@@ -1155,7 +1156,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [スタンフォード講演(現実世界のユースケース)(ビデオ)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
 	- [ ]  [MIT、高度なデータ構造、文字列(途中でかなり不明瞭になることがあります)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ###浮動小数点数
+- ### 浮動小数点数
 	- [ ] 単純な8ビット：[浮動小数点数の表現 - 1(ビデオ - 計算にエラーがあります - ビデオの説明を参照)](https://www.youtube.com/watch?v=ji3SfClm8TU)
 	- [ ]  32ビット：[IEEE754 32ビット浮動小数点バイナリ(ビデオ)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
@@ -1163,14 +1164,14 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [すべてのソフトウェア開発者が絶対に最低限必要とする、絶対にUnicodeと文字セットについて熟知していること](http://www.joelonsoftware.com/articles/Unicode.html)
 	- [ ]  [すべてのプログラマーが、エンコーディングと文字セットについて知る必要があることは間違いない](http://kunststube.net/encoding/)
 
-- ###バイト順(エンディアン)
+- ### バイト順(エンディアン)
 	- [ ]  [ビッグエンディアンとリトルエンディアン](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
 	- [ ]  [ビッグエンディアン Vs リトルエンディアン(ビデオ)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
 	- [ ]  [ビッグエンディアンとリトルエンディアンの イン/アウト(ビデオ)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
 		- カーネル開発者のための非常に技術的な話。ほとんどがあなたの頭の上にある場合は心配しないでください。
 		- 前半で十分です。
 
-- ###ネットワーキング
+- ### ネットワーキング
 	- **ネットワーク経験がある、またはシステムエンジニアになりたい場合は、質問を期待してください**
 	- そうでなければ、これは知っているだけでいいです
 	- [ ]  [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
@@ -1515,7 +1516,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 これらの話題は面接では出てこないかもしれませんが、
 特定のテクノロジとアルゴリズムを認識するためには、より大きなツールボックスが必要になります。
 
-- ###コンパイラ
+- ### コンパイラ
 	- [ ]  [1分でコンパイラがどのように動作するか(ビデオ)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
 	- [ ]  [Harvard CS50 - コンパイラ(ビデオ)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
 	- [ ]  [C ++(video)](https://www.youtube.com/watch?v=twodd1KFfGk)
@@ -1556,7 +1557,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [strace](https://en.wikipedia.org/wiki/Strace)
 	- [ ]  [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ###情報理論(ビデオ)
+- ### 情報理論(ビデオ)
 	- [ ]  [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
 	- [ ]  Markovプロセスの詳細：
 		- [ ]  [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1564,7 +1565,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [プロジェクト=マルコフテキスト生成ウォークスルー](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walkthroughs)
 	- 下記のMIT 6.050J Information and Entropyシリーズを参照してください。
 
-- ###パリティ＆ハミングコード(ビデオ)
+- ### パリティ＆ハミングコード(ビデオ)
 	- [ ]  [イントロ](https://www.youtube.com/watch?v=q-3BctoUpHE)
 	- [ ]  [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
 	- [ ] ハミングコード：
@@ -1572,19 +1573,19 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [エラー修正](https://www.youtube.com/watch?v=JAMLuxdHH8o)
 	- [ ]  [エラーチェック](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ###エントロピー
+- ## #エントロピー
 	- 下記の動画もご覧ください
 	- 最初に情報理論ビデオを見てください
 	- [情報理論、Claude Shannon、エントロピー、冗長性、データ圧縮およびビット(ビデオ)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ###暗号化
+- ### 暗号化
 	- 下記の動画もご覧ください
 	- 最初に情報理論ビデオを見てください
 	- [ ]  [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
 	- [ ]  [暗号化：ハッシュ関数](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
 	- [ ]  [暗号化：暗号化](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ###圧縮
+- ### 圧縮
 	- 最初に情報理論ビデオを見てください
 	- [ ]  Computerphile(ビデオ)：
 		- [ ]  [圧縮](https://www.youtube.com/watch?v=Lto-ajuqW3w)
@@ -1596,7 +1597,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
 	- [ ]  [(オプション)Google Developers Live：GZIPでは不十分です!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ###コンピュータセキュリティ
+- ### コンピュータセキュリティ
 	- [MIT(23ビデオ)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 		- [ ]  [はじめに、脅威モデル](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 		- [ ]  [ハイジャック攻撃の制御](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1611,18 +1612,18 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [ネットワークプロトコル](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 		- [ ]  [サイドチャネル攻撃](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ###ガベージコレクション
+- ### ガベージコレクション
 	- [ ]  [ガベージコレクション(Java);データの拡張(動画)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
 	- [ ]  [コンパイラ(ビデオ)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
 	- [ ]  [GC in Python(video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
 	- [ ]  [ディープダイブJava：ガーベッジコレクションは良いです!](https://www.infoq.com/presentations/garbage-collection-benefits)
 	- [ ]  [Deep Dive Python：CPythonでのガベージコレクション(ビデオ)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ###パラレルプログラミング
+- ### パラレルプログラミング
 	- [ ]  [Coursera(Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
 	- [ ]  [高性能並列計算のための効率的なPython(ビデオ)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ###メッセージング、シリアライゼーション、およびキューイングシステム
+- ### メッセージング、シリアライゼーション、およびキューイングシステム
 	- [ ]  [Thrift](https://thrift.apache.org/)
 		- [チュートリアル](http://thrift-tutorial.readthedocs.io/ja/latest/intro.html)
 	- [ ]  [プロトコルバッファ](https://developers.google.com/protocol-buffers/)
@@ -1649,14 +1650,14 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [A * Pathfinding Tutorial(video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
 	- [ ]  [A *経路探索(E01：アルゴリズムの説明)(ビデオ)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- ###高速フーリエ変換
+- ### 高速フーリエ変換
 	- [ ]  [フーリエ変換のインタラクティブガイド](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
 	- [ ]  [フーリエ変換とは何ですか？それは何のために使われますか？](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
 	- [ ]  [フーリエ変換とは何ですか？ (ビデオ)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
 	- [ ]  [Divide＆Conquer：FFT(ビデオ)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
 	- [ ]  [FFTの理解](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
-- ###ブルームフィルター
+- ### ブルームフィルター
 	- mビットとkハッシュ関数を持つBloomフィルタが与えられた場合、挿入とメンバーシップの両方のテストはO(k)
 	- [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
 	- [ブルームフィルター|大規模なデータセットのマイニング|スタンフォード大学](https://www.youtube.com/watch?v=qBTdukbzc78)
@@ -1666,19 +1667,19 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - ### HyperLogLog
 	- [わずか1.5KBのメモリを使用して10億の異なるオブジェクトを数える方法](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct -objects-us.html)
 
-- ###局所性に敏感なハッシング
+- ### 局所性に敏感なハッシング
 	- ドキュメントの類似性を判断するために使用されます。
 	- 2つの文書/文字列がまったく同じかどうかを判断するために使用されるMD5またはSHAの反対。
 	- [Simhashing(うまくいけば)シンプルに](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
-- ###ヴァンEmde Boasの木
+- ### ヴァンEmde Boasの木
 	- [Divide＆Conquer：van Emde Boas Trees(ビデオ)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
 	- [ ]  [MIT講義ノート](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture -notes / MIT6_046JS12_lec15.pdf)
 
-- ###拡張データ構造
+- ### 拡張データ構造
 	- [ ]  [CS 61B講義39：データ構造の拡張](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
 
-- ###バランスの取れた検索木
+- ### バランスの取れた検索木
 	- 少なくとも1つのタイプの平衡二分木を知っている(そしてそれがどのように実装されているか知っている)：
 	- "バランスの取れた探索木の​​中で、AVLと2/3の樹木が通過し、赤黒の木がより人気があるようです。
         特に興味深い自己組織化データ構造は、スプレイ木であり、回転を使用します
@@ -1775,45 +1776,45 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [Kd Trees(ビデオ)](https://www.youtube.com/watch?v=W94M9D_yXKk)
 	- [ ]  [kNN K-d木アルゴリズム(ビデオ)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
-- ###リストをスキップする
+- ### リストをスキップする
 	- 「これは多少のカルトデータ構造です」 - Skiena
 	- [ ]  [ランダム化：リストをスキップ(ビデオ)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 	- [ ]  [アニメーションともう少し詳しく](https://en.wikipedia.org/wiki/Skip_list)
 
-- ###ネットワークの流れ
+- ### ネットワークの流れ
 	- [ ]  [Ford-Fulkerson(ビデオ)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
 	- [ ]  [Ford-Fulkersonアルゴリズム(ビデオ)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
 	- [ ]  [ネットワークフロー(動画)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ###分離集合と連合検索
+- ### 分離集合と連合検索
 	- [ ]  [UCB 61B - ばらばらのセット;並べ替えと選択(動画)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
 	- [ ]  [Sedgewickアルゴリズム - Union-Find(6ビデオ)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
 
-- ###高速処理のための数学
+- ### 高速処理のための数学
 	- [ ]  [整数演算、Karatsuba倍数(ビデオ)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 	- [中国の剰余定理(暗号で使用)(ビデオ)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
-- ###
+- ### 
 	- 二分探索木とヒープの組み合わせ
 	- [ ]  [Treap](https://en.wikipedia.org/wiki/Treap)
 	- [ ]  [データ構造：Treaps説明(動画)](https://www.youtube.com/watch?v=6podLUYinH8)
 	- [ ]  [セット操作のアプリケーション](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ###リニアプログラミング(ビデオ)
+- ### リニアプログラミング(ビデオ)
 	- [ ]  [線形計画法](https://www.youtube.com/watch?v=M4K6HYLHREQ)
 	- [ ]  [最小費用の見積もり](https://www.youtube.com/watch?v=2ACJ9EWUC6U)
 	- [ ]  [最大値の検索](https://www.youtube.com/watch?v=8AA_81xI3ik)
 	- [ ]  [Pythonで線形方程式を解く - シンプレックスアルゴリズム](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
-- ###幾何学、凸包(ビデオ)
+- ### 幾何学、凸包(ビデオ)
 	- [ ]  [Graph Alg。 IV：幾何学アルゴリズムの紹介 - 講義9(https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
 	- [ ]  [Geometric Algorithms：Graham＆Jarvis - 講義10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
 	- [Divide＆Conquer：Convex Hull、Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ###離散数学
+- ### 離散数学
 	- 下のビデオを見る
 
-- ###機械学習
+- ### 機械学習
 	- [ ] なぜMLですか？
 		- [ ]  [Googleがどのように最初の企業を学習するマシンとして自分自身を作り直すか](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
 		- [ ]  [知的コンピュータシステムのための大規模な深い学習(ビデオ)](https://www.youtube.com/watch?v=QSaZGT4-6EY)

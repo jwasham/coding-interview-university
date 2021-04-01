@@ -1,37 +1,60 @@
-# الإعداد لجوجل
+# الإعداد لمقابلة البرمجة
 
-الترجمه:
-- [中文版本](README-cn.md)
-- الترجمات تحت الاعداد:
-    - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
-    - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-    - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-    - [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
-    - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-    - [Vietnamese](https://github.com/jwasham/coding-interview-university/issues/92)
-    - [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-    - [French](https://github.com/jwasham/coding-interview-university/issues/89)
-    - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
-    - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-    - [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
-    - [Korean](https://github.com/jwasham/coding-interview-university/issues/118)
-    - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
+> أنشأتها في المقام الأول كلائحة قصيرة من المواضيع الدراسية لكيف يصبح المرء مهندس برمجيات، ولكن سرعان ما كبرت هذه القائمة إلى ما تراه أمامك اليوم. بعد خوض هذه الخطة الدراسية, 
+[تم توظيفي كمهندس تطوير  برمجيات لدى أمازون](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! على الأغلب لن تحتاج إلى ان تدرس بالقدر الذي درسته أنا. لكن على كل حال كل ما تحتاج إليه موجود 
+هنا
+> 
+> درست لمدة ٨-١٢ ساعة في اليوم, لعدة أشهر. هذه هي قصتي: [لماذا درست دواما كاملا لمدة ثمانية أشهر من أجل مقابلة لدا قوقل](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> 
+> العناصر المذكورة في هذه اللائحة ستجهزك جيدا لمقابلة تقنية مع تقريبا أي شركة برمجية, حتى الشركات العملاقة: أمازون، فيسبوك، قوقل، وميكروسوفت
+> 
+> بالتوفيق
 
-## ماهذا؟
-هي خطة من عدة أشهر من مطور تطبيقات ويب (قائمة على التعليم الذاتي، ومبدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات بجوجل
+<details>
+<summary>الترجمات:</summary>
+
+- [中文版本](translations/README-cn.md)
+- [Tiếng Việt - الفيتنامبة](translations/README-vi.md)
+- [الإسبانية](translations/README-es.md)
+- [(البرتغالية (البرازيلية](translations/README-ptbr.md)
+- [البولندية](translations/README-pl.md)
+- [繁體中文](translations/README-tw.md)
+- [اليابانية (日本語)](translations/README-ja.md)
+- [الروسية](translations/README-ru.md)
+
+</details>
+
+<details>
+<summary>ترجمات تحت الإعداد:</summary>
+
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [الإندونيسية](https://github.com/jwasham/coding-interview-university/issues/101)
+- [العربية](https://github.com/jwasham/coding-interview-university/issues/98)
+- [التركية](https://github.com/jwasham/coding-interview-university/issues/90)
+- [الفرنسية](https://github.com/jwasham/coding-interview-university/issues/89)
+- [الأكرانية](https://github.com/jwasham/coding-interview-university/issues/106)
+- [الكورية(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [أردو](https://github.com/jwasham/coding-interview-university/issues/140)
+- [التايلندية](https://github.com/jwasham/coding-interview-university/issues/156)
+- [اليونانية](https://github.com/jwasham/coding-interview-university/issues/166)
+- [الإيطالية](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+
+</details>
+
+## ما هذا؟
+هي خطتي متعددة الأشهر للوصول من مطور ويب (تعليم ذاتي، بدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات لشركة عملاقة
 
 
-![HBO كتابة الكود علي السبورة - من وادي السيليكون](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-هذه القائمة الطويلة تم إعدادها من ملاحظات الإعداد لجوجل، لذلك هي الأشياء مطالب بمعرفتها.
-هناك أشياء إضافية أضفتها في آخر القائمة التي ربما تأتي في المقابلة الشخصية أو تساعد في حل المشاكل البرمجية. كتيرا من العناصر من: كتاب ستيف ياج "[احصل على وظيفة بجوجل](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" ومن حين لآخر ملاحظات الإعداد لجوجل.
-لقد قلصت ماستحتاجه من ملاحظات ياج. وقمت بتعديل متطلبات ياج.
-من معلومات تم الحصول عليها من معارفي بجوجل. هذا يعني أنه من **من مهندسين برمجيات جدد** أو من الذين غيروا مسار العمل من تطوير الويب والبرمجيات إلى مهندس برمجيات(حيث علوم الحساب أمر أساسي). لو لديك كتير من سنوات الخبرة في هندسة البرمجيات توقع المقابلة الشخصية الأصعب.
-[اقرأ المزيد](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+تم إعدادها لمهنسي البرمجيات الجدد أو أولئك المنتقلين من تطوير الويب إلى هندسة البرمجيات (حيث المعرفة بعلوم الحاسب ضرورية) إذا كان لديك العديد من سنوات الخبرة في بناء تطبيقات الويب أو البرمجيات، خذ في عين الإعتبار ان المقابلة ستكون اصعب
 
-إذا كان لديك العديد من سنوات الخبرة في بناء تطبيقات الويب أو البرمجيات، لاحظ أن رؤية جوجل لهندسة البرمجيات تختلف عن منظور تطوير التطبيقات أو البرمجيات وتطلب معرفة بعلوم الحاسب.
+إذا كانت لديك العديد من سنوات الخبرة في تطوير الويب, خذ في عين الإعتبار أن الشركات االبرمجية الضخمة مثل قوقل, فيسبوك, و ميكروسوفت ينظرون إلى هندسة البرمجيات بشكل مختلف عن تطوير البرمجيات/ويب, و تحتاج إلى معرفة علوم الحاسب
 
-أذا كنت تريد أن تصبح مهندس أنظمة أو مهندس ++، اقرأ المزيد من القائمة الاختيارية عن(شبكات الحاسب، والحماية).
+إذا اردت ان تصبح مهندس موثوقية أو مهندس عمليات, ادرس اكثر من القائمة الإختيارية (شبكات, امن)
 
 ---
 
@@ -48,11 +71,11 @@
 - [عن مصادر الفديو](#about-video-resources)
 - [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#interview-process--general-interview-prep)
 - [اختر لغة برمجية واحدة للمقابلة البرمجية](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
+- [لائحة الكتب](#book-list)
+- [قبل أن تبدأ](#before-you-get-started)
+- [ما لن تجده هنا](#what-you-wont-see-covered)
+- [معرفة مسبقة](#prerequisite-knowledge)
+- [الخطة اليومية](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
@@ -189,7 +212,7 @@
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -197,9 +220,9 @@
 
 ## الدخول في مزاج جوجلي
 
-Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)
+[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)
 
 
 ## هل حصلت على الوظيفة بجوجل؟
@@ -480,8 +503,8 @@ OR:
 اصنع واحدا منها لك مجانا:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
 
@@ -717,7 +740,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -746,7 +769,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
     - traversal
@@ -1292,7 +1314,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help

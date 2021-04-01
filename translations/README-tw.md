@@ -207,7 +207,7 @@
 
 `git commit -m "Marked x"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
 
 `git push --force`
 
@@ -365,8 +365,8 @@
 製作屬於自己的免費小字卡:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 我的小字卡資料庫中包含了組合語言、Python的小知識、機器學習以及統計。這些內容已經超出了原本他的預設。
 
@@ -431,7 +431,7 @@
 
  ## 先備知識
 
-- [ ] **學習C++**
+- [ ] **學習C**
     - C語言無所不在。在你學習的過程中，幾乎任何一本書、課程，或者影片中你都能看到他的身影。
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - 這本書還滿輕薄的，但他能讓你有初步對於C語言的認識。看著這本書並且練習，你能更快地掌握C語言。理解C語言能讓你更了解程式的運作以及內部記憶體配置。
@@ -597,7 +597,7 @@
         - 用遞迴(recursion)的方法實作二分搜尋法
 
 - ### 位元運算(Bitwise operations)
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - 你應該能背出一些2的指數(從2^1到2^16以及2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-cheet.pdf) - 你應該能背出一些2的指數(從2^1到2^16以及2^32)
     - [ ] 實際了解如何用下列的位元運算子來操作每個位元: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -624,7 +624,6 @@
 ## 樹狀結構(Tree)
 
 - ### Trees-重點與背景知識
-    - [ ] [Series: Core Trees (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (影片)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 如何建立一棵樹
     - 遍歷
@@ -1160,7 +1159,7 @@
 - [ ] 練習系統設計的過程:以下是在紙上練習的一些方法，每個都有他們如何運用在現實中的說明文件:
     - 複習: [系統設計入門](https://github.com/donnemartin/system-design-primer)
     - [HiredInTech系統設計](http://www.hiredintech.com/system-design/)
-    - [提示](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [提示](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - 流程:
         1. 了解問題與其範圍:
             - 在面試官的幫助下定義使用情況

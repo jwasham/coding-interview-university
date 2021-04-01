@@ -1,16 +1,16 @@
 # Universidade de Entrevista de Programação
 
-> Originalmente eu criei isso como uma pequena lista to-do de tópicos de estudo para se tornar um engenheiro de software, 
-> mas isso cresceu para a grande lista que você vê hoje. Após passar por esse plano de estudo, [Eu fui contratado 
+> Originalmente eu criei isso como uma pequena lista to-do (a fazer) de tópicos de estudo para se tornar um engenheiro de software, 
+> mas isso cresceu para este imenso acervo que você consulta hoje. Após passar por todo esse plano de estudo, [Eu fui contratado 
 > como Engenheiro de Desenvolvimento de Software na Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
 > Você provavelmente não vai precisar estudar tanto quanto eu. De qualquer maneira, tudo que você precisa está aqui.
 >
 > Os itens listados aqui irão preparar você muito bem para uma entrevista em praticamente qualquer empresa de software, 
-> incluindo as gigantes: Amazon, Facebook, Google ou Microsoft.
+> incluindo as gigantes como: Amazon, Facebook, Google ou Microsoft.
 >
 > *Boa sorte para todos vocês!*
 
-**Original**: [Inglês](https://github.com/jwasham/coding-interview-university/blob/master/README.md)
+**Original**: [Inglês](https://github.com/jwasham/coding-interview-university/blob/main/README.md)
 
 - [Acompanhe o progresso da tradução aqui!](https://github.com/jwasham/coding-interview-university/pull/115)
 
@@ -42,14 +42,14 @@ Traduções em progresso:
     
 ## O que é isso?
 
-Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software para uma grande empresa.
+Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software em uma grande empresa.
 
 ![Programando no quadro branco - do Vale do Silício da HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Essa longa lista foi extraída e expandida a partir das **anotações de treinamento da Google**, então essas são as coisas que você precisa saber.
 Eu adicionei alguns itens extras no final que podem aparecer na entrevista ou serem úteis para resolver um problema. Muitos itens são da obra “[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)” (Consiga aquele trabalho na Google) de Steve Yegge's e às vezes são expressados palavra-por-palavra nas anotações de treinamento da Google.
 
-Isso é direcionado à **engenheiros de software novos** ou àqueles que estão migrando de desenvolvimento de software/web para engenharia de software (onde conhecimento de ciência da computação é necessário). Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
+Isso é direcionado à **novos engenheiros de software**, ou àqueles que estão migrando de desenvolvimento de software/web para engenharia de software, onde conhecimento sobre  ciência da computação é necessário. Se você tem vários anos de experiência e está alegando muitos anos de experiência com engenharia de software, pode esperar por uma entrevista mais difícil.
 
 Se você tem vários anos de experiência com desenvolvimento de software/web, observe que grandes empresas como Google, Amazon, Facebook e Microsoft consideram engenharia de software como algo distinto de desenvolvimento de software/web e elas requerem conhecimento de ciência da computação.
 
@@ -73,13 +73,13 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Conhecimento Prévio](#conhecimento-prévio)
 - [Complexidade Algorítmica / Big-O / Análise assintótica](#complexidade-algorítmica--big-o--análise-assintótica)
 - [Estrutura de Dados](#estrutura-de-dados)
-    - [Arrays](#arrays)
-    - [Listas Ligadas](#listas-ligadas)
-    - [Stack](#stack)
-    - [Queue (Fila)](#queue-fila)
-    - [Tabela hash](#tabela-hash)
+    - [Vetores (Arrays)](#arrays)
+    - [Listas Ligadas (Linked List)](#listas-ligadas)
+    - [Pilha (Stack)](#stack)
+    - [Fila (Queue)](#queue-fila)
+    - [Tabela hash (Hash Table)](#tabela-hash)
 - [Mais Conhecimento](#mais-conhecimento)
-    - [Busca binária](#busca-binária)
+    - [Busca binária ( Binary Search)](#busca-binária)
     - [Lógica binária](#lógica-binária)
 - [Árvores](#Árvores)
     - [Árvores - Anotações e Fundamentos](#Árvores---anotações-e-fundamentos)
@@ -88,17 +88,17 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - árvores de busca balanceadas (conceito geral, não detalhes)
     - transversais: pré-ordem, em-ordem (ordem simétrica), pós-ordem, busca em largura, busca em profundidade
 - [Ordenação](#ordenação)
-    - seleção
-    - inserção
-    - heapsort
-    - quicksort
-    - ordenação por mistura (merge sort)
+    - Seleção
+    - Inserção
+    - Heapsort
+    - Quicksort
+    - Merge sort
 - [Grafos](#grafos)
-    - directed
-    - undirected
-    - matriz de adjacência
-    - lista de adjacência
-    - traversals: BFS, DFS
+    - Diretos
+    - Indiretos
+    - Matriz de Adjacência
+    - Lista de Adjacência
+    - Traversals: BFS, DFS
 - [Ainda Mais Conhecimento](#ainda-mais-conhecimento)
     - [Recursão](#recursão)
     - [Programação Dinâmica](#programação-dinâmica)
@@ -113,7 +113,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Agendamento](#agendamento)
     - [Implementar rotinas de sistema](#implementar-rotinas-de-sistema)
     - [Busca de string e manipulações](#busca-de-string-e-manipulações)
-    - [Tries (ou Árvore de Prefixos)](#tries-ou-Árvore-de-prefixos)
+    - [Árvore de Prefixos (Tries)](#tries-ou-Árvore-de-prefixos)
     - [Números de Ponto Flutuantes ("Floating Point Numbers")](#números-de-ponto-flutuantes-floating-point-numbers)
     - [Unicode](#unicode)
     - [Extremidade (ordenação) (ou "endianness" em Inglês)](#extremidade-ordenação-ou-endianness-em-inglês)
@@ -178,13 +178,13 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 ## Por que usar?
 
 Quando eu comecei esse projeto, eu não sabia diferenciar memória dinâmica de memória estática, não sabia notação Big-O, árvores, ou como percorrer um grafo. Se eu tivesse que escrever um algoritmo de ordenação, eu posso te dizer que ele não seria muito bom.
-Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por debaixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns arrays multidimensionais na minha vida e milhares de arrays associativos, mas eu nunca criei estruturas de dados do zero.
+Todas as estruturas de dados que eu já usei eram construídas dentro da linguagem, e eu não sabia como elas funcionavam por debaixo dos panos. Eu nunca tive que gerenciar memória a não ser que um processo que eu estava rodando desse um erro de "memória insuficiente", nesse caso eu teria que dar um jeito. Eu já usei alguns vetores multidimensionais na minha vida e milhares de vetores associativos, mas eu nunca criei estruturas de dados do zero.
 
 É um longo plano. Você vai levar meses. Se você já é familiarizado com muitas dessas coisas, você vai precisar de muito menos tempo. 
 
 ## Como usar
 
-Tudo abaixo é um esboço, e você deve abordar os itens em ordem de cima para baixo.
+**Tudo abaixo é um esboço**, e você deve abordar os itens em ordem de cima para baixo.
 
 Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de tarefas para verificar o progresso.
 
@@ -205,7 +205,7 @@ Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de ta
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -316,7 +316,7 @@ Se você tem mais tempo (eu quero esse livro):
 Se você ler um desses, você deverá ter todo conhecimento de estrutura de dados e algoritmos que precisará para começar a resolver problemas de programação. 
 **Você pode pular todas as aulas em vídeo nesse projeto**, a não ser que você queira uma revisão.
 
-[Recursos adicionais específicos a cada linguagem aqui.](programming-language-resources.md)
+[Recursos adicionais específicos a cada linguagem aqui.](../programming-language-resources.md)
 
 ### C++
 
@@ -393,9 +393,9 @@ OU:
 
 ## Antes de começar
 
-Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle.
+Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle!
 
-Aqui estão alguns erros que eu cometi para que você tenha uma experiência melhor.
+**Aqui estão alguns erros que eu cometi para que você tenha uma experiência melhor**.
 
 ### 1. Você não se lembrará de tudo
 
@@ -415,8 +415,8 @@ Eu fiz um website focado em mobile para que eu pudesse rever no meu celular, tab
 Faça o seu próprio, grátis:
 
 - [Repositório de flashcards](https://github.com/jwasham/computer-science-flash-cards)
-- [Minha base de dados de flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
-- [Minha base de dados de flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Minha base de dados de flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): 
+- [Minha base de dados de flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Tenha em mente que eu exagerei e tenho cartões abrangendo desde linguagem assembly e trivialidades de Python até aprendizado de máquina e estatísticas. É demais para o que é requerido. 
 
@@ -467,9 +467,9 @@ Por que programar em todas essas linguagens?
 Talvez eu não tenha tempo para fazer tudo isso para cada tema, mas eu vou tentar.
 
 Você pode ver meu código aqui:
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
 Você não precisa memorizar os detalhes intrínsecos de cada algoritmo.
 
@@ -650,7 +650,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - busca binária usando recursividade
 
 - ### Lógica binária 
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) (Folha de consultas sobre Bits) - você deve conhecer várias das potências de 2 de (2^1 até 2^16 e 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) (Folha de consultas sobre Bits) - você deve conhecer várias das potências de 2 de (2^1 até 2^16 e 2^32)
     - [ ] Consiga um bom entendimento sobre manipulação de bits com: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture)) (palavras)
         - [ ] Boa introdução:
@@ -679,7 +679,6 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 ## Árvores
 
 - ### Árvores - Anotações e Fundamentos
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees) (Série: Fundamentos de Árvores - vídeo)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees) (Série: Árvores - vídeo)
     - contrução básica de árvore
     - transversal
@@ -1275,7 +1274,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 - [ ] Praticando o processo de design de sistema: Aqui estão algumas ideias para tentar trabalhar no papel, cada uma com documentação sobre como ela foi tratada no mundo real:
     - revisão: [The System Design Primer](https://github.com/donnemartin/system-design-primer) (A Base de Design de Sistema)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/) (Design de Sistema, por HiredInTech)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf) (folha de consultas)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf) (folha de consultas)
     - fluxo:
         1. Compreenda o problema e seu escopo:
             - defina os casos de uso, com a ajuda do entrevistador

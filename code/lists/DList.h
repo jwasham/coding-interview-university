@@ -1,6 +1,9 @@
-#pragma once
 #include "DNode.h"
+#include <stdlib.h>
 
+#pragma once
+#ifndef DLIST_H
+#define DLIST_H
 namespace DI
 {
     template<class DataType>
@@ -32,3 +35,4 @@ namespace DI
             DNode<DataType> *Head;
     };
 }
+#endif //DLIST_H

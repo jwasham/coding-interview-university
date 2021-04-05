@@ -1,8 +1,8 @@
 build:
 	g++ -w -std=c++17 \
 	./*.cpp \
-	-o dlist.exe
+	-o list.exe
 clean:
-	del dlist.exe
+	del list.exe
 run:
-	dlist.exe
+	list.exe

@@ -1,4 +1,7 @@
 #include "DList.h"
+#pragma once
+// #ifndef _DLIST_CPP_ 
+// #define _DLIST_CPP_
 
 namespace DI
 {
@@ -77,7 +80,6 @@ namespace DI
     void DList<DataType>::PushBack(DataType Value)
     {
         auto *CurrentPositionPtr = Head;
-
         while(CurrentPositionPtr->Next)
         {   
             CurrentPositionPtr = CurrentPositionPtr->Next;
@@ -210,3 +212,4 @@ namespace DI
         delete CurrentPositionPtr;
     }
 }
+// #endif //_DLIST_CPP_

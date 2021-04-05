@@ -3,9 +3,9 @@ class DListTest
     public:
         void RunTests();
         void TestGetSizeOf();
-        // void TestAt();
-        // void DListTestTestPushFront();
-        // void TestPopFront();
+        void TestAt();
+        void TestPushFront();
+        void TestPopFront();
         // void TestPushBack();
         // void TestPopBack();
         // void TestFront();

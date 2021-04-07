@@ -1,8 +1,8 @@
 build:
 	g++ -w -std=c++17 \
 	./*.cpp \
-	-o vector
+	-o Vector
 clean:
-	rm ./vector
+	rm ./Vector
 run:
-	./vector
+	./Vector

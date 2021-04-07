@@ -46,7 +46,7 @@ namespace DI
     {
         auto *CurrentPositionPtr = Head; // head must not be nullptr
 
-        for (size_t i = 0; i <= Index && CurrentPositionPtr->Next != nullptr; i++)
+        for (size_t i = 0; i < Index && CurrentPositionPtr->Next != nullptr; i++)
         {
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
@@ -80,8 +80,15 @@ namespace DI
     void DList<DataType>::PushBack(DataType Value)
     {
         auto *CurrentPositionPtr = Head;
+
+        if (Head == nullptr)
+        {
+            Head = new DNode<DataType>(Value);
+            return;
+        }
+
         while(CurrentPositionPtr->Next)
-        {   
+        {
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
@@ -141,9 +148,9 @@ namespace DI
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        auto *NodeToAdd = new DNode<DataType>(Value, CurrentPositionPtr->Next->Next);
+        auto *NodeToAdd = new DNode<DataType>(Value, CurrentPositionPtr);
 
-        CurrentPositionPtr->Next = NodeToAdd;
+        PrevPositionPtr->Next = NodeToAdd;
 
         //TODO check insert to front\end behavior
     }
@@ -154,7 +161,7 @@ namespace DI
         auto *CurrentPositionPtr = Head; // must not be nullptr
         DNode<DataType> *PrevPositionPtr = nullptr;
 
-        for (size_t i = 0; i <= Index; ++i)
+        for (size_t i = 0; i < Index; ++i)
         {
             PrevPositionPtr = CurrentPositionPtr;
             CurrentPositionPtr = CurrentPositionPtr->Next;
@@ -169,10 +176,10 @@ namespace DI
     const DataType DList<DataType>::ValueNFromEnd(size_t N)
     {
         auto *CurrentPositionPtr = Head;
-
+        
         size_t RequieredIndex = GetSizeOf() - N; // ???
 
-        for (size_t i = 0; i <= RequieredIndex && CurrentPositionPtr != nullptr; i++)
+        for (size_t i = 0; i < RequieredIndex && CurrentPositionPtr != nullptr; i++)
         {
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
@@ -184,18 +191,28 @@ namespace DI
     void DList<DataType>::Reverse()
     {
         auto *CurrentPositionPtr = Head;
+        DNode<DataType> *NextPositionPtr = nullptr;
+        DNode<DataType> *PrevPositionPtr = nullptr;
 
-        while (CurrentPositionPtr->Next)
+        while (CurrentPositionPtr)
         {
-            CurrentPositionPtr = CurrentPositionPtr->Next;
+            NextPositionPtr = CurrentPositionPtr->Next;
+            CurrentPositionPtr->Next = PrevPositionPtr;
+            PrevPositionPtr = CurrentPositionPtr;
+            CurrentPositionPtr = NextPositionPtr;
         }
 
-        Head = CurrentPositionPtr;
+        Head = PrevPositionPtr;
     }
 
     template<class DataType>
     void DList<DataType>::RemoveValue(DataType Value)
     {
+        if (Head == nullptr)
+        {
+            return;
+        }
+
         auto *CurrentPositionPtr = Head; // must not be nullptr
         DNode<DataType> *PrevPositionPtr = nullptr;
 

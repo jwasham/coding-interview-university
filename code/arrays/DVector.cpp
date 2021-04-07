@@ -118,8 +118,9 @@ namespace DI
         {
             if (Data[i] == Value)
             {
-                std::cout << "Check " << Data[i] << "Value: " << Value << "Size: "<< Size <<  std::endl;
+                // std::cout << "Check " << i << " Value: " << Value << " Size: "<< Size <<  std::endl;
                 Delete(i);
+                --i; //one step back to not miss values
             }
         }
     }
@@ -164,32 +165,33 @@ namespace DI
             DoShrink(NewCapacity);
         }
     }
-    void DVector::DoGrowth(std::int64_t GrowthCapacity)
+    void DVector::DoGrowth(std::int64_t NewCapacity)
     {   
         //TODO add growth factor
-        std::unique_ptr<std::int64_t[]> NewData (new std::int64_t[GrowthCapacity * 2]);
+        std::int64_t GrowthCapacity = NewCapacity * 2;
+        std::unique_ptr<std::int64_t[]> NewData (new std::int64_t[GrowthCapacity]);
 
         for(std::int64_t i = 0; i < Size; ++i)
         {
             NewData[i] = Data[i];
         }
 
-        CurrentCapacity = CurrentCapacity + GrowthCapacity * 2;
         Data = std::move(NewData);
+        CurrentCapacity = GrowthCapacity;
     }
 
-    void DVector::DoShrink(std::int64_t ShrinkCapacity)
+    void DVector::DoShrink(std::int64_t NewCapacity)
     {   
         //TODO add shrink factor
-
-        std::unique_ptr<std::int64_t[]> NewData (new std::int64_t[ShrinkCapacity / 2]);
+        std::int64_t ShrinkCapacity = NewCapacity / 2;
+        std::unique_ptr<std::int64_t[]> NewData (new std::int64_t[ShrinkCapacity]);
 
         for(std::int64_t i = 0; i < Size; ++i)
         {
             NewData[i] = Data[i];
         }
 
-        CurrentCapacity = CurrentCapacity - ShrinkCapacity / 2;
         Data = std::move(NewData);
+        CurrentCapacity = ShrinkCapacity;
     }
 }

@@ -1,27 +1,28 @@
 #include "DVectorTest.h"
 #include "DVector.h"
 #include <cassert>
+#include <iostream>
+
 void DVectorTest::RunTests()
 {
-    void TestGetSizeOf();
-    void TestGetCapacity();
-    void TestIsEmpty();
-    void TestAt();
-    void Pop();
-    void TestDelete();
-    void TestFind();
-    void TestRemove();
-    void TestInsert();
-    void TestPrepend();
+    TestGetSizeOf();
+    TestGetCapacity();
+    TestIsEmpty();
+    TestAt();
+    TestPop();
+    TestDelete();
+    TestFind();
+    TestRemove();
+    TestInsert();
+    TestPrepend();
 }
 
 void DVectorTest::TestGetSizeOf()
 {
     DI::DVector TestVector(5);
     assert(TestVector.GetSizeOf() == 0);
-
-    int64_t ItemsToAdd = 10;
-    for (int64_t i = 0; i < ItemsToAdd; ++i)
+    std::int64_t ItemsToAdd = 10;
+    for (std::int64_t i = 0; i < ItemsToAdd; ++i)
     {
         TestVector.PushBack(i + 1);
     }
@@ -33,14 +34,6 @@ void DVectorTest::TestGetCapacity()
 {
     DI::DVector TestVector(5);
     assert(TestVector.GetCapacity() == 5);
-
-    int64_t ItemsToAdd = 10;
-    for (int64_t i = 0; i < ItemsToAdd; ++i)
-    {
-        TestVector.PushBack(i + 1);
-    }
-
-    assert(TestVector.GetCapacity() == (ItemsToAdd * 2));
 }
 
 void DVectorTest::TestIsEmpty()
@@ -52,7 +45,7 @@ void DVectorTest::TestIsEmpty()
 void DVectorTest::TestAt()
 {
     DI::DVector TestVector(5);
-
+    
     for (int64_t i = 0; i < 5; ++i)
     {
         TestVector.PushBack(i + 1);
@@ -87,7 +80,6 @@ void DVectorTest::TestDelete()
     assert(TestVector.GetSizeOf() == 5);
     TestVector.Delete(3);
     assert(TestVector.GetSizeOf() == 4);
-    assert(TestVector.At(5));
 }
 
 void DVectorTest::TestFind()
@@ -104,7 +96,7 @@ void DVectorTest::TestFind()
     assert(TestVector.Find(2) == 1); //still has to find first value
 }
 
-void DVectorTest::TestInsert()
+void DVectorTest::TestRemove()
 {
     DI::DVector TestVector(5);
 
@@ -113,6 +105,22 @@ void DVectorTest::TestInsert()
         TestVector.PushBack(i + 1);
     }
 
+    TestVector.PushBack(3);
+    TestVector.PushBack(3);
+
+    TestVector.Remove(3);
+    assert(TestVector.Find(3) == -1);
+}
+
+void DVectorTest::TestInsert()
+{
+    DI::DVector TestVector(5);
+
+    for (int64_t i = 0; i < 5; ++i)
+    {
+        TestVector.PushBack(i + 1);
+    }
+    
     assert(TestVector.At(3) == 4);
     TestVector.Insert(3, 10);
     assert(TestVector.At(3) == 10);

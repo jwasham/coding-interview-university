@@ -35,8 +35,8 @@ namespace DI
             
         private:
             void Resize(std::int64_t NewCapacity);
-            void DoGrowth(std::int64_t GrowthCapacity);
-            void DoShrink(std::int64_t ShrinkCapacity);
+            void DoGrowth(std::int64_t NewCapacity);
+            void DoShrink(std::int64_t NewCapacity);
             std::int64_t ValidateIndex(std::int64_t Index);
 
         private:

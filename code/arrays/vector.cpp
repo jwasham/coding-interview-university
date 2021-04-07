@@ -3,7 +3,6 @@
 
 int main() 
 {
-
     DVectorTest Tester;
     Tester.RunTests();
 

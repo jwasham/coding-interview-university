@@ -1342,7 +1342,8 @@ Mock Interviews:
 ## Your Resume
 
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
-
+- Very Important thing to remember while creating your resume, if you applying for big companies is that make it ATS Complaint. 
+- [How to Create or Check if your Resume is ATS Complaint](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
 
 ## Be thinking of for when the interview comes
 

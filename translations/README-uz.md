@@ -50,6 +50,7 @@
 
 ## What is it?
 
+Uzbekcha yozamiz :)
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)

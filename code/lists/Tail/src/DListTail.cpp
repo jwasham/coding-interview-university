@@ -1,15 +1,16 @@
-#include "DList.h"
+#include "DListTail.h"
 #pragma once
-// #ifndef _DLIST_CPP_ 
-// #define _DLIST_CPP_
+// #ifndef _DLISTTAIL_CPP_ 
+// #define _DLISTTAIL_CPP_
 
 namespace DI
 {
     template<class DataType>
     DList<DataType>::~DList()
-    {   
+    {
         auto *CurrentPositionPtr = Head;
         DNode<DataType> *NextPositionPtr = nullptr;
+        Tail = nullptr;
 
         while (CurrentPositionPtr)
         {
@@ -38,19 +39,25 @@ namespace DI
     template<class DataType>
     bool DList<DataType>::IsEmpty() const
     {
-        return Head == nullptr;
+        return ( Head == nullptr ) && ( Tail == nullptr );
     }
 
     template<class DataType>
     const DataType DList<DataType>::At(size_t Index) const
     {
-        auto *CurrentPositionPtr = Head; // head must not be nullptr
+        auto *CurrentPositionPtr = Head;
 
         for (size_t i = 0; i < Index && CurrentPositionPtr->Next != nullptr; i++)
         {
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
+        if (CurrentPositionPtr == nullptr)
+        {
+            std::cerr << "Out of bounds" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+        
         return CurrentPositionPtr->Value;
     }
 
@@ -59,17 +66,33 @@ namespace DI
     {
         auto *NodeToAdd = new DNode<DataType>(Value, Head);
 
+        if (IsEmpty())
+        {
+            Tail = NodeToAdd;
+        }
+
         Head = NodeToAdd;
     }
 
     template<class DataType>
     const DataType DList<DataType>::PopFront()
     {
+        if (IsEmpty())
+        {
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
         DataType Result = Head->Value;
 
         auto *NodeToDelete = Head;
 
         Head = Head->Next;
+
+        if (Head == nullptr)
+        {
+            Tail = nullptr;
+        }
 
         delete NodeToDelete;
 
@@ -79,26 +102,30 @@ namespace DI
     template<class DataType>
     void DList<DataType>::PushBack(DataType Value)
     {
-        auto *CurrentPositionPtr = Head;
+        auto *NodeToAdd = new DNode<DataType>(Value);
 
-        if (Head == nullptr)
+        if (IsEmpty())
         {
-            Head = new DNode<DataType>(Value);
+            Head = NodeToAdd;
+            Tail = Head;
             return;
         }
 
-        while(CurrentPositionPtr->Next)
-        {
-            CurrentPositionPtr = CurrentPositionPtr->Next;
-        }
+        auto *PrevPositionPtr = Tail;
 
-        //verify that Next == nullptr means that it's certainly the end
-        CurrentPositionPtr->Next = new DNode<DataType>(Value);
+        PrevPositionPtr->Next = NodeToAdd;
+        Tail = NodeToAdd;
     }
 
     template<class DataType>
     const DataType DList<DataType>::PopBack()
     {
+        if (IsEmpty())
+        {
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
         auto *CurrentPositionPtr = Head;
         DNode<DataType> *PrevPositionPtr = nullptr;
 
@@ -114,31 +141,73 @@ namespace DI
 
         PrevPositionPtr->Next = nullptr;
 
+        Tail = PrevPositionPtr;
+
         return Result;
     }
     
     template<class DataType>
     const DataType DList<DataType>::Front() const
     {
+        if (IsEmpty())
+        {
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
         return Head->Value;
     }
 
     template<class DataType>
     const DataType DList<DataType>::Back() const
     {
-        auto *CurrentPositionPtr = Head;
-
-        while (CurrentPositionPtr->Next)
+        if (IsEmpty())
         {
-            CurrentPositionPtr = CurrentPositionPtr->Next;
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
         }
-        
-        return CurrentPositionPtr->Value;
+
+        return Tail->Value;
     }
 
     template<class DataType>
     void DList<DataType>::Insert(size_t Index, DataType Value)
     {
+        if (IsEmpty())
+        {
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
+        auto *CurrentPositionPtr = Head;
+        DNode<DataType> *PrevPositionPtr = nullptr;
+
+        for (size_t i = 0; i < Index && CurrentPositionPtr != nullptr; ++i)
+        {
+            PrevPositionPtr = CurrentPositionPtr;
+            CurrentPositionPtr = CurrentPositionPtr->Next;
+        }
+
+        if (CurrentPositionPtr == nullptr)
+        {
+            std::cerr << "Out of bounds" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
+        auto *NodeToAdd = new DNode<DataType>(Value, CurrentPositionPtr);
+
+        PrevPositionPtr->Next = NodeToAdd;
+    }
+
+    template<class DataType>
+    void DList<DataType>::Erase(size_t Index)
+    {
+        if (IsEmpty())
+        {
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
         auto *CurrentPositionPtr = Head; // must not be nullptr
         DNode<DataType> *PrevPositionPtr = nullptr;
 
@@ -148,26 +217,18 @@ namespace DI
             CurrentPositionPtr = CurrentPositionPtr->Next;
         }
 
-        auto *NodeToAdd = new DNode<DataType>(Value, CurrentPositionPtr);
-
-        PrevPositionPtr->Next = NodeToAdd;
-
-        //TODO check insert to front\end behavior
-    }
-
-    template<class DataType>
-    void DList<DataType>::Erase(size_t Index)
-    {
-        auto *CurrentPositionPtr = Head; // must not be nullptr
-        DNode<DataType> *PrevPositionPtr = nullptr;
-
-        for (size_t i = 0; i < Index; ++i)
+        if (CurrentPositionPtr == nullptr)
         {
-            PrevPositionPtr = CurrentPositionPtr;
-            CurrentPositionPtr = CurrentPositionPtr->Next;
+            std::cerr << "Out of bounds" << std::endl;
+            exit(EXIT_FAILURE);
         }
 
         PrevPositionPtr->Next = CurrentPositionPtr->Next;
+        
+        if (PrevPositionPtr->Next == nullptr)
+        {
+            Tail = PrevPositionPtr;
+        }
 
         delete CurrentPositionPtr;
     }
@@ -175,6 +236,12 @@ namespace DI
     template<class DataType>
     const DataType DList<DataType>::ValueNFromEnd(size_t N)
     {
+        if (IsEmpty())
+        {
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
         auto *CurrentPositionPtr = Head;
         
         size_t RequieredIndex = GetSizeOf() - N; // ???
@@ -182,6 +249,12 @@ namespace DI
         for (size_t i = 0; i < RequieredIndex && CurrentPositionPtr != nullptr; i++)
         {
             CurrentPositionPtr = CurrentPositionPtr->Next;
+        }
+
+        if (CurrentPositionPtr == nullptr)
+        {
+            std::cerr << "Out of bounds" << std::endl;
+            exit(EXIT_FAILURE);
         }
 
         return CurrentPositionPtr->Value;
@@ -202,15 +275,17 @@ namespace DI
             CurrentPositionPtr = NextPositionPtr;
         }
 
+        Tail = Head;
         Head = PrevPositionPtr;
     }
 
     template<class DataType>
     void DList<DataType>::RemoveValue(DataType Value)
     {
-        if (Head == nullptr)
+        if (IsEmpty())
         {
-            return;
+            std::cerr << "List is empty" << std::endl;
+            exit(EXIT_FAILURE);
         }
 
         auto *CurrentPositionPtr = Head; // must not be nullptr
@@ -229,4 +304,4 @@ namespace DI
         delete CurrentPositionPtr;
     }
 }
-// #endif //_DLIST_CPP_
+// #endif //_DLISTTAIL_CPP_

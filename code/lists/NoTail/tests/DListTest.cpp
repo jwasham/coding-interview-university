@@ -1,6 +1,6 @@
 #include "DListTest.h"
-#include "DList.cpp"
-#include "DList.h"
+#include "../src/DList.cpp"
+#include "../src/DList.h"
 #include <iostream>
 #include <cassert>
 
@@ -240,5 +240,5 @@ void DListTest::TestRemoveValue()
     List.RemoveValue(12);
 
     assert(List.At(2) == 13);
-    assert(List.At(5) == 12);
+    assert(List.At(4) == 12);
 }

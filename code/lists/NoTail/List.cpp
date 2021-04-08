@@ -1,4 +1,4 @@
-#include "DListTest.h"
+#include "./tests/DListTest.h"
 #include <iostream>
 
 int main() 

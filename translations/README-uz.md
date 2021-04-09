@@ -1,16 +1,16 @@
 # Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+Asl versiyasi: [Inglischa](../README.md)
+
+> Dastlab men bu proyektni dasturchi (software engineer) bo'lish uchun o'qish kerak bo'lgan mavzularning qisqacha ro'yxati sifatida yaratdim,
+> ammo u bugun siz ko'rib turgan katta ro'yxatga aylandi. Ushbu o'quv rejasidan o'tib, [men Amazon-ga dasturchi sifatida ishga yollandim](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
+> Ehtimol, menga o'xshab o'qishingizga to'g'ri kelmaydi. Baribir sizga kerak bo'lgan hamma narsa shu erda.
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> Bir necha oy davomida kuniga taxminan 8-12 soat o'qidim. Bu mening hikoyam: [Nega men Google-da intervyu olish uchun 8 oy davomida kechayu kunduz o'qidim](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
+> Bu erda keltirilgan narsalar sizni har qanday dasturiy ta'minot kompaniyalari, shu jumladan gigantlar: Amazon, Facebook, Google va Microsoft-da o'tkaziladigan texnik suhbatga yaxshi tayyorlaydi.
 >
-> *Best of luck to you!*
+> *Sizga omad tilayman!*
 
 <details>
 <summary>Translations:</summary>

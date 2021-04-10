@@ -3,7 +3,7 @@
 Asl versiyasi: [Inglischa](../README.md)
 
 > Dastlab men bu proyektni dasturchi (software engineer) bo'lish uchun o'qish kerak bo'lgan mavzularning qisqacha ro'yxati sifatida yaratdim,
-> ammo u bugun siz ko'rib turgan katta ro'yxatga aylandi. Ushbu o'quv rejasidan o'tib, [men Amazon-ga dasturchi sifatida ishga yollandim](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
+> ammo bu proyekt bugun siz ko'rib turgan katta ro'yxatga aylandi. Ushbu o'quv rejasidan o'tib, [men Amazon-ga dasturchi sifatida ishga yollandim](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
 > Ehtimol, menga o'xshab o'qishingizga to'g'ri kelmaydi. Baribir sizga kerak bo'lgan hamma narsa shu yerda.
 >
 > Bir necha oy davomida kuniga taxminan 8-12 soat o'qidim. Bu mening hikoyam: [Nega men Google-da intervyu olish uchun 8 oy davomida kechayu kunduz o'qidim](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)

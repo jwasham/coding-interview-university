@@ -1621,7 +1621,7 @@ Challenge repos:
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
-    - Know at least one type of balanced binary tree (and know how it's implemented):
+    - 적어도 하나의 타입의 균형 이진 트리에 대하여 알고 계시는 게 좋습니다 (그리고 어떻게 적용되는지까지요):
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
@@ -1696,12 +1696,11 @@ Challenge repos:
         - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
+        - 재밌는 사실: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
         - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address.
+            B-트리는 데이터베이스에 광범위하게 사용됩니다. 가장 현대적인 파일시스템은 B-트리를 씁니다 (or Variants). 
+            데이터베이스에 사용될 뿐만 아니라, B-트리는 특정한 파일의 임의의 블록에 '빠른 무작위 탐색'을 가능하게 합니다.
+            기본적인 문제는 파일블록 주소 i를 하나의 디스크 블록(또는 아마도 실린더-헤드-섹터) 주소로 바꾸는 것입니다.
         - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
@@ -1752,11 +1751,11 @@ Challenge repos:
     - [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
+- ### 이산수학
     - 아래에 있는 영상을 확인하세요.
 
-- ### Machine Learning
-    - Why ML?
+- ### 기계학습
+    - 왜 기계학습이 중요하죠?
         - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
@@ -1765,7 +1764,7 @@ Challenge repos:
     - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
     - [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
     - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses:
+    - 강의들:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
@@ -1774,7 +1773,7 @@ Challenge repos:
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
         - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
+    - 자료들:
         - Books:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
             - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
@@ -1786,9 +1785,10 @@ Challenge repos:
 
 ## 몇몇 주제에 대한 세부사항
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+    이미 언급한 몇몇의 개념에 대한 설명을 좀 더 보강하기 위해서 적었습니다.
+    하지만 더하길 원하지 않았어요. 왜냐면 그 양이 너무나 방대하기 때문이지요. 
+    하나의 주제에 대하여 지나치게 깊게 파고드는 것은 쉬운 일입니다.
+    이번 세기에 직장을 구하고 싶으시잖아요, 맞죠?
 
 - **SOLID**   
     - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
@@ -1939,12 +1939,7 @@ Challenge repos:
 - [컴퓨터 과학 온라인 강의들](https://github.com/open-source-society/computer-science)
 - [(많은 온라인 강의가 있는) 컴퓨터 과학 강의들](https://github.com/prakhar1989/awesome-courses)
 
-## Computer Science Courses
-
-- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
-- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
-
-## Papers
+## 학술 자료들
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
     - [implemented in Go](https://godoc.org/github.com/thomas11/csp)

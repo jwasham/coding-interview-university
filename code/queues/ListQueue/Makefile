@@ -2,9 +2,10 @@ build:
 	g++ -w -std=c++17 \
 	./src/*.cpp \
 	./tests/*.cpp \
+	../../lists/Tail/src/*.cpp \
 	./*.cpp \
-	-o ./ListTail
+	-o ./QueueList
 clean:
-	rm ./ListTail
+	rm ./QueueList
 run:
-	./ListTail
+	./QueueList

@@ -298,6 +298,14 @@ Read more about choices:
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
+
+## Use Coding Interview Preparation focused Platforms to Practice
+
+This Platforms have huge and good collections of interview resources that will help them crack the interviews of big tech companies.
+
+- [Best Coding Platforms to prepare for Coding Interviews](https://ayedot.com/120/MiniBlog/Top-5-Best-Coding-Platforms-to-prepare-for-Coding-Interviews)
+
+
 ## Book List
 
 This is a shorter list than what I used. This is abbreviated to save you time.

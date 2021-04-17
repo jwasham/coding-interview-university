@@ -487,7 +487,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review
 - If some lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [X] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:

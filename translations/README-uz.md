@@ -185,16 +185,20 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ---
 
-## Why use it?
+## Bu reja nima uchun foydali?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Ushbu loyihani boshlaganimda, men bu yo’nalishdagi to’plamlar haqida ham,
+Big-O, daraxtlar haqida va grafikni qanday bosib o'tish kerakligi haqida hech narsa 
+bilmas edim. Agar tartiblash algoritmida kod yozishga kelsak bu ham menda juda yaxshi bo’lmagan.  
+Men ilgari dasturlash tilga kiritilgan ma'lumotlar tuzilmasini ishlatganimda uning asl mohiyatini 
+va qanday ishlashlarini umuman bilmas edim. Ish jarayonida agar "xotiradan tashqarida" xatolikka
+yo'l qo'yilmasa, men xotirani boshqarish haqida qayg’urmaganman  va xatolikka duch kelsam ham, 
+vaqtinchalik yechim topishga to'g'ri kelgan. Men hayotimda bir nechta ko'p o'lchovli massivlardan 
+va minglab assotsiativ massivlardan foydalanganman, lekin men hech qachon noldan ma'lumotlar 
+tuzilmalarini yaratmaganman.
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Bu uzoq vaqt talab qiladigan jarayon bo’lib, szga bir necha oy kerak bo'lishi mumkin. 
+Agar siz  bu haqida ko'p narsalarni bilsangiz, bu sizga juda oz vaqt talab etishi mumkin.
 
 ## How to use it
 

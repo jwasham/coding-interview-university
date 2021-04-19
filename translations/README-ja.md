@@ -1,4 +1,4 @@
-#コーディング面接の大学
+# コーディング面接の大学
 
 >私はもともとこれをソフトウェアエンジニアになるための短いトピックリストとして作成しましたが、
 >今日それは大きなリストに成長しました。この調査計画を経て、[私はAmazonで
@@ -38,7 +38,8 @@
 
 これは、Webエンジニア(独学で、CS学位なし)から大企業のソフトウェアエンジニアを目指すための私の複数月の学習計画です。
 
-![ホワイトボードでのコーディング - HBOのシリコンバレーから](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![ホワイトボードでのコーディング - HBOのシリコンバレーから](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+
 これは、 **新人ソフトウェアエンジニア** 、またはソフトウェア/ Webエンジニアからソフトウェアエンジニア（CSの知識が必要な場合）に転職する人を対象にしています。
 長年のソフトウェアエ開発経験をお持ちの場合は、より面白い面接を期待してください。
 
@@ -50,124 +51,57 @@ SREまたはシステムエンジニアになりたい場合は、オプショ�
 
 ## 目次
 
-- [これは何？](#何のことなの？)
-- [なぜこれを使うの？](#why-use-it)
-- [使い方](#使い方)
-- [あなたは十分にスマートではないと感じないでください](十分にスマートではありません)
-- [ビデオリソースについて](#about-video-resources)
-- [面接のプロセスと一般的な面接の準備](#面接プロセス--一般面接--準備)
-- [面接のための1つの言語を選ぶ](面接のために1つの言語を選択する)
-- [ブックリスト](#ブックリスト)
-- [始める前に](始める前に#)
-- あなたがカバーしていないもの(何があなたには見えません)
-- [前提知識](#前提条件知識)
-- [日々の計画](日々の計画)
-- [アルゴリズムの複雑さ/ Big-O / Asymptotic分析](#アルゴリズム--複雑--big-o--漸近分析)
-- [データ構造](#データ構造)
-	- [配列](#配列)
-	- [連結リスト](#連結リスト)
-	- [スタック](#スタック)
-	- [キュー](#キュー)
-	- [ハッシュテーブル](#ハッシュテーブル)
-- [その他の知識](#more-knowledge)
-	- [二分探索](#二分探索)
-	- [ビット演算](#ビット演算)
-- [木構造](#木)
-	- [木構造 - ノートと背景](#木---ノート--背景)
-	- [二分探索木：BST](#binary-search-trees-bsts)
-	- [ヒープ/優先度つきキュー/二分ヒープ](#ヒープ--優先度キュー--バイナリヒープ)
-	- 平衡探索木(詳細ではなく一般概念)
-	- 木の走査(traversal)：行きがけ順(pre-order)、通りがかり順(in-order)、帰りがけ順(postorder)、深さ優先探索(BFS)、幅優先探索(DFS)
-- [ソート](#ソート)
-	- 選択ソート
-	- 挿入ソート
-	- ヒープソート
-	- クイックソート
-	- マージソート
-- [グラフ](#グラフ)
-	- 有向グラフ
-	- 無向グラフ
-	- 隣接行列
-	- 隣接リスト
-	- トラバーサル：BFS、DFS
-- [さらに多くの知識](#偶数知識)
-	- [再帰](#再帰)
-	- [動的プログラミング](#動的プログラミング)
-	- [オブジェクト指向プログラミング](#オブジェクト指向プログラミング)
-	- [デザインパターン](#デザインパターン)
-	- [組み合わせと確率](#combinatorics-n-choose-k--確率)
-	- [NP、NP完全/近似アルゴリズム](#np-np-complete-and-approximation-algorithms)
-	- [キャッシュ](#キャッシュ)
-	- [プロセスとスレッド](#processes-and-threads)
-	- [論文](#論文)
-	- [テスト](#テスト)
-	- [スケジューリング](#スケジューリング)
-	- [システムルーチンを実装する](#implement-system-routines)
-	- [文字列検索と操作](#文字列検索--操作)
-	- [試行](#試行)
-	- [浮動小数点数](浮動小数点数)
-	- [ユニコード](#ユニコード)
-	- [バイト順(エンディアン)](#エンディアン)
-- [ネットワーキング](#ネットワーキング)
-- [システム設計、スケーラビリティ、データ処理](#システム設計--スケーラビリティなデータ処理)(4年以上の経験がある場合)
-- [最終審査](#最終審査)
-- [コーディング質問練習](#コーディング質問練習)
-- [コーディング練習問題/挑戦](#コーディング演習問題)
-- [面接に近づいたら](面接に一度近づいて)
-- [履歴書](あなたの履歴書)
-- [面接が来たときに考える](面接のときに考えている)
-- [面接官に質問があります](#面接のための質問があります)
-- [一度あなたは仕事を得た](一度あなたが仕事をしたこと)
 
-----------------この時点より下のものはすべてオプションです----------------
 
-- [追加の書籍](追加の書籍数)
-- [追加の学習](追加学習)
-	- [コンパイラ](#コンパイラ)
-	- [Emacsとvi(m)](#emacs-and-vim)
-	- [Unixコマンドラインツール](#unix-command-line-tools)
-	- [情報理論](#情報理論)
-	- [パリティとハミング符号](#パリティ--ハミングコード)
-	- [情報量(エントロピー)](#エントロピー)
-	- [暗号化](#暗号化)
-	- [圧縮](#圧縮)
-	- [コンピュータセキュリティ](#コンピュータセキュリティ)
-	- [ガベージコレクション](#ガベージコレクション)
-	- [並列計算](#パラレルプログラミング)
-	- [メッセージング、シリアライゼーション・キューイングシステム](#メッセージングシリアライゼーションとキューイングシステム)
-	- [A *](#a)
-	- [高速フーリエ変換](#高速フーリエ変換)
-	- [ブルームフィルタ](#ブルームフィルタ)
-	- [HyperLogLog](#hyperloglog)
-	- [局所性鋭敏型ハッシュ](#ローカリティセンシティブハッシング)
-	- [van Emde Boas Trees(バン エンデ ボース)](ヴァン・エムード・ボア・木)
-	- [拡張データ構造](#拡張データ構造)
-	- [N-ary(k-ary、M-ary)木](#n-ary-k-ary-m-ary-trees)
-	- [平衡探索木](#バランス検索木)
-	    - AVL木
-	    - スプレー木
-	    - 赤黒木
-	    - 2-3木
-	    - 2-3-4木(別名2-4木)
-	    - 多分木(N-ary，K-ary，M-ary木)
-	    - B木
-	- [kd木](#k-d-trees)
-	- [スキップリスト](#スキップリスト)
-	- [ネットワークのフロー](#ネットワークフロー)
-	- [素集合データ構造とUnion-Findアルゴリズム](#disjoint-sets--union-find)
-	- [高速処理のための数学](#数学のための高速処理)
-	- [Treap](#treap)
-	- [線形計画法](#線形計画法)
-	- [ジオメトリ、凸包](#ジオメトリ--凸包)
-	- [離散数学](離散数学)
-	- [機械学習](機械学習)
-- [いくつかの科目の追加の詳細](#追加の詳細--いくつかの科目)
-- [ビデオシリーズ](#ビデオシリーズ)
-- [コンピュータサイエンスコース](#コンピュータサイエンスコース)
+- [コーディング面接の大学](#コーディング面接の大学)
+  - [これは何？](#これは何)
+  - [目次](#目次)
+  - [なぜこれを使用するのか](#なぜこれを使用するのか)
+  - [それの使い方](#それの使い方)
+  - [あなたは十分にスマートではないと感じないでください](#あなたは十分にスマートではないと感じないでください)
+  - [ビデオリソースについて](#ビデオリソースについて)
+  - [面接のプロセスと一般的な面接の準備](#面接のプロセスと一般的な面接の準備)
+  - [面接のための1つの言語を選ぶ](#面接のための1つの言語を選ぶ)
+  - [ブックリスト](#ブックリスト)
+    - [面接の準備](#面接の準備)
+    - [コンピュータアーキテクチャ](#コンピュータアーキテクチャ)
+    - [言語固有](#言語固有)
+    - [C++](#c)
+    - [Java](#java)
+    - [Python](#python)
+  - [始める前に](#始める前に)
+    - [1.あなたはそれをすべて覚えていない](#1あなたはそれをすべて覚えていない)
+    - [2.フラッシュカードを使用する](#2フラッシュカードを使用する)
+    - [3.レビュー、レビュー、評価](#3レビューレビュー評価)
+    - [4.フォーカス](#4フォーカス)
+  - [カバーされていないもの](#カバーされていないもの)
+  - [日々の計画](#日々の計画)
+  - [前提知識](#前提知識)
+  - [アルゴリズムの複雑さ/ Big-O / Asymptotic解析](#アルゴリズムの複雑さ-big-o--asymptotic解析)
+  - [データ構造](#データ構造)
+  - [その他の知識](#その他の知識)
+  - [木](#木)
+  - [ソート](#ソート)
+  - [グラフ](#グラフ)
+  - [さらに多くの知識](#さらに多くの知識)
+  - [システム設計、スケーラビリティ、データ処理](#システム設計スケーラビリティデータ処理)
+  - [最終レビュー](#最終レビュー)
+  - [コーディングの質問練習](#コーディングの質問練習)
+  - [コード演習/挑戦](#コード演習挑戦)
+  - [面接に近づいたら](#面接に近づいたら)
+  - [あなたの履歴書](#あなたの履歴書)
+  - [面接が来たときに考えてください](#面接が来たときに考えてください)
+  - [面接官に質問があります](#面接官に質問があります)
+  - [一度あなたは仕事を得た](#一度あなたは仕事を得た)
+  - [その他の書籍](#その他の書籍)
+  - [その他の学習](#その他の学習)
+  - [追加科目の詳細](#追加科目の詳細)
+  - [ビデオシリーズ](#ビデオシリーズ)
+  - [コンピュータサイエンスコース](#コンピュータサイエンスコース)
 
-## なぜそれを使用するのですか？
+## なぜこれを使用するのか
 
-私はこのプロジェクトを始めたとき、ヒープからスタックを知りませんでしたし、Big-Oの何か、樹木に関すること、グラフをたどる方法を知らなかったのです。
+私はこのプロジェクトを始めたとき、ヒープからスタックを知りませんでしたし、Big-O とは何か、木構造に関すること、グラフをたどる方法を知らなかったのです。
 ソートアルゴリズムをコーディングしなければならない場合は、あまりうまくいきませんでした。
 これまで使用してきたすべてのデータ構造は言語に組み込まれていて、どのようにしてそれらがどのようにして動作するのか分かりませんでした。
 私が実行していたプロセスが "メモリ不足"エラーを出さない限り、メモリを管理する必要はありませんでしたが、回避策を見つけなければなりません。
@@ -201,28 +135,28 @@ SREまたはシステムエンジニアになりたい場合は、オプショ�
 
 `git commit -m "マークされたx"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
 
 `git push --force`
 
 [Github風マークダウンの詳細](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-##あなたは十分にスマートではないと感じないでください
+## あなたは十分にスマートではないと感じないでください
 - 成功したソフトウェアエンジニアはスマートですが、多くの人はスマートではないという不安があります。
-- [Geniusプログラマーの神話](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [天才プログラマーの神話](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [一人で行くのは危険だ：テクノロジーの見えない魔物と戦う](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ---
 
-##ビデオリソースについて
+## ビデオリソースについて
 
 一部のビデオは、Coursera、EdX、またはLynda.comクラスに登録することによってのみ利用できます。
 これらはMOOCと呼ばれています。
 時にはクラスがセッションに入っていないので、数ヶ月待つ必要があるため、アクセス権がありません。 
-Lynda.comコースは無料ではありません。
+Lynda.comコースは有料です。
 
-    オンラインコースビデオに付随するYouTubeビデオなど、無料で常時利用可能なパブリックソースを追加することに感謝します。
-    私は大学の講義を使うのが好きです。
+オンラインコースビデオに付随するYouTubeビデオなど、無料で常時利用可能なパブリックソースを追加することに感謝します。  
+私は大学の講義を使うのが好きです。
 
 
 ## 面接のプロセスと一般的な面接の準備
@@ -242,7 +176,7 @@ Lynda.comコースは無料ではありません。
 	- [ ]  [データ構造、アルゴリズム、面接のためのPython! (有料コース)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/)：
 		- データ構造、アルゴリズム、模擬面接などを扱うPython中心の面接の準備コース。
 
-##面接のための1つの言語を選ぶ
+## 面接のための1つの言語を選ぶ
 
 面接のコーディングの部分に慣れ親しんだ言語を使用することはできますが、大企業にとってはこれらの選択肢が確実です。
 
@@ -277,6 +211,7 @@ Lynda.comコースは無料ではありません。
 	- コーディング面接をクラッキングするためのウォームアップが良い
 	- あまりにも難しくない、ほとんどの問題はあなたが面接で（私が読んだことから）見ることよりも簡単かもしれない
 - [ ]  [Cracking the Coding Interview、第6版](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+- [ ]  [日本語版(世界で闘うプログラミング力を鍛える本)](https://www.amazon.co.jp/dp/4839960100/ref=cm_sw_r_tw_dp_6TFC3Y2R6TQTDEFFFPKZ)
 	- Javaでの回答
 
 もし余分な時間があれば：
@@ -288,26 +223,28 @@ Lynda.comコースは無料ではありません。
 
 ### コンピュータアーキテクチャ
 
-短い時間：
+短期：
 
 - [ ]  [グレートコードの作成：第1巻：マシンの理解](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+- [ ]  [日本語版：Write Great Code〈Vol.1〉ハードウェアを知り、ソフトウェアを書く](https://www.amazon.co.jp/dp/4839918201/ref=cm_sw_r_tw_dp_69724M3EHRJ8E7A14JNC)
 	- この本は2004年に出版され、幾分古いですが、コンピュータを簡単に理解するには素晴らしいリソースです。
 	- 作者はHLAを発明したので、塩の穀物でHLAの言及と例を取り上げます。広く使われているわけではありませんが、どのようなアセンブリのように見えますか？
 	- これらの章はあなたに素敵な基礎を与えるために読む価値があります：
-		- 第2章 - 数値表現
-        - 第3章 - 2進算術とビット演算
+        - 第2章 - 数値表現
+        - 第3章 - 2進算術とビット演算
 		- 第4章 - 浮動小数点表現
 		- 第5章 - キャラクター表現
 		- 第6章 - メモリ構成とアクセス
-        - 第7章 - 複合データ型とメモリオブジェクト
-        - 第9章 - CPUアーキテクチャ
+        - 第7章 - 複合データ型とメモリオブジェクト
+        - 第9章 - CPUアーキテクチャ
 		- 第10章 - 命令セットのアーキテクチャ
 		- 第11章 - メモリのアーキテクチャと構成
 
 もっと時間があれば(私はこの本が欲しい)：
 
 - [ ]  [Computer Architecture、第5版：定量的アプローチ](https://www.amazon.com/dp/012383872X/)
-	- より豊かで最新の(2011年)、より長い治療のために
+- [ ]  [日本語最新版：コンピュータアーキテクチャ[第6版]定量的アプローチ](https://www.amazon.co.jp/dp/4434264001/)
+	- お金がある人向け、より最新（2017（日本語版は2019））かつ歴史も長い
 
 ### 言語固有
 
@@ -350,47 +287,6 @@ OR：
 	- 私の輝く本のレポート：https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 
-###オプションの書籍
-
-**ソフトウェア工学の長年の経験があり、もっと面白い面接を期待しない限り、これらのことをお勧めする人もいます。**
-
-- [ ]  [アルゴリズム設計マニュアル](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)(Skiena)
-	- レビューと問題認識として
-	- アルゴリズムのカタログ部分は、面接で得られる難易度の範囲をはるかに超えています。
-	- この本は2つの部分を持っています：
-		- データ構造とアルゴリズムに関する教科書
-			- 長所：
-				- アルゴリズムの教科書はどんなものでも良いレビューです
-				- 業界および学界の問題を解決した経験から得た素敵な話
-				- Cのコード例
-			- 短所：
-				- Introduction to Algorithms(CLRS)と同様に密集しているか、侵入不可能な場合があります。場合によっては、CLRSが一部の科目にとってより良い選択肢になる可能性があります
-				- 7章、8章、9章では、いくつかの項目がうまく説明されていないか、私が持っているよりも多くの脳を必要とするため、追跡しようとすると痛いことがあります
-				- 誤解しないで：私はSkiena、彼の教え方、そしてマナーを好きですが、Stony Brookの教材ではないかもしれません。
-		- アルゴリズムカタログ：
-			- これがあなたがこの本を買う本当の理由です。
-			- この部分に近づきます。一度私がそれを通り抜けたら、ここで更新されます。
-	- Kindleで読むことが出来ます
-	- Half.comは教科書のための良いリソースです。
-	- 回答：
-		- [ソリューション](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-		- [ソリューション](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-	- [正誤表](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
-
-- [ ]  [アルゴリズムの紹介](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-	- **重要：** この本を読む価値は限られています。この本はアルゴリズムとデータ構造の素晴らしいレビューですが、良いコードを書く方法を教えてくれません。まともなソリューションを効率的にコーディングすることができなければなりません。
-	- Half.comは、良い価格で教科書のための素晴らしいリソースです。
-	- スタインはゲームに遅れていたので、別名CLR、ときにはCLRS
-
-- [ ]  [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-	- プログラミング上の問題（データテープを使っているものもあります）への巧妙な解決策を示していますが、これは単なるイントロです。
-      これはプログラムの設計とアーキテクチャに関するガイドブックです。
-      これはプログラムの設計とアーキテクチャに関するガイドブックです。Code Completeとよく似ていますが、はるかに短いものです。
-
-- ~~シェンの "アルゴリズムとプログラミング：問題と解決策"~~
-    - 良い本ですが、いくつかのページで問題を解決した後、私はPascalに悩まされ、whileループ、1つのインデックス付き配列、不確実な事後条件の満足度結果を得ました。
-    - むしろ別の本やオンラインのコーディングの問題からコーディングの問題に時間を費やすだろう
-
 
 ## 始める前に
 
@@ -419,8 +315,8 @@ OR：
 あなた自身を無料で作る：
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [マイフラッシュカードデータベース(旧1200カード)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db)：
-- [マイフラッシュカードデータベース(新1800カード)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db)：
+- [マイフラッシュカードデータベース(旧1200カード)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db)：
+- [マイフラッシュカードデータベース(新1800カード)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db)：
 
 覚えておいてほしいのですが，私はやりすぎてしまい、アセンブリ言語，機械学習のためのPythonのトリビア，統計に至るまですべてのカードをカバーしています。
 何が必要なのかはあまりにも大変です。
@@ -448,7 +344,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 貴重な時間を費やす可能性のある注意散漫がたくさんあります。集中と集中が難しい。
 
-##カバーされていないもの
+## カバーされていないもの
 
 これらは一般的な技術ですが、この調査計画の一部ではありません：
 
@@ -456,7 +352,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 - Javascript
 - HTML、CSS、およびその他のフロントエンド技術
 
-##日々の計画
+## 日々の計画
 
 一部の科目は1日を要し、いくつかは複数日を要する。
 いくつかは、何も実装することなく学習しているだけです。
@@ -487,7 +383,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 コンピューターではなく、ホワイトボードや紙にコードを書く。いくつかのサンプル入力でテストします。次に、コンピュータでテストします。
 
-##前提知識
+## 前提知識
 
 - [ ]  **Cを学ぶ**
 	- Cはどこにでもあります。あなたは勉強している間、書籍、講義、ビデオ、*どこにでも*見ることができます。
@@ -500,7 +396,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [CPUがプログラム(ビデオ)をどのように実行するか](https://www.youtube.com/watch?v=42KTvGYQYnA)
 	- [ ]  [マシンコード命令(ビデオ)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-##アルゴリズムの複雑さ/ Big-O / Asymptotic解析
+## アルゴリズムの複雑さ/ Big-O / Asymptotic解析
 - 実装するものは何もない
 - [ ]  [Harvard CS50 - 漸近表記(video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ]  [BigO記法(一般的なクイックチュートリアル)(ビデオ)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -526,7 +422,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 ## データ構造
 
-- ###配列
+- ### 配列
 	- 自動的にサイズ変更ベクトルを実装する。
 	- [ ]  説明：
 		- [配列(ビデオ)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
@@ -660,8 +556,8 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- 二分探索(ソートされた整数の配列)
 		- 再帰を利用した二分探索
 
-- ###ビット演算
-	- [ ]  [ビットチートシート- 2 ^ 1から2 ^ 16および2 ^ 32までの2の累乗の多くを知るべきです](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf)
+- ### ビット演算
+	- [ ]  [ビットチートシート- 2 ^ 1から2 ^ 16および2 ^ 32までの2の累乗の多くを知るべきです](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-cheet.pdf)
 	- [ ] ＆、|、^、〜、>>、<<を使ってビットを操作することについての本当の理解を得る
 		- [ ]  [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
 		- [ ]  [良いイントロ：ビット操作(動画)](https://www.youtube.com/watch?v=7jkIUgLC29I)
@@ -844,7 +740,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 まとめとして、ここには[15ソートアルゴリズム](https://www.youtube.com/watch?v=kPRA0W1kECg)の視覚的表現があります。
 このテーマの詳細が必要な場合は、[いくつかの科目の追加の詳細]の[ソート]の項を参照してください(#additional-detail-on-some-subjects)
 
-##グラフ
+## グラフ
 
 グラフはコンピュータサイエンスの多くの問題を表現するために使用することができるので、このセクションは木やソートのように長いです。
 
@@ -902,9 +798,9 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 Skienaの本(下記の書籍の節を参照)と面接の書籍
 
-##さらに多くの知識
+## さらに多くの知識
 
-- ###再帰
+- ### 再帰
 	- [ ] 再帰とバックトラックに関するスタンフォードの講義：
 		- [ ]  [講義8 |プログラミングの抽象化(ビデオ)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
 		- [ ]  [講義9 |プログラミングの抽象化(ビデオ)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -915,7 +811,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [テール再帰とは何かなぜそれが悪いのですか？](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
 		- [ ]  [テール再帰(ビデオ)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ###動的プログラミング
+- ### 動的プログラミング
 	- この問題はかなり難しいかもしれません。なぜなら、それぞれのDP可溶性問題は再帰関係として定義されなければならず、それを思い付くのは難しいかもしれないからです。
 	- DPの問題の多くの例を見て、あなたが関連するパターンをしっかりと理解するまでお勧めします。
 	- [ ] 動画：
@@ -991,7 +887,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [人間のデザインパターン](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
 
-- ###組み合わせ(nCk)と確率
+- ### 組み合わせ(nCk)と確率
 	- [ ]  [数学のスキル：階乗、順列、組み合わせの見つけ方(選択)(ビデオ)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
 	- [ ]  [学校を作る：確率(ビデオ)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
 	- [ ]  [学校を作る：確率とマルコフ連鎖(ビデオ)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
@@ -1021,7 +917,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [JupyterNotebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
 	- あなたが持っているなら、CLRSの1048 - 1140ページ。
 
-- ###キャッシュ
+- ### キャッシュ
 	- [ ]  LRUキャッシュ：
 		- [ ]  [LRUキャッシュの魔法(Google Devの100日間)(ビデオ)](https://www.youtube.com/watch?v=R5ON3iwx78M)
 		- [ ]  [LRU(ビデオ)の実装](https://www.youtube.com/watch?v=bq6N7Ym81iI)
@@ -1030,7 +926,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [MIT 6.004 L15：メモリ階層(ビデオ)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
 		- [ ]  [MIT 6.004 L16：キャッシュの問題(動画)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ###プロセスとスレッド
+- ### プロセスとスレッド
 	- [ ] コンピュータサイエンス162 - オペレーティングシステム(25ビデオ)：
 		- プロセスとスレッドのためのビデオ表示1-11
 		- [オペレーティングシステムとシステムプログラミング(ビデオ)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
@@ -1067,7 +963,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [基調講演David Beazley - 興味のあるトピック(Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
 		- [ ]  [Pythonのミューテックス](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ###論文
+- ### 論文
 	- 完全に理解した上ですべてを読むことは、あなたが持っているより多くの時間がかかるでしょう。私は論文とそのセクションを選択することをお勧めします。
 	- [古典的な論文を愛する？](https://www.cs.cmu.edu/~crary/819-f09/)
 	- [ ]  [1978：順次プロセスの通信](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
@@ -1099,7 +995,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [2015年：開発者がコードを検索する方法：ケーススタディ](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 	- [ ]  [2016：Borg、Omega、Kubernetes](http://static.googleusercontent.com/media/research.google.com/ja//pubs/archive/44843.pdf)
 
-- ###テスト
+- ### テスト
     - カバーするために：
         - ユニット(単体)テストの仕組み
         - モックオブジェクトとは何ですか？
@@ -1118,15 +1014,15 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [テストのタオ](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
 	- [ ]  [テストの書き方](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ###スケジューリング
+- ### スケジューリング
 	- OSで、どのように動作するか
 	- オペレーティングシステムのビデオから収集できます
 
-- ###システムルーチンを実装する
+- ### システムルーチンを実装する
 	- 使用するプログラミングAPIの下にあるものを理解する
     あなたはそれらを実装できますか？
 
-- ###文字列の検索と操作
+- ### 文字列の検索と操作
 	- [ ]  [Sedgewick - 接尾辞配列(ビデオ)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
 	- [ ]  [Sedgewick - サブストリング(文字列の一部)検索(動画)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
 		- [ ]  [1. サブストリング検索の紹介](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
@@ -1138,7 +1034,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
     このテーマについてさらに詳しく知りたい場合は、[いくつかの科目の追加の詳細]の「文字列のマッチング」の項を参照してください(#additional-detail-on-some-subjects)
 
-- ###トライ木
+- ### トライ木
 	- さまざまなトライ木があることに注意してください。いくつかは接頭辞を持ち、あるものはパスを追跡するビットの代わりに文字列を使用します。
 	- 私はコードを読んだが、実装しないだろう。
 	- [ ]  [Sedgewick - 試してみる(3ビデオ)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
@@ -1155,7 +1051,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [スタンフォード講演(現実世界のユースケース)(ビデオ)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
 	- [ ]  [MIT、高度なデータ構造、文字列(途中でかなり不明瞭になることがあります)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ###浮動小数点数
+- ### 浮動小数点数
 	- [ ] 単純な8ビット：[浮動小数点数の表現 - 1(ビデオ - 計算にエラーがあります - ビデオの説明を参照)](https://www.youtube.com/watch?v=ji3SfClm8TU)
 	- [ ]  32ビット：[IEEE754 32ビット浮動小数点バイナリ(ビデオ)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
@@ -1163,14 +1059,14 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [すべてのソフトウェア開発者が絶対に最低限必要とする、絶対にUnicodeと文字セットについて熟知していること](http://www.joelonsoftware.com/articles/Unicode.html)
 	- [ ]  [すべてのプログラマーが、エンコーディングと文字セットについて知る必要があることは間違いない](http://kunststube.net/encoding/)
 
-- ###バイト順(エンディアン)
+- ### バイト順(エンディアン)
 	- [ ]  [ビッグエンディアンとリトルエンディアン](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
 	- [ ]  [ビッグエンディアン Vs リトルエンディアン(ビデオ)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
 	- [ ]  [ビッグエンディアンとリトルエンディアンの イン/アウト(ビデオ)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
 		- カーネル開発者のための非常に技術的な話。ほとんどがあなたの頭の上にある場合は心配しないでください。
 		- 前半で十分です。
 
-- ###ネットワーキング
+- ### ネットワーキング
 	- **ネットワーク経験がある、またはシステムエンジニアになりたい場合は、質問を期待してください**
 	- そうでなければ、これは知っているだけでいいです
 	- [ ]  [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
@@ -1187,7 +1083,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [Java - Sockets - Introduction(video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
 		- [ ]  [ソケットプログラミング(ビデオ)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-##システム設計、スケーラビリティ、データ処理
+## システム設計、スケーラビリティ、データ処理
 - **4年以上の経験があれば、システム設計の質問を期待できます。**
 - スケーラビリティとシステム設計は、多くのトピックとリソースを持つ非常に大きなトピックです。
       スケーラビリティ(拡張可能)なソフトウェア/ハードウェアシステムを設計する際には、考慮すべき点がたくさんあります。
@@ -1287,7 +1183,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - [ ] システム設計プロセスの練習：紙で作業しようとするいくつかのアイデアがあります。実際にどのように処理されたかについてのいくつかの文書があります。
 	- レビュー：[システム設計入門](https://github.com/donnemartin/system-design-primer)
 	- [HiredInTechのシステム設計](http://www.hiredintech.com/system-design/)
-	- [チートシート](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+	- [チートシート](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
 	- 流れ：
         1. 問題と範囲を理解する：
             - 面接官の助けを借りてユースケースを定義する
@@ -1319,7 +1215,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 ---
 
-##最終レビュー
+## 最終レビュー
 
     このセクションでは、重要な概念のほとんどを見直すためにかなり短いビデオを見ることができます。
     あなたが頻繁に再学習をしたいならいいですね。
@@ -1357,7 +1253,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 ---
 
-##コーディングの質問練習
+## コーディングの質問練習
 
 上のすべてのコンピュータサイエンスのトピックを知ったので、コーディングの問題に答える練習をしましょう。
 
@@ -1396,7 +1292,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 [上記のブックリスト](#ブックリスト)を参照してください
 
-##コード演習/挑戦
+## コード演習/挑戦
 
 あなたの脳を学んだら、脳を働かせてください。
 できるだけ多く、毎日コーディングの課題に取り組んでください。
@@ -1429,7 +1325,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - [Pramp：仲間との面接](https://www.pramp.com/)
 - [Refdash：疑似面接](https://refdash.com/)
 
-##面接に近づいたら
+## 面接に近づいたら
 
 - [ ] クラッキングコーディング面接セット2(ビデオ)：
 	- [コード面接をクラッキングする](https://www.youtube.com/watch?v=4NIb9l3imAo)
@@ -1440,7 +1336,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - クラッキングでの準備項目の再開を参照してください。コーディング面接とプログラミング面接の公開
 
 
-##面接が来たときに考えてください
+## 面接が来たときに考えてください
 
 あなたが得る20の面接の質問と、以下の項目の行を考えてみましょう。
 それぞれ2-3の答えがあります。
@@ -1459,7 +1355,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - [job x / project y]で何を学びましたか？
 - あなたは[job x / project y]で何を良くしていますか？
 
-##面接官に質問があります
+## 面接官に質問があります
 
     私の中には(私は既に知っているかもしれませんが、彼らの意見やチームの視点が必要です)：
 
@@ -1473,7 +1369,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - それについて何が好きですか？
 - 仕事の生活はどうですか？
 
-##一度あなたは仕事を得た
+## 一度あなたは仕事を得た
 
 おめでとう!
 
@@ -1496,7 +1392,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 ---
 
 
-##その他の書籍
+## その他の書籍
 
 - [ ]  [Unixプログラミング環境](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=情報)
 	- 古き良き時代
@@ -1510,12 +1406,52 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- 正式なデザインパターンの本
 - [ ]  [UNIXおよびLinuxシステム管理ハンドブック、第4版](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-##その他の学習
+## その他の学習
 
 これらの話題は面接では出てこないかもしれませんが、
 特定のテクノロジとアルゴリズムを認識するためには、より大きなツールボックスが必要になります。
 
-- ###コンパイラ
+- [ ]  [アルゴリズム設計マニュアル](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)(Skiena)
+- [ ]  [日本語版：アルゴリズム設計マニュアル](https://www.amazon.co.jp/dp/4621085107)
+	- レビューと問題認識として
+	- アルゴリズムのカタログ部分は、面接で得られる難易度の範囲をはるかに超えています。
+	- この本は2パートに分かれます：
+		- データ構造とアルゴリズムに関する教科書
+			- 長所：
+				- アルゴリズムの教科書はどんなものでも良いレビューです
+				- 業界および学界の問題を解決した経験から得た素敵な話
+				- Cのコード例
+			- 短所：
+				- Introduction to Algorithms(CLRS)と同様に密集しているか、侵入不可能な場合があります。場合によっては、CLRSが一部の科目にとってより良い選択肢になる可能性があります
+				- 7章、8章、9章では、いくつかの項目がうまく説明されていないか、私が持っているよりも多くの脳を必要とするため、追跡しようとすると痛いことがあります
+				- 誤解しないで：私はSkiena、彼の教え方、そしてマナーを好きですが、Stony Brookの教材ではないかもしれません。
+		- アルゴリズムカタログ：
+			- これがあなたがこの本を買う本当の理由です。
+			- この部分に近づきます。一度私がそれを通り抜けたら、ここで更新されます。
+	- Kindleで読むことが出来ます
+	- Half.comは教科書のための良いリソースです。
+	- 回答：
+		- [ソリューション](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+		- [ソリューション](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+	- [正誤表](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+
+- [ ]  [アルゴリズムイントロダクション](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+- [ ]  [日本語版：アルゴリズムイントロダクション](https://www.amazon.co.jp/dp/B078WPYHGN/)
+	- **重要：** この本を読む価値は限られています。この本はアルゴリズムとデータ構造の素晴らしいレビューですが、良いコードを書く方法を教えてくれません。まともなソリューションを効率的にコーディングすることができなければなりません。
+	- Half.comは、良い価格で教科書のための素晴らしいリソースです。
+	- スタインはゲームに遅れていたので、別名CLR、ときにはCLRSと呼ばれている
+
+- [ ]  [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+	- プログラミング上の問題（データテープを使っているものもあります）への巧妙な解決策を示していますが、これは単なるイントロです。
+      これはプログラムの設計とアーキテクチャに関するガイドブックです。
+      これはプログラムの設計とアーキテクチャに関するガイドブックです。Code Completeとよく似ていますが、はるかに短いものです。
+
+- ~~シェンの "アルゴリズムとプログラミング：問題と解決策"~~
+    - 良い本ですが、いくつかのページで問題を解決した後、私はPascalに悩まされ、whileループ、1つのインデックス付き配列、不確実な事後条件の満足度結果を得ました。
+    - むしろ別の本やオンラインのコーディングの問題からコーディングの問題に時間を費やすだろう
+
+
+- ### コンパイラ
 	- [ ]  [1分でコンパイラがどのように動作するか(ビデオ)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
 	- [ ]  [Harvard CS50 - コンパイラ(ビデオ)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
 	- [ ]  [C ++(video)](https://www.youtube.com/watch?v=twodd1KFfGk)
@@ -1556,7 +1492,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [strace](https://en.wikipedia.org/wiki/Strace)
 	- [ ]  [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ###情報理論(ビデオ)
+- ### 情報理論(ビデオ)
 	- [ ]  [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
 	- [ ]  Markovプロセスの詳細：
 		- [ ]  [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1564,7 +1500,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [プロジェクト=マルコフテキスト生成ウォークスルー](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walkthroughs)
 	- 下記のMIT 6.050J Information and Entropyシリーズを参照してください。
 
-- ###パリティ＆ハミングコード(ビデオ)
+- ### パリティ＆ハミングコード(ビデオ)
 	- [ ]  [イントロ](https://www.youtube.com/watch?v=q-3BctoUpHE)
 	- [ ]  [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
 	- [ ] ハミングコード：
@@ -1572,19 +1508,19 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [エラー修正](https://www.youtube.com/watch?v=JAMLuxdHH8o)
 	- [ ]  [エラーチェック](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ###エントロピー
+- ## #エントロピー
 	- 下記の動画もご覧ください
 	- 最初に情報理論ビデオを見てください
 	- [情報理論、Claude Shannon、エントロピー、冗長性、データ圧縮およびビット(ビデオ)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ###暗号化
+- ### 暗号化
 	- 下記の動画もご覧ください
 	- 最初に情報理論ビデオを見てください
 	- [ ]  [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
 	- [ ]  [暗号化：ハッシュ関数](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
 	- [ ]  [暗号化：暗号化](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ###圧縮
+- ### 圧縮
 	- 最初に情報理論ビデオを見てください
 	- [ ]  Computerphile(ビデオ)：
 		- [ ]  [圧縮](https://www.youtube.com/watch?v=Lto-ajuqW3w)
@@ -1596,7 +1532,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
 	- [ ]  [(オプション)Google Developers Live：GZIPでは不十分です!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ###コンピュータセキュリティ
+- ### コンピュータセキュリティ
 	- [MIT(23ビデオ)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 		- [ ]  [はじめに、脅威モデル](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 		- [ ]  [ハイジャック攻撃の制御](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1611,18 +1547,18 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [ネットワークプロトコル](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 		- [ ]  [サイドチャネル攻撃](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ###ガベージコレクション
+- ### ガベージコレクション
 	- [ ]  [ガベージコレクション(Java);データの拡張(動画)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
 	- [ ]  [コンパイラ(ビデオ)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
 	- [ ]  [GC in Python(video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
 	- [ ]  [ディープダイブJava：ガーベッジコレクションは良いです!](https://www.infoq.com/presentations/garbage-collection-benefits)
 	- [ ]  [Deep Dive Python：CPythonでのガベージコレクション(ビデオ)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ###パラレルプログラミング
+- ### パラレルプログラミング
 	- [ ]  [Coursera(Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
 	- [ ]  [高性能並列計算のための効率的なPython(ビデオ)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ###メッセージング、シリアライゼーション、およびキューイングシステム
+- ### メッセージング、シリアライゼーション、およびキューイングシステム
 	- [ ]  [Thrift](https://thrift.apache.org/)
 		- [チュートリアル](http://thrift-tutorial.readthedocs.io/ja/latest/intro.html)
 	- [ ]  [プロトコルバッファ](https://developers.google.com/protocol-buffers/)
@@ -1649,14 +1585,14 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [A * Pathfinding Tutorial(video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
 	- [ ]  [A *経路探索(E01：アルゴリズムの説明)(ビデオ)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- ###高速フーリエ変換
+- ### 高速フーリエ変換
 	- [ ]  [フーリエ変換のインタラクティブガイド](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
 	- [ ]  [フーリエ変換とは何ですか？それは何のために使われますか？](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
 	- [ ]  [フーリエ変換とは何ですか？ (ビデオ)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
 	- [ ]  [Divide＆Conquer：FFT(ビデオ)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
 	- [ ]  [FFTの理解](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
-- ###ブルームフィルター
+- ### ブルームフィルター
 	- mビットとkハッシュ関数を持つBloomフィルタが与えられた場合、挿入とメンバーシップの両方のテストはO(k)
 	- [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
 	- [ブルームフィルター|大規模なデータセットのマイニング|スタンフォード大学](https://www.youtube.com/watch?v=qBTdukbzc78)
@@ -1666,19 +1602,19 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - ### HyperLogLog
 	- [わずか1.5KBのメモリを使用して10億の異なるオブジェクトを数える方法](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct -objects-us.html)
 
-- ###局所性に敏感なハッシング
+- ### 局所性に敏感なハッシング
 	- ドキュメントの類似性を判断するために使用されます。
 	- 2つの文書/文字列がまったく同じかどうかを判断するために使用されるMD5またはSHAの反対。
 	- [Simhashing(うまくいけば)シンプルに](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
-- ###ヴァンEmde Boasの木
+- ### ヴァンEmde Boasの木
 	- [Divide＆Conquer：van Emde Boas Trees(ビデオ)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
 	- [ ]  [MIT講義ノート](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture -notes / MIT6_046JS12_lec15.pdf)
 
-- ###拡張データ構造
+- ### 拡張データ構造
 	- [ ]  [CS 61B講義39：データ構造の拡張](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
 
-- ###バランスの取れた検索木
+- ### バランスの取れた検索木
 	- 少なくとも1つのタイプの平衡二分木を知っている(そしてそれがどのように実装されているか知っている)：
 	- "バランスの取れた探索木の​​中で、AVLと2/3の樹木が通過し、赤黒の木がより人気があるようです。
         特に興味深い自己組織化データ構造は、スプレイ木であり、回転を使用します
@@ -1775,45 +1711,45 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [Kd Trees(ビデオ)](https://www.youtube.com/watch?v=W94M9D_yXKk)
 	- [ ]  [kNN K-d木アルゴリズム(ビデオ)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
-- ###リストをスキップする
+- ### リストをスキップする
 	- 「これは多少のカルトデータ構造です」 - Skiena
 	- [ ]  [ランダム化：リストをスキップ(ビデオ)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 	- [ ]  [アニメーションともう少し詳しく](https://en.wikipedia.org/wiki/Skip_list)
 
-- ###ネットワークの流れ
+- ### ネットワークの流れ
 	- [ ]  [Ford-Fulkerson(ビデオ)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
 	- [ ]  [Ford-Fulkersonアルゴリズム(ビデオ)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
 	- [ ]  [ネットワークフロー(動画)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ###分離集合と連合検索
+- ### 分離集合と連合検索
 	- [ ]  [UCB 61B - ばらばらのセット;並べ替えと選択(動画)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
 	- [ ]  [Sedgewickアルゴリズム - Union-Find(6ビデオ)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
 
-- ###高速処理のための数学
+- ### 高速処理のための数学
 	- [ ]  [整数演算、Karatsuba倍数(ビデオ)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 	- [中国の剰余定理(暗号で使用)(ビデオ)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
-- ###
+- ### Treap
 	- 二分探索木とヒープの組み合わせ
 	- [ ]  [Treap](https://en.wikipedia.org/wiki/Treap)
 	- [ ]  [データ構造：Treaps説明(動画)](https://www.youtube.com/watch?v=6podLUYinH8)
 	- [ ]  [セット操作のアプリケーション](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ###リニアプログラミング(ビデオ)
+- ### リニアプログラミング(ビデオ)
 	- [ ]  [線形計画法](https://www.youtube.com/watch?v=M4K6HYLHREQ)
 	- [ ]  [最小費用の見積もり](https://www.youtube.com/watch?v=2ACJ9EWUC6U)
 	- [ ]  [最大値の検索](https://www.youtube.com/watch?v=8AA_81xI3ik)
 	- [ ]  [Pythonで線形方程式を解く - シンプレックスアルゴリズム](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
-- ###幾何学、凸包(ビデオ)
+- ### 幾何学、凸包(ビデオ)
 	- [ ]  [Graph Alg。 IV：幾何学アルゴリズムの紹介 - 講義9(https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
 	- [ ]  [Geometric Algorithms：Graham＆Jarvis - 講義10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
 	- [Divide＆Conquer：Convex Hull、Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ###離散数学
+- ### 離散数学
 	- 下のビデオを見る
 
-- ###機械学習
+- ### 機械学習
 	- [ ] なぜMLですか？
 		- [ ]  [Googleがどのように最初の企業を学習するマシンとして自分自身を作り直すか](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
 		- [ ]  [知的コンピュータシステムのための大規模な深い学習(ビデオ)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
@@ -1842,7 +1778,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 -
 
-##追加科目の詳細
+## 追加科目の詳細
 
     私は既に上記のいくつかのアイデアを強化するためにこれらを追加しましたが、それらを含めたくありませんでした
     それはちょうどあまりにも多くのためです。それは科目にそれを過ごすのは簡単です。
@@ -1913,7 +1849,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [講演は23:50から始まります(ビデオ)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
 
-##ビデオシリーズ
+## ビデオシリーズ
 
 座って楽しんでください。 「ネットフリックスとスキル」：P
 
@@ -1977,7 +1913,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 - [ ] グラフ理論(Sarada Herke)(67ビデオ)(https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-##コンピュータサイエンスコース
+## コンピュータサイエンスコース
 
 - [オンラインCSコースのディレクトリ](https://github.com/open-source-society/computer-science)
 - [CSコースのディレクトリ(多くはオンライン講義あり)](https://github.com/prakhar1989/awesome-courses)

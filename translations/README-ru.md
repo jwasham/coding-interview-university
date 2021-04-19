@@ -193,7 +193,7 @@ Google не возьмёт тебя на работу.
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -477,7 +477,7 @@ Google не возьмёт тебя на работу.
 Сделай свой собственный бесплатно:
 
 - [Репозиторий сайта Flashcards](https://github.com/jwasham/computer-science-flash-cards)
-- [Моя база данных с карточками](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Имейте в виду, я сделал больше чем требуется в Google, описав все начиная с assembler и заканчивая Python с машиным обучением и статистикой. 
+- [Моя база данных с карточками](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Имейте в виду, я сделал больше чем требуется в Google, описав все начиная с assembler и заканчивая Python с машиным обучением и статистикой. 
 
 **Заметка о карточках:** в первый раз вы сразу вспомните ответ, но не помечайте эту карточку как изученную. Нужно просмотреть 
 много раз карточку и ответить правильно прежде чем вы действительно ее запомните. Повторение позволяет мозгу надолго 
@@ -712,7 +712,7 @@ Google не возьмёт тебя на работу.
         - бинарный поиск с использованием рекурсии
 
 - ### Побитовые операции
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - ты должен знать сколько степеней двойки от (2^1 до 2^16 и 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - ты должен знать сколько степеней двойки от (2^1 до 2^16 и 2^32)
     - [ ] Даст отличное понимание манипуляций битами с помощью: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Хорошее введение:

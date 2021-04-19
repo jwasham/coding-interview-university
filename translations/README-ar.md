@@ -1,12 +1,12 @@
 # الإعداد لمقابلة البرمجة
 
-> أنشأتها في المقام الأول كلائحة قصيرة من المواضيع الدراسية لكيف يصبح المرء مهندس برمجيات, و ولكن سرعان ما كبرت هذه القائمة الى ما تراه امامك اليوم. بعد خوض هذه الخطة الدراسية, 
-[تم توظيفي كمهندس تطوير  برمجيات لدى أمازون](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! على الاغلب لن تحتاج إلى ان تدرس بالقدر الذي درسته أنا. لكن على كل حال كل ما تحتاج إليه موجود 
+> أنشأتها في المقام الأول كلائحة قصيرة من المواضيع الدراسية لكيف يصبح المرء مهندس برمجيات، ولكن سرعان ما كبرت هذه القائمة إلى ما تراه أمامك اليوم. بعد خوض هذه الخطة الدراسية, 
+[تم توظيفي كمهندس تطوير  برمجيات لدى أمازون](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! على الأغلب لن تحتاج إلى ان تدرس بالقدر الذي درسته أنا. لكن على كل حال كل ما تحتاج إليه موجود 
 هنا
 > 
 > درست لمدة ٨-١٢ ساعة في اليوم, لعدة أشهر. هذه هي قصتي: [لماذا درست دواما كاملا لمدة ثمانية أشهر من أجل مقابلة لدا قوقل](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 > 
-> العناصر المذكورة في هذه اللائحة ستجهزك جيدا لمقابلة تقنية مع تقريبا أي شركة برمجية, حتى الشركات العملاقة: أمازون, فيسبوك, قوقل, و ميكروسوف
+> العناصر المذكورة في هذه اللائحة ستجهزك جيدا لمقابلة تقنية مع تقريبا أي شركة برمجية, حتى الشركات العملاقة: أمازون، فيسبوك، قوقل، وميكروسوفت
 > 
 > بالتوفيق
 
@@ -44,13 +44,13 @@
 
 </details>
 
-## ماهذا؟
+## ما هذا؟
 هي خطتي متعددة الأشهر للوصول من مطور ويب (تعليم ذاتي، بدون درجة علمية في علوم الحاسب) لمنصب مهندس برمجيات لشركة عملاقة
 
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-تم إعدادها لمهنسي البرمجيات الجدد او أولئك المنتقلين من تطوير الويب إلى هندسة البرمجيات (حيث المعرفة بعلوم الحاسب ضرورية) إذا كان لديك العديد من سنوات الخبرة في بناء تطبيقات الويب أو البرمجيات، خذ في عين الإعتبار ان المقابلة ستكون اصعب
+تم إعدادها لمهنسي البرمجيات الجدد أو أولئك المنتقلين من تطوير الويب إلى هندسة البرمجيات (حيث المعرفة بعلوم الحاسب ضرورية) إذا كان لديك العديد من سنوات الخبرة في بناء تطبيقات الويب أو البرمجيات، خذ في عين الإعتبار ان المقابلة ستكون اصعب
 
 إذا كانت لديك العديد من سنوات الخبرة في تطوير الويب, خذ في عين الإعتبار أن الشركات االبرمجية الضخمة مثل قوقل, فيسبوك, و ميكروسوفت ينظرون إلى هندسة البرمجيات بشكل مختلف عن تطوير البرمجيات/ويب, و تحتاج إلى معرفة علوم الحاسب
 
@@ -212,7 +212,7 @@
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -220,9 +220,9 @@
 
 ## الدخول في مزاج جوجلي
 
-Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)
+[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)
 
 
 ## هل حصلت على الوظيفة بجوجل؟
@@ -503,8 +503,8 @@ OR:
 اصنع واحدا منها لك مجانا:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
 
@@ -740,7 +740,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -1314,7 +1314,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help

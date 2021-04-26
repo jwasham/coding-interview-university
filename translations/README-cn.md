@@ -171,7 +171,7 @@
 
 `git commit -m "Marked x"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
 
 `git push --set-upstream origin progress`
 
@@ -274,7 +274,7 @@
 
 如果你通读其中之一，你应该具备了开始解决编程问题所需的所有数据结构和算法知识。除非你需要复习，否则**你可以跳过此项目中的所有视频讲座**。
 
-[额外编程语言的精选资源](https://github.com/jwasham/coding-interview-university/blob/master/programming-language-resources.md)
+[额外编程语言的精选资源](https://github.com/jwasham/coding-interview-university/blob/main/programming-language-resources.md)
 
 ### C++
 
@@ -336,8 +336,8 @@
 你也可以免费制作属于你自己的抽认卡网站：
 
 - [抽认卡页面的代码仓库](https://github.com/jwasham/computer-science-flash-cards)
-- [我的抽认卡数据库 ── 旧 1200 张](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db)
-- [我的抽认卡数据库 ── 新 1800 张](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db)
+- [我的抽认卡数据库 ── 旧 1200 张](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db)
+- [我的抽认卡数据库 ── 新 1800 张](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db)
 
 有一点需要记住的是，我做事有点过头，以至于卡片都覆盖到所有的东西上，从汇编语言和 Python 的细枝末节，到机器学习和统计都被覆盖到卡片上。而这种做法，对于要求来说是多余的。
 
@@ -569,7 +569,7 @@
         - 迭代式二分查找
 
 - ### 按位运算（Bitwise operations）
-    - [ ] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) ── 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
+    - [ ] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) ── 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
     - [ ] 好好理解位操作符的含义：&、|、^、~、>>、<<
         - [ ] [字码（words）](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] 好的介绍：
@@ -1128,7 +1128,7 @@
 - [ ] 系统设计问题练习：下面有一些指导原则，每一个都有相关文档以及在现实中该如何处理。
     - 复习: [系统设计入门](https://github.com/donnemartin/system-design-primer)
     - [HiredInTech 的系统设计](http://www.hiredintech.com/system-design/)
-    - [备忘单](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [备忘单](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - 流程:
         1. 理解问题和范围:
             - 在面试官的帮助下定义用例
@@ -1876,4 +1876,4 @@
 
 ## LICENSE
 
-[CC-BY-SA-4.0](https://github.com/jwasham/coding-interview-university/blob/master/LICENSE.txt)
+[CC-BY-SA-4.0](https://github.com/jwasham/coding-interview-university/blob/main/LICENSE.txt)

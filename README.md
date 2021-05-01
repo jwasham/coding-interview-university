@@ -523,43 +523,43 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] New raw data array with allocated memory
       - can allocate int array under the hood, just not use its features
       - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-    - [ ] size() - number of items
-    - [ ] capacity() - number of items it can hold
-    - [ ] is_empty()
-    - [ ] at(index) - returns item at given index, blows up if index out of bounds
-    - [ ] push(item)
-    - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-    - [ ] prepend(item) - can use insert above at index 0
-    - [ ] pop() - remove from end, return value
-    - [ ] delete(index) - delete item at index, shifting all trailing elements left
-    - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-    - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-    - [ ] resize(new_capacity) // private function
+    - [x] size() - number of items
+    - [x] capacity() - number of items it can hold
+    - [x] is_empty()
+    - [x] at(index) - returns item at given index, blows up if index out of bounds
+    - [x] push(item)
+    - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+    - [x] prepend(item) - can use insert above at index 0
+    - [x] pop() - remove from end, return value
+    - [x] delete(index) - delete item at index, shifting all trailing elements left
+    - [x] remove(item) - looks for value and removes index holding it (even if in multiple places)
+    - [x] find(item) - looks for value and returns first index with that value, -1 if not found
+    - [x] resize(new_capacity) // private function
       - when you reach capacity, resize to double the size
       - when popping an item, if size is 1/4 of capacity, resize to half
-  - [ ] Time
+  - [x] Time
     - O(1) to add/remove at end (amortized for allocations for more space), index, or update
     - O(n) to insert/remove elsewhere
-  - [ ] Space
+  - [x] Space
     - contiguous in memory, so proximity helps performance
     - space needed = (array capacity, which is >= n) \* size of item, but even if 2n, still O(n)
 
 - ### Linked Lists
 
-  - [ ] Description:
-    - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+  - [x] Description:
+    - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
     - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
   - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation
-  - [ ] Linked List vs Arrays:
+  - [x] Linked List vs Arrays:
     - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
     - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-  - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+  - [x] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
   - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
     - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-  - [ ] Implement (I did with tail pointer & without):
+  - [x] Implement (I did with tail pointer & without):
     - [ ] size() - returns number of data elements in list
     - [ ] empty() - bool returns true if empty
     - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
@@ -569,34 +569,34 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] pop_back() - removes end item and returns its value
     - [ ] front() - get value of front item
     - [ ] back() - get value of end item
-    - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+    - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
     - [ ] erase(index) - removes node at given index
     - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
     - [ ] reverse() - reverses the list
     - [ ] remove_value(value) - removes the first item in the list with this value
-  - [ ] Doubly-linked List
+  - [x] Doubly-linked List
     - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
     - No need to implement
 
 - ### Stack
 
-  - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-  - [ ] Will not implement. Implementing with array is trivial
+  - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+  - [x] Will not implement. Implementing with array is trivial
 
 - ### Queue
 
-  - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+  - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
   - [ ] Implement using linked-list, with tail pointer:
     - enqueue(value) - adds value at position at tail
     - dequeue() - returns value and removes least recently added element (front)
     - empty()
-  - [ ] Implement using fixed-sized array:
+  - [x] Implement using fixed-sized array:
     - enqueue(value) - adds item at end of available storage
     - dequeue() - returns value and removes least recently added element
     - empty()
     - full()
-  - [ ] Cost:
+  - [x] Cost:
     - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
       because you'd need the next to last element, causing a full traversal each dequeue
     - enqueue: O(1) (amortized, linked list and array [probing])
@@ -607,18 +607,18 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
   - [ ] Videos:
 
-    - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+    - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
     - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+    - [x] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
     - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
     - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-  - [ ] Online Courses:
+  - [x] Online Courses:
 
-    - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
-    - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
-    - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+    - [x] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+    - [x] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
+    - [x] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
     - [ ] distributed hash tables:
       - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
       - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
@@ -634,22 +634,22 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Binary search
 
-  - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-  - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-  - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-  - [ ] Implement:
+  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+  - [x] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+  - [x] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+  - [x] Implement:
     - binary search (on sorted array of integers)
     - binary search using recursion
 
 - ### Bitwise operations
-  - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+  - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
   - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
     - [ ] [words](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
     - [ ] Good intro:
           [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-    - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-    - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-    - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+    - [x] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+    - [x] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
+    - [x] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
     - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
     - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
     - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
@@ -672,11 +672,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Trees - Notes & Background
 
-  - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+  - [x] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
   - basic tree construction
   - traversal
   - manipulation algorithms
-  - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+  - [x] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
     - BFS notes:
       - level order (BFS, using queue)
       - time complexity: O(n)
@@ -692,8 +692,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Binary search trees: BSTs
 
-  - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-  - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+  - [x] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+  - [x] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
   - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
   - C/C++:
     - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)

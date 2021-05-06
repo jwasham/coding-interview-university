@@ -1314,6 +1314,7 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com)
+- [InterviewBit](https://www.interviewbit.com/)
 
 Language-learning sites, with challenges:
 - [Codewars](http://www.codewars.com)

@@ -1314,7 +1314,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere(Sphere)](http://www.spoj.com/)
 
 チャレンジレポ：

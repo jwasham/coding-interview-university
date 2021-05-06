@@ -1412,7 +1412,7 @@ Các trang giải toán lập trình:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Xem thêm:
 - [Phỏng vấn thử nghiệm](http://www.gainlo.co/)

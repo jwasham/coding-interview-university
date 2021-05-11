@@ -1374,7 +1374,7 @@ Take coding challenges every day, as many as you can.
     - [हैकररैंक](https://www.hackerrank.com/)
     - [कोदिलिटी](https://codility.com/programmers/)
     - [इंटरव्यूकेक](https://www.interviewcake.com/)
-    - [इंटरव्यूबिट](https://www.interviewbit.com/invite/icjf)
+    - [इंटरव्यूबिट](https://www.interviewbit.com)
 
     - [प्रोग्रामिंग लैंग्वेज में सुधार करने के लिए](http://exercism.io/languages)
 

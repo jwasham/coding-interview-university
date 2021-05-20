@@ -194,7 +194,7 @@
 
 ## 面试过程 & 通用的面试准备
 
-- [ ] [ABC：不要停止编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [x] [ABC：不要停止编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [白板编程（Whiteboarding）](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [揭秘技术招聘](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] 如何在科技四强企业中获得一份工作：

@@ -67,72 +67,72 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [The Daily Plan](#the-daily-plan)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
-    - [Endianness](#endianness)
-    - [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+x- [What is it?](#what-is-it)
+x- [Why use it?](#why-use-it)
+x- [How to use it](#how-to-use-it)
+x- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+x- [About Video Resources](#about-video-resources)
+x- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+x- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+x- [Book List](#book-list)
+x- [Before you Get Started](#before-you-get-started)
+x- [What you Won't See Covered](#what-you-wont-see-covered)
+x- [The Daily Plan](#the-daily-plan)
+x- [Prerequisite Knowledge](#prerequisite-knowledge)
+x- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+x- [Data Structures](#data-structures)
+    x- [Arrays](#arrays)
+    x- [Linked Lists](#linked-lists)
+    x- [Stack](#stack)
+    x- [Queue](#queue)
+    x- [Hash table](#hash-table)
+x- [More Knowledge](#more-knowledge)
+    x- [Binary search](#binary-search)
+    x- [Bitwise operations](#bitwise-operations)
+x- [Trees](#trees)
+    x- [Trees - Notes & Background](#trees---notes--background)
+    x- [Binary search trees: BSTs](#binary-search-trees-bsts)
+    x- [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    x- balanced search trees (general concept, not details)
+    x- traversals: preorder, inorder, postorder, BFS, DFS
+x- [Sorting](#sorting)
+    x- selection
+    x- insertion
+    x- heapsort
+    x- quicksort
+    x- merge sort
+x- [Graphs](#graphs)
+    x- directed
+    x- undirected
+    x- adjacency matrix
+    x- adjacency list
+    x- traversals: BFS, DFS
+x- [Even More Knowledge](#even-more-knowledge)
+    x- [Recursion](#recursion)
+    x- [Dynamic Programming](#dynamic-programming)
+    x- [Object-Oriented Programming](#object-oriented-programming)
+    x- [Design Patterns](#design-patterns)
+    x- [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+    x- [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+    x- [Caches](#caches)
+    x- [Processes and Threads](#processes-and-threads)
+    x- [Testing](#testing)
+    x- [Scheduling](#scheduling)
+    x- [String searching & manipulations](#string-searching--manipulations)
+    x- [Tries](#tries)
+    x- [Floating Point Numbers](#floating-point-numbers)
+    x- [Unicode](#unicode)
+    x- [Endianness](#endianness)
+    x- [Networking](#networking)
+x- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
+x- [Final Review](#final-review)
+x- [Coding Question Practice](#coding-question-practice)
+x- [Coding exercises/challenges](#coding-exerciseschallenges)
+x- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+x- [Your Resume](#your-resume)
+x- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+x- [Have questions for the interviewer](#have-questions-for-the-interviewer)
+x- [Once You've Got The Job](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 

@@ -1760,7 +1760,9 @@ You're never really done.
     - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Discrete math
-    - See videos below
+    - See videos resources below-   
+        - [MIT opencoursewave courses](https://ocw.mit.edu/courses/find-by-topic/#cat=mathematics&subcat=discretemathematics)   
+        - [Stanford Discrete Structures](https://web.stanford.edu/class/cs103x/)
 
 - ### Machine Learning
     - Why ML?

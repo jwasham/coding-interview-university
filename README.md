@@ -1363,6 +1363,11 @@ Have a story, not just data, about something you accomplished.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
+
+- If you find hard to come up with good answers of this type interview questions, you can refer below link for some answer templates and have some idea. 
+- [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
+
+
 ## Have questions for the interviewer
 
     Some of mine (I already may know answer to but want their opinion or team perspective):
@@ -1377,6 +1382,7 @@ Have a story, not just data, about something you accomplished.
 - What do you like about it?
 - What is the work life like?
 - How is work/life balance?
+
 
 ## Once You've Got The Job
 

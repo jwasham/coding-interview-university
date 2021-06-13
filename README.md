@@ -70,6 +70,7 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [What is it?](#what-is-it)
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
+- [Full Computer Science Beginner to Advance Roadmap and Free Resources](#full-computer-science-beginner-to-advance-roadmap-and-free-resources)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
@@ -231,6 +232,9 @@ Fork the GitHub repo https://github.com/jwasham/coding-interview-university by c
 
 [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
+## Full Computer Science Beginner to Advance Free Resources and Roadmap
+- If you are new to Computer Science Field or want to learn and be really good at Computer Science, this is the Roadmap with best reources to learn it for free.
+- [Full Computer Science Beginner to Advance Roadmap and Free Resources](https://ayedot.com/147/MiniBlog/Best-Roadmap-and-Courses-to-learn-Computer-Science-for-free)
 
 ## Don't feel you aren't smart enough
 

@@ -163,9 +163,8 @@
 
 `git remote add jwasham https://github.com/jwasham/coding-interview-university`
 
-- [x] `git fetch --all`
+- [x] `git fetch --all` 在你完成了一些修改后，在框框中打 x
 
-    在你完成了一些修改后，在框框中打 x
 
 `git add .`
 

@@ -1863,7 +1863,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 - [ ]  [コンピュータサイエンス70,001 - 春2015 - 離散数学と確率論](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ]  [Shai Simonsonによる離散数学(19ビデオ)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ]  [Shai Simonsonによる離散数学(19ビデオ)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ]  [離散数学第1部：Sarada Herke(5ビデオ)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 

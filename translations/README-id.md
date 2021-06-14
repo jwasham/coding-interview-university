@@ -1812,7 +1812,7 @@ Duduk dan nikmati. "Netflix dan keterampilan": P
 
 - [Ilmu Komputer 70, 001 - Musim Semi 2015 - Matematika Diskrit dan Teori Probabilitas](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [Matematika Diskrit oleh Shai Simonson (19 video)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [Matematika Diskrit oleh Shai Simonson (19 video)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [Matematika Diskrit Bagian 1 oleh Sarada Herke (5 video)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 

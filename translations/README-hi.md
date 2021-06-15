@@ -1374,7 +1374,7 @@ Take coding challenges every day, as many as you can.
     - [हैकररैंक](https://www.hackerrank.com/)
     - [कोदिलिटी](https://codility.com/programmers/)
     - [इंटरव्यूकेक](https://www.interviewcake.com/)
-    - [इंटरव्यूबिट](https://www.interviewbit.com/invite/icjf)
+    - [इंटरव्यूबिट](https://www.interviewbit.com)
 
     - [प्रोग्रामिंग लैंग्वेज में सुधार करने के लिए](http://exercism.io/languages)
 
@@ -1668,7 +1668,7 @@ Sit back and enjoy. "netflix and skill" :P
 
 - [ ] [कंप्यूटर विज्ञान ७०, ००१ – वसंत २०१५ - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics (१९ विडियो)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics (१९ विडियो)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] CSE373 - एल्गोरिदम का विश्लेषण (२५ विडियो)
     - [एल्गोरिथ्म डिजाइन मैनुअल से Skiena व्याख्यान](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)

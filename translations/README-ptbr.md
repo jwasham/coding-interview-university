@@ -399,7 +399,7 @@ Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle!
 
 ### 1. Você não se lembrará de tudo
 
-Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
+Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não lembrava. Eu passei 3 dias revisando minhas anotações e fazendo flashcards para que eu pudesse relembrar.
 
 Por favor, leia para que você não cometa os meus erros:
 
@@ -1406,7 +1406,7 @@ Websites de desafios:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Repositórios de desafios:
@@ -1910,7 +1910,7 @@ Sente-se e aproveite. "Netflix e habilidade" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy) (Ciência da Computação 70, 001 - Primavera de 2005 - Matemática Discreta e Teoria de Probabilidade)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG) (Matemática Discreta por Shai Simonson - 19 vídeos)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t) (Matemática Discreta por Shai Simonson - 19 vídeos)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo) (Matemática Discreta Parte 1 por Sarada Herke - 5 vídeos)
 

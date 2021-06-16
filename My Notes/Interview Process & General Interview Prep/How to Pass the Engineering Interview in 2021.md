@@ -1,0 +1,1 @@
+- Find out If I have to write code that executes or will it just be pseudocode on whiteboard? 

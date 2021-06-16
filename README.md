@@ -48,6 +48,29 @@
 
 </details>
 
+<div align="center">
+	<hr />
+    <p>
+        <sup>
+            <a href="https://github.com/sponsors/jwasham">Coding Interview University is supported by the community.</a>
+        </sup>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="300" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+	<hr />
+	<br />
+</div>
+
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.

@@ -1,0 +1,521 @@
+# Copyright 2017 Google Inc.
+# All Rights Reserved.
+#
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#
+#     * Redistributions of source code must retain the above copyright
+# notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+# copyright notice, this list of conditions and the following disclaimer
+# in the documentation and/or other materials provided with the
+# distribution.
+#     * Neither the name of Google Inc. nor the names of its
+# contributors may be used to endorse or promote products derived from
+# this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+# OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+# LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Author: misterg@google.com (Gennadiy Civil)
+#
+# Bazel BUILD for The Google C++ Testing Framework (Google Test)
+
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_test")
+load("@rules_python//python:defs.bzl", "py_library", "py_test")
+
+licenses(["notice"])
+
+#on windows exclude gtest-tuple.h
+cc_test(
+    name = "gtest_all_test",
+    size = "small",
+    srcs = glob(
+        include = [
+            "gtest-*.cc",
+            "googletest-*.cc",
+            "*.h",
+            "googletest/include/gtest/**/*.h",
+        ],
+        exclude = [
+            "gtest-unittest-api_test.cc",
+            "googletest/src/gtest-all.cc",
+            "gtest_all_test.cc",
+            "gtest-death-test_ex_test.cc",
+            "gtest-listener_test.cc",
+            "gtest-unittest-api_test.cc",
+            "googletest-param-test-test.cc",
+            "googletest-catch-exceptions-test_.cc",
+            "googletest-color-test_.cc",
+            "googletest-env-var-test_.cc",
+            "googletest-filter-unittest_.cc",
+            "googletest-break-on-failure-unittest_.cc",
+            "googletest-listener-test.cc",
+            "googletest-output-test_.cc",
+            "googletest-list-tests-unittest_.cc",
+            "googletest-shuffle-test_.cc",
+            "googletest-uninitialized-test_.cc",
+            "googletest-death-test_ex_test.cc",
+            "googletest-param-test-test",
+            "googletest-throw-on-failure-test_.cc",
+            "googletest-param-test-invalid-name1-test_.cc",
+            "googletest-param-test-invalid-name2-test_.cc",
+        ],
+    ) + select({
+        "//:windows": [],
+        "//conditions:default": [],
+    }),
+    copts = select({
+        "//:windows": ["-DGTEST_USE_OWN_TR1_TUPLE=0"],
+        "//conditions:default": ["-DGTEST_USE_OWN_TR1_TUPLE=1"],
+    }),
+    includes = [
+        "googletest",
+        "googletest/include",
+        "googletest/include/internal",
+        "googletest/test",
+    ],
+    linkopts = select({
+        "//:windows": [],
+        "//conditions:default": ["-pthread"],
+    }),
+    deps = ["//:gtest_main"],
+)
+
+# Tests death tests.
+cc_test(
+    name = "googletest-death-test-test",
+    size = "medium",
+    srcs = ["googletest-death-test-test.cc"],
+    deps = ["//:gtest_main"],
+)
+
+cc_test(
+    name = "gtest_test_macro_stack_footprint_test",
+    size = "small",
+    srcs = ["gtest_test_macro_stack_footprint_test.cc"],
+    deps = ["//:gtest"],
+)
+
+#These googletest tests have their own main()
+cc_test(
+    name = "googletest-listener-test",
+    size = "small",
+    srcs = ["googletest-listener-test.cc"],
+    deps = ["//:gtest_main"],
+)
+
+cc_test(
+    name = "gtest-unittest-api_test",
+    size = "small",
+    srcs = [
+        "gtest-unittest-api_test.cc",
+    ],
+    deps = [
+        "//:gtest",
+    ],
+)
+
+cc_test(
+    name = "googletest-param-test-test",
+    size = "small",
+    srcs = [
+        "googletest-param-test-test.cc",
+        "googletest-param-test-test.h",
+        "googletest-param-test2-test.cc",
+    ],
+    deps = ["//:gtest"],
+)
+
+cc_test(
+    name = "gtest_unittest",
+    size = "small",
+    srcs = ["gtest_unittest.cc"],
+    args = ["--heap_check=strict"],
+    shard_count = 2,
+    deps = ["//:gtest_main"],
+)
+
+#  Py tests
+
+py_library(
+    name = "gtest_test_utils",
+    testonly = 1,
+    srcs = ["gtest_test_utils.py"],
+)
+
+cc_binary(
+    name = "gtest_help_test_",
+    testonly = 1,
+    srcs = ["gtest_help_test_.cc"],
+    deps = ["//:gtest_main"],
+)
+
+py_test(
+    name = "gtest_help_test",
+    size = "small",
+    srcs = ["gtest_help_test.py"],
+    data = [":gtest_help_test_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-output-test_",
+    testonly = 1,
+    srcs = ["googletest-output-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-output-test",
+    size = "small",
+    srcs = ["googletest-output-test.py"],
+    args = select({
+        "//:has_absl": [],
+        "//conditions:default": ["--no_stacktrace_support"],
+    }),
+    data = [
+        "googletest-output-test-golden-lin.txt",
+        ":googletest-output-test_",
+    ],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-color-test_",
+    testonly = 1,
+    srcs = ["googletest-color-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-color-test",
+    size = "small",
+    srcs = ["googletest-color-test.py"],
+    data = [":googletest-color-test_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-env-var-test_",
+    testonly = 1,
+    srcs = ["googletest-env-var-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-env-var-test",
+    size = "medium",
+    srcs = ["googletest-env-var-test.py"],
+    data = [":googletest-env-var-test_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-filter-unittest_",
+    testonly = 1,
+    srcs = ["googletest-filter-unittest_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-filter-unittest",
+    size = "medium",
+    srcs = ["googletest-filter-unittest.py"],
+    data = [":googletest-filter-unittest_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-break-on-failure-unittest_",
+    testonly = 1,
+    srcs = ["googletest-break-on-failure-unittest_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-break-on-failure-unittest",
+    size = "small",
+    srcs = ["googletest-break-on-failure-unittest.py"],
+    data = [":googletest-break-on-failure-unittest_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_test(
+    name = "gtest_assert_by_exception_test",
+    size = "small",
+    srcs = ["gtest_assert_by_exception_test.cc"],
+    deps = ["//:gtest"],
+)
+
+cc_binary(
+    name = "googletest-throw-on-failure-test_",
+    testonly = 1,
+    srcs = ["googletest-throw-on-failure-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-throw-on-failure-test",
+    size = "small",
+    srcs = ["googletest-throw-on-failure-test.py"],
+    data = [":googletest-throw-on-failure-test_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-list-tests-unittest_",
+    testonly = 1,
+    srcs = ["googletest-list-tests-unittest_.cc"],
+    deps = ["//:gtest"],
+)
+
+cc_test(
+    name = "gtest_skip_test",
+    size = "small",
+    srcs = ["gtest_skip_test.cc"],
+    deps = ["//:gtest_main"],
+)
+
+cc_test(
+    name = "gtest_skip_in_environment_setup_test",
+    size = "small",
+    srcs = ["gtest_skip_in_environment_setup_test.cc"],
+    deps = ["//:gtest_main"],
+)
+
+py_test(
+    name = "gtest_skip_environment_check_output_test",
+    size = "small",
+    srcs = ["gtest_skip_environment_check_output_test.py"],
+    data = [
+        ":gtest_skip_in_environment_setup_test",
+    ],
+    deps = [":gtest_test_utils"],
+)
+
+py_test(
+    name = "googletest-list-tests-unittest",
+    size = "small",
+    srcs = ["googletest-list-tests-unittest.py"],
+    data = [":googletest-list-tests-unittest_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-shuffle-test_",
+    srcs = ["googletest-shuffle-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-shuffle-test",
+    size = "small",
+    srcs = ["googletest-shuffle-test.py"],
+    data = [":googletest-shuffle-test_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-catch-exceptions-no-ex-test_",
+    testonly = 1,
+    srcs = ["googletest-catch-exceptions-test_.cc"],
+    deps = ["//:gtest_main"],
+)
+
+cc_binary(
+    name = "googletest-catch-exceptions-ex-test_",
+    testonly = 1,
+    srcs = ["googletest-catch-exceptions-test_.cc"],
+    copts = ["-fexceptions"],
+    deps = ["//:gtest_main"],
+)
+
+py_test(
+    name = "googletest-catch-exceptions-test",
+    size = "small",
+    srcs = ["googletest-catch-exceptions-test.py"],
+    data = [
+        ":googletest-catch-exceptions-ex-test_",
+        ":googletest-catch-exceptions-no-ex-test_",
+    ],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "gtest_xml_output_unittest_",
+    testonly = 1,
+    srcs = ["gtest_xml_output_unittest_.cc"],
+    deps = ["//:gtest"],
+)
+
+cc_test(
+    name = "gtest_no_test_unittest",
+    size = "small",
+    srcs = ["gtest_no_test_unittest.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "gtest_xml_output_unittest",
+    size = "small",
+    srcs = [
+        "gtest_xml_output_unittest.py",
+        "gtest_xml_test_utils.py",
+    ],
+    args = select({
+        "//:has_absl": [],
+        "//conditions:default": ["--no_stacktrace_support"],
+    }),
+    data = [
+        # We invoke gtest_no_test_unittest to verify the XML output
+        # when the test program contains no test definition.
+        ":gtest_no_test_unittest",
+        ":gtest_xml_output_unittest_",
+    ],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "gtest_xml_outfile1_test_",
+    testonly = 1,
+    srcs = ["gtest_xml_outfile1_test_.cc"],
+    deps = ["//:gtest_main"],
+)
+
+cc_binary(
+    name = "gtest_xml_outfile2_test_",
+    testonly = 1,
+    srcs = ["gtest_xml_outfile2_test_.cc"],
+    deps = ["//:gtest_main"],
+)
+
+py_test(
+    name = "gtest_xml_outfiles_test",
+    size = "small",
+    srcs = [
+        "gtest_xml_outfiles_test.py",
+        "gtest_xml_test_utils.py",
+    ],
+    data = [
+        ":gtest_xml_outfile1_test_",
+        ":gtest_xml_outfile2_test_",
+    ],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "googletest-uninitialized-test_",
+    testonly = 1,
+    srcs = ["googletest-uninitialized-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-uninitialized-test",
+    size = "medium",
+    srcs = ["googletest-uninitialized-test.py"],
+    data = ["googletest-uninitialized-test_"],
+    deps = [":gtest_test_utils"],
+)
+
+cc_binary(
+    name = "gtest_testbridge_test_",
+    testonly = 1,
+    srcs = ["gtest_testbridge_test_.cc"],
+    deps = ["//:gtest_main"],
+)
+
+# Tests that filtering via testbridge works
+py_test(
+    name = "gtest_testbridge_test",
+    size = "small",
+    srcs = ["gtest_testbridge_test.py"],
+    data = [":gtest_testbridge_test_"],
+    deps = [":gtest_test_utils"],
+)
+
+py_test(
+    name = "googletest-json-outfiles-test",
+    size = "small",
+    srcs = [
+        "googletest-json-outfiles-test.py",
+        "gtest_json_test_utils.py",
+    ],
+    data = [
+        ":gtest_xml_outfile1_test_",
+        ":gtest_xml_outfile2_test_",
+    ],
+    deps = [":gtest_test_utils"],
+)
+
+py_test(
+    name = "googletest-json-output-unittest",
+    size = "medium",
+    srcs = [
+        "googletest-json-output-unittest.py",
+        "gtest_json_test_utils.py",
+    ],
+    args = select({
+        "//:has_absl": [],
+        "//conditions:default": ["--no_stacktrace_support"],
+    }),
+    data = [
+        # We invoke gtest_no_test_unittest to verify the JSON output
+        # when the test program contains no test definition.
+        ":gtest_no_test_unittest",
+        ":gtest_xml_output_unittest_",
+    ],
+    deps = [":gtest_test_utils"],
+)
+
+# Verifies interaction of death tests and exceptions.
+cc_test(
+    name = "googletest-death-test_ex_catch_test",
+    size = "medium",
+    srcs = ["googletest-death-test_ex_test.cc"],
+    copts = ["-fexceptions"],
+    defines = ["GTEST_ENABLE_CATCH_EXCEPTIONS_=1"],
+    deps = ["//:gtest"],
+)
+
+cc_binary(
+    name = "googletest-param-test-invalid-name1-test_",
+    testonly = 1,
+    srcs = ["googletest-param-test-invalid-name1-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+cc_binary(
+    name = "googletest-param-test-invalid-name2-test_",
+    testonly = 1,
+    srcs = ["googletest-param-test-invalid-name2-test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "googletest-param-test-invalid-name1-test",
+    size = "small",
+    srcs = ["googletest-param-test-invalid-name1-test.py"],
+    data = [":googletest-param-test-invalid-name1-test_"],
+    deps = [":gtest_test_utils"],
+)
+
+py_test(
+    name = "googletest-param-test-invalid-name2-test",
+    size = "small",
+    srcs = ["googletest-param-test-invalid-name2-test.py"],
+    data = [":googletest-param-test-invalid-name2-test_"],
+    deps = [":gtest_test_utils"],
+)

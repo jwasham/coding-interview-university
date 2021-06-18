@@ -1,0 +1,73 @@
+# Build matrix / environment variable are explained on:
+# https://docs.travis-ci.com/user/customizing-the-build/
+# This file can be validated on:
+# http://lint.travis-ci.org/
+
+language: cpp
+
+# Define the matrix explicitly, manually expanding the combinations of (os, compiler, env).
+# It is more tedious, but grants us far more flexibility.
+matrix:
+  include:
+    - os: linux
+      before_install: chmod -R +x ./ci/*platformio.sh
+      install: ./ci/install-platformio.sh
+      script: ./ci/build-platformio.sh
+    - os: linux
+      dist: xenial
+      compiler: gcc
+      install: ./ci/install-linux.sh && ./ci/log-config.sh
+      script: ./ci/build-linux-bazel.sh
+    - os: linux
+      dist: xenial
+      compiler: clang
+      install: ./ci/install-linux.sh && ./ci/log-config.sh
+      script: ./ci/build-linux-bazel.sh
+    - os: linux
+      compiler: gcc
+      env: BUILD_TYPE=Debug VERBOSE=1 CXX_FLAGS=-std=c++11
+    - os: linux
+      compiler: clang
+      env: BUILD_TYPE=Release VERBOSE=1 CXX_FLAGS=-std=c++11 -Wgnu-zero-variadic-macro-arguments
+    - os: linux
+      compiler: clang
+      env: BUILD_TYPE=Release VERBOSE=1 CXX_FLAGS=-std=c++11 NO_EXCEPTION=ON NO_RTTI=ON COMPILER_IS_GNUCXX=ON
+    - os: osx
+      compiler: gcc
+      env: BUILD_TYPE=Release VERBOSE=1 CXX_FLAGS=-std=c++11 HOMEBREW_LOGS=~/homebrew-logs HOMEBREW_TEMP=~/homebrew-temp
+    - os: osx
+      compiler: clang
+      env: BUILD_TYPE=Release VERBOSE=1 CXX_FLAGS=-std=c++11 HOMEBREW_LOGS=~/homebrew-logs HOMEBREW_TEMP=~/homebrew-temp
+
+# These are the install and build (script) phases for the most common entries in the matrix.  They could be included
+# in each entry in the matrix, but that is just repetitive.
+install:
+  - ./ci/install-${TRAVIS_OS_NAME}.sh
+  - . ./ci/env-${TRAVIS_OS_NAME}.sh
+  - ./ci/log-config.sh
+
+script: ./ci/travis.sh
+
+# This section installs the necessary dependencies.
+addons:
+  apt:
+    # List of whitelisted in travis packages for ubuntu-precise can be found here:
+    #   https://github.com/travis-ci/apt-package-whitelist/blob/master/ubuntu-precise
+    # List of whitelisted in travis apt-sources:
+    #   https://github.com/travis-ci/apt-source-whitelist/blob/master/ubuntu.json
+    sources:
+    - ubuntu-toolchain-r-test
+    - llvm-toolchain-precise-3.9
+    packages:
+    - g++-4.9
+    - clang-3.9
+    update: true
+  homebrew:
+    packages:
+    - ccache
+    - gcc@4.9
+    - llvm@4
+    update: true
+
+notifications:
+  email: false

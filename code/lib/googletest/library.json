@@ -1,0 +1,59 @@
+{
+  "name": "googletest",
+  "keywords": "unittest, unit, test, gtest, gmock",
+  "description": "googletest is a testing framework developed by the Testing Technology team with Google's specific requirements and constraints in mind. No matter whether you work on Linux, Windows, or a Mac, if you write C++ code, googletest can help you. And it supports any kind of tests, not just unit tests.",
+   "license": "BSD-3-Clause",
+  "homepage": "https://github.com/google/googletest/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/googletest.git"
+  },
+  "version": "1.8.1",
+  "frameworks": "arduino",
+  "platforms": [
+        "espressif32"
+  ],
+  "export": {
+        "include": [
+            "googlemock/include/*",
+            "googlemock/src/*",
+            "googletest/include/*",
+            "googletest/src/*"
+        ],
+        "exclude": [
+            "ci",
+            "googlemock/build-aux",
+            "googlemock/cmake",
+            "googlemock/make",
+            "googlemock/msvc",
+            "googlemock/scripts",
+            "googlemock/src/gmock-all.cc",
+            "googlemock/src/gmock_main.cc",
+            "googlemock/test",
+            "googlemock/CMakeLists.txt",
+            "googlemock/Makefile.am",
+            "googlemock/configure.ac",
+            "googletest/cmake",
+            "googletest/codegear",
+            "googletest/m4",
+            "googletest/make",
+            "googletest/msvc",
+            "googletest/scripts",
+            "googletest/src/gtest-all.cc",
+            "googletest/src/gtest_main.cc",
+            "googletest/test",
+            "googletest/xcode",
+            "googletest/CMakeLists.txt",
+            "googletest/Makefile.am",
+            "googletest/configure.ac"
+          ]
+  },
+  "build": {
+        "flags": [
+            "-Igooglemock/include",
+            "-Igooglemock",
+            "-Igoogletest/include",
+            "-Igoogletest"
+        ]
+  }
+}

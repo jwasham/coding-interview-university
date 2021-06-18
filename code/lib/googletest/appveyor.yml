@@ -1,0 +1,154 @@
+version: '{build}'
+
+os: Visual Studio 2015
+
+environment:
+  matrix:
+    - compiler: msvc-15-seh
+      generator: "Visual Studio 15 2017"
+      build_system: cmake
+      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+
+    - compiler: msvc-15-seh
+      generator: "Visual Studio 15 2017 Win64"
+      build_system: cmake
+      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+      enabled_on_pr: yes
+
+    - compiler: msvc-15-seh
+      build_system: bazel
+      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+      enabled_on_pr: yes
+
+    - compiler: msvc-14-seh
+      build_system: cmake
+      generator: "Visual Studio 14 2015"
+      enabled_on_pr: yes
+
+    - compiler: msvc-14-seh
+      build_system: cmake
+      generator: "Visual Studio 14 2015 Win64"
+
+    - compiler: gcc-6.3.0-posix
+      build_system: cmake
+      generator: "MinGW Makefiles"
+      cxx_path: 'C:\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin'
+      enabled_on_pr: yes
+
+configuration:
+  - Debug
+
+build:
+  verbosity: minimal
+
+install:
+- ps: |
+    Write-Output "Compiler: $env:compiler"
+    Write-Output "Generator: $env:generator"
+    Write-Output "Env:Configuation: $env:configuration"
+    Write-Output "Env: $env"
+    if (-not (Test-Path env:APPVEYOR_PULL_REQUEST_NUMBER)) {
+      Write-Output "This is *NOT* a pull request build"
+    } else {
+      Write-Output "This is a pull request build"
+      if (-not (Test-Path env:enabled_on_pr) -or $env:enabled_on_pr -ne "yes") {
+        Write-Output "PR builds are *NOT* explicitly enabled"
+      }
+    }
+
+    # install Bazel
+    if ($env:build_system -eq "bazel") {
+        appveyor DownloadFile https://github.com/bazelbuild/bazel/releases/download/0.28.1/bazel-0.28.1-windows-x86_64.exe -FileName bazel.exe
+    }
+
+    if ($env:build_system -eq "cmake") {
+        # git bash conflicts with MinGW makefiles
+        if ($env:generator -eq "MinGW Makefiles") {
+            $env:path = $env:path.replace("C:\Program Files\Git\usr\bin;", "")
+            if ($env:cxx_path -ne "") {
+                $env:path += ";$env:cxx_path"
+            }
+        }
+    }
+
+before_build:
+- ps: |
+     $env:root=$env:APPVEYOR_BUILD_FOLDER
+     Write-Output "env:root: $env:root"
+
+build_script:
+- ps: |
+    # Only enable some builds for pull requests, the AppVeyor queue is too long.
+    if ((Test-Path env:APPVEYOR_PULL_REQUEST_NUMBER) -And (-not (Test-Path env:enabled_on_pr) -or $env:enabled_on_pr -ne "yes")) {
+      return
+    } else {
+        # special case - build with Bazel
+        if ($env:build_system -eq "bazel") {
+            & $env:root\bazel.exe build -c opt //:gtest_samples
+            if ($LastExitCode -eq 0) { # bazel writes to StdErr and PowerShell interprets it as an error
+                $host.SetShouldExit(0)
+            } else { # a real error
+                throw "Exec: $ErrorMessage"
+            }
+            return
+        }
+    }
+    # by default build with CMake
+    md _build -Force | Out-Null
+    cd _build
+
+    $conf = if ($env:generator -eq "MinGW Makefiles") {"-DCMAKE_BUILD_TYPE=$env:configuration"} else {"-DCMAKE_CONFIGURATION_TYPES=Debug;Release"}
+    # Disable test for MinGW (gtest tests fail, gmock tests can not build)
+    $gtest_build_tests = if ($env:generator -eq "MinGW Makefiles") {"-Dgtest_build_tests=OFF"} else {"-Dgtest_build_tests=ON"}
+    $gmock_build_tests = if ($env:generator -eq "MinGW Makefiles") {"-Dgmock_build_tests=OFF"} else {"-Dgmock_build_tests=ON"}
+    & cmake -G "$env:generator" $conf -Dgtest_build_samples=ON $gtest_build_tests $gmock_build_tests ..
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+    $cmake_parallel = if ($env:generator -eq "MinGW Makefiles") {"-j2"} else  {"/m"}
+    & cmake --build . --config $env:configuration -- $cmake_parallel
+    if ($LastExitCode -ne 0) {
+        throw "Exec: $ErrorMessage"
+    }
+
+
+skip_commits:
+  files:
+    - '**/*.md'
+
+test_script:
+- ps: |
+    # Only enable some builds for pull requests, the AppVeyor queue is too long.
+    if ((Test-Path env:APPVEYOR_PULL_REQUEST_NUMBER) -And (-not (Test-Path env:enabled_on_pr) -or $env:enabled_on_pr -ne "yes")) {
+      return
+    }
+    if ($env:build_system -eq "bazel") {
+        # special case - testing with Bazel
+        & $env:root\bazel.exe test //:gtest_samples
+        if ($LastExitCode -eq 0) { # bazel writes to StdErr and PowerShell interprets it as an error
+            $host.SetShouldExit(0)
+        } else { # a real error
+            throw "Exec: $ErrorMessage"
+        }
+    }
+    if ($env:build_system -eq "cmake") {
+        # built with CMake - test with CTest
+        if ($env:generator -eq "MinGW Makefiles") {
+            return # No test available for MinGW
+        }
+
+        & ctest -C $env:configuration --timeout 600 --output-on-failure
+        if ($LastExitCode -ne 0) {
+            throw "Exec: $ErrorMessage"
+        }
+    }
+
+artifacts:
+  - path: '_build/CMakeFiles/*.log'
+    name: logs
+  - path: '_build/Testing/**/*.xml'
+    name: test_results
+  - path: 'bazel-testlogs/**/test.log'
+    name: test_logs
+  - path: 'bazel-testlogs/**/test.xml'
+    name: test_results

@@ -1,0 +1,227 @@
+$$ -*- mode: c++; -*-
+$$ This is a Pump source file.  Please use Pump to convert
+$$ it to gmock-generated-function-mockers.h.
+$$
+$var n = 10  $$ The maximum arity we support.
+// Copyright 2007, Google Inc.
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are
+// met:
+//
+//     * Redistributions of source code must retain the above copyright
+// notice, this list of conditions and the following disclaimer.
+//     * Redistributions in binary form must reproduce the above
+// copyright notice, this list of conditions and the following disclaimer
+// in the documentation and/or other materials provided with the
+// distribution.
+//     * Neither the name of Google Inc. nor the names of its
+// contributors may be used to endorse or promote products derived from
+// this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+// OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+// LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+// DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+// THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+// OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+// Google Mock - a framework for writing C++ mock classes.
+//
+// This file implements function mockers of various arities.
+
+// GOOGLETEST_CM0002 DO NOT DELETE
+
+#ifndef GMOCK_INCLUDE_GMOCK_GMOCK_GENERATED_FUNCTION_MOCKERS_H_
+#define GMOCK_INCLUDE_GMOCK_GMOCK_GENERATED_FUNCTION_MOCKERS_H_
+
+#include <functional>
+#include <utility>
+
+#include "gmock/gmock-spec-builders.h"
+#include "gmock/internal/gmock-internal-utils.h"
+
+namespace testing {
+namespace internal {
+
+$range i 0..n
+// Removes the given pointer; this is a helper for the expectation setter method
+// for parameterless matchers.
+//
+// We want to make sure that the user cannot set a parameterless expectation on
+// overloaded methods, including methods which are overloaded on const. Example:
+//
+//   class MockClass {
+//     MOCK_METHOD0(GetName, string&());
+//     MOCK_CONST_METHOD0(GetName, const string&());
+//   };
+//
+//   TEST() {
+//     // This should be an error, as it's not clear which overload is expected.
+//     EXPECT_CALL(mock, GetName).WillOnce(ReturnRef(value));
+//   }
+//
+// Here are the generated expectation-setter methods:
+//
+//   class MockClass {
+//     // Overload 1
+//     MockSpec<string&()> gmock_GetName() { ... }
+//     // Overload 2. Declared const so that the compiler will generate an
+//     // error when trying to resolve between this and overload 4 in
+//     // 'gmock_GetName(WithoutMatchers(), nullptr)'.
+//     MockSpec<string&()> gmock_GetName(
+//         const WithoutMatchers&, const Function<string&()>*) const {
+//       // Removes const from this, calls overload 1
+//       return AdjustConstness_(this)->gmock_GetName();
+//     }
+//
+//     // Overload 3
+//     const string& gmock_GetName() const { ... }
+//     // Overload 4
+//     MockSpec<const string&()> gmock_GetName(
+//         const WithoutMatchers&, const Function<const string&()>*) const {
+//       // Does not remove const, calls overload 3
+//       return AdjustConstness_const(this)->gmock_GetName();
+//     }
+//   }
+//
+template <typename MockType>
+const MockType* AdjustConstness_const(const MockType* mock) {
+  return mock;
+}
+
+// Removes const from and returns the given pointer; this is a helper for the
+// expectation setter method for parameterless matchers.
+template <typename MockType>
+MockType* AdjustConstness_(const MockType* mock) {
+  return const_cast<MockType*>(mock);
+}
+
+}  // namespace internal
+
+// The style guide prohibits "using" statements in a namespace scope
+// inside a header file.  However, the FunctionMocker class template
+// is meant to be defined in the ::testing namespace.  The following
+// line is just a trick for working around a bug in MSVC 8.0, which
+// cannot handle it if we define FunctionMocker in ::testing.
+using internal::FunctionMocker;
+
+// GMOCK_RESULT_(tn, F) expands to the result type of function type F.
+// We define this as a variadic macro in case F contains unprotected
+// commas (the same reason that we use variadic macros in other places
+// in this file).
+// INTERNAL IMPLEMENTATION - DON'T USE IN USER CODE!!!
+#define GMOCK_RESULT_(tn, ...) \
+    tn ::testing::internal::Function<__VA_ARGS__>::Result
+
+// The type of argument N of the given function type.
+// INTERNAL IMPLEMENTATION - DON'T USE IN USER CODE!!!
+#define GMOCK_ARG_(tn, N, ...) \
+    tn ::testing::internal::Function<__VA_ARGS__>::template Arg<N-1>::type
+
+// The matcher type for argument N of the given function type.
+// INTERNAL IMPLEMENTATION - DON'T USE IN USER CODE!!!
+#define GMOCK_MATCHER_(tn, N, ...) \
+    const ::testing::Matcher<GMOCK_ARG_(tn, N, __VA_ARGS__)>&
+
+// The variable for mocking the given method.
+// INTERNAL IMPLEMENTATION - DON'T USE IN USER CODE!!!
+#define GMOCK_MOCKER_(arity, constness, Method) \
+    GTEST_CONCAT_TOKEN_(gmock##constness##arity##_##Method##_, __LINE__)
+
+
+$for i [[
+$range j 1..i
+$var arg_as = [[$for j, [[GMOCK_ARG_(tn, $j, __VA_ARGS__) gmock_a$j]]]]
+$var as = [[$for j, \
+  [[::std::forward<GMOCK_ARG_(tn, $j, __VA_ARGS__)>(gmock_a$j)]]]]
+$var matcher_arg_as = [[$for j, \
+                     [[GMOCK_MATCHER_(tn, $j, __VA_ARGS__) gmock_a$j]]]]
+$var matcher_as = [[$for j, [[gmock_a$j]]]]
+$var anything_matchers = [[$for j, \
+                     [[::testing::A<GMOCK_ARG_(tn, $j, __VA_ARGS__)>()]]]]
+// INTERNAL IMPLEMENTATION - DON'T USE IN USER CODE!!!
+#define GMOCK_METHOD$i[[]]_(tn, constness, ct, Method, ...) \
+  static_assert($i == ::testing::internal::Function<__VA_ARGS__>::ArgumentCount, "MOCK_METHOD<N> must match argument count.");\
+  GMOCK_RESULT_(tn, __VA_ARGS__) ct Method( \
+      $arg_as) constness { \
+    GMOCK_MOCKER_($i, constness, Method).SetOwnerAndName(this, #Method); \
+    return GMOCK_MOCKER_($i, constness, Method).Invoke($as); \
+  } \
+  ::testing::MockSpec<__VA_ARGS__> \
+      gmock_##Method($matcher_arg_as) constness { \
+    GMOCK_MOCKER_($i, constness, Method).RegisterOwner(this); \
+    return GMOCK_MOCKER_($i, constness, Method).With($matcher_as); \
+  } \
+  ::testing::MockSpec<__VA_ARGS__> gmock_##Method( \
+      const ::testing::internal::WithoutMatchers&, \
+      constness ::testing::internal::Function<__VA_ARGS__>* ) const { \
+        return ::testing::internal::AdjustConstness_##constness(this)-> \
+            gmock_##Method($anything_matchers); \
+      } \
+  mutable ::testing::FunctionMocker<__VA_ARGS__> GMOCK_MOCKER_($i, constness, Method)
+
+
+]]
+$for i [[
+#define MOCK_METHOD$i(m, ...) GMOCK_METHOD$i[[]]_(, , , m, __VA_ARGS__)
+
+]]
+
+
+$for i [[
+#define MOCK_CONST_METHOD$i(m, ...) GMOCK_METHOD$i[[]]_(, const, , m, __VA_ARGS__)
+
+]]
+
+
+$for i [[
+#define MOCK_METHOD$i[[]]_T(m, ...) GMOCK_METHOD$i[[]]_(typename, , , m, __VA_ARGS__)
+
+]]
+
+
+$for i [[
+#define MOCK_CONST_METHOD$i[[]]_T(m, ...) \
+    GMOCK_METHOD$i[[]]_(typename, const, , m, __VA_ARGS__)
+
+]]
+
+
+$for i [[
+#define MOCK_METHOD$i[[]]_WITH_CALLTYPE(ct, m, ...) \
+    GMOCK_METHOD$i[[]]_(, , ct, m, __VA_ARGS__)
+
+]]
+
+
+$for i [[
+#define MOCK_CONST_METHOD$i[[]]_WITH_CALLTYPE(ct, m, ...) \
+    GMOCK_METHOD$i[[]]_(, const, ct, m, __VA_ARGS__)
+
+]]
+
+
+$for i [[
+#define MOCK_METHOD$i[[]]_T_WITH_CALLTYPE(ct, m, ...) \
+    GMOCK_METHOD$i[[]]_(typename, , ct, m, __VA_ARGS__)
+
+]]
+
+
+$for i [[
+#define MOCK_CONST_METHOD$i[[]]_T_WITH_CALLTYPE(ct, m, ...) \
+    GMOCK_METHOD$i[[]]_(typename, const, ct, m, __VA_ARGS__)
+
+]]
+
+}  // namespace testing
+
+#endif  // GMOCK_INCLUDE_GMOCK_GMOCK_GENERATED_FUNCTION_MOCKERS_H_

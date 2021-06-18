@@ -1,0 +1,317 @@
+[ RUN      ] GMockOutputTest.ExpectedCall
+
+FILE:#: EXPECT_CALL(foo_, Bar2(0, _)) invoked
+Stack trace:
+
+FILE:#: Mock function call matches EXPECT_CALL(foo_, Bar2(0, _))...
+    Function call: Bar2(0, 0)
+          Returns: false
+Stack trace:
+[       OK ] GMockOutputTest.ExpectedCall
+[ RUN      ] GMockOutputTest.ExpectedCallToVoidFunction
+
+FILE:#: EXPECT_CALL(foo_, Bar3(0, _)) invoked
+Stack trace:
+
+FILE:#: Mock function call matches EXPECT_CALL(foo_, Bar3(0, _))...
+    Function call: Bar3(0, 0)
+Stack trace:
+[       OK ] GMockOutputTest.ExpectedCallToVoidFunction
+[ RUN      ] GMockOutputTest.ExplicitActionsRunOut
+
+GMOCK WARNING:
+FILE:#: Too few actions specified in EXPECT_CALL(foo_, Bar2(_, _))...
+Expected to be called twice, but has only 1 WillOnce().
+GMOCK WARNING:
+FILE:#: Actions ran out in EXPECT_CALL(foo_, Bar2(_, _))...
+Called 2 times, but only 1 WillOnce() is specified - returning default value.
+Stack trace:
+[       OK ] GMockOutputTest.ExplicitActionsRunOut
+[ RUN      ] GMockOutputTest.UnexpectedCall
+unknown file: Failure
+
+Unexpected mock function call - returning default value.
+    Function call: Bar2(1, 0)
+          Returns: false
+Google Mock tried the following 1 expectation, but it didn't match:
+
+FILE:#: EXPECT_CALL(foo_, Bar2(0, _))...
+  Expected arg #0: is equal to 0
+           Actual: 1
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.UnexpectedCall
+[ RUN      ] GMockOutputTest.UnexpectedCallToVoidFunction
+unknown file: Failure
+
+Unexpected mock function call - returning directly.
+    Function call: Bar3(1, 0)
+Google Mock tried the following 1 expectation, but it didn't match:
+
+FILE:#: EXPECT_CALL(foo_, Bar3(0, _))...
+  Expected arg #0: is equal to 0
+           Actual: 1
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.UnexpectedCallToVoidFunction
+[ RUN      ] GMockOutputTest.ExcessiveCall
+FILE:#: Failure
+Mock function called more times than expected - returning default value.
+    Function call: Bar2(0, 1)
+          Returns: false
+         Expected: to be called once
+           Actual: called twice - over-saturated and active
+[  FAILED  ] GMockOutputTest.ExcessiveCall
+[ RUN      ] GMockOutputTest.ExcessiveCallToVoidFunction
+FILE:#: Failure
+Mock function called more times than expected - returning directly.
+    Function call: Bar3(0, 1)
+         Expected: to be called once
+           Actual: called twice - over-saturated and active
+[  FAILED  ] GMockOutputTest.ExcessiveCallToVoidFunction
+[ RUN      ] GMockOutputTest.UninterestingCall
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: Bar2(0, 1)
+          Returns: false
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] GMockOutputTest.UninterestingCall
+[ RUN      ] GMockOutputTest.UninterestingCallToVoidFunction
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: Bar3(0, 1)
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] GMockOutputTest.UninterestingCallToVoidFunction
+[ RUN      ] GMockOutputTest.RetiredExpectation
+unknown file: Failure
+
+Unexpected mock function call - returning default value.
+    Function call: Bar2(1, 1)
+          Returns: false
+Google Mock tried the following 2 expectations, but none matched:
+
+FILE:#: tried expectation #0: EXPECT_CALL(foo_, Bar2(_, _))...
+         Expected: the expectation is active
+           Actual: it is retired
+         Expected: to be called once
+           Actual: called once - saturated and retired
+FILE:#: tried expectation #1: EXPECT_CALL(foo_, Bar2(0, 0))...
+  Expected arg #0: is equal to 0
+           Actual: 1
+  Expected arg #1: is equal to 0
+           Actual: 1
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.RetiredExpectation
+[ RUN      ] GMockOutputTest.UnsatisfiedPrerequisite
+unknown file: Failure
+
+Unexpected mock function call - returning default value.
+    Function call: Bar2(1, 0)
+          Returns: false
+Google Mock tried the following 2 expectations, but none matched:
+
+FILE:#: tried expectation #0: EXPECT_CALL(foo_, Bar2(0, 0))...
+  Expected arg #0: is equal to 0
+           Actual: 1
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+FILE:#: tried expectation #1: EXPECT_CALL(foo_, Bar2(1, _))...
+         Expected: all pre-requisites are satisfied
+           Actual: the following immediate pre-requisites are not satisfied:
+FILE:#: pre-requisite #0
+                   (end of pre-requisites)
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.UnsatisfiedPrerequisite
+[ RUN      ] GMockOutputTest.UnsatisfiedPrerequisites
+unknown file: Failure
+
+Unexpected mock function call - returning default value.
+    Function call: Bar2(1, 0)
+          Returns: false
+Google Mock tried the following 2 expectations, but none matched:
+
+FILE:#: tried expectation #0: EXPECT_CALL(foo_, Bar2(0, 0))...
+  Expected arg #0: is equal to 0
+           Actual: 1
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+FILE:#: tried expectation #1: EXPECT_CALL(foo_, Bar2(1, _))...
+         Expected: all pre-requisites are satisfied
+           Actual: the following immediate pre-requisites are not satisfied:
+FILE:#: pre-requisite #0
+FILE:#: pre-requisite #1
+                   (end of pre-requisites)
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.UnsatisfiedPrerequisites
+[ RUN      ] GMockOutputTest.UnsatisfiedWith
+FILE:#: Failure
+Actual function call count doesn't match EXPECT_CALL(foo_, Bar2(_, _))...
+    Expected args: are a pair where the first >= the second
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.UnsatisfiedWith
+[ RUN      ] GMockOutputTest.UnsatisfiedExpectation
+FILE:#: Failure
+Actual function call count doesn't match EXPECT_CALL(foo_, Bar2(0, _))...
+         Expected: to be called twice
+           Actual: called once - unsatisfied and active
+FILE:#: Failure
+Actual function call count doesn't match EXPECT_CALL(foo_, Bar(_, _, _))...
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.UnsatisfiedExpectation
+[ RUN      ] GMockOutputTest.MismatchArguments
+unknown file: Failure
+
+Unexpected mock function call - returning default value.
+    Function call: Bar(@0x# "Ho", 0, -0.1)
+          Returns: '\0'
+Google Mock tried the following 1 expectation, but it didn't match:
+
+FILE:#: EXPECT_CALL(foo_, Bar(Ref(s), _, Ge(0)))...
+  Expected arg #0: references the variable @0x# "Hi"
+           Actual: "Ho", which is located @0x#
+  Expected arg #2: is >= 0
+           Actual: -0.1
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.MismatchArguments
+[ RUN      ] GMockOutputTest.MismatchWith
+unknown file: Failure
+
+Unexpected mock function call - returning default value.
+    Function call: Bar2(2, 3)
+          Returns: false
+Google Mock tried the following 1 expectation, but it didn't match:
+
+FILE:#: EXPECT_CALL(foo_, Bar2(Ge(2), Ge(1)))...
+    Expected args: are a pair where the first >= the second
+           Actual: don't match
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.MismatchWith
+[ RUN      ] GMockOutputTest.MismatchArgumentsAndWith
+unknown file: Failure
+
+Unexpected mock function call - returning default value.
+    Function call: Bar2(1, 3)
+          Returns: false
+Google Mock tried the following 1 expectation, but it didn't match:
+
+FILE:#: EXPECT_CALL(foo_, Bar2(Ge(2), Ge(1)))...
+  Expected arg #0: is >= 2
+           Actual: 1
+    Expected args: are a pair where the first >= the second
+           Actual: don't match
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.MismatchArgumentsAndWith
+[ RUN      ] GMockOutputTest.UnexpectedCallWithDefaultAction
+unknown file: Failure
+
+Unexpected mock function call - taking default action specified at:
+FILE:#:
+    Function call: Bar2(1, 0)
+          Returns: false
+Google Mock tried the following 1 expectation, but it didn't match:
+
+FILE:#: EXPECT_CALL(foo_, Bar2(2, 2))...
+  Expected arg #0: is equal to 2
+           Actual: 1
+  Expected arg #1: is equal to 2
+           Actual: 0
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+unknown file: Failure
+
+Unexpected mock function call - taking default action specified at:
+FILE:#:
+    Function call: Bar2(0, 0)
+          Returns: true
+Google Mock tried the following 1 expectation, but it didn't match:
+
+FILE:#: EXPECT_CALL(foo_, Bar2(2, 2))...
+  Expected arg #0: is equal to 2
+           Actual: 0
+  Expected arg #1: is equal to 2
+           Actual: 0
+         Expected: to be called once
+           Actual: never called - unsatisfied and active
+[  FAILED  ] GMockOutputTest.UnexpectedCallWithDefaultAction
+[ RUN      ] GMockOutputTest.ExcessiveCallWithDefaultAction
+FILE:#: Failure
+Mock function called more times than expected - taking default action specified at:
+FILE:#:
+    Function call: Bar2(2, 2)
+          Returns: true
+         Expected: to be called once
+           Actual: called twice - over-saturated and active
+FILE:#: Failure
+Mock function called more times than expected - taking default action specified at:
+FILE:#:
+    Function call: Bar2(1, 1)
+          Returns: false
+         Expected: to be called once
+           Actual: called twice - over-saturated and active
+[  FAILED  ] GMockOutputTest.ExcessiveCallWithDefaultAction
+[ RUN      ] GMockOutputTest.UninterestingCallWithDefaultAction
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+FILE:#:
+    Function call: Bar2(2, 2)
+          Returns: true
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+FILE:#:
+    Function call: Bar2(1, 1)
+          Returns: false
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/cook_book.md#knowing-when-to-expect for details.
+[       OK ] GMockOutputTest.UninterestingCallWithDefaultAction
+[ RUN      ] GMockOutputTest.ExplicitActionsRunOutWithDefaultAction
+
+GMOCK WARNING:
+FILE:#: Too few actions specified in EXPECT_CALL(foo_, Bar2(_, _))...
+Expected to be called twice, but has only 1 WillOnce().
+GMOCK WARNING:
+FILE:#: Actions ran out in EXPECT_CALL(foo_, Bar2(_, _))...
+Called 2 times, but only 1 WillOnce() is specified - taking default action specified at:
+FILE:#:
+Stack trace:
+[       OK ] GMockOutputTest.ExplicitActionsRunOutWithDefaultAction
+[ RUN      ] GMockOutputTest.CatchesLeakedMocks
+[       OK ] GMockOutputTest.CatchesLeakedMocks
+[ RUN      ] GMockOutputTest.PrintsMatcher
+FILE:#: Failure
+Value of: (std::pair<int, bool>(42, true))
+Expected: is pair (is >= 48, true)
+  Actual: (42, true) (of type std::pair<int, bool>)
+[  FAILED  ] GMockOutputTest.PrintsMatcher
+[  FAILED  ] GMockOutputTest.UnexpectedCall
+[  FAILED  ] GMockOutputTest.UnexpectedCallToVoidFunction
+[  FAILED  ] GMockOutputTest.ExcessiveCall
+[  FAILED  ] GMockOutputTest.ExcessiveCallToVoidFunction
+[  FAILED  ] GMockOutputTest.RetiredExpectation
+[  FAILED  ] GMockOutputTest.UnsatisfiedPrerequisite
+[  FAILED  ] GMockOutputTest.UnsatisfiedPrerequisites
+[  FAILED  ] GMockOutputTest.UnsatisfiedWith
+[  FAILED  ] GMockOutputTest.UnsatisfiedExpectation
+[  FAILED  ] GMockOutputTest.MismatchArguments
+[  FAILED  ] GMockOutputTest.MismatchWith
+[  FAILED  ] GMockOutputTest.MismatchArgumentsAndWith
+[  FAILED  ] GMockOutputTest.UnexpectedCallWithDefaultAction
+[  FAILED  ] GMockOutputTest.ExcessiveCallWithDefaultAction
+[  FAILED  ] GMockOutputTest.PrintsMatcher
+
+
+FILE:#: ERROR: this mock object should be deleted but never is. Its address is @0x#.
+FILE:#: ERROR: this mock object should be deleted but never is. Its address is @0x#.
+FILE:#: ERROR: this mock object should be deleted but never is. Its address is @0x#.
+ERROR: 3 leaked mock objects found at program exit. Expectations on a mock object is verified when the object is destructed. Leaking a mock means that its expectations aren't verified, which is usually a test bug. If you really intend to leak a mock, you can suppress this error using testing::Mock::AllowLeak(mock_object), or you may use a fake or stub instead of a mock.

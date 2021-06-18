@@ -1,0 +1,110 @@
+# Copyright 2017 Google Inc.
+# All Rights Reserved.
+#
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#
+#     * Redistributions of source code must retain the above copyright
+# notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+# copyright notice, this list of conditions and the following disclaimer
+# in the documentation and/or other materials provided with the
+# distribution.
+#     * Neither the name of Google Inc. nor the names of its
+# contributors may be used to endorse or promote products derived from
+# this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+# OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+# LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Author: misterg@google.com (Gennadiy Civil)
+#
+#   Bazel Build for Google C++ Testing Framework(Google Test)-googlemock
+
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_test")
+load("@rules_python//python:defs.bzl", "py_library", "py_test")
+
+licenses(["notice"])
+
+# Tests for GMock itself
+cc_test(
+    name = "gmock_all_test",
+    size = "small",
+    srcs = glob(include = ["gmock-*.cc"]),
+    linkopts = select({
+        "//:windows": [],
+        "//conditions:default": ["-pthread"],
+    }),
+    deps = ["//:gtest"],
+)
+
+# Python tests
+py_library(
+    name = "gmock_test_utils",
+    testonly = 1,
+    srcs = ["gmock_test_utils.py"],
+)
+
+cc_binary(
+    name = "gmock_leak_test_",
+    testonly = 1,
+    srcs = ["gmock_leak_test_.cc"],
+    deps = ["//:gtest_main"],
+)
+
+py_test(
+    name = "gmock_leak_test",
+    size = "medium",
+    srcs = ["gmock_leak_test.py"],
+    data = [
+        ":gmock_leak_test_",
+        ":gmock_test_utils",
+    ],
+)
+
+cc_test(
+    name = "gmock_link_test",
+    size = "small",
+    srcs = [
+        "gmock_link2_test.cc",
+        "gmock_link_test.cc",
+        "gmock_link_test.h",
+    ],
+    deps = ["//:gtest_main"],
+)
+
+cc_binary(
+    name = "gmock_output_test_",
+    srcs = ["gmock_output_test_.cc"],
+    deps = ["//:gtest"],
+)
+
+py_test(
+    name = "gmock_output_test",
+    size = "medium",
+    srcs = ["gmock_output_test.py"],
+    data = [
+        ":gmock_output_test_",
+        ":gmock_output_test_golden.txt",
+    ],
+    python_version = "PY2",
+    deps = [":gmock_test_utils"],
+)
+
+cc_test(
+    name = "gmock_test",
+    size = "small",
+    srcs = ["gmock_test.cc"],
+    deps = ["//:gtest_main"],
+)

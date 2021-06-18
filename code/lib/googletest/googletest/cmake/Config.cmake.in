@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+include(CMakeFindDependencyMacro)
+if (@GTEST_HAS_PTHREAD@)
+  set(THREADS_PREFER_PTHREAD_FLAG @THREADS_PREFER_PTHREAD_FLAG@)
+  find_dependency(Threads)
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/@targets_export_name@.cmake")
+check_required_components("@project_name@")

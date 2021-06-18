@@ -17,7 +17,6 @@ personal-9894.md
 ehthumbs.db
 Thumbs.db
 
-.vscode/launch.json
+.vscode
 .gitignore
-.vscode/tasks.json
 build/

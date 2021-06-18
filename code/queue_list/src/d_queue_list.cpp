@@ -1,5 +1,4 @@
-#include "DQueueList.h"
-#pragma once
+#include "d_queue_list.h"
 
 namespace DI
 {

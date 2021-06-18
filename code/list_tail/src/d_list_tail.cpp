@@ -1,5 +1,4 @@
-#include "DListTail.h"
-#pragma once
+#include "d_list_tail.h"
 // #ifndef _DLISTTAIL_CPP_ 
 // #define _DLISTTAIL_CPP_
 

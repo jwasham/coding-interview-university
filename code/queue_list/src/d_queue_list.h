@@ -1,5 +1,5 @@
-#include "../../../lists/Tail/src/DListTail.cpp"
-#include "../../../lists/Tail/src/DListTail.h"
+#include "../../list_tail/src/d_list_tail.h"
+#include "../../list_tail/src/d_list_tail.cpp"
 
 #pragma once
 #ifndef DQUEUELIST_H

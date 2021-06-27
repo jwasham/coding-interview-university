@@ -26,6 +26,7 @@
 - [German](translations/README-de.md)
 - [Bahasa Indonesia](translations/README-id.md)
 - [ខ្មែរ - Khmer](translations/README-kh.md)
+- [Uzbek](translations/README-uz.md)
 
 </details>
 

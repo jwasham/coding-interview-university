@@ -7,7 +7,7 @@
 Это мой учебный план, рассчитанный на несколько месяцев для веб-разработчиков, не имеющих образования в Computer Science (CS)
 и планирующих работать инженерами-программистами (software engineer) в компании Google. 
 
-![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 За основу учебного плана я взял список вопросов **Google's coaching notes** и значительно расширил его. Тут вы найдёте 
 много полезных вещей, которые необходимо знать. Дополнительные вопросы я добавил в конец списка: их могут задавать на 
@@ -199,12 +199,6 @@ Google не возьмёт тебя на работу.
 
 [Подробнее о разметке на Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Получи гугловское настроение
-
-Напечатай знак "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" и не отводи глаз от желанной добычи.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
 ## Получил ли я работу?
 
 Пока я ожидаю своей очереди. Надеюсь интервью будет скоро.
@@ -217,13 +211,8 @@ Google не возьмёт тебя на работу.
 
 Я ещё на пути к цели. Двигаемся вперёд:
  
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
 - Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
 - LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Не переживайте о том, что вы недостаточно умны
 - Успешные инженеры умные, но многие из них переживают, что недостаточно умны.
@@ -1343,7 +1332,7 @@ Google не возьмёт тебя на работу.
 
 У вас нет доски дома? Не удивительно. Я немного неормальный и у меня есть большая доска дома. Но вместо доски можно использователь и планшет для рисования из магазина художественных товаров, и практиковаться сидя на диване. Это моя "диванная доска". На фото я положил ручку чтобы иметь вы имели представление о масштабе. Если вы будете пользоваться ручкой, постоянно будет возникать желание что-то исправить и решение захламляется достаточно быстро.
 
-![моя диванная доска](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![моя диванная доска](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Дополнительно:
 

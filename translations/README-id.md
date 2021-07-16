@@ -240,7 +240,7 @@ Ini adalah daftar pendek yang saya gunakan. Ini disingkat untuk menghemat waktu 
 
 ### Persiapan Interview
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 4th Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Coding+Your+Way+Through+the+Interview%2C+4th+Edition-p-9781119418481)
     - jawaban di C++ and Java
     - direkomendasikan di Google candidate coaching
     - ini adalah pemanasan yang baik untuk Cracking the Coding Interview
@@ -1102,7 +1102,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - [ ] [Cara Menghapus Duplikat dalam Kumpulan Data Besar](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [Sekilas tentang skala dan budaya teknik Etsy dengan Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
     - [ ] [Apa yang Membawa Amazon ke Arsitektur Layanan Mikro Sendiri](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [Untuk Mengompresi Atau Tidak Mengompresi, Itu Pertanyaan Uber](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [Untuk Mengompresi Atau Tidak Mengompresi, Itu Pertanyaan Uber](https://eng.uber.com/trip-data-squeeze-json-encoding-compression/)
     - [ ] [Asyncio Tarantool Queue, Masuk Antrian](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
     - [ ] [Kapan Perkiraan Pemrosesan Kueri Digunakan?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
     - [ ] [Transisi Google Dari Pusat Data Tunggal, Ke Failover, Ke Arsitektur Native Multihomed](http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
@@ -1157,7 +1157,6 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - Latihan:
         - [Desain jaringan CDN: artikel lama](https://kilthub.cmu.edu/articles/Globally_distributed_content_delivery/6605972)
         - [Rancang sistem pembuatan ID unik secara acak](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Rancang permainan kartu multipemain daring](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
         - [Mendesain database nilai kunci](http://www.slideshare.net/dvirsky/introduction-to-redis)
         - [Rancang sistem berbagi gambar](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
         - [Rancang sistem rekomendasi](http://ijcai13.org/files/tutorial_slides/td3.pdf)
@@ -1692,17 +1691,15 @@ Anda tidak pernah benar-benar selesai.
     - [Alat pembelajaran Mesin Cloud Google (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
     - [Resep Pembelajaran Mesin Google Developers (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
     - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [Tutorial Tensorflow](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [Tutorials Tensorflow](https://www.tensorflow.org/tutorials)
     - [Panduan Praktis untuk mengimplementasikan Jaringan Neural dengan Python (menggunakan Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
     - Kursus:
         - [Kursus pemula yang bagus: Pembelajaran Mesin](https://www.coursera.org/learn/machine-learning)
               - [video saja](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - lihat video 12-18 untuk review aljabar linier (14 dan 15 adalah duplikat)
-        - [Jaringan Neural untuk Pembelajaran Mesin](https://www.coursera.org/learn/neural-networks)
         - [Nanodegree Deep Learning Google](https://www.udacity.com/course/deep-learning--ud730)
-        - [Nanodegree Machine Learning Engineer Google / Kaggle](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+        - [Nanodegree Machine Learning Engineer Google / Kaggle](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t)
         - [Nanodegree, Insinyur Mobil Mengemudi Mandiri](https://www.udacity.com/drive)
-        - [Kursus Online Metis ($99 selama 2 bulan)](http://www.thisismetis.com/explore-data-science)
     - Sumber:
         - Buku:
             - [Pembelajaran Mesin Python](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)

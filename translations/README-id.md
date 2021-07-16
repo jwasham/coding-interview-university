@@ -240,7 +240,7 @@ Ini adalah daftar pendek yang saya gunakan. Ini disingkat untuk menghemat waktu 
 
 ### Persiapan Interview
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Secrets+to+Landing+Your+Next+Job%2C+2nd+Edition-p-9780470121672)
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 4th Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Coding+Your+Way+Through+the+Interview%2C+4th+Edition-p-9781119418481)
     - jawaban di C++ and Java
     - direkomendasikan di Google candidate coaching
     - ini adalah pemanasan yang baik untuk Cracking the Coding Interview

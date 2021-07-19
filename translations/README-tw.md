@@ -472,12 +472,10 @@
     - [ ] (動態)陣列背後原理:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
+        - [Basic Arrays (video)]()
+        - [Multi-dim (video)]()
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] 實作動態陣列(可變、可動態調整大小的陣列)
         - [ ] 練習在程式中用陣列以及指標，透過計算指標而存取該內容，而不是直接用索引。
         - [ ] 直接動態生成一個新的陣列
@@ -540,14 +538,14 @@
 
 - ### Stack(堆疊)
     - [ ] [Stacks(影片)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [使用Stacks先進後出(Last-In First-Out)(影片)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [ ] [使用Stacks先進後出(Last-In First-Out)(影片)]()
     - [ ] 無須實作，可以用陣列實作，但這樣太過簡單了。
 
 - ### Queue(佇列)
-    - [ ] [使用Queues(先進先出)First-In First-Out(影片)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [ ] [使用Queues(先進先出)First-In First-Out(影片)]()
     - [ ] [Queue(影片)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues(影片)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] [Priority Queues(影片)]()
     - [ ] 使用linked list實作，包含末端指標(tail pointer):
         - enqueue(value) - 在queue末端加入元素
         - dequeue() - 刪除當時queue中最早進入的元素(意即queue中第一個元素)，並且回傳該元素的值。
@@ -568,10 +566,10 @@
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (影片)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (影片)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
     - [ ] 線上開放式課程:
-        - [ ] [Understanding Hash Functions (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [Using Hash Tables (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [Supporting Hashing (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [Language Support Hash Tables (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
+        - [ ] [Understanding Hash Functions (影片)]()
+        - [ ] [Using Hash Tables (影片)]()
+        - [ ] [Supporting Hashing (影片)]()
+        - [ ] [Language Support Hash Tables (影片)]()
         - [ ] [Core Hash Tables (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (影片)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (影片)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -597,7 +595,7 @@
         - 用遞迴(recursion)的方法實作二分搜尋法
 
 - ### 位元運算(Bitwise operations)
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-cheet.pdf) - 你應該能背出一些2的指數(從2^1到2^16以及2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - 你應該能背出一些2的指數(從2^1到2^16以及2^32)
     - [ ] 實際了解如何用下列的位元運算子來操作每個位元: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -1048,7 +1046,7 @@
 - ### 網路
     - **以下為如果你有網路相關經驗，或是想成為一個可靠的工程師需要知道的知識**
     - 知道這些有益無害，多多益善!
-    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
+    - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
     - [ ] [UDP and TCP: Comparison of Transport Protocols(影片)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained!(影片)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
     - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.(影片)](https://www.youtube.com/watch?v=nomyRJehhnM)
@@ -1127,7 +1125,7 @@
     - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
     - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze-json-encoding-compression/)
     - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
     - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
     - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
@@ -1182,7 +1180,6 @@
     - 練習:
         - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
         - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
         - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
@@ -1234,7 +1231,7 @@
   
 **閱讀並解題(按照以下順序):**
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Secrets+to+Landing+Your+Next+Job%2C+2nd+Edition-p-9780470121672)
     - 附有C、C++、Java的解答
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - 附有Java的解答
@@ -1677,17 +1674,16 @@ Coding面試題目影片:
     - [Google's Cloud Machine learning tools (影片)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
     - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (影片)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
     - [Tensorflow (影片)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials)
     - [Practical Guide to implementing Neural Networks in Python (使用Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
     - 課程:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [只有影片](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
-        - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
+        - [Neural Networks and Deep Learning Learning](https://www.coursera.org/learn/neural-networks-deep-learning)
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
-        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99/2個月)](http://www.thisismetis.com/explore-data-science)
     - 資源:
         - 書籍:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)

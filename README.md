@@ -67,6 +67,7 @@
             </div>
         </a>
     </p>
+    <hr/>
     <p>
         <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>

@@ -55,9 +55,10 @@
         <sup>
             <a href="https://github.com/sponsors/jwasham">Coding Interview University is supported by the community.</a>
         </sup>
+        <br />
+        <strong>Special thanks to:</strong>
     </p>
     <p>
-        <strong>Special thanks to:</strong>
         <a href="https://oss.capital/">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
@@ -73,7 +74,9 @@
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
             </div>
-            <strong>Dev environments built for the cloud</strong>
+            <div>
+                <strong>Dev environments built for the cloud</strong>
+            </div>
             <div>
                 <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
             </div>

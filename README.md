@@ -49,7 +49,7 @@
 
 </details>
 
-<div style="text-align: center">
+<div align="center">
 	<hr />
     <p>
         <sup>

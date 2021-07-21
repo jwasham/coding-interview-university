@@ -52,9 +52,7 @@
 <div align="center">
 	<hr />
     <p>
-        <sup>
-            <a href="https://github.com/sponsors/jwasham">Coding Interview University is supported by the community.</a>
-        </sup>
+        <a href="https://github.com/sponsors/jwasham">Become a sponsor and support Coding Interview University!</a>
         <br />
         <strong>Special thanks to:</strong>
     </p>

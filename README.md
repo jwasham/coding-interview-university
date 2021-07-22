@@ -62,7 +62,7 @@
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
             </div>
-            <div style="font-size: 1rem; line-height: 100%">
+            <div>
                 <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
             </div>
         </a>
@@ -78,7 +78,7 @@
                     <strong>Dev environments built for the cloud</strong>
                 </p>
             </div>
-            <div style="font-size: 1rem; line-height: 80%">
+            <div>
                 <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
             </div>
         </a>

@@ -1850,7 +1850,7 @@ Duduk dan nikmati. "Netflix dan keterampilan": P
 
 - [MIT 6.858 Computer Systems Security, Musim Gugur 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [Stanford: Paradigma Pemrograman (27 video)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Paradigma Pemrograman (27 video)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [Pengantar Kriptografi oleh Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Situs Kursus bersama dengan Slide dan Kumpulan Soal](http://www.crypto-textbook.com/)

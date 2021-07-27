@@ -1828,7 +1828,7 @@
 
 - [MIT 6.858：计算机系统安全, 2014 年秋季](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [斯坦福: 编程范例 (27 个视频)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [斯坦福: 编程范例 (27 个视频)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [密码学导论，Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [课程网站以及幻灯片和问题集](http://www.crypto-textbook.com/)

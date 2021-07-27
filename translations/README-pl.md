@@ -1915,7 +1915,7 @@ Usiądź i spędź miło czas. "Netflix and skill" :P
 
 - [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [Stanford: Programming Paradigms (27 wideo)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Programming Paradigms (27 wideo)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

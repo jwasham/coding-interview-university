@@ -1904,7 +1904,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 - [ ]  [MIT 6.858コンピュータシステムセキュリティ、2014年秋](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ]  [Stanford：Programming Paradigms(27ビデオ)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ]  [Stanford：Programming Paradigms(27ビデオ)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ]  [Christof Paarによる暗号の概要](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
 	- [スライドと問題セットと一緒のコースウェブサイト](http://www.crypto-textbook.com/)

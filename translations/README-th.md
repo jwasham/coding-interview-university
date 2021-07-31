@@ -5,7 +5,7 @@
 >
 > *ขอให้คุณโชคดี!*
 
-การแปลภาษา:
+ภาษาอื่นๆ:
 - [中文版本](translations/README-cn.md)
 - กำลังดำเนินการแปลภาษา:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
@@ -26,13 +26,50 @@
     - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
     - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
+
 ## นี่คืออะไร ?
 
 นี่เป็นแผนการศึกษาหลายเดือนของผมจากนักพัฒนาเว็บไซต์ (ด้วยการศึกษาด้วยตัวเอง โดยไม่ได้จบวิทยาการคอมพิวเตอร์) เพื่อจะเป็นวิศวกรซอฟต์แวร์ในบริษัทขนาดใหญ่ที่หลายๆ คนต้องการเข้าทำงานด้วย
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-บทความนี้สำหรับคนที่อยากเป็น **วิศวกรซอฟต์แวร์** หรือต้องการเปลี่ยนมาจากนักพัฒนาซอฟต์แวร์หรือนักพัฒนาเว็บไซด์มาเป็นวิศวกรซอฟต์แวร์ (ผู้ซึ่งมีความรู้ความเข้าใจลึกซึ่งในหลักการของวิทยาการคอมพิวเตอร์) ถ้าคุณมีประสบการณ์หลายปีและมั่นใจในประสบการณ์การเป็นวิศวกรซอฟต์แวร์ของคุณ จะได้เจอการสัมภาษณ์ที่ยากขึ้นแน่นอน
+บทความนี้สำหรับคนที่อยากเป็น **วิศวกรซอฟต์แวร์** หรือต้องการเปลี่ยนมาจากนักพัฒนาซอฟต์แวร์หรือนักพัฒนาเว็บไซด์มาเป็นวิศวกรซอฟต์แวร์ (ผู้ซึ่งมีความรู้ความเข้าใจลึกซึ้งในหลักการของวิทยาการคอมพิวเตอร์) ถ้าคุณมีประสบการณ์หลายปีและมั่นใจในประสบการณ์การเป็นวิศวกรซอฟต์แวร์ของคุณ จะได้เจอการสัมภาษณ์ที่ยากขึ้นแน่นอน
 
 ถ้าคุณมีประสบการณ์การพัฒนาซอฟต์แวร์หรือเว็บไซต์มาหลายปี แต่ในบริษัทซอฟต์แวร์ขนาดใหญ่ของโลกอย่าง Google Amazon Facebook และ Microsoft มองการพัฒนาซอฟต์แวร์ของวิศวกรซอฟต์แวร์ที่ต่างกันออกไปจากการพัฒนาซอฟต์แวร์หรือเว็บไซต์โดยทั่วๆไป และบริษัทที่กล่าวมานี้ก็ต้องการความรู้ทางวิทยาการคอมพิวเตอร์ที่เข้มข้นอย่างมาก
 
@@ -186,7 +223,7 @@
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -202,7 +239,7 @@
 บางวิดีโอนั้น สามารถเข้าถึงได้เฉพาะการลงทะเบียนเรียนใน Coursera, EdX หรือ Lynda.com ซึ่งเรียกว่า MOOCs
 บางครั้งคอร์สที่คุณต้องการเข้าไปดูวิดีโอนั้นยังไม่เปิด คุณจำเป็นต้องรอประมาณสองสามเดือน ส่วน Lynda.com นั้นต้องเสียเงิน
 
-    ผมยินดีหากคุณช่วยเพิ่มแหล่งความรู้ที่ฟรีและสามารถเข้าถึงได้แบบสาธารณะ เช่น วิดีโอใน YouTube ที่เป็นวิดีโอที่ใช้ในคอร์สเรียนนั้นๆ 
+    ผมยินดีหากคุณช่วยเพิ่มแหล่งความรู้ที่ฟรีและสามารถเข้าถึงได้แบบสาธารณะ เช่น วิดีโอใน YouTube ที่เป็นวิดีโอที่ใช้ในคอร์สเรียนนั้นๆ
     ซึ่งผมชอบใช้บทเรียนที่มาจากมหาวิทยาลัยต่างๆ 
 
 
@@ -242,7 +279,7 @@ You need to be very comfortable in the language and be knowledgeable.
 
 [See language resources here](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+คุณอาจจะเห็นแหล่งเรียนรู้เกี่ยวกับภาษา C, C++ และ Python ข้างใต้นี้ เพราะเราก็ยังคงศึกษาเรียนรู้กันอยู่ตลอด และมีหนังสือที่เกี่ยวข้องด้านล่าง
 
 ## รายชื่อหนังสือ
 
@@ -262,7 +299,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
 
-### สถาปัตยกรรม คอมพิวเตอร์ 
+### สถาปัตยกรรม คอมพิวเตอร์
 
 หากคุณมีเวลาน้อย:
 
@@ -367,7 +404,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## ก่อนที่จะเริ่มต้น 
+## ก่อนที่จะเริ่มต้น
 
 This list grew over many months, and yes, it kind of got out of hand.
 
@@ -392,8 +429,8 @@ Here are some mistakes I made so you'll have a better experience.
 คุณสามารถทำได้แบบฟรีๆ:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [คลัง flash card ของผม (เก่า - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [คลัง flash cards ของผม (ใหม่- 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [คลัง flash card ของผม (เก่า - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [คลัง flash cards ของผม (ใหม่- 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 คลังการ์ดของผมนั้น เนื้อหาจะครอบคลุมเกินเนื้อหาหลัก ตั้งแต่ภาษา assembly และ Python จนไปถึง machine learning และ สถิติ ซึ่งมันก็เกินกว่าที่เราต้องการ
 
@@ -450,7 +487,7 @@ There are a lot of distractions that can take up valuable time. Focus and concen
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+คุณไม่จำเป็นต้องจำรายละเอียดทุกอย่างของทุกอัลกอริธึม
 
 เขียนโค้ดลงกระดานหรือกระดาษ ไม่ใช่ในเครื่องคอมพิวเตอร์ ทดสอบโดยใช้ข้อมูลตัวอย่าง จากนั้นลองรันจริงๆ ในเครื่องคอมพิวเตอร์
 
@@ -498,12 +535,12 @@ You don't need to memorize the guts of every algorithm.
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
+        - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+        - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
+        - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
@@ -565,14 +602,14 @@ You don't need to memorize the guts of every algorithm.
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -599,10 +636,10 @@ You don't need to memorize the guts of every algorithm.
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
-        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
-        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
+        - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
+        - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
+        - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
+        - [ ] [Language Support Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -628,7 +665,7 @@ You don't need to memorize the guts of every algorithm.
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -657,7 +694,6 @@ You don't need to memorize the guts of every algorithm.
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
     - traversal
@@ -1248,7 +1284,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help
@@ -1320,17 +1356,17 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Coding Question Practice
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+ขณะนี้คุณมีความรู้เกี่ยวกับวิทยการคอมพิวเตอร์ทุกหัวข้อด้านบนแล้ว ก็ถึงเวลาฝึกซ้อมตอบคำถามเกี่ยวกับปัญหาด้านการโค้ดดิ้ง
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**การฝึกซ้อมนี้ ไม่เกี่ยวข้องกับการท่องจำตอบของโจทย์ด้านการเขียนโปรแกรม**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+ทำไมคุณจึงต้องฝึกซ้อม:
+- เพื่อทดสอบความเข้าใจโจทย์ ว่า ควรใช้โครงสร้างช้อมูลใด และ อัลกอริธึมใด ที่เหมาะสมกับโจทย์
+- รวบรวมสิ่งที่โจทย์ต้องการ
+- พูดคุยเป็นภาษาของคุณ เฉกเช่นเดียวกับเมื่อคุณไปสัมภาษณ์
+- เขียนโค้ดบนกระดาน, กระดาษ ไม่ใช่ในคอมพิวเตอร์
+- ได้คำตอบออกมา พร้อมกับประสิทธิภาพของคำตอบของคุณ
+- ทดสอบคำตอบของคุณ
 
 There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
 interview books, too, but I found this outstanding:
@@ -1379,7 +1415,7 @@ Challenge sites:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Mock Interviews:
@@ -1455,12 +1491,12 @@ You're never really done.
 ## Additional Books
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
+    - หนังสือเก่า แต่ยังเก๋า
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - a modern option
 - [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
+    - แนะนำ design patterns ตั้งแต่เริ่มต้น
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - aka the "Gang Of Four" book, or GOF
     - the canonical design patterns book
@@ -1568,7 +1604,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
@@ -1770,7 +1805,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - see videos below
 
 - ### การเรียนรู้ของเครื่อง (Machine Learning)
-    - [ ] Why ML?
+    - [ ] ทำไมต้อง ML?
         - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
@@ -1788,8 +1823,8 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
         - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
-        - Books:
+    - แหล่งเรียนรู้:
+        - หนังสือ:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
             - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
             - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
@@ -1882,7 +1917,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1923,7 +1958,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

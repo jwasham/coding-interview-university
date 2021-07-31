@@ -1,15 +1,52 @@
-# Google Interview University
+# Coding Interview University
 
-Translations:
+Traductions:
 - [中文版本](README-cn.md)
-- [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/google-interview-university/issues/80)
-- मानक हिन्दी (in progress) [Issue #81](https://github.com/jwasham/google-interview-university/issues/81)
+- [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/coding-interview-university/issues/80)
+- मानक हिन्दी (in progress) [Issue #81](https://github.com/jwasham/coding-interview-university/issues/81)
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
 
 ## C'est quoi?
 
 C'est un plan d'études de plusieurs mois pour aller d'un développeur web (Autodidacte, sans diplôme en informatique) à ingénieur logiciel google.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Cette longue liste a été extraite et étendue de **Google's coaching notes**, ce sont donc des choses que vous devez savoir.
 En bas, j'ai rajouté des unités supplémentaires qui peuvent être soulevées pendant l'entretien, ou qui peuvent être utiles pour résoudre des problèmes. Plusieurs unités proviennent de
@@ -27,17 +64,17 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 ## Table of Contents
 
 - [C'est quoi?](#what-is-it)
-- [Pourquoi l'utilisier?](#why-use-it)
+- [Pourquoi l'utiliser?](#why-use-it)
 - [Comment s'en servir](#how-to-use-it)
 - [Se mettre dans l'humeur Googley](#get-in-a-googley-mood)
 - [J'ai décroché le Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [Ne vous sentez pas stupide](#ne-vous-sentez-pas-stupide)
 - [A propos de Google](#about-google)
 - [A propos des ressources vidéo](#about-video-resources)
 - [Déroulement de l'entretien & préparations générales à l'entretien](#interview-process--general-interview-prep)
 - [Choisir un langage pour l'entretien](#pick-one-language-for-the-interview)
-- [List de livres](#book-list)
+- [Liste de livres](#book-list)
 - [Avant de commencer](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -90,12 +127,12 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
 - [Votre CV](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Ayez les questions pour l'entretien](#have-questions-for-the-interviewer)
+- [Quand vous aurez eu le travial:](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 
-- [Additional Books](#additional-books)
+- [Livres Supplémentaires](#additional-books)
 - [Additional Learning](#additional-learning)
     - [Dynamic Programming](#dynamic-programming)
     - [Compilers](#compilers)
@@ -147,38 +184,27 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 
 ---
 
-## Why use it?
+## Pourquoi l'utiliser?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+Je suis ce plan pour préparer mon entretien chez Google. J'ai construit le web, construit des services, et lancé des startups depuis 1997. J'ai un diplôme en économie, non pas d'informatique. J'ai eu beaucoup de succès dans ma carrière , mais je veux travailler chez Google. Je veux progresser sur de larges systèmes, et avec une réelle compréhension des systèmes informatiques, de l'efficacité algorithmique, de la performance des structures de données, de langages bas-niveau, et de comment ça marche. Et si vous ne connaissez rien de tout cela, Google ne vous engagera pas.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Quand j'ai commencé ce projet, je ne savais pas distinguer une pile d'un tas, ne connaissais rien sur le Grand O, rien sur les arbres, ou comment traverser un graphe. Si je devais coder un algorithme, je peux vous dire que ça n'aurait pas été très bon. Chaque structure de données que j'ai utilisée était construite dans le langage, et je ne savais pas du tout comment elles fonctionnaient sous le capot. Je n'avais jamais eu à gérer de mémoire sauf si un processus que j'exécutais donnais une erreur "Out of memory", et je devais alors trouver une parade. J'ai utilisé quelques tableaux multidimensionnels dans ma vie et des milliers de tableaux associatifs, mais je n'ai jamais créé de structures de données de zéro.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Mais après avoir suivi ce plan d'études, je suis confiant que je serai embauché. C'est un long plan. cela me prendra des mois. Si vous êtes déjà familier avec beaucoup de points, cela vous prendra beaucoup moins de temps.
 
-## How to use it
+## Comment s'en servir?
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Tout ce qui suit est très important et vous devriez attaquer ces points dans l'ordre de haut en bas.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+J'utilise la typologie Markdown de GitHub, incluant les listes de tâches pour suivre les progrès.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+- [x] Créez une nouvelle branche afin de vérifier les éléments comme ceci, mettez juste un "x" entre crochets : [x]
 
-
-    Fork a branch and follow the commands below
+    Effectuez un fork d'une branche et suivez les commandes suivantes
 
 `git checkout -b progress`
 
-`git remote add jwasham https://github.com/jwasham/google-interview-university`
+`git remote add jwasham https://github.com/jwasham/coding-interview-university`
 
 `git fetch --all`
 
@@ -188,17 +214,17 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Plus sur Markdown à la sauce Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Get in a Googley Mood
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
+[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)
 
 ## Did I Get the Job?
 
@@ -218,37 +244,37 @@ I'm on the journey, too. Follow along:
 - Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
 - LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
 
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
+![John Washam - Coding Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+## Ne vous sentez pas stupide
+- Les ingénieurs de Google sont intelligents, mais beaucoup ont comme insécurité qu'ils ne sont pas suffisamment intelligents, même s'ils travaillent pour Google.
+- [Le mythe du programmeur génie](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [C'est dangereux de rester seul: Combattre les monstres invisibles dans la Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## À propos de Google
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
+- [ ] Pour les étudiants - [Carrières Google: Guide de développement technique](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] Comment marche la recherche:
+    - [ ] [L'évolution de la recherche (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [Comment la recherche fonctionne - l'histoire](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [Comment la recherche fonctionne](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [Comment la recherche fonctionne - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [Comment Google améliore son algorithme de recherche (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] Séries:
+    - [ ] [Comment la recherche Google Search fonctionne sur mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [L'étude secrète de Google pour découvrir nos besoins](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [La recherche Google Search sera votre prochain cerveau](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [L'esprit profond de Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+- [ ] [Livre: Comment Google fonctionne](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [Annonce faite par Google - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## À propos des ressources vidéos
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Certaines vidéos sont disponibles uniquement en s'inscrivant à une classe Coursera, EdX ou Lynda.com. Ce sont des MOOC.
+Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mois, donc vous n'y avez pas accès. Les cours sur Lynda.com ne sont pas gratuits.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+    J'apprécierais votre aide pour ajouter des sources publiques gratuites et toujours disponibles, telles que des vidéos YouTube pour accompagner les vidéos de cours en ligne.
+    J'aime utiliser les cours universitaires.
 
 
 ## Interview Process & General Interview Prep
@@ -469,7 +495,7 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
@@ -573,12 +599,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
+        - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+        - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
+        - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
@@ -640,14 +666,14 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -674,10 +700,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
-        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
-        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
+        - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
+        - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
+        - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
+        - [ ] [Language Support Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -703,7 +729,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -732,7 +758,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
     - traversal
@@ -1248,7 +1273,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help
@@ -1378,7 +1403,7 @@ Challenge sites:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Maybe:
 - [Mock interviewers from big companies](http://www.gainlo.co/)
@@ -1621,7 +1646,6 @@ You're never really done.
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
@@ -1958,7 +1982,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1999,7 +2023,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

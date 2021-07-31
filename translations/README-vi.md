@@ -11,6 +11,7 @@ Tác giả gốc: [John Washam](https://github.com/jwasham)
 * [Lê Tấn Đăng Khoa](https://github.com/dangkhoasdc) - [@dksdc](https://twitter.com/dksdc)
 * [Trương Đức Duy](https://github.com/duytruong) - [@dauruy](https://twitter.com/dauruy)
 * [Lương Đăng Hải](https://github.com/jarvisluong) - [@jarvisluong](https://twitter.com/jarvisluong)
+* [Hiền Vương](https://github.com/hienvd) - [@duchienvuong](https://twitter.com/duchienvuong)
 
 Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt:
 
@@ -28,16 +29,53 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 >
 > *Chúc may mắn!*
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
+
 ## Giới thiệu
 
 Đây là kế hoạch học tập trong nhiều tháng của tôi, để từ một nhà phát triển web (tự học, không có bằng cấp về Khoa Học Máy Tính - KHMT) trở thành một kỹ sư phần mềm ở Google.
 
-![Viết code trên bảng - ảnh trích từ bộ phim Silicon Valley của HBO](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Viết code trên bảng - ảnh trích từ bộ phim Silicon Valley của HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Danh sách dài này được trích và mở rộng từ **Ghi chú huấn luyện của Google**, vậy nên đây là những gì bạn cần biết.
 Một vài mục tôi thêm vào ở cuối danh sách có thể xuất hiện trong cuộc phỏng vấn hoặc hữu ích cho việc giải quyết các bài toán về lập trình. Nhiều mục đến từ bài viết [Lấy được việc ở Google (Get that job at Google)](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" của Steve Yegge.
 
-Tôi lược bớt những gì bạn cần từ lời khuyên của yegge. Tôi cũng chỉnh sửa lại các yêu cầu dựa trên thông tin tôi có được từ bạn bè ở Google. Danh sách này được thiết kế cho **Kỹ sư phần mềm** hoặc những ai chuyển từ phát triển web hoặc phần mềm sang _kỹ nghệ_ phần mềm (khi mà kiến thức về Khoa Học Máy Tính là bắt buộc). Nếu bạn có nhiều kinh nghiệm và muốn khẳng định nhiều năm trong đó bạn làm việc như một kỹ sư phần mềm, hãy sẵn sàng cho một buổi phòng vấn khó hơn. [Xem thêm ở đây](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Tôi lược bớt những gì bạn cần từ lời khuyên của Yegge. Tôi cũng chỉnh sửa lại các yêu cầu dựa trên thông tin tôi có được từ bạn bè ở Google. Danh sách này được thiết kế cho **Kỹ sư phần mềm** hoặc những ai chuyển từ phát triển web hoặc phần mềm sang _kỹ nghệ_ phần mềm (khi mà kiến thức về Khoa Học Máy Tính là bắt buộc). Nếu bạn có nhiều kinh nghiệm và muốn khẳng định nhiều năm trong đó bạn làm việc như một kỹ sư phần mềm, hãy sẵn sàng cho một buổi phỏng vấn khó hơn. [Xem thêm ở đây](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
 Nếu bạn có kinh nghiệm trong phát triển web hoặc ứng dụng, hãy chú ý rằng Google xem việc xây dựng phần mềm khác với web và ứng dụng thông thường. Họ yêu cầu kiến thức về Khoa Học Máy Tính.
 
@@ -161,17 +199,17 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [Go](#go)
 - [Đọc thêm về một số đề tài](đọc-thêm-về-một-số-đề-tài)
 - [Các chuỗi Video](#các-chuỗi-video)
-- [Các khóa học khoa học máy tính](#các-khóa học-khoa-học-máy-tính)
+- [Các khóa học khoa học máy tính](#các-khóa-học-khoa-học-máy-tính)
 
 ---
 
 ## Vì sao tôi cần tài liệu này?
 
-Tôi đang chuẩn bị tham gia phỏng vấn ở Google. Tôi từng làm web, xây dựng các dịch vụ và lập các công ty khởi nghiệp từ năm 1997. Tôi có bằng Kinh Tế, nhưng không có bằng Khoa Học Máy Yính. Tôi thấy sự nghiệp của mình khá thành công, nhưng như thế chưa đủ. Tôi muốn làm việc ở Google, được tham gia xử lý một hệ thống lớn; thực sự hiểu rõ về máy tính, sự hiệu quả của các thuật toán và cấu trúc dự liệu, các ngôn ngữ lập trình cấp thấp, và chúng hoạt động cùng nhau như thế nào. Và nếu bạn không biết về cái nào trong số đó, Google sẽ không tuyển bạn.
+Tôi đang chuẩn bị tham gia phỏng vấn ở Google. Tôi từng làm web, xây dựng các dịch vụ và lập các công ty khởi nghiệp từ năm 1997. Tôi có bằng Kinh Tế, nhưng không có bằng Khoa Học Máy Tính. Tôi thấy sự nghiệp của mình khá thành công, nhưng như thế chưa đủ. Tôi muốn làm việc ở Google, được tham gia xử lý một hệ thống lớn; thực sự hiểu rõ về máy tính, sự hiệu quả của các thuật toán và cấu trúc dữ liệu, các ngôn ngữ lập trình cấp thấp, và chúng hoạt động cùng nhau như thế nào. Và nếu bạn không biết về cái nào trong số đó, Google sẽ không tuyển bạn.
 
 Khi tôi bắt đầu dự án này, tôi không phân biệt được stack và heap, không biết về Big-O, không có khái niệm gì về cây (`tree`) hay việc duyệt đồ thị (`graph traversal`). Và nếu buộc phải viết code cho một thuật toán sắp xếp, tôi đảm bảo rằng nó sẽ không chạy tốt.
 
-Tất cả các cấu trúc dự liệu tôi từng sử dụng đều được cài đặt sẵn trong ngôn ngữ lập trình và tôi không nhất thiết phải biết chúng làm việc như thế nào. Tôi chưa từng phải tự quản lý vùng nhớ, trừ khi một tiến trình đang chạy ném lỗi "hết bộ nhớ" (`out of memory`), và sau đó tôi phải tìm một cách giải quyết khác. Tồi từng sử dụng mảng nhiều chiều vài lần trong đời, và hàng ngàn mảng kết hợp (`associate arrays`). Nhưng thực sự tôi chưa từng tự mình xây dựng một cấu trúc dữ liệu nào.
+Tất cả các cấu trúc dữ liệu tôi từng sử dụng đều được cài đặt sẵn trong ngôn ngữ lập trình và tôi không nhất thiết phải biết chúng làm việc như thế nào. Tôi chưa từng phải tự quản lý vùng nhớ, trừ khi một tiến trình đang chạy ném lỗi "hết bộ nhớ" (`out of memory`), và sau đó tôi phải tìm một cách giải quyết khác. Tồi từng sử dụng mảng nhiều chiều vài lần trong đời, và hàng ngàn mảng kết hợp (`associate arrays`). Nhưng thực sự tôi chưa từng tự mình xây dựng một cấu trúc dữ liệu nào.
 
 Nhưng, sau khi trải qua dự án này, tôi rất tự tin rằng mình sẽ được tuyển. Đây là một dự án dài hơi, sẽ tốn của tôi hàng tháng. Nếu bạn đã quen với nhiều nội dung trong này, bạn sẽ mất ít thời gian hơn.
 
@@ -184,19 +222,19 @@ Bạn có thể bỏ qua mục này nếu đã có kiến thức về Git, Githu
 Nếu bạn chưa biết về [git](https://git-scm.com) thì vui lòng tham khảo các bài hướng dẫn sau để nắm cách sử dụng:
 
 - Tiếng Anh: [git - the simple guide](http://rogerdudler.github.io/git-guide/)
-- Tiếng Viết: [Sổ tay git cho người mới bát đầu](http://rogerdudler.github.io/git-guide/index.vi.html) (Việt hóa từ nội dung với link trên)
+- Tiếng Việt: [Sổ tay git cho người mới bắt đầu](http://rogerdudler.github.io/git-guide/index.vi.html) (Việt hóa từ nội dung với link trên)
 
 Tiếp theo, bạn cần biết cách gắp (fork) một repo trên github:
 
 - Tiếng Anh [Fork a repo](https://help.github.com/articles/fork-a-repo/)
-- Tiếng Việt: [Cách gắp (fork) một repo trên github](https://techynovice.wordpress.com/2017/03/19/cach-gap-fork-mot-repository-tren-github/) (Việt hoá tư nội dung với link trên)
+- Tiếng Việt: [Cách gắp (fork) một repo trên github](https://techynovice.wordpress.com/2017/03/19/cach-gap-fork-mot-repository-tren-github/) (Việt hoá từ nội dung với link trên)
 
 Ok, bây giờ bạn có thể bắt đầu:
 
 - Fork repo này.
 - Clone bản fork của bạn về máy tính cá nhân.
     ```
-    git clone https://github.com/<your-username>/google-interview-university
+    git clone https://github.com/<your-username>/coding-interview-university
     ```
 - Chạy các dòng lệnh sau
 - Tạo một branch mới để đánh dấu tiến độ của bạn:
@@ -206,15 +244,15 @@ Ok, bây giờ bạn có thể bắt đầu:
 - Check các phần đã hoàn thành bằng cách thêm `x` vào giữa cặp ngoặc vuông (`[ ]`), như thế này: `[x]`.
 - Chạy `git add .` để bắt đầu lưu lại các thay đổi.
 - Chạy `git commit -m "commit message" `. Thay `commit message` với ghi chú của bạn cho sự thay đổi đó.
-- Đồng bộ thay đổi với bản fork trên Github của bạn bằng `git push origin master`.
+- Đồng bộ thay đổi với bản fork trên Github của bạn bằng `git push origin main`.
 
 
 ## Đừng nghĩ rằng bạn không đủ thông minh
 
 - Các kỹ sư của Google là những người xuất sắc, nhưng nhiều người vẫn cho rằng họ không đủ thông minh, mặc dù họ đang làm việc tại Google.
-
 - [Bí mật của của Thiên Tài Lập Trình  (The myth of the Genius Programmer) - video](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [ulie Pagano: Đi một mình rất nguy hiểm - Cuộc chiến với con quái vật vô hình trong công nghệ](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Hãy tin bạn có thể thay đổi](http://www.aaronsw.com/weblog/dweck)
 
 
 ## Về nguồn video
@@ -230,7 +268,7 @@ Lynda.com thì không miễn phí.
 ## Quy trình phỏng vấn & các bước chuẩn bị tổng quát
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [4 bước đến Google dù khồng có bẳng cấp](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+- [ ] [4 bước đến Google dù không có bằng cấp](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
 - [ ] [Whiteboarding (Giải toán lập trình trên bảng trắng)](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Google nghĩ thế nào về Tuyển dụng, Quản lý và Văn hóa](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
 - [ ] [Whiteboarding hiệu quả trong khi phỏng vấn kỹ năng lập trình](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
@@ -238,8 +276,8 @@ Lynda.com thì không miễn phí.
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
 - [ ] Làm thế nào để lấy được công việc ở Big 4:
-    - [ ] ['Làm sao để lấy được công việc ở Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-- [ ] [Thất bại trong cuộc phòng vấn với Google](http://alexbowe.com/failing-at-google-interviews/)
+    - [ ] [Làm sao để lấy được công việc ở Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+- [ ] [Thất bại trong cuộc phỏng vấn với Google](http://alexbowe.com/failing-at-google-interviews/)
 
 
 ## Chọn ngôn ngữ lập trình cho cuộc phỏng vấn
@@ -255,7 +293,7 @@ Bạn cũng có thể sử dụng các ngôn ngữ sau đây, nhưng hãy tìm h
 - JavaScript
 - Ruby
 
-Dù sao, bạn cũng cần phải rất quen thuộc với ngôn ngử lập trình của mình.
+Dù sao, bạn cũng cần phải rất quen thuộc với ngôn ngữ lập trình của mình.
 
 Xem thêm về các sự lựa chọn:
 
@@ -276,15 +314,15 @@ Bạn sẽ thấy vài tài liệu về C, C++ và Python bên dưới, vì tôi
 ### Chuẩn bị phỏng vấn
 
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - Có câu trả lời bằng C++ và Java
     - Được khuyến khích bởi các khóa hướng dẫn của Google.
     - Đây là một phần luyện tập tốt trước khi bắt đầu với quyển Cracking the Coding Interview
     - Không quá khó, phần lớn các bài toán có lẽ dễ hơn nhiều so với những gì bạn thường thấy trong một buổi phỏng vấn (dựa theo những gì tôi đọc được)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Trả lời bằng Java
-    - Được khuyến nghị trên [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - Nếu bạn thấy mọi người trích dẫn "The Google Resume", đó là một cuốn sách được thay thế bởi "Cracking the Coding Interview".
+    - Được khuyến nghị trên [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
+    - Nếu bạn thấy mọi người trích dẫn "The Google Resume", đó là một cuốn sách được thay thế bởi "Cracking the Coding Interview".
 
 Nếu bạn có nhiều thời gian hơn nữa:
 
@@ -376,7 +414,7 @@ hoặc:
                 - Nhiều câu chuyện thú vị từ kinh nghiệm của tác giả trong việc giải quyết các vấn đề thực tế và trong giới học thuật.
                 - Code mẫu bằng C.
             - Nhược:
-                - Cô đặc và có thể khó hiểu ngang với CLRS, và trong một số chủ đề, CLRS có thể là một tài liệu tốt hơn để tham khảo.
+                - Cô đặc và có thể khó hiểu ngang với CLRS, và trong một số chủ đề, CLRS có thể là một tài liệu tốt hơn để tham khảo.
                 - Các chương 7, 8, 9 có thể rất vất vả để theo được, vì một vài phần không được giải thích rõ, hoặc là yêu cầu nhiều não hơn những gì tôi có.
                 - Đừng hiểu lầm: Tôi thích Skiena, cách dạy học và phong các của ông ấy, nhưng tôi có lẽ không đủ khả năng để tốt nghiệp ở Stony Brook (nơi Skiena giảng dạy).
         - Danh mục thuật toán:
@@ -401,7 +439,7 @@ hoặc:
     - Vài chương đầu trình bày những giải pháp thông minh để giải quyết các vấn đề lập trình (một số đã rất cũ, từ thời người ta còn sử dụng băng từ). Nhưng, đó chỉ là phần mở đầu. đây là một quyển sách về thiết kế và cấu trúc phần mềm, giống như Code Complete, nhưng ngắn hơn nhiều.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - Sách tạm được, nhưng sau khi làm việc với các bài toán trong vài trang, tôi thấy nhức đầu với ngôn ngữ Pascal, do-while loop, mảng bắt đầu với số 1 (thay vì 0 như Java, C, C++, ...), và một vài thông tin không rõ ràng.
+    - Sách tạm được, nhưng sau khi làm việc với các bài toán trong vài trang, tôi thấy nhức đầu với ngôn ngữ Pascal, do-while loop, mảng bắt đầu với số 1 (thay vì 0 như Java, C, C++, ...), và một vài thông tin không rõ ràng.
     - Lẽ ra nên dành thời gian để giải toán từ các quyển sách khác hoặc làm toán lập trình online.
 
 ## Trước khi bắt đầu
@@ -428,15 +466,15 @@ Tôi đã làm một trang mobile-first (lấy mobile là trọng tâm phát tri
 Tự tạo cho mình hoàn toàn miễn phí:
 
 - [Repo của trang thẻ ghi nhớ](https://github.com/jwasham/computer-science-flash-cards)
-- [Cơ sở dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
+- [Cơ sở dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
 
-**Ghi chú dành cho các thẻ ghi nhớ:** Lần đầu tiên bạn nhận ra bạn biết câu trả lời, đừng đánh dấu là đã biết.Bạn phải xem thẻ tương tự và đưa ra câu trả lời chính xác vài lần trước khi bạn thực sự khẳng định đã nắm được vấn đề.Lặp đi lặp lại việc này sẽ giúp kiến thức được khắc sâu vào não bạn.
+**Ghi chú dành cho các thẻ ghi nhớ:** Lần đầu tiên bạn nhận ra bạn biết câu trả lời, đừng đánh dấu là đã biết.Bạn phải xem thẻ tương tự và đưa ra câu trả lời chính xác vài lần trước khi bạn thực sự khẳng định đã nắm được vấn đề. Lặp đi lặp lại việc này sẽ giúp kiến thức được khắc sâu vào não bạn.
 
 Có thể thay thế thẻ ghi nhớ với [Anki](http://ankisrs.net/), đây là ứng dụng mà bạn sẽ thấy tôi khuyến khích sử dụng rất nhiều lần. Nó sử dụng một hệ thống lặp để giúp bạn có thể ghi nhớ được kiến thức.
 
 Đây là ứng dụng cực kì thân thiện với người dùng, có mặt trên tất cả các hệ điều hành, và có hệ thống lưu trữ đồng bộ đám mây. Tốn khoản 25$ cho iOS nhưng miễn phí trên các hệ điều hành khác.
 
-Cơ sỏ dữ liệu thẻ ghi nhớ của tôi tuân theo chuẩn định dạng của Anki: https://ankiweb.net/shared/info/25173560 (cảm ơn [@xiewenya](https://github.com/xiewenya))
+Cơ sở dữ liệu thẻ ghi nhớ của tôi tuân theo chuẩn định dạng của Anki: https://ankiweb.net/shared/info/25173560 (cảm ơn [@xiewenya](https://github.com/xiewenya))
 
 ### 3. Xem đi xem lại và xem lại nữa
 
@@ -468,7 +506,7 @@ Mỗi ngày tôi sẽ chọn một trong các thứ liệt kê bên dưới, xem
 - C++ - không sử dụng các kiểu dữ liệu, cấu trúc sẵn có.
 - C++ - sử dụng các kiểu, cấu trúc sẵn có, ví dụ như `std::list` cho danh sách liên kết.
 - Python - sử dụng kiểu, cấu trúc sẵn có (để luyện tập Python).
-- Viết test (thuật ngữ dành cho các đoạn mã chuyên để kiểm tra phẩn mềm, ở đây tác giả cõ lẽ muốn đề cập đến [unit test](https://en.wikipedia.org/wiki/Unit_testing)) để chắc rằng tôi làm đúng. Đôi khi có thể chỉ là vài hàm `assert()` đơn giản.
+- Viết test (thuật ngữ dành cho các đoạn mã chuyên để kiểm tra phần mềm, ở đây tác giả có lẽ muốn đề cập đến [unit test](https://en.wikipedia.org/wiki/Unit_testing)) để chắc rằng tôi làm đúng. Đôi khi có thể chỉ là vài hàm `assert()` đơn giản.
 - Bạn có thể thực hành với Java hoặc ngôn ngữ khác. Đây chỉ là sự lựa chọn của tôi.
 
 Bạn không cần luyện tất cả các ngôn ngữ đó. Chỉ cần [một ngôn ngữ cho cuộc phỏng vấn là đủ](#chọn-ngôn-ngữ-lập-trình-cho-cuộc-phỏng-vấn).
@@ -483,13 +521,13 @@ Tôi có lẽ không đủ thời gian để thử hết tất cả các bước
 
 Bạn có thể xem code của tôi ở các trang sau:
 
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
 Bạn không cần phải ghi nhớ cặn kẽ từ giải thuật.
 
-Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy tính. Chạy thử trên giấy với vài bộ dữ liệu mẫu, sau đó chạy thử thuật tóan của bạn trên một máy tính.
+Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy tính. Chạy thử trên giấy với vài bộ dữ liệu mẫu, sau đó chạy thử thuật toán của bạn trên một máy tính.
 
 
 ## Kiến thức tiên quyết
@@ -530,18 +568,18 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 ## Cấu trúc dữ liệu
 
 - ### Arrays
-    - Cấp phát mảng vector tự động tùy biến kích cỡ.
+    - Cấp phát mảng vector tự động tùy biến kích cỡ.
     - [ ] Miêu tả, tên gốc được giữ nguyên kèm với bản dịch sang tiếng Việt:
         - [Arrays - Mảng (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays - Mảng tuyến tính và mảng đa chiều(video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays - Mảng cơ bản (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim - Đa chiều(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [Basic Arrays - Mảng cơ bản (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
+        - [Multi-dim - Đa chiều(video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [Dynamic Arrays - Mảng tùy biến (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays - Mảng trong mảng (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays - Mảng trong mảng (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays - Mảng có thể tùy biến kích thước (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-     - [ ] Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
-        - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ  để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
+        - [Jagged Arrays - Mảng trong mảng (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
+        - [Resizing arrays - Mảng có thể tùy biến kích thước (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+    - [ ] Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
+        - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
         - [ ] Tạo mảng mới với vùng nhớ được cấp phát sẵn
             - Có thể triển khai mảng số nguyên một cách nhanh chóng, nhưng không sử dụng các tính năng sẵn có
             - Bắt đầu với 16, hoặc số lớn hơn, với cấp số nhân của 2 - 16, 32, 64, 128
@@ -564,7 +602,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - O(n) để thêm/xóa tại bất cứ đâu
     - [ ] Không gian
         - Liên tục trong bộ nhớ, giúp cải thiện hiệu suất
-        - Không gian cần thiết = (Kích cở của mảng, thường >= n)* kích thước của 1 phần tử, cho dù là 2n, vẫn xem như O(n)
+        - Không gian cần thiết = (Kích cỡ của mảng, thường >= n)* kích thước của 1 phần tử, cho dù là 2n, vẫn xem như O(n)
 
 - ### Linked Lists
     - [ ] Miêu tả:
@@ -578,7 +616,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] [Why you should avoid linked lists - Tại sao bạn nên tránh danh sách liên kết(video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Ghi chú: Bạn cần kiến thức về con trỏ trỏ về con trỏ:
         (Khi bạn chuyển một con trỏ vào trong 1 thân hàm khiến thay đổi địa chỉ mà con trỏ trỏ về)
-        Trang này giúp bạn có cái nhìn khái quát về con trỏ trỏ tới con trỏ. Tối không khuyến khích đọc lướt qua danh sách này. Đề tài này rất khó đọc và nắm bắt.
+        Trang này giúp bạn có cái nhìn khái quát về con trỏ trỏ tới con trỏ. Tôi không khuyến khích đọc lướt qua danh sách này. Đề tài này rất khó đọc và nắm bắt.
         - [Pointers to Pointers - Con trỏ trỏ tới con trỏ](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Cài đặt (Tôi đã thực hiện với con trỏ đuôi và không dùng con trỏ đuôi):
         - [ ] size() - Trả về số lượng các phần tử trong danh sách
@@ -597,19 +635,19 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [ ] remove_value(value) - Xóa dữ liệu đầu tiên được tìm thấy khớp với giá trị được cho
     - [ ] Doubly-linked List
         - [Description - Miêu tả danh sách liên kết đôi (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - Không cần phải cài đặt
+        - Không cần phải cài đặt
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out - Sử dụng stack Vào-Cuối-Ra-Trước (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] [Using Stacks Last-In First-Out - Sử dụng stack Vào-Cuối-Ra-Trước (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Sẽ không cài đặt. Cài đặt với mảng là điều hiển nhiên.
 
 - ### Queue
-    - [ ] [Using Queues First-In First-Out -  Sử dụng hàng đợi Vào-Trước-Ra-Trước(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Using Queues First-In First-Out -  Sử dụng hàng đợi Vào-Trước-Ra-Trước(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues - Hàng đợi ưu tiên (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Cài đặt sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
+    - [ ] [Priority Queues - Hàng đợi ưu tiên (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] Cài đặt sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
         - enqueue(value) - Thêm giá trị ở đuôi
         - dequeue() - Trả về giá trị của dữ liệu được thêm vào xa nhất (thông thường là dữ liệu đầu tiên trong danh sách)
         - empty()
@@ -619,7 +657,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - empty()
         - full()
     - [ ] Chi phí:
-        - Không cài đặt đúng việc sử dụng danh sách liên kết khi enqueue tại đầu và dequeue tại đuôi sẽ có chi phí là O(n) bởi vì bạn cần con trỏ next tới giá trị cuối cùng, khiến việc phải chạy qua toàn danh sách mỗi lần dequeue
+        - Không cài đặt đúng việc sử dụng danh sách liên kết khi enqueue tại đầu và dequeue tại đuôi sẽ có chi phí là O(n) bởi vì bạn cần con trỏ next tới giá trị cuối cùng, khiến việc phải chạy qua toàn danh sách mỗi lần dequeue
         - enqueue: O(1) (Không đáng kể, danh sách liên kết và mảng [probing])
         - dequeue: O(1) (danh sách liên kết và mảng)
         - empty: O(1) (danh sách liên kết và mảng)
@@ -632,20 +670,18 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-
     - [ ] Các khóa học online:
-        - [ ] [Understanding Hash Functions - Hiểu hàm băm (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables - Sử dụng bảng băm (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
-        - [ ] [Supporting Hashing - Hỗ trợ băm(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
-        - [ ] [Language Support Hash Tables - Ngôn ngữ hỗ trợ bảng băm (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
+        - [ ] [Understanding Hash Functions - Hiểu hàm băm (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
+        - [ ] [Using Hash Tables - Sử dụng bảng băm (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
+        - [ ] [Supporting Hashing - Hỗ trợ băm(video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
+        - [ ] [Language Support Hash Tables - Ngôn ngữ hỗ trợ bảng băm (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [Core Hash Tables - Cơ bản về bảng băm (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures - Cấu trúc dữ liệu (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem - Vấn đề sổ điện thoại (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] Phân phối bảng băm:
             - [Instant Uploads And Storage Optimization In Dropbox - Tải nhanh và tối ưu lưu trữ trong Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables - Phân phối bảng băm(video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
-
-    - [ ] Cài đặt với mảng sử dụng thăm dò tuyến tính:
+    - [ ] Cài đặt với mảng sử dụng thăm dò tuyến tính:
         - hash(k, m) - m là kích thước của bảng băm
         - add(key, value) - nếu khóa đã tồn tại, cập nhật giá trị
         - exists(key)
@@ -663,7 +699,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - Tìm kiếm nhị phân sử dụng đệ quy
 
 - ### Toán tử trên bit
-    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-cheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
+    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-sheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
     - [ ] Hãy chuẩn bị một nền tảng tốt về các biến đổi bit với các toán tử: &, |, ^, ~, >>, <<
         - [ ] [words (thuật ngữ trong kiến trúc máy tính)](https://en.wikipedia.org/wiki/Word_(computer_architecture) )
         - [ ] Bài mở đầu:
@@ -693,7 +729,6 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 ## Cây
 
 - ### Cây - Ghi chú và kiến thức nền
-    - [ ] [Chuỗi bài giảng: Căn bản về cây](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Chuỗi bài giảng: Cây](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Xây dựng cây cơ bản.
     - Duyệt cây.
@@ -735,16 +770,16 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [ ] [Xác định nút tiếp theo một nút cho trước khi duyệt cây inorder (Inorder Successor in a binary search tree) - video](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Cài đặt:
 
-        - [ ] `insert` // thêm gíá trị vào cây
+        - [ ] `insert` // thêm giá trị vào cây
         - [ ] `get_node_count` // lấy số lượng nút trong cây
         - [ ] `print_values` // In ra gíá trị trong cây, từ nhỏ nhất đến lớn nhất
         - [ ] `delete_tree` // Xóa cây
-        - [ ] `is_in_tree` // cho biết gíá trị cho trước có tồn tại trong cây hay không
+        - [ ] `is_in_tree` // cho biết giá trị cho trước có tồn tại trong cây hay không
         - [ ] `get_height` // cho biết chiều cao của cây
         - [ ] `get_min` // cho biết giá trị nhỏ nhất trong cây
         - [ ] `get_max` // cho biết giá trị lớn nhất trong cây
         - [ ] `is_binary_search_tree` // kiểm tra xem cây cho trước có thỏa mãn điều kiện của một BST không.
-        - [ ] `delete_value` // xóa một gíá trị trong cây
+        - [ ] `delete_value` // xóa một giá trị trong cây
         - [ ] `get_successor` // Trả về phần tử cao nhất trong cây liền sau một gíá trị cho trước hoặc -1 nếu không tìm được
 
 - ### Heap / Priority Queue / Binary Heap
@@ -930,7 +965,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 - ### Quy hoạch động
     - Chủ đề này có thể hơi khó, và các bài toán giải được bằng quy hoạch động (Dynamic Programming - DP) phải được định nghĩa ở dạng quan hệ hồi quy, và tìm ra giải pháp quy hoạch động cũng không đơn giản.
-    - Tôi nghĩ rằng nên xem qua nhiều bài toán mẫu vè quy hoạch động cho đến khí bạn hiểu rõ các dạng mô hình của chúng.
+    - Tôi nghĩ rằng nên xem qua nhiều bài toán mẫu về quy hoạch động cho đến khi bạn hiểu rõ các dạng mô hình của chúng.
 
     - [ ] Video:
         - Video của giáo sư Skiena có thể hơi khó theo kịp vì ông ấy sử dụng bảng đen để giảng bài, và chữ hơi nhỏ
@@ -973,8 +1008,8 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - [ ] I - [Nguyên tắc phân chia giao diện (Interface segregation principle)](http://www.oodesign.com/interface-segregation-principle.html) | khách hàng không nên triển khai giao diện họ không sử dụng
             - [Phân chia giao diện trong 5 phút (Interface Segregation Principle in 5 minutes) (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
             - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Nguyên tắc phụ thuộc ngược(Dependency Inversion principle)](http://www.oodesign.com/dependency-inversion-principle.html) | Giảm bớt phụ thuộc trong tập các đối tượng
-            - [Tại sao sử dụng nguyên tắc phụ thuộc ngược và tại sao nguyên tắc này quan trọng(Why Is The Dependency Inversion Principle And Why Is It Important)](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+        - [ ] D -[Nguyên tắc phụ thuộc ngược (Dependency Inversion principle)](http://www.oodesign.com/dependency-inversion-principle.html) | Giảm bớt phụ thuộc trong tập các đối tượng
+            - [Tại sao sử dụng nguyên tắc phụ thuộc ngược và tại sao nguyên tắc này quan trọng (Why Is The Dependency Inversion Principle And Why Is It Important)](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
             - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - ### Mẫu thiết kế
@@ -1003,25 +1038,25 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Bắt đầu với thiết kế mẫu(Head First Design Patterns)](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - Tôi biết có một cuốn sách kinh điển là "Design Patterns: Elements of Reusable Object-Oriented Software" nhưng cuốn Bắt đầu với thiết kế mẫu(Head First Design Patterns là một lựa chọn tuyệt vời cho người mới bắt đầu với OO.
-    - [ ] [Ghi nhớ: 101 Thiết kế mẫu và lưu ý dành cho lập trình viên(Handy reference: 101 Design Patterns & Tips for Developers)](https://sourcemaking.com/design-patterns-and-tips)
+    - [ ] [Ghi nhớ: 101 Thiết kế mẫu và lưu ý dành cho lập trình viên (Handy reference: 101 Design Patterns & Tips for Developers)](https://sourcemaking.com/design-patterns-and-tips)
     - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
 - ### Tổ hợp và Xác Suất
-    - [ ] [Kỹ năng toán: Làm thế nào để tìm giai thừa, hoán vị và tổ hợp(Math Skills: How to find Factorial, Permutation and Combination) (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Kỹ năng toán: Làm thế nào để tìm giai thừa, hoán vị và tổ hợp (Math Skills: How to find Factorial, Permutation and Combination) (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
     - [ ] [Xác suất (Make School: Probability) (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
     - [ ] [Xác suất và chuỗi Markov (Make School: More Probability and Markov Chains) (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
     - [ ] Khan Academy:
         - Các khóa học:
-            - [ ] [Lý thuyết xác suất(Basic Theoretical Probability)](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+            - [ ] [Lý thuyết xác suất (Basic Theoretical Probability)](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
         - 41 video ngắn và đơn giản:
             - [ ] [Lý giải về xác suất (Probability Explained) (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Complete và thuật toán xấp xỉ gần đúng
-    - Cần biết về các trường hợp nổi tiếng của NP-complete như chuyên du hành doanh nhân hay vấn đề túi đựng đồ nghề(traveling salesman and the knapsack problem) để có thể trả lời khi người phỏng vấn hỏi một cách ẩn ý.
+    - Cần biết về các trường hợp nổi tiếng của NP-complete như chuyên du hành doanh nhân hay vấn đề túi đựng đồ nghề (traveling salesman and the knapsack problem) để có thể trả lời khi người phỏng vấn hỏi một cách ẩn ý.
     - Know what NP-complete means.
-    - [ ] [Tính toán độ phức tạp(Computational Complexity) (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+    - [ ] [Tính toán độ phức tạp (Computational Complexity) (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
-        - [ ] [Thuật toán tham lam và giới thiệu NP-complete(Greedy Algs. II & Intro to NP Completeness) (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] [Thuật toán tham lam và giới thiệu NP-complete (Greedy Algs. II & Intro to NP Completeness) (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
         - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
@@ -1029,9 +1064,9 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
         - [ ] [CSE373 2012 - Lecture 23 - Giới thiệu về NP-Completeness (Introduction to NP-Completeness) (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
         - [ ] [CSE373 2012 - Lecture 24 - Chứng mình NP-Completeness (NP-Completeness Proofs) (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [CSE373 2012 - Lecture 25 - Thách thức với NP-Completeness (NP-Completeness Challenge) (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [Độ phức tạp: P, NP, NP-completeness, giảm(Complexity: P, NP, NP-completeness, Reductions) (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Độ phức tạp: Thuật toán gần đúng(Complexity: Approximation Algorithms) (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Độ phức tạp: Thuật toán cố định tham sô(Complexity: Fixed-Parameter Algorithms) (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Độ phức tạp: P, NP, NP-completeness, giảm (Complexity: P, NP, NP-completeness, Reductions) (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    - [ ] [Độ phức tạp: Thuật toán gần đúng (Complexity: Approximation Algorithms) (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    - [ ] [Độ phức tạp: Thuật toán cố định tham số (Complexity: Fixed-Parameter Algorithms) (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - Peter Norvig đã trình bày thuật toán gần tối ưu cho vấn đề di chuyển của doanh nhân:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
     - Trang 1048 - 1140 trong CLRS nếu bạn có nó.
@@ -1133,10 +1168,10 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - Có thể triển khai chúng hay không?
 
 - ### Tìm kiếm và xử lý chuỗi
-    - [ ] [Sedgewick - Mảng tiền tố(Suffix Arrays) (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-    - [ ] [Sedgewick - Tìm và thay chuỗi(Substring Search) (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [1. Giới thiệu tìm và thay chuỗi(Introduction to Substring Search)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [2. Tìm và thay chuỗi theo Brute-Force(Brute-Force Substring Search)](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
+    - [ ] [Sedgewick - Mảng tiền tố (Suffix Arrays) (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
+    - [ ] [Sedgewick - Tìm và thay chuỗi (Substring Search) (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [1. Giới thiệu tìm và thay chuỗi (Introduction to Substring Search)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [2. Tìm và thay chuỗi theo Brute-Force (Brute-Force Substring Search)](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
         - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
@@ -1167,7 +1202,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 - ### Unicode
     - [ ] [Điểu tối thiểu nhất mà mọi lập trình viên bắt buộc phải biết về Unicode và các tập ký tự.]( http://www.joelonsoftware.com/articles/Unicode.html)
-    - [ ] [Điều mà mọi lập trình viên nên biết về mã hóa ký tự và tập ký tự để làm việc với vắn bản](http://kunststube.net/encoding/)
+    - [ ] [Điều mà mọi lập trình viên nên biết về mã hóa ký tự và tập ký tự để làm việc với văn bản](http://kunststube.net/encoding/)
 
 - ### Endianness
 
@@ -1195,7 +1230,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 
 ## Thiết kế hệ thống, Khả năng mở rộng, Xử lý dữ liệu
-- **Bạn có thế sẽ bị hỏi câu hỏi liên quan đến thiết kế hệ thống nếu có hơn 4 năm kinh nghiệm**
+- **Bạn có thể sẽ bị hỏi câu hỏi liên quan đến thiết kế hệ thống nếu có hơn 4 năm kinh nghiệm**
 - Khả năng mở rộng và Thiết kế hệ thống là các chủ đề rất rộng, với nhiều vấn đề và tài liệu liên quan, bởi vì có rất nhiều vấn đề cần phải giải quyết khi thiết kế các hệ thống phần mềm (hoặc phần cứng) có thể mở rộng được.
       Cần phải đầu tư một chút thời gian cho vấn đề này.
 - Lời khuyên từ Yegge:
@@ -1214,78 +1249,78 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 - [ ] **BÁT ĐẦU TỪ ĐÂY**: [System Design from HiredInTech - Thiết kế hệ thống bởi HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [Làm thế nào để trả lời các câu hỏi liên quan tới thiết kế trong phỏng vấn kỹ thuật? (How Do I Prepare To Answer Design Questions In A Technical Inverview)](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 điều bạn nên biết trước khi  bắt đầu một buổi phỏng vấn về Thiết kế hệ thống (8 Things You Need to Know Before a System Design Interview) ](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
-- [ ] [Thiết kế thuật toán(Algorithm design)](http://www.hiredintech.com/algorithm-design/)
+- [ ] [Thiết kế thuật toán (Algorithm design)](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Chuẩn hóa trong cơ sở dữ liệu (Database Normalization - 1NF, 2NF, 3NF and 4NF) (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [Phỏng vấn về thiết kế hệ thống(System Design Interview)](https://github.com/checkcheckzz/system-design-interview) - Có rất nhiều tài liệu trong link nay. Hãy đọc qua các bài viết và các ví dụ. Tôi có liệt kê sau đây:
-- [ ] [Làm thế nào để dẫn đầu trong cuộc phỏng vấn về thiết kế hệ thống(How to ace a systems design interview) ](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
-- [ ] [Những con số ai cũng nên biết(Numbers Everyone Should Know)](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-- [ ] [Mất bao lâu để làm một chuyển đổi ngữ cảnh?(How long does it take to make a context switch) ](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
-- [ ] [Các luồng xử lý trong trung tâm dữ liệu(Transactions Across Datacenters)(video)](https://www.youtube.com/watch?v=srOgpXECblk)
-- [ ] [Một hướng dẫn đơn giản về lý thuyết CAP(A plain English introduction to CAP Theorem)](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+- [ ] [Phỏng vấn về thiết kế hệ thống (System Design Interview)](https://github.com/checkcheckzz/system-design-interview) - Có rất nhiều tài liệu trong link nay. Hãy đọc qua các bài viết và các ví dụ. Tôi có liệt kê sau đây:
+- [ ] [Làm thế nào để dẫn đầu trong cuộc phỏng vấn về thiết kế hệ thống (How to ace a systems design interview) ](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+- [ ] [Những con số ai cũng nên biết (Numbers Everyone Should Know)](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+- [ ] [Mất bao lâu để làm một chuyển đổi ngữ cảnh? (How long does it take to make a context switch) ](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
+- [ ] [Các luồng xử lý trong trung tâm dữ liệu (Transactions Across Datacenters)(video)](https://www.youtube.com/watch?v=srOgpXECblk)
+- [ ] [Một hướng dẫn đơn giản về lý thuyết CAP (A plain English introduction to CAP Theorem)](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
 - [ ] Thuật toán đồng thuận của Paxos:
     - [video ngắn](https://www.youtube.com/watch?v=s8JqcZtvnsM)
-    - [Video mở rộng với trường hợp cụ thể và multi-paxos(extended video with use case and multi-paxos)](https://www.youtube.com/watch?v=JEpsBg0AO6o)
+    - [Video mở rộng với trường hợp cụ thể và multi-paxos (extended video with use case and multi-paxos)](https://www.youtube.com/watch?v=JEpsBg0AO6o)
     - [Nghiên cứu](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
-- [ ] [Băm nhất quán(Consistent Hashing)](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+- [ ] [Băm nhất quán (Consistent Hashing)](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Khả năng mở rộng:
-    - [ ] [Tầm nhìn chung(Great overview)(video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] [Tầm nhìn chung (Great overview)(video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
     - [ ] Các seri ngắn:
-        - [Nhân bản(Clones)](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
-        - [Cơ sỡ dữ liệu(Database)](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+        - [Nhân bản (Clones)](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+        - [Cơ sỡ dữ liệu (Database)](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
         - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
-        - [Bất đồng bộ(Asynchronism)](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-    - [ ] [Kiến trúc web và hệ thống phân tán có khả năng mở rộng(Scalable Web Architecture and Distributed Systems)](http://www.aosabook.org/en/distsys.html)
+        - [Bất đồng bộ (Asynchronism)](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+    - [ ] [Kiến trúc web và hệ thống phân tán có khả năng mở rộng (Scalable Web Architecture and Distributed Systems)](http://www.aosabook.org/en/distsys.html)
     - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
     - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
-        - [Bổ sung: Google Pregel cho xử lý đồ thị(Google Pregel Graph Processing)](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
-    - [ ] [Jeff Dean - Xây dựng hệ thống phần mềm tại Google và các bài học rút ra được(Jeff Dean - Building Software Systems At Google and Lessons Learned)(video)](https://www.youtube.com/watch?v=modXC5IWTJI)
-    - [ ] [Giới thiệu về kiến trúc hệ thống có thể mở rộng(Introduction to Architecting Systems for Scale)](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+        - [Bổ sung: Google Pregel cho xử lý đồ thị (Google Pregel Graph Processing)](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
+    - [ ] [Jeff Dean - Xây dựng hệ thống phần mềm tại Google và các bài học rút ra được (Jeff Dean - Building Software Systems At Google and Lessons Learned)(video)](https://www.youtube.com/watch?v=modXC5IWTJI)
+    - [ ] [Giới thiệu về kiến trúc hệ thống có thể mở rộng (Introduction to Architecting Systems for Scale)](http://lethain.com/introduction-to-architecting-systems-for-scale/)
     - [ ] [Mở rộng game trên di động nhắm tới khách hàng trên toàn thế giới sử dụng App Engine và Cloud Datastore (Scaling mobile games to a global audience using App Engine and Cloud Datastore)(video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
     - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
-    - [ ] [Sự quan trọng của thuật toán(The Importance of Algorithms)](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
-    - [ ] [Chia nhỏ cơ sở dữ liệu thành từng phần nhỏ và nhanh hơn, dễ quản lý hơn(Sharding)](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
-    - [ ] [Khả năng mở rộng của Facebook(Scale at Facebook) -  (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
-    - [ ] [Khả năng mở rộng của Facebook (2012), "Xây dựng cho cả tỷ người dùng"(Scale at Facebook (2012), "Building for a Billion Users" -  )(video)](https://www.youtube.com/watch?v=oodS71YtkGU)
-    - [ ] [Lập trình cho cả khả năng phát triển trong tương lai(Engineering for the Long Game) - Astrid Atkinson Keynote - (video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
-    - [ ] [7 năm mở rộng của Youtube trong 30 phút(7 Years Of YouTube Scalability Lessons In 30 Minutes)](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
+    - [ ] [Sự quan trọng của thuật toán (The Importance of Algorithms)](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
+    - [ ] [Chia nhỏ cơ sở dữ liệu thành từng phần nhỏ và nhanh hơn, dễ quản lý hơn (Sharding)](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+    - [ ] [Khả năng mở rộng của Facebook (Scale at Facebook) -  (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
+    - [ ] [Khả năng mở rộng của Facebook (2012), "Xây dựng cho cả tỷ người dùng" (Scale at Facebook (2012), "Building for a Billion Users" -  )(video)](https://www.youtube.com/watch?v=oodS71YtkGU)
+    - [ ] [Lập trình cho cả khả năng phát triển trong tương lai (Engineering for the Long Game) - Astrid Atkinson Keynote - (video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+    - [ ] [7 năm mở rộng của Youtube trong 30 phút (7 Years Of YouTube Scalability Lessons In 30 Minutes)](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
         - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
-    - [ ] [Paypal đã mở rộng thế nào để đáp ứng hơn tỷ lượt giao dịch mỗi ngày với 8VMs(How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs) ](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
-    - [ ] [Làm thế nào để xóa lặp trong dữ liệu(How to Remove Duplicates in Large Datasets)](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
+    - [ ] [Paypal đã mở rộng thế nào để đáp ứng hơn tỷ lượt giao dịch mỗi ngày với 8VMs (How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs) ](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
+    - [ ] [Làm thế nào để xóa lặp trong dữ liệu (How to Remove Duplicates in Large Datasets)](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie) (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
-    - [ ] [Cùng nhìn nhận cách Etsy mở rộng và phong cách lập trình với Jon Cowie(What Led Amazon to its Own Microservices Architecture - Điều gì đưa Amazon tới kiến trúc microservices](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [Nén hay không nén, đây là câu hỏi dành cho Uber(To Compress Or Not To Compress, That Was Uber's Question)](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [Cùng nhìn nhận cách Etsy mở rộng và phong cách lập trình với Jon Cowie (What Led Amazon to its Own Microservices Architecture - Điều gì đưa Amazon tới kiến trúc microservices](http://thenewstack.io/led-amazon-microservices-architecture/)
+    - [ ] [Nén hay không nén, đây là câu hỏi dành cho Uber (To Compress Or Not To Compress, That Was Uber's Question)](https://eng.uber.com/trip-data-squeeze/)
     - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
-    - [ ] [Trong trường hợp nào truy vấn phỏng đoán được thực thi?(When Should Approximate Query Processing Be Used?)](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
+    - [ ] [Trong trường hợp nào truy vấn phỏng đoán được thực thi? (When Should Approximate Query Processing Be Used?)](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
     - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
     - [ ] [Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
-    - [ ] [Kiến trúc Egnyte: Kinh nghiêm từ việc xây dụng và mở rộng hệ thống phân tán lên tới Petabyte(Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System) ](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
-    - [ ] [Lập trình hướng máy học - Một cách lập trình mới trong thời đại mới(Machine Learning Driven Programming: A New Programming For A New World) ](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
-    - [ ] [Kỹ thuật tối ưu hình ảnh để phục vụ hàng triệu yêu cầu mỗi ngày(The Image Optimization Technology That Serves Millions Of Requests Per Day) ](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
-    - [ ] [Trình bày ngắn về kiến trúc Patreon(A Patreon Architecture Short)](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
-    - [ ] [Tinder: Làm thế nào mà một trong những hệ thống hẹn hò lớn nhất quyết định bạn sẽ nhìn thấy ai tiếp theo(Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?)](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
+    - [ ] [Kiến trúc Egnyte: Kinh nghiêm từ việc xây dụng và mở rộng hệ thống phân tán lên tới Petabyte (Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System) ](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
+    - [ ] [Lập trình hướng máy học - Một cách lập trình mới trong thời đại mới (Machine Learning Driven Programming: A New Programming For A New World)](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
+    - [ ] [Kỹ thuật tối ưu hình ảnh để phục vụ hàng triệu yêu cầu mỗi ngày (The Image Optimization Technology That Serves Millions Of Requests Per Day)](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+    - [ ] [Trình bày ngắn về kiến trúc Patreon (A Patreon Architecture Short)](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
+    - [ ] [Tinder: Làm thế nào mà một trong những hệ thống hẹn hò lớn nhất quyết định bạn sẽ nhìn thấy ai tiếp theo (Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?)](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
     - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
-    - [ ] [Facebook đã mở rộng thế nào để đáp ứng việc trình diễn video trực tiếp(Live Video Streaming At Facebook Scale) ](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
-    - [ ] [ Hướng dẫn cơ bản cho việc mở rộng đến hơn 11 triệu người dùng với Amazon AWS(A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS )](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
-    - [ ] [Sử dụng docker ảnh hưởng tới độ trễ như thế nào?(How Does The Use Of Docker Effect Latency?) ](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
-    - [ ] [Có thể xem AMP như 1 đối thủ với Google không?(Does AMP Counter An Existential Threat To Google?) ](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
-    - [ ] [Một cái nhìn 360 độ về toàn bộ Netflix Stack(A 360 Degree View Of The Entire Netflix Stack)](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
-    - [ ] [Độ trễ ảnh hưởng tới doanh thu của bạn - Làm sao để khắc phục?(Latency Is Everywhere And It Costs You Sales - How To Crush It) ](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+    - [ ] [Facebook đã mở rộng thế nào để đáp ứng việc trình diễn video trực tiếp (Live Video Streaming At Facebook Scale)](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
+    - [ ] [ Hướng dẫn cơ bản cho việc mở rộng đến hơn 11 triệu người dùng với Amazon AWS (A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS )](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
+    - [ ] [Sử dụng docker ảnh hưởng tới độ trễ như thế nào? (How Does The Use Of Docker Effect Latency?)](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
+    - [ ] [Có thể xem AMP như 1 đối thủ với Google không? (Does AMP Counter An Existential Threat To Google?)](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
+    - [ ] [Một cái nhìn 360 độ về toàn bộ Netflix Stack (A 360 Degree View Of The Entire Netflix Stack)](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
+    - [ ] [Độ trễ ảnh hưởng tới doanh thu của bạn - Làm sao để khắc phục? (Latency Is Everywhere And It Costs You Sales - How To Crush It)](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
     - [ ] [Serverless (rất dài, chỉ nền dùng file gist)](http://martinfowler.com/articles/serverless.html)
-    - [ ] [Điều gì làm nên sức mạnh của Instagram: Hàng trăm phần tử, hàng tá các công nghệ(What Powers Instagram: Hundreds of Instances, Dozens of Technologies )](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
-    - [ ] [Kiến trúc Cinchcast - Tạo ra 1500 giờ âm thanh mỗi ngày(Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day) ](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
-    - [ ] [Kiến trúc của chương trình phát sóng video trực tiếp Justin.Tv(Justin.Tv's Live Video Broadcasting Architecture) ](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
-    - [ ] [Kiến trúc của game cộng đồng Playfish - 50 triệu người sử dụng hàng tháng và vẫn tiếp tục tăng(Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing)](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
-    - [ ] [Kiến trúc của TripAdvisor - 40 triệu người viếng thăm, 200 triệu lượt xem, 30 Tb dữ liệu(TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data)](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
-    - [ ] [Kiến trúc của PlentyOfFish(PlentyOfFish Architecture)](http://highscalability.com/plentyoffish-architecture)
-    - [ ] [Kiến trúc của Salesforce - Làm thế nào để xử lý 1.3 tỷ giao dịch mỗi ngày(Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day) ](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
-    - [ ] [Kiến trúc của ESPN khi mở rộng - Xử lý 100000 thông tin mỗi giây(ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second)](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+    - [ ] [Điều gì làm nên sức mạnh của Instagram: Hàng trăm phần tử, hàng tá các công nghệ (What Powers Instagram: Hundreds of Instances, Dozens of Technologies )](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
+    - [ ] [Kiến trúc Cinchcast - Tạo ra 1500 giờ âm thanh mỗi ngày (Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day)](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
+    - [ ] [Kiến trúc của chương trình phát sóng video trực tiếp Justin.Tv (Justin.Tv's Live Video Broadcasting Architecture)](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
+    - [ ] [Kiến trúc của game cộng đồng Playfish - 50 triệu người sử dụng hàng tháng và vẫn tiếp tục tăng (Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing)](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
+    - [ ] [Kiến trúc của TripAdvisor - 40 triệu người viếng thăm, 200 triệu lượt xem, 30 Tb dữ liệu (TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data)](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
+    - [ ] [Kiến trúc của PlentyOfFish (PlentyOfFish Architecture)](http://highscalability.com/plentyoffish-architecture)
+    - [ ] [Kiến trúc của Salesforce - Làm thế nào để xử lý 1.3 tỷ giao dịch mỗi ngày (Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day)](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
+    - [ ] [Kiến trúc của ESPN khi mở rộng - Xử lý 100000 thông tin mỗi giây (ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second)](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
     - [ ] Xem qua "Messaging, Serialization, and Queueing Systems" phía dưới để hiểu các công nghệ có thể kết nối các dịch vụ cùng lúc thế nào.
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - Để có thêm thông tin, xem seri "Mining Massive Datasets" trong seri video.
-- [ ] Thực hành thêm về thiết kế hệ thống: Sau đây là vài ý tưởng có thể thực hiện trên giấy, mỗi ý tưởng đều có tư liệu đi cùng để hiểu rõ nó thực thi thế nào trong thế giới thực. [Thiết kế hệ thống bới HiredInTech(System Design from HiredInTech)](http://www.hiredintech.com/system-design/)
+- [ ] Thực hành thêm về thiết kế hệ thống: Sau đây là vài ý tưởng có thể thực hiện trên giấy, mỗi ý tưởng đều có tư liệu đi cùng để hiểu rõ nó thực thi thế nào trong thế giới thực. [Thiết kế hệ thống bới HiredInTech (System Design from HiredInTech)](http://www.hiredintech.com/system-design/)
     - [cheat sheet](/extras/cheat%20sheets/system-design.pdf)
     - Các bước thực hiện:
         1. Hiểu vấn đề và phạm vi của vấn đề:
@@ -1308,14 +1343,14 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
             - Đưa ra hướng giải quyết cho hiện tượng nghẽn cổ chai
     - Bài tập:
         - [Thiết kế một mạng CDN (Content Delivery Network) (Design a CDN network: old article) ](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-        - [Thiết kê một hệ thống cung cấp ID ngẫu nhiên(Design a random unique ID generation system)](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Thiết kế một hệ thống chơi bài nhiều người online(Design an online multiplayer card game)](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
-        - [Thiết kế một cơ sở dữ liệu khóa-giá trị(Design a key-value database)](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Thiết kế một hàm để trả về những từ khóa được tìm kiếm nhiều nhất trong thời gian gần nhất(Design a function to return the top k requests during past time interval)]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
-        - [Thiết kế một hệ thống chia sẽ ảnh(Design a picture sharing system) ](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
-        - [Thiết kế một hệ thống hổ trợ ra quyết định(Design a recommendation system)](http://ijcai13.org/files/tutorial_slides/td3.pdf)
-        - [Thiết kế một hệ thống làm ngắn URL(Design a URL-shortener system: copied from above)](http://www.hiredintech.com/system-design/the-system-design-process/)
-        - [Thiết kế một hệ thống cache(Design a cache system)](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
+        - [Thiết kê một hệ thống cung cấp ID ngẫu nhiên (Design a random unique ID generation system)](https://blog.twitter.com/2010/announcing-snowflake)
+        - [Thiết kế một hệ thống chơi bài nhiều người online (Design an online multiplayer card game)](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
+        - [Thiết kế một cơ sở dữ liệu khóa-giá trị (Design a key-value database)](http://www.slideshare.net/dvirsky/introduction-to-redis)
+        - [Thiết kế một hàm để trả về những từ khóa được tìm kiếm nhiều nhất trong thời gian gần nhất (Design a function to return the top k requests during past time interval)]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
+        - [Thiết kế một hệ thống chia sẻ ảnh (Design a picture sharing system) ](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+        - [Thiết kế một hệ thống hổ trợ ra quyết định (Design a recommendation system)](http://ijcai13.org/files/tutorial_slides/td3.pdf)
+        - [Thiết kế một hệ thống làm ngắn URL (Design a URL-shortener system: copied from above)](http://www.hiredintech.com/system-design/the-system-design-process/)
+        - [Thiết kế một hệ thống cache (Design a cache system)](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
 ---
 
@@ -1372,7 +1407,7 @@ Tại sao bạn cần thực hành trả lời các vấn đề lập trình:
 - Đưa ra được tính toán độ phức tạp về thời gian và không gian thực thi của giải pháp của bạn
 - Kiểm tra giải pháp của bạn
 
-Dưới đây là một bài viết tuyệt vời về phương thức luận, cách kết nối giải quyết vấn đề trong một bài phỏng vấn. Bạn có thế gặp các bài viết tương tự trong các sách hướng dẫn phỏng vấn nhưng tối cho là bài này thật sự cực kì xuất sắc:
+Dưới đây là một bài viết tuyệt vời về phương thức luận, cách kết nối giải quyết vấn đề trong một bài phỏng vấn. Bạn có thể gặp các bài viết tương tự trong các sách hướng dẫn phỏng vấn nhưng tôi cho là bài này thật sự cực kì xuất sắc:
 [Thiết kế thuật toán (Algorithm design canvas)](http://www.hiredintech.com/algorithm-design/)
 
 [Các bước tôi xử lý cho các câu hỏi về lập trình trong phỏng vấn (My Process for Coding Interview (Book) Exercises)](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
@@ -1383,8 +1418,8 @@ Không có bảng trắng ở nhà? Cũng hợp lý chứ. Tôi có chút khác 
 
 Phụ lục:
 
-- [Toán học cho nhà lập trình hàng đầu(Mathematics for Topcoders)](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Lập trình linh hoạt - Từ cơ bản đến nâng cao (Dynamic Programming – From Novice to Advanced)](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Toán học cho nhà lập trình hàng đầu (Mathematics for Topcoders)](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [Quy hoạch động - Từ cơ bản đến nâng cao (Dynamic Programming – From Novice to Advanced)](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [Các tài liệu liên quan tới phỏng vấn của MIT (MIT Interview Materials)](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Các bài tập để lập trình tốt hơn đối với ngôn ngữ được lựa chọn (Exercises for getting better at a given language)](http://exercism.io/languages)
 
@@ -1414,7 +1449,7 @@ Các trang giải toán lập trình:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Xem thêm:
 - [Phỏng vấn thử nghiệm](http://www.gainlo.co/)
@@ -1443,7 +1478,7 @@ Chuẩn bị 2 đến 3 câu trả lời cho mỗi câu hỏi. Hãy chuẩn bị
 - Thử thách lớn nhất bạn từng đối mặt?
 - Thiết kế (hệ thống) tốt nhất/tồi nhất bạn từng gặp?
 - Những ý tưởng để cải thiện các sản phẩm hiện giờ của Google.
-- Bạn sẽ làm việc như thế nào để đạt hiểu quả tốt nhất, trong trường hợp làm việc một mình và làm theo team?
+- Bạn sẽ làm việc như thế nào để đạt hiệu quả tốt nhất, trong trường hợp làm việc một mình và làm theo team?
 - Kỹ năng hay kinh nghiệm nào của bạn thích hợp cho công việc này, và tại sao?
 - Bạn thích điều gì nhất ở [công việc X/ dự án Y]?
 - Lỗi gấy ức chế nhất bạn từng gặp phải ở [công việc X/ dự án Y]?
@@ -1453,7 +1488,7 @@ Chuẩn bị 2 đến 3 câu trả lời cho mỗi câu hỏi. Hãy chuẩn bị
 
 ## Chuẩn bị câu hỏi dành cho phỏng vấn viên
 
-    Một vài câu hỏi của tôi (Tôi có thể đã tìm hiểu trước rồi, nhưng vẫn muốn được nghe ý kiến từ góc nhìn của người phỏng):
+    Một vài câu hỏi của tôi (Tôi có thể đã tìm hiểu trước rồi, nhưng vẫn muốn được nghe ý kiến từ góc nhìn của người phỏng vấn):
 
 - Quy mô của team thế nào?
 - Quy trình phát triển của bạn? Waterfall/sprints/agile?
@@ -1490,7 +1525,7 @@ Bạn không bao giờ thực sự học xong!
 
 ## Sách bổ sung
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+- [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - cũ nhưng mà tốt
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - một sự lựa chọn hiện đại hơn
@@ -1502,11 +1537,11 @@ Bạn không bao giờ thực sự học xong!
     - quyển sách cổ diển về mẫu thiết kế.
 - [ ] [Site Reliability Engineering](https://landing.google.com/sre/book.html)
     - [Site Reliability Engineering: Google chạy các hệ thống của họ như thế nào](https://landing.google.com/sre/)
-- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
+- [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 
 ## Học thêm
 
->  Tiêu đề của các video, các thuật ngữ cao cấp xin được giữ nguyên. Một số thuật ngữ có thể dịch được, nhưng người dịch không đử vốn từ đề diễn đạt chúng một cách ngắn gọn như trong tiêng Anh, nên cũng xin phép chỏ qua.
+>  Tiêu đề của các video, các thuật ngữ cao cấp xin được giữ nguyên. Một số thuật ngữ có thể dịch được, nhưng người dịch không đủ vốn từ đề diễn đạt chúng một cách ngắn gọn như trong tiếng Anh, nên cũng xin phép cho qua.
 
 - ### Trình biên dịch
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1606,7 +1641,6 @@ Bạn không bao giờ thực sự học xong!
 
 - ### Trình dọn rác
     > Trình dọn rác (garbage collection) là một tính năng của các ngôn ngữ lập trình cấp cao, trong đó hệ thông tự động thu hồi vùng nhớ của các data (biến, đối tượng) không còn được sử dụng nữa, và cấp phát chúng cho các data mới. Trước khi có tính năng này, lập trình viên phải quản lý vùng nhớ thủ công, tự xin cấp phát và tự giải phóng.
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
@@ -1844,7 +1878,7 @@ Bạn không bao giờ thực sự học xong!
     - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] MIT **Xác suất** (nặng toán học, và hãy đi chậm châm, sẽ tốt cho các vấn đề toán học khác) (videos):
+- [ ] MIT **Xác suất** (nặng toán học, và hãy đi chậm chậm, sẽ tốt cho các vấn đề toán học khác) (videos):
     - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
@@ -1901,7 +1935,7 @@ Hãy ngồi xuống và thưởng thức. "Luyện kỹ năng với Netflix" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1942,7 +1976,7 @@ Hãy ngồi xuống và thưởng thức. "Luyện kỹ năng với Netflix" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

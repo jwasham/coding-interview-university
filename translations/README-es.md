@@ -935,7 +935,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - Cuando es apropiado usarlo
     - ¿Cómo es la recursión de cola mejor que no?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Programación Dinámica
     - Este tema puede ser bastante difícil, ya que cada problema soluble PD debe definirse como una relación de recursión, y llegar a ella puede ser complicado.

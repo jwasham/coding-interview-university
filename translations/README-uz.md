@@ -891,7 +891,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - Rekursiyani qachon ishlatish yaxshi?
     - Nega tail rekursiya (tail recursion) yaxshi narsa?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Dinamik dasturlash (Dynamic Programming)
     - Katta ehtimollik bilan sizni intervyuingizda dinamik dasturlash masalalari bo'lmaydi, lekin shunday masalani dinamik dasturlashga mosligini aniqlay olishni o'rganish arzigulik

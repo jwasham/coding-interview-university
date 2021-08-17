@@ -881,7 +881,7 @@
     - 什麼時候適合用這些
     - tail recursion沒有比較好?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (影片)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (影片)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### 動態規劃
     - 在你的面試中或許沒有任何動態規劃的問題，但能夠知道一個題目可以使用動態規劃來解決是很重要的。

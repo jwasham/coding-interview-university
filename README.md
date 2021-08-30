@@ -173,10 +173,18 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)
 
+
 ---------------- Everything below this point is optional ----------------
+- Books:
+	1. [Elements Of Programming Interviews Python Insiders](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=pd_lpo_sbs_14_img_1?_encoding=UTF8&psc=1&refRID=VBRYDAK8D3MC47K12V2Z)
+	2. [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+	3. [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?ie=UTF8&qid=1507572545&sr=8-1&keywords=cracking+the+coding+interviews)
+	4. [Introduction to Programming in Java](http://introcs.cs.princeton.edu/java/home/) Note: This book has a lot of materials online, includes chapter and section summaries, and example code, etc. 
+- Other Resources:
+	- [MIT Algorithm class](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
+	- [Cracking the Coding Interview videos](https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt) This is speically useful for refreshing your memories on most of the algorithms.
 
 ## Additional Resources
-
 - [Additional Books](#additional-books)
 - [Additional Learning](#additional-learning)
     - [Compilers](#compilers)

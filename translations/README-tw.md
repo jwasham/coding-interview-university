@@ -232,6 +232,8 @@
 
     Fork一個branch，並且跟隨以下的指令
 
+`git clone git@github.com:<your_github_username>/coding-interview-university.git`
+
 `git checkout -b progress`
 
 `git remote add jwasham https://github.com/jwasham/coding-interview-university`
@@ -245,6 +247,8 @@
 `git commit -m "Marked x"`
 
 `git rebase jwasham/main`
+
+`git push --set-upstream origin progress`
 
 `git push --force`
 
@@ -1266,6 +1270,7 @@
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
   
+
 **閱讀並解題(按照以下順序):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Secrets+to+Landing+Your+Next+Job%2C+2nd+Edition-p-9780470121672)
@@ -1349,12 +1354,12 @@ Coding面試題目影片:
 
     *****************************************************************************************************
     *****************************************************************************************************
-
+    
     下面的東西都是額外的。
     讀這些東西，可以更了解電腦科學的概念，
     並且能讓自己對任何軟體工程的工作做更好的準備。
     如此一來，你將會成為一個更全面的軟體工程師。
-
+    
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1420,7 +1425,7 @@ Coding面試題目影片:
     - 前幾章提供了一些解決coding問題的精妙絕倫的方法(有些很舊，甚至還用磁帶)，但那些只是導論。這是本程式設計和架構的指南。
 
 ## 額外學習
-    
+
     我把他們加了進來為了讓你成為更全方位的軟體工程師，並且留意一些科技以及演算法，讓你的資料庫中有更多素材。
 
 - ### 編譯器

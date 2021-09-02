@@ -117,10 +117,12 @@ software development/engineering roles.
 - [Choose a Programming Language](#choose-a-programming-language)
 - [Books for Data Structures and Algorithms](#books-for-data-structures-and-algorithms)
 - [Interview Prep Books](#interview-prep-books)
-- [Before you Get Started](#before-you-get-started)
+- [A Note About Video Resources](#a-note-about-video-resources)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [The Daily Plan](#the-daily-plan)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
+- [Coding Question Practice](#coding-question-practice)
+- [Coding Problems](#coding-problems)
+- [The Study Plan](#the-study-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
@@ -279,7 +281,7 @@ Mark all boxes with X after you completed your changes:
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+## A Note About Video Resources
 
 Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
 Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
@@ -311,6 +313,15 @@ When I did the study plan, I used 2 languages for most of it: C and Python
 * Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
 
 This is my preference. You do what you like, of course.
+
+You may not need it, but here are some sites for learning a new language:
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
+- [Sphere Online Judge (spoj)](http://www.spoj.com/)
+- [Codechef](https://www.codechef.com/)
+- [Codeforces](https://codeforces.com/)
 
 ### For your Coding Interview
 
@@ -400,11 +411,11 @@ Choose one:
 - [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-## Before you Get Started
+## Don't Make My Mistakes
 
-This list grew over many months, and yes, it kind of got out of hand.
+This list grew over many months, and yes, it got out of hand.
 
-Here are some mistakes I made so you'll have a better experience.
+Here are some mistakes I made so you'll have a better experience. And you'll save months of time.
 
 ### 1. You Won't Remember it All
 
@@ -418,11 +429,15 @@ Please, read so you won't make my mistakes:
 ### 2. Use Flashcards
 
 To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting. I made a mobile-first website, so I could review on my phone and tablet, wherever I am.
+Each card has different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
 
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+
+**I DON'T RECOMMEND using my flashcards.** There are too many and many of them are trivia that you don't need.
+
+But if you don't want to listen to me, here you go:
 - [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
 - [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
@@ -439,21 +454,28 @@ It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
 
-### 3. Start doing coding interview questions while you're learning data structures and algorithms
+### 3. Do Coding Interview Questions While You're Learning
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. Once you've learned a topic,
-and feel comfortable with it, like linked lists, open one of the coding interview books and do a couple of questions regarding
-linked lists. Then move on to the next learning topic. Then later, go back and do another linked list problem,
-or recursion problem, or whatever. But keep doing problems while you're learning. You're not being hired for knowledge,
-but how you apply the knowledge. There are several books and sites I recommend.
+THIS IS VERY IMPORTANT.
 
-### 4. Review, review, review
+Start doing coding interview questions while you're learning data structures and algorithms.
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. 
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
+1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below) 
+1. Do 2 or 3 questions regarding linked lists. 
+1. Move on to the next learning topic.
+1. Later, go back and do another 2 or 3 linked list problems.
+1. Do this with each new topic you learn. 
 
-### 5. Focus
+** Keep doing problems while you're learning all this stuff, not after.**
+
+You're not being hired for knowledge, but how you apply the knowledge.
+
+There are many resources for this, listed below. Keep going.
+
+### 4. Focus
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
 without lyrics and you'll be able to focus pretty well.
@@ -468,60 +490,106 @@ These are prevalent technologies but not part of this study plan:
 
 ## The Daily Plan
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing
-
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
-
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python or Java))
-- Make use of built-in types, so I have experience using the built-in tools for real-world use (I'm not going to write my own linked list implementation in production)
-
-I may not have time to do all of these for every subject, but I'll try.
+Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation 
+of that data structure or algorithm in the language you chose for this course.
 
 You can see my code here:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+## Coding Question Practice
+
+    Why is this here? I'm not ready to interview.
+
+[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
+
+Why you need to practice doing programming problems:
+- Problem recognition, and where the right data structures and algorithms fit in
+- Gathering requirements for the problem
+- Talking your way through the problem like you will in the interview
+- Coding on a whiteboard or paper, not a computer
+- Coming up with time and space complexity for your solutions (see Big-O below)
+- Testing your solutions
+
+There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
+interview books, too, but I found this outstanding:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+
+Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
+
+If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice. 
+This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase. 
+Gets messy quick. **I use a pencil and eraser.**
+
+![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**Coding question practice is not about memorizing answers to programming problems.**
+
+## Coding Problems
+
+Don't forget your key coding interview books [here](#interview-prep-books).
+
+Solving Problems:
+- [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
+
+Coding Interview Question Videos:
+- [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Super for walkthroughs of problem solutions
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Good explanations of solution and the code
+    - You can watch several in a short time
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+
+Challenge sites:
+- [LeetCode](https://leetcode.com/)
+    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
+    - See Nick White and FisherCoder Videos above for code walk-throughs.
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [InterviewBit](https://www.interviewbit.com/)
+
+## The Study Plan
+
+Alright, enough talk, let's learn!
+
+But don't forget to do coding problems from above while you learn!
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 
-- Nothing to implement
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review
-- If some lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge
+- Nothing to implement here, you're just watching videos and taking notes! Yay!
+- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
+- Don't worry if you don't understand all the math behind it.
+- You just need to understand how to express the complexity of an algorithm in terms of Big-O.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](https://archive.org/details/lecture2_202008)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
+Well, that's about enough of that. 
+
+When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see 
+if you can identify the runtime complexity of different algorithms. It's a super review and test.
+
 ## Data Structures
 
 - ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
+    - [ ] About Arrays:
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
@@ -1133,88 +1201,15 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ---
 
-## Coding Question Practice
+## Update Your Resume
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+- See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
+- I don't know how important this is (you can do your own research) but here is an article on making your resume ATS Compliant:
+    - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
 
-**Coding question practice is not about memorizing answers to programming problems.**
+## Find a Job
 
-Why you need to practice doing programming problems:
-- Problem recognition, and where the right data structures and algorithms fit in
-- Gathering requirements for the problem
-- Talking your way through the problem like you will in the interview
-- Coding on a whiteboard or paper, not a computer
-- Coming up with time and space complexity for your solutions
-- Testing your solutions
-
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
-
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick. I use a pencil
-and eraser.
-
-![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
-
-Supplemental:
-
-- [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
-
-**Read and Do Programming Problems (in this order):**
-
-- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X)
-    - answers in C, C++ and Java
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-
-See [Book List above](#book-list)
-
-
-## Coding exercises/challenges
-
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
-
-- [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
-- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
-
-Coding Interview Question Videos:
-- [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
-- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - Super for walkthroughs of problem solutions
-- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
-    - You can watch several in a short time
-- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
-
-Challenge sites:
-- [LeetCode](https://leetcode.com/)
-    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing
-    - [LeetCode solutions from FisherCoder](https://github.com/fishercoder1534/Leetcode)
-    - See Nick White Videos above for short code-throughs
-- [HackerRank](https://www.hackerrank.com/)
-- [TopCoder](https://www.topcoder.com/)
-- [InterviewCake](https://www.interviewcake.com/)
-- [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
-- [Code Exercises](https://code-exercises.com)
-
-Language-learning sites, with challenges:
-- [Codewars](http://www.codewars.com)
-- [Codility](https://codility.com/programmers/)
-- [HackerEarth](https://www.hackerearth.com/)
-- [Sphere Online Judge (spoj)](http://www.spoj.com/)
-- [Codechef](https://www.codechef.com/)
-- [Codeforces](https://codeforces.com/)
-
-Challenge repos:
-- [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
+- [Sites for Finding Jobs](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
 
 ## Interview Process & General Interview Prep
 
@@ -1244,26 +1239,11 @@ Challenge repos:
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
-- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously.
-
-## Once you're closer to the interview
-
-- Cracking The Coding Interview Set 2 (videos):
-    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
-    - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-
-## Finding Jobs and Internships
-- [Sites for Finding Jobs](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
-
-## Your Resume
-
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
-- I don't know how important this is (you can do your own research) but here is an article on making your resume ATS Compliant:
-    - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously
 
 ## Be thinking of for when the interview comes
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
+Think of about 20 interview questions you'll get, along with the lines of the items below. Have at least one answer for each.
 Have a story, not just data, about something you accomplished.
 
 - Why do you want this job?
@@ -1282,10 +1262,9 @@ Have a story, not just data, about something you accomplished.
 - If you find it hard to come up with good answers of these types of interview questions, here are some ideas: 
     - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
 
-
 ## Have questions for the interviewer
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+Some of mine (I already may know the answers, but want their opinion or team perspective):
 
 - How large is your team?
 - What does your dev cycle look like? Do you do waterfall/sprints/agile?

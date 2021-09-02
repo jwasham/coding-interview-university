@@ -109,6 +109,8 @@ software development/engineering roles.
 
 ## Table of Contents
 
+### The Study Plan
+
 - [What is it?](#what-is-it)
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
@@ -122,6 +124,9 @@ software development/engineering roles.
 - [The Daily Plan](#the-daily-plan)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding Problems](#coding-problems)
+
+### Topics of Study
+
 - [The Study Plan](#the-study-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
@@ -170,19 +175,19 @@ software development/engineering roles.
     - [Endianness](#endianness)
     - [Networking](#networking)
 - [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
+
+### Getting the Job
+
+- [Update Your Resume](#update-your-resume)
+- [Find a Job](#find-a-job)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Best way to Find perfect Career Opportunities for you](#best-way-to-find-perfect-career-opportunities-for-you)
-- [Your Resume](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+**---------------- Everything below this point is optional ----------------**
 
-## Additional Resources
+### Optional Extra Topics & Resources
 
 - [Additional Books](#additional-books)
 - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
@@ -1118,10 +1123,6 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
-
-- ### Scheduling
-    - In an OS, how it works?
-    - Can be gleaned from Operating System videos
 
 - ### String searching & manipulations
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)

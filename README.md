@@ -469,7 +469,7 @@ Once you've learned a topic, and feel somewhat comfortable with it, for example,
 1. Later, go back and do another 2 or 3 linked list problems.
 1. Do this with each new topic you learn. 
 
-** Keep doing problems while you're learning all this stuff, not after.**
+**Keep doing problems while you're learning all this stuff, not after.**
 
 You're not being hired for knowledge, but how you apply the knowledge.
 

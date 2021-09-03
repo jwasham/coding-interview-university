@@ -2,12 +2,49 @@
 
 Оригинальная версия: [Английский](../README.md) 
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
+
 ## Для кого это?
 
 Это мой учебный план, рассчитанный на несколько месяцев для веб-разработчиков, не имеющих образования в Computer Science (CS)
 и планирующих работать инженерами-программистами (software engineer) в компании Google. 
 
-![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 За основу учебного плана я взял список вопросов **Google's coaching notes** и значительно расширил его. Тут вы найдёте 
 много полезных вещей, которые необходимо знать. Дополнительные вопросы я добавил в конец списка: их могут задавать на 
@@ -199,12 +236,6 @@ Google не возьмёт тебя на работу.
 
 [Подробнее о разметке на Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Получи гугловское настроение
-
-Напечатай знак "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" и не отводи глаз от желанной добычи.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
 ## Получил ли я работу?
 
 Пока я ожидаю своей очереди. Надеюсь интервью будет скоро.
@@ -217,13 +248,8 @@ Google не возьмёт тебя на работу.
 
 Я ещё на пути к цели. Двигаемся вперёд:
  
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
 - Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
 - LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Не переживайте о том, что вы недостаточно умны
 - Успешные инженеры умные, но многие из них переживают, что недостаточно умны.
@@ -969,7 +995,7 @@ Google не возьмёт тебя на работу.
     - когда уместно использование рекурсии?
     - когда лучше использовать хвостовую рекурсию?
         - [ ] [Что такое хвостовая рекурсия и почему её использование нежелательно?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Хвостовая рекурсия (видео)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Хвостовая рекурсия (видео)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Объектно-ориентированное программирование
     - [ ] [Дополнительно: Серия уроков по UML 2.0 (видео)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1343,7 +1369,7 @@ Google не возьмёт тебя на работу.
 
 У вас нет доски дома? Не удивительно. Я немного неормальный и у меня есть большая доска дома. Но вместо доски можно использователь и планшет для рисования из магазина художественных товаров, и практиковаться сидя на диване. Это моя "диванная доска". На фото я положил ручку чтобы иметь вы имели представление о масштабе. Если вы будете пользоваться ручкой, постоянно будет возникать желание что-то исправить и решение захламляется достаточно быстро.
 
-![моя диванная доска](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![моя диванная доска](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Дополнительно:
 
@@ -1986,7 +2012,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

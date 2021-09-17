@@ -165,7 +165,6 @@ software development/engineering roles.
     - [Caches](#caches)
     - [Processes and Threads](#processes-and-threads)
     - [Testing](#testing)
-    - [Scheduling](#scheduling)
     - [String searching & manipulations](#string-searching--manipulations)
     - [Tries](#tries)
     - [Floating Point Numbers](#floating-point-numbers)

@@ -74,6 +74,13 @@
     - [Javascript Beginner Tutorials](https://www.youtube.com/playlist?list=PL41lfR-6DnOrwYi5d824q9-Y6z3JdSgQa)
     - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
     - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
-- Other Language 1
+- Rust
+    - [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
+    - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
+    - [Rust Tutorial by Doug Milford from Lambda Valley](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
+    - [Introduction - Easy Rust](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
+    - [Rust overview](https://learning-rust.github.io/docs/index.html)
+    - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
+
 - Other Language 2
 - etc

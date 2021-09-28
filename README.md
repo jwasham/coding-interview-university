@@ -1205,6 +1205,9 @@ Graphs can be used to represent many problems in computer science, so this secti
 - See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
 - I don't know how important this is (you can do your own research) but here is an article on making your resume ATS Compliant:
     - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
+- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
+    - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
+
 
 ## Find a Job
 

@@ -588,10 +588,10 @@ But don't forget to do coding problems from above while you learn!
   - [slides](https://archive.org/details/lecture2_202008)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] TopCoder (includes recurrence relations and master theorem):
+- [ x] TopCoder (includes recurrence relations and master theorem):
   - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
   - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [x] [Cheat sheet](http://bigocheatsheet.com/)
+- [ x] [Cheat sheet](http://bigocheatsheet.com/)
 
 Well, that's about enough of that.
 

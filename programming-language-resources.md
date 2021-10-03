@@ -59,7 +59,7 @@
   - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
   - [Go Proverbs](http://go-proverbs.github.io/)
   - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
-  -[Gophercises - Free course on Coding Exercises in Go](https://gophercises.com) ]
+  - [Gophercises - Free course on Coding Exercises in Go](https://gophercises.com) ]
 - HTML
   - [Quick HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB)
   - [HTML Crash Course for Beginners (1 hr)](https://www.youtube.com/watch?v=UB1O30fR-EE)
@@ -76,7 +76,6 @@
   - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
   - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
 - Rust
-
   - [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
   - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
   - [Rust Tutorial by Doug Milford from Lambda Valley](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)

@@ -59,6 +59,7 @@
   - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
   - [Go Proverbs](http://go-proverbs.github.io/)
   - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
+  -[Gophercises - Free course on Coding Exercises in Go](https://gophercises.com) ]
 - HTML
   - [Quick HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB)
   - [HTML Crash Course for Beginners (1 hr)](https://www.youtube.com/watch?v=UB1O30fR-EE)

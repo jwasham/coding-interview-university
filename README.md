@@ -456,6 +456,8 @@ It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
 
+Some students have mentioned formatting issues with white space that can be fixed by doing the following: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
+
 ### 3. Do Coding Interview Questions While You're Learning
 
 THIS IS VERY IMPORTANT.

@@ -1,19 +1,59 @@
 # Coding Interview University
 
 <div align="right">
-במקור יצרתי את הפרוייקט הזהכרשימה קצרה של נושאי לימוד על מנת להפוך למהנדס תוכנה, אבל הפרוייקט גדל לרשימה 
-הארוכה שאתם רואים היום.אחרי שעברתי את תוכנית הלימוד הזו
- <a href="https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu">התקבלתי לעבוד בתור מהנדס תוכנה באמאזון<a/>! אתם ככל הנראה לא תצתרכו ללמוד כל כך הרבה כמו שאני למדתי, כל מה שאתם צריכים נמצא כאן.
-
-למדתי בין 8-12 שעות ביום למשך מספר חודשים. זה הסיפור שלי:<a href="https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13/">למה למדתי במשרה מלאה במשך 8 חודשים לראיון אצל גוגל<a/>
-
-**הערה**אתם לא תצתרכו ללמוד כל כך הרבה כמו שאני למדתי. בזבזתי המון זמן על דברים שלא הייתי צריך לדעת.יותר מידע על זה למטה. אני אעזור לכם להגיע לשם בלי לבזבז את הזמן היקר שלכם	
-
-הדברים שרשומים כאן למטה יכינו אתכם בצורה טובה לראיון טכני בערך בכל חברת תוכנהת כולל את הענקיות: אמאזון, פייסבוק, גווגל ומייקרוסופט
-	 
-בהצלחה לכם.	 
+	
+> במקור יצרתי את הפרוייקט הזהכ רשימה קצרה של נושאי לימוד על מנת להפוך למהנדס תוכנה, אבל הפרוייקט גדל לרשימה 
+> הארוכה שאתם רואים היום. אחרי שעברתי את תוכנית הלימוד הזו
+>  <a href="https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu">התקבלתי לעבוד בתור מהנדס תוכנה באמאזון<a/>! אתם ככל הנראה לא תצתרכו ללמוד כל כך הרבה כמו שאני למדתי, כל מה שאתם צריכים נמצא כאן
+> 
+> למדתי בין 8-12 שעות ביום למשך מספר חודשים. זה הסיפור שלי:<a href="https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13/">למה למדתי במשרה מלאה במשך 8 חודשים לראיון אצל גוגל<a/>
+> 
+> **הערה:** אתם לא תצתרכו ללמוד כל כך הרבה כמו שאני למדתי. בזבזתי המון זמן על דברים שלא הייתי צריך לדעת.יותר מידע על זה למטה. אני אעזור לכם להגיע לשם בלי לבזבז את הזמן היקר שלכם	
+> 
+> הדברים שרשומים כאן למטה יכינו אתכם בצורה טובה לראיון טכני בערך בכל חברת תוכנהת כולל את הענקיות: אמאזון, פייסבוק, גווגל ומייקרוסופט
+> 	 
+> **.בהצלחה לכם**	 
 	
 </div>
+	
+	
+<details>
+<summary>:תרגומים</summary>
+
+- [中文版本](translations/README-cn.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+- [Polish](translations/README-pl.md)
+- [繁體中文](translations/README-tw.md)
+- [Japanese (日本語)](translations/README-ja.md)
+- [Russian](translations/README-ru.md)
+- [German](translations/README-de.md)
+- [Bahasa Indonesia](translations/README-id.md)
+- [ខ្មែរ - Khmer](translations/README-kh.md)
+- [Uzbek](translations/README-uz.md)
+
+</details>
+
+<details>
+<summary>:בתהליך תרגום</summary>
+
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [French](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+
+</details>
+
 
 
 

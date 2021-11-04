@@ -121,7 +121,7 @@
 - [به چه چیزهایی پرداخته نشده](#به-چه-چیزهایی-پرداخته-نشده)
 - [برنامه روزانه](#برنامه-روزانه)
 - [تمرین مصاحبه کدنویسی](#تمیرن-مصاحبه-کدنویسی)
-- [مشکلات و مسائل کدنویسی](#مشکلات-و-مسائل-کدنویسی)
+- [مسائل کدنویسی](#مسائل-کدنویسی)
 
 ### موضوعات مطالعه
 
@@ -132,7 +132,7 @@
     - [پشته](#پشته)
     - [صف](#صف)
     - [Hash table](#جدول-هش)
-- [علوم بیشتر](#علم-بیشتر)
+- [دانستنی های بیشتر](#دانستنی-های-بیشتر)
     - [جستجوی باینری](#جستجوی-باینری)
     - [Bitwise operations](#bitwise-operations)
 - [درخت ها](#درخت-ها)
@@ -448,73 +448,69 @@ Choose one:
 به خاطر داشته باشید که من زیاده روی کردم و کارت هایی دارم که همه چیز را از زبان اسمبلی و نکات بی اهمیت پایتون گرفته تا یادگیری ماشینی و آمار را پوشش می دهد.
 که بسیار زیاد تر از حد مورد نیاز است.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**یک نکته درباره فلش کارت ها:** به محض اینکه تشخیص دادید که جواب یک کارت را میدانید اون رو به عنوان میدانم علامت نزنید. قبل از آن باید کارت را ببینید و چندین بار جواب درست آن را مرور کنید. پس از چند بار تکرار مبحث مورد نظر عمیقاً در ذهن شما ثبت میشود.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. 
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms and has a cloud sync system. 
-It costs $25 on iOS but is free on other platforms.
+میتوانید به عنوان جاگزین سایت فلش کارت من از سایت [Anki](http://ankisrs.net/), استفاده کنید که بارها به من توصیه شده است. 
+که از یک سیستم تکرار برای کمک به یادآوری استفاده می کند. کاربرپسند است، در همه پلتفرم ها موجود است و دارای سیستم همگام سازی ابری است. 
+که تمامی نسخه های آن به غیر از نسخه IOS رایگان میباشیند.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
+دیتابیس فلش کارت من با فرمت Anki: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
 
-Some students have mentioned formatting issues with white space that can be fixed by doing the following: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
+بعضی از دانش آموزان یک به مشکل قالب بندی کارت ها برخوردند که با انجام موارد زیر قابل رفع است: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
 
-### 3. Do Coding Interview Questions While You're Learning
+### 3. تمرین ها و سوالات مصاحبه را حل کنید
 
-THIS IS VERY IMPORTANT.
+این بسیار مهم است.
 
-Start doing coding interview questions while you're learning data structures and algorithms.
+هنگامی که در حال یادگیری ساختمان داده و الگوریتم هستید، شروع به کدنویسی و حل تمرین های مصاحبه کنید.
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. 
+حتما باید آنچه را که یاد میگیرید را به کار ببرید و تمرین کنید ، وگرنه فراموش خواهید کرد. همانطور که من این اشتباه رو مرتکب شدم. 
 
-Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
-1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below) 
-1. Do 2 or 3 questions regarding linked lists. 
-1. Move on to the next learning topic.
-1. Later, go back and do another 2 or 3 linked list problems.
-1. Do this with each new topic you learn. 
+وقتی موضوعی را یاد گرفتید و تا حدودی با آن احساس راحتی کردید, برای مثال  **لیست های پیوندی**:
+1. [کتاب مصاحبه کدنویسی](#interview-prep-books) (یا یکی از سایت های معرفی شده در پایین) رو باز کنید
+1. 2 یا 3 سوال در مورد لیست های پیوندی انجام دهید. 
+1. به سراغ مبحث بعدی بروید.
+1. بعد ها دوباره به مبحث لیست های پیوندی برگردید و دو یا سه مسئله دیگر انجام دهید.
+1. این کار را با هر موضوع جدیدی که یاد می گیرید انجام دهید. 
 
-**Keep doing problems while you're learning all this stuff, not after.**
+**مسئله ها رو وقتی که دارید یاد میگیرید انجام دهید، نه بعد از آن**
 
-You're not being hired for knowledge, but how you apply the knowledge.
+شمام به خاطر دانشتون استخدام نمیشوید، بلکه به خاطر مهارت استفاده از اون دانش استخدام میشوید.
 
-There are many resources for this, listed below. Keep going.
+یه سری منابع پایین لیست شده.
 
-### 4. Focus
+### 4. تمرکز
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
+عوامل بیرونی زیادی وجود دارند که باعث حواس پرتی شما میشه. تمرکز و حواس جمع بودن خیلی سخته. برای تمرکز بهتر یک موسیقی بیکلام پخش کنید.
 
-## What you won't see covered
+## به چه چیزهایی پرداخته نشده
 
-These are prevalent technologies but not part of this study plan:
+موارد زیر فناوری های رایج هستند اما بخشی از این طرح مطالعه نیستند:
 
 - SQL
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## The Daily Plan
+## برنامه روزانه
 
-This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
+در این دوره به موضوعات زیادی پرداخته میشود. با توجه به زمان بندی شما ممکن است هر کدام از موضوعات چند روز و یا حتی یک هفته یا بیشتر زمان ببرد.
 
-Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation 
-of that data structure or algorithm in the language you chose for this course.
+هر روز، موضوع بعدی را در لیست انتخاب کنید، چند ویدیو در مورد آن موضوع تماشا کنید و سپس آن را با زبان برنامه نویسی که انتخاب کردید پیاده سازی کنید 
 
-You can see my code here:
+کد های من رو میتونید در اینجا ببینید:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
+شما نیازی به حفظ کردن هر الگوریتم ندارید. شما فقط باید بتوانید آنقدر آن را درک کنید تا بتوانید آنرا پیاده سازی کنید.
 
-## Coding Question Practice
+## تمرین مصاحبه کدنویسی
 
-    Why is this here? I'm not ready to interview.
+    چرا این اینجاست؟ من برای مصاحبه آماده نیستم.
 
-[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
+[پس این رو بخوانید.](#3-do-coding-interview-questions-while-youre-learning)
 
-Why you need to practice doing programming problems:
+چرا باید انجام مسائل برنامه نویسی را تمرین کنید:
 - Problem recognition, and where the right data structures and algorithms fit in
 - Gathering requirements for the problem
 - Talking your way through the problem like you will in the interview
@@ -522,38 +518,37 @@ Why you need to practice doing programming problems:
 - Coming up with time and space complexity for your solutions (see Big-O below)
 - Testing your solutions
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+یک مقدمه عالی برای حل مسئله روشمند و ارتباطی در مصاحبه وجود دارد:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
+کد را روی تخته سفید یا کاغذ بنویسید، نه کامپیوتر. با چند ورودی نمونه تست کنید. سپس آن را تایپ کرده و روی کامپیوتر تست کنید.
 
-If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice. 
-This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase. 
-Gets messy quick. **I use a pencil and eraser.**
+اگر در خانه تخته وایت برد ندارید، یک پد طراحی بزرگ از یک فروشگاه هنری بردارید. می توانید روی مبل بنشینید و تمرین کنید. 
+در پایین تصویر دفتر سفیدی که استفاده  میکردم رو میبینید، خودکار رو برای بهتر شدن تصویر اضافه کردم. اگه با خودکار توی این دفتر بنویسید آرزو میکنید کاش میتوانستید پاک کنید. 
+**از مداد و پاک کن استفاده کنید.**
 
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**نباید پاسخ سوالات رو به خاطر بسپارید باید مسائل رو یاد بگیرید.**
 
-## Coding Problems
+## مسائل برنامه نویسی
 
-Don't forget your key coding interview books [here](#interview-prep-books).
+کتاب کلیدی مصاحبه کد نویسی رو فراموش نکنید [اینجا](#interview-prep-books).
 
-Solving Problems:
-- [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
-- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
+حل مسئله:
+- [چگونگی پیدا کردن راه حل](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+- [نحوه تشریح یک مسئله](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+ویدئوهای مربوط به سوال های مصاحبه کدنویسی:
 - [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - Super for walkthroughs of problem solutions
+    - فوق العاده برای بررسی راه حل های مشکل
 - [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
+    - توضیحات خوب راه حل و کد
     - You can watch several in a short time
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
-Challenge sites:
+سایت های چالشی:
 - [LeetCode](https://leetcode.com/)
     - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
     - See Nick White and FisherCoder Videos above for code walk-throughs.
@@ -563,18 +558,18 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/)
 - [Project Euler](https://projecteuler.net/)
 
-## Let's Get Started
+## بیایید شروع کنیم
 
-Alright, enough talk, let's learn!
+خوب، صحبت کافی است، بیایید یاد بگیریم!
 
-But don't forget to do coding problems from above while you learn!
+اما فراموش نکنید که در حین یادگیری، مسائل کدنویسی را از بالا انجام دهید!
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## پیچیدگی الگوریتمی / Big-O / تحلیل مجانبی
 
-- Nothing to implement here, you're just watching videos and taking notes! Yay!
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- Don't worry if you don't understand all the math behind it.
-- You just need to understand how to express the complexity of an algorithm in terms of Big-O.
+- اینجا چیزی برای پیاده سازی نیست، شما فقط فیلم ها را تماشا می کنید و یادداشت برداری می کنید! آری
+- ویدیوهای زیادی در اینجا وجود دارد. تا حدی ویدیو ها رو ببینید تا مباحث رو متوجه بشید. میتوانید بعدا برای مرور برگردید.
+- اگر تمام ریاضیات پشت آن را متوجه نمیشوید نگران نباشید.
+- فقط باید بدانید که چگونه پیچیدگی یک الگوریتم را بر حسب Big-O بیان کنید..
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -588,21 +583,21 @@ But don't forget to do coding problems from above while you learn!
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
-Well, that's about enough of that. 
+بسیارخب، فکر کنم در همین حد کافی باشه. 
 
-When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see 
-if you can identify the runtime complexity of different algorithms. It's a super review and test.
+وقتی دارید کتاب "Cracking the Coding Interview" رو مطالعه میکنید، یک فصل در این مورد در آنجا وجود داره.
+اگر بتوانید پیچیدگی زمان اجرای الگوریتم های مختلف رو شناسایی کنید. فرصت خوبیه برای بررسی و تست مسائل
 
-## Data Structures
+## ساختمان داده
 
-- ### Arrays
-    - [ ] About Arrays:
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+- ### آرایه ها
+    - [ ] درمورد آرایه ها:
+        - [آرایه ها (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [آرایه پویا (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+    - [ ] پیاده سازی vector (mutable array with automatic resizing):
+        - [ ] تمرین آرایه ها و اشاره گر ها, استفاده از اشاره گر به جای ایندکس در آرایه.
         - [ ] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
@@ -627,7 +622,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
+- ### لیست های پیوندی
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
@@ -661,11 +656,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
 
-- ### Stack
+- ### پشته
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] Will not implement. Implementing with array is trivial
 
-- ### Queue
+- ### صف
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] Implement using linked-list, with tail pointer:
@@ -684,7 +679,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### Hash table
+- ### جدول هش
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -709,9 +704,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - get(key)
         - remove(key)
 
-## More Knowledge
+## دانستنی های بیشتر
 
-- ### Binary search
+- ### جستجوی دودویی
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
@@ -746,7 +741,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## درخت
 
 - ### Trees - Notes & Background
     - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)

@@ -60,6 +60,22 @@
         <strong>Special thanks to:</strong>
     </p>
     <p>
+		<a href="https://simplify.jobs/?utm_source=github&utm_medium=coding-interview-university">
+			<div>
+				<img src="https://res.cloudinary.com/dpeo4xcnc/image/upload/v1637058958/simplify_banner.png" width="450"  alt="Simplify">
+			</div>
+            <div>
+                <p>
+                    <strong>Applying to jobs? Autofill all your applications in 1-click.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Stop manually re-entering your information. Simplify’s extension helps you autofill jobs &amp; internship applications on millions of sites.</sup>
+            </div>
+		</a>
+	</p>
+    <br />
+    <p>
         <a href="https://oss.capital/">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
@@ -1214,6 +1230,9 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## Find a Job
 
+- [Simplify](https://simplify.jobs/?utm_source=github&utm_medium=coding-interview-university&utm_campaign=find_jobs)
+    - Simplify is a platform that offers curated lists of jobs like *Software Roles at Unicorns* and *SWE Roles at Big Tech Companies*. They also offer a
+     free browser extension that helps you autofill job applications on millions of sites.
 - [Sites for Finding Jobs](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
 
 ## Interview Process & General Interview Prep

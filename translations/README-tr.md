@@ -53,18 +53,34 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Sponsor olun</strong> ve Kodlama Mülakatı Üniversitesi'ni destekleyin!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
     </p>
     <p>
-        <strong>Özellikte teşekkürler:</strong>
+        <strong>Special thanks to:</strong>
     </p>
+    <p>
+        <a href="https://simplify.jobs/?utm_source=github&utm_medium=coding-interview-university">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/simplify-logo.png" width="400"  alt="Simplify">
+            </div>
+            <div>
+                <p>
+                    <strong>Applying to jobs? Autofill all your applications in 1-click.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Stop manually re-entering your information. Simplify’s extension helps you autofill jobs &amp; internship applications on millions of sites.</sup>
+            </div>
+        </a>
+    </p>
+    <br />
     <p>
         <a href="https://oss.capital/">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
             </div>
             <div>
-                <sup><strong>2018'de kurulan OSS Capital, yalnızca erken aşamadaki COSS (ticari açık kaynak) start-up<br> kurucularını desteklemeye odaklanan ilk ve tek risk sermayesi platformudur.</strong></sup>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
             </div>
         </a>
     </p>
@@ -76,11 +92,11 @@
             </div>
             <div>
                 <p>
-                    <strong>Bulut için oluşturulmuş geliştirme ortamları</strong>
+                    <strong>Dev environments built for the cloud</strong>
                 </p>
             </div>
             <div>
-                <sup>GitLab, GitHub ve Bitbucket ile yerel olarak entegre olan Gitpod, tüm branchlarınız için otomatik olarak ve sürekli olarak geliştirme ortamları oluşturur. Sonuç olarak, ekip üyeleri her yeni görev için anında yeni geliştirme ortamlarıyla kodlamaya başlayabilir - ister yeni bir özellik oluşturuyor olun, ister bir hatayı düzeltmek istiyor olun, ister bir kod incelemesi üzerinde çalışıyor olun.</sup>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
             </div>
         </a>
     </p>

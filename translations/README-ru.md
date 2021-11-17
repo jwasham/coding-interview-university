@@ -5,11 +5,27 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Станьте спонсором</strong> и поддержите Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
     </p>
     <p>
         <strong>Особые благодарности:</strong>
     </p>
+    <p>
+        <a href="https://simplify.jobs/?utm_source=github&utm_medium=coding-interview-university">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/simplify-logo.png" width="400"  alt="Simplify">
+            </div>
+            <div>
+                <p>
+                    <strong>Applying to jobs? Autofill all your applications in 1-click.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Stop manually re-entering your information. Simplify’s extension helps you autofill jobs &amp; internship applications on millions of sites.</sup>
+            </div>
+        </a>
+    </p>
+    <br />
     <p>
         <a href="https://oss.capital/">
             <div>
@@ -32,12 +48,12 @@
                 </p>
             </div>
             <div>
-		    <sup>
-			    Изначально интегрированный с GitLab, GitHub и Bitbucket, Gitpod автоматически, продолжительно и предварительно собирает
-			    среды разработки всех ветвей (branches). В результате члены команды могут мгновенно приступить к написанию кода с новыми
-			    средами разработки для каждой новой задачи - независимо от того, создаете ли вы новую функцию (feature), хотите исправить ошибку
-			    или работаете над проверкой кода (code review). 
-		    </sup>
+                <sup>
+                    Изначально интегрированный с GitLab, GitHub и Bitbucket, Gitpod автоматически, продолжительно и предварительно собирает
+                    среды разработки всех ветвей (branches). В результате члены команды могут мгновенно приступить к написанию кода с новыми
+                    средами разработки для каждой новой задачи - независимо от того, создаете ли вы новую функцию (feature), хотите исправить ошибку
+                    или работаете над проверкой кода (code review). 
+                </sup>            
             </div>
         </a>
     </p>

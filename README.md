@@ -60,10 +60,10 @@
         <strong>Special thanks to:</strong>
     </p>
     <p>
-		<a href="https://simplify.jobs/?utm_source=github&utm_medium=coding-interview-university">
-			<div>
-				<img src="https://res.cloudinary.com/dpeo4xcnc/image/upload/v1637058958/simplify_banner.png" width="450"  alt="Simplify">
-			</div>
+        <a href="https://simplify.jobs/?utm_source=github&utm_medium=coding-interview-university">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/simplify-logo.png" width="350"  alt="Simplify">
+            </div>
             <div>
                 <p>
                     <strong>Applying to jobs? Autofill all your applications in 1-click.</strong>
@@ -72,8 +72,8 @@
             <div>
                 <sup>Stop manually re-entering your information. Simplify’s extension helps you autofill jobs &amp; internship applications on millions of sites.</sup>
             </div>
-		</a>
-	</p>
+        </a>
+    </p>
     <br />
     <p>
         <a href="https://oss.capital/">

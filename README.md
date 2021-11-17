@@ -62,7 +62,7 @@
     <p>
         <a href="https://simplify.jobs/?utm_source=github&utm_medium=coding-interview-university">
             <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/simplify-logo.png" width="350"  alt="Simplify">
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/simplify-logo.png" width="400"  alt="Simplify">
             </div>
             <div>
                 <p>

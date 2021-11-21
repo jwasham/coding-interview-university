@@ -39,7 +39,6 @@
 - [أردو](https://github.com/jwasham/coding-interview-university/issues/140)
 - [التايلندية](https://github.com/jwasham/coding-interview-university/issues/156)
 - [اليونانية](https://github.com/jwasham/coding-interview-university/issues/166)
-- [الإيطالية](https://github.com/jwasham/coding-interview-university/issues/170)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 
 </details>

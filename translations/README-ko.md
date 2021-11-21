@@ -47,7 +47,6 @@
 - [우르두어](https://github.com/jwasham/coding-interview-university/issues/140)
 - [태국어](https://github.com/jwasham/coding-interview-university/issues/156)
 - [그리스어](https://github.com/jwasham/coding-interview-university/issues/166)
-- [이탈리아어](https://github.com/jwasham/coding-interview-university/issues/170)
 - [말라얄람어](https://github.com/jwasham/coding-interview-university/issues/239)
 
 </details>

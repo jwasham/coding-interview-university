@@ -32,7 +32,6 @@
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [タイ語](https://github.com/jwasham/coding-interview-university/issues/156)
 - [ギリシャ語](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 
 <div align="center">
 	<hr />

@@ -39,7 +39,6 @@
 -[উর্দু] (https://github.com/jwasham/coding-interview-university/issues/140)
 -[থাই] (https://github.com/jwasham/coding-interview-university/issues/156)
 -[গ্রীক] (https://github.com/jwasham/coding-interview-university/issues/166)
--[ইতালি] (https://github.com/jwasham/coding-interview-university/issues/170)
 -[মালায়ালাম] (https://github.com/jwasham/coding-interview-university/issues/239)
 -[জাপানীজ ( 日本語)] (https://github.com/jwasham/coding-interview-university/issues/257)
  

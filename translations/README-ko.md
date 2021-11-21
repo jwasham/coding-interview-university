@@ -126,7 +126,7 @@
 - [이건 대체 뭐하는 건가요?](#이건-대체-뭐하는-건가요)
 - [이걸 왜 해야하죠?](#이걸-왜-해야하죠)
 - [어떻게 하면 되나요?](#어떻게-하면-되나요)
-- [머리가 나쁘다고 자책하지 마세요](#-머리가-나쁘다고-자책하지-마세요)
+- [머리가 나쁘다고 자책하지 마세요](#머리가-나쁘다고-자책하지-마세요)
 - [영상 자료에 관하여](#영상-자료에-관하여)
 - [프로그래밍 언어 선택하기](#프로그래밍-언어-선택하기)
 - [자료구조와 알고리즘에 대한 도서](#자료구조와-알고리즘에-대한-도서)
@@ -147,12 +147,12 @@
   - [큐](#큐)
   - [해시 테이블](#해시-테이블)
 - [추가 지식](#추가-지식)
-  - [이진 탐색/이진 검색](#binary-search)
-  - [비트 연산](#bitwise-operations)
+  - [이진 탐색/이진 검색](#이진-탐색)
+  - [비트 연산](#비트-연산)
 - [트리](#트리)
-  - [트리 - 배경지식](#trees---notes--background)
-  - [이진 탐색 트리(BST)](#binary-search-trees-bsts)
-  - [힙 / 우선순위 큐 / 이진 힙](#heap--priority-queue--binary-heap)
+  - [트리 - 배경 지식](#트리---배경-지식)
+  - [이진 탐색 트리 (BST)](#이진-탐색-트리-BST)
+  - [힙 / 우선순위 큐 / 이진 힙](#힙--우선순위-큐--이진-힙)
   - 균형 탐색 트리 (간단한 개념)
   - 트리 순회: 전위 순회, 중위 순회, 후위 순회, 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)
 - [정렬](#정렬)
@@ -167,27 +167,25 @@
   - 인접 행렬
   - 인접 리스트
   - 그래프 순회: 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)
-- [더 많은 지식](#even-more-knowledge)
-  - [재귀](#recursion)
-  - [동적 프로그래밍](#dynamic-programming)
-  - [객체 지향 프로그래밍](#object-oriented-programming)
-  - [디자인 패턴](#design-patterns)
-  - [조합 & 확률](#combinatorics-n-choose-k--probability)
-  - [NP와 NP-완전, 그리고 근사 알고리즘](#np-np-complete-and-approximation-algorithms)
-  - [캐시](#caches)
-  - [프로세스와 쓰레드](#processes-and-threads)
+- [더 많은 지식](#더-많은-지식)
+  - [재귀 (recursion)](#재귀-recursion)
+  - [동적 프로그래밍 (Dynamic Programming)](#동적-프로그래밍-Dynamic-Programming)
+  - [디자인-패턴](#디자인-패턴)
+  - [조합과 확률](#조합과-확률)
+  - [NP, NP-완전, 근사 알고리즘](#NP-NP-완전-근사-알고리즘)
+  - [컴퓨터가 프로그램을 처리하는 방식](#컴퓨터가-프로그램을-처리하는-방식)
+  - [캐시](#캐시)
+  - [프로세스와 쓰레드](#프로세스와-쓰레드)
   - [테스트](#테스트)
-  - [스케줄링](#scheduling)
-  - [시스템 루틴의 구현](#implement-system-routines)
-  - [문자열 검색 & 조작](#string-searching--manipulations)
-  - [트라이](#tries)
-  - [부동 소수점](#floating-point-numbers)
-  - [유니코드](#unicode)
+  - [문자열 검색 & 조작](#문자열-검색--조작)
+  - [트라이](#트라이)
+  - [부동 소수점](#부동-소수점)
+  - [유니코드](#유니코드)
   - [엔디언(Endianness)](#endianness)
-  - [네트워크](#networking)
+  - [네트워크](#네트워크)
 - [최종 검토](#최종-검토)
 
-### 직업 구하기
+### 구직 & 취업하기
 
 - [면접이 얼마 남지 않았을 때](#면접이-얼마-남지-않았을-때)
 - [이력서](#이력서)
@@ -634,34 +632,31 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
         이 페이지는 포인터가 포인터를 가리키는 것을 파악하는 정도입니다. 저는 아래 목록을 순서대로 읽지 않기를 권장합니다. 가독성과 유지 보수성이 더 좋기 때문입니다.
     - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
   - [ ] 구현 (저는 tail 포인터가 있는 것과 없는 것 모두 구현했었습니다.):
-    - [ ] size() - returns number of data elements in list
-    - [ ] empty() - bool returns true if empty
-    - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-    - [ ] push_front(value) - adds an item to the front of the list
-    - [ ] pop_front() - remove front item and return its value
-    - [ ] push_back(value) - adds an item at the end
-    - [ ] pop_back() - removes end item and returns its value
-    - [ ] front() - get value of front item
-    - [ ] back() - get value of end item
-    - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-    - [ ] erase(index) - removes node at given index
-    - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-    - [ ] reverse() - reverses the list
-    - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] size() - 리스트 안의 데이터 개수를 반환한다.
+    - [ ] empty() - 리스트가 비어있다면 true를 반환한다.
+    - [ ] value_at(index) - index번째 위치의 value을 반환한다. (가장 앞은 0부터 시작한다.)
+    - [ ] push_front(value) - 가장 앞에 value를 추가한다.
+    - [ ] pop_front() - 가장 앞에 있는 것을 제거하고, 그 value를 반환한다.
+    - [ ] push_back(value) - 가장 끝에 value을 추가한다.
+    - [ ] pop_back() - 가장 끝에 있는 것을 제거하고, 그 value를 반환한다.
+    - [ ] front() - 가장 앞에 있는 것의 value를 가져온다.
+    - [ ] back() - 가장 끝에 있는 것의 value를 가져온다.
+    - [ ] insert(index, value) - index번째 위치에 value를 추가한다. 즉, index번째에 새로 추가된 것이 기존의 index번째에 있던 것을 가리킨다.
+    - [ ] erase(index) - index번째에 있는 노드를 삭제한다.
+    - [ ] value_n_from_end(n) - 뒤에서부터 n번째에 있는 노드의 value를 반환한다.
+    - [ ] reverse() - 리스트를 뒤집는다.
+    - [ ] remove_value(value) - value와 같은 값을 가지는 첫 번째 노드를 제거한다.
   - [ ] 이중 연결 리스트
     - [설명 (영상)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
     - 구현할 필요는 없습니다.
 
 - ### 스택
   - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-  - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
   - [ ] Will not implement. Implementing with array is trivial.
 
 - ### 큐
-  - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
   - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-  - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)05_04-priorityQueuesAndDeques.mp4)
   - [ ] tail 포인터가 있는 연결 리스트를 사용하여 구현하기:
     - enqueue(value) - tail이 가리키는 곳에 value를 추가한다
     - dequeue() - value를 반환하고 가장 최근에 추가된 원소(front)를 제거한다.
@@ -708,7 +703,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 
 ## 추가 지식
 
-- ### Binary search
+- ### 이진 탐색
   - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
   - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
   - [ ] [자세한 내용](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
@@ -716,7 +711,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
     - (정수가 정렬된 배열에서) 이진 탐색
     - 재귀를 사용한 이진 탐색
 
-- ### Bitwise operations
+- ### 비트 연산
   - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
   - [ ] 비트 연산자(&, |, ^, ~, >>, <<) 제대로 이해하기
     - [ ] [워드](https://en.wikipedia.org/wiki/Word_(computer_architecture))
@@ -744,7 +739,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 
 ## 트리
 
-- ### Trees - Notes & Background
+- ### 트리 - 배경 지식
   - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
   - 트리 기초 형태 만들기
   - 순회
@@ -765,10 +760,8 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
       - 후위(postorder) (DFS: 왼쪽, 오른쪽, 자신)
       - 전위(preorder) (DFS: 자신, 왼쪽, 오른쪽)
 
-- ### Binary search trees: BSTs
+- ### 이진 탐색 트리 (BST)
   - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-  - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-    - starts with symbol table and goes through BST applications
   - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
   - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
   - C/C++:
@@ -795,7 +788,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
     - [ ] delete_value
     - [ ] get_successor // 값이 주어지면, 다음으로 가장 큰 값을, 없으면 -1을 반환
 
-- ### Heap / Priority Queue / Binary Heap
+- ### 힙 / 우선순위 큐 / 이진 힙
   - 트리처럼 보여지지만, 보통은 선형으로 저장됩니다. (배열, 링크드리스트처럼)
   - [ ] [힙(Heap)](https://en.wikipedia.org/wiki/Heap_(data_structure))
   - [ ] [소개 (영상)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
@@ -961,9 +954,9 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 
 Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그래프 실습을 할 수 있습니다.
 
-## Even More Knowledge
+## 더 많은 지식
 
-- ### Recursion
+- ### 재귀 (recursion)
   - [ ] 재귀와 백트래킹에 대한 스탠포드 대학 강의:
     - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
     - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -974,7 +967,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [꼬리 재귀가 무엇이고 왜 그게 좋지 않은지에 대하여](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
     - [ ] [꼬리 재귀 (영상)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
-- ### Dynamic Programming
+- ### 동적 프로그래밍 (Dynamic Programming)
   - 인터뷰에서 DP 문제를 접하지 않을 수도 있습니다. 하지만 알고 있는게 미뤄두는 것 보다 낫습니다.
   - 이 주제는 아주 어렵습니다. DP로 풀리는 각 문제마다 어떤 점화식을 정의해야 하는데 그게 까다롭습니다.
   - 얽혀있는 패턴들을 확실히 이해할 때까지, 많은 DP 예시 문제들을 찾아보기를 권합니다.
@@ -1000,14 +993,9 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
     - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Object-Oriented Programming
-  - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-  - [ ] SOLID OOP Principles:
-    - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-
-- ### Design patterns
+- ### 디자인 패턴
   - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-  - [ ] Learn these patterns:
+  - [ ] 아래 패턴들을 배워봅시다:
     - [ ] strategy
     - [ ] singleton
     - [ ] adapter
@@ -1034,7 +1022,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
   - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
   - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
-- ### Combinatorics (n choose k) & Probability
+- ### 조합과 확률
   - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
   - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
   - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
@@ -1044,7 +1032,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - Just the videos - 41 (each are simple and each are short):
       - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### NP, NP-Complete and Approximation Algorithms
+- ### NP, NP-완전, 근사 알고리즘
   - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
   - Know what NP-complete means.
@@ -1065,7 +1053,15 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
   - Pages 1048 - 1140 in CLRS if you have it.
 
-- ### Caches
+- ### 컴퓨터가 프로그램을 처리하는 방식
+
+    - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+    - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+
+- ### 캐시
   - [ ] LRU cache:
     - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
     - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
@@ -1074,24 +1070,24 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
     - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processes and Threads
+- ### 프로세스와 쓰레드
   - [ ] Computer Science 162 - Operating Systems (25 videos):
     - for processes and threads see videos 1-11
     - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
   - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-  - Covers:
-    - Processes, Threads, Concurrency issues
-      - difference between processes and threads
-      - processes
-      - threads
-      - locks
-      - mutexes
-      - semaphores
-      - monitors
-      - how they work
-      - deadlock
-      - livelock
-    - CPU activity, interrupts, context switching
+  - 알아 두어야 할 것:
+    - 프로세스, 쓰레드, 동시성 문제들
+      - 프로세스와 쓰레드의 차이점
+      - 프로세스
+      - 쓰레드
+      - 락(Locks)
+      - 뮤텍스(Mutexes)
+      - 세마포어(Semaphores)
+      - Monitors
+      - 각각이 어떻게 동작하는지?
+      - 데드락(Deadlock)
+      - 라이브락(Livelock)
+    - CPU activity, 인터럽트(interrupts), 문맥 교환(context switching)
     - Modern concurrency constructs with multicore processors
     - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
     - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
@@ -1099,8 +1095,9 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
     - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
     - Context switching
-      - How context switching is initiated by the operating system and underlying hardware
+      - How context switching is initiated by the operating system and underlying hardware?
   - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+  - [ ] [CS 377 Spring '14: Operating Systems from University of Massachusetts](https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k)
   - [ ] concurrency in Python (videos):
     - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
     - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
@@ -1125,11 +1122,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
   - [ ] [테스트 어떻게 작성하는지](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
-  - 운영체제(OS)에서 어떻게 동작하는지
-  - 운영 체제 관련 영상들에서 알아보실 수 있습니다.
-
-- ### String searching & manipulations
+- ### 문자열 검색 & 조작
   - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
   - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
     - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
@@ -1141,7 +1134,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 
     이 주제를 더 자세히 알고 싶으시다면, [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)에서 "문자열 매칭" 섹션을 읽어보세요.
 
-- ### Tries
+- ### 트라이
   - 트라이에는 여러 종류가 있다는 것을 유의하라. 어떤 건 접두사가 있는 데, 어떤 건 그렇지 않고 또 어떤 것은 경로 추적을 위해 비트 대신에 문자열을 사용한다.
   - 나는 코드만 읽었고, 구현은 안 했다.
   - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
@@ -1158,11 +1151,11 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
   - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
   - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### Floating Point Numbers
+- ### 부동 소수점
   - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
   - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
-- ### Unicode
+- ### 유니코드
   - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
   - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
 
@@ -1173,7 +1166,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
     - Very technical talk for kernel devs. Don't worry if most is over your head.
     - The first half is enough.
 
-- ### Networking
+- ### 네트워크
   - **만약 당신이 네트워크에 대한 경험이 있거나 operations engineer 또는 믿음직한 엔지니어가 되고 싶다면 받을 수 있는 질문들**
   - 즉, 알면 좋은 것들이다.
   - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)

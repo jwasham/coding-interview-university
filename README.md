@@ -139,7 +139,7 @@ software development/engineering roles.
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [The Daily Plan](#the-daily-plan)
 - [Coding Question Practice](#coding-question-practice)
-- [Coding Problems](#coding-problems)
+[x] [Coding Problems](#coding-problems)
 
 ### Topics of Study
 

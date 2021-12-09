@@ -594,6 +594,7 @@ But don't forget to do coding problems from above while you learn!
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=dphSwq5jP1A&list=PLOtl7M3yp-DXbHTFe_w9zFPXeau28CDao&ab_channel=StevenSkiena)
     - [video](https://www.youtube.com/watch?v=-2EKpL7dwCQ&list=PLOtl7M3yp-DXbHTFe_w9zFPXeau28CDao&index=2)
+    - [slides](https://www3.cs.stonybrook.edu/~skiena/373/oldlectures/)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] TopCoder (includes recurrence relations and master theorem):

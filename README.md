@@ -591,7 +591,7 @@ But don't forget to do coding problems from above while you learn!
 - [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [x] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] Skiena:
+- [x] Skiena:
     - [video](https://www.youtube.com/watch?v=dphSwq5jP1A&list=PLOtl7M3yp-DXbHTFe_w9zFPXeau28CDao&ab_channel=StevenSkiena)
     - [video](https://www.youtube.com/watch?v=-2EKpL7dwCQ&list=PLOtl7M3yp-DXbHTFe_w9zFPXeau28CDao&index=2)
     - [slides](https://www3.cs.stonybrook.edu/~skiena/373/oldlectures/)

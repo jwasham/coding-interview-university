@@ -121,7 +121,7 @@
 ### Теми за учене
 
 -   [Алгоритмична сложност / Big-O / Асимптотичен анализ](#алгоритмична-сложност--big-o--асимптотичен-анализ)
--   [Data Structures](#data-structures)
+-   [Структури от данни](#структури-от-данни)
     -   [Масиви (Arrays)](#масиви)
     -   [Свързани списъци(Linked Lists)](#свързани-списъци)
     -   [Стек (Stack)](#стек)
@@ -156,7 +156,7 @@
     -   [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
     -   [Как компютрите обработват една програма](#как-компютрите-обработват-една-програма)
     -   [Кеширане (Caches)](#кеширане)
-    -   [Processes and Threads](#processes-and-threads)
+    -   [Процеси и нишки](#процеси-и-нишки)
     -   [Тестване (Testing)](#тестване)
     -   [String searching & manipulations](#string-searching--manipulations)
     -   [Tries](#tries)
@@ -179,29 +179,29 @@
 
 ### Допълнителни теми и ресурси
 
--   [Additional Books](#additional-books)
--   [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
+-   [Допълнителни книги](#допълнителни-книги)
+-   [Системен дизайн, мащабируемост, обработка на данни](#системен-дизайн-мащабируемост-обработка-на-данни) (ако имате над 4 години опит)
 -   [Additional Learning](#additional-learning)
-    -   [Compilers](#compilers)
+    -   [Компилатори](#компилатори)
     -   [Emacs and vi(m)](#emacs-and-vim)
     -   [Unix command line tools](#unix-command-line-tools)
     -   [Information theory](#information-theory-videos)
-    -   [Parity & Hamming Code](#parity--hamming-code-videos)
-    -   [Entropy](#entropy)
-    -   [Cryptography](#cryptography)
-    -   [Compression](#compression)
-    -   [Computer Security](#computer-security)
+    -   [Паритет & код на Хаминг](#паритет--код-на-хаминг)
+    -   [Ентропия](#ентропия)
+    -   [Криптография](#криптография)
+    -   [Компресия](#компресия)
+    -   [Компютърна сигурност](#компютърна-сигурност)
     -   [Garbage collection](#garbage-collection)
-    -   [Parallel Programming](#parallel-programming)
-    -   [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    -   [Паралелно програмиране](#паралелно-програмиране)
+    -   [Системи за съобщения, сериализация и queueing](#системи-за-съобщения-сериализация-и-queueing)
     -   [A\*](#a)
     -   [Fast Fourier Transform](#fast-fourier-transform)
     -   [Bloom Filter](#bloom-filter)
     -   [HyperLogLog](#hyperloglog)
     -   [Locality-Sensitive Hashing](#locality-sensitive-hashing)
     -   [van Emde Boas Trees](#van-emde-boas-trees)
-    -   [Augmented Data Structures](#augmented-data-structures)
-    -   [Balanced search trees](#balanced-search-trees)
+    -   [Разширени структури от данни](#разширени-структури-от-данни)
+    -   [Балансирани дървета за търсене](#балансирани-дървета-за-търсене)
         -   AVL trees
         -   Splay trees
         -   Red/black trees
@@ -211,17 +211,45 @@
         -   B-Trees
     -   [k-D Trees](#k-d-trees)
     -   [Skip lists](#skip-lists)
-    -   [Network Flows](#network-flows)
+    -   [Мрежови потоци](#мрежови-потоци)
     -   [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    -   [Math for Fast Processing](#math-for-fast-processing)
+    -   [Математика за бърза обработка](#математика-за-бърза-обработка)
     -   [Treap](#treap)
-    -   [Linear Programming](#linear-programming-videos)
+    -   [Линейно програмиране](#линейно-програмиране)
     -   [Geometry, Convex hull](#geometry-convex-hull-videos)
-    -   [Discrete math](#discrete-math)
+    -   [Дискретна математика](#дискретна-математика)
     -   [Machine Learning](#machine-learning)
--   [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
--   [Video Series](#video-series)
--   [Computer Science Courses](#computer-science-courses)
+-   [Допълнителни детайли по някои теми](#допълнителни-детайли-по-някои-теми)
+-   [Видео серии](#видео-серии)
+-   [Курсове по компютърни науки](#курсове-по-компютърни-науки)
 -   [Papers](#papers)
 
 ---
+
+## Защо да го ползвате?
+
+Ако искате да работите като софтуерен инженер в голяма компания, това са нещата, които трябва да знаете.
+
+Ако също като мен не сте учили компютърни науки в университет това ще Ви помогне да наваксате и ще Ви спести години.
+
+Когато започнах този проект не знаех какво е стек или опашка, нямах представа какво е Big-O, не знаех нищо за дървета или как да обхождам графи. Ако трябваше да напиша сортиращ алгоритъм мога да Ви кажа, че бих се справил ужасно. Всяка от структурите от данни, които бях използвал досега бяха имплементирани в езика, който ползвах и нямах представа как работят реално. Никога не ми се беше налагало да управлявам памет освен ако някой от процесите, които бях пуснал не връщаха грешка "out of memory"- тогава се налагаше да търся заобиколен път. Бях ползвал хиляди асоциативни масиви и многоизмерни масиви няколко пъти, но никога преди не бях имплементирал структури от данни от нулата.
+
+Планът е дълъг. Може да Ви отнеме месеци. Ако вече сте запознати с повечето от темите ще Ви отнеме многи по-малко
+
+## Как да го ползвате
+
+Всичко надолу е само схематично изложение и трябва да преминете през темите от горе до долу.
+
+## Не мислете, че не сте достатъчно умни
+
+-   Успешните софтуерни инженери са умни, но много имат чувството, че не са достатъчно умни
+-   [Митът за гениалния програмист](https://www.youtube.com/watch?v=0SARbwvhupQ)
+-   [Опасно е да сте сами: битката с невидимите чудовища в IT](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+
+## Бележка за видео ресурсите
+
+Някои видеа са достъпни само след записване в курс на Coursera или EdX- т.нар. MOOCs. Понякога се налага да изчакате няколко месеца, за да стартира ново издание на курса, така че няма да имате достъп до тях.
+
+Би било чудесно такива ресурси да бъдат заменену с безплатни и винаги-достъпни публични източници като YouTube видеота (по възможност университетски лекции), за да могат всички да учат навсякъде и по всяко време, а не само когато даден курс върви в момента.
+
+## Изберете език за програмиране

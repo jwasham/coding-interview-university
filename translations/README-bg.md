@@ -449,3 +449,94 @@
 -   [Python](https://github.com/jwasham/practice-python)
 
 Не е нужно да помните всеки алгоритъм наизуст. Необходимо е просто да ги разбирате достатъчно добре, за да можете да напишете собствена имплементация.
+
+## Подготовка за въпроси за програмиране
+
+    Защо това е тук? Аз не съм готов да се явя на интервю.
+
+[Тогава се върни и прочети това.](#3-решавайте-задачи-от-интервюта-по-програмиране-докато-учите)
+
+Защо трябва да се упражнявате да решавате задачи по програмиране:
+
+-   Разпознаване на проблеми и знанието кога и къде да ползвате дадена структура от данни или алгоритъм
+-   Събиране на изискванията за задачата
+-   Изговаряне на мислите Ви докато решавате както ще правите на интервюто
+-   Писане на код върху дъска или лист хартия вместо на компютър
+-   Намиране на времевата и пространствената сложност на решенията Ви (вижте Big-O надолу)
+-   Тестване на решенията Ви
+
+Пишете код на дъска или лист хартия вместо на компютър. Тествайте с няколко различни входни данни. След това го напишете и тествайте на компютър.
+
+Ако нямате дъска за писане вкъщи можете да си купите голям тефтер от магазин за арт материали. Можете просто да седите на дивана и да се упражнявате. Това е моята "дъска за дивана". Добавих химикала към снимката за съпоставка на размера. Ако използвате химикал бързо ще ви се поиска да можеше да триете написаното- бързо става мазало. **Аз ползвам молив и гума.**
+
+![моята дъска за дивана](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**Когато се упражнявате да решавате задачи по програмиране не трябва да помните решенията наизуст.**
+
+## Задачи по програмиране
+
+Не забравяйте основните книги за подготовка за интервюто по програмиране [тук](#книги-за-подготовка-за-интервю)
+
+Решаване на задачи:
+
+-   [Как да намерим решение](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+-   [Как да направим дисекция на условие на задача от Topcoder](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
+
+Клипове за задачи от интервюта по програмиране:
+
+-   [IDeserve (88 клипа)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+-   [Tushar Roy (5 плейлисти)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    -   Супер за насоки за решаване на задачи
+-   [Nick White - LeetCode Solutions (187 клипа)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    -   Добро обяснение на решението и кода
+    -   Можете да изгледате няколко клипа в малък прозорец от време
+-   [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+
+Сайтове със задачи:
+
+-   [LeetCode](https://leetcode.com/)
+    -   Любимият ми сайт със задачи. Струва си парите за абонамент за времето, в което ще се подготвяте.
+    -   Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки със някои задачи.
+-   [HackerRank](https://www.hackerrank.com/)
+-   [TopCoder](https://www.topcoder.com/)
+-   [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+-   [InterviewBit](https://www.interviewbit.com/)
+-   [Project Euler](https://projecteuler.net/)
+
+## Да започваме
+
+Добре, стига сме говорили, нека да учим!
+
+Но не забравяйте да решавате задачи от източниците по-горе докато учите!
+
+## Алгоритмична сложност / Big-O / Асимптотичен анализ
+
+-   Няма нищо за имплементация тук, единствено ще гледате клипове и ще си водите записки! Йей!
+-   Има доста клипове тук. Просто изгледайте достатъчно докато не го разберете. Винаги можете да се върнете обратно и да преговорите.
+-   Не се притеснявайте ако не разбирате всичката математика, която стои отзад.
+-   Трябва просто да можете да изразите сложността на даден алгоритъм чрез Big-O
+-   [ ] [Harvard CS50 - Asymptotic Notation (клип)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+-   [ ] [Big O Notations (общ наръчник) (клип)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+-   [ ] [Big O Notation (и Omega, и Theta) - най-доброто математично обяснение (клип)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+-   [ ] Skiena:
+    -   [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    -   [slides](https://archive.org/details/lecture2_202008)
+-   [ ] [UC Berkeley Big O (клип)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+-   [ ] [Амортизиран анализ (клип)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+-   [ ] TopCoder (includes recurrence relations and master theorem):
+    -   [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
+    -   [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
+-   [ ] [Пищови](http://bigocheatsheet.com/)
+
+Е, това е достатъчно за тази тема.
+
+Когато четете "Cracking the Coding Interview" ще срещнете главата, която разглежда тази тема. Накрая на главата има кратък тест, който проверява дали можете да намерите сложността на различни алгоритми. Това е супер преговор и тест.
+
+## Структури от данни
+
+-   ### Масиви
+    -   [ ] За масивите:
+        -   [Arrays (клип)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        -   [UC Berkeley CS61B - Linear and Multi-Dim Arrays (клип)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        -   [Dynamic Arrays (клип)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        -   [Jagged Arrays (клип)](https://www.youtube.com/watch?v=1jtrQqYpt7g)

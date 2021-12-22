@@ -185,7 +185,7 @@
     -   [Компилатори](#компилатори)
     -   [Emacs and vi(m)](#emacs-and-vim)
     -   [Unix command line tools](#unix-command-line-tools)
-    -   [Information theory](#information-theory-videos)
+    -   [Information theory](#information-theory-клипs)
     -   [Паритет & код на Хаминг](#паритет--код-на-хаминг)
     -   [Ентропия](#ентропия)
     -   [Криптография](#криптография)
@@ -216,7 +216,7 @@
     -   [Математика за бърза обработка](#математика-за-бърза-обработка)
     -   [Treap](#treap)
     -   [Линейно програмиране](#линейно-програмиране)
-    -   [Geometry, Convex hull](#geometry-convex-hull-videos)
+    -   [Geometry, Convex hull](#geometry-convex-hull-клипs)
     -   [Дискретна математика](#дискретна-математика)
     -   [Machine Learning](#machine-learning)
 -   [Допълнителни детайли по някои теми](#допълнителни-детайли-по-някои-теми)
@@ -496,7 +496,7 @@
 
 -   [LeetCode](https://leetcode.com/)
     -   Любимият ми сайт със задачи. Струва си парите за абонамент за времето, в което ще се подготвяте.
-    -   Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки със някои задачи.
+    -   Вижте клиповете на Nick White и FisherCoder клипs по-горе за насоки със някои задачи.
 -   [HackerRank](https://www.hackerrank.com/)
 -   [TopCoder](https://www.topcoder.com/)
 -   [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
@@ -519,7 +519,7 @@
 -   [ ] [Big O Notations (общ наръчник) (клип)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 -   [ ] [Big O Notation (и Omega, и Theta) - най-доброто математично обяснение (клип)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 -   [ ] Skiena:
-    -   [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    -   [клип](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     -   [slides](https://archive.org/details/lecture2_202008)
 -   [ ] [UC Berkeley Big O (клип)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 -   [ ] [Амортизиран анализ (клип)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -535,8 +535,121 @@
 ## Структури от данни
 
 -   ### Масиви
+
     -   [ ] За масивите:
         -   [Arrays (клип)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         -   [UC Berkeley CS61B - Linear and Multi-Dim Arrays (клип)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         -   [Dynamic Arrays (клип)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         -   [Jagged Arrays (клип)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    -   [ ] Имплементирайте вектор (променлив масив с автоматично преоразмеряване):
+        -   [ ] Упражнявайте се да пишете код, ползвайки масиви и пойнтъри. Ползвайте пойнтъри за преместване към индекс вместо индексиране
+        -   [ ] New raw data array with allocated memory
+            -   can allocate int array under the hood, just not use its features
+            -   start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
+        -   [ ] size() - номер на елементите
+        -   [ ] capacity() - номер на елементите, които може да побира
+        -   [ ] is_empty()
+        -   [ ] at(index) - връща елемента на дадения индекс, ако индекса е извън границите на масива връща грешка
+        -   [ ] push(item)
+        -   [ ] insert(index, item) - вкарва елемента на дадения елемент, измествайки съществуващия елемент на този индекс и всички елементи след него надясно
+        -   [ ] prepend(item) - може да добавя елементи на индекс 0
+        -   [ ] pop() - премахва елемент от края и връща стойността му
+        -   [ ] delete(index) - изтрива елемента на дадения индекс и измества всички елементи след него наляво
+        -   [ ] remove(item) - търси стойността на елемента и премахва всички индекси, които я съдържат
+        -   [ ] find(item) - търси стойността на елемента и връща първия индекс, който я съдържа, или -1 ако няма такъв елемент
+        -   [ ] resize(new_capacity) // private function
+            -   когато достигнете максималния обем, преоразмерете като дублирате обема
+            -   когато pop-вате елемент, ако обема на масива е 1/4 от капацитета му, преоразмерете масива наполовина
+    -   [ ] Време
+        -   O(1) за добавяне/премахване към края, индексиране или актуализиране
+        -   O(n) за добавяне/премахване другаде
+    -   [ ] Пространство
+        -   contiguous in memory, so proximity helps performance
+        -   нужно място = (капацитета на масива, който е >= n) \* размера на елемента, но дори 2n, пак е O(n)
+
+-   ### Свързани списъци
+
+    -   [ ] Описание:
+        -   [ ] [Единично свързани списъци (клип)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        -   [ ] [CS 61B - Linked Lists 1 (клип)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        -   [ ] [CS 61B - Linked Lists 2 (клип)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    -   [ ] [Код в C (клип)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - не цялото видео, само частите за Node structs и алокация на памет
+    -   [ ] Свързани списъци срещу масиви:
+        -   [Core Linked Lists Vs Arrays (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        -   [Свързани списъци срещу масиви в истинския свят (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    -   [ ] [Защо да избягваме свързаните списъци (клип)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    -   [ ] Аха: трябват Ви pointer to pointer знания:
+            (за да можете да подавате pointer към функция, която може да промени адреса, към който сочи pointer-a)
+            Тази страница служи само да схванете ptr to ptr. Не препоръчвам този стил на обхождане на списъка. Четливостта и поддържаемостта страдат заради хитрости.
+        -   [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    -   [ ] Имплементация:
+        -   [ ] size() - връща броя на елементите
+        -   [ ] empty() - булева стойност, връща true ако списъка е празен
+        -   [ ] value_at(index) - връща стойността на n-тия елемент (почвайки от 0 за първия елемент)
+        -   [ ] push_front(value) - добавя стойност към началото на списъка
+        -   [ ] pop_front() - премахва първия елемент и връща стойността му
+        -   [ ] push_back(value) - добавя елемент към края
+        -   [ ] pop_back() - премахва последния елемент и връща стойността му
+        -   [ ] front() - взима стойността на първия елемент
+        -   [ ] back() - взима стойността на последния елемент
+        -   [ ] insert(index, value) - вкарва елемента на дадения индекс, така че новия елемент да сочи към стария елемент на този индекс
+        -   [ ] erase(index) - изтрива node-а на дадения индекс
+        -   [ ] value_n_from_end(n) - връща стойността на node-а, седящ на позиция n от края на списъка
+        -   [ ] reverse() - обръща списъка
+        -   [ ] remove_value(value) - премахва първия елемент от списъка, съдържащ тази стойност
+    -   [ ] Двойно свързан списък
+        -   [Описание (клип)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        -   Няма нужда от имплементация
+
+-   ### Стек
+
+    -   [ ] [Стекове (клип)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    -   [ ] Няма нужда да се имплементира. Имплементацията с масив е тривиална.
+
+-   ### Опашка
+
+    -   [ ] [Опашка (клип)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    -   [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    -   [ ] Имплементирайте със свързан списък с tail pointer:
+        -   enqueue(value) - добавя стойност на опашката
+        -   dequeue() - връща стойността и премахва най-предния елемент на опашката (front)
+        -   empty()
+    -   [ ] Имплементрайте с масив с фиксирана големина:
+        -   enqueue(value) - добавя елемента в края на наличното пространство
+        -   dequeue() - връща стойността и премахва най-предния елемент на опашката
+        -   empty()
+        -   full()
+    -   [ ] Разход:
+        -   лоша имплементация, ползвайки свързан списък където правим enqueue в началото и dequeue в края би била O(n)
+            защото ще се нуждаете от предпоследния елемент, което ще предизвиква цялостно обхождане при всяко dequeue
+        -   enqueue: O(1) (amortized, свъзран списък и масив [probing])
+        -   dequeue: O(1) (свъзран списък и масив)
+        -   empty: O(1) (свъзран списък и масив)
+
+-   ### Хеш таблици
+
+    -   [ ] Клипове:
+
+        -   [ ] [Hashing with Chaining (клип)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        -   [ ] [Table Doubling, Karp-Rabin (клип)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        -   [ ] [Open Addressing, Cryptographic Hashing (клип)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        -   [ ] [PyCon 2010: The Mighty Dictionary (клип)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        -   [ ] [PyCon 2017: The Dictionary Even Mightier (клип)](https://www.youtube.com/watch?v=66P5FMkWoVU)
+        -   [ ] [(Advanced) Randomization: Universal & Perfect Hashing (клип)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        -   [ ] [(За напреднали) Perfect hashing (клип)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+
+    -   [ ] Онлайн курсово:
+
+        -   [ ] [Core Hash Tables (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        -   [ ] [Data Structures (клип)](https://www.coursera.org/learn/data-structures/home/week/4)
+        -   [ ] [Phone Book Problem (клип)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        -   [ ] distributed hash tables:
+            -   [Instant Uploads And Storage Optimization In Dropbox (клип)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            -   [Distributed Hash Tables (клип)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+
+    -   [ ] Имплементирайте с масив, ползвайки linear probing
+        -   hash(k, m) - m е размера на хеш таблицата
+        -   add(key, value) - ако ключа съществува актуализирайте стойността
+        -   exists(key)
+        -   get(key)
+        -   remove(key)

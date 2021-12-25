@@ -185,7 +185,7 @@
     -   [Компилатори](#компилатори)
     -   [Emacs and vi(m)](#emacs-and-vim)
     -   [Unix command line tools](#unix-command-line-tools)
-    -   [Information theory](#information-theory-клипs)
+    -   [Information theory](#information-theory-videos)
     -   [Паритет & код на Хаминг](#паритет--код-на-хаминг)
     -   [Ентропия](#ентропия)
     -   [Криптография](#криптография)
@@ -216,7 +216,7 @@
     -   [Математика за бърза обработка](#математика-за-бърза-обработка)
     -   [Treap](#treap)
     -   [Линейно програмиране](#линейно-програмиране)
-    -   [Geometry, Convex hull](#geometry-convex-hull-клипs)
+    -   [Geometry, Convex hull](#geometry-convex-hull-videos)
     -   [Дискретна математика](#дискретна-математика)
     -   [Machine Learning](#machine-learning)
 -   [Допълнителни детайли по някои теми](#допълнителни-детайли-по-някои-теми)
@@ -496,7 +496,7 @@
 
 -   [LeetCode](https://leetcode.com/)
     -   Любимият ми сайт със задачи. Струва си парите за абонамент за времето, в което ще се подготвяте.
-    -   Вижте клиповете на Nick White и FisherCoder клипs по-горе за насоки със някои задачи.
+    -   Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки със някои задачи.
 -   [HackerRank](https://www.hackerrank.com/)
 -   [TopCoder](https://www.topcoder.com/)
 -   [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
@@ -638,12 +638,12 @@
         -   [ ] [(Advanced) Randomization: Universal & Perfect Hashing (клип)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         -   [ ] [(За напреднали) Perfect hashing (клип)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    -   [ ] Онлайн курсово:
+    -   [ ] Онлайн курсовe:
 
         -   [ ] [Core Hash Tables (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         -   [ ] [Data Structures (клип)](https://www.coursera.org/learn/data-structures/home/week/4)
         -   [ ] [Phone Book Problem (клип)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
-        -   [ ] distributed hash tables:
+        -   [ ] Дистрибутирани хеш таблици:
             -   [Instant Uploads And Storage Optimization In Dropbox (клип)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
             -   [Distributed Hash Tables (клип)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
@@ -653,3 +653,39 @@
         -   exists(key)
         -   get(key)
         -   remove(key)
+
+## Повече знания
+
+-   ### Двоично търсене
+    -   [ ] [Binary Search (клип)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    -   [ ] [Binary Search (клип)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    -   [ ] [детайли](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    -   [ ] Имплементирайте:
+        -   двоично търсене (на сортиран масив от integers)
+        -   двоично търсене чрез рекурсия
+-   ### Побитови операции
+    -   [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - трябва да знаете доста от степените на 2 от (2^1 до 2^16 и 2^32)
+    -   [ ] Бъдете сигурни, че разбирате добре битовата манипулация: &, |, ^, ~, >>, <<
+        -   [ ] [думи](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
+        -   [ ] Добро въведение:
+                [Bit Manipulation (клип)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        -   [ ] [C Programming Tutorial 2-10: Bitwise Operators (клип)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        -   [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
+        -   [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+        -   [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        -   [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
+        -   [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
+        -   [ ] [Bit Hacks (клип)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
+        -   [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
+    -   [ ] 2s and 1s complement
+        -   [Binary: Plusses & Minuses (Why We Use Two's Complement) (клип)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        -   [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
+        -   [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
+    -   [ ] Преброяване на набор от битове
+        -   [4 ways to count bits in a byte (клип)](https://youtu.be/Hzuzo9NJrlc)
+        -   [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        -   [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    -   [ ] Размяна на стойности:
+        -   [Swap](https://bits.stephan-brumme.com/swap.html)
+    -   [ ] Абсолютна стойност:
+        -   [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)

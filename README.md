@@ -261,10 +261,10 @@ Fork the GitHub repo https://github.com/jwasham/coding-interview-university by c
 
 Clone to your local repo:
 
-   [x] git clone git@github.com:<your_github_username>/coding-interview-university.git
-   [x] git checkout -b progress
-   [x] git remote add jwasham https://github.com/jwasham/coding-interview-university
-   [x] git fetch --all
+    [x] git clone git@github.com:<your_github_username>/coding-interview-university.git
+    [x] git checkout -b progress
+    [x] git remote add jwasham https://github.com/jwasham/coding-interview-university
+    [x] git fetch --all
 
 Mark all boxes with X after you completed your changes:
 

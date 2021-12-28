@@ -913,3 +913,43 @@
         -   [ ] преброяване на свързаните компоненти в графа
         -   [ ] изреждане на силно свързаните компоненти
         -   [ ] проверка за двустранна графа
+
+## Още повече знания
+
+-   ### Рекурсия
+
+    -   [ ] Лекции от Stanford за рекурсия и backtracking:
+        -   [ ] [Лекция 8 | Абстракции за програмиране (клип)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        -   [ ] [Лекция 9 | Абстракции за програмиране (клип)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        -   [ ] [Лекция 10 | Абстракции за програмиране (клип)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        -   [ ] [Лекция 11 | Абстракции за програмиране (клип)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+    -   Кога е подходящо да се използва?
+    -   Как опашковата рекурсия е по-добра отколкото без?
+        -   [ ] [Какво е опашкова рекурсия и защо е толкова лоша?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        -   [ ] [Опашкова рекурсия (клип)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+
+-   ### Динамично програмиране
+    -   Най-вероятно няма да срещнете задачи с динамично програмиране в интервютата си, но си струва да можете да разпознавате задачи, които са годни за решаване с динамично програмиране.
+    -   Тази тема може да е доста сложна защото всяка задача, която може да се решава с ДП трябва да бъде дефинирана чрез рекурсивна връзка, а понякога може да е сложно да се измисли такава.
+    -   Препоръчвам да разгледате много примери за задачи с ДП докато имате стабилно разбиране на структурата им.
+    -   [ ] Клипове:
+        -   клиповете от Skiena могат да бъдат сложни за проследяване, тъй като той понякога ползва дъската, която е прекалено малка, за да се види
+        -   [ ] [Skiena: CSE373 2012 - Лекция 19 - Въведение в динамичното програмиране (клип)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        -   [ ] [Skiena: CSE373 2012 - Лекция 20 - Edit Distance (клип)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        -   [ ] [Skiena: CSE373 2012 - Лекция 21 - Примери за динамично програмиране (клип)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        -   [ ] [Skiena: CSE373 2012 - Лекция 22 - Приложение на динамичното програмиране (клип)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        -   [ ] [Simonson: Динамично програмиране 0 (starts at 59:18) (клип)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        -   [ ] [Simonson: Динамично програмиране I - Лекция 11 (клип)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        -   [ ] [Simonson: Динамично програмиране II - Лекия 12 (клип)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+        -   [ ] Списък с единични задачи за динамично програмиране (кратки са):
+                [Динамично програмиране (клип)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+    -   [ ] Бележки от лекции в Yale:
+        -   [ ] [Динамично програмиране](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+    -   [ ] Coursera:
+        -   [ ] [The RNA secondary structure problem (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        -   [ ] [Алгоритъм за динамично програмиране (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        -   [ ] [Илюстриране на алгоритъма за ДП (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        -   [ ] [Време за изпълнение на алгоритъма за ДП (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
+        -   [ ] [ДП срещу рекурсивна имплементация (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        -   [ ] [Глобално подравняване на последователности по двойки (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        -   [ ] [Локално подравняване на последователности по двойки (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)

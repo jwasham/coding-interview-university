@@ -956,6 +956,7 @@
         -   [ ] [Локално подравняване на последователности по двойки (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 -   ### Design patterns
+
     -   [ ] [Бърз преговор върху UML (клип)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     -   [ ] Научете тези схеми:
         -   [ ] strategy
@@ -983,3 +984,43 @@
         -   Знам, че каноничната книга е "Design Patterns: Elements of Reusable Object-Oriented Software", но Head First е чудесна за начинаещи в ОО.
     -   [ ] [Удобен справочник: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
     -   [ ] [Design patterns за хора](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
+
+-   ### Комбинаторика & вероятности
+
+    -   [ ] [Математични умения: как да намираме пермутации, вариации и комбинации (клип)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    -   [ ] [Make School: Вероятности (клип)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    -   [ ] [Make School: Още вероятности и Марковски вериги (клип)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+    -   [ ] Khan Academy:
+        -   Оформление на курса:
+            -   [ ] [Основна теоритична вероятност](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+        -   Само клиповете - 41 (всичките са прости и къси):
+            -   [ ] [Вероятностите- обяснени (клип)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+
+-   ### NP, NP-Complete and Approximation Algorithms
+
+    -   Знайте за най-известните задачи за NP-завършеност като пътуващия търговец и бъдете сигурни, че можете да ги разпознавате, когато интервюиращия ви ги даде прикрити
+    -   Знайте какво означава NP-завършен.
+    -   [ ] [Изчислителна сложност (клип)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+    -   [ ] Simonson:
+        -   [ ] [Алчни алгоритми II & Въведение в NP-завършеността (клип)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        -   [ ] [NP-завършеност II & Редукции (клип)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        -   [ ] [NP-завършеност III (клип)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        -   [ ] [NP-завършеност IV (клип)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+    -   [ ] Skiena:
+        -   [ ] [CSE373 2012 - Лекция 23 - Въведение в NP-завършеността (клип)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+        -   [ ] [CSE373 2012 - Лекция 24 - Доказване на NP-завършеност (клип)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        -   [ ] [CSE373 2012 - Лекция 25 - Предизвикателство NP-завършеност (клип)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    -   [ ] [Сложност: P, NP, NP-завършеност, редукции (клип)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    -   [ ] [Сложност: Алгоритми за приближаване (клип)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    -   [ ] [Сложност: Алгоритми с фиксирани параметри (клип)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    -   Peter Norvig обсъжда почти оптимални решения на задачата за пътуващия търговец:
+        -   [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+    -   Страници 1048 - 1140 в CLRS ако я имате.
+
+-   ### Как компютрите обработват една програма
+
+    -   [ ] [Как CPU-то изпълнява програми (клип)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    -   [ ] [Как компютрите пресмятат - ALU (клип)](https://youtu.be/1I5ZMmrOfnA)
+    -   [ ] [Регистри и RAM (клип)](https://youtu.be/fpnE6UAfbtU)
+    -   [ ] [Централният процесор (CPU) (клип)](https://youtu.be/FZGugFqdr60)
+    -   [ ] [Инструкции и програми (клип)](https://youtu.be/zltgXvg6r3k)

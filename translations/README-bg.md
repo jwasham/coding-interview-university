@@ -929,6 +929,7 @@
         -   [ ] [Опашкова рекурсия (клип)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 -   ### Динамично програмиране
+
     -   Най-вероятно няма да срещнете задачи с динамично програмиране в интервютата си, но си струва да можете да разпознавате задачи, които са годни за решаване с динамично програмиране.
     -   Тази тема може да е доста сложна защото всяка задача, която може да се решава с ДП трябва да бъде дефинирана чрез рекурсивна връзка, а понякога може да е сложно да се измисли такава.
     -   Препоръчвам да разгледате много примери за задачи с ДП докато имате стабилно разбиране на структурата им.
@@ -953,3 +954,32 @@
         -   [ ] [ДП срещу рекурсивна имплементация (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
         -   [ ] [Глобално подравняване на последователности по двойки (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         -   [ ] [Локално подравняване на последователности по двойки (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+
+-   ### Design patterns
+    -   [ ] [Бърз преговор върху UML (клип)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    -   [ ] Научете тези схеми:
+        -   [ ] strategy
+        -   [ ] singleton
+        -   [ ] adapter
+        -   [ ] prototype
+        -   [ ] decorator
+        -   [ ] visitor
+        -   [ ] factory, abstract factory
+        -   [ ] facade
+        -   [ ] observer
+        -   [ ] proxy
+        -   [ ] delegate
+        -   [ ] command
+        -   [ ] state
+        -   [ ] memento
+        -   [ ] iterator
+        -   [ ] composite
+        -   [ ] flyweight
+    -   [ ] [Глава Част 1) - Patterns (клип)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    -   [ ] [Глава 6 (Част 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (клип)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    -   [ ] [Глава 6 (Част 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (клип)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    -   [ ] [Поредица от клипове (27 клипа)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    -   [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+        -   Знам, че каноничната книга е "Design Patterns: Elements of Reusable Object-Oriented Software", но Head First е чудесна за начинаещи в ОО.
+    -   [ ] [Удобен справочник: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+    -   [ ] [Design patterns за хора](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)

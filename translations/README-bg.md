@@ -849,3 +849,67 @@
 
 Като обобщение, това е визуализация на [15 алгоритъма за сортиране](https://www.youtube.com/watch?v=kPRA0W1kECg).
 Ако ви трябват повече детайли на тази тема вижте секцията "Сортиране" в[Допълнителни детайли по някои теми](#допълнителни-детайли-по-някои-теми)
+
+## Графи
+
+Графите могат да се ползват за онагледяване на много проблеми в компютърните науки, така че тази секция е дълга, също както тази за дърветата и сортирането..
+
+-   Бележки:
+
+    -   Има 4 основни начина една графа да бъде представена в паметта:
+        -   обекти и пойнтъри
+        -   матрици на съседство
+        -   списъци на съседство
+        -   мап на съседство
+    -   Запознайте се с всяка от начините за представяне и плюсовете, и минусите, които предоставят
+    -   BFS и DFS - знайте изчислителната им сложност, компромисите, които носят и как да ги имплементирате в истински код
+    -   Когато Ви зададат въпрос, първо потърсете решение с граф и преминете нататък ако няма такова
+
+-   [ ] MIT(клипове):
+
+    -   [ ] [Обхождане по ширина](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+    -   [ ] [Обхождане по дълбочина](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+
+-   [ ] Skiena Lectures - чудесно въведение:
+
+    -   [ ] [CSE373 2012 - Лекция 11 - Граф като структура от данни (клип)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
+    -   [ ] [CSE373 2012 - Лекция 12 - Обхождане по ширина (клип)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
+    -   [ ] [CSE373 2012 - Лекция 13 - Алгоритми за графи (клип)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
+    -   [ ] [CSE373 2012 - Лекция 14 - Алгоритми за графи (продължение) (клип)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    -   [ ] [CSE373 2012 - Лекция 15 - Алгоритми за графи (продължение 2) (клип)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    -   [ ] [CSE373 2012 - Лекция 16 - Алгоритми за графи (продължение 3) (клип)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+
+-   [ ] Графи (преговор и повече):
+
+    -   [ ] [6.006 Задача за най-кратък път от един източник (клип)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    -   [ ] [6.006 Дейкстра (клип)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    -   [ ] [6.006 Белман-Форд (клип)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
+    -   [ ] [6.006 Как да забързаме Дейкстра (клип)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
+    -   [ ] [Aduni: Алгоритми за графи I - Топологично сортиране, Минимално обхващащи дървета, Алгоритъм на Прим - Лекция 6 (клип)](https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    -   [ ] [Aduni: Алгоритми за графи II - DFS, BFS, Алгоритъм на Крускал, Union Find структура от данни - Лекция 7 (клип)](https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
+    -   [ ] [Aduni: Алгоритми за графи III: Най-кратък път - Лекция 8 (клип)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
+    -   [ ] [Aduni: Алгоритми за графи IV: Въведение в геометричните алгоритми - Лекция 9 (клип)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
+    -   [ ] ~~[CS 61B 2014 (от 58:09) (клип)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)~~
+    -   [ ] [CS 61B 2014: Претеглени графи (клип)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
+    -   [ ] [Алчни алгоритми: Минимално обхващащо дърво (клип)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    -   [ ] [Алгоритъм за граф на Kosaraju за силно свързани компоненти (клип)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+
+-   Пълен курс в Coursera:
+
+    -   [ ] [Алгоритми за графи (клип)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
+
+-   Аз ще имплементирам:
+    -   [ ] DFS със списък на съседство (рекурсивно)
+    -   [ ] DFS със списък на съседство (итеративно със стек)
+    -   [ ] DFS с матрица на съседство (рекурсивно)
+    -   [ ] DFS с матрица на съседство (итеративно със стек)
+    -   [ ] BFS със списък на съседство
+    -   [ ] BFS с матрица на съседство
+    -   [ ] най-кратък път от един източник (Дейкстра)
+    -   [ ] минимално обхващащо дърво
+    -   Алгоритми основани върху DFS (вижте клиповете на Aduni по-горе):
+        -   [ ] проверка за цикъл (нужно за топологичното сортиране, защото ще проверяваме за цикъла преди стартиране)
+        -   [ ] топологично сортиране
+        -   [ ] преброяване на свързаните компоненти в графа
+        -   [ ] изреждане на силно свързаните компоненти
+        -   [ ] проверка за двустранна графа

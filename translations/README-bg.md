@@ -1024,3 +1024,80 @@
     -   [ ] [Регистри и RAM (клип)](https://youtu.be/fpnE6UAfbtU)
     -   [ ] [Централният процесор (CPU) (клип)](https://youtu.be/FZGugFqdr60)
     -   [ ] [Инструкции и програми (клип)](https://youtu.be/zltgXvg6r3k)
+
+-   ### Кеширане
+
+    -   [ ] LRU кеширане:
+        -   [ ] [Магията на LRU кеширането (100 Days of Google Dev) (клип)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+        -   [ ] [Имплементиране на LRU (клип)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+        -   [ ] [LeetCode - 146 LRU Кеширане (C++) (клип)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+    -   [ ] CPU cache:
+        -   [ ] [MIT 6.004 L15: Йерархията на паметта (клип)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+        -   [ ] [MIT 6.004 L16: Проблеми с кеширането (клип)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+
+-   ### Процеси и нишки
+
+    -   [ ] Computer Science 162 - Операционни системи (25 клипа):
+        -   за процеси и нишки вижте клипове 1-11
+        -   [Операционни системи и системно програмиране (клип)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+    -   [Каква е разликата между процес и нишка?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
+    -   Покрива:
+        -   Процеси, нишки, проблеми с concurrency
+            -   Разликата между процеси и нишки
+            -   Процеси
+            -   Нишки
+            -   Locks
+            -   Мутекси
+            -   Семафори
+            -   Монитори
+            -   Как работят?
+            -   Deadlock
+            -   Livelock
+        -   CPU дейност, interrupts, смяна на контекста
+        -   Модерни конструкции за concurrency с многоядрени процесори
+        -   [Пейджинг, сегментация и виртуална памет (клип)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
+        -   [Interrupts (клип)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+        -   Ресурси, от които се нуждаят процесите (памет: код, статично пространство, стек, heap, и file descriptors, i/o)
+        -   Ресурси, от които се нуждаят нишките (споделя същите като по-горе (без стек) с други нишки в същия процес, но всяка има свой pc, стек брояч, регистри и стек)
+        -   Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
+        -   Смяна на контекста
+            -   Как смяната на контекста се инициира от операционната система и хардуера?
+    -   [ ] [Нишки в C++ (серия - 10 клипа)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    -   [ ] [CS 377 Spring '14: Операционни системи от University of Massachusetts](https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k)
+    -   [ ] concurrency в Python (клипове):
+        -   [ ] [Кратка серия върху нишки](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+        -   [ ] [Python нишки](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+        -   [ ] [Да разберем Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+            -   [справка](http://www.dabeaz.com/GIL)
+        -   [ ] [David Beazley - Python Concurrency от горе до долу: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+        -   [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+        -   [ ] [Мутекс в Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+
+-   ### Тестване
+
+    -   Да се покрие:
+        -   как работи unit тестването
+        -   какво са mock обекти
+        -   какво е integration тестването
+        -   какво е dependency injection
+    -   [ ] [Agile Software Testing с James Bach (клип)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    -   [ ] [Лекция от James Bach върху софтуерното тестване (клип)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    -   [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (клип)](https://vimeo.com/83960706)
+        -   [презентация](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    -   [ ] Dependency injection:
+        -   [ ] [клип](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+        -   [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+    -   [ ] [Как да пишем тестове](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+
+-   ### String searching & manipulations
+
+    -   [ ] [Sedgewick - Суфиксни масиви (клип)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    -   [ ] [Sedgewick - Substring Search (клипове)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+        -   [ ] [1. Въведение в Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
+        -   [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
+        -   [ ] [3. Кнут-Морис-Прат](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
+        -   [ ] [4. Бойер-Мур](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+        -   [ ] [5. Рабин-Карп](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
+    -   [ ] [Търсене на на шаблон в текст (клип)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+
+    Ако ви трябват допълнителни детайли по тази тема вижте секцията "String Matching" в [Допълнителни детайли по някои теми](#допълнителни-детайли-по-някои-теми).

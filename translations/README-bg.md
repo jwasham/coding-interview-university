@@ -1181,3 +1181,89 @@
 ## Намерете позиция
 
 -   [Сайтове за намиране на работа](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
+
+## Процесът на интервюто & обща подготовка
+
+-   [ ] [Как да минем през интервюто за инженер през 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+-   [ ] [Демистифициране на Tech рекрутинга](https://www.youtube.com/watch?v=N233T0epWTs)
+-   [ ] Как да намерим работа в Големите 4:
+    -   [ ] [Как да намерим работа в Големите 4 - Amazon, Facebook, Google & Microsoft (клип)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    -   [ ] [Как да намерим работа в Големите 4.1 (продължение)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
+-   [ ] Cracking The Coding Interview Set 1:
+    -   [ ] [Gayle L McDowell - Cracking The Coding Interview (клип)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    -   [ ] [Cracking the Coding Interview с авторът Gayle Laakmann McDowell (клип)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+-   [ ] Cracking the Facebook Coding Interview:
+    -   [ ] [Подходът](https://www.youtube.com/watch?v=wCl9kvQGHPI)
+    -   [ ] [Преминаване през задачи](https://www.youtube.com/watch?v=4UWDyJq8jZg)
+-   Курсове за подготовка:
+    -   [Software Engineer Interview Unleashed (платен курс)](https://www.udemy.com/software-engineer-interview-unleashed):
+        -   Научете как да се подготвяте за интервюта за софтуерен разработчик от бивш интервюиращ в Google
+    -   [Python for Data Structures, Algorithms, and Interviews (платен курс)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        -   Курс, ориентиран към Python, който покрива структури от данни, алгоритми, mock интервюта и много повече.
+    -   [Intro to Data Structures and Algorithms using Python (безплатен курс от Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
+        -   Безплатен курс върху структури от данни и алгоритми, ориентиран към Python.
+    -   [Data Structures and Algorithms Nanodegree! (платен Nanodegree от Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
+        -   Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
+    -   [Grokking the Behavioral Interview (безплатен курс от Educative)](https://www.educative.io/courses/grokking-the-behavioral-interview):
+        -   Много често, не техническата Ви компетентност, а личностното интервю Ви спират да започнете мечтаната си работа.
+
+Mock интервюта:
+
+-   [Gainlo.co: Mock интервюта от големи компании](http://www.gainlo.co/) - Използвах това и ми помогна да се успокоя за телефонното, screen и on-site интервютата
+-   [Pramp: Mock интервюта от/с връсници](https://www.pramp.com/) - модел за подготовка за интервю с връсници
+-   [interviewing.io: Mock интервюта за подготовка със senior инженери](https://interviewing.io) - анонимни интервюта за дизайн на алгоритми/системи със senior инженери от FAANG компаниите
+
+## Мислете за това, когато дойде интервюто
+
+Помислете за около 20 въпроса за интервю, които може да ви се паднат и редовете надолу. Имайте поне един отговор за всеки от тях. Имайте история, а не само данни за нещо, което сте постигнали.
+
+-   Защо искате тази работа?
+-   Дайте пример за труден проблем, който сте разрешили.
+-   Кое е най-голямото предизвикателство, с което сте се сблъсквали?
+-   Best/worst designs seen?
+-   Дайте идея за подобрение на съществуващ продукт.
+-   Как работите най ефективно- самостоятелно или като част от екип?
+-   Кои от уменията Ви ще са важни активи в позицията и защо?
+-   Какво най-много Ви хареса на [работа x / проейт y]?
+-   Какво беше най-голямото предизвикателство, с което се сблъскахте на [работа x / проект y]?
+-   Кой е най-трудния bug, с който сте се сблъсквали на [работа x / проект y]?
+-   Какво научихте на [работа x / проект y]?
+-   Какво можехте да направите по-добре на [работа x / проект y]?
+
+-   Ако Ви се струва трудно да давате отговор на подобни въпроси, ето някои идеи:
+    -   [Общи въпроси за интервю и отговорите им](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
+
+## Подгответе въпроси за интервюиращия
+
+Ето някои от моите (може вече да знам отговорът им когато ги задавам, но искам да чуя тяхното мнение и да видя перспективата им):
+
+-   Колко е голям екипът Ви?
+-   What does your dev cycle look like? Ползвате ли waterfall/sprints/agile методологии?
+-   Често ли се случва да гоните срокове? Или има гъвкавост?
+-   Как вземате решения във вашия екип?
+-   Колко срещи имате на седмица?
+-   Как работната среда Ви помага да се концентрирате, според Вас?
+-   Върху какво работите в момента?
+-   Какво Ви харесва за него?
+-   Как е работният Ви живот?
+-   Как е балансът Ви работа/свободно време?
+
+## След като са Ви наели
+
+Поздравления!
+
+Продължавайте да учите.
+
+Никога не сте свършили наистина.
+
+---
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+    Всичко оттук надолу е по желание. НЕ е нужно за entry-level интервю, но ако научите тези неща ще сте изложени пред повече концепции от компютърните науки и ще сте добре подготвени за всяка работа за софтуерно инженерство. Ще сте много по-добър софтуерен инженер.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---

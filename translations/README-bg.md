@@ -1101,3 +1101,56 @@
     -   [ ] [Търсене на на шаблон в текст (клип)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
     Ако ви трябват допълнителни детайли по тази тема вижте секцията "String Matching" в [Допълнителни детайли по някои теми](#допълнителни-детайли-по-някои-теми).
+
+-   ### Tries
+
+    -   Обърнете внимание, че има различни видове tries. Някои имат prefixes, а други нямат, също така някои ползват низове вместо битове за да следят пътеката
+    -   Разгледах кода, но няма да го имплементирам
+    -   [ ] [Sedgewick - Tries (3 клипа)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+        -   [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
+        -   [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
+        -   [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+    -   [ ] [Бележки върху структурите от данни и техники за програмиране](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+    -   [ ] Малък курс с клипове:
+        -   [ ] [Въведение в Tries (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        -   [ ] [Производителност на Tries (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        -   [ ] [Имплементиране на Trie (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    -   [ ] [Trie: неглежираната структура от данни](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    -   [ ] [TopCoder - използване на Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
+    -   [ ] [Stanford лекция (приложение в истинския живот) (клип)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    -   [ ] [MIT, Структури от данни за напреднали, Низове (може да има доста неяснота към половината на клипа) (клип)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+
+-   ### Floating Point Numbers
+
+    -   [ ] simple 8-bit: [Репрезентация на Floating Point числа - 1 (клип - има грешка в изчисленията - вижте описанието на клипа)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    -   [ ] 32 bit: [IEEE754 32-bit floating point binary (клип)](https://www.youtube.com/watch?v=50ZYcZebIec)
+
+-   ### Уникод
+
+    -   [ ] [Абсолютният минимум от знания всеки софтуерен разработчик трабва да има за уникод и набори от символи ](http://www.joelonsoftware.com/articles/Unicode.html)
+    -   [ ] [Какво трябва всеки програмист да знае за кодирането и наборите от символи за да работи с текст](http://kunststube.net/encoding/)
+
+-   ### Endianness
+
+    -   [ ] [Голям и малък Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
+    -   [ ] [Голям Endian срещу Малък Endian (клип)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    -   [ ] [Голям и малък Endian отвътре-навън (клип)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        -   Много техничен разговор за kernel разработчици. Не се тревожете ако не схващате повечето неща.
+        -   Първата половина е достатъчна.
+
+-   ### Мрежи
+    -   **очаквайте въпроси по тази тема ако имте опит с мрежи или искате да бъдете reliability engineer/ operations engineer**
+    -   Иначе това са неща, които е добре да се знаят
+    -   [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
+    -   [ ] [UDP и TCP: Сравнение на протоколи за пренос на информация (клип)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    -   [ ] [TCP/IP и OSI моделът обяснени! (клип)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    -   [ ] [Пренос на пакети през интернет. Ръководство за мрежи & TCP/IP. (клип)](https://www.youtube.com/watch?v=nomyRJehhnM)
+    -   [ ] [HTTP (клип)](https://www.youtube.com/watch?v=WGJrLqtX7As)
+    -   [ ] [SSL и HTTPS (клип)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    -   [ ] [SSL/TLS (клип)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+    -   [ ] [HTTP 2.0 (клип)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+    -   [ ] [Видеосерия (21 клипа) (клип)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    -   [ ] [Subnetting Demystified - Part 5 CIDR Notation (клип)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    -   [ ] Sockets:
+        -   [ ] [Java - Sockets - Въведение (клип)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+        -   [ ] [Socket програмиране (клип)](https://www.youtube.com/watch?v=G75vN2mnJeQ)

@@ -1154,3 +1154,30 @@
     -   [ ] Sockets:
         -   [ ] [Java - Sockets - Въведение (клип)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         -   [ ] [Socket програмиране (клип)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+
+---
+
+## Последен преглед
+
+    Тази секция съдържа по-кратки клипове за най-важните понятия, които можете да изгледате сравнително бързо. Полезни са ако искате да си припомните нещо от време на време.
+
+-   [ ] Серия от 2-3 минутни кратки клипове по различни теми (23 клипа)
+    -   [Клипове](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+-   [ ] Серия от 2-5 минутни кратки клипове по различни теми - Michael Sambol (18 клипа):
+    -   [Клипове](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+-   [ ] [Sedgewick Videos - Алгоритми I](https://www.coursera.org/learn/algorithms-part1)
+-   [ ] [Sedgewick Videos - Алгоритми II](https://www.coursera.org/learn/algorithms-part2)
+
+---
+
+## Актуализирайте резюмето си
+
+-   See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
+-   Не знам колко важно е това (можете сами да си направите проучване), но ето една статия за това как да направим резюмето си ATS Compliant:
+    -   [Как да проверим дали резюмето ни е ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
+-   ["This Is What A GOOD Resume Should Look Like" от Gayle McDowell (авторът на Cracking the Coding Interview)](https://www.careercup.com/resume),
+    -   Бележка от автора: "Това се отнася към резюмета за САЩ. Към CV-тата за Индия и други държави има различни изисквания, но много от точките ще са същите."
+
+## Намерете позиция
+
+-   [Сайтове за намиране на работа](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)

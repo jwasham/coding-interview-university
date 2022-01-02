@@ -1452,7 +1452,7 @@ Các trang giải toán lập trình:
 - [InterviewBit](https://www.interviewbit.com)
 
 Xem thêm:
-- [Phỏng vấn thử nghiệm](http://www.gainlo.co/)
+- [Phỏng vấn thử nghiệm](http://www.gainlo.co/#!/)
 
 
 ## Khi bạn tiến gần đến kỳ phỏng vấn

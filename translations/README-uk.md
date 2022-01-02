@@ -1469,7 +1469,7 @@ Challenge sites:
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/)
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 
 ## Once you're closer to the interview

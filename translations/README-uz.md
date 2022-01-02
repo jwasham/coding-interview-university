@@ -1336,7 +1336,7 @@ Mashqlar repolari
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Mock intervyular
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - Men buni ishlatdim va u menga phone screen va on-site intervyularga ruhan tayyorladi
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - Men buni ishlatdim va u menga phone screen va on-site intervyularga ruhan tayyorladi
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - foydalanuvchilararo intervyuga tayyorlanish modeli
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - kandidatlarga tech kompaniyalar bilan bo'ladigan bir nechta intervyulardan sakrab o'tishga ham yordam beradi
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - FAANG-dan senior injinerlar bilan anonim algoritm/tizim dizayn intervyulari

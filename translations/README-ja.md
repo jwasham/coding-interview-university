@@ -1357,7 +1357,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - [Pythonでインタラクティブなコーディング面接の課題](https://github.com/donnemartin/interactive-coding-challenges)
 
 疑似面接：
-- [Gainlo.co：大企業の疑似面接官](http://www.gainlo.co/)
+- [Gainlo.co：大企業の疑似面接官](http://www.gainlo.co/#!/)
 - [Pramp：仲間との面接](https://www.pramp.com/)
 - [Refdash：疑似面接](https://refdash.com/)
 

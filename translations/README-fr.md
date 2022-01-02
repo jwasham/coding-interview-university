@@ -1406,7 +1406,7 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com)
 
 Maybe:
-- [Mock interviewers from big companies](http://www.gainlo.co/)
+- [Mock interviewers from big companies](http://www.gainlo.co/#!/)
 
 ## Once you're closer to the interview
 

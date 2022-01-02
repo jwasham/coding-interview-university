@@ -1449,7 +1449,7 @@ Repositórios de desafios:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges) (Desafios Interativos de Entrevista de Programação em Python)
 
 Entrevistas Simuladas:
-- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/)
+- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/#!/)
 - [Pramp: Entrevistas simuladas com colegas](https://www.pramp.com/)
 - [Refdash: Entrevistas simuladas](https://refdash.com/)
 

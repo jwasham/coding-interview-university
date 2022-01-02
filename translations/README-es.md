@@ -1436,7 +1436,7 @@ Repos de desafíos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Bosquejos de entrevista:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/)
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 - [Refdash: Mock interviews](https://refdash.com/)
 

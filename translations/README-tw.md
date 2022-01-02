@@ -1312,7 +1312,7 @@ Coding面試題目影片:
 - [Python互動式coding面試解題](https://github.com/donnemartin/interactive-coding-challenges)
 
 更多面試:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - 點對點面試練習
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - 同樣能藉由跳過跟多家科技公司的面試，幫助你快速步上軌道，
 

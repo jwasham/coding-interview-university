@@ -1529,48 +1529,48 @@ Mock интервюта:
 -   ### Компютърна сигурност
 
     -   [MIT (23 клипа)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        -   [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        -   [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
-        -   [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
-        -   [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        -   [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Въведение, модели на заплахи](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Контролирайте атаките за "отвличане"](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+        -   [Експлоатация и защита за препълване на буфер](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+        -   [Разделение на привилегиите](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Възможности](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         -   [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
-        -   [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        -   [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Моделът за уеб сигурност](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Да подсигурим уеб апликация](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         -   [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        -   [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        -   [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        -   [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Мрежова сигурност](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Мрежови протоколи](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        -   [Side-Channel атаки](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 -   ### Garbage collection
 
-    -   [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    -   [GC в Python (клип)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     -   [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    -   [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+    -   [Deep Dive Python: Garbage Collection in CPython (клип)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
--   ### Parallel Programming
+-   ### Паралелно програмиране
 
     -   [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    -   [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    -   [Efficient Python for High Performance Parallel Computing (клип)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
--   ### Messaging, Serialization, and Queueing Systems
+-   ### Системи за съобщения, сериализация и последователност
 
     -   [Thrift](https://thrift.apache.org/)
-        -   [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+        -   [Ръководство](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     -   [Protocol Buffers](https://developers.google.com/protocol-buffers/)
-        -   [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+        -   [Ръководства](https://developers.google.com/protocol-buffers/docs/tutorials)
     -   [gRPC](http://www.grpc.io/)
-        -   [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+        -   [gRPC 101 за Java разработчици (клип)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     -   [Redis](http://redis.io/)
-        -   [Tutorial](http://try.redis.io/)
+        -   [Ръководство](http://try.redis.io/)
     -   [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
     -   [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     -   [RabbitMQ](https://www.rabbitmq.com/)
-        -   [Get Started](https://www.rabbitmq.com/getstarted.html)
+        -   [Да започнем](https://www.rabbitmq.com/getstarted.html)
     -   [Celery](http://www.celeryproject.org/)
-        -   [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+        -   [Първи стъпки със Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
     -   [ZeroMQ](http://zeromq.org/)
-        -   [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+        -   [Въведение - Прочетете наръчника](http://zeromq.org/intro:read-the-manual)
     -   [ActiveMQ](http://activemq.apache.org/)
     -   [Kafka](http://kafka.apache.org/documentation.html#introduction)
     -   [MessagePack](http://msgpack.org/index.html)
@@ -1578,48 +1578,48 @@ Mock интервюта:
 
 -   ### A\*
 
-    -   [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-    -   [A\* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
-    -   [A\* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+    -   [Алгоритъм за търсене](https://en.wikipedia.org/wiki/A*_search_algorithm)
+    -   [A\* Ръководство за търсене на пътеки (клип)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
+    -   [A\* Търсене на пътеки (E01: обяснение на алгоритъм) (клип)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
 -   ### Fast Fourier Transform
 
-    -   [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
-    -   [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    -   [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    -   [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
-    -   [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+    -   [Интерактивно ръководство за Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    -   [Какво е Fourier transform? За какво се ползва?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    -   [Какво е Fourier Transform? (клип)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    -   [Разделяй и владей: FFT (клип)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    -   [Да разберем FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 -   ### Bloom Filter
 
     -   Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
-    -   [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
-    -   [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
-    -   [Tutorial](http://billmill.org/bloomfilter-tutorial/)
-    -   [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
+    -   [Bloom Filters (клип)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    -   [Bloom Filters | "Копаене" на големи dataset-ове | Stanford University (клип)](https://www.youtube.com/watch?v=qBTdukbzc78)
+    -   [Ръководство](http://billmill.org/bloomfilter-tutorial/)
+    -   [Как да напишем Bloom Filter приложение](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
 -   ### HyperLogLog
 
-    -   [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
+    -   [Как да преброим един милиард различни обекта ползвайки само 1.5KB памет](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 -   ### Locality-Sensitive Hashing
 
-    -   Used to determine the similarity of documents
-    -   The opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same
+    -   Използва се за преценяването на сходността на документи
+    -   Обратното на MD5 или SHA, които се ползват за преценяване дали два документа/низа са напълно еднакви
     -   [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 -   ### van Emde Boas Trees
 
-    -   [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-    -   [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+    -   [Разделяй и владей: van Emde Boas Trees (клип)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    -   [Бележки от лекции към MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
--   ### Augmented Data Structures
+-   ### Разширени структури от данни
 
-    -   [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
+    -   [CS 61B Лекция 39: Разширяване на структури от данни](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
--   ### Balanced search trees
+-   ### Балансирани дървета за търсене
 
-    -   Know at least one type of balanced binary tree (and know how it's implemented):
+    -   Познавайте поне един вид двоични балансирани дървета(и как се имплементират):
     -   "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena

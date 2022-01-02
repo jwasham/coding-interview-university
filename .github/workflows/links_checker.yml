@@ -12,7 +12,7 @@ jobs:
   link_checker:
     name: Check links and create automated issue if needed
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     env:
       REPORT_FILE: links-report
     steps:

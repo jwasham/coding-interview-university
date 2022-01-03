@@ -1744,17 +1744,17 @@ Mock интервюта:
 
 -   ### Treap
 
-    -   Combination of a binary search tree and a heap
+    -   Комбинация от двоично дърво за търсене и heap
     -   [Treap](https://en.wikipedia.org/wiki/Treap)
-    -   [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    -   [Структури от данни: Treaps обяснени (клип)](https://www.youtube.com/watch?v=6podLUYinH8)
     -   [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
--   ### Linear Programming (videos)
+-   ### Линейно програмиране (клипове)
 
-    -   [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
-    -   [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
-    -   [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
-    -   [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
+    -   [Линейно програмиране](https://www.youtube.com/watch?v=M4K6HYLHREQ)
+    -   [Намиране на минимална цена](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
+    -   [Намиране на максимална стойност](https://www.youtube.com/watch?v=8AA_81xI3ik)
+    -   [Решаване на линейни уравнения с Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
 -   ### Geometry, Convex hull (videos)
 
@@ -1769,7 +1769,7 @@ Mock интервюта:
     -   [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
 
 -   ### Machine Learning
-    -   Why ML?
+    -   Защо ML?
         -   [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         -   [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
         -   [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
@@ -1795,11 +1795,10 @@ Mock интервюта:
 
 ---
 
-## Additional Detail on Some Subjects
+## Допълнителни детайли по някои теми
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+Добавих тези, за да подкрепя някои от темите и материалите посочени по горе, но не исках да ги добавям там, защото са прекалено много. Лесно е да научите прекалено много по някоя тема.
+Искате да Ви наемат този век, нали?
 
 -   **SOLID**
 
@@ -1826,22 +1825,22 @@ Mock интервюта:
     -   [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
     -   [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
--   **More Dynamic Programming** (videos)
+-   **Още динамично програмиране** (клипове)
 
-    -   [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
-    -   [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
-    -   [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
-    -   [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    -   [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    -   [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
-    -   [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
+    -   [6.006: Динамично програмиране I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
+    -   [6.006: Динамично програмиране II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+    -   [6.006: ДП III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+    -   [6.006: ДП IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    -   [6.046: Динамично програмиране & ДП за напреднали](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    -   [6.046: Динамично програмиране: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
+    -   [6.046: Динамично програмиране (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
 -   **Advanced Graph Processing** (videos)
 
     -   [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     -   [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
--   MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
+-   MIT **Вероятности** (съдържа доста математика, минавайте бавно през този материал) (клипове):
 
     -   [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     -   [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
@@ -1872,23 +1871,23 @@ Mock интервюта:
         -   nice explanation of tries
         -   can be skipped
 
--   **Sorting**
+-   **Сортиране**
 
-    -   Stanford lectures on sorting:
-        -   [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
-        -   [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
+    -   Stanford лекции за сортиране:
+        -   [Лекция 15 | Programming Abstractions (клип)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
+        -   [Лекция 16 | Programming Abstractions (клип)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
     -   Shai Simonson, [Aduni.org](http://www.aduni.org/):
-        -   [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
-        -   [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
-    -   Steven Skiena lectures on sorting:
-        -   [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
-        -   [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        -   [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        -   [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
+        -   [Алгоритми - Сортиране - Лекция 2 (клип)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
+        -   [Алгоритми - Сортиране II - Лекция 3 (vклип](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+    -   Steven Skiena лекции за сортиране:
+        -   [Лекцията започва на 26:46 (клип)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+        -   [Лекцията започва на27:40 (клип)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        -   [Лекцията започва на35:00 (клип)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        -   [Лекцията започва на23:50 (клип)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## Видео серии
 
-Sit back and enjoy.
+Настанете се удобно и се наслаждавайте.
 
 -   [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1898,7 +1897,7 @@ Sit back and enjoy.
 
 -   [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
--   CSE373 - Analysis of Algorithms (25 videos)
+-   CSE373 - Анализ на алгоритми (25 клипа)
 
     -   [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
@@ -1948,12 +1947,12 @@ Sit back and enjoy.
 
 -   [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## Курсове по компютърни науки
 
 -   [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 -   [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Algorithms implementation
+## Имплементация на алгоритми
 
 -   [Multiple Algorithms implementation by Princeton University](https://algs4.cs.princeton.edu/code)
 

@@ -1889,7 +1889,7 @@ Mock интервюта:
 
 Настанете се удобно и се наслаждавайте.
 
--   [Списък с различни Dynamic Programming проблеми (за всеки на кратко)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+-   [Списък с различни Dynamic Programming задачи (за всички накратко)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
 -   [x86 Architecture, Assembly, Applications (11 видеа)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
 

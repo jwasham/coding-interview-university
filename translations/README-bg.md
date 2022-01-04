@@ -1853,23 +1853,23 @@ Mock интервюта:
 
 -   [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
 
--   **String Matching**
+-   **Съвпадение на низове**
 
-    -   Rabin-Karp (videos):
+    -   Алгоритъм на Рабин-Карп (видеа):
         -   [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
         -   [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
         -   [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
         -   [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         -   [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
-    -   Knuth-Morris-Pratt (KMP):
+    -   Алгоритъм на Кнут-Морис-Прaт (KMP):
         -   [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
-    -   Boyer–Moore string search algorithm
+    -   Алгоритъм на Бойер-Мур
         -   [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         -   [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
     -   [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
-        -   starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
-        -   nice explanation of tries
-        -   can be skipped
+        -   Започва супер, но след KMP започва да става излишно сложен
+        -   Добро обяснение на префиксни дървета
+        -   Може да го пропуснете
 
 -   **Сортиране**
 

@@ -1878,7 +1878,7 @@ Mock интервюта:
         -   [Лекция 16 | Programming Abstractions (клип)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
     -   Shai Simonson, [Aduni.org](http://www.aduni.org/):
         -   [Алгоритми - Сортиране - Лекция 2 (клип)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
-        -   [Алгоритми - Сортиране II - Лекция 3 (vклип](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+        -   [Алгоритми - Сортиране II - Лекция 3 (клип)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
     -   Steven Skiena лекции за сортиране:
         -   [Лекцията започва на 26:46 (клип)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
         -   [Лекцията започва на27:40 (клип)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)

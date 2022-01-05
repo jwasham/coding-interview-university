@@ -29,6 +29,7 @@
 - [Bahasa Indonesia](translations/README-id.md)
 - [ខ្មែរ - Khmer](translations/README-kh.md)
 - [Uzbek](translations/README-uz.md)
+- [Bulgarian](translations/README-bg.md)
 
 </details>
 

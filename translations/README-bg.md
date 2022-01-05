@@ -21,6 +21,7 @@
 -   [繁體中文](translations/README-tw.md)
 -   [Japanese (日本語)](translations/README-ja.md)
 -   [Russian](translations/README-ru.md)
+-   [Bulgarian](https://github.com/jwasham/coding-interview-university/issues/1032)
 -   [German](translations/README-de.md)
 -   [Bahasa Indonesia](translations/README-id.md)
 -   [ខ្មែរ - Khmer](translations/README-kh.md)
@@ -43,7 +44,6 @@
 -   [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 -   [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 -   [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
--   [Bulgarian](https://github.com/jwasham/coding-interview-university/issues/1032)
 
 </details>
 

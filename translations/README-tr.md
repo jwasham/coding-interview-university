@@ -45,7 +45,6 @@
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Yunanca](https://github.com/jwasham/coding-interview-university/issues/166)
-- [İtalyanca](https://github.com/jwasham/coding-interview-university/issues/170)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 
 </details>
@@ -53,10 +52,10 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Sponsor olun</strong> ve Kodlama Mülakatı Üniversitesi'ni destekleyin!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
     </p>
     <p>
-        <strong>Özellikte teşekkürler:</strong>
+        <strong>Special thanks to:</strong>
     </p>
     <p>
         <a href="https://oss.capital/">
@@ -64,7 +63,7 @@
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
             </div>
             <div>
-                <sup><strong>2018'de kurulan OSS Capital, yalnızca erken aşamadaki COSS (ticari açık kaynak) start-up<br> kurucularını desteklemeye odaklanan ilk ve tek risk sermayesi platformudur.</strong></sup>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
             </div>
         </a>
     </p>
@@ -76,11 +75,11 @@
             </div>
             <div>
                 <p>
-                    <strong>Bulut için oluşturulmuş geliştirme ortamları</strong>
+                    <strong>Dev environments built for the cloud</strong>
                 </p>
             </div>
             <div>
-                <sup>GitLab, GitHub ve Bitbucket ile yerel olarak entegre olan Gitpod, tüm branchlarınız için otomatik olarak ve sürekli olarak geliştirme ortamları oluşturur. Sonuç olarak, ekip üyeleri her yeni görev için anında yeni geliştirme ortamlarıyla kodlamaya başlayabilir - ister yeni bir özellik oluşturuyor olun, ister bir hatayı düzeltmek istiyor olun, ister bir kod incelemesi üzerinde çalışıyor olun.</sup>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
             </div>
         </a>
     </p>
@@ -1354,7 +1353,7 @@ Challenge repos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously.
@@ -1712,7 +1711,7 @@ You're never really done.
         - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
 
     - **2-3 search trees**
         - In practice:

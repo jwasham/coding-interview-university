@@ -331,7 +331,7 @@ Questo è l'articolo originale su cui è basato il mio articolo: http://blog.cod
 Devi essere tranquillo e preparato nell'usare il linguaggio di programmazione che scegli.
 
 Di più sulla scelta: 
-- [Scegli il linguaggio giusto per il colloqui di programmazione](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
 [Guarda risorse specifiche per ogni linguaggio qui.](programming-language-resources.md)
 
@@ -343,12 +343,12 @@ Scegline uno, in un linguaggio nel quale sei tranquillo, leggerai e scriverai mo
 
 ### C
 
-- [Algoritmi in C, Parti 1-5 (Bundle), Terza Edizione](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
     - Fondamenti, Strutture Dati, Ordinamento, Ricerca e Grafi 
 
 ### Python
 
-- [Algoritmi e Strutture Dati in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - di Goodrich, Tamassia, Goldwasser
     - Ho amato questo libro. Copre tutti gli argomenti e di più.
     - Codice in Python
@@ -359,51 +359,50 @@ Scegline uno, in un linguaggio nel quale sei tranquillo, leggerai e scriverai mo
 Scegline uno:
 
 - Goodrich, Tamassia, Goldwasser
-    - [Algoritmi e Strutture Dati in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
 - Sedgewick and Wayne:
-    - [Algoritmi](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
     - Corso gratis di Coursera che copre tutto il libro (fatto dagli autori del libro!):
-        - [Algoritmi I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algoritmi II](https://www.coursera.org/learn/algorithms-part2)
+        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
 ### C++
 
 Scegline uno:
 
 - Goodrich, Tamassia, and Mount
-    - [Algoritmi e Strutture Dati in C++, Seconda edizione](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
 - Sedgewick and Wayne
-    - [Algoritmi in C++, Parti 1-4: Fondamenti, Strutture Dati, Ordinamento, Ricerca](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-    - [Algoritmi in C++ Parte 5: Grafi](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 ## Libri di preparazione al colloquio
 
-You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough, 
-but I bought more to give myself more practice. But I always do too much.
+Non è necessario comprarne molti. Onestamente, "Cracking the Coding Interview" è probabilmente sufficiente, ma ne ho comprati altri per fare più pratica, ma io faccio troppo.
 
-I bought both of these. They gave me plenty of practice.
+Li ho comprati entrambi. Mi hanno fornito molta pratica.
 
 - [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - Answers in C++ and Java
-    - This is a good warm-up for Cracking the Coding Interview
-    - Not too difficult. Most problems may be easier than what you'll see in an interview (from what I've read)
+    - Risposte in C++ e Java
+    - Buon riscaldamento per Cracking the Coding Interview
+    - Non troppo difficile. La maggior parte dei problemipotrebbero essere più facili di quelli che capitano ai colloqui (da quanto ho letto)
 - [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Risposte in Java
 
-### If you have tons of extra time:
+### Se hai molto tempo extra:
 
-Choose one:
+Scegline uno:
 
 - [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
 - [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-## Don't Make My Mistakes
+## Non fare i miei errori
 
-This list grew over many months, and yes, it got out of hand.
+Questa lista è cresciuta in più mesi e si, è cresciuta fuori controllo
 
-Here are some mistakes I made so you'll have a better experience. And you'll save months of time.
+Questi sono alcuni errori che ho commesso, così potrai avere un'esperienza migliore. E salvare mesi della tua vita.
 
 ### 1. You Won't Remember it All
 

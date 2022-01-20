@@ -48,6 +48,7 @@
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
 
 </details>
 

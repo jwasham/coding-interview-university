@@ -240,7 +240,7 @@ If you want to work as a software engineer for a large company, these are the th
 
 If you missed out on getting a degree in computer science, like I did, this will catch you up and save four years of your life.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, or anything about trees, or how to
+When I started this project, I didn't know the difference between a stack and a heap, didn't know Big-O anything, or anything about trees, or how to
 traverse a graph. If I had to code a sorting algorithm, I can tell ya it would have been terrible.
 Every data structure I had ever used was built into the language, and I didn't know how they worked
 under the hood at all. I never had to manage memory unless a process I was running would give an "out of

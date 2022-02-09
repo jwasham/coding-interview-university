@@ -277,10 +277,10 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
     J'aime utiliser les cours universitaires.
 
 
-## Interview Process & General Interview Prep
+## Processus pour l'interview et Préparation
 
-- [ ] Videos:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+- [ ] Vidéos:
+    - [ ] [Comment travailler à Google: Prepare pour une interview d'ingenieur (Anglais : Vidéo)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
     - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
     - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
     - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)

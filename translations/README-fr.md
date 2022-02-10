@@ -281,16 +281,16 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
 
 - [ ] Vidéos:
     - [ ] [Comment travailler à Google: Prepare pour une interview d'ingenieur (Anglais : Vidéo)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [Comment travailler à Google: Example pour une interview de coding/ingenieur (Anglais : Vidéo)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [Comment travailler à Google: Preparation pour la candidat (Anglais : Vidéo)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [Les conseils pour les interviews par les employés (Anglais : Vidéo)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [Comment travailler à Google: Preparation pour ton résumé (Anglais : Vidéo)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [Comment etre un Googler dans trois etapes](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [Recoit cette emploi à Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - tous les choses mentionne par lui sont en forme de liste en dessous
+    - [ ] _(très vieux)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] Prep Courses:

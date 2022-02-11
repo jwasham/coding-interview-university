@@ -277,38 +277,38 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
     J'aime utiliser les cours universitaires.
 
 
-## Processus pour l'interview et Préparation
+## Processus pour l'entrevue et Préparation
 
 - [ ] Vidéos:
-    - [ ] [Comment travailler à Google: Prepare pour une interview d'ingenieur (Anglais : Vidéo)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [Comment travailler à Google: Example pour une interview de coding/ingenieur (Anglais : Vidéo)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [Comment travailler à Google: Preparation pour la candidat (Anglais : Vidéo)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Les conseils pour les interviews par les employés (Anglais : Vidéo)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [Comment travailler à Google: Preparation pour ton résumé (Anglais : Vidéo)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+    - [ ] [Comment travailler à Google: Prépare pour une interview d'ingénieur (vidéo)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [Comment travailler à Google: Exemple pour une entrevue de coding/ingénieur (vidéo)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [Comment travailler à Google: Préparation pour le candidat (vidéo)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [Les conseils pour les interviews par les employés (vidéo)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [Comment travailler à Google: Préparation pour ton résumé (vidéo)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] Articles:
-    - [ ] [Comment etre un Googler dans trois etapes](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Recoit cette emploi à Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - tous les choses mentionne par lui sont en forme de liste en dessous
-    - [ ] _(très vieux)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+    - [ ] [Comment être un Googler dans trois étapes](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [Reçoit cet emploi à Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - Toutes les choses mentionnent par lui est en forme de liste en dessous
+    - [ ] _(très vieux)_ [Comment avoir un emploi à Google, Questions d'Interview, Processus d'Embauchement](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [Questions pour l'appeler de sélection](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] Prep Courses:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+- [ ] Cours pour préparer:
+    - [ ] [Comment réussir dans une interview d'ingénieur logiciel (besoin de payer)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Apprends comment être pret pour l'entrevue de quelqu'un qui était responsable de l'embauche pour Google.
 
-- [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+- [ ] Supplémentaires (ne sont pas suggéré par Google, mais je l'ai ajouté):
+    - [ ] [Toujours en train de faire le codage (Anglais ABC: Always Be Coding)](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [Quatre étapes à Google, sans un diplôme](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [Tableau blanc](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [Comment Google pense à propos de l'embauche, gestion, et culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [Tableau blanc efficace lors des entretiens de codage](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] Réussis dans une entrevue de codage:
+        - [ ] [Gayle L McDowell -  Réussi l'entretien de codage (vidéo)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [ ] [Réussi l'entretien de codage avec auteur Author Gayle Laakmann McDowell (vidéo)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] Comment obtenir un emploi à Google, Microsoft, Amazon ou Facebook:
+        - [ ] ['Comment obtenir un emploi aux grandes quatre - Amazon, Facebook, Google & Microsoft' (vidéo)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [Échouer à une entrevue de Google](http://alexbowe.com/failing-at-google-interviews/)
 
 ## Pick One Language for the Interview
 

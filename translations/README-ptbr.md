@@ -1561,7 +1561,6 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc) (Tutorial de Emacs (Iniciantes) - Parte 3 - Expressões, Declarações, arquivo ~/. emacs e pacotes)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc) (Modo Evil: Ou, Como Eu Aprendi A Parar De Me Preocupar E Amar O Emacs - vídeo)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs) (Escrevendo Programas Em C Com Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk) ((talvez) Análise Profunda do Modo Org: Gerenciando Estrutura - vídeo)
 
 - ### Ferramentas de linha de comando do Unix
     - Eu preenchi a lista abaixo com boas ferramentas.

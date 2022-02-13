@@ -9,6 +9,8 @@
     - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=y5JmQItfFck)
     - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
   - [Let us C](https://books.google.co.in/books/about/Let_Us_C.html?id=7HrjAAAACAAJ)
+  - [Complete C programming for beginners](https://youtu.be/KJgsSFOSQv0)
+
 - C++
   - [C++ Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/Cpp_reference.pdf)
   - [STL Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)

@@ -1292,7 +1292,7 @@
 
 模拟面试：
 
-- [Gainlo.co：来自大公司的模拟面试官](http://www.gainlo.co/)──我使用了它，它帮助我减轻了电话屏幕和现场面试的压力
+- [Gainlo.co：来自大公司的模拟面试官](http://www.gainlo.co/#!/)──我使用了它，它帮助我减轻了电话屏幕和现场面试的压力
 - [Pramp：模拟来自/与同行的面试](https://www.pramp.com/)──点对点方式练习面试
 - [Refdash：模拟面试和加急面试](https://refdash.com/)──跳过与科技公司的多次面试，帮助求职者快速追踪
 - [interviewing.io：与高级工程师进行模拟面试](https://interviewing.io/)──与来自 FAANG（译者注：Facebook, Amazon, Apple, Netflix and Google） 的高级工程师进行匿名算法/系统设计面试。

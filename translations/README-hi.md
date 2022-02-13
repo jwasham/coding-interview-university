@@ -1750,7 +1750,7 @@ Sit back and enjoy. "netflix and skill" :P
 
 ## शायद
 
-http://www.gainlo.co/ - बड़ी कंपनी के मोक इंटरव्यू
+http://www.gainlo.co/#!/ - बड़ी कंपनी के मोक इंटरव्यू
 
 ---
 

@@ -1465,7 +1465,6 @@ Mock интервюта:
             -   [Emacs въководство (За начинаещи) -Част 3- Изрази, Твърдения, ~/.emacs файлове и пакети](https://www.youtube.com/watch?v=paSgzPso-yc)
         -   [Зъл режим(Evil mode): Или как се научих да спра да се тревожа и да заобичам Emacs (клип)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         -   [Писане на C програми с Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        -   [(по желание) Org режима в подробности: Управление на структурата (клип)](https://www.youtube.com/watch?v=nsGYet02bEk)
 	- [Emacs-Наръчник за начинаещи (видео от David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
 	- [Emacs-Наръчник за начинаещи (записки на David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
 

@@ -1718,7 +1718,6 @@ Mock интервюта:
 
     -   Great for finding number of points in a rectangle or higher dimension object
     -   A good fit for k-nearest neighbors
-    -   [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
     -   [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
 -   ### Skip lists

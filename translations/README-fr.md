@@ -310,31 +310,31 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
         - [ ] ['Comment obtenir un emploi aux grandes quatre - Amazon, Facebook, Google & Microsoft' (vidéo)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Échouer à une entrevue de Google](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Choisis une langue pour l'Entrevue
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Je l'ai écrit cet article à propos de cela : [Important: Chois une langue pour l'entrevue Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Tu peux choisir une langue avec laquelle vos êtes comftortable pour fair la partie de codage, mais pour Google, celles-ci sont les bons choix:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Tu pourrais aussi faire celles-ci, mais fait de la recherche avant. Il y aurait peut-être des problèmes:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Tu dois être très comfortable avec la langue et tu dois aussi savoir beaucoup à propos la langue.
 
-Read more about choices:
+Lit à propos vos choix:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Regarde les ressources pour chaque langue ici](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Vous voyiez C, C++ et Python en dessous, parce que j'apprends. Il y a quelques livres qui va t'aider, regarde en dessous. 
 
 ## Book List
 

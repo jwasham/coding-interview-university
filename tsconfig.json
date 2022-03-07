@@ -5,7 +5,7 @@
     "typeRoots": ["./work/node_modules/@types"],
     "types": ["node", "jest", "mocha", "jasmine"],
     "lib": ["es6"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
   },
   "exclude": ["./work/node_modules", "**/*.spec.ts"]
 }

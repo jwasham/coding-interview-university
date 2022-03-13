@@ -88,8 +88,8 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
     - [Hash table](#hash-table)
 - [More Knowledge](#more-knowledge)
     - [Recherche dichotomique](#binary-search)
-    - [Opérations bit à bit](#bitwise-operations)
-- [Arbes](#trees)
+    - [Opérations bit à bit](#Opérations-par-bit)
+- [Arbres](#arbres)
     - [Arbres - Notes & Background](#trees---notes--background)
     - [Arbres binaires de recherche: BSTs](#binary-search-trees-bsts)
     - [Tas / File de Priorité / Tas binaire](#heap--priority-queue--binary-heap)
@@ -728,114 +728,114 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search (on sorted array of integers)
         - binary search using recursion
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+- ### Opérations par bit
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - vous devriez connaître plusieurs des puissances de 2 de (2^1 à 2^16 et 2^32)
+    - [ ] Obtenez une très bonne compréhension de la manipulation des bits avec : &, |, ^, ~, >>, <<
+        - [ ] [mots](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] Bonne introduction :
+            [Manipulation de bits (vidéo)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [Tutoriel de programmation C 2-10 : Opérateurs binaires (vidéo)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Manipulation de bits](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Opération par bit](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
-        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] round to next power of 2:
-        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
-        - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
-        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+    - [ ] Complément de 2 et de 1
+        - [Binaire : les plus et les moins (pourquoi nous utilisons le complément à deux) (vidéo)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [Complément à 1](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [Complément à 2] (https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] compter les bits d'un ensemble
+        - [4 façons de compter les bits dans un octet (vidéo)](https://youtu.be/Hzuzo9NJrlc)
+        - [Compter les bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [Comment compter le nombre de bits de set dans un entier de 32 bits](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    - [ ] arrondir à la prochaine puissance de 2 :
+        - [Arrondir à la puissance de deux suivante](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+    - [ ] échanger des valeurs :
+        - [Échanger](http://bits.stephan-brumme.com/swap.html)
+    - [ ] valeur absolue :
+        - [Entier absolu](http://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+ ## Arbres
 
-- ### Trees - Notes & Background
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
+- ### Arbres - Notes et contexte
+    - [ ] [Série : Arbres (vidéo)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - construction d'un arbre de base
+    - traversée
+    - algorithmes de manipulation
     - BFS (breadth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-        - level order (BFS, using queue)
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
-    - DFS (depth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-        - notes:
-            time complexity: O(n)
-            space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-        - inorder (DFS: left, self, right)
-        - postorder (DFS: left, right, self)
-        - preorder (DFS: self, left, right)
+        - [MIT (vidéo)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+        - ordre des niveaux (BFS, utilisation de la file d'attente)
+            complexité en temps : O(n)
+            complexité spatiale : meilleure : O(1), pire : O(n/2)=O(n)
+    - DFS (recherche en profondeur)
+        - [MIT (vidéo)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+        - notes :
+            complexité en temps : O(n)
+            complexité spatiale :
+                meilleure : O(log n) - hauteur moyenne de l'arbre
+                pire : O(n)
+        - inorder (DFS : left, self, right)
+        - postorder (DFS : gauche, droite, self)
+        - préordre (DFS : self, gauche, droite)
 
-- ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - starts with symbol table and goes through BST applications
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
-    - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+- ### Arbres de recherche binaires : BSTs
+    - [ ] [Examen des arbres de recherche binaires (vidéo)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    - [ ] [Série (vidéo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+        - commence par la table des symboles et passe en revue les applications des BST.
+    - [ ] [Introduction (vidéo)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [MIT (vidéo)](https://www.youtube.com/watch?v=9Jry5-82I68)
+    - C/C++ :
+        - [ ] [Arbre de recherche binaire - Implémentation en C/C++ (vidéo)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] [Implémentation de l'arbre de recherche binaire - allocation de mémoire dans la pile et le tas (vidéo)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [Trouver les éléments min et max dans un arbre de recherche binaire (vidéo)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Trouver la hauteur d'un arbre binaire (vidéo)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [Traversée d'un arbre binaire - stratégies breadth-first et depth-first (vidéo)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] [Arbre binaire : Traversée de l'ordre des niveaux (vidéo)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Traversée d'un arbre binaire : Préordre, Inordre, Postordre (vidéo)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Vérifier si un arbre binaire est un arbre de recherche binaire ou non (vidéo)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Supprimer un noeud d'un arbre de recherche binaire (vidéo)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] [Successeur d'ordre dans un arbre de recherche binaire (vidéo)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] Implémenter :
+        - [ ] insert // insérer une valeur dans l'arbre
+        - [ ] get_node_count // obtient le nombre de valeurs stockées
+        - [ ] print_values // imprime les valeurs dans l'arbre, de min à max
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] is_in_tree // renvoie vrai si la valeur donnée existe dans l'arbre
+        - [ ] get_height // renvoie la hauteur en nœuds (la hauteur d'un seul nœud est de 1)
+        - [ ] get_min // renvoie la valeur minimale stockée dans l'arbre
+        - [ ] get_max // renvoie la valeur maximale stockée dans l'arbre
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // renvoie la valeur la plus élevée suivante dans l'arbre après la valeur donnée, -1 si aucune valeur n'est disponible
 
-- ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+- ### Amas / File d'attente prioritaire / Amas binaire
+    - visualisé comme un arbre, mais est généralement linéaire dans le stockage (tableau, liste liée)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
+    - [ ] [Introduction (vidéo)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [ ] [Implémentations naïves (vidéo)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [Arbres binaires (vidéo)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Remarque sur la hauteur des arbres (vidéo)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] [Opérations de base (vidéo)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Arbres binaires complets (vidéo)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [Pseudocode (vidéo)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Tri par tas - saut au début (vidéo)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Tri par tas (vidéo)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [Construire un tas (vidéo)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [MIT : Heaps et Heap Sort (vidéo)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B Lecture 24 : Files d'attente prioritaires (vidéo)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+    - [ ] Implémenter un max-heap :
+        - [ ] insérer
+        - [ ] sift_up - nécessaire pour l'insertion
+        - [ ] get_max - renvoie l'élément maximum, sans le supprimer
+        - [ ] get_size() - renvoie le nombre d'éléments stockés
+        - [ ] is_empty() - renvoie vrai si le tas ne contient aucun élément
+        - extract_max - Retourne l'élément maximum, en le supprimant.
+        - [ ] sift_down - nécessaire pour extract_max
+        - [ ] remove(i) - Supprime l'élément à l'indice x
+        - heapify - crée un tas à partir d'un tableau d'éléments, nécessaire pour heap_sort
+        - [ ] heap_sort() - prend un tableau non trié et le transforme en un tableau trié sur place en utilisant un tas max.
+            - note : utiliser un heap min à la place économiserait des opérations, mais doublerait l'espace nécessaire (ne peut pas faire in-place).
 
 ## Sorting
 

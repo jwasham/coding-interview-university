@@ -1447,7 +1447,7 @@ Bosquejos de entrevista:
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
 ## Su CV (Currículum Vitae)
-Vea los elementos de preparación en **Cracking The Coding Interview and back of Programming Interviews Exposed**
+Vea los elementos de preparación en **Cracking The Coding Interview and back of Programming Interviews Exposed**.
 
 ## Pensando en cuando llegue la entrevista
 Piense en aproximadamente veinte preguntas de la entrevista que usted conseguirá, junto con las líneas de abajo. Tenga 2-3 respuestas para cada una.

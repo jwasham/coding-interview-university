@@ -5,4 +5,4 @@ type Point = {
     y: number
 }
 
-const p1: Point = {}
+const p1: Point = {x: 1, y: 2};

@@ -1,9 +1,46 @@
 # Coding Interview University
 
-Translations:
+Traductions:
 - [中文版本](README-cn.md)
 - [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/coding-interview-university/issues/80)
 - मानक हिन्दी (in progress) [Issue #81](https://github.com/jwasham/coding-interview-university/issues/81)
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
 
 ## C'est quoi?
 
@@ -32,7 +69,7 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Se mettre dans l'humeur Googley](#get-in-a-googley-mood)
 - [J'ai décroché le Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [Ne vous sentez pas stupide](#ne-vous-sentez-pas-stupide)
 - [A propos de Google](#about-google)
 - [A propos des ressources vidéo](#about-video-resources)
 - [Déroulement de l'entretien & préparations générales à l'entretien](#interview-process--general-interview-prep)
@@ -147,34 +184,23 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 
 ---
 
-## Why use it?
+## Pourquoi l'utiliser?
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+Je suis ce plan pour préparer mon entretien chez Google. J'ai construit le web, construit des services, et lancé des startups depuis 1997. J'ai un diplôme en économie, non pas d'informatique. J'ai eu beaucoup de succès dans ma carrière , mais je veux travailler chez Google. Je veux progresser sur de larges systèmes, et avec une réelle compréhension des systèmes informatiques, de l'efficacité algorithmique, de la performance des structures de données, de langages bas-niveau, et de comment ça marche. Et si vous ne connaissez rien de tout cela, Google ne vous engagera pas.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Quand j'ai commencé ce projet, je ne savais pas distinguer une pile d'un tas, ne connaissais rien sur le Grand O, rien sur les arbres, ou comment traverser un graphe. Si je devais coder un algorithme, je peux vous dire que ça n'aurait pas été très bon. Chaque structure de données que j'ai utilisée était construite dans le langage, et je ne savais pas du tout comment elles fonctionnaient sous le capot. Je n'avais jamais eu à gérer de mémoire sauf si un processus que j'exécutais donnais une erreur "Out of memory", et je devais alors trouver une parade. J'ai utilisé quelques tableaux multidimensionnels dans ma vie et des milliers de tableaux associatifs, mais je n'ai jamais créé de structures de données de zéro.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+Mais après avoir suivi ce plan d'études, je suis confiant que je serai embauché. C'est un long plan. cela me prendra des mois. Si vous êtes déjà familier avec beaucoup de points, cela vous prendra beaucoup moins de temps.
 
-## How to use it
+## Comment s'en servir?
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Tout ce qui suit est très important et vous devriez attaquer ces points dans l'ordre de haut en bas.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+J'utilise la typologie Markdown de GitHub, incluant les listes de tâches pour suivre les progrès.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+- [x] Créez une nouvelle branche afin de vérifier les éléments comme ceci, mettez juste un "x" entre crochets : [x]
 
-
-    Fork a branch and follow the commands below
+    Effectuez un fork d'une branche et suivez les commandes suivantes
 
 `git checkout -b progress`
 
@@ -188,17 +214,17 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Plus sur Markdown à la sauce Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Get in a Googley Mood
 
-Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/master/extras/future-googler.pdf)
+[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)
 
 ## Did I Get the Job?
 
@@ -220,95 +246,95 @@ I'm on the journey, too. Follow along:
 
 ![John Washam - Coding Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+## Ne vous sentez pas stupide
+- Les ingénieurs de Google sont intelligents, mais beaucoup ont comme insécurité qu'ils ne sont pas suffisamment intelligents, même s'ils travaillent pour Google.
+- [Le mythe du programmeur génie](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [C'est dangereux de rester seul: Combattre les monstres invisibles dans la Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## À propos de Google
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
+- [ ] Pour les étudiants - [Carrières Google: Guide de développement technique](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] Comment marche la recherche:
+    - [ ] [L'évolution de la recherche (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [Comment la recherche fonctionne - l'histoire](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [Comment la recherche fonctionne](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [Comment la recherche fonctionne - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [Comment Google améliore son algorithme de recherche (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] Séries:
+    - [ ] [Comment la recherche Google Search fonctionne sur mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [L'étude secrète de Google pour découvrir nos besoins](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [La recherche Google Search sera votre prochain cerveau](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [L'esprit profond de Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+- [ ] [Livre: Comment Google fonctionne](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [Annonce faite par Google - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## À propos des ressources vidéos
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Certaines vidéos sont disponibles uniquement en s'inscrivant à une classe Coursera, EdX ou Lynda.com. Ce sont des MOOC.
+Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mois, donc vous n'y avez pas accès. Les cours sur Lynda.com ne sont pas gratuits.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+    J'apprécierais votre aide pour ajouter des sources publiques gratuites et toujours disponibles, telles que des vidéos YouTube pour accompagner les vidéos de cours en ligne.
+    J'aime utiliser les cours universitaires.
 
 
-## Interview Process & General Interview Prep
+## Processus pour l'entrevue et Préparation
 
-- [ ] Videos:
-    - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
-    - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
-    - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-    - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
-    - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
+- [ ] Vidéos:
+    - [ ] [Comment travailler à Google: Prépare pour une interview d'ingénieur (vidéo)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
+    - [ ] [Comment travailler à Google: Exemple pour une entrevue de coding/ingénieur (vidéo)](https://www.youtube.com/watch?v=XKu_SEDAykw)
+    - [ ] [Comment travailler à Google: Préparation pour le candidat (vidéo)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+    - [ ] [Les conseils pour les interviews par les employés (vidéo)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
+    - [ ] [Comment travailler à Google: Préparation pour ton résumé (vidéo)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
 - [ ] Articles:
-    - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
-    - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+    - [ ] [Comment être un Googler dans trois étapes](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
+    - [ ] [Reçoit cet emploi à Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+        - Toutes les choses mentionnent par lui est en forme de liste en dessous
+    - [ ] _(très vieux)_ [Comment avoir un emploi à Google, Questions d'Interview, Processus d'Embauchement](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+    - [ ] [Questions pour l'appeler de sélection](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
-- [ ] Prep Courses:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+- [ ] Cours pour préparer:
+    - [ ] [Comment réussir dans une interview d'ingénieur logiciel (besoin de payer)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Apprends comment être pret pour l'entrevue de quelqu'un qui était responsable de l'embauche pour Google.
 
-- [ ] Additional (not suggested by Google but I added):
-    - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-    - [ ] [Four Steps To Google Without A Degree](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-    - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-    - [ ] [How Google Thinks About Hiring, Management And Culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
+- [ ] Supplémentaires (ne sont pas suggéré par Google, mais je l'ai ajouté):
+    - [ ] [Toujours en train de faire le codage (Anglais ABC: Always Be Coding)](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+    - [ ] [Quatre étapes à Google, sans un diplôme](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+    - [ ] [Tableau blanc](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+    - [ ] [Comment Google pense à propos de l'embauche, gestion, et culture](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+    - [ ] [Tableau blanc efficace lors des entretiens de codage](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+    - [ ] Réussis dans une entrevue de codage:
+        - [ ] [Gayle L McDowell -  Réussi l'entretien de codage (vidéo)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+        - [ ] [Réussi l'entretien de codage avec auteur Author Gayle Laakmann McDowell (vidéo)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] Comment obtenir un emploi à Google, Microsoft, Amazon ou Facebook:
+        - [ ] ['Comment obtenir un emploi aux grandes quatre - Amazon, Facebook, Google & Microsoft' (vidéo)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [Échouer à une entrevue de Google](http://alexbowe.com/failing-at-google-interviews/)
 
-## Pick One Language for the Interview
+## Choisis une langue pour l'Entrevue
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Je l'ai écrit cet article à propos de cela : [Important: Chois une langue pour l'entrevue Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+Tu peux choisir une langue avec laquelle vos êtes comftortable pour fair la partie de codage, mais pour Google, celles-ci sont les bons choix:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Tu pourrais aussi faire celles-ci, mais fait de la recherche avant. Il y aurait peut-être des problèmes:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Tu dois être très comfortable avec la langue et tu dois aussi savoir beaucoup à propos la langue.
 
-Read more about choices:
+Lit à propos vos choix:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
-[See language resources here](programming-language-resources.md)
+[Regarde les ressources pour chaque langue ici](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Vous voyiez C, C++ et Python en dessous, parce que j'apprends. Il y a quelques livres qui va t'aider, regarde en dessous. 
 
 ## Book List
 
@@ -469,7 +495,7 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
@@ -703,7 +729,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -732,7 +758,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
     - traversal
@@ -961,7 +986,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - when it is appropriate to use it
     - how is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1248,7 +1273,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help
@@ -1378,10 +1403,10 @@ Challenge sites:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Maybe:
-- [Mock interviewers from big companies](http://www.gainlo.co/)
+- [Mock interviewers from big companies](http://www.gainlo.co/#!/)
 
 ## Once you're closer to the interview
 
@@ -1535,7 +1560,6 @@ You're never really done.
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix command line tools
     - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.
@@ -1957,7 +1981,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1998,7 +2022,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

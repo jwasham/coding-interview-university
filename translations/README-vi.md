@@ -29,6 +29,43 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 >
 > *Chúc may mắn!*
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
+
 ## Giới thiệu
 
 Đây là kế hoạch học tập trong nhiều tháng của tôi, để từ một nhà phát triển web (tự học, không có bằng cấp về Khoa Học Máy Tính - KHMT) trở thành một kỹ sư phần mềm ở Google.
@@ -207,7 +244,7 @@ Ok, bây giờ bạn có thể bắt đầu:
 - Check các phần đã hoàn thành bằng cách thêm `x` vào giữa cặp ngoặc vuông (`[ ]`), như thế này: `[x]`.
 - Chạy `git add .` để bắt đầu lưu lại các thay đổi.
 - Chạy `git commit -m "commit message" `. Thay `commit message` với ghi chú của bạn cho sự thay đổi đó.
-- Đồng bộ thay đổi với bản fork trên Github của bạn bằng `git push origin master`.
+- Đồng bộ thay đổi với bản fork trên Github của bạn bằng `git push origin main`.
 
 
 ## Đừng nghĩ rằng bạn không đủ thông minh
@@ -429,7 +466,7 @@ Tôi đã làm một trang mobile-first (lấy mobile là trọng tâm phát tri
 Tự tạo cho mình hoàn toàn miễn phí:
 
 - [Repo của trang thẻ ghi nhớ](https://github.com/jwasham/computer-science-flash-cards)
-- [Cơ sở dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
+- [Cơ sở dữ liệu thẻ ghi nhớ của tôi](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Lưu ý là tôi có đi hơi xa và các thẻ ghi nhớ có thể bao gồm cả hợp ngữ (ngôn ngữ máy) và Python cho đến cả máy học (machine learning) và thống kê. Như thế là quá nhiều cho các yêu cầu từ Google.
 
 **Ghi chú dành cho các thẻ ghi nhớ:** Lần đầu tiên bạn nhận ra bạn biết câu trả lời, đừng đánh dấu là đã biết.Bạn phải xem thẻ tương tự và đưa ra câu trả lời chính xác vài lần trước khi bạn thực sự khẳng định đã nắm được vấn đề. Lặp đi lặp lại việc này sẽ giúp kiến thức được khắc sâu vào não bạn.
 
@@ -692,7 +729,6 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 ## Cây
 
 - ### Cây - Ghi chú và kiến thức nền
-    - [ ] [Chuỗi bài giảng: Căn bản về cây](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Chuỗi bài giảng: Cây](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - Xây dựng cây cơ bản.
     - Duyệt cây.
@@ -925,7 +961,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - Khi nào thích hợp để sử dụng?
     - Đệ quy đuôi tốt hơn hay không như thế nào?
         - [ ] [Đệ quy đuôi là gì Tại sao nó không tốt(What Is Tail Recursion Why Is It So Bad)?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Đệ quy đuôi (Tail Recursion) (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Đệ quy đuôi (Tail Recursion) (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Quy hoạch động
     - Chủ đề này có thể hơi khó, và các bài toán giải được bằng quy hoạch động (Dynamic Programming - DP) phải được định nghĩa ở dạng quan hệ hồi quy, và tìm ra giải pháp quy hoạch động cũng không đơn giản.
@@ -1413,10 +1449,10 @@ Các trang giải toán lập trình:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Xem thêm:
-- [Phỏng vấn thử nghiệm](http://www.gainlo.co/)
+- [Phỏng vấn thử nghiệm](http://www.gainlo.co/#!/)
 
 
 ## Khi bạn tiến gần đến kỳ phỏng vấn
@@ -1532,7 +1568,6 @@ Bạn không bao giờ thực sự học xong!
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Các công cụ chạy trên dòng lệnh của Unix
     - Được đề xuất bởi Yegge, từ một bài đăng tuyển dụng cũ của Amazon.
@@ -1899,7 +1934,7 @@ Hãy ngồi xuống và thưởng thức. "Luyện kỹ năng với Netflix" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1940,7 +1975,7 @@ Hãy ngồi xuống và thưởng thức. "Luyện kỹ năng với Netflix" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

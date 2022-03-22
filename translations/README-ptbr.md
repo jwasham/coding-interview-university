@@ -10,7 +10,7 @@
 >
 > *Boa sorte para todos vocês!*
 
-**Original**: [Inglês](https://github.com/jwasham/coding-interview-university/blob/master/README.md)
+**Original**: [Inglês](https://github.com/jwasham/coding-interview-university/blob/main/README.md)
 
 - [Acompanhe o progresso da tradução aqui!](https://github.com/jwasham/coding-interview-university/pull/115)
 
@@ -38,8 +38,44 @@ Traduções em progresso:
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
-    
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
+
 ## O que é isso?
 
 Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software em uma grande empresa.
@@ -205,7 +241,7 @@ Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de ta
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -316,7 +352,7 @@ Se você tem mais tempo (eu quero esse livro):
 Se você ler um desses, você deverá ter todo conhecimento de estrutura de dados e algoritmos que precisará para começar a resolver problemas de programação. 
 **Você pode pular todas as aulas em vídeo nesse projeto**, a não ser que você queira uma revisão.
 
-[Recursos adicionais específicos a cada linguagem aqui.](programming-language-resources.md)
+[Recursos adicionais específicos a cada linguagem aqui.](../programming-language-resources.md)
 
 ### C++
 
@@ -399,7 +435,7 @@ Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle!
 
 ### 1. Você não se lembrará de tudo
 
-Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
+Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não lembrava. Eu passei 3 dias revisando minhas anotações e fazendo flashcards para que eu pudesse relembrar.
 
 Por favor, leia para que você não cometa os meus erros:
 
@@ -415,8 +451,8 @@ Eu fiz um website focado em mobile para que eu pudesse rever no meu celular, tab
 Faça o seu próprio, grátis:
 
 - [Repositório de flashcards](https://github.com/jwasham/computer-science-flash-cards)
-- [Minha base de dados de flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 
-- [Minha base de dados de flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Minha base de dados de flashcards (antigo - 1200 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): 
+- [Minha base de dados de flashcards (novo - 1800 cartões)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Tenha em mente que eu exagerei e tenho cartões abrangendo desde linguagem assembly e trivialidades de Python até aprendizado de máquina e estatísticas. É demais para o que é requerido. 
 
@@ -650,7 +686,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - busca binária usando recursividade
 
 - ### Lógica binária 
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) (Folha de consultas sobre Bits) - você deve conhecer várias das potências de 2 de (2^1 até 2^16 e 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) (Folha de consultas sobre Bits) - você deve conhecer várias das potências de 2 de (2^1 até 2^16 e 2^32)
     - [ ] Consiga um bom entendimento sobre manipulação de bits com: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture)) (palavras)
         - [ ] Boa introdução:
@@ -679,7 +715,6 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 ## Árvores
 
 - ### Árvores - Anotações e Fundamentos
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees) (Série: Fundamentos de Árvores - vídeo)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees) (Série: Árvores - vídeo)
     - contrução básica de árvore
     - transversal
@@ -903,7 +938,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - quando é apropriado usá-la
     - como a recursão de cauda é melhor do que nada?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad) (O Que É Recursão de Cauda E Por Que Ela É Tão Ruim?)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc) (Recursão de Cauda - vídeo)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1) (Recursão de Cauda - vídeo)
 
 - ### Programação Dinâmica
     - Esse assunto pode ser bem difícil, já que cada problema solúvel de PD deve ser definido como uma relação de recursão, e isso pode ser complicado.
@@ -1133,17 +1168,17 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - Note que há tipos diferentes de tries. Alguns tem prefixos, alguns não, e alguns usam string ao invés de bits
         para rastrear o caminho.
     - Eu li todo o código, mas não irei implementar.
-    - [ ] [Sedgewick - Tries (3 vídeos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [1. Tries R-Way](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ) (Tries de Busca Ternária)
-        - [ ] [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1) (Operações Baseadas Em Caracteres)
+    - [ ] [Sedgewick - Tries (3 vídeos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+        - [ ] [1. Tries R-Way](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries) (Tries de Busca Ternária)
+        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations) (Operações Baseadas Em Caracteres)
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries) (Anotações sobre Estruturas de Dados e Técnicas de Programação)
     - [ ] Vídeos de cursos curtos:
         - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries) (Introdução À Tries - vídeo)
         - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries) (Desempenho De Tries - vídeo)
         - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie) (Implementando Uma Trie - vídeo)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure) (A Trie: Uma Estrutura de Dados Negligenciada)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/) (TopCoder - Usando Tries)
+    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries) (TopCoder - Usando Tries)
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU) (Aula de Stanfort (caso de uso no mundo real) - vídeo)
     - [ ] [MIT, Advanced Data Structures, Strings (pode ficar bem obscuro pela metade)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) (MIT, Estruturas De Dados Avançadas, Strings)
 
@@ -1275,7 +1310,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 - [ ] Praticando o processo de design de sistema: Aqui estão algumas ideias para tentar trabalhar no papel, cada uma com documentação sobre como ela foi tratada no mundo real:
     - revisão: [The System Design Primer](https://github.com/donnemartin/system-design-primer) (A Base de Design de Sistema)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/) (Design de Sistema, por HiredInTech)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf) (folha de consultas)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf) (folha de consultas)
     - fluxo:
         1. Compreenda o problema e seu escopo:
             - defina os casos de uso, com a ajuda do entrevistador
@@ -1407,14 +1442,14 @@ Websites de desafios:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Repositórios de desafios:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges) (Desafios Interativos de Entrevista de Programação em Python)
 
 Entrevistas Simuladas:
-- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/)
+- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/#!/)
 - [Pramp: Entrevistas simuladas com colegas](https://www.pramp.com/)
 - [Refdash: Entrevistas simuladas](https://refdash.com/)
 
@@ -1526,7 +1561,6 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc) (Tutorial de Emacs (Iniciantes) - Parte 3 - Expressões, Declarações, arquivo ~/. emacs e pacotes)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc) (Modo Evil: Ou, Como Eu Aprendi A Parar De Me Preocupar E Amar O Emacs - vídeo)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs) (Escrevendo Programas Em C Com Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk) ((talvez) Análise Profunda do Modo Org: Gerenciando Estrutura - vídeo)
 
 - ### Ferramentas de linha de comando do Unix
     - Eu preenchi a lista abaixo com boas ferramentas.
@@ -1911,7 +1945,7 @@ Sente-se e aproveite. "Netflix e habilidade" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy) (Ciência da Computação 70, 001 - Primavera de 2005 - Matemática Discreta e Teoria de Probabilidade)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG) (Matemática Discreta por Shai Simonson - 19 vídeos)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t) (Matemática Discreta por Shai Simonson - 19 vídeos)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo) (Matemática Discreta Parte 1 por Sarada Herke - 5 vídeos)
 
@@ -1952,7 +1986,7 @@ Sente-se e aproveite. "Netflix e habilidade" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh) (MIT 6.858 Segurança de Sistemas de Computador, Outono de 2014)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02) (Stanford: Paradigmas de Programação - 27 vídeos)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02) (Stanford: Paradigmas de Programação - 27 vídeos)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy) (Introdução a Criptografia por Christof Paar)
     - [Website de Curso junto com Slides e Conjuntos de Problemas](http://www.crypto-textbook.com/)

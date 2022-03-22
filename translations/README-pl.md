@@ -38,12 +38,47 @@
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
 
 </details>
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
 ## Co to jest?
 
 To jest mój wielomiesięczny plan nauki od przejścia od programisty (samouka, bez dyplomu CS - informatyki) do inżyniera oprogramowania dla dużej firmy.
@@ -208,7 +243,7 @@ Używam specjalnej odmiany Markdown GitHub, w tym list zadań do sprawdzania pos
 
 `git commit -m "Marked x"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
 
 `git push --force`
 
@@ -372,8 +407,8 @@ Stworzyłem witrynę mobilną, aby móc przeglądać na moim telefonie i tableci
 Stwórz własną za darmo:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Pamiętaj, że poszedłem ostro i mam karty obejmujące wszystko, od języka asemblera i ciekawostek Python po uczenie maszynowe i statystyki. To o wiele za dużo na to, w stosunku do tego co jest wymagane.
 
@@ -617,7 +652,7 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
         - binary search using recursion
 
 - ### Operacje bitowe
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Dobrze zrozum manipulowanie bitami korzystając z: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -644,7 +679,6 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
 ## Drzewa
 
 - ### Drzewa - uwagi & zarys
-    - [ ] [Series: Core Trees (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (wideo)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - podstawy budowy drzewa
     - traversal (ścieżki)
@@ -868,7 +902,7 @@ Grafy mogą być wykorzystane do przedstawienia wielu problemów w informatyce, 
     - when it is appropriate to use it
     - how is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (wideo)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (wideo)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Programowanie dynamiczne
     - Prawdopodobnie nie będziesz mieć programowania dynamicznego podczas swojej rekrutacji, ale warto umieć rozpoznawać problem, jako kandydata na ten właśnie rodzaj.
@@ -1187,7 +1221,7 @@ Trie to drzewo węzłów, które obsługuje operacje Znajdź i Wstaw [etc (...)]
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Zrozumienie problemu i zakresu:
             - zdefiniowanie przypadków użycia, z pomocą rekrutera
@@ -1299,7 +1333,7 @@ Challenge sites:
 - [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 
 Language-learning sites, with challenges:
@@ -1313,7 +1347,7 @@ Challenge repos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
 
@@ -1659,7 +1693,7 @@ Tak na prawdę nigdy nie skończyłeś.
         - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (wideo)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (wideo)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
 
     - **2-3 search trees**
         - In practice:
@@ -1875,7 +1909,7 @@ Usiądź i spędź miło czas. "Netflix and skill" :P
 
 - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [Discrete Mathematics by Shai Simonson (19 wideo)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [Discrete Mathematics by Shai Simonson (19 wideo)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [Discrete Mathematics Part 1 by Sarada Herke (5 wideo)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1916,7 +1950,7 @@ Usiądź i spędź miło czas. "Netflix and skill" :P
 
 - [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [Stanford: Programming Paradigms (27 wideo)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Programming Paradigms (27 wideo)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

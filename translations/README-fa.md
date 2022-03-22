@@ -1,21 +1,21 @@
-# Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+# دانشنامه مصاحبه برنامه نویسی
+
+> من در ابتدا این لیست رو به عنوان یک لیست کوتاه از مجموعه موضوعات پژوهشی برای تبدیل شدن به یک مهندس نرم افزار ایجاد کردم، اما به فهرست بلند و بالایی که امروز میبینید تبدیل شد.
+> بعد از طی کردن این طرح, [به عوان مهندس توسعه نرم افزار در آمازون استخدام شدم](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> احتمالاً مجبور نخواهید بود به آن اندازه که من مطالطه کردم مطالعه کنید. به هر حال هر چیزی که نیاز داشته باشید در اینجا ذکر شده
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> من بین 8 تا 10 ساعت در روز، برای چندین ماه مطالعه کردم. داستان از این قرار است:  [چرا 8 ماه تمام وقت برای مصاحبه گوگل مطالعه کردم](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that below. I'll help you get there without wasting your precious time.
+> **لطفاً توجه داشته باشید:** لازم نیست به اندازه من مطالعه کنید. من زمان زیادی رو برای دانستن چیزهایی که نیازی به دانستن آنها نداشتم تلف کردم. که بیشتر در پایین توضیح میدهم. من به شما کمک میکنم که بدون اتلاف وقت گرانبهای خود به هدف خود برسید.
 >
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
+> موارد ذکر شده در اینجا شما را برای یک مصاحبه فنی، تقریباً در هر شرکت نرم افزاری به خوبی آماده می کند,
+> از جمله غول ها: آمازون، فیس بوک، گوگل و مایکروسافت
 >
-> *Best of luck to you!*
+> *با آرزوی موفقیت*
 
 <details>
-<summary>Translations:</summary>
+<summary>ترجمه ها:</summary>
 
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
@@ -29,13 +29,11 @@
 - [Bahasa Indonesia](translations/README-id.md)
 - [ខ្មែរ - Khmer](translations/README-kh.md)
 - [Uzbek](translations/README-uz.md)
-- [Bulgarian](translations/README-bg.md)
-- [বাংলা - Bangla](translations/README-bn.md)
 
 </details>
 
 <details>
-<summary>Translations in progress:</summary>
+<summary>در حال ترجمه:</summary>
 
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
@@ -49,7 +47,6 @@
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
 
 </details>
 
@@ -90,118 +87,116 @@
     <hr />
 </div>
 
-## What is it?
+## این چیه؟
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is my multi-month study plan for becoming a software engineer for a large company. 
+این برنامه پژوهشی چند ماهه من جهت تبدیل شدن به یک مهندس نرم افزار برای یک شرکت بزرگ است. 
 
-**Required:** 
-* A little experience with coding (variables, loops, methods/functions, etc)
-* Patience
-* Time
+**مهارت های ضروری:** 
+* کمی تجربه کد نویسی (متغیر ها, حلقه ها, متدها/توابع, و...)
+* صبر و حوصله
+* زمان
 
-Note this is a study plan for **software engineering**, not web development. Large software companies like Google, Amazon, 
-Facebook and Microsoft view software engineering as different from web development. For example, Amazon has 
-Frontend Engineers (FEE) and Software Development Engineers (SDE). These are 2 separate roles and the interviews for 
-them will not be the same, as each has its own competencies. These companies require computer science knowledge for 
-software development/engineering roles.
-
+<div dir="rtl">
+توجه داشته باشید که این یک برنامه مطالعاتی برای **مهندسی نرم افزار** است، نه توسعه وب. شرکت های بزرگ نرم افزاری مانند گوگل، آمازون،
+فیس بوک و مایکروسافت مهندسی نرم افزار را متفاوت از توسعه وب می دانند. برای مثال در آمازون مهندسین فرانت اند (FEE) و مهندسان توسعه نرم افزار (SDE) وجود دارند. این دو تا نقش های جداگانه هستند و مصاحبه برای آنها یکسان نخواهد بود، زیرا هر کدام شایستگی های خاص خود را دارند. این شرکت ها برای نقش های توسعه نرم افزار/مهندسی نیاز به دانش علوم کامپیوتر دارند.
+</div>
 ---
 
-## Table of Contents
+## فهرست مطالب
 
-### The Study Plan
+### برنامه مطالعه
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [A Note About Video Resources](#a-note-about-video-resources)
-- [Choose a Programming Language](#choose-a-programming-language)
-- [Books for Data Structures and Algorithms](#books-for-data-structures-and-algorithms)
-- [Interview Prep Books](#interview-prep-books)
-- [Don't Make My Mistakes](#dont-make-my-mistakes)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [The Daily Plan](#the-daily-plan)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding Problems](#coding-problems)
+- [این چیه؟](#این-چیه)
+- [چرا ازش استفاده کنیم؟](#چرا-ازش-استفاده-کنیم)
+- [نحوه استفاده](#نحوه-استفاده)
+- [احساس نکنید که به اندازه کافی باهوش نیستید](#احساس-نکنید-که-به-اندازه-کافی-باهوش-نیستید)
+- [نکته ای درباره منابع ویدئویی](#نکته-ای-درباره-منابع-ویدیویی)
+- [یک زبان برنامه نویسی انتخاب کنید](#یک-زبان-برنامه-نویسی-انتخاب-کنید)
+- [کتاب های مربوط به ساختمان داده و الگوریتم](#کتاب-های-مربوط-به-ساختمان-داده-و-الگوریتم)
+- [کتاب های آمادگی مصاحبه](#کتاب-های-آمادگی-مصاحبه)
+- [اشتباهات من را تکرار نکنید](#اشتباهات-من-را-تکرار-نکنید)
+- [به چه چیزهایی پرداخته نشده](#به-چه-چیزهایی-پرداخته-نشده)
+- [برنامه روزانه](#برنامه-روزانه)
+- [تمرین مصاحبه کدنویسی](#تمیرن-مصاحبه-کدنویسی)
+- [مسائل کدنویسی](#مسائل-کدنویسی)
 
-### Topics of Study
+### موضوعات مطالعه
 
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
+- [پیچیدگی الگوریتمی / Big-O / تحلیل مجانبی](#پیچیدگی-الگوریتمی--big-o--تحلیل-مجانبی)
+- [ساختمان داده](#ساختمان-داده)
+    - [آرایه ها](#آرایه-ها)
+    - [لیست پیوندی](#لیست-پیوندی)
+    - [پشته](#پشته)
+    - [صف](#صف)
+    - [جدول هش](#جدول-هش)
+- [موارد بیشتر](#موارد-بیشتر)
+    - [جستجوی باینری](#جستجوی-باینری)
     - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+- [درخت ها](#درخت-ها)
+    - [درخت ها - یادداشت ها و پس زمینه](#درختها---یادداشت-ها-و-پس-زمینه)
+    - [درخت جستجوی دودویی: BSTs](#درخت-جستوجوی-دودویی-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
+    - درخت جستجوی متعادل (مفهوم کلی، نه جزئیات)
+    - پیمایش: پیش‌سفارش، سفارش، پس‌سفارش، BFS، DFS
+- [مرتب سازی](#مرتب-سازی)
+    - انتخاب (selection)
+    - درج (insertion)
     - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Design Patterns](#design-patterns)
+    - مرتب سازی سریع (quicksort)
+    - مرتب سازی ادغام (merge sort)
+- [گراف](#گراف)
+    - جهت دار (directed)
+    - بدون جهت (undirected)
+    - ماتریس مجاورت (adjacency matrix)
+    - لیست مجاورت (adjacency list
+    - traversals: BFS, DFS)
+- [موارد حتی بیشتر](#موارد-حتی-بیشتر)
+    - [بازگشت](#بازگشت)
+    - [برنامه نویسی پویا](#برنامه-نویسی-پویا)
+    - [الگوهای-طراحی](#الگوهای-طراحی)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [How computers process a program](#how-computers-process-a-program)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
-    - [String searching & manipulations](#string-searching--manipulations)
+    - [چگونه کامپیوتر یک برنامه را پردازش می کنند](#چگونه-کامپیوتر-یک-برنامه-را-پردازش-میکند)
+    - [حافظه نهان](#حافطه-نهان)
+    - [پردازش و نخ](#پردازش-و-نخ)
+    - [تست](#تست)
+    - [جستجو و دستکاری رشته](#جستجو-و-دستکاری-رشته)
     - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
+    - [اعداد اعشاری](#اعداد-اعشاری)
+    - [یونیکد](#یونیکد)
     - [Endianness](#endianness)
-    - [Networking](#networking)
-- [Final Review](#final-review)
+    - [شبکه](#شبکه)
+- [بررسی نهایی](#بررسی-نهایی)
 
-### Getting the Job
+### گرفتن شغل
 
-- [Update Your Resume](#update-your-resume)
-- [Find a Job](#find-a-job)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [رزومه خود را به روز کنید](#رزومه-خود-را-به-روز-کنید)
+- [یک شغل پیدا کنید](#یک-شعل-پیدا-کنید)
+- [فرآیند مصاحبه و آمادگی مصاحبه عمومی](#فرآیند-مصاحبه-و-آمادگی-مصاحبه-عمومی)
+- [به فکر زمان مصاحبه باشید](#به-فکر-زمان-مصاحبه-باشید)
+- [سوالاتی برای مصاحبه کننده آماده کنید](#سوالاتی-برای-مصاحبه-کننده-آماده-کنید)
+- [وقتی شغل مورد نظر رو به دست آوردید](#وقتی-شغل-مورد-نظر-رو-به-دست-آوردید)
 
-**---------------- Everything below this point is optional ----------------**
+**---------------- یادگیری موارد زیر احتیاری است ----------------**
 
-### Optional Extra Topics & Resources
+### موضوعات و منابع اضافی اختیاری
 
-- [Additional Books](#additional-books)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
+- [کتاب های اضافی](#کتاب-های-اضافی)
+- [طراحی سیستم، مقیاس پذیری، مدیریت داده ها](#طراحی-سیستم-مقیاس-پذیری-مدیریت-داده-ها) (اگر بیش از 4 سال تجربه دارید)
+- [یادگیری بیشتر](#additional-learning)
+    - [کامپایلرها](#کامپایلرها)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
+    - [نظریه اطلاعات](#نظریه-اطلاعات)
     - [Parity & Hamming Code](#parity--hamming-code-videos)
     - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
+    - [رمزنگاری](#رمزنگاری)
+    - [فشرده سازی](#فشرده-سازی)
     - [Computer Security](#computer-security)
     - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
+    - [برنامه نویسی موازی](#برنامه-نویسی-موازی)
     - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
     - [A*](#a)
     - [Fast Fourier Transform](#fast-fourier-transform)
@@ -222,54 +217,53 @@ software development/engineering roles.
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [ریاضی برای پردازش سریع](#ریاضی-برای-پردازش-سریع)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming-videos)
+    - [برنامه نویسی خطی](#برنامه-نویسی-خطی)
     - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
-- [Papers](#papers)
+    - [ریاضی گسسته](#ریاضی-گسسته)
+    - [یادگیری ماشین](#یادگیری-ماشین)
+- [جزئیات بیشتر در مورد برخی از موضوعات](#جزئیات-بیشتر-در-مورد-برخی-از-موضوعات)
+- [مجموعه ویدیویی](#مجموعه-ویدیویی)
+- [دوره های علوم کامپیوتر](#دوره-های-علوم-کامپیوتر)
+- [مقالات](#papers)
 
 ---
 
-## Why use it?
+## چرا ازش استفاده کنیم؟
 
-If you want to work as a software engineer for a large company, these are the things you have to know.
+اگر می خواهید به عنوان مهندس نرم افزار برای یک شرکت بزرگ کار کنید، اینها چیزهایی هستند که باید بدانید.
 
-If you missed out on getting a degree in computer science, like I did, this will catch you up and save four years of your life.
+اگر مانند من موفق به دریافت مدرک در رشته علوم کامپیوتر نشدید، این لیست شما رو در میابد و 4 سال از زندگی شما رو حفظ میکند
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, or anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it would have been terrible.
-Every data structure I had ever used was built into the language, and I didn't know how they worked
-under the hood at all. I never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I used a few multidimensional arrays in my life and
-thousands of associative arrays, but I never created data structures from scratch.
+وقتی این پروژه را شروع کردم فرق بین پشته و هیپ رو نمیدانستم،  یا چیزی درمورد پیچیدگی زمانی و درخت ها نمیدانستم , و یا اینکه چگونه یک گراف رو پیمایش کنم. اگر مجبور بودم یک الگوریتم مرتب‌سازی را کدنویسی کنم، می‌توانم به شما بگویم که وحشتناک بود.
+هر ساختار داده ای که استفاده میکردم از انواع تعریف شده در زبان برنامه نویسی بود و اصلا از پشت صحنه هیچ خبری نداشتم. من هرگز مجبور نبودم حافظه را مدیریت کنم، مگر اینکه فرآیندی که در حال اجرا بودم،خطای حافظه  را نشان دهد, و سپس به فکر این می افتادم که باید یک راه حل پیدا کنم. من تنها قادر بودم از آرایه های چند بعدی استفاده کنم و هرگز یک ساختار داده رو از ابتدا ایجاد نکرده بودم
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+این یک برنامه طولانی است. ممکن است ماه ها طول بکشد. اگر قبلاً با بسیاری از این موارد آشنا هستید، زمان بسیار کمتری از شما خواهد گرفت.
 
-## How to use it
+## نحوه استفاده
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+ موارد را به ترتیب از بالا به پایین بررسی کنید.
 
-I'm using GitHub's special markdown flavor, including tasks lists to track progress.
-
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+من از قابلیت های مارک داون گیتهاب ار جمله قابلیت لیست وظایف برای پیگیری پیشرفت مطالعات استفاده کردم
+<div dir="rtl">
+**یک برنچ  جدید برای تیک زدن مواردی که به اتمام رسانده اید ایجاد کنید، برای این کار فقط یک x داخل براکت قرار دهید : [x]**
+</div>
 
     Fork a branch and follow the commands below
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button.
+این ریپو رو فورک کنید https://github.com/jwasham/coding-interview-university
 
-Clone to your local repo:
+و سپس کلون کنید:
 
     git clone git@github.com:<your_github_username>/coding-interview-university.git
     git checkout -b progress
     git remote add jwasham https://github.com/jwasham/coding-interview-university
     git fetch --all
 
-Mark all boxes with X after you completed your changes:
+<div dir="rtl">
+تمام باکس هایی که به اتمام رسانیده اید را با X علامت بزنید:
+</div>
 
     git add .
     git commit -m "Marked x"
@@ -279,46 +273,48 @@ Mark all boxes with X after you completed your changes:
 
 [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Don't feel you aren't smart enough
+## احساس نکنید که به اندازه کافی باهوش نیستید
 
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- مهندسان نرم افزار موفق باهوش هستند، اما بسیاری از آنها این حس ناامنی را دارند که به اندازه کافی باهوش نیستند.
+- [افسانه برنامه نویس نابغه](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [تنها رفتن خطرناک است: مبارزه با هیولاهای نامرئی در فناوری](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## A Note About Video Resources
+## نکته ای درباره منابع ویدئویی
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
+<div dir="rtl">
+برخی از ویدیوها فقط با ثبت نام در کلاس Coursera یا EdX در دسترس هستند. که بهشون دوره های گسترده باز (MOOC) میگویند.
+بعضی مواقع کلاس ها در باز های زمانی خاصی دایر میشوند، بنابراین باید چند ماه برای شرکت در این کلاس ها صبر کنید
 
-It would be great to replace the online course resources with free and always-available public sources, 
-such as YouTube videos (preferably university lectures), so that you people can study these anytime, 
-not just when a specific online course is in session.
+خیلی عالی میشه که دوره های آنلاین اینچنینی با منابع رایگان و همیشه در دسترس جایگزین بشه, 
+مانند ویدیوهای یوتیوب (ترجیحاً سخنرانی های دانشگاه)، تا اینکه بتوانید هر زمان که خواستید مطالعه کنید, 
+نه فقط زمانی که یک دوره آنلاین خاص در حال برگزاری است.
+</div>
 
-## Choose a Programming Language
+## یک زبان برنامه نویسی را انتخاب کنید
 
-You'll need to choose a programming language for the coding interviews you do, 
-but you'll also need to find a language that you can use to study computer science concepts.
+برای مصاحبه های کدنویسی که انجام می دهید باید یک زبان برنامه نویسی انتخاب کنید.
+اما شما همچنین باید زبانی را پیدا کنید که بتوانید از آن برای مطالعه مفاهیم علوم کامپیوتر استفاده کنید.
 
-Preferably the language would be the same, so that you only need to be proficient in one.
+ترجیحاً زبانهای یکسانی باشند، به طوری که شما فقط باید در یکی از آن ها مهارت داشته باشید.
 
-### For this Study Plan
+### برای این طرح مطالعه
 
-When I did the study plan, I used 2 languages for most of it: C and Python
+<div dir="rtl">
+من وقتی داشتم این برنامه مطالعاتی رو انجام میدادم، برای بیشتر آن از دو زبان پایتون و C استفاده میکردم
 
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
-    and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
-    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+
+* C: یک زبان بسیار سطح پایین است. و شما با اشاره گر ها و تخصیص و آزاد سازی حافظه سرو کار دارید, از این رو شما ساختمان داده ها و الگوریتم رو از نزدیک تجربه خواهید کرد. در زبان‌های سطح بالاتر مانند پایتون یا جاوا، اینها از شما پنهان هستند. که برای کارهای روزانه فوق العاده هست,
+    اما زمانی که در حال یادگیری نحوه ساخت این ساختارهای داده سطح پایین هستید, یک حس دیگری است.
+    - در طول پروسه مطالعه زبان سی رو همه جا خواهید دید در کتاب ها سخنرانی ها و ویدیوها.
     - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
-        - [Answers to questions in the book](https://github.com/lekkas/c-algorithms)
-* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
+        - این یک کتاب کوتاه است، اما به شما مهارت خوبی در زبان C می دهد و اگر کمی آن را تمرین کنید، به سرعت به مهارت خواهید رسید. درک C به شما کمک می کند تا نحوه عملکرد برنامه ها و حافظه را درک کنید.
+        - نیازی نیست خیلی عمیق در این کتاب فرو بروید فقط تا حدی لازم است که بتوانید کد های زبان سی رو بخوانید و بنویسید.
+        - [پاسخ به سوالات کتاب](https://github.com/lekkas/c-algorithms)
+* Python: مدرن و بسیار رسا، من پایتون رو برای اینکه یک زبان بسیار مفید هست یاد گرفتم و همچنین برای اینکه این امکان رو بهم میده که کد کمتری در مصاحبه بنویسم.
 
-This is my preference. You do what you like, of course.
+این دو زبان ترجیجات من هستند. البته شما میتوانید هر چیزی که دوست دارید انتخاب کنید.
 
-You may not need it, but here are some sites for learning a new language:
+ممکن است لازم نباشه ، ولی در اینجا چند سایت برای یادگیری یک زبان جدید وجود دارد:
 - [Exercism](https://exercism.org/tracks)
 - [Codewars](http://www.codewars.com)
 - [Codility](https://codility.com/programmers/)
@@ -327,52 +323,54 @@ You may not need it, but here are some sites for learning a new language:
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
 
-### For your Coding Interview
+</div>
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+### برای مصاحبه
+
+شما می توانید از زبانی که در آن راحت هستید برای انجام بخش کد نویسی مصاحبه استفاده کنید، اما برای شرکت های بزرگ، اینها گزینه های خوبی هستند.:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+شما همچنین می توانید از اینها استفاده کنید، اما ابتدا مطالعه کنید. ممکن است اخطارهایی وجود داشته باشد:
 
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: 
-[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-This is the original article my post was based on: http://blog.codingforinterviews.com/best-programming-language-jobs/
+در اینجا مقاله ای در مورد انتخاب زبان برای مصاحبه نوشتم: 
+[یک زبان را برای مصاحبه کدنویسی انتخاب کنید](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+این مقاله اصلی است که پست من بر اساس آن نوشته شده است: http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-You need to be very comfortable in the language and be knowledgeable.
+شما باید خیلی با زبانی که انتخاب میکنید راحت باشید و معلومات کافی داشته باشید.
 
-Read more about choices: 
-- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+درباره انتخاب ها بیشتر بخوانید: 
+- [زبان مناسب برای مصاحبه کدنویسی خود را انتخاب کنید](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-[See language-specific resources here](programming-language-resources.md)
+[منابع مخصوص هر زبان را اینجا ببینید](programming-language-resources.md)
 
-## Books for Data Structures and Algorithms
+## کتاب های مربوط به ساختمان داده و الگوریتم
 
-This book will form your foundation for computer science.
+این کتاب پایه و اساس شما را برای علوم کامپیوتر تشکیل خواهد داد.
 
-Just choose one, in a language that you will be comfortable with. You'll be doing a lot of reading and coding.
+فقط یکی از موارد مربوط به زبانی که با آن راحت تر هستیدرا انتخاب کنید. که قرار است مطالعه و کد نویسی زیادی انجام دهید.
 
 ### C
 
 - [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms 
+    - مبانی، ساختمان داده، مرتب‌سازی، جستجو و الگوریتم‌های نمودار 
 
 ### Python
 
 - [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
+    - من این کتاب را دوست داشتم. همه چیز را پوشش می داد.
     - Pythonic code
     - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 ### Java
 
-Your choice:
+انتخاب شما:
 
 - Goodrich, Tamassia, Goldwasser
     - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
@@ -384,7 +382,7 @@ Your choice:
 
 ### C++
 
-Your choice:
+انتخاب شما:
 
 - Goodrich, Tamassia, and Mount
     - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
@@ -392,21 +390,23 @@ Your choice:
     - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
     - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-## Interview Prep Books
+## کتاب های آمادگی مصاحبه
 
-You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough, 
-but I bought more to give myself more practice. But I always do too much.
+<div dir="rtl">
+شما نیازی به خریدن تمام این کتاب ها رو ندارید. راستش رابخواهید احتمالاً کتاب "Cracking the Coding Interview" کافی است, 
+اما من بیشتر گرفتم تا بیشتر تمرین کنم. اما من همیشه بیش از حد انجام می دهم.
+</div>
 
-I bought both of these. They gave me plenty of practice.
+من هر دوی اینها را خریدم. آنها به من تمرین زیادی دادند.
 
 - [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - Answers in C++ and Java
-    - This is a good warm-up for Cracking the Coding Interview
-    - Not too difficult. Most problems may be easier than what you'll see in an interview (from what I've read)
+    - پاسخ به زبان C++ و جاوا
+    - این یک گرم کردن خوب برای Cracking the Coding Interview است
+    - خیلی سخت نیست بیشتر مشکلات ممکن است ساده تر از چیزی باشد که در مصاحبه می بینید (از آنچه من خوانده ام)
 - [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - پاسخ در جاوا
 
-### If you have tons of extra time:
+### اگر وقت اضافی دارید:
 
 Choose one:
 
@@ -415,106 +415,101 @@ Choose one:
 - [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-## Don't Make My Mistakes
+## اشتباهات من را مرتکب نشوید
 
-This list grew over many months, and yes, it got out of hand.
+این فهرست در طول چندین ماه رشد کرد و از کنترل خارج شد.
 
-Here are some mistakes I made so you'll have a better experience. And you'll save months of time.
+در اینجا برخی از اشتباهاتم رو ذکر میکنم تا شما تجربه بهتری داشته باشید. تا ماه ها در زمان خود صرفه جویی کنید.
 
-### 1. You Won't Remember it All
+### 1. شما همه چیز را به خاطر نخواهید آورد
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review. I didn't need all of that knowledge.
+ساعت‌ها ویدیو تماشا کردم و یادداشت‌برداری کردم و ماه‌ها بعد چیز زیادی به یاد نمی آوردم. من 3 روز وقت گذاشتم یادداشت هایم را مرور کردم و فلش کارت درست کردم تا بتوانم مرور کنم. من نیازی به این همه دانستن نداشتم.
 
-Please, read so you won't make my mistakes:
+لطفا بخوانید تا مرتکب اشتباه من نشوید:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
-### 2. Use Flashcards
+### 2. از فلش کارت استفاده کنید
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
+برای حل این مشکل، یک سایت فلش کارت کوچک درست کردم که می توانستم فلش کارت های خودم رو در دو نوع کد و عمومی اضافه کنم.
+هر کارت قالب بندی متفاوتی داشت. وب‌سایت رو سازگار با تلفن همراه ایجاد کردم، بنابراین می‌توانستم هر کجا که هستم، در تلفن یا تبلت مرور کنم.
 
-Make your own for free:
+سورس وب سایت:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 
-**I DON'T RECOMMEND using my flashcards.** There are too many and many of them are trivia that you don't need.
+**توصیه نمیکنم که از فلش کارت های من استفاده کنید.** بسیاری از آنها موارد بی اهمیت هستند که ممکن است نیاز نداشته باشید.
 
-But if you don't want to listen to me, here you go:
-- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+اما اگر نمی خواهی به من گوش کنی، بفرما:
+- [دیتابیس فلش کارد های من (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
 - [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. 
-It's way too much for what's required.
+به خاطر داشته باشید که من زیاده روی کردم و کارت هایی دارم که همه چیز را از زبان اسمبلی و نکات بی اهمیت پایتون گرفته تا یادگیری ماشینی و آمار را پوشش می دهد.
+که بسیار زیاد تر از حد مورد نیاز است.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**یک نکته درباره فلش کارت ها:** به محض اینکه تشخیص دادید که جواب یک کارت را میدانید اون رو به عنوان میدانم علامت نزنید. قبل از آن باید کارت را ببینید و چندین بار جواب درست آن را مرور کنید. پس از چند بار تکرار مبحث مورد نظر عمیقاً در ذهن شما ثبت میشود.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. 
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms and has a cloud sync system. 
-It costs $25 on iOS but is free on other platforms.
+میتوانید به عنوان جاگزین سایت فلش کارت من از سایت [Anki](http://ankisrs.net/), استفاده کنید که بارها به من توصیه شده است. 
+که از یک سیستم تکرار برای کمک به یادآوری استفاده می کند. کاربرپسند است، در همه پلتفرم ها موجود است و دارای سیستم همگام سازی ابری است. 
+که تمامی نسخه های آن به غیر از نسخه IOS رایگان میباشیند.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
+دیتابیس فلش کارت من با فرمت Anki: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
 
-Some students have mentioned formatting issues with white space that can be fixed by doing the following: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
+بعضی از دانش آموزان یک به مشکل قالب بندی کارت ها برخوردند که با انجام موارد زیر قابل رفع است: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
 
-### 3. Do Coding Interview Questions While You're Learning
+### 3. تمرین ها و سوالات مصاحبه را حل کنید
 
-THIS IS VERY IMPORTANT.
+این بسیار مهم است.
 
-Start doing coding interview questions while you're learning data structures and algorithms.
+هنگامی که در حال یادگیری ساختمان داده و الگوریتم هستید، شروع به کدنویسی و حل تمرین های مصاحبه کنید.
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. 
+حتما باید آنچه را که یاد میگیرید را به کار ببرید و تمرین کنید ، وگرنه فراموش خواهید کرد. همانطور که من این اشتباه رو مرتکب شدم. 
 
-Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
-1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below) 
-1. Do 2 or 3 questions regarding linked lists. 
-1. Move on to the next learning topic.
-1. Later, go back and do another 2 or 3 linked list problems.
-1. Do this with each new topic you learn. 
+وقتی موضوعی را یاد گرفتید و تا حدودی با آن احساس راحتی کردید, برای مثال  **لیست های پیوندی**:
+1. [کتاب مصاحبه کدنویسی](#interview-prep-books) (یا یکی از سایت های معرفی شده در پایین) رو باز کنید
+1. 2 یا 3 سوال در مورد لیست های پیوندی انجام دهید. 
+1. به سراغ مبحث بعدی بروید.
+1. بعد ها دوباره به مبحث لیست های پیوندی برگردید و دو یا سه مسئله دیگر انجام دهید.
+1. این کار را با هر موضوع جدیدی که یاد می گیرید انجام دهید. 
 
-**Keep doing problems while you're learning all this stuff, not after.**
+**مسئله ها رو وقتی که دارید یاد میگیرید انجام دهید، نه بعد از آن**
 
-You're not being hired for knowledge, but how you apply the knowledge.
+شمام به خاطر دانشتون استخدام نمیشوید، بلکه به خاطر مهارت استفاده از اون دانش استخدام میشوید.
 
-There are many resources for this, listed below. Keep going.
+یه سری منابع پایین لیست شده.
 
-### 4. Focus
+### 4. تمرکز
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
+عوامل بیرونی زیادی وجود دارند که باعث حواس پرتی شما میشه. تمرکز و حواس جمع بودن خیلی سخته. برای تمرکز بهتر یک موسیقی بیکلام پخش کنید.
 
-## What you won't see covered
+## به چه چیزهایی پرداخته نشده
 
-These are prevalent technologies but not part of this study plan:
+موارد زیر فناوری های رایج هستند اما بخشی از این طرح مطالعه نیستند:
 
 - SQL
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## The Daily Plan
+## برنامه روزانه
 
-This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
+در این دوره به موضوعات زیادی پرداخته میشود. با توجه به زمان بندی شما ممکن است هر کدام از موضوعات چند روز و یا حتی یک هفته یا بیشتر زمان ببرد.
 
-Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation 
-of that data structure or algorithm in the language you chose for this course.
+هر روز، موضوع بعدی را در لیست انتخاب کنید، چند ویدیو در مورد آن موضوع تماشا کنید و سپس آن را با زبان برنامه نویسی که انتخاب کردید پیاده سازی کنید 
 
-You can see my code here:
+کد های من رو میتونید در اینجا ببینید:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
+شما نیازی به حفظ کردن هر الگوریتم ندارید. شما فقط باید بتوانید آنقدر آن را درک کنید تا بتوانید آنرا پیاده سازی کنید.
 
-## Coding Question Practice
+## تمرین مصاحبه کدنویسی
 
-    Why is this here? I'm not ready to interview.
+    چرا این اینجاست؟ من برای مصاحبه آماده نیستم.
 
-[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
+[پس این رو بخوانید.](#3-do-coding-interview-questions-while-youre-learning)
 
-Why you need to practice doing programming problems:
+چرا باید انجام مسائل برنامه نویسی را تمرین کنید:
 - Problem recognition, and where the right data structures and algorithms fit in
 - Gathering requirements for the problem
 - Talking your way through the problem like you will in the interview
@@ -522,38 +517,37 @@ Why you need to practice doing programming problems:
 - Coming up with time and space complexity for your solutions (see Big-O below)
 - Testing your solutions
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+یک مقدمه عالی برای حل مسئله روشمند و ارتباطی در مصاحبه وجود دارد:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
+کد را روی تخته سفید یا کاغذ بنویسید، نه کامپیوتر. با چند ورودی نمونه تست کنید. سپس آن را تایپ کرده و روی کامپیوتر تست کنید.
 
-If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice. 
-This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase. 
-Gets messy quick. **I use a pencil and eraser.**
+اگر در خانه تخته وایت برد ندارید، یک پد طراحی بزرگ از یک فروشگاه هنری بردارید. می توانید روی مبل بنشینید و تمرین کنید. 
+در پایین تصویر دفتر سفیدی که استفاده  میکردم رو میبینید، خودکار رو برای بهتر شدن تصویر اضافه کردم. اگه با خودکار توی این دفتر بنویسید آرزو میکنید کاش میتوانستید پاک کنید. 
+**از مداد و پاک کن استفاده کنید.**
 
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**نباید پاسخ سوالات رو به خاطر بسپارید باید مسائل رو یاد بگیرید.**
 
-## Coding Problems
+## مسائل برنامه نویسی
 
-Don't forget your key coding interview books [here](#interview-prep-books).
+کتاب کلیدی مصاحبه کد نویسی رو فراموش نکنید [اینجا](#interview-prep-books).
 
-Solving Problems:
-- [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
-- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
+حل مسئله:
+- [چگونگی پیدا کردن راه حل](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+- [نحوه تشریح یک مسئله](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+ویدئوهای مربوط به سوال های مصاحبه کدنویسی:
 - [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - Super for walkthroughs of problem solutions
+    - فوق العاده برای بررسی راه حل های مشکل
 - [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
+    - توضیحات خوب راه حل و کد
     - You can watch several in a short time
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
-Challenge sites:
+سایت های چالشی:
 - [LeetCode](https://leetcode.com/)
     - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
     - See Nick White and FisherCoder Videos above for code walk-throughs.
@@ -563,108 +557,110 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/)
 - [Project Euler](https://projecteuler.net/)
 
-## Let's Get Started
+## بیایید شروع کنیم
 
-Alright, enough talk, let's learn!
+خوب، صحبت کافی است، بیایید یاد بگیریم!
 
-But don't forget to do coding problems from above while you learn!
+اما فراموش نکنید که در حین یادگیری، مسائل کدنویسی را از بالا انجام دهید!
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## پیچیدگی الگوریتمی / Big-O / تحلیل مجانبی
 
-- Nothing to implement here, you're just watching videos and taking notes! Yay!
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- Don't worry if you don't understand all the math behind it.
-- You just need to understand how to express the complexity of an algorithm in terms of Big-O.
-- [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [x] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [x] [Skiena (video)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
-- [x] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
-- [x] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [x] TopCoder (includes recurrence relations and master theorem):
+- اینجا چیزی برای پیاده سازی نیست، شما فقط فیلم ها را تماشا می کنید و یادداشت برداری می کنید! آری
+- ویدیوهای زیادی در اینجا وجود دارد. تا حدی ویدیو ها رو ببینید تا مباحث رو متوجه بشید. میتوانید بعدا برای مرور برگردید.
+- اگر تمام ریاضیات پشت آن را متوجه نمیشوید نگران نباشید.
+- فقط باید بدانید که چگونه پیچیدگی یک الگوریتم را بر حسب Big-O بیان کنید..
+- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] Skiena:
+    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [slides](https://archive.org/details/lecture2_202008)
+- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [x] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
-Well, that's about enough of that. 
+بسیارخب، فکر کنم در همین حد کافی باشه. 
 
-When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see 
-if you can identify the runtime complexity of different algorithms. It's a super review and test.
+وقتی دارید کتاب "Cracking the Coding Interview" رو مطالعه میکنید، یک فصل در این مورد در آنجا وجود داره.
+اگر بتوانید پیچیدگی زمان اجرای الگوریتم های مختلف رو شناسایی کنید. فرصت خوبیه برای بررسی و تست مسائل
 
-## Data Structures
+## ساختمان داده
 
-- ### Arrays
-    - [x] About Arrays:
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+- ### آرایه ها
+    - [ ] درمورد آرایه ها:
+        - [آرایه ها (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [آرایه پویا (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [x] Implement a vector (mutable array with automatic resizing):
-        - [x] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [x] New raw data array with allocated memory
+    - [ ] پیاده سازی vector (mutable array with automatic resizing):
+        - [ ] تمرین آرایه ها و اشاره گر ها, استفاده از اشاره گر به جای ایندکس در آرایه.
+        - [ ] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [x] size() - number of items
-        - [x] capacity() - number of items it can hold
-        - [x] is_empty()
-        - [x] at(index) - returns item at given index, blows up if index out of bounds
-        - [x] push(item)
-        - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [x] prepend(item) - can use insert above at index 0
-        - [x] pop() - remove from end, return value
-        - [x] delete(index) - delete item at index, shifting all trailing elements left
-        - [x] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [x] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [x] resize(new_capacity) // private function
+        - [ ] size() - number of items
+        - [ ] capacity() - number of items it can hold
+        - [ ] is_empty()
+        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] push(item)
+        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [ ] prepend(item) - can use insert above at index 0
+        - [ ] pop() - remove from end, return value
+        - [ ] delete(index) - delete item at index, shifting all trailing elements left
+        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
+        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
-    - [x] Time
+    - [ ] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
-    - [x] Space
+    - [ ] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
-    - [x] Description:
-        - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
-        - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-    - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+- ### لیست های پیوندی
+    - [ ] Description:
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation
-    - [x] Linked List vs Arrays:
+    - [ ] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    - [x] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [x] Gotcha: you need pointer to pointer knowledge:
+    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [x] Implement (I did with tail pointer & without):
-        - [x] size() - returns number of data elements in list
-        - [x] empty() - bool returns true if empty
-        - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [x] push_front(value) - adds an item to the front of the list
-        - [x] pop_front() - remove front item and return its value
-        - [x] push_back(value) - adds an item at the end
-        - [x] pop_back() - removes end item and returns its value
-        - [x] front() - get value of front item
-        - [x] back() - get value of end item
-        - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [x] erase(index) - removes node at given index
-        - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [x] reverse() - reverses the list
-        - [x] remove_value(value) - removes the first item in the list with this value
-    - [x] Doubly-linked List
+    - [ ] Implement (I did with tail pointer & without):
+        - [ ] size() - returns number of data elements in list
+        - [ ] empty() - bool returns true if empty
+        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [ ] push_front(value) - adds an item to the front of the list
+        - [ ] pop_front() - remove front item and return its value
+        - [ ] push_back(value) - adds an item at the end
+        - [ ] pop_back() - removes end item and returns its value
+        - [ ] front() - get value of front item
+        - [ ] back() - get value of end item
+        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [ ] erase(index) - removes node at given index
+        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [ ] reverse() - reverses the list
+        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
 
-- ### Stack
-    - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [x] Will not implement. Implementing with array is trivial
+- ### پشته
+    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] Will not implement. Implementing with array is trivial
 
-- ### Queue
-    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+- ### صف
+    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
@@ -682,7 +678,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### Hash table
+- ### جدول هش
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -707,13 +703,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - get(key)
         - remove(key)
 
-## More Knowledge
+## موارد بیشتر
 
-- ### Binary search
+- ### جستجوی باینری
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-    - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
     - [ ] Implement:
         - binary search (on sorted array of integers)
         - binary search using recursion
@@ -745,18 +740,18 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## درخت
 
-- ### Trees - Notes & Background
+- ### درخت ها - یادداشت ها و پس زمینه
     - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
+    - ساخت درخت اولیه
+    - پیشمایش
+    - الگوریتم های ویرایش
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS notes:
-           - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
+           - ترتیب سطح (BFS, using queue)
+           - پیچیدگی زمانی: O(n)
+           - پیچیدگی مکانی: best: O(1), worst: O(n/2)=O(n)
         - DFS notes:
             - time complexity: O(n)
             - space complexity:
@@ -766,10 +761,10 @@ if you can identify the runtime complexity of different algorithms. It's a super
             - postorder (DFS: left, right, self)
             - preorder (DFS: self, left, right)
 
-- ### Binary search trees: BSTs
+- ### درخت جستجوی دودویی: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
+    - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
         - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
@@ -795,7 +790,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
 - ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - به عنوان یک درخت تجسم میشود اما معمولاً به صورت خطی ذخیره میشود (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -818,25 +813,25 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] is_empty() - returns true if heap contains no elements
         - [ ] extract_max - returns the max item, removing it
         - [ ] sift_down - needed for extract_max
-        - [ ] remove(x) - removes item at index x
+        - [ ] remove(i) - removes item at index x
         - [ ] heapify - create a heap from an array of elements, needed for heap_sort
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
 
-## Sorting
+## مرتب سازی
 
 - [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
+    - پیاده سازی روش های مرتب سازی و دانستن بهترین و بدترین روش, میانگین پیچیدگی زمانی هر کدام:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
     - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
-        - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+    - [ ] کدوم الگوریتم ها در آرایه ها و کدام در لیست های پیوندی و کدام در هر دو استفاده میشوند؟
+        - من مرتب کردن لیست پیوندی را توصیه نمی کنم، اما مرتب سازی ادغام قابل انجام است.
+        - [مرتب سازی ادغام برای لیست های پیوندی](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable
+- برای مرتب سازی هیپ بخش ساختمان داده هیپ در بالا رو ببینید. مرتب سازی هیپ عالی است اما پایدار نیست
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
@@ -894,45 +889,46 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+به عنوان خلاصه، در اینجا یک نمایش بصری از[15 الگوریتم مرتب سازی](https://www.youtube.com/watch?v=kPRA0W1kECg).
+اگر به جزئیات بیشتری در مورد این موضوع نیاز دارید، بخش "مرتب سازی" را در اینجا ببینید [جزئیات بیشتر در مورد برخی از موضوعات](#جزئیات-بیشتر-در-مورد-برخی-از-موضوعات)
 
-## Graphs
+## گراف
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+از گراف ها میتوان برای حل بسیاری از مسائل در علوم کامپیوتر استفاده کرد، بنابراین این بخش مانند بهش درخت و مرتب سازی طولانی است.
 
-- Notes:
-    - There are 4 basic ways to represent a graph in memory:
-        - objects and pointers
-        - adjacency matrix
-        - adjacency list
+- توجه:
+    - 4 روش اساسی برای نمایش یک گراف در حافظه وجود دارد:
+        - اشاره گرها و اشیاء (objects)
+        - ماتریس مجاورت
+        - لیست مجاورت
         - adjacency map
-    - Familiarize yourself with each representation and its pros & cons
+    - با هر کدام از آنها و مزایا و معایب آنها آشنا شوید
     - BFS and DFS - know their computational complexity, their trade offs, and how to implement them in real code
-    - When asked a question, look for a graph-based solution first, then move on if none
+    - اگر سوالی پرسیده شد، ابتدا به دنبال راه حل مبتنی بر گراف بگردید.
 
 - [ ] MIT(videos):
-    - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=oFVYVzlvk9c&t=14s&ab_channel=MITOpenCourseWare)
-    - [ ] [Depth-First Search](https://www.youtube.com/watch?v=IBfWDYSffUU&t=32s&ab_channel=MITOpenCourseWare)
+    - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+    - [ ] [Depth-First Search](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
 - [ ] Skiena Lectures - great intro:
-    - [ ] [CSE373 2020 - Lecture 10 - Graph Data Structures (video)](https://www.youtube.com/watch?v=Sjk0xqWWPCc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=10)
-    - [ ] [CSE373 2020 - Lecture 11 - Graph Traversal (video)](https://www.youtube.com/watch?v=ZTwjXj81NVY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=11)
-    - [ ] [CSE373 2020 - Lecture 12 - Depth First Search (video)](https://www.youtube.com/watch?v=KyordYB3BOs&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=12)
-    - [ ] [CSE373 2020 - Lecture 13 - Minimum Spanning Trees (video)](https://www.youtube.com/watch?v=oolm2VnJUKw&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=13)
-    - [ ] [CSE373 2020 - Lecture 14 - Minimum Spanning Trees (con't) (video)](https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14)
-    - [ ] [CSE373 2020 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=MUe5DXRhyAo&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=15)
+    - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
+    - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
+    - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
+    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
 - [ ] Graphs (review and more):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare)
-    - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=f9cVS_URPc0&ab_channel=MITOpenCourseWare)
+    - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
     - [ ] [6.006 Speeding Up Dijkstra (video)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
     - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (video)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
     - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
     - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
+    - [ ] ~~[CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)~~
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
@@ -956,32 +952,29 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] list strongly connected components
         - [ ] check for bipartite graph
 
-## Even More Knowledge
+## موارد حتی بیشتر
 
-- ### Recursion
+- ### بازگشت
     - [ ] Stanford lectures on recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - When it is appropriate to use it?
+    - چه زمانی از توابع بازگشتی استفاده کنیم؟
     - How is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
-	
-	Backtracking Blueprint: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
-	[Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
-- ### Dynamic Programming
-    - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a 
-    problem as being a candidate for dynamic programming.
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
+
+- ### برنامه نویسی پویا
+    - احتمالاً در مصاحبه خود هیچ مسئله ای مربوط به برنامه نویسی پویا نخواهید دید، اما ارزش دارد که بتوانید راه حل یک مسئله را به عنوان برنامه نویسی پویا تشخیص دهید.
+    - این موضوع می تواند بسیار دشوار باشد، زیرا هر مسئله قابل حل DP باید به عنوان یک رابطه بازگشتی تعریف شود، و رسیدن به آن می تواند مشکل باشد..
+    - من پیشنهاد می‌کنم که نمونه‌های زیادی از مسائل DP را تا زمانی که درک کاملی از مباحث داشته باشید، ببینید.
     - [ ] Videos:
-        - [ ] [Skiena: CSE373 2020 - Lecture 19 - Introduction to Dynamic Programming (video)](https://www.youtube.com/watch?v=wAA0AMfcJHQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=18)
-        - [ ] [Skiena: CSE373 2020 - Lecture 20 - Edit Distance (video)](https://www.youtube.com/watch?v=T3A4jlHlhtA&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=19)
-        - [ ] [Skiena: CSE373 2020 - Lecture 20 - Edit Distance (continued) (video)](https://www.youtube.com/watch?v=iPnPVcZmRbE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=20)
-        - [ ] [Skiena: CSE373 2020 - Lecture 21 - Dynamic Programming (video)](https://www.youtube.com/watch?v=2xPE4Wq8coQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=21)
-        - [ ] [Skiena: CSE373 2020 - Lecture 21 - Dynamic Programming and Review (video)](https://www.youtube.com/watch?v=2xPE4Wq8coQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=21)
+        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
+        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
         - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
         - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
@@ -998,9 +991,9 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Design patterns
+- ### الگوهای طراحی
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
+    - [ ] این الگو ها رو یاد بگیرید:
         - [ ] strategy
         - [ ] singleton
         - [ ] adapter
@@ -1018,10 +1011,14 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
+    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-    - [ ] [Book: Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+    - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
-    - [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+    - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+    - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
 - ### Combinatorics (n choose k) & Probability
     - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
@@ -1044,10 +1041,9 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
     - [ ] Skiena:
-        - [ ] [CSE373 2020 - Lecture 23 - NP-Completeness (video)](https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23)
-        - [ ] [CSE373 2020 - Lecture 24 - Satisfiability (video)](https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24)
-        - [ ] [CSE373 2020 - Lecture 25 - More NP-Completeness (video)](https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25)
-        - [ ] [CSE373 2020 - Lecture 26 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26)
+        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
     - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
     - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
@@ -1063,7 +1059,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
-- ### Caches
+- ### حافظه نهان
     - [ ] LRU cache:
         - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
         - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
@@ -1072,16 +1068,16 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processes and Threads
+- ### پردازش و نخ
     - [ ] Computer Science 162 - Operating Systems (25 videos):
         - for processes and threads see videos 1-11
         - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - Difference between processes and threads
-            - Processes
-            - Threads
+    - موارد گفته شده در این دوره:
+        - پردازه ها, نخ ها, مسائل همزمانی
+            - فرق بین پردازه (process) و نخ
+            - پردازه ها
+            - نخ
             - Locks
             - Mutexes
             - Semaphores
@@ -1109,9 +1105,9 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ### Testing
+- ### تست
     - To cover:
-        - how unit testing works
+        - چگونه unit test پیاده سازی کنیم
         - what are mock objects
         - what is integration testing
         - what is dependency injection
@@ -1124,7 +1120,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### String searching & manipulations
+- ### جستجو و دستکاری رشته
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
@@ -1134,7 +1130,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
+    اگر به جزئیات بیشتری در مورد این موضوع نیاز دارید، بخش "String Matching" را ببینید [جزئیات بیشتر در مورد برخی از موضوعات](#جزئیات-بیشتر-در-مورد-برخی-از-موضوعات).
 
 - ### Tries
     - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
@@ -1154,11 +1150,11 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (video)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### Floating Point Numbers
+- ### اعداد اعشاری
     - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
-- ### Unicode
+- ### یونیکد
     - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
     - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
 
@@ -1169,7 +1165,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
 
-- ### Networking
+- ### شبکه
     - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - Otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
@@ -1188,10 +1184,9 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ---
 
-## Final Review
+## بررسی نهایی
 
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    این بخش ویدیوهای کوتاه تری دارد که می توانید خیلی سریع آن ها را تماشا کنید تا بیشتر مفاهیم مهم را مرور کنید.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
@@ -1202,22 +1197,20 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ---
 
-## Update Your Resume
+## رزومه خود را به روز کنید
 
-- See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
-- I don't know how important this is (you can do your own research) but here is an article on making your resume ATS Compliant:
+- اطلاعات آماده سازی رزومه را در کتاب های زیر ببینید: "Cracking The Coding Interview" و "Programming Interviews Exposure"
+- من نمی دانم این چقدر مهم است (شما می توانید تحقیقات خود را انجام دهید) اما در اینجا مقاله ای در مورد سازگار کردن رزومه شما با ATS وجود دارد.:
     - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
 - ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
     - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
-- ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
-    - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
 
 
-## Find a Job
+## یک شغل پیدا کنید
 
-- [Sites for Finding Jobs](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
+- [سایت های کاریابی](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
 
-## Interview Process & General Interview Prep
+## فرآیند مصاحبه و آمادگی مصاحبه عمومی
 
 - [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
@@ -1247,65 +1240,63 @@ Mock Interviews:
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously
 
-## Be thinking of for when the interview comes
+## به فکر زمان مصاحبه باشید
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have at least one answer for each.
-Have a story, not just data, about something you accomplished.
+درباره 20 تا از سوالاتی که ممکن است از شما پرسیده شود و سوالات پایین فکر کنید. و برای هرکدام حداقل یک جواب داشته باشید
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- چرا این شغل را می خواهی؟
+- یکی از مشکلات بزرگی که حل کردی رو بازگو کن؟
+- بزرگترین چالشی که داشتی؟
+- بهترین و بدترین طرح هایی که دیدی؟
+- ایده هایی برای بهبود یک محصول موجود
+- چگونه به عنوان یک فرد و به عنوان بخشی از یک تیم بهترین کار را انجام می دهید؟
+- کدام یک از مهارت ها یا تجربیات شما میتواند کلیدی باشد و چرا؟
+- از چه چیز فلان پروژه لذت بردی؟
+- بزرگترین چالشی که توی فلان پروژه باهاش روبرو شدی چی بود؟ 
+- سخت ترین باگی که باهاش روبرو شدی چی بود؟
+- از فلان پروژه چی یاد گرفتی؟
+- چه کاری رو بهتر انجام دادی؟
 
-- If you find it hard to come up with good answers of these types of interview questions, here are some ideas: 
+- اگر یافتن پاسخ‌های خوب برای این نوع سوالات مصاحبه برایتان سخت است، در اینجا چند ایده وجود دارد: 
     - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
 
-## Have questions for the interviewer
+## سوالاتی برای مصاحبه کننده آماده کنید
 
-Some of mine (I already may know the answers, but want their opinion or team perspective):
+برخی از سوالات من (من قبلاً ممکن است پاسخ ها را بدانم، اما نظر آنها یا دیدگاه تیم را می خواهم):
 
-- How large is your team?
+- تعداد تیم شما چقدر است؟
 - What does your dev cycle look like? Do you do waterfall/sprints/agile?
 - Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
-- How is the work/life balance?
+- تصمیمات در تیم شما چگونه گرفته می شود؟
+- چند جلسه در هفته دارید؟
+- آیا احساس می کنید محیط کارتان به شما کمک می کند تمرکز کنید؟
+- بر روی چه مسئله ای کار می کنید؟
+- چه چیزی را درباره آن دوست داری؟
+- زندگی کاری چگونه است؟
+- تعادل کار و زندگی چگونه است؟
 
-## Once You've Got The Job
+## وقتی شغل مورد نظر رو به دست آوردید
 
-Congratulations!
+تبریک می گویم!
 
-Keep learning.
+به یادگیری ادامه دهید.
 
-You're never really done.
+تازه اولشه
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. It is NOT needed for an entry-level interview.
-    However, by studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+    از اینجا به بعد موارد اختیاری استو دانستن آنها برای مصاحبه سطح مقدماتی نیازی نیست.
+    با این حال، با مطالعه این موارد، بیشتر در معرض مفاهیم CS قرار خواهید گرفت و برای هر شغل مهندسی نرم افزار آمادگی بیشتری خواهید داشت. شما تبدیل به یک مهندس نرم افزار بسیار قوی تر خواهید شد.
     
     *****************************************************************************************************
     *****************************************************************************************************
 
 ---
 
-## Additional Books
+## کتاب های اضافی
 
     These are here so you can dive into a topic you find interesting.
 
@@ -1359,19 +1350,18 @@ You're never really done.
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
     - For a richer, more up-to-date (2017), but longer treatment
 
-## System Design, Scalability, Data Handling
+## طراحی سیستم، مقیاس پذیری، مدیریت داده ها
 
-**You can expect system design questions if you have 4+ years of experience.**
+**اگر بیش از 4 سال تجربه دارید باید انتظار سوالات درمورد طراحی سیستم داشته باشید.**
 
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this
-- Considerations:
-    - Scalability
+- مقیاس‌پذیری و طراحی سیستم موضوعات بسیار بزرگی هستند که موضوعات و منابع زیادی دارند، زیرا هنگام طراحی یک سیستم نرم‌افزاری/سخت‌افزاری که می‌تواند مقیاس‌پذیر باشد، موارد زیادی باید در نظر گرفته شود..
+      انتظار داشته باشید که زمان زیادی را صرف این موضوع کنید
+- ملاحظات:
+    - مقیاس پذیری
         - Distill large data sets to single values
         - Transform one data set to another
         - Handling obscenely large amounts of data
-    - System design
+    - طراحی سیستم
         - features sets
         - interfaces
         - class hierarchies
@@ -1471,12 +1461,12 @@ You're never really done.
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
-## Additional Learning
+## یادگیری بیشتر
 
     I added them to help you become a well-rounded software engineer, and to be aware of certain
     technologies and algorithms, so you'll have a bigger toolbox.
 
-- ### Compilers
+- ### کامپایلرها
     - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
@@ -1501,8 +1491,6 @@ You're never really done.
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-	- [The Absolute Beginner's Guide to Emacs (video by David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
-	- [The Absolute Beginner's Guide to Emacs (notes by David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
 
 - ### Unix command line tools
     - I filled in the list below from good tools.
@@ -1518,7 +1506,7 @@ You're never really done.
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### نظریه اطلاعات
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - More about Markov processes:
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1539,14 +1527,14 @@ You're never really done.
     - Make sure to watch information theory videos first
     - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
+- ### رمزنگاری
     - Also see videos below
     - Make sure to watch information theory videos first
     - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
+- ### فشرده سازی
     - Make sure to watch information theory videos first
     - Computerphile (videos):
         - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
@@ -1578,7 +1566,7 @@ You're never really done.
     - [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
+- ### برنامه نویسی موازی
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
@@ -1733,6 +1721,7 @@ You're never really done.
 - ### k-D Trees
     - Great for finding number of points in a rectangle or higher dimension object
     - A good fit for k-nearest neighbors
+    - [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
     - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
 - ### Skip lists
@@ -1749,7 +1738,7 @@ You're never really done.
     - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
     - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
-- ### Math for Fast Processing
+- ### ریاضی برای پردازش سریع
     - [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
@@ -1759,7 +1748,7 @@ You're never really done.
     - [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ### Linear Programming (videos)
+- ### برنامه نویسی خطی
     - [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
     - [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
@@ -1770,12 +1759,12 @@ You're never really done.
     - [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
+- ### ریاضی گسسته
     - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
     - [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
 
-- ### Machine Learning
+- ### یادگیری ماشین
     - Why ML?
         - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
@@ -1804,7 +1793,7 @@ You're never really done.
 
 ---
 
-## Additional Detail on Some Subjects
+## جزئیات بیشتر در مورد برخی از موضوعات
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
@@ -1835,10 +1824,10 @@ You're never really done.
     - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
 - **More Dynamic Programming** (videos)
-    - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=r4-cftqTcdI&ab_channel=MITOpenCourseWare)
-    - [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=KLBCUx1is2c&ab_channel=MITOpenCourseWare)
-    - [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=TDo3r5M1LNo&ab_channel=MITOpenCourseWare)
-    - [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=i9OAOk0CUQE&ab_channel=MITOpenCourseWare)
+    - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
+    - [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+    - [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+    - [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
     - [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
@@ -1885,10 +1874,12 @@ You're never really done.
         - [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
         - [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
     - Steven Skiena lectures on sorting:
-        - [CSE373 2020 - Mergesort/Quicksort (video)](https://www.youtube.com/watch?v=jUf-UQ3a0kg&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=8)
-        - [CSE373 2020 - Linear Sorting (video)](https://www.youtube.com/watch?v=0ksyQKmre84&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=9)
+        - [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+        - [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## مجموعه ویدیویی
 
 Sit back and enjoy.
 
@@ -1900,7 +1891,8 @@ Sit back and enjoy.
 
 - [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [Skiena lectures from Algorithm Design Manual - CSE373 2020 - Analysis of Algorithms (26 videos)](https://www.youtube.com/watch?v=22hwcnXIGgk&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=1)
+- CSE373 - Analysis of Algorithms (25 videos)
+    - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
 - [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
 
@@ -1909,6 +1901,8 @@ Sit back and enjoy.
 - [UC Berkeley 61C: Machine Structures (26 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
 
 - [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+
+- ~~[UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)~~
 
 - [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLDSlqjcPpoL64CJdF0Qee5oWqGS6we_Yu)
 
@@ -1945,7 +1939,7 @@ Sit back and enjoy.
 
 - [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## دوره های علوم کامپیوتر
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
@@ -1955,7 +1949,7 @@ Sit back and enjoy.
 - [Multiple Algorithms implementation by Princeton University](https://algs4.cs.princeton.edu/code)
 
 
-## Papers
+## مقالات
 
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)

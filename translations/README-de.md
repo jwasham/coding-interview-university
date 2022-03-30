@@ -1,9 +1,9 @@
 # Coding Interview University
 
 > Ursprünglich habe ich dies als eine kurze To-do Liste von Studienthemen angefangen, um Softwareingenieur zu werden,
-> aber es ist zu der riesigen Liste herangewachsen, die man heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
+> aber es ist zu der riesigen Liste herangewachsen, die person heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
 > habe, [wurde ich als Software Entwickler bei Amazon eingestellt](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> Wahrscheinlich wirst du nicht so viel lernen müssen wie ich. Aber egal, alles was man braucht, findest man hier.
+> Wahrscheinlich wirst du nicht so viel lernen müssen wie ich. Aber egal, alles was person braucht, findest person hier.
 >
 > Ich habe ungefähr 8-12 Stunden am Tag gelernt, und das für mehrere Monate. Hier ist meine Geschichte: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
@@ -88,7 +88,7 @@ Das ist mein mehrmonatiger Lehrplan um sich vom Web Developer (Selbststudium, ke
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Dies ist gedacht für **neue Softwareingenieure** oder solche die von der Software/Web Entwicklung zum Software 
-Engineering wechseln wollen (wobei Informatikkenntnisse benötigt werden). Falls man behauptet mehrere Jahre an Erfahrung
+Engineering wechseln wollen (wobei Informatikkenntnisse benötigt werden). Falls person behauptet mehrere Jahre an Erfahrung
 als Softwareingenieur zu haben, erwartet einen ein hartes Vorstellungsgespräch.
 
 Falls du schon mehrere Jahre Erfahrung in der Software/Webentwicklung hast, muss dir klar sein, dass große Software
@@ -104,7 +104,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 
 - [Worum es geht](#what-is-it)
 - [Warum solltest du das hier lesen?](#why-use-it)
-- [Wie man dies hier benutzt](#how-to-use-it)
+- [Wie person dies hier benutzt](#how-to-use-it)
 - [Halt dich nicht für dümmer als du bist](#dont-feel-you-arent-smart-enough)
 - [Über Videoquellen](#about-video-resources)
 - [Ablauf von Vorstellungsgesprächen und allgemeine Vorbereitung darauf](#interview-process--general-interview-prep)
@@ -225,7 +225,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 ## Warum solltest du das hier lesen?
 
 Als ich dieses Projekt angefangen habe, konnte ich einen Stack nicht von einem Heap unterscheiden, wusste nichts von 
-Groß-O, nichts über Bäume, oder wie man einen Graphen durchläuft. Wenn ich einen Sortieralgorithmus hätte schreiben sollen,
+Groß-O, nichts über Bäume, oder wie person einen Graphen durchläuft. Wenn ich einen Sortieralgorithmus hätte schreiben sollen,
 dann wäre der nicht besonders gut geworden, so viel kann ich dir sagen. Jede Datenstruktur die jemals benutzt habe war 
 direkt in der Programmiersprache eingebaut, und ich hatte keine Ahnung wie sie funktioniert haben. Ich muss niemals 
 Speichermanagement betreiben, außer einer der Prozesse, die ich ausgeführt hatte hat einen "out of memory" Fehler gehabt. 
@@ -235,10 +235,10 @@ und ein paar Tausend assoziative Arrays, aber ich habe nie selbst eine Datenstru
 Es ist ein großer Plan. Es könnte mehrere Monate dauern. Falls dir schon vieles von dem bekannt ist, wird es dich viel 
 weniger Zeit kosten.
 
-## Wie man dies hier benutzt
+## Wie person dies hier benutzt
 
 <details>
-<summary>Wie man dies hier benutzt</summary>
+<summary>Wie person dies hier benutzt</summary>
 
 Alles hier drunter ist ein Umriss, und du solltest die Aufgaben von oben nach untern abarbeiten.
 
@@ -278,8 +278,8 @@ Ich benutze GitHub's spezielle Version von Markdown, das beinhält Aufgabenliste
 
 ## Über Videoquellen
 
-Auf manche Videos kann man nur zugreifen, indem man sich bei einem Coursera- oder EdX-Kurs einschreibt. Das sind so
-genannte MOOCS. Manchmal werden die Kurse gerade nicht angeboten und man muss ein paar Monate warten. Man hat dann
+Auf manche Videos kann person nur zugreifen, indem person sich bei einem Coursera- oder EdX-Kurs einschreibt. Das sind so
+genannte MOOCS. Manchmal werden die Kurse gerade nicht angeboten und person muss ein paar Monate warten. Person hat dann
 keinen Zugriff darauf.
 
     Ich würde mich sehr freuen, wenn du mir dabei hilfst kostenlose und immer verfügbare öffentliche Quellen hinzuzufügen,
@@ -298,12 +298,12 @@ keinen Zugriff darauf.
 - [ ] Cracking The Coding Interview Teil 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] Wie man einen Job bei den Großen 4 bekommt:
+- [ ] Wie person einen Job bei den Großen 4 bekommt:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 
 - [ ] Vorbereitungskurse:
     - [ ] [Software Engineer Interview Unleashed (kostenpflichtiger Kurs)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Hier lernt von einem ehemaligen Google Interviewer wie man sich auf ein Vorstellungsgespräch als Software Engineer vorbereitet.
+        - Hier lernt von einem ehemaligen Google Interviewer wie person sich auf ein Vorstellungsgespräch als Software Engineer vorbereitet.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (kostenpflichtiger Kurs)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
         - Ein auf Python zugeschnittener Kurs welcher Datenstrukturen, Algorithmen, Testinterviews und noch viel mehr behandelt.
     - [ ] [Intro to Data Structures and Algorithms using Python! (kostenloser Kurs auf Udacity)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
@@ -315,14 +315,14 @@ keinen Zugriff darauf.
 
 ## Wähle eine Sprache für das Vorstellungsgespräch
 
-Man sollte eine Sprache wählen mit der man sich wohlfühlt beim Codingteil des Vorstellungsgesprächs.
+Person sollte eine Sprache wählen mit der person sich wohlfühlt beim Codingteil des Vorstellungsgesprächs.
 Aber für große Firmen sind das valide Optionen:
 
 - C++
 - Java
 - Python
 
-Man könnte auch diese verwenden, aber pass auf. Es könnte einige Vorbehalte geben:
+Person könnte auch diese verwenden, aber pass auf. Es könnte einige Vorbehalte geben:
 
 - JavaScript
 - Ruby
@@ -353,7 +353,7 @@ Die Liste ist kürzer als die, die ich tatsächlich benutzt habe. Ich habe es et
     - Antworten in Java
 
 <details>
-<summary>Wenn man extrem viel Zeit hat:</summary>
+<summary>Wenn person extrem viel Zeit hat:</summary>
 
 Such dir eins aus:
 
@@ -388,12 +388,12 @@ Such dir eins aus:
 
 ### Sprachspezifisch
 
-**Man muss sich für das Vorstellungsgespräch für eine Programmiersprache entschieden haben (siehe oben).**
+**Person muss sich für das Vorstellungsgespräch für eine Programmiersprache entschieden haben (siehe oben).**
 
 Hier sind meine Empfehlungen geordnet nach Sprache. Ich habe nicht für alle Sprachen Material. Ich begrüße Ergänzungen.
 
 Wenn du dich durch eins davon durchgelesen hast, solltest du genügende Wissen über Datenstrukturen und Algorithmen haben, um Coding Probleme lösen zu können.
-**Man kann alle Videolektionen in diesem Projekt überspringen**, außer du willst eine Auffrischung.
+**Person kann alle Videolektionen in diesem Projekt überspringen**, außer du willst eine Auffrischung.
 
 [Zusätzliches sprachspezifisches Material hier.](programming-language-resources.md)
 
@@ -474,8 +474,8 @@ Erstell kostenlos deine eigenen Lernkarten:
 
 Achtung, ich habe es übertrieben und Lernkarten über alles erstellt, von Assembly und Python Trivia bis hin zu Machine Learning und Statistik. Das ist viel mehr als eigentlich notwendig.
 
-**Anmerkung zu Lernkarten:** Wenn man sich einmal an eine Antwort erinnert, sollte man das nicht als Wissen ansehen.
-Man muss sich die Karte mehrmals ansehen und richtig beantworten, bevor man es tatsächlich weiß. Wiederholung wird das
+**Anmerkung zu Lernkarten:** Wenn person sich einmal an eine Antwort erinnert, sollte person das nicht als Wissen ansehen.
+Person muss sich die Karte mehrmals ansehen und richtig beantworten, bevor person es tatsächlich weiß. Wiederholung wird das
 Wissen tiefer in euren Verstand verankern.
 
 Eine Alternative zu Lernkarten ist [Anki](http://ankisrs.net/), was mir schon öfters empfohlen wurde. 
@@ -505,7 +505,7 @@ Das sind weitverbreitete Technologien aber nicht Teil des Lehrplans:
 
 ## Der Tagesplan
 
-Einige der Themen brauchen einen Tag, für andere braucht man mehrere Tage. Manche sind reines Lernen ohne das man was implementiert.
+Einige der Themen brauchen einen Tag, für andere braucht person mehrere Tage. Manche sind reines Lernen ohne das person was implementiert.
 
 Jeden Tag nehme ich mir ein Thema aus der Liste unten vor, schaue Videos über das Thema, und schreibe eine Implementierung in:
 - C - mit structs und Funktionen die ein struct Pointer und und etwas anderes als Argumente benutzen.
@@ -515,21 +515,21 @@ Jeden Tag nehme ich mir ein Thema aus der Liste unten vor, schaue Videos über d
 - und ich schreibe Tests um sicherzugehen, dass ich richtig liege, manchmal sind das nur einfache assert() Statements
 - Du könntest auch Java oder etwas anderes machen. Das ist nur das, was ich tue.
 
-Man braucht nicht alles davon. Man braucht nur [eine Sprache für das Vorstellungsgespräch](#pick-one-language-for-the-interview).
+Person braucht nicht alles davon. Person braucht nur [eine Sprache für das Vorstellungsgespräch](#pick-one-language-for-the-interview).
 
 Warum ich in all diesen Sprachen programmiere?
-- Üben, üben, üben, bis ich kotzen muss und es im Schlaf beherrsche (manche Probleme haben viele Sonderfälle und Wissen, an das man sich erinnern muss)
+- Üben, üben, üben, bis ich kotzen muss und es im Schlaf beherrsche (manche Probleme haben viele Sonderfälle und Wissen, an das person sich erinnern muss)
 - Unter erschwerten Voraussetzungen arbeiten können (Speicher allokieren/freigeben ohne die Hilfe einer Garbage Collection (Ausnahmen sind Python oder Java))
 - Vorgefertigte Typen verwenden damit ich Erfahrung im Umgang für echte Anwendungsfälle haben (ich werde sich meine eigene verkettete Liste im Alltag implementieren)
 
 Vielleicht habe ich nicht die Zeit, um das alles für jedes Thema zu machen, aber ich werde es versuchen.
 
-Man findet meinen Code hier:
+Person findet meinen Code hier:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-Man muss sich nicht bei jeden Algorithmus an alle Details erinnern können.
+Person muss sich nicht bei jeden Algorithmus an alle Details erinnern können.
 
 Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit ein paar einfachen Eingaben. Dann kannst du es am Computer testen.
 
@@ -560,8 +560,8 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <summary>Algorithmische Komplexität / Big-O (Groß-O Notation) / Asymptotische Analyse</summary>
 
 - nichts zum Implementieren
-- Es sind eine Menge Videos hier aufgelistet. Schau dir einfach so viele an, bis du es verstanden hast. Man kann immer wieder zurückgehen und noch mal anschauen.
-- Falls einige der Vorträge zu mathematisch sind, kann man ans untere Ende springen und sich Videos über diskrete Mathematik anschauen, um das notwendige Hintergrundwissen zu bekommen.
+- Es sind eine Menge Videos hier aufgelistet. Schau dir einfach so viele an, bis du es verstanden hast. Person kann immer wieder zurückgehen und noch mal anschauen.
+- Falls einige der Vorträge zu mathematisch sind, kann person ans untere Ende springen und sich Videos über diskrete Mathematik anschauen, um das notwendige Hintergrundwissen zu bekommen.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (kleines Tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - beste mathematische Erklärung (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -602,7 +602,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
     - [ ] Implementiere ein Vektor (veränderbares Array, das automatisch seine Größe verändert):
         - [ ] Übe Arrays und Pointer (Zeiger) zu coden, und benutze Pointerberechnung, um ein Element aus einem Array auszuwählen statt den Index zu benutzen.
         - [ ] neues Rohdaten-Array mit allokierten Speicher
-            - man kann intern ein int Array dafür verwenden, aber nicht die Features davon
+            - person kann intern ein int Array dafür verwenden, aber nicht die Features davon
             - fang an mit der Größe 16, oder wenn die Startnummer schön größer ist, benutze Zweier-Potenzen - 16, 32, 64, 128
         - [ ] size() - Anzahl der Elemente
         - [ ] capacity() - Anzahl der Elemente die es enthalten kann
@@ -616,7 +616,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] remove(item) - sucht den Wert und entfernt den Index, der ihn enthält (auch wenn es mehrere Stellen sind)
         - [ ] find(item) - sucht den Wert und gibt den ersten Index mit diesen Wert, -1 wenn der Wert nicht gefunden wird
         - [ ] resize(new_capacity) // private Funktion
-			- wenn man die Kapazität erreicht hat, verdopple die Kapazität
+			- wenn person die Kapazität erreicht hat, verdopple die Kapazität
             - wenn du ein Element löscht und die Größe ist nur 1/4 der Kapazität, halbiere die Kapazität
     - [ ] Zeit
         - O(1) um am Ende etwas hinzuzufügen/zu löschen (amortisiert bei Verwendung von zusätzlichen Speicher), Indexzugriff, oder update
@@ -637,8 +637,8 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Achtung:  du brauchst Wissen über Pointer auf Pointer:
-        (für den Fall, dass man einen Pointer an eine Funktion übergibt und die Funktion die Adresse verändern kann, zu der der Pointer zeigt)
-        Diese Seite ist dafür Pointer auf Pointer grob zu verstehen. Ich würde diese Art der Listentraversierung nicht empfehlen. Lesbarkeit und Wartbarkeit leiden darunter wenn man versucht clever zu sein.
+        (für den Fall, dass person einen Pointer an eine Funktion übergibt und die Funktion die Adresse verändern kann, zu der der Pointer zeigt)
+        Diese Seite ist dafür Pointer auf Pointer grob zu verstehen. Ich würde diese Art der Listentraversierung nicht empfehlen. Lesbarkeit und Wartbarkeit leiden darunter wenn person versucht clever zu sein.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implementierung (ich habe es mit Tail-Pointern gemacht und ohne):
         - [ ] size() - gibt Anzahl der Datenelemente in der Liste zurück
@@ -679,8 +679,8 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - empty()
         - full()
     - [ ] Kosten:
-		- eine schlechte Implementierung wo man am Kopf einreiht und am Schwanz ausreiht wäre O(n)
-			weil man das vorletzte Element braucht, wodurch man die Liste komplett durchgehen muss
+		- eine schlechte Implementierung wo person am Kopf einreiht und am Schwanz ausreiht wäre O(n)
+			weil person das vorletzte Element braucht, wodurch person die Liste komplett durchgehen muss
         - enqueue: O(1) (amortisiert, verkettete Liste und Array)
         - dequeue: O(1) (verkettete Liste und Array)
         - empty: O(1) (verkettete Liste und Array)
@@ -838,7 +838,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] remove(i) - entfernt Element an Position i
         - [ ] heapify - erstellt einen Heap aus einem Array, gebraucht für heap_sort
         - [ ] heap_sort() - nimmt ein unsortiertes Array und verwandelt es in ein sortiertes Array (in-place) mittles Max Heap
-            - Bemerkung: stattdessen einen Min Heap zu verwenden, würde weniger Operationen brauchen, aber den Speicherbedarf verdoppeln (kann man nicht in-place machen).
+            - Bemerkung: stattdessen einen Min Heap zu verwenden, würde weniger Operationen brauchen, aber den Speicherbedarf verdoppeln (kann person nicht in-place machen).
 
 </details>
 
@@ -936,7 +936,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
         - Adjazenzliste
         - adjacency map
     - bekanntmachen mit jeder dieser Repräsentationen und ihrer Vor- und Nachteile
-    - BFS und DFS - kenne Komplexität, ihre Kompromisse, und wie man sie mit echten Code umsetzt
+    - BFS und DFS - kenne Komplexität, ihre Kompromisse, und wie person sie mit echten Code umsetzt
     - Wenn eine Frage gestellt wird, suche zuerst nach einer graphbasierten Lösung, dann geh weiter, wenn es keine gibt.
 
 - [ ] MIT(videos):
@@ -998,7 +998,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - wann sollte man es benutzen
+    - wann sollte person es benutzen
     - Wann ist Endrekursion gut?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
@@ -1006,9 +1006,9 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
 - ### Dynamische Programming
     - Wahrscheinlich wirst du im Vorstellungsgespräch nichts mit dynamischer Programmierung zu tun haben, aber es ist wert zu erkennen, wann ein Problem für dynamische Programmierung geeignet ist.
     - Dieses Thema kann ziemlich schwer sein. Jedes DP Problem muss als Rekursion dargestellt werden, und darauf zu kommen kann schwer sein.
-    - Ich schlage vor, dass man sich viele DP Probleme ansieht bis man ein gutes Verständnis vom zugrunde liegenden Muster hat.
+    - Ich schlage vor, dass person sich viele DP Probleme ansieht bis person ein gutes Verständnis vom zugrunde liegenden Muster hat.
     - [ ] Videos:
-        - die Skiena Videos kann man manchmal schwer folgen, weil er manchmal auf einer Tafel schreibt, was zu klein zum Lesen ist
+        - die Skiena Videos kann person manchmal schwer folgen, weil er manchmal auf einer Tafel schreibt, was zu klein zum Lesen ist
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -1032,7 +1032,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
 - ### Objekt-Orientierte Programmierung
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
     - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
-        - kann man überspringen wenn man gutes Wissen über OO und OO Design Patterns hat
+        - kann person überspringen wenn person gutes Wissen über OO und OO Design Patterns hat
         - [OOSE: Software Dev Using UML and Java (video)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] SOLID OOP Prinzipien:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
@@ -1075,7 +1075,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
     - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - Ich weiß das legitime Buch ist "Design Patterns: Elements of Reusable Object-Oriented Software", aber Head First ist großartig wenn man mit OO einsteigt.
+        - Ich weiß das legitime Buch ist "Design Patterns: Elements of Reusable Object-Oriented Software", aber Head First ist großartig wenn person mit OO einsteigt.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
     - [ ] [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
 
@@ -1109,7 +1109,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
     - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - Peter Norvig beschreibt annähernd optimale Lösungen für das Traveling Salesman Problem:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Seite 1048 - 1140 in CLRS falls man es besitzt.
+    - Seite 1048 - 1140 in CLRS falls person es besitzt.
 
 - ### Caches
     - [ ] LRU cache:
@@ -1226,7 +1226,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
         - Die erste Hälfte ist ausreichend.
 
 - ### Netzwerke
-    - **Wenn man Erfahrungen mit Netzwerken hat, oder Reliability Engineer oder Operations Engineer werden will, erwartet Fragen dazu**
+    - **Wenn person Erfahrungen mit Netzwerken hat, oder Reliability Engineer oder Operations Engineer werden will, erwartet Fragen dazu**
     - ansonsten, ist es nur gut zu wissen
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
@@ -1249,10 +1249,10 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
 <details>
 <summary>Systementwurf, Skalierbarkeit, Datenverarbeitung</summary>
 
-**Man kann mit Fragen über Systementwurf rechnen, falls man 4+ Erfahrung hat.**
+**Person kann mit Fragen über Systementwurf rechnen, falls person 4+ Erfahrung hat.**
 
 - Skalierbarkeit und Systementwurf sind sehr große Themengebiete mit vielen verschiedenen Themen und Quellen, 
-	  weil es so viel zu beachten gibt, wenn man eine Software/Hardware baut, die skalierbar ist.
+	  weil es so viel zu beachten gibt, wenn person eine Software/Hardware baut, die skalierbar ist.
 	  Erwarte viel Zeit damit zu verbringen.
 - Überlegungen:
     - Skalierbarkeit
@@ -1287,7 +1287,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Skalierbarkeit:
-    - Das braucht man nicht alles. Sucht euch einfach die paar Themen raus, die euch interessieren.
+    - Das braucht person nicht alles. Sucht euch einfach die paar Themen raus, die euch interessieren.
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
     - [ ] Kurzreihen:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
@@ -1341,7 +1341,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
     - Für sogar noch mehr, siehe "Mining Massive Datasets" Videoreihen im [Videoreihen](#video-series) Abschnitt.
-- [ ] Übe den Prozess des Systementwurfs: Hier sind ein paar Ideen, die man auf Papier durchspielen kann, jede mit einer Dokumentation wie es in der echten Welt umgesetzt wurde:
+- [ ] Übe den Prozess des Systementwurfs: Hier sind ein paar Ideen, die person auf Papier durchspielen kann, jede mit einer Dokumentation wie es in der echten Welt umgesetzt wurde:
     - Review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [Spickzettel](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
@@ -1383,8 +1383,8 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
 <details>
 <summary>Finaler Rückblick</summary>
 
-	Dieser Abschnitt enthält kürzere Videos, die man sich ziemlich schnell anschauen kann, um die wichtigsten Konzepte noch mal zu wiederholen.
-    Das ist ganz gut, falls man sein Wissen öfter mal auffrischen möchte.
+	Dieser Abschnitt enthält kürzere Videos, die person sich ziemlich schnell anschauen kann, um die wichtigsten Konzepte noch mal zu wiederholen.
+    Das ist ganz gut, falls person sein Wissen öfter mal auffrischen möchte.
 
 - [ ] Reihe mit kurzen 2-3 Minuten Videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
@@ -1409,19 +1409,19 @@ Jetzt da ihr alle Informatikfragen von oben kennt, wird es Zeit Antworten auf Co
 Warum du üben musst Programmieraufgaben zu lösen:
 - Probleme wiedererkennen, und welche Datenstrukturen und Algorithmen sich dazu eignen
 - Anforderungen an das Problem sammeln
-- das Problem zu besprechen wie man es im Vorstellungsgespräch tun würde
+- das Problem zu besprechen wie person es im Vorstellungsgespräch tun würde
 - auf der Tafel oder dem Papier zu entwickeln, nicht auf den Computer
 - die Zeit- und Speicherkomplexität zu ermitteln
 - seine Lösung zu testen
 
 Es gibt eine großartige Einführung für das methodische, kommunikative Problem lösen in einem Vorstellungsgespräch.
-Das kann man auch von Büchern über Vorstellungsgespräche lernen, aber das fand ich herausragend:
+Das kann person auch von Büchern über Vorstellungsgespräche lernen, aber das fand ich herausragend:
 [Algorithm Design Canvas](http://www.hiredintech.com/algorithm-design/)
 
 Keine Tafel zu Hause? Macht Sinn. Ich bin ein Spinner und habe eine große Tafel.
 Anstelle einer Tafel hol dir ein großes Zeichenbrett aus dem Kunstladen. Du kannst auf dem Sofa sitzen und üben.
 Das ist meine "Sofatafel". Ich habe auf den Foto ein Stift dazu gelegt, um die Größenverhältnisse darzustellen.
-Wenn man mit Stift schreibt, wünscht man sich, man könnte löschen. Wird schnell sehr unordentlich.
+Wenn person mit Stift schreibt, wünscht person sich, person könnte löschen. Wird schnell sehr unordentlich.
 
 ![meine Sofatafel](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
@@ -1531,7 +1531,7 @@ Gratulation!
 
 Lerne weiter.
 
-Man ist nie wirklich fertig.
+Person ist nie wirklich fertig.
 
 ---
 
@@ -1539,9 +1539,9 @@ Man ist nie wirklich fertig.
     *****************************************************************************************************
 
     Alles unterhalb hiervon ist optional.
-	Wenn man das studiert, bekommt man mehr Wissen zu Informatikkonzepten, und wird besser auf
+	Wenn person das studiert, bekommt person mehr Wissen zu Informatikkonzepten, und wird besser auf
 	einen Softwareingenieur Job vorbereitet. 
-	Man ist dann ein abgerundeterer Softwareingenieur.
+	Person ist dann ein abgerundeterer Softwareingenieur.
 
     *****************************************************************************************************
     *****************************************************************************************************
@@ -1566,7 +1566,7 @@ Man ist nie wirklich fertig.
 - [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - Als ein Rückblick und zur Problemerkennung
-    - Der Katalog an Algorithmen ist weit über den Schwierigkeitsgrad, den man in Vorstellungsgesprächen hat.
+    - Der Katalog an Algorithmen ist weit über den Schwierigkeitsgrad, den person in Vorstellungsgesprächen hat.
     - Dieses Buch besteht aus 2 Teilen:
         - Textbuch über Datenstrukturen und Algorithmen
             - Vorteile:
@@ -1580,14 +1580,14 @@ Man ist nie wirklich fertig.
         - Algorithmenkatalog:
             - Das ist der eigentliche Grund, weswegen ich dieses Buch gekauft habe.
             - muss mich noch einlesen. Werde das hier ergänzen, sobald ich durch bin.
-    - kann man auf den Kindle ausleihen
+    - kann person auf den Kindle ausleihen
     - Antworten:
         - [Lösungen](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Lösungen](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Korrekturverzeichnis](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Wichtig:** Das Buch zu lesen ist nur eingeschränkt von Nutzen. Das Buch ist ein toller Rückblick auf Algorithmen und Datenstrukturen, aber man lernt dadurch nicht guten Code zu schreiben. Man muss in der Lage sein effizient vernünftigen Code zu schreiben.
+    - **Wichtig:** Das Buch zu lesen ist nur eingeschränkt von Nutzen. Das Buch ist ein toller Rückblick auf Algorithmen und Datenstrukturen, aber person lernt dadurch nicht guten Code zu schreiben. Person muss in der Lage sein effizient vernünftigen Code zu schreiben.
     - aka CLR, manchmal CLRS, weil Stein erst später dazu kam
 
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
@@ -1775,11 +1775,11 @@ Algorithmen Bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
-    - Ich habe mich dazu entschieden einen Splay Tree zu implementieren. Von dem was ich gelesen habe, wird man kein
+    - Ich habe mich dazu entschieden einen Splay Tree zu implementieren. Von dem was ich gelesen habe, wird person kein
         balancierten Suchbaum in einem Vorstellungsgespräch implementieren. Aber ich wollte die Erfahrung machen selber einen zu coden
         und seien wir mal ehrlich, Splay Trees sind Alleskönner. Ich habe eine Menge Code für Rot-Schwarz Bäume gelesen.
         - Splay Tree: insert, search, delete Funktionen
-		Falls man mit einen Rot-Schwarz Baum endet, versuch das:
+		Falls person mit einen Rot-Schwarz Baum endet, versuch das:
         - search und insertion Funktionen, delete überspringen
     - Ich möchte mehr über B-Bäume lernen, da sie so weit verbreitet sind bei riesigen Datenmengen.
     - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
@@ -1803,7 +1803,7 @@ Algorithmen Bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
 			Netzwerk und Dateisystem Code) etc. verwendet
         - [ ] [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
         - [ ] MIT Vorlesung: Splay Trees:
-            - Wird sehr mathematisch, aber man sollte sich auf jeden Fall die letzten 10 Minuten ansehen.
+            - Wird sehr mathematisch, aber person sollte sich auf jeden Fall die letzten 10 Minuten ansehen.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - [ ] **Red/black trees (Rot-Schwarz Bäume)**
@@ -1823,8 +1823,8 @@ Algorithmen Bescheid wisst, sodass ihr eine größere Auswahl an Werkzeugen habt
 
     - [ ] **2-3 Bäume**
         - In der Praxis:
-            Bei 2-3 Suchbäumen kann man schneller einfügen zu Lasten von langsameren Suchen (weil die Höhe größer ist verglichen mit AVL Trees).
-        - Man würde einen 2-3 Tree nur sehr selten verwenden, weil deren Implementierung mehrere verschiedene Arten von Knoten umfasst. Stattdessen benutzt man Rot-Schwarz Bäume.
+            Bei 2-3 Suchbäumen kann person schneller einfügen zu Lasten von langsameren Suchen (weil die Höhe größer ist verglichen mit AVL Trees).
+        - Person würde einen 2-3 Tree nur sehr selten verwenden, weil deren Implementierung mehrere verschiedene Arten von Knoten umfasst. Stattdessen benutzt person Rot-Schwarz Bäume.
         - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)

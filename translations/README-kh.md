@@ -1473,7 +1473,7 @@ Mock Interviews:
             - គុណវិបត្តិ:
                 - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
+                - Don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material
         - Algorithm catalog:
            - នេះជាហេតុផលពិតប្រាកដដែលអ្នកទិញសៀវភៅនេះ
             - ហៀបនឹងចូលដល់ផ្នែកនេះ។ នឹងធ្វើបច្ចុប្បន្នភាពនៅទីនេះនៅពេលដែលខ្ញុំបានឆ្លងកាត់វា

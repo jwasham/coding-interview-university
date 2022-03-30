@@ -4,9 +4,9 @@
 
 > Originalmente creé esto como una lista corta de temas a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista que puede apreciar actualmente. Después de pasar por este plan de estudios, ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon! (Art. Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu) Posiblemente no tenga que estudiar mucho como yo. De todos modos, todo lo que necesita, esta aquí.
 >
-> Durante muchos meses he estudiado diariamente de 8 a 12 horas. Esta es mi historia: [Por qué estudié a tiempo completo durante 8 meses para una entrevista con Google.  (Art. Inglés)](https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13) 
+> Durante muchos meses they estudiado diariamente de 8 a 12 horas. Esta es mi historia: [Por qué estudié a tiempo completo durante 8 meses para una entrevista con Google.  (Art. Inglés)](https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13) 
 >
-> Nota: No necesitarás estudiar tanto como yo. He perdido mucho tiempo en aspectos que yo no necesitaba saber. Más información abajo. Te ayudaré a alcanzar tu meta sin que pierda su preciado tiempo.
+> Nota: No necesitarás estudiar tanto como yo. They perdido mucho tiempo en aspectos que yo no necesitaba saber. Más información abajo. Te ayudaré a alcanzar tu meta sin que pierda su preciado tiempo.
 > 
 > Los elementos listados aquí le prepararan bien para una entrevista en cualquier compañía de software, incluyendo a los gigantes: Amazon, Facebook, Google o Microsoft.
 >
@@ -224,11 +224,11 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 ## ¿Por qué usarlo?
 
-Si desea trabajar como un Ingeniero de Software para una gran compañía, estas son los aspectos que debes de conocer.
+Si desea trabajar como un Ingeniero de Software para una gran compañía, estas child los aspectos que debes de conocer.
 
 Si, como yo, te perdiste la carrera de informática, esto te pondrá al día y te ahorrará cuatro años de tu vida.
 
-Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory” y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
+Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory” y tenía que encontrar una alternativa. They usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca they creado estructuras de datos desde cero.
 
 Es un plan largo, puede que tome unos meses; pero si le resulta familiar mucho de esto, le tomara mucho menos tiempo.
 
@@ -265,12 +265,12 @@ git push --force
 [Más acerca de características de Github para markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## No sienta que no es lo suficientemente listo
-- Los ingenieros de software exitosos son inteligentes, pero muchos tienen la inseguridad de no ser lo suficientemente listos.
+- Los ingenieros de software exitosos child inteligentes, pero muchos tienen la inseguridad de no ser lo suficientemente listos.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## Acerca de los recursos de vídeo
-Algunos videos solo están disponibles inscribiéndose a una clase de Coursera o EdX. Estos son llamados MOOCs. En ocasiones las clases no están en sesión, por lo que tendrá que esperar un par de meses, así que no tiene acceso.
+Algunos videos solo están disponibles inscribiéndose a una clase de Coursera o EdX. Estos child llamados MOOCs. En ocasiones las clases no están en sesión, por lo que tendrá que esperar un par de meses, así que no tiene acceso.
 
 Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
 
@@ -293,7 +293,7 @@ Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuita
 
 ## Escoja un lenguaje para la entrevista
 
-Puede usar un lenguaje con el que este cómodo para hacer la parte de código para la entrevista, pero para las grandes compañías, estas son buenas elecciones:
+Puede usar un lenguaje con el que este cómodo para hacer la parte de código para la entrevista, pero para las grandes compañías, estas child buenas elecciones:
 
 - C++
 - Java
@@ -322,7 +322,7 @@ Esta es una lista más corta que la que yo usé. Está abreviada para ahorrarle 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - Respuestas en C++ y Java
     - Este es un buen calentamiento para Cracking the Coding Interview
-    - No muy difícil. Muchos problemas pueden ser más sencillos de los que verá en la entrevista (Por lo que he leído)
+    - No muy difícil. Muchos problemas pueden ser más sencillos de los que verá en la entrevista (Por lo que they leído)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - Respuestas en Java
 
@@ -339,7 +339,7 @@ Si no dispone de mucho tiempo:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - El libro fue publicado en 2004 y es algo anticuado, pero es un recurso fantástico para la comprensión de una computadora en breve.
-    - El autor inventó HLA, por lo que tiene muchas menciones y ejemplos en HLA. No es ampliamente utilizado, pero los ejemplos son decentes para ver cómo es un lenguaje ensamblador.
+    - El autor inventó HLA, por lo que tiene muchas menciones y ejemplos en HLA. No es ampliamente utilizado, pero los ejemplos child decentes para ver cómo es un lenguaje ensamblador.
     - Estos capítulos valen la pena ser leídos para brindarle una buena base:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
@@ -358,7 +358,7 @@ Si tiene más tiempo (Yo quiero este libro):
 
 ### Específicos del lenguaje
 
-**Necesita escoger un lenguaje para la entrevista (mire arriba)** Aquí están mis recomendaciones por lenguaje. No tengo recursos para todos los lenguajes, de modo ques son bienvenidas las adiciones.
+**Necesita escoger un lenguaje para la entrevista (mire arriba)** Aquí están mis recomendaciones por lenguaje. No tengo recursos para todos los lenguajes, de modo ques child bienvenidas las adiciones.
 
 Si ha leído alguno de estos, probablemente tenga todos los conocimientos de estructuras de datos y algoritmos que necesitará para resolver problemas de codificación.
 **Puede saltarse todas las video-lecturas en este proyecto**, a menos que quiera una crítica.
@@ -367,7 +367,7 @@ Si ha leído alguno de estos, probablemente tenga todos los conocimientos de est
 
 ### C++
 
-No he leído estos dos, pero están altamente calificados y escritos por Sedgewick. Él es asombroso.
+No they leído estos dos, pero están altamente calificados y escritos por Sedgewick. Él es asombroso.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
@@ -483,7 +483,7 @@ Hay muchas distracciones que le pueden quitar tiempo valioso. Enfocarse y concen
 
 ## Lo que no verá cubierto
 
-Estas son tecnologías predominantes, pero no están cubiertas por este plan de estudios:
+Estas child tecnologías predominantes, pero no están cubiertas por este plan de estudios:
 
 - SQL.
 - Javascript.
@@ -491,7 +491,7 @@ Estas son tecnologías predominantes, pero no están cubiertas por este plan de 
 
 ## El plan diario
 
-Algunos temas tomarán un día y otros tomarán varios. Algunos son solo para aprender sin nada que implementar.
+Algunos temas tomarán un día y otros tomarán varios. Algunos child solo para aprender sin nada que implementar.
 
 Cada día yo tomé un tema de los siguientes, vi videos sobre el tema y escribía una implementación:
 
@@ -553,7 +553,7 @@ Escriba código en un pizarrón o en papel, pero no en la computadora. Pruebe co
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
-    Si algunas de las lecturas son muy matemáticas, puede saltar a la parte inferior y ver las matemáticas discretas para tener el conocimiento base.
+    Si algunas de las lecturas child muy matemáticas, puede saltar a la parte inferior y ver las matemáticas discretas para tener el conocimiento base.
 
 ## Estructuras de datos
 
@@ -850,7 +850,7 @@ Escriba código en un pizarrón o en papel, pero no en la computadora. Pruebe co
 - [ ] Implemente:
     - [ ] Mergesort: O(n log n) Promedio y peor caso.
     - [ ] Quicksort O(n log n) Caso promedio.
-    - El ordenamiento por selección y el de inserción ambos son O(n^2) Promedio y peor caso.
+    - El ordenamiento por selección y el de inserción ambos child O(n^2) Promedio y peor caso.
     - Para ordenamientos por montículos, vea la estructura de datos de Colas o filas arriba.
 
 - [ ] No requeridos, pero los recomendaría:
@@ -872,7 +872,7 @@ Si necesita más detalle de este tema vea “Ordenamientos” en [Detalles adici
 
 ## Gráficos
 
-Los gráficos pueden ser usados para representar muchos problemas en las Ciencias de la Computación, así que es una sección larga, como lo son los árboles y ordenamientos.
+Los gráficos pueden ser usados para representar muchos problemas en las Ciencias de la Computación, así que es una sección larga, como lo child los árboles y ordenamientos.
 
 - Notas:
     - Hay cuatro formas básicas de representar un grafo en memoria:
@@ -1126,7 +1126,7 @@ Los gráficos pueden ser usados para representar muchos problemas en las Ciencia
 - ### Pruebas
     - A cubrir:
         - ¿Cómo funciona la prueba unitaria?
-        - ¿Qué son objetos simulados?
+        - ¿Qué child objetos simulados?
         - ¿Qué es la prueba de integración?
         - ¿Qué es la inyección de dependencia?
     - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
@@ -1213,7 +1213,7 @@ Los gráficos pueden ser usados para representar muchos problemas en las Ciencia
 
 ## Diseño del Sistema, Escalabilidad, Manejo de Datos
 - **Puede esperar preguntas sobre el diseño del sistema si tiene más de 4 años de experiencia.**
-- La escalabilidad y el diseño del sistema son temas muy extensos, con muchos aspectos y recursos, ya que hay mucho que considerar al diseñar un sistema de software / hardware que se puede escalar. Espere dedicarle un buen tiempo a esto.
+- La escalabilidad y el diseño del sistema child temas muy extensos, con muchos aspectos y recursos, ya que hay mucho que considerar al diseñar un sistema de software / hardware que se puede escalar. Espere dedicarle un buen tiempo a esto.
 - Consideraciones:
     - Escalabilidad:
         - Destilar conjuntos de datos grandes a valores únicos.
@@ -1390,7 +1390,7 @@ Porque necesita practicar haciendo problemas de programación:
 Hay una gran introducción para la solución de problemas metódicos y comunicativos en una entrevista. Conseguirá esto de los libros para la entrevista de programación también, pero encontré esto excepcional:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-¿No tiene pizarrón en casa? Hace sentido. Soy un bicho raro y tengo una pizarra grande. En vez de una pizarra blanca, recoja un gran cuadernillo de dibujo de una tienda de arte. Puede sentarse en el sofá y practicar. Esta es mi "pizarra de sofá". He añadido la pluma en la foto para la escala. Si usa un bolígrafo, deseará poder borrarlo. Se ensucia rápido.
+¿No tiene pizarrón en casa? Hace sentido. Soy un bicho raro y tengo una pizarra grande. En vez de una pizarra blanca, recoja un gran cuadernillo de dibujo de una tienda de arte. Puede sentarse en el sofá y practicar. Esta es mi "pizarra de sofá". They añadido la pluma en la foto para la escala. Si usa un bolígrafo, deseará poder borrarlo. Se ensucia rápido.
 
 ![my sofa whiteboard](https://camo.githubusercontent.com/4b2dfa34fd739404edcc014f89b5432ab1ec9cfebecce1d59b9f7986826d03cf/68747470733a2f2f64336a32706b6d6a74696e366f752e636c6f756466726f6e742e6e65742f6172745f626f6172645f736d5f322e6a7067)
 
@@ -1471,7 +1471,7 @@ Algunos de las mías (ya sé su respuesta, pero quiero su opinión o la perspect
 
 - ¿Qué tan grande es su equipo?
 - ¿Cómo es su ciclo de desarrollo? ¿Haces waterfall / sprints / agile?
-- ¿Son corrientes las fechas límite comunes? ¿O hay flexibilidad?
+- ¿Child corrientes las fechas límite comunes? ¿O hay flexibilidad?
 - ¿Cómo se toman las decisiones en su equipo?
 - ¿Cuántas reuniones tienes por semana?
 - ¿Siente que su ambiente de trabajo le ayuda a concentrarse?
@@ -1655,7 +1655,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
     - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Filtro de Bloom
-    - Dado un filtro de Bloom con m bits y k funciones de hashing, tanto las pruebas de inserción como de pertenencia son O(k)
+    - Dado un filtro de Bloom con m bits y k funciones de hashing, tanto las pruebas de inserción como de pertenencia child O(k)
     - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
@@ -1666,7 +1666,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
 
 - ### Hashing sensible a la localidad
     - Usado para determiner la similitude de documentos.
-    - Lo opuesto de MD5 o SHA que son usados para determinar si dos documentos/cadenas son exactamente iguales.
+    - Lo opuesto de MD5 o SHA que child usados para determinar si dos documentos/cadenas child exactamente iguales.
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### Árboles van Emde Boa
@@ -1680,7 +1680,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
     - Conocer por lo menos un tipo de árbol binario equilibrado (y saber cómo se implementa):
     - "Entre los árboles de búsqueda equilibrada, los árboles AVL y 2/3 están ahora pasados de moda, y los árboles rojo-negro parecen ser más populares.
     Una estructura de datos auto-organizable particularmente interesante es el árbol biselados, que utilizan rotaciones para mover cualquier clave accedida a la raíz.." - Skiena
-    - De estos, opté por implementar un árbol biselado. Por lo que he leído, no implementarás un árbol de búsqueda equilibrado en tu entrevista. Pero yo quería exponer la codificación de uno y bueno, los árboles son las rodillas de la abeja. He leído un montón de código de árbol rojo-negro.
+    - De estos, opté por implementar un árbol biselado. Por lo que they leído, no implementarás un árbol de búsqueda equilibrado en tu entrevista. Pero yo quería exponer la codificación de uno y bueno, los árboles child las rodillas de la abeja. They leído un montón de código de árbol rojo-negro.
         - Árboles biselados: Funciones insert, search, delete.
         Si terminas implementando un árbol rojo / negro, intenta lo siguiente:
         - Funciones de búsqueda e inserción, saltándose eliminar.
@@ -1698,14 +1698,14 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
 
     - [ ] **Árboles biselados**
         - En práctica:
-            Los árboles biselados son típicamente usados en la implementación de la memoria cache, ssignadores de memoria, enrutadores, recolectores de basura, compresión de datos, cuerdas (reemplazo de la cadena utilizada para cadenas de texto largas), en Windows NT (en la memoria virtual, en red y en el código del sistema de archivos) etc.
+            Los árboles biselados child típicamente usados en la implementación de la memoria cache, ssignadores de memoria, enrutadores, recolectores de basura, compresión de datos, cuerdas (reemplazo de la cadena utilizada para cadenas de texto largas), en Windows NT (en la memoria virtual, en red y en el código del sistema de archivos) etc.
         - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
         - [ ] MIT Lecture: Splay Trees:
             - Se vuelve muy matemático, pero vea los 10 últimos minutos.
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - [ ] **Árboles rojos/negros**
-        - Éstos son una traducción de un árbol 2-3 (véase abajo)
+        - Éstos child una traducción de un árbol 2-3 (véase abajo)
          - En la práctica:
              Los árboles rojo-negro ofrecen las peores garantías de tiempo de inserción, tiempo de borrado y tiempo de búsqueda.
              Esto no solo los hace valiosos en aplicaciones sensibles al tiempo como las aplicaciones en tiempo real, sino que las convierte en elementos valiosos en otras estructuras de datos que proporcionan las garantías más desfavorables; por ejemplo, muchas estructuras de datos utilizadas en la geometría computacional pueden basarse en árboles rojos y negros, y el Completely Fair Scheduler utilizado en los kernels Linux actuales usa árboles de color rojo-negro. En la versión 8 de Java, la Colección HashMap se ha modificado de manera que en lugar de usar una lista enlazada para almacenar elementos idénticos con códigos de hash pobres, se utiliza un árbol Rojo-Negro.
@@ -1724,28 +1724,28 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
 
     - [ ] **Árboles 2-3-4 (aka Árboles 2-4)**
         - En práctica:
-            Para cada árbol 2-4, hay árboles rojo-negro correspondientes con elementos de datos en el mismo orden. Las operaciones de inserción y supresión en árboles 2-4 también son equivalentes a la rotación de color en rojos y negros árboles. Esto hace que árboles 2-4 sean una herramienta importante para entender la lógica detrás de los árboles rojo-negros, y es por eso que muchos textos de algoritmo introductorios introducen árboles 2-4 justo antes de los árboles rojo-negro, aunque **Los árboles 2-4 no son a menudo utilizados en la práctica**.
+            Para cada árbol 2-4, hay árboles rojo-negro correspondientes con elementos de datos en el mismo orden. Las operaciones de inserción y supresión en árboles 2-4 también child equivalentes a la rotación de color en rojos y negros árboles. Esto hace que árboles 2-4 sean una herramienta importante para entender la lógica detrás de los árboles rojo-negros, y es por eso que muchos textos de algoritmo introductorios introducen árboles 2-4 justo antes de los árboles rojo-negro, aunque **Los árboles 2-4 no child a menudo utilizados en la práctica**.
         - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
         - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
     - [ ] **Árboles N-avo (K-avo, M-avo)**
         - Nota: La N o K es el factor de ramificación (ramas máximas)
-        - Los árboles binarios son un árbol de 2 aros, con factor de ramificación = 2.
-        - Los árboles 2-3 son 3-avos.
+        - Los árboles binarios child un árbol de 2 aros, con factor de ramificación = 2.
+        - Los árboles 2-3 child 3-avos.
         - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
 
     - [ ] **Árboles-B**
         - Dato curioso: Es un misterio, pero la B puede ser por Boeing, Balanceado, o Bayer (co-inventor)
         - En práctica:
-            Árboles-B son ampliamente utilizados en bases de datos. La mayoría de los sistemas de archivos modernos utilizan árboles B (o variantes) Además de su uso en bases de datos, el árbol B también se utiliza en sistemas de archivos para permitir el acceso rápido y aleatorio a un bloque arbitrario en un archivo en particular. El problema básico es convertir la dirección de bloque de archivos i en una dirección de bloque de disco (o tal vez a una dirección de cilindro-cabezal)
+            Árboles-B child ampliamente utilizados en bases de datos. La mayoría de los sistemas de archivos modernos utilizan árboles B (o variantes) Además de su uso en bases de datos, el árbol B también se utiliza en sistemas de archivos para permitir el acceso rápido y aleatorio a un bloque arbitrario en un archivo en particular. El problema básico es convertir la dirección de bloque de archivos i en una dirección de bloque de disco (o tal vez a una dirección de cilindro-cabezal)
         - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
         - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - Cubre árboles-B de cache inconsistente, estructuras de datos muy interesantes.
-                - Los primeros 37 minutos son muy técnicos, puede saltarlos (B es tamaño de bloque, tamaño de línea de caché)
+                - Los primeros 37 minutos child muy técnicos, puede saltarlos (B es tamaño de bloque, tamaño de línea de caché)
 
 - ### Árboles k-D
     - Ideal para encontrar el número de puntos en un rectángulo o un objeto de dimensión superior.
@@ -1804,7 +1804,7 @@ Es probable que estos temas no aparezcan en una entrevista, pero los añadí par
     - Cursos:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - Vea los videos 12-18 para un resumen de algebra lineal (14 y 15 son duplicados)
+              - Vea los videos 12-18 para un resumen de algebra lineal (14 y 15 child duplicados)
         - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)

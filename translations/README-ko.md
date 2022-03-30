@@ -1485,12 +1485,12 @@ Challenge repos:
     - class textbook on data structures and algorithms
       - pros:
         - is a good review as any algorithms textbook would be
-        - nice stories from his experiences solving problems in industry and academia
+        - nice stories from theirs experiences solving problems in industry and academia
         - code examples in C
       - cons:
         - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
         - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-        - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
+        - don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material.
     - algorithm catalog:
       - this is the real reason you buy this book.
       - about to get to this part. Will update here once I've made my way through it.

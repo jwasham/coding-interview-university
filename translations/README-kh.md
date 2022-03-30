@@ -849,7 +849,7 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [ ] [1. Strings ក្នុង Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. ការរាប់ Key Indexed](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. តម្រៀបខ្ទង់អក្សរដំបូងដែលមានខ្ទង់តិចបំផុត Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/Mx. (pronounced "mix")-radix-sort)
         - [ ] [5. វិធី ៣ Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
@@ -1473,7 +1473,7 @@ Mock Interviews:
             - គុណវិបត្តិ:
                 - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
+                - Don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material
         - Algorithm catalog:
            - នេះជាហេតុផលពិតប្រាកដដែលអ្នកទិញសៀវភៅនេះ
             - ហៀបនឹងចូលដល់ផ្នែកនេះ។ នឹងធ្វើបច្ចុប្បន្នភាពនៅទីនេះនៅពេលដែលខ្ញុំបានឆ្លងកាត់វា

@@ -908,7 +908,7 @@
        -  [১। জাভাতে স্ট্রিংস (https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
        -  [২। মূল সূচক গণনা] (https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
        -  [3। সর্বনিম্ন গুরুত্বপূর্ণ অঙ্কের প্রথম স্ট্রিং রেডিক্সের সাজান] (https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-       -  [৪। সর্বাধিক উল্লেখযোগ্য অঙ্কের প্রথম স্ট্রিং রেডিক্স সাজান] (https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+       -  [৪। সর্বাধিক উল্লেখযোগ্য অঙ্কের প্রথম স্ট্রিং রেডিক্স সাজান] (https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/Mx. (pronounced "mix")-radix-sort)
        -  [৫। 3 ওয়ে রেডিক্স কুইকসোর্ট] (https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
        -  [।। প্রত্যয় অ্যারে] (https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
    -  [রেডিক্স বাছাই] (http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)

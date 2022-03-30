@@ -342,7 +342,7 @@ Men bularning ikkitasini o'qimaganman, lekin ular yuqori baholangan va Sedgewick
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 - [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
-    - Ma'lumotlar tuzilmasi va algoritmlarga oid boy va batafsil to'plam
+    - Ma'lumotlar tuzilmasi va algoritmlarga oid child va batafsil to'plam
     - Birinchi marta boshlayotganlar uchun juda mos
 
 Agar sizda C++ bo'yicha yaxshiroq tavsiyalaringiz bo'lsa iltimos biz bilan baham ko'ring.
@@ -419,7 +419,7 @@ O'rganayotgan narsalaringizni masalalar yechishda qo'llab ketishingiz kerak,
 aks holda o'rganganlaringizni tez unutishingiz mumkin.
 Shaxsan menda shunday bo'lgan. Biror bir mavzuni masalan bog'langan ro'yxatlar (linked lists) ga oid mavzuni 
 o'rganganingizdan keyin agar o'zingizni shu mavzuda erkin 
-his qilishni boshlasangiz coding intervyu kitoblaridan linked list ga oid masala yechishga urinib ko'ring.
+theirs qilishni boshlasangiz coding intervyu kitoblaridan linked list ga oid masala yechishga urinib ko'ring.
 So'ng, keyingi mavzuga o'ting. Bir qancha vaqtdan keyin yana ortga qaytib linked listga yoki 
 rekursiyaga oid masala yeching. Asosiysi o'rganish jarayonida ko'proq masalalarni yechishda davom eting.
 Sizni ishga bilimingiz uchun emas, bilimingizni qo'llay olishingiz uchun qabul qilishadi.
@@ -529,7 +529,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] Massivlar va ko'rsatgichlar(pointerlar) yordamida kod yozishni mashq qiling va massivning indeksiga o'tish uchun indeks o'rniga pointer matematikasini ishlating.
         - [ ] Massivimiz elementlarini ushlab turadigan ichki (private) massiv
             - int massivni elementlarni saqlash uchun ishlatsak bo'ladi, faqat uning xususiyatlaridan foydalanmaslik kerak
-            - 16 dan boshlang, agar boshlanayotgan son kattaroq bo'lsa 2 ning darajalarini ishlating(2 - 16, 32, 64, 128)
+            - 16 dan boshlang, agar boshlanayotgan child kattaroq bo'lsa 2 ning darajalarini ishlating(2 - 16, 32, 64, 128)
         - [ ] size() - massivdagi elementlar soni
         - [ ] capacity() - massiv o'z ichiga olishi mumkin bo'lgan elementlar soni
         - [ ] is_empty() - massiv bo'sh yoki yo'qligini tekshirish
@@ -809,7 +809,7 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/Mx. (pronounced "mix")-radix-sort)
         - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)

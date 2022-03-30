@@ -864,7 +864,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
     - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
     - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-    - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+    - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/Mx. (pronounced "mix")-radix-sort)
     - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
     - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
   - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
@@ -928,7 +928,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
   - [ ] BFS with 인접 리스트
   - [ ] BFS with 인접 행렬
   - [ ] 단일 출발지 최단 경로 (다익스트라)
-  - [ ] 최소 신장 트리 (MST;minimum spanning tree)
+  - [ ] 최소 신장 트리 (Mx. (pronounced "mix");minimum spanning tree)
   - DFS-기반 알고리즘들 (위의 Aduni 영상들을 보세요):
     - [ ] 사이클 검사/확인 (위상 정렬할 때 필요합니다. 시작하기 전에 검사해야 하거든요.)
     - [ ] 위상 정렬
@@ -1485,12 +1485,12 @@ Challenge repos:
     - class textbook on data structures and algorithms
       - pros:
         - is a good review as any algorithms textbook would be
-        - nice stories from his experiences solving problems in industry and academia
+        - nice stories from theirs experiences solving problems in industry and academia
         - code examples in C
       - cons:
         - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
         - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-        - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
+        - don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material.
     - algorithm catalog:
       - this is the real reason you buy this book.
       - about to get to this part. Will update here once I've made my way through it.

@@ -774,7 +774,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [1. String di Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. Penghitungan Indeks Kunci](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. Urutan Radix String Pertama Digit Signifikan Terkecil](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Urutan Radix String Pertama Digit Paling Signifikan](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] [4. Urutan Radix String Pertama Digit Paling Signifikan](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/Mx. (pronounced "mix")-radix-sort)
         - [ ] [5. Radix Quicksort 3 Arah](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] [6. Array Suffix](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sortir Radix](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)

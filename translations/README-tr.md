@@ -3,7 +3,7 @@
 > Aslında bunu yazılım mühendisi olabilmek için kısa bir yapılacaklar listesi olarak hazırladım,
 > ama bugün gördüğünüz büyük listeye dönüştü. Bu çalışma planını tamamladıktan sonra, [Amazon tarafından
 > Yazılım Geliştirme Mühendisi olarak işe alındım.](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> Muhtemelen yaptığım kadar çok çalışmanıza gerek kalmayacaktır. Her neyse, ihtiyaç duyabileceğiniz her şey burada.
+> Muhtemelen yaptığım kadar çok çalışmanıza gerek kalmayacaktır. them neyse, ihtiyaç duyabileceğiniz them şey burada.
 >
 > Birkaç ay boyunca günde 8 - 12 saat çalıştım. İşte benim hikayem: [Neden bir Google mülakatı için 8 ay boyunca tam zamanlı çalıştım?](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
@@ -228,7 +228,7 @@ Eğer güvenlik ya da operasyon mühendisi olmak istiyorsanız, opsiyonel listed
 
 Bu projeye başladığımda, Stack ya da heap farkını bilmiyordum, Big-O notasyonu hakkında bir şey bilmiyordum, ağaçlar hakkında bir şey 
 bilmiyordum, ya da bir graf nasıl dolaşılır bilmiyordum. Bir sıralama algoritması kodlamış olsaydım, iyi olmayacağını size 
-söyleyebilirdim. Kullandığım her veri yapısı dilin içinde hazır bulunmaktaydı, kaputun altında nasıl çalıştıklarını bilmiyordum. 
+söyleyebilirdim. Kullandığım them veri yapısı dilin içinde hazır bulunmaktaydı, kaputun altında nasıl çalıştıklarını bilmiyordum. 
 Çalışmakta olduğum bir proses, "bellek yetersiz" uyarısı verene kadar herhangi bir bellek yönetimi yapmamıştım ve buna bir geçici çözüm
 buldum. Hayatımda bir kaç sefer çok boyutlu dizileri kullandım ve binlerce birleştirici dizileri kullandım, ama hiç bir zaman sıfırdan
 bir veri yapısı oluşturmadım.
@@ -237,7 +237,7 @@ Bu uzun bir plan. Aylar sürebilir. Eğer bunlara aşinaysanız, daha az zamanı
 
 ## Nasıl Kullanılır
 
-Aşağıdaki her şey bir ana hattır, ve yukarıdan aşağıya doğru öğeleri ele almalısınız.
+Aşağıdaki them şey bir ana hattır, ve yukarıdan aşağıya doğru öğeleri ele almalısınız.
 
 İlerlemeyi izlemek için görev listeleri de dahil olmak üzere GitHub'ın özel işaretleme özelliğini kullanıyorum.
 
@@ -285,7 +285,7 @@ Github repositorysini https://github.com/jwasham/coding-interview-university For
 Bazı videolar Coursera ya da EdX sınıflarına dahil olduğunuzda ulaşılabilmektedir. Bunlar MOOC'lar olarak adlandırılır.
 Bazı kurslar aktif olmayabilirler, bir kaç ay beklemeniz gerekebilir, erişiminiz olmaz.
 
-    Ücretsiz ve her zaman ulaşılabilir kaynaklar eklerseniz memnun olurum, YouTube videoları gibi çevrimiçi kurs videolarına eşlik edebilirsiniz.
+    Ücretsiz ve them zaman ulaşılabilir kaynaklar eklerseniz memnun olurum, YouTube videoları gibi çevrimiçi kurs videolarına eşlik edebilirsiniz.
     Üniversite derslerini kullanmayı severim.
 
 
@@ -365,7 +365,7 @@ Birini seçin:
 
 ### Spesifik Dil
 
-**Mülakat için bir dil seçmeniz gerekir (alta bakın).** Dile göre önerilerim burada. Her dil için kaynaklara sahip değilim. İlaveleri memnuniyetle karşılarım.
+**Mülakat için bir dil seçmeniz gerekir (alta bakın).** Dile göre önerilerim burada. them dil için kaynaklara sahip değilim. İlaveleri memnuniyetle karşılarım.
 
 Eğer bunlardan birini okursanız, kodlama problemlerini yapmaya başlamanız için gereken tüm veri yapılarına ve algoritma bilgisine sahip olmanız gerekir.
 İnceleme yapmak istemiyorsanız **bu projedeki bütün video derslerini atlayabilirsiniz**
@@ -402,7 +402,7 @@ YA DA:
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - Goodrich, Tamassia, Goldwasser tarafından
-    - Bu kitabı seviyorum. Her şeyi ve daha fazlasını kapsıyor.
+    - Bu kitabı seviyorum. them şeyi ve daha fazlasını kapsıyor.
     - Pythonic kod
     - kitap raporum: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 - [ ] [Open Data Structures in Python](https://opendatastructures.org/ods-python.pdf)
@@ -426,7 +426,7 @@ A course recommended to me (haven't taken it): [Learning how to Learn](https://w
 ### 2. Flashcard Kullanın
 
 Problemi çözmek için, genel ve kod olmak üzere 2 tür flashcard ekleyebildiğim küçük bir flashcard sitesi hazırladım.
-Her kart farklı bir formata sahip.
+them kart farklı bir formata sahip.
 
 Nerede olursam olayım, telefonumdan ve tabletimden inceleyebilmek için bir mobil web sitesi hazırladım.
 
@@ -451,7 +451,7 @@ Benim flashcard veritabanımın Anki formatı: https://ankiweb.net/shared/info/2
 Öğrendiklerinizi sorunları çözmek için uygulamanız gerekir, yoksa unutacaksınız. Bu hatayı yaptım. Bir konuyu öğrendikten sonra,
 ve o konu üzerinde kendinizi rahat hissettikten sonra (örneğin bağlantılı listeler), kodlama mülakatı kitaplarından birini açın ve bununla ilgili birkaç soru yapın.
 Ardından bir sonraki konuya geçin. Daha sonra geri dönün ve başka bir bağlantılı liste problemi yapın,
-ya da özyineleme sorunu ya da her neyse. Ama öğrenirken problemler yapmaya devam edin. Bilgi için işe alınmıyorsun,
+ya da özyineleme sorunu ya da them neyse. Ama öğrenirken problemler yapmaya devam edin. Bilgi için işe alınmıyorsun,
 bilgiyi nasıl kullandığından işe alınıyorsun. Önerdiğim birkaç kitap ve site var.
 Daha fazlası için buraya bakın: [Kodlama Soruları Pratiği](#coding-question-practice).
 
@@ -477,7 +477,7 @@ Bunlar yaygın teknolojilerdir ancak bu çalışma planının bir parçası değ
 
 Bazı konular bir gün alır, ve bazıları birkaç gün sürer. Bazıları sadece öğrenilir, kullanılmaz.
 
-Her gün aşağıdaki listeden bir konu alıyorum, bu konuyla ilgili videolar izliyorum, ve implemente ediyorum:
+them gün aşağıdaki listeden bir konu alıyorum, bu konuyla ilgili videolar izliyorum, ve implemente ediyorum:
 - C - struct * ve argüman olarak başka şeyler alan struct ve fonksiyonları kullanarak
 - C++ - yerleşik türleri kullanmadan
 - C++ - yerleşik türleri kullanarak, bağlı liste için STL'in std::list gibi
@@ -492,21 +492,21 @@ Neden bunların hepsinde kod var?
 - Ham kısıtlamalar ile çalışın (Çöp toplayıcı yardımı olmadan belleği ayırma / boşaltma (Python ya da Java hariç))
 - Yerleşik türlerden faydalanarak, yerleşik araçları gerçek dünya kullanımında tecrübe edindim. (kendi bağlı liste uygulamamı production'da kullanmayacağım.)
 
-Her konu için bunları yapmaya vaktim olmayabilir, ama deneyeceğim.
+them konu için bunları yapmaya vaktim olmayabilir, ama deneyeceğim.
 
 Kodumu buradan görebilirsiniz:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-Her algoritmanın püf noktalarını ezberlemenize gerek yok.
+them algoritmanın püf noktalarını ezberlemenize gerek yok.
 
 Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdileri test edin. Sonra bilgisayar dışında test edin.
 
 ## Önkoşul Bilgisi
 
 - [ ] **C Öğren**
-    - C her yerde. Çalışırken kitaplarda, derslerde, videolarda, kısaca *her yerde* örnekler göreceksin.
+    - C them yerde. Çalışırken kitaplarda, derslerde, videolarda, kısaca *them yerde* örnekler göreceksin.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - Bu kısa kitap C dili üzerinde büyük bir ipucu verir, ve biraz pratik yaparsanız hızlı bir şekilde yetkinleşebilirsiniz. C'yi anlarsanız programların ve belleğin nasıl çalıştığını anlarsınız.
         - [Sorulara cevap verin](https://github.com/lekkas/c-algorithms)
@@ -520,7 +520,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 
 ## Algoritma karmaşıklığı / Big-O / Asimptotik analiz
 - uygulanacak bir şey değil
-- Burada bir sürü video var. Anlayana kadar videoları izle. Her zaman geri gelip tekrar inceleyebilirsin
+- Burada bir sürü video var. Anlayana kadar videoları izle. them zaman geri gelip tekrar inceleyebilirsin
 - Eğer çok matematiksel geliyorsa aşağıya inip ayrık matematik videolarına bakabilirsin
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -599,7 +599,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
         - [ ] push_back(value) - listenin sonuna öğe ekler
         - [ ] pop_back() - listenin sonundaki öğeyi kaldırır ve içeriğini return eder
         - [ ] front() - ilk öğenin içeriğini verir
-        - [ ] back() - son öğenin içeriğini verir
+        - [ ] back() - child öğenin içeriğini verir
         - [ ] insert(index, value) - indexe yeni öğe ekler, geçerli öğenin indexi, yeni eklenen indexi gösterir
         - [ ] erase(index) - verilen indexteki düğümü siler
         - [ ] value_n_from_end(n) - listenin sonundan başlayarak n. pozisyondaki öğenin içeriğini verir
@@ -618,16 +618,16 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] Bağlı listeyle birlikte kuyruk işaretçisi kullanarak uygulayın:
         - enqueue(value) - kuyruktaki pozisyona değer ekler
-        - dequeue() - değeri döndürür ve en son eklenen elemanı kaldırır (ön)
+        - dequeue() - değeri döndürür ve en child eklenen elemanı kaldırır (ön)
         - empty()
     - [ ] Sabit boyutlu dizi kullanarak uygulayın:
         - enqueue(value) - müsait saklama alanının sonuna öğe ekler 
-        - dequeue() - değeri döndürür ve en son eklenen elemanı kaldırır 
+        - dequeue() - değeri döndürür ve en child eklenen elemanı kaldırır 
         - empty()
         - full()
     - [ ] Maliyet:
         - bağlı liste kullanılarak yapılan kötü bir uygulamada enqueue ve dequeue işlemleri O(n) zaman alır
-            çünkü son öğenin devamına ihtiyacınız var, bu durum da her dizinin dolanmasına neden olur.
+            çünkü child öğenin devamına ihtiyacınız var, bu durum da them dizinin dolanmasına neden olur.
         - enqueue: O(1) (amorti, bağlı liste ve dizi [sondalama])
         - dequeue: O(1) (bağlı liste ve dizi)
         - empty: O(1) (bağlı liste ve dizi)
@@ -778,7 +778,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 ## Sıralama
 
 - [ ] Notlar:
-    - Sıralamaları implemente et & en iyi/en kötü durumu, her birinin ortalama karmaşıklığını bil:
+    - Sıralamaları implemente et & en iyi/en kötü durumu, them birinin ortalama karmaşıklığını bil:
         - bubble sort olmaz - çok kötü - O(n^2), n <= 16 hariç
     - [ ] Sıralama Algoritmalarında Stabilite ("Quicksort stabil mi?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
@@ -830,7 +830,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 - [ ] Uygulama:
     - [ ] Mergesort: O(n log n) ortalama ve en kötü durum
     - [ ] Quicksort O(n log n) ortalama durum
-    - Selection sort ve insertion sort her ikisi de O(n^2) ortalama ve en kötü durum
+    - Selection sort ve insertion sort them ikisi de O(n^2) ortalama ve en kötü durum
     - Heapsort için, yukarıdaki Heap veri yapısına bakın.
 
 - [ ] Gerekli değil, fakat tavsiye ediyorum:
@@ -838,7 +838,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/Mx. (pronounced "mix")-radix-sort)
         - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
@@ -860,7 +860,7 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
         - bitişiklik matrisi
         - bitişik liste
         - bitişik map
-    - Her temsilciliği ve artılarını - eksilerini tanıyın.
+    - them temsilciliği ve artılarını - eksilerini tanıyın.
     - BFS ve DFS - hesaplama karmaşıklığını bilin, ödün vermelerini verin, gerçek kod uygulamasını bilin.
     - Bir soru sorulduğunda önce graf tabanlı bir çözüm arayın, eğer yoksa devam edin.
 
@@ -925,10 +925,10 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
 
 - ### Dinamik Programlama
     - Mülakatınızda muhtemelen herhangi bir dinamik programlama sorusu görmeyeceksiniz, ancak bir soruyu dinamik programlama adayı olarak tanımaya değer.
-    - Bu konu oldukça zor olabilir, her DP çözülebilir problemin bir rekürsif ilişkisi olarak tanımlanması gerektiği için bununla baş etmek zor olabilir.
+    - Bu konu oldukça zor olabilir, them DP çözülebilir problemin bir rekürsif ilişkisi olarak tanımlanması gerektiği için bununla baş etmek zor olabilir.
     - Size tavsiyem ilgili model hakkında sağlam bir anlayış elde edene kadar, DP sorunlarının pek çok örneğini incelemenizi öneririm.
     - [ ] Videolar:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
+        - the Skiena videos can be hard to follow since they sometimes uses the whiteboard, which is too small to see
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -1458,12 +1458,12 @@ You're never really done.
         - Class textbook on data structures and algorithms
             - Pros:
                 - Is a good review as any algorithms textbook would be
-                - Nice stories from his experiences solving problems in industry and academia
+                - Nice stories from theirs experiences solving problems in industry and academia
                 - Code examples in C
             - Cons:
                 - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
+                - Don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material
         - Algorithm catalog:
             - This is the real reason you buy this book
             - About to get to this part. Will update here once I've made my way through it

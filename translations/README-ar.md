@@ -366,7 +366,7 @@ You'll see some C, C++, and Python learning included below, because I'm learning
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+I haven't read these two, but they are highly rated and written by Sedgewick. They's awesome.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
@@ -919,7 +919,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
+        - the Skiena videos can be hard to follow since they sometimes uses the whiteboard, which is too small to see
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -1453,12 +1453,12 @@ You're never really done.
         - Class textbook on data structures and algorithms
             - Pros:
                 - Is a good review as any algorithms textbook would be
-                - Nice stories from his experiences solving problems in industry and academia
+                - Nice stories from theirs experiences solving problems in industry and academia
                 - Code examples in C
             - Cons:
                 - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
+                - Don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material
         - Algorithm catalog:
             - This is the real reason you buy this book
             - About to get to this part. Will update here once I've made my way through it

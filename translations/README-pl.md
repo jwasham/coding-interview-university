@@ -909,7 +909,7 @@ Grafy mogą być wykorzystane do przedstawienia wielu problemów w informatyce, 
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
+        - the Skiena videos can be hard to follow since they sometimes uses the whiteboard, which is too small to see
         - [ ] [Skiena: CSE373 2012 - Wykład 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Wykład 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Wykład 21 - Dynamic Programming Examples (wideo)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -1440,12 +1440,12 @@ Tak na prawdę nigdy nie skończyłeś.
         - class textbook on data structures and algorithms
             - plusy:
                 - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
+                - nice stories from theirs experiences solving problems in industry and academia
                 - code examples in C
             - minusy:
                 - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
+                - don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material.
         - algorithm catalog:
             - this is the real reason you buy this book.
             - about to get to this part. Will update here once I've made my way through it.

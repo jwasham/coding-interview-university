@@ -1335,12 +1335,12 @@ You're never really done.
         - Class textbook on data structures and algorithms
             - Pros:
                 - Is a good review as any algorithms textbook would be
-                - Nice stories from his experiences solving problems in industry and academia
+                - Nice stories from theirs experiences solving problems in industry and academia
                 - Code examples in C
             - Cons:
                 - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
                 - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
+                - Don't get me wrong: I like Skiena, theirs teaching style, and mannerisms, but I may not be Stony Brook material
         - Algorithm catalog:
             - This is the real reason you buy this book.
             - This book is better as an algorithm reference, and not something you read cover to cover.

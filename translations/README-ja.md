@@ -1753,7 +1753,6 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [GoogleのDeep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
 		- [Google / Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
 		- [自己運転車技術者Nanodegree](https://www.udacity.com/drive)
-		- [Metis Online Course(2ヶ月間99ドル)](http://www.thisismetis.com/explore-data-science)
 	- リソース：
 		- 書籍：
 			- [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)

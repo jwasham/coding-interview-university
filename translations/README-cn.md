@@ -1700,7 +1700,6 @@
         - [Google 深度学习微学位](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle 机器学习工程师微学位](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [无人驾驶工程师微学位](https://www.udacity.com/drive)
-        - [Metis 在线课程 (两个月 99 美元)](http://www.thisismetis.com/explore-data-science)
     - 资源:
         - 书籍：
             - [Python 机器学习](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)

@@ -1624,7 +1624,6 @@ Take coding challenges every day, as many as you can.
         - [ ] [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [ ] [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [ ] [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [ ] [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
     - Resources:
         - Great book: Data Science from Scratch: First Principles with Python: https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X
         - Data School: http://www.dataschool.io/

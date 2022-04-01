@@ -1788,7 +1788,6 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730) (Nanodegree de Aprendizagem Profunda da Google)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009) (Nanodegree de Engenheiro de Aprendizado de Máquina da Google/Kaggle)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive) (Nanodegree de Engenheiro de Carro Autônomo)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science) (Curso Online do Metis - US$99 por 2 meses)
     - Recursos:
         - Livros:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/) (Aprendizado de Máquina em Python)

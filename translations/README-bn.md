@@ -593,12 +593,8 @@
    -  বিবরণ:
        -[অ্যারে (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন //sBSF/arrays)
        -[ইউসি বার্কলে সিএস 61 বি-লিনিয়ার এবং মাল্টি-ডিম অ্যারে (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (15m 32s থেকে দেখা শুরু করুন)
-       -[বেসিক অ্যারে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-       -[একাধিক ম্লান (ভিডিও)] (https://archive.org/details/0102What youShouldKnow/02_05-মাল্টিডিমাইশনাল অ্যারাই.এমপি 4)
        -[ডাইনামিক অ্যারে (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
        -[জেগড অ্যারে (ভিডিও)] (https://www.youtube.com/watch?v=1jtrQqYpt7g)
-       -[জেগড অ্যারে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/02_06-জ্যাজডআরাই.আরএম 4)
-       -[পুনরায় আকার দেওয়ার অ্যারে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
    -  একটি ভেক্টর প্রয়োগ করুন (স্বয়ংক্রিয় আকার পুনরায় আকারের সাথে পরিবর্তনীয় অ্যারে):
        -  অ্যারে এবং পয়েন্টার ব্যবহার করে কোডিং অনুশীলন করুন, এবং সূচক ব্যবহারের পরিবর্তে সূচীতে ঝাঁপ দেওয়ার জন্য পয়েন্টার ম্যাথ th
        -  বরাদ্দ মেমরি সহ নতুন কাঁচা ডেটা অ্যারে
@@ -661,14 +657,11 @@
  
 -###স্ট্যাক
    -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-   -  [সর্বশেষে প্রথম-আউট স্ট্যাকগুলি ব্যবহার করে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/05_01-Stacks forLast-inFirst-out.mp4)
    - ] বাস্তবায়ন করবে না। অ্যারের সাথে প্রয়োগ করা তুচ্ছ।
  
 -###কিউ
-   -  [প্রথম সারিতে প্রথম সারিতে ক্যু ব্যবহার করে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
    -  [সারি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/queues-EShpq)
    -  [বিজ্ঞপ্তি বাফার / ফিফো] (https://en.wikedia.org/wiki/Circular_buffer)
-   -  [অগ্রাধিকারের সারি (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnav/05_04-priorityQueuesAndDeques.mp4)
    -  লেজ পয়েন্টার সহ লিঙ্কযুক্ত-তালিকা ব্যবহার করে প্রয়োগ করুন:
        -এনকুই (মান)-লেজের স্থানে মান যোগ করে
        -ডেকিউ ()-মান ফেরত দেয় এবং সর্বশেষে যুক্ত হওয়া উপাদান (সামনে) সরিয়ে দেয়
@@ -695,10 +688,6 @@
        -  [(উন্নত) পারফেক্ট হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEWKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
  
    -  অনলাইন কোর্স:
-       -  [হ্যাশ ফাংশনগুলি বোঝার (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/06_02-বোঝা হ্যাশফুনেশন.এমপি 4)
-       -  [হ্যাশ টেবিলগুলি (ভিডিও) ব্যবহার করে] (https://archive.org/details/0102WhatYouShouldKnow/06_03-USHashTables.mp4)
-       -  [হ্যাশিং (ভিডিও) সমর্থন করে] (https://archive.org/details/0102WhatYouShouldKnow/06_04-SupportingHashing.mp4)
-       -  [ভাষা সমর্থন হ্যাশ টেবিলগুলি (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
        -  [কোর হ্যাশ টেবিল (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
        -  [ডেটা স্ট্রাকচার (ভিডিও)] (https://www.coursera.org/learn/data-structures/home/week/3)
        -  [ফোন বুক সমস্যা (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / NYZZP/ iPhone-book-সমস্যা)
@@ -1429,8 +1418,7 @@
 -[টপকোডারদের জন্য গণিত] (https://www.topcoder.com / সম্প্রদায় / কমপিটিটিভ-প্রোগ্রামিং / টিউটোরিয়ালস / ম্যাথেমেটিক্সের জন্য-ট্যাপকোডার /)
 -[ডায়নামিক প্রোগ্রামিং-নোভাইস থেকে অ্যাডভান্সড] (https://www.topcoder.com/commune/competitive-pogramming/tutorials/dynamic-programming-from-novice-to-advanced/
 -[এমআইটি সাক্ষাত্কার উপকরণ] (https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/matorys.php)
--[প্রদত্ত ভাষায় আরও ভাল হওয়ার জন্য অনুশীলন] (http://exercism.io/languages)
- 
+
 ** প্রোগ্রামিং সমস্যাগুলি পড়ুন এবং করুন (এই ক্রমে): **
  
 -  [প্রোগ্রামিং সাক্ষাত্কার উন্মোচিত: আপনার পরবর্তী কাজ ল্যান্ডিংয়ের গোপনীয়তা, ২ য় সংস্করণ] (http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)

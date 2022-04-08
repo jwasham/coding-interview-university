@@ -145,7 +145,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - Matriz de adyacencia
     - Lista de adyacencia
     - Recorridos: BFS, DFS
-- [Más nformación adicional](#más-información-adicional)
+- [Más información adicional](#más-información-adicional)
     - [Recursión](#recursión)
     - [Programación Dinámica](#programación-dinámica)
     - [Programación Orientada a Objetos](#programación-orientada-a-objetos)

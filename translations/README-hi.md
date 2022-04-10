@@ -1,4 +1,4 @@
-﻿#  कोडिंग साक्षात्कार विश्वविद्यालय
+#  कोडिंग साक्षात्कार विश्वविद्यालय
 >मैने मूल रूप से इसे एक सॉफ़्टवेयर इंजीनियर बनने के लिए अध्ययन विषयों की एक छोटी सी सूची के रूप में बनाया था, लेकिन यह आज एक बड़ी सूची में बढ़ी है। इस अध्ययन योजना के माध्यम से जाने के बाद, [मुझे अमेज़ॅन पर सॉफ़्टवेयर डेवलपमेंट इंजीनियर के रूप में काम पर रखा गया है !](https://startupnextdoor.com/ive-been-acquired-by->amazon/?src=ciu) आपको संभवतः जितना मैंने किया उतना नहीं पढ़ना होगा। वैसे भी, आपको जो भी चाहिए वह यहां है
 >
 >यहां सूचीबद्ध आइटम आपको किसी साफ्टवेयर कंपनी के बारे में साक्षात्कार में अच्छी तरह से तैयार करेंगे, जिनमें दिग्गज, अमेज़ॅन, फेसबुक, गूगल या माइक्रोसॉफ्ट शामिल हैं।
@@ -8,10 +8,10 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>स्पोंसर बने </strong> और कोडिंग इंटरव्यू यूनिवर्सिटी का समर्थन करे!</a>
     </p>
     <p>
-        <strong>Special thanks to:</strong>
+        <strong>इन सब को विशेष धन्यवाद:</strong>
     </p>
     <p>
         <a href="https://oss.capital/">
@@ -19,7 +19,7 @@
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
             </div>
             <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+                <sup><strong>2018 में स्थापित, OSS Capital पहला और एकमात्र उद्यम पूंजी मंच है जो विशेष रूप से <br> प्रारंभिक चरण COSS (वाणिज्यिक ओपन सोर्स) स्टार्टअप संस्थापकों का समर्थन करने पर केंद्रित है।</strong></sup>
             </div>
         </a>
     </p>
@@ -35,7 +35,7 @@
                 </p>
             </div>
             <div>
-                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+                <sup> GitLab, GitHub, और Bitbucket के साथ मूल रूप से एकीकृत, Gitpod स्वचालित रूप से और आपकी सभी शाखाओं के लिए लगातार देव वातावरण का निर्माण करता है। जिसके वजह से टीम के सदस्य प्रत्येक नए कार्य के लिए तुरंत नए देव वातावरण के साथ कोडिंग शुरू कर सकते हैं - चाहे आप कोई नई सुविधा बना रहे हों, बग को ठीक करना चाहते हों, या कोड समीक्षा पर काम करना चाहते हों। </sup>
             </div>
         </a>
     </p>
@@ -93,21 +93,21 @@
 - [और अधिक जानकारी](#even-more-knowledge)
     - [रिकर्शन](#recursion)
     - [डायनामिक प्रोग्रामिंग](#dynamic-programming)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+    - [साहचर्य (Combinatorics) (n choose k) & संभावना](#combinatorics-n-choose-k--probability)
+    - [NP, NP-Complete और सन्निकटन एल्गोरिदम](#np-np-complete-and-approximation-algorithms)
     - [गार्बेज कलेक्शन](#garbage-collection)
-    - [Caches](#caches)
+    - [कैश(Caches)](#caches)
     - [प्रोसेस और थ्रेड](#processes-and-threads)
-    - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
-    - [Papers](#papers)
-    - [Unicode](#unicode)
-    - [Emacs और vi(m)](#emacs-and-vim)
-    - [Unix command line उपकरण](#unix-command-line-tools)
+    - [सिस्टम डिज़ाइन, स्केलेबिलिटी, डेटा हैंडलिंग](#system-design-scalability-data-handling)
+    - [पेपर्स](#papers)
+    - [यूनिकोड](#unicode)
+    - [Emacs और vim](#emacs-and-vim)
+    - [Unix कमांड लाइन उपकरण](#unix-command-line-tools)
     - [परिक्षण](#testing)
-    - [Design patterns](#design-patterns)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
+    - [डिजाइन पैटर्न्स](#design-patterns)
+    - [निर्धारण](#scheduling)
+    - [सिस्टम रूटीन लागू करें](#implement-system-routines)
+    - [स्ट्रिंग खोज और तिकड़म](#string-searching--manipulations)
 - [आखिरी समीक्षा](#final-review)
 - [पुस्तकें](#books)
 - [कोडिंग अभ्यास/चुनौतियाँ](#coding-exerciseschallenges)
@@ -132,16 +132,16 @@
     - [स्किप लिस्ट](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [फास्ट प्रोसेसिंग के लिए गणित](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [ज्यामिति, कॉन्वेक्स हल](#ज्यामिति-कॉन्वेक्स-हल)
-    - [Discrete math](#discrete-math)
-    - [मशीन लर्निंग](#मशीन-लर्निंग)
-    - [गो](#गो)
-- [कुछ विषयो की अधिक जानकारी](#कुछ-विषयोकी-अधिक-जानकारी)
-- [विडियो शृखला](#विडियो-शृखला)
-- [जब आपको नौकरी मिल जाये](#जब-आपको-नौकरी-मिल-जाये)
+    - [लीनियर प्रोग्रामिंग](#linear-programming)
+    - [ज्यामिति, कॉन्वेक्स हल](#geometry-convex-hull)
+    - [डिस्क्रीट मैथ](#discrete-math)
+    - [मशीन लर्निंग](#machine-learning)
+    - [गो](#go)
+- [कुछ विषयो की अधिक जानकारी](#additional-detail-on-some-subjects)
+- [विडियो शृखला](#video-series)
+- [जब आपको नौकरी मिल जाये](#computer-science-courses)
 
 ---
 

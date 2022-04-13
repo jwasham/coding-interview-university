@@ -568,12 +568,8 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
   - [ ] 설명:
     - [배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
     - [UCBerkley CS61B - 선형과 다차원 배열 (영상)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-    - [배열 기본 (영상)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-    - [다차원 배열 (영상)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
     - [동적 배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
     - [가변 배열 (영상)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [가변 배열 (영상)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-    - [배열 리사이징 (영상)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
   - [ ] 벡터 구현하기 (자동 리사이징을 포함한 동적 배열):
     - [ ] 배열, 포인터 및 인덱싱 대신하여 특정 인덱스에 접근하는 포인터 연산을 통한 코딩 연습
     - [ ] 메모리 할당을 포함한 새 배열
@@ -667,10 +663,6 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
   - [ ] 온라인 강의들:
-    - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-    - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-    - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-    - [ ] [Language Support Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
     - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
     - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
     - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -1337,7 +1329,6 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
 - [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
 
 **읽고 프로그래밍 문제 풀기 (순서대로):**
 
@@ -1838,7 +1829,6 @@ Challenge repos:
     - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
     - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
     - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-    - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
   - 자료들:
     - Books:
       - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)

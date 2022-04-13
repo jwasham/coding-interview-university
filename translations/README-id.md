@@ -1244,7 +1244,6 @@ Tambahan:
 - [Matematika untuk Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Pemrograman Dinamis - Dari Pemula hingga Mahir](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [Materi Wawancara MIT](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Latihan untuk menjadi lebih baik pada bahasa tertentu](http://exercism.io/languages)
 
 **Baca dan Lakukan Masalah Pemrograman (dalam urutan ini):**
 

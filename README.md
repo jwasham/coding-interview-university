@@ -255,8 +255,19 @@ It's a long plan. It may take you months. If you are familiar with a lot of this
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
 I'm using GitHub's special markdown flavor, including tasks lists to track progress.
+  - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+### If you don't want to use git
+
+On this page, click the Code button near the top, then click "Download ZIP". Unzip the file and you can work with the text files.
+
+If you're open in a code editor that understands markdown, you'll see everything formatted nicely.
+
+![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
+
+### If you're comfortable with git
+
+Create a new branch so you can check items like this, just put an x in the brackets: [x]
 
     Fork a branch and follow the commands below
 
@@ -276,8 +287,6 @@ Mark all boxes with X after you completed your changes:
     git rebase jwasham/main
     git push --set-upstream origin progress
     git push --force
-
-[More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Don't feel you aren't smart enough
 
@@ -1794,7 +1803,6 @@ You're never really done.
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
     - Resources:
         - Books:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)

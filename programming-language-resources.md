@@ -48,7 +48,6 @@
   - [Data Structures And Algorithms in Python](https://www.youtube.com/watch?v=kQDxmjfkIKY)
 - Java
   - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
-  - [Software Construction In Java (video)](https://www.edx.org/course/software-construction-java-mitx-6-005-1x)
   - [Introduction To Programming In Java](http://introcs.cs.princeton.edu/java/home/)
   - [Algorithms 4th Ed - Algorithm Book In Java](http://algs4.cs.princeton.edu/home/)
   - [Effective Java 3rd Edition](https://www.amazon.com/Effective-Java-Joshua-Bloch-ebook/dp/B078H61SCH)

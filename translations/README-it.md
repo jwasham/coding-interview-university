@@ -237,9 +237,9 @@ software development/ruoli dell'engineering.
 
 ## Perché usarlo?
 
-If you want to work as a software engineer for a large company, these are the things you have to know.
+Se vuoi trovare lavoro come software engineer per una grande azienda, questi sono i concetti che devi sapere.
 
-If you missed out on getting a degree in computer science, like I did, this will catch you up and save four years of your life.
+Se hai perso l'occasione di prendere una laurea in informatica, come io ho fatto, tutto questo ti aiuterà a recuperare 5 anni della tua vita.
 
 When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, or anything about trees, or how to
 traverse a graph. If I had to code a sorting algorithm, I can tell ya it would have been terrible.

@@ -129,7 +129,7 @@ software development/ruoli dell'engineering.
 
 ### Argomenti di Studio
 
-- [Complessità degli Algoritmi / Big-O / Stima Asintotica](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Complessità degli Algoritmi / O-Grande / Stima Asintotica](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Struttura Dati](#data-structures)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
@@ -231,7 +231,7 @@ software development/ruoli dell'engineering.
 - [Dettagli Aggiuntivi per Alcuni Temi Trattati](#additional-detail-on-some-subjects)
 - [Video](#video-series)
 - [Corsi di Informatica](#computer-science-courses)
-- [Papers](#papers)
+- [Documenti](#papers)
 
 ---
 
@@ -241,46 +241,46 @@ Se vuoi trovare lavoro come software engineer per una grande azienda, questi son
 
 Se hai perso l'occasione di prendere una laurea in informatica, come io ho fatto, tutto questo ti aiuterà a recuperare 5 anni della tua vita.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, or anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it would have been terrible.
-Every data structure I had ever used was built into the language, and I didn't know how they worked
-under the hood at all. I never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I used a few multidimensional arrays in my life and
-thousands of associative arrays, but I never created data structures from scratch.
+Quando ho iniziato questo progetto, non sapevo nulla, dallo stack fino all'heap, non conoscevo O-Grande o nulla riguardo gli alberi e i grafi.
+Se avessi dovuto scrivere un algoritmo di ordinamento da zero, ti assicuro che sarebbe stato terribile.
+Ogni struttura dati che avevo usato era già integrata nel linguaggio e non sapevo assolutamente come fossero implementate.
+Non ho mai dovuto gestire la memoria tralasciando i momenti in cui un programma returnava un errore del tipo "Out of Memory",
+che avrei poi risolto, cercando una soluzione.
+Nella mia vita ho usato alcuni array multidimensionali e migliaia di array associativi, ma non ho mai creato strutture dati da zero.
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Il piano è lungo. Potrebbe richiedere mesi, ma se si ha un po' di familiarità con queste cose già partirete avvantaggiati.
 
-## How to use it
+## Come usarlo
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Tutto ciò che segue rappresenta la cornice degli attuali argomenti, che si dovrebbero affrontare dall'alto verso il basso.
 
-I'm using GitHub's special markdown flavor, including tasks lists to track progress.
-  - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+Sto usando le funzionalità del Markdown di Github, comprese le task-liste per monitorare i propri progressi.
+  - [Più informazioni riguardo Markdown di Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-### If you don't want to use git
+### Se non vuoi usare git
 
-On this page, click the Code button near the top, then click "Download ZIP". Unzip the file and you can work with the text files.
+Su questa pagina, clicca il bottone in alto con scritto "Code", e clicca "Download ZIP". Unzippa il file e potrai lavorare con il file testuale.
 
-If you're open in a code editor that understands markdown, you'll see everything formatted nicely.
+Se lo aprirai con un editor di testo che sa interpretare il linguaggio markdown (.md), allora leggerai il testo formattato.
 
-![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
+![Come scaricare la repository come un file .zip](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
-### If you're comfortable with git
+### Se invece ti trovi a tuo agio con git
 
-Create a new branch so you can check items like this, just put an x in the brackets: [x]
+Crea un nuovo branch affinché tu possa tenere aggiornata la task list, semplicemente mettendo una 'x' nelle parentesi quadrate, così: [x]
 
-    Fork a branch and follow the commands below
+    Forka un branch e segui le istruzioni qua sotto
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button.
+Forka la repository https://github.com/jwasham/coding-interview-university cliccando sul pulsante Fork.
 
-Clone to your local repo:
+Clona nella tua repository locale:
 
     git clone git@github.com:<your_github_username>/coding-interview-university.git
     git checkout -b progress
     git remote add jwasham https://github.com/jwasham/coding-interview-university
     git fetch --all
 
-Mark all boxes with X after you completed your changes:
+Contrassegna con una X le task che hai completato:
 
     git add .
     git commit -m "Marked x"
@@ -288,46 +288,49 @@ Mark all boxes with X after you completed your changes:
     git push --set-upstream origin progress
     git push --force
 
-## Don't feel you aren't smart enough
+## Non Pensare di non Essere Abbastanza Intelligente
 
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- I software engineers di successo sono intelligenti, ma molti di loro hanno insicurezze riguardo la loro bravura, pensando di non essere abbastanza.
+- [Il mito del Programmatore Genio (Video in Inglese)](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [È Pericoloso Andare da Soli: Sconfiggere i Mostri Invisibili nell'Ambito Tech (Articolo in Inglese)](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## A Note About Video Resources
+## Un Appunto Riguardo le Risorse Video
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
+lcuni video sono disponibili solo iscrivendosi a un corso Coursera o Edx. Questi vengono chiamati MOOCs.
+A volte le lezioni non saranno disponibili immediatamente,
+quindi dovrai aspettare un paio di mesi senza averne accesso.
 
-It would be great to replace the online course resources with free and always-available public sources, 
-such as YouTube videos (preferably university lectures), so that you people can study these anytime, 
-not just when a specific online course is in session.
+Sarebbe bello sostituire le risorse dei corsi online con fonti pubbliche gratuite e sempre disponibili, come i video di Youtube
+(preferibilmente lezioni universitarie), in modo che le persone possono studiare in qualsiasi momento
+e non solo quando un determinato corso online è disponibile.
 
-## Choose a Programming Language
+## Scegli un Linguaggio di Programmazione
 
-You'll need to choose a programming language for the coding interviews you do, 
-but you'll also need to find a language that you can use to study computer science concepts.
+Avrete bisogno di scegliere un linguaggio di programmazione per i colloqui che farete,
+ma sarà necessario trovare anche un linguaggio da utilizzare per studiare i concetti di informatica.
 
-Preferably the language would be the same, so that you only need to be proficient in one.
+Sarebbe perfetto se il linguaggio fosse lo stesso per entrambi gli scopi così da poter essere costante solo su un linguaggio.
 
-### For this Study Plan
+### Per Questo Piano di Studio
 
-When I did the study plan, I used 2 languages for most of it: C and Python
+Quando ho fatto questo piano di studio, ho usato principalmente due linguaggi: C e Python
 
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
-    and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
-    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
-        - [Answers to questions in the book](https://github.com/lekkas/c-algorithms)
-* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
+* C: Bassissimo Livello. Permette di gestire puntatori e allocazione/deallocazione della memoria, cosicché si possano toccare gli algoritmi
+    e le strutture dati con le proprie mani.
+    In linguaggi di alto livello, come Python o Java, tutto questo viene mascherato dal linguaggio stesso. Nel lavoro di tutti i giorni,
+    un linguaggio di basso livello è terrificante, ma quando si stanno imparando le basi è utilissimo sentirsi vicini al cuore di tutto ciò.
+    - C è ovunque. Vedrai esempi nei libri, nelle lezioni, nei video, *OVUNQUE* durante il tuo corso di apprendimento.
+    - [Il Linguaggio di Programmazione C, Vol. 2 (Libro in Inglese)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Questo è un libro  abbastanza corto, ma ti darà una grande mano riguardo il linguaggio C e, se ti allenerai un po',
+          diventerai velocemente un esperto. Capire C aiuta a comprendere il funzionamento dei programmi e della memoria.
+        - Non c'è bisogno di studiare in profondita il libro (o comunque finirlo). Basterà arrivare al punto dove sarai a tuo agio
+          nel leggere e nello scrivere in C.
+        - [Risposte alle Domande del Libro](https://github.com/lekkas/c-algorithms)
+* Python: Moderno e molto espressivo, l'ho imparato perché è semplicemente utilissimo e ti permette di scrivere codici brevi, ma potenti.
 
-This is my preference. You do what you like, of course.
+Questa è una mia preferenza, ovviamente te sei libero di scegliere.
 
-You may not need it, but here are some sites for learning a new language:
+Forse non ne avrai bisogno, ma ecco una lista di siti utili per imparare a programmare online:
 - [Exercism](https://exercism.org/tracks)
 - [Codewars](http://www.codewars.com)
 - [Codility](https://codility.com/programmers/)
@@ -336,72 +339,72 @@ You may not need it, but here are some sites for learning a new language:
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
 
-### For your Coding Interview
+### Per il tuo colloquio
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Puoi usare un qualsiasi linguaggio di programmazione per la parte tecnica del colloquio, ma le grandi aziende richiedono certi linguaggi, quali:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Potresti usare anche questi, ma valuta bene. Ci potrebbero essere delle contro-avvertenze:
 
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: 
-[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-This is the original article my post was based on: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
+Questo è un articolo che ho scritto riguardo la scelta del linguaggio:
+[Scegli il Linguaggio per il tuo Colloquio Tecnico (Articolo in Inglese)](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+Questo è l'articolo originale su cui si basa il post: [Scegliere un Linguaggio di Programmazione per il Proprio Colloquio (Articolo in Inglese)](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
 
-You need to be very comfortable in the language and be knowledgeable.
+Devi essere tranquillo nel linguaggio che scegli, oltre che il più competente possiile.
 
-Read more about choices: 
-- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+Informati di più riguardo la scelta: 
+- [Scegli il Linguaggio Giusto per il tuo Colloquio (Articolo in Inglese)](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-[See language-specific resources here](programming-language-resources.md)
+[Risorse Specifiche per i Linguaggi (Pagina in Inglese)](../programming-language-resources.md)
 
-## Books for Data Structures and Algorithms
+## Libri per Studiare Strutture di Dati e Algoritmi
 
-This book will form your foundation for computer science.
+Il libro che sceglierai creerà le fondamenta delle tue conoscenze nell'ambito informatico.
 
-Just choose one, in a language that you will be comfortable with. You'll be doing a lot of reading and coding.
+Scegline uno solo. Cerca di sentirti a tuo agio nel linguaggio che sceglierai, dovrai leggere e scrivere molto codice.
 
 ### C
 
-- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms 
+- [Algoritmi in C, Parti 1-5, 3za Edizione (Libro in Inglese)](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - Fondamentali, Strutture Dati, Ordinamento, Ricerca e Algoritmi per Grafi 
 
 ### Python
 
-- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+- [Data Structures and Algorithms in Python (Libro in Inglese)](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - di Goodrich, Tamassia, Goldwasser
+    - Ho amato questo libro. Ricopre tutti gli argomenti e più.
+    - Codice "Pythonico"
+    - La mia Recensione (Articolo in Inglese): https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 ### Java
 
-Your choice:
+A tua scelta:
 
 - Goodrich, Tamassia, Goldwasser
-    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-- Sedgewick and Wayne:
-    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - Free Coursera course that covers the book (taught by the authors!):
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+    - [Strutture Dati e Algoritmi in Java (Libro in Inglese)](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- Sedgewick e Wayne:
+    - [Algoritmi (Libro in Inglese)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Corsi gratis di Coursera che possono sostituire il libro (creati dagli autori stessi!):
+        - [Algorithms I (Corso in Inglese)](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithms II (Corso in Inglese)](https://www.coursera.org/learn/algorithms-part2)
 
 ### C++
 
-Your choice:
+A tua scelta:
 
 - Goodrich, Tamassia, and Mount
-    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
-- Sedgewick and Wayne
-    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+    - [Strutture Dati e Algoritmi in C++, 2da Edizione (Libro in Inglese)](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick e Wayne
+    - [Algoritmi in C++, Parti 1-4: Fondamentali, Strutture Dati, Ordinamento, Ricerca (Libro in Inglese)](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algoritmi in C++ Parte 5: Algoritmi per Grafi (Libro in Inglese)](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-## Interview Prep Books
+## Libri per la Preparazione in Vista dei Colloqui
 
 You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough, 
 but I bought more to give myself more practice. But I always do too much.

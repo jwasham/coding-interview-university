@@ -136,106 +136,106 @@ software development/ruoli dell'engineering.
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
-- [Più Conoscenza](#more-knowledge)
+- [Più Teoria](#more-knowledge)
     - [Ricerca Binaria](#binary-search)
     - [Operazione Bit a Bit](#bitwise-operations)
-- [Alberi](#trees)
+- [Alberi (Trees)](#trees)
     - [Alberi - Appunti & Background](#trees---notes--background)
     - [Alberi Binari di Ricerca: BSTs](#binary-search-trees-bsts)
     - [Heap (Mucchio) / Priority Queue (Coda di Priorità) / Heap Binario (Mucchio Binario)](#heap--priority-queue--binary-heap)
     - Alberi di RIcerca Bilanciati (Concetti Generali)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
+    - traversali: preorder, inorder, postorder, BFS (ricerca in ampiezza), DFS (ricerca in profondita)
+- [Sorting (Ordinamento)](#sorting)
+    - selection (per selezione)
+    - insertion (per inserzione)
     - heapsort
-    - quicksort
+    - quicksort 
     - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [How computers process a program](#how-computers-process-a-program)
+- [Grafi (Graphs)](#graphs)
+    - directed (Orientati)
+    - undirected (Non Orientati)
+    - adjacency matrix (Matrice delle Adiacenze)
+    - adjacency list (Lista delle Adiacenze)
+    - trasversali: BFS (ricerca in ampiezza), DFS (ricerca in profondita)
+- [Ancora Più Teoria](#even-more-knowledge)
+    - [Ricorsione (Recursion)](#recursion)
+    - [Programmazione Dinamica](#dynamic-programming)
+    - [Schemi Progettuali (Design Patterns)](#design-patterns)
+    - [Calcolo Combinatorio (n sopra k) & Probabilità](#combinatorics-n-choose-k--probability)
+    - [NP, NP-Completo e Algoritmi di Approssimazione](#np-np-complete-and-approximation-algorithms)
+    - [Come i Computer Processano un Programma](#how-computers-process-a-program)
     - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
+    - [Processi e Threads](#processes-and-threads)
     - [Testing](#testing)
-    - [String searching & manipulations](#string-searching--manipulations)
+    - [Ricerca Tramite Pattern-Matching e Manipolazione delle Stringhe](#string-searching--manipulations)
     - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
+    - [Numeri con Decimali](#floating-point-numbers)
     - [Unicode](#unicode)
-    - [Endianness](#endianness)
+    - [Ordine dei Byte (Endianness)](#endianness)
     - [Networking](#networking)
-- [Final Review](#final-review)
+- [Revisione Finale](#final-review)
 
-### Getting the Job
+### Ottenere il Lavoro
 
-- [Update Your Resume](#update-your-resume)
-- [Find a Job](#find-a-job)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Aggiorna il tuo Curriculum Vitae](#update-your-resume)
+- [Trova un Lavoro](#find-a-job)
+- [Colloquio & Preparazione Generale](#interview-process--general-interview-prep)
+- [Ragiona Riguardo la Data del Colloquio](#be-thinking-of-for-when-the-interview-comes)
+- [Preparati Domande per l'Esaminatore](#have-questions-for-the-interviewer)
+- [Una Volta Ottenuto il Lavoro](#once-youve-got-the-job)
 
-**---------------- Everything below this point is optional ----------------**
+**---------------- Qua Sotto Sono Riportato Argomenti Facoltativi ----------------**
 
-### Optional Extra Topics & Resources
+### Argomenti Extra Opzionali & Risorse
 
-- [Additional Books](#additional-books)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
-    - [Parity & Hamming Code](#parity--hamming-code-videos)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+- [Libri Aggiuntivi](#additional-books)
+- [System Design, Scalabilità, Gestione dei Dati](#system-design-scalability-data-handling) (Solo se hai più di 4+ anni di esperienza)
+- [Argomenti Aggiuntiva](#additional-learning)
+    - [Compilatori](#compilers)
+    - [Emacs e vi(m)](#emacs-and-vim)
+    - [Tools per Linea di Comando Unix](#unix-command-line-tools)
+    - [Teoria delle Informazioni](#information-theory-videos)
+    - [Parità & Codice di Hamming](#parity--hamming-code-videos)
+    - [Entropia](#entropy)
+    - [Crittografia](#cryptography)
+    - [Compressione](#compression)
+    - [Sicurezza](#computer-security)
+    - [Garbage Collection](#garbage-collection)
+    - [Programmazione Parallela](#parallel-programming)
+    - [Messaggistica, Serializzazione e Sistemi di Gestione della Coda (Queueing Systems)](#messaging-serialization-and-queueing-systems)
     - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
+    - [Trasformata di Fourier Veloce](#fast-fourier-transform)
     - [Bloom Filter](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
+    - [Alberi di Van Emde Boas](#van-emde-boas-trees)
+    - [Strutture Dati Aumentate](#augmented-data-structures)
+    - [Alberi di Ricerca Bilanciati](#balanced-search-trees)
+        - Alberi AVL
+        - Alberi Splay
+        - Alberi Rosso/Nero (Red/Black)
+        - Alberi di Ricerca 2-3
+        - Alberi 2-3-4 (o Alberi 2-4)
+        - Alberi N-ary (anche detti Alberi K-ary o Alberi M-ary)
+        - Alberi B
+    - [Alberi k-D](#k-d-trees)
     - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Rete di Flussi](#network-flows)
+    - [Disgiunzione & Union Find (MFSET)](#disjoint-sets--union-find)
+    - [Matematica per la Processazione Veloce (Fast Processing)](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming-videos)
-    - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
+    - [Programmazione Lineare](#linear-programming-videos)
+    - [Geometria, Inviluppo Convesso](#geometry-convex-hull-videos)
+    - [Matematica Discreta](#discrete-math)
     - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Dettagli Aggiuntivi per Alcuni Temi Trattati](#additional-detail-on-some-subjects)
+- [Video](#video-series)
+- [Corsi di Informatica](#computer-science-courses)
 - [Papers](#papers)
 
 ---
 
-## Why use it?
+## Perché usarlo?
 
 If you want to work as a software engineer for a large company, these are the things you have to know.
 

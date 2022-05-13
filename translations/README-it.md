@@ -37,12 +37,12 @@
 <details>
 <summary>Traduzioni in corso:</summary>
 
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Hindi](https://github.com/jwasham/coding-interview-university/issues/81)
+- [Ebraico](https://github.com/jwasham/coding-interview-university/issues/82)
 - [Arabico](https://github.com/jwasham/coding-interview-university/issues/98)
 - [Turco](https://github.com/jwasham/coding-interview-university/issues/90)
 - [Francese](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Ucraino](https://github.com/jwasham/coding-interview-university/issues/106)
 - [Coreano](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
@@ -391,8 +391,8 @@ A tua scelta:
 - Sedgewick e Wayne:
     - [Algoritmi (Libro in Inglese)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
     - Corsi gratis di Coursera che possono sostituire il libro (creati dagli autori stessi!):
-        - [Algorithms I (Corso in Inglese)](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II (Corso in Inglese)](https://www.coursera.org/learn/algorithms-part2)
+        - [Algoritmi I (Corso in Inglese)](https://www.coursera.org/learn/algorithms-part1)
+        - [Algoritmi II (Corso in Inglese)](https://www.coursera.org/learn/algorithms-part2)
 
 ### C++
 
@@ -406,71 +406,72 @@ A tua scelta:
 
 ## Libri per la Preparazione in Vista dei Colloqui
 
-You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough, 
-but I bought more to give myself more practice. But I always do too much.
+Non è necessario comprare molti libri. Onestamente, "Spaccare il Colloquio Pratico di Coding (Libro in Inglese)" è sufficiente,
+però io ne ho comprati altri per fare più pratica, ma faccio sempre troppo.
 
-I bought both of these. They gave me plenty of practice.
+Io li ho comprati entrambi e mi hanno permesso di impratichirmi molto:
 
-- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - Answers in C++ and Java
-    - This is a good warm-up for Cracking the Coding Interview
-    - Not too difficult. Most problems may be easier than what you'll see in an interview (from what I've read)
-- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+- [Colloqui Pratichi Smascherati: Programma la tua Via di Salvezza, 4ta Edizione (Libro in Inglese)](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - Risposte in C++ e Java
+    - Questo è un ottimo riscaldamento per il prossimo libro
+    - Non troppo difficile. La maggior parte dei problemi potrebbero essere più facili rispetto ai colloquio (da quello che ho letto)
+- [Spaccare il Colloquio Pratico di Coding, 6ta Edizione (Libro in Inglese)](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - Risposte in Java
 
-### If you have tons of extra time:
+### Se hai un Sacco di Tempo Libero:
 
-Choose one:
+Scegline uno:
 
-- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
+- [Elementi dei Colloqui di Programmazione (C++) (Libro in Inglese)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Elementi dei Colloqui di Programmazione (Python) (Libro in Inglese)](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Elementi dei Colloqui di Programmazione (Java) (Libro in Inglese)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Progetto di Gruppo - Metodi e Test per ogni problema del libro (Repository in Inglese)](https://github.com/gardncl/elements-of-programming-interviews)
 
-## Don't Make My Mistakes
+## Non Commettere i Miei Stessi Errori
 
-This list grew over many months, and yes, it got out of hand.
+Questa lista è cresciuta esponenzialmente negli ultimi mesi, e sì, la situazione è sfuggita di mano. 
 
-Here are some mistakes I made so you'll have a better experience. And you'll save months of time.
+Questi sono alcuni dei miei errori, così che tu possa evitarli, risparmiando mesi di tempo.
 
-### 1. You Won't Remember it All
+### 1. Non ti Ricorderai Tutto
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review. I didn't need all of that knowledge.
+Ho guardato ore e ore di video, preso tanti appunti, ma mesi dopo ricordavo davvero poco.
+Ho speso 3 giorni a leggere i miei appunti e a farmi flash-cards affinchè le potessi revisionare. Non mi serviva tutta quella conoscenza.
 
-Please, read so you won't make my mistakes:
+Perfavore leggilo, così da non fare il mio stesso errore:
 
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
+[Mantenere la Conoscenza in Ambito Informatico (Articolo in Inglese)](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
-### 2. Use Flashcards
+### 2. Usa delle Flash-Cards
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
+Per risolvere questo problema, ho creato un piccolo sito web di flashcards dove è possibile trovare 2 tipologie di carte: generali e codice.
+Ognuna ha una formattazione diversa. Il sito è ottimizzato per telefono e tablet, affinché potessi revisionare da lì.
 
-Make your own for free:
+Crea le tue flash-cards gratuitamente:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+- [Repository del Sito per Flash-Cards (Repository e Sito in Inglese)](https://github.com/jwasham/computer-science-flash-cards)
 
-**I DON'T RECOMMEND using my flashcards.** There are too many and many of them are trivia that you don't need.
+**SCONSIGLIO VIVAMENTE di Usare le mie Flash-Cards** Sono troppe e alcune eccessivamente complesse.
 
-But if you don't want to listen to me, here you go:
-- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+Ma se non vuoi darmi ascolto, eccole qua:
+- [DataBase delle mie Flash-Cards (1200 cards) (Repository e Cards in Inglese)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db)
+- [DataBase delle mie Flash-Cards (difficoltà estrema - 1800 cards) (Repository e Cards in Inglese)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db)
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. 
-It's way too much for what's required.
+Tieni a mente che ho creato carte per qualsiasi argomento, dall'assembly alle curiosità su python, fino al machine learning e alla statistica.
+Tutto ciò è molto più di quanto è veramente necessario.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Riguardo le Flash-Cards:**  La prima volta che comprendi la domanda e rispondi correttamente, non mettere via la card.
+Devi rispondere più volte alla stessa carta prima di considerarla appresa.
+La ripetizione farà penetrare la vostra conoscenza nei meandri del nostro cervello.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. 
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms and has a cloud sync system. 
-It costs $25 on iOS but is free on other platforms.
+Un alternativa al mio sito di è [Anki](http://ankisrs.net/), sito che è stato consigliatomi parecchie volte.
+Usa un sistema di ripetizione che aiuta a memorizzare meglio. Facile da usare, disponibile su qualsiasi piattaforma
+e auto-sincronizzato con altri tuoi dispositivi, ha un costa di $25 su iOS, ma è disponibile su altre piattaforme.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
+Il mio DataBase di Flash-Cards in Anki: https://ankiweb.net/shared/info/25173560 (grazie a [@xiewenya](https://github.com/xiewenya)).
 
-Some students have mentioned formatting issues with white space that can be fixed by doing the following: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
+Alcuni studenti mi hanno fatto notare problemi di formattazione con degli spazi vuoti, facilmente risolvibili così:
+apri un mazzo, modifica il mazzo, clicca sulle carte, seleziona "styling" e aggiungi "white-space: pre;" alla classe "Card".
 
 ### 3. Do Coding Interview Questions While You're Learning
 

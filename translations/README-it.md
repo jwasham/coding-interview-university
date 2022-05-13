@@ -1,5 +1,11 @@
 # Coding Interview University
 
+
+
+[File Originale (in Inglese) - Original File Here](../README.md)
+
+Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
+
 > Inizialmente ho creato questo progetto come una sorta di "to-do list" degli argomenti da studiare per diventare un software engineer,
 > ma è cresciuta fino a diventare ciò che potete vedere oggi. Dopo aver seguito questo percorso di studio, [Sono stato preso
 > come Software Development Engineer ad Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

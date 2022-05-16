@@ -96,7 +96,7 @@ Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
     <hr />
 </div>
 
-## Che cos'è?
+## Che cos'e'?
 
 ![Programmare sulla lavagna - da HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
@@ -119,16 +119,16 @@ software development/ruoli dell'engineering.
 
 ### Il Piano di Studio
 
-- [Che Cos'è?](#what-is-it)
-- [Perché Usarlo?](#why-use-it)
-- [Come Usarlo](#how-to-use-it)
-- [Non Pensare di non Essere Abbastanza Intelligente](#dont-feel-you-arent-smart-enough)
-- [Un Appunto Riguardo le Risorse Video](#a-note-about-video-resources)
-- [Scegli un Linguaggio di Programmazione](#choose-a-programming-language)
-- [Libri per Studiare Strutture di Dati e Algoritmi](#books-for-data-structures-and-algorithms)
-- [Libri per la Preparazione in Vista dei Colloqui](#interview-prep-books)
-- [Non Commettere i Miei Stessi Errori](#dont-make-my-mistakes)
-- [Cosa Non Sarà Trattato Qua](#what-you-wont-see-covered)
+- [Che Cos'è?](#che-cose)
+- [Perché Usarlo?](#perche-usarlo)
+- [Come Usarlo](#come-usarlo)
+- [Non Pensare di non Essere Abbastanza Intelligente](#non-pensare-di-non-essere-abbastanza-intelligente)
+- [Un Appunto Riguardo le Risorse Video](#un-appunto-riguardo-le-risorse-video)
+- [Scegli un Linguaggio di Programmazione](#scegli-un-linguaggio-di-programmazione)
+- [Libri per Studiare Strutture di Dati e Algoritmi](#libri-per-studiare-strutture-di-dati-e-algoritmi)
+- [Libri per la Preparazione in Vista dei Colloqui](#libri-per-la-preparazione-in-vista-dei-colloqui)
+- [Non Commettere i Miei Stessi Errori](#non-commettere-i-miei-stessi-errori)
+- [Cosa Non Sarà Trattato](#cosa-non-sara-trattato)
 - [Il Piano Giornaliero](#the-daily-plan)
 - [Pratica per Domande di Coding](#coding-question-practice)
 - [I Problemi con il Coding](#coding-problems)
@@ -241,7 +241,7 @@ software development/ruoli dell'engineering.
 
 ---
 
-## Perché usarlo?
+## Perche' usarlo?
 
 Se vuoi trovare lavoro come software engineer per una grande azienda, questi sono i concetti che devi sapere.
 
@@ -479,59 +479,59 @@ Il mio DataBase di Flash-Cards in Anki: https://ankiweb.net/shared/info/25173560
 Alcuni studenti mi hanno fatto notare problemi di formattazione con degli spazi vuoti, facilmente risolvibili così:
 apri un mazzo, modifica il mazzo, clicca sulle carte, seleziona "styling" e aggiungi "white-space: pre;" alla classe "Card".
 
-### 3. Do Coding Interview Questions While You're Learning
+### 3. Esercitati con delle Domande da Colloquio Durante lo Studio
 
-THIS IS VERY IMPORTANT.
+QUESTO È MOLTO IMPORTANTE.
 
-Start doing coding interview questions while you're learning data structures and algorithms.
+Comincia ad esercitarti con delle possibile domande da colloquio durante lo studio delle strutture dati e degli algoritmi.
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. 
+Dovrai applicare tutto ciò che stai imparando per risolvere i problemi, o ti dimenticherai tutto. Io ho fatto questo errore.
 
-Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
-1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below) 
-1. Do 2 or 3 questions regarding linked lists. 
-1. Move on to the next learning topic.
-1. Later, go back and do another 2 or 3 linked list problems.
-1. Do this with each new topic you learn. 
+Appena hai imparato un argomento e pensi di saperlo padroneggiare bene (come ad esempio le **linked lists**):
+1. Apri uno dei [libri di preparazione ai colloqui](#interview-prep-books) (o siti internet di problem-solving, listati poi sotto) 
+2. Rispondi a 2 o 3 domane riguardo le linked lists. 
+3. Studia il prossimo argomento.
+4. Dopo, torna indietro e rispondi ad altre 2 o 3 domande sulle linked list.
+5. Fai questo con ogni nuovo argomento che dovrai affrontare. 
 
-**Keep doing problems while you're learning all this stuff, not after.**
+**Continua ad esercitarti con i problemi durante la tua fase di studio, non dopo.**
 
-You're not being hired for knowledge, but how you apply the knowledge.
+Non verrai assunto per la tua conoscenza, ma per come applicherai la tua conoscenza.
 
-There are many resources for this, listed below. Keep going.
+Ci sono molte risorse da consultare, riportate poi sotto.
 
-### 4. Focus
+### 4. Concentrazione
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
+Ci sono un sacco di distrazioni che potrebbero toglierti tempo prezioso. Focalizzarsi e concentrarsi è difficile. Metti un po' di musica
+senza lyrics e ti saprai concentrare molto bene.
 
-## What you won't see covered
+## Cosa Non Sara' Trattato
 
-These are prevalent technologies but not part of this study plan:
+Queste tecnologie sono fondamentali, ma non fanno parte di questo piano di studio:
 
 - SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
+- Javascript (JS)
+- HTML, CSS e altre tecnologie front-end
 
-## The Daily Plan
+## Il Programma Giornaliero
 
-This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
+Questo corso tratta moltissimi argomenti. Ognuno di questi ti terrà impegnato per qualche giorno, o addirittura per settimane. Dipende dal tuo programma.
 
-Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation 
-of that data structure or algorithm in the language you chose for this course.
+Ogni giorno, guarda il prossimo argomento nella lista, guarda video a riguardo e implementa degli appunti 
+di quelle strutture dati o algoritmi del linguaggio a tua scelta per il corso.
 
-You can see my code here:
+Puoi vedere i miei codici qua:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
+Non devi memorizzare ogni algoritmo. Devi essere capace di capirlo abbastanza da poterlo implementare tu stesso.
 
-## Coding Question Practice
+## Domande per Esercitarsi in Vista del Colloquio
 
-    Why is this here? I'm not ready to interview.
+    Perché questo paragrafo? Non sono ancora pronto ad un colloquio.
 
-[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
+[Allora torna in dietro e leggi questo.](#3-do-coding-interview-questions-while-youre-learning)
 
 Why you need to practice doing programming problems:
 - Problem recognition, and where the right data structures and algorithms fit in

@@ -619,30 +619,30 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - [Arrays Dinamici (Video in Inglese)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Matrici Irregolari o Jagged Arrays (Video in Inglese)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implementare un vettore (array mutabile con grandezza automatica):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] New raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - [ ] Programma usando arrays, puntatori e l'aritmetica dei puntatori per raggiungere un index, piuttosto che usare l'indexing.
+        - [ ] Array con dati non raffinati (raw) e memoria allocata
+            - puoi allocare array di interi, ma non usare le sue features
+            - comincia con 16, o se il numero iniziale è maggiore, usa delle potenze del 2 - 16, 32, 64, 128
+        - [ ] size() - numero degli elementi
+        - [ ] capacity() - numero degli elementi che può contenere in totale
+        - [ ] is_empty() - se l'array è vuoto
+        - [ ] at(index) - fa il return di un item all'index dato, esplode se l'index è out of bounds (letteralmente, "fuori dai limiti")
+        - [ ] push(item) - inserisce (pusha) un item alla fine di un array
+        - [ ] insert(index, item) - inserisce un item all'index dato, spostando gli altri item verso destra (verso la fine) 
+        - [ ] prepend(item) - come usare insert() con index 0
+        - [ ] pop() - rimuove l'elemento alla fine e lo returna
+        - [ ] delete(index) - elimina l'item all'index dato, spostando gli altri item verso sinistra (verso l'inizio)
+        - [ ] remove(item) - cerca il valore dato e rimuove il suo index (funziona anche se si trova in più caselle)
+        - [ ] find(item) - cerca un valore e returna il primo index contenente quell'item, returna -1 se non viene trovato
+        - [ ] resize(new_capacity) // funzione private
+            - quando raggiungi la capacità massima, la raddoppia
+            - quando viene fatto il pop() di un item, se la grandezza è 1/4 della capacità, allora la reduce di metà
+    - [ ] Tempo
+        - O(1) per aggiungere/rimuovere alla fine (amortized for allocations for more space), indexare o aggiornare
+        - O(n) per aggiungere/rimuovere in qualsiasi punto
+    - [ ] Spazio
+        - contiguo in memoria, quindi la vicinanza aiuta a migliorare la performance
+        - spazio necessario = (capacità dell'array, che è >= n) * grandezza di un item, ma anche se 2n, rimane O(n)
 
 - ### Linked Lists
     - [ ] Description:

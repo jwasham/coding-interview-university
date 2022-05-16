@@ -129,23 +129,23 @@ software development/ruoli dell'engineering.
 - [Libri per la Preparazione in Vista dei Colloqui](#libri-per-la-preparazione-in-vista-dei-colloqui)
 - [Non Commettere i Miei Stessi Errori](#non-commettere-i-miei-stessi-errori)
 - [Cosa Non Sarà Trattato](#cosa-non-sara-trattato)
-- [Il Piano Giornaliero](#the-daily-plan)
-- [Pratica per Domande di Coding](#coding-question-practice)
-- [I Problemi con il Coding](#coding-problems)
+- [Il Piano Giornaliero](#il-piano-giornaliero)
+- [Domande per Esercitarsi in Vista del Colloquio](#domande-per-esercitarsi-in-vista-del-colloquio)
+- [Problemi di Coding](#problemi-di-coding)
 
 ### Argomenti di Studio
 
-- [Complessità degli Algoritmi / O-Grande / Stima Asintotica](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Struttura Dati](#data-structures)
+- [Complessità degli Algoritmi / O-Grande / Stima Asintotica](#complessita-degli-algoritmi--o-grande--stima-asintotica)
+- [Strutture Dati](#strutture-dati)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [Più Teoria](#more-knowledge)
-    - [Ricerca Binaria](#binary-search)
-    - [Operazione Bit a Bit](#bitwise-operations)
-- [Alberi (Trees)](#trees)
+    - [Hash Table](#hash-table)
+- [Più Teoria](#piu-teoria)
+    - [Ricerca Binaria](#ricerca-binaria)
+    - [Operazione Bit a Bit](#operazione-bit-a-bit)
+- [Alberi (Trees)](#alberi-trees)
     - [Alberi - Appunti & Background](#trees---notes--background)
     - [Alberi Binari di Ricerca: BSTs](#binary-search-trees-bsts)
     - [Heap (Mucchio) / Priority Queue (Coda di Priorità) / Heap Binario (Mucchio Binario)](#heap--priority-queue--binary-heap)
@@ -488,7 +488,7 @@ Comincia ad esercitarti con delle possibile domande da colloquio durante lo stud
 Dovrai applicare tutto ciò che stai imparando per risolvere i problemi, o ti dimenticherai tutto. Io ho fatto questo errore.
 
 Appena hai imparato un argomento e pensi di saperlo padroneggiare bene (come ad esempio le **linked lists**):
-1. Apri uno dei [libri di preparazione ai colloqui](#interview-prep-books) (o siti internet di problem-solving, listati poi sotto) 
+1. Apri uno dei [libri di preparazione ai colloqui](#libri-per-la-preparazione-in-vista-dei-colloqui) (o siti internet di problem-solving, listati poi sotto) 
 2. Rispondi a 2 o 3 domane riguardo le linked lists. 
 3. Studia il prossimo argomento.
 4. Dopo, torna indietro e rispondi ad altre 2 o 3 domande sulle linked list.
@@ -513,7 +513,7 @@ Queste tecnologie sono fondamentali, ma non fanno parte di questo piano di studi
 - Javascript (JS)
 - HTML, CSS e altre tecnologie front-end
 
-## Il Programma Giornaliero
+## Il Piano Giornaliero
 
 Questo corso tratta moltissimi argomenti. Ognuno di questi ti terrà impegnato per qualche giorno, o addirittura per settimane. Dipende dal tuo programma.
 
@@ -531,94 +531,94 @@ Non devi memorizzare ogni algoritmo. Devi essere capace di capirlo abbastanza da
 
     Perché questo paragrafo? Non sono ancora pronto ad un colloquio.
 
-[Allora torna in dietro e leggi questo.](#3-do-coding-interview-questions-while-youre-learning)
+[Allora torna in dietro e leggi questo.](#3-esercitati-con-delle-domande-da-colloquio-durante-lo-studio)
 
-Why you need to practice doing programming problems:
-- Problem recognition, and where the right data structures and algorithms fit in
-- Gathering requirements for the problem
-- Talking your way through the problem like you will in the interview
-- Coding on a whiteboard or paper, not a computer
-- Coming up with time and space complexity for your solutions (see Big-O below)
-- Testing your solutions
+Perché esercitarsi con dei proble-solving:
+- Ricognizione del problema e come le strutture dati ed algoritmi possono essere utilizzate
+- Raccolta dei requisiti per risolvere il problema
+- Mentre programmi, spiega il problema e la soluzione, proprio come succederebbe durante il colloquio
+- Programma su foglio di carta o su una lavagna, non al computer
+- Trova la complessità temporale e spaziale delle tue soluzioni (vedi O-Grande sotto)
+- Testa le tue soluzioni
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+C'è una bellissima introduzione per la metodica della comunicazione nei colloqui di problem-solving. Lo scoprirai anche nei libri di preparazione,
+ma ho trovato questo articolo fatto molto bene:
+[Design degli Algoritmi (Articolo in Inglese)](http://www.hiredintech.com/algorithm-design/)
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
+Scrivi il codice su carta o su una lavagna, non su un computer. Provalo con qualche input di prova. Poi riscrivilo e testalo su un computer.
 
-If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice. 
-This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase. 
-Gets messy quick. **I use a pencil and eraser.**
+Se non hai una lavagnetta a casa, prendi un quadernone per fogli da disegno in una qualsiasi cartolibreria. Puoi metterti comodo sul divano e programmare. 
+Questa è la mia "lavagnetta da divano". Ho aggiunto la penna nella foto per far capire le dimensioni. Se usi una penna, vorrai poter cancellare. 
+Diventa subito un casino. **Io uso una matita e una gomma.**
 
-![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+![La mia Lavagnetta da Divano](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Risolvere questi problemi di coding non serve a memorizzare.**
 
-## Coding Problems
+## Problemi di Coding
 
-Don't forget your key coding interview books [here](#interview-prep-books).
+Non dimenticarti dei [libri per prepararti al colloquio](#libri-per-la-preparazione-in-vista-dei-colloqui).
 
-Solving Problems:
-- [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
-- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
+Risolvere i Problemi:
+- [Come Trovare una Soluzione (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+- [Come Sezzionare una Richiesta di un Problema di Topcoder (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
-- [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
-- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - Super for walkthroughs of problem solutions
-- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
-    - You can watch several in a short time
-- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+Video sulle Domande per Colloqui Tecnici:
+- [IDeserve (88 video, in Inglese)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists, in Inglese)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Perfetto per le procedure dettagliate passo a passo per le soluzioni dei problemi
+- [Nick White - LeetCode Solutions (187 video, in Inglese)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Ottima spiegazione del codice e della soluzione
+    - Si riesce a guardare molti video in poco tempo
+- [FisherCoder - Soluzioni di LeetCode (Video in Inglese)](https://youtube.com/FisherCoder)
 
-Challenge sites:
-- [LeetCode](https://leetcode.com/)
-    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
-    - See Nick White and FisherCoder Videos above for code walk-throughs.
-- [HackerRank](https://www.hackerrank.com/)
-- [TopCoder](https://www.topcoder.com/)
-- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
-- [InterviewBit](https://www.interviewbit.com/)
-- [Project Euler](https://projecteuler.net/)
+Siti per Mettersi alla Prova:
+- [LeetCode (Sito in Inglese)](https://leetcode.com/)
+    - Il mio sito preferito per il problem-solving. Vale assolutamente fare un abbonamento per i mesi di preparazione necessari.
+    - Guarda i video di Nick White e FisherCoder listati sopra per le procedure passo a passo.
+- [HackerRank (Sito in Inglese)](https://www.hackerrank.com/)
+- [TopCoder (Sito in Inglese)](https://www.topcoder.com/)
+- [Geeks for Geeks (Sito in Inglese)](https://practice.geeksforgeeks.org/explore/?page=1)
+- [InterviewBit (Sito in Inglese)](https://www.interviewbit.com/)
+- [Project Euler (Sito in Inglese)](https://projecteuler.net/)
 
-## Let's Get Started
+## Cominciamo
 
-Alright, enough talk, let's learn!
+Ok, abbiamo parlato abbastanza, cominciamo ad imparare!
 
-But don't forget to do coding problems from above while you learn!
+Ma non dimenticare di esercitarti con i problemi, anche durante lo studio!
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Complessita' degli Algoritmi / O-Grande / Stima Asintotica
 
-- Nothing to implement here, you're just watching videos and taking notes! Yay!
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- Don't worry if you don't understand all the math behind it.
-- You just need to understand how to express the complexity of an algorithm in terms of Big-O.
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Skiena (video)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
-- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- Nulla da implementare qua, guarderai solo video e prenderai appunti! Yuppi!
+- Ci sono un sacco di video qua. Basta guardarne abbastanza finché non si comprende l'argomento. Potrai sempre tornare indietro per ripassare.
+- Non preoccuparti se non capisci tutta la matematica che c'è dietro.
+- Dovrai solo capire come esprimere la complessità di un algoritmo con la O-Grande.
+- [ ] [Harvard CS50 - Notazione Asintotica (Video in Inglese)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Notazione della Grande-O (tutorial generale veloce) (Video in Inglese)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Notazione della Grande-O (e Omega e Theta) - la migliore spiegazione matematica (Video in Inglese)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Skiena (Video in Inglese)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
+- [ ] [UC Berkeley Grande-O (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [Analisi Ammortizzata (Video in Inglese)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] TopCoder (include relazioni di ricorrenza e teoremi principali):
+    - [Complessità Computazionale: Sezione 1 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
+    - [Complessità Computazionale: Sezione 2 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
+- [ ] [Cheat-Sheet](http://bigocheatsheet.com/)
 
-Well, that's about enough of that. 
+Bene, direi che può bastare. 
 
-When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see 
-if you can identify the runtime complexity of different algorithms. It's a super review and test.
+Quando leggerai la parte di "Spaccare il Colloquio Pratico di Coding", c'è un capitolo riguardo questo e alla fine c'è un quiz
+per testare la tua capacità nell'identificare la complessità del runtime di diversi algoritmi.
 
-## Data Structures
+## Strutture Dati
 
 - ### Arrays
-    - [ ] About Arrays:
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
+    - [ ] Riguardo gli Arrays:
+        - [Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Arrays Lineari e Multi-Dimensionali (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Comincia il video da 15m 32s)
+        - [Arrays Dinamici (Video in Inglese)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Matrici Irregolari o Jagged Arrays (Video in Inglese)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [ ] Implementare un vettore (array mutabile con grandezza automatica):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features

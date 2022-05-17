@@ -146,12 +146,12 @@ software development/ruoli dell'engineering.
     - [Ricerca Binaria](#ricerca-binaria)
     - [Operazioni Bit a Bit](#operazioni-bit-a-bit)
 - [Alberi (Trees)](#alberi-trees)
-    - [Alberi - Appunti & Background](#trees---notes--background)
-    - [Alberi Binari di Ricerca: BSTs](#binary-search-trees-bsts)
-    - [Heap (Mucchio) / Priority Queue (Coda di Priorità) / Heap Binario (Mucchio Binario)](#heap--priority-queue--binary-heap)
-    - Alberi di RIcerca Bilanciati (Concetti Generali)
+    - [Alberi - Appunti & Background](#alberi---appunti--background)
+    - [Alberi Binari di Ricerca: BSTs](#alberi-binari-di-ricerca-bsts)
+    - [Heap (Mucchio) / Priority Queue (Coda di Priorità) / Heap Binario (Mucchio Binario)](#heap--coda-di-priorita--heap-binario)
+    - Alberi Bilanciati di RIcerca (Concetti Generali)
     - traversali: preorder, inorder, postorder, BFS (ricerca in ampiezza), DFS (ricerca in profondita)
-- [Sorting (Ordinamento)](#sorting)
+- [Sorting (Ordinamento)](#sorting-ordinamento)
     - selection (per selezione)
     - insertion (per inserzione)
     - heapsort
@@ -765,140 +765,142 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
     - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Alberi (Trees)
 
-- ### Trees - Notes & Background
-    - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        - BFS notes:
-           - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
-        - DFS notes:
-            - time complexity: O(n)
-            - space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-            - inorder (DFS: left, self, right)
-            - postorder (DFS: left, right, self)
-            - preorder (DFS: self, left, right)
+- ### Alberi - Appunti & Background
+    - [ ] [Playlist: Alberi (Video in Inglese)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - costruzione basica di un albero
+    - traversale
+    - algoritmi per la manipolazione
+    - [ ] [BFS (ricerca in ampiezza) e DFS (ricerca in profondità) (Video in Inglese)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+        - Appunti BFS:
+           - livelli (BFS, usando una queue)
+           - complessità temporale: O(n)
+           - complessità spaziale:
+           	miglior caso: O(1)
+		peggior caso: O(n/2)=O(n)
+        - Appunti DFS:
+            - complessità temporale: O(n)
+            - complessità spaziale:
+                miglior caso: O(log n) - altezza media dell'albero
+                peggior caso: O(n)
+            - inorder (DFS: sinistra, se stesso, destra)
+            - postorder (DFS: sinistra, destra, se stesso)
+            - preorder (DFS: se stesso, sinistra, destra)
 
-- ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
+- ### Alberi Binari di Ricerca: BSTs
+    - [ ] [Review Alberi Binari di Ricerca (Video in Inglese)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
+    - [ ] [Introduzione (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [MIT (Video in Inglese)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
-        - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
-        - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] [Alberi Binari di Ricerca - Implementazione in C/C++ (Video in Inglese)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] [Implementazione BST - allocazione memoria su stack e heap (Video in Inglese)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [Trova il minimo e il massimo valore in un albero binario di ricerca (Video in Inglese)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Trova l'altezza di un albero binario (Video in Inglese)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [Albero Binario Trasversale - strategie di ricerca in superficie e in profondità (Video in Inglese)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] [Alberi Binari: Livelli Trasversali (Video in Inglese)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Alberi Binari Trasversali: Preorder, Inorder, Postorder (Video in Inglese)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Controlla se un albero binario è di ricerca o no (Video in Inglese)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Eliminare un nodo da un albero binario di ricerca (Video in Inglese)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] [Successore inorder in un albero binario di ricerca (Video in Inglese)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] Implementazione:
+        - [ ] insert    // inserisci un valore nell'albero
+        - [ ] get_node_count // returna il numero di valori inseriti
+        - [ ] print_values // stampa i valori, dal minimo al massimo, dell'albero
+        - [ ] delete_tree // elimina l'albero
+        - [ ] is_in_tree // returna vero se è dato un valore esistente nell'albero
+        - [ ] get_height // returna l'altezza dell'albero (l'altezza di un albero con un singolo nodo è 1)
+        - [ ] get_min   // returna il valore minimo all'interno dell'albero
+        - [ ] get_max   // returna il valore massimo all'interno dell'albero
+        - [ ] is_binary_search_tree // returna se è un albero di ricerca binario o meno
+        - [ ] delete_value // elimina un valore
+        - [ ] get_successor // returna il valore maggiore successo al valore passato, -1 se non esiste
 
-- ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
-    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
-    - [ ] [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
-    - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(x) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
+- ### Heap / Coda di Priorita' / Heap Binario
+    - visualizzato come un albero, ma è lineare nell'allocazione (array o linked list)
+    - [ ] [Heap (Articolo in Inglese)](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [Introduzione (Video in Inglese)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Implementazione Ingenua (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [Alberi Binari (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Osservazione sull'Altezza Degli Alberi (Video in Inglese)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] [Operazioni Basiche (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Alberi Binari Completi (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [Pseudocodice (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Ordinamento Heap - consigli per iniziare (Video in Inglese)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Ordinamento Heap (Video in Inglese)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [Costruire un heap (Video in Inglese)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+    - [ ] [MIT: Heaps e Ordinamento Heap (Video in Inglese)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B Lezione 24: Code di Priorità (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
+    - [ ] [Costruire un Heap (max-heap) (Video in Inglese)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] Implementa un max-heap:
+        - [ ] insert - inserisci un valore
+        - [ ] sift_up - neccessario per l'inserimento
+        - [ ] get_max - returna il valore massimo, senza rimuoverlo
+        - [ ] get_size() - returna il numero di elementi
+        - [ ] is_empty() - returna vero se l'heap è vuoto
+        - [ ] extract_max - returna il valore massimo, per poi rimuoverlo
+        - [ ] sift_down - necessario per l'extract_max
+        - [ ] remove(x) - rimuove un item all'index dato
+        - [ ] heapify - crea un heap da un array di elementi, necessario per heap_sort
+        - [ ] heap_sort() - prende un array non ordinato e lo ordina, da un valore massimo ad un valore minimo, che siano all'inizio o alla fine 
 
-## Sorting
+## Sorting (Ordinamento)
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
-        - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
-        - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
-        - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-        - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
-        - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+- [ ] Appunti:
+    - Implementazione degli ordinamenti & impara i migliori casi, peggiori casi e la complessità media di ognuno:
+        - no bubble sort - è terribile - O(n^2), tranne quando n <= 16
+    - [ ] Stabilità negli algoritmi di ordinamento ("Il Quicksort è stabile?")
+        - [Stabilità negli algoritmi di ordinamento (Articolo in Inglese)](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
+        - [Stabilità negli algoritmi di ordinamento (Articolo in Inglese)](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
+        - [Stabilità negli algoritmi di ordinamento (Articolo in Inglese)](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+        - [Stabilità negli algoritmi di ordinamento (Articolo in Inglese)](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
+    - [ ] Quali algoritmi possono essere utilizzati nelle linked list? Quali per gli array? Quali per entrambi?
+        - Non raccomando l'ordinamento delle linked list, ma il merge sort è fattibile.
+        - [Merge Sort per le Linked List (Articolo in Inglese)](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable
+- Per l'heapsort, leggi la struttura degli Heap sopra. Heap sort non è stabile, ma funziona bene
 
-- [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+- [ ] [Sedgewick - Mergesort (5 video, in Inglese)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
-    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
-    - [ ] [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
-    - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [2. Mergesort Dal Basso](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+    - [ ] [3. Complessità dell'Ordinamento](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    - [ ] [4. Comparatori](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [5. Stabilità](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
-- [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+- [ ] [Sedgewick - Quicksort (4 video)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
-    - [ ] [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
-    - [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
+    - [ ] [2. Selezione](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    - [ ] [3. Chiavi Duplicate](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    - [ ] [4. Metodi di Ordinamento del Sistema](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 - [ ] UC Berkeley:
-    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
-    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
+    - [ ] [CS 61B Lezione 29: Sorting I (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
+    - [ ] [CS 61B Lezione 30: Sorting II (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
+    - [ ] [CS 61B Lezione 32: Sorting III (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
+    - [ ] [CS 61B Lezione 33: Sorting V (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
 
-- [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
-- [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
-- [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-- [ ] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
-- [ ] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
-- [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
-- [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
+- [ ] [Bubble Sort (Video in Inglese)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
+- [ ] [Analizzare il Bubble Sort (Video in Inglese)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
+- [ ] [Insertion Sort, Merge Sort (Video in Inglese)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- [ ] [Insertion Sort (Video in Inglese)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
+- [ ] [Merge Sort (Video in Inglese)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
+- [ ] [Quicksort (Video in Inglese)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
+- [ ] [Selection Sort (Video in Inglese)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
-    - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
-    - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
+- [ ] Codice del merge sort:
+    - [ ] [Usando un array come output (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
+    - [ ] [Usando un array come output (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
-    - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
-    - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-    - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+- [ ] Codice del quick sort:
+    - [ ] [Implementazione (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
+    - [ ] [Implementazione (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
+    - [ ] [Implementazione (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above
+- [ ] Implementazione:
+    - [ ] Mergesort: O(n log n) caso medio e peggiore
+    - [ ] Quicksort O(n log n) caso medio
+    - Selection sort e insertion sort sono entrambi O(n^2) caso medio e peggiore
+    - Per l'heapsort, guarda l'Heap riportato sopra
 
 - [ ] Not required, but I recommended them:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)

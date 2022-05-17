@@ -144,7 +144,7 @@ software development/ruoli dell'engineering.
     - [Hash Table](#hash-table)
 - [Più Teoria](#piu-teoria)
     - [Ricerca Binaria](#ricerca-binaria)
-    - [Operazione Bit a Bit](#operazione-bit-a-bit)
+    - [Operazioni Bit a Bit](#operazioni-bit-a-bit)
 - [Alberi (Trees)](#alberi-trees)
     - [Alberi - Appunti & Background](#trees---notes--background)
     - [Alberi Binari di Ricerca: BSTs](#binary-search-trees-bsts)

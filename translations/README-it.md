@@ -645,111 +645,112 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - spazio necessario = (capacità dell'array, che è >= n) * grandezza di un item, ma anche se 2n, rimane O(n)
 
 - ### Linked Lists
-    - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
-        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation
+    - [ ] Descrizione:
+        - [ ] [Liste Linkate Singolarmente (Video in Inglese)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [CS 61B - Linked Lists 1 (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [ ] [C Code (Video in Inglese)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - non il video intero, ma solo nozioni sulla struttura del nodo e l'allocazione della memoria
     - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+        - [Core Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [Nel Mondo Reale, Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    - [ ] [Perché dovresti evitare le Linked Lists (Video in Inglese)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Ti aiuto un po': hai bisogno della conoscenza riguardo puntatori di puntatori:
+        (per quando passi un puntatore ad una funzione che potrebbe cambiare l'indirizzo a cui il puntatore punta)
+        Questa pagina serve solo ad avere un assaggio dei puntatori ai puntatori. Non consiglio di seguire l'ordine di questa lista.
+	La scorrevolezza nel leggere viene persa per colpa di una mancanza di intelligenza.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
-        - No need to implement
+    - [ ] Implementazione (Fatto con puntatori alla coda e senza):
+        - [ ] size() - returna il numero di elementi nella lista
+        - [ ] empty() - returna vero se la lista è vuota, altrimenti falso
+        - [ ] value_at(index) - returna il valore in posizione index (partendo da 0 per il primo)
+        - [ ] push_front(value) - aggiungi un item in testa alla lista
+        - [ ] pop_front() - rimuove l'item in testa alla lista e ne returna il valore
+        - [ ] push_back(value) - aggiunge un elemento in coda alla lista
+        - [ ] pop_back() - rimuove l'elemento finale della lista e ne returna il valore
+        - [ ] front() - returna il valore all'inizio della lista
+        - [ ] back() - returna il valore alla fine della lista
+        - [ ] insert(index, value) - inserisce il valore in posizione index, così l'elemento attuale in posizione index punterà all'elemento successivo
+        - [ ] erase(index) - rimuove un nodo ad un index dato
+        - [ ] value_n_from_end(n) - returna un valore in posizione n rispetto la fine della lista
+        - [ ] reverse() - reversa la lista
+        - [ ] remove_value(value) - rimuove il primo elemento nella lista avente il valore dato
+    - [ ] Liste Linkate Doppiamente
+        - [Descrizione (Video in Inglese)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - Non c'è bisogno di implementarle
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] Will not implement. Implementing with array is trivial
+    - [ ] [Stacks (Video in Inglese)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] Non saranno implementati. Esercitarsi con l'array è quasi banale.
 
 - ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] [Queue (Video in Inglese)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Buffer Circolare/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] Implementazione usando le linked list, con puntatore alla coda:
+        - enqueue(value) - aggiunge un valore alla posizione della coda
+        - dequeue() - returna il valore aggiunto per ultimo e lo rimuove
+        - empty() - controlla se è vuota o meno
+    - [ ] Implementazione usando gli array con memoria allocata fissa:
+        - enqueue(value) - aggiunge un item alla fine
+        - dequeue() - returna il valore aggiunto per ultimo e lo rimuove
+        - empty() - controlla se la queue è vuota
+        - full() - controlla se la queue è piena
+    - [ ] Costi:
+        - una implementazione sbagliata usando le linked list dove aggiungi alla queue dalla testa e togli dalla coda porterebbe ad O(n)
+            perché avrai bisogno dal prossimo elemento fino alla fine, causando una dequeue trasversale per tutta la lista.
+        - enqueue: O(1) (ammortizzata, linked list e array [approfondendo])
+        - dequeue: O(1) (linked list e array)
+        - empty: O(1) (linked list e array)
 
 - ### Hash table
-    - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
-        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+    - [ ] Video:
+        - [ ] [Hashing con Chaining (Video in Inglese)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [ ] [Table Doubling, Karp-Rabin (Video in Inglese)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [Indirizzamento Aperto, Hashing Crittografico (Video in Inglese)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [PyCon 2010: Il Dizionario, ma Più Potente (Video in Inglese)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [PyCon 2017: Dizionario, ma ancora Più Potente (Video in Inglese)](https://www.youtube.com/watch?v=66P5FMkWoVU)
+        - [ ] [(Avanzato) Randomizzazione: Universale & Hashing Perfetto (Video in Inglese)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(Avanzato) L'hashing perfetto (Video in Inglese)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
-        - [ ] distributed hash tables:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+    - [ ] Corsi Online:
+        - [ ] [Core Hash Tables (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Strutture Dati (Video in Inglese)](https://www.coursera.org/learn/data-structures/home/week/4)
+        - [ ] [Problemi con gli Elenchi Telefonici (Video in Inglese)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] hash tables distribuite:
+            - [Uploads Istantanei e Ottimizzazione dello Storage Su Dropbox (Video in Inglese)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [Hash Tables Distribuite (Video in Inglese)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
-    - [ ] Implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+    - [ ] Implementazione con gli array usando il sondaggio (probing) lineare
+        - hash(k, m) - m è la grandezza dell'hash table
+        - add(key, value) - se la chiave esiste già, il valore viene aggiornato
+        - exists(key) - se la chiave esiste
+        - get(key) - prende il valore della chiave
+        - remove(key) - rimuove il valore con chiave data
 
-## More Knowledge
+## Piu' Teoria
 
-- ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-    - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+- ### Ricerca Binaria
+    - [ ] [Ricerca Binaria (Video in Inglese)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Ricerca Binaria (Video in Inglese)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [dettagli](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] [progetto](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+    - [ ] Implementazione:
+        - ricerca binaria (su array ordinati di interi)
+        - ricerca binaria usando la ricorsione
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+- ### Operazioni Bit a Bit
+    - [ ] [Cheat-sheet sui bit](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - dovrai arrivare a conoscere le potenze del 2 da 2^1 fino a 2^16 e 2^32
+    - [ ] Preparati bene sulla manipolazione dei bit tramite questi operatori: &, |, ^, ~, >>, <<
+        - [ ] [words (Articolo in Inglese)](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] Una buona Introduzione:
+            [Manipolazione dei Bit (Video in Inglese)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [Tutorial di programmazione C 2-10: Operazioni Bit a Bit (Video in Inglese)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Manipolazione dei Bit](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Operazioni bit a bit](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-        - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
-        - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
-        - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
+        - [ ] [Il Bit Twiddler](https://bits.stephan-brumme.com/)
+        - [ ] [Il Bit Twiddler Interattivo](https://bits.stephan-brumme.com/interactive.html)
+        - [ ] [Trucchi su i Bit (Video in Inglese)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
 		- [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
     - [ ] 2s and 1s complement
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)

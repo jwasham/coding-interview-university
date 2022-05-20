@@ -1050,10 +1050,10 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
     - [ ] [Make School: Probability (Video in Inglese)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
     - [ ] [Make School: More Probability and Markov Chains (Video in Inglese)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
     - [ ] Khan Academy:
-        - Course layout:
-            - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+        - Corso:
+            - [ ] [Teoria della Probabilità Basica](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
         - Just the video - 41 (each are simple and each are short):
-            - [ ] [Probability Explained (Video in Inglese)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+            - [ ] [Spiegazione della Probabilità (Video in Inglese)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Completo e Algoritmi di Approssimazione
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,

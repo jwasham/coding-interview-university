@@ -990,7 +990,8 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
     - Perché la ricorsione in coda è migliore?
         - [ ] [Cos'è la ricorsione in coda e perché fa schifo? (Articolo in Inglese)](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Ricorsione in Coda (Video in Inglese)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
-	
+    - [ ] [5 Semplici Step per risolvere Qualsiasi Problema di Ricorsione (Video in Inglese)](https://youtu.be/ngCos392W4w)
+
 	Backtracking Cheat-Sheet: [Java (Articolo in Inglese)](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
 	[Python (Articolo in Inglese)](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
 - ### Programmazione Dinamica

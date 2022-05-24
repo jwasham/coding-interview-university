@@ -1,0 +1,104 @@
+#1
+PYTHON does not have any built in array data structure]
+We save array in LIST nuilt in data type
+
+num_array = [4]
+num_array[5] = 6
+THROWS 
+    RUNTIME EXCEPTION
+    INDEX ERROR
+    list assignment index out of range
+
+
+#2
+Every ARRAY has default value
+
+#3
+Double quotes as String
+Single quotes as Characters
+
+#4
+Strings are also a type of Object
+
+#5
+You can always query the LENGTH of an array
+LENGTH IS AN IMMUTABLE FIELD OF AN ARRAY
+If try to change IMMUTABLE
+    THROWS COMPILE ERROR
+Usage : LIST_NAME.len()
+
+#6 
+Multi dimensional Arrays
+2D Array 
+    array of references to 1D Arrays
+
+
+-------------
+
+QUESTION / CONCEPTS
+#1
+PRIMES REVISITED : 
+    statement : Find all primes between 2 & n . Do it as fast as possible
+CONCEPT : SIEVE OF ERATOSTHENES
+    idea : All integers are assumed prime, until proven composite   
+    approach : Loop through all possible divisors, 
+               for each divisor wipe out all number it divides 
+
+CONCEPT : PASCAL'S TRIANGLE
+    each row i represents coefficients of (x+1)^i
+        eg : (x+1)^4 = x_4 + 4.x_3 + 6.x_2 + 4.x + 1 
+FORM
+                    1               <- ROW 0
+                  1   1
+               1    2    1
+         1    3      3       1
+    1      4       6      4     1 <- ROW 4 (in examples
+    )
+1                                       1   <- ROW 1
+-------------
+
+#TO SEE
+
+!!!
+TASK 
+    dry run code with n = 9
+CODE : java
+public static void printPrimes(int n){
+    !-- n+1 because array is zero indexed. We need all n elements
+    boolean[] prime = new boolean[n+1];
+    int i;
+    for(i = 2; i <= n ; i++){
+        prime[i] = true;
+    }
+    for(int divisor; divisor*divisor <= n ; divisor++){
+        if(prime[divisor]){
+            for(i = 2*divisor ; i <= n ; i = i + divisor){
+                prime[i] = false;
+            }
+        }
+    }
+    //PAY EXTRA ATTENTION TO THIS CODE
+    //UNDERSTAND HOW IT WORKS
+    for(i = 2 ; i <= n ; i++){
+        if(prime[i]){
+            System.out.println(" " + i);
+        }
+    }
+}
+
+!!!
+TASK
+    dry run code for n = 8
+CODE : java
+public static int[][] pascalTriangle(int n){
+    int[][] pt = int[n][];
+    for(int i = 0; i < n; i++){
+        pt[i] = new int[i+1];
+        pt[i][0] = 1;
+        for(int j = 1; j < i; j++){
+            pt[i][j] = pt[i-1][j-1] + pt[i-1][j];
+        }
+        pt[i][i] = 1
+    }
+    return pt;
+}

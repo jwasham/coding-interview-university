@@ -1,0 +1,15 @@
+#1 
+Dynamic Array v/s Dynamically Allocated Arrays
+
+A dynamically allocated array is allocated memory size on runtime,
+but after allocation, it is a static array at the end.
+whereas
+A dyamic array changes it memory size whenever it runs out of space
+It can also reduce its memory size if needed
+
+#2
+Jagged Arrays
+Usage : int[][] arr_jagged = new int[4][] 
+        This usage specfiies that arr_jagged contains 4 rows
+        Each row contains an array at it's contents
+        The dimensions of the array are dynamically set at runtime

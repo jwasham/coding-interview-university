@@ -1046,36 +1046,36 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
     - [Handy reference: 101 Design Pattern & Consigli per gli Sviluppatori](https://sourcemaking.com/design-patterns-and-tips)
 
 - ### Calcolo Combinatorio (n sopra k) & Probabilita'
-    - [ ] [Conoscenze di Matematica: How to find Factorial, Permutation and Combination (Choose) (Video in Inglese)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-    - [ ] [Make School: Probability (Video in Inglese)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-    - [ ] [Make School: More Probability and Markov Chains (Video in Inglese)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+    - [ ] [Conoscenze di Matematica: Come trovare il Fattoriale, Permutazione e Combinazione (Video in Inglese)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Make School: Probabilità (Video in Inglese)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    - [ ] [Make School: Ancora Probabilità e Processi Stocastici Markoviani (Video in Inglese)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
     - [ ] Khan Academy:
         - Corso:
             - [ ] [Teoria della Probabilità Basica](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Just the video - 41 (each are simple and each are short):
+        - Solo il Video - 41 (sono tutti semplici e brevi):
             - [ ] [Spiegazione della Probabilità (Video in Inglese)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Completo e Algoritmi di Approssimazione
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
-    - Know what NP-complete means.
+    - Impara le classi più famose dei problemi NP-Completi, come il problema del commesso viaggiatore e il problema dello zaino,
+        e impara a riconoscere un problema NP quando ti viene proposto durante il colloquio.
+    - Capisci cosa sia la NP-Completezza significa.
     - [ ] [Computational Complexity (Video in Inglese)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
-        - [ ] [Greedy Algs. II & Intro to NP Completeness (Video in Inglese)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
-        - [ ] [NP Completeness II & Reductions (Video in Inglese)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness III (Video in Inglese)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness IV (Video in Inglese)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+        - [ ] [Greedy Algs. II & Introduzione alla NP-Completezza (Video in Inglese)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] [NP-Completezza II & Reductions (Video in Inglese)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP-Completezza III (Video in Inglese)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP-Completezza IV (Video in Inglese)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
     - [ ] Skiena:
-        - [ ] [CSE373 2020 - Lezione 23 - NP-Completeness (Video in Inglese)](https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23)
-        - [ ] [CSE373 2020 - Lezione 24 - Satisfiability (Video in Inglese)](https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24)
-        - [ ] [CSE373 2020 - Lezione 25 - More NP-Completeness (Video in Inglese)](https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25)
-        - [ ] [CSE373 2020 - Lezione 26 - NP-Completeness Challenge (Video in Inglese)](https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26)
-    - [ ] [Complexity: P, NP, NP-completeness, Reductions (Video in Inglese)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Complexity: Approximation Algorithms (Video in Inglese)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Complexity: Fixed-Parameter Algorithms (Video in Inglese)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
-        - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Pages 1048 - 1140 in CLRS if you have it.
+        - [ ] [CSE373 2020 - Lezione 23 - NP-Completezza (Video in Inglese)](https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23)
+        - [ ] [CSE373 2020 - Lezione 24 - Soddisfacibilità (Video in Inglese)](https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24)
+        - [ ] [CSE373 2020 - Lezione 25 - Ancora NP-Completezza (Video in Inglese)](https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25)
+        - [ ] [CSE373 2020 - Lezione 26 - NP-Completezza Challenge (Video in Inglese)](https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26)
+    - [ ] [Complessità: P, NP, NP-Completezza, Riduzioni (Video in Inglese)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    - [ ] [Complessità: Algoritmi di Approssimazione (Video in Inglese)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    - [ ] [Complessità: Algoritmi con Parametri Fissi (Video in Inglese)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - Peter Norvig discute riguardo una quasi perfetta soluzione per il problema del commesso viaggiatore:
+        - [Jupyter Notebook (Articolo in Inglese)](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+    - Pagine da 1048 a 1140 nel CLRS (se lo hai).
 
 - ### Come i Computer Processano un Programma
 

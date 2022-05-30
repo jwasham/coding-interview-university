@@ -311,7 +311,7 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
 
 ## Choisis une langue pour l'Entrevue
 
-Je l'ai écrit cet article à propos de cela : [Important: Chois une langue pour l'entrevue Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+Je l'ai écrit cet article à propos de cela : [Important: Choisis une langue pour l'entrevue Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
 Tu peux choisir une langue avec laquelle vos êtes comftortable pour fair la partie de codage, mais pour Google, celles-ci sont les bons choix:
 

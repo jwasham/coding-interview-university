@@ -2,7 +2,7 @@
 
 - C
   - [ANSI C Cheat Sheet](<https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf>)
-  - K&R C book (ANSI C)
+  - [K&R C book (ANSI C)](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
   - [Make, Clang (video)](https://www.youtube.com/watch?v=U3zCxnj2w8M)
   - GDB:
     - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=USPvePv1uzE)

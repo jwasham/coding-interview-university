@@ -561,6 +561,11 @@ Coding Interview Question Videos:
     - Good explanations of solution and the code
     - You can watch several in a short time
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+- [Neetcode - BLIND 75 LeetCode Solutions](https://www.youtube.com/watch?v=KLlXCFG5TnA&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+    - Good explanations of solution and the python code
+    - Also checkout [excel sheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0) for all question list
+    - [Github links](https://github.com/neetcode-gh/leetcode) for all solutions code
+    - [Neetcode 150](https://neetcode.io/)
 
 Challenge sites:
 - [LeetCode](https://leetcode.com/)

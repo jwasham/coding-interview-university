@@ -652,7 +652,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Linked Lists
 
-  - [x] Description:
+  - [ ] Description:
     - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
     - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)

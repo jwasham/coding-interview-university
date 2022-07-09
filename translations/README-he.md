@@ -1,4 +1,4 @@
-# Coding Interview University
+# Coding Interview University אוניברסיטיה של ראיונות קוד 
 <div dir='rtl'>
 	<h2> על מה מדובר כאן?</h2>
 	<p>
@@ -350,7 +350,7 @@ Read more about choices:
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
-## Book List
+## רשימת ספרים
 
 This is a shorter list than what I used. This is abbreviated to save you time.
 
@@ -372,7 +372,7 @@ If you have tons of extra time:
     - all code is in C++, very good if you're looking to use C++ in your interview
     - a good book on problem solving in general.
 
-### Computer Architecture
+### מבנה המחשב
 
 If short on time:
 
@@ -465,8 +465,8 @@ OR:
     - Can rent it on kindle
     - Half.com is a great resource for textbooks at good prices.
     - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
+        - [פתרון](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+        - [פתרון](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
@@ -484,7 +484,7 @@ OR:
     - Would rather spend time on coding problems from another book or online coding problems.
 
 
-## Before you Get Started
+##  לפני שאתם מתחילים
 
 This list grew over many months, and yes, it kind of got out of hand.
 
@@ -588,8 +588,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+    - [סרטון](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [מצגות](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
 - [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
 - [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
@@ -606,9 +606,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     If some of the lectures are too mathy, you can jump down to the bottom and
     watch the discrete mathematics videos to get the background knowledge.
 
-## Data Structures
+## מבנה נתונים
 
-- ### Arrays
+- ### מערכים
     - Implement an automatically resizing vector.
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
@@ -673,11 +673,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
-- ### Stack
+- ### מחסנית
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] Will not implement. Implementing with array is trivial.
 
-- ### Queue
+- ### תור
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] Implement using linked-list, with tail pointer:
@@ -720,9 +720,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - get(key)
         - remove(key)
 
-## More Knowledge
+## ידע נוסף
 
-- ### Binary search
+- ###  חיפוש בינארי
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
@@ -757,9 +757,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] absolute value:
         - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## עצים
 
-- ### Trees - Notes & Background
+- ### עצים - Notes & Background
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basic tree construction
     - traversal
@@ -839,7 +839,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
-## Sorting
+##  מיונים
 
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
@@ -960,7 +960,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Even More Knowledge
 
-- ### Recursion
+- ### רקורסיה
     - [ ] Stanford lectures on recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -1052,12 +1052,12 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
     - Pages 1048 - 1140 in CLRS if you have it.
 
-- ### Caches
-    - [ ] LRU cache:
+- ### מטמון
+    - [ ] LRU מטמון:
         - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
         - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
         - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-    - [ ] CPU cache:
+    - [ ] CPU מטמון:
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
@@ -1121,7 +1121,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
+- ### בדיקות
     - To cover:
         - how unit testing works
         - what are mock objects
@@ -1276,7 +1276,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - infrastructure: load balancing, messaging
             - rough overview of any key algorithm that drives the service
             - consider bottlenecks and determine solutions
-    - Exercises:
+    - תרגילים :
         - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
@@ -1289,15 +1289,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ---
 
-## Final Review
+## חזרה סופית
 
     This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+    - [סרטונים](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
 - [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+    - [סרטונים](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---
 
@@ -1372,7 +1372,7 @@ See [Book List above](#book-list)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## קורות חיים שלך
 
 - [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
@@ -1434,7 +1434,7 @@ You're never really done.
 
 ---
 
-## Additional Books
+## ספרים נוספים
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
     - an oldie but a goodie
@@ -1450,7 +1450,7 @@ You're never really done.
     - [Site Reliability Engineering: How Google Runs Production Systems](https://landing.google.com/sre/)
 - [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-## Additional Learning
+## לימודים נוספים
 
 - ### Dynamic Programming
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
@@ -1477,7 +1477,7 @@ You're never really done.
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Compilers
+- ### קומפיילרים
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
     - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
@@ -1572,7 +1572,7 @@ You're never really done.
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking
+- ### רשתות
     - **if you have networking experience or want to be a systems engineer, expect questions**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
@@ -1694,7 +1694,7 @@ You're never really done.
     - I want to learn more about B-Tree since it's used so widely with very large data sets.
     - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
-    - [ ] **AVL trees**
+    - [ ] **AVL עצים**
         - In practice:
             From what I can tell, these aren't used much in practice, but I could see where they would be:
             The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
@@ -1808,8 +1808,8 @@ You're never really done.
     - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
-    - see videos below
+- ### מטמטיקה בדידה
+    - יש סרטונים למטה
 
 - ### Machine Learning
     - [ ] Why ML?
@@ -1830,7 +1830,7 @@ You're never really done.
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
     - Resources:
-        - Books:
+        - ספרים:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
             - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
             - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
@@ -1838,11 +1838,11 @@ You're never really done.
         - Data School: http://www.dataschool.io/
 
 - ### Go
-    - [ ] Videos:
+    - [ ] סרטונים:
         - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
         - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
         - [ ] [A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
-    - [ ] Books:
+    - [ ] ספרים:
         - [ ] [An Introduction to Programming in Go (read free online)](https://www.golang-book.com/books/intro)
         - [ ] [The Go Programming Language (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
     - [ ] [Bootcamp](https://www.golang-book.com/guides/bootcamp)
@@ -1905,7 +1905,7 @@ You're never really done.
         - nice explanation of tries
         - can be skipped
 
-- [ ] **Sorting**
+- [ ] **מינום**
 
     - [ ] Stanford lectures on sorting:
         - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
@@ -1983,7 +1983,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## קורסים במדעי המחשב
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)

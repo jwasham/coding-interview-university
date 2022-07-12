@@ -1,4 +1,4 @@
-# Kodering Universiteit
+# Kodering Onderhoud Universiteit
 
 > Ek het oorspronklik dié as 'n kort om-te-doen lys van studie onderwerpe om 'n sagteware ingenieur te word gemaak,
 > maar did het gegroei tot die groot lys wat jy vandag sien. Nadat ek dié studieplan gevolg het, [het Amazon my
@@ -56,7 +56,7 @@
 <div align="center">
     <hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Word 'n bydraër</strong> en borg Kodering Universiteit!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Word 'n bydraër</strong> en borg Kodering Onderhoud Universiteit!</a>
     </p>
     <p>
         <strong>Spesiale dank aan:</strong>
@@ -92,15 +92,15 @@
 
 ## Wat is dit?
 
-![Kodeering op die witbord - van HBO se Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+![Kodering op die witbord - van HBO se Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Dié is my multi-maand studie plan om 'n sagteware ingeneur te word vir 'n groot maatskappy.
 
 **Benodighede:**
-* 'n Bietjie ondervinding met kodeering (veranderlikes, lusse, metodes/funksies, ens)
+* 'n Bietjie ondervinding met kodrering (veranderlikes, lusse, metodes/funksies, ens)
 * Geduld
 * Tyd
-* 
+  
 Let wel dat die 'n studieplan vir 'n **sagteware ingeneur** pos is, nie 'n webontwikkeling pos nie. Groot maatskappeie soos Google, Amazon,
 Facebook en Microsoft sien sagteware ingeneurs as verskilled van webontwikkeling ingeneurs. Byvoorbeeld, Amazon het
 Frontend Ingeneurs (FEE) en Sagteware Ontwikkeling Ingeneurs (SDE). Die is 2 verskeie rolle en die onderhoude verskil,
@@ -113,18 +113,28 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ### Die Studie Plan
 
-- [Wat is dit?](#what-is-it)
-- [Hoekom gebruik dit?](#why-use-it)
-- [Hoe om dit te gebruik](#how-to-use-it)
-- [Moenie voel dat jy nie slim genoeg is nie](#dont-feel-you-arent-smart-enough)
-- ['n Nota Oor Video Hulpbronne](#a-note-about-video-resources)
-- [Kies 'n Programmeeringstaal](#choose-a-programming-language)
-- [Boeke vir Datastrukture en Algoritmes](#books-for-data-structures-and-algorithms)
-- [Onderhoud Voorbereïngsboeke](#interview-prep-books)
-- [Moenie My Foute Maak Nie](#dont-make-my-mistakes)
-- [Wat Jy Nie Sal Sien Gedek Word Nie](#what-you-wont-see-covered)
-- [Die Daaglikse Plan](#the-daily-plan)
-- [Kodeering Vrae Beoefening](#coding-question-practice)
-- [Kodeering Probleme](#coding-problems)
+- [Wat is dit?](#wat-is-dit)
+- [Hoekom gebruik dit?](#hoekom-gebruik-dit)
+- [Hoe om dit te gebruik](#hoe-om-dit-te-gebruik)
+- [Moenie voel asof jy nie slim genoeg is nie](#moenie-voel-asof-jy-nie-slim-genoeg-is-nie)
+- ['n Nota Oor Video Hulpbronne](#n-nota-oor-video-hulpbronne)
+- [Kies 'n Programmeeringstaal](#kies-n-programmeeringstaal)
+- [Boeke vir Datastrukture en Algoritmes](#boeke-vir-datastrukture-en-algoritmes)
+- [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereiding)
+- [Moenie My Foute Maak Nie](#moenie-my-foute-maak-nie)
+- [Wat Jy Nie Sal Sien Gedek Word Nie](#wat-jy-nie-sal-sien-gedek-word-nie)
+- [Die Daaglikse Plan](#die-daaglikse-plan)
+- [Kodering Vrae Beoefening](#kodering-vrae-beoefening)
+- [Kodering Probleme](#kodering-probleme)
 
-### Topics of Study
+## Onderwerpe om te Studeer
+
+- [Kodering Onderhoud Universiteit]()
+  - [Wat is dit?](#wat-is-dit)
+  - [Inhoudsopgawe](#inhoudsopgawe)
+    - [Die Studie Plan](#die-studie-plan)
+    - [Onderwerpe om te Studeer](#onderwerpe-om-te-studeer)
+    - [Kry die Werk](#kry-die-werk)
+    - [Opsionele Ekstra Onderwerpe & Hulpbronne](#opsionele-ekstra-onderwerpe--hulpbronne)
+  - [Hoekom gebruik dit?](#hoekom-gebruik-dit)
+  - [Hoe om dit te gebruik?](#hoe-om-dit-te-gebruik)

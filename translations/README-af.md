@@ -118,3 +118,13 @@ sagteware ontwikkeling/ingeneur rolle.
 - [Hoe om dit te gebruik](#how-to-use-it)
 - [Moenie voel dat jy nie slim genoeg is nie](#dont-feel-you-arent-smart-enough)
 - ['n Nota Oor Video Hulpbronne](#a-note-about-video-resources)
+- [Kies 'n Programmeeringstaal](#choose-a-programming-language)
+- [Boeke vir Datastrukture en Algoritmes](#books-for-data-structures-and-algorithms)
+- [Onderhoud Voorbereïngsboeke](#interview-prep-books)
+- [Moenie My Foute Maak Nie](#dont-make-my-mistakes)
+- [Wat Jy Nie Sal Sien Gedek Word Nie](#what-you-wont-see-covered)
+- [Die Daaglikse Plan](#the-daily-plan)
+- [Kodeering Vrae Beoefening](#coding-question-practice)
+- [Kodeering Probleme](#coding-problems)
+
+### Topics of Study

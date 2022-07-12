@@ -56,7 +56,7 @@
 <div align="center">
     <hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Word 'n bydraer</strong> en borg Kodering Universiteit!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Word 'n bydraër</strong> en borg Kodering Universiteit!</a>
     </p>
     <p>
         <strong>Spesiale dank aan:</strong>
@@ -64,7 +64,18 @@
     <p>
         <a href="https://oss.capital/">
             <div>
-            
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Gestig in 2018, OSS Capital is die eerste en enigste waagkapitaal platform gefokus<br>uitsluitlik om vroeë stadium COSS (komersiële oop bron) opstart stigters te ondersteun.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
             </div>
     </p>
 </div>

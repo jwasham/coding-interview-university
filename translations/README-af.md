@@ -56,5 +56,6 @@
 <div align="center">
     <hr />
     <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Word 'n bydraer</strong> en borg Kodering Universiteit!</a>
     </p>
 </div>

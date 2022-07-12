@@ -58,4 +58,13 @@
     <p>
         <a href="https://github.com/sponsors/jwasham"><strong>Word 'n bydraer</strong> en borg Kodering Universiteit!</a>
     </p>
+    <p>
+        <strong>Spesiale dank aan:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+            
+            </div>
+    </p>
 </div>

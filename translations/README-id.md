@@ -1717,7 +1717,10 @@ Anda tidak pernah benar-benar selesai.
     - [Bagilah & Taklukkan: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Matematika diskrit
-    - lihat video di bawah ini
+    - Apa itu Matematika Diskrit?
+        - [Perkenalan Matematika Diskrit](https://www.youtube.com/watch?v=p2b2Vb-cYCs)
+    - Kuliah Gratis Matematika Diskrit
+        - [Kuliah Gratis Matematika Diskrit *CS 70: Discrete Mathematics and Probability Theory (Spring 2015, UC Berkeley)*()](http://www.infocobuild.com/education/audio-video-courses/computer-science/CS70-Spring2015-Berkeley/lecture-01.html)
 
 - ### Pembelajaran Mesin (Machine Learning)
     - Kenapa ML?
@@ -1951,3 +1954,4 @@ Terjemahan Bahasa Indonesia dipersembahkan oleh
 - @[hwhung0111](https://github.com/hwhung0111)
 - @[fahminlb33](https://github.com/fahminlb33)
 - @[davidsetyanugraha](https://github.com/davidsetyanugraha)
+- @[afrizal0](https://github.com/afrizal0)

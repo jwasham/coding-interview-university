@@ -87,4 +87,13 @@
             </div>
         </a>
     </p>
+    <hr />
 </div>
+
+## Wat is dit?
+
+![Kodeering op die witbord - van HBO se Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+
+Dié is my multi-maand studie plan om 'n sagteware ingeneur te word vir 'n groot maatskappy.
+
+**Benodighede:**

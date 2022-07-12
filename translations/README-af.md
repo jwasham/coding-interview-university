@@ -97,3 +97,14 @@
 Dié is my multi-maand studie plan om 'n sagteware ingeneur te word vir 'n groot maatskappy.
 
 **Benodighede:**
+* 'n Bietjie ondervinding met kodeering (veranderlikes, lusse, metodes/funksies, ens)
+* Geduld
+* Tyd
+* 
+Let wel dat die 'n studieplan vir 'n **sagteware ingeneur** pos is, nie 'n webontwikkeling pos nie. Groot maatskappeie soos Google, Amazon,
+Facebook en Microsoft sien sagteware ingeneurs as verskilled van webontwikkeling ingeneurs. Byvoorbeeld, Amazon het
+Frontend Ingeneurs (FEE) en Sagteware Ontwikkeling Ingeneurs (SDE). Die is 2 verskeie rolle en die onderhoude verskil,
+omdat elkeen sy eie bevoegdhede het. Dié maatskappeie benodig rekenaar wetenskap kennis vir
+sagteware ontwikkeling/ingeneur rolle.
+
+---

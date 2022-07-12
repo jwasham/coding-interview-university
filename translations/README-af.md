@@ -178,3 +178,12 @@ sagteware ontwikkeling/ingeneur rolle.
   - [Sodra Jy Die Werk Het](#sodra-jy-die-werk-het)
   - [Bykomende Boeke](#bykomende-boeke)
   - [Stelsel Onderwerp, Skaalbaarheid, Data Hantering](#stelsel-onderwerp-skaalbaarheid-data-hantering)
+  - [Bykomende Leer](#bykomende-leer)
+  - [Bykomende Detail op Sommige Vakke](#bykomende-detail-op-sommige-vakke)
+  - [Video Reeks](#video-reeks)
+  - [Rekenaar Wetenshap Kursusse](#rekenaar-wetenshap-kursusse)
+  - [Algoritmes implementering](#algoritmes-implementering)
+  - [Papiere](#papiere)
+  - [LISENSIE](#lisensie)
+
+### Kry die Werk

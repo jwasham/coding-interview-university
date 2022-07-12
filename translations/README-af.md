@@ -108,3 +108,13 @@ omdat elkeen sy eie bevoegdhede het. Dié maatskappeie benodig rekenaar wetenska
 sagteware ontwikkeling/ingeneur rolle.
 
 ---
+
+## Inhoudsopgawe
+
+### Die Studie Plan
+
+- [Wat is dit?](#what-is-it)
+- [Hoekom gebruik dit?](#why-use-it)
+- [Hoe om dit te gebruik](#how-to-use-it)
+- [Moenie voel dat jy nie slim genoeg is nie](#dont-feel-you-arent-smart-enough)
+- ['n Nota Oor Video Hulpbronne](#a-note-about-video-resources)

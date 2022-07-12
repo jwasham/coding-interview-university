@@ -77,5 +77,14 @@
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
             </div>
+            <div>
+                <p>
+                    <strong>Dev omgewings gebou vir die wolk</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Inheems geïntegreer met GitLab, GitHub, en Bitbucket, bou Gitpod outomaties en aanhoudend dev omgewings vir al jou takke. As gevolg kan span lede onmiddellik begin kodeer met vars dev omgewings vir elke nuwe taak - maak nie saak of jy 'n nuwe kenmerk bou, 'n fout wil reg maak, of werk aan 'n kode resensie nie.</sup>
+            </div>
+        </a>
     </p>
 </div>

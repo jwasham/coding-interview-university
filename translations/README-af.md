@@ -26,5 +26,15 @@
 - [Japanese (日本語)](translations/README-ja.md)
 - [Russian](translations/README-ru.md)
 - [German](translations/README-de.md)
-- 
+- [Bahasa Indonesia](translations/README-id.md)
+- [ខ្មែរ - Khmer](translations/README-kh.md)
+- [Uzbek](translations/README-uz.md)
+- [Bulgarian](translations/README-bg.md)
+- [বাংলা - Bangla](translations/README-bn.md)
+
+</details>
+
+<details>
+<summary>Vertalings aan die gang:</summary>
+
 </details>

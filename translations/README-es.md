@@ -117,7 +117,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Lo que no verá cubierto](#lo-que-no-verá-cubierto)
 - [El plan diario](#el-plan-diario)
 - [Conocimientos Previos](#conocimientos-previos)
-- [Complejidad algorítmica / Big-O / Análisis asintótico](#complejidad-algorítmica-big-o-análisis-asintótico)
+- [Complejidad algorítmica / Big-O / Análisis asintótico](#complejidad-algorítmica--big-o--análisis-asintótico)
 - [Estructuras de datos](#estructuras-de-datos)
     - [Arreglos](#arreglos)
     - [Listas Enlazadas](#listas-enlazadas)

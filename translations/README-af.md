@@ -187,3 +187,14 @@ sagteware ontwikkeling/ingeneur rolle.
   - [LISENSIE](#lisensie)
 
 ### Kry die Werk
+
+- [Werk Jou CV By]()
+- [Kry 'n Werk](#kry-n-werk)
+- [Onderhoudproses & Algemene Voorbereiding](#onderhoudproses--algemene-voorbereiding)
+- [Dink aan vir wanneer die onderhoud kom](#dink-aan-vir-wanneer-die-onderhoud-kom)
+- [Hê vrae vir die onderhoudvoerder](#he-vrae-vir-die-onderhoudvoerder)
+- [Sodra Jy Die Werk Het](#sodra-jy-die-werk-het)
+
+**---------------- Alles hieronder is opsioneel ----------------**
+
+### Opsionele Ekstra Onderwerpe & Hulpbronne

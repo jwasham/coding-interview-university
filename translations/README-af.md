@@ -281,3 +281,9 @@ Ek gebruik Github se spisiale markdown flavor, insluitend taaklyste om vordering
   - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ### As jy nie git wil gebruik nie
+
+Op dié blad, kliek die Code knop naby die bookant, dan kliek "Download ZIP". Unzip die lêer en jy kan werk met die teks lêers.
+
+As jy in 'n kode redakteur is wat markdown verstaan, sal jy sien alles is mooi geformateer.
+
+![Hoe om die repo af te laai as 'n zip lêer](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)

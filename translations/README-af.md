@@ -358,3 +358,16 @@ Jy mag dit dalk nie nodig kry nie, maar hier is 'n paar webwerwe om jou nuwe taa
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
+
+### Vir jou Kodering Onderhoud
+
+Jy kan 'n taal gebruik waarmee jy gemaklik in is om die kodeering deel van die onderhoud te doen, maar vir groot maatskappye is die goeie besluite:
+
+- C++
+- Java
+- Python
+
+Jy kan ook dié gebruik, maar lees eers rond. Daar is baie caveats:
+
+- JavaScript
+- Ruby

@@ -287,3 +287,13 @@ Op dié blad, kliek die Code knop naby die bookant, dan kliek "Download ZIP". Un
 As jy in 'n kode redakteur is wat markdown verstaan, sal jy sien alles is mooi geformateer.
 
 ![Hoe om die repo af te laai as 'n zip lêer](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
+
+### As jy gemaklik met git is
+
+Skep 'n nuwe tak sodat jy items soos dié kan merk, sit net 'n x in die hakies: [x]
+
+    Virk 'n tak en vold die bevele hieronder
+
+Virk die Github repo https://github.com/jwasham/coding-interview-university deur om die Fork knop to druk.
+
+Kloon na jou plaaslike repo:

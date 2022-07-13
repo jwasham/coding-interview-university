@@ -297,3 +297,18 @@ Skep 'n nuwe tak sodat jy items soos dié kan merk, sit net 'n x in die hakies: 
 Virk die Github repo https://github.com/jwasham/coding-interview-university deur om die Fork knop to druk.
 
 Kloon na jou plaaslike repo:
+
+    git clone git@github.com:<your_github_username>/coding-interview-university.git
+    git checkout -b progress
+    git remote add jwasham https://github.com/jwasham/coding-interview-university
+    git fetch --all
+
+Merk al die bokse met X nadat jy jou veranderinge voltooi het:
+
+    git add .
+    git commit -m "Marked x"
+    git rebase jwasham/main
+    git push --set-upstream origin progress
+    git push --force
+
+## Moenie voel asof jy nie slim genoeg is nie

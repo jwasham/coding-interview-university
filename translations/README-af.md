@@ -113,19 +113,15 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ### Die Studie Plan
 
-- [Wat is dit?](#wat-is-dit)
-- [Hoekom gebruik dit?](#hoekom-gebruik-dit)
-- [Hoe om dit te gebruik](#hoe-om-dit-te-gebruik)
-- [Moenie voel asof jy nie slim genoeg is nie](#moenie-voel-asof-jy-nie-slim-genoeg-is-nie)
-- ['n Nota Oor Video Hulpbronne](#n-nota-oor-video-hulpbronne)
-- [Kies 'n Programmeeringstaal](#kies-n-programmeeringstaal)
-- [Boeke vir Datastrukture en Algoritmes](#boeke-vir-datastrukture-en-algoritmes)
-- [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereiding)
-- [Moenie My Foute Maak Nie](#moenie-my-foute-maak-nie)
-- [Wat Jy Nie Sal Sien Gedek Word Nie](#wat-jy-nie-sal-sien-gedek-word-nie)
-- [Die Daaglikse Plan](#die-daaglikse-plan)
-- [Kodering Vrae Beoefening](#kodering-vrae-beoefening)
-- [Kodering Probleme](#kodering-probleme)
+- [Kodering Onderhoud Universiteit](#kodering-onderhoud-universiteit)
+  - [Wat is dit?](#wat-is-dit)
+  - [Inhoudsopgawe](#inhoudsopgawe)
+    - [Die Studie Plan](#die-studie-plan)
+  - [Onderwerpe om te Studeer](#onderwerpe-om-te-studeer)
+    - [Kry die Werk](#kry-die-werk)
+    - [Opsionele Ekstra Onderwerpe & Hulpbronne](#opsionele-ekstra-onderwerpe--hulpbronne)
+  - [Hoekom gebruik dit?](#hoekom-gebruik-dit)
+  - [Hoe om dit te gebruik?](#hoe-om-dit-te-gebruik)
 
 ## Onderwerpe om te Studeer
 
@@ -258,3 +254,19 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ---
 
+## Hoekom gebruik dit?
+
+As jy wil werk as 'n sagteware ingeneur vir 'n groot maatskappy, hierdie is die goed wat jy moet ken.
+
+As jy uitgemis het op 'n rekenaar wetenskap graad, soos ek het, sal hierdie jou laat opvang en vier jaar van jou lewe spaar.
+
+Toe ek hierdie projek begin het, kon ek nie verskil tussen 'n stapel en 'n hoop nie, het niks van Big-O geweet nie, of enige iets van bome nie, of hoe om
+'n grafiek te dwars nie. As ek 'n sorteer algoritme moes kode, kan ek jou verseker dit was verskriklik.
+Elke datastruktuur wat ek ooit moes gebruik was ingebou in die taal, end ek het nie geweet hoe hulle werk
+onder die kap nie. Ek het nooit nodig gehaad of geheue te bestuur nie, tensy 'n proses vir my 'n "te min
+beskikbare geheue" fout gegee het, en dan moes ek 'n ander oplossing kry. Ek het 'n paar multidimensionele skikkings
+in my lewe gebruik en duisende assosiatiewe skikkings, maar ek hoef nooit 'n datastruktuur van nuut af gebou het nie.
+
+Dis 'n lang plan. Dit gaan maande vat. As jy klaar gemaklik met baie van dié is gaan dit jou baie minder tyd vat.
+
+## Hoe om dit te gebruik?

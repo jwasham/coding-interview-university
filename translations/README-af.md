@@ -337,3 +337,14 @@ Verkieslik is die taal dieselfde, sodat jy net vaardigheid in een hoef te bou.
 
 Toe ek die studie plan gedoen het, het ek 2 tale gebruik vir meeste van dit: C en Python
 
+* C: Baie lae vlak. Laat jou toe om met pointers en geheue allocation/deallocation te werk, sodat jy die datastrukture en
+    algoritmes voel in jou bene. In hoër vlak tale soos Python en Java word die weggesteek van jou af. In daaglikse werk is dit wonderlik,
+    maar wanneer jy leer hoe die lae-vlak datastrukture gebou is, voel dit lekker om naby die metaal te wees.
+    - C is orals. Jy sal voorbeelde in boeke, lesings, vidoes, en *oral* sien wanner jy studeer.
+    - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Dié is 'n kort boek, maar dit sal jou 'n goeie vat gee oor die C taal en as jy dit 'n bikie oefen sal jy vinnig
+            vaardigheid bou. Deur om C te verstaan help dit jou om te verstaan hoe programme en geheue werk.
+        - Jy hoef nie super diep in die boek te gaan nie (of eens dit klaar te maak nie). Gaan net tot die punt waar jy C gemaklik kan lees en skryf.
+        - [Antwoorde vir vrae in die boek](https://github.com/lekkas/c-algorithms)
+* Python: Modern en baie duur, ek het dit geleer want dis super nuttig en laat my toe om minder kode te skruf in 'n onderhoud.
+

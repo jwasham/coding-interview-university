@@ -378,3 +378,13 @@ Hierdie is die oorspronklike artikel wat my pos op basseer was: [Choosing a Prog
 
 Jy moet baie gemaklik in die taal wees en kundig.
 
+Lees meer oor besluite:
+- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+
+[Sien taal-spesifieke hulpbronne hier](programming-language-resources.md)
+
+## Boeke vir Datastrukture en Algoritmes
+
+Die boek sal jou fondasie vir rekenaar wetenskap vorm.
+
+Kies net een, in die taal waarin jy gemaklik sal wees. Jy sal baie lees en kodeering doen.

@@ -332,3 +332,8 @@ Jy sal 'n programmeringstaal moet kies vir die kodering onderhoude wat jy gaan d
 maar jy sal dan ook 'n taal moet kies waarmee jy rekenaar wetenskap konsepte kan leer.
 
 Verkieslik is die taal dieselfde, sodat jy net vaardigheid in een hoef te bou.
+
+### Vir die Studie Plan
+
+Toe ek die studie plan gedoen het, het ek 2 tale gebruik vir meeste van dit: C en Python
+

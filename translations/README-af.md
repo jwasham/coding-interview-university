@@ -318,3 +318,17 @@ Merk al die bokse met X nadat jy jou veranderinge voltooi het:
 - [Dit is Gevaarlik om Alleen te Gaan: Struikel teen die Onsigbare Monsters in Tegnologie](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## 'n Nota Oor Video Hulpbronne
+
+Sekere videos is net beskikbaar as jy skryf vir 'n kurses in 'n Coursera of EdX klas. Dié is genoem MOOCs.
+Soms is die klasse nie in sessie nie end jy sal moet wag vir 'n paar maande, so jy het nie toegang nie.
+
+Dit sal wonderlik wees om die aanlyn klasse te vervang met gratis en altyd-beskikbare openbare bronne,
+soos YouTube videos (verkieslik universiteitslesings), sodat julle daarvanaf enige tyd kan leer,
+nie net wanneer 'n spesifieke aanlyn kursus in sessie is nie.
+
+## Kies 'n Programmeeringstaal
+
+Jy sal 'n programmeringstaal moet kies vir die kodering onderhoude wat jy gaan doen,
+maar jy sal dan ook 'n taal moet kies waarmee jy rekenaar wetenskap konsepte kan leer.
+
+Verkieslik is die taal dieselfde, sodat jy net vaardigheid in een hoef te bou.

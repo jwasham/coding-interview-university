@@ -388,3 +388,16 @@ Lees meer oor besluite:
 Die boek sal jou fondasie vir rekenaar wetenskap vorm.
 
 Kies net een, in die taal waarin jy gemaklik sal wees. Jy sal baie lees en kodeering doen.
+
+### C
+
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - Fondasie, Datastrukture, Sorteer, Soek, en Grafiek Algoritmes
+
+### Python
+
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - deur Goodrich, Tamassia, Goldwasser
+    - Ek lief die boek. Dit dek alles en meer.
+    - Pythonic kode.
+    - my boekverslag: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/

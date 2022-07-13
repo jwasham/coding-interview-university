@@ -113,15 +113,19 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ### Die Studie Plan
 
-- [Kodering Onderhoud Universiteit](#kodering-onderhoud-universiteit)
-  - [Wat is dit?](#wat-is-dit)
-  - [Inhoudsopgawe](#inhoudsopgawe)
-    - [Die Studie Plan](#die-studie-plan)
-  - [Onderwerpe om te Studeer](#onderwerpe-om-te-studeer)
-    - [Kry die Werk](#kry-die-werk)
-    - [Opsionele Ekstra Onderwerpe & Hulpbronne](#opsionele-ekstra-onderwerpe--hulpbronne)
-  - [Hoekom gebruik dit?](#hoekom-gebruik-dit)
-  - [Hoe om dit te gebruik?](#hoe-om-dit-te-gebruik)
+- [Wat is dit?]()
+- [Hoekom gebruik dit?](#hoekom-gebruik-dit)
+- [Hoe om dit te gebruik](#hoe-om-dit-te-gebruik)
+- [Moenie voel asof jy nie slim genoeg is nie](#moenie-voel-asof-jy-nie-slim-genoeg-is-nie)
+- ['n Nota Oor Video Hulpbronne](#n-nota-oor-video-hulpbronne)
+- [Kies 'n Programmeeringstaal](#kies-n-programmeeringstaal)
+- [Boeke vir Datastrukture en Algoritmes](#boeke-vir-datastrukture-en-algoritmes)
+- [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereiding)
+- [Moenie My Foute Maak Nie](#moenie-my-foute-maak-nie)
+- [Wat Jy Nie Sal Sien Gedek Word Nie](#wat-jy-nie-sal-sien-gedek-word-nie)
+- [Die Daaglikse Plan](#die-daaglikse-plan)
+- [Kodering Vrae Beoefening](#kodering-vrae-beoefening)
+- [Kodering Probleme](#kodering-probleme)
 
 ## Onderwerpe om te Studeer
 
@@ -270,3 +274,10 @@ in my lewe gebruik en duisende assosiatiewe skikkings, maar ek hoef nooit 'n dat
 Dis 'n lang plan. Dit gaan maande vat. As jy klaar gemaklik met baie van dié is gaan dit jou baie minder tyd vat.
 
 ## Hoe om dit te gebruik?
+
+Alles hieronder is 'n uitlyn, en jy moet elke item aan pak in orde van bo tot onder.
+
+Ek gebruik Github se spisiale markdown flavor, insluitend taaklyste om vordering te volg.
+  - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+
+### As jy nie git wil gebruik nie

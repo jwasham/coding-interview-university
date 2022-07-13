@@ -371,3 +371,10 @@ Jy kan ook dié gebruik, maar lees eers rond. Daar is baie caveats:
 
 - JavaScript
 - Ruby
+
+Hier is 'n artikel wat ek geskryf het oor hoe om 'n taal te kies vir die onderhoud: 
+[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+Hierdie is die oorspronklike artikel wat my pos op basseer was: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
+
+Jy moet baie gemaklik in die taal wees en kundig.
+

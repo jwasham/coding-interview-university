@@ -312,3 +312,9 @@ Merk al die bokse met X nadat jy jou veranderinge voltooi het:
     git push --force
 
 ## Moenie voel asof jy nie slim genoeg is nie
+
+- Suksesvolle sagteware ingeneurs is slim, maar baie het onsekerhede dat hulle nie slim genoeg is nie.
+- [Die mite van die Geniale Programeerder](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Dit is Gevaarlik om Alleen te Gaan: Struikel teen die Onsigbare Monsters in Tegnologie](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+
+## 'n Nota Oor Video Hulpbronne

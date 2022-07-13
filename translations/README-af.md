@@ -198,3 +198,16 @@ sagteware ontwikkeling/ingeneur rolle.
 **---------------- Alles hieronder is opsioneel ----------------**
 
 ### Opsionele Ekstra Onderwerpe & Hulpbronne
+
+- [Kodering Onderhoud Universiteit]()
+  - [Wat is dit?](#wat-is-dit)
+  - [Inhoudsopgawe](#inhoudsopgawe)
+    - [Die Studie Plan](#die-studie-plan)
+    - [Onderwerpe om te Studeer](#onderwerpe-om-te-studeer)
+    - [Kry die Werk](#kry-die-werk)
+    - [Opsionele Ekstra Onderwerpe & Hulpbronne](#opsionele-ekstra-onderwerpe--hulpbronne)
+  - [Hoekom gebruik dit?](#hoekom-gebruik-dit)
+  - [Hoe om dit te gebruik?](#hoe-om-dit-te-gebruik)
+    - [As jy nie git wil gebruik nie](#as-jy-nie-git-wil-gebruik-nie)
+    - [As jy gemaklik met git is](#as-jy-gemaklik-met-git-is)
+  - [Moenie voel asof jy nie slim genoeg is nie](#moenie-voel-asof-jy-nie-slim-genoeg-is-nie)

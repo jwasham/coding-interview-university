@@ -348,3 +348,13 @@ Toe ek die studie plan gedoen het, het ek 2 tale gebruik vir meeste van dit: C e
         - [Antwoorde vir vrae in die boek](https://github.com/lekkas/c-algorithms)
 * Python: Modern en baie duur, ek het dit geleer want dis super nuttig en laat my toe om minder kode te skruf in 'n onderhoud.
 
+Die is my voorkeur. Doen jy wat vir jou pas, natuurlik.
+
+Jy mag dit dalk nie nodig kry nie, maar hier is 'n paar webwerwe om jou nuwe taal te leer:
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
+- [Sphere Online Judge (spoj)](http://www.spoj.com/)
+- [Codechef](https://www.codechef.com/)
+- [Codeforces](https://codeforces.com/)

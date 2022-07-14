@@ -477,3 +477,13 @@ Maar as jy nie na my wil luister nie, hier is hulle:
 - [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
 - [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
+Hou in gedagte dat ek oorboord gegaan het en het kaarte wat alles van assembly taal en Python trivia na masjien leer en statistiek dek.
+Dit te veel vir wat nodig is.
+
+**Nota op flitskaarte:** Die eerste keer wat jy erken dat jy die anwoord ken, moenie dit as ken merk nie. Jy moet dieselfde
+kaart sien en dit vele kere reg beantwoord voordat jy regtig dit ken. Herhaling sal die kennis diepier
+in jou brein berê.
+
+As 'n alternatief na my flitskaart webwerf is [Anki](http://ankisrs.net/), wat vir my voorgestel is talle kere.
+Dit gebruik 'n herhalingssisteem om te help onthou. Dit gebruikers-vriendelik, beskikbaar op alle platforms en het 'n wolk sync sisteem.
+Dit kos $25 op iOS maar is verniet op ander platforms.

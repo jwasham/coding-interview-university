@@ -508,3 +508,12 @@ Sodra jy 'n onderwerp geleer het, en voel sowat gemaklik met dit, byvoorbeeld, *
 5. Doen hierdie met elke nuwe onderwerp wat jy leer.
 
 **Hou aan probleme doen terwyl jy al hierdie goed leer, nie na die tyd nie.**
+
+Jy word nie aangestel vir kennis nie, maar hoe jy die kennis toepas.
+
+Daar is baie hulpbronne vir dié glys onder. Gaan voort.
+
+### 4. Fokus
+
+Daar is 'n klomp afleidings wat jou kosbare tyd kan opvat. Fokus en konsentreer is moelik. Sit musiek
+aan sonder lirieke en jy sal in staat wees of goed te fokus.

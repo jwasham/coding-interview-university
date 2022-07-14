@@ -120,7 +120,7 @@ sagteware ontwikkeling/ingeneur rolle.
 - ['n Nota Oor Video Hulpbronne](#n-nota-oor-video-hulpbronne)
 - [Kies 'n Programmeeringstaal](#kies-n-programmeeringstaal)
 - [Boeke vir Datastrukture en Algoritmes](#boeke-vir-datastrukture-en-algoritmes)
-- [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereiding)
+- [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereidingsboeke)
 - [Moenie My Foute Maak Nie](#moenie-my-foute-maak-nie)
 - [Wat Jy Nie Sal Sien Gedek Word Nie](#wat-jy-nie-sal-sien-gedek-word-nie)
 - [Die Daaglikse Plan](#die-daaglikse-plan)
@@ -497,3 +497,14 @@ Sommige studente het 'n kwessie na vore gebring dat daar wit spasie is in die fo
 HIERDIE IS BAIE BELANGRIK.
 
 Begin met die kodering onderhoud vrae terwyl jy datastrukture en algoritmes leer.
+
+Jy moet toepas wat jy leer om probleme op te los, of jy sal vergeet. Ek het die fout gemaak.
+
+Sodra jy 'n onderwerp geleer het, en voel sowat gemaklik met dit, byvoorbeeld, **linked lists**:
+1. Maak een van die [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereidingsboeke) (of kodering probleem webwerve, onder gelys) oop
+2. Doen 2 of 3 vrae met betrekking tot linked lists.
+3. Beweeg aan na die volgende onderwerp.
+4. Later, gaan terug en doen nog 2 of 3 linked list probleme.
+5. Doen hierdie met elke nuwe onderwerp wat jy leer.
+
+**Hou aan probleme doen terwyl jy al hierdie goed leer, nie na die tyd nie.**

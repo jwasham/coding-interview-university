@@ -416,4 +416,15 @@ Jou besluit:
 
 ### C++
 
-Your choice:
+Jou besluit:
+
+- Goodrich, Tamassia, and Mount
+    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick and Wayne
+    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+## Onderhoud Voorbereïngsboeke
+
+Jy hoef nie 'n klomp van die te koop nie. Eerlikwaar is "Craking the Coding Interview" heelwaarskynlik genoeg,
+maar ek het meer gekoop om myself meer oefening te gee. Maar ek doen altyd te veel.

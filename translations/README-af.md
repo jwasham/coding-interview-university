@@ -447,3 +447,13 @@ Kies een:
 - [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
+## Moenie My Foute Maak Nie
+
+Hierdie lys het gegroei oor baie maande, en ja, dit het uit die hand geruk.
+
+Hierdie is 'n paar foute wat ek gemaak het sodat jy 'n beter ervaaring het. En jy sal maande se tyd spaar.
+
+### 1. Jy Sal Nie Alles Onthou Nie
+
+Ek het ure lank videos gekyk en deeglike notas gevat, en maande later was daar baie wat ek nie meer onthou het nie. Ek het 3 dae spandeer
+om deur my notas te gaan en flitskaarte te maak, sodat ek kon herleer. Ek het nie al daardie kennis nodig gehaad nie.

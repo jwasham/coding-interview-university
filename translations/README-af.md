@@ -400,4 +400,11 @@ Kies net een, in die taal waarin jy gemaklik sal wees. Jy sal baie lees en kodee
     - deur Goodrich, Tamassia, Goldwasser
     - Ek lief die boek. Dit dek alles en meer.
     - Pythonic kode.
-    - my boekverslag: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - my gloeiende boekverslag: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+
+### Java
+
+Jou besluit:
+
+- Goodrich, Tamassia, Goldwasser
+    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)

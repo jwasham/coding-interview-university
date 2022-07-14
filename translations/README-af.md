@@ -557,3 +557,13 @@ Hoekom jy oplossings na programeringprobleme moet oefen:
 Daar is 'n wonderlike inleiding vir metodiese, kommunikatiewe probleem oplossing in 'n onderhoud. Jy sal dié ook van die
 programmeering boeke kry, maar ek het die uitstekend gevind:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+
+Skryf kode op 'n wit bord of papier, nie 'n rekenaar nie. Toets met sommige insette. Dan tik en toets dit op 'n rekenaar.
+
+As jy nie 'n wit bord by die huis het nie, tel 'n groot skryfblad op by die kuns winkel. Jy kan sit op die bank en oefen.
+Dié is my "sofa whiteboard". Ek het die pen in die foto gesit vir skaal. As jy 'n pen gebruik gaan jy wens jy kon dit uitvee.
+Word baie morsig. **Ek gebruik 'n potlood en uitveër.**
+
+![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**Kodering vrae oefening is nie oor oplossings van programmering probleme memoriseer nie.**

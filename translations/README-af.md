@@ -487,3 +487,13 @@ in jou brein berê.
 As 'n alternatief na my flitskaart webwerf is [Anki](http://ankisrs.net/), wat vir my voorgestel is talle kere.
 Dit gebruik 'n herhalingssisteem om te help onthou. Dit gebruikers-vriendelik, beskikbaar op alle platforms en het 'n wolk sync sisteem.
 Dit kos $25 op iOS maar is verniet op ander platforms.
+
+My flitskaart databasis in Anki formaat: https://ankiweb.net/shared/info/25173560 (dankie [@xiewenya](https://github.com/xiewenya)).
+
+Sommige studente het 'n kwessie na vore gebring dat daar wit spasie is in die formatering wat reg gemaak kan word met die volgende stappe: open deck, edit card, kliek cards, kies die "styling" radio knop, verg by die member "white-space: pre;" aan die einde van die card class.
+
+### 3. Doen Kodering Onderhoud Vrae Terwyl Jy Leer
+
+HIERDIE IS BAIE BELANGRIK.
+
+Begin met die kodering onderhoud vrae terwyl jy datastrukture en algoritmes leer.

@@ -527,3 +527,14 @@ Hierdie is algemene tegnologie maar is nie deel van hierdie studie plan nie:
 - HTML, CSS, en ander front-end tegnologie.
 
 ## Die Daaglikse Plan
+
+Die kursus gaan oor baie onderwerpe. Elkeen sal heerwaarskynlik jou 'n paar dae vat, of dalk tog 'n week of meer. Dit hang af van jou skedule.
+
+Elke dag, vat die volgende onderwerp op die lys, kyk 'n paar videos oor daardie onderwerp, en dan skryf 'n implimentering
+van daardie datastruktuur of algoritme in die taal wat jy gekies het vir hierdie kursus.
+
+Jy kan my kode hier sien:
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
+

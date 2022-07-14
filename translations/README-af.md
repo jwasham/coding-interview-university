@@ -456,7 +456,7 @@ Hierdie is 'n paar foute wat ek gemaak het sodat jy 'n beter ervaaring het. En j
 ### 1. Jy Sal Nie Alles Onthou Nie
 
 Ek het ure lank videos gekyk en deeglike notas gevat, en maande later was daar baie wat ek nie meer onthou het nie. Ek het 3 dae spandeer
-om deur my notas te gaan en flitskaarte te maak, sodat ek kon herleer. Ek het nie al daardie kennis nodig gehaad nie.
+om deur my notas te gaan en flitskaarte te maak, sodat ek kon revisie. Ek het nie al daardie kennis nodig gehaad nie.
 
 Asseblief, lees sodat jy nie my foute maak nie:
 
@@ -465,5 +465,15 @@ Asseblief, lees sodat jy nie my foute maak nie:
 ### 2. Gebruik flitskaarte
 
 Om die probleem op te los, het ek a klein flitskaart webwerf gemaak waar ek 2 tipe flitskaarte kon byvoeg: algemeen en kode.
+Elke kaart se formatering was verskillend. Ek het 'n mobiele-eerste webwerf gemaak, so ek kon revisie op my foon en tablet, waarookal ek is.
 
 Maak jou eie verniet:
+
+- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+
+**Ek BEVEEL NIE AAN dat jy my flitskaarte gebruik nie.** Daar is te veel onnodige kaarte wat jy nie nodig het nie.
+
+Maar as jy nie na my wil luister nie, hier is hulle:
+- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+

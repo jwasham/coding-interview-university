@@ -517,3 +517,13 @@ Daar is baie hulpbronne vir dié glys onder. Gaan voort.
 
 Daar is 'n klomp afleidings wat jou kosbare tyd kan opvat. Fokus en konsentreer is moelik. Sit musiek
 aan sonder lirieke en jy sal in staat wees of goed te fokus.
+
+## Wat Jy Nie Sal Sien Gedek Word Nie
+
+Hierdie is algemene tegnologie maar is nie deel van hierdie studie plan nie:
+
+- SQL
+- Javascript
+- HTML, CSS, en ander front-end tegnologie.
+
+## Die Daaglikse Plan

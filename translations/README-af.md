@@ -457,3 +457,13 @@ Hierdie is 'n paar foute wat ek gemaak het sodat jy 'n beter ervaaring het. En j
 
 Ek het ure lank videos gekyk en deeglike notas gevat, en maande later was daar baie wat ek nie meer onthou het nie. Ek het 3 dae spandeer
 om deur my notas te gaan en flitskaarte te maak, sodat ek kon herleer. Ek het nie al daardie kennis nodig gehaad nie.
+
+Asseblief, lees sodat jy nie my foute maak nie:
+
+[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
+
+### 2. Gebruik flitskaarte
+
+Om die probleem op te los, het ek a klein flitskaart webwerf gemaak waar ek 2 tipe flitskaarte kon byvoeg: algemeen en kode.
+
+Maak jou eie verniet:

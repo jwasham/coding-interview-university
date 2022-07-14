@@ -549,4 +549,11 @@ Jy hoef nie elke algoritme the memoriseer nie. Jy moet net dit genoeg verstaan o
 Hoekom jy oplossings na programeringprobleme moet oefen:
 - Probleem erkenning, en waar die regte datastrukture en algoritmes inpas
 - Versameling van vereistes vir die probleem
-- 
+- Praat oor hoe jy die probleem oplos soos jy sal in die onderhoud
+- Kodering op 'n wit bord of papier, nie 'n rekenaar nie
+- Om te formuleer wat die tyd-en-spasie-kompleksiteit vir jou oplossing is (sien Big-O onder)
+- Toets jou oplossing
+
+Daar is 'n wonderlike inleiding vir metodiese, kommunikatiewe probleem oplossing in 'n onderhoud. Jy sal dié ook van die
+programmeering boeke kry, maar ek het die uitstekend gevind:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)

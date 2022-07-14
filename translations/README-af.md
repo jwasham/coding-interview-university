@@ -538,3 +538,15 @@ Jy kan my kode hier sien:
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
+Jy hoef nie elke algoritme the memoriseer nie. Jy moet net dit genoeg verstaan om jou eie implimenteering te skryf.
+
+## Kodering Vrae Beoefening
+
+    Hoekom is dié hier? Ek's nie gereed vir onderhoude nie.
+
+[Dan gaan terug en lees die.](#3-doen-kodering-onderhoud-vrae-terwyl-jy-leer)
+
+Hoekom jy oplossings na programeringprobleme moet oefen:
+- Probleem erkenning, en waar die regte datastrukture en algoritmes inpas
+- Versameling van vereistes vir die probleem
+- 

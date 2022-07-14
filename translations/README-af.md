@@ -567,3 +567,13 @@ Word baie morsig. **Ek gebruik 'n potlood en uitveër.**
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 **Kodering vrae oefening is nie oor oplossings van programmering probleme memoriseer nie.**
+
+## Kodering Problem
+
+Moenie jou sleutel kodering onderhoud boeke vergeet [hier](#onderhoud-voorbereidingsboeke) nie.
+
+Probleme Oplos:
+- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+
+Kodering Onderhoud Vrae Videos:

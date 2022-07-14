@@ -428,3 +428,22 @@ Jou besluit:
 
 Jy hoef nie 'n klomp van die te koop nie. Eerlikwaar is "Craking the Coding Interview" heelwaarskynlik genoeg,
 maar ek het meer gekoop om myself meer oefening te gee. Maar ek doen altyd te veel.
+
+Ek het beide van die gekoop. Hulle het vir my genoeg oefening gegee.
+
+- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - Antwoorde in C++ en Java
+    - Hierdie is 'n goeie opwarming vir Cracking the Coding Interview
+    - Nie te moeilik nie. Meeste probleme mag dalk makliker wees as dié in die onderhoud (van wat ek gelees het)
+- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - antwoorde in Java
+
+### As jy tonne ekstra tyd het:
+
+Kies een:
+
+- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
+

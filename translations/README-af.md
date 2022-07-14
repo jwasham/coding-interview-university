@@ -577,3 +577,15 @@ Probleme Oplos:
 - [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
 
 Kodering Onderhoud Vrae Videos:
+- [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Super om deur oplossings vir die kode te loop
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Goeie verduidelikings van oplossings en die kode
+    - Jy kan 'n klomp kyk in 'n klein tyd
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+- [Neetcode - BLIND 75 LeetCode Solutions](https://www.youtube.com/watch?v=KLlXCFG5TnA&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+    - Goeie verduidelikings van die oplossings en die python kode
+    - Sien ook [excel sheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0) vir all die vrae lyste
+    - [Github links](https://github.com/neetcode-gh/leetcode) vir al die oplossing lyste
+    - [Neetcode 150](https://neetcode.io/)

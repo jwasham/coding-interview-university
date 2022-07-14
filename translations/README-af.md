@@ -589,3 +589,13 @@ Kodering Onderhoud Vrae Videos:
     - Sien ook [excel sheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0) vir all die vrae lyste
     - [Github links](https://github.com/neetcode-gh/leetcode) vir al die oplossing lyste
     - [Neetcode 150](https://neetcode.io/)
+
+Uitdaging webwerwe:
+- [LeetCode](https://leetcode.com/)
+    - My gunstelling kodering platform werf. Die geld vir die intekening is die moeite werd vir die moontlike 1-2 maande se voorbereiding.
+    - Sien Nick White en FisherCoder Videos bo om deur die kode toe loop.
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [InterviewBit](https://www.interviewbit.com/)
+- [Project Euler](https://projecteuler.net/)

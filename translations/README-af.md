@@ -644,9 +644,19 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - [ ] size() - hoeveelheid items
         - [ ] capacity() - hoeveelheid items dit kan hou
         - [ ] is_empty()
-        - [ ] at(index) - lewer item by gegewende indeks, omplof as indeks buite grens is
+        - [ ] at(indeks) - lewer item by gegewende indeks, omplof as indeks buite grens is
         - [ ] push(item)
-        - [ ] insert(index, item) - voeg item by indeks, skuif daardie indeks se waarde en rank elemente regs
+        - [ ] insert(indeks, item) - voeg item by indeks, skuif daardie indeks se waarde en rank elemente regs
         - [ ] prepend(item) - kan insert hierbo gebruik by indeks 0
         - [ ] pop() - verwyder van die einde, lewer waarde
-        - [ ] delete(indeks) - 
+        - [ ] delete(indeks) - skrap item by indeks, skuif al rank elemente links
+        - [ ] remove(item) - kyk vir waarde en verwyder indeks wat dit hou (al is dit in verskeie plekke)
+        - [ ] find(item) - kyk vir waarde en lewer eerste indeks met daardie waarde, -1 as dit nie bestaan nie
+        - [ ] resize(new_capacity) // privaat funksie
+            - wanner jy kapasiteit bereik, verander om die grootte te dubbel
+            - wanneer 'n item pop, as grootte 1/4 van kapasiteit is, verander na half
+        - [ ] Tyd
+            - O(1) om te add/verwyder aan die einde (geamoriënteer vir toekening van meer spasie), indekx, of updateer
+            - O(n) om te voeg/skrap elders
+        - [ ] Spasie
+            - 

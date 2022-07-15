@@ -608,3 +608,17 @@ Maar moet nie vergeet om kode probleme op te los terwyl jy leer nie!
 
 ## Algoritmiese kompleksiteit / Big-O / Asimptotiese analiese
 
+- Niks hier om te implimenteer nie, jy kyk net videos en vat notas! Yay!
+- Daar is baie videos hier. Kyk net genoeg tot dat jy dit verstaan. Jy kan altyd terug kom en revisie.
+- Moenie bekommer as jy nie al die wiskunde verstaan nie.
+- Jy moet net verstaan hoe om die kompleksiteit van 'n algoritme in terme van Big-O uit te druk.
+- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Skiena (video)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
+- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] TopCoder (includes recurrence relations and master theorem):
+    - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+    - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
+- [ ] [Cheat sheet](http://bigocheatsheet.com/)

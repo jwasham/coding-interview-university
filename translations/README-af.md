@@ -622,3 +622,8 @@ Maar moet nie vergeet om kode probleme op te los terwyl jy leer nie!
     - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
     - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
+
+Well, dis genoeg van daardie.
+
+Wanneer jy deur "Cracking the Coding Interview" gaan, is daar 'n hoofstuk oor hierdie, en by die einde is daar 'n quiz om te sien
+of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is. Dis 'n super revisie en toets.

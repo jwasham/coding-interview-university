@@ -232,7 +232,7 @@ sagteware ontwikkeling/ingeneur rolle.
   - [Kodering Vrae Beoefening](#kodering-vrae-beoefening)
   - [Kodering Probleme](#kodering-probleme)
   - [Begin Solank](#begin-solank)
-  - [Algoritmiese Kompleksiteit / Big-O / Asimptotiese analise](#algorithmic-complexity--big-o--asymptotic-analysis)
+  - [Algoritmiese Kompleksiteit / Big-O / Asimptotiese analise](#algoritmiese-kompleksiteti--big-o--asimptotiese-analise)
   - [Datastrukture](#datastrukture)
   - [Meer Kennis](#meer-kennis)
   - [Bome](#bome)
@@ -659,4 +659,13 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
             - O(1) om te add/verwyder aan die einde (geamoriënteer vir toekening van meer spasie), indekx, of updateer
             - O(n) om te voeg/skrap elders
         - [ ] Spasie
-            - 
+            - aaneenlopend in geheue, so nabyheid help prestasie
+            - spasie nodig - (skikking kapasiteit, wat >= n is) * item grootte, maar tot as dit 2n is, is dit steeds O(n)
+
+- ### Linked Lists
+    - [ ] Beskrywing:
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - nie die hele video nie, net gedeeltes oor Node struct en geheue toekening

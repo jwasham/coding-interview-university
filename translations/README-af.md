@@ -599,3 +599,12 @@ Uitdaging webwerwe:
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
 - [InterviewBit](https://www.interviewbit.com/)
 - [Project Euler](https://projecteuler.net/)
+
+## Begin Solank
+
+Oraait, genoeg praat, kom ons leer!
+
+Maar moet nie vergeet om kode probleme op te los terwyl jy leer nie!
+
+## Algoritmiese kompleksiteit / Big-O / Asimptotiese analiese
+

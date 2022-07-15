@@ -627,3 +627,26 @@ Well, dis genoeg van daardie.
 
 Wanneer jy deur "Cracking the Coding Interview" gaan, is daar 'n hoofstuk oor hierdie, en by die einde is daar 'n quiz om te sien
 of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is. Dis 'n super revisie en toets.
+
+## Datastrukture
+
+- ### Skikkings
+    - [ ] Oor Skikkings:
+        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Begin kyk van 15m 32s)
+        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [ ] Implement 'n vektor (mutable skikking met outomatiese grootte verandering)
+        - [ ] Oefen kodering met skikkings en wysers, en wysers wiskunde om te spring na 'n indeks in pleks van indeksering te gebruik.
+        - [ ] Nuwe rou data skikking met gelokeerde geheue
+            - kan int skikking alokeer onder die kap, maar net nie die kenmerke gebruik nie
+            - begin met 16, of as begin nommer groter is, gebruik bevoegdhede van 2 - 16, 32, 64, 128
+        - [ ] size() - hoeveelheid items
+        - [ ] capacity() - hoeveelheid items dit kan hou
+        - [ ] is_empty()
+        - [ ] at(index) - lewer item by gegewende indeks, omplof as indeks buite grens is
+        - [ ] push(item)
+        - [ ] insert(index, item) - voeg item by indeks, skuif daardie indeks se waarde en rank elemente regs
+        - [ ] prepend(item) - kan insert hierbo gebruik by indeks 0
+        - [ ] pop() - verwyder van die einde, lewer waarde
+        - [ ] delete(indeks) - 

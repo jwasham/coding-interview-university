@@ -688,4 +688,18 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - [ ] front() - kry waarde van voorste item
         - [ ] back() - kry waarde van laaste item
         - [ ] insert(indeks, waarde) - voeg waarde by indeks, so huidige item by daardie indeks word gewys na deur nuwe item by daardie indeks
-        - [ ] 
+        - [ ] erase(indeks) - verwyder node by gegewe indeks
+        - [ ] value_n_from_end(n) - lewer die waarde van die node by nth posisie van die einde van die lys af
+        - [ ] reverse() - keer die lys om
+        - [ ] remove_value(waarde) - verwyder die eerste item in die lys met dié waarde
+    - [ ] Doubly-linked List
+        - [Deskripsie (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - Nie nodig om te implimenteer nie
+
+- ### Stapel
+    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] Sal nie implementeer nie. Implementering met skikking is maklik
+
+- ### Queue
+    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)

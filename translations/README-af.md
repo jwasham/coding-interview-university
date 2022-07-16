@@ -678,4 +678,14 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         Die blad is net om 'n houvas te kry op wyser na wyser. Ek beveel nie aan om hierdie lys transversale styl te lees nie. Leesbaarheid en onderhoudbaarheid ly van slimheid.
         - [Wysers na Wysers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implement (Ek het dit gedoen met stert wyser en sonder):
-        - [ ] size() 
+        - [ ] size() - lewer hoeveelheid data elemente in lys
+        - [ ] empty() - bool lewer waar as leeg
+        - [ ] value_at(indeks) - lewer die waarde van die nth item (begin by 0 vir eerste)
+        - [ ] push_front(waarde) - voeg 'n item aan die begin van die lys
+        - [ ] pop_front() - verwyder voorste item en lewer die waarde
+        - [ ] push_back(value) - voeg 'n item aan die einde
+        - [ ] pop_back() - verwyder laaste item en lewer die waarde
+        - [ ] front() - kry waarde van voorste item
+        - [ ] back() - kry waarde van laaste item
+        - [ ] insert(indeks, waarde) - voeg waarde by indeks, so huidige item by daardie indeks word gewys na deur nuwe item by daardie indeks
+        - [ ] 

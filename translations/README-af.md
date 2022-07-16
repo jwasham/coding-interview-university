@@ -744,3 +744,13 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - get(sleutel)
         - remove(sleutel)
 
+## Meer Kennis
+
+- ### Binary search
+    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [detail](https://www.topcoder.com/thrive/articles/Binary%20Search)
+    - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+    - [ ] Implement:
+        - binary search (op 'n gesorteerde skikking van heelgetalle)
+        - binary search met recursion

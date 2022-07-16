@@ -778,3 +778,27 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
     - [ ] Ruil waardes:
+        - [Swap](https://bits.stephan-brumme.com/swap.html)
+    - [ ] Absolute value:
+        - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
+
+## Bome
+
+- ### Bome - Notas & Agtergrond
+    - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - basiese boom konstruksie
+    - traversal
+    - manipulasie algoritmes
+    - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+        - BFS notas:
+           - level order (BFS, met queue)
+           - tyd kompleksiteit: O(n)
+           - spasie kompleksiteit: beste: O(1), slegste: O(n/2)=O(n)
+        - DFS notas:
+            - tyd kompleksiteit: O(n)
+            - spasie kompleksiteit:
+                beste: O(log n) - gemidelde hoogte van boom
+                slegste: O(n)
+            - inorder (DFS: links, self, regs)
+            - postorder (DFS: links, regs, self)
+            - preorder (DFS: self, links, regs)

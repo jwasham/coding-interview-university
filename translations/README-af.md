@@ -703,3 +703,9 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] Implementeer met linked-list, met stert wyser:
+        - enqueue(waarde) - voeg waarde by posisie by stert
+        - dequeue() - lewer waarde en verwyder die minste onlangse gevoegde element (voorkant)
+        - empty()
+    - [ ] Implementeer met vaste-grootte skikking:
+        - 

@@ -708,4 +708,13 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - dequeue() - lewer waarde en verwyder die minste onlangse gevoegde element (voorkant)
         - empty()
     - [ ] Implementeer met vaste-grootte skikking:
-        - 
+        - enqueue(value) - voeg item aan einde van beskikbare
+        - dequeue() - lewer waarde en verwyder minste onlangse gevoegde element
+        - empty()
+        - full()
+    - [ ] Cost:
+        - 'n Slegte implementering met linked list waar jy enqueue by die hoof en dequeue by die stert sal wees O(n)
+        - enqueue: O(1) (amortized, linked list en array [probing])
+        - dequeue: O(1) (linked list en array)
+        - empty: O(1) (linked list en  array)
+

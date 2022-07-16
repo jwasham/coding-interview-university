@@ -714,6 +714,7 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - full()
     - [ ] Cost:
         - 'n Slegte implementering met linked list waar jy enqueue by die hoof en dequeue by die stert sal wees O(n)
+            want you sal die alement langs die laaste nodig hê, wat 'n volle transversal elke dequeue veroorsaak
         - enqueue: O(1) (amortized, linked list en array [probing])
         - dequeue: O(1) (linked list en array)
         - empty: O(1) (linked list en  array)
@@ -735,3 +736,11 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - [ ] distributed hash tables:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+
+    - [ ] Implement met 'n skikking en gebruik linear probing
+        - hash(k, m) - m is grootte van hash table
+        - add(sleutel, waarde) - as sleutel al klaar beskikbaar is, opdateer waarde
+        - exists(sleutel)
+        - get(sleutel)
+        - remove(sleutel)
+

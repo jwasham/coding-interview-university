@@ -992,3 +992,12 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - [ ] tel gekoppelde komponente in 'n grafiek
         - [ ] lys sterk gokoppelde komponente
         - [ ] kyk vir bipartite graph
+
+## Nog Meer Kennis
+
+- ### Recursion
+    - [ ] Stanford lesings oor recursion & backtracking:
+        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)

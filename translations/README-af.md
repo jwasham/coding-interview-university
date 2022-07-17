@@ -930,3 +930,10 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
+
+As 'n opsomming, hier is 'n visuele verteenwoordiging van [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
+As jy nog detail nodig het op hierdie onderwer, sien "Sorteer" seksie in [Bykomende Detail op Sommige Vakke](#bykomende-detail-op-sommige-vakke)
+
+## Grafieke
+
+Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoordig, so die seksie is lank, soos bome en sortering was.

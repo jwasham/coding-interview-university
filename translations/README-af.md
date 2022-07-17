@@ -859,16 +859,16 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - [ ] heapify - maak 'h heap van 'n skikking elemente, nodig vir heap_sort
         - [ ] heap_sort() - vat 'n ongesorteerde skikking en verander dit na 'n gesorteerde skikking in-plek met 'n max heap of 'n min heap
 
-## Sorting
+## Sorteer
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
+- [ ] Notas:
+    - Implementeer soterings & weet wat die beste/slegste gevalle is, gemidelde kompleksiteite van elk:
+        - geen bubble sort - dis verskriklik sleg - O(n^2), behalwe wanneer n <= 16
+    - [ ] Stabiliteit in sorteer algoritmes ("Is Quicksort stabiel?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+    - [ ] Watse algoritmes kan op linked lists gebruik word? Watses op arrays? Watses op beide?
+        - I sal nie aan beveel om 'n linked list te sorteer nie, maar merge sort is doenbaar
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)

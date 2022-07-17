@@ -973,3 +973,22 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+
+- Full Coursera Kursus:
+    - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
+
+- Ek sou implimenteer:
+    - [ ] DFS met adjacency list (recursive)
+    - [ ] DFS met adjacency list (iterative met stack)
+    - [ ] DFS met adjacency matrix (recursive)
+    - [ ] DFS met adjacency matrix (iterative met stack)
+    - [ ] BFS met adjacency list
+    - [ ] BFS met adjacency matrix
+    - [ ] single-source shortest path (Dijkstra)
+    - [ ] minimum spanning tree
+    - DFS-based algorithms (sien Aduni videos bo):
+        - [ ] kyk vir cycle (nodig vir topological sort, aangesien ons wil kyk vir 'n cycle voordat ons begin)
+        - [ ] topological sort
+        - [ ] tel gekoppelde komponente in 'n grafiek
+        - [ ] lys sterk gokoppelde komponente
+        - [ ] kyk vir bipartite graph

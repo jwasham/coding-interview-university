@@ -818,3 +818,17 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - [ ] [Kyk of 'n binary tree 'b binary search tree is of nie(video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Verwyder 'n node van 'n Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in 'n binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] Implement:
+        - [ ] insert   // vog 'n waarde in 'n boom
+        - [ ] get_node_count   // kry hoeveelheid waardes gestoor is
+        - [ ] print_values   // print die waardes in die boom, van min na max
+        - [ ] delete_tree
+        - [ ] is_in_tree   // waar wanneer 'n gegewende waarde in 'n boom is
+        - [ ] get_height   // gee die hooggte in nodes (enkel node se hooggte is 1)
+        - [ ] get_min   // gee die minimum waarde wat gestoor is in die boom
+        - [ ] get_max   // gee die maksimum waarde wat gestoor is in die boom
+        - [ ] is_binary_search_tree
+        - [ ] delete_value
+        - [ ] get_successor   // gee volgende hoogste waarde in die boom na die gegewende waarde, -1 as niks
+
+- ### Heap / Priority Queue / Binary Heap

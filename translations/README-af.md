@@ -910,3 +910,7 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] Implementeer:
+    - [ ] Mergesort: O(n log n) gemiddelde en slegste gevalle
+    - [ ] Quicksort O(n log n) gemiddelde geval

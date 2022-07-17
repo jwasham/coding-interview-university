@@ -937,3 +937,14 @@ As jy nog detail nodig het op hierdie onderwer, sien "Sorteer" seksie in [Bykome
 ## Grafieke
 
 Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoordig, so die seksie is lank, soos bome en sortering was.
+
+- Notas:
+    - Daar is 4 basiese maniere om 'n grafiek in geheue te verteenwoordig:
+        - objects and pointers
+        - adjacency matrix
+        - adjacency list
+        - adjacency map
+    - Familiariseer jouself met elke verteenwoordiging en sy voor- en nadele
+    - BFS en DFS - ken hulle computational kompleksiteit, hulle ruilings-waardes, en hoe om hulle te implimenteer in regte kode
+    - Wanner 'n vraag gevra word, kyk vir 'n grafiek-gebaseerde oplossing eerste, dan begeen aan as niks
+

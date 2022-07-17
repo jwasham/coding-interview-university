@@ -832,3 +832,43 @@ of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is.
         - [ ] get_successor   // gee volgende hoogste waarde in die boom na die gegewende waarde, -1 as niks
 
 - ### Heap / Priority Queue / Binary Heap
+    - gevisualiseer as 'n boom, maar is gewoonlik lineêr gestoor (skikking, linked list)
+    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [Inleiding (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Naïef implementering (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] [Basese operasies (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [Pseudokode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Heap Sort - spring na begin (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [Bou 'n heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+    - [ ] [MIT: Heaps en Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
+    - [ ] [Lineêr Tyd BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] Implementeer 'n max-heap:
+        - [ ] insert
+        - [ ] sift_up - needed for insert
+        - [ ] get_max - returns the max item, without removing it
+        - [ ] get_size() - return number of elements stored
+        - [ ] is_empty() - returns true if heap contains no elements
+        - [ ] extract_max - returns the max item, removing it
+        - [ ] sift_down - needed for extract_max
+        - [ ] remove(x) - removes item at index x
+        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
+        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
+
+## Sorting
+
+- [ ] Notes:
+    - Implement sorts & know best case/worst case, average complexity of each:
+        - no bubble sort - it's terrible - O(n^2), except when n <= 16
+    - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
+        - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
+        - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
+        - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+        - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
+    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
+        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+        - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)

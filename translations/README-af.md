@@ -1170,3 +1170,12 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
         - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
         - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+
+    As jy meer detail op hierde onderwerp doek, sien die "String Matching" seksie in [Bykomende Detail op Sommige Vakke](#bykomende-detail-op-sommige-vakke)
+
+- ### Bome
+    - Let daarop dat daar verskillende soorte bome is. Somiges het prefikse, somige nie, en somige gebruik string in stede van bits
+        om die pad te volg
+    - Ek het deur die kode geliees, maar sal nie implimenteer nie
+    

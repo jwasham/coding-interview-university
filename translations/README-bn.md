@@ -562,23 +562,23 @@
 -বাস্তবায়নের কিছুই নেই
 -এখানে প্রচুর ভিডিও রয়েছে। যতক্ষণ না আপনি এটি বুঝতে পারছেন ঠিক ততক্ষণ দেখুন। আপনি সর্বদা ফিরে এসে পর্যালোচনা করতে পারেন।
 -কিছু বক্তৃতা যদি খুব ম্যাথিক হয় তবে আপনি ব্যাকগ্রাউন্ডের জ্ঞান পেতে নীচে নেমে গিয়ে আলাদা গণিতের ভিডিওগুলি দেখতে পারেন।
--  [হার্ভার্ড সিএস 50-অ্যাসিপটোটিক নোটেশন (ভিডিও)] (https://www.youtube.com/watch?v=iOq5kSKqeR4)
--  [বিগ হে নোটেশনস (সাধারণ দ্রুত টিউটোরিয়াল) (ভিডিও)] (https://www.youtube.com/watch?v=V6mKVRU1evU)
--  [বিগ ও স্বরলিপি (এবং ওমেগা এবং থিতা)-সর্বোত্তম গাণিতিক ব্যাখ্যা (ভিডিও)] (https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+-  [হার্ভার্ড সিএস 50-অ্যাসিপটোটিক নোটেশন (ভিডিও)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+-  [বিগ হে নোটেশনস (সাধারণ দ্রুত টিউটোরিয়াল) (ভিডিও)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+-  [বিগ ও স্বরলিপি (এবং ওমেগা এবং থিতা)-সর্বোত্তম গাণিতিক ব্যাখ্যা (ভিডিও)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 -  স্কিয়েনা:
-   -[ভিডিও] (https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-   -[স্লাইডস] (http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
--  [অ্যালগরিদম জটিলতা বিশ্লেষণের একটি নম্র ভূমিকা] (http://discrete.gr/complexity/)
--  [বৃদ্ধির অর্ডার (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
--  [অ্যাসিপটোটিকস (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-চিন্তাধারার-1/asyptics-bXAtM)
--  [ইউসি বার্কলে বিগ ও (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
--  [ইউসি বার্কলে বিগ ওমেগা (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
--  [ইমোরটাইজড অ্যানালাইসিস (ভিডিও)] (https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
--  [চিত্রিত "বিগ ও" (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+   -[ভিডিও](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+   -[স্লাইডস](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+-  [অ্যালগরিদম জটিলতা বিশ্লেষণের একটি নম্র ভূমিকা](http://discrete.gr/complexity/)
+-  [বৃদ্ধির অর্ডার (ভিডিও)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
+-  [অ্যাসিপটোটিকস (ভিডিও)](https://www.coursera.org/lecture/algorithmic-চিন্তাধারার-1/asyptics-bXAtM)
+-  [ইউসি বার্কলে বিগ ও (ভিডিও)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+-  [ইউসি বার্কলে বিগ ওমেগা (ভিডিও)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
+-  [ইমোরটাইজড অ্যানালাইসিস (ভিডিও)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+-  [চিত্রিত "বিগ ও" (ভিডিও)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
 -  টপকোডার (পুনরাবৃত্ত সম্পর্ক এবং মাস্টার উপপাদ্য অন্তর্ভুক্ত):
-   -[গণনামূলক জটিলতা: বিভাগ 1] (https://www.topcoder.com/commune/competitive-pramramming/tutorials/computational-complexity-section-1/)
-   -[গণনামূলক জটিলতা: বিভাগ 2] (https://www.topcoder.com / সম্প্রদায় / কমপিটিটিভ-প্রোগ্রামিং / টিউটোরিয়ালস / কমপিটেশনাল-কমপ্লিকটি-সেকশন ২/২)
--  [চিট শিট] (http://bigocheatsheet.com/)
+   -[গণনামূলক জটিলতা: বিভাগ 1](https://www.topcoder.com/commune/competitive-pramramming/tutorials/computational-complexity-section-1/)
+   -[গণনামূলক জটিলতা: বিভাগ 2](https://www.topcoder.com / সম্প্রদায় / কমপিটিটিভ-প্রোগ্রামিং / টিউটোরিয়ালস / কমপিটেশনাল-কমপ্লিকটি-সেকশন ২/২)
+-  [চিট শিট](http://bigocheatsheet.com/)
  
  
 </details>

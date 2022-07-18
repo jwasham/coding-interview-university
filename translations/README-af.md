@@ -1035,3 +1035,26 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
         - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+
+- ### Ontwerp patrone
+    - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    - [ ] Leer hierdie patrone:
+        - [ ] strategy
+        - [ ] singleton
+        - [ ] adapter
+        - [ ] prototype
+        - [ ] decorator
+        - [ ] visitor
+        - [ ] factory, abstract factory
+        - [ ] facade
+        - [ ] observer
+        - [ ] proxy
+        - [ ] delegate
+        - [ ] command
+        - [ ] state
+        - [ ] memento
+        - [ ] iterator
+        - [ ] composite
+        - [ ] flyweight
+    - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    - [ ] [Book: Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)

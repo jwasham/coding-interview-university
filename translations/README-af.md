@@ -1136,3 +1136,13 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - Vurk is regtig net 'n kopie op skryf (net-lees) tot dat 'n nuwe proses na die geheue skryf, dan doen dit 'n vol kopie.
         - Konteks verandering
             - Koe konteks verandering geïnisieer word deur 'n operating sisteem en onderliggende hardeware?
+    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] [CS 377 Spring '14: Operating Systems from University of Massachusetts](https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k)
+    - [ ] concurrency in Python (videos):
+        - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+        - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+        - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+            - [reference](http://www.dabeaz.com/GIL)
+        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+        - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)

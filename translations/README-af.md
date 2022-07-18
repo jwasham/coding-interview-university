@@ -1127,3 +1127,12 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
             - How they work?
             - Deadlock
             - Livelock
+        - CPU aktiwiteit, onderbrekings, konteks verandering
+        - Moderne concurrency konstrukte met multicore prosesse
+        - [Paging, segmentation and virtual memory (video)](https://youtu.be/O4nwUqQodAg)
+        - [Interrupts (video)](https://youtu.be/iKlAWIKEyuw)
+        - Prosess hulpbronne benodighede (geheue: kode, statiese stoor, stack, heap, en ook file descriptors, i/o)
+        - Thread hulpbronne benodighede (deel boonstes (minus stack) met ander threads in die selfde proses maar elk het sy eie pc, stack counter, registers, en stack)
+        - Vurk is regtig net 'n kopie op skryf (net-lees) tot dat 'n nuwe proses na die geheue skryf, dan doen dit 'n vol kopie.
+        - Konteks verandering
+            - Koe konteks verandering geïnisieer word deur 'n operating sisteem en onderliggende hardeware?

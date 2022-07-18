@@ -1058,3 +1058,15 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - [ ] flyweight
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Book: Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+        - Ek weet die kanonieke boek is "Design Patterns: Elements of Reusable Object-Orientated Software", maar Head First is 'n goeie begin na OO ook.
+    - [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+
+- ### Kombinatorika (n kies k) & Probability
+    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+    - [ ] Khan Academy:
+        - Kursus uitleg:
+            - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+        - Net die videos - 41 (elkeen is eenvoudig en elkeen is kort):
+            - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)

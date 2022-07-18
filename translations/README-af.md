@@ -113,7 +113,7 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ### Die Studie Plan
 
-- [Wat is dit?]()
+- [Wat is dit?](#wat-is-dit)
 - [Hoekom gebruik dit?](#hoekom-gebruik-dit)
 - [Hoe om dit te gebruik](#hoe-om-dit-te-gebruik)
 - [Moenie voel asof jy nie slim genoeg is nie](#moenie-voel-asof-jy-nie-slim-genoeg-is-nie)
@@ -129,7 +129,7 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ## Onderwerpe om te Studeer
 
-- [Kodering Onderhoud Universiteit]()
+- [Kodering Onderhoud Universiteit](#kodering-onderhoud-universiteit)
   - [Wat is dit?](#wat-is-dit)
   - [Inhoudsopgawe](#inhoudsopgawe)
     - [Die Studie Plan](#die-studie-plan)
@@ -188,7 +188,7 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ### Kry die Werk
 
-- [Werk Jou CV By]()
+- [Werk Jou CV By](#werk-jou-cv-by)
 - [Kry 'n Werk](#kry-n-werk)
 - [Onderhoudproses & Algemene Voorbereiding](#onderhoudproses--algemene-voorbereiding)
 - [Dink aan vir wanneer die onderhoud kom](#dink-aan-vir-wanneer-die-onderhoud-kom)
@@ -199,7 +199,7 @@ sagteware ontwikkeling/ingeneur rolle.
 
 ### Opsionele Ekstra Onderwerpe & Hulpbronne
 
-- [Kodering Onderhoud Universiteit]()
+- [Kodering Onderhoud Universiteit](#kodering-onderhoud-universiteit)
   - [Wat is dit?](#wat-is-dit)
   - [Inhoudsopgawe](#inhoudsopgawe)
     - [Die Studie Plan](#die-studie-plan)

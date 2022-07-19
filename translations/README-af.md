@@ -1357,4 +1357,13 @@ Jy is nooit regtig klaar nie.
 - [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - Die boek was gepubliseer in 2004, en is sowat verouderd, maar dis 'n geweldige hulpbron om 'n rekenaar in kort te verstaan
     - Die outeur het [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) uitgeving, so vat noemings en voorbeelde in HLA met 'n graan sout. Nie wyd gebruik nie, maar goeie voorbeelde van hoe assembly lyk
-    -
+    - Hierdie hoofstukke is die moeite werk om te lees vir 'n goeie fondament:
+        - Hoofstuk 2 - Numeric Representation
+        - Hoofstuk 3 - Binary Arithmetic and Bit Operations
+        - Hoofstuk 4 - Floating-Point Representation
+        - Hoofstuk 5 - Character Representation
+        - Hoofstuk 6 - Memory Organization and Access
+        - Hoofstuk 7 - Composite Data Types and Memory Objects
+        - Hoofstuk 9 - CPU Architecture
+        - Hoofstuk 10 - Instruction Set Architecture
+        - Hoofstuk 11 - Memory Architecture and Organization

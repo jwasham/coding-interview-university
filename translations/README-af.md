@@ -1319,3 +1319,15 @@ Jy is nooit regtig klaar nie.
     *****************************************************************************************************
 
 ---
+
+## Bykomende Boeke
+
+    Hierdie is hier sodat jy kan delf in 'n onderwerp wat jy interessant vind.
+
+- [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
+    - An oue maar goeie
+- [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
+    - 'n Moderne opsie
+- [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
+- [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
+    - 'n Sagte inleiding na ontwerp patrone

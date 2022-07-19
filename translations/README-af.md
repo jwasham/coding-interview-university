@@ -1347,4 +1347,14 @@ Jy is nooit regtig klaar nie.
                 - Kan so dig en ondeurdringbaar soos CLRS wees, en in sommige gevalle, kan CLRS 'n beter alternatief wees vir sekere onderwerpe
                 - Hoofstukke 7, 8, 9 kan pynlik wees om te probeer volg, omdat sommige items nie goed verduidelik word nie en bonodig meer brain wat ek nie het nie
                 - Moenie my misverstaan nie: Ek hou van Skiena, sy onderrig style, en manerismes, maar ek mag dalk nie Stony Brook materiaal wees nie
-            
+        - Algorime katalogus:
+            - Die is die egte rede hoekom jy hierdie boek koop.
+            - Die boek is beter as 'n algoritme verwysing, en nie iets wat jy lees om heel te dek nie.
+    - Kan op Kindle huur
+    - Antwoorde
+        - [Solutions](https://web.archive.org/web/20150404194210/http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+- [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - Die boek was gepubliseer in 2004, en is sowat verouderd, maar dis 'n geweldige hulpbron om 'n rekenaar in kort te verstaan
+    - Die outeur het [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) uitgeving, so vat noemings en voorbeelde in HLA met 'n graan sout. Nie wyd gebruik nie, maar goeie voorbeelde van hoe assembly lyk
+    -

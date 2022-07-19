@@ -1256,3 +1256,26 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - Kry praktiese ervaring met oor 'n 100 datastrukture en algoritmiese oefeninge en leiding van 'n toegewyde mentor om jou te help voorberei vir onderhoude en on-the-job scenarios.
     - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
         - Baie kere is dit nie jou tegniese bevoegdheid wat jou terug hou van jou droom werk kry nie, dis hoe jy in die gedragsonderhoude voer.
+
+Spot Onderhoude:
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - Ek het die gebruik en dit het my gehelp ontspan vir die foon skerm en on-site onderhoud.
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model van onderhoudoefeninge.
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anoniem algoritme/system design onderoude met senior ingeneurs van FAANG anoniem.
+
+## Dink aan vir wanneer die onderhoud kom
+
+Dink oor sowat 20 onderhoud vrae wat jy sal kry, in die rigting van dié hieronder. Hê ten minste een antwoord vir elkeen.
+Hê ook 'n storie, nie net data, oor iets wat jy bereik het.
+
+- Hoekom soek jy hierdie werk?
+- Wat is 'n taai probleem wat jy opgelos het?
+- Grootste uitdagings wat jy in die gesig gestaar het?
+- Beste/slegste ontwerpe wat jy al gesien het?
+- Idees om 'n produk te verbeter?
+- Hoe werk jy beste as 'n individu en as deel van 'n span?
+- Watse vernufte of ondervinding van jou sal 'n bate in die rol wees en hoekom?
+- Wat het jy die meeste geniet by [werk x / projek y]?
+- Wat was die grootste uitdaging wat jy in die gesig gestaar het by [werk x / pojek y]?
+- Wat was die moeilikste gogga wat jy moes oplos by [werk x / projek y]?
+- Wat het jy geleer by [werk x / projek y]?
+- Wat sou jy beter gedoen het by [werk x / projek y]?

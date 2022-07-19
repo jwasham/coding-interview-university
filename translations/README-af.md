@@ -1202,3 +1202,17 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ---
+
+## Finalde Revisie
+
+    Die seksie sal korter videos hê wat jy kan kyk redelik vinnig vir revisie van die mees belangrike konsepte.
+    Dis goed om die geheue tydelik te vervris.
+
+- [ ] Reeks van 2-3 minute kort onderwerp videos (23 videos)
+    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Reeks van 2-5 minute kort onderwerp videos - Michael Sambol (18 videos):
+    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+- [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+
+---

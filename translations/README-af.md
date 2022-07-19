@@ -1279,3 +1279,16 @@ Hê ook 'n storie, nie net data, oor iets wat jy bereik het.
 - Wat was die moeilikste gogga wat jy moes oplos by [werk x / projek y]?
 - Wat het jy geleer by [werk x / projek y]?
 - Wat sou jy beter gedoen het by [werk x / projek y]?
+
+- As jy dit moelik vind om met goeie antwoorde op te kom vir hierdie vrae is hier 'n paar idees:
+    - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
+
+## Hê vrae vir die onderhoudvoerder
+
+'n Paar van meine (Ek ken moontlik al klaar die antwoorde, maar wil hulle opinie of span perspektief hé):
+
+- How groot is jou span?
+- Hoe lyk jou dev cycle? Doen julle waterfall/sprints/agile?
+- Is dit algemeen om na die sperdatum te jaag? Of is daar buigsaamheid?
+- Hoe word besluite geneem op jou span?
+- Hoeveel vergaderings het julle per week?

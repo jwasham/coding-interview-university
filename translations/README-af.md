@@ -1235,7 +1235,7 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
 
 - [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] How to Get a Job at the Big 4:
+- [ ] Hoe om 'n werk by die Groot 4 te kry:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
 - [ ] Cracking The Coding Interview Set 1:
@@ -1244,3 +1244,15 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
 - [ ] Cracking the Facebook Coding Interview:
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
+
+- Prep Courses:
+    - [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Leer hoe om jouself gereed te maak vir sagteware ingeneur onderhoude van vorige Google onderhoudvoerders.
+    - [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - 'n Python sentriese onderhoudsvoorbereiding kursus wat datastrukture, algoritmes, spot onderhoude en baie meer dek.
+    - [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
+        - 'n Verniet Python sentriese datastruktuur en algorithme kursus.
+    - [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
+        - Kry praktiese ervaring met oor 'n 100 datastrukture en algoritmiese oefeninge en leiding van 'n toegewyde mentor om jou te help voorberei vir onderhoude en on-the-job scenarios.
+    - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
+        - Baie kere is dit nie jou tegniese bevoegdheid wat jou terug hou van jou droom werk kry nie, dis hoe jy in die gedragsonderhoude voer.

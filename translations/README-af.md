@@ -1367,3 +1367,14 @@ Jy is nooit regtig klaar nie.
         - Hoofstuk 9 - CPU Architecture
         - Hoofstuk 10 - Instruction Set Architecture
         - Hoofstuk 11 - Memory Architecture and Organization
+- [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X)
+    - **Belangrik:** Om hierdie boek te lees sal beperkte waarde hê. Die boek is 'n goeie revisie van algoritmes en datastrukture, maar sal jou nie leer hoe om goeie kode te skryf nie. Jy moet in staat wees om goeie, effektiewe oplossings te programeer
+    - AKA CLR, soms CLRS, omdat Stein laat saamgekom het
+- [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
+    - Vir 'n ryker, meer geopdateerde (2017), maar langer behandeling
+
+## System Design, Scalability, Data Handling
+
+**Jy kan 'n paar ondtwerp vrae verwag as jy 4+ jare ondervinding het.**
+
+- 

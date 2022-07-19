@@ -233,6 +233,7 @@ sagteware ontwikkeling/ingeneur rolle.
 - [Video Reeks](#video-reeks)
 - [Rekenaar Wetenshap Kursusse](#rekenaar-wetenshap-kursusse)
 - [Papiere](#papiere)
+
 ---
 
 ## Hoekom gebruik dit?

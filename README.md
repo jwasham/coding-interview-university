@@ -50,6 +50,7 @@
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
+- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
 
 </details>
 
@@ -232,6 +233,7 @@ software development/engineering roles.
 - [Video Series](#video-series)
 - [Computer Science Courses](#computer-science-courses)
 - [Papers](#papers)
+
 ---
 
 ## Why use it?

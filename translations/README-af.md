@@ -1292,3 +1292,15 @@ Hê ook 'n storie, nie net data, oor iets wat jy bereik het.
 - Is dit algemeen om na die sperdatum te jaag? Of is daar buigsaamheid?
 - Hoe word besluite geneem op jou span?
 - Hoeveel vergaderings het julle per week?
+- Voel jy die omgewing help jou fokus?
+- Wat werk jy aan?
+- Wat hou jy van dit?
+- Hoe is die werk lewe?
+- Hoe is die werk/lewe belaans?
+
+## Sodra Jy Die Werk Het
+
+Geluk!
+
+Hou aan leer.
+

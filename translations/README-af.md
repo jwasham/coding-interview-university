@@ -1304,3 +1304,18 @@ Geluk!
 
 Hou aan leer.
 
+Jy is nooit regtig klaar nie.
+
+---
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+    Alles hieronder is opsioneel. Dit is NIE nodig vir 'n intreevlak ingeneur nie.
+    Alhowel, deur om dit te studeer sal jy meer blootstelling kry met CS konsepte, en sal beter voorbereid wees vir
+    enige sagteware ingeneur werk. Jy sal 'n veel meer afgeronde sagteware ingeneur wees.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---

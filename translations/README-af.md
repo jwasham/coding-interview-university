@@ -1331,3 +1331,10 @@ Jy is nooit regtig klaar nie.
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
     - 'n Sagte inleiding na ontwerp patrone
+- [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+    - AKA die "Gang Of Four" boek, of GOF
+    - Die kanoniese ontwerp patrone boek
+- [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+    - As 'n revisie en probleem herkening
+    - Die algoritme katalogus porsie is ver buite die omvang van probleme wat jy in die onderhoud sal kry
+    - Die bok het 2 dele:

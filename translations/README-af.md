@@ -1338,3 +1338,13 @@ Jy is nooit regtig klaar nie.
     - As 'n revisie en probleem herkening
     - Die algoritme katalogus porsie is ver buite die omvang van probleme wat jy in die onderhoud sal kry
     - Die bok het 2 dele:
+        - Klass teksboek oor datastrukture en algoritmes
+            - Pros:
+                - Is so goed 'n revisie soos enige teksboek sal wees
+                - Goeie stories van sy ondervinding met probleme oplos in die bedryf en akademie
+                - Kode voorbeelde in C
+            - Cons:
+                - Kan so dig en ondeurdringbaar soos CLRS wees, en in sommige gevalle, kan CLRS 'n beter alternatief wees vir sekere onderwerpe
+                - Hoofstukke 7, 8, 9 kan pynlik wees om te probeer volg, omdat sommige items nie goed verduidelik word nie en bonodig meer brain wat ek nie het nie
+                - Moenie my misverstaan nie: Ek hou van Skiena, sy onderrig style, en manerismes, maar ek mag dalk nie Stony Brook materiaal wees nie
+            

@@ -1377,4 +1377,19 @@ Jy is nooit regtig klaar nie.
 
 **Jy kan 'n paar ondtwerp vrae verwag as jy 4+ jare ondervinding het.**
 
-- 
+- Scalability en System Design is beide baie groot onderwerpe met onderwerpe en hulpbronne, omdat
+      daar baie is om te oorweeg wanneer 'n sagtewaar/hardewaar sisteem wat kan skaal geontwerp word.
+      Verwag om nogals 'n bikie tyd hierop te spandeer
+- Oorwegings:
+    - Scalability:
+        - Distileer grood data stelle na 'n enkele waarde
+        - Transformeer een data stel na 'n ander een
+        - Hantering van baie groot bedrae van data
+    - System design
+        - features sets
+        - interfaces
+        - class hierarchies
+        - ontwerp van 'n sisteem onder sekere beperkings
+        - eenvoud en robuustheid
+        - tradeoffs
+        - performance analysis and optimization

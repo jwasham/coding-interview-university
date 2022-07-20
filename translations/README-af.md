@@ -1410,3 +1410,13 @@ Jy is nooit regtig klaar nie.
     - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)
         - [ ] [Easy-to-read paper](https://raft.github.io/)
         - [ ] [Infographic](http://thesecretlivesofdata.com/raft/)
+- [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+- [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+- [ ] Scalability:
+    - Jy nodig nie al dié nie. Kies net 'n paar wat vir jou interressant is.
+    - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] Short series:
+        - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+        - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+        - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+        - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)

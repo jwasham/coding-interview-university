@@ -225,13 +225,13 @@ Print out a "[future Googler](https://github.com/jwasham/coding-interview-univer
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)
 
-## Did I Get the Job?
+## Comment j'ai eu le job ?
 
 I'm in the queue right now. Hope to interview soon.
 
     Thanks for the referral, JP.
 
-## Follow Along with Me
+## Follow moi ailleurs
 
 My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
@@ -326,7 +326,7 @@ Tu pourrais aussi faire celles-ci, mais fait de la recherche avant. Il y aurait 
 
 Tu dois être très comfortable avec la langue et tu dois aussi savoir beaucoup à propos la langue.
 
-Lit à propos vos choix:
+Lis à propos vos choix:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
@@ -335,109 +335,113 @@ Lit à propos vos choix:
 
 Vous voyiez C, C++ et Python en dessous, parce que j'apprends. Il y a quelques livres qui va t'aider, regarde en dessous. 
 
-## Book List
+## Liste de livres
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Voici une liste que j'ai réduite afin de vous faire gagner du temps.
 
-### Interview Prep
+### Préparation de l'entretien
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
+- [ ] [Entretien de développement dévoilé : Les secrets pour avoir votre prochain job, 2 ème édition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - réponses en c++ et java
+    - recommandé par un candidat en coaching de Google
     - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - c'est un bon échuaffement pour cracker l'entretien de développement
+    - pas trop difficule, la plupart des problèmes seront plus faciles que ceux que vous arez dans l'entretien (de ce que j'ai lu)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+    - réponses en java
+    - recommandé sur le [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
+    - Si vous voyez des personnes faire référence à "The Google Resume", c'était le livre remplacé par "Craking the Coding Interview"
 
-If you have tons of extra time:
+Si vous avez beaucoup de temps libre:
 
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+    - Tout le code est en C++, très utile si vous cherchez à utiliser du C++ pendant l'entretien
+    - Un très bon livre sur la résolution de problème dans son ensemble
 
-### Computer Architecture
+### Architecture de l'ordinateur
 
-If short on time:
+Si vous n'avez pas beaucoup de temps :
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
+    - Le livre est un peu dépassé car il a été publié en 2004, mais il reste intéressant pour comprendre brièvement comment marche un ordinateur.
+    - L''ateur a inventé HLA, prenez donc ses remarques et ses exemples sur le HLA avec scpetisme. Il n'est pas souvent cité mais propose de nombreux exemples sur ce à quoi un assembleur ressemble
+    - Ces chapitres vous donneront des fondations :
+        - Chapitre 2 - Réprésentation numérique
+        - Chapitre 3 - Arithmétique binaire et les opérations bit à bit
+        - Chapitre 4 - Floating-Point Representation
+        - Chapitre 4 - La représentation de la virgule flottante
+        - Chapitre 5 - Représentation characterielle
+        - Chapitre 6 - Organisation et accès de la mémoire
+        - Chapitre 7 - Type de données composites et les objets de mémoire
+        - Chapitre 9 - Architecture CPU
+        - Chapitre 10 - Jeu d'instructions
+        - Chapitre 11 - Organisation et architecture de la mémoire
 
-If you have more time (I want this book):
+Si vous avez plus de temps (Je veux ce livre):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - Pour quelque chose de plus récent (2011) mais qui prendre plus de temps.
 
-### Language Specific
+### Sur les langages
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Vous avez besoin de choisir un langage pour l'entretien (voir au-dessus).** Voici mes recommendations sur les différents langages. Je n'ai pas des ressources pour tous les langages alors n'hésitez pas à en rajouter.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Si vous lisez un d'eux, vous devez d'abord avoir toutes des connaissances sur les structures de données et les algorithmes pour pouvoir faire des problèmes de codage.
+**Vous pouvez passer toutes les vidéos de cours de ce projet**, à moins que vous voulez un avis.
 
 [Additional language-specific resources here.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Je n'ai pas lu ces deux-là mais ils sont bien notées et écrit par Sedgewick. Il est incroyable.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Si vous avez une meilleure recommendation pour le C++, dites le moi. Je recherche des ressources plus compréhensive.
 
 ### Java
 
 - [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
+    - les vidéos avec le contenu des livres (and Sedgewick!):
         - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
         - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
 
-OR:
+OU:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - par Goodrich, Tamassia, Goldwasser
+    - utilisé pour du texte optionnel dans les cours d'introduction à l'informatique à l'UC Berkeley
+    - allez voir le raport que j'ai fait sur le Python proposé en-dessous. Ce livre couvre les mêmes sujets.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
+    - par Goodrich, Tamassia, Goldwasser
     - I loved this book. It covered everything and more.
+    - j'ai aimé ce livre, il couvrait tout voire plus.
     - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - mon rapport : https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
-### Optional Books
+### Livres optionnels
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**Plusieurs personnes les recommandes, cependant je pense qu'ils vont trop loin, à moins que vous ayez plusieurs années dans le dévleoppement logiciel and que vous vous attendez à un entretien bien plus difficile**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
+    - En tant qu'examen et reconnaissance de problème
+    - Le catalogue algorithmique est bien plus difficile que ce que vous aurez pendant l'entretien.
+    - Ce livre est divisé en deux parties :
         - class textbook on data structures and algorithms
-            - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
+            - pour:
+                - est une bonne critique comme n'importe quel manuel le serait
+                - des histoires intéressantes venant de son expérience dans la résolutionde problèmes dans l'industriel et l'académique
+                - des exemples de code en C
+            - contre:
+                - peut être aussi dense ou impénétrable que CLRS, et dans plusieurs cas, CLRS peut être une meilleure alternative sur certains sujets
                 - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
+                - les chapitres 7, 8, 9 peuvent être difficiles à suivre, comme certains points ne sont pas bien expliqués ou requiert une plus grande concentration pour comprendre 
+                - ne vous méprenez pas, J'aime bien Skiena, sa pédagogie et ses manières mais je ne suis pas fais pas Stony Brook
         - algorithm catalog:
             - this is the real reason you buy this book.
             - about to get to this part. Will update here once I've made my way through it.

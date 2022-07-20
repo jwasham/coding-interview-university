@@ -1458,3 +1458,28 @@ Jy is nooit regtig klaar nie.
     - revisie: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
+    - vloei:
+        1. Verstaan die probleem en scope:
+            - Defineer die gebruik gevalle, met die onderhoudvoerder se hulp
+            - Stel addisionele kenmerke voor
+            - Verwyder items wat die onderhoudvoerder buite die scope ag
+            - Neem aan hoë beskikbaarheid sal nodig wees, voeg as 'n gebruik geval by
+        2. Dink oor beperkings:
+            - Vra hoeveel versoeke per maand
+            - Vra hoeveel versoeke per sekonde (hulle mag dit dalk net gee of vir jou vra om dit uit te werk)
+            - Skat lees vs. skryf persentasie
+            - Hoeveel data word geskryf per sekonde
+            - Totale berging benodig oor 5 jaar
+            - Hoeveel data lees per sekonde
+        3. Abstrakte ontwerp:
+            - Lae (dienste, data, caching)
+            - Infristraktuur: load balancing, messaging
+            - Rof oorsig van enige sleutel algoritmes wat die diens dryf
+            - Oorweeg knelpunte en determineer oplossings
+    - Oefeninge:
+        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
+        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
+        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
+        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
+        - [Design a cache system](https://web.archive.org/web/20220217064329/https://adayinthelifeof.nl/2011/02/06/memcache-internals/)

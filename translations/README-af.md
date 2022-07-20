@@ -1531,3 +1531,11 @@ Jy is nooit regtig klaar nie.
     - uniq
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
+
+- ### Inligtingsteorie (videos)
+    - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
+    - Meer oor Markov processes:
+        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+    - Sien meer in MIT 6.050J Information and Entropy reeks hieronder

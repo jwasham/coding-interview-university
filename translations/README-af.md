@@ -1517,3 +1517,17 @@ Jy is nooit regtig klaar nie.
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
 	- [The Absolute Beginner's Guide to Emacs (video by David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
 	- [The Absolute Beginner's Guide to Emacs (notes by David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
+
+- ### Unix command line tools
+    - Ek het die lys hieronder met goeie gereedskap gevul.
+    - bash
+    - cat
+    - grep
+    - sed
+    - awk
+    - curl or wget
+    - sort
+    - tr
+    - uniq
+    - [strace](https://en.wikipedia.org/wiki/Strace)
+    - [tcpdump](https://danielmiessler.com/study/tcpdump/)

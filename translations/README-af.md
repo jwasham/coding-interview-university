@@ -1468,6 +1468,7 @@ Jy is nooit regtig klaar nie.
             - Vra hoeveel versoeke per maand
             - Vra hoeveel versoeke per sekonde (hulle mag dit dalk net gee of vir jou vra om dit uit te werk)
             - Skat lees vs. skryf persentasie
+            - Hou 80/20 reel byderhands wanneer jy die skatting doen
             - Hoeveel data word geskryf per sekonde
             - Totale berging benodig oor 5 jaar
             - Hoeveel data lees per sekonde
@@ -1483,3 +1484,8 @@ Jy is nooit regtig klaar nie.
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://web.archive.org/web/20220217064329/https://adayinthelifeof.nl/2011/02/06/memcache-internals/)
+
+## Bykomende Leer
+
+    Ek het hulle by gevoeg om jou te help 'n afgeronde sagteware ingeneur te word en bewus van sekere
+    tegnologies en algoritmes is, sodat jy 'n groter toolbox het.

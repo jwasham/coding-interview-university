@@ -1448,3 +1448,13 @@ Jy is nooit regtig klaar nie.
     - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
     - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
+    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+    - [ ] Sien "Messaging, Serialization, and Queueing Systems" ver onder vir informasie oor van die tegnologies wat dienste saam kan gom
+    - [ ] Twitter:
+        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
+        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
+    - Vir nog meer, sien "Mining Massive Datasets" video reeks in die [Video Reeks](#video-reeks) seksie
+- [ ] Oefen die system design fase: Hier is 'n paar idees om op papier uit te werk, elkeen met dokumentasie oor hoe dit in die regte wêreld gehanteer was:
+    - revisie: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)

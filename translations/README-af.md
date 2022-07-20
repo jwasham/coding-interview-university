@@ -1539,3 +1539,23 @@ Jy is nooit regtig klaar nie.
         - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - Sien meer in MIT 6.050J Information and Entropy reeks hieronder
+
+- ### Parity & Hamming Code (videos)
+    - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - Hamming Code:
+        - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
+        - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
+    - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+
+- ### Entropy
+    - Sien ook videos hieronder
+    - Maak seker om die inligtingsteorievideos eers te kyk
+    - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
+
+- ### Cryptography
+    - Sien ook videos hieronder
+    - Maak seker om die inligtingsteorievideos eers te kyk
+    - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
+    - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+    - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)

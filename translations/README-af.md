@@ -1559,3 +1559,15 @@ Jy is nooit regtig klaar nie.
     - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+- ### Compression
+    - Maak seker om die inligtingsteorievideos eers te kyk
+    - Computerphile (videos):
+        - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
+        - [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
+        - [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
+        - [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+    - [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)

@@ -1631,15 +1631,10 @@ Jy is nooit regtig klaar nie.
 
 - ### Bloom Filter
     - 'n Bloom filter met m bits en k hashing funksies, het albei insertion en membership testing as O(k)
-    - ### A*
-    - [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-    - [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+    - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
+    - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
-- ### Fast Fourier Transform
-    - [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
-    - [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    - [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
-    - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
-
-- ### Bloom Filter
+- ### HyperLogLog
+    - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)

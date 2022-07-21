@@ -1647,3 +1647,17 @@ Jy is nooit regtig klaar nie.
 - ### van Emde Boas Trees
     - [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+
+- ### Augmented Data Structures
+    - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
+
+- ### Balanced search trees
+    - Ken ten minste een tipe balanced binary tree (en ken hoe om dit te implimenteer):
+    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
+        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
+        to move any accessed key to the root." - Skiena
+    - Van die het ek gekies om splay tree's te implementeer. Van wat ek gelees het, sal jy nie
+        'n balanced search tree in jou onderjoud implimenteer nie. Maar ek wou blootstelling hê met een kodeer
+        en eerlikwaar is splay trees die bye se knieë. Ek het baie red-black tree kode gelees
+        - Splay tree: insert, delete funksies
+        

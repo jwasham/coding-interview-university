@@ -1709,3 +1709,13 @@ Jy is nooit regtig klaar nie.
             - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
             - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
             - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+        - **2-3-4 Trees (aka 2-4 trees)**
+            - Prakties:
+                Vir elke 2-4 tree, is daar 'n ooreenstemmende red-black tree met data elemente in dieselfde orde. Die insertion en deletion
+                operations op 2-4 trees is ook ekwivalent na kleur-verandering en rotasies in red-black trees. Die maak 2-4 trees 'n
+                belangrike instrument om die logika angter red-black trees te verstaan, en dis hoekeom baie inleiding algoritmes tekste
+                2-4 bome net voor red-black trees voorstel, selfs al word **2-4 trees nie gereeld in die praktyk gebruik word nie**.
+            - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
+            - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+            - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)

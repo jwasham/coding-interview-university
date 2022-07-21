@@ -1595,3 +1595,38 @@ Jy is nooit regtig klaar nie.
 - ### Parallel Programming
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+
+- ### Messaging, Serialization, en Queueing Systems
+    - [Thrift](https://thrift.apache.org/)
+        - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+    - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
+        - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+    - [gRPC](http://www.grpc.io/)
+        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+    - [Redis](http://redis.io/)
+        - [Tutorial](http://try.redis.io/)
+    - [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+    - [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
+    - [RabbitMQ](https://www.rabbitmq.com/)
+        - [Get Started](https://www.rabbitmq.com/getstarted.html)
+    - [Celery](http://www.celeryproject.org/)
+        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+    - [ZeroMQ](http://zeromq.org/)
+        - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+    - [ActiveMQ](http://activemq.apache.org/)
+    - [Kafka](http://kafka.apache.org/documentation.html#introduction)
+    - [MessagePack](http://msgpack.org/index.html)
+    - [Avro](https://avro.apache.org/)
+
+- ### A*
+    - [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
+    - [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+
+- ### Fast Fourier Transform
+    - [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    - [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+
+- ### Bloom Filter

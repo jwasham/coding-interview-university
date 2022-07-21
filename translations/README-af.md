@@ -1678,3 +1678,13 @@ Jy is nooit regtig klaar nie.
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
     
     - **Splay trees**
+        - Prakties:
+            Splay bome is tipies gebruik in die implementering van caches, memory allocators, routers, garbage collctors,
+            data compression, ropes (vervanging van string gebruik vir lang teks strings), in Windows NT (in die virtual memory,
+            networking en file system kode) etc
+        - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
+        - MIT Lecture: Splay Trees:
+            - Word baie wiskundig, maar kyk die laaste 10 minute vir seker
+
+    - **Red/black trees**
+        - Die is 'n vertaling van die 2-3 boom (sien onder).

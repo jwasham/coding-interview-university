@@ -1798,3 +1798,20 @@ Jy is nooit regtig klaar nie.
     - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
     - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials)
     - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - Kursusse:
+        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
+              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
+        - [AWS Machine Learning Engineer Nanodegree](https://www.udacity.com/course/aws-machine-learning-engineer-nanodegree--nd189)
+        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
+    - Hulpbronne:
+        - Boeke:
+            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
+            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
+            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
+        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+        - Data School: http://www.dataschool.io/
+
+---
+

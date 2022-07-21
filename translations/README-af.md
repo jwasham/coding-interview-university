@@ -1660,4 +1660,21 @@ Jy is nooit regtig klaar nie.
         'n balanced search tree in jou onderjoud implimenteer nie. Maar ek wou blootstelling hê met een kodeer
         en eerlikwaar is splay trees die bye se knieë. Ek het baie red-black tree kode gelees
         - Splay tree: insert, delete funksies
-        
+        As jy besluit om red/black trees te implimenteer, probeer hierdie:
+        - Soek en insertion funksies, skiep delete
+    - Ek wil meer oor B-Tree's leer omdat dit gebruik word met groot datastelle
+    - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+
+    - **AVL trees**
+        - Prakties:
+            Van wat ek kan sê, word hierdie nie veel in die praktyk gebruik nie, maar ek kan sien waar dit sou gebruik word:
+            Die AVL boom is nog 'n stuktuur wat O(log n) search, insertion, en verwydering ondersteun. Dit is meer rigied
+            gebalanseer as red-black trees, wat lei na stadiger insertion en verwydering maar vinniger herwinning. Dit maak 
+            dit aantreklik vir datastrukture wat een keer gebou word en laai sonder herkonstuksie, soos taal
+            woordeboeke (of program woordeboeke, soos die opcodes van 'n assembler of interpreter)
+        - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+    
+    - **Splay trees**

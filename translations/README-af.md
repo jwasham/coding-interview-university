@@ -1638,3 +1638,12 @@ Jy is nooit regtig klaar nie.
 
 - ### HyperLogLog
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
+
+- ### Locality-Sensitive Hashing
+    - Gebruik om die ooreenkoms van dokumente te bepaal
+    - Die teenoorgestelde van MDS of SHA is gebruik om te bepaal of 2 dokumente/strings dieselfde is
+    - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
+
+- ### van Emde Boas Trees
+    - [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    - [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)

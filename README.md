@@ -277,6 +277,7 @@ Fork the GitHub repo https://github.com/jwasham/coding-interview-university by c
 Clone to your local repo:
 
     git clone git@github.com:<your_github_username>/coding-interview-university.git
+    cd coding-interview-university
     git checkout -b progress
     git remote add jwasham https://github.com/jwasham/coding-interview-university
     git fetch --all

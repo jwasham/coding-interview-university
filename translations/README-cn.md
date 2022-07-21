@@ -1265,6 +1265,7 @@
 - [InterviewBit](https://www.interviewbit.com)
 - [Project Euler (数学方向为主)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com/)
+- [Scaler Topics](https://www.scaler.com/topics/)
 
 语言学习网站，附带编码挑战：
 

@@ -46,6 +46,7 @@
   - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
   - [Coding Interview Essentials](https://github.com/ajinkyal121/coding-interview-university/blob/master/extras/cheat%20sheets/Coding%20Interview%20Python%20Language%20Essentials.pdf)
   - [Data Structures And Algorithms in Python](https://www.youtube.com/watch?v=kQDxmjfkIKY)
+  - [Python Programming Tutorial](https://www.scaler.com/topics/python/)
 - Java
   - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
   - [Introduction To Programming In Java](http://introcs.cs.princeton.edu/java/home/)

@@ -1702,20 +1702,39 @@ Jy is nooit regtig klaar nie.
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
 
-        - **2-3 search trees**
-            - Prakties:
-                2-3 bome het vinniger inserts teen die uitgawe van stadiger searches (aangesien hooggte meer is in vergelyking met AVL trees).
-            - Jy sal 2-3 trees baie selde gebruik omdat die implentering verskeie tipe nodes gebruik. In plek daarvan, gebruk mense Red Black trees.
-            - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
-            - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-            - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - **2-3 search trees**
+        - Prakties:
+            2-3 bome het vinniger inserts teen die uitgawe van stadiger searches (aangesien hooggte meer is in vergelyking met AVL trees).
+        - Jy sal 2-3 trees baie selde gebruik omdat die implentering verskeie tipe nodes gebruik. In plek daarvan, gebruk mense Red Black trees.
+        - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+        - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-        - **2-3-4 Trees (aka 2-4 trees)**
-            - Prakties:
-                Vir elke 2-4 tree, is daar 'n ooreenstemmende red-black tree met data elemente in dieselfde orde. Die insertion en deletion
-                operations op 2-4 trees is ook ekwivalent na kleur-verandering en rotasies in red-black trees. Die maak 2-4 trees 'n
-                belangrike instrument om die logika angter red-black trees te verstaan, en dis hoekeom baie inleiding algoritmes tekste
-                2-4 bome net voor red-black trees voorstel, selfs al word **2-4 trees nie gereeld in die praktyk gebruik word nie**.
-            - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
-            - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-            - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+    - **2-3-4 Trees (aka 2-4 trees)**
+        - Prakties:
+            Vir elke 2-4 tree, is daar 'n ooreenstemmende red-black tree met data elemente in dieselfde orde. Die insertion en deletion
+            operations op 2-4 trees is ook ekwivalent na kleur-verandering en rotasies in red-black trees. Die maak 2-4 trees 'n
+            belangrike instrument om die logika angter red-black trees te verstaan, en dis hoekeom baie inleiding algoritmes tekste
+            2-4 bome net voor red-black trees voorstel, selfs al word **2-4 trees nie gereeld in die praktyk gebruik word nie**.
+        - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
+        - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+        
+    - **N-ary (K-ary, M-ary) trees**
+        - let wel: die N of K is die branching faktoor (max branches)
+        - binary trees is 'n 2-ary tree, met branching faktoor = 2
+        - 2-3 trees is 3-ary
+        - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+    
+    - **B-Trees**
+        - Prettige feit: dis 'n misterie, maar die B kan staan vir Boeing, Balanced, of Bayer (mede-uitvinders)
+        - Prakties:
+            B-Trees word word gebruik in databasisse. Meeste moderne filesystems gebruik B-trees (of variante). Benewens
+            die gebruik in databasisse, word dit ook gebruik in filesystems om vinnige ewekansige toegang tot 'n arbitrêre
+            blok in 'n spesifieke lêer te gee. Die basiese probleem is om die lêer blok i address na 'n disk blok (of eerder 'n cylinder-head-sektor) address te verander
+        - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
+        - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
+        - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+        - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)

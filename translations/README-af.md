@@ -1,13 +1,13 @@
 # Kodering Onderhoud Universiteit
 
 > Ek het oorspronklik dié as 'n kort om-te-doen lys van studie onderwerpe om 'n sagteware ingenieur te word gemaak,
-> maar did het gegroei tot die groot lys wat jy vandag sien. Nadat ek dié studieplan gevolg het, [het Amazon my
+> maar dit het gegroei tot die groot lys wat jy vandag sien. Nadat ek dié studieplan gevolg het, [het Amazon my
 > aangestel](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > Jy hoef heel waarskynlik nie soveel soos ek te studeer nie. Maar alles wat jy nodig het is hier.
 > 
 > Ek het ongeveer 8-12 gestudeer elke dag, vir maande. Hier is my storie: [Hoekom ek vol-tyd gestudeer het, vir 8 maande, vir 'n Google onderhoud](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 > 
-> **Let asseblief op: ** Jy sal nie soveel soos ek hoef te studeer nie. Ek het baie tyd gemors op goed wat ek nie benodig het nie. Meer inligting daaroor onder. Ek sal jou help leer sonder om jou kosbare tyd te mors.
+> **Let asseblief op:** Jy sal nie soveel soos ek hoef te studeer nie. Ek het baie tyd gemors op goed wat ek nie benodig het nie. Meer inligting daaroor onder. Ek sal jou help leer sonder om jou kosbare tyd te mors.
 >
 > Die items wat hier gelys is sal jou goed voorberei vir tegniese onderhoude by omtrent enige sagteware maatskappy,
 > insluitend die reuse: Amazon, Facebook, Google, en Microsoft.
@@ -200,7 +200,7 @@ sagteware ontwikkeling/ingeneur rolle.
     - [Entropy](#entropy)
     - [Cryptography](#cryptography)
     - [Compression](#compression)
-    - [Rekenaar sekuriteit](#rekenaar-sekuriteit)
+    - [Rekenaar Sekuriteit](#rekenaar-sekuriteit)
     - [Garbage collection](#garbage-collection)
     - [Parallel Programming](#parallel-programming)
     - [Messaging, Serialization, en Queueing Systems](#messaging-serialization-en-queueing-systems)
@@ -231,7 +231,7 @@ sagteware ontwikkeling/ingeneur rolle.
     - [Masjienleer](#masjienleer)
 - [Bykomende Detail op Sommige Vakke](#bykomende-detail-op-sommige-vakke)
 - [Video Reeks](#video-reeks)
-- [Rekenaar Wetenshap Kursusse](#rekenaar-wetenshap-kursusse)
+- [Rekenaar Wetenskap Kursusse](#rekenaar-wetenshap-kursusse)
 - [Papiere](#papiere)
 
 ---
@@ -1405,3 +1405,592 @@ Jy is nooit regtig klaar nie.
 - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
 - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
 - [ ] [MIT 6.824: Distributed Systems, Spring 2020 (20 videos)](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+- [ ] Konsensus Algoritme:
+    - [ ] Paxos - [Paxos Agreement - Computerphile (video)](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+    - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)
+        - [ ] [Easy-to-read paper](https://raft.github.io/)
+        - [ ] [Infographic](http://thesecretlivesofdata.com/raft/)
+- [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+- [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+- [ ] Scalability:
+    - Jy nodig nie al dié nie. Kies net 'n paar wat vir jou interressant is.
+    - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] Short series:
+        - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+        - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+        - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+        - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+     - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
+    - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+    - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
+    - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+    - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
+    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
+    - [ ] [The Importance of Algorithms](https://www.topcoder.com/thrive/articles/The%20Importance%20of%20Algorithms)
+    - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+    - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+    - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
+        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
+    - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
+    - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
+    - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
+    - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
+    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
+    - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+    - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+    - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
+    - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
+    - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
+    - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
+    - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
+    - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
+    - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+    - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
+    - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
+    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+    - [ ] Sien "Messaging, Serialization, and Queueing Systems" ver onder vir informasie oor van die tegnologies wat dienste saam kan gom
+    - [ ] Twitter:
+        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
+        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
+    - Vir nog meer, sien "Mining Massive Datasets" video reeks in die [Video Reeks](#video-reeks) seksie
+- [ ] Oefen die system design fase: Hier is 'n paar idees om op papier uit te werk, elkeen met dokumentasie oor hoe dit in die regte wêreld gehanteer was:
+    - revisie: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
+    - vloei:
+        1. Verstaan die probleem en scope:
+            - Defineer die gebruik gevalle, met die onderhoudvoerder se hulp
+            - Stel addisionele kenmerke voor
+            - Verwyder items wat die onderhoudvoerder buite die scope ag
+            - Neem aan hoë beskikbaarheid sal nodig wees, voeg as 'n gebruik geval by
+        2. Dink oor beperkings:
+            - Vra hoeveel versoeke per maand
+            - Vra hoeveel versoeke per sekonde (hulle mag dit dalk net gee of vir jou vra om dit uit te werk)
+            - Skat lees vs. skryf persentasie
+            - Hou 80/20 reel byderhands wanneer jy die skatting doen
+            - Hoeveel data word geskryf per sekonde
+            - Totale berging benodig oor 5 jaar
+            - Hoeveel data lees per sekonde
+        3. Abstrakte ontwerp:
+            - Lae (dienste, data, caching)
+            - Infristraktuur: load balancing, messaging
+            - Rof oorsig van enige sleutel algoritmes wat die diens dryf
+            - Oorweeg knelpunte en determineer oplossings
+    - Oefeninge:
+        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
+        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
+        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
+        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
+        - [Design a cache system](https://web.archive.org/web/20220217064329/https://adayinthelifeof.nl/2011/02/06/memcache-internals/)
+
+## Bykomende Leer
+
+    Ek het hulle by gevoeg om jou te help 'n afgeronde sagteware ingeneur te word en bewus van sekere
+    tegnologies en algoritmes is, sodat jy 'n groter toolbox het.
+
+- ### Compilers
+    - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
+    - [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+    - [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
+    - [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+
+- ### Emacs and vi(m)
+    - Familiariseer jouself met 'n unix-gebaseerde kode editor
+    - vi(m):
+        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [VIM Adventures](http://vim-adventures.com/)
+        - reeks van 4 videos:
+            - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
+            - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
+            - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
+            - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
+        - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
+    - emacs:
+        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
+        - reeks van 3 (videos):
+            - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
+            - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
+            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
+        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
+	- [The Absolute Beginner's Guide to Emacs (video by David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
+	- [The Absolute Beginner's Guide to Emacs (notes by David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
+
+- ### Unix command line tools
+    - Ek het die lys hieronder met goeie gereedskap gevul.
+    - bash
+    - cat
+    - grep
+    - sed
+    - awk
+    - curl or wget
+    - sort
+    - tr
+    - uniq
+    - [strace](https://en.wikipedia.org/wiki/Strace)
+    - [tcpdump](https://danielmiessler.com/study/tcpdump/)
+
+- ### Inligtingsteorie (videos)
+    - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
+    - Meer oor Markov processes:
+        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+    - Sien meer in MIT 6.050J Information and Entropy reeks hieronder
+
+- ### Parity & Hamming Code (videos)
+    - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - Hamming Code:
+        - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
+        - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
+    - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+
+- ### Entropy
+    - Sien ook videos hieronder
+    - Maak seker om die inligtingsteorievideos eers te kyk
+    - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
+
+- ### Cryptography
+    - Sien ook videos hieronder
+    - Maak seker om die inligtingsteorievideos eers te kyk
+    - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
+    - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+    - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+- ### Compression
+    - Maak seker om die inligtingsteorievideos eers te kyk
+    - Computerphile (videos):
+        - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
+        - [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
+        - [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
+        - [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+    - [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
+
+- ### Rekenaar Sekuriteit
+    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+        - [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+        - [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
+        - [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+
+- ### Garbage collection
+- [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+- [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
+- [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+
+- ### Parallel Programming
+    - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+    - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+
+- ### Messaging, Serialization, en Queueing Systems
+    - [Thrift](https://thrift.apache.org/)
+        - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+    - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
+        - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+    - [gRPC](http://www.grpc.io/)
+        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+    - [Redis](http://redis.io/)
+        - [Tutorial](http://try.redis.io/)
+    - [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+    - [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
+    - [RabbitMQ](https://www.rabbitmq.com/)
+        - [Get Started](https://www.rabbitmq.com/getstarted.html)
+    - [Celery](http://www.celeryproject.org/)
+        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+    - [ZeroMQ](http://zeromq.org/)
+        - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+    - [ActiveMQ](http://activemq.apache.org/)
+    - [Kafka](http://kafka.apache.org/documentation.html#introduction)
+    - [MessagePack](http://msgpack.org/index.html)
+    - [Avro](https://avro.apache.org/)
+
+- ### A*
+    - [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
+    - [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+
+- ### Fast Fourier Transform
+    - [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    - [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+
+- ### Bloom Filter
+    - 'n Bloom filter met m bits en k hashing funksies, het albei insertion en membership testing as O(k)
+    - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
+    - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
+
+- ### HyperLogLog
+    - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
+
+- ### Locality-Sensitive Hashing
+    - Gebruik om die ooreenkoms van dokumente te bepaal
+    - Die teenoorgestelde van MDS of SHA is gebruik om te bepaal of 2 dokumente/strings dieselfde is
+    - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
+
+- ### van Emde Boas Trees
+    - [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    - [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+
+- ### Augmented Data Structures
+    - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
+
+- ### Balanced search trees
+    - Ken ten minste een tipe balanced binary tree (en ken hoe om dit te implimenteer):
+    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
+        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
+        to move any accessed key to the root." - Skiena
+    - Van die het ek gekies om splay tree's te implementeer. Van wat ek gelees het, sal jy nie
+        'n balanced search tree in jou onderjoud implimenteer nie. Maar ek wou blootstelling hê met een kodeer
+        en eerlikwaar is splay trees die bye se knieë. Ek het baie red-black tree kode gelees
+        - Splay tree: insert, delete funksies
+        As jy besluit om red/black trees te implimenteer, probeer hierdie:
+        - Soek en insertion funksies, skiep delete
+    - Ek wil meer oor B-Tree's leer omdat dit gebruik word met groot datastelle
+    - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+
+    - **AVL trees**
+        - Prakties:
+            Van wat ek kan sê, word hierdie nie veel in die praktyk gebruik nie, maar ek kan sien waar dit sou gebruik word:
+            Die AVL boom is nog 'n stuktuur wat O(log n) search, insertion, en verwydering ondersteun. Dit is meer rigied
+            gebalanseer as red-black trees, wat lei na stadiger insertion en verwydering maar vinniger herwinning. Dit maak 
+            dit aantreklik vir datastrukture wat een keer gebou word en laai sonder herkonstuksie, soos taal
+            woordeboeke (of program woordeboeke, soos die opcodes van 'n assembler of interpreter)
+        - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+    
+    - **Splay trees**
+        - Prakties:
+            Splay bome is tipies gebruik in die implementering van caches, memory allocators, routers, garbage collctors,
+            data compression, ropes (vervanging van string gebruik vir lang teks strings), in Windows NT (in die virtual memory,
+            networking en file system kode) etc
+        - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
+        - MIT Lecture: Splay Trees:
+            - Word baie wiskundig, maar kyk die laaste 10 minute vir seker
+            - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
+
+    - **Red/black trees**
+        - Die is 'n vertaling van die 2-3 boom (sien onder).
+        - Prakties:
+            Red-black trees bied slegste-geval waarborge vir insertion tyd, deletion tyd, en soek tyd.
+            Dit maak hulle waardevol in tyd-sensitiewe toepe soos regte-tyd toepassings,
+            maar dit maak hulle waardevolle bou blokke in ander datastrukture wat slegste-geval waarborge voorsien:
+            byvoorbeeld, baie datastrukture wat in rekenaar meetkunde gebruik word kan gebaseer wees op red-black trees, en
+            die Completely Fair Scheduler gebruik in huidige Linux kernels gebruik red-black trees. In die 8ste weergawe van Java
+            word die Collection HashMap gemodifiseersodat in stede van 'n Linked List om identiese elemente te stoor met arm
+            hashcodes, word 'n Red-Black tree gebruik
+        - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+        - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
+        - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
+
+    - **2-3 search trees**
+        - Prakties:
+            2-3 bome het vinniger inserts teen die uitgawe van stadiger searches (aangesien hooggte meer is in vergelyking met AVL trees).
+        - Jy sal 2-3 trees baie selde gebruik omdat die implentering verskeie tipe nodes gebruik. In plek daarvan, gebruk mense Red Black trees.
+        - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+        - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+    - **2-3-4 Trees (aka 2-4 trees)**
+        - Prakties:
+            Vir elke 2-4 tree, is daar 'n ooreenstemmende red-black tree met data elemente in dieselfde orde. Die insertion en deletion
+            operations op 2-4 trees is ook ekwivalent na kleur-verandering en rotasies in red-black trees. Die maak 2-4 trees 'n
+            belangrike instrument om die logika angter red-black trees te verstaan, en dis hoekeom baie inleiding algoritmes tekste
+            2-4 bome net voor red-black trees voorstel, selfs al word **2-4 trees nie gereeld in die praktyk gebruik word nie**.
+        - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
+        - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+        
+    - **N-ary (K-ary, M-ary) trees**
+        - let wel: die N of K is die branching faktoor (max branches)
+        - binary trees is 'n 2-ary tree, met branching faktoor = 2
+        - 2-3 trees is 3-ary
+        - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+    
+    - **B-Trees**
+        - Prettige feit: dis 'n misterie, maar die B kan staan vir Boeing, Balanced, of Bayer (mede-uitvinders)
+        - Prakties:
+            B-Trees word word gebruik in databasisse. Meeste moderne filesystems gebruik B-trees (of variante). Benewens
+            die gebruik in databasisse, word dit ook gebruik in filesystems om vinnige ewekansige toegang tot 'n arbitrêre
+            blok in 'n spesifieke lêer te gee. Die basiese probleem is om die lêer blok i address na 'n disk blok 
+            (of eerder 'n cylinder-head-sektor) address te verander
+        - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
+        - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
+        - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+        - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+                - dek cache-oblivious B-Trees, baie interessante datastrukture
+                - die eerste 37 minute is baie tegnies en mag geskiep word (B is block size, cache line size)
+
+
+- ### k-D Trees
+    - Fantasties om die hoeveelheid punte in 'n vierkant of hoër dimensie objek te kry
+    - 'n Goeie keuse vir k-nearest neighbors
+    - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+
+- ### Skip lists
+    - "These are somewhat of a cult data structure" - Skiena
+    - [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
+
+- ### Network Flows
+    - [Ford-Fulkerson in 5 minutes — Step by step example (video)](https://www.youtube.com/watch?v=Tl90tNtKvxs)
+    - [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+
+- ### Disjoint Sets & Union Find
+    - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
+    - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
+
+- ### Math for Fast Processing
+    - [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+
+- ### Treap
+    - Combination of a binary search tree and a heap
+    - [Treap](https://en.wikipedia.org/wiki/Treap)
+    - [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
+
+- ### Lineêre Programering (videos)
+    - [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
+    - [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
+    - [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
+    - [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
+
+- ### Geometry, Convex hull (videos)
+    - [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
+    - [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+
+- ### Discrete math
+    - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
+    - [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
+    - [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
+
+- ### Machine Learning
+    - Hoekom ML?
+        - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
+        - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
+        - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
+    - [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+    - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+    - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials)
+    - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - Kursusse:
+        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
+              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
+        - [AWS Machine Learning Engineer Nanodegree](https://www.udacity.com/course/aws-machine-learning-engineer-nanodegree--nd189)
+        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
+    - Hulpbronne:
+        - Boeke:
+            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
+            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
+            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
+        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+        - Data School: http://www.dataschool.io/
+
+---
+
+## Bykomende Detail op Sommige Vakke
+
+    Ek het die by gevoeg om sommige idees wat al klaar bo aagebied was, maar nie ingesluit was nie 
+    omdat dit te veel is, te versterk. Dis maklik om 'n onderwerp te oordoen
+    Jy wil in hierdie eeu aangestel word, nê?
+
+- **SOLIED**
+    - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+    - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+        - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+    - [ ] O - [Open/Closed Principle](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension but not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+    - [ ] L - [Liskov Substitution Principle](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ Principle](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+    - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
+        - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+    - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
+        - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+        - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+
+
+- **Union-Find**
+    - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
+    - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
+    - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
+    - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
+    - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
+    - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+
+- **Meer Dinamiese Programering** (videos)
+    - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=r4-cftqTcdI&ab_channel=MITOpenCourseWare)
+    - [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=KLBCUx1is2c&ab_channel=MITOpenCourseWare)
+    - [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=TDo3r5M1LNo&ab_channel=MITOpenCourseWare)
+    - [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=i9OAOk0CUQE&ab_channel=MITOpenCourseWare)
+    - [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
+    - [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
+
+- **Advanced Graph Processing** (videos)
+    - [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
+    - [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
+
+- MIT **Probability** (wiskundig, en gaan stadig, wat goed is vir wiskundige goed) (videos):
+    - [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Random Variables](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
+    - [MIT 6.042J - Expectation I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Expectation II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
+    - [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
+
+- [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+
+- **String Matching**
+    - Rabin-Karp (videos):
+        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
+        - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
+    - Knuth-Morris-Pratt (KMP):
+        - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
+    - Boyer–Moore string search algorithm
+        - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
+        - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
+    - [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
+        - Begin goed, maar teen die tyd wat dit verby KMP gaan word dit meer ingewikkeld as wat dit hoef te wees
+        - goeie verduideliking van tries
+        - kan geskiep word
+
+- **Sorting**
+
+    - Stanford lectures on sorting:
+        - [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
+        - [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
+    - Shai Simonson, [Aduni.org](http://www.aduni.org/):
+        - [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
+        - [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+    - Steven Skiena lectures on sorting:
+        - [CSE373 2020 - Mergesort/Quicksort (video)](https://www.youtube.com/watch?v=jUf-UQ3a0kg&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=8)
+        - [CSE373 2020 - Linear Sorting (video)](https://www.youtube.com/watch?v=0ksyQKmre84&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=9)
+
+## Video Reeks
+
+Sit terug en geniet.
+
+- [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+
+- [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
+
+- [MIT 18.06 Linear Algebra, Spring 2005 (35 videos)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+
+- [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
+
+- [Skiena lectures from Algorithm Design Manual - CSE373 2020 - Analysis of Algorithms (26 videos)](https://www.youtube.com/watch?v=22hwcnXIGgk&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=1)
+
+- [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+
+- [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://archive.org/details/ucberkeley-webcast-PL4BBB74C7D2A1049C)
+
+- [UC Berkeley 61C: Machine Structures (26 videos)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
+
+- [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+
+- [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLDSlqjcPpoL64CJdF0Qee5oWqGS6we_Yu)
+
+- [Carnegie Mellon - Computer Architecture Lectures (39 videos)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
+
+- [MIT 6.006: Intro to Algorithms (47 videos)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
+
+- [MIT 6.033: Computer System Engineering (22 videos)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
+
+- [MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
+
+- [MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
+
+- [MIT 6.046: Design and Analysis of Algorithms (34 videos)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+- [MIT 6.824: Distributed Systems, Spring 2020 (20 videos)](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+
+- [MIT 6.851: Advanced Data Structures (22 videos)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+
+- [MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+
+- [Harvard COMPSCI 224: Advanced Algorithms (25 videos)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+
+- [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+
+- [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
+
+- [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
+    - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
+
+- [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
+
+- [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
+
+## Rekenaar Wetenskap Kursusse
+
+- [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
+- [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
+
+## Algoritmiese implementasie
+
+- [Multiple Algorithms implementation by Princeton University](https://algs4.cs.princeton.edu/code)
+
+
+## Papers
+
+- [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
+- [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+    - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
+- [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+    - replaced by Colossus in 2012
+- [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+    - meestal gevervang deur Cloud Dataflow?
+- [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+- [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
+- [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+    - Die Dynamo papier het die NoSQL revolusie afgeskop
+- [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+- 2012: AddressSanitizer: 'n Vinnige Sanity Checker:
+    - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+    - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+- 2013: Spanner: Google’s Globally-Distributed Database:
+    - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+    - [video](https://www.usenix.org/node/170855)
+- [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+- [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
+- [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+- [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+- [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+- More papers: [1,000 papers](https://github.com/0voice/computer_expert_paper)
+
+## LICENSE
+
+[CC-BY-SA-4.0](./LICENSE.txt)

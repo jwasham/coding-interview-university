@@ -1697,3 +1697,15 @@ Jy is nooit regtig klaar nie.
             die Completely Fair Scheduler gebruik in huidige Linux kernels gebruik red-black trees. In die 8ste weergawe van Java
             word die Collection HashMap gemodifiseersodat in stede van 'n Linked List om identiese elemente te stoor met arm
             hashcodes, word 'n Red-Black tree gebruik
+        - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+        - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
+        - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
+
+        - **2-3 search trees**
+            - Prakties:
+                2-3 bome het vinniger inserts teen die uitgawe van stadiger searches (aangesien hooggte meer is in vergelyking met AVL trees).
+            - Jy sal 2-3 trees baie selde gebruik omdat die implentering verskeie tipe nodes gebruik. In plek daarvan, gebruk mense Red Black trees.
+            - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+            - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+            - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)

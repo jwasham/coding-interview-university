@@ -1685,6 +1685,15 @@ Jy is nooit regtig klaar nie.
         - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
         - MIT Lecture: Splay Trees:
             - Word baie wiskundig, maar kyk die laaste 10 minute vir seker
+            - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - **Red/black trees**
         - Die is 'n vertaling van die 2-3 boom (sien onder).
+        - Prakties:
+            Red-black trees bied slegste-geval waarborge vir insertion tyd, deletion tyd, en soek tyd.
+            Dit maak hulle waardevol in tyd-sensitiewe toepe soos regte-tyd toepassings,
+            maar dit maak hulle waardevolle bou blokke in ander datastrukture wat slegste-geval waarborge voorsien:
+            byvoorbeeld, baie datastrukture wat in rekenaar meetkunde gebruik word kan gebaseer wees op red-black trees, en
+            die Completely Fair Scheduler gebruik in huidige Linux kernels gebruik red-black trees. In die 8ste weergawe van Java
+            word die Collection HashMap gemodifiseersodat in stede van 'n Linked List om identiese elemente te stoor met arm
+            hashcodes, word 'n Red-Black tree gebruik

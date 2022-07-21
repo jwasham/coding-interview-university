@@ -1731,10 +1731,24 @@ Jy is nooit regtig klaar nie.
         - Prakties:
             B-Trees word word gebruik in databasisse. Meeste moderne filesystems gebruik B-trees (of variante). Benewens
             die gebruik in databasisse, word dit ook gebruik in filesystems om vinnige ewekansige toegang tot 'n arbitrêre
-            blok in 'n spesifieke lêer te gee. Die basiese probleem is om die lêer blok i address na 'n disk blok (of eerder 'n cylinder-head-sektor) address te verander
+            blok in 'n spesifieke lêer te gee. Die basiese probleem is om die lêer blok i address na 'n disk blok 
+            (of eerder 'n cylinder-head-sektor) address te verander
         - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
         - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
         - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+                - dek cache-oblivious B-Trees, baie interessante datastrukture
+                - die eerste 37 minute is baie tegnies en mag geskiep word (B is block size, cache line size)
+
+
+- ### k-D Trees
+    - Fantasties om die hoeveelheid punte in 'n vierkant of hoër dimensie objek te kry
+    - 'n Goeie keuse vir k-nearest neighbors
+    - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+
+- ### Skip lists
+    - "These are somewhat of a cult data structure" - Skiena
+    - [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)

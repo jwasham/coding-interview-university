@@ -78,6 +78,7 @@
   - [Javascript Beginner Tutorials](https://www.youtube.com/playlist?list=PL41lfR-6DnOrwYi5d824q9-Y6z3JdSgQa)
   - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
   - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
+  - [Javascript Tutorial - Learn From Scratch](https://www.scaler.com/topics/javascript/)
 - Rust
   - [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
   - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)

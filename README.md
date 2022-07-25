@@ -228,7 +228,6 @@ software development/engineering roles.
     - [Linear Programming](#linear-programming-videos)
     - [Geometry, Convex hull](#geometry-convex-hull-videos)
     - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
 - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 - [Video Series](#video-series)
 - [Computer Science Courses](#computer-science-courses)
@@ -1789,31 +1788,6 @@ You're never really done.
     - [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
     - [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
 
-- ### Machine Learning
-    - Why ML?
-        - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
-        - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
-        - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
-    - [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
-    - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
-    - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials)
-    - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses:
-        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
-              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
-        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
-        - [AWS Machine Learning Engineer Nanodegree](https://www.udacity.com/course/aws-machine-learning-engineer-nanodegree--nd189)
-        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-    - Resources:
-        - Books:
-            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
-            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
-            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
-        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
-        - Data School: http://www.dataschool.io/
-
 ---
 
 ## Additional Detail on Some Subjects
@@ -1985,10 +1959,8 @@ Sit back and enjoy.
 - 2013: Spanner: Google’s Globally-Distributed Database:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
     - [video](https://www.usenix.org/node/170855)
-- [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
 - [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
 - [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-- [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
 - [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - More papers: [1,000 papers](https://github.com/0voice/computer_expert_paper)
 

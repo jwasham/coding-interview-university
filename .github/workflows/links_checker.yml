@@ -18,7 +18,7 @@ jobs:
       ## Check out code using Git
       - uses: actions/checkout@v3
 
-      - name: Check all links at README.md and translations files
+      - name: Check all links at README.md but skips translations files
         id: lychee
         uses: lycheeverse/lychee-action@v1.4.1
         with:
@@ -35,7 +35,7 @@ jobs:
             --timeout 20
             --max-concurrency 10
             --no-progress
-            README.md translations/*.md
+            README.md
         env:
           ## Avoid rate limiting when checking github.com links
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

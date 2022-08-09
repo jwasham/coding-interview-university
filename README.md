@@ -292,8 +292,9 @@ Mark all boxes with X after you completed your changes:
 ## Don't feel you aren't smart enough
 
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- Following videos may help you overcome this insecurity:
+    - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## A Note About Video Resources
 
@@ -449,7 +450,7 @@ Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 
-**I DON'T RECOMMEND using my flashcards.** There are too many and many of them are trivia that you don't need.
+**I DON'T RECOMMEND using my flashcards.** There are too many and most of them are trivia that you don't need.
 
 But if you don't want to listen to me, here you go:
 - [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
@@ -1187,7 +1188,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - The first half is enough.
 
 - ### Networking
-    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
+    - **If you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
     - Otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)

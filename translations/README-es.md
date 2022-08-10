@@ -2,7 +2,7 @@
 
 - Versión original: [Inglés](../README.md)
 
-> Originalmente creé esto como una lista corta de temas a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista que puede apreciar actualmente. Después de pasar por este plan de estudios, ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon! (Art. Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu) Posiblemente no tenga que estudiar mucho como yo. De todos modos, todo lo que necesita, esta aquí.
+> Originalmente creé esto como una lista corta de temas a estudiar para volverme un Ingeniero de Software, pero creció hasta ser la gran lista que puede apreciar actualmente. Después de pasar por este plan de estudios, ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon! (Art. en Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu) Posiblemente no tengas que estudiar tanto como yo. De todos modos, todo lo que necesitas, esta aquí.
 >
 > Durante muchos meses he estudiado diariamente de 8 a 12 horas. Esta es mi historia: [Por qué estudié a tiempo completo durante 8 meses para una entrevista con Google.  (Art. Inglés)](https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13) 
 >
@@ -223,7 +223,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 ## ¿Por qué usarlo?
 
-Si desea trabajar como un Ingeniero de Software para una gran compañía, estas son los aspectos que debes de conocer.
+Si desea trabajar como un Ingeniero de Software para una gran compañía, estas son los aspectos que debes conocer.
 
 Si, como yo, te perdiste la carrera de informática, esto te pondrá al día y te ahorrará cuatro años de tu vida.
 

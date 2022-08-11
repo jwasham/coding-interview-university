@@ -49,7 +49,7 @@
 
 यह नए सॉफ़्टवेयर इंजीनियरों या सॉफ़्टवेयर / वेब विकास से सॉफ़्टवेयर इंजीनियरिंग (जहां कंप्यूटर साइंस ज्ञान आवश्यक है) से स्विच करने के लिए है। यदि आपके पास कई वर्षों का अनुभव है और कई वर्षों के सॉफ्टवेयर इंजीनियरिंग अनुभव का दावा कर रहे हैं, तो एक कठिन साक्षात्कार की अपेक्षा करें।
 
-यदि आपके पास सॉफ्टवेयर / वेब विकास के कई सालों का अनुभव है, तो ध्यान दें कि Google, अमेज़ॅन, फेसबुक और माइक्रोसॉफ्ट जैसी बड़ी सॉफ्टवेयर कंपनियों की दृष्टि में सॉफ्टवेयर इंजीनियरिंग सॉफ्टवेयर/वेब डेवलपमेंट से भिन्न है , और उन्हें कंप्यूटर साइंस ज्ञान की आवश्यकता होती है।
+यदि आपके पास सॉफ्टवेयर / वेब विकास के कई सालों का अनुभव है, तो ध्यान दें कि गूगल, अमेज़ॅन, फेसबुक और माइक्रोसॉफ्ट जैसी बड़ी सॉफ्टवेयर कंपनियों की दृष्टि में सॉफ्टवेयर इंजीनियरिंग सॉफ्टवेयर/वेब डेवलपमेंट से भिन्न है , और उन्हें कंप्यूटर साइंस ज्ञान की आवश्यकता होती है।
 
 यदि आप एक विश्वसनीय इंजीनियर या सिस्टम इंजीनियर बनना चाहते हैं, तो वैकल्पिक सूची (नेटवर्किंग, सुरक्षा) से अधिक जानें।
 
@@ -71,7 +71,7 @@
 - [इसमे क्या समाविष्ट नहीं हे](#इसमे-क्या-समाविष्ट-नहीं-हे)
 - [पूर्व प्रयोजनीय ज्ञान](#prerequisite-knowledge)
 - [दैनिक योजना](#the-daily-plan)
-- [अल्गोरिथम जटिलता / बिग-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [अल्गोरिथम जटिलता / बिग-O / Asymptotic विश्लेषण](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [डेटा संरचनाएं](#data-structures)
     - [ऐरे](#arrays)
     - [लिंक्ड लिस्ट](#linked-lists)
@@ -130,7 +130,7 @@
     - [van Emde Boas Trees](#van-emde-boas-trees)
     - [Augmented Data Structures](#augmented-data-structures)
     - [स्किप लिस्ट](#skip-lists)
-    - [Network Flows](#network-flows)
+    - [नेटवर्क प्रवाह](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [फास्ट प्रोसेसिंग के लिए गणित](#math-for-fast-processing)
     - [Treap](#treap)
@@ -165,7 +165,7 @@ memory" का एरर न दे, और तब मुझे कोई वै
 ## कभी भी आप चालाक नहीं हो ऐसा ना सोचो
 
 - सफल सॉफ्टवेयर इंजीनियर चालाक होते हें, पर बहुत लोगो को असुरक्षा होती है किी वो चालाक नहीं हैं ! 
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [प्रतिभाशाली प्रोग्रामर की कल्पित कथा](https://www.youtube.com/watch?v=0SARbwvhupQ)
 
 ## विडियो संसाधनों के बारे में
 
@@ -1288,7 +1288,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - ### Implement system routines
     - understand what lies beneath the programming APIs you use
-    - can you implement them?
+    - क्या आप उन्हें लागू कर सकते हैं?
 
 - ### String searching & manipulations
     - [ ] [Search pattern in text (विडियो)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
@@ -1399,14 +1399,14 @@ Take coding challenges every day, as many as you can.
 ## Once you're closer to the interview
 
 - [ ] Cracking The Coding Interview Set 2 (विडियो):
-    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
+    - [कोड इंटरव्यू क्रैक करना](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
 ## आपका रिज्यूमे 
 
 - [एक (थोड़ा) कम भयंकर रिज्यूमे करने के लिए दस सुझाव](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- Great stuff at the back of Cracking The Coding Interview
+- कोडिंग इंटरव्यू को क्रैक करने के लिए उपयोगी सामान 
 
 
 ## इंटरव्यू की सोंच
@@ -1458,7 +1458,7 @@ Take coding challenges every day, as many as you can.
     - See more in MIT 6.050J Information and Entropy series below. 
 
 - ### Parity & Hamming Code (विडियो)
-    - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [ ] [परिचय](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - [ ] Hamming Code:
         - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)

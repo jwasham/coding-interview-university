@@ -34,6 +34,7 @@
   - [Let us C++](https://books.google.co.in/books/about/Let_Us_C++.html?id=6HrjAAAACAAJ)
   - [C++ Primer](https://books.google.co.in/books/about/C++_Primer.html?id=J1HMLyxqJfgC&redir_esc=y)
   - [C++ Tutorial for Beginners](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
+  - [C++ Interview Questions](https://www.interviewbit.com/cpp-interview-questions)
 - Python
   - [Python Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
   - [Python in One Video](https://www.youtube.com/watch?v=N4mEzFDjqtA)

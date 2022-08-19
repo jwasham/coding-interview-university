@@ -569,7 +569,7 @@ Coding Interview Question Videos:
     - Also checkout [excel sheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0) for all question list
     - [Github links](https://github.com/neetcode-gh/leetcode) for all solutions code
     - [Neetcode 150](https://neetcode.io/)
-
+- [300+ Must Do Coding Questions for Interviews](https://www.interviewbit.com/coding-interview-questions/)
 Challenge sites:
 - [LeetCode](https://leetcode.com/)
     - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
@@ -1260,6 +1260,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
     - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
         - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
+- [ ] [The Ultimate Guide to Acing your Technical Interview](https://www.interviewbit.com/technical-interview-questions/)   
 
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview
@@ -1409,6 +1410,7 @@ You're never really done.
 - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
 - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
 - [ ] [MIT 6.824: Distributed Systems, Spring 2020 (20 videos)](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+- [ ] [Top System Design Interview Questions](https://www.interviewbit.com/system-design-interview-questions/)
 - [ ] Consensus Algorithms:
     - [ ] Paxos - [Paxos Agreement - Computerphile (video)](https://www.youtube.com/watch?v=s8JqcZtvnsM)
     - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)

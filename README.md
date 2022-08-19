@@ -337,6 +337,7 @@ You may not need it, but here are some sites for learning a new language:
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
+- [Scaler Topics](https://www.scaler.com/topics/)
 
 ### For your Coding Interview
 

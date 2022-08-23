@@ -115,7 +115,7 @@
 - [ما هذا؟](#ما-هذا)
 - [لماذا استخدم هذه الخطة الدراسية؟](#لماذا-استخدم-هذه-الخطة-الدراسية)
 - [كيفية استخدامها](#كيفية-استخدامها)
-- [عن مصادر مقاطع الفديو](#عن-مصادر-مقاطع-الفديو)
+- [عن مصادر مقاطع الفيديو](#عن-مصادر-مقاطع-الفديو)
 - [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#مراحل-المقابلة-الشخصية-و-الإستعداد-العام-للمقابلة)
 - [اختر لغة برمجية واحدة للمقابلة البرمجية](#اختر-لغة-برمجية-واحدة-للمقابلة-البرمجية)
 - [لائحة الكتب](#لائحة-الكتب)
@@ -135,98 +135,96 @@
     - [الـ Bitwise operations](#bitwise-operations)
 - [الشجرة (Trees)](#trees)
     - [الشجرة - ملاحظات - ومعلومات اساسية (Trees - Notes & Background)](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
-    - [Endianness](#endianness)
-    - [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+    - [الـ Binary search trees: BSTs](#binary-search-trees-bsts)
+    - [الـ Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - الـ balanced search trees (general concept, not details)
+    - الـ traversals: preorder, inorder, postorder, BFS, DFS
+- [الـ Sorting](#sorting)
+    - الـ selection
+    - الـ insertion
+    - الـ heapsort
+    - الـ quicksort
+    - الـ merge sort
+- [الـ Graphs](#graphs)
+    - الـ directed
+    - الـ undirected
+    - الـ adjacency matrix
+    - الـ adjacency list
+    - الـ traversals: BFS, DFS
+- [الـ Even More Knowledge](#even-more-knowledge)
+    - [الـ Recursion](#recursion)
+    - [الـ Dynamic Programming](#dynamic-programming)
+    - [الـ Object-Oriented Programming](#object-oriented-programming)
+    - [الـ Design Patterns](#design-patterns)
+    - [الـ Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+    - [الـ NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+    - [الـ Caches](#caches)
+    - [الـ Processes and Threads](#processes-and-threads)
+    - [الـ Testing](#testing)
+    - [الـ Scheduling](#scheduling)
+    - [الـ String searching & manipulations](#string-searching--manipulations)
+    - [الـ Tries](#tries)
+    - [الـ Floating Point Numbers](#floating-point-numbers)
+    - [الـ Unicode](#unicode)
+    - [الـ Endianness](#endianness)
+    - [الـ Networking](#networking)
+- [الـ System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
+- [الـ Final Review](#final-review)
+- [الـ Coding Question Practice](#coding-question-practice)
+- [الـ Coding exercises/challenges](#coding-exerciseschallenges)
+- [الـ Once you're closer to the interview](#once-youre-closer-to-the-interview)
+- [الـ Your Resume](#your-resume)
+- [الـ Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+- [الـ Have questions for the interviewer](#have-questions-for-the-interviewer)
+- [الـ Once You've Got The Job](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
 
 ## Additional Resources
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
-    - [Parity & Hamming Code](#parity--hamming-code-videos)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
-    - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
-    - [Treap](#treap)
-    - [Linear Programming](#linear-programming-videos)
-    - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
-- [Papers](#papers)
+- [الـ Additional Books](#additional-books)
+- [الـ Additional Learning](#additional-learning)
+    - [الـ Compilers](#compilers)
+    - [الـ Emacs and vi(m)](#emacs-and-vim)
+    - [الـ Unix command line tools](#unix-command-line-tools)
+    - [الـ Information theory](#information-theory-videos)
+    - [الـ Parity & Hamming Code](#parity--hamming-code-videos)
+    - [الـ Entropy](#entropy)
+    - [الـ Cryptography](#cryptography)
+    - [الـ Compression](#compression)
+    - [الـ Computer Security](#computer-security)
+    - [الـ Garbage collection](#garbage-collection)
+    - [الـ Parallel Programming](#parallel-programming)
+    - [الـ Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [الـ A*](#a)
+    - [الـ Fast Fourier Transform](#fast-fourier-transform)
+    - [الـ Bloom Filter](#bloom-filter)
+    - [الـ HyperLogLog](#hyperloglog)
+    - [الـ Locality-Sensitive Hashing](#locality-sensitive-hashing)
+    - [الـ van Emde Boas Trees](#van-emde-boas-trees)
+    - [الـ Augmented Data Structures](#augmented-data-structures)
+    - [الـ Balanced search trees](#balanced-search-trees)
+        - الـ AVL trees
+        - الـ Splay trees
+        - الـ Red/black trees
+        - الـ 2-3 search trees
+        - الـ 2-3-4 Trees (aka 2-4 trees)
+        - الـ N-ary (K-ary, M-ary) trees
+        - الـ B-Trees
+    - [الـ k-D Trees](#k-d-trees)
+    - [الـ Skip lists](#skip-lists)
+    - [الـ Network Flows](#network-flows)
+    - [الـ Disjoint Sets & Union Find](#disjoint-sets--union-find)
+    - [الـ Math for Fast Processing](#math-for-fast-processing)
+    - [الـ Treap](#treap)
+    - [الـ Linear Programming](#linear-programming-videos)
+    - [الـ Geometry, Convex hull](#geometry-convex-hull-videos)
+    - [الـ Discrete math](#discrete-math)
+    - [الـ Machine Learning](#machine-learning)
+- [الـ Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+- [الـ Video Series](#video-series)
+- [الـ Computer Science Courses](#computer-science-courses)
+- [الـ Papers](#papers)
 
----
 
 	
 </div>

@@ -108,8 +108,12 @@
 
 ## الفهرس
 
-- [ما هذا؟](#ما-هذا؟)
-- [لماذا استخدمه؟](#لماذا-استخدمه؟)
+
+<div dir='rtl' align='right'>
+	
+	
+- [ما هذا؟](#ما-هذا)
+- [لماذا استخدم هذه الخطة الدراسية؟](#لماذا-استخدم-هذه-الخطة-الدراسية)
 - [كيفية استخدامها](#كيفية-استخدامها)
 - [عن مصادر مقاطع الفديو](#عن-مصادر-مقاطع-الفديو)
 - [مراحل المقابلة الشخصية & الإستعداد العام للمقابلة](#مراحل-المقابلة-الشخصية-و-الإستعداد-العام-للمقابلة)
@@ -119,18 +123,18 @@
 - [ما لن تجده هنا](#ما-لن-تجده-هنا)
 - [الخطة اليومية](#الخطة-اليومية)
 - [معرفة مسبقة](#المعرفة-المسبقة)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
+- [تقدير وتحليل أداء الخوارزميات (Algorithmic complexity / Big-O / Asymptotic analysis)](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [هياكل البيانات (Data Structures)](#data-structures)
+    - [المصفوفات (Arrays)](#arrays)
+    - [العقد المترابطة (Linked Lists)](#linked-lists)
+    - [المكدس (Stack)](#stack)
+    - [الطابور (Queue)](#queue)
+    - [جداول التجزئة (Hash table)](#hash-table)
+- [معرفة اضافية](#more-knowledge)
+    - [الـ Binary search](#binary-search)
+    - [الـ Bitwise operations](#bitwise-operations)
+- [الشجرة (Trees)](#trees)
+    - [الشجرة - ملاحظات - ومعلومات اساسية (Trees - Notes & Background)](#trees---notes--background)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - balanced search trees (general concept, not details)
@@ -224,7 +228,10 @@
 
 ---
 
-## لماذا استخدمه؟
+	
+</div>
+	
+## لماذا استخدم هذه الخطة الدراسية؟
 
 أقوم بمتابعة هذه الخطة لتحضير إلى المقابلة الشخصية بجوجل. لقد قمت بناء مواقع ويب، وتقديم خدمات ذات صلة، وبناء شركات ناشئة منذ 1997. لدي درجة علمية في الاقتصاد، وليس في علوم الحاسب. أنا شخص ناجح في مجال عملي، ولكنني أريد أن أعمل بجوجل. أريد أن أعمل على أنظمة كبيرة والحصول على فهم كبير في أنظمة الحاسوب، كفاءة الخوارزميات، كقاءة الهياكل البيانية، اللغات الأقرب إلى الآلة وكيفية عملها. وإذ لم تعرف أين منها لن تعينك جوجل.
 

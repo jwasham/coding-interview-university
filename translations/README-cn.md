@@ -186,7 +186,7 @@
 
 下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
 
-在学习过程中，我使用 GitHub 特殊语法的 markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
+在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
 
 **创建一个新的分支，以便你可以像这样去勾选计划的进展：直接往方括号中填写一个字符 x 即可：[x]**。
 
@@ -216,18 +216,20 @@
 
 [更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-
 ## 不要觉得自己不够聪明
 
 - 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
-- [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- 下面的视频可以帮助你克服这种不安全感：
+    - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+
+> 译注：观看视频需要访问 YouTube，不知道访问方式的朋友可以看看这个：[free](https://github.com/freefq/free)。
 
 ## 相关视频资源
 
 部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
 
-    很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
 
 ## 面试过程 & 通用的面试准备
 

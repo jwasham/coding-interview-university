@@ -223,8 +223,6 @@
     - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
     - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-> 译注：观看视频需要访问 YouTube，不知道访问方式的朋友可以看看这个：[free](https://github.com/freefq/free)。
-
 ## 相关视频资源
 
 部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。

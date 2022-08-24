@@ -184,37 +184,33 @@
 
 ## 如何使用它
 
-下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
-
 在学习过程中，我使用 GitHub 特殊语法的 markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
 
-创建一个新的分支，以便你可以像这样去勾选计划的进展：直接往方括号中填写一个字符 x 即可：[x]。
+下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
 
-```sh
-Fork 一个分支，并跟随以下的指令
-```
+1. 通过单击 Fork 按钮来 fork GitHub 仓库：`https://github.com/jwasham/coding-interview-university`
 
-通过单击 Fork 按钮来 fork GitHub 仓库：[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-克隆项目到本地
+2. 克隆项目到本地：
 
-```sh
-git clone git@github.com:<your_github_username>/coding-interview-university.git
-cd coding-interview-university
-git checkout -b progress
-git remote add jwasham https://github.com/jwasham/coding-interview-university
-git fetch --all
-```
+    ```sh
+    git clone git@github.com:<your_github_username>/coding-interview-university.git
+    cd coding-interview-university
+    git checkout -b progress
+    git remote add jwasham https://github.com/jwasham/coding-interview-university
+    git fetch --all
+    ```
 
-在你完成了一些修改后，在框框中打 x
+3. 在你完成了一些修改后，在框框中打 x：
 
-```sh
-git add .
-git commit -m "Marked x"
-git rebase jwasham/main
-git push --set-upstream origin progress
-git push --force
-```
+    ```sh
+    git add .
+    git commit -m "Marked x"
+    git rebase jwasham/main
+    git push --set-upstream origin progress
+    git push --force
+    ```
 
 [更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 

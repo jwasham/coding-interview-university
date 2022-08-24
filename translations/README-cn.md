@@ -173,9 +173,21 @@
 
 ## 如何使用它
 
-在学习过程中，我使用 GitHub 特殊语法的 markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
-
 下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
+
+在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
+
+- [更多关于 Github-flavored Markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+
+### 如果你不想使用 Git
+
+在该页面上，单击顶部附近的 Code 按钮，然后单击“Download ZIP”。解压文件，就可以使用文本文件了。
+
+如果你打开一个代码编辑器，你会看到所有格式都很好。
+
+![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
+
+### 如果你不介意 Git
 
 1. 通过单击 Fork 按钮来 fork GitHub 仓库：`https://github.com/jwasham/coding-interview-university`
 
@@ -200,8 +212,6 @@
     git push --set-upstream origin progress
     git push --force
     ```
-
-[更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## 不要觉得自己不够聪明
 

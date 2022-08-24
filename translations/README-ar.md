@@ -234,40 +234,43 @@
 
 
 **اصنع مسار جديد يمكن من خلاله أن تضع علامة [x]**
-
-    احصل على نسخة خاصة "fork" بك واتبع هذه الأوامر
-
-    Clone to your local repo
-
-`git clone git@github.com:<your_github_username>/coding-interview-university.git`
-
-`git checkout -b progress`
-
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
+ احصل على نسخة خاصة "fork" بك واتبع هذه الأوامر
+1- Clone to your local repo
+ ```
+    git clone git@github.com:<your_github_username>/coding-interview-university.git
+    cd coding-interview-university
+    git checkout -b progress
+    git remote add jwasham https://github.com/jwasham/coding-interview-university
+    git fetch --all
+```
 
     دون بعلامة X بعد الإنتهاء من دراسة العنصر
 
-
-`git add .`
-
-`git commit -m "Marked x"`
-
-`git rebase jwasham/main`
-
-`git push --set-upstream origin progress`
-
-`git push --force`
+```
+    git add .
+    git commit -m "Marked x"
+    git rebase jwasham/main
+    git push --set-upstream origin progress
+    git push --force
+```
 
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 
 ## هل تشعر أنك لست بالذكاء الكافي
+
+
+<div dir='rtl' align='right'>
+	
+	
 - مهندسوا جوجل أذكياء، وربما لديهم عدم الأمان لأنهم ليسوا بالذكاء الكافي، حتى وهي في جوجل
 
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- شاهد هذا الفيديو عبر اليوتيوب [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- شاهد هذا الفيديو عبر اليوتيوب [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+
+
+	
+</div>
 
 
 ## عن مصادر مقاطع الفديو

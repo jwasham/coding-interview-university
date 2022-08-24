@@ -63,17 +63,6 @@
         <strong>Special thanks to:</strong>
     </p>
     <p>
-        <a href="https://oss.capital/">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
         <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
@@ -269,25 +258,29 @@ If you're open in a code editor that understands markdown, you'll see everything
 
 Create a new branch so you can check items like this, just put an x in the brackets: [x]
 
-    Fork a branch and follow the commands below
+1. ***Fork the GitHub repo:*** `https://github.com/jwasham/coding-interview-university` by clicking on the Fork button.
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button.
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-Clone to your local repo:
+1. Clone to your local repo:
 
+    ```
     git clone git@github.com:<your_github_username>/coding-interview-university.git
     cd coding-interview-university
     git checkout -b progress
     git remote add jwasham https://github.com/jwasham/coding-interview-university
     git fetch --all
+    ```
 
-Mark all boxes with X after you completed your changes:
+1. Mark all boxes with X after you completed your changes:
 
+    ```
     git add .
     git commit -m "Marked x"
     git rebase jwasham/main
     git push --set-upstream origin progress
     git push --force
+    ```
 
 ## Don't feel you aren't smart enough
 

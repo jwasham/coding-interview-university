@@ -17,17 +17,6 @@
         <strong>Special thanks to:</strong>
     </p>
     <p>
-        <a href="https://oss.capital/">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
         <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
@@ -184,50 +173,48 @@
 
 ## 如何使用它
 
-下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
-
 在学习过程中，我使用 GitHub 特殊语法的 markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
 
-**创建一个新的分支，以便你可以像这样去勾选计划的进展：直接往方括号中填写一个字符 x 即可：[x]**。
+下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
 
-    Fork一个分支，并跟随以下的指令
+1. 通过单击 Fork 按钮来 fork GitHub 仓库：`https://github.com/jwasham/coding-interview-university`
 
-通过单击 Fork 按钮来 fork GitHub 仓库：[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-    克隆项目到本地
+2. 克隆项目到本地：
 
-`git checkout -b progress`
+    ```sh
+    git clone git@github.com:<your_github_username>/coding-interview-university.git
+    cd coding-interview-university
+    git checkout -b progress
+    git remote add jwasham https://github.com/jwasham/coding-interview-university
+    git fetch --all
+    ```
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+3. 在你完成了一些修改后，在框框中打 x：
 
-`git fetch --all`
-
-    在你完成了一些修改后，在框框中打 x
-
-`git add .`
-
-`git commit -m "Marked x"`
-
-`git rebase jwasham/main`
-
-`git push --set-upstream origin progress`
-
-`git push --force`
+    ```sh
+    git add .
+    git commit -m "Marked x"
+    git rebase jwasham/main
+    git push --set-upstream origin progress
+    git push --force
+    ```
 
 [更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
 
 ## 不要觉得自己不够聪明
 
 - 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
-- [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- 下面的视频可以帮助你克服这种不安全感：
+    - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## 相关视频资源
 
 部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
 
-    很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
 
 ## 面试过程 & 通用的面试准备
 

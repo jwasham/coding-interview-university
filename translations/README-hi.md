@@ -14,17 +14,6 @@
         <strong>इन सब को विशेष धन्यवाद:</strong>
     </p>
     <p>
-        <a href="https://oss.capital/">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>2018 में स्थापित, OSS Capital पहला और एकमात्र उद्यम पूंजी मंच है जो विशेष रूप से <br> प्रारंभिक चरण COSS (वाणिज्यिक ओपन सोर्स) स्टार्टअप संस्थापकों का समर्थन करने पर केंद्रित है।</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
         <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">

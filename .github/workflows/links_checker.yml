@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: '0 0 1 * *'
 
-jobs:
+occupation:
   link_checker:
     name: Check links and create automated issue if needed
     runs-on: ubuntu-latest

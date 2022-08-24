@@ -214,18 +214,18 @@
 
 [更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-
 ## 不要觉得自己不够聪明
 
 - 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
-- [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- 下面的视频可以帮助你克服这种不安全感：
+    - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## 相关视频资源
 
 部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
 
-    很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
 
 ## 面试过程 & 通用的面试准备
 

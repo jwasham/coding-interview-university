@@ -114,15 +114,15 @@
     - [संगणक सुरक्षा](#computer-security)
     - [पैरेलल प्रोग्रामिंग](#parallel-programming)
     - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [Fast Fourier Transform](#fast-fourier-transform)
+    - [फास्ट फूरियर ट्रांसफॉर्म](#fast-fourier-transform)
     - [ब्लूम फ़िल्टर](#bloom-filter)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
+    - [एम्दे बोस पेड़](#van-emde-boas-trees)
+    - [संवर्धित डेटा संरचनाएं](#augmented-data-structures)
     - [स्किप लिस्ट](#skip-lists)
     - [नेटवर्क प्रवाह](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
+    - [असंबद्ध सेट और संघ खोजें](#disjoint-sets--union-find)
     - [फास्ट प्रोसेसिंग के लिए गणित](#math-for-fast-processing)
-    - [Treap](#treap)
+    - [ट्रीप](#treap)
     - [लीनियर प्रोग्रामिंग](#linear-programming)
     - [ज्यामिति, कॉन्वेक्स हल](#geometry-convex-hull)
     - [डिस्क्रीट मैथ](#discrete-math)
@@ -428,7 +428,7 @@ memory" का एरर न दे, और तब मुझे कोई वै
 - [ ] टॉपकोडर (पुनरावृत्ति संबंध और मास्टर प्रमेय भी शामिल है):
     - [कम्प्यूटेशनल जटिलता: धारा 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [कम्प्यूटेशनल जटिलता: धारा 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [प्रवंचक पत्रक](http://bigocheatsheet.com/)
 
 
 
@@ -439,87 +439,81 @@ memory" का एरर न दे, और तब मुझे कोई वै
     - [ ] विवरण:
         - [एरे  (विडियो)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [Dynamic Arrays (विडियो)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+    - [ ] एक वेक्टर लागू करें (स्वचालित आकार बदलने के साथ परिवर्तनीय सरणी):
+        - [ ] इंडेक्सिंग का उपयोग करने के बजाय इंडेक्स पर कूदने के लिए एरेज़ और पॉइंटर्स और पॉइंटर मैथ का उपयोग करके कोडिंग का अभ्यास करें।
+        - [ ]आवंटित स्मृति के साथ नया कच्चा डेटा सरणी - हुड के तहत int सरणी आवंटित कर सकता है, बस इसकी सुविधाओं का उपयोग न करें - 16 से शुरू करें, या यदि प्रारंभिक संख्या अधिक है, तो 2 की शक्ति का उपयोग करें - 16, 32, 64, 128
+        - [ ] size() - वस्तुओं की संख्या
+        - [ ] capacity() -  इसमें रखी जा सकने वाली वस्तुओं की संख्या
         - [ ] is_empty()
         - [ ] at(index) - returns item at given index, blows up if index out of bounds
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
+        - [ ] insert(index, item) - इंडेक्स में आइटम डालें, उस इंडेक्स के मान और अनुगामी तत्वों को दाईं ओर शिफ्ट करें
+        - [ ] prepend(item) - इंडेक्स 0 पर ऊपर इंसर्ट का उपयोग कर सकते हैं 
+        - [ ] pop() - अंत से हटा दें, वापसी मूल्य 
+        - [ ] delete(index) - सूचकांक पर आइटम हटाएं, सभी अनुगामी तत्वों को बाईं ओर स्थानांतरित करना
+        - [ ] remove(item) - मूल्य की तलाश करता है और इसे धारण करने वाले सूचकांक को हटा देता है (भले ही कई स्थानों पर हो)
+        - [ ] find(item) - मूल्य की तलाश करता है और उस मूल्य के साथ पहला सूचकांक देता है, -1 यदि नहीं मिला
+        - [ ] // निजी फ़ंक्शन 
+            - जब आप क्षमता तक पहुंचते हैं, तो आकार को दोगुना करने के लिए आकार बदलें 
+            - पॉपिंग करते समय एक आइटम, यदि आकार क्षमता का 1/4 है, आधा करने के लिए आकार बदलें 
     - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
+        - O(1) अंत में जोड़ने/निकालने के लिए (अधिक स्थान के लिए आवंटन के लिए परिशोधित), अनुक्रमणिका, या अद्यतन 
+        - O(n) कहीं और डालने/निकालने के लिए
     - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - स्मृति में सन्निहित, इसलिए निकटता प्रदर्शन में मदद करती है 
+            - स्थान की आवश्यकता = (array क्षमता, जो> = n) * size of item, लेकिन भले ही 2n, फिर भी O(n)
 
 - ### Linked Lists
-    - [ ] Description:
+    - [ ] विवरण:
         - [ ] [Singly Linked Lists (विडियो)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (विडियो)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
     - [ ] [C Code (विडियो)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
+            - संपूर्ण वीडियो नहीं, केवल नोड संरचना और स्मृति आवंटन के बारे में अंश।
     - [ ] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (विडियो)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+    - [ ] Gotcha: आपको पॉइंटर टू पॉइंटर नॉलेज की आवश्यकता है: (जब आप किसी फ़ंक्शन को पॉइंटर पास करते हैं जो उस पते को बदल सकता है जहां वह पॉइंटर इंगित करता है) यह पृष्ठ केवल पीटीआर से पीटीआर पर एक समझ प्राप्त करने के लिए है। मैं इस सूची ट्रैवर्सल शैली की अनुशंसा नहीं करता। चतुराई के कारण पठनीयता और रखरखाव को नुकसान होता है।
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] implement (मैंने टेल पॉइंटर के साथ और बिना किया):
+        - [ ] size() - सूची में डेटा तत्वों की संख्या देता है
+        - [ ] empty() - खाली होने पर boolean सही होता है
+        - [ ] value_at(index) - nth आइटम का मान देता है (पहले के लिए 0 से शुरू)
+        - [ ] push_front (value) - जोड़ता है सूची के सामने एक आइटम 
+        - [ ] pop_front () - सामने की वस्तु को हटा दें और उसका मूल्य वापस करें 
+        - [ ] push_back (value) - अंत में एक आइटम जोड़ता है 
+        - [ ] pop_back () - अंतिम आइटम को हटा देता है और उसका मूल्य लौटाता है
+        - [ ] front() - सामने की वस्तु का मूल्य प्राप्त करें
+        - [ ] back() - अंतिम वस्तु का मूल्य प्राप्त करें
+        - [ ] insert(index, value) - सूचकांक पर मूल्य डालें, इसलिए उस सूचकांक पर वर्तमान आइटम नए द्वारा इंगित किया गया है इंडेक्स पर आइटम
+        - [ ] erase(index) - दिए गए इंडेक्स पर नोड को हटाता है|
+        - [ ] value_n_from_end(n) - सूची के अंत से nth स्थिति पर नोड का मान देता है 
+        - [ ] reverse() - सूची को उलट देता है
+        - [ ] remove_value(value) - इस मान के साथ सूची में पहला आइटम हटा देता है
     - [ ] Doubly-linked List
         - [Description (विडियो)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
 - ### Stack
     - [ ] [Stacks (विडियो)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [ ] अमल नहीं होगा। सरणी के साथ कार्यान्वित करना तुच्छ है।
 
 - ### Queue
     - [ ] [Queue (विडियो)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] टेल पॉइंटर के साथ लिंक्ड-लिस्ट का उपयोग करके कार्यान्वित करें: 
+        - enqueue(value) - पूंछ पर स्थिति पर मूल्य जोड़ता है - dequeue () - मूल्य लौटाता है और कम से कम हाल ही में जोड़े गए तत्व (सामने) को हटाता है 
+        - empty () 
+        - [ ] निश्चित आकार का उपयोग करके कार्यान्वित करें सरणी: 
+            - enqueue(value) - उपलब्ध भंडारण के अंत में आइटम जोड़ता है 
+            - dequeue () - मूल्य लौटाता है और कम से कम हाल ही में जोड़े गए तत्व को हटाता है 
+            - empty () 
+            - full () 
+        - [ ] Cost: 
+            - लिंक्ड सूची का उपयोग करके एक खराब कार्यान्वयन जहां आप सिर पर एनक्यू और पूंछ पर डेक्यू O(n) होगा क्योंकि आपको अगले से अंतिम तत्व की आवश्यकता होगी, जिससे प्रत्येक डीक्यू में एक पूर्ण ट्रैवर्सल हो 
+            - enqueue: O(1) (परिशोधन, लिंक्ड सूची और सरणी [probing]) 
+            - dequeue : O(1) (लिंक की गई सूची और सरणी) 
+            - empty: O(1) (लिंक की गई सूची और सरणी)
     
 - ### Hash table
     - [ ] विडियो:
@@ -538,9 +532,9 @@ memory" का एरर न दे, और तब मुझे कोई वै
             - [Instant Uploads And Storage Optimization In Dropbox (विडियो)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (विडियो)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
     
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+    - [ ] रैखिक जांच का उपयोग करके सरणी के साथ कार्यान्वित करें
+        - hash(k, m) - हैश टेबल का आकार है
+        - add(key, value) -यदि key पहले से मौजूद है, तो मान अपडेट करें
         - exists(key)
         - get(key)
         - remove(key)
@@ -551,22 +545,22 @@ memory" का एरर न दे, और तब मुझे कोई वै
     - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (विडियो)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (विडियो)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+        - कर्नेल डेवलपर के लिए बहुत तकनीकी बात। यदि अधिकांश आपके सिर के ऊपर है तो चिंता न करें। 
+        - पहला हाफ काफी है।
 
 - ### Binary search
     - [ ] [Binary Search (विडियो)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (विडियो)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] कार्यान्वित करें: 
+        - बाइनरी खोज (पूर्णांकों की क्रमबद्ध सरणी पर) 
+        - रिकर्सन का उपयोग करके बाइनरी खोज
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - आपको 2 की शक्तियों में से कई को जानना चाहिए (2^1 प्रति 2^16 तथा 2^32)
+    - [ ] बिट्स में हेरफेर करने की वास्तव में अच्छी समझ प्राप्त करें: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
+        - [ ] अच्छा परिचय:
             [Bit Manipulation (विडियो)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (विडियो)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -630,20 +624,20 @@ memory" का एरर न दे, और तब मुझे कोई वै
         - [ ] [Delete a node from Binary Search Tree (विडियो)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (विडियो)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
-        - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
-        - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] insert    // पेड़ में मूल्य डालें 
+        - [ ] get_node_count // संग्रहीत मूल्यों की गिनती प्राप्त करें 
+        - [ ] print_values ​​// पेड़ में मूल्यों को न्यूनतम से अधिकतम तक प्रिंट करता है 
+        - [ ] delete_tree 
+        - [ ] is_in_tree // यदि दिया गया मान मौजूद है तो सत्य लौटाता है ट्री 
+        - [ ] get_height // नोड्स में ऊंचाई लौटाता है (एकल नोड की ऊंचाई 1 है) 
+        - [ ] get_min // ट्री में संग्रहीत न्यूनतम मान लौटाता है 
+        - [ ] get_max // ट्री में संग्रहीत अधिकतम मान लौटाता है 
+        - [ ] is_binary_search_tree 
+        - [ ] delete_value 
+        - [ ] get_successor // दिए गए मान के बाद ट्री में अगला-उच्चतम मान लौटाता है, -1 यदि कोई नहीं
 
 - ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - एक पेड़ के रूप में देखा जाता है, लेकिन आमतौर पर भंडारण में रैखिक होता है (सरणी, लिंक्ड सूची)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (विडियो)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naive Implementations (विडियो)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
@@ -658,23 +652,20 @@ memory" का एरर न दे, और तब मुझे कोई वै
     - [ ] [MIT: Heaps and Heap Sort (विडियो)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (विडियो)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+    - [ ] अधिकतम-ढेर लागू करें: 
+        - [ ] insert 
+        - [ ] sift_up - सम्मिलित करने के लिए आवश्यक 
+        - [ ] get_max - अधिकतम आइटम लौटाता है, इसे हटाए बिना - [ ] get_size () - संग्रहीत तत्वों की वापसी संख्या - [ ] is_empty () - यदि ढेर में कोई तत्व नहीं है 
+        - [ ] Extract_max - अधिकतम आइटम लौटाता है, इसे हटाता है 
+        - [ ] sift_down - Extract_max के लिए आवश्यक 
+        - [ ] remove (i) - इंडेक्स x पर आइटम हटा देता है 
+        - [ ] heapify - एक से ढेर बनाएं तत्वों की सरणी, heap_sort के लिए आवश्यक 
+        - [ ] heap_sort() - एक क्रमबद्ध सरणी लें और इसे अधिकतम ढेर का उपयोग करके एक क्रमबद्ध सरणी में बदल दें 
+            - नोट: इसके बजाय एक न्यूनतम ढेर का उपयोग करने से संचालन की बचत होगी, लेकिन आवश्यक स्थान को दोगुना कर देगा ( जगह पर नहीं कर सकता)।
 
 - ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path.
-    - I read through code, but will not implement.
+    - ध्यान दें कि विभिन्न प्रकार के tries हैं। कुछ में उपसर्ग होते हैं, कुछ नहीं, और कुछ पथ को ट्रैक करने के लिए बिट्स के बजाय स्ट्रिंग का उपयोग करते हैं।
+    - मैं कोड के माध्यम से पढ़ता हूं, लेकिन लागू नहीं करूंगा।
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] Short course विडियो:
         - [ ] [Introduction To Tries (विडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)

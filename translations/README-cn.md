@@ -1,4 +1,4 @@
-# Coding Interview University
+# 编程面试大学
 
 原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
 
@@ -11,10 +11,10 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>成为赞助商</strong> 并支持编程大学！</a>
     </p>
     <p>
-        <strong>Special thanks to:</strong>
+        <strong>特别感谢:</strong>
     </p>
     <p>
         <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
@@ -23,11 +23,11 @@
             </div>
             <div>
                 <p>
-                    <strong>Dev environments built for the cloud</strong>
+                    <strong>为云构建的开发环境</strong>
                 </p>
             </div>
             <div>
-                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+                <sup>Gitpod、GitLab、GitHub 和 Bitbucket 原生集合，自动且持续地为你的所有分支预构建开发环境。因此，团队成员可以立即开始为每项新任务使用全新的开发环境进行编码 - 无论您是在构建新功能、想要修复错误还是进行代码审查。</sup>
             </div>
         </a>
     </p>

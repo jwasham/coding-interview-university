@@ -38,7 +38,8 @@
 <details>
 <summary>
 अनुवाद जारी है:</summary>
-	
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
 - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
 - [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
 - [French](https://github.com/jwasham/coding-interview-university/issues/89)

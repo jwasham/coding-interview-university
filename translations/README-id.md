@@ -482,8 +482,8 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] push(item)
         - [ ] insert(index, item) - menyisipkan item pada indeks, menggeser nilai indeks dan elemen tambahan ke kanan
         - [ ] prepend(item) - dapat menggunakan sisipan di atas pada indeks 0
-        - [ ] pop() - hapus dari akhir, nilai kembali
-        - [ ] delete(index) - hapus item pada indeks, menggeser semua elemen tertinggal ke kiri
+        - [ ] pop() - menghapus item dari akhir, nilai kembali
+        - [ ] delete(index) - menghapus item pada indeks, menggeser semua elemen tertinggal ke kiri
         - [ ] remove(item) - mencari nilai dan menghapus indeks yang menahannya (meskipun di banyak tempat)
         - [ ] find(item) - mencari nilai dan mengembalikan indeks pertama dengan nilai itu, -1 jika tidak ditemukan
         - [ ] resize(new_capacity) // fungsi pribadi
@@ -690,7 +690,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] Menerapkan sebuah max-heap:
         - [ ] insert
-        - [ ] sift_up - dibutuhkan untuk memasukkan
+        - [ ] sift_up - digunakan untuk memasukkan
         - [ ] get_max - mengembalikan item maksimal, tanpa menghapusnya
         - [ ] get_size() - mengembalikan jumlah elemen yang disimpan
         - [ ] is_empty() - mengembalikan nilai true jika heap tidak berisi elemen

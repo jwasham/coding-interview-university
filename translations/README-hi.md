@@ -82,7 +82,7 @@
     <hr />
 </div>
 
-## What is it?
+## यह क्या है?
 
 ![
 व्हाइटबोर्ड पर कोडिंग - एचबीओ की सिलिकॉन वैली से](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)

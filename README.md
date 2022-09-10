@@ -130,7 +130,7 @@ software development/engineering roles.
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
 - [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
+    - [Trees - Intro](#trees-intro)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - balanced search trees (general concept, not details)
@@ -759,11 +759,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 ## Trees
 
-- ### Trees - Notes & Background
-    - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
+- ### Trees - Intro
+    - [ ] [Intro to Trees](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - [ ] [Tree Traversal](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS notes:
            - level order (BFS, using queue)

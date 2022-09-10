@@ -130,7 +130,7 @@ software development/engineering roles.
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)
 - [Trees](#trees)
-    - [Trees - Intro](#trees-intro)
+    - [Trees - Intro](#trees---intro)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - balanced search trees (general concept, not details)

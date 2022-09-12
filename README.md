@@ -332,6 +332,9 @@ You may not need it, but here are some sites for learning a new language:
 - [Codeforces](https://codeforces.com/)
 - [Scaler Topics](https://www.scaler.com/topics/)
 
+Practice entry-level problem solving exercises:
+- [CodingBat](https://codingbat.com/)
+- 
 ### For your Coding Interview
 
 You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:

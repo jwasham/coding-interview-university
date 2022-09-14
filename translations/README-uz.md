@@ -1233,7 +1233,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 - [ ] 2-3 minutlik qisqa mavzuga oid videolar seriyasi (23 video)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 minutlik qisqa mavzuga oid videolar seriyasi - Michael Sambol (18 video):
+- [ ] 2-5 minutlik qisqa mavzuga oid videolar seriyasi - Michael Sambol (38 video):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)

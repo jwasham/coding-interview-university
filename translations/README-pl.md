@@ -1238,7 +1238,7 @@ Trie to drzewo węzłów, które obsługuje operacje Znajdź i Wstaw [etc (...)]
 
 - [ ] Seria 2-3 minutowych, krótkich filmów tematycznych (23 wideo)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Seria 2–5 minutowych, krótkich filmów tematycznych - Michael Sambol (18 wideo):
+- [ ] Seria 2–5 minutowych, krótkich filmów tematycznych - Michael Sambol (38 wideo):
     - [Wideo](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorytmy I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorytmy II](https://www.coursera.org/learn/algorithms-part2)

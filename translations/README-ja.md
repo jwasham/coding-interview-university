@@ -1228,7 +1228,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 - [ ]  2〜3分短編ビデオシリーズ(23ビデオ)
 	- [動画](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(18ビデオ)
+- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(38ビデオ)
 	- [動画](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---

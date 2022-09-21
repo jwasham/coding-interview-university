@@ -8,6 +8,7 @@
 > I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
 > **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that below. I'll help you get there without wasting your precious time.
+>just consistency is what i demands from you.
 >
 > The items listed here will prepare you well for a technical interview at just about any software company,
 > including the giants: Amazon, Facebook, Google, and Microsoft.
@@ -332,7 +333,7 @@ You may not need it, but here are some sites for learning a new language:
 
 You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
 
-- C++
+- C++(also most prefred in compatative coding world)sd
 - Java
 - Python
 
@@ -485,7 +486,8 @@ There are many resources for this, listed below. Keep going.
 ### 4. Focus
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
+without lyrics and you'll be able to focus pretty well. On YouTube 'LofiGirl' is a better solution 
+
 
 ## What you won't see covered
 
@@ -750,8 +752,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Trees - Notes & Background
     - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - basic tree construction
-    - traversal
+    - Basic tree construction
+    - Traversal
     - manipulation algorithms
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS notes:

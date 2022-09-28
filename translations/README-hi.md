@@ -65,17 +65,20 @@
         <strong>विशेष धन्यवाद:</strong>
     </p>
     <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
             </div>
             <div>
                 <p>
-                    <strong>क्लाउड के लिए बनाया गया देव वातावरण</strong>
+                    <strong>Master the technical interview without endless grinding.</strong>
                 </p>
             </div>
             <div>
-                <sup>GitLab, GitHub, और Bitbucket के साथ मूल रूप से एकीकृत, Gitpod स्वचालित रूप से और आपकी सभी शाखाओं के लिए लगातार देव वातावरण का निर्माण करता है। परिणामस्वरूप टीम के सदस्य प्रत्येक नए कार्य के लिए तुरंत नए देव वातावरण के साथ कोडिंग शुरू कर सकते हैं - चाहे आप कोई नई सुविधा बना रहे हों, बग को ठीक करना चाहते हों, या कोड समीक्षा पर काम करना चाहते हों।</sup>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
             </div>
         </a>
     </p>

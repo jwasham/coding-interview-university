@@ -17,17 +17,17 @@
         <strong>特别感谢:</strong>
     </p>
     <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
             </div>
             <div>
                 <p>
-                    <strong>为云构建的开发环境</strong>
+                    <strong>算法秘籍，模版刷题效率翻倍，上岸大厂必备</strong>
                 </p>
             </div>
             <div>
-                <sup>Gitpod、GitLab、GitHub 和 Bitbucket 原生集合，自动且持续地为你的所有分支预构建开发环境。因此，团队成员可以立即开始为每项新任务使用全新的开发环境进行编码 - 无论您是在构建新功能、想要修复错误还是进行代码审查。</sup>
+                <sup>谷歌工程师们浓缩多年刷题经验，呕心沥血总结出的最强算法题型详解，提炼精华模版，由浅入深，简单易懂，举一反三。助你一扫刷题烦恼，一览众山小，高处不胜寒。早日上岸，圆梦大厂。</sup>
             </div>
         </a>
     </p>

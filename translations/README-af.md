@@ -63,17 +63,20 @@
         <strong>Spesiale dank aan:</strong>
     </p>
     <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
             </div>
             <div>
                 <p>
-                    <strong>Dev omgewings gebou vir die wolk</strong>
+                    <strong>Master the technical interview without endless grinding.</strong>
                 </p>
             </div>
             <div>
-                <sup>Inheems geïntegreer met GitLab, GitHub, en Bitbucket, bou Gitpod outomaties en aanhoudend dev omgewings vir al jou takke. As gevolg kan span lede onmiddellik begin kodeer met vars dev omgewings vir elke nuwe taak - maak nie saak of jy 'n nuwe kenmerk bou, 'n fout wil reg maak, of werk aan 'n kode resensie nie.</sup>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
             </div>
         </a>
     </p>

@@ -68,28 +68,20 @@ Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
         <strong>Un ringraziamento speciale a:</strong>
     </p>
     <p>
-        <a href="https://oss.capital/">
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Fondata nel 2018, OSS Capital è la prima e l'unica piattaforma di investimenti incentrata <br>esclusivamente nel supportare i fondatori delle startup COSS (commercial open source).</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
             </div>
             <div>
                 <p>
-                    <strong>Ambiente di Sviluppo costruito per il cloud</strong>
+                    <strong>Master the technical interview without endless grinding.</strong>
                 </p>
             </div>
             <div>
-                <sup>Inizialmente integrato con GitLab, GitHub e Bitbucket, Gitpod prebuilds automaticamente e continuamente ambienti di sviluppo per tutte le tue branches. Grazie a ciò, i membri del proprio team possono sviluppare in nuovissimi ambienti di sviluppo per qualsiasi task - che sia l'aggiunta di una nuova feature, il fixaggio di un bug o la revisione del codice.</sup>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
             </div>
         </a>
     </p>

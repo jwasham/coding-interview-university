@@ -67,7 +67,7 @@ Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
     <p>
         <strong>Un ringraziamento speciale a:</strong>
     </p>
-    <p>
+    <div>
         <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
@@ -84,7 +84,7 @@ Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
                 as you walk into that interview!</sup>
             </div>
         </a>
-    </p>
+    </div>
     <hr />
 </div>
 

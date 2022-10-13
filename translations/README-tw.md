@@ -59,7 +59,7 @@
     <p>
         <strong>Special thanks to:</strong>
     </p>
-    <p>
+    <div>
         <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
@@ -73,7 +73,7 @@
                 <sup>谷歌工程師們濃縮多年刷題經驗，嘔心瀝血總結出的最強算法題型詳解，提煉精華模版，由淺入深，簡單易懂。助你一掃刷題煩惱，早日上岸，圓夢大廠。</sup>
             </div>
         </a>
-    </p>
+    </div>
     <hr />
 </div>
 

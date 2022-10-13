@@ -16,7 +16,7 @@
     <p>
         <strong>特别感谢:</strong>
     </p>
-    <p>
+    <div>
         <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
@@ -30,7 +30,7 @@
                 <sup>谷歌工程师们浓缩多年刷题经验，呕心沥血总结出的最强算法题型详解，提炼精华模版，由浅入深，简单易懂，举一反三。助你一扫刷题烦恼，一览众山小，高处不胜寒。早日上岸，圆梦大厂。</sup>
             </div>
         </a>
-    </p>
+    </div>
     <hr />
 </div>
 

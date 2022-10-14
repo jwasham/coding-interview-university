@@ -11,6 +11,7 @@
     - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
   - [Let us C](https://books.google.co.in/books/about/Let_Us_C.html?id=7HrjAAAACAAJ)
   - [Complete C programming for beginners](https://youtu.be/KJgsSFOSQv0)
+  - [Learn C in Detail](https://www.scaler.com/topics/c/)
 
 - C++
   - [C++ Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/Cpp_reference.pdf)

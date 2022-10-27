@@ -494,7 +494,7 @@ without lyrics and you'll be able to focus pretty well.
 
 These are prevalent technologies but not part of this study plan:
 
-- SQL
+- [SQL](https://www.scaler.com/topics/sql/)
 - Javascript
 - HTML, CSS, and other front-end technologies
 

@@ -56,6 +56,7 @@
   - [Java Cheat Sheet](https://www.interviewbit.com/java-cheat-sheet)
   - [Introduction To Programming In Java](http://introcs.cs.princeton.edu/java/home/)
   - [Algorithms 4th Ed - Algorithm Book In Java](http://algs4.cs.princeton.edu/home/)
+  - [Introduction to Java](https://www.scaler.com/topics/java/introduction-to-java/)
   - [Effective Java 3rd Edition](https://www.amazon.com/Effective-Java-Joshua-Bloch-ebook/dp/B078H61SCH)
   - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM&t=1744s)
   - [Top Java Interview Questions and Answers](https://www.interviewbit.com/java-interview-questions)

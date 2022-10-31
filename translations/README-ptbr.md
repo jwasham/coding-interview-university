@@ -288,6 +288,7 @@ Você precisa estar confortável com a linguagem e ser bem informado.
 Leia mais sobre as escolhas:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
+- https://www.scaler.com/topics/
 
 [Veja recursos de linguagens aqui](programming-language-resources.md)
 

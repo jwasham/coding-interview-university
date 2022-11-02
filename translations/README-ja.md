@@ -376,7 +376,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 これらは一般的な技術ですが、この調査計画の一部ではありません：
 
-- SQL
+- [SQL](https://www.scaler.com/topics/sql/)
 - Javascript
 - HTML、CSS、およびその他のフロントエンド技術
 

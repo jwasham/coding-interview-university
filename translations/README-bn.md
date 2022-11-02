@@ -298,6 +298,36 @@
 বিনামূল্যে এবং সর্বদা উপলব্ধ পাবলিক সোর্স দিয়ে অনলাইন কোর্সের সংস্থানগুলি প্রতিস্থাপন করা দুর্দান্ত হবে,
 যেমন ইউটিউব ভিডিও (বিশেষত ইউনিভার্সিটির বক্তৃতা), যাতে আপনি যেকোন সময় এগুলি অধ্যয়ন করতে পারেন,
 শুধুমাত্র যখন একটি নির্দিষ্ট অনলাইন কোর্স সেশনে থাকে তখন নয়।
+
+## একটি প্রোগ্রামিং ভাষা চয়ন করুন
+
+কোডিং ইন্টারভিউয়ের জন্য আপনাকে একটি প্রোগ্রামিং ভাষা বেছে নিতে হবে,
+তবে আপনাকে এমন একটি ভাষা খুঁজে বের করতে হবে যা আপনি কম্পিউটার বিজ্ঞানের ধারণাগুলি অধ্যয়ন করতে ব্যবহার করতে পারেন।
+
+পছন্দের ভাষা একই হবে, যাতে আপনাকে শুধুমাত্র একটিতে দক্ষ হতে হবে।
+
+### For this Study Plan
+
+When I did the study plan, I used 2 languages for most of it: C and Python
+
+* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
+    and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
+    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
+    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+    - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
+            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
+        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
+        - [Answers to questions in the book](https://github.com/lekkas/c-algorithms)
+* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
+
+This is my preference. You do what you like, of course.
+
+You may not need it, but here are some sites for learning a new language:
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [HackerEarth](https://www.hackerearth.com/for-developers/)
+- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
  
 ## সাক্ষাত্কার প্রক্রিয়া এবং সাধারণ সাক্ষাত্কার প্রস্তুতি
  

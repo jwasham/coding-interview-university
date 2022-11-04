@@ -314,16 +314,15 @@
     কিন্তু যখন আপনি এই নিম্ন-স্তরের ডেটা স্ট্রাকচারগুলি কীভাবে তৈরি করা হয় তা শিখছেন, তখন ধাতুর কাছাকাছি অনুভব করা দুর্দান্ত।
     - সি সর্বত্র। আপনি যখন অধ্যয়ন করছেন তখন আপনি বই, বক্তৃতা, ভিডিও, *সব জায়গায়* উদাহরণ দেখতে পাবেন।
     - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a grea
         - এটি একটি সংক্ষিপ্ত বই, তবে এটি আপনাকে সি ভাষার উপর একটি দুর্দান্ত হ্যান্ডেল দেবে এবং আপনি যদি এটি একটু অনুশীলন করেন
             আপনি দ্রুত দক্ষ হয়ে উঠবেন। C বোঝা আপনাকে প্রোগ্রাম এবং মেমরি কিভাবে কাজ করে তা বুঝতে সাহায্য করে।
         - আপনাকে বইটির গভীরে যেতে হবে না (বা এমনকি এটি শেষ করতে হবে)। যেখানে আপনি সি-তে পড়তে এবং লিখতে স্বাচ্ছন্দ্যবোধ করেন সেখানে যান।
         - [বইয়ের প্রশ্নের উত্তর](https://github.com/lekkas/c-algorithms)
-* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
+* পাইথন: আধুনিক এবং খুব অভিব্যক্তিপূর্ণ, আমি এটি শিখেছি কারণ এটি খুব দরকারী এবং আমাকে একটি সাক্ষাত্কারে কম কোড লেখার অনুমতি দেয়।
 
-This is my preference. You do what you like, of course.
+এই আমার পছন্দ। আপনি অবশ্যই যা পছন্দ করেন তাই করেন।
 
-You may not need it, but here are some sites for learning a new language:
+আপনার এটির প্রয়োজন নাও হতে পারে, তবে একটি নতুন ভাষা শেখার জন্য এখানে কিছু সাইট রয়েছে:
 - [Exercism](https://exercism.org/tracks)
 - [Codewars](http://www.codewars.com)
 - [HackerEarth](https://www.hackerearth.com/for-developers/)

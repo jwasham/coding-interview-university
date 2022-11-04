@@ -306,19 +306,19 @@
 
 পছন্দের ভাষা একই হবে, যাতে আপনাকে শুধুমাত্র একটিতে দক্ষ হতে হবে।
 
-### For this Study Plan
+### এই স্টাডি প্ল্যানের জন্য
 
-When I did the study plan, I used 2 languages for most of it: C and Python
+যখন আমি অধ্যয়নের পরিকল্পনাটি করেছি, তখন আমি এর বেশিরভাগের জন্য 2টি ভাষা ব্যবহার করেছি: সি এবং পাইথন
 
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
-    and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
-    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+* সি: খুব নিম্ন স্তরের। আপনাকে পয়েন্টার এবং মেমরি বরাদ্দ/বরাদ্দকরণের সাথে মোকাবিলা করার অনুমতি দেয়, যাতে আপনি ডেটা স্ট্রাকচার এবং অ্যালগরিদম খুব দৃঢ়ভাবে বুঝতে পারেন। পাইথন বা জাভার মতো উচ্চ স্তরের ভাষাগুলিতে, এগুলি আপনার কাছ থেকে লুকানো থাকে। প্রতিদিনের কাজে, এটি দুর্দান্ত,
+    কিন্তু যখন আপনি এই নিম্ন-স্তরের ডেটা স্ট্রাকচারগুলি কীভাবে তৈরি করা হয় তা শিখছেন, তখন ধাতুর কাছাকাছি অনুভব করা দুর্দান্ত।
+    - সি সর্বত্র। আপনি যখন অধ্যয়ন করছেন তখন আপনি বই, বক্তৃতা, ভিডিও, *সব জায়গায়* উদাহরণ দেখতে পাবেন।
     - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
-        - [Answers to questions in the book](https://github.com/lekkas/c-algorithms)
+        - This is a short book, but it will give you a grea
+        - এটি একটি সংক্ষিপ্ত বই, তবে এটি আপনাকে সি ভাষার উপর একটি দুর্দান্ত হ্যান্ডেল দেবে এবং আপনি যদি এটি একটু অনুশীলন করেন
+            আপনি দ্রুত দক্ষ হয়ে উঠবেন। C বোঝা আপনাকে প্রোগ্রাম এবং মেমরি কিভাবে কাজ করে তা বুঝতে সাহায্য করে।
+        - আপনাকে বইটির গভীরে যেতে হবে না (বা এমনকি এটি শেষ করতে হবে)। যেখানে আপনি সি-তে পড়তে এবং লিখতে স্বাচ্ছন্দ্যবোধ করেন সেখানে যান।
+        - [বইয়ের প্রশ্নের উত্তর](https://github.com/lekkas/c-algorithms)
 * Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
 
 This is my preference. You do what you like, of course.

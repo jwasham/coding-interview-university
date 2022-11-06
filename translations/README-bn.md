@@ -328,57 +328,29 @@
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
  
-## সাক্ষাত্কার প্রক্রিয়া এবং সাধারণ সাক্ষাত্কার প্রস্তুতি
+### আপনার কোডিং সাক্ষাত্কারের জন্য
  
-<details>
-<সুমারী> সাক্ষাত্কার প্রক্রিয়া এবং সাধারণ সাক্ষাত্কারের প্রস্তুতি </summary>
+সাক্ষাত্কারের কোডিং অংশটি করতে আপনি স্বাচ্ছন্দ্যযুক্ত একটি ভাষা ব্যবহার করতে পারেন তবে বড় কোম্পানি গুলির জন্য এগুলি কঠোর পছন্দ:
  
-- [এ বি সি: সর্বদা কোডিং থাকুন](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [হোয়াইটবোর্ডিং](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [প্রোগ্রামিং সাক্ষাত্কারের সময় কার্যকর হোয়াইটবোর্ডিং](http://www.coderust.com/blog/2014/04/10/Effective-Witeboarding-during-programming-interviews/)
-- [টেক রিক্রুটিং কে ক্ষমা করা](https://www.youtube.com/watch?v=N233T0epWTs)
--  কোডিং সাক্ষাত্কারটি ক্র্যাক করা 1:
-- [গেইল এল ম্যাকডোয়েল-কোডিং সাক্ষাত্কারের ক্র্যাকিং (ভিডিও)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-   - [লেখক গেইল লাকম্যান ম্যাকডোভেল (ভিডিও) এর সাথে কোডিং সাক্ষাত্কার ক্র্যাক করা](https://www.youtube.com/watch?v=aClxtDcdpsQ)
--  বিগ 4 এ কীভাবে চাকরী পাবেন?
-   - [বিগ 4 এ কীভাবে চাকরী পাবেন-অ্যামাজন, ফেসবুক, গুগল এবং মাইক্রোসফ্ট (ভিডিও)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
- 
--  প্রস্তুতি কোর্স:
-   - [সফটওয়্যার ইঞ্জিনিয়ার সাক্ষাত্কার প্রকাশিত (বেতনভুক্ত কোর্স)](https://www.udemy.com/software-engineer-interview-unleashed):
-       -একজন প্রাক্তন গুগল সাক্ষাত্কারকারীর থেকে কীভাবে নিজেকে সফটওয়্যার ইঞ্জিনিয়ার সাক্ষাত্কারের জন্য প্রস্তুত করবেন তা শিখুন।
-   -  [ডেটা স্ট্রাকচার, অ্যালগরিদম এবং সাক্ষাত্কারের জন্য পাইথন! (প্রদত্ত কোর্স)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-       -পাইথন কেন্দ্রিক সাক্ষাত্কার প্রস্তুতির কোর্সে ডেটা স্ট্রাকচার, অ্যালগরিদম, মক সাক্ষাত্কার এবং আরও অনেক কিছু রয়েছে।
-   -  [পাইথন ব্যবহার করে ডেটা স্ট্রাকচার এবং অ্যালগরিদমগুলিতে ইন্ট্রো! (উদাসীনতা মুক্ত কোর্স)](https://www.udacity.com/cورس/data-structures-এবং-algorithms-in-python--ud513):
-       -একটি ফ্রি পাইথন কেন্দ্রিক ডেটা স্ট্রাকচার এবং অ্যালগরিদম কোর্স।
-   -  [ডেটা স্ট্রাকচার এবং অ্যালগোরিদম ন্যানোডগ্রি! (উদাস্তিটি ন্যানোডগ্রি প্রদান করেছে)](https://www.udacity.com/course/data-structures-এবং-algorithms-nanodegree--nd256):
-       -100 টিরও বেশি ডেটা স্ট্রাকচার এবং অ্যালগরিদম অনুশীলন এবং আপনাকে একটি সাক্ষাত্কারের জন্য এবং কাজের সুযোগে দৃশ্যের জন্য আপনাকে প্রস্তুত করতে ডেডিকেটেড পরামর্শদাতার দিকনির্দেশ দিয়ে অনুশীলন পান।
- 
-</details>
- 
-##সাক্ষাত্কারের জন্য একটি ভাষা চয়ন করুন
- 
-সাক্ষাত্কারের কোডিং অংশটি করতে আপনি স্বাচ্ছন্দ্যযুক্ত একটি ভাষা ব্যবহার করতে পারেন তবে বড় সংস্থাগুলির জন্য এগুলি কঠোর পছন্দ:
- 
--সি ++
--জাভা
--পাইথন
+- সি ++
+- জাভা
+- পাইথন
  
 আপনি এগুলি ব্যবহার করতে পারেন তবে প্রথমে পড়তে পারেন। সতর্কতা থাকতে পারে:
  
--জাভাস্ক্রিপ্ট
--রুবি
+- জাভাস্ক্রিপ্ট
+- রুবি
  
-এখানে একটি নিবন্ধটি আমি সাক্ষাত্কারের জন্য একটি ভাষা বেছে নেওয়ার বিষয়ে লিখেছি: [কোডিং সাক্ষাত্কারের জন্য একটি ভাষা বেছে নিন](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
-
-এই মূল নিবন্ধটি আমার পোস্টের উপর ভিত্তি করে ছিল: http://blog.codingforinterviews.com/best-programming-language-jobs/
+এখানে একটি নিবন্ধটি আমি সাক্ষাত্কারের জন্য একটি ভাষা বেছে নেওয়ার বিষয়ে লিখেছি: 
+[কোডিং সাক্ষাত্কারের জন্য একটি ভাষা বেছে নিন](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+এই মূল নিবন্ধটি আমার পোস্টের উপর ভিত্তি করে ছিল: [সাক্ষাৎকারের জন্য একটি প্রোগ্রামিং ভাষা নির্বাচন করা](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
  
 আপনার ভাষায় খুব স্বাচ্ছন্দ্য বোধ করা এবং বুদ্ধিমান হওয়া দরকার।
  
 পছন্দ সম্পর্কে আরও পড়ুন:
--http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
--http://blog.codingforinterviews.com/best-programming-language-jobs/
- 
-[ভাষার সংস্থানগুলি এখানে দেখুন] (প্রোগ্রামিং-ভাষা-সংস্করণ.এমডি)
+- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+
+[See language-specific resources here](programming-language-resources.md)
  
 আপনি নীচে অন্তর্ভুক্ত কিছু সি, সি ++ এবং পাইথন শিখতে দেখবেন, কারণ আমি শিখছি। কয়েকটি বই জড়িত রয়েছে, নীচে দেখুন।
  

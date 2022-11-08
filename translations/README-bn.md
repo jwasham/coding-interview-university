@@ -335,7 +335,6 @@
  
 - [এ বি সি: সর্বদা কোডিং থাকুন](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [হোয়াইটবোর্ডিং](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [প্রোগ্রামিং সাক্ষাত্কারের সময় কার্যকর হোয়াইটবোর্ডিং](http://www.coderust.com/blog/2014/04/10/Effective-Witeboarding-during-programming-interviews/)
 - [টেক রিক্রুটিং কে ক্ষমা করা](https://www.youtube.com/watch?v=N233T0epWTs)
 -  কোডিং সাক্ষাত্কারটি ক্র্যাক করা 1:
 - [গেইল এল ম্যাকডোয়েল-কোডিং সাক্ষাত্কারের ক্র্যাকিং (ভিডিও)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)

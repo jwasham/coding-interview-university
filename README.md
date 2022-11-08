@@ -100,6 +100,9 @@ Frontend Engineers (FEE) and Software Development Engineers (SDE). These are 2 s
 them will not be the same, as each has its own competencies. These companies require computer science knowledge for 
 software development/engineering roles.
 
+There is a lot to learn in a university Computer Science program, but only knowing about 75% is good enough for an interview, so that's what I cover here. 
+For a complete CS self-taught program, the resources for my study plan have been included in Kamran Ahmed's Computer Science Roadmap: https://roadmap.sh/computer-science
+
 ---
 
 ## Table of Contents
@@ -494,9 +497,9 @@ without lyrics and you'll be able to focus pretty well.
 
 These are prevalent technologies but not part of this study plan:
 
-- [SQL](https://www.scaler.com/topics/sql/)
 - Javascript
 - HTML, CSS, and other front-end technologies
+- SQL
 
 ## The Daily Plan
 

@@ -300,7 +300,6 @@ Google не возьмёт тебя на работу.
     - [ ] [4 шага к Google без образования в CS](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
     - [ ] [Кодирование на доске](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
     - [ ] [Что думает Google о найме, управлении и культуре](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-    - [ ] [Эффективное кодирование на доске в процессе собеседования](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [ ] Прохождения собеседования по программированию набор 1:
         - [ ] [Gayle L McDowell - Прохождения собеседования по программированию (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
         - [ ] [Прохождения собеседования по программированию с Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)

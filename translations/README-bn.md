@@ -348,11 +348,9 @@
 আপনার ভাষায় খুব স্বাচ্ছন্দ্য বোধ করা এবং বুদ্ধিমান হওয়া দরকার।
  
 পছন্দ সম্পর্কে আরও পড়ুন:
-- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+- [আপনার কোডিং সাক্ষাৎকারের জন্য সঠিক ভাষা নির্বাচন করুন](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-[See language-specific resources here](programming-language-resources.md)
- 
-আপনি নীচে অন্তর্ভুক্ত কিছু সি, সি ++ এবং পাইথন শিখতে দেখবেন, কারণ আমি শিখছি। কয়েকটি বই জড়িত রয়েছে, নীচে দেখুন।
+[ভাষা ভিত্তিক উৎসগুলো দেখুন](programming-language-resources.md)
  
 ##বইএর তালিকা
  

@@ -287,8 +287,8 @@
 
 -সফল সফ্টওয়্যার ইঞ্জিনিয়াররা স্মার্ট, তবে অনেকেরই এমন নিরাপত্তাহীনতা রয়েছে যে তারা যথেষ্ট স্মার্ট নয়।
 - নিম্নলিখিত ভিডিওগুলি আপনাকে এই নিরাপত্তাহীনতা কাটিয়ে উঠতে সাহায্য করতে পারে:
-    -[জিনিয়াস প্রোগ্রামারটির রূপকথার কাহিনী](https://www.youtube.com/watch?v=0SARbwvhupQ)
-    -[একা যাওয়া বিপদজনক: টেকের মধ্যে অদৃশ্য মনস্টারদের লড়াই][https://www.youtube.com/watch?v=1i8ylq4j_EY)
+    - [জিনিয়াস প্রোগ্রামারটির রূপকথার কাহিনী](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [একা যাওয়া বিপদজনক: টেকের মধ্যে অদৃশ্য মনস্টারদের লড়াই](https://www.youtube.com/watch?v=1i8ylq4j_EY)
  
 ## ভিডিও সংস্থান সম্পর্কে
  
@@ -328,62 +328,70 @@
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
  
-## সাক্ষাত্কার প্রক্রিয়া এবং সাধারণ সাক্ষাত্কার প্রস্তুতি
+### আপনার কোডিং সাক্ষাত্কারের জন্য
  
-<details>
-<সুমারী> সাক্ষাত্কার প্রক্রিয়া এবং সাধারণ সাক্ষাত্কারের প্রস্তুতি </summary>
+সাক্ষাত্কারের কোডিং অংশটি করতে আপনি স্বাচ্ছন্দ্যযুক্ত একটি ভাষা ব্যবহার করতে পারেন তবে বড় কোম্পানি গুলির জন্য এগুলি কঠোর পছন্দ:
  
-- [এ বি সি: সর্বদা কোডিং থাকুন](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [হোয়াইটবোর্ডিং](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [টেক রিক্রুটিং কে ক্ষমা করা](https://www.youtube.com/watch?v=N233T0epWTs)
--  কোডিং সাক্ষাত্কারটি ক্র্যাক করা 1:
-- [গেইল এল ম্যাকডোয়েল-কোডিং সাক্ষাত্কারের ক্র্যাকিং (ভিডিও)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-   - [লেখক গেইল লাকম্যান ম্যাকডোভেল (ভিডিও) এর সাথে কোডিং সাক্ষাত্কার ক্র্যাক করা](https://www.youtube.com/watch?v=aClxtDcdpsQ)
--  বিগ 4 এ কীভাবে চাকরী পাবেন?
-   - [বিগ 4 এ কীভাবে চাকরী পাবেন-অ্যামাজন, ফেসবুক, গুগল এবং মাইক্রোসফ্ট (ভিডিও)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
- 
--  প্রস্তুতি কোর্স:
-   - [সফটওয়্যার ইঞ্জিনিয়ার সাক্ষাত্কার প্রকাশিত (বেতনভুক্ত কোর্স)](https://www.udemy.com/software-engineer-interview-unleashed):
-       -একজন প্রাক্তন গুগল সাক্ষাত্কারকারীর থেকে কীভাবে নিজেকে সফটওয়্যার ইঞ্জিনিয়ার সাক্ষাত্কারের জন্য প্রস্তুত করবেন তা শিখুন।
-   -  [ডেটা স্ট্রাকচার, অ্যালগরিদম এবং সাক্ষাত্কারের জন্য পাইথন! (প্রদত্ত কোর্স)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-       -পাইথন কেন্দ্রিক সাক্ষাত্কার প্রস্তুতির কোর্সে ডেটা স্ট্রাকচার, অ্যালগরিদম, মক সাক্ষাত্কার এবং আরও অনেক কিছু রয়েছে।
-   -  [পাইথন ব্যবহার করে ডেটা স্ট্রাকচার এবং অ্যালগরিদমগুলিতে ইন্ট্রো! (উদাসীনতা মুক্ত কোর্স)](https://www.udacity.com/cورس/data-structures-এবং-algorithms-in-python--ud513):
-       -একটি ফ্রি পাইথন কেন্দ্রিক ডেটা স্ট্রাকচার এবং অ্যালগরিদম কোর্স।
-   -  [ডেটা স্ট্রাকচার এবং অ্যালগোরিদম ন্যানোডগ্রি! (উদাস্তিটি ন্যানোডগ্রি প্রদান করেছে)](https://www.udacity.com/course/data-structures-এবং-algorithms-nanodegree--nd256):
-       -100 টিরও বেশি ডেটা স্ট্রাকচার এবং অ্যালগরিদম অনুশীলন এবং আপনাকে একটি সাক্ষাত্কারের জন্য এবং কাজের সুযোগে দৃশ্যের জন্য আপনাকে প্রস্তুত করতে ডেডিকেটেড পরামর্শদাতার দিকনির্দেশ দিয়ে অনুশীলন পান।
- 
-</details>
- 
-##সাক্ষাত্কারের জন্য একটি ভাষা চয়ন করুন
- 
-সাক্ষাত্কারের কোডিং অংশটি করতে আপনি স্বাচ্ছন্দ্যযুক্ত একটি ভাষা ব্যবহার করতে পারেন তবে বড় সংস্থাগুলির জন্য এগুলি কঠোর পছন্দ:
- 
--সি ++
--জাভা
--পাইথন
+- সি ++
+- জাভা
+- পাইথন
  
 আপনি এগুলি ব্যবহার করতে পারেন তবে প্রথমে পড়তে পারেন। সতর্কতা থাকতে পারে:
  
--জাভাস্ক্রিপ্ট
--রুবি
+- জাভাস্ক্রিপ্ট
+- রুবি
  
-এখানে একটি নিবন্ধটি আমি সাক্ষাত্কারের জন্য একটি ভাষা বেছে নেওয়ার বিষয়ে লিখেছি: [কোডিং সাক্ষাত্কারের জন্য একটি ভাষা বেছে নিন](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
-
-এই মূল নিবন্ধটি আমার পোস্টের উপর ভিত্তি করে ছিল: http://blog.codingforinterviews.com/best-programming-language-jobs/
+এখানে একটি নিবন্ধটি আমি সাক্ষাত্কারের জন্য একটি ভাষা বেছে নেওয়ার বিষয়ে লিখেছি: 
+[কোডিং সাক্ষাত্কারের জন্য একটি ভাষা বেছে নিন](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+এই মূল নিবন্ধটি আমার পোস্টের উপর ভিত্তি করে ছিল: [সাক্ষাৎকারের জন্য একটি প্রোগ্রামিং ভাষা নির্বাচন করা](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
  
 আপনার ভাষায় খুব স্বাচ্ছন্দ্য বোধ করা এবং বুদ্ধিমান হওয়া দরকার।
  
 পছন্দ সম্পর্কে আরও পড়ুন:
--http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
--http://blog.codingforinterviews.com/best-programming-language-jobs/
+- [আপনার কোডিং সাক্ষাৎকারের জন্য সঠিক ভাষা নির্বাচন করুন](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+
+[ভাষা ভিত্তিক উৎসগুলো দেখুন](programming-language-resources.md)
  
-[ভাষার সংস্থানগুলি এখানে দেখুন] (প্রোগ্রামিং-ভাষা-সংস্করণ.এমডি)
- 
-আপনি নীচে অন্তর্ভুক্ত কিছু সি, সি ++ এবং পাইথন শিখতে দেখবেন, কারণ আমি শিখছি। কয়েকটি বই জড়িত রয়েছে, নীচে দেখুন।
- 
-##বইএর তালিকা
- 
-আমি যা ব্যবহার করেছি তার চেয়ে এটি একটি সংক্ষিপ্ত তালিকা। এটি আপনার সময় বাঁচাতে সংক্ষেপে বর্ণিত।
+## ডেটা স্ট্রাকচার এবং অ্যালগরিদমের জন্য বই
+
+এই বইটি কম্পিউটার বিজ্ঞানের জন্য আপনার ভিত্তি তৈরি করবে।
+
+শুধু একটি বেছে নিন, এমন একটি ভাষায় যা আপনি স্বাচ্ছন্দ্য বোধ করবেন। আপনাকে অনেক পড়াশুনা এবং কোডিং করতে হবে। 
+
+### সি
+
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms 
+
+### পাইথন
+
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - by Goodrich, Tamassia, Goldwasser
+    - I loved this book. It covered everything and more.
+    - Pythonic code
+    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+
+### জাভা
+
+আপনার পছন্দ:
+
+- Goodrich, Tamassia, Goldwasser
+    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- Sedgewick and Wayne:
+    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Free Coursera course that covers the book (taught by the authors!):
+        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+
+### সি++
+
+আপনার পছন্দ:
+
+- Goodrich, Tamassia, and Mount
+    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick and Wayne
+    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
  
 ###সাক্ষাত্কার প্রস্তুতি
  

@@ -352,9 +352,46 @@
 
 [ভাষা ভিত্তিক উৎসগুলো দেখুন](programming-language-resources.md)
  
-##বইএর তালিকা
- 
-আমি যা ব্যবহার করেছি তার চেয়ে এটি একটি সংক্ষিপ্ত তালিকা। এটি আপনার সময় বাঁচাতে সংক্ষেপে বর্ণিত।
+## ডেটা স্ট্রাকচার এবং অ্যালগরিদমের জন্য বই
+
+এই বইটি কম্পিউটার বিজ্ঞানের জন্য আপনার ভিত্তি তৈরি করবে।
+
+শুধু একটি বেছে নিন, এমন একটি ভাষায় যা আপনি স্বাচ্ছন্দ্য বোধ করবেন। আপনাকে অনেক পড়াশুনা এবং কোডিং করতে হবে। 
+
+### সি
+
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms 
+
+### পাইথন
+
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - by Goodrich, Tamassia, Goldwasser
+    - I loved this book. It covered everything and more.
+    - Pythonic code
+    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+
+### জাভা
+
+আপনার পছন্দ:
+
+- Goodrich, Tamassia, Goldwasser
+    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- Sedgewick and Wayne:
+    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Free Coursera course that covers the book (taught by the authors!):
+        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+
+### সি++
+
+আপনার পছন্দ:
+
+- Goodrich, Tamassia, and Mount
+    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick and Wayne
+    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
  
 ###সাক্ষাত্কার প্রস্তুতি
  

@@ -393,59 +393,42 @@
     - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
     - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
  
-###সাক্ষাত্কার প্রস্তুতি
+## সাক্ষাত্কার প্রস্তুতি বই
+
+আপনি এই একটি গুচ্ছ কিনতে হবে না. সত্যি বলতে "Cracking the Coding Interview" সম্ভবত যথেষ্ট,
+কিন্তু আমি নিজেকে আরো অনুশীলন দিতে আরো কেনা. কিন্তু আমি সবসময় খুব বেশি করি।
+
+আমি এই দুটি কিনলাম। তারা আমাকে প্রচুর অনুশীলন দিয়েছে।
+
+- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - উত্তরগুলো সি++ আর জাভাতে
+    - কোডিং ইন্টারভিউ ক্র্যাক করার জন্য এটি একটি ভাল ওয়ার্ম-আপ
+    - খুব কঠিন না। আপনি একটি সাক্ষাত্কারে যা দেখতে পাবেন তার চেয়ে বেশিরভাগ সমস্যা সহজ হতে পারে (আমি যা পড়েছি তা থেকে)
+- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - উত্তরগুলো জাভাতে
  
--  [প্রোগ্রামিং সাক্ষাত্কারগুলি উদ্ভাসিত হয়েছে: সাক্ষাত্কারের মাধ্যমে আপনার কোডের কোডিং, ৪ র্থ সংস্করণ](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-   -সি ++ এবং জাভাতে উত্তর
-   -কোডিং সাক্ষাত্কার ক্র্যাক করার জন্য এটি একটি ভাল প্রস্তুতি
-   -খুব বেশি কঠিন নয়, বেশিরভাগ সমস্যাগুলি আপনি একটি সাক্ষাত্কারে যা দেখবেন তার চেয়ে সহজ হতে পারে (আমি যা পড়েছি তা থেকে)
--  [কোডিং সাক্ষাত্কার ক্র্যাকিং, 6th ষ্ঠ সংস্করণ](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-   -জাভা উত্তর
+### আপনার যদি অতিরিক্ত সময় থাকে:
+
+একটি পছন্দ করুন:
+
+- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
  
-<details>
-<summary>আপনার যদি অতিরিক্ত পরিমাণে সময় থাকে তবে </summery>
+## আমার মত ভুল করবেন না
+
+এই তালিকাটি অনেক মাস ধরে বেড়েছে, এবং হ্যাঁ, এটি হাতের বাইরে চলে গেছে।
+
+এখানে আমি কিছু ভুল করেছি যাতে আপনার আরও ভালো অভিজ্ঞতা হয়। এবং আপনি কয়েক মাস সময় বাঁচাবেন।
  
-একটি নির্বাচন করুন:
- 
--  [প্রোগ্রামিং সাক্ষাত্কারের উপাদানগুলি (সি ++ সংস্করণ)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
--  প্রোগ্রামিং সাক্ষাত্কারের উপাদানসমূহ (জাভা সংস্করণ)
-   -[বই](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-   -[কোম্পানির প্রকল্প-বইয়ের প্রতিটি সমস্যার জন্য পদ্ধতি স্টাব এবং টেস্ট কেস](https://github.com/gardncl/elements-of-programming-interviews)
- 
-</details>
- 
-###কম্পিউটার আর্কিটেকচার
- 
--  [গ্রেট কোড লিখুন: খণ্ড ১: মেশিনটি বোঝা] (https://www.amazon.com/Write-Great-Code-Unders સમજ-ম্যাচাইন / ডিপি / 1593270038)
-   -বইটি 2004 সালে প্রকাশিত হয়েছিল এবং এটি কিছুটা পুরানো হলেও সংক্ষেপে কম্পিউটার বোঝার জন্য এটি এক ভয়ঙ্কর উত্স।
-   -লেখক আবিষ্কার করেছেন [এইচএলএ] (https://en.wikedia.org/wiki/High_Level_As आशीर्वाद), তাই লবণের দানা দিয়ে এইচএলএ-তে উল্লেখ এবং উদাহরণ নিন। বিস্তৃতভাবে ব্যবহৃত হয় না, তবে সমাবেশটি কেমন লাগে তার শালীন উদাহরণ।
-   -এই অধ্যায়গুলি আপনাকে একটি সুন্দর ভিত্তি দেওয়ার জন্য মূল্যবান:
-      <details>
-      <summary>...... </summary>
- 
-       -দ্বিতীয় অধ্যায়-সংখ্যা উপস্থাপনা
-       -অধ্যায় 3-বাইনারি গাণিতিক এবং বিট অপারেশন
-       -অধ্যায় 4-ভাসমান-পয়েন্ট প্রতিনিধিত্ব
-       -অধ্যায় 5-চরিত্র উপস্থাপনা
-       -অধ্যায় 6-মেমরি সংস্থা এবং অ্যাক্সেস
-       -অধ্যায় 7-সম্মিলিত ডেটা টাইপ এবং মেমরি অবজেক্টস
-       -অধ্যায় 9-সিপিইউ আর্কিটেকচার
-       -অধ্যায় 10-নির্দেশ সেট আর্কিটেকচার
-       -অধ্যায় 11-মেমরি আর্কিটেকচার এবং সংস্থা
- 
-      </details>
- 
- 
-###ভাষা নির্দিষ্ট
- 
-** আপনাকে সাক্ষাত্কারের জন্য একটি ভাষা চয়ন করতে হবে (উপরে দেখুন) * **
- 
-ভাষা অনুসারে আমার প্রস্তাবনা এখানে রইল। আমার কাছে সমস্ত ভাষার জন্য সংস্থান নেই। আমি সংযোজন স্বাগত জানাই।
- 
-আপনি যদি এর মধ্যে একটির মাধ্যমে পড়ে থাকেন তবে আপনার কোডিং সমস্যাগুলি শুরু করতে হবে এমন সমস্ত ডেটা স্ট্রাকচার এবং অ্যালগরিদম জ্ঞান থাকা উচিত।
-** আপনি যদি কোনও পর্যালোচনা না চান তবে আপনি এই প্রকল্পের সমস্ত ভিডিও বক্তৃতা ** এড়িয়ে যেতে পারেন।
- 
-[অতিরিক্ত ভাষা-নির্দিষ্ট সংস্থানগুলি এখানে]] (প্রোগ্রামিং-ভাষাভাষা-উত্স.এমডি)
+### 1. আপনি সব মনে রাখবেন না
+
+আমি ঘন্টার পর ঘন্টা ভিডিও দেখেছি এবং প্রচুর নোট নিয়েছি, এবং কয়েক মাস পরেও অনেক কিছু মনে ছিল না। আমার ৩ দিন লেগেছে আমার নোট এবং ফ্ল্যাশকার্ড তৈরি করতে, যাতে আমি পর্যালোচনা করতে পারি। আমার সেই সমস্ত জ্ঞানের প্রয়োজন ছিল না।
+
+অনুগ্রহ করে পড়ুন যাতে আপনি আমার ভুল করবেন না:
+
+[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
  
 ###সি ++
  

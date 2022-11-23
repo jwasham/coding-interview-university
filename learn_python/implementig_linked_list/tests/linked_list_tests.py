@@ -54,6 +54,23 @@ class LinkedListTestCase(unittest.TestCase):
         value = linked_list.value_at(2)
         self.assertEqual(value, 1)
 
+    def test_should_reverse_list(self):
+        linked_list = LinkedList()
+        linked_list.push_front(1)
+        linked_list.push_front(2)
+        linked_list.push_front(3)
+
+        linked_list.reverse()
+
+        value = linked_list.pop_front()
+        self.assertEqual(value, 1)
+
+        value = linked_list.pop_front()
+        self.assertEqual(value, 2)
+
+        value = linked_list.pop_front()
+        self.assertEqual(value, 3)
+
 
 if __name__ == '__main__':
     unittest.main()

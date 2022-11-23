@@ -78,6 +78,7 @@ class LinkedList:
         return value
 
     def value_at(self, index):
+        "returns the value of the nth item (starting at 0 for first)"
         if index > self.size() or index < 0:
             raise IndexError(index)
 
@@ -87,6 +88,23 @@ class LinkedList:
             node = self.__head
             while index != 0:
                 node = node.get_next()
-                index-=1
+                index -= 1
             return node.get_value()
+
+    def front(self):
+        "get value of front item"
+        if self.size() == 0:
+            raise ListIsEmptyError
+        return self.__head.get_value()
+
+    def reverse(self):
+        if self.size() == 0 or self.size() == 1:
+            pass
+        else:
+            node = self.__head
+            reversed_list = LinkedList()
+            while reversed_list.size() != self.size():
+                reversed_list.push_front(node.get_value())
+                node = node.get_next()
+            self.__head = reversed_list.__head
 

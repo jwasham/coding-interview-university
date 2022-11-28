@@ -91,11 +91,48 @@ class LinkedList:
                 index -= 1
             return node.get_value()
 
+    def insert(self, index, value):
+        if index > self.size() or index < 0:
+            raise IndexError(index)
+        if index == 0:
+            self.push_front(value)
+            return
+        if self.size() == 1 and index == 1:
+            self.push_back(value)
+            return
+        else:
+            cur_index = 0
+            node = self.__head
+            prev = node
+            while cur_index != index and node.get_next() is not None:
+                cur_index += 1
+                prev = node
+                node = node.get_next()
+            if cur_index != index:
+                raise IndexError(index)
+            else:
+                new_node = ListNode(value)
+                new_node.set_next(node)
+                prev.set_next(new_node)
+                self.__size += 1
+
     def front(self):
-        "get value of front item"
+        "get value of the first item"
         if self.size() == 0:
             raise ListIsEmptyError
         return self.__head.get_value()
+
+    def back(self):
+        "get value of the last item"
+        if self.size() == 0:
+            raise ListIsEmptyError
+        if self.size() == 1:
+            return self.__head.get_value()
+        else:
+            node = self.__head
+            while node.get_next() is not None:
+                node = node.get_next()
+            return node.get_value()
 
     def reverse(self):
         if self.size() == 0 or self.size() == 1:
@@ -108,3 +145,10 @@ class LinkedList:
                 node = node.get_next()
             self.__head = reversed_list.__head
 
+    def print(self):
+        str = ""
+        node = self.__head
+        while node is not None:
+            str = f'{str} {node.get_value()}'
+            node = node.get_next()
+        return str.strip()

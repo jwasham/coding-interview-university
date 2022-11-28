@@ -71,6 +71,24 @@ class LinkedListTestCase(unittest.TestCase):
         value = linked_list.pop_front()
         self.assertEqual(value, 3)
 
+    def test_should_get_back_item(self):
+        linked_list = LinkedList()
+        linked_list.push_front(1)
+        linked_list.push_front(2)
+        linked_list.push_front(3)
+        value = linked_list.back()
+        self.assertEqual(value, 1)
+
+    def test_insert(self):
+        linked_list = LinkedList()
+        linked_list.insert(0, 1)
+        linked_list.insert(1, 2)
+        linked_list.insert(1, 5)
+        output = "1 5 2"
+        printed = linked_list.print()
+        self.assertEqual(output, printed)
+
+
 
 if __name__ == '__main__':
     unittest.main()

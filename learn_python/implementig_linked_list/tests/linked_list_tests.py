@@ -88,6 +88,30 @@ class LinkedListTestCase(unittest.TestCase):
         printed = linked_list.print()
         self.assertEqual(output, printed)
 
+    def test_remove_at(self):
+        linked_list = LinkedList()
+        linked_list.push_back(0)
+        linked_list.push_back(1)
+        linked_list.push_back(2)
+        linked_list.push_back(3)
+
+        linked_list.remove_at(2)
+        output = "0 1 3"
+        printed = linked_list.print()
+        self.assertEqual(output, printed)
+
+    def test_remove_value(self):
+        linked_list = LinkedList()
+        linked_list.push_back(0)
+        linked_list.push_back(1)
+        linked_list.push_back(2)
+        linked_list.push_back(10)
+        linked_list.push_back(3)
+
+        linked_list.remove_value(10)
+        output = "0 1 2 3"
+        printed = linked_list.print()
+        self.assertEqual(output, printed)
 
 
 if __name__ == '__main__':

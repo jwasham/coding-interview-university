@@ -97,14 +97,11 @@ class LinkedList:
         if index == 0:
             self.push_front(value)
             return
-        if self.size() == 1 and index == 1:
-            self.push_back(value)
-            return
         else:
             cur_index = 0
             node = self.__head
             prev = node
-            while cur_index != index and node.get_next() is not None:
+            while cur_index != index and node is not None:
                 cur_index += 1
                 prev = node
                 node = node.get_next()
@@ -144,6 +141,35 @@ class LinkedList:
                 reversed_list.push_front(node.get_value())
                 node = node.get_next()
             self.__head = reversed_list.__head
+
+    def remove_at(self, index):
+        if index > self.size() or index < 0:
+            raise IndexError(index)
+        node = self.__head
+        prev = node
+        cur_index = 0
+        while cur_index != index:
+            if node.get_next() is not None:
+                prev = node
+                node = node.get_next()
+                cur_index += 1
+            else:
+                break
+        if cur_index == index:
+            prev.set_next(node.get_next())
+        else:
+            raise IndexError(index)
+
+    def remove_value(self, value):
+        node = self.__head
+        prev = node
+        while node.get_next() is not None:
+            if node.get_value() == value:
+                prev.set_next(node.get_next())
+                break
+            else:
+                prev = node
+                node = node.get_next()
 
     def print(self):
         str = ""

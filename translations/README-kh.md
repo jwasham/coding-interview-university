@@ -236,7 +236,6 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 
 - [ ] [ABC: តែងតែសរសេរកូដ](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [ការប្រេីប្រាស់ក្តារខៀន](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [ការប្រេីប្រាស់ក្តារខៀនមានប្រសិទ្ធិភាពក្នុងពេលសម្ភាសន៍កម្មវិធី](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ] [ជ្រើសរើសបុគ្គលិកជំនាញបច្ចេកវិទ្យា](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] វិធីរកការងារនៅក្រុមហ៊ុនធំ ៤៖
     - [ ] [របៀបរកការងារធ្វើនៅក្រុមហ៊ុនធំ ៤ - Amazon, Facebook, Google និង Microsoft (មានវីដេអូ)](https://www.youtube.com/watch?v=YJZCUhxNCv8)

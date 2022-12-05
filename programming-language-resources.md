@@ -74,6 +74,7 @@
   - [HTML Cheat Sheet](https://www.interviewbit.com/html-cheat-sheet)
   - [Quick HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB)
   - [HTML Crash Course for Beginners (1 hr)](https://www.youtube.com/watch?v=UB1O30fR-EE)
+  - [Learn HTML in Detail](https://www.scaler.com/topics/html/)
   - [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
   - [W3 Schools](https://www.w3schools.com/html/)
   - [Html Interview Questions](https://www.interviewbit.com/html-interview-questions)

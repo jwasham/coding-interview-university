@@ -1370,7 +1370,7 @@ You're never really done.
     - Answers:
         - [Solutions](https://web.archive.org/web/20150404194210/http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
-    - [Algorithm](http://jeffe.cs.illinois.edu/teaching/algorithms/) (Jeff Erickson)
+- [Algorithm](http://jeffe.cs.illinois.edu/teaching/algorithms/) (Jeff Erickson)
 - [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief
     - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like

@@ -632,39 +632,40 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
  
--###লিঙ্কযুক্ত তালিকাগুলি
-   -  বিবরণ:
-       -  [একক লিঙ্কযুক্ত তালিকাগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-       -  [সিএস 61 বি-লিঙ্কযুক্ত তালিকাগুলি 1 (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-       -  সিএস 61 বি-লিঙ্কযুক্ত তালিকাগুলি 2 (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-   -  [সি কোড (ভিডিও)] (https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-           -পুরো ভিডিও নয়, নোড স্ট্রাক্ট এবং মেমরির বরাদ্দ সম্পর্কে কেবল অংশ।
-   -  লিঙ্কযুক্ত তালিকা বনাম অ্যারে:
-       -[কোর লিঙ্কযুক্ত তালিকা বনাম অ্যারেগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-       -[রিয়েল ওয়ার্ল্ডের লিঙ্কযুক্ত তালিকায় বনাম অ্যারেগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-   -  [কেন আপনার লিঙ্কযুক্ত তালিকাগুলি (ভিডিও) এড়ানো উচিত]] (https://www.youtube.com/watch?v=YQs6IC-vgmo)
-   -  গোটচা: আপনার পয়েন্টার জ্ঞানের জন্য পয়েন্টার প্রয়োজন:
-        (আপনি যখন কোনও ফাংশনটিতে কোনও পয়েন্টার পাস করেন যা ঠিকানা পরিবর্তন করতে পারে যেখানে সেই পয়েন্টারটি নির্দেশ করে)
-        এই পৃষ্ঠাটি কেবল পিটিআর থেকে পিটিআর এ উপলব্ধি পেতে। আমি এই তালিকাটি ট্র্যাভার্সাল স্টাইলের প্রস্তাব দিই না। পড়ার যোগ্যতা এবং রক্ষণাবেক্ষণযোগ্যতা চতুরতার কারণে ভোগে।
-       -[পয়েন্টারগুলিতে নির্দেশক] (https://www.eskimo.com/~scs/cclass/int/sx8.html)
-   -  বাস্তবায়ন করুন (আমি টেইল পয়েন্টার দিয়ে ও ছাড়াই করেছি):
-       -  আকার ()-তালিকায় ডাটা উপাদানগুলির সংখ্যা প্রদান করে
-       -  খালি ()-শূন্য হলে বুল সত্য দেয়
-       -  মান_আট (সূচক)-নবম আইটেমটির মান প্রদান করে (প্রথমটির জন্য 0 থেকে শুরু করে)
-       -  পুশ_ফ্রন্ট (মান)-তালিকার সামনের অংশে একটি আইটেম যুক্ত করে
-       -  পপ_ফ্রন্ট ()-সামনের আইটেমটি সরিয়ে তার মানটি ফিরিয়ে দিন
-       -  পুশ_ব্যাক (মান)-শেষে একটি আইটেম যুক্ত করে
-       -  পপ_ব্যাক ()-শেষ আইটেমটি সরিয়ে দেয় এবং এর মান প্রদান করে
-       -  সামনের ()-সামনের আইটেমটির মান পান
-       -  ফিরে ()-শেষ আইটেমটির মান পান
-       -  সন্নিবেশ (সূচক, মান)-সূচকে মূল্য সন্নিবেশ করানো হয়, সুতরাং সেই সূচীতে বর্তমান আইটেমটি সূচীতে নতুন আইটেম দ্বারা নির্দেশিত
-       -  মুছুন (সূচক)-প্রদত্ত সূচকে নোড সরান s
-       -  মান_ন_ফ্রম_েন্ড (এন)-তালিকার শেষে থেকে নবম অবস্থানে নোডের মান প্রদান করে
-       -  বিপরীত ()-তালিকার বিপরীতে
-       -  সরান_মূল্য (মান)-এই মান সহ তালিকার প্রথম আইটেমটি সরিয়ে দেয়
-   -  দ্বিগুণভাবে সংযুক্ত তালিকা
-       -[বিবরণ (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-       -বাস্তবায়নের দরকার নেই
+- ### লিঙ্কড লিস্ট
+    - [ ] Description:
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - not the whole video, just portions about Node struct and memory allocation
+    - [ ] Linked List vs Arrays:
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Gotcha: you need pointer to pointer knowledge:
+        (for when you pass a pointer to a function that may change the address where that pointer points)
+        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] Implement (I did with tail pointer & without):
+        - [ ] size() - returns number of data elements in list
+        - [ ] empty() - bool returns true if empty
+        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [ ] push_front(value) - adds an item to the front of the list
+        - [ ] pop_front() - remove front item and return its value
+        - [ ] push_back(value) - adds an item at the end
+        - [ ] pop_back() - removes end item and returns its value
+        - [ ] front() - get value of front item
+        - [ ] back() - get value of end item
+        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [ ] erase(index) - removes node at given index
+        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [ ] reverse() - reverses the list
+        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] Doubly-linked List
+        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - No need to implement
  
 -###স্ট্যাক
    -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)

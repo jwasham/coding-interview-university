@@ -623,7 +623,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
         - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
+            - যখন সাইজ পুরন হয়ে যায়, তখন সেটার সাইজ ডবল করে দিন
             - when popping an item, if size is 1/4 of capacity, resize to half
     - [ ] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
@@ -633,14 +633,14 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
  
 - ### লিঙ্কড লিস্ট
-    - [ ] Description:
+    - [ ] বিবরণ:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation
-    - [ ] Linked List vs Arrays:
+    - [ ] লিঙ্কড লিস্ট বনাম অ্যারে:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)

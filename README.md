@@ -569,7 +569,6 @@ Challenge/Practice sites:
 - [Codeforces](https://codeforces.com/)
 - [Codility](https://codility.com/programmers/)
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
-- [InterviewBit](https://www.interviewbit.com/)
 - [AlgoExpert](https://www.algoexpert.io/product)
     - Created by Google engineers, this is also an excellent resource to hone your skills.
 - [Project Euler](https://projecteuler.net/)

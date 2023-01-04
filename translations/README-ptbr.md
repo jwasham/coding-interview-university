@@ -932,7 +932,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
         - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO) (Engenharia de Software Orientada a Objetos: Desenvolvedor de Software usando UML e Java)
     - [ ] Princípios de SOLID de POO:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE) (Princípios de SOLID de Orientação a Objetos e Design Ágil por Bob Martin)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ) (Padrões de Design de SOLID em C# - vídeo)
+        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8RerBWgqkey0rgzdmoJTc_ijMo8lf5T-) (Padrões de Design de SOLID em C# - vídeo)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A) (Princípios de SOLID - vídeo)
         - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html) (S - Princípio da Responsabilidade Única)
             - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk) (mais informações)

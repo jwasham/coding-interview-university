@@ -600,10 +600,10 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
 ## ডাটা স্ট্রাকচার
  
 - ### অ্যারে
-- [ ] অ্যারে সম্পর্কে:
+    - [ ] অ্যারে সম্পর্কে:
     	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (১৫ মিনিট ৩২ সেকেন্ড থেকে দেখা শুরু করুন)
         - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
@@ -639,7 +639,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation
+            - পুরো ভিডিওটি নয়, নোড স্ট্রাকট এবং মেমরি বরাদ্দ সম্পর্কে কিছু অংশ
     - [ ] লিঙ্কড লিস্ট বনাম অ্যারে:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
@@ -662,10 +662,10 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
         - [ ] erase(index) - removes node at given index
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+        - [ ] remove_value(value) - এই মান দিয়ে তালিকার প্রথম আইটেমটি সরিয়ে দেয়
     - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
-        - No need to implement
+        - ইমপ্লিমেন্টের প্রয়োজন নাই।
  
 -###স্ট্যাক
    -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)

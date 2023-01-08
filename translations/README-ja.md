@@ -1,7 +1,7 @@
 # コーディング面接の大学
 
 >私はもともとこれをソフトウェアエンジニアになるための短いトピックリストとして作成しましたが、
->今日それは大きなリストに成長しました。この調査計画を経て、[私はAmazonで
+>今日それは大きなリストに成長しました。この勉強の計画を経て、[私はAmazonで
 > ソフトウェアエンジニアとして雇われました！！](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 >おそらく、あなたは私ほど勉強する必要はないでしょう。とにかく、必要なものはすべてここにあります。
 >
@@ -52,9 +52,9 @@
                 </p>
             </div>
             <div>
-                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
-                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
-                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident
                 as you walk into that interview!</sup>
             </div>
         </a>
@@ -180,10 +180,10 @@ SREまたはシステムエンジニアになりたい場合は、オプショ�
 
 一部のビデオは、Coursera、EdX、またはLynda.comクラスに登録することによってのみ利用できます。
 これらはMOOCと呼ばれています。
-時にはクラスがセッションに入っていないので、数ヶ月待つ必要があるため、アクセス権がありません。 
+時にはクラスがセッションに入っていないので、数ヶ月待つ必要があるため、アクセス権がありません。
 Lynda.comコースは有料です。
 
-オンラインコースビデオに付随するYouTubeビデオなど、無料で常時利用可能なパブリックソースを追加することに感謝します。  
+オンラインコースビデオに付随するYouTubeビデオなど、無料で常時利用可能なパブリックソースを追加することに感謝します。
 私は大学の講義を使うのが好きです。
 
 
@@ -654,7 +654,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  insert //木に値を挿入する
 		- [ ]  get_node_count //格納された値の数を取得する
 		- [ ]  print_values //最小値から最大値まで木の値を出力します
-		- [ ]  delete_tree 
+		- [ ]  delete_tree
 		- [ ]  is_in_tree //与えられた値が木に存在する場合はtrueを返します
 		- [ ]  get_height //ノードの高さを返します(単一ノードの高さは1です)
 		- [ ]  get_min //木に格納されている最小値を返します
@@ -1171,16 +1171,16 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [AmazonのAWSで1,100万人以上のユーザーに拡大するための初心者向けガイド](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
 	- [ ]  [Dockerの効果待ち時間の使用方法](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
 	- [ ]  [AMPはGoogleに存在する脅威に対抗していますか？](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
-	- [ ]  [全Netflixスタックの360度ビュー](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html) 
+	- [ ]  [全Netflixスタックの360度ビュー](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
 	- [ ]  [レイテンシはどこにでもあり、それはあなたのセールスに費やされます - それを粉砕する方法](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
 	- [ ]  [サーバーレス(非常に長い、要点が必要](http://martinfowler.com/articles/serverless.html)
 	- [ ]  [Instagramを動かすもの：何百ものインスタンス、数十のテクノロジ](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
 	- [ ] [シンクキャストアーキテクチャ - 毎日1,500時間の音声を生成する](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
 	- [ ]  [Justin.Tvのライブビデオブロードキャストアーキテクチャ](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
-	- [ ]  [Playfishのソーシャルゲームアーキテクチャ - 月間5000万人のユーザーと成長](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html) 
+	- [ ]  [Playfishのソーシャルゲームアーキテクチャ - 月間5000万人のユーザーと成長](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
 	- [ ]  [アーキテクチャ - 40Mビジター、200Mダイナミックページビュー、30TBデータ]()
 	- [ ]  [PlentyOfFishアーキテクチャ](http://highscalability.com/plentyoffish-architecture)
-	- [ ]  [Salesforceのアーキテクチャ - どのように130億回のトランザクションを処理するか](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) 
+	- [ ]  [Salesforceのアーキテクチャ - どのように130億回のトランザクションを処理するか](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
 	- [ ]  [ESPNの規模でのアーキテクチャ - 毎秒100,000のDuh Nuh Nuhsで動作](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
 	- [ ] サービスを結合する技術の情報については、以下の「メッセージング、シリアライゼーション、およびキューイングシステム」を参照してください。
 	- [ ]  Twitter：

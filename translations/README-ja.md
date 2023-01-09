@@ -132,6 +132,10 @@
 
 ## なぜこれを使用するのか
 
+大企業でソフトウェアエンジニアとして働きたい場合は、次のことを知っておく必要があります。
+
+私のようにコンピューターサイエンスの学位を取得していない場合、これで追いつき、人生の4年間を救うことができます。
+
 私はこのプロジェクトを始めたとき、ヒープからスタックを知りませんでしたし、Big-O とは何か、木構造に関すること、グラフをたどる方法を知らなかったのです。
 ソートアルゴリズムをコーディングしなければならない場合は、あまりうまくいきませんでした。
 これまで使用してきたすべてのデータ構造は言語に組み込まれていて、どのようにしてそれらがどのようにして動作するのか分かりませんでした。
@@ -525,7 +529,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 - ### スタック
 	- [ ]  [Stacks(video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-	- [ ]  [スタックをの使用 Last-In First-Out(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+	- [ ]  [スタックの使用 Last-In First-Out(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
 	- [ ] 実装されません。配列で実装するのは簡単です。
 
 - ### キュー
@@ -536,11 +540,11 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ] テールポインタ付き連結リストを使って実装する：
 		- enqueue(value) - テールの位置に値を追加する
 		- dequeue() - 値を返し、少なくとも最近追加された要素を削除する(前面)
-        - empty()
+		- empty()
 	- [ ] 固定長配列を使って実装する：
 		- enqueue(value) - 利用可能なストレージの最後にアイテムを追加する
 		- dequeue() - 値を返し、最近追加された要素のうち最も古い要素を削除します
-        - empty()
+		- empty()
 		- full()
 	- [ ] コスト：
 	    - 最後の要素の次の要素が必要になるため、先頭にエンキューし、末尾をデキューするリンクリストを使用する悪い実装はO（n）になり、デキューごとに完全なトラバーサルが発生します
@@ -553,9 +557,11 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  [連鎖によるハッシング(動画)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
 		- [ ]  [ダブリング、ラビン-カープ(ビデオ)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 		- [ ]  [公開アドレス指定、暗号化ハッシング(動画)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-		- [ ]  [PyCon 2010：The Mighty Dictionary(video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+		- [ ]  [PyCon 2010: The Mighty Dictionary(video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+		- [ ]  [PyCon 2017: The Dictionary Even Mightier(video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
 		- [ ]  [(上級)Randomization：ユニバーサル＆完全 ハッシング(ビデオ)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
 		- [ ]  [(高度)完全ハッシング(動画)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+		- [ ]  [[Review] Hash tables in 4 minutes (video)](https://www.youtube.com/watch?v=knV86FlSXJ8)
 
 	- [ ] オンラインコース：
 		- [ ]  [ハッシュ関数について(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
@@ -622,19 +628,18 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- 操作アルゴリズム
 	- BFS(幅優先検索)
 		- [MIT(動画)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-		- レベルオーダー(BFS、キューを使用)
-            時間複雑度：O(n)
-            空間の複雑さ：最適：O(1)、最悪：O(n / 2)= O(n)
+		- メモ：
+			- レベルオーダー(BFS、キューを使用)
+			- 時間複雑度：O(n)
+			- 空間の複雑さ：最適：O(1)、最悪：O(n / 2)= O(n)
 	- DFS(深さ優先探索)
 		- [MIT(動画)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-        - メモ：
-            時間複雑度：O(n)
-            空間の複雑さ：
-                最良：O(log n) - 平均。木の高さ
-                最悪：O(n)
-		- inorder(DFS：left、self、right)
-		- postorder(DFS：left、right、self)
-		- preorder(DFS：自己、左、右)
+		- メモ：
+			- 時間複雑度：O(n)
+			- 空間の複雑さ：最良：O(log n) - 平均。木の高さ 最悪：O(n)
+			- inorder(DFS：left、self、right)
+			- postorder(DFS：left、right、self)
+			- preorder(DFS：自己、左、右)
 
 - ### 二分探索木：BST
 	- [ ]  [二分探索木レビュー(動画)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -690,7 +695,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  is_empty() - ヒープに要素が含まれていない場合はtrueを返します。
 		- [ ]  extract_max - 最大アイテムを返し、それを削除します。
 		- [ ]  sift_down - extract_maxに必要です
-		- [ ]  remove(i) - インデックスxのアイテムを削除する
+		- [ ]  remove(x) - インデックスxのアイテムを削除する
 		- [ ]  heapify - heap_sortに必要な要素の配列からヒープを作成する
 		- [ ]  heap_sort() - ソートされていない配列を取り出し、最大ヒープを使用してソート済みの配列に変換します
 			- 注意：代わりにminヒープを使用すると、操作が節約されますが、必要な領域が2倍になります([in-place](https://ja.wikipedia.org/wiki/In-place%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)では実行できません)。
@@ -755,7 +760,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 グラフはコンピュータサイエンスの多くの問題を表現するために使用することができるので、このセクションは木やソートのように長いです。
 
-- note：
+- メモ：
 	- メモリにグラフを表示するには4つの基本的な方法があります：
 		- オブジェクトとポインタ
 		- 隣接行列
@@ -823,6 +828,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [テール再帰(ビデオ)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### 動的プログラミング
+	- 面接で動的プログラミングの問題が見られることはおそらくないでしょうが、問題が動的プログラミングの候補であると認識できることは価値があります。
 	- この問題はかなり難しいかもしれません。なぜなら、それぞれのDP可溶性問題は再帰関係として定義されなければならず、それを思い付くのは難しいかもしれないからです。
 	- DPの問題の多くの例を見て、あなたが関連するパターンをしっかりと理解するまでお勧めします。
 	- [ ] 動画：

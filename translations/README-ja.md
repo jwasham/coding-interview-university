@@ -4,7 +4,8 @@
 >今日それは大きなリストに成長しました。この勉強の計画を経て、[私はAmazonで
 > ソフトウェアエンジニアとして雇われました！！](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 >おそらく、あなたは私ほど勉強する必要はないでしょう。とにかく、必要なものはすべてここにあります。
->
+> 私は数ヶ月間、1日約8〜12時間勉強しました。これが私のストーリーです: [Google の面接のために8か月間フルタイムで勉強した理由](https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+>注意してください: あなたは私ほど勉強する必要はありません。私は、知る必要のないことに多くの時間を無駄にしました。詳細については、以下をご覧ください。貴重な時間を無駄にすることなく、必要なことを勉強するのを手伝います。
 >ここに掲載されている項目を学べば、Amazon、Facebook、Google、Microsoftなど
 >大手企業を含む、ほぼすべてのソフトウェア会社の面接に備えることができます。
 >

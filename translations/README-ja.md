@@ -1,7 +1,7 @@
 # コーディング面接の大学
 
 >私はもともとこれをソフトウェアエンジニアになるための短いトピックリストとして作成しましたが、
->今日それは大きなリストに成長しました。この勉強の計画を経て、[私はAmazonで
+>今日それは大きなリストに成長しました。この学習計画を経て、[私はAmazonで
 > ソフトウェアエンジニアとして雇われました！！](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 >おそらく、あなたは私ほど勉強する必要はないでしょう。とにかく、必要なものはすべてここにあります。
 > 私は数ヶ月間、1日約8〜12時間勉強しました。これが私のストーリーです: [Google の面接のために8か月間フルタイムで勉強した理由](https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)

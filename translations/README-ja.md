@@ -934,6 +934,13 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [JupyterNotebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
 	- あなたが持っているなら、CLRSの1048 - 1140ページ。
 
+- ### コンピューターはどのようにプログラムを実行するか
+    - [ ] [CPU がどのようにプログラムを実行するか (動画)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] [コンピューターがどのように計算するか - ALU (動画)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [レジスタと RAM (動画)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [中央処理装置 (CPU) (動画)](https://youtu.be/FZGugFqdr60)
+    - [ ] [命令とプログラム (動画)](https://youtu.be/zltgXvg6r3k)
+
 - ### キャッシュ
 	- [ ]  LRUキャッシュ：
 		- [ ]  [LRUキャッシュの魔法(Google Devの100日間)(ビデオ)](https://www.youtube.com/watch?v=R5ON3iwx78M)
@@ -1358,12 +1365,13 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - 何をしているの？
 - それについて何が好きですか？
 - 仕事の生活はどうですか？
+- ワークライフバランスはどうですか？
 
 ## 一度あなたは仕事を得た
 
 おめでとう!
 
-学び続けます。
+学び続けてください。
 
 あなたは決して本当に終わらない。
 

@@ -667,54 +667,56 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - ইমপ্লিমেন্টের প্রয়োজন নাই।
  
--###স্ট্যাক
-   -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-   - ] বাস্তবায়ন করবে না। অ্যারের সাথে প্রয়োগ করা তুচ্ছ।
+- ### স্ট্যাক
+    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+    - [ ] Will not implement. Implementing with array is trivial
+
+- ### কিউ
+    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
+    - [ ] Implement using linked-list, with tail pointer:
+        - enqueue(value) - adds value at position at tail
+        - dequeue() - returns value and removes least recently added element (front)
+        - empty()
+    - [ ] Implement using fixed-sized array:
+        - enqueue(value) - adds item at end of available storage
+        - dequeue() - returns value and removes least recently added element
+        - empty()
+        - full()
+    - [ ] Cost:
+        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
+            because you'd need the next to last element, causing a full traversal each dequeue
+        - enqueue: O(1) (amortized, linked list and array [probing])
+        - dequeue: O(1) (linked list and array)
+        - empty: O(1) (linked list and array)
  
--###কিউ
-   -  [সারি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/queues-EShpq)
-   -  [বিজ্ঞপ্তি বাফার / ফিফো] (https://en.wikedia.org/wiki/Circular_buffer)
-   -  লেজ পয়েন্টার সহ লিঙ্কযুক্ত-তালিকা ব্যবহার করে প্রয়োগ করুন:
-       -এনকুই (মান)-লেজের স্থানে মান যোগ করে
-       -ডেকিউ ()-মান ফেরত দেয় এবং সর্বশেষে যুক্ত হওয়া উপাদান (সামনে) সরিয়ে দেয়
-       -খালি ()
-   -  স্থির আকারের অ্যারে ব্যবহার করে প্রয়োগ করুন:
-       -এনকুই (মান)-উপলব্ধ স্টোরেজ শেষে আইটেম যুক্ত করে
-       -ডেকিউ ()-মান প্রদান করে এবং সম্প্রতি যুক্ত হওয়া উপাদানকে সরিয়ে দেয়
-       -খালি ()
-       -সম্পূর্ণ()
-   -  খরচ:
-       -লিঙ্কযুক্ত তালিকার সাহায্যে একটি খারাপ বাস্তবায়ন যেখানে আপনি মাথার দিকে tailুকিয়ে রাখুন এবং লেজটিতে শেরোনামটি হবে O (n)
-            কারণ আপনার শেষ উপাদানটির পরেরটি দরকার, প্রতিটি ডেকিউকে পুরো ট্র্যাভারসাল সৃষ্টি করে
-       -এনকুই: ও (1) (সূচিত, লিঙ্কযুক্ত তালিকা এবং অ্যারে [প্রোবিং])
-       -প্রামাণ্য: ও (1) (লিঙ্কযুক্ত তালিকা এবং অ্যারে)
-       -খালি: O (1) (লিঙ্কযুক্ত তালিকা এবং অ্যারে)
- 
--###হ্যাশ টেবিল
-   -  ভিডিওগুলি:
-       -  [চেইনিংয়ের সাথে হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-       -  [সারণী দ্বিগুণ, কার্প-রবিন (ভিডিও)] (https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-       -  [ঠিকানা খুলুন, ক্রিপ্টোগ্রাফিক হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-       -  [পাইকন ২০১০: দ্য মাইটি ডিকশনারী (ভিডিও)] (https://www.youtube.com/watch?v=C4Kc8xzcA68)
-       -  [(উন্নত) র্যান্ডমাইজেশন: ইউনিভার্সাল এবং পারফেক্ট হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-       -  [(উন্নত) পারফেক্ট হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEWKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
- 
-   -  অনলাইন কোর্স:
-       -  [কোর হ্যাশ টেবিল (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-       -  [ডেটা স্ট্রাকচার (ভিডিও)] (https://www.coursera.org/learn/data-structures/home/week/3)
-       -  [ফোন বুক সমস্যা (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / NYZZP/ iPhone-book-সমস্যা)
-       -  হ্যাশ টেবিল বিতরণ:
-           -[ড্রপবক্সে তাত্ক্ষণিক আপলোড এবং স্টোরেজ অপ্টিমাইজেশন (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-stores-optimization-in-rodbox)
-           -[বিতরণ করা হ্যাশ টেবিলগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributes-hash-tables)
- 
-   -  লিনিয়ার প্রোব ব্যবহার করে অ্যারে প্রয়োগ করুন
-       -হ্যাশ (কে, মি)-মি হ্যাশ টেবিলের আকার
-       -যোগ করুন (কী, মান)-কীটি ইতিমধ্যে উপস্থিত থাকলে মান আপডেট করুন
-       -বিদ্যমান (কী)
-       -পান (কী)
-       -সরান (কী)
- 
-</details>
+- ### হ্যাশ টেবিল
+    - [ ] ভিডিওঃ
+        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
+        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
+
+    - [ ] অনলাইন কোর্সঃ 
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
+        - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] distributed hash tables:
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+
+    - [ ] Implement with array using linear probing
+        - hash(k, m) - m is size of hash table
+        - add(key, value) - if key already exists, update value
+        - exists(key)
+        - get(key)
+        - remove(key)
  
 ##আরও জ্ঞান
  

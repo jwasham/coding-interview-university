@@ -319,7 +319,7 @@ When I did the study plan, I used 2 languages for most of it: C and Python
     and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
     but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+    - [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.

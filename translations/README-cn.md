@@ -13,24 +13,6 @@
     <p>
         <a href="https://github.com/sponsors/jwasham"><strong>成为赞助商</strong> 并支持编程大学！</a>
     </p>
-    <p>
-        <strong>特别感谢:</strong>
-    </p>
-    <div>
-        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
-            </div>
-            <div>
-                <p>
-                    <strong>算法秘籍，模版刷题效率翻倍，上岸大厂必备</strong>
-                </p>
-            </div>
-            <div>
-                <sup>谷歌工程师们浓缩多年刷题经验，呕心沥血总结出的最强算法题型详解，提炼精华模版，由浅入深，简单易懂，举一反三。助你一扫刷题烦恼，一览众山小，高处不胜寒。早日上岸，圆梦大厂。</sup>
-            </div>
-        </a>
-    </div>
     <hr />
 </div>
 

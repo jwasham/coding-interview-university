@@ -17,27 +17,6 @@ Asl versiyasi: [Inglizcha](../README.md)
     <p>
         <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
     </p>
-    <p>
-        <strong>Special thanks to:</strong>
-    </p>
-    <div>
-        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
-            </div>
-            <div>
-                <p>
-                    <strong>Master the technical interview without endless grinding.</strong>
-                </p>
-            </div>
-            <div>
-                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
-                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
-                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
-                as you walk into that interview!</sup>
-            </div>
-        </a>
-    </div>
     <hr />
 </div>
 

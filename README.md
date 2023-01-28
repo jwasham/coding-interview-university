@@ -1240,8 +1240,6 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - Prep Courses:
-    - [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
     - [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
         - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
     - [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
@@ -1250,6 +1248,8 @@ Graphs can be used to represent many problems in computer science, so this secti
         - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
     - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
         - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
+    - [AlgoMonster (paid course with free content)](https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github):
+      - The crash course for LeetCode. Covers all the patterns condensed from thousands of questions.
 
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview

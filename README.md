@@ -1214,17 +1214,11 @@ Graphs can be used to represent many problems in computer science, so this secti
 ## Update Your Resume
 
 - See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
-- I don't know how important this is (you can do your own research) but here is an article on making your resume ATS Compliant:
-    - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
 - ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
     - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
 - ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
-
-
-## Find a Job
-
-- [Sites for Finding Jobs](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
+    - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
 
 ## Interview Process & General Interview Prep
 
@@ -1273,9 +1267,6 @@ Have a story, not just data, about something you accomplished.
 - What was the hardest bug you faced at [job x / project y]?
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
-
-- If you find it hard to come up with good answers of these types of interview questions, here are some ideas: 
-    - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
 
 ## Have questions for the interviewer
 
@@ -1864,7 +1855,7 @@ You're never really done.
     - Stanford lectures on sorting:
         - [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
         - [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
-    - Shai Simonson, [Aduni.org](http://www.aduni.org/):
+    - Shai Simonson:
         - [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
         - [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
     - Steven Skiena lectures on sorting:

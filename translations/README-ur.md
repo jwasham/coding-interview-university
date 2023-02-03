@@ -47,144 +47,141 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>کفیل بنیں</strong> اور کوڈنگ انٹرویو یونیورسٹی کی مدد کریں!</a>
     </p>
     <hr />
 </div>
 
-## What is it?
+## یہ کیا ہے؟
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+یہ ایک بڑی کمپنی کے لیے ایک ویب ڈویلپر (خود سیکھا ہوا، بغیر CS ڈگری کے) سے سافٹ ویئر انجینئر تک جانے کے لیے کئی مہینوں کا میرا اسٹڈی پلان ہے۔
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+یہ **نئے سافٹ ویئر انجینئرز** یا سافٹ ویئر/ویب ڈویلپمنٹ سے سافٹ ویئر انجینئرنگ میں تبدیل ہونے والوں کے لیے ہے (جہاں کمپیوٹر سائنس کا علم درکار ہے)۔ اگر آپ کے پاس کئی سالوں کا تجربہ ہے اور آپ سافٹ ویئر انجینئرنگ کے کئی سالوں کے تجربے کا دعویٰ کر رہے ہیں تو ایک مشکل انٹرویو کی توقع کریں۔
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+اگر آپ کے پاس سافٹ ویئر/ویب ڈویلپمنٹ کا کئی سال کا تجربہ ہے، تو نوٹ کریں کہ بڑی سافٹ ویئر کمپنیاں جیسے گوگل، ایمیزون، فیس بک اور مائیکروسافٹ سافٹ ویئر انجینئرنگ کو سافٹ ویئر/ویب ڈویلپمنٹ سے مختلف سمجھتے ہیں، اور انہیں کمپیوٹر سائنس کے علم کی ضرورت ہوتی ہے۔
 
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+اگر آپ ریلائیبلٹی انجینئر یا آپریشنز انجینئر بننا چاہتے ہیں تو اختیاری فہرست (نیٹ ورکنگ، سیکیورٹی) سے مزید مطالعہ کریں۔
 
 ---
 
-## Table of Contents
+## مواد کی فہرست
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
-    - [Endianness](#endianness)
-    - [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [یہ کیا ہے؟](#what-is-it)
+- [اسے کیوں استعمال کریں؟](#why-use-it)
+- [اسے کیسے استعمال کریں](#how-to-use-it)
+- [اپنے آپ کو کم نہ سمجھیں](#dont-feel-you-arent-smart-enough)
+- [ویڈیو مواد کے بارے میں](#about-video-resources)
+- [انٹرویو کا عمل اور عام انٹرویو کی تیاری](#interview-process--general-interview-prep)
+- [انٹرویو کے لیے ایک زبان کا انتخاب کریں۔](#pick-one-language-for-the-interview)
+- [کتابوں کی فہرست](#book-list)
+- [شروع کرنے سے پہلے](#before-you-get-started)
+- [جو آپ نہیں سیکھیں گے۔](#what-you-wont-see-covered)
+- [پہلے سے ضروری علم](#prerequisite-knowledge)
+- [روزانہ کی منصوبہ بندی](#the-daily-plan)
+- [الگورتھمک پیچیدگی / بگ-او / اسیمپٹوٹک تجزیہ(Algorithmic complexity / Big-O / Asymptotic analysis)](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [ڈیٹا سٹرکچرز(Data Structures)](#data-structures)
+    - [آرے (Arrays)](#arrays)
+    - [لنکڈلسٹ (Linked Lists)](#linked-lists)
+    - [سٹیک (Stack)](#stack)
+    - [کیو (Queue)](#queue)
+    - [ہیش ٹیبل (Hash table)](#hash-table)
+- [مزید معلومات](#more-knowledge)
+    - [بینری سرچ (Binary search)](#binary-search)
+    - [بٹ وائزاپریشنز (Bitwise operations)](#bitwise-operations)
+- [ٹریز (Trees)](#trees)
+    - [ٹریز - نوٹس اور پس منظر](#trees---notes--background)
+    - [بینری سرچ ٹریز (Binary search trees: BSTs)](#binary-search-trees-bsts)
+    - [ہیپ / پریاٹری کیو / بینری ہیپ (Heap / Priority Queue / Binary Heap)](#heap--priority-queue--binary-heap)
+    - بیلنسڈ سرچ ٹریز - عمومی جائزہ (balanced search trees - general concept, not details)
+    - ٹریورسل (traversals: preorder, inorder, postorder, BFS, DFS)
+- [ترتیب / سارٹنگ (Sorting)](#sorting)
+    - سلیکشن (selection)
+    - انسرشن (insertion)
+    - ہیپ سارٹ (heapsort)
+    - کوک سارٹ (quicksort)
+    - مرج سارٹ (merge sort)
+- [گرافس (Graphs)](#graphs)
+    - ڈریکٹڈ (directed)
+    - انڈریکٹڈ (undirected)
+    - اڈجیسنسی میٹرکس (adjacency matrix)
+    - اڈجیسنسی لسٹ (adjacency list)
+    - ٹریورسل (traversals: BFS, DFS)
+- [اس سے بھی زیادہ معلومات](#even-more-knowledge)
+    - [رکرین / تکرار (Recursion)](#recursion)
+    - [ڈینیمک پروگرامنگ](#dynamic-programming)
+    - [ابجیکٹ پروگرامنگ](#object-oriented-programming)
+    - [ڈیزائن پیٹرن](#design-patterns)
+    - [امتزاج (n منتخب k) اور امکان](#combinatorics-n-choose-k--probability)
+    - [تخمینہ الگورتھم ،NPاورNP-مکمل (NP, NP-Complete and Approximation Algorithms)](#np-np-complete-and-approximation-algorithms)
+    - [کیچز](#caches)
+    - [پروسسزاور تھریڈز](#processes-and-threads)
+    - [ٹیسٹنگ](#testing)
+    - [شیڈولنگ](#scheduling)
+    - [سٹرنگ تلاش کرنا اور تبدیل کرنا](#string-searching--manipulations)
+    - [ٹرایز (Tries)](#tries)
+    - [اعشاریہ کے ساتھ نمبر](#floating-point-numbers)
+    - [یونیکوڈ](#unicode)
+    - [اینڈیاننس](#endianness)
+    - [نیٹ ورکنگ](#networking)
+- [سسٹم ڈیزائن، اسکیل ایبلٹی، ڈیٹا ہینڈلنگ](#system-design-scalability-data-handling) (اگر آپ کو 4 سال سے زیادہ کا تجربہ ہے۔)
+- [حتمی جائزہ](#final-review)
+- [کوڈنگ سوال کی مشق](#coding-question-practice)
+- [کوڈنگ کی مشقیں/چیلنجز](#coding-exerciseschallenges)
+- [ایک بار جب آپ انٹرویو کے قریب پہنچ جائیں۔](#once-youre-closer-to-the-interview)
+- [آپ کا رزیومے](#your-resume)
+- [اپنے انٹرویو لینے والے کی طرح سوچیں۔](#be-thinking-of-for-when-the-interview-comes)
+- [انٹرویو لینے والے کے لیے سوالات](#have-questions-for-the-interviewer)
+- [ایک بار جب آپ کو نوکری مل جائے گی۔](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+---------------- ذیل کی چیزیں اختیاری ہیں ----------------
 
-## Additional Resources
+## اضافی مواد
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
-    - [Parity & Hamming Code](#parity--hamming-code-videos)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
-    - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
-    - [Treap](#treap)
-    - [Linear Programming](#linear-programming-videos)
-    - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
-- [Papers](#papers)
+- [اضافی کتابیں](#additional-books)
+- [اضافی معلومات](#additional-learning)
+    - [کمپائلر](#compilers)
+    - [ایماکس اور vi(m)](#emacs-and-vim)
+    - [یونکس کمانڈ لائن ٹولز](#unix-command-line-tools)
+    - [انفارمیشن تھیوری](#information-theory-videos)
+    - [پیرٹی اور ہیمنگ کوڈ](#parity--hamming-code-videos)
+    - [اینٹروپی](#entropy)
+    - [خفیہ نگاری (Cryptography)](#cryptography)
+    - [کمپریشن](#compression)
+    - [کمپیوٹر سیکیورٹی](#computer-security)
+    - [گاربیج کلیکشن](#garbage-collection)
+    - [پیرالل پروگرامنگ](#parallel-programming)
+    - [پیغام رسانی، سیریلائزیشن، اور قطار لگانے کے نظام (Messaging, Serialization, and Queueing Systems)](#messaging-serialization-and-queueing-systems)
+    - [اے سٹار (A*)](#a)
+    - [فاسٹ فوئیر ٹرانسفارم](#fast-fourier-transform)
+    - [بلوم فلٹر](#bloom-filter)
+    - [ہائپر لاگ لاگ](#hyperloglog)
+    - [لوکلٹی سنسٹیو ہیشنگ](#locality-sensitive-hashing)
+    - [وین ایمڈ بوس ٹریز](#van-emde-boas-trees)
+    - [اگیومینٹڈ ڈیٹا سٹرکچر](#augmented-data-structures)
+    - [بیلنسڈ سرچ ٹریز](#balanced-search-trees)
+        - اے وی ایل ٹریز
+        - سپلے ٹریز
+        - رڈ/بلیک ٹریز
+        - ۳-۲ سرچ ٹریز
+        - ۴-۳-۲ سرچ ٹریز(۲-۴ ٹریز)
+        - این-ارے(کے-ارے،ایم-ارے) ٹریز (N-ary (K-ary, M-ary) trees)
+        - بی - ٹریز
+    - [کے-ڈی ٹریز](#k-d-trees)
+    - [سکپ لسٹ](#skip-lists)
+    - [نیٹ ورک فلو](#network-flows)
+    - [منقطع سیٹ اور یونین تلاش کریں](#disjoint-sets--union-find)
+    - [فاسٹ پروسیسنگ کے لیے حساب](#math-for-fast-processing)
+    - [ٹریپ](#treap)
+    - [لینیرپروگرامنگ](#linear-programming-videos)
+    - [جیومیٹری، کنویکس ہل](#geometry-convex-hull-videos)
+    - [مجرد ریاضی](#discrete-math)
+    - [مشین لرننگ](#machine-learning)
+- [کچھ مضامین پر اضافی تفصیل](#additional-detail-on-some-subjects)
+- [ویڈیو سیریز](#video-series)
+- [کمپیوٹر سائنس کورسز](#computer-science-courses)
+- [پیپرز](#papers)
 
 ---
 

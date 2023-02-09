@@ -442,6 +442,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 ## Struktur Data
 
@@ -483,6 +484,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [Kode C (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - bukan keseluruhan video, hanya bagian tentang struct Node dan alokasi memori
     - [ ] Linked List vs Array:
@@ -514,12 +516,14 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 - ### Stack
     - [ ] [Stack (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Tidak akan diterapkan. Implementasi dengan array itu sepele
 
 - ### Queue
     - Queue (Antrean)
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implementasikan menggunakan linked-list, dengan tail pointer:
         - enqueue(value) - menambah nilai pada posisi di ekor
         - dequeue() - mengembalikan nilai dan menghapus elemen yang paling baru ditambahkan (depan)
@@ -545,6 +549,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Lanjutan) Pengacakan: Universal & Hashing Sempurna (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Lanjutan) Hash sempurna (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Kursus Online:
         - [ ] [Tabel Hash Inti (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
@@ -567,6 +572,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [Pencarian Biner (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Pencarian Biner (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Implementkan:
         - pencarian biner (pada susunan bilangan bulat yang diurutkan)
         - pencarian biner menggunakan rekursi
@@ -620,6 +626,9 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
             - dalam urutan (DFS: kiri, sendiri/self, kanan)
             - pasca urutan (DFS: kiri, kanan, sendiri/self)
             - pra urutan (DFS: sendiri/self, kiri, kanan)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Binary search trees: BSTs
     - [ ] [Ulasan Binary Search Tree (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -670,6 +679,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [MIT: Heaps dan Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Kuliah 24: Antrian Prioritas (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] Menerapkan sebuah max-heap:
         - [ ] insert
         - [ ] sift_up - digunakan untuk memasukkan
@@ -734,6 +744,14 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [Implementasi (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementasi (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+
 - [ ] Implementasi:
     - [ ] Mergesort: O(n log n) rata-rata dan kasus terburuk
     - [ ] Quicksort: O(n log n) kasus rata-rata
@@ -797,6 +815,8 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - [ ] [CS 61B 2014: Graphs berbobot (video)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Algoritma Serakah: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Komponen yang Sangat Terhubung Algoritma Graphs Algoritma Kosaraju (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - Kursus Coursera Penuh:
     - [ ] [Algoritma pada Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -1180,7 +1200,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
 
 - [ ] Seri video subjek pendek berdurasi 2-3 menit (23 video)
     - [Video](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Seri video subjek pendek berdurasi 2-5 menit - Michael Sambol (38 video):
+- [ ] Seri video subjek pendek berdurasi 2-5 menit - Michael Sambol (40 video):
     - [Video](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Video Sedgewick - Algoritma I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Video Sedgewick - Algoritma II](https://www.coursera.org/learn/algorithms-part2)
@@ -1605,6 +1625,7 @@ Anda tidak pernah benar-benar selesai.
         - [Aduni - Algoritma - Kuliah 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [Pengantar Pencarian Biner Dan Red-Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3 search trees**
         - Dalam praktek:
@@ -1644,6 +1665,7 @@ Anda tidak pernah benar-benar selesai.
         - [MIT 6.851 - Model Hirarki Memori (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D Trees

@@ -648,11 +648,13 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
  
 -###স্ট্যাক
    -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
    - ] বাস্তবায়ন করবে না। অ্যারের সাথে প্রয়োগ করা তুচ্ছ।
  
 -###কিউ
    -  [সারি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/queues-EShpq)
    -  [বিজ্ঞপ্তি বাফার / ফিফো] (https://en.wikedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
    -  লেজ পয়েন্টার সহ লিঙ্কযুক্ত-তালিকা ব্যবহার করে প্রয়োগ করুন:
        -এনকুই (মান)-লেজের স্থানে মান যোগ করে
        -ডেকিউ ()-মান ফেরত দেয় এবং সর্বশেষে যুক্ত হওয়া উপাদান (সামনে) সরিয়ে দেয়
@@ -677,6 +679,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
        -  [পাইকন ২০১০: দ্য মাইটি ডিকশনারী (ভিডিও)] (https://www.youtube.com/watch?v=C4Kc8xzcA68)
        -  [(উন্নত) র্যান্ডমাইজেশন: ইউনিভার্সাল এবং পারফেক্ট হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
        -  [(উন্নত) পারফেক্ট হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEWKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
  
    -  অনলাইন কোর্স:
        -  [কোর হ্যাশ টেবিল (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
@@ -704,6 +707,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
    -  [বাইনারি অনুসন্ধান (ভিডিও)] (https://www.youtube.com/watch?v=D5SrAga1pno)
    -  [বাইনারি সন্ধান (ভিডিও)] (https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
    -  [বিস্তারিত] (https://www.topcoder.com/commune/competitive-programming/tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
    -  বাস্তবায়ন:
        -বাইনারি অনুসন্ধান (পূর্ণসংখ্যার সাজানো অ্যারেতে)
        -পুনরাবৃত্তি ব্যবহার করে বাইনারি অনুসন্ধান
@@ -760,7 +764,10 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
            -অর্ডার (ডিএফএস: বাম, স্ব, ডান)
            -পোস্টর্ডার (ডিএফএস: বাম, ডান, স্ব)
            -প্রির্ডার (ডিএফএস: স্ব, বাম, ডান)
- 
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
+
 -###বাইনারি অনুসন্ধান গাছ: বিএসটি
    -  [বাইনারি অনুসন্ধান বৃক্ষ পর্যালোচনা (ভিডিও)] (https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
    -  [সিরিজ (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-intr پيداوار-to-binary-search-trees)
@@ -807,6 +814,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
    -  [এমআইটি: হিপস এবং হিপ সাজান (ভিডিও)] (https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
    -  [সিএস 61 বি লেকচার 24: অগ্রাধিকার ক্যু (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
    -  [লিনিয়ার টাইম বিল্ডহীপ (সর্বাধিক হিপ)] (https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
    -  একটি সর্বোচ্চ গাদা প্রয়োগ করুন:
        -  sertোকান
        -  সিফ্ট_আপ-.োকানোর জন্য প্রয়োজনীয়
@@ -876,7 +884,15 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
    -  [বাস্তবায়ন (সি)] (http://www.cs.yale.edu/homes/aspnes/class/223/exults/randomization/quick.c)
    -  [বাস্তবায়ন (সি)] (https://github.com/jwasham/pੈਕਟ-c/blob/master/quick_sort/quick_sort.c)
    -  [বাস্তবায়ন (পাইথন)] (https://github.com/jwasham/pੈਕਟ-python/blob/master/quick_sort/quick_sort.py)
- 
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+
 -  বাস্তবায়ন:
    -  মার্জোর্ট: ও (এন লগ এন) গড় এবং সবচেয়ে খারাপ অবস্থা case
    -  কুইকসোর্ট ও (এন লগ এন) গড় কেস
@@ -945,6 +961,8 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
    -  [সিএস 61 বি 2014: ওজনযুক্ত গ্রাফ (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
    -  [লোভী অ্যালগরিদম: ন্যূনতম বিস্তৃত গাছ (ভিডিও)] (https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
    -  [দৃr়ভাবে সংযুক্ত উপাদানগুলি কোসারাজুর অ্যালগোরিদম গ্রাফ আলগোরিদিম (ভিডিও)] (https://www.youtube.com/watch?v=RpgcYiky7uw)
+   - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+   - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
  
 -সম্পূর্ণ কোর্সেরা কোর্স:
    -  [গ্রাফগুলিতে অ্যালগরিদমগুলি (ভিডিও)] (https://www.coursera.org/learn/algorithms-on-অনুচ্ছেদ / হোম / উপস্ব)
@@ -1368,7 +1386,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
  
 -  শর্ট সাবজেক্টের ২-৩ মিনিটের সিরিজ (২৩ টি ভিডিও)
    -[ভিডিও] (https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল (18 টি ভিডিও):
+-  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (40 টি ভিডিও):
    -[ভিডিও] (https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 -  [সেজেজউইক ভিডিও-অ্যালগোরিদম আই] (https://www.coursera.org/learn/algorithms-part1)
 -  [সেজেজিক ভিডিও-দ্বিতীয় অ্যালগোরিদম] (https://www.coursera.org/learn/algorithms-part2)
@@ -1797,6 +1815,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
        -  [আদুনি-অ্যালগরিদম-লেকচার 5 (ভিডিও)] (https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
        -  [লাল-কালো বৃক্ষ] (https://en.wikedia.org/wiki/Red%E2%80%93 ব্ল্যাক_ট্রি)
        -  [বাইনারি অনুসন্ধান এবং লাল কালো গাছের পরিচিতি] (https://www.topcoder.com/commune/competitive-pogramming/tutorials/an-intr Produc-to-binary-search-and-red-black-trees /)
+       - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
  
    -  ** ২-৩ টি অনুসন্ধান গাছ **
        -প্রস্তুতিতে:
@@ -1837,6 +1856,7 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
        -  [এমআইটি 85.৮৫১-মেমরি হায়ারার্কি মডেলগুলি (ভিডিও)] (https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                -ক্যাশে-বিস্মৃত বি-গাছগুলি কভার করে, খুব আকর্ষণীয় ডেটা স্ট্রাকচার
                -প্রথম 37 মিনিট খুব প্রযুক্তিগত, এড়িয়ে যেতে পারে (বি ব্লকের আকার, ক্যাশে লাইনের আকার)
+       - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
  
  
 -###কেডি গাছ

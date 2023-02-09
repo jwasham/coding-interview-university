@@ -450,6 +450,7 @@
     - [计算性复杂度：第一部](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [计算性复杂度：第二部](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [速查表（Cheat sheet）](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 ## 数据结构
 
@@ -491,6 +492,7 @@
         - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（一）（视频）](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B —— 链表（二）（视频）](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo) ── 并非看完整个视频，只需要看关于节点结构和内存分配那一部分即可
     - [ ] 链表 vs 数组：
         - [基本链表 Vs 数组（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
@@ -519,11 +521,13 @@
 
 - ### 堆栈（Stack）
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
 - ### 队列（Queue）
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] 使用含有尾部指针的链表来实现:
         - enqueue(value) —— 在尾部添加值
         - dequeue() —— 删除最早添加的元素并返回其值（首部元素）
@@ -547,6 +551,7 @@
         - [ ] [PyCon 2010：The Mighty Dictionary（视频）](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [（进阶）随机取样（Randomization）：全域哈希（Universal Hashing）& 完美哈希（Perfect Hashing）（视频）](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] 在线课程：
         - [ ] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
@@ -569,6 +574,7 @@
     - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] 实现：
         - 二分查找（在一个已排序好的整型数组中查找）
         - 迭代式二分查找
@@ -622,6 +628,9 @@
             - 中序遍历（DFS：左、节点本身、右）
             - 后序遍历（DFS：左、右、节点本身）
             - 先序遍历（DFS：节点本身、左、右）
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### 二叉查找树（Binary search trees）：BSTs
     - [ ] [二叉查找树概览（视频）](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -669,6 +678,7 @@
     - [ ] [MIT：堆与堆排序（视频）](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24：优先级队列（视频）](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [构建线性时间复杂度的堆（大顶堆）](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] 实现一个大顶堆：
         - [ ] insert
         - [ ] sift_up —— 用于插入元素
@@ -723,6 +733,14 @@
     - [ ] [实现（C语言）](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [实现（C语言）](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [实现（Python语言）](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] 实现:
     - [ ] 归并：平均和最差情况的时间复杂度为 O(n log n)。
@@ -786,6 +804,8 @@
     - [ ] [CS 61B 2014: 加权图（视频）](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
     - [ ] [贪心算法: 最小生成树（视频）](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [图的算法之强连通分量 Kosaraju 算法（视频）](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - 完整的 Coursera 课程:
     - [ ] [图的算法（视频）](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -1172,7 +1192,7 @@
 
 - [ ] 2-3分钟的简短主题视频系列（23个视频）
     - [视频](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5分钟的简短主题视频系列──Michael Sambol (38个视频）：
+- [ ] 2-5分钟的简短主题视频系列──Michael Sambol (40个视频）：
     - [视频](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick 视频 ── 算法I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick 视频 ── 算法II](https://www.coursera.org/learn/algorithms-part2)
@@ -1586,6 +1606,7 @@
         - [Aduni —— 算法 —— 课程5（视频）](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [黑树（Black Tree）](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [二分查找及红黑树的介绍](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3查找树**
         - 实际中：2-3树的元素插入非常快速，但却有着查询慢的代价（因为相比较 AVL 树来说，其高度更高）。
@@ -1617,6 +1638,7 @@
         - [MIT 6.851 —— 内存层次模块（Memory Hierarchy Models）（视频）](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
             - 覆盖有高速缓存参数无关型（cache-oblivious）B 树和非常有趣的数据结构
             - 头37分钟讲述的很专业，或许可以跳过（B 指块的大小、即缓存行的大小）
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 - ### k-D树
     - 非常适合在矩形或更高维度的对象中查找点数

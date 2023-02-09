@@ -530,6 +530,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 
     Nếu một vài bài học quá chuyên sâu về toán, bạn có thể nhảy cóc tới các bài toán riêng lẻ để có kiến thức toàn diện hơn.
@@ -573,6 +574,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] Miêu tả:
         - [ ] [Singly Linked Lists - Danh sách liên kết (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists - Danh sách liên kết (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - Không cần xem toàn bộ video, chỉ phần cấu trúc Node và cấp phát vùng nhớ.
     - [ ] Danh sách liên kết so sánh với Mảng:
@@ -604,11 +606,13 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Sẽ không cài đặt. Cài đặt với mảng là điều hiển nhiên.
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Cài đặt sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
         - enqueue(value) - Thêm giá trị ở đuôi
         - dequeue() - Trả về giá trị của dữ liệu được thêm vào xa nhất (thông thường là dữ liệu đầu tiên trong danh sách)
@@ -632,6 +636,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
     - [ ] Các khóa học online:
         - [ ] [Core Hash Tables - Cơ bản về bảng băm (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures - Cấu trúc dữ liệu (video)](https://www.coursera.org/learn/data-structures/home/week/3)
@@ -652,6 +657,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] [Tìm kiếm nhị phân (Binary Search) - video](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Tìm kiếm nhị phân - Khan Academy (Binary Search) - video](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [giải thích chi tiết](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Cài đặt:
         - Tìm kiếm nhị phân (trên mảng số nguyên đã sắp xếp)
         - Tìm kiếm nhị phân sử dụng đệ quy
@@ -706,6 +712,9 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - theo thứ tự (inorder) - (DFS: left, self, right)
         - nhánh con trước (postorder) - (DFS: left, right, self)
         - nhánh con sau (preorder) - (DFS: self, left, right)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 
 - ### Cây tìm kiếm nhị phân
@@ -756,6 +765,7 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] [MIT: Heaps và Heap Sort - video](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues - video](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Xây dựng Heap với thời gian tuyến tính `O(n)`](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] Tự cài đặt max-heap:
         - [ ] `insert`
         - [ ] `sift_up` - cần thiết cho hàm `insert`.
@@ -802,6 +812,14 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] [C](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Cài đặt khác dùng C](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Python](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] Bài tập cài đặt:
     - [ ] Sắp xếp trộn: O(n log n) trường hợp trung bình và xấu nhất
@@ -859,6 +877,8 @@ Nếu bạn muốn biết thêm chi tiết trong chủ đề này, xem qua phầ
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - Khóa học đầy đủ về đồ thị trên Coursera:
     - [ ] [Các thuật toán trên đồ thị (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -1300,7 +1320,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 - [ ] Các video ngắn 2-3 phút (23 video)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Các video ngắn 2-5 phút - Michael Sambol (38 video)
+- [ ] Các video ngắn 2-5 phút - Michael Sambol (40 video)
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---
@@ -1645,6 +1665,7 @@ Bạn không bao giờ thực sự học xong!
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - [ ] **2-3 search trees**
         - Trong thực tế:
@@ -1679,6 +1700,7 @@ Bạn không bao giờ thực sự học xong!
         - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - giải thích cache mau quên (cache-oblivious) B-Trees, một cấu trúc dữ liệu rất thú vị.
                 - 37 phút đầu tiên rất nặng kỹ thuật, có thể bỏ qua
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D Trees

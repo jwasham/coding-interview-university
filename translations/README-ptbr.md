@@ -512,6 +512,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/) (Complexidade Computacional: Seção 1)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/) (Complexidade Computacional: Seção 2)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/) (Folha de Consultas)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 
     Se alguma das aulas forem muito "matemáticas", você pode pular para o final e 
@@ -557,6 +558,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists) (listas ligadas individualmente - vídeo)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7) (CS 61B - Listas Ligadas 1 - vídeo)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C) (CS 61B - Listas Ligadas 2 - vídeo)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) (Código em C - vídeo)
             - não o vídeo inteiro, apenas as partes sobre estrutura de nodes (nós) e alocação de memória.
     - [ ] Listas Ligadas vs Arrays:
@@ -588,11 +590,13 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Não implementarei. Implementar com array é trivial.
 
 - ### Queue (Fila)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) (Buffer circular/Primeiro a entrar, último a sair)
+    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) 
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)(Buffer circular/Primeiro a entrar, último a sair)
     - [ ] Implementar usando lista ligada, com ponteiro de cauda (aponta para o último elemento de uma lista):
         - enqueue(valor) - adiciona "valor" na posição na cauda (final da lista)
         - dequeue() - retorna um valor e remove o elemento menos recentemente adicionado (início da lista))
@@ -617,6 +621,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68) (PyCon 2010: O Poderoso Dicionário (vídeo)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11) ((Avançado) Randomização: Hashing Perfeito & Universal - vídeo)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4) ((Avançado) Hashing perfeito - vídeo)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Cursos Online:
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables) (Fundamentos de Tabelas Hash - vídeo)
@@ -639,6 +644,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno) (Busca Binária - vídeo)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search) (Busca Binária - vídeo)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) (detalhes)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Implementar:
         - busca binária (em um array ordenado de números inteiros)
         - busca binária usando recursividade
@@ -692,6 +698,9 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - em-ordem ou ordem simétrica(na busca em profundidade (ou DFS): percorre subárvore esquerda em ordem simétrica (em-ordem), visita a raiz, percorre subárvore direita em ordem simétrica)
         - pós-ordem (na busca em profundidade (ou DFS): percorre subárvore esquerda em pós-ordem, percorre subárvore direita em pós-ordem, visita a raiz)
         - pré-ordem (na busca em profundidade (ou DFS): visita a raiz, percorre subárvore esquerda em pré-ordem, percorre subárvore direita em pré-ordem)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Árvores binárias de busca: ABB
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) (Revisão de Árvores Binárias de Busca - vídeo)
@@ -739,6 +748,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (MIT: Memórias Dinâmias e heapsort - vídeo)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C) (CS (Ciência da Computação) 61B Aula 24: Filas Prioritárias - vídeo)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw) (BuildHeap em Tempo Linear (heap máxima))
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] Implementar uma heap máxima (max-heap):
         - [ ] insert
         - [ ] sift_up - necessário insert
@@ -784,6 +794,14 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c) (Implementação em C)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c) (Implementação em C)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py) (Implementação em Python)
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] Implementar:
     - [ ] Mergesort: O(n log n) caso comum e pior caso
@@ -844,6 +862,8 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19) (CS 61B 2014: Grafos Ponderados - vídeo)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Algoritmos Gulosos: Árvore de Extensão Mínima - vídeo)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw) (Componentes Fortemente Conectados, Algoritmo de Kosaraju, Algoritmo de Grafo - vídeo)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - Curso Completo do Coursera:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome) (Algoritmos em Grafos - vídeo)
@@ -1288,7 +1308,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 
 - [ ] Séries de vídeos curtos (2 - 3 minutos) sobre o assunto (23 vídeos)
     - [Vídeos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (38 vídeos):
+- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (40 vídeos):
     - [Vídeos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---
@@ -1659,6 +1679,7 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5) (Aduni - Algoritmos - Aula 5 - vídeo)
         - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree) (Árvore Rubro-Negra)
         - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/) (Uma Introdução a Busca Binária E Árvore Rubro-Negra)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - [ ] **Árvores de busca 2-3**
         - Ná prática:
@@ -1698,6 +1719,7 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) (MIT 6.851 - Modelos de Hierarquia de Memória - vídeo)
                 - cobre Árvores B de cache-alheio (do Inglês, cache-oblivious), estruturas de dados muito interessantes
                 - os primeiros 37 minutos são bem técnicos, pode ser pulado (B é tamanho de bloco, tamanho de linha de cache)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### Árvores k-D

@@ -579,6 +579,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [कम्प्यूटेशनल जटिलता: सेक्शन 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
     - [कम्प्यूटेशनल जटिलता: धारा 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [चीट शीट] (http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 खैर, बस इतना ही काफी है।
 
@@ -623,6 +624,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - [ ] [सिंगली लिंक्ड लिस्ट (वीडियो)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [सीएस 61बी - लिंक्ड सूचियां 1 (वीडियो)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [सीएस 61बी - लिंक्ड सूचियां 2 (वीडियो)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [सी कोड (वीडियो)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - संपूर्ण वीडियो नहीं, केवल नोड संरचना और स्मृति आवंटन के बारे में अंश
     - [] लिंक्ड लिस्ट बनाम एरेज़:
@@ -653,11 +655,13 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - No need to implement
 - ### ढेर
     - [ ] [स्टैक (वीडियो)](https://www.coursera.org/lecture/data-structs/stacks-UdKzQ)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] लागू नहीं होगा। सरणी के साथ कार्यान्वित करना तुच्छ है
 
 - ### कतार
     - [ ] [कतार (वीडियो)](https://www.coursera.org/lecture/data-structs/queues-EShpq)
     - [ ] [सर्कुलर बफर/फीफो](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [] टेल पॉइंटर के साथ लिंक्ड-लिस्ट का उपयोग करके लागू करें:
         - एनक्यू (मान) - पूंछ पर स्थिति पर मूल्य जोड़ता है
         - dequeue () - मान लौटाता है और कम से कम हाल ही में जोड़े गए तत्व (सामने) को हटाता है
@@ -683,6 +687,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - [ ] [पायकॉन 2017: द डिक्शनरी इवन माइटियर (वीडियो)](https://www.youtube.com/watch?v=66P5FMkWoVU)
         - [ ] [(उन्नत) रैंडमाइजेशन: यूनिवर्सल एंड परफेक्ट हैशिंग (वीडियो)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(उन्नत) परफेक्ट हैशिंग (वीडियो)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     
 - [ ] ऑनलाइन पाठ्यक्रम:
@@ -707,6 +712,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [ ] [बाइनरी सर्च (वीडियो)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [विस्तार] (https://www.topcoder.com/thrive/articles/Binary%20Search)
     - [ ] [खाका](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] अमल में लाना:
         - द्विआधारी खोज (पूर्णांक के क्रमबद्ध सरणी पर)
         - पुनरावर्तन का उपयोग कर द्विआधारी खोज
@@ -756,6 +762,9 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
             - क्रम में (डीएफएस: बाएं, स्वयं, दाएं)
             - पोस्टऑर्डर (डीएफएस: बाएं, दाएं, स्वयं)
             - प्रीऑर्डर (डीएफएस: स्वयं, बाएं, दाएं)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### बाइनरी सर्च ट्री: बीएसटी
     - [ ] [बाइनरी सर्च ट्री रिव्यू (वीडियो)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -801,6 +810,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [ ] [एमआईटी: हीप्स एंड हीप सॉर्ट (वीडियो)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [सीएस 61बी व्याख्यान 24: प्राथमिकता कतारें (वीडियो)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [रैखिक समय BuildHeap (अधिकतम-ढेर)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [] अधिकतम ढेर लागू करें:
         - [ ] डालना
         - [] sift_up - डालने के लिए आवश्यक
@@ -863,11 +873,20 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [ ] [कार्यान्वयन (सी)] (https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [कार्यान्वयन (पायथन)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+
 - [ ] अमल में लाना:
     - [] मर्जसॉर्ट: ओ (एन लॉग एन) औसत और सबसे खराब स्थिति
     - [] क्विकसॉर्ट ओ (एन लॉग एन) औसत मामला
     - चयन प्रकार और सम्मिलन प्रकार दोनों ओ (एन ^ 2) औसत और सबसे खराब स्थिति हैं
     - हीपसॉर्ट के लिए, ऊपर हीप डेटा संरचना देखें
+
  - [] आवश्यक नहीं है, लेकिन मैंने उनकी सिफारिश की:
     - [ ] [सेजविक - रेडिक्स सॉर्ट्स (6 वीडियो)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. जावा में स्ट्रिंग्स](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
@@ -924,6 +943,8 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [ ] [सीएस 61बी 2014: भारित ग्राफ (वीडियो)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [लालची एल्गोरिदम: न्यूनतम फैले हुए पेड़ (वीडियो)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [मजबूत रूप से जुड़े घटक कोसाराजू का एल्गोरिथम ग्राफ़ एल्गोरिथम (वीडियो)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - पूर्ण कौरसेरा कोर्स:
     - [ ] [ग्राफ़ पर एल्गोरिदम (वीडियो)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -1179,9 +1200,9 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     इस अनुभाग में छोटे वीडियो होंगे जिन्हें आप अधिकांश महत्वपूर्ण अवधारणाओं की समीक्षा करने के लिए बहुत तेज़ी से देख सकते हैं।
     यदि आप अक्सर एक पुनश्चर्या चाहते हैं तो यह अच्छा है।
 
-- [] 2-3 मिनट के लघु विषय वीडियो की श्रृंखला (23 वीडियो)
+- [ ] 2-3 मिनट के लघु विषय वीडियो की श्रृंखला (23 वीडियो)
     - [वीडियो](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 मिनट के लघु विषय वीडियो की श्रृंखला - माइकल साम्बोल (18 वीडियो):
+- [ ] 2-5 मिनट के लघु विषय वीडियो की श्रृंखला - Michael Sambol (40 वीडियो):
     - [वीडियो](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [सेजविक वीडियो - एल्गोरिदम I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [सेजविक वीडियो - एल्गोरिदम II](https://www.coursera.org/learn/algorithms-part2)
@@ -1670,6 +1691,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - [अदुनी - एल्गोरिदम - व्याख्यान 5 (वीडियो)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [रेड-ब्लैक ट्री](https://en.wikipedia.org/wiki/Red%E2%80%93ब्लैक_ट्री)
         - [एन इंट्रोडक्शन टू बाइनरी सर्च एंड रेड ब्लैक ट्री](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3 पेड़ खोजें**
         - प्रयोग में:
@@ -1710,6 +1732,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - [MIT 6.851 - मेमोरी पदानुक्रम मॉडल (वीडियो)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - कैशे-अनभिज्ञ बी-पेड़ों को शामिल करता है, बहुत ही रोचक डेटा संरचनाएं
                 - पहले 37 मिनट बहुत तकनीकी हैं, छोड़े जा सकते हैं (बी ब्लॉक आकार, कैश लाइन आकार है)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### के-डी पेड़

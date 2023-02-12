@@ -428,6 +428,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [計算の複雑さ：セクション1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
 	- [計算の複雑さ：セクション2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ]  [チートシート](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 
     講義の中には数学的にも余裕がある場合は、下にジャンプして
@@ -477,6 +478,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  [単独連結されたリスト(ビデオ)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
 		- [ ]  [CS 61B - 連結リスト1(動画)](https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7)
 		- [ ]  [CS 61B - 連結リスト2(動画)](https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
 	- [ ]  [Cコード(動画)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             ビデオ全体ではなく、ノード構造体とメモリ割り当てに関する部分だけです。
 	- [ ] 連結リスト Vs 配列：
@@ -509,6 +511,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 - ### スタック
 	- [ ]  [Stacks(video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
 	- [ ]  [スタックの使用 Last-In First-Out(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
 	- [ ] 実装されません。配列で実装するのは簡単です。
 
 - ### キュー
@@ -516,6 +519,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [キュー(video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
 	- [ ]  [環状バッファ/ FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
 	- [ ]  [優先度つきキュー(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
 	- [ ] テールポインタ付き連結リストを使って実装する：
 		- enqueue(value) - テールの位置に値を追加する
 		- dequeue() - 値を返し、少なくとも最近追加された要素を削除する(前面)
@@ -567,6 +571,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [二分探索(動画)](https://www.youtube.com/watch?v=D5SrAga1pno)
 	- [ ]  [二分探索(ビデオ)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
 	- [ ]  [詳細](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
 	- [ ] 実装：
 		- 二分探索(ソートされた整数の配列)
 		- 再帰を利用した二分探索
@@ -619,6 +624,9 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 			- inorder(DFS：left、self、right)
 			- postorder(DFS：left、right、self)
 			- preorder(DFS：自己、左、右)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### 二分探索木：BST
 	- [ ]  [二分探索木レビュー(動画)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -666,6 +674,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [MIT：ヒープとヒープソート(ビデオ)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 	- [ ]  [CS 61B講義24：優先度つきキュー(ビデオ)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
 	- [ ]  [線形時間BuildHeap(max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
 	- [ ] 最大ヒープを実装する：
 		- [ ] insert
 		- [ ]  sift_up - 挿入に必要
@@ -711,6 +720,14 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [Implementation(C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
 	- [ ]  [実装(C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
 	- [ ]  [実装(Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] 実装：
 	- [ ]  Mergesort：O(n log n)平均と最悪の場合
@@ -771,6 +788,8 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [CS 61B 2014：加重グラフ(ビデオ)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
 	- [ ]  [欲張りアルゴリズム：最小スパニング木(ビデオ)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 	- [ ]  [強固に接続されたコサラジュのアルゴリズムグラフアルゴリズム(ビデオ)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - フルcourseraコース：
 	- [ ]  [グラフのアルゴリズム(ビデオ)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -1225,7 +1244,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 - [ ]  2〜3分短編ビデオシリーズ(23ビデオ)
 	- [動画](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(38ビデオ)
+- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(40ビデオ)
 	- [動画](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---
@@ -1641,6 +1660,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [Aduni - アルゴリズム - 講義5(ビデオ)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
 		- [ ]  [黒い木](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 		- [ ]  [バイナリサーチとレッドブラック木の紹介](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
 - [ ]  **2-3の検索木**
     - 実際には：
@@ -1680,6 +1700,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [MIT 6.851 - メモリ階層モデル(ビデオ)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 				- キャッシュに気付かないB木、非常に興味深いデータ構造
 				- 最初の37分は非常に技術的であり、スキップすることができます(Bはブロックサイズ、キャッシュラインサイズです)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D木

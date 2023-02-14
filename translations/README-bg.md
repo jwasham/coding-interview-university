@@ -292,38 +292,40 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 Когато преминавах през учебния план ползвах 2 езика за по-голямата част от нещата: C и Python
 
--   C: Език на много ниско ниво. Дава Ви възможност да се справяте с пойнтъри и управляване на паметта, за да разберете структурите от данни и алгоритмите на много дълбоко ниво. В езици за програмиране на по-високо ниво тези неща са скрити от Вас. В ежедневната работа това е прекрасно, но когато се учите как тези структури от данни работят е хубаво да усещате как става всичко.
-    -   C е навсякъде. Ще виждате примери в книги, лекции, видеа _навсякъде_ докато учите.
-    -   [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        -   Това е кратка книга, но ще Ви даде добра представа за езика и с малко упражнения бързо ще имате добро владение над него. Ако разбирате C значи разбирате как програмите и паметта работят.
-        -   Не трябва да се зачитате много надълбоко в книгата (или дори да я прочитате докрай). Нужно е само да сте уверени в способността си да четете и пишете в C.
-        -   [Отговори на въпросите в книгата](https://github.com/lekkas/c-algorithms)
--   Python: модерен и много експресивен. Научих го защото е наистина много полезен и ми позволява да пиша по-малко код когато съм на интервю.
+* C: Език на много ниско ниво. Дава Ви възможност да се справяте с пойнтъри и управляване на паметта, за да разберете структурите
+  от данни и алгоритмите на много дълбоко ниво. В езици за програмиране на по-високо ниво тези неща са скрити от Вас. В ежедневната
+  работа това е прекрасно, но когато се учите как тези структури от данни работят е хубаво да усещате как става всичко.
+    - C е навсякъде. Ще виждате примери в книги, лекции, видеа _навсякъде_ докато учите.
+    - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+      - Това е кратка книга, но ще Ви даде добра представа за езика и с малко упражнения бързо ще имате добро владение над него. Ако разбирате C значи разбирате как програмите и паметта работят.
+      - Не трябва да се зачитате много надълбоко в книгата (или дори да я прочитате докрай). Нужно е само да сте уверени в способността си да четете и пишете в C.
+      - [Отговори на въпросите в книгата](https://github.com/lekkas/c-algorithms)
+* Python: модерен и много експресивен. Научих го защото е наистина много полезен и ми позволява да пиша по-малко код когато съм на интервю.
 
 Това е моя личен избор. Вие можете да изберете каквото пожелаете, разбира се.
 
 Може да не Ви трябват, но ето някои сайтове за учене на нов език:
 
--   [Exercism](https://exercism.org/tracks)
--   [Codewars](http://www.codewars.com)
--   [Codility](https://codility.com/programmers/)
--   [HackerEarth](https://www.hackerearth.com/)
--   [Sphere Online Judge (spoj)](http://www.spoj.com/)
--   [Codechef](https://www.codechef.com/)
--   [Codeforces](https://codeforces.com/)
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
+- [Sphere Online Judge (spoj)](http://www.spoj.com/)
+- [Codechef](https://www.codechef.com/)
+- [Codeforces](https://codeforces.com/)
 
 ### За интервюто Ви по програмиране
 
 Може да изберете език, в който се чувствате комфортно за интервюто Ви, но за големите компании това са най-добрите опции:
 
--   C++
--   Java
--   Python
+- C++
+- Java
+- Python
 
 Може да ползвате и тези, но поразгледайте преди това, защото може да има уловки:
 
--   JavaScript
--   Ruby
+- JavaScript
+- Ruby
 
 Това е статия, която написах за избирането на език за вашето интервю:
 [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
@@ -345,28 +347,28 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 ### C
 
--   [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    -   Основни познания, структури от данни, сортиране, търсене и алгоритми за графи
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+  - Основни познания, структури от данни, сортиране, търсене и алгоритми за графи
 
 ### Python
 
--   [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    -   от Goodrich, Tamassia, Goldwasser
-    -   Тази книга ми допадна много. Покрива всичко и още нещо
-    -   'Питоничен' код
-    -   Докладът ми за тази книга: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+  - от Goodrich, Tamassia, Goldwasser
+  - Тази книга ми допадна много. Покрива всичко и още нещо
+  - 'Питоничен' код
+  - Докладът ми за тази книга: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 ### Java
 
 Изборът е ваш:
 
--   Goodrich, Tamassia, Goldwasser
-    -   [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
--   Sedgewick and Wayne:
-    -   [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    -   Безплатен курс в Coursera, който покрива материала от книгата (воден от писателите!):
-        -   [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        -   [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+- Goodrich, Tamassia, Goldwasser
+  - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- Sedgewick and Wayne:
+  - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+  - Безплатен курс в Coursera, който покрива материала от книгата (воден от писателите!):
+    - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+    - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
 ### C++
 

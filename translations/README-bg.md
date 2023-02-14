@@ -51,11 +51,11 @@
 </details>
 
 <div align="center">
-	<hr />
+  <hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Станете спонсор</strong> за да покрепите Coding Interview University!</a>
+      <a href="https://github.com/sponsors/jwasham"><strong>Станете спонсор</strong> за да покрепите Coding Interview University!</a>
     </p>
-    <hr />
+  <hr />
 </div>
 
 ## Какво е това?

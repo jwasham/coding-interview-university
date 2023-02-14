@@ -53,7 +53,7 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Станете спонсор</strong> за да покрепите Coding Interview University!</a>
     </p>
     <hr />
 </div>

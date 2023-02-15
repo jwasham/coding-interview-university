@@ -464,42 +464,48 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 Това са широко разпространени технологии, но не и част от учебния план:
 
--   SQL
--   Javascript
--   HTML, CSS, и други front-end технологии
+- SQL
+- Javascript
+- HTML, CSS, и други front-end технологии
 
 ## Дневния план
 
-Този курс преминава през множество от теми. Всяка от тях най-вероятно ще Ви отнеме няколко дена или дори седмица, или повече. Зависи от графика Ви.
+Този курс преминава през множество от теми. Всяка от тях най-вероятно ще Ви отнеме няколко дена или дори седмица, или
+повече. Зависи отграфика Ви.
 
-Всеки ден взимайте следващата тема в списъка, изгледайте няколко клипа по тази тема и след това напишете имплементацията на въпросната структура от данни или алгоритъм в езика за програмиране, който сте избрали за този курс.
+Всеки ден взимайте следващата тема в списъка, изгледайте няколко клипа по тази тема и след това напишете имплементацията
+на въпросната структура от данни или алгоритъм в езика за програмиране, който сте избрали за този курс.
 
 Можете да видите моя код тук:
 
--   [C](https://github.com/jwasham/practice-c)
--   [C++](https://github.com/jwasham/practice-cpp)
--   [Python](https://github.com/jwasham/practice-python)
+- [C](https://github.com/jwasham/practice-c)
+- [C++](https://github.com/jwasham/practice-cpp)
+- [Python](https://github.com/jwasham/practice-python)
 
-Не е нужно да помните всеки алгоритъм наизуст. Необходимо е просто да ги разбирате достатъчно добре, за да можете да напишете собствена имплементация.
+Не е нужно да помните всеки алгоритъм наизуст. Необходимо е просто да ги разбирате достатъчно добре, за да можете да
+напишете собствена имплементация.
 
 ## Подготовка за въпроси за програмиране
 
-    Защо това е тук? Аз не съм готов да се явя на интервю.
+Защо това е тук? Аз не съм готов да се явя на интервю.
 
 [Тогава се върни и прочети това.](#3-решавайте-задачи-от-интервюта-по-програмиране-докато-учите)
 
 Защо трябва да се упражнявате да решавате задачи по програмиране:
 
--   Разпознаване на проблеми и знанието кога и къде да ползвате дадена структура от данни или алгоритъм
--   Събиране на изискванията за задачата
--   Изговаряне на мислите Ви докато решавате както ще правите на интервюто
--   Писане на код върху дъска или лист хартия вместо на компютър
--   Намиране на времевата и пространствената сложност на решенията Ви (вижте Big-O надолу)
--   Тестване на решенията Ви
+- Разпознаване на проблеми и знанието кога и къде да ползвате дадена структура от данни или алгоритъм
+- Събиране на изискванията за задачата
+- Изговаряне на мислите Ви докато решавате както ще правите на интервюто
+- Писане на код върху дъска или лист хартия вместо на компютър
+- Намиране на времевата и пространствената сложност на решенията Ви (вижте Big-O надолу)
+- Тестване на решенията Ви
 
-Пишете код на дъска или лист хартия вместо на компютър. Тествайте с няколко различни входни данни. След това го напишете и тествайте на компютър.
+Пишете код на дъска или лист хартия вместо на компютър. Тествайте с няколко различни входни данни. След това го напишете
+и тествайте на компютър.
 
-Ако нямате дъска за писане вкъщи можете да си купите голям тефтер от магазин за арт материали. Можете просто да седите на дивана и да се упражнявате. Това е моята "дъска за дивана". Добавих химикала към снимката за съпоставка на размера. Ако използвате химикал бързо ще ви се поиска да можеше да триете написаното- бързо става мазало. **Аз ползвам молив и гума.**
+Ако нямате дъска за писане вкъщи можете да си купите голям тефтер от магазин за арт материали. Можете просто да седите
+на дивана и да се упражнявате. Това е моята "дъска за дивана". Добавих химикала към снимката за съпоставка на размера.
+Ако използвате химикал бързо ще ви се поиска да можеше да триете написаното - бързо става мазало. **Аз ползвам молив и гума.**
 
 ![моята дъска за дивана](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
@@ -511,29 +517,29 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 Решаване на задачи:
 
--   [Как да намерим решение](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
--   [Как да направим дисекция на условие на задача от Topcoder](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [Как да намерим решение](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+- [Как да направим дисекция на условие на задача от Topcoder](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
 Клипове за задачи от интервюта по програмиране:
 
--   [IDeserve (88 клипа)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
--   [Tushar Roy (5 плейлисти)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    -   Супер за насоки за решаване на задачи
--   [Nick White - LeetCode Solutions (187 клипа)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    -   Добро обяснение на решението и кода
-    -   Можете да изгледате няколко клипа в малък прозорец от време
--   [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+- [IDeserve (88 клипа)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 плейлисти)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+  - Супер за насоки за решаване на задачи
+- [Nick White - LeetCode Solutions (187 клипа)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+  - Добро обяснение на решението и кода
+  - Можете да изгледате няколко клипа в малък прозорец от време
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
 Сайтове със задачи:
 
--   [LeetCode](https://leetcode.com/)
-    -   Любимият ми сайт със задачи. Струва си парите за абонамент за времето, в което ще се подготвяте.
-    -   Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки със някои задачи.
--   [HackerRank](https://www.hackerrank.com/)
--   [TopCoder](https://www.topcoder.com/)
--   [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
--   [InterviewBit](https://www.interviewbit.com/)
--   [Project Euler](https://projecteuler.net/)
+- [LeetCode](https://leetcode.com/)
+    - Любимият ми сайт със задачи. Струва си парите за абонамент за времето, в което ще се подготвяте.
+    - Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки със някои задачи.
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [InterviewBit](https://www.interviewbit.com/)
+- [Project Euler](https://projecteuler.net/)
 
 ## Да започваме
 
@@ -543,124 +549,122 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 ## Алгоритмична сложност / Big-O / Асимптотичен анализ
 
--   Няма нищо за имплементация тук, единствено ще гледате клипове и ще си водите записки! Йей!
--   Има доста клипове тук. Просто изгледайте достатъчно докато не го разберете. Винаги можете да се върнете обратно и да преговорите.
--   Не се притеснявайте ако не разбирате всичката математика, която стои отзад.
--   Трябва просто да можете да изразите сложността на даден алгоритъм чрез Big-O
--   [ ] [Harvard CS50 - Asymptotic Notation (клип)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
--   [ ] [Big O Notations (общ наръчник) (клип)](https://www.youtube.com/watch?v=V6mKVRU1evU)
--   [ ] [Big O Notation (и Omega, и Theta) - най-доброто математично обяснение (клип)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
--   [ ] Skiena:
-    -   [клип](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    -   [slides](https://archive.org/details/lecture2_202008)
--   [ ] [UC Berkeley Big O (клип)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
--   [ ] [Амортизиран анализ (клип)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
--   [ ] TopCoder (includes recurrence relations and master theorem):
-    -   [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
-    -   [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
--   [ ] [Пищови](http://bigocheatsheet.com/)
--   [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- Няма нищо за имплементация тук, единствено ще гледате клипове и ще си водите записки! Йей!
+- Има доста клипове тук. Просто изгледайте достатъчно докато не го разберете. Винаги можете да се върнете обратно и да преговорите.
+- Не се притеснявайте ако не разбирате всичката математика, която стои отзад.
+- Трябва просто да можете да изразите сложността на даден алгоритъм чрез Big-O
+- [ ] [Harvard CS50 - Asymptotic Notation (клип)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (общ наръчник) (клип)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (и Omega, и Theta) - най-доброто математично обяснение (клип)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] Skiena:
+  - [клип](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+  - [slides](https://archive.org/details/lecture2_202008)
+- [ ] [UC Berkeley Big O (клип)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [Амортизиран анализ (клип)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] TopCoder (includes recurrence relations and master theorem):
+  - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
+  - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
+- [ ] [Пищови](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 Е, това е достатъчно за тази тема.
 
-Когато четете "Cracking the Coding Interview" ще срещнете главата, която разглежда тази тема. Накрая на главата има кратък тест, който проверява дали можете да намерите сложността на различни алгоритми. Това е супер преговор и тест.
+Когато четете "Cracking the Coding Interview" ще срещнете главата, която разглежда тази тема. Накрая на главата има
+кратък тест, който проверява дали можете да намерите сложността на различни алгоритми. Това е супер преговор и тест.
 
 ## Структури от данни
 
--   ### Масиви
+- ### Масиви
+  - [ ] За масивите:
+    - [Arrays (клип)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+    - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (клип)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+    - [Dynamic Arrays (клип)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+    - [Jagged Arrays (клип)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+  - [ ] Имплементирайте вектор (променлив масив с автоматично преоразмеряване):
+    - [ ] Упражнявайте се да пишете код, ползвайки масиви и пойнтъри. Ползвайте пойнтъри за преместване към индекс вместо индексиране
+    - [ ] New raw data array with allocated memory
+      - can allocate int array under the hood, just not use its features
+      - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
+    - [ ] size() - номер на елементите
+    - [ ] capacity() - номер на елементите, които може да побира
+    - [ ] is_empty()
+    - [ ] at(index) - връща елемента на дадения индекс, ако индекса е извън границите на масива връща грешка
+    - [ ] push(item)
+    - [ ] insert(index, item) - вкарва елемента на дадения елемент, измествайки съществуващия елемент на този индекс и всички елементи след него надясно
+    - [ ] prepend(item) - може да добавя елементи на индекс 0
+    - [ ] pop() - премахва елемент от края и връща стойността му
+    - [ ] delete(index) - изтрива елемента на дадения индекс и измества всички елементи след него наляво
+    - [ ] remove(item) - търси стойността на елемента и премахва всички индекси, които я съдържат
+    - [ ] find(item) - търси стойността на елемента и връща първия индекс, който я съдържа, или -1 ако няма такъв елемент
+    - [ ] resize(new_capacity) // private function
+      - когато достигнете максималния обем, преоразмерете като дублирате обема
+      - когато pop-вате елемент, ако обема на масива е 1/4 от капацитета му, преоразмерете масива наполовина
+    - [ ] Време
+      - O(1) за добавяне/премахване към края, индексиране или актуализиране
+      - O(n) за добавяне/премахване другаде
+    - [ ] Пространство
+      - contiguous in memory, so proximity helps performance
+      - нужно място = (капацитета на масива, който е >= n) \* размера на елемента, но дори 2n, пак е O(n)
 
-    -   [ ] За масивите:
-        -   [Arrays (клип)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        -   [UC Berkeley CS61B - Linear and Multi-Dim Arrays (клип)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        -   [Dynamic Arrays (клип)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        -   [Jagged Arrays (клип)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    -   [ ] Имплементирайте вектор (променлив масив с автоматично преоразмеряване):
-        -   [ ] Упражнявайте се да пишете код, ползвайки масиви и пойнтъри. Ползвайте пойнтъри за преместване към индекс вместо индексиране
-        -   [ ] New raw data array with allocated memory
-            -   can allocate int array under the hood, just not use its features
-            -   start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        -   [ ] size() - номер на елементите
-        -   [ ] capacity() - номер на елементите, които може да побира
-        -   [ ] is_empty()
-        -   [ ] at(index) - връща елемента на дадения индекс, ако индекса е извън границите на масива връща грешка
-        -   [ ] push(item)
-        -   [ ] insert(index, item) - вкарва елемента на дадения елемент, измествайки съществуващия елемент на този индекс и всички елементи след него надясно
-        -   [ ] prepend(item) - може да добавя елементи на индекс 0
-        -   [ ] pop() - премахва елемент от края и връща стойността му
-        -   [ ] delete(index) - изтрива елемента на дадения индекс и измества всички елементи след него наляво
-        -   [ ] remove(item) - търси стойността на елемента и премахва всички индекси, които я съдържат
-        -   [ ] find(item) - търси стойността на елемента и връща първия индекс, който я съдържа, или -1 ако няма такъв елемент
-        -   [ ] resize(new_capacity) // private function
-            -   когато достигнете максималния обем, преоразмерете като дублирате обема
-            -   когато pop-вате елемент, ако обема на масива е 1/4 от капацитета му, преоразмерете масива наполовина
-    -   [ ] Време
-        -   O(1) за добавяне/премахване към края, индексиране или актуализиране
-        -   O(n) за добавяне/премахване другаде
-    -   [ ] Пространство
-        -   contiguous in memory, so proximity helps performance
-        -   нужно място = (капацитета на масива, който е >= n) \* размера на елемента, но дори 2n, пак е O(n)
+- ### Свързани списъци
+  - [ ] Описание:
+    - [ ] [Единично свързани списъци (клип)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+    - [ ] [CS 61B - Linked Lists 1 (клип)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+    - [ ] [CS 61B - Linked Lists 2 (клип)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
+  - [ ] [Код в C (клип)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - не цялото видео, само частите за Node structs и алокация на памет
+  - [ ] Свързани списъци срещу масиви:
+    - [Core Linked Lists Vs Arrays (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+    - [Свързани списъци срещу масиви в истинския свят (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    - [ ] [Защо да избягваме свързаните списъци (клип)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Аха: трябват Ви pointer to pointer знания:
+      (за да можете да подавате pointer към функция, която може да промени адреса, към който сочи pointer-a)
+      Тази страница служи само да схванете ptr to ptr. Не препоръчвам този стил на обхождане на списъка. Четливостта
+      и поддържаемостта страдат заради хитрости.
+      - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] Имплементация:
+      - [ ] size() - връща броя на елементите
+      - [ ] empty() - булева стойност, връща true ако списъка е празен
+      - [ ] value_at(index) - връща стойността на n-тия елемент (почвайки от 0 за първия елемент)
+      - [ ] push_front(value) - добавя стойност към началото на списъка
+      - [ ] pop_front() - премахва първия елемент и връща стойността му
+      - [ ] push_back(value) - добавя елемент към края
+      - [ ] pop_back() - премахва последния елемент и връща стойността му
+      - [ ] front() - взима стойността на първия елемент
+      - [ ] back() - взима стойността на последния елемент
+      - [ ] insert(index, value) - вкарва елемента на дадения индекс, така че новия елемент да сочи към стария елемент на този индекс
+      - [ ] erase(index) - изтрива node-а на дадения индекс
+      - [ ] value_n_from_end(n) - връща стойността на node-а, седящ на позиция n от края на списъка
+      - [ ] reverse() - обръща списъка
+      - [ ] remove_value(value) - премахва първия елемент от списъка, съдържащ тази стойност
+    - [ ] Двойно свързан списък
+      - [Описание (клип)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+      - Няма нужда от имплементация
 
--   ### Свързани списъци
+- ### Стек
+  - [ ] [Стекове (клип)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+  - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+  - [ ] Няма нужда да се имплементира. Имплементацията с масив е тривиална.
 
-    -   [ ] Описание:
-        -   [ ] [Единично свързани списъци (клип)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
-        -   [ ] [CS 61B - Linked Lists 1 (клип)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        -   [ ] [CS 61B - Linked Lists 2 (клип)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-        -   [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-    -   [ ] [Код в C (клип)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - не цялото видео, само частите за Node structs и алокация на памет
-    -   [ ] Свързани списъци срещу масиви:
-        -   [Core Linked Lists Vs Arrays (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        -   [Свързани списъци срещу масиви в истинския свят (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    -   [ ] [Защо да избягваме свързаните списъци (клип)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    -   [ ] Аха: трябват Ви pointer to pointer знания:
-            (за да можете да подавате pointer към функция, която може да промени адреса, към който сочи pointer-a)
-            Тази страница служи само да схванете ptr to ptr. Не препоръчвам този стил на обхождане на списъка. Четливостта и поддържаемостта страдат заради хитрости.
-        -   [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    -   [ ] Имплементация:
-        -   [ ] size() - връща броя на елементите
-        -   [ ] empty() - булева стойност, връща true ако списъка е празен
-        -   [ ] value_at(index) - връща стойността на n-тия елемент (почвайки от 0 за първия елемент)
-        -   [ ] push_front(value) - добавя стойност към началото на списъка
-        -   [ ] pop_front() - премахва първия елемент и връща стойността му
-        -   [ ] push_back(value) - добавя елемент към края
-        -   [ ] pop_back() - премахва последния елемент и връща стойността му
-        -   [ ] front() - взима стойността на първия елемент
-        -   [ ] back() - взима стойността на последния елемент
-        -   [ ] insert(index, value) - вкарва елемента на дадения индекс, така че новия елемент да сочи към стария елемент на този индекс
-        -   [ ] erase(index) - изтрива node-а на дадения индекс
-        -   [ ] value_n_from_end(n) - връща стойността на node-а, седящ на позиция n от края на списъка
-        -   [ ] reverse() - обръща списъка
-        -   [ ] remove_value(value) - премахва първия елемент от списъка, съдържащ тази стойност
-    -   [ ] Двойно свързан списък
-        -   [Описание (клип)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
-        -   Няма нужда от имплементация
-
--   ### Стек
-
-    -   [ ] [Стекове (клип)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    -   [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    -   [ ] Няма нужда да се имплементира. Имплементацията с масив е тривиална.
-
--   ### Опашка
-
-    -   [ ] [Опашка (клип)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    -   [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    -   [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    -   [ ] Имплементирайте със свързан списък с tail pointer:
-        -   enqueue(value) - добавя стойност на опашката
-        -   dequeue() - връща стойността и премахва най-предния елемент на опашката (front)
-        -   empty()
-    -   [ ] Имплементрайте с масив с фиксирана големина:
-        -   enqueue(value) - добавя елемента в края на наличното пространство
-        -   dequeue() - връща стойността и премахва най-предния елемент на опашката
-        -   empty()
-        -   full()
-    -   [ ] Разход:
-        -   лоша имплементация, ползвайки свързан списък където правим enqueue в началото и dequeue в края би била O(n)
-            защото ще се нуждаете от предпоследния елемент, което ще предизвиква цялостно обхождане при всяко dequeue
-        -   enqueue: O(1) (amortized, свъзран списък и масив [probing])
-        -   dequeue: O(1) (свъзран списък и масив)
-        -   empty: O(1) (свъзран списък и масив)
+- ### Опашка
+  - [ ] [Опашка (клип)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+  - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
+  - [ ] Имплементирайте със свързан списък с tail pointer:
+    - enqueue(value) - добавя стойност на опашката
+    - dequeue() - връща стойността и премахва най-предния елемент на опашката (front)
+    - empty()
+  - [ ] Имплементрайте с масив с фиксирана големина:
+    - enqueue(value) - добавя елемента в края на наличното пространство
+    - dequeue() - връща стойността и премахва най-предния елемент на опашката
+    - empty()
+    - full()
+  - [ ] Разход:
+    - лоша имплементация, ползвайки свързан списък където правим enqueue в началото и dequeue в края би била O(n)
+      защото ще се нуждаете от предпоследния елемент, което ще предизвиква цялостно обхождане при всяко dequeue
+    - enqueue: O(1) (amortized, свъзран списък и масив [probing])
+    - dequeue: O(1) (свъзран списък и масив)
+    - empty: O(1) (свъзран списък и масив)
 
 -   ### Хеш таблици
 

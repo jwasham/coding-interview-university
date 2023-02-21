@@ -64,27 +64,6 @@ Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
     <p>
         <a href="https://github.com/sponsors/jwasham"><strong>Diventa uno sponsor</strong> e supporta Coding Interview University!</a>
     </p>
-    <p>
-        <strong>Un ringraziamento speciale a:</strong>
-    </p>
-    <div>
-        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
-            </div>
-            <div>
-                <p>
-                    <strong>Master the technical interview without endless grinding.</strong>
-                </p>
-            </div>
-            <div>
-                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
-                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
-                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
-                as you walk into that interview!</sup>
-            </div>
-        </a>
-    </div>
     <hr />
 </div>
 
@@ -596,6 +575,7 @@ Ma non dimenticare di esercitarti con i problemi, anche durante lo studio!
     - [Complessità Computazionale: Sezione 1 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Complessità Computazionale: Sezione 2 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat-Sheet](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 Bene, direi che può bastare. 
 
@@ -641,6 +621,7 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - [ ] [Liste Linkate Singolarmente (Video in Inglese)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (Video in Inglese)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - non il video intero, ma solo nozioni sulla struttura del nodo e l'allocazione della memoria
     - [ ] Linked List vs Arrays:
@@ -673,11 +654,13 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 
 - ### Stack
     - [ ] [Stacks (Video in Inglese)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Non saranno implementati. Esercitarsi con l'array è quasi banale.
 
 - ### Queue
     - [ ] [Queue (Video in Inglese)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Buffer Circolare/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implementazione usando le linked list, con puntatore alla coda:
         - enqueue(value) - aggiunge un valore alla posizione della coda
         - dequeue() - returna il valore aggiunto per ultimo e lo rimuove
@@ -703,6 +686,7 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - [ ] [PyCon 2017: Dizionario, ma ancora Più Potente (Video in Inglese)](https://www.youtube.com/watch?v=66P5FMkWoVU)
         - [ ] [(Avanzato) Randomizzazione: Universale & Hashing Perfetto (Video in Inglese)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Avanzato) L'hashing perfetto (Video in Inglese)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Corsi Online:
         - [ ] [Core Hash Tables (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
@@ -726,6 +710,7 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
     - [ ] [Ricerca Binaria (Video in Inglese)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [dettagli](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
     - [ ] [progetto](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Implementazione:
         - ricerca binaria (su array ordinati di interi)
         - ricerca binaria usando la ricorsione
@@ -779,6 +764,9 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
             - inorder (DFS: sinistra, se stesso, destra)
             - postorder (DFS: sinistra, destra, se stesso)
             - preorder (DFS: se stesso, sinistra, destra)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Alberi Binari di Ricerca: BSTs
     - [ ] [Review Alberi Binari di Ricerca (Video in Inglese)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
@@ -824,6 +812,7 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
     - [ ] [MIT: Heaps e Ordinamento Heap (Video in Inglese)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lezione 24: Code di Priorità (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Costruire un Heap (max-heap) (Video in Inglese)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] Implementa un max-heap:
         - [ ] insert - inserisci un valore
         - [ ] sift_up - neccessario per l'inserimento
@@ -888,6 +877,14 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
     - [ ] [Implementazione (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementazione (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+
 - [ ] Implementazione:
     - [ ] Mergesort: O(n log n) caso medio e peggiore
     - [ ] Quicksort O(n log n) caso medio
@@ -950,6 +947,8 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
     - [ ] [CS 61B 2014: Grafi Pesati (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Algoritmi Greedy: Alberi Ricoprenti Minimi (Video in Inglese)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Componenti Legati Strettamente, Algoritmo di Kosaraju e Algoritmi per Grafi (Video in Inglese)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - Corsi di Coursera Completi:
     - [ ] [Algorithms on Graphs (Video in Inglese)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -1209,7 +1208,7 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
 
 - [ ] Series of 2-3 minutes short subject video (23 video)
     - [video](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject video - Michael Sambol (38 video):
+- [ ] Series of 2-5 minutes short subject video - Michael Sambol (40 video):
     - [video](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick video - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick video - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
@@ -1700,6 +1699,7 @@ You're never really done.
         - [Aduni - Algorithms - Lezione 5 (Video in Inglese)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3 search trees**
         - In practice:
@@ -1740,6 +1740,7 @@ You're never really done.
         - [MIT 6.851 - Memory Hierarchy Models (Video in Inglese)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D Trees

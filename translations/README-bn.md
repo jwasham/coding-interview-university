@@ -718,45 +718,44 @@ iOS-এ এটির দাম $25 কিন্তু অন্যান্য �
         - get(key)
         - remove(key)
  
-##আরও জ্ঞান
+## আরও জ্ঞান
+
+- ### বাইনারি অনুসন্ধান
+    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [detail](https://www.topcoder.com/thrive/articles/Binary%20Search)
+    - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
+    - [ ] Implement:
+        - binary search (on sorted array of integers)
+        - binary search using recursion
  
-<details>
-<summary>আরও জ্ঞান << সংক্ষিপ্ত>
- 
--###বাইনারি অনুসন্ধান
-   -  [বাইনারি অনুসন্ধান (ভিডিও)] (https://www.youtube.com/watch?v=D5SrAga1pno)
-   -  [বাইনারি সন্ধান (ভিডিও)] (https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-   -  [বিস্তারিত] (https://www.topcoder.com/commune/competitive-programming/tutorials/binary-search/)
-   -  বাস্তবায়ন:
-       -বাইনারি অনুসন্ধান (পূর্ণসংখ্যার সাজানো অ্যারেতে)
-       -পুনরাবৃত্তি ব্যবহার করে বাইনারি অনুসন্ধান
- 
--###বিটওয়াস অপারেশন
-   -  [বিটস চিট শিট] (https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bit-cheat-sheet.pdf)-আপনার অনেকগুলি জানা উচিত 2 এর ক্ষমতা (2 ^ 1 থেকে 2 ^ 16 এবং 2 ^ 32)
-   -  এর সাথে বিটগুলি ম্যানিপুলেটেড সম্পর্কে সত্যই উপলব্ধি পান: &, |, ^, ~, >> >> <<
-       -  [শব্দ] (https://en.wikedia.org/wiki/Word_ (কম্পিউটার_আরকিটেকচার))
-       -  ভাল পরিচয়:
-            [বিট ম্যানিপুলেশন (ভিডিও)] (https://www.youtube.com/watch?v=7jkIUgLC29I)
-       -  [সি প্রোগ্রামিং টিউটোরিয়াল 2-10: বিটওয়াস অপারেটর (ভিডিও)] (https://www.youtube.com/watch?v=d0AwjSpNXR0)
-       -  [বিট ম্যানিপুলেশন] (https://en.wikedia.org/wiki/Bit_manipulation)
-       -  [বিটওয়াইজ অপারেশন] (https://en.wikedia.org/wiki/ বিটওয়াইজ_অপারেশন)
-       -  [বিথ্যাকস] (https://ographicics.stanford.edu/~seender/bithacks.html)
-       -  [বিট টুইডলার] (https://bit.stephan-brumme.com/)
-       -  [বিট টুইডলার ইন্টারেক্টিভ] (https://bit.stephan-brumme.com/interactive.html)
-   -  2 এস এবং 1 এস পরিপূরক
-       -[বাইনারি: প্লাসসেস এবং মিনিনস (কেন আমরা দু'জনের কমপ্লিমেন্ট ব্যবহার করি) (ভিডিও)] (https://www.youtube.com/watch?v=lKTsv6iVxV4)
-       -[১ এস পরিপূরক] (https://en.wikedia.org/wiki/Ones%27_complement)
-       -[2 এস পরিপূরক] (https://en.wikedia.org/wiki/Two%27s_complement)
-   -  সেট বিট গণনা করুন
-       -[বাইট (ভিডিও) এ বিট গণনা করার 4 টি উপায়] (https://youtu.be/Hzuzo9NJrlc)
-       -[বিট গণনা করুন) (https://ographicics.stanford.edu/~seender/bithacks.html#CountBitsSetKernighan)
-       -[32 বিট পূর্ণসংখ্যায় সেট বিটের সংখ্যা কীভাবে গণনা করবেন] (http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-િટ-in-a-32-বিট-পূর্ণসংখ্যা)
-   -  পরের পাওয়ার 2 এর রাউন্ড:
-       -[দু'জনের পরের শক্তিতে রাউন্ড আপ] (https://bit.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-   -[  অদলবদল মান:
-       -[অদলবদল (https://bit.stephan-brumme.com/swap.html)
-   -  নিখুঁত মান:
-       -[নিখুঁত পূর্ণসংখ্যার] (https://bit.stephan-brumme.com/absInteger.html)
+- ### বিটওয়াইজ অপারেশন
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] Good intro:
+            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
+        - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
+        - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
+		- [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
+    - [ ] 2s and 1s complement
+        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] Count set bits
+        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
+        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    - [ ] Swap values:
+        - [Swap](https://bits.stephan-brumme.com/swap.html)
+    - [ ] Absolute value:
+        - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
  
 </details>
  

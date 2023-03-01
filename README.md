@@ -50,8 +50,8 @@
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
 - [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
-
 </details>
 
 <div align="center">

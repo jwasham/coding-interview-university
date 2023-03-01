@@ -1,19 +1,22 @@
-# کوڈنگ انٹرویو یونیورسٹی
+# Kodering Onderhoud Universiteit
 
->میں نے اصل میں اسے سافٹ ویئر انجینئر بننے کے لیے مطالعے کے عنوانات کی ایک مختصر فہرست کے طور پر بنایا تھا، لیکن یہ اس بڑی فہرست تک پہنچ گئی جو آپ آج دیکھ رہے ہیں۔ اس مطالعاتی منصوبے سے گزرنے کے بعد ، [مجھے ایمیزون میں سافٹ ویئر ڈویلپمنٹ انجینئر کے طور پر ملازمت پر رکھا گیا ہے!](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> آپ کو شاید اتنا مطالعہ نہیں کرنا پڑے گا جتنا میں نے کیا تھا۔ بہرحال، آپ کی ضرورت کی ہر چیز یہاں ہے۔
->
-> میں نے کئی مہینوں تک ، دن میں تقریبا 8 سے 12 گھنٹے مطالعہ کیا۔ یہ میری کہانی ہے: [گوگل انٹرویو کے لئے میں نے 8 ماہ تک فل ٹائم کیوں پڑھا](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
->
->*براہ کرم نوٹ کریں:* آپ کو اتنا مطالعہ کرنے کی ضرورت نہیں ہوگی جتنا میں نے کیا تھا۔ میں نے ان چیزوں پر بہت وقت ضائع کیا جن کے بارے میں مجھے جاننے کی ضرورت نہیں تھی۔ ذیل میں اس کے بارے میں مزید معلومات۔ میں آپ کا قیمتی وقت ضائع کیے بغیر وہاں پہنچنے میں آپ کی مدد کروں گا۔
->
-> یہاں درج عنوانات آپ کو کسی بھی سافٹ ویئر کمپنی بشمول ایمیزون، فیس بک، گوگل، اور مائیکروسافٹ میں تکنیکی انٹرویو کے لیے اچھی طرح تیار کریں گے۔
+> Ek het oorspronklik dié as 'n kort om-te-doen lys van studie onderwerpe om 'n sagteware ingenieur te word gemaak,
+> maar dit het gegroei tot die groot lys wat jy vandag sien. Nadat ek dié studieplan gevolg het, [het Amazon my
+> aangestel](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Jy hoef heel waarskynlik nie soveel soos ek te studeer nie. Maar alles wat jy nodig het is hier.
 > 
-> *آپ کے لیے نیک تمنائیں!*
+> Ek het ongeveer 8-12 gestudeer elke dag, vir maande. Hier is my storie: [Hoekom ek vol-tyd gestudeer het, vir 8 maande, vir 'n Google onderhoud](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> 
+> **Let asseblief op:** Jy sal nie soveel soos ek hoef te studeer nie. Ek het baie tyd gemors op goed wat ek nie benodig het nie. Meer inligting daaroor onder. Ek sal jou help leer sonder om jou kosbare tyd te mors.
+>
+> Die items wat hier gelys is sal jou goed voorberei vir tegniese onderhoude by omtrent enige sagteware maatskappy,
+> insluitend die reuse: Amazon, Facebook, Google, en Microsoft.
+> 
+> *Sterkte!*
 
 <details>
-<summary>ترجمہ:</summary>
-	
+<summary>Vertalings:</summary>
+
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
@@ -28,10 +31,11 @@
 - [Uzbek](translations/README-uz.md)
 - [Bulgarian](translations/README-bg.md)
 - [বাংলা - Bangla](translations/README-bn.md)
+
 </details>
 
 <details>
-<summary>ترجمہ جاری ہے:</summary>
+<summary>Vertalings aan die gang:</summary>
 
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
@@ -41,320 +45,327 @@
 - [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
 - [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
 - [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
 
-
 </details>
 
 <div align="center">
-	<hr />
+    <hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>کفیل بنیں</strong> اور کوڈنگ انٹرویو یونیورسٹی کی مدد کریں!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Word 'n bydraër</strong> en borg Kodering Onderhoud Universiteit!</a>
     </p>
     <hr />
 </div>
 
-## یہ کیا ہے؟
+## Wat is dit?
 
-یہ ایک بڑی کمپنی کے لیے ایک ویب ڈویلپر (خود سیکھا ہوا، بغیر CS ڈگری کے) سے سافٹ ویئر انجینئر تک جانے کے لیے کئی مہینوں کا میرا اسٹڈی پلان ہے۔
+![Kodering op die witbord - van HBO se Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+Dié is my multi-maand studie plan om 'n sagteware ingeneur te word vir 'n groot maatskappy.
 
-**شرط:**
-* کوڈنگ کے ساتھ تھوڑا سا تجربہ (متغیرات، لوپس، فنکشنز وغیرہ)
-* صبر
-* وقت
-
-نوٹ کریں کہ یہ **سافٹ ویئر انجینئرنگ** کے لیے مطالعہ کا منصوبہ ہے، ویب ڈویلپمنٹ کے لیے نہیں۔ بڑی سافٹ ویئر کمپنیاں جیسے گوگل، ایمیزون،
-فیس بک اور مائیکروسافٹ سافٹ ویئر انجینئرنگ کو ویب ڈویلپمنٹ سے مختلف سمجھتے ہیں۔ مثال کے طور پر، ایمیزون کے پاس فرنٹ اینڈ انجینئرز (FEE) اور سافٹ ویئر ڈویلپمنٹ انجینئرز (SDE)ہیں۔ یہ 2 الگ الگ کردارہیں اوران کےلیے الگ الگ انٹرویوز ہیں۔ کیونکہ ہر ایک کی اپنی ضروریات ہیں۔ ان کمپنیوں کو سافٹ ویئر ڈویلپمنٹ / انجینئرنگ کےلے کمپیوٹر سائنس کا علم درکار ہوتا ہے۔
-
-یونیورسٹی کے کمپیوٹر سائنس پروگرام میں سیکھنے کے لیے بہت کچھ ہے، لیکن انٹرویو کے لیے صرف 75% جاننا ہی کافی ہے، اس لیے میں یہاں صرف اتنا ہی احاطہ کرتا ہوں۔
-مکمل خود سیکھے جانے والے سی-ایس  پروگرام کے لیے، میرے اسٹڈی پلان کے وسائل کامران احمد کے کمپیوٹر سائنس روڈ میپ میں شامل کیے گئے ہیں: https://roadmap.sh/computer-science
-
----
-
-## مواد کی فہرست
-
-### مطالعہ کا منصوبہ
-
-- [یہ کیا ہے؟](#یہ-کیا-ہے)
-- [اسے کیوں استعمال کریں؟](#اسے-کیوں-استعمال-کریں)
-- [اسے کیسے استعمال کریں](#اسے-کیسے-استعمال-کریں)
-- [اپنے آپ کو کم نہ سمجھیں](#اپنے-آپ-کو-کم-مت-سمجھو)
-- [ویڈیو مواد کے بارے میں](#ویڈیو-وسائل-کے-بارے-میں-ایک-نوٹ)
-- [انٹرویو کے لیے ایک  پروگرامنگ زبان کا انتخاب کریں۔](#ایک-پروگرامنگ-زبان-کا-انتخاب)
-- [ڈیٹا سٹرکچرز اور الگورتھم کے لیے کتابیں](#ڈیٹا-سٹرکچرز-اور-الگورتھم-کے-لیے-کتابیں)
-- [انٹرویو کی تیاری کی کتابیں](#انٹرویو-کی-تیاری-کی-کتابیں)
-- [میری غلطیاں مت کرنا](#میری-غلطیاں-مت-کرنا)
-- [جو آپ نہیں سیکھیں گے۔](#جو-آپ-نہیں-سیکھیں-گے)
-- [روزانہ کی منصوبہ بندی](#روزانہ-کا-منصوبہ)
-- [کوڈنگ سوال کی مشق](#کوڈنگ-سوال-کی-مشق)
-- [کوڈنگ چیلنجز](#کوڈنگ-کے-سوالاتمسائل)
-
-### مطالعہ کے موضوعات
-
-- [الگورتھمک پیچیدگی / بگ-او / اسیمپٹوٹک تجزیہ(Algorithmic complexity / Big-O / Asymptotic analysis)](#الگورتھمک-پیچیدگی--بگ-او--اسیمپٹوٹک-تجزیہ)
-- [ڈیٹا سٹرکچرز(Data Structures)](#ڈیٹا-سٹرکچرز)
-    - [آرے (Arrays)](#arrays)
-    - [لنکڈلسٹ (Linked Lists)](#linked-lists)
-    - [سٹیک (Stack)](#stack)
-    - [کیو (Queue)](#queue)
-    - [ہیش ٹیبل (Hash table)](#hash-table)
-- [مزید معلومات](#مزید-معلومات)
-    - [بینری سرچ (Binary search)](#binary-search)
-    - [بٹ وائزاپریشنز (Bitwise operations)](#bitwise-operations)
-- [ٹریز (Trees)](#trees)
-    - [ٹریز - تعارف](#trees---intro)
-    - [بینری سرچ ٹریز (Binary search trees: BSTs)](#binary-search-trees-bsts)
-    - [ہیپ / پریاٹری کیو / بینری ہیپ (Heap / Priority Queue / Binary Heap)](#heap--priority-queue--binary-heap)
-    - بیلنسڈ سرچ ٹریز - عمومی جائزہ (balanced search trees - general concept, not details)
-    - ٹریورسل (traversals: preorder, inorder, postorder, BFS, DFS)
-- [ترتیب / سارٹنگ (Sorting)](#sorting)
-    - سلیکشن (selection)
-    - انسرشن (insertion)
-    - ہیپ سارٹ (heapsort)
-    - کوک سارٹ (quicksort)
-    - مرج سارٹ (merge sort)
-- [گرافس (Graphs)](#graphs)
-    - ڈریکٹڈ (directed)
-    - انڈریکٹڈ (undirected)
-    - اڈجیسنسی میٹرکس (adjacency matrix)
-    - اڈجیسنسی لسٹ (adjacency list)
-    - ٹریورسل (traversals: BFS, DFS)
-- [اس سے بھی زیادہ معلومات](#اس-سے-بھی-زیادہ-معلومات)
-    - [رکرین / تکرار (Recursion)](#recursion)
-    - [ڈینیمک پروگرامنگ](#dynamic-programming)
-    - [ڈیزائن پیٹرن](#design-patterns)
-    - [امتزاج (n منتخب k) اور امکان](#combinatorics-n-choose-k--probability)
-    - [تخمینہ الگورتھم ،NPاورNP-مکمل (NP, NP-Complete and Approximation Algorithms)](#np-np-complete-and-approximation-algorithms)
-    - [How computers process a program](#how-computers-process-a-program)
-    - [کیچز](#caches)
-    - [پروسسزاور تھریڈز](#processes-and-threads)
-    - [ٹیسٹنگ](#testing)
-    - [سٹرنگ تلاش کرنا اور تبدیل کرنا](#string-searching--manipulations)
-    - [ٹرایز (Tries)](#tries)
-    - [اعشاریہ کے ساتھ نمبر](#floating-point-numbers)
-    - [یونیکوڈ](#unicode)
-    - [اینڈیاننس](#endianness)
-    - [نیٹ ورکنگ](#networking)
-- [حتمی جائزہ](#حتمی-جائزہ)
-
-### ملازمت حاصل کرنا
-
-- [اپنا ریزومےاپ ڈیٹ کریں](#اپنے-ریزیومے-کو-اپ-ڈیٹ-کریں)
-- [نوکری تلاش کریں](#find-a-job)
-- [انٹرویو کا عمل اور عام انٹرویو کی تیاری](#انٹرویو-کا-عمل-اور-عام-انٹرویو-کی-تیاری)
-- [اپنے انٹرویو لینے والے کی طرح سوچیں۔](#اپنے-انٹرویو-لینے-والے-کی-طرح-سوچیں)
-- [انٹرویو لینے والے کے لیے سوالات](#انٹرویو-لینے-والے-کے-لیے-سوالات)
-- [ایک بار جب آپ کو نوکری مل جائے گی۔](#ایک-بار-جب-آپ-کو-نوکری-مل-جائے-گی)
-
----------------- ذیل کی چیزیں اختیاری ہیں ----------------
-
-## اختیاری اضافی عنوانات اور مواد
-
-- [اضافی کتابیں](#additional-books)
-- [سسٹم ڈیزائن، اسکیل ایبلٹی، ڈیٹا ہینڈلنگ](#system-design-scalability-data-handling) (اگر آپ کو 4 سال سے زیادہ کا تجربہ ہے۔)
-- [اضافی معلومات](#additional-learning)
-    - [کمپائلر](#compilers)
-    - [ایماکس اور vi(m)](#emacs-and-vim)
-    - [یونکس کمانڈ لائن ٹولز](#unix-command-line-tools)
-    - [انفارمیشن تھیوری](#information-theory-videos)
-    - [پیرٹی اور ہیمنگ کوڈ](#parity--hamming-code-videos)
-    - [اینٹروپی](#entropy)
-    - [خفیہ نگاری (Cryptography)](#cryptography)
-    - [کمپریشن](#compression)
-    - [کمپیوٹر سیکیورٹی](#computer-security)
-    - [گاربیج کلیکشن](#garbage-collection)
-    - [پیرالل پروگرامنگ](#parallel-programming)
-    - [پیغام رسانی، سیریلائزیشن، اور قطار لگانے کے نظام (Messaging, Serialization, and Queueing Systems)](#messaging-serialization-and-queueing-systems)
-    - [اے سٹار (A*)](#a)
-    - [فاسٹ فوئیر ٹرانسفارم](#fast-fourier-transform)
-    - [بلوم فلٹر](#bloom-filter)
-    - [ہائپر لاگ لاگ](#hyperloglog)
-    - [لوکلٹی سنسٹیو ہیشنگ](#locality-sensitive-hashing)
-    - [وین ایمڈ بوس ٹریز](#van-emde-boas-trees)
-    - [اگیومینٹڈ ڈیٹا سٹرکچر](#augmented-data-structures)
-    - [بیلنسڈ سرچ ٹریز](#balanced-search-trees)
-        - اے وی ایل ٹریز
-        - سپلے ٹریز
-        - رڈ/بلیک ٹریز
-        - ۳-۲ سرچ ٹریز
-        - ۴-۳-۲ سرچ ٹریز(۲-۴ ٹریز)
-        - این-ارے(کے-ارے،ایم-ارے) ٹریز (N-ary (K-ary, M-ary) trees)
-        - بی - ٹریز
-    - [کے-ڈی ٹریز](#k-d-trees)
-    - [سکپ لسٹ](#skip-lists)
-    - [نیٹ ورک فلو](#network-flows)
-    - [منقطع سیٹ اور یونین تلاش کریں](#disjoint-sets--union-find)
-    - [فاسٹ پروسیسنگ کے لیے حساب](#math-for-fast-processing)
-    - [ٹریپ](#treap)
-    - [لینیرپروگرامنگ](#linear-programming-videos)
-    - [جیومیٹری، کنویکس ہل](#geometry-convex-hull-videos)
-    - [مجرد ریاضی](#discrete-math)
-- [کچھ مضامین پر اضافی تفصیل](#additional-detail-on-some-subjects)
-- [ویڈیو سیریز](#video-series)
-- [کمپیوٹر سائنس کورسز](#computer-science-courses)
-- [پیپرز](#papers)
+**Benodighede:**
+* 'n Bietjie ondervinding met kodrering (veranderlikes, lusse, metodes/funksies, ens)
+* Geduld
+* Tyd
+  
+Let wel dat die 'n studieplan vir 'n **sagteware ingeneur** pos is, nie 'n webontwikkeling pos nie. Groot maatskappeie soos Google, Amazon,
+Facebook en Microsoft sien sagteware ingeneurs as verskilled van webontwikkeling ingeneurs. Byvoorbeeld, Amazon het
+Frontend Ingeneurs (FEE) en Sagteware Ontwikkeling Ingeneurs (SDE). Die is 2 verskeie rolle en die onderhoude verskil,
+omdat elkeen sy eie bevoegdhede het. Dié maatskappeie benodig rekenaar wetenskap kennis vir
+sagteware ontwikkeling/ingeneur rolle.
 
 ---
 
-## اسے کیوں استعمال کریں؟
+## Inhoudsopgawe
 
-اگر آپ کسی بڑی کمپنی میں سافٹ ویئر انجینئر کے طور پر کام کرنا چاہتے ہیں تو یہ وہ چیزیں ہیں جو آپ کو جاننا ہوں گی۔
+### Die Studie Plan
 
-اگر آپ میری طرح کمپیوٹر سائنس میں ڈگری حاصل کرنے سے محروم رہ گئے تو اس سے آپ کی زندگی کے چار سال بچ جائیں گے۔
+- [Wat is dit?](#wat-is-dit)
+- [Hoekom gebruik dit?](#hoekom-gebruik-dit)
+- [Hoe om dit te gebruik](#hoe-om-dit-te-gebruik)
+- [Moenie voel asof jy nie slim genoeg is nie](#moenie-voel-asof-jy-nie-slim-genoeg-is-nie)
+- ['n Nota Oor Video Hulpbronne](#n-nota-oor-video-hulpbronne)
+- [Kies 'n Programmeeringstaal](#kies-n-programmeeringstaal)
+- [Boeke vir Datastrukture en Algoritmes](#boeke-vir-datastrukture-en-algoritmes)
+- [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereidingsboeke)
+- [Moenie My Foute Maak Nie](#moenie-my-foute-maak-nie)
+- [Wat Jy Nie Sal Sien Gedek Word Nie](#wat-jy-nie-sal-sien-gedek-word-nie)
+- [Die Daaglikse Plan](#die-daaglikse-plan)
+- [Kodering Vrae Beoefening](#kodering-vrae-beoefening)
+- [Kodering Probleme](#kodering-probleme)
 
-جب میں نے یہ پروجیکٹ شروع کیا تھا، مجھےہیپ ، بگ-O یا ٹریز جیسا کچھ  معلوم نہیں تھا،نہ ہی یہ معلوم تھا کہ گراف کے ساتھ کام کیسے کرتےہیں. اگر مجھے سورٹنگ الگورتھم کو کوڈ کرنا ہوتا تو میں آپ کو بتا سکتا ہوں کہ یہ میے لیے بہت مشکل کام تھا۔
-ہر ڈیٹا سٹرکچر جو میں نے کبھی استعمال کیا تھا مجھے نہیں معلوم تھا کہ وہ کیسے کام کرتاہے۔ مجھے کبھی بھی میموری کو سنبھالنے کی ضرورت نہیں تھی جب تک کہ میں جس پروسس کو چلا رہا ہوں اسے "میموری آؤٹ" کا ایرر نہیں ملتا تھا۔ میں نے اپنی زندگی میں چند کثیر جہتی اریزاورہزاروں ایسوسی ایٹیو ارےکا استعمال کیا، لیکن میں نے کبھی بھی شروع سے ڈیٹا سٹرکچرز نہیں بنائے۔
+## Onderwerpe om te Studeer
 
-یہ ایک طویل منصوبہ ہے۔ اس میں آپ کو مہینے لگ سکتے ہیں۔ اگر آپ پہلے ہی اس میں سے بہت کچھ سے واقف ہیں تو اس میں آپ کو بہت کم وقت لگے گا۔
+- [Algoritmiese Kompleksiteit / Big-O / Asimptotiese analise](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Datastrukture](#datastrukture)
+    - [Skikkings](#skikkings)
+    - [Linked Lists](#linked-lists)
+    - [Stack](#stack)
+    - [Queue](#queue)
+    - [Hash table](#hash-table)
+- [Meer Kennis](#meer-kennis)
+    - [Binary search](#binary-search)
+    - [Bitwise operations](#bitwise-operations)
+- [Bome](#bome)
+    - [Bome - Notas & Agtergrond](#bome---notas--agtergrond)
+    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - balanced search trees (general concept, not details)
+    - traversals: preorder, inorder, postorder, BFS, DFS
+- [Sorting](#sorting)
+    - selection
+    - insertion
+    - heapsort
+    - quicksort
+    - merge sort
+- [Grafieke](#grafieke)
+    - directed
+    - undirected
+    - adjacency matrix
+    - adjacency list
+    - traversals: BFS, DFS
+- [Nog Meer Kennis](#nog-meer-kennis)
+    - [Recursion](#recursion)
+    - [Dinamiese Programering](#dinamiese-programering)
+    - [Ontwerp Patrone](#ontwerp-patrone)
+    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+    - [NP, NP-Complete en Approximation Algorithms](#np-np-complete-en-approximation-algorithms)
+    - [Hoe rekenare 'n program proseseer](#hoe-rekenare-n-program-proseseer)
+    - [Caches](#caches)
+    - [Prosesse en Threads](#prosesse-en-threads)
+    - [Toets](#toets)
+    - [String searching & manipulations](#string-searching--manipulations)
+    - [Bome](#bome)
+    - [Floating Point Numbers](#floating-point-numbers)
+    - [Unicode](#unicode)
+    - [Endianness](#endianness)
+    - [Networking](#networking)
+- [Finale revisie](#finale-revisie)
 
-## اسے کیسے استعمال کریں
+### Kry die Werk
 
-نیچے دی گئی ہر چیز ایک خاکہ ہے، اور آپ کو اشیاء کو اوپر سے نیچے تک ترتیب سے نمٹنا چاہیے۔
+- [Werk Jou CV By](#werk-jou-cv-by)
+- [Kry 'n Werk](#kry-n-werk)
+- [Onderhoudproses & Algemene Voorbereiding](#onderhoudproses--algemene-voorbereiding)
+- [Dink aan vir wanneer die onderhoud kom](#dink-aan-vir-wanneer-die-onderhoud-kom)
+- [Hê vrae vir die onderhoudvoerder](#he-vrae-vir-die-onderhoudvoerder)
+- [Sodra Jy Die Werk Het](#sodra-jy-die-werk-het)
 
-میں GitHub کا خصوصی مارک ڈاؤن ورژن استعمال کر رہا ہوں، جس میں پیش رفت کو ٹریک کرنے کے لیے ٹاسک کی فہرست شامل ہے۔
-  - [GitHub-flavored markdown کے بارے میں مزید](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+**---------------- Alles hieronder is opsioneel ----------------**
 
-### اگر آپ گٹ استعمال نہیں کرنا چاہتے
+### Opsionele Ekstra Onderwerpe & Hulpbronne
 
-اس صفحہ پر، اوپر کے قریب کوڈ(Code) بٹن پر کلک کریں، پھر "زپ ڈاؤن لوڈ کریں(Download Zip)" پر کلک کریں۔ فائل کو ان زپ کریں اور آپ ٹیکسٹ فائلوں کے ساتھ کام کر سکتے ہیں۔
+- [Bykomende Boeke](#bykomende-boeke)
+- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (as jy 4+ jaar ondervinding het)
+- [Bykomende Leer](#bykomende-leer)
+    - [Compilers](#compilers)
+    - [Emacs en vi(m)](#emacs-en-vim)
+    - [Unix command line tools](#unix-command-line-tools)
+    - [Inligtingsteorie](#inligtingsteorie-videos)
+    - [Parity & Hamming Kode](#parity--hamming-kode-videos)
+    - [Entropy](#entropy)
+    - [Cryptography](#cryptography)
+    - [Compression](#compression)
+    - [Rekenaar Sekuriteit](#rekenaar-sekuriteit)
+    - [Garbage collection](#garbage-collection)
+    - [Parallel Programming](#parallel-programming)
+    - [Messaging, Serialization, en Queueing Systems](#messaging-serialization-en-queueing-systems)
+    - [A*](#a)
+    - [Vinnige Fourier Transform](#vinnige-fourier-transform)
+    - [Bloom Filter](#bloom-filter)
+    - [HyperLogLog](#hyperloglog)
+    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
+    - [van Emde Boas Trees](#van-emde-boas-trees)
+    - [Augmented Data Structures](#augmented-data-structures)
+    - [Balanced search trees](#balanced-search-trees)
+        - AVL trees
+        - Splay trees
+        - Red/black trees
+        - 2-3 search trees
+        - 2-3-4 Trees (aka 2-4 trees)
+        - N-ary (K-ary, M-ary) trees
+        - B-Trees
+    - [k-D Bome](#k-d-bome)
+    - [Skip lists](#skip-lists)
+    - [Network Flows](#network-flows)
+    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
+    - [Wiskunde vir Vinnige Verwerking](#wiskunde-vir-vinnige-verwerking)
+    - [Treap](#treap)
+    - [Lineêre Programering](#lineêre-programering-videos)
+    - [Geometry, Convex hull](#geometry-convex-hull-videos)
+    - [Diskrete wiskunde](#diskrete-wiskunde)
+    - [Masjienleer](#masjienleer)
+- [Bykomende Detail op Sommige Vakke](#bykomende-detail-op-sommige-vakke)
+- [Video Reeks](#video-reeks)
+- [Rekenaar Wetenskap Kursusse](#rekenaar-wetenshap-kursusse)
+- [Papiere](#papiere)
 
-اگر آپ ایک کوڈ ایڈیٹر میں کھول رہے ہیں جو مارک ڈاؤن کو سمجھتا ہے، تو آپ کو ہر چیز اچھی طرح سے فارمیٹ کی ہوئی نظر آئے گی۔
+---
 
-![ریپو کو زپ فائل کے طور پر کیسے ڈاؤن لوڈ کریں۔](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
+## Hoekom gebruik dit?
 
-### اگر آپ گٹ کے ساتھ کام کر سکتے ہیں
+As jy wil werk as 'n sagteware ingeneur vir 'n groot maatskappy, hierdie is die goed wat jy moet ken.
 
-ایک نئی برانچ بنائیں تاکہ آپ اس طرح کے آئٹمز کو چیک کر سکیں، صرف بریکٹ میں ایک x لگائیں: [x]
+As jy uitgemis het op 'n rekenaar wetenskap graad, soos ek het, sal hierdie jou laat opvang en vier jaar van jou lewe spaar.
 
- ۱. ***گٹ ہب (GitHub) ریپو*** `https://github.com/jwasham/coding-interview-university` کوفورک بٹن پر کلک کرکے فورک کریں۔
+Toe ek hierdie projek begin het, kon ek nie verskil tussen 'n stapel en 'n hoop nie, het niks van Big-O geweet nie, of enige iets van bome nie, of hoe om
+'n grafiek te dwars nie. As ek 'n sorteer algoritme moes kode, kan ek jou verseker dit was verskriklik.
+Elke datastruktuur wat ek ooit moes gebruik was ingebou in die taal, end ek het nie geweet hoe hulle werk
+onder die kap nie. Ek het nooit nodig gehaad of geheue te bestuur nie, tensy 'n proses vir my 'n "te min
+beskikbare geheue" fout gegee het, en dan moes ek 'n ander oplossing kry. Ek het 'n paar multidimensionele skikkings
+in my lewe gebruik en duisende assosiatiewe skikkings, maar ek hoef nooit 'n datastruktuur van nuut af gebou het nie.
 
-    ![GitHub ریپو کو فورک کریں:](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
+Dis 'n lang plan. Dit gaan maande vat. As jy klaar gemaklik met baie van dié is gaan dit jou baie minder tyd vat.
 
-۲. اپنی لوکل ریپو پر کلون کریں:
+## Hoe om dit te gebruik?
 
-    ```
+Alles hieronder is 'n uitlyn, en jy moet elke item aan pak in orde van bo tot onder.
+
+Ek gebruik Github se spisiale markdown flavor, insluitend taaklyste om vordering te volg.
+  - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+
+### As jy nie git wil gebruik nie
+
+Op dié blad, kliek die Code knop naby die bookant, dan kliek "Download ZIP". Unzip die lêer en jy kan werk met die teks lêers.
+
+As jy in 'n kode redakteur is wat markdown verstaan, sal jy sien alles is mooi geformateer.
+
+![Hoe om die repo af te laai as 'n zip lêer](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
+
+### As jy gemaklik met git is
+
+Skep 'n nuwe tak sodat jy items soos dié kan merk, sit net 'n x in die hakies: [x]
+
+    Virk 'n tak en vold die bevele hieronder
+
+Virk die Github repo https://github.com/jwasham/coding-interview-university deur om die Fork knop to druk.
+
+Kloon na jou plaaslike repo:
+
     git clone git@github.com:<your_github_username>/coding-interview-university.git
-    cd coding-interview-university
     git checkout -b progress
     git remote add jwasham https://github.com/jwasham/coding-interview-university
     git fetch --all
-    ```
 
-۳. اپنی تبدیلیاں مکمل کرنے کے بعد تمام خانوں کو X کے ساتھ نشان زد کریں:
+Merk al die bokse met X nadat jy jou veranderinge voltooi het:
 
-    ```
     git add .
     git commit -m "Marked x"
     git rebase jwasham/main
     git push --set-upstream origin progress
     git push --force
-    ```
 
-## اپنے آپ کو کم مت سمجھو
+## Moenie voel asof jy nie slim genoeg is nie
 
-- کامیاب سافٹ ویئر انجینئرز ہوشیار ہوتے ہیں، لیکن بہت سے لوگوں کو یہ عدم تحفظ ہوتا ہے کہ وہ اتنے ہوشیار نہیں ہیں۔
-- مندرجہ ذیل ویڈیوز آپ کو اس عدم تحفظ پر قابو پانے میں مدد کر سکتی ہیں:
-    - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-    - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- Suksesvolle sagteware ingeneurs is slim, maar baie het onsekerhede dat hulle nie slim genoeg is nie.
+- [Die mite van die Geniale Programeerder](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Dit is Gevaarlik om Alleen te Gaan: Struikel teen die Onsigbare Monsters in Tegnologie](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## ویڈیو وسائل کے بارے میں ایک نوٹ
+## 'n Nota Oor Video Hulpbronne
 
-کچھ ویڈیوز صرف Coursera یا EdX کلاس میں داخلہ لے کر دستیاب ہیں۔ یہ MOOCs کہلاتے ہیں۔
-بعض اوقات کلاسز سیشن میں نہیں ہوتیں اس لیے آپ کو چند ماہ انتظار کرنا پڑتا ہے، اس لیے آپ کو رسائی نہیں ہوتی۔
+Sekere videos is net beskikbaar as jy skryf vir 'n kurses in 'n Coursera of EdX klas. Dié is genoem MOOCs.
+Soms is die klasse nie in sessie nie end jy sal moet wag vir 'n paar maande, so jy het nie toegang nie.
 
-آن لائن کورس کے وسائل کو مفت اور ہمیشہ دستیاب عوامی ذرائع سے تبدیل کرنا بہت اچھا ہوگا، جیسے یوٹیوب ویڈیوز (ترجیحی طور پر یونیورسٹی کے لیکچرز)، تاکہ آپ لوگ کسی بھی وقت ان کا مطالعہ کر سکیں، بجاے کہ صرف اس وقت کے جب ایک مخصوص آن لائن کورس سیشن میں ہو۔
+Dit sal wonderlik wees om die aanlyn klasse te vervang met gratis en altyd-beskikbare openbare bronne,
+soos YouTube videos (verkieslik universiteitslesings), sodat julle daarvanaf enige tyd kan leer,
+nie net wanneer 'n spesifieke aanlyn kursus in sessie is nie.
 
-## ایک پروگرامنگ زبان کا انتخاب
+## Kies 'n Programmeeringstaal
 
-آپ جو کوڈنگ انٹرویوز کرتے ہیں اس کے لیے آپ کو پروگرامنگ لینگویج کا انتخاب کرنا ہوگا، 
-لیکن آپ کو ایک ایسی زبان بھی تلاش کرنے کی ضرورت ہوگی جسے آپ کمپیوٹر سائنس کے تصورات کا مطالعہ کرنے کے لیے استعمال کر سکیں۔
+Jy sal 'n programmeringstaal moet kies vir die kodering onderhoude wat jy gaan doen,
+maar jy sal dan ook 'n taal moet kies waarmee jy rekenaar wetenskap konsepte kan leer.
 
-ترجیحی طور پر زبان ایک ہی ہونی چاہیے، تانکہ آپ کو صرف ایک میں مہارت حاصل کرنے کی ضرورت ہو۔
+Verkieslik is die taal dieselfde, sodat jy net vaardigheid in een hoef te bou.
 
-### اس اسٹڈی پلان کے لیے
+### Vir die Studie Plan
 
-جب میں نے مطالعہ کا منصوبہ بنایا تو میں نے اس کے لیے 2 زبانیں استعمال کیں: C اور Python
+Toe ek die studie plan gedoen het, het ek 2 tale gebruik vir meeste van dit: C en Python
 
-* سی (C): نچلی سطح کی زبان۔ آپ کو پوائنٹرز اور میموری ایلوکیشن/ڈی ایلوکیشن سے نمٹنے کی اجازت دیتا ہے، تاکہ آپ اپنی خون میں ڈیٹا سٹرکچر اور الگورتھم کو محسوس کریں۔ پائتھون یا جاوا جیسی اعلیٰ سطح کی زبانوں میں، یہ آپ سے پوشیدہ ہیں۔ روزمرہ کے کام میں، یہ بہت اچھا ہے، لیکن جب آپ یہ سیکھ رہے ہیں کہ یہ نچلے درجے کے ڈیٹا سٹرکچر کیسے بنائے جاتے ہیں، تو جڑ کے قریب محسوس کرنا بہت اچھا ہے۔
-    - سی ہر جگہ ہے۔ جب آپ مطالعہ کر رہے ہوں گے تو آپ کو کتابوں، لیکچرز، ویڈیوز، *ہر جگہ* میں مثالیں نظر آئیں گی۔
-    - [سی پروگرامنگ لینگویج، دوسرا ایڈیشن (The C Programming Language, 2nd Edition)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - یہ ایک مختصر کتاب ہے، لیکن یہ آپ کو C زبان پر بہت اچھا کنٹرول دے گی اور اگر آپ اس پر تھوڑی سی مشق کریں گے تو آپ جلد مہارت حاصل کر لیں گے۔ C کو سمجھنا آپ کو یہ سمجھنے میں مدد کرتا ہے کہ پروگرام اور میموری کیسے کام کرتے ہیں۔
-        - آپ کو کتاب کی بہت گہرائی میں جانے کی ضرورت نہیں ہے (نہ ہی اسے ختم کرنے کی)۔ بس اتنی مہارت حاصل کر لیں کے آپ کو C میں پڑھنے اور لکھنے میں آسانی ہو۔
-        - [کتاب میں موجود سوالات کے جوابات](https://github.com/lekkas/c-algorithms)
-* پائتھون(Python): جدید اور اظہار کرنے میں بہت آسان، میں نے یہ سیکھی کیونکہ یہ بہت مفید ہے اور مجھے انٹرویو میں کم کوڈ لکھنے میں مدد دیتی ہے۔
+* C: Baie lae vlak. Laat jou toe om met pointers en geheue allocation/deallocation te werk, sodat jy die datastrukture en
+    algoritmes voel in jou bene. In hoër vlak tale soos Python en Java word die weggesteek van jou af. In daaglikse werk is dit wonderlik,
+    maar wanneer jy leer hoe die lae-vlak datastrukture gebou is, voel dit lekker om naby die metaal te wees.
+    - C is orals. Jy sal voorbeelde in boeke, lesings, vidoes, en *oral* sien wanner jy studeer.
+    - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Dié is 'n kort boek, maar dit sal jou 'n goeie vat gee oor die C taal en as jy dit 'n bikie oefen sal jy vinnig
+            vaardigheid bou. Deur om C te verstaan help dit jou om te verstaan hoe programme en geheue werk.
+        - Jy hoef nie super diep in die boek te gaan nie (of eens dit klaar te maak nie). Gaan net tot die punt waar jy C gemaklik kan lees en skryf.
+        - [Antwoorde vir vrae in die boek](https://github.com/lekkas/c-algorithms)
+* Python: Modern en baie duur, ek het dit geleer want dis super nuttig en laat my toe om minder kode te skruf in 'n onderhoud.
 
-یہ میری ترجیح ہے۔ تم وہی کرو جو تمہیں پسند ہو۔
+Die is my voorkeur. Doen jy wat vir jou pas, natuurlik.
 
-ہو سکتا ہے آپ کو اس کی ضرورت نہ ہو، لیکن نئی زبان سیکھنے کے لیے یہاں کچھ سائٹیں ہیں:
+Jy mag dit dalk nie nodig kry nie, maar hier is 'n paar webwerwe om jou nuwe taal te leer:
 - [Exercism](https://exercism.org/tracks)
 - [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/for-developers/)
-- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
+- [Sphere Online Judge (spoj)](http://www.spoj.com/)
+- [Codechef](https://www.codechef.com/)
+- [Codeforces](https://codeforces.com/)
 
-### آپ کے کوڈنگ انٹرویو کے لیے
+### Vir jou Kodering Onderhoud
 
-آپ انٹرویو کا کوڈنگ حصہ کرنے کے لیے ایسی زبان استعمال کر سکتے ہیں جس میں آپ کو آسانی ہو، لیکن بڑی کمپنیوں کے لیے یہ بہترین انتخاب ہیں:
+Jy kan 'n taal gebruik waarmee jy gemaklik in is om die kodeering deel van die onderhoud te doen, maar vir groot maatskappye is die goeie besluite:
 
-- سی++ (C++)
-- جاوا (Java)
-- پائتھون (Python)
+- C++
+- Java
+- Python
 
-آپ مندرجہ ذیل کو بھی استعمال کرسکتے ہیں لیکن پہلے پڑھ سکتے ہیں۔ انتباہات ہو سکتے ہیں:
+Jy kan ook dié gebruik, maar lees eers rond. Daar is baie caveats:
 
-- جاوا اسکرپٹ (JavaScript)
-- روبی (Ruby)
+- JavaScript
+- Ruby
 
-یہاں ایک مضمون ہے جو میں نے انٹرویو کے لیے زبان کے انتخاب کے بارے میں لکھا تھا: 
-[کوڈنگ انٹرویو کے لیے ایک زبان چنیں](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-یہ اصل مضمون ہے جس پر میری پوسٹ مبنی تھی: [انٹرویوز کے لیے پروگرامنگ لینگویج کا انتخاب](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
+Hier is 'n artikel wat ek geskryf het oor hoe om 'n taal te kies vir die onderhoud: 
+[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+Hierdie is die oorspronklike artikel wat my pos op basseer was: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
 
-آپ کو زبان میں بہت مہارت اور علم رکھنے کی ضرورت ہے۔
+Jy moet baie gemaklik in die taal wees en kundig.
 
-انتخاب کے بارے میں مزید پڑھیں: 
-- [اپنے کوڈنگ انٹرویو کے لیے صحیح زبان کا انتخاب کریں](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+Lees meer oor besluite:
+- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-[زبان سے متعلق وسائل یہاں دیکھیں](programming-language-resources.md)
+[Sien taal-spesifieke hulpbronne hier](programming-language-resources.md)
 
-## ڈیٹا سٹرکچرز اور الگورتھم کے لیے کتابیں
+## Boeke vir Datastrukture en Algoritmes
 
-یہ کتاب کمپیوٹر سائنس کے لیے آپ کی بنیاد بنائے گی۔
+Die boek sal jou fondasie vir rekenaar wetenskap vorm.
 
-صرف ایک کا انتخاب کریں، ایسی زبان میں جس میں آپ کو مہارت حاصل ہو۔ آپ کو بہت زیادہ پڑھنا اور کوڈنگ کرنا ہوگی۔
+Kies net een, in die taal waarin jy gemaklik sal wees. Jy sal baie lees en kodeering doen.
 
-### سی (C)
+### C
 
-- [سی میں الگورتھم، حصے 1-5 (بنڈل)، تیسرا ایڈیشن](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - بنیادی باتیں، ڈیٹا سٹرکچر، سارٹنگ، تلاش کرنا، اور گراف الگورتھم 
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - Fondasie, Datastrukture, Sorteer, Soek, en Grafiek Algoritmes
 
-### پا ئیتھون (Python)
+### Python
 
-- [پا ئیتھون میں ڈیٹا کے سٹرکچر اور الگورتھم](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - مصنف Goodrich, Tamassia, Goldwasser
-    - مجھے یہ کتاب پسند ہے۔ اس نے ہر چیز کا احاطہ کیا ہے۔
-    - پائتھون کے کوڈ
-    - میری چمکتی ہوئی کتاب کی رپورٹ: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - deur Goodrich, Tamassia, Goldwasser
+    - Ek lief die boek. Dit dek alles en meer.
+    - Pythonic kode.
+    - my gloeiende boekverslag: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
-### جاوا (Java)
+### Java
 
-تمھارا انتخاب:
+Jou besluit:
 
 - Goodrich, Tamassia, Goldwasser
     - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
 - Sedgewick and Wayne:
     - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - مفت کورسیرا کورس جو کتاب کا احاطہ کرتا ہے (مصنفین کے ذریعہ پڑھایا گیا):
+    - Free Coursera course that covers the book (taught by the authors!):
         - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
         - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
-### سی++ (++C)
+### C++
 
-تمھارا انتخاب::
+Jou besluit:
 
 - Goodrich, Tamassia, and Mount
     - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
@@ -362,189 +373,194 @@
     - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
     - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-## انٹرویو کی تیاری کی کتابیں
+## Onderhoud Voorbereïngsboeke
 
-آپ کو ان میں سے بہت زیادہ خریدنے کی ضرورت نہیں ہے۔ ایمانداری سے "کریکنگ دی کوڈنگ انٹرویو(Cracking the Coding Interview)" شاید کافی ہے،
-لیکن میں نے خود کو مزید مشق دینے کے لیے بہت کچھ خریدا۔ لیکن میں ہمیشہ بہت زیادہ کرتا ہوں۔
+Jy hoef nie 'n klomp van die te koop nie. Eerlikwaar is "Craking the Coding Interview" heelwaarskynlik genoeg,
+maar ek het meer gekoop om myself meer oefening te gee. Maar ek doen altyd te veel.
 
-میں نے یہ دونوں خریدے ہیں۔ انہوں نے مجھے کافی مشق دی۔
+Ek het beide van die gekoop. Hulle het vir my genoeg oefening gegee.
 
-- [پروگرامنگ انٹرویوز کا انکشاف: انٹرویو کے ذریعے اپنے راستے کی کوڈنگ، 4th ایڈیشن](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - سی++ (++C) اور جاوا (Java) میں جوابات
-    - کوڈنگ انٹرویو کو کریک کرنے کے لیے یہ ایک اچھی شروعات ہے۔
-    - زیادہ مشکل نہیں۔ زیادہ تر مسائل اس سے آسان ہوسکتے ہیں جو آپ انٹرویو میں دیکھیں گے (اس سے جو میں نے پڑھا ہے)
-- [کریکنگ دی کوڈنگ انٹرویو، چھٹا ایڈیشن](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - جاوا میں جوابات
+- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - Antwoorde in C++ en Java
+    - Hierdie is 'n goeie opwarming vir Cracking the Coding Interview
+    - Nie te moeilik nie. Meeste probleme mag dalk makliker wees as dié in die onderhoud (van wat ek gelees het)
+- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - antwoorde in Java
 
-### اگر آپ کے پاس بہت زیادہ وقت ہے:
+### As jy tonne ekstra tyd het:
 
-ایک کا انتخاب کرو:
+Kies een:
 
-- [پروگرامنگ انٹرویوز کے عناصر (C++ ورژن)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [پا ئیتھون میں پروگرامنگ انٹرویوز کے عناصر](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [پروگرامنگ انٹرویوز کے عناصر (جاوا ورژن)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-        - [ساتھی پروجیکٹ - کتاب میں ہر مسئلے کے لیے ٹیسٹ کیسز](https://github.com/gardncl/elements-of-programming-interviews)
+- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-## میری غلطیاں مت کرنا
+## Moenie My Foute Maak Nie
 
-یہ فہرست کئی مہینوں میں بڑھی، اور ہاں، یہ ہاتھ سے نکل گئی۔
+Hierdie lys het gegroei oor baie maande, en ja, dit het uit die hand geruk.
 
-یہ کچھ غلطیاں ہیں جو میں نے کی تھی۔ تو آپ کو ایک بہتر تجربہ ملے گا۔ اور آپ مہینوں کا وقت بچائیں گے۔
+Hierdie is 'n paar foute wat ek gemaak het sodat jy 'n beter ervaaring het. En jy sal maande se tyd spaar.
 
-### 1. آپ سب یادنہیں رکھ سکیں گے
+### 1. Jy Sal Nie Alles Onthou Nie
 
-میں نے گھنٹوں کی ویڈیوز دیکھی اور کافی نوٹ لیے، اور مہینوں بعد مجھے بہت کچھ یاد نہیں تھا۔ میں نے 3 دن گزارے، اپنے نوٹس پڑھے اور فلیش کارڈز بنائے، تاکہ میں جائزہ لے سکوں۔ مجھے اس سارے علم کی ضرورت نہیں تھی۔
+Ek het ure lank videos gekyk en deeglike notas gevat, en maande later was daar baie wat ek nie meer onthou het nie. Ek het 3 dae spandeer
+om deur my notas te gaan en flitskaarte te maak, sodat ek kon revisie. Ek het nie al daardie kennis nodig gehaad nie.
 
-براہ کرم، پڑھیں تاکہ آپ میری غلطی نہ کریں:
+Asseblief, lees sodat jy nie my foute maak nie:
 
-[کمپیوٹر سائنس کا علم برقرار رکھنا](https://startupnextdoor.com/retaining-computer-science-knowledge/).
+[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
-### 2. فلیش کارڈز استعمال کریں
+### 2. Gebruik flitskaarte
 
-اس مسئلے کو حل کرنے کے لیے، میں نے ایک چھوٹی سی فلیش کارڈز سائٹ بنائی جہاں میں 2 اقسام کے فلیش کارڈز شامل کر سکتا ہوں: جنرل اور کوڈ۔
-ہر کارڈ کی فارمیٹنگ مختلف ہوتی ہے۔ میں نے ایک موبائل مسابقتی ویب سائٹ بنائی ہے، تاکہ میں اپنے فون یا ٹیبلیٹ پر جہاں بھی ہوں، جائزہ لے سکوں۔
+Om die probleem op te los, het ek a klein flitskaart webwerf gemaak waar ek 2 tipe flitskaarte kon byvoeg: algemeen en kode.
+Elke kaart se formatering was verskillend. Ek het 'n mobiele-eerste webwerf gemaak, so ek kon revisie op my foon en tablet, waarookal ek is.
 
-اپنےلیے مفت میں بنائیں:
+Maak jou eie verniet:
 
-- [فلیش کارڈز سائٹ ریپو](https://github.com/jwasham/computer-science-flash-cards)
+- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 
-**میں اپنے فلیش کارڈز استعمال کرنے کا مشورہ نہیں دیتا۔** یہ بہت زیادہ ہیں اور ان میں سے زیادہ تر چیزیں ایسی ہیں جن کی آپ کو ضرورت نہیں ہے۔
+**Ek BEVEEL NIE AAN dat jy my flitskaarte gebruik nie.** Daar is te veel onnodige kaarte wat jy nie nodig het nie.
 
-لیکن اگر آپ میری بات نہیں سننا چاہتے، تو آپ یہاں جائیں:
-- [میرے فلیش کارڈز کا ڈیٹا بیس (1200 کارڈز)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [میرے فلیش کارڈز کا ڈیٹا بیس (انتہائی - 1800 کارڈز)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+Maar as jy nie na my wil luister nie, hier is hulle:
+- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-ذہن میں رکھیں کہ میں اوور بورڈ گیا اور میرے جو کارڈز ہیں ان میں اسمبلی لینگویج اور پائیتھون کی چھوٹی معلومات سے لے کر مشین لرننگ اور اعدادوشمار تک ہر چیز کا احاطہ کیا گیا ہے۔
-جو کے ضرورت سے بہت زیادہ ہے۔
+Hou in gedagte dat ek oorboord gegaan het en het kaarte wat alles van assembly taal en Python trivia na masjien leer en statistiek dek.
+Dit te veel vir wat nodig is.
 
-**فلیش کارڈز پر نوٹ:** پہلی بار جب آپ پہچانیں گے کہ آپ کو جواب معلوم ہے تو اسے معلوم کے طور پر نشان زد نہ کریں۔ایک ہی کارڈ دیکھیں
- اور اس کا کئی بار صحیح جواب دیں اس سے پہلے کہ آپ واقعی اسے نشان زدہ کریں۔ تکرار اس علم کو آپ کا دماغ کی مزید گہرائی میں اتار دے گی۔
+**Nota op flitskaarte:** Die eerste keer wat jy erken dat jy die anwoord ken, moenie dit as ken merk nie. Jy moet dieselfde
+kaart sien en dit vele kere reg beantwoord voordat jy regtig dit ken. Herhaling sal die kennis diepier
+in jou brein berê.
 
-میری فلیش کارڈ سائٹ کو استعمال کرنے کا ایک متبادل ہے [Anki](http://ankisrs.net/)، جو مجھے متعدد بار تجویز کیا گیا ہے۔ 
-یہ آپ کو یاد رکھنے میں مدد کے لیے تکرار کا نظام استعمال کرتا ہے۔ یہ صارف دوست ہے، تمام پلیٹ فارمز پر دستیاب ہے اور اس میں کلاؤڈ سنک سسٹم ہے۔
-ای-اہ-ایس (iOS) پر اس کی قیمت $25 ہے لیکن دوسرے پلیٹ فارمز پر مفت ہے۔
+As 'n alternatief na my flitskaart webwerf is [Anki](http://ankisrs.net/), wat vir my voorgestel is talle kere.
+Dit gebruik 'n herhalingssisteem om te help onthou. Dit gebruikers-vriendelik, beskikbaar op alle platforms en het 'n wolk sync sisteem.
+Dit kos $25 op iOS maar is verniet op ander platforms.
 
-انکی (Anki)فارمیٹ میں میرا فلیش کارڈ ڈیٹا بیس: https://ankiweb.net/shared/info/25173560 (شکریہ [@xiewenya](https://github.com/xiewenya)).
+My flitskaart databasis in Anki formaat: https://ankiweb.net/shared/info/25173560 (dankie [@xiewenya](https://github.com/xiewenya)).
 
-کچھ طلباء نے سفید جگہ کے ساتھ فارمیٹنگ کے مسائل کا ذکر کیا ہے جنہیں درج ذیل کام کرکے حل کیا جا سکتا ہے: ڈیک کھولیں، کارڈ میں ترمیم کریں، کارڈز پر کلک کریں، "اسٹائلنگ" ریڈیو بٹن کو منتخب کریں، کارڈ کی کلاس میں  ";white-space: pre" ممبر کو شامل کریں۔
+Sommige studente het 'n kwessie na vore gebring dat daar wit spasie is in die formatering wat reg gemaak kan word met die volgende stappe: open deck, edit card, kliek cards, kies die "styling" radio knop, verg by die member "white-space: pre;" aan die einde van die card class.
 
-### 3. جب آپ سیکھ رہے ہوں تو کوڈنگ انٹرویو کے سوالات کریں
+### 3. Doen Kodering Onderhoud Vrae Terwyl Jy Leer
 
-یہ بہت اہم ہے.
+HIERDIE IS BAIE BELANGRIK.
 
-جب آپ ڈیٹا سٹرکچر اور الگورتھم سیکھ رہے ہوں تو انٹرویو کے سوالات کو کوڈنگ کرنا شروع کریں۔
+Begin met die kodering onderhoud vrae terwyl jy datastrukture en algoritmes leer.
 
-آپ جو سیکھ رہے ہیں اسے مسائل کو حل کرنے کے لیے لاگو کرنے کی ضرورت ہے، ورنہ آپ بھول جائیں گے۔ میں نے یہ غلطی کی۔ 
+Jy moet toepas wat jy leer om probleme op te los, of jy sal vergeet. Ek het die fout gemaak.
 
-ایک بار جب آپ نے کوئی موضوع سیکھ لیا، اور اس میں کسی حد تک مہارت محسوس کریں، مثال کے طور پر، **لنکڈلسٹ**:
-1. ان میں سے ایک کھولیں [کوڈنگ انٹرویو کی کتابیں](#interview-prep-books) (یا مندرجہ ذیل کوڈنگ سوالات ویب سائٹس) 
-2. لنکڈلسٹ سے متعلق 2 یا 3 سوالات کریں۔ 
-3. اگلے موضوع کی طرف بڑھیں۔
-4. بعد میں، واپس جائیں اور لنکڈ لسٹ کے مزید 2 یا 3 سوالات کریں۔
-5. یہ ہر نئے موضوع کے ساتھ کریں جو آپ سیکھتے ہیں۔ 
+Sodra jy 'n onderwerp geleer het, en voel sowat gemaklik met dit, byvoorbeeld, **linked lists**:
+1. Maak een van die [Onderhoud Voorbereïngsboeke](#onderhoud-voorbereidingsboeke) (of kodering probleem webwerve, onder gelys) oop
+2. Doen 2 of 3 vrae met betrekking tot linked lists.
+3. Beweeg aan na die volgende onderwerp.
+4. Later, gaan terug en doen nog 2 of 3 linked list probleme.
+5. Doen hierdie met elke nuwe onderwerp wat jy leer.
 
-**جب آپ یہ سب چیزیں سیکھ رہے ہوں تو سوالات کرتے رہیں، اس کے بعد نہیں۔**
+**Hou aan probleme doen terwyl jy al hierdie goed leer, nie na die tyd nie.**
 
-آپ کو علم کی وجہ سے نوکری پر نہیں رکھا جا رہا ہے، بلکہ آپ کو اس لیے رکھا گیا ہے کہ آپ علم کو کیسے استعمال کرتے ہیں۔
+Jy word nie aangestel vir kennis nie, maar hoe jy die kennis toepas.
 
-ذیل میں اس کے لیے بہت سے وسائل موجود ہیں۔ کام جاری رکھیں۔
+Daar is baie hulpbronne vir dié glys onder. Gaan voort.
 
-### 4. توجہ
+### 4. Fokus
 
-بہت سارے خلفشار ہیں جن میں قیمتی وقت لگ سکتا ہے۔ توجہ اور ارتکاز مشکل ہے۔ کچھ میوزک آن کریں۔
-دھن کے بغیر اور آپ اچھی طرح توجہ مرکوز کر سکیں گے۔
+Daar is 'n klomp afleidings wat jou kosbare tyd kan opvat. Fokus en konsentreer is moelik. Sit musiek
+aan sonder lirieke en jy sal in staat wees of goed te fokus.
 
-## جو آپ نہیں سیکھیں گے
+## Wat Jy Nie Sal Sien Gedek Word Nie
 
-یہ مروجہ ٹیکنالوجیز ہیں لیکن اس اسٹڈی پلان کا حصہ نہیں ہیں:
+Hierdie is algemene tegnologie maar is nie deel van hierdie studie plan nie:
 
-- جاوا اسکرپٹ
-- فرنٹ اینڈ ٹیکنالوجیز اور HTML، CSS 
-- ایس کیو ایل (SQL)
+- SQL
+- Javascript
+- HTML, CSS, en ander front-end tegnologie.
 
-## روزانہ کا منصوبہ
+## Die Daaglikse Plan
 
-یہ کورس بہت سارے مضامین پر مشتمل ہے۔ ہر ایک میں شاید آپ کو کچھ دن لگیں گے، یا شاید ایک ہفتہ یا اس سے بھی زیادہ۔ یہ آپ کے شیڈول پر منحصر ہے۔
+Die kursus gaan oor baie onderwerpe. Elkeen sal heerwaarskynlik jou 'n paar dae vat, of dalk tog 'n week of meer. Dit hang af van jou skedule.
 
-ہر روز، فہرست سے اگلا مضمون لیں، اس موضوع کے بارے میں کچھ ویڈیوز دیکھیں، اور پھر اس ڈیٹا سٹرکچر یا الگورتھم کا، اس زبان میں جو آپ نے اس کورس کے لیے منتخب کی ہے ،کاایک کوڈ لکھیں۔
+Elke dag, vat die volgende onderwerp op die lys, kyk 'n paar videos oor daardie onderwerp, en dan skryf 'n implimentering
+van daardie datastruktuur of algoritme in die taal wat jy gekies het vir hierdie kursus.
 
-آپ میرا کوڈ یہاں دیکھ سکتے ہیں:
+Jy kan my kode hier sien:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-آپ کو ہر الگورتھم کو حفظ کرنے کی ضرورت نہیں ہے۔ آپ کو صرف اتنا سمجھنے کی ضرورت ہے کہ آپ اپنا کوڈ لکھ سکیں۔
+Jy hoef nie elke algoritme the memoriseer nie. Jy moet net dit genoeg verstaan om jou eie implimenteering te skryf.
 
-## کوڈنگ سوال کی مشق
+## Kodering Vrae Beoefening
 
-    ابھی کیوں؟ میں انٹرویو کے لیے تیار نہیں ہوں۔
+    Hoekom is dié hier? Ek's nie gereed vir onderhoude nie.
 
-[توپھر واپس جا کر یہ پڑھیں۔](#3-do-coding-interview-questions-while-youre-learning)
+[Dan gaan terug en lees die.](#3-doen-kodering-onderhoud-vrae-terwyl-jy-leer)
 
-آپ کو پروگرامنگ کی مشقیں کرنے کی کیوں ضرورت ہے:
-- سوال کی شناخت، اور کہاں صحیح ڈیٹا اسٹرکچر اور الگورتھم فٹ ہوتے ہیں
-- سوال کے تقاضوں کو سمجھنا
-- سوال کے ذریعے اپنے طریقے سے بات کرنا جیسا کہ آپ انٹرویو میں کریں گے
-- کمپیوٹر کے بجائے وائٹ بورڈ یا کاغذ پر کوڈنگ
-- اپنے حل کے لیے وقت اور میموری کی اصلاح کے بارے میں سوچنا (نیچے بگ-او دیکھیں)
-- اپنے جوابات کی جانچ کرنا
+Hoekom jy oplossings na programeringprobleme moet oefen:
+- Probleem erkenning, en waar die regte datastrukture en algoritmes inpas
+- Versameling van vereistes vir die probleem
+- Praat oor hoe jy die probleem oplos soos jy sal in die onderhoud
+- Kodering op 'n wit bord of papier, nie 'n rekenaar nie
+- Om te formuleer wat die tyd-en-spasie-kompleksiteit vir jou oplossing is (sien Big-O onder)
+- Toets jou oplossing
 
-یہ انٹرویو میں سوال حل کرنے کے طریقہ کار، اور بات چیت کے طریقے کا ایک بہترین تعارف ہے۔ آپ کو یہ پروگرامنگ انٹرویو کی کتابوں سے بھی ملے گا، لیکن مجھے یہ شاندار معلوم ہوا:
-[الگورتھم ڈیزائن کینوس (Algorithm design canvas)](http://www.hiredintech.com/algorithm-design/)
+Daar is 'n wonderlike inleiding vir metodiese, kommunikatiewe probleem oplossing in 'n onderhoud. Jy sal dié ook van die
+programmeering boeke kry, maar ek het die uitstekend gevind:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-وائٹ بورڈ یا کاغذ پر کوڈ لکھیں، کمپیوٹر پر نہیں۔ کچھ نمونے کے جوابات کے ساتھ ٹیسٹ کریں۔ پھر اسے ٹائپ کریں اور کمپیوٹر پر اس کی جانچ کریں۔
+Skryf kode op 'n wit bord of papier, nie 'n rekenaar nie. Toets met sommige insette. Dan tik en toets dit op 'n rekenaar.
 
-اگر آپ کے پاس گھر میں وائٹ بورڈ نہیں ہے تو آرٹ اسٹور سے ایک بڑا ڈرائنگ پیڈ لیں۔ آپ صوفے پر بیٹھ کر مشق کر سکتے ہیں۔
-یہ میرا "صوفہ وائٹ بورڈ" ہے۔ میں نے صرف دکھانے کے لیے تصویر میں قلم شامل کیا۔ اگر آپ قلم استعمال کرتے ہیں، تو آپ چاہیں گے کہ آپ اسے مٹابھی سکیں۔
-کیونکہ یہ جلدی گندا ہو جاتا ہے. **میں پنسل اور صافی کا استعمال کرتا ہوں۔**
+As jy nie 'n wit bord by die huis het nie, tel 'n groot skryfblad op by die kuns winkel. Jy kan sit op die bank en oefen.
+Dié is my "sofa whiteboard". Ek het die pen in die foto gesit vir skaal. As jy 'n pen gebruik gaan jy wens jy kon dit uitvee.
+Word baie morsig. **Ek gebruik 'n potlood en uitveër.**
 
-![میرا صوفہ وائٹ بورڈ](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-**کوڈنگ سوال کی مشق پروگرامنگ کے مسائل کے جوابات کو یاد کرنے کے بارے میں نہیں ہے۔**
+**Kodering vrae oefening is nie oor oplossings van programmering probleme memoriseer nie.**
 
-## کوڈنگ کے سوالات/مسائل
+## Kodering Problem
 
-اپنی اہم کوڈنگ انٹرویو کی کتابوں کو مت بھولنا [یہاں](#interview-prep-books).
+Moenie jou sleutel kodering onderhoud boeke vergeet [hier](#onderhoud-voorbereidingsboeke) nie.
 
-سوالات حل کرنا:
-- [حل تلاش کرنے کا طریقہ](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
-- [ٹاپ کوڈر پرابلم اسٹیٹمنٹ کو ڈسیکٹ کرنے کا طریقہ](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+Probleme Oplos:
+- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
 
-کوڈنگ انٹرویو سوال کی ویڈیوز:
-- [IDeserve (88 ویڈیوز)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
-- [Tushar Roy (5 پلے لسٹس)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - سوالات کے حل کے لیے بہترین
-- [Nick White - LeetCode Solutions (187 ویڈیوز)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - حل اور کوڈ کی اچھی وضاحت
-    - آپ مختصر وقت میں کئی دیکھ سکتے ہیں۔
+Kodering Onderhoud Vrae Videos:
+- [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Super om deur oplossings vir die kode te loop
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Goeie verduidelikings van oplossings en die kode
+    - Jy kan 'n klomp kyk in 'n klein tyd
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+- [Neetcode - BLIND 75 LeetCode Solutions](https://www.youtube.com/watch?v=KLlXCFG5TnA&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+    - Goeie verduidelikings van die oplossings en die python kode
+    - Sien ook [excel sheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0) vir all die vrae lyste
+    - [Github links](https://github.com/neetcode-gh/leetcode) vir al die oplossing lyste
+    - [Neetcode 150](https://neetcode.io/)
 
-چیلنج/پریکٹس سائٹس:
-- [لیٹ کوڈ(LeetCode)](https://leetcode.com/)
-    - میری پسندیدہ کوڈنگ سوالات کی سائٹ۔ یہ کم از کم 1-2 مہینوں کے لئے(جن میں آپ تیاری کر رہے ہوں گے) سبسکرپشن کی رقم کے قابل ہے۔
-    - کوڈ واک تھرو کے لیے اوپر نک وائٹ اور فشر کوڈر کی ویڈیوز دیکھیں۔
-- [ہیکر رینک (HackerRank)](https://www.hackerrank.com/)
-- [ٹاپ کوڈر (TopCoder)](https://www.topcoder.com/)
-- [کوڈفورسز(Codeforces)](https://codeforces.com/)
-- [کوڈیلیٹی(Codility)](https://codility.com/programmers/)
-- [گیکس فار گیکس(Geeks for Geeks)](https://practice.geeksforgeeks.org/explore/?page=1)
-- [الگو ایکسپرٹ(AlgoExpert)](https://www.algoexpert.io/product)
-    - گوگل انجینئرز کے ذریعہ تخلیق کیا گیا، یہ آپ کی صلاحیتوں کو نکھارنے کا ایک بہترین ذریعہ بھی ہے۔
-- [پروجیکٹ یولر(Project Euler)](https://projecteuler.net/)
-    - بہت زیادہ ریاضی پر مرکوز ہے، اور انٹرویو کوڈنگ کے لیے واقعی موزوں نہیں ہے۔
+Uitdaging webwerwe:
+- [LeetCode](https://leetcode.com/)
+    - My gunstelling kodering platform werf. Die geld vir die intekening is die moeite werd vir die moontlike 1-2 maande se voorbereiding.
+    - Sien Nick White en FisherCoder Videos bo om deur die kode toe loop.
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [InterviewBit](https://www.interviewbit.com/)
+- [Project Euler](https://projecteuler.net/)
 
-## آو شروع کریں
+## Begin Solank
 
-باتیں کافی ہیں، آئیے اب سیکھتے ہیں!
+Oraait, genoeg praat, kom ons leer!
 
-لیکن سیکھتے وقت اوپر سے کوڈنگ سوالات کرنا نہ بھولیں!
+Maar moet nie vergeet om kode probleme op te los terwyl jy leer nie!
 
-## الگورتھمک پیچیدگی / بگ-او / اسیمپٹوٹک تجزیہ
+## Algoritmiese kompleksiteit / Big-O / Asimptotiese analiese
 
-- یہاں کرنے کو کچھ نہیں، آپ صرف ویڈیوز دیکھیں گے اور نوٹ لیں گے! آہا!
-- یہاں بہت ساری ویڈیوز ہیں۔ صرف اس وقت تک دیکھیں جب تک آپ اسے سمجھ سکیں۔ آپ ہمیشہ واپس آ کر نظر ثانی کر سکتے ہیں۔
-- پریشان نہ ہوں اگر آپ اس کے پیچھے کی تمام ریاضی کو نہیں سمجھتے ہیں۔
-- آپ کو صرف یہ سمجھنے کی ضرورت ہے کہ بگ-او کے لحاظ سے الگورتھم کی پیچیدگی کو کیسے ظاہر کیا جائے۔
+- Niks hier om te implimenteer nie, jy kyk net videos en vat notas! Yay!
+- Daar is baie videos hier. Kyk net genoeg tot dat jy dit verstaan. Jy kan altyd terug kom en revisie.
+- Moenie bekommer as jy nie al die wiskunde verstaan nie.
+- Jy moet net verstaan hoe om die kompleksiteit van 'n algoritme in terme van Big-O uit te druk.
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -557,107 +573,106 @@
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 - [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
-یہ اس کے بارے میں کافی ہے. 
+Well, dis genoeg van daardie.
 
-جب آپ "کریکنگ دی کوڈنگ انٹرویو" سے گزرتے ہیں، تو اس پر ایک باب ہوتا ہے، اور آخر میں یہ دیکھنے کے لیے ایک کوئز ہوتا ہے کہ آپ مختلف الگورتھم کی رن ٹائم پیچیدگی کی شناخت کر سکتے ہیں یانہیں۔ یہ ایک زبردست جائزہ اور ٹیسٹ ہے۔
+Wanneer jy deur "Cracking the Coding Interview" gaan, is daar 'n hoofstuk oor hierdie, en by die einde is daar 'n quiz om te sien
+of jy kan identifiseer wat die runtime kompleksiteit van verskeie algoritmes is. Dis 'n super revisie en toets.
 
-## ڈیٹا سٹرکچرز
+## Datastrukture
 
-- ### Arrays
-    - [ ] About Arrays:
-    	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+- ### Skikkings
+    - [ ] Oor Skikkings:
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Begin kyk van 15m 32s)
         - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] New raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
+    - [ ] Implement 'n vektor (mutable skikking met outomatiese grootte verandering)
+        - [ ] Oefen kodering met skikkings en wysers, en wysers wiskunde om te spring na 'n indeks in pleks van indeksering te gebruik.
+        - [ ] Nuwe rou data skikking met gelokeerde geheue
+            - kan int skikking alokeer onder die kap, maar net nie die kenmerke gebruik nie
+            - begin met 16, of as begin nommer groter is, gebruik bevoegdhede van 2 - 16, 32, 64, 128
+        - [ ] size() - hoeveelheid items
+        - [ ] capacity() - hoeveelheid items dit kan hou
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(indeks) - lewer item by gegewende indeks, omplof as indeks buite grens is
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+        - [ ] insert(indeks, item) - voeg item by indeks, skuif daardie indeks se waarde en rank elemente regs
+        - [ ] prepend(item) - kan insert hierbo gebruik by indeks 0
+        - [ ] pop() - verwyder van die einde, lewer waarde
+        - [ ] delete(indeks) - skrap item by indeks, skuif al rank elemente links
+        - [ ] remove(item) - kyk vir waarde en verwyder indeks wat dit hou (al is dit in verskeie plekke)
+        - [ ] find(item) - kyk vir waarde en lewer eerste indeks met daardie waarde, -1 as dit nie bestaan nie
+        - [ ] resize(new_capacity) // privaat funksie
+            - wanner jy kapasiteit bereik, verander om die grootte te dubbel
+            - wanneer 'n item pop, as grootte 1/4 van kapasiteit is, verander na half
+        - [ ] Tyd
+            - O(1) om te add/verwyder aan die einde (geamoriënteer vir toekening van meer spasie), indekx, of updateer
+            - O(n) om te voeg/skrap elders
+        - [ ] Spasie
+            - aaneenlopend in geheue, so nabyheid help prestasie
+            - spasie nodig - (skikking kapasiteit, wat >= n is) * item grootte, maar tot as dit 2n is, is dit steeds O(n)
 
 - ### Linked Lists
-    - [ ] Description:
-    	- [ ] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
+    - [ ] Beskrywing:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation
-    - [ ] Linked List vs Arrays:
+            - nie die hele video nie, net gedeeltes oor Node struct en geheue toekening
+    - [ ] Linked List vs Skikkings:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
-        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] [why you suld avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Gotcha: Jy nodig wyser tot wyser kennis:
+        (vir wanneer jy 'n wyser paas na 'n funksie wat die address na waar die wyser wys verander)
+        Die blad is net om 'n houvas te kry op wyser na wyser. Ek beveel nie aan om hierdie lys transversale styl te lees nie. Leesbaarheid en onderhoudbaarheid ly van slimheid.
+        - [Wysers na Wysers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] Implement (Ek het dit gedoen met stert wyser en sonder):
+        - [ ] size() - lewer hoeveelheid data elemente in lys
+        - [ ] empty() - bool lewer waar as leeg
+        - [ ] value_at(indeks) - lewer die waarde van die nth item (begin by 0 vir eerste)
+        - [ ] push_front(waarde) - voeg 'n item aan die begin van die lys
+        - [ ] pop_front() - verwyder voorste item en lewer die waarde
+        - [ ] push_back(value) - voeg 'n item aan die einde
+        - [ ] pop_back() - verwyder laaste item en lewer die waarde
+        - [ ] front() - kry waarde van voorste item
+        - [ ] back() - kry waarde van laaste item
+        - [ ] insert(indeks, waarde) - voeg waarde by indeks, so huidige item by daardie indeks word gewys na deur nuwe item by daardie indeks
+        - [ ] erase(indeks) - verwyder node by gegewe indeks
+        - [ ] value_n_from_end(n) - lewer die waarde van die node by nth posisie van die einde van die lys af
+        - [ ] reverse() - keer die lys om
+        - [ ] remove_value(waarde) - verwyder die eerste item in die lys met dié waarde
     - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
-        - No need to implement
+        - [Deskripsie (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - Nie nodig om te implimenteer nie
 
-- ### Stacks
+- ### Stapel
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Will not implement. Implementing with array is trivial
+    - [ ] Sal nie implementeer nie. Implementering met skikking is maklik
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] Implementeer met linked-list, met stert wyser:
+        - enqueue(waarde) - voeg waarde by posisie by stert
+        - dequeue() - lewer waarde en verwyder die minste onlangse gevoegde element (voorkant)
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Implementeer met vaste-grootte skikking:
+        - enqueue(value) - voeg item aan einde van beskikbare
+        - dequeue() - lewer waarde en verwyder minste onlangse gevoegde element
         - empty()
         - full()
     - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+        - 'n Slegte implementering met linked list waar jy enqueue by die hoof en dequeue by die stert sal wees O(n)
+            want you sal die alement langs die laaste nodig hê, wat 'n volle transversal elke dequeue veroorsaak
+        - enqueue: O(1) (amortized, linked list en array [probing])
+        - dequeue: O(1) (linked list en array)
+        - empty: O(1) (linked list en  array)
 
-- ### Hash Table
+- ### Hash table
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -676,14 +691,14 @@
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
-    - [ ] Implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+    - [ ] Implement met 'n skikking en gebruik linear probing
+        - hash(k, m) - m is grootte van hash table
+        - add(sleutel, waarde) - as sleutel al klaar beskikbaar is, opdateer waarde
+        - exists(sleutel)
+        - get(sleutel)
+        - remove(sleutel)
 
-## مزید معلومات
+## Meer Kennis
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -692,14 +707,14 @@
     - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
     - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+        - binary search (op 'n gesorteerde skikking van heelgetalle)
+        - binary search met recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - jy moet baie van die bevoegdhede van 2 ken van (2^1 na 2^16 na 2^32)
+    - [ ] Verstaan baie goed hoe om bits te manipuleer met: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
+        - [ ] Goeie intro:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -708,113 +723,116 @@
         - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
         - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
-		- [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
-    - [ ] 2s and 1s complement
+        - [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
+    - [ ] 2 en 1 se kompliment
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] Count set bits
+    - [ ] Tel set bits
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] Swap values:
+    - [ ] Ruil waardes:
         - [Swap](https://bits.stephan-brumme.com/swap.html)
     - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Bome
 
-- ### Trees - Intro
-    - [ ] [Intro to Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - [ ] [Tree Traversal (video)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
+- ### Bome - Notas & Agtergrond
+    - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - basiese boom konstruksie
+    - traversal
+    - manipulasie algoritmes
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        - BFS notes:
-           - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
-        - DFS notes:
-            - time complexity: O(n)
-            - space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-            - inorder (DFS: left, self, right)
-            - postorder (DFS: left, right, self)
-            - preorder (DFS: self, left, right)
+        - BFS notas:
+           - level order (BFS, met queue)
+           - tyd kompleksiteit: O(n)
+           - spasie kompleksiteit: beste: O(1), slegste: O(n/2)=O(n)
+        - DFS notas:
+            - tyd kompleksiteit: O(n)
+            - spasie kompleksiteit:
+                beste: O(log n) - gemidelde hoogte van boom
+                slegste: O(n)
+            - inorder (DFS: links, self, regs)
+            - postorder (DFS: links, regs, self)
+            - preorder (DFS: self, links, regs)
     - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
     - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
     - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [Binary Search Tree Revisie (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
+    - [ ] [Inleiding (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] [Binary search tree - Implementering in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] [BST implementation - memory allocation met stapels en hope (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [Kry min en max element in 'n binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Kry hooggte van 'n binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [Binary tree traversal - breadth-first en depth-first strategieë (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
         - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Kyk of 'n binary tree 'b binary search tree is of nie(video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Verwyder 'n node van 'n Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] [Inorder Successor in 'n binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+        - [ ] insert   // vog 'n waarde in 'n boom
+        - [ ] get_node_count   // kry hoeveelheid waardes gestoor is
+        - [ ] print_values   // print die waardes in die boom, van min na max
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
+        - [ ] is_in_tree   // waar wanneer 'n gegewende waarde in 'n boom is
+        - [ ] get_height   // gee die hooggte in nodes (enkel node se hooggte is 1)
+        - [ ] get_min   // gee die minimum waarde wat gestoor is in die boom
+        - [ ] get_max   // gee die maksimum waarde wat gestoor is in die boom
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor   // gee volgende hoogste waarde in die boom na die gegewende waarde, -1 as niks
 
 - ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
+    - gevisualiseer as 'n boom, maar is gewoonlik lineêr gestoor (skikking, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Inleiding (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Naïef implementering (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
     - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
     - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Basese operasies (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
     - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Pseudokode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Heap Sort - spring na begin (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
-    - [ ] [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [Bou 'n heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+    - [ ] [MIT: Heaps en Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
-    - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [Lineêr Tyd BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
-    - [ ] Implement a max-heap:
+    - [ ] Implementeer 'n max-heap:
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(x) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
+        - [ ] sift_up - nodig vir insert
+        - [ ] get_max - gee die max item, sonder om dit te verwyder
+        - [ ] get_size() - gee hoeveelheid elemente gestoor is
+        - [ ] is_empty() - waar as heap geen elemente het nie
+        - [ ] extract_max - gee max item, en verwyder dit
+        - [ ] sift_down - nodig vir extract_max
+        - [ ] remove(x) - verwyder item by indeks x
+        - [ ] heapify - maak 'h heap van 'n skikking elemente, nodig vir heap_sort
+        - [ ] heap_sort() - vat 'n ongesorteerde skikking en verander dit na 'n gesorteerde skikking in-plek met 'n max heap of 'n min heap
 
-## Sorting
+## Sorteer
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
+- [ ] Notas:
+    - Implementeer soterings & weet wat die beste/slegste gevalle is, gemidelde kompleksiteite van elk:
+        - geen bubble sort - dis verskriklik sleg - O(n^2), behalwe wanneer n <= 16
+    - [ ] Stabiliteit in sorteer algoritmes ("Is Quicksort stabiel?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
+    - [ ] Watse algoritmes kan op linked lists gebruik word? Watses op arrays? Watses op beide?
+        - I sal nie aan beveel om 'n linked list te sorteer nie, maar merge sort is doenbaar
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable
+- Vir heapsort, sien Heap datastruktuur bo. Heap sort is fantasties, maar nie stabiel
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
@@ -824,7 +842,7 @@
     - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
 - [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
     - [ ] [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
     - [ ] [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
     - [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
@@ -834,7 +852,6 @@
     - [ ] [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
     - [ ] [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
     - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
-    - [ ] [CS 61B 2014-04-21: Radix Sort(video)](https://archive.org/details/ucberkeley_webcast_pvbBMd-3NoI)
 
 - [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
@@ -844,11 +861,11 @@
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
+- [ ] Merge sort kode:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
+- [ ] Quick sort kode:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
@@ -861,13 +878,13 @@
     - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
     - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above
+- [ ] Implementeer:
+    - [ ] Mergesort: O(n log n) gemiddelde en slegste gevalle
+    - [ ] Quicksort O(n log n) gemiddelde geval
+    - Selection sort en insertion sort is albei O(n^2) gemiddeld en slegste gevalle
+    - Vir heapsort, sien Heap datastrukture bo
 
-- [ ] Not required, but I recommended them:
+- [ ] Nie nodig nie, maar ek beveel hulle aan:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
@@ -881,22 +898,22 @@
     - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+As 'n opsomming, hier is 'n visuele verteenwoordiging van [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
+As jy nog detail nodig het op hierdie onderwer, sien "Sorteer" seksie in [Bykomende Detail op Sommige Vakke](#bykomende-detail-op-sommige-vakke)
 
-## Graphs
+## Grafieke
 
-گراف کو کمپیوٹر سائنس میں بہت سے مسائل کی نمائندگی کرنے کے لیے استعمال کیا جا سکتا ہے، اس لیے یہ سیکشن لمبا ہے، جیسا کہ ٹریز اور ترتیب / سارٹنگ تھے۔
+Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoordig, so die seksie is lank, soos bome en sortering was.
 
-- Notes:
-    - میموری میں گراف کی نمائندگی کرنے کے 4 بنیادی طریقے ہیں:
+- Notas:
+    - Daar is 4 basiese maniere om 'n grafiek in geheue te verteenwoordig:
         - objects and pointers
         - adjacency matrix
         - adjacency list
         - adjacency map
-    - ہر ایک نمائندگی اور اس کے فوائد اور نقصانات سے اپنے آپ کو واقف کریں۔
-    - BFS اور DFS - ان کی کمپیوٹیشنل پیچیدگی، ان کے تجارتی معاہدوں، اور انہیں حقیقی کوڈ میں لاگو کرنے کا طریقہ جانیں۔
-    - جب کوئی سوال پوچھا جائے تو پہلے گراف پر مبنی حل تلاش کریں، پھر اگر کوئی نہیں تو آگے بڑھیں۔
+    - Familiariseer jouself met elke verteenwoordiging en sy voor- en nadele
+    - BFS en DFS - ken hulle computational kompleksiteit, hulle ruilings-waardes, en hoe om hulle te implimenteer in regte kode
+    - Wanner 'n vraag gevra word, kyk vir 'n grafiek-gebaseerde oplossing eerste, dan begeen aan as niks
 
 - [ ] MIT(videos):
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=oFVYVzlvk9c&t=14s&ab_channel=MITOpenCourseWare)
@@ -910,7 +927,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
     - [ ] [CSE373 2020 - Lecture 14 - Minimum Spanning Trees (con't) (video)](https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14)
     - [ ] [CSE373 2020 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=MUe5DXRhyAo&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=15)
 
-- [ ] Graphs (review and more):
+- [ ] Graphs (revisie en meer):
 
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare)
@@ -926,52 +943,52 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
     - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
     - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
-- Full Coursera Course:
+- Full Coursera Kursus:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+- Ek sou implimenteer:
+    - [ ] DFS met adjacency list (recursive)
+    - [ ] DFS met adjacency list (iterative met stack)
+    - [ ] DFS met adjacency matrix (recursive)
+    - [ ] DFS met adjacency matrix (iterative met stack)
+    - [ ] BFS met adjacency list
+    - [ ] BFS met adjacency matrix
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
+    - DFS-based algorithms (sien Aduni videos bo):
+        - [ ] kyk vir cycle (nodig vir topological sort, aangesien ons wil kyk vir 'n cycle voordat ons begin)
         - [ ] topological sort
-        - [ ] count connected components in a graph
-        - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+        - [ ] tel gekoppelde komponente in 'n grafiek
+        - [ ] lys sterk gokoppelde komponente
+        - [ ] kyk vir bipartite graph
 
-## اس سے بھی زیادہ معلومات
+## Nog Meer Kennis
 
 - ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
+    - [ ] Stanford lesings oor recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - When it is appropriate to use it?
-    - How is tail recursion better than not?
+    - Wanneer is dit gepas om te gebruik?
+    - Hoe is sterk recursion beter as nie?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
     - [ ] [5 Simple Steps for Solving Any Recursive Problem(video)](https://youtu.be/ngCos392W4w)
-	
+
 	Backtracking Blueprint: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
 	[Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
-- ### Dynamic Programming
-    - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a 
-    problem as being a candidate for dynamic programming.
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
+- ### Dinamiese Programering
+    - Jy sal heelwaarskynlik geen dinamiese probleme in die onderhoud sien nie, maar dis die moeite werd om 
+    'n probleem te herken as 'n dinamiese programering probleem.
+    - Hierde onderwerp kan redelik moeilik wees, omdat elke DP oplosbare probleem gedefinieer moet word as 'n recursion verhouding, en om daarmee op te kom is moeilik.
+    - Ek beveel aan om na soveel DP probleme te kyk as moontlik tot dat jy 'n goeie begrip van die patroon het.
     - [ ] Videos:
         - [ ] [Skiena: CSE373 2020 - Lecture 19 - Introduction to Dynamic Programming (video)](https://www.youtube.com/watch?v=wAA0AMfcJHQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=18)
         - [ ] [Skiena: CSE373 2020 - Lecture 20 - Edit Distance (video)](https://www.youtube.com/watch?v=T3A4jlHlhtA&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=19)
         - [ ] [Skiena: CSE373 2020 - Lecture 20 - Edit Distance (continued) (video)](https://www.youtube.com/watch?v=iPnPVcZmRbE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=20)
         - [ ] [Skiena: CSE373 2020 - Lecture 21 - Dynamic Programming (video)](https://www.youtube.com/watch?v=2xPE4Wq8coQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=21)
-        - [ ] [Skiena: CSE373 2020 - Lecture 22 - Dynamic Programming and Review (video)](https://www.youtube.com/watch?v=Yh3RzqQGsyI&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=22)
+        - [ ] [Skiena: CSE373 2020 - Lecture 21 - Dynamic Programming and Review (video)](https://www.youtube.com/watch?v=2xPE4Wq8coQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=21)
         - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
         - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
@@ -988,9 +1005,9 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
         - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Design patterns
+- ### Ontwerp patrone
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
+    - [ ] Leer hierdie patrone:
         - [ ] strategy
         - [ ] singleton
         - [ ] adapter
@@ -1010,23 +1027,23 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] flyweight
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Book: Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
+        - Ek weet die kanonieke boek is "Design Patterns: Elements of Reusable Object-Orientated Software", maar Head First is 'n goeie begin na OO ook.
     - [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 
-- ### Combinatorics (n choose k) & Probability
+- ### Kombinatorika (n kies k) & Probability
     - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
     - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
     - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
     - [ ] Khan Academy:
-        - Course layout:
+        - Kursus uitleg:
             - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Just the videos - 41 (each are simple and each are short):
+        - Net die videos - 41 (elkeen is eenvoudig en elkeen is kort):
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
-    - Know what NP-complete means.
+- ### NP, NP-Complete en Approximation Algorithms
+    - Ken die mees beroemde klasse van NP-complete probleme, soos traveling salesman en die knapsack probleem,
+        en wees reg om hulle the herken wanneer 'n onderhoudvoerder jou vir hulle vra in vermomming.
+    - Ken wat NP-complete beteken.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
         - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
@@ -1038,20 +1055,21 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] [CSE373 2020 - Lecture 24 - Satisfiability (video)](https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24)
         - [ ] [CSE373 2020 - Lecture 25 - More NP-Completeness (video)](https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25)
         - [ ] [CSE373 2020 - Lecture 26 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26)
-    - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+         - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
     - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
     - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
+    - Peter Norvig bespreek amper-optimale oplossings vir die travaling salesman probleem:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Pages 1048 - 1140 in CLRS if you have it.
+    - Bladsye 1048 - 1140 in CLRS as jy dit het.
 
-- ### How computers process a program
+- ### Hoe rekenare 'n program proseseer
 
     - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
     - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
     - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
     - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+
 - ### Caches
     - [ ] LRU cache:
         - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
@@ -1061,15 +1079,15 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
+- ### Prosesse en Threads
+    - [ ] Rekenaar Wetenskap 162 - Operating Systems (25 videos):
+        - vir prosesse en threads sien videos 1-11
         - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - Difference between processes and threads
-            - Processes
+    - Dek:
+        - Prosesse, Threads, Concurrency kwessies
+            - Verskil tussen prosesse en threads
+            - Prosesse
             - Threads
             - Locks
             - Mutexes
@@ -1078,15 +1096,15 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
             - How they work?
             - Deadlock
             - Livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
+        - CPU aktiwiteit, onderbrekings, konteks verandering
+        - Moderne concurrency konstrukte met multicore prosesse
         - [Paging, segmentation and virtual memory (video)](https://youtu.be/O4nwUqQodAg)
         - [Interrupts (video)](https://youtu.be/iKlAWIKEyuw)
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware?
+        - Prosess hulpbronne benodighede (geheue: kode, statiese stoor, stack, heap, en ook file descriptors, i/o)
+        - Thread hulpbronne benodighede (deel boonstes (minus stack) met ander threads in die selfde proses maar elk het sy eie pc, stack counter, registers, en stack)
+        - Vurk is regtig net 'n kopie op skryf (net-lees) tot dat 'n nuwe proses na die geheue skryf, dan doen dit 'n vol kopie.
+        - Konteks verandering
+            - Koe konteks verandering geïnisieer word deur 'n operating sisteem en onderliggende hardeware?
     - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
     - [ ] [CS 377 Spring '14: Operating Systems from University of Massachusetts](https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k)
     - [ ] concurrency in Python (videos):
@@ -1098,12 +1116,12 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
+- ### Toets
+    - Om te dek:
+        - hoe eenheidstoetse werk
+        - wat is mock objects
+        - wat is integrasietoetse
+        - wat is dependency injection
     - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
     - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
     - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
@@ -1113,7 +1131,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### String searching & manipulations
+- ### String soek & manipulasies
     - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
@@ -1123,12 +1141,12 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
         - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
+    As jy meer detail op hierde onderwerp doek, sien die "String Matching" seksie in [Bykomende Detail op Sommige Vakke](#bykomende-detail-op-sommige-vakke)
 
-- ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path
-    - I read through code, but will not implement
+- ### Bome
+    - Let daarop dat daar verskillende soorte bome is. Somiges het prefikse, somige nie, en somige gebruik string in stede van bits
+        om die pad te volg
+    - Ek het deur die kode geliees, maar sal nie implimenteer nie
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
         - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
@@ -1154,12 +1172,12 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
     - [ ] [Big And Little Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+        - Baie tegniese gesprek vir kernel devs. Moenie warrie as meeste oor jou kop gaan nie.
+        - Die eerste helfde is genoeg.
 
 - ### Networking
-    - **If you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
-    - Otherwise, this is just good to know
+    - **As jy netwerk ondervinding het of wil 'n reliability ingenieur of operations ingenieur word, verwag vrae**
+    - Anders is hierdie net goed om te weet
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
     - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
@@ -1176,34 +1194,39 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 ---
 
-## حتمی جائزہ
+## Finalde Revisie
 
-    اس سیکشن میں چھوٹی ویڈیوز ہوں گی جنہیں آپ زیادہ تر اہم تصورات کا جائزہ لینے کے لیے بہت تیزی سے دیکھ سکتے ہیں۔
-    اگر آپ اکثر ریفریشر چاہتے ہیں تو یہ اچھا ہے۔
+    Die seksie sal korter videos hê wat jy kan kyk redelik vinnig vir revisie van die mees belangrike konsepte.
+    Dis goed om die geheue tydelik te vervris.
 
-- [ ] 2-3 منٹ کی مختصر سبجیکٹ ویڈیوز کی سیریز (23 ویڈیوز)
-    - [ویڈیوز](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 منٹ کی مختصر موضوع ویڈیوز کی سیریز - مائیکل سمبول (38 ویڈیوز):
-    - [ویڈیوز](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Reeks van 2-3 minute kort onderwerp videos (23 videos)
+    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Reeks van 2-5 minute kort onderwerp videos - Michael Sambol (40 videos):
+    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
 ---
 
-## اپنے ریزیومے کو اپ ڈیٹ کریں
+## Werk Jou CV By
 
-- درج کتابوں میں ریزیومے کی تیاری کی معلومات دیکھیں:
--  "کریکنگ دی کوڈنگ انٹرویو" اور "پروگرامنگ انٹرویوز بے نقاب"
+- Sien Resume voorbereiding in die boeke: "Cracking The Coding Interview" en "Programming Interviews Exposed"
+- Ek weet nie hoe belangrik dit is nie (jy kan jou eie navorsing doen) maar hier is 'n artikel oor hoe om jou resume ATS versoenbaar te maak:
+    - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
 - ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
-    - مصنف کی طرف سے نوٹ: "یہ یونائیٹڈ سٹیٹس امریکا فوکسڈ ریزیومے کے لیے ہے۔ ہندوستان اور دیگر ممالک کے لیے سی وی کی توقعات مختلف ہیں، حالانکہ بہت سے پوائنٹس ایک جیسے ہوں گے۔"
+    - Nota duer die outeur: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
 - ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
-    - اپنے ریزیومے کو شروع سے ترتیب دینے، موثر ریزیومے کا مواد لکھنے، اسے بہتر بنانے اور اپنے ریزیومے کی جانچ کرنے کے طریقے کے بارے میں تفصیلی گائیڈ
+    - Gedetailleerde gids oor hoe om jou resume op te stel van niks, hoe om effektiewe resume inhoud te skryf, dit te optimiseer, en jou resume te toets
 
-## انٹرویو کا عمل اور عام انٹرویو کی تیاری
+## Kry die Werk
+
+- [Sites for Finding Jobs](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
+
+## Onderhoudproses & Algemene Voorbereiding
 
 - [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] How to Get a Job at the Big 4:
+- [ ] Hoe om 'n werk by die Groot 4 te kry:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
 - [ ] Cracking The Coding Interview Set 1:
@@ -1212,164 +1235,168 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 - [ ] Cracking the Facebook Coding Interview:
     - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
+
 - Prep Courses:
+    - [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Leer hoe om jouself gereed te maak vir sagteware ingeneur onderhoude van vorige Google onderhoudvoerders.
     - [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - 'n Python sentriese onderhoudsvoorbereiding kursus wat datastrukture, algoritmes, spot onderhoude en baie meer dek.
     - [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - A free Python centric data structures and algorithms course.
+        - 'n Verniet Python sentriese datastruktuur en algorithme kursus.
     - [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
+        - Kry praktiese ervaring met oor 'n 100 datastrukture en algoritmiese oefeninge en leiding van 'n toegewyde mentor om jou te help voorberei vir onderhoude en on-the-job scenarios.
     - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
-        - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
-    - [AlgoMonster (paid course with free content)](https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github):
-      - The crash course for LeetCode. Covers all the patterns condensed from thousands of questions.
+        - Baie kere is dit nie jou tegniese bevoegdheid wat jou terug hou van jou droom werk kry nie, dis hoe jy in die gedragsonderhoude voer.
 
-Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - میں نے اسے استعمال کیا اور اس نے مجھے فون اسکرین اور آن سائٹ انٹرویو کے لیے آرام دہ رہنے میں مدد کی
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - پریکٹس انٹرویوز کا ہم مرتبہ ماڈل
-- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - FAANG کے سینئر انجینئرز کے ساتھ الگورتھم/سسٹم ڈیزائن انٹرویوز، گمنام طور پر
+Spot Onderhoude:
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - Ek het die gebruik en dit het my gehelp ontspan vir die foon skerm en on-site onderhoud.
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model van onderhoudoefeninge.
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anoniem algoritme/system design onderoude met senior ingeneurs van FAANG anoniem.
 
-## اپنے انٹرویو لینے والے کی طرح سوچیں۔
+## Dink aan vir wanneer die onderhoud kom
 
-انٹرویو کے تقریباً 20 سوالات کے بارے میں سوچیں جو آپ کو نیچے دیے گئے آئٹمز کی لائنوں کے ساتھ ملیں گے۔ ہر ایک کے لیے کم از کم ایک جواب دیں۔
-ایک کہانی رکھیں، نہ کہ صرف ڈیٹا، کسی ایسی چیز کے بارے میں جو آپ نے حاصل کی ہے۔
+Dink oor sowat 20 onderhoud vrae wat jy sal kry, in die rigting van dié hieronder. Hê ten minste een antwoord vir elkeen.
+Hê ook 'n storie, nie net data, oor iets wat jy bereik het.
 
-- آپ کو یہ نوکری کیوں چاہیے؟
-- آپ نے کون سا مشکل مسئلہ حل کیا ہے؟
-- سب سے بڑے چیلنجز کا سامنا؟
-- بہترین/بدترین ڈیزائن جو آپ نے دیکھے ہیں؟
-- موجودہ مصنوعات کو بہتر بنانے کے خیالات
-- آپ ایک فرد کے طور پر اور ایک ٹیم کے حصے کے طور پر بہترین کام کیسے کرتے ہیں؟
-- آپ کی کونسی مہارت یا تجربات اس کردار میں اثاثہ ہوں گے اور کیوں؟
-- آپ کو کس چیز میں سب سے زیادہ مزہ آیا [job x / project y]؟
-- سب سے بڑا چیلنج جس کا آپ نے سامنا کیا؟
-- سب سے مشکل بگ جس کا آپ نے سامنا کیا؟
-- آپ نے اس میں کیا سیکھا؟ [job x / project y]؟
-- آپ اپنے پروجیکٹ میں کیا بہتر کرتے؟
+- Hoekom soek jy hierdie werk?
+- Wat is 'n taai probleem wat jy opgelos het?
+- Grootste uitdagings wat jy in die gesig gestaar het?
+- Beste/slegste ontwerpe wat jy al gesien het?
+- Idees om 'n produk te verbeter?
+- Hoe werk jy beste as 'n individu en as deel van 'n span?
+- Watse vernufte of ondervinding van jou sal 'n bate in die rol wees en hoekom?
+- Wat het jy die meeste geniet by [werk x / projek y]?
+- Wat was die grootste uitdaging wat jy in die gesig gestaar het by [werk x / pojek y]?
+- Wat was die moeilikste gogga wat jy moes oplos by [werk x / projek y]?
+- Wat het jy geleer by [werk x / projek y]?
+- Wat sou jy beter gedoen het by [werk x / projek y]?
 
-## انٹرویو لینے والے کے لیے سوالات
+- As jy dit moelik vind om met goeie antwoorde op te kom vir hierdie vrae is hier 'n paar idees:
+    - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
 
-میرے کچھ (ہو سکتا ہے کہ میں پہلے سے ہی جوابات جانتا ہوں، لیکن ان کی رائے یا ٹیم کے نقطہ نظر کو سمجھنے کے لیے):
+## Hê vrae vir die onderhoudvoerder
 
-- آپ کی ٹیم کتنی بڑی ہے؟
-- آپ کا دیو سائیکل کیا ہے؟ کیا آپ واٹرفال/سپرنٹ/اجائیل کرتے ہیں؟
-- کیا ڈیڈ لائن پر جلدی کرنا عام ہے؟ یا لچک ہے؟
-- آپ کی ٹیم میں فیصلے کیسے ہوتے ہیں؟
-- آپ فی ہفتہ کتنی میٹنگز کرتے ہیں؟
-- کیا آپ محسوس کرتے ہیں کہ آپ کے کام کا ماحول آپ کو توجہ مرکوز کرنے میں مدد کرتا ہے؟
-- کس پر کام کر رہے ہو؟
-- آپ کو اس کے بارے میں کیا پسند ہے؟
-- کام کی زندگی کیسی ہے؟
-- کام/زندگی کا توازن کیسا ہے؟
+'n Paar van meine (Ek ken moontlik al klaar die antwoorde, maar wil hulle opinie of span perspektief hé):
 
-## ایک بار جب آپ کو نوکری مل جائے گی
+- How groot is jou span?
+- Hoe lyk jou dev cycle? Doen julle waterfall/sprints/agile?
+- Is dit algemeen om na die sperdatum te jaag? Of is daar buigsaamheid?
+- Hoe word besluite geneem op jou span?
+- Hoeveel vergaderings het julle per week?
+- Voel jy die omgewing help jou fokus?
+- Wat werk jy aan?
+- Wat hou jy van dit?
+- Hoe is die werk lewe?
+- Hoe is die werk/lewe belaans?
 
-مبارک ہو!
+## Sodra Jy Die Werk Het
 
-سیکھتے رہیں۔
+Geluk!
 
-ابھی بھی بہت کچھ کرنا باقی ہے.
+Hou aan leer.
 
----
-
-    *****************************************************************************************************
-    *****************************************************************************************************
-
-    اس نقطہ کے نیچے ہر چیز اختیاری ہے۔ داخلہ سطح کے انٹرویو کے لیے اس کی ضرورت نہیں ہے۔ تاہم، ان کا مطالعہ کرنے سےآپ کمپیوٹر سائنس کے
-    مزید تصورات سے زیادہ روشناس ہوں گے،اور آپ کسی بھی سافٹ ویئر انجینئرنگ کے کام کے لیے بہتر طور پر تیار ہوں گے۔ آپ ایک اچھے سافٹ ویئر انجینئر بنیں گے۔
-    
-    *****************************************************************************************************
-    *****************************************************************************************************
+Jy is nooit regtig klaar nie.
 
 ---
 
-## Additional Books
+    *****************************************************************************************************
+    *****************************************************************************************************
 
-    These are here so you can dive into a topic you find interesting.
+    Alles hieronder is opsioneel. Dit is NIE nodig vir 'n intreevlak ingeneur nie.
+    Alhowel, deur om dit te studeer sal jy meer blootstelling kry met CS konsepte, en sal beter voorbereid wees vir
+    enige sagteware ingeneur werk. Jy sal 'n veel meer afgeronde sagteware ingeneur wees.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---
+
+## Bykomende Boeke
+
+    Hierdie is hier sodat jy kan delf in 'n onderwerp wat jy interessant vind.
 
 - [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
-    - An oldie but a goodie
+    - An oue maar goeie
 - [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - A modern option
+    - 'n Moderne opsie
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - A gentle introduction to design patterns
+    - 'n Sagte inleiding na ontwerp patrone
 - [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - AKA the "Gang Of Four" book, or GOF
-    - The canonical design patterns book
+    - AKA die "Gang Of Four" boek, of GOF
+    - Die kanoniese ontwerp patrone boek
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview
-    - This book has 2 parts:
-        - Class textbook on data structures and algorithms
+    - As 'n revisie en probleem herkening
+    - Die algoritme katalogus porsie is ver buite die omvang van probleme wat jy in die onderhoud sal kry
+    - Die bok het 2 dele:
+        - Klass teksboek oor datastrukture en algoritmes
             - Pros:
-                - Is a good review as any algorithms textbook would be
-                - Nice stories from his experiences solving problems in industry and academia
-                - Code examples in C
+                - Is so goed 'n revisie soos enige teksboek sal wees
+                - Goeie stories van sy ondervinding met probleme oplos in die bedryf en akademie
+                - Kode voorbeelde in C
             - Cons:
-                - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
-        - Algorithm catalog:
-            - This is the real reason you buy this book.
-            - This book is better as an algorithm reference, and not something you read cover to cover.
-    - Can rent it on Kindle
-    - Answers:
+                - Kan so dig en ondeurdringbaar soos CLRS wees, en in sommige gevalle, kan CLRS 'n beter alternatief wees vir sekere onderwerpe
+                - Hoofstukke 7, 8, 9 kan pynlik wees om te probeer volg, omdat sommige items nie goed verduidelik word nie en bonodig meer brain wat ek nie het nie
+                - Moenie my misverstaan nie: Ek hou van Skiena, sy onderrig style, en manerismes, maar ek mag dalk nie Stony Brook materiaal wees nie
+        - Algorime katalogus:
+            - Die is die egte rede hoekom jy hierdie boek koop.
+            - Die boek is beter as 'n algoritme verwysing, en nie iets wat jy lees om heel te dek nie.
+    - Kan op Kindle huur
+    - Antwoorde
         - [Solutions](https://web.archive.org/web/20150404194210/http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
-- [Algorithm](http://jeffe.cs.illinois.edu/teaching/algorithms/) (Jeff Erickson)
 - [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief
-    - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like
-    - These chapters are worth the read to give you a nice foundation:
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
+    - Die boek was gepubliseer in 2004, en is sowat verouderd, maar dis 'n geweldige hulpbron om 'n rekenaar in kort te verstaan
+    - Die outeur het [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly) uitgeving, so vat noemings en voorbeelde in HLA met 'n graan sout. Nie wyd gebruik nie, maar goeie voorbeelde van hoe assembly lyk
+    - Hierdie hoofstukke is die moeite werk om te lees vir 'n goeie fondament:
+        - Hoofstuk 2 - Numeric Representation
+        - Hoofstuk 3 - Binary Arithmetic and Bit Operations
+        - Hoofstuk 4 - Floating-Point Representation
+        - Hoofstuk 5 - Character Representation
+        - Hoofstuk 6 - Memory Organization and Access
+        - Hoofstuk 7 - Composite Data Types and Memory Objects
+        - Hoofstuk 9 - CPU Architecture
+        - Hoofstuk 10 - Instruction Set Architecture
+        - Hoofstuk 11 - Memory Architecture and Organization
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently
-    - AKA CLR, sometimes CLRS, because Stein was late to the game
+    - **Belangrik:** Om hierdie boek te lees sal beperkte waarde hê. Die boek is 'n goeie revisie van algoritmes en datastrukture, maar sal jou nie leer hoe om goeie kode te skryf nie. Jy moet in staat wees om goeie, effektiewe oplossings te programeer
+    - AKA CLR, soms CLRS, omdat Stein laat saamgekom het
 - [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
-    - For a richer, more up-to-date (2017), but longer treatment
+    - Vir 'n ryker, meer geopdateerde (2017), maar langer behandeling
 
 ## System Design, Scalability, Data Handling
 
-**اگر آپ کے پاس 4+ سال کا تجربہ ہے تو آپ سسٹم ڈیزائن کے سوالات کی توقع کر سکتے ہیں۔**
+**Jy kan 'n paar ondtwerp vrae verwag as jy 4+ jare ondervinding het.**
 
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this
-- Considerations:
-    - Scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
+- Scalability en System Design is beide baie groot onderwerpe met onderwerpe en hulpbronne, omdat
+      daar baie is om te oorweeg wanneer 'n sagtewaar/hardewaar sisteem wat kan skaal geontwerp word.
+      Verwag om nogals 'n bikie tyd hierop te spandeer
+- Oorwegings:
+    - Scalability:
+        - Distileer grood data stelle na 'n enkele waarde
+        - Transformeer een data stel na 'n ander een
+        - Hantering van baie groot bedrae van data
     - System design
         - features sets
         - interfaces
         - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
+        - ontwerp van 'n sisteem onder sekere beperkings
+        - eenvoud en robuustheid
         - tradeoffs
         - performance analysis and optimization
-- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [ ] **BEGIN HIER**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Interview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Daar is baie hulpbronne in hierdie een. Look deur die artikels en voorbeelde. Ek wys 'n paar hieronder
 - [ ] [How to ace a systems design interview](https://web.archive.org/web/20120716060051/http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
 - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
 - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
 - [ ] [MIT 6.824: Distributed Systems, Spring 2020 (20 videos)](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
-- [ ] Consensus Algorithms:
+- [ ] Konsensus Algoritme:
     - [ ] Paxos - [Paxos Agreement - Computerphile (video)](https://www.youtube.com/watch?v=s8JqcZtvnsM)
     - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)
         - [ ] [Easy-to-read paper](https://raft.github.io/)
@@ -1377,14 +1404,14 @@ Mock Interviews:
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 - [ ] Scalability:
-    - آپ کو ان سب کی ضرورت نہیں ہے۔ صرف چند ایک منتخب کریں جو آپ کی دلچسپی رکھتے ہیں۔
+    - Jy nodig nie al dié nie. Kies net 'n paar wat vir jou interressant is.
     - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
     - [ ] Short series:
         - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
         - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
         - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
         - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-    - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
+     - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
     - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
     - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
     - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
@@ -1413,35 +1440,35 @@ Mock Interviews:
     - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
     - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
     - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+    - [ ] Sien "Messaging, Serialization, and Queueing Systems" ver onder vir informasie oor van die tegnologies wat dienste saam kan gom
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the [Video Series](#video-series) section
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - Vir nog meer, sien "Mining Massive Datasets" video reeks in die [Video Reeks](#video-reeks) seksie
+- [ ] Oefen die system design fase: Hier is 'n paar idees om op papier uit te werk, elkeen met dokumentasie oor hoe dit in die regte wêreld gehanteer was:
+    - revisie: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. سوال اور سوال کے دائرہ کار کو سمجھیں:
-            - انٹرویو لینے والے کی مدد سے استعمال کے معاملات کی وضاحت کریں
-            - اضافی خصوصیات تجویز کریں
-            - ایسے آئٹمز کو ہٹا دیں جن کو انٹرویو لینے والے دائرہ کار سے باہر سمجھتے ہیں
-            - فرض کریں کہ اعلی دستیابی کی ضرورت ہے، اضرورت کے طور پر شامل کریں
-        2. پابندیوں کے بارے میں سوچو:
-            - پوچھیں کہ ماہانہ کتنی درخواستیں ہیں
-            - پوچھیں کہ فی سیکنڈ کتنی درخواستیں ہیں (وہ اسے رضاکارانہ طور پر دے سکتے ہیں یا آپ کو حساب کتاب کرنے پر مجبور کر سکتے ہیں)
-            - تخمینہ پڑھنا بمقابلہ لکھنا فیصد
-            - تخمینہ لگاتے وقت 80/20 اصول کو ذہن میں رکھیں
-            - فی سیکنڈ میں کتنا ڈیٹا لکھا جاتا ہے
-            - 5 سالوں میں کل ذخیرہ درکار ہے
-            - فی سیکنڈ کتنا ڈیٹا پڑھتا ہے
-        3. ڈیزائن کاخلاصہ:
-            - پرتیں (سروس، ڈیٹا، کیشنگ)
-            - انفراسٹرکچر: بوجھ میں توازن، پیغام رسانی
-            - سروس کو چلانے والے کسی بھی کلیدی الگورتھم کا کچا جائزہ
-            - رکاوٹوں پر غور کریں اور حل کا تعین کریں
-    - Exercises:
+    - vloei:
+        1. Verstaan die probleem en scope:
+            - Defineer die gebruik gevalle, met die onderhoudvoerder se hulp
+            - Stel addisionele kenmerke voor
+            - Verwyder items wat die onderhoudvoerder buite die scope ag
+            - Neem aan hoë beskikbaarheid sal nodig wees, voeg as 'n gebruik geval by
+        2. Dink oor beperkings:
+            - Vra hoeveel versoeke per maand
+            - Vra hoeveel versoeke per sekonde (hulle mag dit dalk net gee of vir jou vra om dit uit te werk)
+            - Skat lees vs. skryf persentasie
+            - Hou 80/20 reel byderhands wanneer jy die skatting doen
+            - Hoeveel data word geskryf per sekonde
+            - Totale berging benodig oor 5 jaar
+            - Hoeveel data lees per sekonde
+        3. Abstrakte ontwerp:
+            - Lae (dienste, data, caching)
+            - Infristraktuur: load balancing, messaging
+            - Rof oorsig van enige sleutel algoritmes wat die diens dryf
+            - Oorweeg knelpunte en determineer oplossings
+    - Oefeninge:
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
         - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
         - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
@@ -1449,9 +1476,10 @@ Mock Interviews:
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://web.archive.org/web/20220217064329/https://adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
-## Additional Learning
+## Bykomende Leer
 
-    میں نے انہیں شامل کیا تاکہ آپ کو ایک بہترین سافٹ ویئر انجینئر بننے میں مدد ملے، اور کچھ ٹیکنالوجیز اور الگورتھم سے آگاہی ہو، تاکہ آپ کے پاس ایک بڑا ٹول باکس ہو۔
+    Ek het hulle by gevoeg om jou te help 'n afgeronde sagteware ingeneur te word en bewus van sekere
+    tegnologies en algoritmes is, sodat jy 'n groter toolbox het.
 
 - ### Compilers
     - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1460,11 +1488,11 @@ Mock Interviews:
     - [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - ### Emacs and vi(m)
-    - Familiarize yourself with a unix-based code editor
+    - Familiariseer jouself met 'n unix-gebaseerde kode editor
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
+        - reeks van 4 videos:
             - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
             - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
             - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
@@ -1472,7 +1500,7 @@ Mock Interviews:
         - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
         - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
+        - reeks van 3 (videos):
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
@@ -1482,7 +1510,7 @@ Mock Interviews:
 	- [The Absolute Beginner's Guide to Emacs (notes by David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
 
 - ### Unix command line tools
-    - I filled in the list below from good tools.
+    - Ek het die lys hieronder met goeie gereedskap gevul.
     - bash
     - cat
     - grep
@@ -1495,13 +1523,13 @@ Mock Interviews:
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### Inligtingsteorie (videos)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - More about Markov processes:
+    - Meer oor Markov processes:
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below
+    - Sien meer in MIT 6.050J Information and Entropy reeks hieronder
 
 - ### Parity & Hamming Code (videos)
     - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
@@ -1512,19 +1540,19 @@ Mock Interviews:
     - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### Entropy
-    - نیچے دی گئی ویڈیوز بھی دیکھیں
-    - پہلے انفارمیشن تھیوری کی ویڈیوز ضرور دیکھیں
+    - Sien ook videos hieronder
+    - Maak seker om die inligtingsteorievideos eers te kyk
     - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 - ### Cryptography
-    - نیچے دی گئی ویڈیوز بھی دیکھیں
-    - پہلے انفارمیشن تھیوری کی ویڈیوز ضرور دیکھیں
+    - Sien ook videos hieronder
+    - Maak seker om die inligtingsteorievideos eers te kyk
     - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
 - ### Compression
-    - پہلے انفارمیشن تھیوری کی ویڈیوز ضرور دیکھیں
+    - Maak seker om die inligtingsteorievideos eers te kyk
     - Computerphile (videos):
         - [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
         - [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
@@ -1535,7 +1563,7 @@ Mock Interviews:
     - [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Computer Security
+- ### Rekenaar Sekuriteit
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1551,15 +1579,15 @@ Mock Interviews:
         - [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
-    - [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+- [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+- [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
+- [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### Parallel Programming
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
+- ### Messaging, Serialization, en Queueing Systems
     - [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1593,7 +1621,7 @@ Mock Interviews:
     - [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
+    - 'n Bloom filter met m bits en k hashing funksies, het albei insertion en membership testing as O(k)
     - [Bloom Filters (video)](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University (video)](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
@@ -1603,8 +1631,8 @@ Mock Interviews:
     - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
-    - Used to determine the similarity of documents
-    - The opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same
+    - Gebruik om die ooreenkoms van dokumente te bepaal
+    - Die teenoorgestelde van MDS of SHA is gebruik om te bepaal of 2 dokumente/strings dieselfde is
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
 - ### van Emde Boas Trees
@@ -1615,51 +1643,51 @@ Mock Interviews:
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
-    - کم از کم ایک قسم کے بیلنسڈ بائنری ٹری کو جانیں (اور جانیں کہ اسے کیسے کوڈ کیا گیا ہے):
+    - Ken ten minste een tipe balanced binary tree (en ken hoe om dit te implimenteer):
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code
-        - Splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - Search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets
+    - Van die het ek gekies om splay tree's te implementeer. Van wat ek gelees het, sal jy nie
+        'n balanced search tree in jou onderjoud implimenteer nie. Maar ek wou blootstelling hê met een kodeer
+        en eerlikwaar is splay trees die bye se knieë. Ek het baie red-black tree kode gelees
+        - Splay tree: insert, delete funksies
+        As jy besluit om red/black trees te implimenteer, probeer hierdie:
+        - Soek en insertion funksies, skiep delete
+    - Ek wil meer oor B-Tree's leer omdat dit gebruik word met groot datastelle
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
     - **AVL trees**
-        - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
-            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-            attractive for data structures that may be built once and loaded without reconstruction, such as language
-            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
+        - Prakties:
+            Van wat ek kan sê, word hierdie nie veel in die praktyk gebruik nie, maar ek kan sien waar dit sou gebruik word:
+            Die AVL boom is nog 'n stuktuur wat O(log n) search, insertion, en verwydering ondersteun. Dit is meer rigied
+            gebalanseer as red-black trees, wat lei na stadiger insertion en verwydering maar vinniger herwinning. Dit maak 
+            dit aantreklik vir datastrukture wat een keer gebou word en laai sonder herkonstuksie, soos taal
+            woordeboeke (of program woordeboeke, soos die opcodes van 'n assembler of interpreter)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
         - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
-
+    
     - **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking and file system code) etc
+        - Prakties:
+            Splay bome is tipies gebruik in die implementering van caches, memory allocators, routers, garbage collctors,
+            data compression, ropes (vervanging van string gebruik vir lang teks strings), in Windows NT (in die virtual memory,
+            networking en file system kode) etc
         - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
         - MIT Lecture: Splay Trees:
-            - Gets very mathy, but watch the last 10 minutes for sure.
+            - Word baie wiskundig, maar kyk die laaste 10 minute vir seker
             - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
     - **Red/black trees**
-        - These are a translation of a 2-3 tree (see below).
-        - In practice:
-            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-            Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
-            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-            hashcodes, a Red-Black tree is used
+        - Die is 'n vertaling van die 2-3 boom (sien onder).
+        - Prakties:
+            Red-black trees bied slegste-geval waarborge vir insertion tyd, deletion tyd, en soek tyd.
+            Dit maak hulle waardevol in tyd-sensitiewe toepe soos regte-tyd toepassings,
+            maar dit maak hulle waardevolle bou blokke in ander datastrukture wat slegste-geval waarborge voorsien:
+            byvoorbeeld, baie datastrukture wat in rekenaar meetkunde gebruik word kan gebaseer wees op red-black trees, en
+            die Completely Fair Scheduler gebruik in huidige Linux kernels gebruik red-black trees. In die 8ste weergawe van Java
+            word die Collection HashMap gemodifiseersodat in stede van 'n Linked List om identiese elemente te stoor met arm
+            hashcodes, word 'n Red-Black tree gebruik
         - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
@@ -1667,50 +1695,50 @@ Mock Interviews:
         - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3 search trees**
-        - In practice:
-            2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
-        - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
+        - Prakties:
+            2-3 bome het vinniger inserts teen die uitgawe van stadiger searches (aangesien hooggte meer is in vergelyking met AVL trees).
+        - Jy sal 2-3 trees baie selde gebruik omdat die implentering verskeie tipe nodes gebruik. In plek daarvan, gebruk mense Red Black trees.
         - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
     - **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
+        - Prakties:
+            Vir elke 2-4 tree, is daar 'n ooreenstemmende red-black tree met data elemente in dieselfde orde. Die insertion en deletion
+            operations op 2-4 trees is ook ekwivalent na kleur-verandering en rotasies in red-black trees. Die maak 2-4 trees 'n
+            belangrike instrument om die logika angter red-black trees te verstaan, en dis hoekeom baie inleiding algoritmes tekste
+            2-4 bome net voor red-black trees voorstel, selfs al word **2-4 trees nie gereeld in die praktyk gebruik word nie**.
         - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
-
+        
     - **N-ary (K-ary, M-ary) trees**
-        - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
-        - 2-3 trees are 3-ary
+        - let wel: die N of K is die branching faktoor (max branches)
+        - binary trees is 'n 2-ary tree, met branching faktoor = 2
+        - 2-3 trees is 3-ary
         - [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
-
+    
     - **B-Trees**
-        - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address
+        - Prettige feit: dis 'n misterie, maar die B kan staan vir Boeing, Balanced, of Bayer (mede-uitvinders)
+        - Prakties:
+            B-Trees word word gebruik in databasisse. Meeste moderne filesystems gebruik B-trees (of variante). Benewens
+            die gebruik in databasisse, word dit ook gebruik in filesystems om vinnige ewekansige toegang tot 'n arbitrêre
+            blok in 'n spesifieke lêer te gee. Die basiese probleem is om die lêer blok i address na 'n disk blok 
+            (of eerder 'n cylinder-head-sektor) address te verander
         - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
         - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
         - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-                - covers cache-oblivious B-Trees, very interesting data structures
-                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+                - dek cache-oblivious B-Trees, baie interessante datastrukture
+                - die eerste 37 minute is baie tegnies en mag geskiep word (B is block size, cache line size)
         - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D Trees
-    - Great for finding number of points in a rectangle or higher dimension object
-    - A good fit for k-nearest neighbors
+    - Fantasties om die hoeveelheid punte in 'n vierkant of hoër dimensie objek te kry
+    - 'n Goeie keuse vir k-nearest neighbors
     - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
 - ### Skip lists
@@ -1737,7 +1765,7 @@ Mock Interviews:
     - [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ### Linear Programming (videos)
+- ### Lineêre Programering (videos)
     - [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
     - [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
@@ -1753,14 +1781,40 @@ Mock Interviews:
     - [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
     - [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
 
+- ### Machine Learning
+    - Hoekom ML?
+        - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
+        - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
+        - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
+    - [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+    - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+    - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials)
+    - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - Kursusse:
+        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
+              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+              - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
+        - [AWS Machine Learning Engineer Nanodegree](https://www.udacity.com/course/aws-machine-learning-engineer-nanodegree--nd189)
+        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
+    - Hulpbronne:
+        - Boeke:
+            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
+            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
+            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
+        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+        - Data School: http://www.dataschool.io/
+
 ---
 
-## Additional Detail on Some Subjects
+## Bykomende Detail op Sommige Vakke
 
-    میں نے ان کو پہلے سے پیش کیے گئے کچھ خیالات کو تقویت دینے کے لیے شامل کیا تھا لیکن میں انھیں اوپر شامل نہیں کرنا چاہتا تھا کیونکہ یہ کافی سے زیادہ ہے۔ کسی ایک موضوع پر اسے زیادہ کرنا آسان ہے۔
-آپ اس صدی میں ملازمت حاصل کرنا چاہتے ہیں، کیا میں ٹھیک کہہ رہا ہوں؟
+    Ek het die by gevoeg om sommige idees wat al klaar bo aagebied was, maar nie ingesluit was nie 
+    omdat dit te veel is, te versterk. Dis maklik om 'n onderwerp te oordoen
+    Jy wil in hierdie eeu aangestel word, nê?
 
-- **SOLID**   
+- **SOLIED**
     - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
     - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
         - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
@@ -1784,7 +1838,7 @@ Mock Interviews:
     - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
     - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- **More Dynamic Programming** (videos)
+- **Meer Dinamiese Programering** (videos)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=r4-cftqTcdI&ab_channel=MITOpenCourseWare)
     - [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=KLBCUx1is2c&ab_channel=MITOpenCourseWare)
     - [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=TDo3r5M1LNo&ab_channel=MITOpenCourseWare)
@@ -1797,7 +1851,7 @@ Mock Interviews:
     - [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
     - [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
+- MIT **Probability** (wiskundig, en gaan stadig, wat goed is vir wiskundige goed) (videos):
     - [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
     - [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
@@ -1822,27 +1876,25 @@ Mock Interviews:
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
     - [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
-        - starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
-        - nice explanation of tries
-        - can be skipped
+        - Begin goed, maar teen die tyd wat dit verby KMP gaan word dit meer ingewikkeld as wat dit hoef te wees
+        - goeie verduideliking van tries
+        - kan geskiep word
 
 - **Sorting**
 
     - Stanford lectures on sorting:
         - [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
         - [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
-    - Shai Simonson:
+    - Shai Simonson, [Aduni.org](http://www.aduni.org/):
         - [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
         - [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
     - Steven Skiena lectures on sorting:
         - [CSE373 2020 - Mergesort/Quicksort (video)](https://www.youtube.com/watch?v=jUf-UQ3a0kg&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=8)
         - [CSE373 2020 - Linear Sorting (video)](https://www.youtube.com/watch?v=0ksyQKmre84&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=9)
 
-- NAND To Tetris: [Build a Modern Computer from First Principles](https://www.coursera.org/learn/build-a-computer)
+## Video Reeks
 
-## Video Series
-
-Sit back and enjoy.
+Sit terug en geniet.
 
 - [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1895,12 +1947,12 @@ Sit back and enjoy.
 
 - [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## Rekenaar Wetenskap Kursusse
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Algorithms implementation
+## Algoritmiese implementasie
 
 - [Multiple Algorithms implementation by Princeton University](https://algs4.cs.princeton.edu/code)
 
@@ -1913,20 +1965,22 @@ Sit back and enjoy.
 - [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
     - replaced by Colossus in 2012
 - [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-    - mostly replaced by Cloud Dataflow?
+    - meestal gevervang deur Cloud Dataflow?
 - [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
 - [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
 - [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
-    - The Dynamo paper kicked off the NoSQL revolution
+    - Die Dynamo papier het die NoSQL revolusie afgeskop
 - [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
-- 2012: AddressSanitizer: A Fast Address Sanity Checker:
+- 2012: AddressSanitizer: 'n Vinnige Sanity Checker:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
     - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
 - 2013: Spanner: Google’s Globally-Distributed Database:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
     - [video](https://www.usenix.org/node/170855)
+- [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
 - [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
 - [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+- [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
 - [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - More papers: [1,000 papers](https://github.com/0voice/computer_expert_paper)
 

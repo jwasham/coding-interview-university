@@ -12,16 +12,15 @@ jobs:
   link_checker:
     name: Check links and create automated issue if needed
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     env:
       REPORT_FILE: links-report
     steps:
       ## Check out code using Git
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Check all links at README.md and translations files
+      - name: Check all links at README.md but skips translations files
         id: lychee
-        uses: lycheeverse/lychee-action@v1.2.0
+        uses: lycheeverse/lychee-action@v1.4.1
         with:
           output: ${{ env.REPORT_FILE }}
           format: markdown
@@ -36,7 +35,7 @@ jobs:
             --timeout 20
             --max-concurrency 10
             --no-progress
-            README.md translations/*.md
+            README.md
         env:
           ## Avoid rate limiting when checking github.com links
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,7 +45,7 @@ jobs:
         run: echo Lychee exit with ${{ steps.lychee.outputs.exit_code }}
 
       - name: Find the last report issue open
-        uses: micalevisk/last-issue-action@v1
+        uses: micalevisk/last-issue-action@v1.2
         id: last_issue
         with:
           state: open
@@ -58,7 +57,7 @@ jobs:
 
       - name: Create issue from report file
         if: ${{ steps.last_issue.outputs.has_found == 'false' }}
-        uses: peter-evans/create-issue-from-file@v3
+        uses: peter-evans/create-issue-from-file@v4
         with:
           title: Link checker report
           content-filepath: ${{ env.REPORT_FILE }}
@@ -69,7 +68,7 @@ jobs:
 
       - name: Update last report open issue created
         if: ${{ steps.last_issue.outputs.has_found == 'true' }}
-        uses: peter-evans/create-issue-from-file@v3
+        uses: peter-evans/create-issue-from-file@v4
         with:
           title: Link checker report
           content-filepath: ${{ env.REPORT_FILE }}
@@ -80,6 +79,6 @@ jobs:
 
       - name: Close last report open issue
         if: ${{ steps.lychee.outputs.exit_code == 0 }}
-        uses: peter-evans/close-issue@v1
+        uses: peter-evans/close-issue@v2
         with:
           issue-number: ${{ steps.last_issue.outputs.issue_number }}

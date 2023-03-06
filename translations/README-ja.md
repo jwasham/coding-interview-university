@@ -1,10 +1,11 @@
 # コーディング面接の大学
 
 >私はもともとこれをソフトウェアエンジニアになるための短いトピックリストとして作成しましたが、
->今日それは大きなリストに成長しました。この調査計画を経て、[私はAmazonで
+>今日それは大きなリストに成長しました。この学習計画を経て、[私はAmazonで
 > ソフトウェアエンジニアとして雇われました！！](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 >おそらく、あなたは私ほど勉強する必要はないでしょう。とにかく、必要なものはすべてここにあります。
->
+> 私は数ヶ月間、1日約8〜12時間勉強しました。これが私のストーリーです: [Google の面接のために8か月間フルタイムで勉強した理由](https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+>注意してください: あなたは私ほど勉強する必要はありません。私は、知る必要のないことに多くの時間を無駄にしました。詳細については、以下をご覧ください。貴重な時間を無駄にすることなく、必要なことを勉強するのを手伝います。
 >ここに掲載されている項目を学べば、Amazon、Facebook、Google、Microsoftなど
 >大手企業を含む、ほぼすべてのソフトウェア会社の面接に備えることができます。
 >
@@ -38,50 +39,23 @@
     <p>
         <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
     </p>
-    <p>
-        <strong>Special thanks to:</strong>
-    </p>
-    <p>
-        <a href="https://oss.capital/">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
-            </div>
-            <div>
-                <p>
-                    <strong>Dev environments built for the cloud</strong>
-                </p>
-            </div>
-            <div>
-                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
-            </div>
-        </a>
-    </p>
     <hr />
 </div>
 
 ## これは何？
-
-これは、Webエンジニア(独学で、CS学位なし)から大企業のソフトウェアエンジニアを目指すための私の複数月の学習計画です。
-
 ![ホワイトボードでのコーディング - HBOのシリコンバレーから](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-これは、 **新人ソフトウェアエンジニア** 、またはソフトウェア/ Webエンジニアからソフトウェアエンジニア（CSの知識が必要な場合）に転職する人を対象にしています。
-長年のソフトウェアエ開発経験をお持ちの場合は、より面白い面接を期待してください。
+これは、大企業のソフトウェア エンジニアになるための私の数か月にわたる学習計画です。
 
-あなたに何年ものソフトウェア/Web開発経験がある場合、Google、Amazon、Facebook、Microsoftなどの大規模なソフトウェア会社は、ソフトウェア/Web開発力ではなくソフトウェア工学に関して見ており、そのためにはCSに関する知識が必要となることをご了承ください。
+必須：
 
-SREまたはシステムエンジニアになりたい場合は、オプションのリスト(ネットワーク、セキュリティ)から詳細を調べてください。
+コーディングの経験 (変数、ループ、メソッド/関数など)
+忍耐
+時間
+
+これは**ソフトウェアエンジニアリング**の学習計画であり、Web 開発の学習計画ではありません。 Google、Amazon、Facebook、Microsoft などの大手ソフトウェア企業は、ソフトウェアエンジニアリングを Web 開発とは異なるものと見なしています。 たとえば、Amazon にはフロントエンドエンジニア (FEE) とソフトウェア開発エンジニア (SDE) がいます。 これらは2つの別個の役割であり、それぞれに独自の能力があるため、面接は同じではありません。これらの企業は、ソフトウェア開発/エンジニアリングの役割のためにコンピューターサイエンスの知識を必要とします。
+
+大学のコンピューターサイエンスプログラムで学ぶことはたくさんありますが、75%程度の知識があれば面接に十分なので、ここではそれについて説明します。 完全な CS 独学プログラムについては、私の学習計画のリソースがカムラン アーメドのコンピューターサイエンスロードマップに含まれています: https://roadmap.sh/computer-science
 
 ---
 
@@ -137,6 +111,10 @@ SREまたはシステムエンジニアになりたい場合は、オプショ�
 
 ## なぜこれを使用するのか
 
+大企業でソフトウェアエンジニアとして働きたい場合は、次のことを知っておく必要があります。
+
+私のようにコンピューターサイエンスの学位を取得していない場合、これで追いつき、人生の4年間を救うことができます。
+
 私はこのプロジェクトを始めたとき、ヒープからスタックを知りませんでしたし、Big-O とは何か、木構造に関すること、グラフをたどる方法を知らなかったのです。
 ソートアルゴリズムをコーディングしなければならない場合は、あまりうまくいきませんでした。
 これまで使用してきたすべてのデータ構造は言語に組み込まれていて、どのようにしてそれらがどのようにして動作するのか分かりませんでした。
@@ -188,10 +166,10 @@ SREまたはシステムエンジニアになりたい場合は、オプショ�
 
 一部のビデオは、Coursera、EdX、またはLynda.comクラスに登録することによってのみ利用できます。
 これらはMOOCと呼ばれています。
-時にはクラスがセッションに入っていないので、数ヶ月待つ必要があるため、アクセス権がありません。 
+時にはクラスがセッションに入っていないので、数ヶ月待つ必要があるため、アクセス権がありません。
 Lynda.comコースは有料です。
 
-オンラインコースビデオに付随するYouTubeビデオなど、無料で常時利用可能なパブリックソースを追加することに感謝します。  
+オンラインコースビデオに付随するYouTubeビデオなど、無料で常時利用可能なパブリックソースを追加することに感謝します。
 私は大学の講義を使うのが好きです。
 
 
@@ -199,7 +177,6 @@ Lynda.comコースは有料です。
 
 - [ ]  [ABC：常にコーディングする](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ]  [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ]  [プログラミング面接中の効果的なホワイトボード](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ]  [技術職募集での謎解き](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ]  クラッキングコーディング面接セット1：
 	- [ ]  [Gayle L McDowell - コーディング面接(ビデオ)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
@@ -384,7 +361,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 これらは一般的な技術ですが、この調査計画の一部ではありません：
 
-- SQL
+- [SQL](https://www.scaler.com/topics/sql/)
 - Javascript
 - HTML、CSS、およびその他のフロントエンド技術
 
@@ -451,6 +428,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [計算の複雑さ：セクション1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
 	- [計算の複雑さ：セクション2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ]  [チートシート](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 
     講義の中には数学的にも余裕がある場合は、下にジャンプして
@@ -500,6 +478,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  [単独連結されたリスト(ビデオ)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
 		- [ ]  [CS 61B - 連結リスト1(動画)](https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7)
 		- [ ]  [CS 61B - 連結リスト2(動画)](https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
 	- [ ]  [Cコード(動画)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             ビデオ全体ではなく、ノード構造体とメモリ割り当てに関する部分だけです。
 	- [ ] 連結リスト Vs 配列：
@@ -531,7 +510,8 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 - ### スタック
 	- [ ]  [Stacks(video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-	- [ ]  [スタックをの使用 Last-In First-Out(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+	- [ ]  [スタックの使用 Last-In First-Out(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
 	- [ ] 実装されません。配列で実装するのは簡単です。
 
 - ### キュー
@@ -539,14 +519,15 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [キュー(video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
 	- [ ]  [環状バッファ/ FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
 	- [ ]  [優先度つきキュー(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
 	- [ ] テールポインタ付き連結リストを使って実装する：
 		- enqueue(value) - テールの位置に値を追加する
 		- dequeue() - 値を返し、少なくとも最近追加された要素を削除する(前面)
-        - empty()
+		- empty()
 	- [ ] 固定長配列を使って実装する：
 		- enqueue(value) - 利用可能なストレージの最後にアイテムを追加する
 		- dequeue() - 値を返し、最近追加された要素のうち最も古い要素を削除します
-        - empty()
+		- empty()
 		- full()
 	- [ ] コスト：
 	    - 最後の要素の次の要素が必要になるため、先頭にエンキューし、末尾をデキューするリンクリストを使用する悪い実装はO（n）になり、デキューごとに完全なトラバーサルが発生します
@@ -559,9 +540,11 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  [連鎖によるハッシング(動画)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
 		- [ ]  [ダブリング、ラビン-カープ(ビデオ)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 		- [ ]  [公開アドレス指定、暗号化ハッシング(動画)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-		- [ ]  [PyCon 2010：The Mighty Dictionary(video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+		- [ ]  [PyCon 2010: The Mighty Dictionary(video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+		- [ ]  [PyCon 2017: The Dictionary Even Mightier(video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
 		- [ ]  [(上級)Randomization：ユニバーサル＆完全 ハッシング(ビデオ)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
 		- [ ]  [(高度)完全ハッシング(動画)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+		- [ ]  [[Review] Hash tables in 4 minutes (video)](https://www.youtube.com/watch?v=knV86FlSXJ8)
 
 	- [ ] オンラインコース：
 		- [ ]  [ハッシュ関数について(ビデオ)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
@@ -588,6 +571,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [二分探索(動画)](https://www.youtube.com/watch?v=D5SrAga1pno)
 	- [ ]  [二分探索(ビデオ)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
 	- [ ]  [詳細](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
 	- [ ] 実装：
 		- 二分探索(ソートされた整数の配列)
 		- 再帰を利用した二分探索
@@ -628,19 +612,21 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- 操作アルゴリズム
 	- BFS(幅優先検索)
 		- [MIT(動画)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-		- レベルオーダー(BFS、キューを使用)
-            時間複雑度：O(n)
-            空間の複雑さ：最適：O(1)、最悪：O(n / 2)= O(n)
+		- メモ：
+			- レベルオーダー(BFS、キューを使用)
+			- 時間複雑度：O(n)
+			- 空間の複雑さ：最適：O(1)、最悪：O(n / 2)= O(n)
 	- DFS(深さ優先探索)
 		- [MIT(動画)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-        - メモ：
-            時間複雑度：O(n)
-            空間の複雑さ：
-                最良：O(log n) - 平均。木の高さ
-                最悪：O(n)
-		- inorder(DFS：left、self、right)
-		- postorder(DFS：left、right、self)
-		- preorder(DFS：自己、左、右)
+		- メモ：
+			- 時間複雑度：O(n)
+			- 空間の複雑さ：最良：O(log n) - 平均。木の高さ 最悪：O(n)
+			- inorder(DFS：left、self、right)
+			- postorder(DFS：left、right、self)
+			- preorder(DFS：自己、左、右)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### 二分探索木：BST
 	- [ ]  [二分探索木レビュー(動画)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -663,7 +649,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  insert //木に値を挿入する
 		- [ ]  get_node_count //格納された値の数を取得する
 		- [ ]  print_values //最小値から最大値まで木の値を出力します
-		- [ ]  delete_tree 
+		- [ ]  delete_tree
 		- [ ]  is_in_tree //与えられた値が木に存在する場合はtrueを返します
 		- [ ]  get_height //ノードの高さを返します(単一ノードの高さは1です)
 		- [ ]  get_min //木に格納されている最小値を返します
@@ -688,6 +674,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [MIT：ヒープとヒープソート(ビデオ)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 	- [ ]  [CS 61B講義24：優先度つきキュー(ビデオ)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
 	- [ ]  [線形時間BuildHeap(max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
 	- [ ] 最大ヒープを実装する：
 		- [ ] insert
 		- [ ]  sift_up - 挿入に必要
@@ -696,7 +683,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 		- [ ]  is_empty() - ヒープに要素が含まれていない場合はtrueを返します。
 		- [ ]  extract_max - 最大アイテムを返し、それを削除します。
 		- [ ]  sift_down - extract_maxに必要です
-		- [ ]  remove(i) - インデックスxのアイテムを削除する
+		- [ ]  remove(x) - インデックスxのアイテムを削除する
 		- [ ]  heapify - heap_sortに必要な要素の配列からヒープを作成する
 		- [ ]  heap_sort() - ソートされていない配列を取り出し、最大ヒープを使用してソート済みの配列に変換します
 			- 注意：代わりにminヒープを使用すると、操作が節約されますが、必要な領域が2倍になります([in-place](https://ja.wikipedia.org/wiki/In-place%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)では実行できません)。
@@ -717,25 +704,6 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 - ヒープソートについては、上記のヒープデータ構造を参照してください。ヒープソートは素晴らしいですが、安定していません。
 
-- [ ]  [Sedgewick - Mergesort(5ビデオ)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-	- [ ]  [1。 マージソート](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
-	- [ ]  [2。 マージソート・ボトムアップ](https://www.youtube.com/watch?v=HGOIGUYjeyk&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=2)
-	- [ ]  [3。複雑さの並べ替え](https://www.youtube.com/watch?v=WvU_mIWo0Ac&index=3&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-	- [ ]  [4。コンパレータ](https://www.youtube.com/watch?v=7MvC1kmBza0&index=4&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-	- [ ]  [5。安定性](https://www.youtube.com/watch?v=XD_5iINB5GI&index=5&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-
-- [ ]  [Sedgewick - Quicksort(4ビデオ)](https://www.youtube.com/playlist?list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-	- [ ]  [1. クイックソート](https://www.youtube.com/watch?v=5M5A7qPWk84&index=1&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-	- [ ]  [2. 選択](https://www.youtube.com/watch?v=CgVYfSyct_M&index=2&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-	- [ ]  [3. 重複キー](https://www.youtube.com/watch?v=WBFzOYJ5ybM&index=3&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-	- [ ]  [4. システムソート](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-
-- [ ]  UCバークレー：
-	- [ ]  [CS 61B講義29：ソートI(ビデオ)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
-	- [ ]  [CS 61B講義30：ソートII(ビデオ)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
-	- [ ]  [CS 61B講義32：ソートIII(ビデオ)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
-	- [ ]  [CS 61B講義33：ソートV(ビデオ)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
-
 - [ ]  [バブルソート(動画)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ]  [バブルソートの分析(動画)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
 - [ ]  [挿入ソート、マージソート(動画)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -752,6 +720,14 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [Implementation(C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
 	- [ ]  [実装(C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
 	- [ ]  [実装(Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] 実装：
 	- [ ]  Mergesort：O(n log n)平均と最悪の場合
@@ -780,7 +756,7 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 
 グラフはコンピュータサイエンスの多くの問題を表現するために使用することができるので、このセクションは木やソートのように長いです。
 
-- note：
+- メモ：
 	- メモリにグラフを表示するには4つの基本的な方法があります：
 		- オブジェクトとポインタ
 		- 隣接行列
@@ -812,6 +788,8 @@ Anki形式の私のフラッシュカードデータベース：https://ankiweb.
 	- [ ]  [CS 61B 2014：加重グラフ(ビデオ)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
 	- [ ]  [欲張りアルゴリズム：最小スパニング木(ビデオ)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 	- [ ]  [強固に接続されたコサラジュのアルゴリズムグラフアルゴリズム(ビデオ)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - フルcourseraコース：
 	- [ ]  [グラフのアルゴリズム(ビデオ)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -848,6 +826,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [テール再帰(ビデオ)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### 動的プログラミング
+	- 面接で動的プログラミングの問題が見られることはおそらくないでしょうが、問題が動的プログラミングの候補であると認識できることは価値があります。
 	- この問題はかなり難しいかもしれません。なぜなら、それぞれのDP可溶性問題は再帰関係として定義されなければならず、それを思い付くのは難しいかもしれないからです。
 	- DPの問題の多くの例を見て、あなたが関連するパターンをしっかりと理解するまでお勧めします。
 	- [ ] 動画：
@@ -952,6 +931,13 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- ピーター・ノヴィグ(Peter Norvig)は、セールスマンの問題を解決するための最適なソリューションについて説明しています。
 		- [JupyterNotebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
 	- あなたが持っているなら、CLRSの1048 - 1140ページ。
+
+- ### コンピューターはどのようにプログラムを実行するか
+    - [ ] [CPU がどのようにプログラムを実行するか (動画)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] [コンピューターがどのように計算するか - ALU (動画)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [レジスタと RAM (動画)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [中央処理装置 (CPU) (動画)](https://youtu.be/FZGugFqdr60)
+    - [ ] [命令とプログラム (動画)](https://youtu.be/zltgXvg6r3k)
 
 - ### キャッシュ
 	- [ ]  LRUキャッシュ：
@@ -1199,16 +1185,16 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [AmazonのAWSで1,100万人以上のユーザーに拡大するための初心者向けガイド](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
 	- [ ]  [Dockerの効果待ち時間の使用方法](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
 	- [ ]  [AMPはGoogleに存在する脅威に対抗していますか？](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
-	- [ ]  [全Netflixスタックの360度ビュー](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html) 
+	- [ ]  [全Netflixスタックの360度ビュー](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
 	- [ ]  [レイテンシはどこにでもあり、それはあなたのセールスに費やされます - それを粉砕する方法](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
 	- [ ]  [サーバーレス(非常に長い、要点が必要](http://martinfowler.com/articles/serverless.html)
 	- [ ]  [Instagramを動かすもの：何百ものインスタンス、数十のテクノロジ](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
 	- [ ] [シンクキャストアーキテクチャ - 毎日1,500時間の音声を生成する](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
 	- [ ]  [Justin.Tvのライブビデオブロードキャストアーキテクチャ](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
-	- [ ]  [Playfishのソーシャルゲームアーキテクチャ - 月間5000万人のユーザーと成長](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html) 
+	- [ ]  [Playfishのソーシャルゲームアーキテクチャ - 月間5000万人のユーザーと成長](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
 	- [ ]  [アーキテクチャ - 40Mビジター、200Mダイナミックページビュー、30TBデータ]()
 	- [ ]  [PlentyOfFishアーキテクチャ](http://highscalability.com/plentyoffish-architecture)
-	- [ ]  [Salesforceのアーキテクチャ - どのように130億回のトランザクションを処理するか](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) 
+	- [ ]  [Salesforceのアーキテクチャ - どのように130億回のトランザクションを処理するか](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
 	- [ ]  [ESPNの規模でのアーキテクチャ - 毎秒100,000のDuh Nuh Nuhsで動作](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
 	- [ ] サービスを結合する技術の情報については、以下の「メッセージング、シリアライゼーション、およびキューイングシステム」を参照してください。
 	- [ ]  Twitter：
@@ -1258,34 +1244,8 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 - [ ]  2〜3分短編ビデオシリーズ(23ビデオ)
 	- [動画](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(18ビデオ)
+- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(40ビデオ)
 	- [動画](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ]  [Sedgewick Videos - アルゴリズムI](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
-	- [ ]  [01.Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-	- [ ]  [02.アルゴリズムの分析](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
-	- [ ]  [03.スタックとキュー](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
-	- [ ]  [04.初級ソート](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
-	- [ ]  [05. マージソート](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-	- [ ]  [06. クイックソート](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-	- [ ]  [07.優先度つきキュー](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
-	- [ ]  [08. 基本記号表](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
-	- [ ]  [09. 平衡探索木](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
-	- [ ]  [10. BSTの幾何学的応用](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
-	- [ ]  [11.ハッシュテーブル](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
-- [ ]  [Sedgewick Videos - アルゴリズムII](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
-	- [ ]  [01.無向グラフ](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
-	- [ ]  [02. 有向グラフ](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
-	- [ ]  [03.最小スパニング木](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
-	- [ ]  [04.最短経路](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
-	- [ ]  [05.最大フロー](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
-	- [ ]  [06.基数ソート](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-	- [ ]  [07.トライ木](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-	- [ ]  [08.部分文字列検索](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-	- [ ]  [09.正規表現](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
-	- [ ]  [10.データ圧縮](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
-	- [ ]  [11.リダクション](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
-	- [ ]  [12.線形プログラミング](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
-	- [ ]  [13.難易度](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
 
@@ -1317,7 +1277,6 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - [Topcodersの数学](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [動的プログラミング - 初心者から上級者まで](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT面接資料](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [特定の言語でより良くなるための練習](http://exercism.io/languages)
 
 **プログラミングの問題を読んでやる(この順番で)：**
 
@@ -1404,12 +1363,13 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 - 何をしているの？
 - それについて何が好きですか？
 - 仕事の生活はどうですか？
+- ワークライフバランスはどうですか？
 
 ## 一度あなたは仕事を得た
 
 おめでとう!
 
-学び続けます。
+学び続けてください。
 
 あなたは決して本当に終わらない。
 
@@ -1700,6 +1660,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [Aduni - アルゴリズム - 講義5(ビデオ)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
 		- [ ]  [黒い木](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 		- [ ]  [バイナリサーチとレッドブラック木の紹介](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
 - [ ]  **2-3の検索木**
     - 実際には：
@@ -1739,6 +1700,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [MIT 6.851 - メモリ階層モデル(ビデオ)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 				- キャッシュに気付かないB木、非常に興味深いデータ構造
 				- 最初の37分は非常に技術的であり、スキップすることができます(Bはブロックサイズ、キャッシュラインサイズです)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D木
@@ -1756,10 +1718,6 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 	- [ ]  [Ford-Fulkerson(ビデオ)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
 	- [ ]  [Ford-Fulkersonアルゴリズム(ビデオ)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
 	- [ ]  [ネットワークフロー(動画)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
-
-- ### 分離集合と連合検索
-	- [ ]  [UCB 61B - ばらばらのセット;並べ替えと選択(動画)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
-	- [ ]  [Sedgewickアルゴリズム - Union-Find(6ビデオ)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
 
 - ### 高速処理のための数学
 	- [ ]  [整数演算、Karatsuba倍数(ビデオ)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1803,7 +1761,6 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [GoogleのDeep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
 		- [Google / Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
 		- [自己運転車技術者Nanodegree](https://www.udacity.com/drive)
-		- [Metis Online Course(2ヶ月間99ドル)](http://www.thisismetis.com/explore-data-science)
 	- リソース：
 		- 書籍：
 			- [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)

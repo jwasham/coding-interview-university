@@ -1,5 +1,5 @@
-﻿# কোডিং সাক্ষাত্কার বিশ্ববিদ্যালয়
- 
+# কোডিং সাক্ষাত্কার বিশ্ববিদ্যালয়
+
 > আমি এটি প্রথমে একটি সফটওয়্যার ইঞ্জিনিয়ার হওয়ার জন্য অধ্যয়নের বিষয়গুলির একটি স্বল্প-করণীয় তালিকা হিসাবে তৈরি করেছিলাম,
 > তবে এটি আজ আপনি যে বৃহত তালিকা দেখতে পাচ্ছেন তাতে রুপ নিয়েছে এই শিক্ষা পরিকল্পনাটি পেরিয়ে যাওয়ার পরে, [আমি নিয়োগ পেয়েছি
 > অ্যামাজনে সফটওয়্যার ডেভলপমেন্ট ইঞ্জিনিয়ার হিসাবে](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
@@ -11,6 +11,7 @@
 > এখানে তালিকাভুক্ত আইটেমগুলি যেকোনো সফ্টওয়্যার সংস্থার সম্পর্কে আপনাকে একটি সাক্ষাত্কারের জন্য ভালভাবে প্রস্তুত করবে,
 > যার মধ্যে থাকবে বৃহৎ প্রযুক্তি কোম্পানি যেমন: অ্যামাজন, ফেসবুক, গুগল বা মাইক্রোসফ্ট।
 >
+
 > *আপনার জন্য শুভকামনা!*
  
 <details>
@@ -54,36 +55,7 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
-    </p>
-    <p>
-        <strong>Special thanks to:</strong>
-    </p>
-    <p>
-        <a href="https://oss.capital/">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
-            </div>
-            <div>
-                <p>
-                    <strong>Dev environments built for the cloud</strong>
-                </p>
-            </div>
-            <div>
-                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
-            </div>
-        </a>
+        <a href="https://github.com/sponsors/jwasham"><strong>পৃষ্ঠপোষক হয়ে যান</strong> এবং কোডিং ইন্টারভিউ বিশ্ববিদ্যালয় সমর্থন করুন!</a>
     </p>
     <hr />
 </div>
@@ -101,13 +73,13 @@
 * ধৈর্য
 * সময় 
 
-
  বিজ্ঞপ্তি এটি সফ্টওয়্যার ইঞ্জিনিয়ারিং এর অধ্যয়ন পরিকল্পনা,  ওয়েব ডেভলপমেন্ট এর নয়। বড় বড় সফ্টওয়্যার কোম্পানি যেমন গুগল, অ্যামাজন,ফেসবুক এবং মাইক্রোসফ্ট সফ্টওয়্যার ইঞ্জিনিয়ারিং কে  ওয়েব ডেভলপমেন্ট থেকে আলাদা হিসাবে দেখে। যেমন অ্যামাজন এর ফ্রন্ট এন্ড ইঞ্জিনিয়ার (এফইই) এবং সফ্টওয়্যার ডেভলপমেন্ট ইঞ্জিনিয়ার (এফডিই) দুই ধরনের ইঞ্জিনিয়ার আছে। এই দুইটি আলাদা চাকরি এবং এদের ইন্টারভিউ ও আলাদা ধরনের হবে। কারন এই দুই ধরনের পেশার জন্য আলাদা দক্ষতা প্রয়োজন। এই প্রতিষ্ঠান গুলো সফ্টওয়্যার ডেভলপমেন্ট ইঞ্জিনিয়ার এর চাকরির জন্য কম্পিউটার সাইন্স এর জ্ঞান হাকা আবশ্যক মনে করে। 
+
  
 ---
  
 ## সুচিপত্র
- 
+
 ### পাঠ পরিকল্পনা
 
 - [এটি কি](#এটি-কি)
@@ -128,6 +100,7 @@
 ### অধ্যয়নের বিষয়সমূহ
 
 - [অ্যালগোরিদমিক জটিলতা / বিগ-ও / অ্যাসিম্পটোটিক বিশ্লেষণ](#অ্যালগোরিদমিক-জটিলতা-বিগ-ও-অ্যাসিপোটোটিক-বিশ্লেষণ)
+
 - [ডেটা স্ট্রাকচার](#ডেটা-স্ট্রাকচার)
    -[অ্যারে](#অ্যারে)
    -[লিঙ্কলিস্ট](#লিঙ্কযুক্ত-তালিকাগুলি)
@@ -517,7 +490,7 @@ https://github.com/jwasham/coding-interview-university
 
  
  
- 
+
 ## আপনি কি কভার দেখতে পাবেন না
  
 এগুলি প্রচলিত প্রযুক্তি তবে এই অধ্যয়ন পরিকল্পনার অংশ নয়:
@@ -604,93 +577,188 @@ https://github.com/jwasham/coding-interview-university
  
  
 </details>
+
  
-##ডাটা স্ট্রাকচার
+এই কোর্সটিতে অনেক বিষয় রয়েছে। প্রতিটি সম্ভবত আপনাকে কয়েক দিন, বা এমনকি এক সপ্তাহ বা তারও বেশি সময় লাগবে। এটা আপনার সময়সূচী উপর নির্ভর করে।
+
+প্রতিদিন, তালিকার পরবর্তী বিষয় নিন, সেই বিষয়ে কিছু ভিডিও দেখুন এবং তারপর একটি বাস্তবায়ন লিখুন
+এই কোর্সের জন্য আপনি যে ভাষাটি বেছে নিয়েছেন সেই ডেটা স্ট্রাকচার বা অ্যালগরিদমের।
+
+আপনি এখানে আমার কোড দেখতে পারেন:
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
+
+আপনাকে প্রতিটি অ্যালগরিদম মুখস্থ করতে হবে না। আপনার নিজের বাস্তবায়ন লিখতে সক্ষম হওয়ার জন্য আপনাকে এটি যথেষ্ট বুঝতে সক্ষম হতে হবে।
+
+## কোডিং প্রশ্ন অনুশীলন
+
+    এটা এখানে কেন? আমি ইন্টারভিউ দিতে প্রস্তুত নই।
+
+[তারপর ফিরে যান এবং এটি পড়ুন।](#3-do-coding-interview-questions-while-youre-learning)
+
+কেন আপনাকে প্রোগ্রামিং সমস্যাগুলি অনুশীলন করতে হবে:
+- সমস্যা শনাক্তকরণ, এবং যেখানে সঠিক ডেটা স্ট্রাকচার এবং অ্যালগরিদমগুলি ফিট করে৷
+- সমস্যার জন্য দরকারী জিনিস সংগ্রহ করা
+- ইন্টারভিউতে আপনার মতন সমস্যার মধ্য দিয়ে কথা বলা
+- একটি হোয়াইটবোর্ড বা কাগজে কোডিং, কম্পিউটার নয়
+- আপনার সমাধানের জন্য সময় এবং স্থান জটিলতা নিয়ে আসছে (নীচে Big-O দেখুন)
+- আপনার সমাধান পরীক্ষা
+
+একটি ইন্টারভিউতে পদ্ধতিগত, যোগাযোগমূলক সমস্যা সমাধানের জন্য একটি দুর্দান্ত ভূমিকা রয়েছে। আপনি প্রোগ্রামিং থেকে এটি পাবেন
+সাক্ষাৎকারের বইও, কিন্তু আমি এই অসামান্য খুঁজে পেয়েছি:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+
+একটি হোয়াইটবোর্ড বা কাগজে কোড লিখুন, কম্পিউটার নয়। কিছু নমুনা ইনপুট দিয়ে পরীক্ষা করুন। তারপর এটি টাইপ করুন এবং একটি কম্পিউটারে এটি পরীক্ষা করুন।
+
+আপনার বাড়িতে একটি হোয়াইটবোর্ড না থাকলে, একটি আর্ট স্টোর থেকে একটি বড় অঙ্কন প্যাড নিন। আপনি সোফায় বসে অনুশীলন করতে পারেন।
+এটি আমার "সোফা হোয়াইটবোর্ড"। আমি শুধু স্কেলের জন্য ফটোতে কলম যোগ করেছি। যদি আপনি একটি কলম ব্যবহার করেন, আপনি মুছে দিতে পারেন.
+দ্রুত এলোমেলো হয়ে যায়। **আমি একটি পেন্সিল এবং ইরেজার ব্যবহার করি।**
+
+![আমার সোফা হোয়াইটবোর্ড](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**কোডিং প্রশ্ন অনুশীলন প্রোগ্রামিং সমস্যার উত্তর মুখস্ত করা সম্পর্কে নয়।**
  
-<details>
-<সংশ্লেটি> ডেটা স্ট্রাকচার </summary>
+## কোডিং সমস্যা
+
+আপনার মূল কোডিং ইন্টারভিউ বই ভুলবেন না [here](#interview-prep-books).
+
+সমস্যা সমাধানে:
+- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+
+কোডিং ইন্টারভিউ প্রশ্ন ভিডিও:
+- [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - সমস্যার সমাধানের জন্য সুপার ওয়াকথ্রু
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+     - সমাধান এবং কোডের ভাল ব্যাখ্যা
+     - আপনি অল্প সময়ের মধ্যে বেশ কয়েকটি দেখতে পারেন
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+
+চ্যালেঞ্জ/অনুশীলনের সাইট:
+- [LeetCode](https://leetcode.com/)
+    - আমার প্রিয় কোডিং সমস্যা সাইট। এটি 1-2 মাসের জন্য সাবস্ক্রিপশনের অর্থের মূল্য যা আপনি সম্ভবত প্রস্তুত করছেন।
+     - কোড ওয়াক-থ্রুগুলির জন্য উপরে নিক হোয়াইট এবং ফিশারকোডার ভিডিওগুলি দেখুন৷
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Codeforces](https://codeforces.com/)
+- [Codility](https://codility.com/programmers/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [InterviewBit](https://www.interviewbit.com/)
+- [AlgoExpert](https://www.algoexpert.io/product)
+    - Google ইঞ্জিনিয়ারদের দ্বারা তৈরি, এটি আপনার দক্ষতা বাড়াতে একটি চমৎকার সম্পদও।
+- [Project Euler](https://projecteuler.net/)
+    - খুব গণিত ফোকাসড, এবং কোডিং ইন্টারভিউয়ের জন্য সত্যিই উপযুক্ত নয়
+
+## চল শুরু করি
+
+ঠিক আছে, যথেষ্ট কথা, আসুন শিখি!
+
+কিন্তু শিখতে গিয়ে উপরে থেকে কোডিং সমস্যা করতে ভুলবেন না!
+
+## অ্যালগরিদমিক জটিলতা / বিগ-ও / অ্যাসিম্পটোটিক বিশ্লেষণ
+
+- এখানে বাস্তবায়নের কিছু নেই, আপনি শুধু ভিডিও দেখছেন এবং নোট নিচ্ছেন! হ্যাঁ!
+- এখানে অনেক ভিডিও আছে। আপনি এটি বুঝতে না হওয়া পর্যন্ত শুধু যথেষ্ট দেখুন। আপনি সবসময় ফিরে আসতে পারেন এবং পর্যালোচনা করতে পারেন।
+- আপনি যদি এর পিছনের সমস্ত গণিত না বুঝতে পারেন তবে চিন্তা করবেন না।
+- আপনাকে শুধু বুঝতে হবে কিভাবে বিগ-ও এর পরিপ্রেক্ষিতে একটি অ্যালগরিদমের জটিলতা প্রকাশ করা যায়।
+- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Skiena (video)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
+- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] TopCoder (includes recurrence relations and master theorem):
+    - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+    - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
+- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+
+ওয়েল, যে যথেষ্ট যে সম্পর্কে.
+
+আপনি যখন "Cracking the Coding Interview" এর মধ্য দিয়ে যান, তখন এই বিষয়ে একটি অধ্যায় থাকে এবং শেষে একটি কুইজ দেখতে হয়
+যদি আপনি বিভিন্ন অ্যালগরিদমের রানটাইম জটিলতা সনাক্ত করতে পারেন। এটি একটি সুপার পর্যালোচনা এবং পরীক্ষা.
  
--###অ্যারে
-   -একটি স্বয়ংক্রিয় আকার পরিবর্তনকারী ভেক্টর প্রয়োগ করুন।
-   -  বিবরণ:
-       -[অ্যারে (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন //sBSF/arrays)
-       -[ইউসি বার্কলে সিএস 61 বি-লিনিয়ার এবং মাল্টি-ডিম অ্যারে (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (15m 32s থেকে দেখা শুরু করুন)
-       -[বেসিক অ্যারে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-       -[একাধিক ম্লান (ভিডিও)] (https://archive.org/details/0102What youShouldKnow/02_05-মাল্টিডিমাইশনাল অ্যারাই.এমপি 4)
-       -[ডাইনামিক অ্যারে (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-       -[জেগড অ্যারে (ভিডিও)] (https://www.youtube.com/watch?v=1jtrQqYpt7g)
-       -[জেগড অ্যারে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/02_06-জ্যাজডআরাই.আরএম 4)
-       -[পুনরায় আকার দেওয়ার অ্যারে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-   -  একটি ভেক্টর প্রয়োগ করুন (স্বয়ংক্রিয় আকার পুনরায় আকারের সাথে পরিবর্তনীয় অ্যারে):
-       -  অ্যারে এবং পয়েন্টার ব্যবহার করে কোডিং অনুশীলন করুন, এবং সূচক ব্যবহারের পরিবর্তে সূচীতে ঝাঁপ দেওয়ার জন্য পয়েন্টার ম্যাথ th
-       -  বরাদ্দ মেমরি সহ নতুন কাঁচা ডেটা অ্যারে
-           -হুডের অধীনে ইন অ্যারে বরাদ্দ করতে পারে, কেবল তার বৈশিষ্ট্যগুলি ব্যবহার করবেন না
-           -16 দিয়ে শুরু করুন, বা যদি শুরুর সংখ্যাটি বেশি হয় তবে 2-16, 32, 64, 128 এর শক্তি ব্যবহার করুন
-       -  আকার ()-আইটেমের সংখ্যা
-       -  ক্ষমতা ()-এটি ধরে রাখতে পারে এমন আইটেমের সংখ্যা
-       -[ ] খালি()
-       -  এ (সূচক)-প্রদত্ত সূচকে আইটেমটি ফেরত দেয়, সূচক সীমা ছাড়িয়ে গেলে ফুটিয়ে উঠে
-       -  ধাক্কা (আইটেম)
-       -  সন্নিবেশ (সূচক, আইটেম)-সূচীতে আইটেম সন্নিবেশ করায়, সূচকের মান এবং পিছনের উপাদানগুলি ডানদিকে সরিয়ে দেয়
-       -  প্রিপেন্ড (আইটেম)-উপরে সূচক 0 এ সন্নিবেশ ব্যবহার করতে পারেন
-       -  পপ ()-শেষ থেকে সরান, ফেরতের মান
-       -  মুছুন (সূচী)-সূচি অনুসারে আইটেম মুছুন, সমস্ত অনুবর্তনীয় উপাদান বাম দিকে সরিয়ে
-       -  সরান (আইটেম)-মান সন্ধান করে এবং এটি ধরে রাখা সূচকটি সরিয়ে দেয় (এমনকি একাধিক জায়গায় থাকলেও)
-       -  সন্ধান করুন (আইটেম)-মানটির সন্ধান করে এবং সেই মানটির সাথে প্রথম সূচকটি প্রদান করে,-১ পাওয়া না গেলে
-       -  পুনরায় আকার দিন (নতুন_ক্ষমতা) // ব্যক্তিগত ফাংশন
-           -যখন আপনি সক্ষমতা পৌঁছেছেন, আকার দ্বিগুণ করার জন্য পুনরায় আকার দিন
-           -কোনও আইটেমটি পপ করার সময়, আকারটি যদি 1/4 ধারণক্ষমতা হয় তবে আকারটি অর্ধেক করুন
-   -  সময়
-       -ও (1) শেষে অন্তর্ভুক্ত / অপসারণ (আরও স্থানের জন্য বরাদ্দের জন্য সূক্ষ্ম), সূচক বা আপডেট
-       -ও (এন) অন্যত্র সন্নিবেশ / অপসারণ করতে
-   -  স্পেস
-       -স্মৃতিতে সামঞ্জস্যপূর্ণ তাই নৈকট্য পারফরম্যান্সে সহায়তা করে
-       -স্থান প্রয়োজন = (অ্যারে ক্ষমতা, যা> = এন) * আইটেমের আকার, তবে 2n হলেও এখনও হে (এন)
+## ডাটা স্ট্রাকচার
  
--###লিঙ্কযুক্ত তালিকাগুলি
-   -  বিবরণ:
-       -  [একক লিঙ্কযুক্ত তালিকাগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-       -  [সিএস 61 বি-লিঙ্কযুক্ত তালিকাগুলি 1 (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-       -  সিএস 61 বি-লিঙ্কযুক্ত তালিকাগুলি 2 (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-   -  [সি কোড (ভিডিও)] (https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-           -পুরো ভিডিও নয়, নোড স্ট্রাক্ট এবং মেমরির বরাদ্দ সম্পর্কে কেবল অংশ।
-   -  লিঙ্কযুক্ত তালিকা বনাম অ্যারে:
-       -[কোর লিঙ্কযুক্ত তালিকা বনাম অ্যারেগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-       -[রিয়েল ওয়ার্ল্ডের লিঙ্কযুক্ত তালিকায় বনাম অ্যারেগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-   -  [কেন আপনার লিঙ্কযুক্ত তালিকাগুলি (ভিডিও) এড়ানো উচিত]] (https://www.youtube.com/watch?v=YQs6IC-vgmo)
-   -  গোটচা: আপনার পয়েন্টার জ্ঞানের জন্য পয়েন্টার প্রয়োজন:
-        (আপনি যখন কোনও ফাংশনটিতে কোনও পয়েন্টার পাস করেন যা ঠিকানা পরিবর্তন করতে পারে যেখানে সেই পয়েন্টারটি নির্দেশ করে)
-        এই পৃষ্ঠাটি কেবল পিটিআর থেকে পিটিআর এ উপলব্ধি পেতে। আমি এই তালিকাটি ট্র্যাভার্সাল স্টাইলের প্রস্তাব দিই না। পড়ার যোগ্যতা এবং রক্ষণাবেক্ষণযোগ্যতা চতুরতার কারণে ভোগে।
-       -[পয়েন্টারগুলিতে নির্দেশক] (https://www.eskimo.com/~scs/cclass/int/sx8.html)
-   -  বাস্তবায়ন করুন (আমি টেইল পয়েন্টার দিয়ে ও ছাড়াই করেছি):
-       -  আকার ()-তালিকায় ডাটা উপাদানগুলির সংখ্যা প্রদান করে
-       -  খালি ()-শূন্য হলে বুল সত্য দেয়
-       -  মান_আট (সূচক)-নবম আইটেমটির মান প্রদান করে (প্রথমটির জন্য 0 থেকে শুরু করে)
-       -  পুশ_ফ্রন্ট (মান)-তালিকার সামনের অংশে একটি আইটেম যুক্ত করে
-       -  পপ_ফ্রন্ট ()-সামনের আইটেমটি সরিয়ে তার মানটি ফিরিয়ে দিন
-       -  পুশ_ব্যাক (মান)-শেষে একটি আইটেম যুক্ত করে
-       -  পপ_ব্যাক ()-শেষ আইটেমটি সরিয়ে দেয় এবং এর মান প্রদান করে
-       -  সামনের ()-সামনের আইটেমটির মান পান
-       -  ফিরে ()-শেষ আইটেমটির মান পান
-       -  সন্নিবেশ (সূচক, মান)-সূচকে মূল্য সন্নিবেশ করানো হয়, সুতরাং সেই সূচীতে বর্তমান আইটেমটি সূচীতে নতুন আইটেম দ্বারা নির্দেশিত
-       -  মুছুন (সূচক)-প্রদত্ত সূচকে নোড সরান s
-       -  মান_ন_ফ্রম_েন্ড (এন)-তালিকার শেষে থেকে নবম অবস্থানে নোডের মান প্রদান করে
-       -  বিপরীত ()-তালিকার বিপরীতে
-       -  সরান_মূল্য (মান)-এই মান সহ তালিকার প্রথম আইটেমটি সরিয়ে দেয়
-   -  দ্বিগুণভাবে সংযুক্ত তালিকা
-       -[বিবরণ (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-       -বাস্তবায়নের দরকার নেই
+- ### অ্যারে
+    - [ ] অ্যারে সম্পর্কে:
+    	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (১৫ মিনিট ৩২ সেকেন্ড থেকে দেখা শুরু করুন)
+        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [ ] Implement a vector (mutable array with automatic resizing):
+        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+        - [ ] New raw data array with allocated memory
+            - can allocate int array under the hood, just not use its features
+            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
+        - [ ] size() - আইটেমের সংখ্যা
+        - [ ] capacity() - আইটেমের সংখ্যা এটি ধরে রাখতে পারে
+        - [ ] is_empty()
+        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] push(item)
+        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [ ] prepend(item) - can use insert above at index 0
+        - [ ] pop() - শেষ থেকে সরান, ভ্যালু রিটার্ন করুন
+        - [ ] delete(index) - delete item at index, shifting all trailing elements left
+        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
+        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] resize(new_capacity) // private function
+            - যখন সাইজ পুরন হয়ে যায়, তখন সেটার সাইজ ডবল করে দিন
+            - when popping an item, if size is 1/4 of capacity, resize to half
+    - [ ] Time
+        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
+        - O(n) to insert/remove elsewhere
+    - [ ] Space
+        - contiguous in memory, so proximity helps performance
+        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+ 
+- ### লিঙ্কড লিস্ট
+    - [ ] বিবরণ:
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - পুরো ভিডিওটি নয়, নোড স্ট্রাকট এবং মেমরি বরাদ্দ সম্পর্কে কিছু অংশ
+    - [ ] লিঙ্কড লিস্ট বনাম অ্যারে:
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Gotcha: you need pointer to pointer knowledge:
+        (for when you pass a pointer to a function that may change the address where that pointer points)
+        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] Implement (I did with tail pointer & without):
+        - [ ] size() - returns number of data elements in list
+        - [ ] empty() - bool returns true if empty
+        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [ ] push_front(value) - adds an item to the front of the list
+        - [ ] pop_front() - remove front item and return its value
+        - [ ] push_back(value) - adds an item at the end
+        - [ ] pop_back() - removes end item and returns its value
+        - [ ] front() - get value of front item
+        - [ ] back() - get value of end item
+        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [ ] erase(index) - removes node at given index
+        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [ ] reverse() - reverses the list
+        - [ ] remove_value(value) - এই মান দিয়ে তালিকার প্রথম আইটেমটি সরিয়ে দেয়
+    - [ ] Doubly-linked List
+        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - ইমপ্লিমেন্টের প্রয়োজন নাই।
  
 -###স্ট্যাক
    -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-   -  [সর্বশেষে প্রথম-আউট স্ট্যাকগুলি ব্যবহার করে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/05_01-Stacks forLast-inFirst-out.mp4)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
    - ] বাস্তবায়ন করবে না। অ্যারের সাথে প্রয়োগ করা তুচ্ছ।
  
 -###কিউ
-   -  [প্রথম সারিতে প্রথম সারিতে ক্যু ব্যবহার করে (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
    -  [সারি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/queues-EShpq)
    -  [বিজ্ঞপ্তি বাফার / ফিফো] (https://en.wikedia.org/wiki/Circular_buffer)
-   -  [অগ্রাধিকারের সারি (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnav/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
    -  লেজ পয়েন্টার সহ লিঙ্কযুক্ত-তালিকা ব্যবহার করে প্রয়োগ করুন:
        -এনকুই (মান)-লেজের স্থানে মান যোগ করে
        -ডেকিউ ()-মান ফেরত দেয় এবং সর্বশেষে যুক্ত হওয়া উপাদান (সামনে) সরিয়ে দেয়
@@ -715,12 +783,9 @@ https://github.com/jwasham/coding-interview-university
        -  [পাইকন ২০১০: দ্য মাইটি ডিকশনারী (ভিডিও)] (https://www.youtube.com/watch?v=C4Kc8xzcA68)
        -  [(উন্নত) র্যান্ডমাইজেশন: ইউনিভার্সাল এবং পারফেক্ট হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
        -  [(উন্নত) পারফেক্ট হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEWKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
  
    -  অনলাইন কোর্স:
-       -  [হ্যাশ ফাংশনগুলি বোঝার (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/06_02-বোঝা হ্যাশফুনেশন.এমপি 4)
-       -  [হ্যাশ টেবিলগুলি (ভিডিও) ব্যবহার করে] (https://archive.org/details/0102WhatYouShouldKnow/06_03-USHashTables.mp4)
-       -  [হ্যাশিং (ভিডিও) সমর্থন করে] (https://archive.org/details/0102WhatYouShouldKnow/06_04-SupportingHashing.mp4)
-       -  [ভাষা সমর্থন হ্যাশ টেবিলগুলি (ভিডিও)] (https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
        -  [কোর হ্যাশ টেবিল (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
        -  [ডেটা স্ট্রাকচার (ভিডিও)] (https://www.coursera.org/learn/data-structures/home/week/3)
        -  [ফোন বুক সমস্যা (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / NYZZP/ iPhone-book-সমস্যা)
@@ -746,6 +811,7 @@ https://github.com/jwasham/coding-interview-university
    -  [বাইনারি অনুসন্ধান (ভিডিও)] (https://www.youtube.com/watch?v=D5SrAga1pno)
    -  [বাইনারি সন্ধান (ভিডিও)] (https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
    -  [বিস্তারিত] (https://www.topcoder.com/commune/competitive-programming/tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
    -  বাস্তবায়ন:
        -বাইনারি অনুসন্ধান (পূর্ণসংখ্যার সাজানো অ্যারেতে)
        -পুনরাবৃত্তি ব্যবহার করে বাইনারি অনুসন্ধান
@@ -802,7 +868,10 @@ https://github.com/jwasham/coding-interview-university
            -অর্ডার (ডিএফএস: বাম, স্ব, ডান)
            -পোস্টর্ডার (ডিএফএস: বাম, ডান, স্ব)
            -প্রির্ডার (ডিএফএস: স্ব, বাম, ডান)
- 
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
+
 -###বাইনারি অনুসন্ধান গাছ: বিএসটি
    -  [বাইনারি অনুসন্ধান বৃক্ষ পর্যালোচনা (ভিডিও)] (https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
    -  [সিরিজ (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-intr پيداوار-to-binary-search-trees)
@@ -849,6 +918,7 @@ https://github.com/jwasham/coding-interview-university
    -  [এমআইটি: হিপস এবং হিপ সাজান (ভিডিও)] (https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
    -  [সিএস 61 বি লেকচার 24: অগ্রাধিকার ক্যু (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
    -  [লিনিয়ার টাইম বিল্ডহীপ (সর্বাধিক হিপ)] (https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
    -  একটি সর্বোচ্চ গাদা প্রয়োগ করুন:
        -  sertোকান
        -  সিফ্ট_আপ-.োকানোর জন্য প্রয়োজনীয়
@@ -918,7 +988,15 @@ https://github.com/jwasham/coding-interview-university
    -  [বাস্তবায়ন (সি)] (http://www.cs.yale.edu/homes/aspnes/class/223/exults/randomization/quick.c)
    -  [বাস্তবায়ন (সি)] (https://github.com/jwasham/pੈਕਟ-c/blob/master/quick_sort/quick_sort.c)
    -  [বাস্তবায়ন (পাইথন)] (https://github.com/jwasham/pੈਕਟ-python/blob/master/quick_sort/quick_sort.py)
- 
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+
 -  বাস্তবায়ন:
    -  মার্জোর্ট: ও (এন লগ এন) গড় এবং সবচেয়ে খারাপ অবস্থা case
    -  কুইকসোর্ট ও (এন লগ এন) গড় কেস
@@ -987,6 +1065,8 @@ https://github.com/jwasham/coding-interview-university
    -  [সিএস 61 বি 2014: ওজনযুক্ত গ্রাফ (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
    -  [লোভী অ্যালগরিদম: ন্যূনতম বিস্তৃত গাছ (ভিডিও)] (https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
    -  [দৃr়ভাবে সংযুক্ত উপাদানগুলি কোসারাজুর অ্যালগোরিদম গ্রাফ আলগোরিদিম (ভিডিও)] (https://www.youtube.com/watch?v=RpgcYiky7uw)
+   - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+   - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
  
 -সম্পূর্ণ কোর্সেরা কোর্স:
    -  [গ্রাফগুলিতে অ্যালগরিদমগুলি (ভিডিও)] (https://www.coursera.org/learn/algorithms-on-অনুচ্ছেদ / হোম / উপস্ব)
@@ -1410,7 +1490,7 @@ https://github.com/jwasham/coding-interview-university
  
 -  শর্ট সাবজেক্টের ২-৩ মিনিটের সিরিজ (২৩ টি ভিডিও)
    -[ভিডিও] (https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল (18 টি ভিডিও):
+-  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (40 টি ভিডিও):
    -[ভিডিও] (https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 -  [সেজেজউইক ভিডিও-অ্যালগোরিদম আই] (https://www.coursera.org/learn/algorithms-part1)
 -  [সেজেজিক ভিডিও-দ্বিতীয় অ্যালগোরিদম] (https://www.coursera.org/learn/algorithms-part2)
@@ -1451,8 +1531,7 @@ https://github.com/jwasham/coding-interview-university
 -[টপকোডারদের জন্য গণিত] (https://www.topcoder.com / সম্প্রদায় / কমপিটিটিভ-প্রোগ্রামিং / টিউটোরিয়ালস / ম্যাথেমেটিক্সের জন্য-ট্যাপকোডার /)
 -[ডায়নামিক প্রোগ্রামিং-নোভাইস থেকে অ্যাডভান্সড] (https://www.topcoder.com/commune/competitive-pogramming/tutorials/dynamic-programming-from-novice-to-advanced/
 -[এমআইটি সাক্ষাত্কার উপকরণ] (https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/matorys.php)
--[প্রদত্ত ভাষায় আরও ভাল হওয়ার জন্য অনুশীলন] (http://exercism.io/languages)
- 
+
 ** প্রোগ্রামিং সমস্যাগুলি পড়ুন এবং করুন (এই ক্রমে): **
  
 -  [প্রোগ্রামিং সাক্ষাত্কার উন্মোচিত: আপনার পরবর্তী কাজ ল্যান্ডিংয়ের গোপনীয়তা, ২ য় সংস্করণ] (http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
@@ -1840,6 +1919,7 @@ https://github.com/jwasham/coding-interview-university
        -  [আদুনি-অ্যালগরিদম-লেকচার 5 (ভিডিও)] (https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
        -  [লাল-কালো বৃক্ষ] (https://en.wikedia.org/wiki/Red%E2%80%93 ব্ল্যাক_ট্রি)
        -  [বাইনারি অনুসন্ধান এবং লাল কালো গাছের পরিচিতি] (https://www.topcoder.com/commune/competitive-pogramming/tutorials/an-intr Produc-to-binary-search-and-red-black-trees /)
+       - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
  
    -  ** ২-৩ টি অনুসন্ধান গাছ **
        -প্রস্তুতিতে:
@@ -1880,6 +1960,7 @@ https://github.com/jwasham/coding-interview-university
        -  [এমআইটি 85.৮৫১-মেমরি হায়ারার্কি মডেলগুলি (ভিডিও)] (https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                -ক্যাশে-বিস্মৃত বি-গাছগুলি কভার করে, খুব আকর্ষণীয় ডেটা স্ট্রাকচার
                -প্রথম 37 মিনিট খুব প্রযুক্তিগত, এড়িয়ে যেতে পারে (বি ব্লকের আকার, ক্যাশে লাইনের আকার)
+       - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
  
  
 -###কেডি গাছ

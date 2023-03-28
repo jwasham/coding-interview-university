@@ -564,6 +564,7 @@ Challenge/Practice sites:
     - Created by Google engineers, this is also an excellent resource to hone your skills.
 - [Project Euler](https://projecteuler.net/)
     - very math focused, and not really suited for coding interviews
+- [Coding Challenges Newsletter](https://codingchallenges.substack.com/)
 
 ## Let's Get Started
 

@@ -20,6 +20,7 @@ void readarr(int n[],int size) {
         scanf("%d",&n[i]);
     }
 }
+
 int linsearchrec(int n[],int size,int sele) {
     static int i;
     if(i>=size) return -1;

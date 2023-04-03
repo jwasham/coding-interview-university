@@ -57,21 +57,6 @@ Microsoft.
     <p>
         <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
     </p>
-    <p>
-        <strong>Special thanks to:</strong>
-    </p>
-    <div>
-        <a href="https://meetapro.com/?utm_source=ciusponsor">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/meetapro.jpg" width="414" alt="Meetapro">
-            </div>
-            <div>
-                <sup>Feeling anxious about your upcoming interviews? Want to outdo Google's notoriously low 0.2% acceptance rate? Look no further than Meetapro! 
-                Our Airbnb-style setup connects you with expert interviewers from FAANG and other industry giants. Their personalized feedback and tips are pure gold, 
-                and they can double your chances of landing your dream job. Sign up for Meetapro today and take your career to the next level!</sup>
-            </div>
-        </a>
-    </div>
     <hr />
 </div>
 

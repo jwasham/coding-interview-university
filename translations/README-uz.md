@@ -607,6 +607,14 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - exists(key)
         - get(key)
         - remove(key)
+        
+## Ma'lumotlar tuzilmasi vizualizatsiya (Data structure Visualizations)
+
+Animatsiya orqali ma'lumotlar tuzilmalari va algoritmlarini vizualizatsiya qilish.
+Quyidagi havolada siz ma'lumotlar tuzilmasi aslida qanday ishlashini tushunib olasiz.
+
+  - [ ] [Visualizing Algorithms](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+  - [ ] [Visualgo](https://visualgo.net/en)
 
 ## Qo'shimcha bilimlar
 

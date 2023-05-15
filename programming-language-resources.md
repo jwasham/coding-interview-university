@@ -51,6 +51,7 @@
   - [Data Structures And Algorithms in Python](https://www.youtube.com/watch?v=kQDxmjfkIKY)
   - [Python Programming Tutorial](https://www.scaler.com/topics/python/)
   - [Python Interview Questions](https://www.interviewbit.com/python-interview-questions)
+  - [Python Guide for Beginners](https://wiingy.com/learn/python/python-tutorial/)
 - Java
   - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
   - [Java Cheat Sheet](https://www.interviewbit.com/java-cheat-sheet)

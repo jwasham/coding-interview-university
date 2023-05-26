@@ -18,3 +18,8 @@ Thumbs.db
 
 # Sublime Files
 .sublime
+/src/Arrays/bin/Debug/net7.0
+/src/Arrays/.vscode
+/src/Arrays/.vs
+/src/Arrays/obj
+/src/Arrays/Arrays.sln

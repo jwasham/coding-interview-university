@@ -18,3 +18,6 @@ Thumbs.db
 
 # Sublime Files
 .sublime
+
+# Local projects
+coding-practice/*

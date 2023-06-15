@@ -1183,7 +1183,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 - [ ] 2-3 منٹ کی مختصر سبجیکٹ ویڈیوز کی سیریز (23 ویڈیوز)
     - [ویڈیوز](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 منٹ کی مختصر موضوع ویڈیوز کی سیریز - مائیکل سمبول (38 ویڈیوز):
+- [ ] 2-5 منٹ کی مختصر موضوع ویڈیوز کی سیریز - مائیکل سمبول (43 ویڈیوز):
     - [ویڈیوز](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)

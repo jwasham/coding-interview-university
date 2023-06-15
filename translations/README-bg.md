@@ -1213,7 +1213,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 -   [ ] Серия от 2-3 минутни кратки клипове по различни теми (23 клипа)
     -   [Клипове](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--   [ ] Серия от 2-5 минутни кратки клипове по различни теми - Michael Sambol (40 клипа):
+-   [ ] Серия от 2-5 минутни кратки клипове по различни теми - Michael Sambol (43 клипа):
     -   [Клипове](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 -   [ ] [Sedgewick Videos - Алгоритми I](https://www.coursera.org/learn/algorithms-part1)
 -   [ ] [Sedgewick Videos - Алгоритми II](https://www.coursera.org/learn/algorithms-part2)

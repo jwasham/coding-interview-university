@@ -1244,8 +1244,9 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 
 - [ ]  2〜3分短編ビデオシリーズ(23ビデオ)
 	- [動画](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(43ビデオ)
-	- [動画](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(46ビデオ)
+	- [動画](https://www.youtube.com/@MichaelSambol)
+	- [Code Examples](https://github.com/msambol/dsa)
 
 ---
 
@@ -1635,6 +1636,7 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [AVL木(ビデオ)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
 		- [ ]  [AVL木実装(ビデオ)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
 		- [ ]  [スプリットアンドマージ](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [ ]  [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
 	- [ ]  **スプレッド木**
         - 実際には：

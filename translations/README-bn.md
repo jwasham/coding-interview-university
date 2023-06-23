@@ -1490,8 +1490,9 @@ https://github.com/jwasham/coding-interview-university
  
 -  শর্ট সাবজেক্টের ২-৩ মিনিটের সিরিজ (২৩ টি ভিডিও)
    -[ভিডিও] (https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (43 টি ভিডিও):
-   -[ভিডিও] (https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+-  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (46 টি ভিডিও):
+   - [ভিডিও](https://www.youtube.com/@MichaelSambol)
+   - [Code Examples](https://github.com/msambol/dsa)
 -  [সেজেজউইক ভিডিও-অ্যালগোরিদম আই] (https://www.coursera.org/learn/algorithms-part1)
 -  [সেজেজিক ভিডিও-দ্বিতীয় অ্যালগোরিদম] (https://www.coursera.org/learn/algorithms-part2)
  
@@ -1894,6 +1895,7 @@ https://github.com/jwasham/coding-interview-university
        -  [এভিএল ট্রি (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / Qq5E0/avl-trees)
        -  [এভিএল ট্রি বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-বাস্তবায়ন)
        -  [স্প্লিট এবং মার্জ করুন] (https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-विसর)
+       - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
  
    -  ** গাছ স্প্লে **
        -প্রস্তুতিতে:

@@ -247,19 +247,21 @@ Create a new branch so you can check items like this, just put an x in the brack
 1. Clone to your local repo:
 
     ```
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
+    git clone git@github.com:<your_github_username>/coding-interview-university.git
     cd coding-interview-university
-    git remote add upstream https://github.com/jwasham/coding-interview-university.git
-    git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
+    git checkout -b progress
+    git remote add jwasham https://github.com/jwasham/coding-interview-university
+    git fetch --all
     ```
 
 1. Mark all boxes with X after you completed your changes:
 
     ```
-    git commit -am "Marked personal progress"
-    git pull upstream main  # keep your fork up-to-date with changes from the original repo
-   
-    git push # just pushes to your fork
+    git add .
+    git commit -m "Marked x"
+    git rebase jwasham/main
+    git push --set-upstream origin progress
+    git push --force
     ```
 
 ## Don't feel you aren't smart enough
@@ -1199,7 +1201,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (43 videos):
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (40 videos):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)

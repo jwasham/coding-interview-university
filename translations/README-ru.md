@@ -1288,7 +1288,7 @@ Google не возьмёт тебя на работу.
 
 - [ ] Серия 2-3 минутных короткие видео по темам (23 видео)
     - [Видео](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (40 видео):
+- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (43 видео):
     - [Видео](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---

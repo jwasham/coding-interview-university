@@ -70,6 +70,7 @@ This is my multi-month study plan for becoming a software engineer for a large c
 
 **Required:**
 
+<<<<<<< HEAD
 - A little experience with coding (variables, loops, methods/functions, etc)
 - Patience
 - Time
@@ -79,6 +80,10 @@ Facebook and Microsoft view software engineering as different from web developme
 Frontend Engineers (FEE) and Software Development Engineers (SDE). These are 2 separate roles and the interviews for
 them will not be the same, as each has its own competencies. These companies require computer science knowledge for
 software development/engineering roles.
+=======
+Note this is a study plan for **software engineering**, not frontend engineering or fullstack development. There are really 
+super roadmaps and coursework for those career paths elsewhere (see https://roadmap.sh/ for more info).
+>>>>>>> ca33de5eb3eeb607785d8feefdcfb1a902854634
 
 There is a lot to learn in a university Computer Science program, but only knowing about 75% is good enough for an interview, so that's what I cover here.
 For a complete CS self-taught program, the resources for my study plan have been included in Kamran Ahmed's Computer Science Roadmap: https://roadmap.sh/computer-science
@@ -251,6 +256,7 @@ Create a new branch so you can check items like this, just put an x in the brack
 
 1. Clone to your local repo:
 
+<<<<<<< HEAD
    ```
    git clone git@github.com:<your_github_username>/coding-interview-university.git
    cd coding-interview-university
@@ -268,6 +274,23 @@ Create a new branch so you can check items like this, just put an x in the brack
    git push --set-upstream origin progress
    git push --force
    ```
+=======
+    ```
+    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
+    cd coding-interview-university
+    git remote add upstream https://github.com/jwasham/coding-interview-university.git
+    git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
+    ```
+
+1. Mark all boxes with X after you completed your changes:
+
+    ```
+    git commit -am "Marked personal progress"
+    git pull upstream main  # keep your fork up-to-date with changes from the original repo
+   
+    git push # just pushes to your fork
+    ```
+>>>>>>> ca33de5eb3eeb607785d8feefdcfb1a902854634
 
 ## Don't feel you aren't smart enough
 
@@ -1247,9 +1270,15 @@ Graphs can be used to represent many problems in computer science, so this secti
     It's nice if you want a refresher often.
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
+<<<<<<< HEAD
   - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
 - [ ] Series of 2-5 minutes short subject videos - Michael Sambol (40 videos):
   - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+=======
+    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (43 videos):
+    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+>>>>>>> ca33de5eb3eeb607785d8feefdcfb1a902854634
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1294,6 +1323,7 @@ Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously
+- [Meetapro: Mock interviews with top FAANG interviewers](https://meetapro.com/?utm_source=ciu) - an Airbnb-style mock interview/coaching platform.
 
 ## Be thinking of for when the interview comes
 

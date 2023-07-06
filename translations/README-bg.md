@@ -1213,8 +1213,9 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 -   [ ] Серия от 2-3 минутни кратки клипове по различни теми (23 клипа)
     -   [Клипове](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--   [ ] Серия от 2-5 минутни кратки клипове по различни теми - Michael Sambol (43 клипа):
-    -   [Клипове](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+-   [ ] Серия от 2-5 минутни кратки клипове по различни теми - Michael Sambol (46 клипа):
+    -   [Клипове](https://www.youtube.com/@MichaelSambol)
+    -   [Code Examples](https://github.com/msambol/dsa)
 -   [ ] [Sedgewick Videos - Алгоритми I](https://www.coursera.org/learn/algorithms-part1)
 -   [ ] [Sedgewick Videos - Алгоритми II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1695,6 +1696,7 @@ Mock интервюта:
         -   [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         -   [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         -   [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        -   [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     -   **Splay trees**
 

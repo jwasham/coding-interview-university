@@ -1308,8 +1308,9 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 
 - [ ] Séries de vídeos curtos (2 - 3 minutos) sobre o assunto (23 vídeos)
     - [Vídeos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (43 vídeos):
-    - [Vídeos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (46 vídeos):
+    - [Vídeos](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 
 ---
 
@@ -1654,6 +1655,7 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees) (Árvores AVl - vídeo)
         - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation) (Implementação de Árvores AVL - vídeo)
         - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge) (Dividir e Fundir)
+        - [ ] [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - [ ] **Árvores Splay**
         - Ná prática:

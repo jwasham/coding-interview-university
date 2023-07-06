@@ -1201,8 +1201,9 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
 
 - [ ] Reeks van 2-3 minute kort onderwerp videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Reeks van 2-5 minute kort onderwerp videos - Michael Sambol (43 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Reeks van 2-5 minute kort onderwerp videos - Michael Sambol (46 videos):
+    - [Videos](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1667,6 +1668,7 @@ Jy is nooit regtig klaar nie.
         - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
     
     - **Splay trees**
         - Prakties:

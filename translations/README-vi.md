@@ -1320,8 +1320,9 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 - [ ] Các video ngắn 2-3 phút (23 video)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Các video ngắn 2-5 phút - Michael Sambol (43 video)
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Các video ngắn 2-5 phút - Michael Sambol (46 video)
+    - [Videos](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 
 ---
 
@@ -1648,6 +1649,7 @@ Bạn không bao giờ thực sự học xong!
         - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [ ] [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - [ ] **Splay trees**
         - Trong thực tế:

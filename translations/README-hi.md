@@ -1202,8 +1202,9 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 
 - [ ] 2-3 मिनट के लघु विषय वीडियो की श्रृंखला (23 वीडियो)
     - [वीडियो](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 मिनट के लघु विषय वीडियो की श्रृंखला - Michael Sambol (43 वीडियो):
-    - [वीडियो](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] 2-5 मिनट के लघु विषय वीडियो की श्रृंखला - Michael Sambol (46 वीडियो):
+    - [वीडियो](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [सेजविक वीडियो - एल्गोरिदम I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [सेजविक वीडियो - एल्गोरिदम II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1663,9 +1664,10 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
             डेटा संरचनाओं के लिए आकर्षक जिसे एक बार बनाया जा सकता है और पुनर्निर्माण के बिना लोड किया जा सकता है, जैसे भाषा
             शब्दकोश (या प्रोग्राम डिक्शनरी, जैसे असेंबलर या दुभाषिया के ऑपकोड)
         - [MIT AVL ट्री / AVL सॉर्ट (वीडियो)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-       - [एवीएल पेड़ (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/Qq5E0/avl-trees)
+        - [एवीएल पेड़ (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/Qq5E0/avl-trees)
         - [एवीएल ट्री इंप्लीमेंटेशन (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/PKEBC/avl-tree-implementation)
         - [स्प्लिट एंड मर्ज](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **स्प्ले ट्री**
         - प्रयोग में:

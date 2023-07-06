@@ -1192,8 +1192,9 @@
 
 - [ ] 2-3分钟的简短主题视频系列（23个视频）
     - [视频](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5分钟的简短主题视频系列──Michael Sambol (43个视频）：
-    - [视频](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] 2-5分钟的简短主题视频系列──Michael Sambol (46个视频）：
+    - [视频](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick 视频 ── 算法I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick 视频 ── 算法II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1591,6 +1592,7 @@
         - [AVL 树（视频）](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL 树的实现（视频）](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [分离与合并](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **伸展树**
         - 实际中：伸展树一般用于缓存、内存分配者、路由器、垃圾回收者、数据压缩、ropes（字符串的一种替代品，用于存储长串的文本字符）、Windows NT（虚拟内存、网络及文件系统）等的实现。

@@ -1288,8 +1288,9 @@ Google не возьмёт тебя на работу.
 
 - [ ] Серия 2-3 минутных короткие видео по темам (23 видео)
     - [Видео](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (43 видео):
-    - [Видео](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (46 видео):
+    - [Видео](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 
 ---
 
@@ -1687,6 +1688,7 @@ Google не возьмёт тебя на работу.
         - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [ ] [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - [ ] **Splay trees**
         - In practice:

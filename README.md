@@ -776,15 +776,15 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
-        - [ ] insert    // insert value into tree
+        - [ ] [insert    // insert value into tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/submissions/987660183/)
         - [ ] get_node_count // get count of values stored
         - [ ] print_values // prints the values in the tree, from min to max
         - [ ] delete_tree
         - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
+        - [ ] [get_height // returns the height in nodes (single node's height is 1)](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
         - [ ] get_min   // returns the minimum value stored in the tree
         - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
+        - [ ] [is_binary_search_tree](https://leetcode.com/problems/validate-binary-search-tree/)
         - [ ] delete_value
         - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
@@ -1102,7 +1102,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         - Context switching
-            - How context switching is initiated by the operating system and underlying hardware?
+            - [How context switching is initiated by the operating system and underlying hardware?](https://www.javatpoint.com/what-is-the-context-switching-in-the-operating-system)
     - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
     - [ ] [CS 377 Spring '14: Operating Systems from University of Massachusetts](https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k)
     - [ ] concurrency in Python (videos):
@@ -1379,7 +1379,7 @@ You're never really done.
 - [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Interview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
+- [ ] [8 steps guide to ace your system design interview](https://javascript.plainenglish.io/8-steps-guide-to-ace-a-system-design-interview-7a5a797f4d7d)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
 - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below
 - [ ] [How to ace a systems design interview](https://web.archive.org/web/20120716060051/http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)

@@ -1328,6 +1328,10 @@ Some of mine (I already may know the answers, but want their opinion or team per
 - What do you like about it?
 - What is the work life like?
 - How is the work/life balance?
+- How is performance and success evaluated?
+- Do you offer continuing education and professional training?
+- What is your favorite part about working here? For me, just to have more insight about the company culture
+
 
 ## Once You've Got The Job
 

@@ -7,7 +7,7 @@
 > **请注意:** 你不需要像我一样那么努力学习。我在一些不必要的事情上浪费了很多时间。关于这个问题下面有更多信息。我会帮助你节省宝贵的时间，让你达到目标。
 > 在这份清单内的主题会让你拥有足够的知识去面对几乎每家软件公司的技术面试，包括科技巨头：Amazon、Facebook、Google，以及 Microsoft。
 >
-> *祝你好运!*
+> **祝你好运!**
 
 <div align="center">
 	<hr />
@@ -19,32 +19,43 @@
 
 ## 这是？
 
-这是我为了从 web 开发者（自学、非计算机科学学位）蜕变至 Google 软件工程师所制定的计划，其内容历时数月。
-
 ![白板上编程 ———— 来自 HBO 频道的剧集，“硅谷”](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-这份清单适用于 **新手软件工程师**，或者想从软件/网站开发转向软件工程（需要计算机科学知识）的人员。如果你有多年的经验，并且声称拥有多年的软件工程经验，并且期待一次更艰难的面试。
+这是我为成为一家大公司的软件工程师制定的多月学习计划。
 
-如果你具有多年的软件/网页开发经验，请注意，大型软件公司（例如 Google，Amazon，Facebook 和 Microsoft）将软件工程视为不同于软件/网页开发，并且它们需要计算机科学知识。
+**要求:** 
+* 一点编程经验（变量、循环、方法/函数等）
+* 耐心
+* 时间
 
-如果你想成为可靠性工程师或运维工程师，请从可选列表（网络，安全）中学习更多。
+注意，这是一份关于 **软件工程** 的学习计划，而不是前端工程或全栈开发。
+这些职业路径有很多详细的路线图和课程资料可以在其他地方找到（请参阅 https://roadmap.sh/ 获取更多信息）。
+
+在大学计算机科学专业中，有很多知识需要学习，但是只掌握大约75%的内容就足够应对面试了，这也是我在这里涵盖的内容。
+如果你想进行完整的自学计算机科学项目，可以参考Kamran Ahmed的计算机科学路线图：https://roadmap.sh/computer-science。
 
 ---
 
 ## 目录
+
+### 学习计划
 
 - [这是？](#这是)
 - [为何要用到它？](#为何要用到它)
 - [如何使用它](#如何使用它)
 - [不要觉得自己不够聪明](#不要觉得自己不够聪明)
 - [相关视频资源](#相关视频资源)
-- [面试过程 & 通用的面试准备](#面试过程--通用的面试准备)
-- [为你的面试选择一种语言](#为你的面试选择一种语言)
-- [书单](#书单)
-- [在你开始之前](#在你开始之前)
-- [没有包含的内容](#没有包含的内容)
-- [必备知识](#必备知识)
-- [日常计划](#日常计划)
+- [选择编程语言](#choose-a-programming-language)
+- [数据结构和算法书籍](#books-for-data-structures-and-algorithms)
+- [面试准备书](#interview-prep-books)
+- [不要犯我的错误](#dont-make-my-mistakes)
+- [你不会看到的涵盖内容](#what-you-wont-see-covered)
+- [每日计划](#the-daily-plan)
+- [编码问题练习](#coding-question-practice)
+- [编码问题](#coding-problems)
+
+### 学习的主题
+
 - [算法复杂度 / Big-O / 渐进分析法](#算法复杂度--big-o--渐进分析法)
 - [数据结构](#数据结构)
     - [数组（Arrays）](#数组arrays)
@@ -56,7 +67,7 @@
     - [二分查找（Binary search）](#二分查找binary-search)
     - [按位运算（Bitwise operations）](#按位运算bitwise-operations)
 - [树（Trees）](#树trees)
-    - [树 —— 笔记 & 背景](#树--笔记--背景)
+    - [树 —— 简介](#树--简介)
     - [二叉查找树（Binary search trees）：BSTs](#二叉查找树binary-search-treesbsts)
     - [堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）](#堆heap--优先级队列priority-queue--二叉堆binary-heap)
     - [平衡查找树（Balanced search trees）（基本概念，非细节）](#平衡查找树balanced-search-trees)
@@ -76,7 +87,6 @@
 - [更多知识](#更多知识)
     - [递归](#递归recursion)
     - [动态规划](#动态规划dynamic-programming)
-    - [面向对象编程](#面向对象编程)
     - [设计模式](#设计模式)
     - [组合 & 概率](#组合combinatorics-n-中选-k-个--概率probability)
     - [NP, NP-完全和近似算法](#np-np-完全和近似算法)
@@ -90,19 +100,23 @@
     - [Unicode](#unicode)
     - [字节顺序](#字节序Endianness)
     - [网络](#网络视频)
-- [系统设计、可伸缩性、数据处理](#系统设计可伸缩性数据处理)（如果你有4+年经验）
 - [终面](#终面)
-- [编程问题练习](#编程问题练习)
-- [编程练习和挑战](#编程练习和挑战)
-- [当你临近面试时](#当你临近面试时)
-- [你的简历](#你的简历)
-- [当面试来临的时候](#当面试来临的时候)
-- [问面试官的问题](#问面试官的问题)
-- [当你获得了梦想的职位](#当你获得了梦想的职位)
 
----------------- 下面的内容是可选的 ----------------
+### 获得工作机会
+
+- [更新你的简历](#update-your-resume)
+- [找工作](#find-a-job)
+- [面试流程和面试准备p](#interview-process--general-interview-prep)
+- [面试前需要考虑的事项](#be-thinking-of-for-when-the-interview-comes)
+- [准备一些问题以便问面试官](#have-questions-for-the-interviewer)
+- [一旦你得到了工作](#once-youve-got-the-job)
+
+**---------------- 以下所有内容均为可选项 ----------------**
+
+### 可选的额外主题和资源
 
 - [额外书籍](#额外书籍)
+- [系统设计、可扩展性、数据处理](#system-design-scalability-data-handling) (如果你有4年以上的工作经验)
 - [附加学习](#附加学习)
     - [编译器](#编译器)
     - [Emacs and vi(m)](#emacs-and-vim)
@@ -140,7 +154,6 @@
     - [线性规划](#线性规划linear-programming视频)
     - [几何：凸包（Geometry, Convex hull）](#几何凸包geometry-convex-hull视频)
     - [离散数学](#离散数学)
-    - [机器学习](#机器学习machine-learning)
 - [一些主题的额外内容](#一些主题的额外内容)
 - [视频系列](#视频系列)
 - [计算机科学课程](#计算机科学课程)
@@ -150,7 +163,16 @@
 
 ## 为何要用到它？
 
-当我开始这个项目时，我不知道堆和栈的区别，不了解时间复杂度（Big-O）、树，或如何去遍历一个图。如果非要我去编写一个排序算法的话，我只能说我所写的肯定是很糟糕。一直以来，我所用的任何数据结构都是内建于编程语言当中。至于它们在背后是如何运作，对此我一概不清楚。此外，以前的我并不需要对内存进行管理，最多就只是在一个正在执行的进程抛出了“内存不足”的错误后，才会去找解决方法。在我的编程生涯中，虽然我有用过多维数组，也用过关联数组成千上万次，但我从来没有自己实现过数据结构。
+如果你想在一家大公司担任软件工程师，这些是你必须了解的事情。
+
+如果你错过了计算机科学的学位，就像我一样，这将帮助你迎头赶上，并节省四年的时间。
+
+当我开始这个项目时，我对堆栈和堆没有任何了解，
+也不知道大O表示法或者关于树的任何东西，也不知道如何遍历图形。
+如果让我编写一个排序算法，相信我它会很糟糕。
+我曾经使用过的每种数据结构都是内置在语言中的，并且我完全不知道它们在底层是如何工作的。
+除非运行中的进程出现“内存不足”错误，否则我从来没有管理过内存，并且那时候就需要找到一种解决方法。
+在我的生活中，我使用过一些多维数组和成千上万个关联数组，但从未从头开始创建数据结构。
 
 这是一个漫长的计划，以至于花费了我数月的时间。若你早已熟悉大部分的知识，那么也许能节省大量的时间。
 
@@ -159,7 +181,6 @@
 下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
 
 在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
-
 - [更多关于 Github-flavored Markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ### 如果你不想使用 Git
@@ -172,28 +193,28 @@
 
 ### 如果你不介意 Git
 
-1. 通过单击 Fork 按钮来 fork GitHub 仓库：`https://github.com/jwasham/coding-interview-university`
+创建一个新的分支，这样你就可以检查类似这样的项目了，只需在方括号中放入一个x：[x]
+
+1. 在 GitHub 上 Fork 该仓库： 点击 Fork 按钮，将 `https://github.com/jwasham/coding-interview-university` 仓库复制到你的 GitHub 账号中。
 
     ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
 2. 克隆项目到本地：
 
-    ```sh
+    ```
     git clone git@github.com:<your_github_username>/coding-interview-university.git
     cd coding-interview-university
-    git checkout -b progress
-    git remote add jwasham https://github.com/jwasham/coding-interview-university
-    git fetch --all
+    git remote add upstream https://github.com/jwasham/coding-interview-university
+    git remote set-url --push upstream DISABLE  # 这样你就不会将个人进展推回到原始仓库了。
     ```
 
 3. 在你完成了一些修改后，在框框中打 x：
 
-    ```sh
-    git add .
-    git commit -m "Marked x"
-    git rebase jwasham/main
-    git push --set-upstream origin progress
-    git push --force
+    ```
+    git commit -am "Marked personal progress"
+    git pull upstream main  # 将您的分支与原始仓库中的更改保持最新
+      
+    git push # just pushes to your fork
     ```
 
 ## 不要觉得自己不够聪明
@@ -205,36 +226,44 @@
 
 ## 相关视频资源
 
-部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
+部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。
+这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
 
-很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，
+比如 YouTube 视频，以代替那些在线课程的视频。
+此外，一些大学的讲座视频也是我所青睐的。
 
-## 面试过程 & 通用的面试准备
+## 选择编程语言
 
-- [ ] [ABC：不要停止编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [白板编程（Whiteboarding）](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [揭秘技术招聘](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] 如何在科技四强企业中获得一份工作：
-    - [ ] [“如何在科技四强企业中获得一份工作 —— Amazon、Facebook、Google 和 Microsoft”（视频）](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-- [ ] 解密开发类面试第一集：
-    - [ ] [Gayle L McDowell —— 解密开发类面试（视频）](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [ ] [解密开发类面试 —— 作者 Gayle Laakmann McDowell（视频）](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] 解密 Facebook 编码面试：
-    - [方法](https://www.youtube.com/watch?v=wCl9kvQGHPI)
-    - [问题演练](https://www.youtube.com/watch?v=4UWDyJq8jZg)
-- [ ] 准备课程：
-    - [ ] [软件工程师面试发布（收费课程）](https://www.udemy.com/software-engineer-interview-unleashed)：
-        - 从前 Google 面试官身上学习如何准备自己，让自己能够应付软件工程师的面试。
-    - [ ] [Python 数据结构，算法和面试（收费课程）](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/)：
-        - Python 面试准备课程，内容涉及数据结构，算法，模拟面试等。
-    - [ ] [Python 的数据结构和算法简介（Udacity 免费课程）](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)：
-        - 免费的 Python 数据结构和算法课程。
-    - [ ] [数据结构和算法纳米学位！（Udacity 收费纳米学位）](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)：
-        - 获得超过100种数据结构和算法练习以及指导的动手练习，专门导师帮助你在面试和职场中做好准备。
-    - [ ] [探究行为面试（Educative 免费课程）](https://www.educative.io/courses/grokking-the-behavioral-interview)：
-        - 很多时候，不是你的技术能力会阻碍你获得理想的工作，而是你在行为面试中的表现。
+你需要为你做的编程面试选择一种编程语言，
+但你也需要找到一种可以用来学习计算机科学概念的语言。
 
-## 为你的面试选择一种语言
+最好是同一种语言，这样你只需精通其中一种。
+
+### 对于这个学习计划
+
+在这个学习计划中，我主要使用了两种编程语言：C和Python。
+
+* C: 非常底层。它允许你处理指针和内存的分配与释放，因此你能够深入理解数据结构和算法。
+    在像Python或Java这样的高级语言中，这些细节被隐藏起来。在日常工作中，这是很好的，
+    但当你学习这些底层数据结构时，感受它们与计算机硬件的联系也是非常有益的。
+    - C 语言无处不在。在你学习的过程中，你会在书籍、讲座、视频以及**任何地方**看到C语言的例子。
+    - [《C程序设计语言（第2版）》](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - 这是一本简短的书，但它会让你很好地掌握C语言，只要稍微练习一下，
+            你很快就能熟练使用。理解C语言有助于你了解程序和内存是如何工作的。
+        - 你不需要深入研究这本书（甚至不用读完它）。只要阅读到你感觉舒服，并能写一些C语言的代码就可以了。
+        - [书中问题的答案](https://github.com/lekkas/c-algorithms)
+* Python: 现代且非常灵活，我学习它是因为它非常实用，同时在面试中也能让我写更少的代码。
+
+这是我的个人喜好，当然你可以根据自己的偏好来选择。
+
+也许你并不需要，但以下是一些学习新编程语言的网站：
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [HackerEarth](https://www.hackerearth.com/for-developers/)
+- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+
+### 对于你的编程面试
 
 你可以在编程这一环节，使用一种自己用起来较为舒适的语言去完成编程，但对于大公司，你只有三种固定的选择：
 
@@ -247,77 +276,27 @@
 - JavaScript
 - Ruby
 
-我之前写过一篇关于在面试时选择编程语言的文章：[为编程面试选择一种语言](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)。
+这是我写的一篇关于选择面试语言的文章：
+[为编程面试选择一种语言](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)。
+这是我发布帖子所基于的原始文章： [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
 
 你需要对你所选择的语言感到非常舒适且足够了解。
 
 更多关于语言选择的阅读：
-
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
+- [选择适合你的编程面试的语言](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
 [在此查看相关语言的资源](../programming-language-resources.md)
 
-由于我正在学习C、C++ 和 Python，因此在下面你会看到部分关于它们的学习资料。相关书籍请看文章的底部。
+## 数据结构和算法的书籍
 
-## 书单
+这本书将为你的计算机科学打下基础。
 
-为了节省你的时间，以下是比我使用过的更缩减的书单。
+只需选择一种你感到舒适的语言。你将会进行大量阅读和编码工作。
 
-### 面试准备
+### C
 
-- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - 附有 C++ 和 Java 解答
-    - 这是在练习 Cracking the Coding Interview 之前一个很好的热身
-    - 不太困难，大多数问题可能比你在面试中看到的要容易（根据我的阅读）
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - 附有 Java 答案
-
-### 如果你有额外的时间：
-
-选择以下之一：
-
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [ ] Elements of Programming Interviews (Java version)
-    - [书](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-    - [配套项目──书中每个问题的方法和测试用例](https://github.com/gardncl/elements-of-programming-interviews)
-
-### 编程语言精选
-
-**你需要选择面试语言（请参见上文）。**
-
-这是我按语言给出的建议。我没有所有语言的资源，欢迎贡献。
-
-如果你通读其中之一，你应该具备了开始解决编程问题所需的所有数据结构和算法知识。除非你需要复习，否则**你可以跳过此项目中的所有视频讲座**。
-
-[额外编程语言的精选资源](https://github.com/jwasham/coding-interview-university/blob/main/programming-language-resources.md)
-
-### C++
-
-我没有读过这两本书，但是它们颇受好评，作者是 Sedgewick，他非常厉害。
-
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-- [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
-    - 丰富而详细的数据结构和算法集合
-    - 非常适合初学者
-
-如果你有更好的 C++ 书籍，请告诉我。我正在搜集全面的资源。
-
-### Java
-
-- [ ] [算法（Sedgewick 和 Wayne）](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - 包含课程内容（和Sedgewick！）的视频
-        - [第一部分](https://www.coursera.org/learn/algorithms-part1)
-        - [第二部分](https://www.coursera.org/learn/algorithms-part2)
-
-或者：
-
-- [ ] [Java 数据结构和算法](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - 作者：Goodrich、Tamassia、Goldwasser
-    - 用作 UC Berkeley 的 CS 入门课程的可选教材
-    - 请参阅下面有关 Python 版本的我的读书报告，这本书涵盖了相同的主题
+- [C语言中的算法，第1-5部分（捆绑包），第3版](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - 基础知识，数据结构，排序，搜索和图算法
 
 ### Python
 
@@ -325,143 +304,243 @@
     - 作者：Goodrich、Tamassia、Goldwasser
     - 我非常喜爱这本书，它包含了所有东西
     - 很 Python 的代码
-    - 我的读书报告：[startupnextdoor.com/book-report-data-structures-and-algorithms-in-python](https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/)
-- [ ] [Open Data Structures in Python](https://opendatastructures.org/ods-python.pdf)
+    - 我的读书报告：https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
-## 在你开始之前
+### Java
 
-该列表已经持续更新了很长的一段时间，所以，我们的确很容易会对其失去控制。
+你的选择：
 
-这里列出了一些我所犯过的错误，希望你不要重滔覆辙。
+- Goodrich, Tamassia, Goldwasser
+    - [Java数据结构与算法](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- Sedgewick and Wayne:
+    - [算法（第4版）](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - 免费Coursera课程，涵盖该书内容（由作者授课！）：
+        - [算法I](https://www.coursera.org/learn/algorithms-part1)
+        - [算法II](https://www.coursera.org/learn/algorithms-part2)
+
+### C++
+
+你的选择：
+
+- Goodrich, Tamassia, and Mount
+    - [C++数据结构与算法（第2版）](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick and Wayne
+    - [C++算法（第1-4部分）：基础知识，数据结构，排序，搜索](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [C++算法第5部分：图算法](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+## 面试准备书籍
+
+你不需要买一堆这些。老实说，《破解编程面试》可能已经足够了，
+但我买了更多来给自己更多的练习。但我总是做得太多。
+
+这两个都是我买的，他们给了我大量的练习。
+
+- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - 提供C++和Java语言的答案
+    - 这本书是准备《Cracking the Coding Interview》的很好热身书
+    - 难度适中。大多数问题可能比实际面试中遇到的问题要简单（根据我所读的内容）
+- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - 提供Java语言的答案
+
+### 如果你有很多额外的时间：
+
+选择一个：
+
+- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [配套项目-本书中每个问题的方法存根和测试用例](https://github.com/gardncl/elements-of-programming-interviews)
+
+## 不要犯我的错误
+
+这个列表在很多个月里不断增长，是的，它变得失控了。
+
+以下是我犯过的一些错误，这样你就能有更好的体验。而且你将节省数月时间。
 
 ### 1. 你不可能把所有的东西都记住
 
-就算我观看了数小时的视频，并记录了大量的笔记，几个月后的我，仍然会忘却其中大部分的东西。所以，我花了3天翻阅我的笔记，并制作成抽认卡（flashcard）帮助我复习：
+我看了数小时的视频并做了大量笔记，几个月后有很多东西我都不记得了。
+我花了三天时间浏览我的笔记并制作闪卡，以便进行复习。其实，并不需要那么多知识。
 
 请阅读以下的文章以免重蹈覆辙:
 
 [记住计算机科学知识](https://startupnextdoor.com/retaining-computer-science-knowledge/)。
 
-有人推荐给我的课程（但我还沒看过）：[学习如何学习](https://www.coursera.org/learn/learning-how-to-learn)。
-
 ### 2. 使用抽认卡
 
 为了解决善忘的问题，我制作了一个抽认卡的网页，用于添加两种抽认卡：一般的及带有代码的。每种卡都会有不同的格式设计。
-
 而且，我还以移动设备为先去设计这些网页，以使得在任何地方，我都能通过我的手机及平板去回顾知识。
 
 你也可以免费制作属于你自己的抽认卡网站：
 
 - [抽认卡页面的代码仓库](https://github.com/jwasham/computer-science-flash-cards)
+
+**我不建议使用我的闪卡**。它们太多了，而且大部分都是你不需要的琐事。
+
+但是如果你不想听我的话，那就随你吧：
 - [我的抽认卡数据库 ── 旧 1200 张](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db)
 - [我的抽认卡数据库 ── 新 1800 张](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db)
 
-有一点需要记住的是，我做事有点过头，以至于卡片都覆盖到所有的东西上，从汇编语言和 Python 的细枝末节，到机器学习和统计都被覆盖到卡片上。而这种做法，对于要求来说是多余的。
+有一点需要记住的是，我做事有点过头，以至于卡片都覆盖到所有的东西上，从汇编语言和 Python 的细枝末节，到机器学习和统计都被覆盖到卡片上。
+而这种做法，对于要求来说是多余的。
 
-**在抽认卡上做笔记：** 若你第一次发现你知道问题的答案时，先不要急着把其标注成“已知”。反复复习这张抽认卡，直到每次都能答对后才是真正学会了这个问题。反复地问答可帮助你深刻记住该知识点。
+**在抽认卡上做笔记：** 若你第一次发现你知道问题的答案时，先不要急着把其标注成“已知”。
+反复复习这张抽认卡，直到每次都能答对后才是真正学会了这个问题。
+反复地问答可帮助你深刻记住该知识点。
 
-这里有个替代我抽认卡的网站 [Anki](http://ankisrs.net/)，很多人向我推荐过它。这个网站用同一个字卡重复出现的方式让你牢牢地记住知识。这个网站非常容易使用，支持多平台，并且有云端同步功能。在 iOS 平台上收费25美金，其他平台免费。
+这里有个替代我抽认卡的网站 [Anki](http://ankisrs.net/)，很多人向我推荐过它。
+这个网站用同一个字卡重复出现的方式让你牢牢地记住知识。
+这个网站非常容易使用，支持多平台，并且有云端同步功能。在 iOS 平台上收费25美金，其他平台免费。
 
-这是我用 Anki 这个网站里的格式所储存的抽认卡资料库: ankiweb.net/shared/info/25173560 （感谢 [@xiewenya](https://github.com/xiewenya)）
+这是我用 Anki 这个网站里的格式所储存的抽认卡资料库: https://ankiweb.net/shared/info/25173560 （感谢 [@xiewenya](https://github.com/xiewenya)）。
 
-### 3. 复习，复习，再复习
+一些学生提到了关于空白间距的格式问题，可以通过以下方法进行修复：打开卡片组，编辑卡片，点击"卡片"选项，选择"样式"单选按钮，在卡片类中添加成员 "white-space: pre;"。
 
-我留有一组 ASCII 码表、OSI 堆栈、Big-O 记号及更多的抽认卡，以便在空余的时候可以学习。
+### 3. 在学习过程中做编程面试题
 
-编程累了就休息半个小时，并去复习你的抽认卡。
+**这非常重要。**
+
+在学习数据结构和算法的同时，开始做编程面试题。
+
+你需要将所学知识应用于解决问题，否则你会忘记。我曾经犯过这个错误。
+
+一旦你学完一个主题，并且对它有了一定的掌握，比如 **链表（linked lists）**:
+1. 打开其中一本[编程面试书籍](#interview-prep-books)（或下方列出的编程问题网站之一）。
+1. 关于链表的问题，请提出2或3个。
+1. 继续学习下一个主题。
+1. 稍后，回来再做另外2或3个链表问题。
+1. 使用这种方法来学习每个新主题。
+
+**在学习这些内容的过程中不断做问题，而不是之后。**
+
+你被雇佣的不是因为你的知识，而是因为你如何应用这些知识。
+
+下面列出了许多资源供你参考。继续前进吧。
 
 ### 4. 专注
 
-在学习的过程中，往往会有许多令人分心的事占据着我们宝贵的时间。因此，专注和集中注意力是非常困难的。放点纯音乐能帮上一些忙。
+在学习的过程中，往往会有许多令人分心的事占据着我们宝贵的时间。
+因此，专注和集中注意力是非常困难的。放点纯音乐能帮上一些忙。
 
 ## 没有包含的内容
 
 有一些熟悉且普遍的技术在此未被谈及到：
 
-- SQL
 - Javascript
-- HTML、CSS 和其他前端技术
+- HTML，CSS和其他前端技术
+- SQL
 
 ## 日常计划
 
-部分问题可能会花费一天的时间去学习，而有些则会花费多天。当然，有些学习并不需要我们懂得如何实现。
+这门课涵盖了很多主题。每个主题可能需要你几天的时间，甚至可能需要一周或更长时间。这取决于你的日程安排。
 
-因此，每一天我都会在下面所列出的列表中选择一项，并观看相关的视频。然后，使用以下的一种语言去实现：
-
-- C —— 使用结构体和函数，该函数会接受一个结构体指针 * 及其他数据作为参数。
-- C++ —— 不使用内建的数据类型。
-- C++ —— 使用内建的数据类型，如使用 STL 的 std::list 来作为链表。
-- Python ——  使用内建的数据类型（为了持续练习 Python），并编写一些测试去保证自己代码的正确性。有时，只需要使用断言函数 assert() 即可。
-- 此外，你也可以使用 Java 或其他语言。以上只是我的个人偏好而已。
-
-你不需要学会所有的编程语言，你只需要专注在[一种编程语言](##为你的面试选择一种语言)上。
-
-为何要在这些语言上分别实现一次？
-
-- 练习，练习，练习，直至我厌倦它，并正确无误地实现出来。（若有部分边缘条件没想到时，我会用书写的形式记录下来并去记忆）
-- 在纯原生的条件下工作（不需垃圾回收机制的帮助下，手动分配/释放内存（除了 Python））
-- 利用语言内建的数据类型，之后在实际工作的时候才能得心应手（在生产环境中，我不会去实现自己的链表）
-
-就算我没有时间去每一项都这么做，但我也会尽我所能。
+每天，按照列表中的下一个主题，观看一些关于该主题的视频，
+然后用你选择的语言为这门课程编写该数据结构或算法的实现。
 
 在这里你可以查看到我的代码：
-
 - [C](https://github.com/jwasham/practice-c)
 - [C++](https://github.com/jwasham/practice-cpp)
 - [Python](https://github.com/jwasham/practice-python)
 
-你不需要记住每一个算法的内部原理。
+你不需要记住每个算法。你只需要能够理解它，以便能够编写自己的实现即可。
 
-在一个白板上写代码，而不要直接在计算机上编写。在测试完部分简单的输入后，到计算机上再测试一遍。
+## 编程问题练习
 
-## 必备知识
+    这是为什么？我还没有准备好面试。
 
-- [ ] **学习C语言**
-    - C 语言无处不在。在学习的过程中，你会在书籍，讲座，视频等任何地方看到它的身影
-    - [ ] [C程序设计语言，第二版](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - 这是一本简短的书，但是它将使你更好地使用 C 语言，并且如果你稍加练习，就会很快熟练。理解 C 可帮助你了解程序和内存的工作方式
-        - 问题答案
+[那就回去阅读这部分。](#3-do-coding-interview-questions-while-youre-learning)
 
-- [ ] **计算机是如何处理一段程序：**
-    - [ ] [CPU 是如何执行代码（视频）](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [计算机如何计算（视频）](https://youtu.be/1I5ZMmrOfnA)
-    - [ ] [寄存器和内存（视频）](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [中央处理单元（视频）](https://youtu.be/FZGugFqdr60)
-    - [ ] [指令和程序（视频）](https://youtu.be/zltgXvg6r3k)
+为什么你需要练习编程问题：
+- 识别问题，并确定合适的数据结构和算法
+- 收集问题的要求
+- 像在面试中那样口头表达解决问题的过程
+- 在白板或纸上编写代码，而不是在计算机上
+- 为您的解决方案确定时间和空间复杂度（参见下文中的大O表示法）。
+- 对你的解决方案进行测试
+
+在面试中，有一种方法论的、有交流的问题解决方法。你可以从编程面试书籍中了解这些，
+但我发现下面这个网站也非常出色：
+[算法设计画布](http://www.hiredintech.com/algorithm-design/)
+
+在白板或纸上写代码，而不是在计算机上。使用一些样例输入进行测试。然后在计算机上键入并进行测试。
+
+如果家里没有白板，请从艺术用品店购买一个大型的绘图本。
+你可以坐在沙发上练习。这就是我的"沙发白板"。照片中我加了一支笔来衡量尺寸。如果你使用钢笔，你会希望能擦除。
+会很快变得凌乱， **我用铅笔和橡皮擦。**
+
+![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**编程问题练习并不是为了记住解决编程问题的答案。**
+
+## 编程问题
+
+别忘了参考你的主要编程面试书籍[这里](#interview-prep-books).
+
+解决问题：
+- [如何找到解决方案](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [如何分析Topcoder问题陈述](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+
+编程面试问题视频：
+- [IDeserve（88个视频）](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy（5个播放列表）](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - 非常适合问题解决方案的演示
+- [Nick White - LeetCode解答（187个视频）](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - 解释解决方案和代码的很好
+    - 你可以在短时间内观看多个视频
+- [FisherCoder - LeetCode解答](https://youtube.com/FisherCoder)
+
+挑战/练习网站：
+- [LeetCode](https://leetcode.com/)
+    - 我最喜欢的编程问题网站。对于你准备的1-2个月时间，订阅会费是值得的。
+    - 观看上面提到的Nick White和FisherCoder的视频，可以帮助你理解代码解决方案。
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Codeforces](https://codeforces.com/)
+- [Codility](https://codility.com/programmers/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [AlgoExpert](https://www.algoexpert.io/product)
+    - 由谷歌工程师创建，也是提高你技能的优秀资源。
+- [Project Euler](https://projecteuler.net/)
+    - 主要关注数学问题，并不完全适合编程面试。
+
+## 让我们开始吧
+
+好了，说得够多了，让我们学习吧!
+
+但在学习的同时，不要忘记做上面的编码问题！
 
 ## 算法复杂度 / Big-O / 渐进分析法
 
-- 并不需要实现
-- 这里有很多视频，看到你真正了解它为止。你随时可以回来复习。
-- 如果这些课程太过数学的话，你可以去看看最下面离散数学的视频，它能让你更了解这些数学背后的来源以及原理。
-- [ ] [Harvard CS50 —— 渐进表示（视频）](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O 记号（通用快速教程）（视频）](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O 记号（以及 Omega 和 Theta）——  最佳数学解释（视频）](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] Skiena 算法：
-    - [视频](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [幻灯片](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [对于算法复杂度分析的一次详细介绍](http://discrete.gr/complexity/)
-- [ ] [增长阶数（Orders of Growth）（视频）](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [渐进性（Asymptotics）（视频）](https://class.coursera.org/algorithmicthink1-004/lecture/61)
-- [ ] [UC Berkeley Big O（视频）](https://youtu.be/VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega（视频）](https://youtu.be/ca3e7UVmeUc)
-- [ ] [平摊分析法（Amortized Analysis）（视频）](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [举证“Big O”（视频）](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- 这里没有什么需要实施的，你只是在观看视频并记笔记！耶！
+- 这里有很多视频，只要看到你理解为止就好了，你随时可以回来复习。
+- 如果你不理解背后的所有数学，不要担心。
+- 你只需要理解如何用大O表示法来表达算法的复杂度。
+- [ ] [哈佛大学CS50 - 渐进符号（视频）](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [大O符号（通用快速教程）（视频）](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [大O符号（以及Ω和Θ）- 最佳数学解释（视频）](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Skiena（视频）](https://www.youtube.com/watch?v=z1mkCe3kVUA)
+- [ ] [加州大学伯克利分校关于大O符号（视频）](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [摊还分析（视频）](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] TopCoder（包括递归关系和主定理）：
-    - [计算性复杂度：第一部](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
-    - [计算性复杂度：第二部](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
-- [ ] [速查表（Cheat sheet）](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+    - [计算复杂性：第1部分](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+    - [计算复杂性：第2部分](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
+- [ ] [速查表](http://bigocheatsheet.com/)
+- [ ] [[复习] 5分钟内了解大O符号（视频）](https://youtu.be/__vX2sjlpXU)
+
+好吧，差不多就到这里了。
+
+当你阅读《破解编程面试》时，有一个章节专门讲述此事，并在最后进行了一次测验，
+以测试你是否能够确定不同算法的运行时间复杂度。这是一个非常全面的复习和测试。
 
 ## 数据结构
 
 - ### 数组（Arrays）
-    - 实现一个可自动调整大小的动态数组。
     - [ ] 介绍：
-        - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - 线性数组和多维数组（视频）](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE)（从15分32秒开始）
-        - [动态数组（视频）](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [不规则数组（视频）](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [数组 CS50 哈佛大学](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+        - [数组（视频）](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [加州大学伯克利分校CS61B - 线性和多维数组（视频）](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE)（从15分32秒开始）
+        - [动态数组（视频）](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [嵌套数组（视频）](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] 实现一个动态数组（可自动调整大小的可变数组）：
         - [ ] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
         - [ ] 通过分配内存来新建一个原生数据型数组
@@ -490,16 +569,20 @@
 
 - ### 链表（Linked Lists）
     - [ ] 介绍：
-        - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B —— 链表（一）（视频）](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        - [ ] [CS 61B —— 链表（二）（视频）](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-    - [ ] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo) ── 并非看完整个视频，只需要看关于节点结构和内存分配那一部分即可
+        - [ ] [链表 CS50 哈佛大学](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - 这样建立了直观感。
+        - [ ] [单链表（视频）](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [CS 61B - 链表1（视频）](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - 链表 2（视频）](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[复习] 4分钟了解链表（视频）](https://youtu.be/F8AbOfQwl1c)
+    - [ ] [C代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - 不是整个视频，只是关于Node结构和内存分配的部分。
     - [ ] 链表 vs 数组：
-        - [基本链表 Vs 数组（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [在现实中，链表 Vs 数组（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+        - [核心链表与数组（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [在现实世界中，链表与数组的比较（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
+    - [ ] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，
+      该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。
+      但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
         - [指向指针的指针](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：
         - [ ] size() —— 返回链表中数据元素的个数
@@ -539,7 +622,8 @@
         - empty()
         - full()
     - [ ] 花销：
-        - 在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。因为，你需要找到下一个元素，以致循环整个队列
+        - 在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。
+        因为，你需要找到下一个元素，以致循环整个队列
         - enqueue：O(1)（平摊（amortized）、链表和数组 [探测（probing）]）
         - dequeue：O(1)（链表和数组）
         - empty：O(1)（链表和数组）
@@ -549,25 +633,26 @@
         - [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Open Addressing 和密码型哈希（Cryptographic Hashing）（视频）](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010：The Mighty Dictionary（视频）](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [（进阶）随机取样（Randomization）：全域哈希（Universal Hashing）& 完美哈希（Perfect Hashing）（视频）](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
+        - [ ] [PyCon 2010：强大的字典（视频）](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [PyCon 2017：字典更强大（视频）](https://www.youtube.com/watch?v=66P5FMkWoVU)
+        - [ ] [(高级) 随机化：通用和完美哈希（视频）](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(进阶)完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[复习]4分钟了解哈希表（视频）](https://youtu.be/knV86FlSXJ8)
 
     - [ ] 在线课程：
-        - [ ] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [电话薄问题（Phone Book Problem）（视频）](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] [核心哈希表（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/4)
+        - [ ] [电话簿问题（视频）](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
         - [ ] 分布式哈希表：
-            - [Dropbox 中的瞬时上传及存储优化（视频）](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [分布式哈希表（视频）](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+            - [Dropbox中的即时上传和存储优化（视频）](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [分布式哈希表（视频）](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
-    - [ ] 使用线性探测的数组去实现
-        - hash(k, m) —— m 是哈希表的大小
-        - add(key, value) —— 如果 key 已存在则更新值
-        - exists(key)
-        - get(key)
-        - remove(key)
+    - [ ] 使用线性探测法的数组实现
+        - hash(k, m) - m是哈希表的大小
+        - add(key, value) - 如果键已存在，则更新值
+        - exists(key) - 检查键是否存在
+        - get(key) - 获取给定键的值
+        - remove(key) - 删除给定键的值
 
 ## 更多的知识
 
@@ -575,7 +660,8 @@
     - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
+    - [ ] [蓝图](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)   
+    - [ ] [【复习】四分钟二分查找(视频)](https://youtu.be/fDKIpRe8GW4)
     - [ ] 实现：
         - 二分查找（在一个已排序好的整型数组中查找）
         - 迭代式二分查找
@@ -1186,19 +1272,6 @@
 
 ---
 
-## 终面
-
-    这一部分有一些短视频，你可以快速的观看和复习大多数重要概念。
-    这对经常性的巩固很有帮助。
-
-- [ ] 2-3分钟的简短主题视频系列（23个视频）
-    - [视频](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5分钟的简短主题视频系列──Michael Sambol (46个视频）：
-    - [视频](https://www.youtube.com/@MichaelSambol)
-    - [Code Examples](https://github.com/msambol/dsa)
-- [ ] [Sedgewick 视频 ── 算法I](https://www.coursera.org/learn/algorithms-part1)
-- [ ] [Sedgewick 视频 ── 算法II](https://www.coursera.org/learn/algorithms-part2)
-
 ## 编程问题练习
 
 现在你已经了解了上面所有的计算机科学主题，是时候练习回答编程问题了。
@@ -1341,10 +1414,10 @@
 
     *****************************************************************************************************
     *****************************************************************************************************
-
+    
     下面的内容都是可选的。
     通过学习这些内容，你将会得到更多的有关 CS 的概念，并将为所有的软件工程工作做更好的准备。你将会成为一个更全面的软件工程师。
-
+    
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1716,7 +1789,7 @@
 --
 
 ## 一些主题的额外内容
- 
+
     我为前面提到的某些主题增加了一些额外的内容，之所以没有直接添加到前面，是因为这样很容易导致某个主题内容过多。毕竟你想在本世纪找到一份工作，对吧？
 
 - SOLID

@@ -534,7 +534,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 - [LeetCode](https://leetcode.com/)
     - Любимият ми сайт със задачи. Струва си парите за абонамент за времето, в което ще се подготвяте.
-    - Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки със някои задачи.
+    - Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки с някои задачи.
 - [HackerRank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)

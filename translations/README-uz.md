@@ -607,6 +607,14 @@ Birinchi kodizni doskada yoki qog'ozda yozing, kompyuterda emas. Og'zaki test qi
         - exists(key)
         - get(key)
         - remove(key)
+        
+## Ma'lumotlar tuzilmasi vizualizatsiya (Data structure Visualizations)
+
+Animatsiya orqali ma'lumotlar tuzilmalari va algoritmlarini vizualizatsiya qilish.
+Quyidagi havolada siz ma'lumotlar tuzilmasi aslida qanday ishlashini tushunib olasiz.
+
+  - [ ] [Visualizing Algorithms](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+  - [ ] [Visualgo](https://visualgo.net/en)
 
 ## Qo'shimcha bilimlar
 
@@ -1235,8 +1243,9 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
 
 - [ ] 2-3 minutlik qisqa mavzuga oid videolar seriyasi (23 video)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 minutlik qisqa mavzuga oid videolar seriyasi - Michael Sambol (40 video):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] 2-5 minutlik qisqa mavzuga oid videolar seriyasi - Michael Sambol (46 video):
+    - [Videos](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1648,6 +1657,7 @@ Hech qachon tugatgan bo'lmaymiz.
         - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **Splay trees**
         - Amalda:

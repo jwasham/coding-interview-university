@@ -23,13 +23,13 @@ Cette longue liste a été extraite et étendue de **Google's coaching notes**, 
 En bas, j'ai rajouté des unités supplémentaires qui peuvent être soulevées pendant l'entretien, ou qui peuvent être utiles pour résoudre des problèmes. Plusieurs unités proviennent de
 "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" par Steve Yegge, et sont parfois reflétées mot pour mot dans les notes de coaching de google.
 
-J'ai épuré ce que vous devez savoir de ce qui est recommendé par Yegge. J'ai modifié les prérequis de Yegge.
-D'après les informations reçues de la part des contact travaillant à Google. Ceci est destiné aux **new software engineers**  ou aux developpeur logiciel/web qui souhaitent devenir des ingénieurs en génie logiciel (où la science de l'informatique est requise). Si vous avez plusieurs années d'expérience et vous déclarez plusieurs années d'éxperience en génie logiciel attendez vous à un entretien plus dur.
+J'ai épuré ce que vous devez savoir de ce qui est recommandé par Yegge. J'ai modifié les prérequis de Yegge.
+D'après les informations reçues de la part des contacts travaillant à Google. Ceci est destiné aux **new software engineers** ou aux développeurs logiciel/web qui souhaitent devenir des ingénieurs en génie logiciel (où la science de l'informatique est requise). Si vous avez plusieurs années d'expérience et vous déclarez plusieurs années d'expérience en génie logiciel attendez vous à un entretien plus dur.
 [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-Si vous avez plusieurs années d'experience en development web/logiciel, notez que google font une distinction entre le développement logiciel et l'ingénieurie en génie civil.
+Si vous avez plusieurs années d'expérience en développement web/logiciel, notez que google font une distinction entre le développement logiciel et l'ingénierie en génie civil.
 
-Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, suivez plus de cours de la liste optionelle (Réseau, sécurité)
+Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, suivez plus de cours de la liste optionnelle (Réseau, sécurité)
 ---
 
 ## Table of Contents
@@ -99,7 +99,7 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Votre CV](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Ayez les questions pour l'entretien](#have-questions-for-the-interviewer)
-- [Quand vous aurez eu le travial:](#once-youve-got-the-job)
+- [Quand vous aurez eu le travail:](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 
@@ -265,7 +265,7 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
 
 - [ ] Cours pour préparer:
     - [ ] [Comment réussir dans une interview d'ingénieur logiciel (besoin de payer)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Apprends comment être pret pour l'entrevue de quelqu'un qui était responsable de l'embauche pour Google.
+        - Apprends comment être prêt pour l'entrevue de quelqu'un qui était responsable de l'embauche pour Google.
 
 - [ ] Supplémentaires (ne sont pas suggéré par Google, mais je l'ai ajouté):
     - [ ] [Toujours en train de faire le codage (Anglais ABC: Always Be Coding)](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -283,7 +283,7 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
 
 Je l'ai écrit cet article à propos de cela : [Important: Choisis une langue pour l'entrevue Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-Tu peux choisir une langue avec laquelle vos êtes comftortable pour fair la partie de codage, mais pour Google, celles-ci sont les bons choix:
+Tu peux choisir une langue avec laquelle vous êtes confortable pour faire la partie de codage, mais pour Google, celles-ci sont les bons choix:
 
 - C++
 - Java
@@ -303,7 +303,7 @@ Lis à propos vos choix:
 
 [Regarde les ressources pour chaque langue ici](programming-language-resources.md)
 
-Vous voyiez C, C++ et Python en dessous, parce que j'apprends. Il y a quelques livres qui va t'aider, regarde en dessous. 
+Vous voyez C, C++ et Python en dessous, parce que j'apprends. Il y a quelques livres qui vont t'aider, regarde en dessous. 
 
 ## Liste de livres
 
@@ -315,12 +315,12 @@ Voici une liste que j'ai réduite afin de vous faire gagner du temps.
     - réponses en c++ et java
     - recommandé par un candidat en coaching de Google
     - this is a good warm-up for Cracking the Coding Interview
-    - c'est un bon échuaffement pour cracker l'entretien de développement
-    - pas trop difficule, la plupart des problèmes seront plus faciles que ceux que vous arez dans l'entretien (de ce que j'ai lu)
+    - c'est un bon échauffement pour cracker l'entretien de développement
+    - pas trop difficile, la plupart des problèmes seront plus faciles que ceux que vous aurez dans l'entretien (de ce que j'ai lu)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - réponses en java
     - recommandé sur le [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - Si vous voyez des personnes faire référence à "The Google Resume", c'était le livre remplacé par "Craking the Coding Interview"
+    - Si vous voyez des personnes faire référence à "The Google Resume", c'était le livre remplacé par "Cracking the Coding Interview"
 
 Si vous avez beaucoup de temps libre:
 
@@ -334,9 +334,9 @@ Si vous n'avez pas beaucoup de temps :
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - Le livre est un peu dépassé car il a été publié en 2004, mais il reste intéressant pour comprendre brièvement comment marche un ordinateur.
-    - L''ateur a inventé HLA, prenez donc ses remarques et ses exemples sur le HLA avec scpetisme. Il n'est pas souvent cité mais propose de nombreux exemples sur ce à quoi un assembleur ressemble
+    - L'auteur a inventé HLA, prenez donc ses remarques et ses exemples sur le HLA avec scepticisme. Il n'est pas souvent cité mais propose de nombreux exemples sur ce à quoi un assembleur ressemble
     - Ces chapitres vous donneront des fondations :
-        - Chapitre 2 - Réprésentation numérique
+        - Chapitre 2 - Représentation numérique
         - Chapitre 3 - Arithmétique binaire et les opérations bit à bit
         - Chapitre 4 - Floating-Point Representation
         - Chapitre 4 - La représentation de la virgule flottante
@@ -354,9 +354,9 @@ Si vous avez plus de temps (Je veux ce livre):
 
 ### Sur les langages
 
-**Vous avez besoin de choisir un langage pour l'entretien (voir au-dessus).** Voici mes recommendations sur les différents langages. Je n'ai pas des ressources pour tous les langages alors n'hésitez pas à en rajouter.
+**Vous avez besoin de choisir un langage pour l'entretien (voir au-dessus).** Voici mes recommandations sur les différents langages. Je n'ai pas de ressources pour tous les langages alors n'hésitez pas à en rajouter.
 
-Si vous lisez un d'eux, vous devez d'abord avoir toutes des connaissances sur les structures de données et les algorithmes pour pouvoir faire des problèmes de codage.
+Si vous lisez un d'eux, vous devez d'abord avoir toutes les connaissances sur les structures de données et les algorithmes pour pouvoir résoudre des problèmes de codage.
 **Vous pouvez passer toutes les vidéos de cours de ce projet**, à moins que vous voulez un avis.
 
 [Additional language-specific resources here.](programming-language-resources.md)
@@ -368,7 +368,7 @@ Je n'ai pas lu ces deux-là mais ils sont bien notées et écrit par Sedgewick. 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-Si vous avez une meilleure recommendation pour le C++, dites le moi. Je recherche des ressources plus compréhensive.
+Si vous avez une meilleure recommandation pour le C++, dites le moi. Je recherche des ressources plus compréhensives.
 
 ### Java
 
@@ -382,7 +382,7 @@ OU:
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - par Goodrich, Tamassia, Goldwasser
     - utilisé pour du texte optionnel dans les cours d'introduction à l'informatique à l'UC Berkeley
-    - allez voir le raport que j'ai fait sur le Python proposé en-dessous. Ce livre couvre les mêmes sujets.
+    - allez voir le rapport que j'ai fait sur le Python proposé en-dessous. Ce livre couvre les mêmes sujets.
 
 ### Python
 
@@ -396,7 +396,7 @@ OU:
 
 ### Livres optionnels
 
-**Plusieurs personnes les recommandes, cependant je pense qu'ils vont trop loin, à moins que vous ayez plusieurs années dans le dévleoppement logiciel and que vous vous attendez à un entretien bien plus difficile**
+**Plusieurs personnes les recommandes, cependant je pense qu'ils vont trop loin, à moins que vous ayez plusieurs années dans le développement logiciel and que vous vous attendez à un entretien bien plus difficile**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - En tant qu'examen et reconnaissance de problème
@@ -405,7 +405,7 @@ OU:
         - class textbook on data structures and algorithms
             - pour:
                 - est une bonne critique comme n'importe quel manuel le serait
-                - des histoires intéressantes venant de son expérience dans la résolutionde problèmes dans l'industriel et l'académique
+                - des histoires intéressantes venant de son expérience dans la résolution de problèmes dans l'industriel et l'académique
                 - des exemples de code en C
             - contre:
                 - peut être aussi dense ou impénétrable que CLRS, et dans plusieurs cas, CLRS peut être une meilleure alternative sur certains sujets

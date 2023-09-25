@@ -606,7 +606,7 @@
 - ### 堆栈（Stack）
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] 可以不实现，因为使用数组来实现并不重要
+    - [ ] 可以不实现，因为使用数组来实现是微不足道的事
 
 - ### 队列（Queue）
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)

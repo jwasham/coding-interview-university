@@ -29,10 +29,10 @@
 * 时间
 
 注意，这是一份关于 **软件工程** 的学习计划，而不是前端工程或全栈开发。
-这些职业路径有很多详细的路线图和课程资料可以在其他地方找到（请参阅 https://roadmap.sh/ 获取更多信息）。
+这些职业路径有很多详细的路线图和课程资料可以在其他地方找到（请参阅 <https://roadmap.sh/> 获取更多信息）。
 
 在大学计算机科学专业中，有很多知识需要学习，但是只掌握大约75%的内容就足够应对面试了，这也是我在这里涵盖的内容。
-如果你想进行完整的自学计算机科学项目，可以参考Kamran Ahmed的计算机科学路线图：https://roadmap.sh/computer-science。
+如果你想进行完整的自学计算机科学项目，可以参考Kamran Ahmed的计算机科学路线图：<https://roadmap.sh/computer-science>。
 
 ---
 
@@ -304,7 +304,7 @@
     - 作者：Goodrich、Tamassia、Goldwasser
     - 我非常喜爱这本书，它包含了所有东西
     - 很 Python 的代码
-    - 我的读书报告：https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - 我的读书报告：<https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/>
 
 ### Java
 
@@ -392,7 +392,7 @@
 这个网站用同一个字卡重复出现的方式让你牢牢地记住知识。
 这个网站非常容易使用，支持多平台，并且有云端同步功能。在 iOS 平台上收费25美金，其他平台免费。
 
-这是我用 Anki 这个网站里的格式所储存的抽认卡资料库: https://ankiweb.net/shared/info/25173560 （感谢 [@xiewenya](https://github.com/xiewenya)）。
+这是我用 Anki 这个网站里的格式所储存的抽认卡资料库: <https://ankiweb.net/shared/info/25173560> （感谢 [@xiewenya](https://github.com/xiewenya)）。
 
 一些学生提到了关于空白间距的格式问题，可以通过以下方法进行修复：打开卡片组，编辑卡片，点击"卡片"选项，选择"样式"单选按钮，在卡片类中添加成员 "white-space: pre;"。
 

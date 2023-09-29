@@ -1,6 +1,6 @@
 # Kodlama Mülakatı Üniversitesi
 
-> Aslında bunu yazılım mühendisi olabilmek için kısa bir yapılacaklar listesi olarak hazırladım,
+> Başlangıçta bunu yazılım mühendisi olabilmek için kısa bir yapılacaklar listesi olarak hazırladım,
 > ama bugün gördüğünüz büyük listeye dönüştü. Bu çalışma planını tamamladıktan sonra, [Amazon tarafından
 > Yazılım Geliştirme Mühendisi olarak işe alındım.](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > Muhtemelen yaptığım kadar çok çalışmanıza gerek kalmayacaktır. Her neyse, ihtiyaç duyabileceğiniz her şey burada.

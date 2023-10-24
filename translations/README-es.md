@@ -110,7 +110,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - Por montículos (heapsort)
     - Rápido (quicksort)
     - Por mezcla (merge sort)
-- [Gráficos](#graficos)
+- [Grafos](#grafos)
     - Dirigidos
     - No dirigidos
     - Matriz de adyacencia
@@ -827,9 +827,9 @@ Escriba código en un pizarrón o en papel, pero no en la computadora. Pruebe co
 Como resumen aquí esta una representación visual de [15 algoritmos de ordenamiento](https://www.youtube.com/watch?v=kPRA0W1kECg)
 Si necesita más detalle de este tema vea “Ordenamientos” en [Detalles adicionales de ciertos temas](#detalles-adicionales-de-ciertos-temas)
 
-## Gráficos
+## Grafos
 
-Los gráficos pueden ser usados para representar muchos problemas en las Ciencias de la Computación, así que es una sección larga, como lo son los árboles y ordenamientos.
+Los grafos pueden ser usados para representar muchos problemas en las Ciencias de la Computación, así que es una sección larga, como lo son los árboles y ordenamientos.
 
 - Notas:
     - Hay cuatro formas básicas de representar un grafo en memoria:
@@ -849,7 +849,7 @@ Los gráficos pueden ser usados para representar muchos problemas en las Ciencia
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-- [ ] Gráficos (revisión y más):
+- [ ] Grafos (revisión y más):
     - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
@@ -885,7 +885,7 @@ Los gráficos pueden ser usados para representar muchos problemas en las Ciencia
         - [ ] Verificación de grafo bipartito.
 
 
-||| Obtendrá más prácticas de gráficos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas.
+||| Obtendrá más prácticas de grafos en el libro de Skiena (vea Sección de libros debajo) y en los libros de entrevistas.
 
 ## Más información adicional
 - ### Recursión

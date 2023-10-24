@@ -2,8 +2,6 @@
 
 ## What is it?
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
-
 This is my multi-month study plan for becoming a software engineer for a large company.
 
 **Required:**

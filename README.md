@@ -7,7 +7,7 @@
 >
 > I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that below. I'll help you get there without wasting your precious time.
+> **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that is below. I'll help you get there without wasting your precious time.
 >
 > The items listed here will prepare you well for a technical interview at just about any software company,
 > including the giants: Amazon, Facebook, Google, and Microsoft.
@@ -73,7 +73,7 @@ This is my multi-month study plan for becoming a software engineer for a large c
 * Patience
 * Time
 
-Note this is a study plan for **software engineering**, not frontend engineering or fullstack development. There are really 
+Note this is a study plan for **software engineering**, not frontend engineering or full-stack development. There are really 
 super roadmaps and coursework for those career paths elsewhere (see https://roadmap.sh/ for more info).
 
 There is a lot to learn in a university Computer Science program, but only knowing about 75% is good enough for an interview, so that's what I cover here. 
@@ -265,7 +265,7 @@ Create a new branch so you can check items like this, just put an x in the brack
 ## Don't feel you aren't smart enough
 
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- Following videos may help you overcome this insecurity:
+- The following videos may help you overcome this insecurity:
     - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
     - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
@@ -290,7 +290,7 @@ Preferably the language would be the same, so that you only need to be proficien
 When I did the study plan, I used 2 languages for most of it: C and Python
 
 * C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
-    and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
+    and algorithms in your bones. In higher-level languages like Python or Java, these are hidden from you. In day-to-day work, that's terrific,
     but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
     - [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
@@ -413,8 +413,8 @@ Please, read so you won't make my mistakes:
 
 ### 2. Use Flashcards
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
+To solve the problem, I made a little flashcard site where I could add flashcards of 2 types: general and code.
+Each card has a different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
 
 Make your own for free:
 
@@ -434,12 +434,12 @@ same card and answer it several times correctly before you really know it. Repet
 your brain.
 
 An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. 
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms and has a cloud sync system. 
+It uses a repetition system to help you remember. It's user-friendly, available on all platforms, and has a cloud sync system. 
 It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
 
-Some students have mentioned formatting issues with white space that can be fixed by doing the following: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
+Some students have mentioned formatting issues with white space that can be fixed by doing the following: open the deck, edit the card, click cards, select the "styling" radio button, and add the member "white-space: pre;" to the card class.
 
 ### 3. Do Coding Interview Questions While You're Learning
 
@@ -447,7 +447,7 @@ THIS IS VERY IMPORTANT.
 
 Start doing coding interview questions while you're learning data structures and algorithms.
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. 
+You need to apply what you're learning to solve problems, or you'll forget. I made this mistake. 
 
 Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
 1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below) 
@@ -503,7 +503,7 @@ Why you need to practice doing programming problems:
 - Coming up with time and space complexity for your solutions (see Big-O below)
 - Testing your solutions
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
+There is a great intro for methodical, communicative problem-solving in an interview. You'll get this from the programming
 interview books, too, but I found this outstanding:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
@@ -511,7 +511,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice. 
 This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase. 
-Gets messy quick. **I use a pencil and eraser.**
+Gets messy quickly. **I use a pencil and eraser.**
 
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
@@ -530,7 +530,7 @@ Coding Interview Question Videos:
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
     - Super for walkthroughs of problem solutions
 - [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
+    - Good explanations of the solution and the code
     - You can watch several in a short time
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
@@ -546,7 +546,7 @@ Challenge/Practice sites:
 - [AlgoExpert](https://www.algoexpert.io/product)
     - Created by Google engineers, this is also an excellent resource to hone your skills.
 - [Project Euler](https://projecteuler.net/)
-    - very math focused, and not really suited for coding interviews
+    - very math-focused, and not really suited for coding interviews
 
 ## Let's Get Started
 
@@ -590,11 +590,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
+            - start with 16, or if the starting number is greater, use power of 2 - 16, 32, 64, 128
         - [ ] size() - number of items
         - [ ] capacity() - number of items it can hold
         - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] at(index) - returns the item at a given index, blows up if index out of bounds
         - [ ] push(item)
         - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
         - [ ] prepend(item) - can use insert above at index 0
@@ -604,7 +604,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
         - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
+            - when popping an item, if the size is 1/4 of capacity, resize to half
     - [ ] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
@@ -630,18 +630,18 @@ if you can identify the runtime complexity of different algorithms. It's a super
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
+        - [ ] size() - returns the number of data elements in the list
         - [ ] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
         - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
+        - [ ] pop_front() - remove the front item and return its value
         - [ ] push_back(value) - adds an item at the end
         - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [ ] front() - get the value of the front item
+        - [ ] back() - get the value of the end item
+        - [ ] insert(index, value) - insert value at index, so the current item at that index is pointed to by the new item at the index
         - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [ ] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
@@ -651,24 +651,24 @@ if you can identify the runtime complexity of different algorithms. It's a super
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Will not implement. Implementing with array is trivial
+    - [ ] Will not implement. Implementing with the array is trivial
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
+        - enqueue(value) - adds value at a position at the tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using fixed-sized array:
+    - [ ] Implement using a fixed-sized array:
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
     - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
+        - a bad implementation using a linked list where you enqueue at the head and dequeue at the tail would be O(n)
+            because you'd need the next to last element, causing a full traversal of each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
@@ -693,8 +693,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] Implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+        - hash(k, m) - m is the size of the hash table
+        - add(key, value) - if the key already exists, update value
         - exists(key)
         - get(key)
         - remove(key)
@@ -708,7 +708,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
     - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Implement:
-        - binary search (on sorted array of integers)
+        - binary search (on a sorted array of integers)
         - binary search using recursion
 
 - ### Bitwise operations
@@ -768,11 +768,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
         - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
         - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [Find the height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
         - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
         - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [Check if a binary tree is a binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
@@ -780,13 +780,13 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] get_node_count // get count of values stored
         - [ ] print_values // prints the values in the tree, from min to max
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
+        - [ ] is_in_tree // returns true if a given value exists in the tree
         - [ ] [get_height // returns the height in nodes (single node's height is 1)](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
         - [ ] get_min   // returns the minimum value stored in the tree
         - [ ] get_max   // returns the maximum value stored in the tree
         - [ ] [is_binary_search_tree](https://leetcode.com/problems/validate-binary-search-tree/)
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // returns the next-highest value in the tree after given value, -1 if none
 
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
@@ -809,12 +809,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] sift_up - needed for insert
         - [ ] get_max - returns the max item, without removing it
         - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
+        - [ ] is_empty() - returns true if the heap contains no elements
         - [ ] extract_max - returns the max item, removing it
         - [ ] sift_down - needed for extract_max
         - [ ] remove(x) - removes item at index x
         - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
+        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in place using a max heap or min heap
 
 ## Sorting
 
@@ -826,15 +826,15 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
+    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which of both?
         - I wouldn't recommend sorting a linked list, but merge sort is doable.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable
+- For heapsort, see the Heap data structure above. Heap sort is great, but not stable
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
-    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+    - [ ] [2. Bottom-up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
     - [ ] [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
     - [ ] [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
     - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
@@ -880,7 +880,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
 - [ ] Implement:
     - [ ] Mergesort: O(n log n) average and worst case
     - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
+    - Selection sort and insertion sort are both O(n^2) average and worst-case
     - For heapsort, see Heap data structure above
 
 - [ ] Not required, but I recommended them:
@@ -898,11 +898,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+If you need more detail on this subject, see the "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 ## Graphs
 
-Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
+Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting.
 
 - Notes:
     - There are 4 basic ways to represent a graph in memory:
@@ -911,7 +911,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - adjacency list
         - adjacency map
     - Familiarize yourself with each representation and its pros & cons
-    - BFS and DFS - know their computational complexity, their trade offs, and how to implement them in real code
+    - BFS and DFS - know their computational complexity, their trade-offs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none
 
 - [ ] MIT(videos):
@@ -955,7 +955,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
     - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
+        - [ ] check for a cycle (needed for topological sort, since we'll check for the cycle before starting)
         - [ ] topological sort
         - [ ] count connected components in a graph
         - [ ] list strongly connected components
@@ -1030,7 +1030,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 
 - ### Combinatorics (n choose k) & Probability
-    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Math Skills: How to find Factorial, Permutation, and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
     - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
     - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
     - [ ] Khan Academy:
@@ -1040,12 +1040,12 @@ Graphs can be used to represent many problems in computer science, so this secti
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
 - ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
+    - Know about the most famous classes of NP-complete problems, such as the traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
-        - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] [Greedy Algs. II & Intro to NP-Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
         - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
@@ -1057,7 +1057,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
     - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
     - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
+    - Peter Norvig discusses near-optimal solutions to the traveling salesman problem:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
     - Pages 1048 - 1140 in CLRS if you have it.
 
@@ -1091,15 +1091,15 @@ Graphs can be used to represent many problems in computer science, so this secti
             - Mutexes
             - Semaphores
             - Monitors
-            - How they work?
+            - How do they work?
             - Deadlock
             - Livelock
         - CPU activity, interrupts, context switching
         - Modern concurrency constructs with multicore processors
-        - [Paging, segmentation and virtual memory (video)](https://youtu.be/O4nwUqQodAg)
+        - [Paging, segmentation, and virtual memory (video)](https://youtu.be/O4nwUqQodAg)
         - [Interrupts (video)](https://youtu.be/iKlAWIKEyuw)
         - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
+        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own PC, stack counter, registers, and stack)
         - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
         - Context switching
             - [How context switching is initiated by the operating system and underlying hardware?](https://www.javatpoint.com/what-is-the-context-switching-in-the-operating-system)
@@ -1110,7 +1110,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
         - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
             - [reference](http://www.dabeaz.com/GIL)
-        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+        - [ ] [David Beazley - Python Concurrency From the Ground Up LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
         - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
@@ -1137,14 +1137,14 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
         - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
         - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [Search pattern in a text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
+    If you need more detail on this subject, see the "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
 
 - ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
+    - Note there are different kinds of tries. Some have prefixes, some don't, and some use strings instead of bits
         to track the path
-    - I read through code, but will not implement
+    - I read through the code, but will not implement
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
         - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
@@ -1156,7 +1156,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Using Tries](https://www.topcoder.com/thrive/articles/Using%20Tries)
-    - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    - [ ] [Stanford Lecture (real-world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (video)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### Floating Point Numbers
@@ -1230,9 +1230,9 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
 - Prep Courses:
     - [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - A Python-centric interview prep course that covers data structures, algorithms, mock interviews, and much more.
     - [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - A free Python centric data structures and algorithms course.
+        - A free Python-centric data structures and algorithms course.
     - [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
         - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
     - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
@@ -1242,7 +1242,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - a peer-to-peer model to practice interviews
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously
 - [Meetapro: Mock interviews with top FAANG interviewers](https://meetapro.com/?utm_source=ciu) - an Airbnb-style mock interview/coaching platform.
 - [Hello Interview: Mock Interviews with Expert Coaches and AI](https://www.hellointerview.com/?utm_source=ciu) - interview directly with AI or with FAANG staff engineers and managers.
@@ -1294,7 +1294,7 @@ You're never really done.
     *****************************************************************************************************
 
     Everything below this point is optional. It is NOT needed for an entry-level interview.
-    However, by studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
+    However, by studying these, you'll get greater exposure to more CS concepts and will be better prepared for
     any software engineering job. You'll be a much more well-rounded software engineer.
     
     *****************************************************************************************************
@@ -1313,11 +1313,11 @@ You're never really done.
 - [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
     - A gentle introduction to design patterns
-- [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - AKA the "Gang Of Four" book, or GOF
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+    - AKA the "Gang Of Four" book or GOF
     - The canonical design patterns book
 - [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
+    - As a review and problem-recognition
     - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview
     - This book has 2 parts:
         - Class textbook on data structures and algorithms
@@ -1327,7 +1327,7 @@ You're never really done.
                 - Code examples in C
             - Cons:
                 - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - Chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
+                - Chapters 7, 8, and 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
                 - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
         - Algorithm catalog:
             - This is the real reason you buy this book.
@@ -1420,7 +1420,7 @@ You're never really done.
     - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
     - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
     - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
-    - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+    - [ ] [Google's Transition From Single Datacenter To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
     - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
     - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
     - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
@@ -1436,23 +1436,23 @@ You're never really done.
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the [Video Series](#video-series) section
+    - For even more, see the "Mining Massive Datasets" video series in the [Video Series](#video-series) section
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
     - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
-            - Define the use cases, with interviewer's help
+            - Define the use cases, with the interviewer's help
             - Suggest additional features
-            - Remove items that interviewer deems out of scope
+            - Remove items that the interviewer deems out of scope
             - Assume high availability is required, add as a use case
         2. Think about constraints:
             - Ask how many requests per month
             - Ask how many requests per second (they may volunteer it or make you do the math)
             - Estimate reads vs. writes percentage
-            - Keep 80/20 rule in mind when estimating
-            - How much data written per second
+            - Keep the 80/20 rule in mind when estimating
+            - How much data is written per second
             - Total storage required over 5 years
             - How much data read per second
         3. Abstract design:
@@ -1470,7 +1470,7 @@ You're never really done.
 
 ## Additional Learning
 
-    I added them to help you become a well-rounded software engineer, and to be aware of certain
+    I added them to help you become a well-rounded software engineer and to be aware of certain
     technologies and algorithms, so you'll have a bigger toolbox.
 
 - ### Compilers
@@ -1480,9 +1480,9 @@ You're never really done.
     - [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - ### Emacs and vi(m)
-    - Familiarize yourself with a unix-based code editor
+    - Familiarize yourself with a UNIX-based code editor
     - vi(m):
-        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [Editing With Vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
         - [VIM Adventures](http://vim-adventures.com/)
         - set of 4 videos:
             - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
@@ -1495,7 +1495,7 @@ You're never really done.
         - set of 3 (videos):
             - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
             - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
-            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
+            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file, and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
 	- [The Absolute Beginner's Guide to Emacs (video by David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
@@ -1521,7 +1521,7 @@ You're never really done.
         - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
         - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below
+    - See more in the MIT 6.050J Information and Entropy series below
 
 - ### Parity & Hamming Code (videos)
     - [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
@@ -1532,12 +1532,12 @@ You're never really done.
     - [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### Entropy
-    - Also see videos below
+    - Also see the videos below
     - Make sure to watch information theory videos first
     - [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 - ### Cryptography
-    - Also see videos below
+    - Also see the videos below
     - Make sure to watch information theory videos first
     - [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
@@ -1577,7 +1577,7 @@ You're never really done.
 
 - ### Parallel Programming
     - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [Efficient Python for High-Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### Messaging, Serialization, and Queueing Systems
     - [Thrift](https://thrift.apache.org/)
@@ -1636,14 +1636,14 @@ You're never really done.
 
 - ### Balanced search trees
     - Know at least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
+    - "Among balanced search trees, AVL and 2/3 trees are now passé and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
     - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
         balanced search tree in your interview. But I wanted exposure to coding one up
         and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code
         - Splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
+        If you end up implementing a red/black tree try just these:
         - Search and insertion functions, skipping delete
     - I want to learn more about B-Tree since it's used so widely with very large data sets
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
@@ -1676,12 +1676,12 @@ You're never really done.
         - In practice:
             Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
             Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
+            but it makes them valuable building blocks in other data structures that provide worst-case guarantees;
+            for example, many data structures used in computational geometry can be based on red-black trees, and
+            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In version 8 of Java,
             the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
             hashcodes, a Red-Black tree is used
-        - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+        - [Aduni - Algorithms - Lecture 4 (link jumps to the starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
@@ -1690,16 +1690,16 @@ You're never really done.
     - **2-3 search trees**
         - In practice:
             2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
-        - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
+        - You would use 2-3 trees very rarely because its implementation involves different types of nodes. Instead, people use Red-Black trees.
         - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
     - **2-3-4 Trees (aka 2-4 trees)**
         - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
+            For every 2-4 trees, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
             operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
+            important tool for understanding the logic behind red-black trees, and this is why many introductory algorithm texts introduce
             2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
         - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -1714,10 +1714,10 @@ You're never really done.
     - **B-Trees**
         - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
         - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
+            B-trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
             its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address
+            block in a particular file. The basic problem is turning the file block address into a disk block
+            (or perhaps to a cylinder head sector) address
         - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
         - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
@@ -1725,12 +1725,12 @@ You're never really done.
         - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
-                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+                - the first 37 minutes are very technical, and may be skipped (B is block size, cache line size)
         - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D Trees
-    - Great for finding number of points in a rectangle or higher dimension object
+    - Great for finding a number of points in a rectangle or higher-dimensional object
     - A good fit for k-nearest neighbors
     - [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
@@ -1790,7 +1790,7 @@ You're never really done.
         - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
     - [ ] L - [Liskov Substitution Principle](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ Principle](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
         - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-    - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
+    - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | Clients should not be forced to implement interfaces they don't use
         - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
         - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
     - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.

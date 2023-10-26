@@ -297,7 +297,6 @@ When I did the study plan, I used 2 languages for most of it: C and Python
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
-        - [Answers to questions in the book](https://github.com/lekkas/c-algorithms)
 * Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
 
 This is my preference. You do what you like, of course.

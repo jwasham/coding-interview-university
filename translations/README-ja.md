@@ -64,51 +64,44 @@
 
 ## 目次
 
-- [コーディング面接の大学](#コーディング面接の大学)
-	- [これは何？](#これは何)
-	- [目次](#目次)
-	- [なぜこれを使用するのか](#なぜこれを使用するのか)
-	- [使い方](#使い方)
-	- [自信を無くさないでください](#自信を無くさないでください)
-	- [ビデオリソースについて](#ビデオリソースについて)
-	- [面接のプロセスと一般的な面接の準備](#面接のプロセスと一般的な面接の準備)
-	- [面接のための1つの言語を選ぶ](#面接のための1つの言語を選ぶ)
-	- [ブックリスト](#ブックリスト)
-		- [面接の準備](#面接の準備)
-		- [コンピュータアーキテクチャ](#コンピュータアーキテクチャ)
-		- [言語固有](#言語固有)
-		- [C++](#c)
-		- [Java](#java)
-		- [Python](#python)
-	- [始める前に](#始める前に)
-		- [1.あなたはそれをすべて覚えていない](#1あなたはそれをすべて覚えていない)
-		- [2.フラッシュカードを使用する](#2フラッシュカードを使用する)
-		- [3.レビュー、レビュー、評価](#3レビューレビュー評価)
-		- [4.フォーカス](#4フォーカス)
-	- [カバーされていないもの](#カバーされていないもの)
-	- [日々の計画](#日々の計画)
-	- [前提知識](#前提知識)
-	- [アルゴリズムの複雑さ/ Big-O / Asymptotic解析](#アルゴリズムの複雑さ-big-o--asymptotic解析)
-	- [データ構造](#データ構造)
-	- [その他の知識](#その他の知識)
-	- [木](#木)
-	- [ソート](#ソート)
-	- [グラフ](#グラフ)
-	- [さらに多くの知識](#さらに多くの知識)
-	- [システム設計、スケーラビリティ、データ処理](#システム設計スケーラビリティデータ処理)
-	- [最終レビュー](#最終レビュー)
-	- [コーディングの質問練習](#コーディングの質問練習)
-	- [コード演習/挑戦](#コード演習挑戦)
-	- [面接に近づいたら](#面接に近づいたら)
-	- [あなたの履歴書](#あなたの履歴書)
-	- [面接が来たときに考えてください](#面接が来たときに考えてください)
-	- [面接官に質問があります](#面接官に質問があります)
-	- [一度あなたは仕事を得た](#一度あなたは仕事を得た)
-	- [その他の書籍](#その他の書籍)
-	- [その他の学習](#その他の学習)
-	- [追加科目の詳細](#追加科目の詳細)
-	- [ビデオシリーズ](#ビデオシリーズ)
-	- [コンピュータサイエンスコース](#コンピュータサイエンスコース)
+### 学習計画
+
+- [なぜこれを使用するのか](#なぜこれを使用するのか)
+- [使い方](#使い方)
+- [自信を無くさないでください](#自信を無くさないでください)
+- [ビデオリソースに関する注意](#ビデオリソースに関する注意)
+- [プログラミング言語を選択してください](#プログラミング言語を選択してください)
+- [データ構造とアルゴリズムに関する書籍](#データ構造とアルゴリズムに関する書籍)
+- [面接対策本](#面接対策本)
+- [私と同じ間違いを犯さないでください](#私と同じ間違いを犯さないでください)
+- [取り上げられていないもの](#取り上げられていないもの)
+- [日次計画](#日次計画)
+- [コーディングに関する質問の練習](#コーディングに関する質問の練習)
+- [コーディングの問題](#コーディングの問題)
+
+### 研究のテーマ
+
+- [アルゴリズムの複雑さ/ Big-O / Asymptotic解析](#アルゴリズムの複雑さ-big-o--asymptotic解析)
+- [データ構造](#データ構造)
+- [その他の知識](#その他の知識)
+- [木](#木)
+- [ソート](#ソート)
+- [グラフ](#グラフ)
+- [さらに多くの知識](#さらに多くの知識)
+- [システム設計、スケーラビリティ、データ処理](#システム設計スケーラビリティデータ処理)
+- [最終レビュー](#最終レビュー)
+- [コーディングの質問練習](#コーディングの質問練習)
+- [コード演習/挑戦](#コード演習挑戦)
+- [面接に近づいたら](#面接に近づいたら)
+- [あなたの履歴書](#あなたの履歴書)
+- [面接が来たときに考えてください](#面接が来たときに考えてください)
+- [面接官に質問があります](#面接官に質問があります)
+- [一度あなたは仕事を得た](#一度あなたは仕事を得た)
+- [その他の書籍](#その他の書籍)
+- [その他の学習](#その他の学習)
+- [追加科目の詳細](#追加科目の詳細)
+- [ビデオシリーズ](#ビデオシリーズ)
+- [コンピュータサイエンスコース](#コンピュータサイエンスコース)
 
 ## なぜこれを使用するのか
 
@@ -164,7 +157,7 @@
    git commit -am "Marked personal progress"
    git pull upstream main  # 元のレポからの変更でフォークを最新に保つ
 
-   git push # just pushes to your fork
+   git push # フォークにプッシュするだけ
    ```
 
 ## 自信を無くさないでください
@@ -176,252 +169,277 @@
 
 ---
 
-## ビデオリソースについて
+## ビデオリソースに関する注意
 
-一部のビデオは、Coursera、EdX、またはLynda.comクラスに登録することによってのみ利用できます。
-これらはMOOCと呼ばれています。
-時にはクラスがセッションに入っていないので、数ヶ月待つ必要があるため、アクセス権がありません。
-Lynda.comコースは有料です。
+一部のビデオは、Coursera または EdX クラスに登録することによってのみ視聴できます。
+これらは MOOC と呼ばれます。
+場合によっては、クラスが開催されていないため、数か月待たなければならず、アクセスできないこともあります。
 
-オンラインコースビデオに付随するYouTubeビデオなど、無料で常時利用可能なパブリックソースを追加することに感謝します。
-私は大学の講義を使うのが好きです。
+オンラインコースのリソースを、YouTube ビデオ (できれば大学の講義) など、いつでも利用できる無料の公開ソースに置き換えて、特定のオンラインコースの開催中だけでなく、いつでも学習できるようにするのは素晴らしいことです。
 
+## プログラミング言語を選択してください
 
-## 面接のプロセスと一般的な面接の準備
+コーディング面接に使用するプログラミング言語を選択する必要がありますが、コンピューターサイエンスの概念を学習するために使用できる言語も見つける必要があります。
 
-- [ ]  [ABC：常にコーディングする](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ]  [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ]  [技術職募集での謎解き](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ]  クラッキングコーディング面接セット1：
-	- [ ]  [Gayle L McDowell - コーディング面接(ビデオ)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-	- [ ]  [Gayle Laakmann McDowell(ビデオ)](https://www.youtube.com/watch?v=aClxtDcdpsQ)とのコーディング面接をクラッキング
-- [ ]  ビッグ4で仕事を得る方法：
-	- [ ]  [Amazon、Facebook、Google、Microsoftで仕事を手に入れる方法(ビデオ)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-- [ ]  準備コース：
-    - [ ]  [Software Engineer Interview Unleashed(有料コース)](https://www.udemy.com/software-engineer-interview-unleashed)：
-		- 以前のGoogle面接官からソフトウェアエンジニアの面接準備をする方法を学びます。
-	- [ ]  [データ構造、アルゴリズム、面接のためのPython! (有料コース)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/)：
-		- データ構造、アルゴリズム、模擬面接などを扱うPython中心の面接の準備コース。
+できれば、どちらか 1 つの言語に習熟するだけで済むように、言語が同じであることが望ましいです。
 
-## 面接のための1つの言語を選ぶ
+### この学習計画について
 
-面接のコーディングの部分に慣れ親しんだ言語を使用することはできますが、大企業にとってはこれらの選択肢が確実です。
+学習計画を立てたとき、そのほとんどで C と Python の 2 つの言語を使用しました。
 
-- C ++
+* C: 非常に低いレベル。ポインタとメモリの割り当て / 割り当て解除を処理できるため、データ構造を実感できます。
+    そしてアルゴリズムが骨の中に組み込まれています。Python や Java などの高水準言語では、これらは表示されません。日々の仕事ではそれは素晴らしいことですが、これらの低レベルのデータ構造がどのように構築されるかを学んでいるときは、実際に近いと感じるのは素晴らしいことです。
+    - C はどこにでもあります。勉強していると、書籍、講義、ビデオなど、*あらゆる場所*で例を見ることができます。
+    - [C プログラミング言語 第 2 版](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - これは短い本ですが、少し練習すれば C 言語をうまく扱えるようになります。
+            すぐに上達します。C を理解すると、プログラムとメモリがどのように機能するかを理解するのに役立ちます。
+        - 本を深く読み込む必要はありません（読み終える必要さえありません）。C で快適に読み書きできるところまで進んでください。
+* Python: 現代的で表現力が非常に豊かです。非常に便利で、面接で記述するコードの量も少なくて済むため、私はこれを学びました。
+
+これが私の好みです。もちろん、好きなことをしてください。
+必要ないかもしれませんが、新しい言語を学習するためのサイトをいくつか紹介します。
+- [exercism](https://exercism.org/tracks)
+- [codewars](http://www.codewars.com)
+- [HackerEarth](https://www.hackerearth.com/for-developers/)
+- [SCALER Topics (Java、C++)](https://www.scaler.com/topics/)
+
+### コーディング面接用
+
+面接のコーディング部分には、使い慣れた言語を使用できますが、大企業の場合は、次の言語を選択するのが確実です。
+
+- C++
 - Java
 - Python
 
-これらを使用することもできますが、最初に読んでください。注意が必要な場合があります：
+これらを使用することもできますが、最初に読んでください。注意事項がある場合があります:
 
 - JavaScript
 - Ruby
 
-あなたは言語に非常に慣れて知識が必要です。
+面接の言語の選択について私が書いた記事は次のとおりです:
+[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
 
-選択肢についてもっと読む：
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
+これは私の投稿の元の記事です:
+[Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
 
-[言語リソースはこちら](programming-language-resources.md)
+言語に非常に慣れており、知識が豊富である必要があります。
 
-私は学習しているので、以下に含まれるC、C ++、Pythonの学習を見ることができます。
-いくつかの本があります、下を参照してください。
+選択肢について詳しくは、次を参照してください。
+- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-## ブックリスト
+[ここで言語固有のリソースを参照してください](programming-language-resources.md)
 
-これは私が使ったものよりも短いリストです。これは時間を節約するために省略されています。
+## データ構造とアルゴリズムに関する書籍
 
-### 面接の準備
+### C
 
-- [ ]  [プログラミング面接の公開：あなたの次の仕事への秘密、第2版](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-	- C ++とJavaの回答
-	- コーディング面接をクラッキングするためのウォームアップが良い
-	- あまりにも難しくない、ほとんどの問題はあなたが面接で（私が読んだことから）見ることよりも簡単かもしれない
-- [ ]  [Cracking the Coding Interview、第6版](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-- [ ]  [日本語版(世界で闘うプログラミング力を鍛える本)](https://www.amazon.co.jp/dp/4839960100/ref=cm_sw_r_tw_dp_6TFC3Y2R6TQTDEFFFPKZ)
-	- Javaでの回答
-
-もし余分な時間があれば：
-
-- [ ]  [プログラミング面接の要素(C ++版)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ]  プログラミング面接の要素(Java版)
-	- [本](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-	- [コンパニオンプロジェクト - 本のすべての問題のメソッドスタブとテストケース](https://github.com/gardncl/elements-of-programming-interviews)
-
-### コンピュータアーキテクチャ
-
-短期：
-
-- [ ]  [グレートコードの作成：第1巻：マシンの理解](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-- [ ]  [日本語版：Write Great Code〈Vol.1〉ハードウェアを知り、ソフトウェアを書く](https://www.amazon.co.jp/dp/4839918201/ref=cm_sw_r_tw_dp_69724M3EHRJ8E7A14JNC)
-	- この本は2004年に出版され、幾分古いですが、コンピュータを簡単に理解するには素晴らしいリソースです。
-	- 作者はHLAを発明したので、塩の穀物でHLAの言及と例を取り上げます。広く使われているわけではありませんが、どのようなアセンブリのように見えますか？
-	- これらの章はあなたに素敵な基礎を与えるために読む価値があります：
-        - 第2章 - 数値表現
-        - 第3章 - 2進算術とビット演算
-		- 第4章 - 浮動小数点表現
-		- 第5章 - キャラクター表現
-		- 第6章 - メモリ構成とアクセス
-        - 第7章 - 複合データ型とメモリオブジェクト
-        - 第9章 - CPUアーキテクチャ
-		- 第10章 - 命令セットのアーキテクチャ
-		- 第11章 - メモリのアーキテクチャと構成
-
-もっと時間があれば(私はこの本が欲しい)：
-
-- [ ]  [Computer Architecture、第5版：定量的アプローチ](https://www.amazon.com/dp/012383872X/)
-- [ ]  [日本語最新版：コンピュータアーキテクチャ[第6版]定量的アプローチ](https://www.amazon.co.jp/dp/4434264001/)
-	- お金がある人向け、より最新（2017（日本語版は2019））かつ歴史も長い
-
-### 言語固有
-
-**面接の言語を選択する必要があります(上記参照)。** ここで私の推奨する言語です。私はすべての言語のためのリソースがありません。私は追加を歓迎する。
-
-これらのうちの1つを読んだら、コーディングの問題を開始するために必要なすべてのデータ構造とアルゴリズムの知識が必要です。
-**あなたがレビューをしたくない場合は、このプロジェクト**のビデオ講義をすべてスキップすることができます。
-
-[ここに言語固有の追加リソースがあります](programming-language-resources.md)
-
-### C++
-
-私はこれらの2つを読んだことはありませんが、Sedgewickによって高く評価され書かれています。彼は素晴らしいです。
-
-- [ ]  [C++でのアルゴリズム、パート1-4：基礎、データ構造、ソート、検索](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ]  [C++でのアルゴリズム第5部：グラフアルゴリズム](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
-C++の推奨事項がある場合は、私に知らせてください。包括的なリソースを探しています。
-
-### Java
-
-- [ ]  [アルゴリズム(Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-	- 書籍コンテンツの動画(とSedgewick!)：
-		- [アルゴリズム1](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
-		- [アルゴリズムII](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
-
-OR：
-
-- [ ]  [Javaにおけるデータ構造とアルゴリズム](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-	- Goodrich、Tamassia、Goldwasserによる
-	- UCバークレーのCSイントロコースのオプションテキストとして使用
-	- 下のPython版の私の本のレポートを見てください。この本は同じトピックを扱っています。
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - 基礎、データ構造、並べ替え、検索、およびグラフのアルゴリズム
 
 ### Python
 
-- [ ]  [Pythonのデータ構造とアルゴリズム](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-	- Goodrich、Tamassia、Goldwasserによる
-	- 私はこの本が好きだった。それはすべてをカバーしました。
-	- Pythonコード
-	- 私の輝く本のレポート：https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - グッドリッチ、タマッシア、ゴールドワッサー著
+    - この本が大好きでした。それはすべてを網羅し、それ以上のものでした。
+    - Python コード
+    - 私の素晴らしい本のレポート: https://startupnextdoor.com/book-report-data-structions-and-algorithms-in-python/
 
+### Java
 
+- Goodrich、Tamassia、Goldwasser
+    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- セッジウィックとウェイン:
+    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - この本をカバーする無料の Coursera コース (著者が教えます!):
+        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
-## 始める前に
+### C++
 
-このリストは何ヶ月にもわたって成長しました。
+- Goodrich、Tamassia、および Mount
+    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick と Wayne
+    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-ここで私が作ったいくつかの間違いがあります。
-あなたはより良い経験をするでしょう。
+## 面接対策本
 
-### 1.あなたはそれをすべて覚えていない
+たくさん買う必要はありません。正直なところ、「コーディング面接の攻略」で十分だと思いますが、さらに練習するためにさらに購入しました。しかし、私はいつもやりすぎます。
 
-私は数時間のビデオを見て、豊富なメモを取りました。
-そして数ヶ月後に私は覚えていないほどでした。
-私はメモを書き、フラッシュカードを作って見直すことができるように3日間過ごしました。
+これを両方購入しました。彼らは私にたくさんの練習をさせてくれました。
 
-あなたが私と同じ間違いをしないように読んでください：
+- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - C++ および Java での回答
+    - これコーディング面接を突破するための良いウォーミングアップです
+    - それほど難しいことではありません。ほとんどの問題は、インタビューで見られるものよりも簡単かもしれません (私が読んだ内容によると) 
+- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - Java での回答
 
-[コンピュータ科学知識の保持](https://startupnextdoor.com/retaining-computer-science-knowledge/)
+### 時間がたくさんある場合:
 
-### 2.フラッシュカードを使用する
+1 つ選択してください:
 
-この問題を解決するために、私は2種類のフラッシュカード、一般とコードを追加できる小さなフラッシュカードサイトを作った。
-各カードのフォーマットは異なります。
+- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-私はモバイル先のウェブサイトを作ったので、どこにいても電話とタブレットを見直すことができました。
+## 私と同じ間違いを犯さないでください
 
-あなた自身を無料で作る：
+このリストは何か月もかけて大きくなり、はい、手に負えなくなりました。
+
+より良い経験をしていただくために、私が犯したいくつかの間違いを以下に示します。そして、何か月も時間を節約できます。
+
+### 1. すべてを覚えているわけではない
+
+時間もビデオを見て大量のメモを取りましたが、数か月後には覚えていないことがたくさんありました。
+3日間かけてメモを見直し、フラッシュカードを作成して復習しましたが、そんな知識は必要ありませんでした。
+
+私と同じ間違いを犯さないように、
+
+[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/) を読んでください。
+
+### 2. フラッシュカードを使用する
+
+この問題を解決するために、一般とコードの 2 種類のフラッシュカードを追加できる小さなフラッシュカード サイトを作成しました。
+各カードには異なる形式があります。どこにいても携帯電話やタブレットでレビューできるように、モバイルファーストのウェブサイトを作成しました。
+
+無料で独自に作成します。
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [マイフラッシュカードデータベース(旧1200カード)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db)：
-- [マイフラッシュカードデータベース(新1800カード)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db)：
 
-覚えておいてほしいのですが，私はやりすぎてしまい、アセンブリ言語，機械学習のためのPythonのトリビア，統計に至るまですべてのカードをカバーしています。
-何が必要なのかはあまりにも大変です。
+**フラッシュカードの使用はお勧めしません。** フラッシュカードが多すぎて、ほとんどがトリビアです。必要ありません。
 
-**フラッシュカードについての注意：** 最初に答えを知っているときは、それを既知のものとしてマークしないでください。
-あなたは本当にそれを知る前に、同じカードを見て、それを正しく数回答えなければなりません。
-繰り返すことで、その知識があなたの脳に深く浸透します。
+しかし、私の言うことを聞きたくない場合は、ここからどうぞ:
+- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
+やりすぎて、アセンブリ言語や Python のトリビアから機械学習や統計まで、あらゆるものをカバーするカードがあることに注意してください。
+必要なものが多すぎます。
 
-私のフラッシュカードサイトを使用する代わりに[Anki](http://ankisrs.net/)が何度も私に勧められています。
-繰り返しシステムを使用して覚えやすくなります。
-ユーザーフレンドリーで、すべてのプラットフォームで利用でき、クラウド同期システムを備えています。
-iOSでは25ドル、他のプラットフォームでは無料です。
+**フラッシュカードに関する注意:** 初めて答えを知っていると気づいたときは、その答えを既知としてマークしないでください。
+本当に理解するには、同じカードを見て何度か正しく答える必要があります。
+繰り返すことで知識が脳に深く定着します。
 
-Anki形式の私のフラッシュカードデータベース：https://ankiweb.net/shared/info/25173560(thanks [@xiewenya](https://github.com/xiewenya))
+私のフラッシュカード サイトを使用する代わりに、[Anki](http://ankisrs.net/) が私に何度も勧められてきました。
+繰り返しシステムを使用しているので、覚えやすくなります。ユーザーフレンドリーで、すべてのプラットフォームで利用でき、クラウド同期システムを備えています。
+iOS では 25 ドルかかりますが、他のプラットフォームでは無料です。
 
+Anki 形式のフラッシュカード データベース: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
 
-### 3.レビュー、レビュー、評価
+一部の学生は、空白に関する書式の問題について次の手順を実行することで修正できると述べています。デッキを開いて、カードを編集し、カードをクリックし、「スタイル」ラジオ ボタンを選択して、メンバー「white-space: pre;」を追加します。カードクラスへ。
 
-私は、ASCII、OSI参照モデル、Big-O記法などのチートシートを用意しています。私は余裕があるときに勉強します。
+### 3. 学習中にコーディング面接の質問をする
 
-プログラミングの問題から30分ほど休み、フラッシュカードを通過してください。
+これは非常に重要です。
 
-### 4.フォーカス
+データ構造とアルゴリズムを学習しながら、コーディング面接の質問に答え始めます。
 
-貴重な時間を費やす可能性のある注意散漫がたくさんあります。集中と集中が難しい。
+問題を解決するには、学んだことを応用する必要があります。そうしないと忘れてしまいます。私はこの間違いを犯しました。
 
-## カバーされていないもの
+トピックを学習し、**リンク リスト** などにある程度慣れたら:
+1. [コーディング インタビュー ブック](#interview-prep-books)のいずれかを開きます(または、以下にリストされているコーディングに関する問題の Web サイト)
+1. 次の学習トピックに進みます。
+1. その後、戻って別の 2 つまたは 3 つのリンク リストの問題を解きます。
+1. 新しいトピックを学ぶたびにこれを行います。
 
-これらは一般的な技術ですが、この調査計画の一部ではありません：
+**学習後ではなく、学習している間も問題を解き続けてください。**
 
-- [SQL](https://www.scaler.com/topics/sql/)
+あなたは知識のために雇われているのではなく、その知識をどのように応用するかによって雇われているのです。
+
+以下に示すように、これに関する多くのリソースがあります。続けて。
+
+### 4. 集中する
+
+気を散らすものがたくさんあり、貴重な時間が奪われてしまう可能性があります。集中力と集中力は難しいです。歌詞のない音楽をかける
+と、かなり集中できるようになります。
+
+## 取り上げられていないもの
+
+以下は一般的なテクノロジですが、この学習計画には含まれていません:
+
 - Javascript
-- HTML、CSS、およびその他のフロントエンド技術
+- HTML、CSS、およびその他のフロントエンドテクノロジ
+- SQL
 
-## 日々の計画
+## 日次計画
 
-一部の科目は1日を要し、いくつかは複数日を要する。
-いくつかは、何も実装することなく学習しているだけです。
+このコースでは多くの主題について説明します。おそらくそれぞれに数日、場合によっては 1 週間以上かかる場合があります。それはあなたのスケジュール次第です。
 
-毎日私は以下のリストから1つのテーマを取り上げ、そのテーマに関するビデオを見て、以下の実装を書いています：
-- C - struct*と何か他のものをargsとする構造体と関数を使用する。
-- C++ - 組み込み型を使用しない
-- C++ - 連結リストのSTLのstd :: listのような組込み型の使用
-- Python - 組み込み型を使用する(Pythonの練習を続ける)
-- 簡単なassert（）文を使って、時には正しく動作することを保証するテストを書く
-- あなたはJavaや他の何かをするかもしれませんが、これは私のことです。
+毎日、リストの次の主題を取り上げ、その主題に関するビデオをいくつか見てから、
+このコース用に選択した言語でそのデータ構造またはアルゴリズムの実装を作成します。
 
-あなたはこれらのすべてを必要としません。[面接のために必要な言語は1つだけです](面接のための1つの言語を選択します)。
+私のコードはここで見ることができます:
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python]( https://github.com/jwasham/practice-python)
 
-なぜこれらすべてのコード？
-- 私はそれが病気になるまで練習、練習、練習をし、何の問題もありません（忘れてはいけないことがいくつかあります）
-- 生の制約内で作業する(ガベージコレクションの助けを借りずにメモリを割り当てる/解放する(Pythonを除く))
-- 組み込みの型を利用して、実際の使用のために組み込みのツールを使用した経験を持ちます（本番環境で自分のリンクされたリストの実装を書くつもりはありません）
+すべてのアルゴリズムを覚える必要はありません。独自の実装を作成できる程度に理解できれば十分です。
 
-私はすべてのテーマでこれらのすべてをやる時間がないかもしれませんが、私は試してみます。
+## コーディングに関する質問の練習
 
-あなたは私のコードをここに見ることができます：
-- [C](https://github.com/jwasham/practice-c)
-- [C ++](https://github.com/jwasham/practice-cpp)
-- [Python](https://github.com/jwasham/practice-python)
+    なぜこれがここにあるのでしょうか? 面接する準備ができていません。
 
-あなたはすべてのアルゴリズムの内容を暗記する必要はありません。
+[その後、戻ってこれを読んでください。](#3-do-coding-interview-questions-while-youre-learning)
 
-コンピューターではなく、ホワイトボードや紙にコードを書く。いくつかのサンプル入力でテストします。次に、コンピュータでテストします。
+プログラミングの問題を練習する必要がある理由:
+- 問題の認識、および適切なデータ構造とアルゴリズムがどこに適合するか
+- 問題の要件を収集する
+- 面接で行うのと同じように、問題について自分なりに説明する
+- コンピューターではなく、ホワイトボードまたは紙にコーディングする
+- 解決策のための時間と空間の複雑さを考え出す (下記の Big-O を参照)
+- テストあなたの解決策
 
-## 前提知識
+面接で体系的かつコミュニケーション的に問題を解決するための素晴らしい入門書があります。これはプログラミングのインタビュー本からもわかります
+が、私はこれが素晴らしいと思いました:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-- [ ]  **Cを学ぶ**
-	- Cはどこにでもあります。あなたは勉強している間、書籍、講義、ビデオ、*どこにでも*見ることができます。
-	- [ ]  [Cプログラミング言語、Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-		- これは短い本ですが、それはC言語の優れた処理方法を提供します。
-		 少しでも練習すれば、すばやく習得できます。 Cを理解すると、プログラムやメモリの仕組みを理解するのに役立ちます。
-		- [質問への回答](https://github.com/lekkas/c-algorithms)
+コードを紙ではなく、ホワイトボードまたは紙に書きます。コンピューター。いくつかのサンプル入力を使用してテストします。次に、それを入力してコンピュータでテストします。
 
-- [ ]  **コンピュータがプログラムをどのように処理するか：**
-	- [ ]  [CPUがプログラム(ビデオ)をどのように実行するか](https://www.youtube.com/watch?v=42KTvGYQYnA)
-	- [ ]  [マシンコード命令(ビデオ)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+家にホワイトボードがない場合は、画材店で大きな描画パッドを購入してください。ソファに座って練習することもできます。
+こちらは私の「ソファホワイトボード」です。写真ではスケールを調整するためにペンを追加しました。ペンを使っていると、消せたらいいのにと思うでしょう。
+すぐに散らかります。**鉛筆と消しゴムを使用します。**
+
+![my sofa whiteboar](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**コーディングの問題の練習は、プログラミングの問題の答えを覚えることではありません。**
+
+## コーディングの問題
+
+[ここ](#interview-prep-books) の主要なコーディング インタビュー ブックを忘れないでください。
+
+問題の解決:
+- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+
+コーディング インタビューの質問ビデオ:
+- [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - 問題解決策のウォークスルーに最適
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - ソリューションとコードの適切な説明
+    - 短時間で何本も視聴できる
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+
+チャレンジ/練習サイト:
+- [LeetCode](https://leetcode.com/)
+    - 私のお気に入りのコーディングの問題サイト。おそらく準備する 1 ～ 2 か月分の購読料を払う価値があります。
+    - コードのウォークスルーについては、上記の Nick White と FisherCoder のビデオを参照してください。
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Codeforces](https://codeforces.com/)
+- [Codility](https://codility.com/programmers/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [AlgoExpert](https://www.algoexpert.io/product)
+    - Google のエンジニアによって作成されたこれは、スキルを磨くための優れたリソースでもあります。
+- [Project Euler](https://projecteuler.net/)
+    - 非常に数学に重点が置かれており、コーディング面接にはあまり適していません
+
+## 始めましょう
+
+さて、話は十分です、学びましょう！
+
+ただし、学習中に上記のコーディング問題に取り組むことを忘れないでください。
 
 ## アルゴリズムの複雑さ/ Big-O / Asymptotic解析
 - 実装するものは何もない

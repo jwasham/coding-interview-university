@@ -66,17 +66,17 @@
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is my multi-month study plan for becoming a software engineer for a large company. 
+This is my multi-month study plan for becoming a software engineer for a large company.
 
-**Required:** 
+**Required:**
 * A little experience with coding (variables, loops, methods/functions, etc)
 * Patience
 * Time
 
-Note this is a study plan for **software engineering**, not frontend engineering or full-stack development. There are really 
+Note this is a study plan for **software engineering**, not frontend engineering or full-stack development. There are really
 super roadmaps and coursework for those career paths elsewhere (see https://roadmap.sh/ for more info).
 
-There is a lot to learn in a university Computer Science program, but only knowing about 75% is good enough for an interview, so that's what I cover here. 
+There is a lot to learn in a university Computer Science program, but only knowing about 75% is good enough for an interview, so that's what I cover here.
 For a complete CS self-taught program, the resources for my study plan have been included in Kamran Ahmed's Computer Science Roadmap: https://roadmap.sh/computer-science
 
 ---
@@ -258,7 +258,7 @@ Create a new branch so you can check items like this, just put an x in the brack
     ```
     git commit -am "Marked personal progress"
     git pull upstream main  # keep your fork up-to-date with changes from the original repo
-   
+
     git push # just pushes to your fork
     ```
 
@@ -274,13 +274,13 @@ Create a new branch so you can check items like this, just put an x in the brack
 Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
 Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
 
-It would be great to replace the online course resources with free and always-available public sources, 
-such as YouTube videos (preferably university lectures), so that you people can study these anytime, 
+It would be great to replace the online course resources with free and always-available public sources,
+such as YouTube videos (preferably university lectures), so that you people can study these anytime,
 not just when a specific online course is in session.
 
 ## Choose a Programming Language
 
-You'll need to choose a programming language for the coding interviews you do, 
+You'll need to choose a programming language for the coding interviews you do,
 but you'll also need to find a language that you can use to study computer science concepts.
 
 Preferably the language would be the same, so that you only need to be proficient in one.
@@ -289,7 +289,7 @@ Preferably the language would be the same, so that you only need to be proficien
 
 When I did the study plan, I used 2 languages for most of it: C and Python
 
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
+* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures
     and algorithms in your bones. In higher-level languages like Python or Java, these are hidden from you. In day-to-day work, that's terrific,
     but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
@@ -320,13 +320,13 @@ You could also use these, but read around first. There may be caveats:
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: 
+Here is an article I wrote about choosing a language for the interview:
 [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
 This is the original article my post was based on: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
 
 You need to be very comfortable in the language and be knowledgeable.
 
-Read more about choices: 
+Read more about choices:
 - [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
 [See language-specific resources here](programming-language-resources.md)
@@ -340,7 +340,7 @@ Just choose one, in a language that you will be comfortable with. You'll be doin
 ### C
 
 - [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms 
+    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms
 
 ### Python
 
@@ -374,7 +374,7 @@ Your choice:
 
 ## Interview Prep Books
 
-You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough, 
+You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough,
 but I bought more to give myself more practice. But I always do too much.
 
 I bought both of these. They gave me plenty of practice.
@@ -425,15 +425,15 @@ But if you don't want to listen to me, here you go:
 - [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
 - [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. 
+Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics.
 It's way too much for what's required.
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
 your brain.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. 
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms, and has a cloud sync system. 
+An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times.
+It uses a repetition system to help you remember. It's user-friendly, available on all platforms, and has a cloud sync system.
 It costs $25 on iOS but is free on other platforms.
 
 My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
@@ -446,14 +446,14 @@ THIS IS VERY IMPORTANT.
 
 Start doing coding interview questions while you're learning data structures and algorithms.
 
-You need to apply what you're learning to solve problems, or you'll forget. I made this mistake. 
+You need to apply what you're learning to solve problems, or you'll forget. I made this mistake.
 
 Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
-1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below) 
-1. Do 2 or 3 questions regarding linked lists. 
+1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below)
+1. Do 2 or 3 questions regarding linked lists.
 1. Move on to the next learning topic.
 1. Later, go back and do another 2 or 3 linked list problems.
-1. Do this with each new topic you learn. 
+1. Do this with each new topic you learn.
 
 **Keep doing problems while you're learning all this stuff, not after.**
 
@@ -478,7 +478,7 @@ These are prevalent technologies but not part of this study plan:
 
 This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
 
-Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation 
+Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation
 of that data structure or algorithm in the language you chose for this course.
 
 You can see my code here:
@@ -508,8 +508,8 @@ interview books, too, but I found this outstanding:
 
 Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
 
-If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice. 
-This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase. 
+If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice.
+This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase.
 Gets messy quickly. **I use a pencil and eraser.**
 
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
@@ -571,9 +571,9 @@ But don't forget to do coding problems from above while you learn!
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 - [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
-Well, that's about enough of that. 
+Well, that's about enough of that.
 
-When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see 
+When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see
 if you can identify the runtime complexity of different algorithms. It's a super review and test.
 
 ## Data Structures
@@ -760,7 +760,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
+    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
@@ -973,11 +973,11 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
     - [ ] [5 Simple Steps for Solving Any Recursive Problem(video)](https://youtu.be/ngCos392W4w)
-	
+
 	Backtracking Blueprint: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
 	[Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
 - ### Dynamic Programming
-    - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a 
+    - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a
     problem as being a candidate for dynamic programming.
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
@@ -1209,7 +1209,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 ## Update Your Resume
 
 - See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
-- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
+- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume),
     - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
 - ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
@@ -1295,7 +1295,7 @@ You're never really done.
     Everything below this point is optional. It is NOT needed for an entry-level interview.
     However, by studying these, you'll get greater exposure to more CS concepts and will be better prepared for
     any software engineering job. You'll be a much more well-rounded software engineer.
-    
+
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1781,7 +1781,7 @@ You're never really done.
     above because it's just too much. It's easy to overdo it on a subject.
     You want to get hired in this century, right?
 
-- **SOLID**   
+- **SOLID**
     - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
     - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
         - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)

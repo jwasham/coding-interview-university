@@ -122,7 +122,7 @@ For a complete CS self-taught program, the resources for my study plan have been
     - insertion
     - heapsort
     - quicksort
-    - merge sort
+    - mergesort
 - [Graphs](#graphs)
     - directed
     - undirected
@@ -711,7 +711,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
+        - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:

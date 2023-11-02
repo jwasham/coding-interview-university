@@ -84,7 +84,7 @@
 - [アルゴリズムの複雑さ/ Big-O / Asymptotic解析](#アルゴリズムの複雑さ-big-o--asymptotic解析)
 - [データ構造](#データ構造)
 - [その他の知識](#その他の知識)
-- [木](#木)
+- [ツリー](#ツリー)
 - [ソート](#ソート)
 - [グラフ](#グラフ)
 - [さらに多くの知識](#さらに多くの知識)
@@ -623,38 +623,34 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [ ]  絶対値：
 		- [絶対整数](http://bits.stephan-brumme.com/absInteger.html)
 
-## 木
+## ツリー
 
-- ### 木 - メモと背景
-	- [ ]  [シリーズ：Core Trees(動画)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-	- [ ]  [シリーズ：木々(動画)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-	- 基本的な木の構築
-	- トラバーサル
-	- 操作アルゴリズム
-	- BFS(幅優先検索)
-		- [MIT(動画)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-		- メモ：
-			- レベルオーダー(BFS、キューを使用)
-			- 時間複雑度：O(n)
-			- 空間の複雑さ：最適：O(1)、最悪：O(n / 2)= O(n)
-	- DFS(深さ優先探索)
-		- [MIT(動画)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-		- メモ：
-			- 時間複雑度：O(n)
-			- 空間の複雑さ：最良：O(log n) - 平均。木の高さ 最悪：O(n)
-			- inorder(DFS：left、self、right)
-			- postorder(DFS：left、right、self)
-			- preorder(DFS：自己、左、右)
-    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
-    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
-    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
+- ### ツリー - メモと背景
+	- [ ] [ツリーの紹介 (動画)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+	- [ ] [ツリートラバーサル (動画)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
+	- [ ] [BFS (幅優先検索) および DFS (深さ優先検索) (動画)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+		- BFS のメモ:
+				- レベル順序 (BFS、キューを使用)
+				- 時間計算量: O(n)
+				- 空間の複雑さ: 最良: O(1)、最悪: O(n/2)=O(n)
+		- DFS のメモ:
+				- 時間計算量: O(n)
+				- 空間複雑さ: 最良: O(log n)
+				- 平均 最高の木の高さ: O(n)
+						best: O(log n)
+				- 平均 最低の木の高さ: O(n)
+						worst: O(n)
+				- 順序 (DFS: 左、自分、右)
+				- 事後順序 (DFS: 左、右、自己)
+				- 予約注文 (DFS: 自分、左、右)
+	- [ ] [【復習】4分でわかる幅優先検索（動画）](https://youtu.be/HZ5YTanv5QE)
+	- [ ] [【復習】4分で深さ優先検索（動画）](https://youtu.be/Urx87-NMm6c)
+	- [ ] [【復習】11 分でわかるツリー トラバーサル (プレイリスト) (動画)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### 二分探索木：BST
-	- [ ]  [二分探索木レビュー(動画)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-	- [ ]  [シリーズ(動画)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-		- シンボルテーブルから始まり、BSTアプリケーションを経由します
-	- [ ]  [はじめに(動画)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-	- [ ]  [MIT(動画)](https://www.youtube.com/watch?v=9Jry5-82I68)
+	- [ ] [二分探索木の復習 (動画)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+	- [ ] [はじめに（動画）](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+	- [ ] [MIT (動画)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
 	- C / C ++：
 		- [ ]  [二分探索木 - C / C ++での実装(動画)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
 		- [ ]  [BSTの実装 - スタックとヒープのメモリ割り当て(動画)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
@@ -667,15 +663,15 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 		- [ ]  [二分探索木(動画)からノードを削除](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
 		- [ ]  [二分探索木(動画)のInorder Successor](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 	- [ ] 実装：
-		- [ ]  insert //木に値を挿入する
+		- [ ]   [insert // ツリーに値を挿入します](https://leetcode.com/problems/insert-into-a-binary-search-tree/submissions/987660183/)
 		- [ ]  get_node_count //格納された値の数を取得する
 		- [ ]  print_values //最小値から最大値まで木の値を出力します
 		- [ ]  delete_tree
 		- [ ]  is_in_tree //与えられた値が木に存在する場合はtrueを返します
-		- [ ]  get_height //ノードの高さを返します(単一ノードの高さは1です)
+		- [ ]   [get_height // ノード単位の高さを返します (単一ノードの高さは 1)](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
 		- [ ]  get_min //木に格納されている最小値を返します
 		- [ ]  get_max //木に格納されている最大値を返します
-		- [ ]  is_binary_search_tree
+		- [ ]  [is_binary_search_tree](https://leetcode.com/problems/validate-binary-search-tree/)
 		- [ ]  delete_value
 		- [ ]  get_successor //指定された値の後に木の次に高い値を返し、存在しなければ-1を返します
 
@@ -683,7 +679,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- 木として可視化されますが、通常はストレージ内で線形です(配列、連結リスト)
 	- [ ]  [ヒープ](https://en.wikipedia.org/wiki/Heap_(data_structure))
 	- [ ]  [はじめに(動画)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-	- [ ]  [ナイーブな実装(video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+	- [ ]  [ナイーブな実装(動画)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
 	- [ ]  [二分木(動画)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
 	- [ ]  [木の高さ備考(動画)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
 	- [ ]  [基本的な操作(動画)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
@@ -694,8 +690,8 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [ ]  [ヒープを作る(動画)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
 	- [ ]  [MIT：ヒープとヒープソート(動画)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 	- [ ]  [CS 61B講義24：優先度つきキュー(動画)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
-	- [ ]  [線形時間BuildHeap(max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
+	- [ ]  [線形時間ビルドヒープ (最大ヒープ)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [【復習】13分でヒープ（プレイリスト）（動画）](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
 	- [ ] 最大ヒープを実装する：
 		- [ ] insert
 		- [ ]  sift_up - 挿入に必要
@@ -706,14 +702,13 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 		- [ ]  sift_down - extract_maxに必要です
 		- [ ]  remove(x) - インデックスxのアイテムを削除する
 		- [ ]  heapify - heap_sortに必要な要素の配列からヒープを作成する
-		- [ ]  heap_sort() - ソートされていない配列を取り出し、最大ヒープを使用してソート済みの配列に変換します
-			- 注意：代わりにminヒープを使用すると、操作が節約されますが、必要な領域が2倍になります([in-place](https://ja.wikipedia.org/wiki/In-place%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)では実行できません)。
+		- [ ]  heap_sort() - ソートされていない配列を取得し、最大ヒープまたは最小ヒープを使用してその場でソートされた配列に変換します。
 
 ## ソート
 
-- [ ]  note：
+- [ ]  ノート：
 	- ソートを実装し、最良のケース/最悪のケース、それぞれの平均的な複雑さを知る：
-		- バブルソートなし - ひどい - O(n ^ 2)、ただしn <= 16の場合を除く
+		- バブルソートなし - ひどいです - O(n^2) (n <= 16 の場合を除く)
 	- ソートアルゴリズムの安定性( "Quicksortは安定していますか？")
 		- [ソートアルゴリズムの安定性](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
 		- [ソートアルゴリズムの安定性](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
@@ -725,6 +720,26 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 - ヒープソートについては、上記のヒープデータ構造を参照してください。ヒープソートは素晴らしいですが、安定していません。
 
+- [ ] [セッジウィック - マージソート (5動画)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+	- [ ] [1. マージソート](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+	- [ ] [2. ボトムアップ マージソート](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+	- [ ] [3. 並べ替えの複雑さ](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+	- [ ] [4. コンパレーター](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+	- [ ] [5. 安定性](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+
+- [ ] [セッジウィック - クイックソート (4動画)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+	- [ ] [1. クイックソート](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+	- [ ] [2. セレクション](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+	- [ ] [3. 重複キー](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+	- [ ] [4. システムソート](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
+
+- [ ] カリフォルニア大学バークレー校:
+	- [ ] [CS 61B 講義 29: 並べ替え I (動画)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
+	- [ ] [CS 61B 講義 30: 並べ替え II (動画)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
+	- [ ] [CS 61B 講義 32: 分類 III (動画)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
+	- [ ] [CS 61B レクチャー 33: 並べ替え V (動画)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
+	- [ ] [CS 61B 2014-04-21: 基数ソート (動画)](https://archive.org/details/ucberkeley_webcast_pvbBMd-3NoI)
+
 - [ ]  [バブルソート(動画)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ]  [バブルソートの分析(動画)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
 - [ ]  [挿入ソート、マージソート(動画)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -733,45 +748,48 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - [ ]  [クイックソート(動画)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ]  [選択ソート(動画)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] マージソートコード：
-	- [ ]  [出力配列(C)の使用](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
-	- [ ]  [出力配列(Python)の使用](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
-	- [ ]  [インプレース(C ++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] クイックソートコード：
-	- [ ]  [Implementation(C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
-	- [ ]  [実装(C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-	- [ ]  [実装(Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+- [ ] ソート コードを結合:
+	- [ ] [出力配列 (C) の使用](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
+	- [ ] [出力配列の使用 (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
+	- [ ] [インプレース (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
+- [ ] クイックソートコード:
+	- [ ] [実装 (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
+	- [ ] [実装 (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
+	- [ ] [実装 (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
-    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
-    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
-    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
-    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
-    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
-    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
-- [ ] 実装：
-	- [ ]  Mergesort：O(n log n)平均と最悪の場合
-	- [ ]  Quicksort O(n log n)平均の場合
-	- 選択ソートと挿入ソートは両方ともO(n ^ 2)の平均と最悪の場合です
-	- ヒープソートについては、上記のヒープデータ構造を参照してください。
+- [ ] [【復習】18分で分かるソート(プレイリスト](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+	- [ ] [4 分で簡単ソート (動画)](https://youtu.be/Hoixgm4-P4M)
+	- [ ] [4 分でヒープソート (動画)](https://youtu.be/2DmK_H7IdTo)
+	- [ ] [3 分で並べ替えをマージする (動画)](https://youtu.be/4VqmGXwpLqc)
+	- [ ] [2 分でわかるバブルソート (動画)](https://youtu.be/xli_FI7CuzA)
+	- [ ] [3分でわかる選択ソート(動画)](https://youtu.be/g-PGLbMth_g)
+	- [ ] [2分で挿入ソート(動画)](https://youtu.be/JU767SDMDvA)
 
-- [ ] 必須ではありませんが、私はそれらをお勧めしました：
-	- [ ]  [Sedgewick - 基数ソート(6 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-		- [ ]  [1. Javaの文字列](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
-		- [ ]  [2. キーインデックスのカウント](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
-		- [ ]  [3. 最下位桁の最初の文字列の基数ソート](https://www.youtube.com/watch?v=2pGVq_BwPKs&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=4)
-		- [ ]  [4. 最も重要な数字の最初の文字列の基数ソート](https://www.youtube.com/watch?v=M3cYNY90R6c&index=3&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-		- [ ]  [5. 基数ソートの3つの方法](https://www.youtube.com/watch?v=YVl58kfE6i8&index=2&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-		- [ ]  [6。接尾辞配列](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1)
-	- [ ]  [基数ソート](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
-	- [ ]  [基数ソート(動画)](https://www.youtube.com/watch?v=xhr26ia4k38)
-	- [ ]  [基数ソート、ソート(線形時間指定の制約)(動画)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-	- [ ]  [ランダム化：行列乗算、クイックソート、Freivaldsのアルゴリズム(動画)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-	- [ ]  [線形時間で並べ替える(動画)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
 
-まとめとして、ここには[15ソートアルゴリズム](https://www.youtube.com/watch?v=kPRA0W1kECg)の視覚的表現があります。
-このテーマの詳細が必要な場合は、[いくつかの科目の追加の詳細]の[ソート]の項を参照してください(#additional-detail-on-some-subjects)
+- [ ] 実装
+	- [ ] マージソート: O(n log n) 平均および最悪の場合
+	- [ ] クイックソート O(n log n) の平均ケース
+	- 選択ソートと挿入ソートは両方とも O(n^2) 平均および最悪の場合です
+	- ヒープソートについては、上記のヒープ データ構造を参照してください。
+
+- [ ] 必須ではありませんが、お勧めします:
+	- [ ] [Sedgewick - 基数ソート (6動画)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
+		- [ ] [1. Java の文字列](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+		- [ ] [2. キーのインデックス付きカウント](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+		- [ ] [3. 最下位桁の最初の文字列基数ソート](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
+		- [ ] [4. 最上位桁の最初の文字列基数ソート](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+		- [ ] [5. 3 ウェイ基数クイックソート](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+		- [ ] [6. サフィックス配列](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+	- [ ] [基数ソート](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
+	- [ ] [基数ソート (動画)](https://www.youtube.com/watch?v=xhr26ia4k38)
+	- [ ] [基数ソート、カウンティング ソート (線形時間指定制約) (動画)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+	- [ ] [ランダム化: 行列乗算、クイックソート、フライヴァルドのアルゴリズム (動画)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+	- [ ] [線形時間でのソート (動画)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
+
+概要として、[15のソートアルゴリズム](https://www.youtube.com/watch?v=kPRA0W1kECg) を視覚的に表したものを次に示します。
+この主題についてさらに詳細が必要な場合は、[一部の主題に関する追加の詳細](#一部の主題に関する追加の詳細) の「並べ替え」セクションを参照してください。
+
 
 ## グラフ
 

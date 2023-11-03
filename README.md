@@ -246,7 +246,7 @@ Create a new branch so you can check items like this, just put an x in the brack
 
 1. Clone to your local repo:
 
-    ```
+    ```bash
     git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
     cd coding-interview-university
     git remote add upstream https://github.com/jwasham/coding-interview-university.git
@@ -255,7 +255,7 @@ Create a new branch so you can check items like this, just put an x in the brack
 
 1. Mark all boxes with X after you completed your changes:
 
-    ```
+    ```bash
     git commit -am "Marked personal progress"
     git pull upstream main  # keep your fork up-to-date with changes from the original repo
 

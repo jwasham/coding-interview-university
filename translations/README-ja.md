@@ -81,27 +81,51 @@
 
 ### 研究のテーマ
 
-- [アルゴリズムの複雑さ/ Big-O / Asymptotic解析](#アルゴリズムの複雑さ-big-o--asymptotic解析)
+- [アルゴリズムの複雑さ / Big-O / 漸近分析](#アルゴリズムの複雑さ/Big-O/漸近分析)
 - [データ構造](#データ構造)
+	- [配列](#配列)
+	- [連結リスト](#連結リスト)
+	- [スタック](#スタック)
+	- [キュー](#キュー)
+	- [ハッシュテーブル](#ハッシュテーブル)
 - [その他の知識](#その他の知識)
+	- [二分探索](#二分探索)
+	- [ビット演算](#ビット演算)
 - [ツリー](#ツリー)
+	- [ツリーとは](#ツリーとは)
+	- [二分探索木：BST](#二分探索木：BST)
+	- [ヒープ/優先度つきキュー/二分ヒープ](#ヒープ/優先度つきキュー/二分ヒープ)
+	- バランスの取れた検索ツリー (詳細ではなく一般的な概念)
+	- トラバーサル: プレオーダー、インオーダー、 postorder、BFS、DFS
 - [ソート](#ソート)
+	- 選択
+	- 挿入
+	- ヒープソート
+	- クイック
+	ソート - マージソート
 - [グラフ](#グラフ)
+	- 有向
+	- 無向
+	- 隣接行列
+	- 隣接リスト
+	- 走査: BFS、DFS
 - [さらに多くの知識](#さらに多くの知識)
-- [システム設計、スケーラビリティ、データ処理](#システム設計スケーラビリティデータ処理)
+	- [再帰](#再帰)
+	- [動的プログラミング](#動的プログラミング)
+	- [デザインパターン](#デザインパターン)
+	- [組み合わせ論(nからkを選択)と確率](#組み合わせ論(nからkを選択)と確率)
+	- [NP、NP-完全/近似アルゴリズム](#NP、NP-完全/近似アルゴリズム)
+	- [コンピューターがプログラムを処理する仕組み](#コンピューターがプログラムを処理する仕組み)
+	- [キャッシュ](#キャッシュ)
+	- [プロセスとスレッド](#プロセスとスレッド)
+	- [テスト](#テスト)
+	- [文字列の検索と操作](#文字列の検索と操作)
+	- [トライ](#トライ)
+	- [浮動小数点数](#浮動小数点数)
+	- [Unicode](#unicode)
+	- [エンディアン](#エンディアン)
+	- [ネットワーキング](#ネットワーキング)
 - [最終レビュー](#最終レビュー)
-- [コーディングの質問練習](#コーディングの質問練習)
-- [コード演習/挑戦](#コード演習挑戦)
-- [面接に近づいたら](#面接に近づいたら)
-- [あなたの履歴書](#あなたの履歴書)
-- [面接が来たときに考えてください](#面接が来たときに考えてください)
-- [面接官に質問があります](#面接官に質問があります)
-- [一度あなたは仕事を得た](#一度あなたは仕事を得た)
-- [その他の書籍](#その他の書籍)
-- [その他の学習](#その他の学習)
-- [追加科目の詳細](#追加科目の詳細)
-- [ビデオシリーズ](#ビデオシリーズ)
-- [コンピュータサイエンスコース](#コンピュータサイエンスコース)
 
 ## なぜこれを使用するのか
 
@@ -140,11 +164,11 @@
 
 1. **_GitHub リポジトリ:_** `https://github.com/jwasham/coding-interview-university` をフォーク ボタンをクリックしてフォークします。
 
-   ![GitHub リポジトリをフォークする](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
+	![GitHub リポジトリをフォークする](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
 1. ローカル リポジトリにクローンを作成します。
 
-   ```
+   ```bash
    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
    cd coding-interview-university
    git remote add upstream https://github.com/jwasham/coding-interview-university.git
@@ -153,7 +177,7 @@
 
 1. 変更を完了したら、すべてのボックスに X を付けます。
 
-   ```
+   ```bash
    git commit -am "Marked personal progress"
    git pull upstream main  # 元のレポからの変更でフォークを最新に保つ
 
@@ -378,7 +402,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 ## コーディングに関する質問の練習
 
-    なぜこれがここにあるのでしょうか? 面接する準備ができていません。
+  なぜこれがここにあるのでしょうか? 面接する準備ができていません。
 
 [その後、戻ってこれを読んでください。](#学習中にコーディング面接の質問をする)
 
@@ -441,7 +465,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 ただし、学習中に上記のコーディング問題に取り組むことを忘れないでください。
 
-## アルゴリズムの複雑さ/ Big-O / Asymptotic解析
+## アルゴリズムの複雑さ/Big-O/漸近分析
 
 - ここでは何も実装する必要はありません。ビデオを見てメモを取るだけです。わーい！
 - ここにはたくさんのビデオがあります。理解できるまで十分に見てください。いつでも戻ってレビューすることができます。
@@ -454,8 +478,8 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - [ ] [カリフォルニア大学バークレー校ビッグオー (動画)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [償却分析 (動画)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] TopCoder (漸化式とマスター定理を含む):
-    - [計算の複雑さ: セクション 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
-    - [計算の複雑さ: セクション 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
+	- [計算の複雑さ: セクション 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+	- [計算の複雑さ: セクション 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ]  [チートシート](http://bigocheatsheet.com/)
 - [ ] [【復習】5分でわかるBig-O記譜法（動画）](https://youtu.be/__vX2sjlpXU)
 
@@ -467,37 +491,37 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 ## データ構造
 
 - ### 配列
-    - [ ] 配列について:
-    	- [アレイ CS50 ハーバード大学](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-        - [配列 (動画)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (動画) (15 分 32 秒から視聴開始)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [動的配列 (動画)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        - [ギザギザ配列 (動画)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] ベクトルを実装します (自動サイズ変更を備えた可変配列):
-        - [ ] 配列とポインターを使用したコーディングと、インデックスを使用する代わりにインデックスにジャンプするポインターの計算を練習します。
-        - [ ] メモリが割り当てられた新しい生データ配列
-            - 内部で int 配列を割り当てることができますが、その機能は使用できません
-            - 16 から開始するか、開始番号がそれより大きい場合は、2 のべき乗 - 16、32、64、128 を使用します。
-        - [ ] size() - アイテムの数
-        - [ ] Capacity() - 保持できるアイテムの数
-        - [ ] is_empty()
-        - [ ] at(index) - 指定されたインデックスにある項目を返します。インデックスが範囲外の場合は爆発します。
-        - [ ] プッシュ(アイテム)
-        - [ ] insert(index, item) - インデックスに項目を挿入し、そのインデックスの値と末尾の要素を右にシフトします
-        - [ ] prepend(item) - インデックス 0 の上に挿入を使用できます
-        - [ ] Pop() - 末尾から削除し、値を返します
-        - [ ] delete(index) - インデックスにある項目を削除し、末尾の要素をすべて左にシフトします
-        - [ ]remove(item) - 値を検索し、それを保持するインデックスを削除します (複数の場所にある場合でも)
-        - [ ] find(item) - 値を検索し、その値を持つ最初のインデックスを返します。見つからない場合は -1 を返します。
-        - [ ]size(new_capacity) // プライベート関数
-            - 容量に達したら、サイズを 2 倍に変更します
-            - アイテムをポップするとき、サイズが容量の 1/4 の場合、サイズを半分に変更します
-    - [ ] 時間
-        - O(1) は、最後に追加/削除 (より多くの領域の割り当てのために償却)、インデックス付け、または更新を行います。
-        - O(n) は他の場所に挿入/削除します
-    - [ ] 空間
-        - メモリ内で連続しているため、近接性によりパフォーマンスが向上します
-        - 必要なスペース = (配列の容量、>= n) * 項目のサイズ、ただし 2n であっても O(n)
+	- [ ] 配列について:
+		- [アレイ CS50 ハーバード大学](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+			- [配列 (動画)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+			- [UC Berkeley CS61B - Linear and Multi-Dim Arrays (動画) (15 分 32 秒から視聴開始)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+			- [動的配列 (動画)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+			- [ギザギザ配列 (動画)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+	- [ ] ベクトルを実装します (自動サイズ変更を備えた可変配列):
+		- [ ] 配列とポインターを使用したコーディングと、インデックスを使用する代わりにインデックスにジャンプするポインターの計算を練習します。
+		- [ ] メモリが割り当てられた新しい生データ配列
+			- 内部で int 配列を割り当てることができますが、その機能は使用できません
+			- 16 から開始するか、開始番号がそれより大きい場合は、2 のべき乗 - 16、32、64、128 を使用します。
+		- [ ] size() - アイテムの数
+		- [ ] Capacity() - 保持できるアイテムの数
+		- [ ] is_empty()
+		- [ ] at(index) - 指定されたインデックスにある項目を返します。インデックスが範囲外の場合は爆発します。
+		- [ ] プッシュ(アイテム)
+		- [ ] insert(index, item) - インデックスに項目を挿入し、そのインデックスの値と末尾の要素を右にシフトします
+		- [ ] prepend(item) - インデックス 0 の上に挿入を使用できます
+		- [ ] Pop() - 末尾から削除し、値を返します
+		- [ ] delete(index) - インデックスにある項目を削除し、末尾の要素をすべて左にシフトします
+		- [ ]remove(item) - 値を検索し、それを保持するインデックスを削除します (複数の場所にある場合でも)
+		- [ ] find(item) - 値を検索し、その値を持つ最初のインデックスを返します。見つからない場合は -1 を返します。
+		- [ ]size(new_capacity) // プライベート関数
+			- 容量に達したら、サイズを 2 倍に変更します
+			- アイテムをポップするとき、サイズが容量の 1/4 の場合、サイズを半分に変更します
+	- [ ] 時間
+		- O(1) は、最後に追加/削除 (より多くの領域の割り当てのために償却)、インデックス付け、または更新を行います。
+		- O(n) は他の場所に挿入/削除します
+	- [ ] 空間
+		- メモリ内で連続しているため、近接性によりパフォーマンスが向上します
+		- 必要なスペース = (配列の容量、>= n) * 項目のサイズ、ただし 2n であっても O(n)
 
 - ### 連結リスト
 	- [ ] 説明：
@@ -625,24 +649,24 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 ## ツリー
 
-- ### ツリー - メモと背景
+- ### ツリーとは
 	- [ ] [ツリーの紹介 (動画)](https://www.coursera.org/lecture/data-structures/trees-95qda)
 	- [ ] [ツリートラバーサル (動画)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
 	- [ ] [BFS (幅優先検索) および DFS (深さ優先検索) (動画)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
 		- BFS のメモ:
-				- レベル順序 (BFS、キューを使用)
-				- 時間計算量: O(n)
-				- 空間の複雑さ: 最良: O(1)、最悪: O(n/2)=O(n)
+			- レベル順序 (BFS、キューを使用)
+			- 時間計算量: O(n)
+			- 空間の複雑さ: 最良: O(1)、最悪: O(n/2)=O(n)
 		- DFS のメモ:
-				- 時間計算量: O(n)
-				- 空間複雑さ: 最良: O(log n)
-				- 平均 最高の木の高さ: O(n)
-						best: O(log n)
-				- 平均 最低の木の高さ: O(n)
-						worst: O(n)
-				- 順序 (DFS: 左、自分、右)
-				- 事後順序 (DFS: 左、右、自己)
-				- 予約注文 (DFS: 自分、左、右)
+			- 時間計算量: O(n)
+			- 空間複雑さ: 最良: O(log n)
+			- 平均 最高の木の高さ: O(n)
+					best: O(log n)
+			- 平均 最低の木の高さ: O(n)
+					worst: O(n)
+			- 順序 (DFS: 左、自分、右)
+			- 事後順序 (DFS: 左、右、自己)
+			- 予約注文 (DFS: 自分、左、右)
 	- [ ] [【復習】4分でわかる幅優先検索（動画）](https://youtu.be/HZ5YTanv5QE)
 	- [ ] [【復習】4分で深さ優先検索（動画）](https://youtu.be/Urx87-NMm6c)
 	- [ ] [【復習】11 分でわかるツリー トラバーサル (プレイリスト) (動画)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
@@ -793,55 +817,57 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 ## グラフ
 
-グラフはコンピュータサイエンスの多くの問題を表現するために使用することができるので、このセクションは木やソートのように長いです。
+グラフはコンピューター サイエンスの多くの問題を表すために使用できるため、このセクションはツリーや並べ替えと同様に長くなります。
 
-- メモ：
-	- メモリにグラフを表示するには4つの基本的な方法があります：
+- ノート：
+	- メモリ内でグラフを表現するには 4 つの基本的な方法があります。
 		- オブジェクトとポインタ
 		- 隣接行列
 		- 隣接リスト
 		- 隣接マップ
-	- それぞれの表現とその長所と短所を熟知してください
-	- BFSとDFS - 計算の複雑さとそのトレードオフ、そしてそれらを実際のコードに実装する方法を知っている
-	- 質問が表示されたら、まずグラフベースのソリューションを探し、それがなければ進んでください。
+	- それぞれの表現とその長所と短所をよく理解する
+	- BFS と DFS - 計算の複雑さ、トレードオフ、および実際のコードでの実装方法を理解しています。
+	- 質問されたら、まずグラフベースの解決策を探し、見つからない場合は次に進みます。
 
-- [ ]  Skiena Lectures - 素晴らしいイントロ：
-	- [ ]  [CSE373 2012 - 講義11 - グラフデータ構造(動画)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
-	- [ ]  [CSE373 2012 - 講義12 - 幅優先検索(動画)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
-	- [ ]  [CSE373 2012 - 講義13 - グラフアルゴリズム(動画)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
-	- [ ]  [CSE373 2012 - 講義14 - グラフアルゴリズム(1)(動画)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-	- [ ]  [CSE373 2012 - 講義15 - グラフアルゴリズム(2)(動画)(動画)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-	- [ ]  [CSE373 2012 - 講義16 - グラフアルゴリズム(3)(動画)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+- [ ] MIT(ビデオ):
+	- [ ] [幅優先検索](https://www.youtube.com/watch?v=oFVYVzlvk9c&t=14s&ab_channel=MITOpenCourseWare)
+	- [ ] [深さ優先検索](https://www.youtube.com/watch?v=IBfWDYSffUU&t=32s&ab_channel=MITOpenCourseWare)
 
-- [ ] グラフ(レビューなど)：
+- [ ] スキエナ講義 - 素晴らしい導入部:
+	- [ ] [CSE373 2020 - レクチャー 10 - グラフ データ構造 (動画)](https://www.youtube.com/watch?v=Sjk0xqWWPCc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=10)
+	- [ ] [CSE373 2020 - レクチャー 11 - グラフ トラバーサル (動画)](https://www.youtube.com/watch?v=ZTwjXj81NVY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=11)
+	- [ ] [CSE373 2020 - レクチャー 12 - 深さ優先検索 (動画)](https://www.youtube.com/watch?v=KyordYB3BOs&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=12)
+	- [ ] [CSE373 2020 - レクチャー 13 - 最小スパニング ツリー (動画)](https://www.youtube.com/watch?v=oolm2VnJUKw&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=13)
+	- [ ] [CSE373 2020 - レクチャー 14 - 最小スパニング ツリー (続き) (動画)](https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14)
+	- [ ] [CSE373 2020 - レクチャー 15 - グラフ アルゴリズム (続き 2) (動画)](https://www.youtube.com/watch?v=MUe5DXRhyAo&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=15)
 
-	- [ ]  [6.006単一始点最短経路問題(動画)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-	- [ ]  [6.006 ダイクストラ(動画)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-	- [ ]  [6.006 ベルマン-フォード法(動画)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
-	- [ ]  [6.006 ダイクストラ法のスピードアップ(動画)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
-	- [ ]  [Aduni：グラフアルゴリズムI - トポロジカルソート、最小スパニング木、プリムのアルゴリズム - 講演6(動画)](https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-	- [Aduni：グラフアルゴリズムII - DFS、BFS、クラスカル法のアルゴリズム、連合探索データ構造 - 講義7(動画)](https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7 )
-	- [Aduni：グラフアルゴリズムIII：最短経路 - レクチャー8(動画)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
-	- [ ]  [Aduni：グラフアルゴリズムIV：幾何学アルゴリズムの紹介 - 第9講(動画)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
-	- [ ]  [CS 61B 2014(58:09から開始)(動画)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
-	- [ ]  [CS 61B 2014：加重グラフ(動画)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
-	- [ ]  [欲張りアルゴリズム：最小スパニング木(動画)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-	- [ ]  [強固に接続されたコサラジュのアルゴリズムグラフアルゴリズム(動画)](https://www.youtube.com/watch?v=RpgcYiky7uw)
-    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
-    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
+- [ ] グラフ (レビューなど):
+	- [ ] [6.006 単一ソース最短パス問題 (動画)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+	- [ ] [6.006 ダイクストラ (動画)](https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare)
+	- [ ] [6.006 ベルマン-フォード (動画)](https://www.youtube.com/watch?v=f9cVS_URPc0&ab_channel=MITOpenCourseWare)
+	- [ ] [6.006 ディクストラの高速化 (動画)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
+	- [ ] [Aduni: グラフ アルゴリズム I - トポロジカル ソート、最小スパニング ツリー、プリムのアルゴリズム - 講義 6 (動画)](https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+	- [ ] [Aduni: グラフ アルゴリズム II - DFS、BFS、クラスカルのアルゴリズム、Union Find データ構造 - 講義 7 (動画)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7 )
+	- [ ] [Aduni: グラフ アルゴリズム III: 最短パス - レクチャー 8 (動画)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
+	- [ ] [Aduni: グラフ Alg. IV: 幾何学的アルゴリズムの概要 - レクチャー 9 (動画)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
+	- [ ] [CS 61B 2014: 加重グラフ (動画)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
+	- [ ] [貪欲なアルゴリズム: 最小スパニング ツリー (動画)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+	- [ ] [強結合コンポーネント コサラジュのアルゴリズム グラフ アルゴリズム (動画)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+	- [ ] [[復習] 16 分でわかる最短経路アルゴリズム (プレイリスト) (動画)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+	- [ ] [[復習] 4 分でわかる最小スパニング ツリー (プレイリスト) (動画)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - フルcourseraコース：
 	- [ ]  [グラフのアルゴリズム(動画)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- 私は実装します：
-	- [ ] 隣接リストを持つDFS(再帰的)
-	- [ ] 隣接リストを持つDFS(スタックで反復)
-	- [ ] 隣接行列を持つDFS(再帰的)
-	- [ ] 隣接行列を持つDFS(スタックで反復)
-	- [ ]  隣接リストを持つBFS
-	- [ ] 隣接行列を持つBFS
-	- [ ] 単一始点の最短経路(ダイクストラ)
-	- [ ] 最小スパニング木
+- 次のことを実装します。
+	- [ ] 隣接リストを含む DFS (再帰的)
+	- [ ] 隣接リストを使用した DFS (スタックによる反復)
+	- [ ] 隣接行列を使用した DFS (再帰的)
+	- [ ] 隣接行列を使用した DFS (スタックによる反復)
+	- [ ] 隣接リストを含む BFS
+	- [ ] 隣接マトリックスを使用した BFS
+	- [ ] 単一ソースの最短パス (ダイクストラ)
+	- [ ] 最小スパニングツリー
 	- DFSベースのアルゴリズム(上記のAduniの動画を参照)：
 		- [ ] サイクルをチェックする(トポロジカルソートに必要．開始前にサイクルをチェックする)
 		- [ ] トポロジカルソート
@@ -849,36 +875,36 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 		- [ ] 強く接続されたコンポーネントを一覧表示する
 		- [ ] 二部グラフをチェックする
 
-Skienaの本(下記の書籍の節を参照)と面接の書籍
-
 ## さらに多くの知識
 
 - ### 再帰
-	- [ ] 再帰とバックトラックに関するスタンフォードの講義：
-		- [ ]  [講義8 |プログラミングの抽象化(動画)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-		- [ ]  [講義9 |プログラミングの抽象化(動画)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-		- [ ]  [講義10 |プログラミングの抽象化(動画)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-		- [ ]  [講義11 |プログラミングの抽象化(動画)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-	- それを使用するのが適切なとき
-	- 尾の再帰はどのように優れていないのですか？
-		- [ ]  [テール再帰とは何かなぜそれが悪いのですか？](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-		- [ ]  [テール再帰(動画)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+	- [ ] 再帰とバックトラッキングに関するスタンフォードの講義:
+		- [ ] [講義 8 | プログラミングの抽象化 (動画)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+		- [ ] [講義 9 | プログラミングの抽象化 (動画)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+		- [ ] [講義 10 | プログラミングの抽象化 (動画)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+		- [ ] [講義 11 | プログラミングの抽象化 (動画)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+	- いつ使用するのが適切ですか?
+	- 末尾再帰をしない場合と比べて、どのような点が優れているのでしょうか?
+		- [ ] [末尾再帰とは何ですか、なぜそれほど悪いのですか?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+		- [ ] [末尾再帰 (動画)](https://www.coursera.org/lecture/programming-langages/tail-recursion-YZic1)
+	- [ ] [再帰的問題を解決するための 5 つの簡単なステップ (動画)](https://youtu.be/ngCos392W4w)
+	バックトラッキング ブループリント: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-回文分割)) [Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
 
 - ### 動的プログラミング
-	- 面接で動的プログラミングの問題が見られることはおそらくないでしょうが、問題が動的プログラミングの候補であると認識できることは価値があります。
-	- この問題はかなり難しいかもしれません。なぜなら、それぞれのDP可溶性問題は再帰関係として定義されなければならず、それを思い付くのは難しいかもしれないからです。
-	- DPの問題の多くの例を見て、あなたが関連するパターンをしっかりと理解するまでお勧めします。
+	- おそらく面接では動的プログラミングの問題は見られないでしょうが、問題を認識できるようにしておくことは価値があります。
+	動的計画法の候補としての問題。
+	- それぞれの DP 解決問題は再帰関係として定義する必要があり、それを思いつくのは難しい場合があるため、このテーマはかなり難しい場合があります。
+	- 関連するパターンをしっかりと理解するまで、DP 問題の多くの例を検討することをお勧めします。
 	- [ ] 動画：
-		- Skienaのビデオは、時には見ることができないほど小さすぎるホワイトボードを使用することがあるため、フォローするのが難しい場合があります
-		- [ ]  [Skiena：CSE373 2012 - 講義19 - 動的プログラミング入門(動画)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
-		- [ ]  [Skiena：CSE373 2012 - 講義20 - 編集距離(動画)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
-		- [ ]  [Skiena：CSE373 2012 - 講義21 - 動的プログラミング例(動画)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
-		- [ ]  [Skiena：CSE373 2012 - 講義22 - 動的プログラミングのアプリケーション(動画)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
-		- [ ] [Simonson：動的プログラミング0(59:18から開始)(動画)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
-		- [ ]  [Simonson：動的プログラミングI - 講義11(動画)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-		- [ ]  [Simonson：動的プログラミングII - 講演12(動画)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
-		- [ ] 個々のDP問題のリスト(それぞれ短い)：
-            [動的プログラミング(動画)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+		- [ ] [Skiena: CSE373 2020 - レクチャー 19 - 動的プログラミング入門 (動画)](https://www.youtube.com/watch?v=wAA0AMfcJHQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=18)
+		- [ ] [Skiena: CSE373 2020 - レクチャー 20 - 距離の編集 (動画)](https://www.youtube.com/watch?v=T3A4jlHlhtA&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=19)
+		- [ ] [Skiena: CSE373 2020 - レクチャー 20 - 距離の編集 (続き) (動画)](https://www.youtube.com/watch?v=iPnPVcZmRbE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=20)
+		- [ ] [Skiena: CSE373 2020 - レクチャー 21 - 動的プログラミング (動画)](https://www.youtube.com/watch?v=2xPE4Wq8coQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=21)
+		- [ ] [Skiena: CSE373 2020 - レクチャー 22 - 動的プログラミングとレビュー (動画)](https://www.youtube.com/watch?v=Yh3RzqQGsyI&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=22)
+		- [ ] [Simonson: 動的プログラミング 0 (59:18 から開始) (動画)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+		- [ ] [Simonson: 動的プログラミング I - 講義 11 (動画)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+		- [ ] [サイモンソン: 動的プログラミング II - 講義 12 (動画)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+		- [ ] 個々の DP 問題のリスト (それぞれ短い): [ダイナミック プログラミング (動画)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 	- [ ]  イェール講義ノート：
 		- [ ]  [動的プログラミング](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicプログラミング)
 	- [ ]  Coursera：
@@ -886,33 +912,12 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ]  [動的プログラミングのアルゴリズム(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
 		- [ ]  [DPアルゴリズムの説明(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
 		- [ ]  [DPアルゴリズムの実行時間(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-  		- [ ] [DP Vs 再帰的実装(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+  	- [ ] [DPと再帰的実装(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
 		- [ ]  [グローバル対配列アライメント(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
 		- [ ]  [ローカル対配列アライメント(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### オブジェクト指向プログラミング
-	- [ ]  [オプション：UML 2.0シリーズ(動画)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-	- [ ] オブジェクト指向ソフトウェアエンジニアリング：UMLとJavaを使ったソフトウェア開発(21ビデオ)：
-		- OOとOOの設計方法を十分に理解している場合は、これをスキップできます。
-		- [OOSE：UMLとJavaを使用したソフトウェア開発](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-	- [ ]  SOLID OOP原則：
-		- [ ]  [Bob Martin SOLIDオブジェクト指向とアジャイルデザインの原則(動画)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-		- [ ]  [SOLID原則(動画)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-		- [ ]  S - [単一責任の原則](http://www.oodesign.com/single-responsibility-principle.html)| [各オブジェクトへの単一責任](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-			- [もっと味](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-		- [ ]  O - [オープン/クローズの原則l](http://www.oodesign.com/open-close-principle.html)| [プロダクションレベルではオブジェクトは拡張の準備ができていますが、変更はできません](https://en.wikipedia.org/wiki/Open/closed_principle)
-			- [もっと風味](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-		- [ ]  L - [リスコフの置換原則](http://www.oodesign.com/liskov-s-substitution-principle.html)| [基本クラスと派生クラスは `IS A`プリンシパルに従います](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-			- [もっと風味](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=ja)
-		- [ ]  I - [インタフェース分離の原則](http://www.oodesign.com/interface-segregation-principle.html)|クライアントは、使用しないインタフェースを強制的に実装するべきではありません
-			- [インタフェース分離の原則5分(動画)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-			- [もっと味](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=ja)
-		- [ ]  D - [依存性逆転の原則](http://www.oodesign.com/dependency-inversion-principle.html)|オブジェクトの構成における依存関係を減らす。
-			- [なぜ依存関係の逆転の原則とそれが重要なのか](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-			- [もっと味](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=ja)
-
 - ### デザインパターン
-	- [ ]  [クイックUMLレビュー(動画)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+	- [ ]  [UMLの簡単なレビュー(動画)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
 	- [ ] これらのパターンを学ぶ：
 		- [ ] Strategy(戦略)
 		- [ ] Singleton(単一要素)
@@ -931,61 +936,58 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 		- [ ] Iterator(イテレータ)
 		- [ ] Composite(合成)
 		- [ ] Flyweight(フライ級)
-	- [ ]  [第6章(パート1) - パターン(動画)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-	- [ ]  [第6章(パート2) - 抽象化 - 発生、一般階層、プレーヤーロール、シングルトン、オブザーバー、代表団(動画)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-	- [ ] [第6章(パート3) - アダプタ、ファサード、変更不可、読み取り専用インターフェイス、プロキシ(動画)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-	- [ ]  [ビデオシリーズ(27ビデオ)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-	- [ ]  [ヘッドファーストデザインパターン](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-		- 正式な本は「デザインパターン：再利用可能なオブジェクト指向ソフトウェアの要素」であることは分かっていますが、ヘッドファーストはOOの初心者には最適です。
-	- [ ]  [参考：開発者のための101のデザインパターンとヒント](https://sourcemaking.com/design-patterns-and-tips)
-	- [ ]  [人間のデザインパターン](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
+	- [ ] [一連の動画 (27 本)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+	- [ ] [書籍: Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
+		- 正規の本は「デザインパターン: 再利用可能なオブジェクト指向ソフトウェアの要素」であることは知っていますが、「Head First」は OO の初心者に最適です。
+	- [便利なリファレンス: 開発者のための 101 のデザインパターンとヒント](https://sourcemaking.com/design-patterns-and-tips)
 
+- ### 組み合わせ論(nからkを選択)と確率
+	- [ ] [数学スキル: 階乗、順列、組み合わせの求め方 (選択) (動画)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+	- [ ] [Make School: 確率 (動画)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+	- [ ] [Make School: さらなる確率とマルコフ連鎖 (動画)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+	- [ ] カーンアカデミー:
+		- コースレイアウト:
+			- [ ] [基本理論確率](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+		- ビデオのみ - 41 (それぞれがシンプルで短い):
+			- [ ] [確率の説明 (動画)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### 組み合わせ(nCk)と確率
-	- [ ]  [数学のスキル：階乗、順列、組み合わせの見つけ方(選択)(動画)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-	- [ ]  [学校を作る：確率(動画)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-	- [ ]  [学校を作る：確率とマルコフ連鎖(動画)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
-	- [ ]  Khan Academy：
-		- コースのレイアウト：
-			- [ ]  [基本理論的確率](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-		- ちょうどビデオ - 41(それぞれ単純で、それぞれ短いです)：
-			- [ ]  [確率の説明(動画)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 - ### NP、NP-完全/近似アルゴリズム
-	- 巡回セールスマン問題やナップザック問題など、NP完全問題の最も有名なクラスについて知りましょう。
-       そうすれば面接官がこれらについて偽装して尋ねるとき、それらを認識することができます。
-	- NP完全の意味を知る。
-	- [ ]  [計算上の複雑さ(動画)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
-	- [ ]  Simonson：
-		- [ ]  [貪欲アルゴリズム。 II＆NP完全性へのイントロ(動画)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
-		- [ ]  [NP完全性II＆リダクション(動画)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-		- [ ]  [NP完全性III(動画)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-		- [ ]  [NP完全性IV(動画)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
-	- [ ] スキナ：
-		- [ ]  [CSE373 2012 - 講義23 - NP完全性の紹介(動画)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-		- [ ]  [CSE373 2012 - 講義24 - NP完全性の証明(動画)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-		- [ ]  [CSE373 2012 - 講演25 - NP完全性への挑戦(動画)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-	- [ ]  [複雑さ：P、NP、NP完全性、削減(動画)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-	- [ ]  [複雑さ：近似アルゴリズム(動画)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-	- [ ]  [複雑さ：固定パラメータアルゴリズム(動画)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-	- ピーター・ノヴィグ(Peter Norvig)は、セールスマンの問題を解決するための最適なソリューションについて説明しています。
-		- [JupyterNotebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-	- あなたが持っているなら、CLRSの1048 - 1140ページ。
+	- 巡回セールスマンやナップザック問題など、NP 完全問題の最も有名なクラスについて知っています。
+			インタビュアーが変装して質問したときに、それを見分けることができます。
+	- NP 完全の意味を理解する。
+	- [ ] [計算の複雑さ (動画)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+	- [ ] サイモンソン:
+		- [ ] [貪欲なアルグス。II および NP 完全性の紹介 (動画)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+		- [ ] [NP 完全性 II と削減 (動画)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+		- [ ] [NP 完全性 III (動画)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+		- [ ] [NP 完全性 IV (動画)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+	- [ ]スキエナ:
+		- [ ] [CSE373 2020 - レクチャー 23 - NP の完全性 (動画)](https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23)
+		- [ ] [CSE373 2020 - レクチャー 24 - 満足度 (動画)](https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24)
+		- [ ] [CSE373 2020 - レクチャー 25 - NP 完全性の詳細(動画)](https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25)
+		- [ ] [CSE373 2020 - レクチャー 26 - NP 完全性チャレンジ (動画)](https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26)
+	- [ ] [複雑さ: P、NP、NP 完全性、削減 (動画)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+	- [ ] [複雑さ: 近似アルゴリズム (ビ動画デオ)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+	- [ ] [複雑さ: 固定パラメーター アルゴリズム (動画)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+	- Peter Norvig は、巡回セールスマンの問題に対する最適に近い解決策について説明します。
+		- [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+	- CLRS のページ 1048 ～ 1140 (お持ちの場合)。
 
-- ### コンピューターはどのようにプログラムを実行するか
-    - [ ] [CPU がどのようにプログラムを実行するか (動画)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [コンピューターがどのように計算するか - ALU (動画)](https://youtu.be/1I5ZMmrOfnA)
-    - [ ] [レジスタと RAM (動画)](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [中央処理装置 (CPU) (動画)](https://youtu.be/FZGugFqdr60)
-    - [ ] [命令とプログラム (動画)](https://youtu.be/zltgXvg6r3k)
+- ### コンピューターがプログラムを処理する仕組み
+	- [ ] [CPU がプログラムを実行する仕組み (動画)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+	- [ ] [コンピューターの計算方法 - ALU (動画)](https://youtu.be/1I5ZMmrOfnA)
+	- [ ] [レジスタとRAM (動画)](https://youtu.be/fpnE6UAfbtU)
+	- [ ] [中央処理装置 (CPU) (動画)](https://youtu.be/FZGugFqdr60)
+	- [ ] [説明書とプログラム (動画)](https://youtu.be/zltgXvg6r3k)
 
 - ### キャッシュ
-	- [ ]  LRUキャッシュ：
-		- [ ]  [LRUキャッシュの魔法(Google Devの100日間)(動画)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-		- [ ]  [LRU(動画)の実装](https://www.youtube.com/watch?v=bq6N7Ym81iI)
-		- [ ]  [LeetCode - 146 LRU Cache(C ++)(video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-	- [ ]  CPUキャッシュ：
-		- [ ]  [MIT 6.004 L15：メモリ階層(動画)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-		- [ ]  [MIT 6.004 L16：キャッシュの問題(動画)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+	- [ ] LRU キャッシュ:
+		- [ ] [LRU キャッシュの魔法 (Google 開発の 100 日間) (動画)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+		- [ ] [LRU の実装 (動画)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+		- [ ] [LeetCode - 146 LRU キャッシュ (C++) (動画)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+	- [ ] CPU キャッシュ:
+		- [ ] [MIT 6.004 L15: メモリ階層 (動画)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+		- [ ] [MIT 6.004 L16: キャッシュの問題 (動画)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
 - ### プロセスとスレッド
 	- [ ] コンピュータサイエンス162 - オペレーティングシステム(25ビデオ)：
@@ -1001,291 +1003,118 @@ Skienaの本(下記の書籍の節を参照)と面接の書籍
 			- ミューテックス
 			- セマフォ
 			- モニタ(同期)
-			- 彼らの動作の仕方
+			- 動作の仕方
 			- デッドロック
 			- ライブロック
-		- CPUの動作、割り込み、コンテキストの切り替え
-		- マルチコアプロセッサを使用した最新の並行構成
-		- [ページング、セグメンテーション、仮想メモリ(動画)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
-		- [割り込み(動画)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-		- [スケジューリング(動画)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
-		- プロセスリソースのニーズ(メモリ：コード、静的ストレージ、スタック、ヒープ、ファイル記述子、I/O)
-		- スレッドリソースの必要性(同じプロセス内の他のスレッドとの上の(マイナススタック)の共有、それぞれが独自のpc、スタックカウンタ、レジスタ、およびスタックを持つ)
-		- フォークは、新しいプロセスがメモリに書き込むまで、実際には書き込み時にコピー(読み取り専用)され、次に完全なコピーを行います。
-		- コンテキストスイッチ
-			- オペレーティングシステムとその基盤となるハードウェアによってコンテキスト切り替えが開始される仕組み
-	- [ ]  [C++のスレッド(シリーズ - 10ビデオ)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-	- [ ]  Pythonでの並行性(動画)：
-		- [ ]  [スレッドに関する短いシリーズ](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
-		- [ ]  [Pythonスレッド](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
-		- [ ]  [Python GIL(2010)について理解する](https://www.youtube.com/watch?v=Obt-vMVdM8s)
-			- [参考文献](http://www.dabeaz.com/GIL)
-		- [ ]  [David Beazley - 地上からのPython並行処理：LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
-		- [ ]  [基調講演David Beazley - 興味のあるトピック(Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
-		- [ ]  [Pythonのミューテックス](https://www.youtube.com/watch?v=0zaPs8OtyKY)
-
-- ### 論文
-	- 完全に理解した上ですべてを読むことは、あなたが持っているより多くの時間がかかるでしょう。私は論文とそのセクションを選択することをお勧めします。
-	- [古典的な論文を愛する？](https://www.cs.cmu.edu/~crary/819-f09/)
-	- [ ]  [1978：順次プロセスの通信](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-		- [Goで実装](https://godoc.org/github.com/thomas11/csp)
-	- [ ]  [2003：The Googleファイルシステム](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-		- 2012年に巨像に置き換えられました
-	- [ ]  [2004：MapReduce：大規模クラスタでのデータ処理の簡略化](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-		- 主にCloud Dataflowに置き換えられましたか？
-	- [ ]  [2006：Bigtable：構造化データ用分散ストレージシステム](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
-		- [Google BigQueryの内部を見る](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
-	- [ ]  [2006：疎結合分散システムのChubby Lockサービス](https://research.google.com/archive/chubby-osdi06.pdf)
-	- [ ]  [2007：Dynamo：Amazonの高可用性 key valueストア](https://www.akkadia.org/drepper/cpumemory.pdf)
-		- Dynamo紙がNoSQL革命を開始
-	- [すべてのプログラマーがメモリについて知っておくべきこと(非常に長く、著者はいくつかのセクションのスキップを奨励する)](https://www.akkadia.org/drepper/cpumemory.pdf)
-	- [ ]  [2010：Dapper、大規模分散システム追跡基盤](https://research.google.com/pubs/archive/36356.pdf)
-	- [ ]  [2010：Dremel：Web-Scaleデータセットのインタラクティブ解析](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
-	- [ ]  [2012：Googleの巨像](https://www.wired.com/2012/07/google-colossus/)
-		- 論文がありません
-	- [ ]  2012：AddressSanitizer：高速アドレス整合性チェッカー：
-		- [論文](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-		- [ビデオ](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-	- [ ]  2013：スパナ：Googleのグローバル分散データベース：
-		- [論文](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-		- [ビデオ](https://www.usenix.org/node/170855)
-	- [ ]  [2014年：機械学習：技術的負債の高利貸しクレジットカード](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-	- [ ]  [2015：Googleの継続的なパイプライン](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
-	- [ ]  [2015年：大規模な高可用性：Googleの広告用データ基盤の構築](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-	- [ ]  [2015：TensorFlow：異種分散システムの大規模機械学習](http://download.tensorflow.org/paper/whitepaper2015.pdf)
-	- [ ]  [2015年：開発者がコードを検索する方法：ケーススタディ](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-	- [ ]  [2016：Borg、Omega、Kubernetes](http://static.googleusercontent.com/media/research.google.com/ja//pubs/archive/44843.pdf)
+		- CPU アクティビティ、割り込み、コンテキスト切り替え
+		- マルチコアプロセッサを使用した最新の同時実行構造
+		- [ページング、セグメンテーション、仮想メモリ (動画)](https://youtu.be/O4nwUqQodAg)
+		- [中断（動画）](https://youtu.be/iKlAWIKEyuw)
+		- プロセス リソースのニーズ (メモリ: コード、静的ストレージ、スタック、ヒープ、およびファイル記述子、I/O)
+		- スレッド リソースのニーズ (同じプロセス内の他のスレッドと上記 (マイナススタック) を共有しますが、それぞれに独自の PC、スタック カウンター、レジスタ、およびスタックがあります)
+		- フォークは実際には、新しいプロセスがメモリに書き込むまではコピーオンライト (読み取り専用) であり、その後完全コピーが実行されます。
+		- コンテキストの切り替え
+			- [オペレーティングシステムと基盤となるハードウェアによってコンテキストスイッチングがどのように開始されるか?](https://www.javatpoint.com/what-is-the-context-switching-in-the-operating-system)
+	- [ ] [C++ のスレッド (シリーズ - 10 本の動画)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+	- [ ] [CS 377 Spring '14: マサチューセッツ大学のオペレーティングシステム](https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k)
+	- Python の同時実行性 (動画):
+		- [ ] [スレッドに関する短編シリーズ](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+		- [ ] [Python スレッド](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+		- [ ] [Python GIL を理解する (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+			- [参考](http://www.dabeaz.com/GIL)
+		- [ ] [David Beazley - Python 同時実行性を基礎からライブで解説します! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+		- [ ] [基調講演 David Beazley - 注目のトピック (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+		- [ ] [Python のミューテックス](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 - ### テスト
-    - カバーするために：
-        - ユニット(単体)テストの仕組み
-        - モックオブジェクトとは何ですか？
-        - 統合テストとは
-        - 依存性注入とは
-	- [ ]  [James Bachによるアジャイルソフトウェアテスト(動画)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-	- [ ]  [ジェイムス・バッハによるソフトウェアテストの公開講座(動画)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-	- [ ]  [Steve Freeman - テスト駆動開発(これは私たちが意味するものではありません)(動画)](https://vimeo.com/83960706)
-		- [スライド](http://goocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-	- [ ]  [TDDは死んでいます。長いライブテスト。](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-	- [ ]  [TDDは死んでいますか？ (動画)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-	- [ ]  [ビデオシリーズ(152ビデオ) - すべてではない(動画)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-	- [ ]  [Pythonでテスト駆動型Web開発](http://www.obeythetestinggoat.com/pages/book.html#toc)
-	- [ ] 依存性注入：
-		- [ ]  [動画](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-		- [ ]  [テストのタオ](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-	- [ ]  [テストの書き方](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
-
-- ### スケジューリング
-	- OSで、どのように動作するか
-	- オペレーティングシステムのビデオから収集できます
-
-- ### システムルーチンを実装する
-	- 使用するプログラミングAPIの下にあるものを理解する
-    あなたはそれらを実装できますか？
+	- カバーするために：
+		- 単体テストの仕組み
+		- モックオブジェクトとは何ですか
+		- 統合テストとは何ですか
+		- 依存性注入とは何ですか
+	- [ ] [James Bach によるアジャイル ソフトウェア テスト (動画)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+	- [ ] [ソフトウェア テストに関する James Bach による公開講義 (動画)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+	- [ ] [Steve Freeman - テスト駆動開発 (それは私たちが言いたかったことではありません) (動画)](https://vimeo.com/83960706)
+		- [スライド](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+	- [ ] 依存性の注入:
+		- [ ] [動画](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+		- [ ] [テストのTAO](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+	- [ ] [テストの書き方](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### 文字列の検索と操作
-	- [ ]  [Sedgewick - 接尾辞配列(動画)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-	- [ ]  [Sedgewick - サブストリング(文字列の一部)検索(動画)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-		- [ ]  [1. サブストリング検索の紹介](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-		- [ ]  [2. ブルートフォースサブストリング検索](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
-		- [ ]  [3. クヌース・モーリス・プラット法](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-		- [ ]  [4. ボイヤー-ムーア文字列検索アルゴリズム](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
-		- [ ]  [5. ラビン-カープ文字列検索アルゴリズム](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-	- [ ]  [テキストの検索パターン(動画)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+	- [ ] [Sedgewick - サフィックス配列 (動画)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+	- [ ] [Sedgewick - 部分文字列検索 (動画)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+		- [ ] [1. 部分文字列検索の概要](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+		- [ ] [2. ブルートフォース部分文字列検索](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
+		- [ ] [3. クヌース・モリス・プラット](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
+		- [ ] [4. ボイヤー・ムーア](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+		- [ ] [5. ラビン・カープ](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+	- [ ] [テキスト内のパターンの検索 (動画)](https://www.coursera.org/learn/data-Structures/lecture/tAfHI/search-pattern-in-text)
 
-    このテーマについてさらに詳しく知りたい場合は、[いくつかの科目の追加の詳細]の「文字列のマッチング」の項を参照してください(#additional-detail-on-some-subjects)
+	この件についてさらに詳細が必要な場合は、[一部の件名に関する追加の詳細](#Additional-detail-on-some-subjects) の「文字列マッチング」セクションを参照してください。
 
-- ### トライ木
-	- さまざまなトライ木があることに注意してください。いくつかは接頭辞を持ち、あるものはパスを追跡するビットの代わりに文字列を使用します。
-	- 私はコードを読んだが、実装しないだろう。
-	- [ ]  [Sedgewick - 試してみる(3ビデオ)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-		- [ ]  [1. R Way トライ木](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-		- [ ]  [2. 3分探索木](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-		- [ ]  [3. キャラクターベースの操作](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
-	- [ ]  [データ構造とプログラミング手法に関する注記](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-	- [ ] 短期コースビデオ：
-		- [ ]  [トライ木の紹介(動画)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-		- [ ]  [トライ木のパフォーマンス(動画)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-		- [ ]  [トライ木の実装ビデオ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-	- [ ]  [Trie：無視されたデータ構造](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-	- [ ]  [TopCoder - トライ木の使用](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
-	- [ ]  [スタンフォード講演(現実世界のユースケース)(動画)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-	- [ ]  [MIT、高度なデータ構造、文字列(途中でかなり不明瞭になることがあります)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+- ### トライ
+	- さまざまな種類のトライがあることに注意してください。プレフィックスを持つものと持たないもの、そしてビットの代わりに文字列を使用してパスを追跡するものもあります
+		- コードは一通り読みましたが、実装はしません
+	- [ ] [Sedgewick - Trys (3動画)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+		- [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
+		- [ ] [2. 三項探索トライズ](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
+		- [ ] [3. 文字ベースの操作](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+	- [ ] [データ構造とプログラミング技術に関するメモ](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+	- [ ] ショートコースビデオ:
+		- [ ] [トライの概要 (動画)](https://www.coursera.org/learn/data-structions-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+		- [ ] [トライのパフォーマンストライ (動画)](https://www.coursera.org/learn/data-Structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+		- [ ] [トライの実装 (動画)]( https://www.coursera.org/learn/data-Structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+	- [ ] [トライ: 無視されたデータ構造](https://www.toptal.com/java/the-trie-a-neglected-data-struction)
+	- [ ] [TopCoder - トライの使用](https://www.topcoder.com/thrive/articles/Using%20Tries)
+	- [ ] [スタンフォード講義 (実際の使用例) (動画)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+	- [ ] [MIT、高度なデータ構造、文字列 (途中でかなりわかりにくくなる可能性があります) ) (動画)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### 浮動小数点数
-	- [ ] 単純な8ビット：[浮動小数点数の表現 - 1(ビデオ - 計算にエラーがあります - ビデオの説明を参照)](https://www.youtube.com/watch?v=ji3SfClm8TU)
-	- [ ]  32ビット：[IEEE754 32ビット浮動小数点バイナリ(動画)](https://www.youtube.com/watch?v=50ZYcZebIec)
+	- [ ] 単純な 8 ビット: [浮動小数点数の表現 - 1 (ビデオ - 計算に誤りがあります - ビデオの説明を参照してください)](https://www.youtube.com/watch?v=ji3SfClm8TU)
 
 - ### Unicode
-	- [ ]  [すべてのソフトウェア開発者が絶対に最低限必要とする、絶対にUnicodeと文字セットについて熟知していること](http://www.joelonsoftware.com/articles/Unicode.html)
-	- [ ]  [すべてのプログラマーが、エンコーディングと文字セットについて知る必要があることは間違いない](http://kunststube.net/encoding/)
+	- [ ] [すべてのソフトウェア開発者の絶対最小値、絶対にUnicodeと文字セットについて必ず知っておくべきこと]( http://www.joelonsoftware.com/articles/Unicode.html)
+	- [ ] [すべてのプログラマがテキストを扱うためにエンコーディングと文字セットについて絶対に、必ず知っておくべきこと]( http://kunststube.net/encoding/)
 
-- ### バイト順(エンディアン)
-	- [ ]  [ビッグエンディアンとリトルエンディアン](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
-	- [ ]  [ビッグエンディアン Vs リトルエンディアン(動画)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-	- [ ]  [ビッグエンディアンとリトルエンディアンの イン/アウト(動画)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-		- カーネル開発者のための非常に技術的な話。ほとんどがあなたの頭の上にある場合は心配しないでください。
-		- 前半で十分です。
+- ### エンディアン
+	- [ ] [ビッグ エンディアンとリトル エンディアン](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
+	- [ ] [ビッグ エンディアンとリトル エンディアン (動画)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+	- [ ] [Big And Little Endian Inside/Out (動画)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+		- カーネル開発者向けの非常に技術的な話。ほとんどのことが頭から離れていても心配する必要はありません。
+		- 前半だけで十分です。
 
 - ### ネットワーキング
-	- **ネットワーク経験がある、またはシステムエンジニアになりたい場合は、質問を期待してください**
-	- そうでなければ、これは知っているだけでいいです
-	- [ ]  [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-	- [ ]  [UDPとTCP：トランスポートプロトコルの比較](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-	- [TCP / IPとOSIモデルの説明!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-	- [ ]  [インターネット経由のパケット伝送。ネットワーク＆TCP / IPチュートリアル](https://www.youtube.com/watch?v=nomyRJehhnM)
-	- [ ]  [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-	- [ ]  [SSLとHTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
-	- [ ]  [SSL / TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
-	- [ ]  [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-	- [ ]  [ビデオシリーズ(21ビデオ)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IggfoqO4iPnPYQui46QqT0j)
-	- [ ]  [詳解サブネット化 - 第5部CIDR表記](https://www.youtube.com/watch?v=t5xYI0jzOf4)
-	- [ ] ソケット：
-		- [ ]  [Java - Sockets - Introduction(video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
-		- [ ]  [ソケットプログラミング(動画)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
-
-## システム設計、スケーラビリティ、データ処理
-- **4年以上の経験があれば、システム設計の質問を期待できます。**
-- スケーラビリティとシステム設計は、多くのトピックとリソースを持つ非常に大きなトピックです。
-      スケーラビリティ(拡張可能)なソフトウェア/ハードウェアシステムを設計する際には、考慮すべき点がたくさんあります。
-      これにかなりの時間を費やすことを期待してください。
-- 考慮事項：
-	- スケーラビリティ
-		- 大きなデータセットを単一の値に変換する
-		- あるデータセットを別のデータセットに変換する
-		- 莫大な量のデータを扱う
-	- システム設計
-		- 機能セット
-		- インターフェース
-		- クラス階層
-		- 一定の制約の下でシステムを設計する
-		- シンプルさと丈夫さ
-		- トレードオフ
-		- パフォーマンス分析と最適化
-
-- [ ]  **ここをクリック**：[システム設計入門](https://github.com/donnemartin/system-design-primer)
-- [ ]  [HiredInTechのシステム設計](http://www.hiredintech.com/system-design/)
-- [ ] [技術面接で設計質問に答えるための準備方法](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [システムデザイン面接の前に知っておくべき8つの事柄](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
-- [ ]  [アルゴリズム設計](http://www.hiredintech.com/algorithm-design/)
-- [ ]  [データベースの正規化 - 1NF、2NF、3NF、4NF(動画)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ]  [システム設計の面接](https://github.com/checkcheckzz/system-design-interview) - この中には多くのリソースがあります。記事や例を見てください。私はそれらのいくつかを下に置いた。
-- [ ]  [システム設計面接の方法](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
-- [ ]  [誰もが知っておくべき数字](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-- [ ]  [コンテキストスイッチを作るのにどれくらい時間がかかりますか？](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
-- [ ]  [データセンター間の取引(動画)](https://www.youtube.com/watch?v=srOgpXECblk)
-- [ ]  [CAP定理の簡単な英語入門](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-- [ ] Paxosアルゴリズム：
-	- [短い動画](https://www.youtube.com/watch?v=s8JqcZtvnsM)
-	- [ユースケースとマルチパクソスによる拡張動画](https://www.youtube.com/watch?v=JEpsBg0AO6o)
-	- [論文](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
-- [ ]  [コンシステントハッシュ法](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
-- [NoSQLパターン](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
-
-- [ ] スケーラビリティ：
-	- [ ]  [概要(動画)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-	- [ ] 短いシリーズ：
-		- [クローン](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
-		- [データベース](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
-		- [キャッシュ](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
-		- [非同期](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-	- [ ]  [スケーラブルなWebアーキテクチャと分散システム](http://www.aosabook.org/ja/distsys.html)
-	- [ ]  [分散コンピューティングの説明の誤り](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
-	- [ ]  [実用的なプログラミングテクニック](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
-		- [extra：Google Pregel グラフ処理](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
-	- [ ]  [Jeff Dean - Googleのソフトウェアシステム構築と教訓(動画)](https://www.youtube.com/watch?v=modXC5IWTJI)
-	- [ ]  [スケールのための設計システムの紹介](http://lethain.com/introduction-to-architecting-systems-for-scale/)
-	- [ ]  [App EngineとCloud Datastoreを使用してモバイルゲームを世界中の視聴者に拡大(動画)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
-	- [ ]  [Googleがプラネットスケールのインフラのプラネットスケールエンジニアリングを行う仕組み](https://www.youtube.com/watch?v=H4vMcD7zKM0)
-	- [ ]  [アルゴリズムの重要性](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
-	- [ ]  [シャーディング](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
-	- [ ]  [Facebook（2009）でスケール](https://www.infoq.com/presentations/Scale-at-Facebook)
-	- [ ]  [Facebook(2012年)、「10億ユーザー向けビルド(動画)」](https://www.youtube.com/watch?v=oodS71YtkGU)
-	- [ ]  [ロングゲームのためのエンジニアリング - Astrid Atkinson Keynote(動画)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
-	- [ ]  [7年間のYouTubeスケーラビリティレッスン30分](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html )
-		- [動画](https://www.youtube.com/watch?v=G-lGCC4KKok)
-	- [ ]  [ペイパルが毎日何十億ものトランザクションにスケーリングされる方法(8VMだけを使用)](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
-	- [ ]  [大きなデータセットで重複を削除する方法](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
-	- [ ]  [Jon CowieによるEtsyのスケールとエンジニアリング文化の中の一見(動画)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
-	- [ ] [Amazonは独自のマイクロサービスアーキテクチャをどのように導いたか](http://thenewstack.io/led-amazon-microservices-architecture/)
-	- [ ] [圧縮するか圧縮しないか、それはUberの質問でした](https://eng.uber.com/trip-data-squeeze/)
-	- [ ]  [Tarantoolの非同期キュー、キューに入れる](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
-	- [ ]  [おおよそのクエリ処理を使用するタイミング](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
-
-    - [ ]  [単一のデータセンターからフェイルオーバーするための、Googleのネイティブマルチホームアーキテクチャへの移行](http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
-	- [ ]  [スパナ](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
-	- [ ]  [Egnyteアーキテクチャ：マルチペタバイト分散システムの構築とスケーリングの教訓](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
-	- [ ]  [機械学習駆動プログラミング：新しい世界のための新しいプログラミング](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
-	- [ ]  [1日あたり何百万ものリクエストを処理する画像最適化技術](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
-	- [ ]  [Patreonのアーキテクチャの概要](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
-	- [ ]  [Tinder：どのようにして最大のレコメンデーションエンジンの誰があなたが次に誰を見るか決定する？](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
-	- [ ]  [現代のキャッシュのデザイン](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
-	- [ ]  [Facebookのスケールでライブビデオストリーミング](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
-	- [ ]  [AmazonのAWSで1,100万人以上のユーザーに拡大するための初心者向けガイド](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
-	- [ ]  [Dockerの効果待ち時間の使用方法](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
-	- [ ]  [AMPはGoogleに存在する脅威に対抗していますか？](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
-	- [ ]  [全Netflixスタックの360度ビュー](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
-	- [ ]  [レイテンシはどこにでもあり、それはあなたのセールスに費やされます - それを粉砕する方法](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
-	- [ ]  [サーバーレス(非常に長い、要点が必要](http://martinfowler.com/articles/serverless.html)
-	- [ ]  [Instagramを動かすもの：何百ものインスタンス、数十のテクノロジ](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
-	- [ ] [シンクキャストアーキテクチャ - 毎日1,500時間の音声を生成する](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
-	- [ ]  [Justin.Tvのライブビデオブロードキャストアーキテクチャ](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
-	- [ ]  [Playfishのソーシャルゲームアーキテクチャ - 月間5000万人のユーザーと成長](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
-	- [ ]  [アーキテクチャ - 40Mビジター、200Mダイナミックページビュー、30TBデータ]()
-	- [ ]  [PlentyOfFishアーキテクチャ](http://highscalability.com/plentyoffish-architecture)
-	- [ ]  [Salesforceのアーキテクチャ - どのように130億回のトランザクションを処理するか](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
-	- [ ]  [ESPNの規模でのアーキテクチャ - 毎秒100,000のDuh Nuh Nuhsで動作](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-	- [ ] サービスを結合する技術の情報については、以下の「メッセージング、シリアライゼーション、およびキューイングシステム」を参照してください。
-	- [ ]  Twitter：
-		- [O`Reilly MySQL CE 2011：Jeremy Cole、「@Twitterの大小データ」(動画)](https://www.youtube.com/watch?v=5cKTP36HVgI)
-		- [スケール時のタイムライン](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-	- さらに詳しくは、[ビデオシリーズ](ビデオシリーズ)セクションの「Mining Massive Datasets」ビデオシリーズを参照してください。
-
-- [ ] システム設計プロセスの練習：紙で作業しようとするいくつかのアイデアがあります。実際にどのように処理されたかについてのいくつかの文書があります。
-	- レビュー：[システム設計入門](https://github.com/donnemartin/system-design-primer)
-	- [HiredInTechのシステム設計](http://www.hiredintech.com/system-design/)
-	- [チートシート](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
-	- 流れ：
-        1. 問題と範囲を理解する：
-            - 面接官の助けを借りてユースケースを定義する
-			- 追加の機能を提案する
-			- 面接官が範囲外とみなすアイテムを削除する
-			- 高可用性が必要と仮定し、ユースケースとして追加する
-        2. 制約について考える：
-			- 毎月のリクエスト数を尋ねる
-			- 毎秒どれくらいのリクエストをするか(彼らはボランティアでもよいし、あなたに数学をさせるかもしれない)
-			- 読み込みと書き込みの割合を見積もります
-			- 推定時に80/20ルールを守って下さい
-			- 1秒あたりに書き込まれるデータの量
-			- 5年間に必要な合計ストレージ
-			- 毎秒読み取られるデータの量
-        3. 抽象的なデザイン：
-			- レイヤー(サービス、データ、キャッシング)
-			- インフラストラクチャ：負荷分散、メッセージング
-			- サービスを駆動する主要なアルゴリズムの概要
-			- ボトルネックを考慮し、解決策を決定する
-	- 演習：
-		- [CDNネットワークの設計：古い記事](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-		- [ランダムなID生成システムの設計](https://blog.twitter.com/2010/announcing-snowflake)
-		- [オンラインマルチプレイヤーカードゲームのデザイン](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
-		- [Key-Valueデータベースの設計](http://www.slideshare.net/dvirsky/introduction-to-redis)
-		- [画像共有システムの設計](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
-		- [推薦システムの設計](http://ijcai13.org/files/tutorial_slides/td3.pdf)
-		- [URL短縮システムの設計：上からコピー](http://www.hiredintech.com/system-design/the-system-design-process/)
-		- [キャッシュシステムの設計](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
+	- **ネットワーキングの経験がある場合、または信頼性エンジニアまたは運用エンジニアになりたい場合は、質問をお待ちください** -
+	それ以外の場合、これは知っておくと良いでしょう
+	- [ ] [カーン アカデミー](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
+	- [ ] [UDP と TCP: トランスポート プロトコルの比較 (動画)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+	- [ ] [TCP/IP と OSI モデルについて説明します! (動画)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+	- [ ] [インターネットを介したパケット送信。ネットワークと TCP/IP のチュートリアル。(動画)](https://www.youtube.com/watch?v=nomyRJehhnM)
+	- [ ] [HTTP (動画)](https://www.youtube.com/watch?v=WGJrLqtX7As)
+	- [ ] [SSL および HTTPS (動画)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+	- [ ] [SSL/TLS (動画)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+	- [ ] [HTTP 2.0 (動画)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+	- [ ] [ビデオ シリーズ (21 動画) (動画)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+	- [ ] [サブネットの謎を解く - パート 5 CIDR表記法 (動画)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+	- [ ] ソケット:
+		- [ ] [Java - ソケット - 概要 (動画)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+		- [ ] [ソケット プログラミング (動画)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ---
 
 ## 最終レビュー
 
-    このセクションでは、重要な概念のほとんどを見直すためにかなり短いビデオを見ることができます。
-    あなたが頻繁に再学習をしたいならいいですね。
+	このセクションには短いビデオが含まれます。非常にすぐに見て、重要な概念のほとんどを確認できます。
+	頻繁にリフレッシュしたい場合に便利です。
 
-- [ ]  2〜3分短編ビデオシリーズ(23ビデオ)
-	- [動画](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2〜5分の短編シリーズビデオ - Michael Sambol(46ビデオ)
-	- [動画](https://www.youtube.com/@MichaelSambol)
-	- [Code Examples](https://github.com/msambol/dsa)
+- [ ] 2 ～ 3 分の短い主題ビデオ シリーズ (23 動画)
+	- [ビデオ](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] 2 ～ 5 分のシリーズ短い主題のビデオ - Michael Sambol (動画 46 件):
+	- [ビデオ](https://www.youtube.com/@MichaelSambol)
+	- [コード例](https://github.com/msambol/dsa)
+- [ ] [セッジウィック ビデオ - アルゴリズム I](https://www.coursera.org/learn/algorithms-part1)
+- [ ] [セッジウィック ビデオ - アルゴリズム II](https://www.coursera.org/learn/algorithms-part2) )
 
 ---
 

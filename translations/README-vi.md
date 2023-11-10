@@ -12,6 +12,7 @@ Tác giả gốc: [John Washam](https://github.com/jwasham)
 * [Trương Đức Duy](https://github.com/duytruong) - [@dauruy](https://twitter.com/dauruy)
 * [Lương Đăng Hải](https://github.com/jarvisluong) - [@jarvisluong](https://twitter.com/jarvisluong)
 * [Hiền Vương](https://github.com/hienvd) - [@duchienvuong](https://twitter.com/duchienvuong)
+* [Nguyễn Đức Đông](https://github.com/ducdongmg)
 
 Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt:
 
@@ -23,7 +24,13 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 
 ---
 
-> Ban đầu, đây chỉ là một danh sách to-do (danh sách các việc cần làm) ngắn về các chủ đề phải ôn tập của tôi, để trở thành một kỹ sư phần mềm. Nhưng rôi nó lớn dần nên như ngày nay. Sau khi đi hết con đường này, [tôi đã được tuyển vào vị trí Software Development Engineer ở Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! Bạn có lẽ không cần phải học nhiều như tôi đã học. Nhưng dù sao, mọi thứ bạn cần ở đây.
+> Ban đầu, đây chỉ là một danh sách to-do (danh sách các việc cần làm) ngắn về các chủ đề phải ôn tập của tôi, để trở thành một kỹ sư phần mềm.
+> Nhưng rôi nó lớn dần nên như ngày nay. Sau khi đi hết con đường này, [tôi đã được tuyển vào vị trí Software Development Engineer ở Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Bạn có lẽ không cần phải học nhiều như tôi đã học. Nhưng dù sao, mọi thứ bạn cần ở đây.
+>
+> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+>
+> **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that is below. I'll help you get there without wasting your precious time.
 >
 > Những chủ đề này sẽ chuẩn bị cho bạn nền tảng kiến thức vững vàng cho bất kỳ công ty phần mềm nào, bao gồm cả những gã khổng lồ như: Amazon, Facebook, Google hay Microsoft.
 >
@@ -39,35 +46,42 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 
 ## Giới thiệu
 
-Đây là kế hoạch học tập trong nhiều tháng của tôi, để từ một nhà phát triển web (tự học, không có bằng cấp về Khoa Học Máy Tính - KHMT) trở thành một kỹ sư phần mềm ở Google.
-
 ![Viết code trên bảng - ảnh trích từ bộ phim Silicon Valley của HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Danh sách dài này được trích và mở rộng từ **Ghi chú huấn luyện của Google**, vậy nên đây là những gì bạn cần biết.
-Một vài mục tôi thêm vào ở cuối danh sách có thể xuất hiện trong cuộc phỏng vấn hoặc hữu ích cho việc giải quyết các bài toán về lập trình. Nhiều mục đến từ bài viết [Lấy được việc ở Google (Get that job at Google)](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" của Steve Yegge.
+Đây là kế hoạch học tập kéo dài nhiều tháng của tôi để trở thành một software engineer cho một công ty lớn.
 
-Tôi lược bớt những gì bạn cần từ lời khuyên của Yegge. Tôi cũng chỉnh sửa lại các yêu cầu dựa trên thông tin tôi có được từ bạn bè ở Google. Danh sách này được thiết kế cho **Kỹ sư phần mềm** hoặc những ai chuyển từ phát triển web hoặc phần mềm sang _kỹ nghệ_ phần mềm (khi mà kiến thức về Khoa Học Máy Tính là bắt buộc). Nếu bạn có nhiều kinh nghiệm và muốn khẳng định nhiều năm trong đó bạn làm việc như một kỹ sư phần mềm, hãy sẵn sàng cho một buổi phỏng vấn khó hơn. [Xem thêm ở đây](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+**Yêu cầu:**
+* Một chút kinh nghiệm về mã hóa (biến, vòng lặp, phương thức/hàm, v.v.)
+* Tính kiên nhẫn
+* Thời gian
 
-Nếu bạn có kinh nghiệm trong phát triển web hoặc ứng dụng, hãy chú ý rằng Google xem việc xây dựng phần mềm khác với web và ứng dụng thông thường. Họ yêu cầu kiến thức về Khoa Học Máy Tính.
+Lưu ý rằng đây là một kế hoạch dành cho **software engineering**, không phải frontend engineering hay full-stack. Thực sự có một siêu lộ trình và khóa học cho những career path đó ngoài kia (xem https://roadmap.sh/ để biết thêm chi tiết).
 
-Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (System Engineer), hãy học thêm từ danh sách bổ sung (mạng máy tính, bảo mật,...)
+Có rất nhiều điều để học trong một chương trình Khoa học Máy tính tại trường đại học, nhưng chỉ cần biết khoảng 75% là đủ tốt cho một cuộc phỏng vấn, vì vậy đó là những gì tôi đề cập ở đây.
+Để có một chương trình tự học Khoa học Máy tính hoàn chỉnh, các tài nguyên cho kế hoạch học tập của tôi đã được đưa vào Lộ trình Khoa học Máy tính của Kamran Ahmed: https://roadmap.sh/computer-science
 
 ---
 
 ## Mục lục
+
+### Kế hoạch học tập
 
 - [Giới thiệu?](#giới-thiệu)
 - [Vì sao tôi cần tài liệu này?](#vì-sao-tôi-cần-tài-liệu-này)
 - [Sử dụng tài liệu này như thế nào?](#sử-dụng-tài-liệu-này-như-thế-nào)
 - [Đừng nghĩ rằng bạn không đủ thông minh](#đừng-nghĩ-rằng-bạn-không-đủ-thông-minh)
 - [Về nguồn video](#về-nguồn-video)
-- [Quy trình phỏng vấn & các bước chuẩn bị tổng quát](#quy-trình-phỏng-vấn--các-bước-chuẩn-bị-tổng-quát)
 - [Chọn ngôn ngữ lập trình cho cuộc phỏng vấn](#chọn-ngôn-ngữ-lập-trình-cho-cuộc-phỏng-vấn)
 - [Danh mục sách](#danh-mục-sách)
-- [Trước khi bắt đầu](#trước-khi-bắt-đầu)
+- [Đừng phạm sai lầm của tôi](#đừng-phạm-sai-lầm-của-tôi)
 - [Những phần không được đề cập](#những-phần-không-được-đề-cập)
 - [Kiến thức tiên quyết](#kiến-thức-tiên-quyết)
 - [Kế hoạch hằng ngày](#Kế-hoạch-hàng-ngày)
+- [Coding Question Practice](#coding-question-practice)
+- [Coding Problems](#coding-problems)
+
+### Topics of Study
+
 - [Độ phức tạp của thuật toán / Big-O / Phân tích tiệm cận](#độ-phức-tạp-của-thuật-toán--big-o--phân-tích-tiệm-cận)
 - [Cấu trúc dữ liệu](#cấu-trúc-dữ-liệu)
     - [Arrays](#arrays)
@@ -119,15 +133,22 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
 - [Tống kết](#tổng-kết)
 - [Thực hành các câu hỏi về lập trình](#thực-hành-các-câu-hỏi-về-lập-trình)
 - [Giải bài tập lập trình](#giải-bài-tập-lập-trình)
-- [Khi bạn tiến gần đến kỳ phỏng vấn](#khi-bạn-tiến-gần-đến-kỳ-phỏng-vấn)
+
+### Getting the Job
+
 - [Lý lịch (Resume) của bạn](#lý-lịch-resume-của-bạn)
+- [Khi bạn tiến gần đến kỳ phỏng vấn](#khi-bạn-tiến-gần-đến-kỳ-phỏng-vấn)
+- [Quy trình phỏng vấn & các bước chuẩn bị tổng quát](#quy-trình-phỏng-vấn--các-bước-chuẩn-bị-tổng-quát)
 - [Hãy nghĩ đến những thứ bạn sẽ được hỏi](#hãy-nghĩ-đến-những-thứ-bạn-sẽ-được-hỏi)
 - [Chuẩn bị câu hỏi dành cho phỏng vấn viên](#chuẩn-bị-câu-hỏi-dành-cho-phỏng-vấn-viên)
 - [Khi bạn được nhận việc](#khi-bạn-được-nhận-việc)
 
----------------- Những mục dưới đây là tuỳ chọn ----------------
+**---------------- Những mục dưới đây là tuỳ chọn  ----------------**
+
+### Optional Extra Topics & Resources
 
 - [Sách bổ sung](#sách-bổ-sung)
+- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
 - [Học thêm](#học-thêm)
     - [Trình biên dịch](#trình-biên-dịch)
     - [Emacs và vi(m)](#emacs-và-vim)
@@ -160,6 +181,7 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [k-D Trees](#k-d-trees)
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
+    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [Math for Fast Processing](#math-for-fast-processing)
     - [Treap](#treap)
     - [Linear Programming](#linear-programming)
@@ -233,20 +255,6 @@ Lynda.com thì không miễn phí.
 
     Tôi sẽ rất cảm kích sự hỗ trợ của các bạn trong việc thêm các nguồn video miễn phí và luôn sẵn có, ví dụ như Youtube, để hỗ trợ nguồn video từ các khóa học online.
     Tôi cũng rất thích xem các bài giảng của các trường đại học.
-
-
-## Quy trình phỏng vấn & các bước chuẩn bị tổng quát
-
-- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [4 bước đến Google dù không có bằng cấp](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
-- [ ] [Whiteboarding (Giải toán lập trình trên bảng trắng)](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Google nghĩ thế nào về Tuyển dụng, Quản lý và Văn hóa](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
-- [ ] Cracking The Coding Interview Set 1:
-    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] Làm thế nào để lấy được công việc ở Big 4:
-    - [ ] [Làm sao để lấy được công việc ở Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-- [ ] [Thất bại trong cuộc phỏng vấn với Google](http://alexbowe.com/failing-at-google-interviews/)
 
 
 ## Chọn ngôn ngữ lập trình cho cuộc phỏng vấn
@@ -411,7 +419,7 @@ hoặc:
     - Sách tạm được, nhưng sau khi làm việc với các bài toán trong vài trang, tôi thấy nhức đầu với ngôn ngữ Pascal, do-while loop, mảng bắt đầu với số 1 (thay vì 0 như Java, C, C++, ...), và một vài thông tin không rõ ràng.
     - Lẽ ra nên dành thời gian để giải toán từ các quyển sách khác hoặc làm toán lập trình online.
 
-## Trước khi bắt đầu
+## Đừng phạm sai lầm của tôi
 
 Danh sách này ngày càng dài theo năm tháng và tôi phải thừa nhận là nó ngoài tầm kiểm soát.
 
@@ -466,6 +474,19 @@ Danh sách lớn này bắt đầu như một bản To-do lược trích từ Hu
 - HTML, CSS, và các công nghệ thiết kế giao diện người dùng ("front-end").
 
 
+## Kiến thức tiên quyết
+
+- [ ] **Học C**
+    - C có ở khắp nơi. Bạn sẽ thấy các ví dụ trong sách, bài giảng, video, bất kỳ đâu mà bạn học.
+    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Sách ngắn, nhưng nó sẽ cho bạn một nền tảng tốt về C, và nếu bạn luyện tập nhiều hơn, bạn sẽ nhanh chóng thành thạo nó. Hiểu về C giúp bạn hiểu cách các chương trình và bộ nhớ hoạt động.
+        - [Lời giải cho các câu hỏi](https://github.com/lekkas/c-algorithms)
+
+- [ ] **Máy tính thực thi một chương trình như thế nào?**
+    - [ ] [CPU thực thi chương trình thế nào (How does CPU execute program) - video](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [Tập lệnh mã máy (Machine Code Instructions) - video](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+
+
 ## Kế hoạch hàng ngày
 
 Một vài môn học chỉ mất một ngày, vài môn khác có thể mất nhiều ngày. Có vài môn chỉ có thể học thôi chứ không cài đặt được gì.
@@ -499,17 +520,70 @@ Bạn không cần phải ghi nhớ cặn kẽ từ giải thuật.
 Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy tính. Chạy thử trên giấy với vài bộ dữ liệu mẫu, sau đó chạy thử thuật toán của bạn trên một máy tính.
 
 
-## Kiến thức tiên quyết
+## Coding Question Practice
 
-- [ ] **Học C**
-    - C có ở khắp nơi. Bạn sẽ thấy các ví dụ trong sách, bài giảng, video, bất kỳ đâu mà bạn học.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - Sách ngắn, nhưng nó sẽ cho bạn một nền tảng tốt về C, và nếu bạn luyện tập nhiều hơn, bạn sẽ nhanh chóng thành thạo nó. Hiểu về C giúp bạn hiểu cách các chương trình và bộ nhớ hoạt động.
-        - [Lời giải cho các câu hỏi](https://github.com/lekkas/c-algorithms)
+    Why is this here? I'm not ready to interview.
 
-- [ ] **Máy tính thực thi một chương trình như thế nào?**
-    - [ ] [CPU thực thi chương trình thế nào (How does CPU execute program) - video](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Tập lệnh mã máy (Machine Code Instructions) - video](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
+
+Why you need to practice doing programming problems:
+- Problem recognition, and where the right data structures and algorithms fit in
+- Gathering requirements for the problem
+- Talking your way through the problem like you will in the interview
+- Coding on a whiteboard or paper, not a computer
+- Coming up with time and space complexity for your solutions (see Big-O below)
+- Testing your solutions
+
+There is a great intro for methodical, communicative problem-solving in an interview. You'll get this from the programming
+interview books, too, but I found this outstanding:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+
+Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
+
+If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice.
+This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase.
+Gets messy quickly. **I use a pencil and eraser.**
+
+![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**Coding question practice is not about memorizing answers to programming problems.**
+
+## Coding Problems
+
+Don't forget your key coding interview books [here](#interview-prep-books).
+
+Solving Problems:
+- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+
+Coding Interview Question Videos:
+- [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Super for walkthroughs of problem solutions
+- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Good explanations of the solution and the code
+    - You can watch several in a short time
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+
+Challenge/Practice sites:
+- [LeetCode](https://leetcode.com/)
+    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
+    - See Nick White and FisherCoder Videos above for code walk-throughs.
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Codeforces](https://codeforces.com/)
+- [Codility](https://codility.com/programmers/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [AlgoExpert](https://www.algoexpert.io/product)
+    - Created by Google engineers, this is also an excellent resource to hone your skills.
+- [Project Euler](https://projecteuler.net/)
+    - very math-focused, and not really suited for coding interviews
+
+## Let's Get Started
+
+Alright, enough talk, let's learn!
+
+But don't forget to do coding problems from above while you learn!
 
 ## Độ phức tạp của thuật toán / Big-O / Phân tích tiệm cận
 - Link được giữ nguyên theo bản tiếng Anh
@@ -1387,6 +1461,12 @@ Các trang giải toán lập trình:
 Xem thêm:
 - [Phỏng vấn thử nghiệm](http://www.gainlo.co/#!/)
 
+## Lý lịch (Resume) của bạn
+
+- [10 mẹo để Resume bớt (một chút) tào lao](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- Xem các phần về chuẩn bị Resume trong [Cracking The Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/) và [Programming Interviews Exposed](https://www.amazon.com/Programming-Interviews-Exposed-Secrets-Landing/dp/1118261364)
+
+
 
 ## Khi bạn tiến gần đến kỳ phỏng vấn
 
@@ -1395,10 +1475,18 @@ Xem thêm:
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
     - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Lý lịch (Resume) của bạn
+## Quy trình phỏng vấn & các bước chuẩn bị tổng quát
 
-- [10 mẹo để Resume bớt (một chút) tào lao](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- Xem các phần về chuẩn bị Resume trong [Cracking The Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/) và [Programming Interviews Exposed](https://www.amazon.com/Programming-Interviews-Exposed-Secrets-Landing/dp/1118261364)
+- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [ ] [4 bước đến Google dù không có bằng cấp](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
+- [ ] [Whiteboarding (Giải toán lập trình trên bảng trắng)](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [Google nghĩ thế nào về Tuyển dụng, Quản lý và Văn hóa](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
+- [ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] Làm thế nào để lấy được công việc ở Big 4:
+    - [ ] [Làm sao để lấy được công việc ở Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+- [ ] [Thất bại trong cuộc phỏng vấn với Google](http://alexbowe.com/failing-at-google-interviews/)
 
 
 ## Hãy nghĩ đến những thứ bạn sẽ được hỏi
@@ -1471,6 +1559,119 @@ Bạn không bao giờ thực sự học xong!
 - [ ] [Site Reliability Engineering](https://landing.google.com/sre/book.html)
     - [Site Reliability Engineering: Google chạy các hệ thống của họ như thế nào](https://landing.google.com/sre/)
 - [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
+
+## System Design, Scalability, Data Handling
+
+**You can expect system design questions if you have 4+ years of experience.**
+
+- Scalability and System Design are very large topics with many topics and resources, since
+      there is a lot to consider when designing a software/hardware system that can scale.
+      Expect to spend quite a bit of time on this
+- Considerations:
+    - Scalability
+        - Distill large data sets to single values
+        - Transform one data set to another
+        - Handling obscenely large amounts of data
+    - System design
+        - features sets
+        - interfaces
+        - class hierarchies
+        - designing a system under certain constraints
+        - simplicity and robustness
+        - tradeoffs
+        - performance analysis and optimization
+- [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+- [ ] [How Do I Prepare To Answer Design Questions In A Technical Interview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
+- [ ] [8 steps guide to ace your system design interview](https://javascript.plainenglish.io/8-steps-guide-to-ace-a-system-design-interview-7a5a797f4d7d)
+- [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
+- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below
+- [ ] [How to ace a systems design interview](https://web.archive.org/web/20120716060051/http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+- [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+- [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
+- [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
+- [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
+- [ ] [MIT 6.824: Distributed Systems, Spring 2020 (20 videos)](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+- [ ] Consensus Algorithms:
+    - [ ] Paxos - [Paxos Agreement - Computerphile (video)](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+    - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)
+        - [ ] [Easy-to-read paper](https://raft.github.io/)
+        - [ ] [Infographic](http://thesecretlivesofdata.com/raft/)
+- [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+- [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+- [ ] Scalability:
+    - You don't need all of these. Just pick a few that interest you.
+    - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] Short series:
+        - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+        - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+        - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+        - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+    - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
+    - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+    - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
+    - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+    - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
+    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
+    - [ ] [The Importance of Algorithms](https://www.topcoder.com/thrive/articles/The%20Importance%20of%20Algorithms)
+    - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+    - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+    - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
+        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
+    - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
+    - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
+    - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
+    - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
+    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
+    - [ ] [Google's Transition From Single Datacenter To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+    - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+    - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
+    - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
+    - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
+    - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
+    - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
+    - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
+    - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+    - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
+    - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
+    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+    - [ ] Twitter:
+        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
+        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
+    - For even more, see the "Mining Massive Datasets" video series in the [Video Series](#video-series) section
+- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
+    - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+    - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
+    - flow:
+        1. Understand the problem and scope:
+            - Define the use cases, with the interviewer's help
+            - Suggest additional features
+            - Remove items that the interviewer deems out of scope
+            - Assume high availability is required, add as a use case
+        2. Think about constraints:
+            - Ask how many requests per month
+            - Ask how many requests per second (they may volunteer it or make you do the math)
+            - Estimate reads vs. writes percentage
+            - Keep the 80/20 rule in mind when estimating
+            - How much data is written per second
+            - Total storage required over 5 years
+            - How much data read per second
+        3. Abstract design:
+            - Layers (service, data, caching)
+            - Infrastructure: load balancing, messaging
+            - Rough overview of any key algorithm that drives the service
+            - Consider bottlenecks and determine solutions
+    - Exercises:
+        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
+        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
+        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
+        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
+        - [Design a cache system](https://web.archive.org/web/20220217064329/https://adayinthelifeof.nl/2011/02/06/memcache-internals/)
+
 
 ## Học thêm
 
@@ -1720,6 +1921,10 @@ Bạn không bao giờ thực sự học xong!
     - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+
+- ### Disjoint Sets & Union Find
+    - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
+    - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
 
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)

@@ -77,7 +77,7 @@ Có rất nhiều điều để học trong một chương trình Khoa học Má
 - [Những phần không được đề cập](#những-phần-không-được-đề-cập)
 - [Kiến thức tiên quyết](#kiến-thức-tiên-quyết)
 - [Kế hoạch hằng ngày](#Kế-hoạch-hàng-ngày)
-- [Coding Question Practice](#coding-question-practice)
+- [Luyện tập các câu hỏi coding](#luyện-tập-các-câu-hỏi-coding)
 - [Coding Problems](#coding-problems)
 
 ### Topics of Study
@@ -453,11 +453,30 @@ Có thể thay thế thẻ ghi nhớ với [Anki](http://ankisrs.net/), đây l�
 
 Cơ sở dữ liệu thẻ ghi nhớ của tôi tuân theo chuẩn định dạng của Anki: https://ankiweb.net/shared/info/25173560 (cảm ơn [@xiewenya](https://github.com/xiewenya))
 
-### 3. Xem đi xem lại và xem lại nữa
-
 Tôi giữ một danh sách xem nhanh các mã của ASCII, OSI stack, định nghĩa về Big-O, và nhiều hơn nữa. Tôi đọc bất cứ khi nào rảnh rỗi.
 
 Khi gặp vấn đề trong lúc code, nghỉ ngơi chừng nửa giờ và đọc lại các thẻ ghi nhớ.
+
+### 3. Làm Câu Hỏi Phỏng Vấn Lập Trình Trong Khi Bạn Đang Học
+
+ĐIỀU NÀY RẤT QUAN TRỌNG.
+
+Bắt đầu làm câu hỏi phỏng vấn lập trình trong khi bạn đang học cấu trúc dữ liệu và thuật toán.
+
+Bạn cần áp dụng những gì bạn đang học để giải quyết vấn đề, nếu không bạn sẽ quên. Tôi đã mắc phải lỗi này.
+
+Một khi bạn đã học một chủ đề, và cảm thấy khá thoải mái với nó, ví dụ, **danh sách liên kết**:
+1. Mở một trong những [sách phỏng vấn lập trình](#danh-mục-sách) (hoặc trang web về vấn đề lập trình, được liệt kê dưới đây)
+1. Làm 2 hoặc 3 câu hỏi liên quan đến danh sách liên kết.
+1. Chuyển sang chủ đề học tiếp theo.
+1. Sau đó, quay lại và làm thêm 2 hoặc 3 vấn đề về danh sách liên kết.
+1. Làm như vậy với mỗi chủ đề mới bạn học.
+
+**Tiếp tục làm các vấn đề trong khi bạn đang học tất cả những điều này, không phải sau này.**
+
+Bạn không được tuyển dụng vì kiến thức, mà là cách bạn áp dụng kiến thức.
+
+Có rất nhiều nguồn lực cho điều này, được liệt kê dưới đây. Hãy tiếp tục.
 
 ### 4. Tập trung
 
@@ -520,70 +539,70 @@ Bạn không cần phải ghi nhớ cặn kẽ từ giải thuật.
 Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy tính. Chạy thử trên giấy với vài bộ dữ liệu mẫu, sau đó chạy thử thuật toán của bạn trên một máy tính.
 
 
-## Coding Question Practice
+## Luyện tập các câu hỏi coding
 
-    Why is this here? I'm not ready to interview.
+    Tại sao cái này lại ở đây? Tôi chưa sẵn sàng để phỏng vấn.
 
 [Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
 
-Why you need to practice doing programming problems:
-- Problem recognition, and where the right data structures and algorithms fit in
-- Gathering requirements for the problem
-- Talking your way through the problem like you will in the interview
-- Coding on a whiteboard or paper, not a computer
-- Coming up with time and space complexity for your solutions (see Big-O below)
-- Testing your solutions
+Lý do bạn cần thực hành giải các bài toán lập trình:
+- Nhận biết vấn đề, và xác định cấu trúc dữ liệu và thuật toán phù hợp
+- Thu thập yêu cầu cho vấn đề
+- Trình bày quá trình giải quyết vấn đề như bạn sẽ làm trong buổi phỏng vấn
+- Lập trình trên bảng trắng hoặc giấy, không phải máy tính
+- Đưa ra độ phức tạp về thời gian và không gian cho các giải pháp của bạn (xem Big-O dưới đây)
+- Kiểm tra các giải pháp của bạn
 
-There is a great intro for methodical, communicative problem-solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+Có một lời giới thiệu tuyệt vời về việc giải quyết vấn đề một cách có phương pháp và giao tiếp trong một cuộc phỏng vấn.
+Bạn cũng sẽ nhận được điều này từ các sách phỏng vấn lập trình, nhưng tôi thấy điều này xuất sắc::
+[Thuật toán thiết kế canvas](http://www.hiredintech.com/algorithm-design/)
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
+Viết mã trên bảng trắng hoặc giấy, không phải máy tính. Kiểm tra với một số đầu vào mẫu. Sau đó gõ nó và kiểm tra nó trên máy tính.
 
-If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice.
-This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase.
-Gets messy quickly. **I use a pencil and eraser.**
+Nếu bạn không có bảng trắng ở nhà, hãy mua một tờ giấy vẽ lớn từ cửa hàng mỹ thuật. Bạn có thể ngồi trên ghế sofa và thực hành.
+Đây là "bảng trắng sofa" của tôi. Tôi đã thêm bút vào ảnh chỉ để đo lường. Nếu bạn sử dụng bút, bạn sẽ ước gì mình có thể tẩy.
+Nhanh chóng trở nên lộn xộn. **Tôi sử dụng 1 chiếc bút chì và 1 cục gôm.**
 
-![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+![bảng trắng sofa của tôi](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**Việc luyện tập giải các bài toán lập trình không phải là việc học thuộc lòng các câu trả lời cho các vấn đề lập trình.**
 
-## Coding Problems
+## Các Bài Toán Lập Trình
 
-Don't forget your key coding interview books [here](#interview-prep-books).
+Đừng quên các sách phỏng vấn lập trình quan trọng của bạn [ở đây](#interview-prep-books).
 
-Solving Problems:
-- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
-- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+iải quyết vấn đề:
+- [Cách tìm ra một giải pháp](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [Cách phân tích một bài toán Topcoder](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
 
-Coding Interview Question Videos:
+Video Câu Hỏi Phỏng Vấn Lập Trình:
 - [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
     - Super for walkthroughs of problem solutions
-- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of the solution and the code
-    - You can watch several in a short time
-- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+- [Nick White - Giải pháp LeetCode (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Giải thích tốt về giải pháp và  code
+    - Bạn có thể xem nhiều video trong một thời gian ngắn
+- [FisherCoder - Giải pháp LeetCode](https://youtube.com/FisherCoder)
 
-Challenge/Practice sites:
+Trang web Thử thách/Thực hành:
 - [LeetCode](https://leetcode.com/)
-    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
-    - See Nick White and FisherCoder Videos above for code walk-throughs.
+    - Trang web bài toán lập trình yêu thích của tôi. Đáng giá số tiền đăng ký cho 1-2 tháng bạn có thể chuẩn bị.
+    - Xem video của Nick White và FisherCoder ở trên để xem hướng dẫn code.
 - [HackerRank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Codeforces](https://codeforces.com/)
 - [Codility](https://codility.com/programmers/)
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
 - [AlgoExpert](https://www.algoexpert.io/product)
-    - Created by Google engineers, this is also an excellent resource to hone your skills.
+    - Được tạo bởi các kỹ sư của Google, đây cũng là một nguồn tài nguyên tuyệt vời để trau dồi kỹ năng của bạn.
 - [Project Euler](https://projecteuler.net/)
-    - very math-focused, and not really suited for coding interviews
+    - Rất tập trung vào toán học và không thực sự phù hợp với các cuộc phỏng vấn viết mã
 
-## Let's Get Started
+## Bắt Đầu Nào
 
-Alright, enough talk, let's learn!
+Được rồi, nói đủ nhiều rồi, hãy cùng học nào!
 
-But don't forget to do coding problems from above while you learn!
+Nhưng đừng quên làm các bài toán lập trình ở phía trên trong khi bạn đang học!
 
 ## Độ phức tạp của thuật toán / Big-O / Phân tích tiệm cận
 - Link được giữ nguyên theo bản tiếng Anh

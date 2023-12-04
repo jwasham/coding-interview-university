@@ -1390,20 +1390,20 @@ Have a story, not just data, about something you accomplished.
 - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
 
 
-## Have questions for the interviewer
+## Mülakatı yapan kişiye muhakkak sorularınız olsun
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Benim bazı sorularım (cevabını bilsem de onların görüşünü veya takımın bakış açısını isteyebilirim):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
-- How is work/life balance?
+- Takımınız kaç kişi?
+- Geliştirici döngüsü nasıl? Waterfall/sprints/agile olarak mı çalışıyorsunuz?
+- Teslim tarihlerine yetişmeye çalışma yaygın mıdır? Yoksa esneklik mevcut mu?
+- Takımınızda kararlar nasıl verilir? 
+- Haftada kaç toplantınız oluyor?
+- İş ortamınız odaklanmanıza yardımcı oluyor mu?
+- Neyin üzerinde çalışıyorsunuz?
+- İşinizle ilgili neyi seviyorsunuz?
+- İş hayatı nasıldır?
+- İş yaşam dengesi nasıldır?
 
 
 ## Once You've Got The Job

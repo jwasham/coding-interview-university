@@ -839,7 +839,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - Mapa adyacente.
     - Familiarícese con cada representación y sus pros y contras.
     - BFS and DFS – Conozca su complejidad computacional, sus compromisos y cómo implementarlos en código real.
-    - Cuando se le haga una pregunta busqué una solución basada en grafos, si no encuentra continúe.
+    - Cuando se le haga una pregunta busque una solución basada en grafos. Si no la encuentra, continúe.
 
 - [ ] Lecturas de Skiena – Gran introducción):
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
@@ -868,7 +868,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
 - Curso Completo de Coursera:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- Implementaré:
+- Implementar:
     - [ ] DFS con lista de adyacencia (recursión)
     - [ ] DFS con la lista de adyacencia (iterativa con la pila)
     - [ ] DFS con matriz de adyacencia (recursión)
@@ -880,8 +880,8 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
     - Algoritmos basados en DFS (ver videos de Aduni arriba):
         - [ ] Comprobar el ciclo (necesario para el tipo topológico, ya que vamos a comprobar el ciclo antes de comenzar)
         - [ ] Clasificación topológica.
-        - [ ] Cuenta los componentes conectados en un grafo.
-        - [ ] Lista de componentes fuertemente conectados.
+        - [ ] Cuenta los componentes conexos en un grafo.
+        - [ ] Lista de componentes fuertemente conexos.
         - [ ] Verificación de grafo bipartito.
 
 
@@ -1102,11 +1102,11 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Planificador
-    - En un SO, Como funciona
-    - Se pueden obtener de los videos del sistema operativo
+    - En un SO, ¿Cómo funciona?
+    - Se pueden obtener de los videos del sistema operativo.
 
 - ### Implementar rutinas del sistema
-    - Entienda lo que hay debajo de las API de programación que usa
+    - Entienda lo que hay debajo de las API de programación que usa.
     - ¿Puede implementarlas?
 
 - ### Búsqueda de cadenas y manipulaciones
@@ -1146,7 +1146,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
     - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
     - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
 
-- ### Extremidad (Endianness)
+- ### Extremidad o "Endianismo" (Endianness)
     - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0):
@@ -1273,14 +1273,14 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
             - Asumir alta disponibilidad es necesario, añadir como un caso de uso.
         2. Piense en las limitaciones:
             - Preguntar cuántas solicitudes por mes.
-            - Preguntar cuántas solicitudes por segundo (que pueden ser voluntario o hacer que usted haga las matemáticas)
+            - Preguntar cuántas solicitudes por segundo (que pueden ser voluntario o hacer que usted haga las matemáticas).
             - Lectura de estimación vs. Escribir porcentajes.
             - Tenga en cuenta la regla 80/20 al estimar.
             - La cantidad de datos escritos por segundo.
             - Almacenamiento total requerido durante 5 años.
             - La cantidad de datos leídos por segundo.
         3. Diseño abstracto:
-            - Capas (servicio, datos, almacenamiento en caché)
+            - Capas (servicio, datos, almacenamiento en caché).
             - Infraestructura: balanceo de carga, mensajería.
             - Descripción aproximada de cualquier algoritmo clave que impulsa el servicio.
             - Considerar los cuellos de botella y determinar las soluciones.
@@ -1308,13 +1308,13 @@ Es bueno si quieres repasar frecuentemente.
 
 ---
 
-## Practica de preguntas de codificación
+## Practica de preguntas de programación
 
-Ahora que conoce todos los tópicos de las Ciencias de la Computación mencionados anteriormente, es tiempo de practicar respondiendo algunos problemas de codificación.
+Ahora que conoce todos los tópicos de las Ciencias de la Computación mencionados anteriormente, es tiempo de practicar respondiendo algunos problemas de programación.
 
-**La practica de preguntas de codificación no es sobre memorizar respuestas a problemas de programación.**
+**La práctica de preguntas de programación no es sobre memorizar respuestas a problemas.**
 
-Porque necesita practicar haciendo problemas de programación:
+Por qué necesita practicar haciendo problemas de programación:
 - El reconocimiento de problemas, y donde las estructuras de datos y algoritmos adecuados encajan.
 - Reunir los requisitos para el problema.
 - Hablar sobre su camino a través del problema como lo hará en la entrevista.
@@ -1324,16 +1324,16 @@ Porque necesita practicar haciendo problemas de programación:
 Hay una gran introducción para la solución de problemas metódicos y comunicativos en una entrevista. Conseguirá esto de los libros para la entrevista de programación también, pero encontré esto excepcional:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-¿No tiene pizarrón en casa? Hace sentido. Soy un bicho raro y tengo una pizarra grande. En vez de una pizarra blanca, recoja un gran cuadernillo de dibujo de una tienda de arte. Puede sentarse en el sofá y practicar. Esta es mi "pizarra de sofá". He añadido la pluma en la foto para la escala. Si usa un bolígrafo, deseará poder borrarlo. Se ensucia rápido.
+¿No tiene pizarrón en casa? Tiene sentido. Soy un bicho raro y tengo una pizarra grande. En vez de una pizarra blanca, recoja un gran cuadernillo de dibujo de una tienda de arte. Puede sentarse en el sofá y practicar. Esta es mi "pizarra de sofá". He añadido la pluma en la foto para la escala. Si usa un bolígrafo, deseará poder borrarlo. Se ensucia rápido.
 
 ![my sofa whiteboard](https://camo.githubusercontent.com/4b2dfa34fd739404edcc014f89b5432ab1ec9cfebecce1d59b9f7986826d03cf/68747470733a2f2f64336a32706b6d6a74696e366f752e636c6f756466726f6e742e6e65742f6172745f626f6172645f736d5f322e6a7067)
 
-Complementarios:
+Complementos:
 - [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 
-**Lea y haga problemas de programación (en ese orden):**
+**Lea y resuelva problemas de programación (en ese orden):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html):
     - Respuestas en C, C++ y Java
@@ -1342,9 +1342,9 @@ Complementarios:
 
 Vea [Lista de libros](#lista-de-libros)
 
-## Ejercicios de codificación/Desafíos
+## Ejercicios de programación/Desafíos
 Una vez haya aprendido, ponga ese cerebro a trabajar.
-Tome desafíos de codificación todos los días y tantos como pueda.
+Tome desafíos de programación todos los días y tantos como pueda.
 
 - [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 - [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)

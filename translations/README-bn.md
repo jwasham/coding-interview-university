@@ -521,9 +521,9 @@ https://github.com/jwasham/coding-interview-university
 আমার প্রতিটি বিষয়ের জন্য এগুলি করার জন্য সময় নাও থাকতে পারে তবে আমি চেষ্টা করব।
  
 আপনি আমার কোডটি এখানে দেখতে পারেন:
--[সি] (https://github.com/jwasham/pੈਕਟ-c)
--[সি ++] (https://github.com/jwasham/pੈਕਟ-cpp)
--[পাইথন] (https://github.com/jwasham/pੈਕਟ-python)
+- [সি] (https://github.com/jwasham/pੈਕਟ-c)
+- [সি ++] (https://github.com/jwasham/pੈਕਟ-cpp)
+- [পাইথন] (https://github.com/jwasham/pੈਕਟ-python)
  
 আপনার প্রতিটি অ্যালগরিদমের সাহস মুখস্থ করার দরকার নেই।
  
@@ -534,14 +534,14 @@ https://github.com/jwasham/coding-interview-university
 <details>
 <সংশ্লেষ> পূর্বশর্ত জ্ঞান << সংক্ষিপ্ত>
  
--  ** সি ** শিখুন
+-  **সি** শিখুন
    -সি সর্বত্র আছে। আপনি অধ্যয়নরত অবস্থায় আপনি বই, বক্তৃতা, ভিডিও, * সর্বত্র * এর উদাহরণ দেখতে পাবেন।
    -  [সি প্রোগ্রামিং ল্যাঙ্গুয়েজ, খণ্ড ২] (https://www.amazon.com/Programming-Language-ব্রায়ান-ডব্লিউ-কর্নিগান/dp/0131103628)
        -এটি একটি সংক্ষিপ্ত বই, তবে এটি আপনাকে সি ভাষায় দুর্দান্ত হ্যান্ডেল দেবে এবং যদি আপনি এটি কিছুটা অনুশীলন করেন
             আপনি দ্রুত দক্ষ হয়ে উঠবেন। সি বোঝা আপনাকে প্রোগ্রাম এবং মেমরি কীভাবে কাজ করে তা বুঝতে সহায়তা করে।
        -[প্রশ্নের উত্তর] (https://github.com/lekkas/c-algorithms)
  
--  ** কম্পিউটার কীভাবে কোনও প্রোগ্রাম প্রক্রিয়া করে: **
+-  **কম্পিউটার কীভাবে কোনও প্রোগ্রাম প্রক্রিয়া করে:**
    -  [সিপিইউ কীভাবে একটি প্রোগ্রাম (ভিডিও) চালায়]] (https://www.youtube.com/watch?v=XM4lGflQFvA)
    -  [কম্পিউটারগুলি কীভাবে গণনা করে-ALU (ভিডিও)] (https://youtu.be/1I5ZMmrOfnA)
    -  [নিবন্ধসমূহ এবং র‌্যাম (ভিডিও)] (https://youtu.be/fpnE6UAfbtU)
@@ -750,12 +750,12 @@ https://github.com/jwasham/coding-interview-university
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - ইমপ্লিমেন্টের প্রয়োজন নাই।
  
--###স্ট্যাক
+- ### স্ট্যাক
    -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
    - ] বাস্তবায়ন করবে না। অ্যারের সাথে প্রয়োগ করা তুচ্ছ।
  
--###কিউ
+- ### কিউ
    -  [সারি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/queues-EShpq)
    -  [বিজ্ঞপ্তি বাফার / ফিফো] (https://en.wikedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
@@ -775,7 +775,7 @@ https://github.com/jwasham/coding-interview-university
        -প্রামাণ্য: ও (1) (লিঙ্কযুক্ত তালিকা এবং অ্যারে)
        -খালি: O (1) (লিঙ্কযুক্ত তালিকা এবং অ্যারে)
  
--###হ্যাশ টেবিল
+- ### হ্যাশ টেবিল
    -  ভিডিওগুলি:
        -  [চেইনিংয়ের সাথে হ্যাশিং (ভিডিও)] (https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
        -  [সারণী দ্বিগুণ, কার্প-রবিন (ভিডিও)] (https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -802,12 +802,12 @@ https://github.com/jwasham/coding-interview-university
  
 </details>
  
-##আরও জ্ঞান
+## আরও জ্ঞান
  
 <details>
 <summary>আরও জ্ঞান << সংক্ষিপ্ত>
  
--###বাইনারি অনুসন্ধান
+- ### বাইনারি অনুসন্ধান
    -  [বাইনারি অনুসন্ধান (ভিডিও)] (https://www.youtube.com/watch?v=D5SrAga1pno)
    -  [বাইনারি সন্ধান (ভিডিও)] (https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
    -  [বিস্তারিত] (https://www.topcoder.com/commune/competitive-programming/tutorials/binary-search/)
@@ -816,7 +816,7 @@ https://github.com/jwasham/coding-interview-university
        -বাইনারি অনুসন্ধান (পূর্ণসংখ্যার সাজানো অ্যারেতে)
        -পুনরাবৃত্তি ব্যবহার করে বাইনারি অনুসন্ধান
  
--###বিটওয়াস অপারেশন
+- ### বিটওয়াস অপারেশন
    -  [বিটস চিট শিট] (https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bit-cheat-sheet.pdf)-আপনার অনেকগুলি জানা উচিত 2 এর ক্ষমতা (2 ^ 1 থেকে 2 ^ 16 এবং 2 ^ 32)
    -  এর সাথে বিটগুলি ম্যানিপুলেটেড সম্পর্কে সত্যই উপলব্ধি পান: &, |, ^, ~, >> >> <<
        -  [শব্দ] (https://en.wikedia.org/wiki/Word_ (কম্পিউটার_আরকিটেকচার))
@@ -829,56 +829,56 @@ https://github.com/jwasham/coding-interview-university
        -  [বিট টুইডলার] (https://bit.stephan-brumme.com/)
        -  [বিট টুইডলার ইন্টারেক্টিভ] (https://bit.stephan-brumme.com/interactive.html)
    -  2 এস এবং 1 এস পরিপূরক
-       -[বাইনারি: প্লাসসেস এবং মিনিনস (কেন আমরা দু'জনের কমপ্লিমেন্ট ব্যবহার করি) (ভিডিও)] (https://www.youtube.com/watch?v=lKTsv6iVxV4)
-       -[১ এস পরিপূরক] (https://en.wikedia.org/wiki/Ones%27_complement)
-       -[2 এস পরিপূরক] (https://en.wikedia.org/wiki/Two%27s_complement)
+       - [বাইনারি: প্লাসসেস এবং মিনিনস (কেন আমরা দু'জনের কমপ্লিমেন্ট ব্যবহার করি) (ভিডিও)] (https://www.youtube.com/watch?v=lKTsv6iVxV4)
+       - [১ এস পরিপূরক] (https://en.wikedia.org/wiki/Ones%27_complement)
+       - [2 এস পরিপূরক] (https://en.wikedia.org/wiki/Two%27s_complement)
    -  সেট বিট গণনা করুন
-       -[বাইট (ভিডিও) এ বিট গণনা করার 4 টি উপায়] (https://youtu.be/Hzuzo9NJrlc)
-       -[বিট গণনা করুন) (https://ographicics.stanford.edu/~seender/bithacks.html#CountBitsSetKernighan)
-       -[32 বিট পূর্ণসংখ্যায় সেট বিটের সংখ্যা কীভাবে গণনা করবেন] (http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-િટ-in-a-32-বিট-পূর্ণসংখ্যা)
+       - [বাইট (ভিডিও) এ বিট গণনা করার 4 টি উপায়] (https://youtu.be/Hzuzo9NJrlc)
+       - [বিট গণনা করুন) (https://ographicics.stanford.edu/~seender/bithacks.html#CountBitsSetKernighan)
+       - [32 বিট পূর্ণসংখ্যায় সেট বিটের সংখ্যা কীভাবে গণনা করবেন] (http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-િટ-in-a-32-বিট-পূর্ণসংখ্যা)
    -  পরের পাওয়ার 2 এর রাউন্ড:
-       -[দু'জনের পরের শক্তিতে রাউন্ড আপ] (https://bit.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+       - [দু'জনের পরের শক্তিতে রাউন্ড আপ] (https://bit.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
    -[  অদলবদল মান:
-       -[অদলবদল (https://bit.stephan-brumme.com/swap.html)
+       - [অদলবদল (https://bit.stephan-brumme.com/swap.html)
    -  নিখুঁত মান:
-       -[নিখুঁত পূর্ণসংখ্যার] (https://bit.stephan-brumme.com/absInteger.html)
+       - [নিখুঁত পূর্ণসংখ্যার] (https://bit.stephan-brumme.com/absInteger.html)
  
 </details>
  
-##গাছ
+## ট্রি/গাছ
  
 <details>
-<summary>গাছ </summary>
+<summary>ট্রি/গাছ </summary>
  
--###গাছ-নোট ও পটভূমি
+- ### ট্রি-নোট ও পটভূমি
    -  [সিরিজ: গাছ (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / 95qda/trees)
-   -মৌলিক গাছ নির্মাণ
-   -traversal
-   -ম্যানিপুলেশন আলগোরিদিম
+   - মৌলিক গাছ নির্মাণ
+   - traversal
+   - ম্যানিপুলেশন আলগোরিদিম
    -  [বিএফএস (প্রস্থের প্রথম সন্ধান) এবং ডিএফএস (গভীরতা-প্রথম অনুসন্ধান) (ভিডিও)] (https://www.youtube.com/watch?v=uWL6FJhq5fM)
-       -বিএফএস নোট:
-          -স্তর আদেশ (বিএফএস, সারি ব্যবহার করে)
-          -সময়ের জটিলতা: ও (এন)
-          -স্থান জটিলতা: সেরা: O (1), সবচেয়ে খারাপ: O (n / 2) = O (n)
-       -ডিএফএস নোট:
-           -সময়ের জটিলতা: ও (এন)
-           -স্থান জটিলতা:
+       - বিএফএস নোট:
+          - স্তর আদেশ (বিএফএস, সারি ব্যবহার করে)
+          - সময়ের জটিলতা: ও (এন)
+          - স্থান জটিলতা: সেরা: O (1), সবচেয়ে খারাপ: O (n / 2) = O (n)
+       - ডিএফএস নোট:
+           - সময়ের জটিলতা: ও (এন)
+           - স্থান জটিলতা:
                 সেরা: ও (লগ এন)-গড়। গাছের উচ্চতা
                 সবচেয়ে খারাপ: ও (এন)
-           -অর্ডার (ডিএফএস: বাম, স্ব, ডান)
-           -পোস্টর্ডার (ডিএফএস: বাম, ডান, স্ব)
-           -প্রির্ডার (ডিএফএস: স্ব, বাম, ডান)
+           - অর্ডার (ডিএফএস: বাম, স্ব, ডান)
+           - পোস্টর্ডার (ডিএফএস: বাম, ডান, স্ব)
+           - প্রির্ডার (ডিএফএস: স্ব, বাম, ডান)
     - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
     - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
     - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
--###বাইনারি অনুসন্ধান গাছ: বিএসটি
+- ### বাইনারি অনুসন্ধান গাছ: বিএসটি
    -  [বাইনারি অনুসন্ধান বৃক্ষ পর্যালোচনা (ভিডিও)] (https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
    -  [সিরিজ (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-intr پيداوار-to-binary-search-trees)
        -প্রতীক টেবিল দিয়ে শুরু হয় এবং বিএসটি অ্যাপ্লিকেশনগুলির মধ্য দিয়ে যায়
    -  [পরিচিতি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/E7cXP/intr پيداوار)
    -  [এমআইটি (ভিডিও)] (https://www.youtube.com/watch?v=9Jry5-82I68)
-   -সি / সি ++:
+   - সি / সি ++:
        -  [বাইনারি অনুসন্ধান ট্রি-সি / সি ++ (ভিডিও) তে বাস্তবায়ন]] (https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
        -  [বিএসটি বাস্তবায়ন-স্ট্যাক এবং হিপ (ভিডিও) এ মেমরি বরাদ্দ] (https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
        -  [একটি বাইনারি অনুসন্ধান গাছে নূন্যতম এবং সর্বাধিক উপাদান সন্ধান করুন (ভিডিও)] (https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
@@ -902,8 +902,8 @@ https://github.com/jwasham/coding-interview-university
        -  মুছুন_মূল্য
        -  get_successor // প্রদত্ত মানের পরে গাছের পরবর্তী-সর্বোচ্চ মান প্রদান করে,-1 না হলে
  
--###গাদা / অগ্রাধিকার সারি / বাইনারি হিপ
-   -গাছ হিসাবে ভিজ্যুয়ালাইজড, তবে সাধারণত সঞ্চয়স্থানে লিনিয়ার থাকে (অ্যারে, লিঙ্কযুক্ত তালিকা)
+- ### গাদা / অগ্রাধিকার সারি / বাইনারি হিপ
+   - গাছ হিসাবে ভিজ্যুয়ালাইজড, তবে সাধারণত সঞ্চয়স্থানে লিনিয়ার থাকে (অ্যারে, লিঙ্কযুক্ত তালিকা)
    -  [গাদা] (https://en.wikedia.org/wiki/Heap_ (ডেটা_ স্ট্রাস্ট্রাকচার))
    -  [ভূমিকা (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / 2 অপ্টস / সিন্ট্রোকশন)
    -  [নিষ্পাপ বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-বাস্তবায়ন)
@@ -918,7 +918,7 @@ https://github.com/jwasham/coding-interview-university
    -  [এমআইটি: হিপস এবং হিপ সাজান (ভিডিও)] (https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
    -  [সিএস 61 বি লেকচার 24: অগ্রাধিকার ক্যু (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
    -  [লিনিয়ার টাইম বিল্ডহীপ (সর্বাধিক হিপ)] (https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
+   -  [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
    -  একটি সর্বোচ্চ গাদা প্রয়োগ করুন:
        -  sertোকান
        -  সিফ্ট_আপ-.োকানোর জন্য প্রয়োজনীয়
@@ -934,13 +934,13 @@ https://github.com/jwasham/coding-interview-university
  
 </details>
  
-##শ্রেণীবিভাজন
+## শ্রেণীবিভাজন
  
 <details>
 <summary>বাছাইকরণ </summary>
  
 -[ ] নোট:
-   -প্রকারভেদ প্রয়োগ করুন এবং সর্বোত্তম কেস / নিকৃষ্টতম কেস, প্রত্যেকের গড় জটিলতা জানেন:
+   - প্রকারভেদ প্রয়োগ করুন এবং সর্বোত্তম কেস / নিকৃষ্টতম কেস, প্রত্যেকের গড় জটিলতা জানেন:
        -কোনও বুদ্বুদ বাছাই নয়-এটি ভয়ানক-হে (n ^ 2), যখন এন <= 16 বাদে
    -  অ্যালগরিদম বাছাইয়ের স্থায়িত্ব ("কুইকসোর্ট স্থিতিশীল?")
        -[অ্যালগোরিদম স্থিতিশীলতা বাছাই করা হচ্ছে) (https://en.wikedia.org/wiki/Sorting_algorithm#Stability)
@@ -951,7 +951,7 @@ https://github.com/jwasham/coding-interview-university
        -আমি একটি লিঙ্কযুক্ত তালিকা বাছাইয়ের প্রস্তাব দেব না, তবে মার্জ সারণি করণীয়।
        -[লিঙ্কযুক্ত তালিকার জন্য বাছাই করুন মার্জ করুন] (http://www.geeksforgeeks.org/ নিমেষে-অনুসারে-লিঙ্কড-তালিকা /)
  
--হিপসোর্টের জন্য, উপরে হ্যাপের ডেটা কাঠামোটি দেখুন। হিপ সাজানো দুর্দান্ত তবে স্থিতিশীল নয়।
+- হিপসোর্টের জন্য, উপরে হ্যাপের ডেটা কাঠামোটি দেখুন। হিপ সাজানো দুর্দান্ত তবে স্থিতিশীল নয়।
  
 -  [সেডজউইক-মার্জেসোর্ট (৫ টি ভিডিও)] (https://www.coursera.org/learn/algorithms-part1/home/week/3)
    -  [১। Mergesort] (https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
@@ -998,10 +998,10 @@ https://github.com/jwasham/coding-interview-university
     - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 -  বাস্তবায়ন:
-   -  মার্জোর্ট: ও (এন লগ এন) গড় এবং সবচেয়ে খারাপ অবস্থা case
-   -  কুইকসোর্ট ও (এন লগ এন) গড় কেস
-   -বাছাই বাছাই এবং সন্নিবেশ বাছাই উভয় হে (এন ^ 2) গড় এবং সবচেয়ে খারাপ ক্ষেত্রে
-   -হিপসোর্টের জন্য, উপরে হ্যাপের ডেটা কাঠামোটি দেখুন।
+   - মার্জোর্ট: ও (এন লগ এন) গড় এবং সবচেয়ে খারাপ অবস্থা case
+   - কুইকসোর্ট ও (এন লগ এন) গড় কেস
+   - বাছাই বাছাই এবং সন্নিবেশ বাছাই উভয় হে (এন ^ 2) গড় এবং সবচেয়ে খারাপ ক্ষেত্রে
+   - হিপসোর্টের জন্য, উপরে হ্যাপের ডেটা কাঠামোটি দেখুন।
  
 -  প্রয়োজন হয় না, তবে আমি তাদের সুপারিশ করেছি:
    -  [সেডজউইক-র‌্যাডিক্স সোর্টস (6 টি ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/home/week/3)
@@ -1022,7 +1022,7 @@ https://github.com/jwasham/coding-interview-university
  
 </details>
  
-##গ্রাফ
+## গ্রাফ
  
 <details>
 <summary>গ্রাফ </summary>
@@ -1068,10 +1068,10 @@ https://github.com/jwasham/coding-interview-university
    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
  
--সম্পূর্ণ কোর্সেরা কোর্স:
+- সম্পূর্ণ কোর্সেরা কোর্স:
    -  [গ্রাফগুলিতে অ্যালগরিদমগুলি (ভিডিও)] (https://www.coursera.org/learn/algorithms-on-অনুচ্ছেদ / হোম / উপস্ব)
  
--আমি বাস্তবায়ন করব:
+- আমি বাস্তবায়ন করব:
    -  সংলগ্ন তালিকার সাথে ডিএফএস (পুনরাবৃত্ত)
    -  সংলগ্ন তালিকার সাথে ডিএফএস (স্ট্যাক সহ পুনরাবৃত্ত)
    -  সংলগ্ন ম্যাট্রিক্স সহ ডিএফএস (পুনরাবৃত্ত)
@@ -1080,7 +1080,7 @@ https://github.com/jwasham/coding-interview-university
    -  সংলগ্ন ম্যাট্রিক্স সহ বিএফএস
    -  একক উত্সের সংক্ষিপ্ততম পথ (ডিজকস্ট্র)
    -  সর্বনিম্ন বিস্তৃত গাছ
-   -ডিএফএস-ভিত্তিক অ্যালগরিদম (উপরে অ্যাডুনি ভিডিও দেখুন):
+   - ডিএফএস-ভিত্তিক অ্যালগরিদম (উপরে অ্যাডুনি ভিডিও দেখুন):
        -  চক্র পরীক্ষা করুন (টপোলজিকাল সাজানোর জন্য প্রয়োজনীয়, যেহেতু আমরা শুরু করার আগে চক্রটি পরীক্ষা করব)
        -  টপোলজিকাল সাজান
        -  একটি গ্রাফে সংযুক্ত উপাদানগুলি গণনা করুন
@@ -1089,28 +1089,28 @@ https://github.com/jwasham/coding-interview-university
  
 </details>
  
-##আরও জ্ঞান
+## আরও জ্ঞান
  
 <details>
 <summary>আরও জ্ঞান << সংক্ষিপ্ত>
  
--###পুনরাবৃত্তি
+-### পুনরাবৃত্তি
    -  পুনরাবৃত্তি ও ব্যাকট্র্যাকিংয়ের উপর স্ট্যানফোর্ডের বক্তৃতা:
        -  [বক্তৃতা 8 | প্রোগ্রামিং বিমূর্তকরণ (ভিডিও)] (https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
        -  [বক্তৃতা 9 | প্রোগ্রামিং বিমূর্তি (ভিডিও)] (https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
        -  [বক্তৃতা 10 | প্রোগ্রামিং বিমূর্তি (ভিডিও)] (https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
        -  [বক্তৃতা 11 | প্রোগ্রামিং বিমূর্তি (ভিডিও)] (https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-   -যখন এটি ব্যবহার করা উপযুক্ত হবে
-   -টেল রিকার্সন এর চেয়ে ভাল কীভাবে?
+   - যখন এটি ব্যবহার করা উপযুক্ত হবে
+   - টেল রিকার্সন এর চেয়ে ভাল কীভাবে?
        -  [লেজ পুনরাবৃত্তি কি এটি এত খারাপ কেন?] (Https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
        -  [টেল রিকার্সন (ভিডিও)] (https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
  
--###ডায়নামিক প্রোগ্রামিং
-   -আপনি সম্ভবত আপনার সাক্ষাত্কারে কোনও গতিশীল প্রোগ্রামিং সমস্যা দেখতে পাবেন না, তবে ডায়নামিক প্রোগ্রামিংয়ের প্রার্থী হিসাবে কোনও সমস্যাটি স্বীকৃতি দেওয়ার পক্ষে এটি মূল্যবান।
-   -এই বিষয়টি বেশ কঠিন হতে পারে, কারণ প্রতিটি ডিপি দ্রবণীয় সমস্যাটিকে অবশ্যই পুনরাবৃত্তির সম্পর্ক হিসাবে সংজ্ঞায়িত করা উচিত এবং এটির সাথে আসাটি জটিল হতে পারে।
-   -আমি জড়িত প্যাটার্ন সম্পর্কে দৃ understanding় ধারণা না পাওয়া পর্যন্ত আমি ডিপি সমস্যার অনেক উদাহরণ দেখার পরামর্শ দিই।
+-### ডায়নামিক প্রোগ্রামিং
+   - আপনি সম্ভবত আপনার সাক্ষাত্কারে কোনও গতিশীল প্রোগ্রামিং সমস্যা দেখতে পাবেন না, তবে ডায়নামিক প্রোগ্রামিংয়ের প্রার্থী হিসাবে কোনও সমস্যাটি স্বীকৃতি দেওয়ার পক্ষে এটি মূল্যবান।
+   - এই বিষয়টি বেশ কঠিন হতে পারে, কারণ প্রতিটি ডিপি দ্রবণীয় সমস্যাটিকে অবশ্যই পুনরাবৃত্তির সম্পর্ক হিসাবে সংজ্ঞায়িত করা উচিত এবং এটির সাথে আসাটি জটিল হতে পারে।
+   - আমি জড়িত প্যাটার্ন সম্পর্কে দৃ understanding় ধারণা না পাওয়া পর্যন্ত আমি ডিপি সমস্যার অনেক উদাহরণ দেখার পরামর্শ দিই।
    -  ভিডিওগুলি:
-       -স্কিয়েনা ভিডিওগুলি অনুসরণ করা শক্ত কারণ তিনি কখনও কখনও হোয়াইটবোর্ড ব্যবহার করেন যা দেখতে খুব ছোট
+       -  স্কিয়েনা ভিডিওগুলি অনুসরণ করা শক্ত কারণ তিনি কখনও কখনও হোয়াইটবোর্ড ব্যবহার করেন যা দেখতে খুব ছোট
        -  [স্কিয়েনা: সিএসই 373 2012-বক্তৃতা 19-ডায়নামিক প্রোগ্রামিংয়ের পরিচিতি (ভিডিও)] (https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
        -  [স্কিয়েনা: সিএসই 373 2012-বক্তৃতা 20-দূরত্ব সম্পাদনা করুন (ভিডিও)] (https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
        -  [স্কিয়েনা: সিএসই 373 2012-লেকচার 21-গতিশীল প্রোগ্রামিং উদাহরণ (ভিডিও)] (https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -1131,7 +1131,7 @@ https://github.com/jwasham/coding-interview-university
        -  [গ্লোবাল পেয়ারওয়াইজ সিকোয়েন্স অ্যালাইনমেন্ট (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
        -  [স্থানীয় যুগের ক্রম সারিবদ্ধকরণ প্রান্তিককরণ (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
  
--###অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
+- ### অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
    -  ptionচ্ছিক: ইউএমএল ২.০ সিরিজ (ভিডিও)] (https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
    -  অবজেক্ট-ওরিয়েন্টেড সফটওয়্যার ইঞ্জিনিয়ারিং: ইউএমএল এবং জাভা ব্যবহার করে সফটওয়্যার ডেভ (21 টি ভিডিও):
        -আপনার যদি OO এবং OO ডিজাইনের অনুশীলনগুলির দুর্দান্ত উপলব্ধি থাকে তবে এড়িয়ে যেতে পারেন।
@@ -1152,7 +1152,7 @@ https://github.com/jwasham/coding-interview-university
            -[নির্ভরতা বিপরীতকরণের মূলনীতি কেন এবং কেন এটি গুরুত্বপূর্ণ] (http://stackoverflow.com/questions/62539/ কি-এটি-নির্ভরতা-রূপান্তর-নীতি-এবং-কেন-কেন-গুরুত্বপূর্ণ-গুরুত্বপূর্ণ)
            -[আরও স্বাদ] (http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BWCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjhhddlljrhmdlljrhmdlljdlmljrlm पर
  
--###নকশা নিদর্শন
+- ### নকশা নিদর্শন
    -  [কুইক ইউএমএল পর্যালোচনা (ভিডিও)] (https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
    -  এই নিদর্শনগুলি শিখুন:
        -  কৌশল
@@ -1167,7 +1167,7 @@ https://github.com/jwasham/coding-interview-university
        -  প্রক্সি
        -  প্রতিনিধি
        -  আদেশ
-       -[ ] অবস্থা
+       - [ ] অবস্থা
        -  স্মৃতিচারণ
        -  পুনরাবৃত্তিকারী
        -  সংমিশ্রিত
@@ -1182,20 +1182,20 @@ https://github.com/jwasham/coding-interview-university
    -  [মানুষের জন্য নকশার নকশাগুলি] (https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
  
  
--###সম্মিলক (n কে নির্বাচন করুন) এবং সম্ভাবনা
+- ### সম্মিলক (n কে নির্বাচন করুন) এবং সম্ভাবনা
    -  [গণিত দক্ষতা: কীভাবে ফ্যাক্টরিয়াল, অনুমান এবং সংমিশ্রণ (চয়ন করুন) (ভিডিও)] (https://www.youtube.com/watch?v=8RRo6Ti9d0U)
    -  [স্কুল তৈরি করুন: সম্ভাবনা (ভিডিও)] (https://www.youtube.com/watch?v=sZkAAk9Wwa4)
    -  [স্কুল তৈরি করুন: আরও সম্ভাবনা এবং মার্কভ চেইন (ভিডিও)] (https://www.youtube.com/watch?v=dNaJg-mLobQ)
-   -[ ] খান একাডেমি:
+   - [ ] খান একাডেমি:
        -কোর্স লেআউট:
            -  [বেসিক তাত্ত্বিক সম্ভাবনা] (https://www.khanacademy.org/math/probability/probability-and-combinatorics-টপিক)
        -কেবল ভিডিওগুলি-41 (প্রতিটি সহজ এবং প্রতিটি স্বল্প):
            -  [সম্ভাব্যতার ব্যাখ্যা (ভিডিও)] (https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
  
--###এনপি, এনপি-সম্পূর্ণ এবং আনুমানিক অ্যালগরিদম
-   -এনপি-সম্পূর্ণ সমস্যার সর্বাধিক বিখ্যাত শ্রেণীর সম্পর্কে জানুন, যেমন ভ্রমণ ভ্রমণ এবং ন্যাপস্যাক সমস্যা,
+- ### এনপি, এনপি-সম্পূর্ণ এবং আনুমানিক অ্যালগরিদম
+   - এনপি-সম্পূর্ণ সমস্যার সর্বাধিক বিখ্যাত শ্রেণীর সম্পর্কে জানুন, যেমন ভ্রমণ ভ্রমণ এবং ন্যাপস্যাক সমস্যা,
         এবং যখন কোনও সাক্ষাত্কার আপনাকে ছদ্মবেশে জিজ্ঞাসা করে তখন সেগুলি সনাক্ত করতে সক্ষম হোন।
-   -এনপি-সম্পূর্ণ অর্থ কী তা জানুন।
+   - এনপি-সম্পূর্ণ অর্থ কী তা জানুন।
    -  [গণনামূলক জটিলতা (ভিডিও)] (https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
    -  সাইমনসন:
        -  [লোভী অ্যালগস। এনপি সম্পূর্ণতা (ভিডিও) তে II এবং ইন্ট্রো] (https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
@@ -1224,31 +1224,31 @@ https://github.com/jwasham/coding-interview-university
  
 -###প্রক্রিয়া এবং থ্রেডস
    -  কম্পিউটার বিজ্ঞান 162-অপারেটিং সিস্টেম (25 টি ভিডিও):
-       -প্রক্রিয়া এবং থ্রেডগুলির জন্য ভিডিওগুলি 1-11 দেখুন
+       - প্রক্রিয়া এবং থ্রেডগুলির জন্য ভিডিওগুলি 1-11 দেখুন
        -[অপারেটিং সিস্টেমস এবং সিস্টেম প্রোগ্রামিং (ভিডিও)] (https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
-   -[প্রক্রিয়া এবং একটি থ্রেডের মধ্যে পার্থক্য কী?] (Https://www.quora.com/What-is-the-differences-between-a-process-and-a-thread)
-   -কভার:
-       -প্রক্রিয়াগুলি, থ্রেডগুলি, সমঝোতার বিষয়গুলি
-           -প্রক্রিয়া এবং থ্রেড মধ্যে পার্থক্য
-           -প্রক্রিয়া
-           -থ্রেড
-           -তালা
-           -মিটেক্সেস
-           -semaphores
-           -মনিটর
-           -তারা কীভাবে কাজ করে
-           -অচলাবস্থা
-           -লাইভলক
-       -সিপিইউ ক্রিয়াকলাপ, বাধা, প্রসঙ্গের স্যুইচিং
-       -মাল্টিকোর প্রসেসরগুলির সাথে আধুনিক একত্রীকরণ
-       -[পেজিং, বিভাগকরণ এবং ভার্চুয়াল মেমোরি (ভিডিও)] (https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
-       -[বাধা (ভিডিও)] (https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-       -[শিডিং (ভিডিও)] (https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
-       -প্রক্রিয়া সংস্থান প্রয়োজন (মেমরি: কোড, স্ট্যাটিক স্টোরেজ, স্ট্যাক, গাদা, এবং ফাইল বিবরণকারী, i / o)
-       -থ্রেড রিসোর্সের প্রয়োজন (একই প্রক্রিয়ায় অন্যান্য থ্রেডের সাথে উপরের (বিয়োগ স্ট্যাক) তবে প্রতিটিটির নিজস্ব পিসি, স্ট্যাক কাউন্টার, রেজিস্টার এবং স্ট্যাক রয়েছে)
-       -নতুন প্রক্রিয়া মেমরিটিতে লেখার আগ পর্যন্ত ফোর্কিং সত্যই লেখার অনুলিপি (কেবল পঠনযোগ্য) হয়, তবে এটি একটি সম্পূর্ণ অনুলিপি করে।
-       -প্রসঙ্গে স্যুইচিং
-           -কীভাবে প্রসঙ্গের স্যুইচিং অপারেটিং সিস্টেম এবং অন্তর্নিহিত হার্ডওয়্যার দ্বারা শুরু করা হয়
+   - [প্রক্রিয়া এবং একটি থ্রেডের মধ্যে পার্থক্য কী?] (Https://www.quora.com/What-is-the-differences-between-a-process-and-a-thread)
+   - কভার:
+       - প্রক্রিয়াগুলি, থ্রেডগুলি, সমঝোতার বিষয়গুলি
+           - প্রক্রিয়া এবং থ্রেড মধ্যে পার্থক্য
+           - প্রক্রিয়া
+           - থ্রেড
+           - তালা
+           - মিটেক্সেস
+           - semaphores
+           - মনিটর
+           - তারা কীভাবে কাজ করে
+           - অচলাবস্থা
+           - লাইভলক
+       - সিপিইউ ক্রিয়াকলাপ, বাধা, প্রসঙ্গের স্যুইচিং
+       - মাল্টিকোর প্রসেসরগুলির সাথে আধুনিক একত্রীকরণ
+       - [পেজিং, বিভাগকরণ এবং ভার্চুয়াল মেমোরি (ভিডিও)] (https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
+       - [বাধা (ভিডিও)] (https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+       - [শিডিং (ভিডিও)] (https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
+       - প্রক্রিয়া সংস্থান প্রয়োজন (মেমরি: কোড, স্ট্যাটিক স্টোরেজ, স্ট্যাক, গাদা, এবং ফাইল বিবরণকারী, i / o)
+       - থ্রেড রিসোর্সের প্রয়োজন (একই প্রক্রিয়ায় অন্যান্য থ্রেডের সাথে উপরের (বিয়োগ স্ট্যাক) তবে প্রতিটিটির নিজস্ব পিসি, স্ট্যাক কাউন্টার, রেজিস্টার এবং স্ট্যাক রয়েছে)
+       - নতুন প্রক্রিয়া মেমরিটিতে লেখার আগ পর্যন্ত ফোর্কিং সত্যই লেখার অনুলিপি (কেবল পঠনযোগ্য) হয়, তবে এটি একটি সম্পূর্ণ অনুলিপি করে।
+       - প্রসঙ্গে স্যুইচিং
+           - কীভাবে প্রসঙ্গের স্যুইচিং অপারেটিং সিস্টেম এবং অন্তর্নিহিত হার্ডওয়্যার দ্বারা শুরু করা হয়
    -  [সি ++ (সিরিজ-10 টি ভিডিও) এর থ্রেড]] (https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
    -  পাইথনে সম্মতি (ভিডিও):
        -  [থ্রেডগুলিতে সংক্ষিপ্ত সিরিজ] (https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
@@ -1259,8 +1259,8 @@ https://github.com/jwasham/coding-interview-university
        -  [মূল ডেভিড বেজলি-আগ্রহের বিষয় (পাইথন অ্যাসিনসিও)] (https://www.youtube.com/watch?v=ZzfHjytDceU)
        -  [পাইথনে নিবিড়] (https://www.youtube.com/watch?v=0zaPs8OtyKY)
  
--###পরীক্ষামূলক
-   -ঢাকতে:
+- ### পরীক্ষামূলক
+   - ঢাকতে:
        -ইউনিট টেস্টিং কীভাবে কাজ করে
        -মক অবজেক্টস কী
        -সংহতকরণ পরীক্ষা কি
@@ -1273,16 +1273,16 @@ https://github.com/jwasham/coding-interview-university
    -  [টিডিডি মারা গেছে? (ভিডিও)] (https://www.youtube.com/watch?v=z9quxZsLcfo)
    -  [ভিডিও সিরিজ (152 টি ভিডিও)-সবার প্রয়োজন নেই (ভিডিও)] (https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
    -  [পাইথনের সাথে পরীক্ষিত-চালিত ওয়েব বিকাশ] (http://www.obeythetestinggoat.com/pages/book.html#toc)
-   -[ ] ইনজেকশন নির্ভরতা:
+   - [ ] ইনজেকশন নির্ভরতা:
        -  [ভিডিও] (https://www.youtube.com/watch?v=IKD2-MAkXyQ)
        -  [পরীক্ষার তাও] (http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
    -  [পরীক্ষাগুলি কীভাবে লিখবেন] (http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
  
--###তফসিল
-   -কোনও ওএসে, এটি কীভাবে কাজ করে
-   -অপারেটিং সিস্টেমের ভিডিওগুলি থেকে সংগ্রহ করা যায়
+- ### তফসিল
+   - কোনও ওএসে, এটি কীভাবে কাজ করে
+   - অপারেটিং সিস্টেমের ভিডিওগুলি থেকে সংগ্রহ করা যায়
  
--###স্ট্রিং অনুসন্ধান এবং ম্যানিপুলেশনগুলি
+- ### স্ট্রিং অনুসন্ধান এবং ম্যানিপুলেশনগুলি
    -  [সেডজউইক-প্রত্যয় অ্যারে (ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
    -  [সেডজউইক-সাবস্ট্রিং অনুসন্ধান (ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/home/week/4)
        -  [১। সাবস্ট্রিং অনুসন্ধানের পরিচিতি] (https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/intr پيداوار-to-substring-search)
@@ -1294,10 +1294,10 @@ https://github.com/jwasham/coding-interview-university
  
     আপনার যদি এই বিষয়ে আরও বিশদ প্রয়োজন, [কিছু বিষয়ের উপর অতিরিক্ত বিবরণ] "স্ট্রিং ম্যাচিং" বিভাগটি দেখুন (কিছু-বিষয়ে-কিছু-অতিরিক্ত)
  
--###চেষ্টা
-   -নোট করুন বিভিন্ন ধরণের চেষ্টা আছে। কারও কারও কাছে উপসর্গ আছে, কারও কাছে কিছু নেই, আবার কিছু বিটের পরিবর্তে স্ট্রিং ব্যবহার করে
+- ### চেষ্টা
+   - নোট করুন বিভিন্ন ধরণের চেষ্টা আছে। কারও কারও কাছে উপসর্গ আছে, কারও কাছে কিছু নেই, আবার কিছু বিটের পরিবর্তে স্ট্রিং ব্যবহার করে
         পথ ট্র্যাক।
-   -আমি কোডের মাধ্যমে পড়েছি, তবে বাস্তবায়ন করব না।
+   - আমি কোডের মাধ্যমে পড়েছি, তবে বাস্তবায়ন করব না।
    -  [সেডজউইক-চেষ্টা (3 টি ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/home/week/4)
        -  [১। আর ওয়ে চেষ্টা করে] (https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
        -  [২। টার্নারি অনুসন্ধানের চেষ্টা] (https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
@@ -1312,23 +1312,23 @@ https://github.com/jwasham/coding-interview-university
    -  [স্ট্যানফোর্ড লেকচার (রিয়েল ওয়ার্ল্ড ইউজ কেস) (ভিডিও)] (https://www.youtube.com/watch?v=TJ8SkcUSdbU)
    -  [এমআইটি, উন্নত ডেটা স্ট্রাকচার, স্ট্রিংস (প্রায় অর্ধেক পথ ধরেই বেশ অস্পষ্টতা পেতে পারে) (ভিডিও)] (https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
  
--###ভাসমান পয়েন্ট নম্বর
+- ### ভাসমান পয়েন্ট নম্বর
    -  সাধারণ 8-বিট: [ভাসমান পয়েন্ট সংখ্যাগুলির প্রতিনিধিত্ব-1 (ভিডিও-গণনায় একটি ত্রুটি রয়েছে-ভিডিও বর্ণনা দেখুন)] (https://www.youtube.com/watch?v=ji3SfClm8TU)
    -  32 বিট: [আইইইই 7575 32-বিট ভাসমান পয়েন্ট বাইনারি (ভিডিও)] (https://www.youtube.com/watch?v=50ZYcZebIec)
  
--###ইউনিকোড
+- ### ইউনিকোড
    -  [সর্বনিম্ন ন্যূনতম প্রতিটি সফ্টওয়্যার বিকাশকারী অবশ্যই, ইউনিকোড এবং চরিত্রের সেট সম্পর্কে ইতিবাচকভাবে অবশ্যই জানতে হবে] (http://www.joelonsoftware.com/articles/Unicode.html)
    -  [প্রতিটি প্রোগ্রামার একেবারে নিখুঁতভাবে, এনকোডিংগুলি এবং পাঠ্যের সাথে কাজ করার জন্য চরিত্রের সেটগুলি সম্পর্কে ইতিবাচক প্রয়োজন] [http://kunststube.net/encoding/)
  
--###শেষ
+- ### শেষ
    -  [বড় এবং ছোট এন্ডিয়ান] (https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian। এইচটিএমএল)
    -  [বিগ এন্ডিয়ান বনাম লিটল এন্ডিয়ান (ভিডিও)] (https://www.youtube.com/watch?v=JrNF0KRAlyo)
    -  [বিগ এবং লিটল এন্ডিয়ান ইনসাইড / আউট (ভিডিও)] (https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-       -কার্নেল দেবদের জন্য খুব প্রযুক্তিগত আলাপ। বেশিরভাগ আপনার মাথার উপরে থাকলে চিন্তা করবেন না।
-       -প্রথমার্ধ যথেষ্ট।
+       - কার্নেল দেবদের জন্য খুব প্রযুক্তিগত আলাপ। বেশিরভাগ আপনার মাথার উপরে থাকলে চিন্তা করবেন না।
+       - প্রথমার্ধ যথেষ্ট।
  
--###নেটওয়ার্কিং
-   -** আপনার যদি নেটওয়ার্কিংয়ের অভিজ্ঞতা থাকে বা কোনও নির্ভরযোগ্যতা প্রকৌশলী বা অপারেশন ইঞ্জিনিয়ার হতে চান তবে প্রশ্নগুলি আশা করুন **
+- ### নেটওয়ার্কিং
+   - **আপনার যদি নেটওয়ার্কিংয়ের অভিজ্ঞতা থাকে বা কোনও নির্ভরযোগ্যতা প্রকৌশলী বা অপারেশন ইঞ্জিনিয়ার হতে চান তবে প্রশ্নগুলি আশা করুন**
    -অন্যথায়, এটি জেনে রাখা ভাল
    -  [খান একাডেমি] (https://www.khanacademy.org/computing/computer-science/internet-intro)
    -  [ইউডিপি এবং টিসিপি: পরিবহন প্রোটোকলের তুলনা (ভিডিও)] (https://www.youtube.com/watch?v=Vdc8TCESIg8)
@@ -1346,30 +1346,30 @@ https://github.com/jwasham/coding-interview-university
  
 </details>
  
-##সিস্টেম ডিজাইন, স্কেলিবিলিটি, ডেটা হ্যান্ডলিং
+## সিস্টেম ডিজাইন, স্কেলিবিলিটি, ডেটা হ্যান্ডলিং
  
 <details>
 <সুমারী> সিস্টেম ডিজাইন, স্কেলাবিলিটি, ডেটা হ্যান্ডলিং </summary>
  
-** আপনার 4+ বছরের অভিজ্ঞতা থাকলে আপনি সিস্টেম ডিজাইন প্রশ্নগুলি আশা করতে পারেন *
+**আপনার ৪+ বছরের অভিজ্ঞতা থাকলে আপনি সিস্টেম ডিজাইন প্রশ্নগুলি আশা করতে পারেন*
  
--স্কেলাবিলিটি এবং সিস্টেম ডিজাইন অনেকগুলি বিষয় এবং সংস্থান সহ অনেক বড় বিষয় since
+- স্কেলাবিলিটি এবং সিস্টেম ডিজাইন অনেকগুলি বিষয় এবং সংস্থান সহ অনেক বড় বিষয় since
       এমন একটি সফ্টওয়্যার / হার্ডওয়্যার সিস্টেম ডিজাইন করার সময় বিবেচনা করার মতো অনেক কিছুই রয়েছে যা স্কেল করতে পারে।
       এটিতে বেশ কিছুটা সময় ব্যয় করার প্রত্যাশা করুন।
--বিবেচনা:
-   -স্কেলিবিলিটি
-       -একক মানগুলিতে বড় ডেটা সেট স্থাপন করুন
-       -একটি ডেটা সেট করে অন্যটিতে রূপান্তর করুন
-       -অশ্লীলভাবে প্রচুর পরিমাণে ডেটা পরিচালনা করা
-   -ব্যবস্থা পরিকল্পনা
-       -বৈশিষ্ট্য সেট
-       -ইন্টারফেস
-       -শ্রেণি শ্রেণিবিন্যাস
-       -নির্দিষ্ট সীমাবদ্ধতার অধীনে একটি সিস্টেম ডিজাইন করা
-       -সরলতা এবং দৃust়তা
-       -বাণিজ্য
-       -কর্মক্ষমতা বিশ্লেষণ এবং অপ্টিমাইজেশন
--  ** এখানে শুরু করুন **: [সিস্টেম ডিজাইন প্রাইমার] (https://github.com/donnemartin/system-design-primer)
+- বিবেচনা:
+   - স্কেলিবিলিটি
+       - একক মানগুলিতে বড় ডেটা সেট স্থাপন করুন
+       - একটি ডেটা সেট করে অন্যটিতে রূপান্তর করুন
+       - অশ্লীলভাবে প্রচুর পরিমাণে ডেটা পরিচালনা করা
+   - ব্যবস্থা পরিকল্পনা
+       - বৈশিষ্ট্য সেট
+       - ইন্টারফেস
+       - শ্রেণি শ্রেণিবিন্যাস
+       - নির্দিষ্ট সীমাবদ্ধতার অধীনে একটি সিস্টেম ডিজাইন করা
+       - সরলতা এবং দৃust়তা
+       - বাণিজ্য
+       - কর্মক্ষমতা বিশ্লেষণ এবং অপ্টিমাইজেশন
+-  **এখানে শুরু করুন**: [সিস্টেম ডিজাইন প্রাইমার] (https://github.com/donnemartin/system-design-primer)
 -  [হায়ারডিনটেক থেকে সিস্টেম ডিজাইন] (http://www.hiredintech.com/system-design/)
 -  [আমি কীভাবে কোনও প্রযুক্তিগত ইনভারভিউতে নকশার প্রশ্নের উত্তর দিতে প্রস্তুত করব?] (Https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview? redirected_qid = 1500023)
 -  [সিস্টেম ডিজাইনের সাক্ষাত্কারের আগে আপনার যে 8 টি বিষয়গুলি জানতে হবে]] (http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system ডিজাইন-সাক্ষাৎকার /)
@@ -1439,15 +1439,15 @@ https://github.com/jwasham/coding-interview-university
    -  [সেলসফোর্স আর্কিটেকচার-তারা কীভাবে একদিন ১.৩ বিলিয়ন লেনদেন পরিচালনা করে] [http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html )
    -  [ইএসপিএন এর আর্কিটেকচার স্কেল-100,000 ডুহ নুহ নুহ্হ্ প্রতি সেকেন্ডে অপারেটিং] [http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
    -  পরিষেবাগুলিকে একসাথে আটকানো যেতে পারে এমন কয়েকটি প্রযুক্তির তথ্যের জন্য নীচে "বার্তা, সিরিয়ালাইজেশন এবং কুইউনিং সিস্টেম" দেখুন See
-   -[ ] টুইটার:
-       -[ও'রিলি মাইএসকিউএল সিই 2011: জেরেমি কোল, "টুইটারে বড় এবং ছোট তথ্য" (ভিডিও)] (https://www.youtube.com/watch?v=5cKTP36HVgI)
-       -[স্কেলে টাইমলাইন] (https://www.infoq.com/preferencesations/Twitter-Timeline-সক্ষমতা)
-   -আরও তথ্যের জন্য, [ভিডিও সিরিজ] (#ভিডিও-সিরিজ) বিভাগে "মাইনিং ম্যাসিভ ডেটাসেটস" ভিডিও সিরিজটি দেখুন।
+   - [ ] টুইটার:
+       - [ও'রিলি মাইএসকিউএল সিই 2011: জেরেমি কোল, "টুইটারে বড় এবং ছোট তথ্য" (ভিডিও)] (https://www.youtube.com/watch?v=5cKTP36HVgI)
+       - [স্কেলে টাইমলাইন] (https://www.infoq.com/preferencesations/Twitter-Timeline-সক্ষমতা)
+   - আরও তথ্যের জন্য, [ভিডিও সিরিজ] (#ভিডিও-সিরিজ) বিভাগে "মাইনিং ম্যাসিভ ডেটাসেটস" ভিডিও সিরিজটি দেখুন।
 -  সিস্টেম ডিজাইন প্রক্রিয়াটির অনুশীলন: কাগজে কাজ করার চেষ্টা করার জন্য এখানে কয়েকটি ধারণা দেওয়া হয়েছে, প্রত্যেকটি আসল বিশ্বে কীভাবে এটি পরিচালনা করা হয়েছিল সে সম্পর্কে কিছু ডকুমেন্টেশন সহ:
-   -পর্যালোচনা: [সিস্টেম ডিজাইন প্রাইমার] (https://github.com/donnemartin/system-design-primer)
-   -[হাইরেডইনটেক থেকে সিস্টেম ডিজাইন] (http://www.hiredintech.com/system-design/)
-   -[চিট শিট] (https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
-   -প্রবাহ:
+   - পর্যালোচনা: [সিস্টেম ডিজাইন প্রাইমার] (https://github.com/donnemartin/system-design-primer)
+   - [হাইরেডইনটেক থেকে সিস্টেম ডিজাইন] (http://www.hiredintech.com/system-design/)
+   - [চিট শিট] (https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
+   - প্রবাহ:
         1. সমস্যা এবং সুযোগটি বুঝুন:
            -সাক্ষাত্কারের সাহায্যে ব্যবহারের ক্ষেত্রে সংজ্ঞা দিন
            -অতিরিক্ত বৈশিষ্ট্য প্রস্তাব
@@ -1466,21 +1466,21 @@ https://github.com/jwasham/coding-interview-university
            -অবকাঠামো: লোড ব্যালেন্সিং, মেসেজিং
            -পরিষেবা চালিত কোনও মূল অ্যালগরিদম সম্পর্কে মোটামুটি ওভারভিউ
            -বাধা বিবেচনা করুন এবং সমাধান নির্ধারণ করুন
-   -অনুশীলন:
-       -[একটি সিডিএন নেটওয়ার্ক ডিজাইন করুন: পুরাতন নিবন্ধ] (http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-       -[একটি এলোমেলো আইডি জেনারেশন সিস্টেম ডিজাইন করুন] (https://blog.twitter.com/2010/annoucing-snowflake)
-       -[একটি অনলাইন মাল্টিপ্লেয়ার কার্ড গেমটি ডিজাইন করুন] (http://www.indieflashblog.com/how-to-create-an-asynchronous-multplayer-game.html)
-       -[একটি মূল-মান ডাটাবেস ডিজাইন করুন) (http://www.slideshare.net/dvirsky/intrration-to-redis)
-       -[ছবি শেয়ারিং সিস্টেম ডিজাইন করুন] (http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
-       -[একটি সুপারিশ সিস্টেম ডিজাইন করুন) (http://ijcai13.org/files/tutorial_slides/td3.pdf)
-       -[একটি ইউআরএল-শর্টনার সিস্টেম ডিজাইন করুন: উপর থেকে অনুলিপি করা হয়েছে) (http://www.hiredintech.com/system-design/the-system-design-process/)
-       -[একটি ক্যাশে সিস্টেম ডিজাইন করুন) (https://www.adayinthelifeof.nl/2011/02/06/mmcache-internals/)
+   - অনুশীলন:
+       - [একটি সিডিএন নেটওয়ার্ক ডিজাইন করুন: পুরাতন নিবন্ধ] (http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
+       - [একটি এলোমেলো আইডি জেনারেশন সিস্টেম ডিজাইন করুন] (https://blog.twitter.com/2010/annoucing-snowflake)
+       - [একটি অনলাইন মাল্টিপ্লেয়ার কার্ড গেমটি ডিজাইন করুন] (http://www.indieflashblog.com/how-to-create-an-asynchronous-multplayer-game.html)
+       - [একটি মূল-মান ডাটাবেস ডিজাইন করুন) (http://www.slideshare.net/dvirsky/intrration-to-redis)
+       - [ছবি শেয়ারিং সিস্টেম ডিজাইন করুন] (http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+       - [একটি সুপারিশ সিস্টেম ডিজাইন করুন) (http://ijcai13.org/files/tutorial_slides/td3.pdf)
+       - [একটি ইউআরএল-শর্টনার সিস্টেম ডিজাইন করুন: উপর থেকে অনুলিপি করা হয়েছে) (http://www.hiredintech.com/system-design/the-system-design-process/)
+       - [একটি ক্যাশে সিস্টেম ডিজাইন করুন) (https://www.adayinthelifeof.nl/2011/02/06/mmcache-internals/)
  
 </details>
  
 ---
  
-##চূড়ান্ত পর্যালোচনা
+## চূড়ান্ত পর্যালোচনা
  
 <details>
 <summary>চূড়ান্ত পর্যালোচনা </ সংক্ষেপ>
@@ -1500,22 +1500,22 @@ https://github.com/jwasham/coding-interview-university
  
 ---
  
-##কোডিং প্রশ্ন অনুশীলন
+## কোডিং প্রশ্ন অনুশীলন
  
 <details>
 <সংশ্লেষ> কোডিং প্রশ্ন অনুশীলন << সংক্ষিপ্ত>
  
 আপনি যেহেতু উপরের সমস্ত কম্পিউটার বিজ্ঞানের বিষয়গুলি জানেন, এখন কোডিং সমস্যার উত্তর দেওয়ার অনুশীলন করার সময় এসেছে।
  
-** কোডিং প্রশ্ন অনুশীলন প্রোগ্রামিং সমস্যার উত্তর মুখস্থ করার বিষয়ে নয় * **
+**কোডিং প্রশ্ন অনুশীলন প্রোগ্রামিং সমস্যার উত্তর মুখস্থ করার বিষয়ে নয়**
  
 আপনার প্রোগ্রামিং সমস্যাগুলি করার অনুশীলন করা দরকার কেন:
--সমস্যা স্বীকৃতি এবং যেখানে সঠিক ডেটা স্ট্রাকচার এবং অ্যালগরিদম ফিট করে
--সমস্যার প্রয়োজনীয়তা সংগ্রহ করা
--আপনি যেমন সাক্ষাত্কারে যাবেন ঠিক তেমন সমস্যার মধ্য দিয়ে কথা বলা
--একটি হোয়াইটবোর্ড বা কাগজে কোডিং, কম্পিউটার নয়
--আপনার সমাধানের জন্য সময় এবং স্থান জটিলতার সাথে হাজির
--আপনার সমাধান পরীক্ষা করা
+- সমস্যা স্বীকৃতি এবং যেখানে সঠিক ডেটা স্ট্রাকচার এবং অ্যালগরিদম ফিট করে
+- সমস্যার প্রয়োজনীয়তা সংগ্রহ করা
+- আপনি যেমন সাক্ষাত্কারে যাবেন ঠিক তেমন সমস্যার মধ্য দিয়ে কথা বলা
+- একটি হোয়াইটবোর্ড বা কাগজে কোডিং, কম্পিউটার নয়
+- আপনার সমাধানের জন্য সময় এবং স্থান জটিলতার সাথে হাজির
+- আপনার সমাধান পরীক্ষা করা
  
 একটি সাক্ষাত্কারে পদ্ধতিগত, যোগাযোগমূলক সমস্যা সমাধানের জন্য দুর্দান্ত ভূমিকা রয়েছে। আপনি প্রোগ্রামিং থেকে এটি পাবেন
 সাক্ষাত্কারের বইগুলিও, তবে আমি এই অসামান্যটি পেয়েছি:
@@ -1533,7 +1533,7 @@ https://github.com/jwasham/coding-interview-university
 -[ডায়নামিক প্রোগ্রামিং-নোভাইস থেকে অ্যাডভান্সড] (https://www.topcoder.com/commune/competitive-pogramming/tutorials/dynamic-programming-from-novice-to-advanced/
 -[এমআইটি সাক্ষাত্কার উপকরণ] (https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/matorys.php)
 
-** প্রোগ্রামিং সমস্যাগুলি পড়ুন এবং করুন (এই ক্রমে): **
+**প্রোগ্রামিং সমস্যাগুলি পড়ুন এবং করুন (এই ক্রমে):**
  
 -  [প্রোগ্রামিং সাক্ষাত্কার উন্মোচিত: আপনার পরবর্তী কাজ ল্যান্ডিংয়ের গোপনীয়তা, ২ য় সংস্করণ] (http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
    -সি, সি ++ এবং জাভাতে উত্তর
@@ -2220,7 +2220,7 @@ https://github.com/jwasham/coding-interview-university
 -  [২০১৪: মেশিন লার্নিং: প্রযুক্তিগত tণের উচ্চ-আগ্রহের ক্রেডিট কার্ড] (http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
 -  [২০১৫: গুগলে অবিচ্ছিন্ন পাইপলাইন] (http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
 -  [২০১৫: বৃহত্তর স্কেলে উচ্চ-প্রাপ্যতা: বিজ্ঞাপনগুলির জন্য গুগলের ডেটা অবকাঠামো তৈরি করা] (https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
--  [২০১৫: টেনসরফ্লো: বিজাতীয় বিতরণকারী সিস্টেমে বৃহত্তর স্কেল মেশিন লার্নিং] (http://download.tensorflow.org/paper/ whitepaper2015.pdf)
+-  [২০১৫: টেনসরফ্লো: বিজাতীয় বিতরণকারী সিস্টেমে বৃহত্তর স্কেল মেশিন লার্নিং] (http://download.tensorflow.org/paper/whitepaper2015.pdf)
 -  [২০১৫: কীভাবে ডেভলপাররা কোড অনুসন্ধান করে: একটি কেস স্টাডি] (http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 -  [২০১:: বোর্গ, ওমেগা এবং কুবারনেটস] (http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
  

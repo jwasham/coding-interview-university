@@ -512,7 +512,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/) (Complexidade Computacional: Seção 1)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/) (Complexidade Computacional: Seção 2)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/) (Folha de Consultas)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 
     Se alguma das aulas forem muito "matemáticas", você pode pular para o final e 

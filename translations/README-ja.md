@@ -481,7 +481,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [計算の複雑さ: セクション 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
 	- [計算の複雑さ: セクション 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ]  [チートシート](http://bigocheatsheet.com/)
-- [ ] [【復習】5分でわかるBig-O記譜法（動画）](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 
 まあ、それだけで十分です。

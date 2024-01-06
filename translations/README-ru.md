@@ -565,7 +565,7 @@ Google не возьмёт тебя на работу.
     - [Вычислительная сложность: Часть 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Вычислительная сложность: Часть 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [Шпаргалка](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
     Если в некоторых лекциях слишком много математики, вы можете ниже найти и посмотреть
     лекции по дискретной математике для получения базовых знаний.

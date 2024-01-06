@@ -575,7 +575,7 @@ Ma non dimenticare di esercitarti con i problemi, anche durante lo studio!
     - [Complessità Computazionale: Sezione 1 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Complessità Computazionale: Sezione 2 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat-Sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 Bene, direi che può bastare. 
 

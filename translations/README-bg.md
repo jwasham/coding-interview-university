@@ -565,7 +565,7 @@ pобхождам графи. Ако трябваше да напиша сорт
   - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
   - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Пищови](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 Е, това е достатъчно за тази тема.
 
@@ -1213,7 +1213,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 -   [ ] Серия от 2-3 минутни кратки клипове по различни теми (23 клипа)
     -   [Клипове](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--   [ ] Серия от 2-5 минутни кратки клипове по различни теми - Michael Sambol (46 клипа):
+-   [ ] Серия от 2-5 минутни кратки клипове по различни теми - Michael Sambol (48 клипа):
     -   [Клипове](https://www.youtube.com/@MichaelSambol)
     -   [Code Examples](https://github.com/msambol/dsa)
 -   [ ] [Sedgewick Videos - Алгоритми I](https://www.coursera.org/learn/algorithms-part1)

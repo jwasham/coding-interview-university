@@ -483,7 +483,7 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Ściągawka](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 ## Struktury danych
 
@@ -1239,7 +1239,7 @@ Trie to drzewo węzłów, które obsługuje operacje Znajdź i Wstaw [etc (...)]
 
 - [ ] Seria 2-3 minutowych, krótkich filmów tematycznych (23 wideo)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Seria 2–5 minutowych, krótkich filmów tematycznych - Michael Sambol (46 wideo):
+- [ ] Seria 2–5 minutowych, krótkich filmów tematycznych - Michael Sambol (48 wideo):
     - [Wideo](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorytmy I](https://www.coursera.org/learn/algorithms-part1)

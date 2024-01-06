@@ -673,7 +673,7 @@ https://github.com/jwasham/coding-interview-university
     - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
     - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 ওয়েল, যে যথেষ্ট যে সম্পর্কে.
 
@@ -1490,7 +1490,7 @@ https://github.com/jwasham/coding-interview-university
  
 -  শর্ট সাবজেক্টের ২-৩ মিনিটের সিরিজ (২৩ টি ভিডিও)
    -[ভিডিও] (https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (46 টি ভিডিও):
+-  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (48 টি ভিডিও):
    - [ভিডিও](https://www.youtube.com/@MichaelSambol)
    - [Code Examples](https://github.com/msambol/dsa)
 -  [সেজেজউইক ভিডিও-অ্যালগোরিদম আই] (https://www.coursera.org/learn/algorithms-part1)

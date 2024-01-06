@@ -510,7 +510,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 ## Veri Yapıları
 
@@ -1254,7 +1254,7 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (46 videos):
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (48 videos):
     - [Videos](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

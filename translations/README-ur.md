@@ -555,7 +555,7 @@
     - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
     - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 یہ اس کے بارے میں کافی ہے. 
 
@@ -1183,7 +1183,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 - [ ] 2-3 منٹ کی مختصر سبجیکٹ ویڈیوز کی سیریز (23 ویڈیوز)
     - [ویڈیوز](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 منٹ کی مختصر موضوع ویڈیوز کی سیریز - مائیکل سمبول (46 ویڈیوز):
+- [ ] 2-5 منٹ کی مختصر موضوع ویڈیوز کی سیریز - مائیکل سمبول (48 ویڈیوز):
     - [ویڈیوز](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

@@ -549,7 +549,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Spickzettel](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 
 </details>
@@ -1367,7 +1367,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
 
 - [ ] Reihe mit kurzen 2-3 Minuten Videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Reihe mit kurzen 2-5 Minuten Videos - Michael Sambol (46 videos):
+- [ ] Reihe mit kurzen 2-5 Minuten Videos - Michael Sambol (48 videos):
     - [Videos](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

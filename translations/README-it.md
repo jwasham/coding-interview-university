@@ -575,7 +575,7 @@ Ma non dimenticare di esercitarti con i problemi, anche durante lo studio!
     - [Complessità Computazionale: Sezione 1 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Complessità Computazionale: Sezione 2 (Articolo in Inglese)](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat-Sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 Bene, direi che può bastare. 
 
@@ -1208,7 +1208,7 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
 
 - [ ] Series of 2-3 minutes short subject video (23 video)
     - [video](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject video - Michael Sambol (46 video):
+- [ ] Series of 2-5 minutes short subject video - Michael Sambol (48 video):
     - [video](https://www.youtube.com/@MichaelSambol)
     - [code examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick video - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

@@ -1232,7 +1232,7 @@
 
 - [ ] 2-3分鐘快速複習影片系列(23個影片)
     - [影片](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5分鐘快速複習影片系列-Michael Sambol (46個影片)
+- [ ] 2-5分鐘快速複習影片系列-Michael Sambol (48個影片)
     - [影片](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

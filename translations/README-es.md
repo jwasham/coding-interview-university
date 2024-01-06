@@ -1302,7 +1302,7 @@ Es bueno si quieres repasar frecuentemente.
 
 - [ ] Series de videos cortos sobre temas de 2-3 minutos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series de videos cortos sobre temas de 2-5 minutos - Michael Sambol (46 videos):
+- [ ] Series de videos cortos sobre temas de 2-5 minutos - Michael Sambol (48 videos):
     - [Videos](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 

@@ -1154,7 +1154,7 @@
 
 - [ ] 一系列2-3分钟的短主题视频（共23个视频）
     - [视频链接](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 一系列2-5分钟的短主题视频 - Michael Sambol（共46个视频）：
+- [ ] 一系列2-5分钟的短主题视频 - Michael Sambol（共48个视频）：
     - [视频链接](https://www.youtube.com/@MichaelSambol)
     - [代码示例](https://github.com/msambol/dsa)
 - [ ] [Sedgewick的算法课程视频 - 算法I](https://www.coursera.org/learn/algorithms-part1)

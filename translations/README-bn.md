@@ -1490,7 +1490,7 @@ https://github.com/jwasham/coding-interview-university
  
 -  শর্ট সাবজেক্টের ২-৩ মিনিটের সিরিজ (২৩ টি ভিডিও)
    -[ভিডিও] (https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
--  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (46 টি ভিডিও):
+-  2-5 মিনিটের সংক্ষিপ্ত বিষয় ভিডিওর সিরিজ-মাইকেল সাম্বোল - Michael Sambol (48 টি ভিডিও):
    - [ভিডিও](https://www.youtube.com/@MichaelSambol)
    - [Code Examples](https://github.com/msambol/dsa)
 -  [সেজেজউইক ভিডিও-অ্যালগোরিদম আই] (https://www.coursera.org/learn/algorithms-part1)

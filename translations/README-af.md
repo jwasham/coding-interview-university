@@ -1201,7 +1201,7 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
 
 - [ ] Reeks van 2-3 minute kort onderwerp videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Reeks van 2-5 minute kort onderwerp videos - Michael Sambol (46 videos):
+- [ ] Reeks van 2-5 minute kort onderwerp videos - Michael Sambol (48 videos):
     - [Videos](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

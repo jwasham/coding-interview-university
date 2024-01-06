@@ -1208,7 +1208,7 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
 
 - [ ] Series of 2-3 minutes short subject video (23 video)
     - [video](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject video - Michael Sambol (46 video):
+- [ ] Series of 2-5 minutes short subject video - Michael Sambol (48 video):
     - [video](https://www.youtube.com/@MichaelSambol)
     - [code examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick video - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

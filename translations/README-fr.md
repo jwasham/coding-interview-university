@@ -10,27 +10,6 @@ Traductions:
     <p>
         <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
     </p>
-    <p>
-        <strong>Special thanks to:</strong>
-    </p>
-    <div>
-        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
-            </div>
-            <div>
-                <p>
-                    <strong>Master the technical interview without endless grinding.</strong>
-                </p>
-            </div>
-            <div>
-                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
-                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
-                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
-                as you walk into that interview!</sup>
-            </div>
-        </a>
-    </div>
     <hr />
 </div>
 
@@ -44,13 +23,13 @@ Cette longue liste a été extraite et étendue de **Google's coaching notes**, 
 En bas, j'ai rajouté des unités supplémentaires qui peuvent être soulevées pendant l'entretien, ou qui peuvent être utiles pour résoudre des problèmes. Plusieurs unités proviennent de
 "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" par Steve Yegge, et sont parfois reflétées mot pour mot dans les notes de coaching de google.
 
-J'ai épuré ce que vous devez savoir de ce qui est recommendé par Yegge. J'ai modifié les prérequis de Yegge.
-D'après les informations reçues de la part des contact travaillant à Google. Ceci est destiné aux **new software engineers**  ou aux developpeur logiciel/web qui souhaitent devenir des ingénieurs en génie logiciel (où la science de l'informatique est requise). Si vous avez plusieurs années d'expérience et vous déclarez plusieurs années d'éxperience en génie logiciel attendez vous à un entretien plus dur.
+J'ai épuré ce que vous devez savoir de ce qui est recommandé par Yegge. J'ai modifié les prérequis de Yegge.
+D'après les informations reçues de la part des contacts travaillant à Google. Ceci est destiné aux **new software engineers** ou aux développeurs logiciel/web qui souhaitent devenir des ingénieurs en génie logiciel (où la science de l'informatique est requise). Si vous avez plusieurs années d'expérience et vous déclarez plusieurs années d'expérience en génie logiciel attendez vous à un entretien plus dur.
 [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
 
-Si vous avez plusieurs années d'experience en development web/logiciel, notez que google font une distinction entre le développement logiciel et l'ingénieurie en génie civil.
+Si vous avez plusieurs années d'expérience en développement web/logiciel, notez que google font une distinction entre le développement logiciel et l'ingénierie en génie civil.
 
-Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, suivez plus de cours de la liste optionelle (Réseau, sécurité)
+Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, suivez plus de cours de la liste optionnelle (Réseau, sécurité)
 ---
 
 ## Table of Contents
@@ -81,11 +60,11 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [More Knowledge](#more-knowledge)
     - [Recherche dichotomique](#binary-search)
     - [Opérations bit à bit](#bitwise-operations)
-- [Arbes](#trees)
+- [Arbres](#trees)
     - [Arbres - Notes & Background](#trees---notes--background)
     - [Arbres binaires de recherche: BSTs](#binary-search-trees-bsts)
     - [Tas / File de Priorité / Tas binaire](#heap--priority-queue--binary-heap)
-    - Arbre de recherche equilibré (general concept, not details)
+    - Arbre de recherche équilibré (general concept, not details)
     - Parcours : Préfixe, infixe, postfixe, BFS, DFS
 - [Tri](#sorting)
     - sélection
@@ -120,7 +99,7 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Votre CV](#your-resume)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Ayez les questions pour l'entretien](#have-questions-for-the-interviewer)
-- [Quand vous aurez eu le travial:](#once-youve-got-the-job)
+- [Quand vous aurez eu le travail:](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 
@@ -286,7 +265,7 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
 
 - [ ] Cours pour préparer:
     - [ ] [Comment réussir dans une interview d'ingénieur logiciel (besoin de payer)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Apprends comment être pret pour l'entrevue de quelqu'un qui était responsable de l'embauche pour Google.
+        - Apprends comment être prêt pour l'entrevue de quelqu'un qui était responsable de l'embauche pour Google.
 
 - [ ] Supplémentaires (ne sont pas suggéré par Google, mais je l'ai ajouté):
     - [ ] [Toujours en train de faire le codage (Anglais ABC: Always Be Coding)](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -304,7 +283,7 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
 
 Je l'ai écrit cet article à propos de cela : [Important: Choisis une langue pour l'entrevue Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-Tu peux choisir une langue avec laquelle vos êtes comftortable pour fair la partie de codage, mais pour Google, celles-ci sont les bons choix:
+Tu peux choisir une langue avec laquelle vous êtes confortable pour faire la partie de codage, mais pour Google, celles-ci sont les bons choix:
 
 - C++
 - Java
@@ -324,7 +303,7 @@ Lis à propos vos choix:
 
 [Regarde les ressources pour chaque langue ici](programming-language-resources.md)
 
-Vous voyiez C, C++ et Python en dessous, parce que j'apprends. Il y a quelques livres qui va t'aider, regarde en dessous. 
+Vous voyez C, C++ et Python en dessous, parce que j'apprends. Il y a quelques livres qui vont t'aider, regarde en dessous.
 
 ## Liste de livres
 
@@ -336,12 +315,12 @@ Voici une liste que j'ai réduite afin de vous faire gagner du temps.
     - réponses en c++ et java
     - recommandé par un candidat en coaching de Google
     - this is a good warm-up for Cracking the Coding Interview
-    - c'est un bon échuaffement pour cracker l'entretien de développement
-    - pas trop difficule, la plupart des problèmes seront plus faciles que ceux que vous arez dans l'entretien (de ce que j'ai lu)
+    - c'est un bon échauffement pour cracker l'entretien de développement
+    - pas trop difficile, la plupart des problèmes seront plus faciles que ceux que vous aurez dans l'entretien (de ce que j'ai lu)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - réponses en java
     - recommandé sur le [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - Si vous voyez des personnes faire référence à "The Google Resume", c'était le livre remplacé par "Craking the Coding Interview"
+    - Si vous voyez des personnes faire référence à "The Google Resume", c'était le livre remplacé par "Cracking the Coding Interview"
 
 Si vous avez beaucoup de temps libre:
 
@@ -355,13 +334,13 @@ Si vous n'avez pas beaucoup de temps :
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - Le livre est un peu dépassé car il a été publié en 2004, mais il reste intéressant pour comprendre brièvement comment marche un ordinateur.
-    - L''ateur a inventé HLA, prenez donc ses remarques et ses exemples sur le HLA avec scpetisme. Il n'est pas souvent cité mais propose de nombreux exemples sur ce à quoi un assembleur ressemble
+    - L'auteur a inventé HLA, prenez donc ses remarques et ses exemples sur le HLA avec scepticisme. Il n'est pas souvent cité mais propose de nombreux exemples sur ce à quoi un assembleur ressemble
     - Ces chapitres vous donneront des fondations :
-        - Chapitre 2 - Réprésentation numérique
+        - Chapitre 2 - Représentation numérique
         - Chapitre 3 - Arithmétique binaire et les opérations bit à bit
         - Chapitre 4 - Floating-Point Representation
         - Chapitre 4 - La représentation de la virgule flottante
-        - Chapitre 5 - Représentation characterielle
+        - Chapitre 5 - Représentation caractérielle
         - Chapitre 6 - Organisation et accès de la mémoire
         - Chapitre 7 - Type de données composites et les objets de mémoire
         - Chapitre 9 - Architecture CPU
@@ -375,9 +354,9 @@ Si vous avez plus de temps (Je veux ce livre):
 
 ### Sur les langages
 
-**Vous avez besoin de choisir un langage pour l'entretien (voir au-dessus).** Voici mes recommendations sur les différents langages. Je n'ai pas des ressources pour tous les langages alors n'hésitez pas à en rajouter.
+**Vous avez besoin de choisir un langage pour l'entretien (voir au-dessus).** Voici mes recommandations sur les différents langages. Je n'ai pas de ressources pour tous les langages alors n'hésitez pas à en rajouter.
 
-Si vous lisez un d'eux, vous devez d'abord avoir toutes des connaissances sur les structures de données et les algorithmes pour pouvoir faire des problèmes de codage.
+Si vous lisez un d'eux, vous devez d'abord avoir toutes les connaissances sur les structures de données et les algorithmes pour pouvoir résoudre des problèmes de codage.
 **Vous pouvez passer toutes les vidéos de cours de ce projet**, à moins que vous voulez un avis.
 
 [Additional language-specific resources here.](programming-language-resources.md)
@@ -389,7 +368,7 @@ Je n'ai pas lu ces deux-là mais ils sont bien notées et écrit par Sedgewick. 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-Si vous avez une meilleure recommendation pour le C++, dites le moi. Je recherche des ressources plus compréhensive.
+Si vous avez une meilleure recommandation pour le C++, dites le moi. Je recherche des ressources plus compréhensives.
 
 ### Java
 
@@ -403,7 +382,7 @@ OU:
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - par Goodrich, Tamassia, Goldwasser
     - utilisé pour du texte optionnel dans les cours d'introduction à l'informatique à l'UC Berkeley
-    - allez voir le raport que j'ai fait sur le Python proposé en-dessous. Ce livre couvre les mêmes sujets.
+    - allez voir le rapport que j'ai fait sur le Python proposé en-dessous. Ce livre couvre les mêmes sujets.
 
 ### Python
 
@@ -417,7 +396,7 @@ OU:
 
 ### Livres optionnels
 
-**Plusieurs personnes les recommandes, cependant je pense qu'ils vont trop loin, à moins que vous ayez plusieurs années dans le dévleoppement logiciel and que vous vous attendez à un entretien bien plus difficile**
+**Plusieurs personnes les recommandes, cependant je pense qu'ils vont trop loin, à moins que vous ayez plusieurs années dans le développement logiciel and que vous vous attendez à un entretien bien plus difficile**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - En tant qu'examen et reconnaissance de problème
@@ -426,12 +405,12 @@ OU:
         - class textbook on data structures and algorithms
             - pour:
                 - est une bonne critique comme n'importe quel manuel le serait
-                - des histoires intéressantes venant de son expérience dans la résolutionde problèmes dans l'industriel et l'académique
+                - des histoires intéressantes venant de son expérience dans la résolution de problèmes dans l'industriel et l'académique
                 - des exemples de code en C
             - contre:
                 - peut être aussi dense ou impénétrable que CLRS, et dans plusieurs cas, CLRS peut être une meilleure alternative sur certains sujets
                 - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - les chapitres 7, 8, 9 peuvent être difficiles à suivre, comme certains points ne sont pas bien expliqués ou requiert une plus grande concentration pour comprendre 
+                - les chapitres 7, 8, 9 peuvent être difficiles à suivre, comme certains points ne sont pas bien expliqués ou requiert une plus grande concentration pour comprendre
                 - ne vous méprenez pas, J'aime bien Skiena, sa pédagogie et ses manières mais je ne suis pas fais pas Stony Brook
         - algorithm catalog:
             - this is the real reason you buy this book.
@@ -581,7 +560,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
-
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
     If some of the lectures are too mathy, you can jump down to the bottom and
     watch the discrete mathematics videos to get the background knowledge.
@@ -625,6 +604,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation.
     - [ ] Linked List vs Arrays:
@@ -656,11 +636,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -685,6 +667,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Online Courses:
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
@@ -707,6 +690,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Implement:
         - binary search (on sorted array of integers)
         - binary search using recursion
@@ -760,6 +744,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - inorder (DFS: left, self, right)
         - postorder (DFS: left, right, self)
         - preorder (DFS: self, left, right)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Binary search trees: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -807,6 +794,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] Implement a max-heap:
         - [ ] insert
         - [ ] sift_up - needed for insert
@@ -852,6 +840,14 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] Implement:
     - [ ] Mergesort: O(n log n) average and worst case
@@ -910,6 +906,8 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - Full Coursera Course:
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -1277,8 +1275,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (38 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (48 videos):
+    - [Videos](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 
 ---
 
@@ -1685,6 +1684,7 @@ You're never really done.
         - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [ ] [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - [ ] **Splay trees**
         - In practice:
@@ -1710,6 +1710,7 @@ You're never really done.
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - [ ] **2-3 search trees**
         - In practice:
@@ -1749,6 +1750,7 @@ You're never really done.
         - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D Trees

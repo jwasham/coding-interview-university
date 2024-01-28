@@ -335,7 +335,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 Повече за вариантите:
 
--   [Изберете правилния език за вашето интервю по програмиране](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+- [Изберете правилния език за вашето интервю по програмиране](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
 [Вижте ресурси за специфични езици тук](programming-language-resources.md)
 
@@ -374,11 +374,11 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 Изборът е ваш:
 
--   Goodrich, Tamassia, and Mount
-    -   [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
--   Sedgewick and Wayne
-    -   [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-    -   [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+- Goodrich, Tamassia, and Mount
+    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick and Wayne
+  - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+  - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 ## Книги за подготовка за интервю
 
@@ -386,12 +386,12 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 Купих тези двете, дадоха ми предостатъчно упражнение.
 
--   [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    -   Отговори в C++ и Java
-    -   Това е добра подготовка за "Cracking the Coding Interview"
-    -   Не е прекалено сложна. Повечето проблеми са по-лесни от тези, които ще срещнете на интервю (от това, което аз съм прочел)
--   [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    -   отговори в Java
+- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+  - Отговори в C++ и Java
+  - Това е добра подготовка за "Cracking the Coding Interview"
+  - Не е прекалено сложна. Повечето проблеми са по-лесни от тези, които ще срещнете на интервю (от това, което аз съм прочел)
+- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+  - отговори в Java
 
 ### Ако имате изобилие от време:
 
@@ -534,7 +534,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 - [LeetCode](https://leetcode.com/)
     - Любимият ми сайт със задачи. Струва си парите за абонамент за времето, в което ще се подготвяте.
-    - Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки със някои задачи.
+    - Вижте клиповете на Nick White и FisherCoder Videos по-горе за насоки с някои задачи.
 - [HackerRank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
@@ -728,57 +728,55 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 ## Дървета
 
--   ### Дървета - бележки & основи
+- ### Дървета - бележки & основи
+  - [ ] [Серия: Дървета (клип)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+  - основна структура на дървото
+  - обхождане
+  - алгоритми за манипулиране
+  - [ ] [BFS(обхождане в ширина) and DFS(обхождане в дълбочина) (клип)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+    - бележки за BFS:
+      - level order (BFS, using queue)
+      - времева сложност O(n)
+      - пространствена сложност: в най-добрия случай: O(1), в най-лошия случай: O(n/2)=O(n)
+    - бележки за DFS:
+      - времева сложност: O(n)
+      - пространствена сложност:
+        в най-добрия случай: O(log n) - средна височина на дървото
+        в най-добрия случай: O(n)
+        - inorder (DFS: ляво, self, дясно)
+        - postorder (DFS: ляво, дясно, self)
+        - preorder (DFS: self, ляво, дясно)
+  - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+  - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+  - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
-    -   [ ] [Серия: Дървета (клип)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    -   основна структура на дървото
-    -   обхождане
-    -   алгоритми за манипулиране
-    -   [ ] [BFS(обхождане в ширина) and DFS(обхождане в дълбочина) (клип)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-        -   бележки за BFS:
-            -   level order (BFS, using queue)
-            -   времева сложност O(n)
-            -   пространствена сложност: в най-добрия случай: O(1), в най-лошия случай: O(n/2)=O(n)
-        -   бележки за DFS:
-            -   времева сложност: O(n)
-            -   пространствена сложност:
-                в най-добрия случай: O(log n) - средна височина на дървото
-                в най-добрия случай: O(n)
-            -   inorder (DFS: ляво, self, дясно)
-            -   postorder (DFS: ляво, дясно, self)
-            -   preorder (DFS: self, ляво, дясно)
-    -   [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
-    -   [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
-    -   [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
-
--   ### Дървета за двоично търсене: BSTs
-
-    -   [ ] [Преговор над двоични дървета за търсене (клип)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    -   [ ] [Въведение (клип)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    -   [ ] [MIT (клип)](https://www.youtube.com/watch?v=9Jry5-82I68)
-    -   C/C++:
-        -   [ ] [Двоично дърво за търсене - имплементация в C/C++ (клип)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        -   [ ] [BST имплементация - memory allocation in stack and heap (клип)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        -   [ ] [Намиране на мин. и макс. елемент в двоично дърво за търсенея (клип)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        -   [ ] [Намиране на височината на двоично дърво (клип)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        -   [ ] [Обхождане на двоично дърво - стратегии за обхождане по ширина и по дълбочина (клип)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        -   [ ] [Двоично дърво: преминаване на порядъка на ниво (клип)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        -   [ ] [Обхождане на двоично дърво: Preorder, Inorder, Postorder (клип)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        -   [ ] [Проверка дали двоично дърво е двоично дърво за търсене (клип)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        -   [ ] [Изтриване на възел от двоично дърво за търсене (клип)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        -   [ ] [Редовен наследник в двоично дърво (клип)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    -   [ ] Имплементирайте:
-        -   [ ] insert // вкарване на стойност в дървото
-        -   [ ] get_node_count // вземане на бройката на запазените стойности
-        -   [ ] print_values // принтира стойностите в дървото от най-малкия до най-големия
-        -   [ ] delete_tree
-        -   [ ] is_in_tree // връща true ако дадената стойност съществува в дървото
-        -   [ ] get_height // returns the height in nodes (single node's height is 1)
-        -   [ ] get_min // връща най-малката стойност, съхранявана в дървото
-        -   [ ] get_max // връща най-голямата стойност, съхранявана в дървото
-        -   [ ] is_binary_search_tree
-        -   [ ] delete_value
-        -   [ ] get_successor // връща следващата най-голяма стойност след дадената, -1 ако такава не съществува
+- ### Дървета за двоично търсене: BSTs
+  - [ ] [Преговор над двоични дървета за търсене (клип)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+  - [ ] [Въведение (клип)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+  - [ ] [MIT (клип)](https://www.youtube.com/watch?v=9Jry5-82I68)
+    - C/C++:
+      - [ ] [Двоично дърво за търсене - имплементация в C/C++ (клип)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+      - [ ] [BST имплементация - memory allocation in stack and heap (клип)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+      - [ ] [Намиране на мин. и макс. елемент в двоично дърво за търсенея (клип)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+      - [ ] [Намиране на височината на двоично дърво (клип)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+      - [ ] [Обхождане на двоично дърво - стратегии за обхождане по ширина и по дълбочина (клип)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+      - [ ] [Двоично дърво: преминаване на порядъка на ниво (клип)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+      - [ ] [Обхождане на двоично дърво: Preorder, Inorder, Postorder (клип)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+      - [ ] [Проверка дали двоично дърво е двоично дърво за търсене (клип)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+      - [ ] [Изтриване на възел от двоично дърво за търсене (клип)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+      - [ ] [Редовен наследник в двоично дърво (клип)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] Имплементирайте:
+      - [ ] insert // вкарване на стойност в дървото
+      - [ ] get_node_count // вземане на бройката на запазените стойности
+      - [ ] print_values // принтира стойностите в дървото от най-малкия до най-големия
+      - [ ] delete_tree
+      - [ ] is_in_tree // връща true ако дадената стойност съществува в дървото
+      - [ ] get_height // returns the height in nodes (single node's height is 1)
+      - [ ] get_min // връща най-малката стойност, съхранявана в дървото
+      - [ ] get_max // връща най-голямата стойност, съхранявана в дървото
+      - [ ] is_binary_search_tree
+      - [ ] delete_value
+      - [ ] get_successor // връща следващата най-голяма стойност след дадената, -1 ако такава не съществува
 
 -   ### Heap / Priority Queue / Binary Heap
     -   визуализира се като дърво, но обикновенно е линейна структура (масив, свързан списък)

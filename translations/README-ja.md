@@ -481,7 +481,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [計算の複雑さ: セクション 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
 	- [計算の複雑さ: セクション 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ]  [チートシート](http://bigocheatsheet.com/)
-- [ ] [【復習】5分でわかるBig-O記譜法（動画）](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 
 まあ、それだけで十分です。
@@ -1110,7 +1110,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 - [ ] 2 ～ 3 分の短い主題ビデオ シリーズ (23 動画)
 	- [ビデオ](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2 ～ 5 分のシリーズ短い主題のビデオ - Michael Sambol (動画 46 件):
+- [ ] 2 ～ 5 分のシリーズ短い主題のビデオ - Michael Sambol (動画 48 件):
 	- [ビデオ](https://www.youtube.com/@MichaelSambol)
 	- [コード例](https://github.com/msambol/dsa)
 - [ ] [セッジウィック ビデオ - アルゴリズム I](https://www.coursera.org/learn/algorithms-part1)

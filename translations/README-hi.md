@@ -579,7 +579,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [कम्प्यूटेशनल जटिलता: सेक्शन 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
     - [कम्प्यूटेशनल जटिलता: धारा 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [चीट शीट] (http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 खैर, बस इतना ही काफी है।
 
@@ -1202,7 +1202,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 
 - [ ] 2-3 मिनट के लघु विषय वीडियो की श्रृंखला (23 वीडियो)
     - [वीडियो](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5 मिनट के लघु विषय वीडियो की श्रृंखला - Michael Sambol (46 वीडियो):
+- [ ] 2-5 मिनट के लघु विषय वीडियो की श्रृंखला - Michael Sambol (48 वीडियो):
     - [वीडियो](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [सेजविक वीडियो - एल्गोरिदम I](https://www.coursera.org/learn/algorithms-part1)

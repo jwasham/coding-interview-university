@@ -496,7 +496,7 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
     - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ១](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ២](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [សន្លឹកជំនួយ](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 ---
 
@@ -1266,7 +1266,7 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
 
 - [ ] Series of 2-3 minutes short subject videos (23 វីដេអូ)
     - [វីដេអូ](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (46 វីដេអូ):
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (48 វីដេអូ):
     - [វីដេអូ](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [វីដេអូ Sedgewick - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

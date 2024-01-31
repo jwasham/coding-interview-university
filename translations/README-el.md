@@ -456,7 +456,7 @@
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 
     Εάν μερικές διαλέξεις είναι πολύ μαθηματικές, μπορείς να μεταβείς προς τα κάτω και να παρακολουθήσεις μερικά βίντεο σχετικά με τα διακριτά μαθηματικά για να πάρεις όλες τις γνώσεις που απαιτούνται.

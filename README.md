@@ -32,26 +32,25 @@
 - [ខ្មែរ - Khmer](translations/README-kh.md)
 - [中文版本](translations/README-cn.md)
 - [繁體中文](translations/README-tw.md)
-- [Bahasa Indonesia](translations/README-id.md)
 </details>
 
 <details>
 <summary>Translations in progress:</summary>
 
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
 - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
 - [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
-- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 </details>
 
 <div align="center">

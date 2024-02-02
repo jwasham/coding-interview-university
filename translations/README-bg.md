@@ -4,7 +4,7 @@
 >
 > Учих между 8-12 часа на ден в продължение на няколко месеца. Това е историята ми: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> **Моля обърнете внимание:** Няма да Ви се налага да учите колкото мен. Загубих много време, учейки неща, които нямах нужда да знам. Може да прочетете повече за това надолу. Ще Ви помогна да достигнете до крайната цел без да прахосвате скъпото си време.
+> **Моля обърнете внимание:** Няма да Ви се налага да учите колкото мен. Загубих много време, учейки неща, които няма нужда да знам. Може да прочетете повече за това надолу. Ще Ви помогна да достигнете до крайната цел без да прахосвате скъпото си време.
 >
 > Темите, изредени тук, ще Ви подготвят добре за техническо интервю за почти всяка една компания, включително гигантите Amazon, Facebook, Google и Microsoft
 >
@@ -13,41 +13,40 @@
 <details>
 <summary>Преводи:</summary>
 
-- [中文版本](translations/README-cn.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Español](translations/README-es.md)
-- [Português Brasileiro](translations/README-ptbr.md)
-- [Polish](translations/README-pl.md)
-- [繁體中文](translations/README-tw.md)
-- [Japanese (日本語)](translations/README-ja.md)
-- [Russian](translations/README-ru.md)
-- [German](translations/README-de.md)
 - [Bahasa Indonesia](translations/README-id.md)
-- [ខ្មែរ - Khmer](translations/README-kh.md)
-- [Uzbek](translations/README-uz.md)
 - [Bulgarian](translations/README-bg.md)
+- [Español](translations/README-es.md)
+- [German](translations/README-de.md)
+- [Japanese (日本語)](translations/README-ja.md)
+- [Polish](translations/README-pl.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+- [Russian](translations/README-ru.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Urdu - اردو](tanslations/README-ur.md)
+- [Uzbek](translations/README-uz.md)
 - [বাংলা - Bangla](translations/README-bn.md)
-
+- [ខ្មែរ - Khmer](translations/README-kh.md)
+- [中文版本](translations/README-cn.md)
+- [繁體中文](translations/README-tw.md)
 </details>
 
 <details>
 <summary>Текущи преводи:</summary>
 
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
 - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
 - [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
-- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
-
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 </details>
 
 <div align="center">

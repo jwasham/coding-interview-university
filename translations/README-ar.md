@@ -22,34 +22,40 @@
 <details dir="rtl">
 <summary>الترجمات:</summary>
 
+- [Bahasa Indonesia](translations/README-id.md)
+- [Bulgarian](translations/README-bg.md)
+- [Español](translations/README-es.md)
+- [German](translations/README-de.md)
+- [Japanese (日本語)](translations/README-ja.md)
+- [Polish](translations/README-pl.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+- [Russian](translations/README-ru.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Urdu - اردو](tanslations/README-ur.md)
+- [Uzbek](translations/README-uz.md)
+- [বাংলা - Bangla](translations/README-bn.md)
+- [ខ្មែរ - Khmer](translations/README-kh.md)
 - [中文版本](translations/README-cn.md)
-- [Tiếng Việt - الفيتنامبة](translations/README-vi.md)
-- [الإسبانية](translations/README-es.md)
-- [(البرتغالية (البرازيلية](translations/README-ptbr.md)
-- [البولندية](translations/README-pl.md)
 - [繁體中文](translations/README-tw.md)
-- [اليابانية (日本語)](translations/README-ja.md)
-- [الروسية](translations/README-ru.md)
-
 </details>
 
 <details dir="rtl">
 <summary>ترجمات تحت الإعداد:</summary>
 
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-- [الإندونيسية](https://github.com/jwasham/coding-interview-university/issues/101)
-- [العربية](https://github.com/jwasham/coding-interview-university/issues/98)
-- [التركية](https://github.com/jwasham/coding-interview-university/issues/90)
-- [الفرنسية](https://github.com/jwasham/coding-interview-university/issues/89)
-- [الأكرانية](https://github.com/jwasham/coding-interview-university/issues/106)
-- [الكورية(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [أردو](https://github.com/jwasham/coding-interview-university/issues/140)
-- [التايلندية](https://github.com/jwasham/coding-interview-university/issues/156)
-- [اليونانية](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+- [French](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-
+- [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 </details>
 
 <hr />

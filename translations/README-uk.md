@@ -95,45 +95,45 @@ Facebook та Microsoft, відрізняють розробку програм�
 - [Чому це використовувати?](#Чому-це-використовувати)
 - [Як це використовувати](#Як-це-використовувати)
 - [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
-- [Про відео-ресурси](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
+- [Про Відео-ресурси](#Про-Відео-Ресурси)
+- [Процес співбесіди та Загальна підготовка до співбесіди](#Процес-співбесіди-та-Загальна-підготовка-до-співбесіди)
+- [Обери одну мову програмування для співбесіди](#Обери-одну-мову-програмування-для-співбесіди)
+- [Список літератури](#book-list)
+- [До Початку підготовки](#before-you-get-started)
+- [Чого ви тут не побачите](#what-you-wont-see-covered)
+- [Необхідні знання](#prerequisite-knowledge)
+- [План на кожен день](#the-daily-plan)
+- [Складність Алгоритмів / Big-O / Асимптотичний Аналіз](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Структури Даних](#data-structures)
+    - [Масиви](#arrays)
+    - [Зв'язані списки](#linked-lists)
+    - [Стек](#stack)
+    - [Черга](#queue)
+    - [Хеш Таблиця](#hash-table)
+- [Більше:](#more-knowledge)
+    - [Бінарний пошук](#binary-search)
+    - [Бітові операції](#bitwise-operations)
+- [Дерева](#trees)
+    - [Дерева - Основи & Нотатки](#trees---notes--background)
+    - [Бінарні дерева пошуку: BSTs](#binary-search-trees-bsts)
+    - [Купи / Черга з пріоритетом / Бінарна купа](#heap--priority-queue--binary-heap)
+    - Збалансовані дерева пошуку (загальна концепція, без деталей)
+    - Методи обходу: прямий порядок, центрований (центральний) порядок, зворотній порядок, пошук вшир, пошук вглиб
+- [Сортування](#sorting)
+    - сортування вибором
+    - сортування вставкою
+    - пірамідальне сортування
+    - швидке сортування
+    - сортування злиттям
+- [Графи](#graphs)
+    - орієнтовані
+    - не орієнтовані
+    - Матриця суміжності
+    - Список суміжності
+    - Методи обходу: пошук вшир, пошук вглиб
+- [Ще більше знань:](#even-more-knowledge)
+    - [Рекурсія](#recursion)
+    - [Динамічне Програмування](#dynamic-programming)
     - [Object-Oriented Programming](#object-oriented-programming)
     - [Design Patterns](#design-patterns)
     - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
@@ -149,7 +149,7 @@ Facebook та Microsoft, відрізняють розробку програм�
     - [Floating Point Numbers](#floating-point-numbers)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
-- [Networking](#networking)
+- [Нетворкінг](#networking)
 - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
@@ -162,12 +162,12 @@ Facebook та Microsoft, відрізняють розробку програм�
 
 ---------------- Everything below this point is optional ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
+- [Додаткова Література](#additional-books)
+- [Додаткові Матеріали](#additional-learning)
+    - [Компілятори](#compilers)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
+    - [Теорія Інформації](#information-theory)
     - [Parity & Hamming Code](#parity--hamming-code)
     - [Entropy](#entropy)
     - [Cryptography](#cryptography)
@@ -209,7 +209,7 @@ Facebook та Microsoft, відрізняють розробку програм�
 
 ## Чому це використовувати?
 
-Я слідую цьому плану, аби підготуватись до мого інтерв'ю в Google. Я займався веб-розробкою, створенням сервісів та запуском стартапів з 1997. У мене економічна освіта, не комп'ютерна.
+Я слідую цьому плану, аби підготуватись до моєї співбесіди в Google. Я займався веб-розробкою, створенням сервісів та запуском стартапів з 1997. У мене економічна освіта, не комп'ютерна.
 Я досяг успіху в своїй кар'єрі, але я хочу працювати в Google. Я хочу розвиватись, досліджувати більші системи та отримати реальне розуміння комп'ютерних систем, ефективності алгоритмів та структур даних, низько-рівневих мов, і як це все працює. І якщо ви не знаєте чогось з цього списку, Google не найме вас.
 
 Коли я розпочинав цей проект, я не міг відрізнити стек від купи, нічого не знав про Big-O, дерева, або як розглянути граф. Якби мені тоді довелось написати алгоритм сортування, то легко можу вас запевнити - він не був би найкращим.
@@ -248,20 +248,21 @@ Facebook та Microsoft, відрізняють розробку програм�
 [Більше про Github розмітку](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Не почувайтесь недостатньо розумними
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+- Успішні програмісти розумні, проте багато з них думають що вони недостатньо розумні
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+## Про Відео Ресурси
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+Деякі відео доступні тільки після реєстрації на курси Coursera, EdX, або Lynda.com. Тут вони позначені як MOOCs.
+Деколи вам необхідно буде чекати декілька місяців, щоб отримати такі матеріали, через те що курси мають свої цикли та сесії. Курси на Lynda.com не є безкоштовними.
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+    Я буду радий якщо ви допоможете мені знайти та додати відео що доступні завжди і доступні безкоштовно.
+    Наприклад відео викладені на YouTube.
+    Мені також подобається використовувати відкриті лекції університетів (МІТ, Harvard, і т.д.).
 
 
-## Interview Process & General Interview Prep
+## Процес співбесіди та Загальна підготовка до співбесіди
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
@@ -274,59 +275,64 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+        - Дізнайтеся, як підготуватися до інтерв'ю разом з інженером-програмістом із колишнім рекрутером в Google.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+        - Курс з підготовки до інтерв'ю мовою Python, який охоплює структури даних, алгоритми, процес інтерв'ю та багато іншого.
 
-## Pick One Language for the Interview
+## Обери одну мову програмування для співбесіди
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Ви можете використовувати будь-яку мову яку добре знаєте для співбесіди, проте для спібвесід у великі компанії,
+краще використовувати наступні мови:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Ви також можете використовувати ці мови, але спершу уважно перегляньте опис співбесіди або запитайте у рекрутера.
+Там можуть бути застереження:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Ви маєте дуже добре знати мову та її синтаксис, мати єдиний стиль коду та вміти використовувати переваги обраної мови.
 
-Read more about choices:
+Більше про вибір мови для співбесіди:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
 [See language resources here](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Ви побачите деякі навчальні курси C, C ++ та Python, включені нижче, тому що їх вчу.
+Також внизу можна знайти декілька книжок з цієї теми.
 
 ## Book List
+Це короткий список книжок які я використовую.
+Він скорочений задля економії вашого часу.
 
-This is a shorter list than what I used. This is abbreviated to save you time.
-
-### Interview Prep
+### Підготовка до співбесіди
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - відповіді на C++ та Java
+    - це хороший розігрів перед книжкою "Cracking the Coding Interview"
+    - вона доволі не складна, більшість задач простіша ніж ті, що дають на співбесідах(З того що я побачив).
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - відповіді на Java
 
-If you have tons of extra time:
+Якщо у вас є багато часу:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
 
-### Computer Architecture
+### Архітектура Комп'ютера
 
-If short on time:
+Якщо у вас мало часу:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
+    - Книга була опублікована в 2004 році, і вона трохи застаріла, але це прекрасний ресурс для розуміння роботи комп'ютера за короткий час.
     - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - Автор винайшов HLA, тому не ставтеся до згадок та прикладів в HLA з буквально. Не широко використовується, але дає базове розуміння того як працюють низькорівневі мови та складові комп'ютера.
+
+    - Наступні розділи закладуть гарний фундамент знань:
         - Chapter 2 - Numeric Representation
         - Chapter 3 - Binary Arithmetic and Bit Operations
         - Chapter 4 - Floating-Point Representation
@@ -337,19 +343,22 @@ If short on time:
         - Chapter 10 - Instruction Set Architecture
         - Chapter 11 - Memory Architecture and Organization
 
-If you have more time (I want this book):
+Якщо у вас є більше часу (Я хочу цю книгу):
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - Для багатшого, більш сучасного (2011), але більш тривалого навчання
 
 ### Language Specific
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**Ви маєте обрати мову для співбесіди.** Ось мої рекомендації щодо мов. У мене немає ресурсів для всіх мов. Додатки вітаються.
 
 If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+Якщо ви прочитали хоча б один з них, ви будете мати всі знання з структур даних та алгоритмів, які вам необхідні для того щоб почати вирішувати задачі.
+**Ви можете пропустити всі відео-лекції в цьому розділі**, якщо вам не потрібно повторення та загальний огляд.
+
+
+[Додаткові ресурси по кожній з мов тут.](https://github.com/jwasham/coding-interview-university/blob/master/programming-language-resources.md)
 
 ### C++
 

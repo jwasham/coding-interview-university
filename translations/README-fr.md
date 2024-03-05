@@ -1375,38 +1375,33 @@ Have a story, not just data, about something you accomplished.
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
 
-## Have questions for the interviewer
+## Ayez des questions pour le recruteur
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+    Certaines de mes questions (Je connais probablement la réponse mais je veux leurs opinions et leurs perspectives d'équipe)
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+- Quelle est la taille de votre équipe ?
+- Quelles sont vos méthodes de travail ? Cycle en V / Sprint / Agile ?
+- Est-ce courant d'être en rush pour atteindre les deadlines ? Y-a-t'il de la flexibilité ?
+- Comment les décisions sont elles prises dans votre équipe ?
+- Combien de réunions avez vous par semaine ?
+- Votre environnement de travail est t'il propice à la concentration ?
+- Sur quoi travaillez vous ?
+- Qu'aimez-vous dans votre travail ?
+- Comment est la vie au travail ?
 
-## Once You've Got The Job
+## Une fois que vous avez le Job
 
-Congratulations!
+Félicitations !
 
-- [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
-
-Keep learning.
-
-You're never really done.
+Continuez d'étudier, vous n'avez jamais fini.
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+    Ce qui suit est optionnel.
+    En les étudiants ces concepts, vous serez mieux préparés pour les futurs entretiens techniques. Vous serez un ingénieur plus affuté.
 
     *****************************************************************************************************
     *****************************************************************************************************

@@ -1201,6 +1201,7 @@
 - [interviewing.io：与资深工程师进行模拟面试 ](https://interviewing.io) - 匿名算法/系统设计面试，与FAANG公司的资深工程师进行。
 - [Meetapro：与顶级FAANG面试官进行模拟面试 ](https://meetapro.com/?utm_source=ciu) - 类似Airbnb的模拟面试/指导平台。
 - [Hello Interview：与专家教练和人工智能模拟面试](https://www.hellointerview.com/?utm_source=ciu) - 直接与人工智能或 FAANG 员工工程师和经理面试。
+- [Codemia：通过人工智能或社区解决方案和反馈来练习系统设计问题](https://codemia.io/?utm_source=ciu) - 通过AI练习工具来解决系统设计问题。与社区分享你的解决方案，以获得反馈。.
   
 ## 当面试来临的时候
 

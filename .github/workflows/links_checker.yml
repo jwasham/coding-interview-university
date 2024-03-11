@@ -1,0 +1,84 @@
+name: Links Checker
+
+on:
+  ## Allow triggering this workflow manually via GitHub CLI/web
+  workflow_dispatch:
+
+  ## Run this workflow automatically every month
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  link_checker:
+    name: Check links and create automated issue if needed
+    runs-on: ubuntu-latest
+    env:
+      REPORT_FILE: links-report
+    steps:
+      ## Check out code using Git
+      - uses: actions/checkout@v3
+
+      - name: Check all links at README.md but skips translations files
+        id: lychee
+        uses: lycheeverse/lychee-action@v1.4.1
+        with:
+          output: ${{ env.REPORT_FILE }}
+          format: markdown
+          ## Do not fail this step on broken links
+          fail: false
+          ## Allow pages replying with 200 (Ok), 204 (No Content),
+          ## 206 (Partial Content) in at most 20 seconds with HTML content.
+          args: >-
+            --verbose
+            --accept 200,204,206
+            --headers "accept=text/html"
+            --timeout 20
+            --max-concurrency 10
+            --no-progress
+            README.md
+        env:
+          ## Avoid rate limiting when checking github.com links
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Lychee's exit code
+        ## https://github.com/lycheeverse/lychee#exit-codes
+        run: echo Lychee exit with ${{ steps.lychee.outputs.exit_code }}
+
+      - name: Find the last report issue open
+        uses: micalevisk/last-issue-action@v1.2
+        id: last_issue
+        with:
+          state: open
+          labels: |
+            report
+            automated issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue from report file
+        if: ${{ steps.last_issue.outputs.has_found == 'false' }}
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Link checker report
+          content-filepath: ${{ env.REPORT_FILE }}
+          issue-number: ${{ steps.last_issue.outputs.issue_number }}
+          labels: |
+            report
+            automated issue
+
+      - name: Update last report open issue created
+        if: ${{ steps.last_issue.outputs.has_found == 'true' }}
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Link checker report
+          content-filepath: ${{ env.REPORT_FILE }}
+          issue-number: ${{ steps.last_issue.outputs.issue_number }}
+          labels: |
+            report
+            automated issue
+
+      - name: Close last report open issue
+        if: ${{ steps.lychee.outputs.exit_code == 0 }}
+        uses: peter-evans/close-issue@v2
+        with:
+          issue-number: ${{ steps.last_issue.outputs.issue_number }}

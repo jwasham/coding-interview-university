@@ -2,13 +2,17 @@
 
 - C
   - [ANSI C Cheat Sheet](<https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/C%20Reference%20Card%20(ANSI)%202.2.pdf>)
-  - K&R C book (ANSI C)
+  - [K&R C book (ANSI C)](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
   - [Make, Clang (video)](https://www.youtube.com/watch?v=U3zCxnj2w8M)
+  - [Top C Programming Interview Questions](https://www.interviewbit.com/c-interview-questions)
   - GDB:
     - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=USPvePv1uzE)
     - [Harvard CS50 - GDB (video)](https://www.youtube.com/watch?v=y5JmQItfFck)
     - [Valgrind (video)](https://www.youtube.com/watch?v=fvTsFjDuag8)
   - [Let us C](https://books.google.co.in/books/about/Let_Us_C.html?id=7HrjAAAACAAJ)
+  - [Complete C programming for beginners](https://youtu.be/KJgsSFOSQv0)
+  - [Learn C in Detail](https://www.scaler.com/topics/c/)
+
 - C++
   - [C++ Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/Cpp_reference.pdf)
   - [STL Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
@@ -31,6 +35,8 @@
   - [Review of C++ concepts (video)](https://www.youtube.com/watch?v=Rub-JsjMhWY)
   - [Let us C++](https://books.google.co.in/books/about/Let_Us_C++.html?id=6HrjAAAACAAJ)
   - [C++ Primer](https://books.google.co.in/books/about/C++_Primer.html?id=J1HMLyxqJfgC&redir_esc=y)
+  - [C++ Tutorial for Beginners](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
+  - [C++ Interview Questions](https://www.interviewbit.com/cpp-interview-questions)
 - Python
   - [Python Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
   - [Python in One Video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
@@ -41,15 +47,20 @@
   - [10 Tips for Pythonic Code (video)](https://www.youtube.com/watch?v=_O23jIXsshs)
   - [Beyond PEP 8 -- Best practices for beautiful intelligible code (video)](https://www.youtube.com/watch?v=wf-BqAjZb8M)
   - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
-  - [Coding Interview Essentials](https://github.com/ajinkyal121/coding-interview-university/blob/master/extras/cheat%20sheets/Coding%20Interview%20Python%20Language%20Essentials.pdf)
+  - [Coding Interview Essentials](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/Coding%20Interview%20Python%20Language%20Essentials.pdf)
   - [Data Structures And Algorithms in Python](https://www.youtube.com/watch?v=kQDxmjfkIKY)
+  - [Python Programming Tutorial](https://www.scaler.com/topics/python/)
+  - [Python Interview Questions](https://www.interviewbit.com/python-interview-questions)
+  - [Python Guide for Beginners](https://wiingy.com/learn/python/python-tutorial/)
 - Java
   - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
-  - [Software Construction In Java (video)](https://www.edx.org/course/software-construction-java-mitx-6-005-1x)
+  - [Java Cheat Sheet](https://www.interviewbit.com/java-cheat-sheet)
   - [Introduction To Programming In Java](http://introcs.cs.princeton.edu/java/home/)
   - [Algorithms 4th Ed - Algorithm Book In Java](http://algs4.cs.princeton.edu/home/)
   - [Effective Java 3rd Edition](https://www.amazon.com/Effective-Java-Joshua-Bloch-ebook/dp/B078H61SCH)
   - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM&t=1744s)
+  - [Top Java Interview Questions and Answers](https://www.interviewbit.com/java-interview-questions)
+  - [Data Structures in Java](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
 - Go
   - [The Go programming Language](https://golang.org/)
   - [The Go programming Language (book)](http://www.gopl.io/)
@@ -61,20 +72,27 @@
   - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
   - [Gophercises - Free course on Coding Exercises in Go](https://gophercises.com)
 - HTML
+  - [HTML Cheat Sheet](https://www.interviewbit.com/html-cheat-sheet)
   - [Quick HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB)
   - [HTML Crash Course for Beginners (1 hr)](https://www.youtube.com/watch?v=UB1O30fR-EE)
+  - [Learn HTML in Detail](https://www.scaler.com/topics/html/)
   - [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
   - [W3 Schools](https://www.w3schools.com/html/)
+  - [Html Interview Questions](https://www.interviewbit.com/html-interview-questions)
 - CSS
   - [Quick CSS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C)
   - [CSS Crash Course for absolute Beginners](https://www.youtube.com/watch?v=yfoY53QXEnI)
   - [Basic CSS](https://www.freecodecamp.org/learn/responsive-web-design/basic-css/)
   - [W3 Schools](https://www.w3schools.com/css/)
+  - [Top 30+ CSS Interview Questions](https://www.interviewbit.com/css-interview-questions)
 - Javascript
+  - [JavaScript Cheat Sheet](https://www.interviewbit.com/javascript-cheat-sheet)
   - [Learn Javascript in 12 minutes](https://www.youtube.com/watch?v=Ukg_U3CnJWI)
   - [Javascript Beginner Tutorials](https://www.youtube.com/playlist?list=PL41lfR-6DnOrwYi5d824q9-Y6z3JdSgQa)
   - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
   - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
+  - [Javascript Tutorial - Learn From Scratch](https://www.scaler.com/topics/javascript/)
+  - [Javascript Interview Questions and Answers](https://www.interviewbit.com/javascript-interview-questions)
 - Rust
   - [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
   - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)

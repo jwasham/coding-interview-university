@@ -76,7 +76,7 @@ Eğer güvenlik ya da operasyon mühendisi olmak istiyorsanız, opsiyonel listed
 
 ## İçindekiler
 
-- [Nedir?](#nedir)
+x [Nedir?](#nedir)
 - [Neden kullanılır?](#neden-kullanılır)
 - [Nasıl kullanılır?](#nasıl-kullanılır)
 - [Yeterince zeki olmadığınızı hissetmeyin](#yeterince-zeki-olmadığınızı-hissetmeyin)

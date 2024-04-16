@@ -12,7 +12,7 @@
 > *あなたに最高の幸運がありますように!*
 
 翻訳：
-- [中文版本](translations/README-cn.md)
+- [简体中文](translations/README-cn.md)
 - [TiếngViệt - ベトナム語](translations/README-vi.md)
 - [Español](translations/README-es.md)
 

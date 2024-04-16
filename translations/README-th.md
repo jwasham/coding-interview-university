@@ -6,7 +6,7 @@
 > *ขอให้คุณโชคดี!*
 
 ภาษาอื่นๆ:
-- [中文版本](translations/README-cn.md)
+- [简体中文](translations/README-cn.md)
 - กำลังดำเนินการแปลภาษา:
     - [Español](https://github.com/jwasham/coding-interview-university/issues/80)
     - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)

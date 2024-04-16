@@ -1,7 +1,7 @@
 # Coding Interview University
 
 > 原先我為了成為一個軟體工程師而建立這份簡單的讀書主題清單(To-do list)，
-> 但這份To-do list隨著時間而儼然成為了一個很大的清單。 [做完這份To-do list上的每個目標後，我成為了Amazon的工程師](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> 但這份To-do list儼然隨著時間成為了一個很長的清單。 [做完這份To-do list上的每個目標後，我成為了Amazon的工程師](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > 你或許不需要像我讀一樣多。但是，每個讓你成為一位稱職工程師所需要的知識都在這裡了。
 >
 > 我每天讀8~12小時的書，這樣持續了好幾個月。這是我的故事:[為什麼我為了Google面試而讀了8個月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)

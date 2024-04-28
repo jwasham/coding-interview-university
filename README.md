@@ -22,6 +22,7 @@
 - [Español](translations/README-es.md)
 - [German](translations/README-de.md)
 - [Japanese (日本語)](translations/README-ja.md)
+- [Marathi](translations/README-mr.md)
 - [Polish](translations/README-pl.md)
 - [Português Brasileiro](translations/README-ptbr.md)
 - [Russian](translations/README-ru.md)

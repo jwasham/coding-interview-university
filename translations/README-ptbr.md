@@ -492,7 +492,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 
 ## Conhecimento Prévio
 
-- [ ] **Aprenda C**
+- [X] **Aprenda C**
     - C está em todo lugar. Você vai ver exemplos em livros, aulas, vídeos, em todo lugar enquanto você estiver estudando.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628) (Linguagem de Programação C, Vol 2)
         - Esse é um livro curto, mas vai te ajudar a ter um ótimo domínio da linguagem C e se você praticar um pouco 

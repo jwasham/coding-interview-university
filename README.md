@@ -306,6 +306,7 @@ You may not need it, but here are some sites for learning a new language:
 - [Codewars](http://www.codewars.com)
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+- [Programiz PRO Community Challenges)](https://app.programiz.pro/community-challenges)
 
 ### For your Coding Interview
 

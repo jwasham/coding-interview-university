@@ -262,6 +262,7 @@
 - [Codewars](http://www.codewars.com)
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+- [Programiz PRO Community Challenges)](https://programiz.pro/)
 
 ### 对于你的编程面试
 

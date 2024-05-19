@@ -1,3 +1,5 @@
+link: https://www.youtube.com/watch?v=0SARbwvhupQ
+
 There is no genius.
 
 If you are one in a million, that means there’s over a thousand people just like you.

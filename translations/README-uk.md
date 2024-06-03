@@ -1,15 +1,17 @@
 # Coding Interview University
 
-Original in [English](README.md)
+Оригінал [англійською](../README.md)
 
 > Спочатку я створив це як короткий список завдань для вивчення тем, щоб стати
-інженером-програмістом, але він збільшився до великого списку, який ви бачите
+інженером програмного забезпечення, але він збільшився до великого списку, який ви бачите
 сьогодні. Пройшовши цей навчальний план,
-[мене найняли розробником програмного забезпечення в Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+[мене найняли розробником програмного забезпечення в Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! Можливо, вам не доведеться вчитися так багато, як мені. У будь-якому випадку, все, що тобі потрібно, є тут.
 >
 > Я навчався приблизно 8-12 годин на день, протягом декількох місяців. Це моя
 історія:
 [Чому я навчався очно протягом 8 місяців для інтерв’ю в Google](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13).
+>
+> **Зверніть Увагу:** вам не потрібно буде вчитися так багато, як мені. Я витратив багато часу на речі, які мені не потрібно було знати. Більше інформації про це нижче. Я допоможу вам досягти мети, не витрачаючи ваш дорогоцінний час.
 >
 > Перелічені тут ресурси добре підготують вас до технічної співбесіди практично
 в будь-якій компанії, включаючи гігантів: Amazon, Facebook, Google та
@@ -20,37 +22,38 @@ Microsoft.
 <details>
 <summary>Переклади:</summary>
 
-- [Bahasa Indonesia](translations/README-id.md)
-- [Bulgarian](translations/README-bg.md)
-- [Español](translations/README-es.md)
-- [German](translations/README-de.md)
-- [Japanese (日本語)](translations/README-ja.md)
-- [Polish](translations/README-pl.md)
-- [Português Brasileiro](translations/README-ptbr.md)
-- [Russian](translations/README-ru.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Urdu - اردو](tanslations/README-ur.md)
-- [Uzbek](translations/README-uz.md)
-- [বাংলা - Bangla](translations/README-bn.md)
-- [ខ្មែរ - Khmer](translations/README-kh.md)
-- [简体中文](translations/README-cn.md)
-- [繁體中文](translations/README-tw.md)
+- [Бахаса Індонезія](translations/README-id.md)
+- [Болгарська](translations/README-bg.md)
+- [Іспанська](translations/README-es.md)
+- [Німецька](translations/README-de.md)
+- [Японська (日本語)](translations/README-ja.md)
+- [Маратхі](translations/README-mr.md)
+- [Польська](translations/README-pl.md)
+- [Бразильська португальська](translations/README-ptbr.md)
+- [Російська](translations/README-ru.md)
+- [Tiếng Việt - В'єтнамська](translations/README-vi.md)
+- [Урду - اردو](tanslations/README-ur.md)
+- [Узбецька](translations/README-uz.md)
+- [বাংলা - Бангла](translations/README-bn.md)
+- [ខ្មែរ - Кхмерська](translations/README-kh.md)
+- [简体中文 - Спрощена Китайська](translations/README-cn.md)
+- [繁體中文 - Традиційна Китайська](translations/README-tw.md)
 </details>
 
 <details>
 <summary>Переклади в процесі:</summary>
 
-- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
-- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [Африка́анс](https://github.com/jwasham/coding-interview-university/issues/1164)
+- [Арабська](https://github.com/jwasham/coding-interview-university/issues/98)
+- [Французька](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Грецька](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Італійська](https://github.com/jwasham/coding-interview-university/issues/1030)
+- [Корейська (한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Малайська](https://github.com/jwasham/coding-interview-university/issues/239)
+- [Перська - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
+- [Телугу](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Тайська](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Турецька](https://github.com/jwasham/coding-interview-university/issues/90)
 - [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
@@ -59,470 +62,490 @@ Microsoft.
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Станьте спонсором</strong> та підтримайте Coding Interview University!</a>
     </p>
     <hr />
 </div>
 
 ## Що це?
 
-Це мій багатомісячний план навчання для переходу від веб-розробника (самоука,
-без ступеня з комп'ютерних наук) до інженера програмного забезпечення для
-великої компанії.
-
 ![Програмування у дошки — з серіалу «Silicon Valley» HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Цей список призначено
-**для піонерів у сфері розробки програмного забезпечення** або
-тих, хто переходить від кодування/веб-розробки до більш архітектурних,
-інженерних рішень (де потрібні знання комп'ютерних наук). Якщо у вас
-багаторічний досвід і ви стверджуєте, що він таким є, очікуйте більш важкого
-інтерв’ю.
+Це мій багатомісячний план навчання, щоб стати інженером програмного забезпечення у великій компанії.
 
-Також якщо у вас є багаторічний досвід кодування/веб-розробки, зверніть увагу,
-що великі компанії-розробники програмного забезпечення, такі як Google, Amazon,
-Facebook та Microsoft, відрізняють розробку програмного забезпечення
-від веб-розробки, і вони потребують знання комп'ютерних наук.
+**Необхідно:**
+* Невеликий досвід кодування (змінні, цикли, методи/функції тощо)
+* Терпіння
+* Час
 
-Якщо ви хочете бути інженером з надійності або системним інженером, вчіть
-більше за опціональним списком (мережі, безпека).
+Зверніть увагу, що це навчальний план з **інженерії програмного забезпечення**, не фронтенд-разробки чи фуллстек-розробки. Для цих кар'єрних шляхів існують дійсно чудові дорожні карти та курси із завданнями в інших місцях (дивись https://roadmap.sh/ для отримання додаткової інформації).
+
+На університетській програмі з комп'ютерних наук можна багато чому навчитися, але для проходження співбесіди достатньо знати лише 75%, тож саме про це я розповідаю тут. Для повної програми самонавчання компʼютерним наукам, ресурси для мого навчального плану були включені в дорожню карту курса з комп'ютерних наук Камран Ахмеда: https://roadmap.sh/computer-science.
 
 ---
 
 ## Зміст
 
+### Навчальний план
+
 - [Що це?](#Що-це)
 - [Чому це використовувати?](#Чому-це-використовувати)
 - [Як це використовувати](#Як-це-використовувати)
 - [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
-- [Про відео-ресурси](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
-    - [Endianness](#endianness)
-- [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+- [Про відео-ресурси](#Про-відеоресурси)
+- [Оберіть мову програмування](#Оберіть-мову-програмування)
+- [Книги про структури даних та алгоритми](#Книги-про-структури-даних-та-алгоритми)
+- [Книги з підготовки до співбесіди](#Книги-з-підготовки-до-співбесіди)
+- [Не робіть моїх помилок](#Не-робіть-моїх-помилок)
+- [Що не буде охоплено](#Що-не-буде-охоплено)
+- [Щоденний план](#Щоденний-план)
+- [Практика з питань кодування](#Практика-з-питань-кодування)
+- [Проблеми кодування](#Проблеми-кодування)
 
----------------- Everything below this point is optional ----------------
+### Теми для вивчення
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+- [Складність алгоритмів / Big-O / Асимптотичний аналіз](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Структури даних](#data-structures)
+    - [Масив](#arrays)
+    - [Зв'язаний список](#linked-lists)
+    - [Стек](#stack)
+    - [Черга](#queue)
+    - [Геш-таблиця](#hash-table)
+- [Більше знань](#more-knowledge)
+    - [Двійковий пошук](#binary-search)
+    - [Бітові операції](#bitwise-operations)
+- [Дерева](#trees)
+    - [Дерева - примітки та передумови](#trees---notes--background)
+    - [Бінарні дерева пошуку: BSTs](#binary-search-trees-bsts)
+    - [Купа / Пріоритетна черга / Бінарна купа](#heap--priority-queue--binary-heap)
+    - Збалансовані дерева пошуку (загальна концепція, не деталі)
+    - Обходи: preorder, inorder, postorder, BFS, DFS
+- [Сортування](#sorting)
+    - вибір (selection)
+    - вставка (insertion)
+    - купчасте сортування (heapsort)
+    - швидке сортування (quicksort)
+    - злиття (merge sort)
+- [Графи](#graphs)
+    - спрямовані (directed)
+    - неспрямовані (undirected)
+    - матриця суміжності (adjacency matrix)
+    - список суміжності (adjacency list)
+    - обходи: BFS, DFS (traversals: BFS, DFS)
+- [Ще більше знань](#even-more-knowledge)
+    - [Рекурсія](#recursion)
+    - [Динамічне програмування](#dynamic-programming)
+    - [Шаблони проектування](#design-patterns)
+    - [Комбінаторика (n choose k) та ймовірність](#combinatorics-n-choose-k--probability)
+    - [NP, NP-повні та Апроксимаційні Алгоритми](#np-np-complete-and-approximation-algorithms)
+    - [Як комп'ютери опрацьовують програму](#how-computers-process-a-program)
+    - [Кеші](#caches)
+    - [Процеси та Треди](#processes-and-threads)
+    - [Тестування](#testing)
+    - [Пошук та маніпуляції з рядками](#string-searching--manipulations)
+    - [Спроби](#tries)
+    - [Числа з рухомою комою](#floating-point-numbers)
+    - [Юнікод](#unicode)
+    - [Ендіанність](#endianness)
+    - [Нетворкінг (мережі)](#networking)
+- [Фінальний огляд](#final-review)
+
+### Отримання роботи
+
+- [Оновіть своє резюме](#your-resume)
+- [Знайдіть роботу](#find-a-job)
+- [Процес співбесіди та загальна підготовка до співбесіди](#interview-process--general-interview-prep)
+- [Підготуйтеся до співбесіди](#be-thinking-of-for-when-the-interview-comes)
+- [Підготуйте запитання до інтерв'юера](#have-questions-for-the-interviewer)
+- [Як тільки отримали роботу](#once-youve-got-the-job)
+
+---------------- Все, що нижче цього пункту необов'язково ----------------
+
+- [Додаткові книги](#additional-books)
+- [Проектування систем, Масштабування, Обробка даних](#system-design-scalability-data-handling) (якщо у вас є досвід роботи 4+ років)
+- [Додаткове навчання](#additional-learning)
+    - [Компілятори](#compilers)
+    - [Emacs та vi(m)](#emacs-and-vim)
+    - [Засоби командного рядка Unix (Unix CLI tools)](#unix-command-line-tools)
+    - [Теорія інформації](#information-theory-videos)
+    - [Паритет та код Хеммінга](#parity--hamming-code-videos)
+    - [Ентропія](#entropy)
+    - [Криптографія](#cryptography)
+    - [Стиснення](#compression)
+    - [Комп'ютерна безпека](#computer-security)
+    - [Прибирання сміття](#garbage-collection)
+    - [Паралельне програмування](#parallel-programming)
+    - [Системи Обміну повідомленнями, Серіалізації та Черги](#messaging-serialization-and-queueing-systems)
     - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [Швидке перетворення Фур'є](#fast-fourier-transform)
+    - [фільтр Блума (Bloom Filter)](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Локально-чутливе Хешування (Locality-Sensitive Hashing)](#locality-sensitive-hashing)
+    - [Дерева ван Емде Боаса](#van-emde-boas-trees)
+    - [Доповнені (аугментовані) структури даних](#augmented-data-structures)
+    - [N-ary (K-ary, M-ary) дерева](#n-ary-k-ary-m-ary-trees)
+    - [Збалансовані дерева пошуку (Balanced search trees)](#balanced-search-trees)
+        - AVL дерева
+        - Splay дерева
+        - Red/black дерева
+        - 2-3 search дерева
+        - 2-3-4 дерева (aka 2-4 дерева)
+        - N-ary (K-ary, M-ary) дерева
+        - B-дерева
+    - [k-D дерева](#k-d-trees)
+    - [Списки пропуску (Skip lists)](#skip-lists)
+    - [Мережеві потоки](#network-flows)
+    - [Математика для Швидкої Обробки](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+    - [Лінійне програмування](#linear-programming-videos)
+    - [Геометрія, Випуклий корпус](#geometry-convex-hull-videos)
+    - [Дискретна математика](#discrete-math)
+- [Додаткова інформація про деякі теми](#additional-detail-on-some-subjects)
+- [Відео](#video-series)
+- [Курси комп'ютерних наук](#computer-science-courses)
+- [Статті](#papers)
 
 ---
 
 ## Чому це використовувати?
 
-Я слідую цьому плану, аби підготуватись до мого інтерв'ю в Google. Я займався веб-розробкою, створенням сервісів та запуском стартапів з 1997. У мене економічна освіта, не комп'ютерна.
-Я досяг успіху в своїй кар'єрі, але я хочу працювати в Google. Я хочу розвиватись, досліджувати більші системи та отримати реальне розуміння комп'ютерних систем, ефективності алгоритмів та структур даних, низько-рівневих мов, і як це все працює. І якщо ви не знаєте чогось з цього списку, Google не найме вас.
+Якщо ви хочете працювати інженером програмного забезпечення у великій компанії, це те, що вам потрібно знати.
 
-Коли я розпочинав цей проект, я не міг відрізнити стек від купи, нічого не знав про Big-O, дерева, або як розглянути граф. Якби мені тоді довелось написати алгоритм сортування, то легко можу вас запевнити - він не був би найкращим.
-Всі структури даних, які я колись використовував, були вже вбудовані в мову програмування, а я навіть не знав, як вони працюють "під капотом". Мені ніколи не доводилось розбиратись з пам'яттю, окрім випадків, коли я отримував "OutOfMemoryException", тоді мені доводилось шукати вихід з ситуації.
-Я використовував кілька багатовимірних масивів та тисячі звичайних масивів, проте я ніколи не створював структури даних з нуля.
+Якщо ви, як і я, не встигли отримати ступінь з комп'ютерних наук, цей курс допоможе вам надолужити згаяне і заощадити чотири роки вашого життя.
 
-Але, пройшовши цей план навчання, я впевнений, що мене візьмуть на цю роботу. Це дійсно великий план. Він займе місяці, але якщо ви вже знайомі з багатьма речами з цього списку, то, очевидно, ви витратите значно менше часу.
+Коли я починав цей проект, я не знав, як відрізнити стек від купи, не знав нічого про Big-O, або про дерева, або про те, як обходити граф. Якби мені довелося писати алгоритм сортування, можу сказати, що він був би жахливим. Кожна структура даних, яку я коли-небудь використовував, була вбудована в мову, і я взагалі не знав, як вони працюють під капотом. Мені ніколи не доводилося керувати пам'яттю, хіба що процес, який я запускав, видавав помилку «не вистачило пам'яті», і тоді мені доводилося шукати обхідний шлях. У своєму житті я використовував кілька багатовимірних масивів і тисячі асоціативних масивів, але я ніколи не створював структури даних з нуля.
+
+Це довгий план. Це може зайняти кілька місяців. Якщо ви вже знайомі з багатьма з цих питань, це займе набагато менше часу.
 
 ## Як це використовувати
 
 Весь текст нижче - це список, а вам потрібно пройти всі його елементи зверху вниз.
 
-Я використовую спеціальну Github розмітку, щоб відслідковувати свій прогрес.
+Я використовую спеціальну Github розмітку - markdown, щоб відслідковувати свій прогрес.
 
+  - [Більше про markdown розмітку GitHub](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-**Створіть нову гілку, аби ви могли теж відмічати зроблені задачі, поміщаючи x в квадратні дужки: [x]**
+### Якщо ви не хочете використовувати git
 
-    Форкніть собі гілку та введіть команди нижче
+На цій сторінці натисніть кнопку «Код» ("Code") вгорі, а потім натисніть «Завантажити ZIP» ("Download ZIP"). Розпакуйте файл, і ви зможете працювати з текстовими файлами.
 
-`git checkout -b progress`
+Якщо ви відкриваєте код у редакторі коду, який розуміє розмітку, ви побачите, що все відформатовано правильно.
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
-`git fetch --all`
+### Якщо вам зручно працювати з git
 
-    Відмітьте всі елементи X після того, як завершите свої зміни
+Створіть нову гілку, аби ви могли відмічати зроблені задачі, поміщаючи x в квадратні дужки: [x]
 
-`git add . `
+1. ***Форкніть репозиторій GitHub:*** `https://github.com/jwasham/coding-interview-university` натиснувши на кнопку Форк (Fork).
 
-`git commit -m "Marked x" `
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-`git rebase jwasham/main `
+1. Клонуйте в локальний репозиторій:
 
-`git push --force `
+    ```bash
+    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
+    cd coding-interview-university
+    git remote add upstream https://github.com/jwasham/coding-interview-university.git
+    git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
+    ```
 
-[Більше про Github розмітку](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+1. Позначте всі поля X після того, як ви внесли зміни:
+
+    ```bash
+    git commit -am "Marked personal progress"
+    git pull upstream main  # keep your fork up-to-date with changes from the original repo
+
+    git push # just pushes to your fork
+    ```
 
 ## Не почувайтесь недостатньо розумними
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources
+- Успішні інженери програмного забезпечення розумні, але багато хто з них відчуває невпевненість у тому, що вони недостатньо розумні.
+- Наступні відео можуть допомогти вам подолати цю невпевненість:
+    - Міф про геніального програміста [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - Небезпечно йти наодинці: Боротьба з невидимими монстрами в технологіях [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+## Про відеоресурси
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+Деякі відео доступні лише за умови реєстрації на курсах Coursera або EdX. Це так звані масові відкриті курси (MOOCs). Іноді заняття не проводяться, тому вам доведеться чекати кілька місяців, і ви не матимете доступу.
 
+Було б чудово замінити ресурси онлайн-курсів безкоштовними і завжди доступними публічними джерелами, такими як відео на YouTube (бажано університетські лекції), щоб ви могли вивчати їх у будь-який час, а не лише під час сесії конкретного онлайн-курсу.
 
-## Interview Process & General Interview Prep
+## Оберіть мову програмування
 
-- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] Cracking The Coding Interview Set 1:
-    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] How to Get a Job at the Big 4:
-    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+Вам потрібно буде обрати мову програмування для співбесід з кодування, але вам також потрібно буде знайти мову, яку ви зможете використовувати для вивчення концепцій комп'ютерних наук.
 
-- [ ] Prep Course:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+Бажано, щоб мова була однаковою, щоб вам потрібно було володіти лише однією мовою.
 
-## Pick One Language for the Interview
+### Для цього навчального плану
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Коли я складав навчальний план, я використовував 2 мови для більшої його частини: C та Python
+
+Ви можете використовувати мову, якою вам зручно виконувати завдання
+на написання коду, але для великих компаній ці мови є найкращим вибором:
+
+* С: Дуже низький рівень. Дозволяє працювати з покажчиками та розподілом/виділенням пам'яті, тому ви відчуваєте структури даних та алгоритми до мозку кісток. У мовах вищого рівня, таких як Python або Java, вони приховані від вас. У повсякденній роботі це чудово, але коли ви вивчаєте, як побудовані ці низькорівневі структури даних, чудово відчувати себе ближче до металу.
+    - C є скрізь. Ви побачите приклади в книгах, лекціях, відео, *всюди* під час навчання.
+    - Мова програмування C, 2-е видання [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Це коротка книжка, але вона дасть вам чудові знання про мову C, і якщо ви трохи попрактикуєтесь
+            ви швидко станете вправним. Розуміння C допоможе вам зрозуміти, як працюють програми та пам'ять.
+        - Вам не потрібно заглиблюватися в книгу (або навіть дочитувати її). Просто дійдіть до того рівня, на якому вам буде комфортно читати і писати C.
+* Python: Python: Сучасна і дуже виразна, я вивчив її, тому що вона дуже корисна, а також дозволяє мені писати менше коду під час співбесіди.
+
+Це мої уподобання. Ви, звичайно, робіть, що хочете.
+
+Можливо, вам це не знадобиться, але ось кілька сайтів для вивчення нової мови:
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [HackerEarth](https://www.hackerearth.com/for-developers/)
+- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+- [Programiz PRO Community Challenges)](https://programiz.pro/)
+
+### Для співбесіди з кодування
+
+Ви можете використовувати мову, якою вам зручно писати код під час співбесіди, але для великих компаній ці мови є найкращим вибором:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Ви також можете скористатися цими, але спочатку почитайте навколо. Можуть бути застереження:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Ось стаття, яку я написав про вибір мови для співбесіди:
+[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/). 
 
-Read more about choices:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
+Це оригінальна стаття, на якій ґрунтується мій пост: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
 
-[See language resources here](programming-language-resources.md)
+Ви повинні дуже добре володіти мовою і бути обізнаним.
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Дізнайтеся більше про вибір:
+- [Оберіть правильну мову для вашої співбесіди з кодування](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-## Book List
+[Дивіться мовні ресурси тут](programming-language-resources.md)
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+## Книги про структури даних та алгоритми
 
-### Interview Prep
+Ця книга стане вашим фундаментом у вивченні компʼютерних наук.
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+Просто виберіть одну, мовою, яка вам буде зручна. Вам доведеться багато читати і кодувати.
 
-If you have tons of extra time:
+### C
 
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-
-### Computer Architecture
-
-If short on time:
-
-- [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
-
-If you have more time (I want this book):
-
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
-
-### Language Specific
-
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
-
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
-
-[Additional language-specific resources here.](programming-language-resources.md)
-
-### C++
-
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
-
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
-
-### Java
-
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
-        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
-        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
-
-OR:
-
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+- Алгоритми на C, частини 1-5 (комплект), 3-тє видання [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - Основи, структури даних, алгоритми сортування, пошуку та побудови графів
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+- Структури даних та алгоритми в Python [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - Мені сподобалася ця книга. Вона охоплює все і навіть більше.
+    - Пітонівський код
+    - мій яскравий книжковий звіт: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+
+### Java
+
+Ваш вибір:
+
+- Goodrich, Tamassia, Goldwasser
+    - Структури даних та алгоритми в Java [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- Sedgewick and Wayne:
+    - Алгоритми [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Безкоштовний курс на Coursera, який охоплює книгу (викладається авторами!):
+        - Алгоритми I [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+        - Алгоритми II [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+
+### C++
+
+Ваш вибір:
+
+- Goodrich, Tamassia, and Mount
+    - Структури даних та алгоритми в C++, 2-е видання [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- Sedgewick and Wayne
+    - Алгоритми в C++, частини 1-4: Основи, структура даних, сортування, пошук [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - Алгоритми в C++ Частина 5: Графові алгоритми [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+## Книги з підготовки до співбесіди
+
+Вам не потрібно купувати купу цих книг. Чесно кажучи, "Проходження співбесіди з кодування" ("Cracking the Coding Interview"), мабуть, достатньо,
+але я купив ще, щоб мати більше практики. Але я завжди роблю забагато.
+
+Я купив обидві наступни книжки. Вони дали мені багато практики.
+
+- Програмування співбесіди розкрито: Кодування вашого шляху через співбесіду, 4-е видання [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - Відповіді на C++ та Java
+    - Це хороша розминка перед Cracking the Coding Interview
+    - Не надто складно. Більшість проблем можуть бути простішими, ніж ті, що ви побачите на співбесіді (з того, що я читав)
+- Проходження співбесіди з кодування, 6-й випуск [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - відповіді на Java
+
+### Якщо у вас багато вільного часу:
+
+Оберіть одну:
+
+- Елементи співбесід з програмування (версія на C++) [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- Елементи співбесід з програмування (версія на Python) [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- Елементи співбесід з програмування (версія на Java) [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Супутній проект - заглушки методів та тестові кейси для кожної проблеми в книзі](https://github.com/gardncl/elements-of-programming-interviews)
 
 
-### Optional Books
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+## Не робіть моїх помилок
 
-- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
-        - class textbook on data structures and algorithms
-            - pros:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
-        - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
-        - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
-    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+Цей список зростав протягом багатьох місяців, і так, він трохи вийшов з-під контролю.
 
-- [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+Ось кілька помилок, яких я припустився, щоб у вас був кращий досвід. І ви заощадите місяці часу.
 
-- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+### 1. Ви не запам'ятаєте всього.
 
-- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
+Я дивився години відео і робив численні нотатки, і через місяці багато чого не пам'ятав. Я провів 3 дні, переглядаючи 
+свої нотатки і роблячи флеш-картки, щоб мати змогу повторити. Мені не потрібні були всі ці знання.
 
+Прочитайте, будь ласка, щоб не робити моїх помилок:
 
-## Before you Get Started
+Збереження знань з комп'ютерних наук [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
-This list grew over many months, and yes, it kind of got out of hand.
+### 2. Використовуйте флеш-картки
 
-Here are some mistakes I made so you'll have a better experience.
+Щоб вирішити цю проблему, я зробив невеличкий сайт флеш-карток, на який можна було додавати флеш-картки 2 типів: загальні та кодові.
+Кожна картка має свій формат. Я створив сайт для мобільних пристроїв, щоб я міг переглядати його на телефоні та планшеті, де б я не був.
 
-### 1. You Won't Remember it All
+Зробіть свій власний безкоштовно:
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+- Репозиторій сайту з флеш-картками [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
 
-Read please so you won't make my mistakes:
+**Я НЕ РЕКОМЕНДУЮ використовувати мої картки.** Їх занадто багато, і більшість з них - тривіальні дрібниці, які вам не потрібні.
 
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
+Але якщо ви не хочете мене слухати, то ось вам:
+- Моя база даних флеш-карток (1200 карток) [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- Моя база даних флеш-карток (екстрім - 1800 карток) [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-### 2. Use Flashcards
+Майте на увазі, що я переборщив і маю картки, що охоплюють все - від асемблера і дрібниць Python до машинного навчання і статистики. Це занадто багато за те, що потрібно.
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+**Нотатки на флеш-картках:** Коли ви вперше зрозумієте, що знаєте відповідь, не позначайте її як відому. Ви повинні побачити
+одну й ту саму картку і відповісти на неї кілька разів правильно, перш ніж ви дійсно дізнаєтесь її. Повторення поглибить
+ці знання у вашому мозку.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Альтернативою використанню мого сайту є [Anki](http://ankisrs.net/), який мені неодноразово рекомендували. Там використовується система повторень, щоб допомогти вам запам'ятати.
+Він зручний у використанні, доступний на всіх платформах і має систему синхронізації в Cloud. Коштує $25 на iOS, але безкоштовно на інших платформах.
 
-Make your own for free:
+Моя база даних флеш-карт у форматі Anki: https://ankiweb.net/shared/info/25173560 (дякую [@xiewenya](https://github.com/xiewenya))
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+Деякі студенти згадували про проблеми з форматуванням пробілів, які можна виправити наступним чином: відкрийте колоду, відредагуйте картку, клацніть на картки (Cards), виберіть радіо-кнопку «стилі» (Styles) і додайте до класу картки стиль "white-space: pre;".
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+### 3. Складайте питання для співбесіди під час навчання кодуванню
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+ЦЕ ДУЖЕ ВАЖЛИВО.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Почніть кодувати питання для співбесіди, поки вивчаєте структури даних та алгоритми.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Вам потрібно застосовувати те, що ви вивчаєте, для вирішення проблем, інакше ви забудете. Я зробив цю помилку.
 
-### 3. Review, review, review
+Після того, як ви вивчили тему і відчуваєте себе комфортно з нею, наприклад, **зв'язані списки**:
+1. Відкрийте одну з [книг для підготовки до співбесіди з кодування](#interview-prep-books) (або веб-сайти з проблем кодування, перелічені нижче)
+1. Поставте (зробіть) 2-3 запитання (задачі) про зв'язані списки.
+1. Перейдіть до наступної навчальної теми.
+1. Пізніше поверніться і розв'яжіть ще 2-3 задачі зі зв'язаними списками.
+1. Робіть це з кожною новою темою, яку ви вивчаєте.
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+**Виконуйте завдання під час навчання, а не після.**
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Вас наймають не за знання, а за те, як ви їх застосовуєте.
 
-### 4. Focus
+Для цього є багато ресурсів, перелічених нижче. Не зупиняйтеся.
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+### 4. Зосередьтеся
 
-## What you won't see covered
+Існує багато відволікаючих чинників, які можуть забирати дорогоцінний час. Зосередитися і сконцентруватися важко. Увімкніть музику без слів, і ви зможете досить добре зосередитися.
 
-These are prevalent technologies but not part of this study plan:
+## Що не буде охоплено
 
-- SQL
+Це поширені технології, але вони не є частиною цього навчального плану:
+
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, та інші фронтенд технології
+- SQL
 
-## The Daily Plan
+## Щоденний план
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Цей курс охоплює багато тем. Кожна з них, ймовірно, займе у вас кілька днів, а може навіть тиждень чи більше. Це залежить від вашого графіку.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Кожного дня обирайте наступну тему зі списку, переглядайте відео на цю тему, а потім напишіть реалізацію
+цієї структури даних або алгоритму мовою, яку ви обрали для цього курсу.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Ви можете побачити мій код тут:
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Вам не потрібно запам'ятовувати кожен алгоритм. Ви просто повинні розуміти його достатньо, щоб мати можливість написати власну реалізацію.
 
-I may not have time to do all of these for every subject, but I'll try.
+## Практика з питань кодування
 
-You can see my code here:
- - [C] (https://github.com/jwasham/practice-c)
- - [C++] (https://github.com/jwasham/practice-cpp)
- - [Python] (https://github.com/jwasham/practice-python)
+   Чому це тут? Я не готовий до співбесіди.
 
-You don't need to memorize the guts of every algorithm.
+[Тоді поверніться і прочитайте це.](#3-do-coding-interview-questions-while-youre-learning)
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Чому потрібно практикуватись у розв'язуванні задач з програмування:
+- Розпізнавання проблеми, і де потрібні правильні структури даних та алгоритми
+- Збір вимог до задачі
+- Обговорення проблеми так, як ви будете говорити на співбесіді
+- Кодування на дошці або папері, а не на комп'ютері
+- Визначення часової та просторової складності ваших рішень (див. Big-O нижче)
+- Тестування ваших рішень
 
-## Prerequisite Knowledge
+Існує чудовий вступ для методичного, комунікативного вирішення проблем під час співбесіди. Ви можете знайти це в книгах із співбесід з програмування, але я вважаю, що цей посібник є видатним:
+[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+Пишіть код на дошці або папері, а не на комп'ютері. Протестуйте з деякими зразками вхідних даних. Потім надрукуйте його та протестуйте на комп'ютері.
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+Якщо у вас вдома немає дошки, візьміть великий блокнот для малювання в художньому магазині. Ви можете сидіти на дивані і практикуватись.
+Це моя «диванна дошка». Я додав ручку на фото лише для масштабу. Якщо ви використовуєте ручку, ви пошкодуєте, що не можете її стерти.
+Швидко стає брудно. **Я використовую олівець і гумку.**
+
+![моя диванна дошка](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
+
+**Практика з питань кодування  - це не про запам'ятовування відповідей на задачі програмування.**
+
+## Проблеми кодування
+
+Не забудьте свої ключові книги по співбесідам з кодування [тут](#interview-prep-books).
+
+Вирішення проблем:
+- Як знайти рішення [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- Як розібрати постановку задачі для топкодерів [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+
+Відео з питаннями до співбесіди на кодування:
+- ЯЗаслуговую (88 відео) [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- Тушар Рой (5 плейлистів) [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - Чудово підходить для покрокового вирішення проблем
+- Нік Уайт - Рішення на LeetCode (187 відео) [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Гарні пояснення рішення та коду
+    - Ви можете переглянути декілька за короткий час
+- ФішерКодер - Рішення на LeetCode [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
+
+Сайти викликів/практик:
+- [LeetCode](https://leetcode.com/)
+    - Мій улюблений сайт із завданнями на кодування. Він вартий того, щоб заплатити гроші за підписку на 1-2 місяці, які ви, ймовірно, витратите на підготовку.
+    - Дивіться відео Ніка Уайта та ФішерКодера вище для покрокового вивчення коду.
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Codeforces](https://codeforces.com/)
+- [Codility](https://codility.com/programmers/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [AlgoExpert](https://www.algoexpert.io/product)
+    - Створений інженерами Google, це також чудовий ресурс для відточування навичок.
+- [Project Euler](https://projecteuler.net/)
+    - дуже математично орієнтований і не дуже підходить для співбесід з кодування
+
+## Давайте починати!
+
+Гаразд, досить розмов, давайте вчитися!
+
+Але не забувайте виконувати завдання з кодування зверху, поки будете вчитися!
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - nothing to implement

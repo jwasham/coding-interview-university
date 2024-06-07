@@ -104,29 +104,29 @@ Microsoft.
 
 ### Теми для вивчення
 
-- [Складність алгоритмів / Big-O / Асимптотичний аналіз](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Структури даних](#data-structures)
-    - [Масив](#arrays)
-    - [Зв'язаний список](#linked-lists)
-    - [Стек](#stack)
-    - [Черга](#queue)
-    - [Геш-таблиця](#hash-table)
-- [Більше знань](#more-knowledge)
-    - [Двійковий пошук](#binary-search)
-    - [Бітові операції](#bitwise-operations)
-- [Дерева](#trees)
-    - [Дерева - примітки та передумови](#trees---notes--background)
-    - [Бінарні дерева пошуку: BSTs](#binary-search-trees-bsts)
-    - [Купа / Пріоритетна черга / Бінарна купа](#heap--priority-queue--binary-heap)
+- [Складність алгоритмів / Big-O / Асимптотичний аналіз](#складність-алгоритмів--big-o--асимптотичний-аналіз)
+- [Структури даних](#Структури-даних)
+    - [Масив](#Масив)
+    - [Зв'язаний список](#Зв'язаний-список)
+    - [Стек](#Стек)
+    - [Черга](#Черга)
+    - [Геш-таблиця](#Геш-таблиця)
+- [Більше знань](#Більше-знань)
+    - [Двійковий пошук](#Двійковий-пошук)
+    - [Бітові операції](#Бітові-операції)
+- [Дерева](#Дерева)
+    - [Дерева - Вступ](#Дерева-Вступ)
+    - [Бінарні дерева пошуку: BSTs](#бінарні-дерева-пошуку-binary-search-trees-bsts)
+    - [Купа / Пріоритетна черга / Бінарна купа](#купа--пріоритетна-черга--бінарна-купа)
     - Збалансовані дерева пошуку (загальна концепція, не деталі)
     - Обходи: preorder, inorder, postorder, BFS, DFS
-- [Сортування](#sorting)
+- [Сортування](#Сортування)
     - вибір (selection)
     - вставка (insertion)
     - купчасте сортування (heapsort)
     - швидке сортування (quicksort)
-    - злиття (merge sort)
-- [Графи](#graphs)
+    - злиття (mergesort)
+- [Графи](#Graphs)
     - спрямовані (directed)
     - неспрямовані (undirected)
     - матриця суміжності (adjacency matrix)
@@ -547,337 +547,353 @@ Microsoft.
 
 Але не забувайте виконувати завдання з кодування зверху, поки будете вчитися!
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+## Складність алгоритмів / Big-O / Асимптотичний аналіз
+
+- Тут не потрібно нічого впроваджувати, ви просто дивитеся відео та робите нотатки! Ура!
+- Тут багато відео. Просто дивіться достатньо, поки не зрозумієте. Ви завжди можете повернутися і переглянути.
+- Не хвилюйтеся, якщо ви не розумієте всієї математики, що стоїть за цим.
+- Вам просто потрібно зрозуміти, як виразити складність алгоритму в термінах Big-O.
+- [ ] Гарвард CS50 - асимптотичне позначення (відео) [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] Позначення Big O (загальний короткий посібник) (відео) [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] Позначення Big O (а також Омега і Тета) - найкраще математичне пояснення (відео) [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] Скієна (Skiena) [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 - [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
-- [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
+- [ ] Амортизаційний аналіз (відео) [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] TopCoder (включає рекурентні співвідношення та основну теорему):
+    - Обчислювальна складність: Розділ 1 [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
+    - Обчислювальна складність: Розділ 2 [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+- [ ] Шпаргалка [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [Огляд] Аналіз алгоритмів (плейлист) за 18 хвилин (відео) [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
+Що ж, цього вже достатньо.
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+Коли ви проходите "Cracking the Coding Interview", там є розділ про це, а в кінці є тест, щоб перевірити, чи можете ви визначити складність виконання різних алгоритмів. Це супер огляд і тест.
 
-## Data Structures
+## Структури даних
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+### Масив
+    
+- [ ] Про масиви:
+    - Масиви CS50 Гарвардського університету [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+    - Масиви (відео) [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+    - Лінійні та багатовимірні масиви (відео) [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+    - Динамічні масиви (відео) [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+    - Нерівні масиви (відео) [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
 
-- ### Linked Lists
-    - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
-        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+- [ ] Реалізувати вектор (змінний масив з автоматичною зміною розміру):
+    - [ ] Практика кодування з використанням масивів і вказівників, а також математики вказівників для переходу до індексу замість використання індексації.
+    - [ ] Новий масив вихідних даних з виділеною пам'яттю
+        - можна виділити масив int під капотом, просто не використовувати його можливості
+        - починати з 16, або якщо початкове число більше, використовувати степінь 2 - 16, 32, 64, 128
+    - [ ] size() - кількість елементів
+    - [ ] capacity() - кількість елементів, які він може вмістити
+    - [ ] is_empty()
+    - [ ] at(index) - повертає елемент за заданим індексом, зникає, якщо індекс виходить за межі
+    - [ ] push(item)
+    - [ ] insert(index, item) - вставляє елемент за індексом, зсуває значення цього індексу та наступні елементи праворуч
+    - [ ] prepend(item) - може використовувати вставку вище з індексом 0
+    - [ ] pop() - видалити з кінця, повернути значення
+    - [ ] delete(index) - видаляє елемент за індексом, зсуваючи всі кінцеві елементи вліво
+    - [ ] remove(item) - шукає значення і видаляє індекс, що його містить (навіть якщо в декількох місцях)
+    - [ ] find(item) - шукає значення і повертає перший індекс з цим значенням, -1, якщо не знайдено
+    - [ ] resize(new_capacity) // приватна функція
+        - при досягненні ємності, змінює розмір на подвійний
+        - при видаленні елементу, якщо розмір становить 1/4 від ємності, зменшити розмір до половини
+- [ ] Час
+    - O(1) для додавання/видалення в кінці (амортизується для виділення більшого простору), індексації або оновлення
+    - O(n) для вставки/видалення в іншому місці
+- [ ] Простір
+    - суміжні у пам'яті, тому близькість допомагає продуктивності
+    - необхідний простір = (ємність масиву, яка >= n) * розмір елемента, але навіть якщо 2n, все одно O(n)
 
-- ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Will not implement. Implementing with array is trivial.
+- ### Зв'язаний список
 
-- ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+- [ ] Опис:
+    - [ ] Зв'язані списки CS50 Гарвардський університет [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - це розвиває інтуїцію.
+    - [ ] Однозв'язні списки (відео) [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+    - [ ] CS 61B - Зв'язані списки 1 (відео) [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+    - [ ] CS 61B - Зв'язані списки 2 (відео) [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [ ] [[Огляд] Зв'язані списки за 4 хвилини (відео)](https://youtu.be/F8AbOfQwl1c)
+- [ ] C Code (відео) [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+        - не все відео, лише фрагменти про Node struct та виділення пам'яті
+- [ ] Звʼязані списки vs масиви:
+    - Основне про зв'язані списки проти масивів (відео) [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+    - У реальному світі зв'язані списки проти масивів (відео) [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+- [ ] Чому слід уникати зв'язаних списків (відео) [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+- [ ] Пастка: вам потрібні знання про вказівник на вказівник:
+    (на випадок, якщо ви передаєте вказівник у функцію, яка може змінити адресу, на яку вказує цей вказівник)
+    Я не рекомендую цей стиль обходу списків. Читабельність і обслуговуваємість страждають через складність.
+    - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+- [ ] Реалізувати (я зробив з хвостовим вказівником та без):
+    - [ ] size() - повертає кількість елементів даних у списку
+    - [ ] empty() - bool повертає true, якщо пусто
+    - [ ] value_at(index) - повертає значення n-го елемента (починаючи з 0 для першого)
+    - [ ] push_front(value) - додає елемент на початок списку
+    - [ ] pop_front() - видаляє перший елемент і повертає його значення
+    - [ ] push_back(value) - додає елемент в кінець списку
+    - [ ] pop_back() - видаляє кінцевий елемент і повертає його значення
+    - [ ] front() - отримати значення переднього елементу
+    - [ ] back() - отримати значення кінцевого елементу
+    - [ ] insert(index, value) - вставити значення за індексом так, щоб на поточний елемент за цим індексом вказував новий елемент за індексом
+    - [ ] erase(index) - видаляє вузол за заданим індексом
+    - [ ] value_n_from_end(n) - повертає значення вузла на n-ій позиції від кінця списку
+    - [ ] reverse() - реверсує список
+    - [ ] remove_value(value) - видаляє перший елемент списку з цим значенням
+- [ ] Подвійно зв'язаний список
+    - Опис (відео) [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+    - Не потрібно реалізовувати
+
+- ### Стек
+    - [ ] Стеки (відео) [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Огляд] Стеки за 3 хвилини (відео) [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+    - [ ] Не буде реалізовано. Реалізація з масивом тривіальна.
+
+- ### Черга
+    - [ ] Черга (відео) [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] Циклічний буфер/FIFO [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [Огляд] Черги за 3 хвилини (відео) [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
+    - [ ] Реалізувати за допомогою звʼязаного списка, з хвостовим вказівником:
+        - enqueue(value) - додає значення до позиції у хвості
+        - dequeue() - повертає значення і видаляє останній доданий елемент (передній)
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Реалізація з використанням масиву фіксованого розміру:
+        - enqueue(value) - додає елемент в кінець доступного сховища
+        - dequeue() - повертає значення і видаляє останній доданий елемент
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Вартість:
+        - погана реалізація з використанням зв'язаного списку, де ви створюєте чергу в голові та чергу в хвості, буде O(n)
+            тому що вам потрібен передостанній елемент, що призводить до повного обходу кожної черги
+        - enqueue: O(1) (амортизований, зв'язаний список і масив [зондування])
+        - dequeue: O(1) (зв'язаний список та масив)
+        - empty: O(1) (зв'язаний список та масив)
 
-- ### Hash table
+- ### Геш-таблиця
     - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
+        - [ ] Хешування з Привʼязуванням (відео) [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [ ] Подвоєння таблиці, Карп-Рабин (відео) [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] Відкрита адресація, криптографічне хешування (відео) [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] PyCon 2010: Могутній словник (відео) [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] (Просунута) рандомізація: Універсальне та досконале хешування (відео) [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] (Просунутий) Ідеальне хешування (відео) [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [Огляд] Хеш-таблиці за 4 хвилини (відео) [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
-    - [ ] Online Courses:
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] distributed hash tables:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+    - [ ] Онлайн-курси:
+        - [ ] Основні хеш-таблиці (відео) [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] Структури даних (відео) [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [ ] Проблема телефонної книги (відео) [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] розподілені хеш-таблиці:
+            - Миттєві завантаження та оптимізація сховища в Dropbox (відео) [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - Розподілені хеш-таблиці (відео) [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+    - [ ] реалізувати з масивом за допомогою лінійного зондування
+        - hash(k, m) - m - розмір хеш-таблиці
+        - add(key, value) - якщо ключ вже існує, оновити значення
         - exists(key)
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Більше знань
 
-- ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+- ### Двійковий пошук
+    - [ ] Двійковий пошук (відео) [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] Двійковий пошук (відео) [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] деталі [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [Огляд] Бінарний пошук за 4 хвилини (відео) [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
+    - [ ] Реалізувати:
+        - бінарний пошук (у відсортованому масиві цілих чисел)
+        - бінарний пошук з використанням рекурсії
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+- ### Бітові операції
+    - [ ] Шпаргалка з бітів [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - ви повинні знати багато степенів 2 від (2^1 to 2^16 and 2^32)
+    - [ ] Отримати дійсно хороше розуміння маніпуляцій з бітами за допомогою: &, |, ^, ~, >>, <<
+        - [ ] [слова](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [ ] Гарне введення:
+            [Маніпуляції з бітами (відео)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [Підручник з програмування мовою C 2-10: Бітові оператори (відео)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [Маніпуляції з бітами](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [Побітові операції](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
     - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
-        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+        - Двійковий код: плюси та мінуси (чому ми використовуємо доповнення до двох) (відео) [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - Перше доповнення [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - Друге доповнення [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] підрахунок встановлених бітів
+        - 4 способи підрахунку бітів у байті (відео) [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
+        - Підрахунок бітів [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - Як порахувати кількість встановлених бітів у 32-бітному цілому числі [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
     - [ ] round to next power of 2:
-        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
-        - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
-        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+        - округлити до наступного степеня 2 [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+    - [ ] обмін значеннями:
+        - Обмін [Swap](http://bits.stephan-brumme.com/swap.html)
+    - [ ] абсолютні значення:
+        - Абсолютне ціле число [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Дерева
 
-- ### Trees - Notes & Background
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - BFS (breadth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-        - level order (BFS, using queue)
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
-    - DFS (depth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-        - notes:
-            time complexity: O(n)
-            space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-        - inorder (DFS: left, self, right)
-        - postorder (DFS: left, right, self)
-        - preorder (DFS: self, left, right)
-    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
-    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
-    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
+- ### Дерева - Вступ
+    - [ ] Введення до Дерев (відео) [Intro to Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - [ ] Обхід дерев (відео) [Tree Traversal (video)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
+    - [ ] BFS (пошук в ширину) та DFS (пошук в глибину) (відео) [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+        - Нотатки про BFS:
+           - порядок рівнів (BFS, з використанням черги)
+           - часова складність: O(n)
+           - просторова складність: найкраща: O(1), найгірша: O(n/2)=O(n)
+        - Нотатки про DFS:
+            - часова складність: O(n)
+            - просторова складність:
+                найкраща: O(log n) - середня висота дерева
+                найгірша: O(n)
+            - inorder (DFS: left, self, right)
+            - postorder (DFS: left, right, self)
+            - preorder (DFS: self, left, right)
+    - [ ] [Огляд] Пошук в ширину за 4 хвилини (відео) [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [Огляд] Пошук в глибину за 4 хвилини (відео) [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [Огляд] Обхід дерева (плейлист) за 11 хвилин (відео) [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
-- ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - starts with symbol table and goes through BST applications
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
+- ### Бінарні дерева пошуку (Binary search trees: BSTs)
+
+    - [ ] Огляд бінарних дерев пошуку (відео) [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    - [ ] Вступ (відео) [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] MIT (відео) [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+        - [ ] Бінарне дерево пошуку - реалізація у C/C++ (відео) [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] Реалізація BST - розподіл пам'яті у стеку та купі (відео) [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] Знаходження мінімального та максимального елементів у бінарному дереві пошуку (відео) [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] Знаходження висоти бінарного дерева (відео) [Find the height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] Обхід бінарного дерева - стратегії в ширину та в глибину (відео) [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] Бінарне дерево: обхід за рівнем порядку (відео) [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] Обхід бінарного дерева: попередній порядок, наступний порядок, пост-порядок (відео) [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] Перевірка, чи є бінарне дерево бінарним деревом пошуку (відео) [Check if a binary tree is a binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] Видалення вузла з бінарного дерева пошуку (відео) [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] Наступник в порядку обходу в дереві пошуку [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] Реалізувати:
+        - [ ] [insert    // вставка значення у дерево](https://leetcode.com/problems/insert-into-a-binary-search-tree/submissions/987660183/)
+        - [ ] get_node_count // отримання кількості збережених значень
+        - [ ] print_values // виведення на екран значень в дереві, від min до max
         - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
+        - [ ] is_in_tree // повертає true, якщо задане значення існує в дереві
+        - [ ] [get_height](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/) // повертає висоту у вузлах (висота одного вузла дорівнює 1)
+        - [ ] get_min   // повертає мінімальне значення, що зберігається в дереві
+        - [ ] get_max   // повертає максимальне значення, що зберігається в дереві
+        - [ ] [is_binary_search_tree](https://leetcode.com/problems/validate-binary-search-tree/)
         - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] get_successor // повертає наступника за величиною значення у дереві після заданого, -1 якщо такого немає
 
-- ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
-    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
+- ### Купа / Пріоритетна черга / Бінарна купа
+
+    - візуалізується у вигляді дерева, але зазвичай є лінійною у сховищі (масив, зв'язаний список)
+    - [ ] Купа [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] Вступ (відео) [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] Бінарні дерева (відео) [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] Зауваження щодо висоти дерева (відео) [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] Основні операції (відео) [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] Повні бінарні дерева (відео) [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] Псевдокод (відео) [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] Сортування купою - переходи до початку (відео) [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] Сортування купою (відео) [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] Створення купи (відео) [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+    - [ ] MIT: Купи та сортування купою (відео) [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] CS 61B Лекція 24: Черги пріоритетів (відео) [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
-    - [ ] Implement a max-heap:
+    - [ ] [Огляд] Купа (плейлист) за 13 хвилин (відео) [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
+    - [ ] Реалізувати максимальну купу:
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+        - [ ] sift_up - необхідно для insert
+        - [ ] get_max - повертає максимальний елемент, не видаляючи його
+        - [ ] get_size() - повертає кількість елементів
+        - [ ] is_empty() - повертає true, якщо в купі немає елементів
+        - [ ] extract_max - повертає максимальний елемент, видаляючи його
+        - [ ] sift_down - необхідний для extract_max
+        - [ ] remove(x) - видаляє елемент за індексом x
+        - [ ] heapify - створює купу з масиву елементів, необхідно для heap_sort
+        - [ ] heap_sort() - бере невідсортований масив і перетворює його на відсортований на місці, використовуючи max heap або min heap
 
-## Sorting
+## Сортування
 
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
-        - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
-        - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
-        - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-        - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
-        - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+- [ ] Примітки:
+    - Реалізуйте сортування і знайте найкращий/найгірший випадок, середню складність кожного з них:
+        - ніяких бульбашкових сортувань - це жахливо - O(n^2), за винятком випадків, коли n <= 16
+    - [ ] Стабільність алгоритмів сортування ("Чи є Quicksort стабільним?")
+        - Стабільність алгоритмів сортування [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
+        - Стабільність в алгоритмах сортування (StackOverflow) [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
+        - Стабільність в алгоритмах сортування (GeeksForGeeks) [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+        - Алгоритми сортування - стабільність [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
+    - [ ] Які алгоритми можна використовувати на зв'язаних списках? Які на масивах? Які на обох?
+        - Я б не рекомендував сортувати зв'язаний список, але сортування злиттям цілком можливо.
+        - Сортування злиттям для зв'язаного списку [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
-- For heapsort, see Heap data structure above. Heap sort is great, but not stable.
+- Про сортування купою (heapsort) дивіться структуру даних Heap вище. Сортування купою - це чудово, але не стабільно
 
-- [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
-- [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
-- [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-- [ ] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
-- [ ] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
-- [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
-- [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
+- [ ] Седжвік - Сортування злиттям (5 відео) [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+    - [ ] Сортування злиттям [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] 2. Висхідний Mergesort [2. Bottom-up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+    - [ ] 3. Складність сортування [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    - [ ] 4. Компаратори [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] 5. Стабільність [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
-- [ ] Merge sort code:
-    - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
-    - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
-    - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-- [ ] Quick sort code:
-    - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
-    - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-    - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+- [ ] Седжвік - Сортування злиттям (5 відео) [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+    - [ ] Швидке сортування [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    - [ ] Вибір [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    - [ ] Повторні ключі [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    - [ ] Системні сортування [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
-- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
-    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
-    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
-    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
-    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
-    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
-    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+- [ ] Університет Каліфорнії (Берклі) (UC Berkeley):
+    - [ ] CS 61B Лекція 29: Сортування I (відео) [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
+    - [ ] CS 61B Лекція 30: Сортування II (відео) [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
+    - [ ] CS 61B Лекція 32: Сортування III (відео) [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
+    - [ ] CS 61B Лекція 33: Сортування V (відео) [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
+    - [ ] CS 61B 2014-04-21: Сортування за розрядами (відео) [CS 61B 2014-04-21: Radix Sort(video)](https://archive.org/details/ucberkeley_webcast_pvbBMd-3NoI)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+- [ ] Бульбашкове сортування (відео) [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
+- [ ] Аналіз бульбашкового сортування (відео) [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
+- [ ] Сортування вставками, злиттям (відео) [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- [ ] Сортування вставками (відео) [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
+- [ ] Сортування злиттям (відео) [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
+- [ ] Швидке сортування (відео) [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
+- [ ] Сортування вибором (відео) [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Not required, but I recommended them:
-    - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-        - [ ] [1. Strings in Java](https://www.youtube.com/watch?v=zRzU-FWsjNU&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=6)
-        - [ ] [2. Key Indexed Counting](https://www.youtube.com/watch?v=CtgKYmXs62w&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=5)
-        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=2pGVq_BwPKs&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=4)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=M3cYNY90R6c&index=3&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-        - [ ] [5. 3 Way Radix Quicksort](https://www.youtube.com/watch?v=YVl58kfE6i8&index=2&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-        - [ ] [6. Suffix Arrays](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1)
-    - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
-    - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
-    - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
+- [ ] Код сортування злиттям:
+    - [ ] Використання вихідного масиву (C) [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
+    - [ ] Використання вихідного масиву (Python) [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
+    - [ ] На місці (C++) [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
+- [ ] Код швидкого сортування:
+    - [ ] Реалізація (C) [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
+    - [ ] Реалізація (C) [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
+    - [ ] Реалізація (Python) [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
-If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+- [ ] [Огляд] Сортування (плейлист) за 18 хвилин [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] Швидке сортування за 4 хвилини (відео) [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] Сортування купою за 4 хвилини (відео) [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] Сортування злиттям за 3 хвилини (відео) [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] Сортування бульбашками за 2 хвилини (відео) [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] Сортування вибором за 3 хвилини (відео) [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] Сортування вставками за 2 хвилини (відео) [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+
+- [ ] Реалізувати:
+    - [ ] Сортування злиттям: O(n log n) середній та найгірший випадок
+    - [ ] Швидке сортування O(n log n) середній випадок
+    - Сортування вибором та сортування вставкою мають середній та найгірший випадок O(n^2)
+    - Про сортування купою даних дивіться вище у розділі Структури даних - Купа
+
+- [ ] Не обов'язково, але я рекомендую їх:
+    - [ ] Седжвік - Радікс-сортування (6 відео) [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
+        - [ ] 1. Рядки в Java [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+        - [ ] 2. Індексований підрахунок ключів [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] 3. Сортування за розрядами за найменш значущою цифрою першого рядка [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
+        - [ ] 3. Сортування за розрядами за найбільш значущою цифрою першого рядка [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] 5. 3-бічне cортування за розрядами [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] 6. Масиви суфіксів [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] Сортування за розрядами [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
+    - [ ] Сортування за розрядами (відео) [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
+    - [ ] Сортування за розрядами, лічильне сортування (лінійні обмеження за часом) (відео) [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] Рандомізація: матричне множення, швидке сортування, алгоритм Фрейвальдса (відео) [Randomization: Matrix Multiply, Quicksort, Freivalds' algorithm (video)](https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] Сортування за лінійний час (відео) [Sorting in Linear Time (video)](https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14)
+
+Як підсумок, ось візуальне представлення [15 алгоритмів сортування](https://www.youtube.com/watch?v=kPRA0W1kECg).
+Якщо вам потрібна більш детальна інформація на цю тему, зверніться до розділу "Сортування" у [Додаткова інформація про деякі теми](#additional-detail-on-some-subjects)
 
 ## Graphs
 

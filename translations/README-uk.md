@@ -137,10 +137,10 @@ Microsoft.
     - [Динамічне програмування](#Динамічне-програмування)
     - [Шаблони проектування](#Шаблони-проектування)
     - [Комбінаторика (n choose k) та ймовірність](#комбінаторика-n-choose-k-та-ймовірність)
-    - [NP, NP-повні та Апроксимаційні Алгоритми](#np-np-complete-and-approximation-algorithms)
-    - [Як комп'ютери опрацьовують програму](#how-computers-process-a-program)
-    - [Кеші](#caches)
-    - [Процеси та Треди](#processes-and-threads)
+    - [NP, NP-повні та Апроксимаційні Алгоритми](#np-np-повні-та-апроксимаційні-алгоритми)
+    - [Як комп'ютер виконує програму](#як-комп'ютер-виконує-програму)
+    - [Кеші](#Кеші)
+    - [Процеси та потоки](#процеси-та-потоки)
     - [Тестування](#testing)
     - [Пошук та маніпуляції з рядками](#string-searching--manipulations)
     - [Спроби](#tries)
@@ -1043,123 +1043,95 @@ Microsoft.
         - Всього відео - 41 (кожне просте і кожне коротке):
             - [ ] Пояснення теорії ймовірностей (відео) [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
-    - Know what NP-complete means.
-    - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
-    - [ ] Simonson:
-        - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
-        - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
-    - [ ] Skiena:
-        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
+- ### NP, NP-повні та Апроксимаційні Алгоритми
+    - Знати про найвідоміші класи NP-повних задач, такі як задача комівояжера та задача про рюкзак,
+        та вміти розпізнавати їх, коли інтерв'юер задає їх у завуальованій формі.
+    - Знати, що означає NP-повні задачі.
+    - [ ] Обчислювальна складність (відео) [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+    - [ ] Саймонсон:
+        - [ ] Жадібні алгоритми II та вступ до NP-повноти (відео) [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] NP-повнота II та скорочення (відео) [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] NP-повнота III (відео) [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] NP-повнота IV (відео) [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+    - [ ] Скієна:
+        - [ ] CSE373 2012 - Лекція 23 - Вступ до NP-повноти (відео) [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+        - [ ] CSE373 2012 - Лекція 24 - Доведення NP-повноти (відео) [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] CSE373 2012 - Лекція 25 - Виклик NP-повноти (відео) [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] Складність: P, NP, NP-повнота, редукції (відео) [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    - [ ] Складність: Апроксимаційні алгоритми (відео) [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    - [ ] Складність: алгоритми з фіксованими параметрами (відео) [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - Пітер Норвіг обговорює близькі до оптимальних розв'язки задачі комівояжера:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Pages 1048 - 1140 in CLRS if you have it.
+    - Сторінки 1048 - 1140 у CLRS, якщо у вас є.
 
-- ### Caches
-    - [ ] LRU cache:
-        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-        - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
-        - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-    - [ ] CPU cache:
-        - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-        - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- ### Як комп'ютер виконує програму
 
-- ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
-    - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - difference between processes and threads
-            - processes
-            - threads
-            - locks
-            - mutexes
-            - semaphores
-            - monitors
-            - how they work
-            - deadlock
-            - livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
-        - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
-        - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
-        - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
-        - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware
-    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] concurrency in Python (videos):
-        - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
-        - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
-        - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
-            - [reference](http://www.dabeaz.com/GIL)
-        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
-        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
-        - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+    - [ ] Як процесор виконує програму (відео) [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [ ] Як комп'ютери обчислюють - ALU (відео) [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] Регістри та оперативна пам'ять (відео) [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] Центральний процесор (CPU) (відео) [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+    - [ ] Інструкції та програми (відео) [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
-- ### Papers
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
-    - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
-    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
-    - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
-        - [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
-    - [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
-    - [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](https://www.akkadia.org/drepper/cpumemory.pdf)
-        - The Dynamo paper kicked off the NoSQL revolution
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
-    - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
-    - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
-    - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
-    - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-    - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+- ### Кеші
+    - [ ] Кеш-пам'ять останнього використання (LRU cache):
+        - [ ] Магія кешу LRU (100 днів Google Dev) (відео) [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+        - [ ] Впровадження LRU (відео) [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+        - [ ] LeetCode - 146 LRU кеш (C++) (відео) [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+    - [ ] Кеш-пам'ять процесора (CPU cache):
+        - [ ] MIT 6.004 L15: Ієрархія пам'яті (відео) [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+        - [ ] MIT 6.004 L16: Проблеми з кешем (відео) [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-        - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+- ### Процеси та потоки
+    - [ ] Computer Science 162 - Операційні системи (25 відео):
+        - про процеси та потоки див. відео 1-11
+        - Операційні системи та системне програмування (відео) [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+    - Яка різниця між процесом і потоком? [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
+    - Охоплює:
+        - Процеси, потоки, проблеми паралелізму
+            - різниця між процесами та потоками (processes and threads)
+            - процеси (processes)
+            - потоки (threads)
+            - замки (locks)
+            - м'ютекси (mutexes)
+            - семафори (semaphores)
+            - монітори (monitors)
+            - як вони працюють (how they work)
+            - глухий кут (deadlock)
+            - живий кут (livelock)
+        - Активність процесора, переривання, перемикання контексту
+        - Сучасні конструкції паралелізму з багатоядерними процесорами
+        - Пагінація, сегментація та віртуальна пам'ять (відео) [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
+        - Переривання (відео) [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+        - Планування (відео) [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
+        - Потреби процесу в ресурсах (пам'ять: код, статична пам'ять, стек, купа, а також дескриптори файлів, ввід/вивід)
+        - Потреби потоку в ресурсах (ділить вищеперелічене (крім стеку) з іншими потоками у тому ж самому процесі, але у кожного є свій PC, лічильник стеку, регістри та стек)
+        - Розгалуження - це фактично копіювання на запис (тільки для читання), поки новий процес не запише в пам'ять, після чого він робить повну копію.
+        - Перемикання контексту
+            - Як перемикання контексту ініціюється операційною системою та базовим обладнанням
+    - [ ] потоки в C++ (серія - 10 відео) [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] паралелізм у Python (відео):
+        - [ ] Короткий плейліст про потоки [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+        - [ ] Потоки Python [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+        - [ ] Розуміння Python GIL (2010) [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+            - [посилання](http://www.dabeaz.com/GIL)
+        - [ ] David Beazley - Паралелізм на Python з нуля: LIVE! - PyCon 2015 [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+        - [ ] Доповідь Девіда Бізлі - Теми, що нас цікавлять (Python Asyncio) [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+        - [ ] Mutex у Python [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+
+- ### Тестування
+    - Охопити:
+        - як працює модульне тестування
+        - що таке макетні об'єкти
+        - що таке інтеграційне тестування
+        - що таке впровадження залежностей
+    - [ ] Гнучке тестування програмного забезпечення з Джеймсом Бахом (відео) [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] Відкрита лекція Джеймса Баха про тестування програмного забезпечення (відео) [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] Стів Фрімєн - Розробка, керована тестами (це не те, що ми мали на увазі) (відео) [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
+        - слайди [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    - [ ] Впровадження залежностей:
+        - [ ] відео [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+        - [ ] Дао Тестування [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+    - [ ] Як писати тести [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Scheduling
     - in an OS, how it works

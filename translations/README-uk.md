@@ -141,14 +141,14 @@ Microsoft.
     - [Як комп'ютер виконує програму](#як-комп'ютер-виконує-програму)
     - [Кеші](#Кеші)
     - [Процеси та потоки](#процеси-та-потоки)
-    - [Тестування](#testing)
-    - [Пошук та маніпуляції з рядками](#string-searching--manipulations)
-    - [Спроби](#tries)
-    - [Числа з рухомою комою](#floating-point-numbers)
-    - [Юнікод](#unicode)
-    - [Ендіанність](#endianness)
-    - [Нетворкінг (мережі)](#networking)
-- [Фінальний огляд](#final-review)
+    - [Тестування](#Тестування)
+    - [Пошук та маніпуляції з рядками](#Пошук-та-маніпуляції-з-рядками)
+    - [Префіксні дерева](#Префіксні-дерева)
+    - [Числа з рухомою комою](#Числа-з-рухомою-комою)
+    - [Юнікод](#Юнікод)
+    - [Ендіанність (Порядок байтів)](#ендіанність-порядок-байтів)
+    - [Робота з мережами](#Робота-з-мережами)
+- [Фінальний огляд](#Фінальний-огляд)
 
 ### Отримання роботи
 
@@ -390,8 +390,6 @@ Microsoft.
 - Елементи співбесід з програмування (версія на Python) [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
 - Елементи співбесід з програмування (версія на Java) [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Супутній проект - заглушки методів та тестові кейси для кожної проблеми в книзі](https://github.com/gardncl/elements-of-programming-interviews)
-
-
 
 ## Не робіть моїх помилок
 
@@ -1133,75 +1131,231 @@ Microsoft.
         - [ ] Дао Тестування [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] Як писати тести [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+- ### Пошук та маніпуляції з рядками
+    - [ ] Седжвік - Масиви суфіксів (відео) [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
+    - [ ] Седжвік - Пошук у підрядках (відео) [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] 1. Вступ до пошуку підрядків [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] 2. Пошук у підрядках методом грубої сили [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
+        - [ ] 3. Кнут-Морріс Пратт [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+        - [ ] 4. Бойєра-Мура [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
+        - [ ] 5. Рабін-Карп [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+    - [ ] Шаблон пошуку в тексті (відео) [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-- ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+    Якщо вам потрібна додаткова інформація з цієї теми, зверніться до розділу "Співставлення рядків" у [Додаткова інформація з деяких тем](#additional-detail-on-some-subjects).
 
-- ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-    - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
-        - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-        - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
-        - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+- ### Префіксні дерева
+    - Зверніть увагу, що існують різні типи спроб. Деякі з них мають префікси, деякі ні, а деякі використовують рядок замість бітів
+        для відстеження шляху.
+    - Переглядаю код, але не буду реалізовувати.
+    - [ ] Седжвік - Префіксні дерева (3 відео) [Sedgewick - Tries (3 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] 1. Префіксні дерева R Way [1. R Way Tries](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] 2. Префіксні дерева тернарного пошуку [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        - [ ] 3. Символьні операції [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
+    - [ ] Примітки про структури даних та методи програмування [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+    - [ ] Відео короткого курсу:
+        - [ ] Вступ до префіксних дерев (відео) [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [ ] Ефективність префіксних дерев (відео) [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [ ] Реалізація префіксного дерева (відео) [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] Префіксне дерево: занедбана структура даних [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    - [ ] TopCoder - Використання префіксних дерев [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+    - [ ] Стенфордська лекція (реальний приклад використання) (відео) [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    - [ ] MIT, Просунуті структури даних, Рядки (може стати досить незрозумілим приблизно на півдорозі) [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+- ### Числа з рухомою комою
+    - [ ] просте 8-бітне: Представлення чисел з рухомою комою - 1 (відео - є помилка в обчисленнях - дивись опис відео) [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
 
-- ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path.
-    - I read through code, but will not implement.
-    - [ ] [Sedgewick - Tries (3 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [1. R Way Tries](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
-    - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] Short course videos:
-        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-    - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
-    - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+- ### Юнікод
+    - [ ] Абсолютний мінімум, який кожен розробник програмного забезпечення обов'язково повинен знати про юнікод та набори символів [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets](http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] Що обов'язково потрібно знати кожному програмісту про кодування та набори символів для роботи з текстом [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
 
-- ### Floating Point Numbers
-    - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
-    - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
+- ### Ендіанність (Порядок байтів)
+    - [ ] Старший та молодший порядок байтів [Big And Little Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] Старший порядок байтів vs Молодший порядок байтів [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] Старший та молодший порядок байтів у подробицях (відео) [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        - Дуже технічна розмова для розробників ядра. Не хвилюйтеся, якщо більшість з них вам не під силу.
+        - Першої половини достатньо.
 
-- ### Unicode
-    - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
-    - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
+- ### Робота з мережами
+    - **Якщо у вас є досвід роботи з мережами або ви хочете стати інженером з надійності або інженером з експлуатації, чекайте на запитання**
+    - В іншому випадку, це просто корисно знати
+    - [ ] Академія Хана [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
+    - [ ] UDP і TCP: порівняння транспортних протоколів (відео) [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] Пояснення TCP/IP та моделі OSI (відео) [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] Передача пакетів через Інтернет. Підручник по роботі в мережі та TCP/IP. (відео) [Packet Transmission across the Internet. Networking & TCP/IP tutorial. (video)](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] HTTP (відео) [HTTP (video)](https://www.youtube.com/watch?v=WGJrLqtX7As)
+    - [ ] SSL та HTTPS (відео) [SSL and HTTPS (video)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] SSL/TLS (відео) [SSL/TLS (video)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+    - [ ] HTTP 2.0 (відео) [HTTP 2.0 (video)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+    - [ ] Серія відео (21 відео) [Video Series (21 videos) (video)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] Демістифікація підмережі - частина 5 Нотація CIDR (відео) [Subnetting Demystified - Part 5 CIDR Notation (video)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] Сокети:
+        - [ ] Java - Сокети - вступ (відео) [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+        - [ ] Програмування сокетів (відео) [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
-- ### Endianness
-    - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+---
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
-    - otherwise, this is just good to know
-    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
-    - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-    - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
-    - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
-    - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
-    - [ ] Sockets:
-        - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
-        - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+## Фінальний огляд
+
+    У цьому розділі зібрані короткі відео, які ви можете переглянути досить швидко, щоб повторити більшість важливих понять.
+    Це дуже зручно, якщо ви часто хочете повторити матеріал.
+
+- [ ] Серія 2-3-хвилинних коротких тематичних відеороликів (23 відео)
+    - Відео [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Серія 2-5-хвилинних тематичних відеороликів - Майкл Самбол (48 відео):
+    - Відео [Videos](https://www.youtube.com/@MichaelSambol)
+    - Приклади коду [Code Examples](https://github.com/msambol/dsa)
+
+---
+
+## Update Your Resume
+
+- See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
+- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume),
+    - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
+- ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
+    - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
+
+## Interview Process & General Interview Prep
+
+- [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] How to Get a Job at the Big 4:
+    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
+- [ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] Cracking the Facebook Coding Interview:
+    - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
+    - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
+- Prep Courses:
+    - [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - A Python-centric interview prep course that covers data structures, algorithms, mock interviews, and much more.
+    - [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
+        - A free Python-centric data structures and algorithms course.
+    - [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
+        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
+    - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
+        - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
+    - [AlgoMonster (paid course with free content)](https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github):
+      - The crash course for LeetCode. Covers all the patterns condensed from thousands of questions.
+
+Mock Interviews:
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview
+- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - a peer-to-peer model to practice interviews
+- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously
+- [Meetapro: Mock interviews with top FAANG interviewers](https://meetapro.com/?utm_source=ciu) - an Airbnb-style mock interview/coaching platform.
+- [Hello Interview: Mock Interviews with Expert Coaches and AI](https://www.hellointerview.com/?utm_source=ciu) - interview directly with AI or with FAANG staff engineers and managers.
+- [Codemia: Practice system design problems with AI or community solutions and feedback](https://codemia.io/?utm_source=ciu) - Practice system design problems via AI practice tool. Share your solution with the community to get human feedback as well.
+
+## Be thinking of for when the interview comes
+
+Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
+Have a story, not just data, about something you accomplished.
+
+- Why do you want this job?
+- What's a tough problem you've solved?
+- Biggest challenges faced?
+- Best/worst designs seen?
+- Ideas for improving an existing product.
+- How do you work best, as an individual and as part of a team?
+- Which of your skills or experiences would be assets in the role and why?
+- What did you most enjoy at [job x / project y]?
+- What was the biggest challenge you faced at [job x / project y]?
+- What was the hardest bug you faced at [job x / project y]?
+- What did you learn at [job x / project y]?
+- What would you have done better at [job x / project y]?
+
+## Have questions for the interviewer
+
+Some of mine (I already may know the answers, but want their opinion or team perspective):
+
+- How large is your team?
+- What does your dev cycle look like? Do you do waterfall/sprints/agile?
+- Are rushes to deadlines common? Or is there flexibility?
+- How are decisions made in your team?
+- How many meetings do you have per week?
+- Do you feel your work environment helps you concentrate?
+- What are you working on?
+- What do you like about it?
+- What is the work life like?
+- How is the work/life balance?
+
+## Once You've Got The Job
+
+Congratulations!
+
+Keep learning.
+
+You're never really done.
+
+---
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+    Everything below this point is optional. It is NOT needed for an entry-level interview.
+    However, by studying these, you'll get greater exposure to more CS concepts and will be better prepared for
+    any software engineering job. You'll be a much more well-rounded software engineer.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---
+
+## Additional Books
+
+    These are here so you can dive into a topic you find interesting.
+
+- [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
+    - An oldie but a goodie
+- [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
+    - A modern option
+- [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
+- [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
+    - A gentle introduction to design patterns
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+    - AKA the "Gang Of Four" book or GOF
+    - The canonical design patterns book
+- [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+    - As a review and problem-recognition
+    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview
+    - This book has 2 parts:
+        - Class textbook on data structures and algorithms
+            - Pros:
+                - Is a good review as any algorithms textbook would be
+                - Nice stories from his experiences solving problems in industry and academia
+                - Code examples in C
+            - Cons:
+                - Can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
+                - Chapters 7, 8, and 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
+                - Don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material
+        - Algorithm catalog:
+            - This is the real reason you buy this book.
+            - This book is better as an algorithm reference, and not something you read cover to cover.
+    - Can rent it on Kindle
+    - Answers:
+        - [Solutions](https://web.archive.org/web/20150404194210/http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
+    - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
+- [Algorithm](http://jeffe.cs.illinois.edu/teaching/algorithms/) (Jeff Erickson)
+- [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
+    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief
+    - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like
+    - These chapters are worth the read to give you a nice foundation:
+        - Chapter 2 - Numeric Representation
+        - Chapter 3 - Binary Arithmetic and Bit Operations
+        - Chapter 4 - Floating-Point Representation
+        - Chapter 5 - Character Representation
+        - Chapter 6 - Memory Organization and Access
+        - Chapter 7 - Composite Data Types and Memory Objects
+        - Chapter 9 - CPU Architecture
+        - Chapter 10 - Instruction Set Architecture
+        - Chapter 11 - Memory Architecture and Organization
+- [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X)
+    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently
+    - AKA CLR, sometimes CLRS, because Stein was late to the game
+- [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
+    - For a richer, more up-to-date (2017), but longer treatment
 
 ## System Design, Scalability, Data Handling
 - **You can expect system design questions if you have 4+ years of experience.**
@@ -1326,168 +1480,6 @@ Microsoft.
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
-
----
-
-## Final Review
-
-    This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
-
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (48 videos):
-    - [Videos](https://www.youtube.com/@MichaelSambol)
-    - [Code Examples](https://github.com/msambol/dsa)
-
----
-
-## Coding Question Practice
-
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
-
-**Coding question practice is not about memorizing answers to programming problems.**
-
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
-
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
-
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
-
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
-
-Supplemental:
-
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-
-**Read and Do Programming Problems (in this order):**
-
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-
-See [Book List above](#book-list)
-
-## Coding exercises/challenges
-
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
-
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
-
-Coding Interview Question Videos:
-- [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
-- [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-
-Challenge sites:
-- [LeetCode](https://leetcode.com/)
-- [TopCoder](https://www.topcoder.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
-- [Codewars](http://www.codewars.com)
-- [HackerRank](https://www.hackerrank.com/)
-- [Codility](https://codility.com/programmers/)
-- [InterviewCake](https://www.interviewcake.com/)
-- [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com)
-- [Sphere Online Judge (spoj)](http://www.spoj.com/)
-
-Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/)
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
-
-## Once you're closer to the interview
-
-- [ ] Cracking The Coding Interview Set 2 (videos):
-    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
-    - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
-
-## Your Resume
-
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
-
-
-## Be thinking of for when the interview comes
-
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
-
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
-
-## Have questions for the interviewer
-
-    Some of mine (I already may know answer to but want their opinion or team perspective):
-
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
-
-## Once You've Got The Job
-
-Congratulations!
-
-Keep learning.
-
-You're never really done.
-
----
-
-    *****************************************************************************************************
-    *****************************************************************************************************
-    
-    Everything below this point is optional.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-    
-    *****************************************************************************************************
-    *****************************************************************************************************
-
----
-
-## Additional Books
-
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
-- [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - a modern option
-- [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
-- [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
-- [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - aka the "Gang Of Four" book, or GOF
-    - the canonical design patterns book
-- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
 ## Additional Learning
 

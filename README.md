@@ -27,7 +27,7 @@
 - [Português Brasileiro](translations/README-ptbr.md)
 - [Russian](translations/README-ru.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Urdu - اردو](tanslations/README-ur.md)
+- [Urdu - اردو](translations/README-ur.md)
 - [Uzbek](translations/README-uz.md)
 - [বাংলা - Bangla](translations/README-bn.md)
 - [ខ្មែរ - Khmer](translations/README-kh.md)

@@ -411,6 +411,8 @@ Please, read so you won't make my mistakes:
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
+[Top 15 Software Developer Skills](https://www.scaler.com/blog/software-developer-skills/).
+
 ### 2. Use Flashcards
 
 To solve the problem, I made a little flashcard site where I could add flashcards of 2 types: general and code.

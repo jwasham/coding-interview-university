@@ -206,7 +206,7 @@ Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap,
 
 Es un plan largo, puede que tome unos meses; pero si le resulta familiar mucho de esto, le tomara mucho menos tiempo.
 
-## Como usarlo
+## Como usarlo Done
 
 Todo lo que aparece abajo es un plan, y debería abordar los elementos en orden de arriba a abajo.
 
@@ -220,14 +220,14 @@ Haga fork a una rama y siga los comandos siguientes
 
 Haga fork del repositorio de Github [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) haciendo click sobre el botón "Fork".
 
-Clónalo en un repositorio local:
+Clónalo en un repositorio local: [x]
 ```
 git clone git@github.com:<tu_usuario_de_github_/coding-interview-university.git
 git checkout -b progress
 git remote add jwasham https://github.com/jwasham/coding-interview-university
 git fetch --all
 ```
-Marque todas las cajas con una x después de que completa los cambios
+Marque todas las cajas con una x después de que completa los cambios [x]
 
 ```
 git add .
@@ -249,7 +249,7 @@ Algunos videos solo están disponibles inscribiéndose a una clase de Coursera o
 Apreciaría su ayuda añadiendo fuentes siempre disponibles, publicas y gratuitas como videos de Youtube para acompañar a los videos del curso en línea.
 
 ## Prepárese para la entrevista
-- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4) [x]
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] Cracking The Coding Interview Set 1:

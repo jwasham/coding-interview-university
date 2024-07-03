@@ -375,7 +375,7 @@ nhưng tôi đã mua thêm để tạo thêm cơ hội thực hành cho bản th
 Tôi đã mua cả hai. Chúng đã cho tôi rất nhiều bài tập thực hành.
 
 
-- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+- [x] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - Có câu trả lời bằng C++ và Java
     - Được khuyến khích bởi các khóa hướng dẫn của Google.
     - Đây là một phần luyện tập tốt trước khi bắt đầu với quyển Cracking the Coding Interview

@@ -108,6 +108,7 @@ For a complete CS self-taught program, the resources for my study plan have been
     - [Stack](#stack)
     - [Queue](#queue)
     - [Hash table](#hash-table)
+    - [HashMap](https://boldcoder.blogspot.com/2024/08/internal-working-of-hashmap-in-java.html)
 - [More Knowledge](#more-knowledge)
     - [Binary search](#binary-search)
     - [Bitwise operations](#bitwise-operations)

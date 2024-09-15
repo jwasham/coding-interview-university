@@ -101,16 +101,16 @@ For a complete CS self-taught program, the resources for my study plan have been
 
 ### Topics of Study
 
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
+- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis) [DONE]
+- [Data Structures](#data-structures) [DONE]
+    - [Arrays](#arrays) [DONE]
+    - [Linked Lists](#linked-lists) [DONE]
+    - [Stack](#stack) [DONE]
+    - [Queue](#queue) [DONE]
+    - [Hash table](#hash-table) [DONE]
+- [More Knowledge](#more-knowledge) [DONE]
+    - [Binary search](#binary-search) [DONE]
+    - [Bitwise operations](#bitwise-operations) [DONE]
 - [Trees](#trees)
     - [Trees - Intro](#trees---intro)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)

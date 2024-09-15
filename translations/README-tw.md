@@ -1,49 +1,62 @@
 # Coding Interview University
 
 > 原先我為了成為一個軟體工程師而建立這份簡單的讀書主題清單(To-do list)，
-> 但這份To-do list隨著時間而膨脹成這個樣子。 [做完這份To-do list上的每個目標後，我成為了Amazon的工程師](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> 但這份To-do list儼然隨著時間成為了一個很長的清單。 [做完這份To-do list上的每個目標後，我成為了Amazon的工程師](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > 你或許不需要像我讀一樣多。但是，每個讓你成為一位稱職工程師所需要的知識都在這裡了。
 >
 > 我每天讀8~12小時的書，這樣持續了好幾個月。這是我的故事:[為什麼我為了Google面試而讀了8個月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
 > 在這份To-do list內的主題會讓你擁有足夠的知識去面對幾乎每家軟體公司的專業面試，
-> 這些公司包含了科技巨獸，例如Amazon、Facebook、Google，或者是Microsoft。
+> 這些公司包含了諸多科技巨獸，例如Amazon、Facebook、Google，或者是Microsoft。
 >
 > *祝你好運!*
 
 <details>
 <summary>翻譯:</summary>
 
-- [中文版本](translations/README-cn.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Bahasa Indonesia](translations/README-id.md)
+- [Bulgarian](translations/README-bg.md)
 - [Español](translations/README-es.md)
+- [German](translations/README-de.md)
+- [Japanese (日本語)](translations/README-ja.md)
+- [Polish](translations/README-pl.md)
 - [Português Brasileiro](translations/README-ptbr.md)
+- [Russian](translations/README-ru.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Urdu - اردو](tanslations/README-ur.md)
+- [Uzbek](translations/README-uz.md)
+- [বাংলা - Bangla](translations/README-bn.md)
+- [ខ្មែរ - Khmer](translations/README-kh.md)
+- [简体中文](translations/README-cn.md)
 - [繁體中文](translations/README-tw.md)
-
 </details>
 
 <details>
 <summary>正在翻譯的項目:</summary>
 
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-- [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
+- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
 - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
 - [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
-- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
-- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
-
+- [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 </details>
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <hr />
+</div>
 
 ## What is it?
 
@@ -195,6 +208,8 @@
 
     Fork一個branch，並且跟隨以下的指令
 
+`git clone git@github.com:<your_github_username>/coding-interview-university.git`
+
 `git checkout -b progress`
 
 `git remote add jwasham https://github.com/jwasham/coding-interview-university`
@@ -207,7 +222,9 @@
 
 `git commit -m "Marked x"`
 
-`git rebase jwasham/master`
+`git rebase jwasham/main`
+
+`git push --set-upstream origin progress`
 
 `git push --force`
 
@@ -229,7 +246,6 @@
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] 如何錄取Big Tech(Google, Amazon, Facebook, Apple):
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
@@ -365,8 +381,8 @@
 製作屬於自己的免費小字卡:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 我的小字卡資料庫中包含了組合語言、Python的小知識、機器學習以及統計。這些內容已經超出了原本他的預設。
 
@@ -465,6 +481,7 @@
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 ## 資料結構
 - ### 陣列
@@ -472,12 +489,10 @@
     - [ ] (動態)陣列背後原理:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
+        - [Basic Arrays (video)]()
+        - [Multi-dim (video)]()
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] 實作動態陣列(可變、可動態調整大小的陣列)
         - [ ] 練習在程式中用陣列以及指標，透過計算指標而存取該內容，而不是直接用索引。
         - [ ] 直接動態生成一個新的陣列
@@ -509,6 +524,7 @@
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - 沒有完整的code，裡面只包含了用struct實作節點的方式以及其記憶體配置。
     - [ ] Linked List vs 陣列:
@@ -540,14 +556,16 @@
 
 - ### Stack(堆疊)
     - [ ] [Stacks(影片)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [使用Stacks先進後出(Last-In First-Out)(影片)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [ ] [使用Stacks先進後出(Last-In First-Out)(影片)]()
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] 無須實作，可以用陣列實作，但這樣太過簡單了。
 
 - ### Queue(佇列)
-    - [ ] [使用Queues(先進先出)First-In First-Out(影片)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [ ] [使用Queues(先進先出)First-In First-Out(影片)]()
     - [ ] [Queue(影片)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues(影片)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] [Priority Queues(影片)]()
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] 使用linked list實作，包含末端指標(tail pointer):
         - enqueue(value) - 在queue末端加入元素
         - dequeue() - 刪除當時queue中最早進入的元素(意即queue中第一個元素)，並且回傳該元素的值。
@@ -567,11 +585,12 @@
         - [ ] [PyCon 2010: The Mighty Dictionary (影片)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (影片)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (影片)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
     - [ ] 線上開放式課程:
-        - [ ] [Understanding Hash Functions (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [Using Hash Tables (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [Supporting Hashing (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [Language Support Hash Tables (影片)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
+        - [ ] [Understanding Hash Functions (影片)]()
+        - [ ] [Using Hash Tables (影片)]()
+        - [ ] [Supporting Hashing (影片)]()
+        - [ ] [Language Support Hash Tables (影片)]()
         - [ ] [Core Hash Tables (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (影片)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (影片)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -592,12 +611,13 @@
     - [ ] [二分搜尋法(影片)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [二分搜尋法(影片)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [細節](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] 實作:
         - 二分搜尋法 (對已經排列好的數列)
         - 用遞迴(recursion)的方法實作二分搜尋法
 
 - ### 位元運算(Bitwise operations)
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - 你應該能背出一些2的指數(從2^1到2^16以及2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - 你應該能背出一些2的指數(從2^1到2^16以及2^32)
     - [ ] 實際了解如何用下列的位元運算子來操作每個位元: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -641,6 +661,9 @@
             - 中序 (DFS: 左子樹、根、右子樹)
             - 後序 (DFS: 左子樹、右子樹、根)
             - 前序 (DFS: 根、左子樹、右子樹)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### 二元搜尋樹Binary search trees: BSTs
     - [ ] [Binary Search Tree Review (影片)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -688,6 +711,7 @@
     - [ ] [MIT: Heaps and Heap Sort (影片)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (影片)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] 實作max heap:
         - [ ] insert
         - [ ] sift_up - needed for insert
@@ -753,6 +777,14 @@
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
+
 - [ ] 實作:
     - [ ] 合併排序: 平均與最糟都是O(n log n) 
     - [ ] 快速排序: 平均O(n log n)
@@ -815,6 +847,8 @@
     - [ ] [CS 61B 2014: Weighted graphs (影片)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (影片)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (影片)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - 完整Coursera課程:
     - [ ] [Algorithms on Graphs (影片)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -846,7 +880,7 @@
     - 什麼時候適合用這些
     - tail recursion沒有比較好?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (影片)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (影片)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### 動態規劃
     - 在你的面試中或許沒有任何動態規劃的問題，但能夠知道一個題目可以使用動態規劃來解決是很重要的。
@@ -1048,7 +1082,7 @@
 - ### 網路
     - **以下為如果你有網路相關經驗，或是想成為一個可靠的工程師需要知道的知識**
     - 知道這些有益無害，多多益善!
-    - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
+    - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
     - [ ] [UDP and TCP: Comparison of Transport Protocols(影片)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained!(影片)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
     - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.(影片)](https://www.youtube.com/watch?v=nomyRJehhnM)
@@ -1127,7 +1161,7 @@
     - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
     - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze-json-encoding-compression/)
     - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
     - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
     - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
@@ -1159,7 +1193,7 @@
 - [ ] 練習系統設計的過程:以下是在紙上練習的一些方法，每個都有他們如何運用在現實中的說明文件:
     - 複習: [系統設計入門](https://github.com/donnemartin/system-design-primer)
     - [HiredInTech系統設計](http://www.hiredintech.com/system-design/)
-    - [提示](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [提示](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - 流程:
         1. 了解問題與其範圍:
             - 在面試官的幫助下定義使用情況
@@ -1182,7 +1216,6 @@
     - 練習:
         - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
         - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
         - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
         - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
@@ -1198,8 +1231,9 @@
 
 - [ ] 2-3分鐘快速複習影片系列(23個影片)
     - [影片](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5分鐘快速複習影片系列-Michael Sambol (18個影片)
-    - [影片](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] 2-5分鐘快速複習影片系列-Michael Sambol (48個影片)
+    - [影片](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1230,11 +1264,11 @@
 - [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
   
+
 **閱讀並解題(按照以下順序):**
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Secrets+to+Landing+Your+Next+Job%2C+2nd+Edition-p-9780470121672)
     - 附有C、C++、Java的解答
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - 附有Java的解答
@@ -1266,7 +1300,7 @@ Coding面試題目影片:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 - [Codechef](https://www.codechef.com/)
 
@@ -1274,7 +1308,7 @@ Coding面試題目影片:
 - [Python互動式coding面試解題](https://github.com/donnemartin/interactive-coding-challenges)
 
 更多面試:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - 點對點面試練習
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - 同樣能藉由跳過跟多家科技公司的面試，幫助你快速步上軌道，
 
@@ -1315,12 +1349,12 @@ Coding面試題目影片:
 
     *****************************************************************************************************
     *****************************************************************************************************
-
+    
     下面的東西都是額外的。
     讀這些東西，可以更了解電腦科學的概念，
     並且能讓自己對任何軟體工程的工作做更好的準備。
     如此一來，你將會成為一個更全面的軟體工程師。
-
+    
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1386,7 +1420,7 @@ Coding面試題目影片:
     - 前幾章提供了一些解決coding問題的精妙絕倫的方法(有些很舊，甚至還用磁帶)，但那些只是導論。這是本程式設計和架構的指南。
 
 ## 額外學習
-    
+
     我把他們加了進來為了讓你成為更全方位的軟體工程師，並且留意一些科技以及演算法，讓你的資料庫中有更多素材。
 
 - ### 編譯器
@@ -1567,6 +1601,7 @@ Coding面試題目影片:
         - [AVL Trees (影片)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (影片)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **伸縮樹Splay tree**
         - 實際上:
@@ -1586,7 +1621,8 @@ Coding面試題目影片:
         - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (影片)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (影片)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3搜尋樹**
         - 實際上:
@@ -1623,6 +1659,7 @@ Coding面試題目影片:
         - [MIT 6.851 - Memory Hierarchy Models (影片)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - 涵蓋了cache-oblivious B樹，非常有趣的資料結構
                 - 前37分鐘非常技術性，可以跳過(B代表block大小、cache line大小)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D樹
@@ -1677,17 +1714,16 @@ Coding面試題目影片:
     - [Google's Cloud Machine learning tools (影片)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
     - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (影片)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
     - [Tensorflow (影片)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials)
     - [Practical Guide to implementing Neural Networks in Python (使用Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
     - 課程:
         - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
               - [只有影片](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
-        - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
+        - [Neural Networks and Deep Learning Learning](https://www.coursera.org/learn/neural-networks-deep-learning)
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
-        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99/2個月)](http://www.thisismetis.com/explore-data-science)
     - 資源:
         - 書籍:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
@@ -1797,7 +1833,7 @@ Coding面試題目影片:
 
 - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [Discrete Mathematics by Shai Simonson (19部影片)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [Discrete Mathematics by Shai Simonson (19部影片)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [Discrete Mathematics Part 1 by Sarada Herke (5部影片)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1838,7 +1874,7 @@ Coding面試題目影片:
 
 - [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [Stanford: Programming Paradigms (27部影片)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Programming Paradigms (27部影片)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

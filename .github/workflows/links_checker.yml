@@ -13,39 +13,33 @@ jobs:
     name: Check links and create automated issue if needed
     runs-on: ubuntu-latest
     env:
-      REPORT_FILE: links-report
+      REPORT_FILE: links-report.md  # Added .md extension for clarity
     steps:
-      ## Check out code using Git
+      ## Check out the code using Git
       - uses: actions/checkout@v3
 
-      - name: Check all links at README.md but skips translations files
+      - name: Check all links in README.md, skipping translation files
         id: lychee
         uses: lycheeverse/lychee-action@v1.4.1
         with:
           output: ${{ env.REPORT_FILE }}
           format: markdown
-          ## Do not fail this step on broken links
-          fail: false
-          ## Allow pages replying with 200 (Ok), 204 (No Content),
-          ## 206 (Partial Content) in at most 20 seconds with HTML content.
-          ## max-concurrency was 20, getting network errors
+          fail: false  # Do not fail this step on broken links
           args: >-
             --verbose
             --accept 200,204,206
             --headers "accept=text/html"
             --timeout 20
-            --max-concurrency 3 
+            --max-concurrency 5  # Increased for potentially better performance
             --no-progress
             README.md
         env:
-          ## Avoid rate limiting when checking github.com links
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Avoid rate limiting for GitHub links
 
-      - name: Lychee's exit code
-        ## https://github.com/lycheeverse/lychee#exit-codes
-        run: echo Lychee exit with ${{ steps.lychee.outputs.exit_code }}
+      - name: Check Lychee's exit code
+        run: echo "Lychee exit with ${{ steps.lychee.outputs.exit_code }}"
 
-      - name: Find the last report issue open
+      - name: Find the last open report issue
         uses: micalevisk/last-issue-action@v1.2
         id: last_issue
         with:
@@ -60,9 +54,8 @@ jobs:
         if: ${{ steps.last_issue.outputs.has_found == 'false' }}
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: Link checker report
+          title: Link Checker Report
           content-filepath: ${{ env.REPORT_FILE }}
-          issue-number: ${{ steps.last_issue.outputs.issue_number }}
           labels: |
             report
             automated issue
@@ -71,7 +64,7 @@ jobs:
         if: ${{ steps.last_issue.outputs.has_found == 'true' }}
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: Link checker report
+          title: Link Checker Report
           content-filepath: ${{ env.REPORT_FILE }}
           issue-number: ${{ steps.last_issue.outputs.issue_number }}
           labels: |
@@ -83,3 +76,4 @@ jobs:
         uses: peter-evans/close-issue@v2
         with:
           issue-number: ${{ steps.last_issue.outputs.issue_number }}
+

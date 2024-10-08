@@ -846,8 +846,8 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
         - matriz de adjacência
         - lista de adjacência
         - mapa de adjacência
-    - Famialirize-se com cada representação e seus prós e contras.
-    - Busca em Largura (BFS) e Busca em Profundidade (DFS) - saiba a complexidade computacional deles, seus perde-e-ganhas (tradeoffs), e como implementar eles em código real.
+    - Familiarize-se com cada representação e seus prós e contras.
+    - Busca em Largura (BFS) e Busca em Profundidade (DFS) - saiba a complexidade computacional deles, dos seus prós e contras (tradeoffs), e como implementar eles em código real.
     - Quando for perguntado uma questão, busque por uma solução baseada em grafos primeiro, depois se não houver nenhuma, siga em frente.
 
 - [ ] Aulas do Skiena - ótima introdução:
@@ -887,7 +887,7 @@ Grafos podem ser usados para representar muitos problemas na Ciência da Computa
     - [ ] Busca em Largura (BFS) com matriz de adjacência
     - [ ] menor caminho de fonte-única (Dijkstra)
     - [ ] árvore de extensão mínima
-    - Algoritmos baseados em busca em profundidade (DFS) (ver vídeos da Aduni acima):
+    - Algoritmos baseados em busca em profundidade (DFS) (veja os vídeos do Aduni acima):
         - [ ] checar por ciclos (necessário para ordenação topológica, já que nós iremos checar por ciclos antes de começar)
         - [ ] ordenação topológica
         - [ ] contar componentes conectados em um grafo
@@ -1014,7 +1014,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp) (Complexidade: Algorítmos de Parâmetro-Fixado - vídeo)
     - Peter Norvig debate soluções tão boas quanto possível para o problema do vendedor viajante:
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb) (Caderno de Júpiter)
-    - Páginas 1048 - 1140 em CLRS (livro Introdução à Algoritmos) se você o tive.r
+    - Páginas 1048 - 1140 em CLRS (livro Introdução à Algoritmos) se você o tiver
 
 - ### Caches
     - [ ] Cache LRU:
@@ -1045,13 +1045,12 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
         - atividade, interrupções e troca de contexto de CPU
         - Construtos de simultaneidade modernos com processadores de múltiplos núcleos.
         - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2) (Paginação, segmentação e memória virtual - vídeo)
-        - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3) (Interruoções - vídeo)
-        - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8) (Agendamento - vídeo)
-        - Necessidades de recurso de processos (memória: código, armazenamento estático, memória estática (stack), memória dinâmica (heap), e também descritores de arquivo, i/o
+        - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+        - Necessidades de recurso de processos (memória: código, armazenamento estático, memória estática (stack), memória dinâmica (heap), e também descritores de arquivo, i/o)
         - Necessidades de recurso de threads (o mesmo que acima (menos stack) com outras threads no mesmo processo, mas cada um tem seu próprio pc, contador de stack, registros, e stack)
         - Bifurcação nada mais é que COW (copy-on-write) (somente leitura) até que o novo processo escreva na memória, depois ela faz uma cópia completa.
         - Troca de contexto
-            - Como a troca de contexto é iniciada pelo sistema operacional e componentes de hardware subjacentes
+            - [Como a troca de contexto é iniciada pelo sistema operacional e componentes de hardware subjacentes](https://www.javatpoint.com/what-is-the-context-switching-in-the-operating-system)
     - [ ] [threads em C++ (série- 10 vídeos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
     - [ ] simultaneidade (ou concorrência) em Python (vídeos):
         - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1) (Pequena série sobre threads)

@@ -28,12 +28,13 @@ jobs:
           fail: false
           ## Allow pages replying with 200 (Ok), 204 (No Content),
           ## 206 (Partial Content) in at most 20 seconds with HTML content.
+          ## max-concurrency was 20, getting network errors
           args: >-
             --verbose
             --accept 200,204,206
             --headers "accept=text/html"
             --timeout 20
-            --max-concurrency 10
+            --max-concurrency 3 
             --no-progress
             README.md
         env:

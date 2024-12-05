@@ -348,18 +348,18 @@ This book will form your foundation for computer science.
 
 Just choose one, in a language that you will be comfortable with. You'll be doing a lot of reading and coding.
 
+### Python
+
+- [Coding Interview Patterns: Nail Your Next Coding Interview](https://geni.us/q7svoz) (**Main Recommendation**)
+    - An insider’s perspective on what interviewers are truly looking for and why.
+    - 101 real coding interview problems with detailed solutions.
+    - Intuitive explanations that guide you through each problem as if you were solving it in a live interview.
+    - 1000+ diagrams to illustrate key concepts and patterns.	
+
 ### C
 
 - [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
     - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms
-
-### Python
-
-- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 ### Java
 
@@ -389,12 +389,7 @@ Your choice:
 
 Here are some recommended books to supplement your learning.
 
-
-- [Coding Interview Patterns: Nail Your Next Coding Interview](https://geni.us/q7svoz) (**Main recommendation**)
-    - An insider’s perspective on what interviewers are truly looking for and why.
-    - 101 real coding interview problems with detailed solutions.
-    - Intuitive explanations that guide you through each problem as if you were solving it in a live interview.
-    - 1000+ diagrams to illustrate key concepts and patterns.	
+- [Coding Interview Patterns: Nail Your Next Coding Interview](https://geni.us/q7svoz)
 
 - [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - Answers in C++ and Java

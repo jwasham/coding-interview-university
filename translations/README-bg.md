@@ -49,13 +49,6 @@
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 </details>
 
-<div align="center">
-  <hr />
-    <p>
-      <a href="https://github.com/sponsors/jwasham"><strong>Станете спонсор</strong> за да покрепите Coding Interview University!</a>
-    </p>
-  <hr />
-</div>
 
 ## Какво е това?
 

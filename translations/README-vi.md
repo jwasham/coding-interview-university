@@ -37,13 +37,6 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 >
 > *Chúc may mắn!*
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Trở thành nhà tài trợ</strong> và hỗ trợ cho Coding Interview University!</a>
-    </p>
-    <hr />
-</div>
 
 ## Giới thiệu
 

@@ -50,13 +50,6 @@
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 </details>
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>کفیل بنیں</strong> اور کوڈنگ انٹرویو یونیورسٹی کی مدد کریں!</a>
-    </p>
-    <hr />
-</div>
 
 ## یہ کیا ہے؟
 

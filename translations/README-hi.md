@@ -55,14 +55,6 @@
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 </details>
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>प्रायोजक बनें</strong> 
-और कोडिंग साक्षात्कार विश्वविद्यालय का समर्थन करें!</a>
-    </p>
-    <hr />
-</div>
 
 ## यह क्या है?
 

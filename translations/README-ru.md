@@ -2,13 +2,6 @@
 
 Оригинальная версия: [Английский](../README.md) 
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
-    </p>
-    <hr />
-</div>
 
 ## Для кого это?
 

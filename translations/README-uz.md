@@ -12,13 +12,6 @@ Asl versiyasi: [Inglizcha](../README.md)
 >
 > *Sizga omad tilayman!*
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
-    </p>
-    <hr />
-</div>
 
 ## Bu nima uchun kerak?
 

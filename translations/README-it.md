@@ -59,13 +59,6 @@ Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
 
 </details>
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Diventa uno sponsor</strong> e supporta Coding Interview University!</a>
-    </p>
-    <hr />
-</div>
 
 ## Che cos'e'?
 

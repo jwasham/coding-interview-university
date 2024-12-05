@@ -54,30 +54,7 @@
 
 </details>
 
-<div align="center">
-<u />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Word een sponsor</strong> en steun Coding Interview University!</a>
-    </p>
-    <p>
-        <strong>Speciale dank aan:</strong>
-    </p>
-    <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
-            </div>
-            <div>
-                <p>
-                    <strong>Ontwikkelomgevingen gebouwd voor de cloud</strong>
-                </p>
-            </div>
-            <div>
-                <sup>Geïntegreerd met GitLab, GitHub en Bitbucket, bouwt Gitpod automatisch en continu dev-omgevingen voor al uw branches. Als resultaat kunnen teamleden direct beginnen met coderen met nieuwe ontwikkelomgevingen voor elke nieuwe taak - of je nu een nieuwe functie bouwt, een bug wilt repareren of aan een code-review werkt.</sup>
-            </div>
-        </a>
-    </p>
-    <u />
+
 </div>
 
 ## Wat is het?

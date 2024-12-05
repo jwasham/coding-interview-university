@@ -53,13 +53,6 @@
 - [मराठी](https://github.com/jwasham/coding-interview-university/issues/1002)
 </details>
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham">कोडिंग साक्षात्कार विद्यापीठाला समर्थन करण्यासाठी <strong>स्पॉन्सर बना!</strong></a>
-    </p>
-    <hr />
-</div>
 
 ## हे काय आहे?
 

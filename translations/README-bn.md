@@ -53,13 +53,6 @@
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81) 
 </details>
 
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>পৃষ্ঠপোষক হয়ে যান</strong> এবং কোডিং ইন্টারভিউ বিশ্ববিদ্যালয় সমর্থন করুন!</a>
-    </p>
-    <hr />
-</div>
  
 ## এটি কি
 

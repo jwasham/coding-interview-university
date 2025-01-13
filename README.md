@@ -308,6 +308,7 @@ You may not need it, but here are some sites for learning a new language:
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
 - [Programiz PRO Community Challenges)](https://programiz.pro/)
+- [LabEx](https://labex.io)
 
 ### For your Coding Interview
 
@@ -1567,6 +1568,7 @@ You're never really done.
 
 - ### DevOps
     - [DevOps Roadmap](https://roadmap.sh/devops)
+    - [DevOps Skill Tree](https://labex.io/skilltrees/devops)
 
 - ### Information theory (videos)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)

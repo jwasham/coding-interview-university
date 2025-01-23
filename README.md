@@ -239,7 +239,7 @@ Create a new branch so you can check items like this, just put an x in the brack
 
     ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-1. Clone to your local repo:
+1. ***Clone to your local repo:***
 
     ```bash
     git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
@@ -248,7 +248,7 @@ Create a new branch so you can check items like this, just put an x in the brack
     git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
     ```
 
-1. Mark all boxes with X after you completed your changes:
+1. ***Mark all boxes with X after you completed your changes:***
 
     ```bash
     git commit -am "Marked personal progress"
@@ -1895,7 +1895,7 @@ You're never really done.
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):
         - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
-    - Boyer–Moore string search algorithm
+    - Boyer–Moore string search algorithm:
         - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
         - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
     - [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)

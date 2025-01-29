@@ -1992,8 +1992,35 @@ Sit back and enjoy.
 ## Papers
 
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
+- [The 7 Most Influential Papers in Computer Science History](https://terriblesoftware.org/2025/01/22/the-7-most-influential-papers-in-computer-science-history/)
+- 1936: On Computable Numbers, with an Application to the Entscheidungsproblem 
+    -[paper](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
+    -[wiki](https://en.wikipedia.org/wiki/Turing%27s_proof)
+    -[video](https://www.youtube.com/watch?v=dNRDvLACg5Q)
+- 1948: A Mathematical Theory of Communication
+    -[paper](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
+    -[wiki](https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication)
+    -[video](https://www.youtube.com/watch?v=b6VdGHSV6qg)
+- 1970: A Relational Model of Data for Large Shared Data Banks
+    -[paper](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
+    -[wiki](https://en.wikipedia.org/wiki/Codd%27s_12_rules)
+- 1971: The Complexity of Theorem-Proving Procedures
+    -[paper](https://www.inf.unibz.it/~calvanese/teaching/14-15-tc/material/cook-1971-NP-completeness-of-SAT.pdf)
+    -[wiki](https://en.wikipedia.org/wiki/P_versus_NP_problem)
+    -[video](https://www.youtube.com/watch?v=dJUEkjxylBw)
+- 1974: A Protocol for Packet Network Intercommunication
+    -[paper](https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf)
+    -[video](https://www.youtube.com/watch?v=PG9oKZdFb7w)
 - [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
     - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
+- 1989: Information Management: A Proposal
+    -[paper](https://cds.cern.ch/record/369245/files/dd-89-001.pdf)
+    -[article](https://time.com/21039/tim-berners-lee-web-proposal-at-25/)
+    -[video](https://www.youtube.com/watch?v=qJNrvVv7SdU)
+- 1998: The Anatomy of a Large-Scale Hypertextual Web Search Engine
+    -[paper](https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf)
+    -[wiki](https://en.wikipedia.org/wiki/PageRank)
+    -[video](https://www.youtube.com/watch?v=v7n7wZhHJj8&t=184s)
 - [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
     - replaced by Colossus in 2012
 - [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)

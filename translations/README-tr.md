@@ -16,6 +16,7 @@
 <details>
 <summary>Translations:</summary>
 
+- [Azerbaijani](translations/README-az.md)
 - [Bahasa Indonesia](translations/README-id.md)
 - [Bulgarian](translations/README-bg.md)
 - [Español](translations/README-es.md)

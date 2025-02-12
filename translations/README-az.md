@@ -69,8 +69,7 @@ Bu, mənim böyük bir şirkət üçün proqram mühəndisi olmaq üçün çox a
 
 Əgər İngilis dili bilmirsinizsə, bu, sizin üçün böyük bir maneə olacaq. Əvvəlcə İngilis dilini öyrənməlisiniz. Texnologiya və proqramlaşdırma dünyasında baş verən yeniliklər və resursların əksəriyyəti yalnız İngilis dilində mövcuddur. Bu sahədə uğur qazanmaq istəyirsinizsə, İngilis dilini mütləq öyrənməlisiniz. Çünki dil bilmədən yeni texnologiyaları mənimsəmək və beynəlxalq cəmiyyətlə əlaqə qurmaq çox çətin olacaq. Bütün bu resursları anlamadan, dünya ilə ayaqlaşmaq və peşəkar sahədə irəliləmək mümkün deyil. İngilis dili, özünüzü inkişaf etdirmək və bu sahədə irəliləmək üçün ən vacib alətdir.
 <br>
- bu, **software engineering** üçün iş planıdır, frontend mühəndisliyi və ya tam stack inkişafı deyil. Həqiqətən də var
-super yol xəritələri və başqa yerlərdə bu karyera yolları üçün kurs işləri(əlavə məlumat üçün https://roadmap.sh/ saytına baxın).<br>
+ bu, **software engineering** üçün iş planıdır, frontend mühəndisliyi və ya tam stack inkişafı deyil. Çalışma planım üçün mənbələr Kamran Ahmed-in Kompüter Elmləri Yol Xəritəsində yer alır: [https://roadmap.sh/computer-science](https://roadmap.sh/computer-science)<br>
 
 Təhlükəsizlik və ya əməliyyat mühəndisi olmaq istəyirsinizsə, əlavə siyahıdan (network, security) daha çox mövzunu öyrənin.
 ---

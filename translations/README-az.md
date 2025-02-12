@@ -552,7 +552,7 @@ Challenge/Practice saytları:
 
 ## Let's Get Started
 
-Tamam, yetərincə danışdıq, gəlin öyrənək!!
+Tamam, yetərincə danışdıq, gəlin öyrənək!
 
 Ancaq öyrənərkən yuxarıdan kodlaşdırma problemləri etməyi unutmayın!
 
@@ -576,7 +576,7 @@ Ancaq öyrənərkən yuxarıdan kodlaşdırma problemləri etməyi unutmayın!
 
 Bax, bu qədər kifayətdir.
 
-"Cracking the Coding Interview" kitabını keçərkən, burada bir fəsil var və sonunda müxtəlif alqoritmlərin zaman mürəkkəbliyini müəyyən edib etmədiyini yoxlamaq üçün bir test var. Bu, əla bir nəzərdən keçirmə və sınaqdır.
+"Cracking the Coding Interview" kitabını keçərkən, burada bir fəsil var və sonunda müxtəlif alqoritmlərin runtime mürəkkəbliyini müəyyən edib etmədiyini yoxlamaq üçün bir test var. Bu, əla bir nəzərdən keçirmə və sınaqdır.
 
 **[⬆ back to top](#table-of-contents)**
 

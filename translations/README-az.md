@@ -63,8 +63,10 @@ Bu, mənim böyük bir şirkət üçün proqram mühəndisi olmaq üçün çox a
 * İngilis Dili
 * Kodlaşdırma ilə bir az təcrübə (variables, loops, methods/functions, və s.)
 * Səbir
-* Vaxt <br>QEYD EDƏK Kİ, Tədris Planındakı CS TERMINLƏRİ TƏRCÜMƏ OLUNMUR.
-<br>
+* Vaxt
+
+    <br>                       QEYD EDƏK Kİ, Tədris Planındakı CS TERMINLƏRİ TƏRCÜMƏ OLUNMUR.
+   <br>
 
 
 Əgər İngilis dili bilmirsinizsə, bu, sizin üçün böyük bir maneə olacaq. Əvvəlcə İngilis dilini öyrənməlisiniz. Texnologiya və proqramlaşdırma dünyasında baş verən yeniliklər və resursların əksəriyyəti yalnız İngilis dilində mövcuddur. Bu sahədə uğur qazanmaq istəyirsinizsə, İngilis dilini mütləq öyrənməlisiniz. Çünki dil bilmədən yeni texnologiyaları mənimsəmək və beynəlxalq cəmiyyətlə əlaqə qurmaq çox çətin olacaq. Bütün bu resursları anlamadan, dünya ilə ayaqlaşmaq və peşəkar sahədə irəliləmək mümkün deyil. İngilis dili, özünüzü inkişaf etdirmək və bu sahədə irəliləmək üçün ən vacib alətdir.
@@ -1817,9 +1819,8 @@ Sən heç hazır deyilsən.
 
 ## Additional Detail on Some Subjects
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+   Yuxarıda qeyd olunan bəzi fikirləri gücləndirmək üçün bunları əlavə etdim, lakin çox olacağı üçün yuxarıda qeyd etmək istəmədim. 
+   Hər hansı mövzuda şişirtmək asandı. Bu əsrdə işə qəbul olmaq istəyirsən, elə deyilmi?
 
 - **SOLID**
     - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)

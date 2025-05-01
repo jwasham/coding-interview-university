@@ -6,7 +6,7 @@ Traductions:
 - मानक हिन्दी (in progress) [Issue #81](https://github.com/jwasham/coding-interview-university/issues/81)
 
 
-## C'est quoi?
+## Qu’est-ce que c’est ?
 
 C'est un plan d'études de plusieurs mois pour aller d'un développeur web (Autodidacte, sans diplôme en informatique) à ingénieur logiciel google.
 
@@ -25,14 +25,14 @@ Si vous avez plusieurs années d'expérience en développement web/logiciel, not
 Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, suivez plus de cours de la liste optionnelle (Réseau, sécurité)
 ---
 
-## Table of Contents
+## Table des matières
 
-- [C'est quoi?](#what-is-it)
+- [Qu’est-ce que c’est ?](#what-is-it)
 - [Pourquoi l'utiliser?](#why-use-it)
 - [Comment s'en servir](#how-to-use-it)
 - [Se mettre dans l'humeur Googley](#get-in-a-googley-mood)
-- [J'ai décroché le Job?](#did-i-get-the-job)
-- [Follow Along with Me](#follow-along-with-me)
+- [Ai-je décroché le Job?](#did-i-get-the-job)
+- [Suivez avec moi](#follow-along-with-me)
 - [Ne vous sentez pas stupide](#ne-vous-sentez-pas-stupide)
 - [A propos de Google](#about-google)
 - [A propos des ressources vidéo](#about-video-resources)
@@ -40,24 +40,24 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Choisir un langage pour l'entretien](#pick-one-language-for-the-interview)
 - [Liste de livres](#book-list)
 - [Avant de commencer](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Recherche dichotomique](#binary-search)
+- [Points qui ne seront pas couverts](#what-you-wont-see-covered)
+- [Prérequis](#prerequisite-knowledge)
+- [Plan quotidien](#the-daily-plan)
+- [Complexité algorithmique / Notation grand O / Analyse asymptotique](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Structures de données](#data-structures)
+    - [Tableau](#arrays)
+    - [Liste chaînée](#linked-lists)
+    - [Pile](#stack)
+    - [File](#queue)
+    - [Table de Hachage](#hash-table)
+- [Plus de Connaissance](#more-knowledge)
+    - [Recherche binaire](#binary-search)
     - [Opérations bit à bit](#bitwise-operations)
 - [Arbres](#trees)
-    - [Arbres - Notes & Background](#trees---notes--background)
-    - [Arbres binaires de recherche: BSTs](#binary-search-trees-bsts)
+    - [Arbres - Notes & Arrière plan](#trees---notes--background)
+    - [Arbres binaires de recherche: BST](#binary-search-trees-bsts)
     - [Tas / File de Priorité / Tas binaire](#heap--priority-queue--binary-heap)
-    - Arbre de recherche équilibré (general concept, not details)
+    - Arbre de recherche équilibré (concept general, non détaillé)
     - Parcours : Préfixe, infixe, postfixe, BFS, DFS
 - [Tri](#sorting)
     - sélection

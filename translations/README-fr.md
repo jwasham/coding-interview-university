@@ -5,8 +5,7 @@ Traductions:
 - [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/coding-interview-university/issues/80)
 - मानक हिन्दी (in progress) [Issue #81](https://github.com/jwasham/coding-interview-university/issues/81)
 
-
-## Qu’est-ce que c’est ?
+## C’est quoi
 
 C'est un plan d'études de plusieurs mois pour aller d'un développeur web (Autodidacte, sans diplôme en informatique) à ingénieur logiciel google.
 
@@ -27,12 +26,12 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 
 ## Table des matières
 
-- [Qu’est-ce que c’est ?](#what-is-it)
-- [Pourquoi l'utiliser?](#why-use-it)
-- [Comment s'en servir](#how-to-use-it)
-- [Se mettre dans l'humeur Googley](#get-in-a-googley-mood)
-- [Ai-je décroché le Job?](#did-i-get-the-job)
-- [Suivez avec moi](#follow-along-with-me)
+- [C’est quoi](#cest-quoi)
+- [Pourquoi l'utiliser?](#pourquoi-lutiliser)
+- [Comment s'en servir](#comment-sen-servir)
+- [Se mettre dans l'humeur Googley](#se-mettre-dans-lhumeur-googley)
+- [J’ai eu le job ?](#jai-eu-le-job)
+- [Follow moi ailleurs](#follow-moi-ailleurs)
 - [Ne vous sentez pas stupide](#ne-vous-sentez-pas-stupide)
 - [A propos de Google](#about-google)
 - [A propos des ressources vidéo](#about-video-resources)
@@ -71,10 +70,10 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
     - matrice d'adjacence
     - liste d'adjacence
     - parcours: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
+- [Encore plus de connaissance](#even-more-knowledge)
     - [Récursivité](#recursion)
-    - [Programmation orientée objet](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
+    - [Programmation d'objets orientés](#object-oriented-programming)
+    - [Modèles de conception](#design-patterns)
     - [Combinatoire (k parmi n) et probabilité](#combinatorics-n-choose-k--probability)
     - [NP, NP-complet et les Algorithmes d'approximation](#np-np-complete-and-approximation-algorithms)
     - [Caches](#caches)
@@ -83,67 +82,68 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
     - [Tests](#testing)
     - [Ordonnancement](#scheduling)
     - [Implémentation des routines système](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
+    - [Recherche et manipulation de chaînes](#string-searching--manipulations)
+- [Conception système, Scalabilité, Gestion des données](#system-design-scalability-data-handling) (si vous avez 4+ années d'expérience)
+- [Révision finale](#final-review)
+- [Exercices de codage](#coding-question-practice)
+- [Défis/exercices de programmation](#coding-exerciseschallenges)
+- [Une fois que vous serez proche de l'entretien](#once-youre-closer-to-the-interview)
 - [Votre CV](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Ayez les questions pour l'entretien](#have-questions-for-the-interviewer)
-- [Quand vous aurez eu le travail:](#once-youve-got-the-job)
+- [À garder en tête pour l'entretien](#be-thinking-of-for-when-the-interview-comes)
+- [Préparez vos questions pour l'entretien](#have-questions-for-the-interviewer)
+- [Quand vous aurez obtenu le poste :](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+---------------- Tout ce qui suit est facultatif ----------------
 
-- [Livres Supplémentaires](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Compilers](#compilers)
-    - [Floating Point Numbers](#floating-point-numbers)
+- [Livres supplémentaires](#additional-books)
+- [Apprentissage supplémentaire](#additional-learning)
+    - [Programmation dynamique](#dynamic-programming)
+    - [Compilateurs](#compilers)
+    - [Nombres à virgule flottante](#floating-point-numbers)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
+    - [Emacs et vi(m)](#emacs-and-vim)
+    - [Outils en ligne de commande Unix](#unix-command-line-tools)
+    - [Théorie de l'information](#information-theory)
+    - [Parité et code de Hamming](#parity--hamming-code)
+    - [Entropie](#entropy)
+    - [Cryptographie](#cryptography)
     - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [Réseautique](#networking) (si vous avez de l’expérience réseau ou souhaitez devenir ingénieur systèmes, attendez-vous à des questions)
+    - [Sécurité informatique](#computer-security)
+    - [Ramassage de déchets (Garbage collection)](#garbage-collection)
+    - [Programmation parallèle](#parallel-programming)
+    - [Messagerie, sérialisation et systèmes de file d'attente](#messaging-serialization-and-queueing-systems)
+    - [Transformée de Fourier rapide](#fast-fourier-transform)
+    - [Filtre de Bloom](#bloom-filter)
     - [HyperLogLog](#hyperloglog)
-    - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Tries](#tries)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Hachage sensible à la localité](#locality-sensitive-hashing)
+    - [Arbres de van Emde Boas](#van-emde-boas-trees)
+    - [Structures de données augmentées](#augmented-data-structures)
+    - [Tries (arbres préfixes)](#tries)
+    - [Arbres N-aires (K-aires, M-aires)](#n-ary-k-ary-m-ary-trees)
+    - [Arbres de recherche équilibrés](#balanced-search-trees)
+        - Arbres AVL
+        - Arbres Splay
+        - Arbres rouge/noir
+        - Arbres de recherche 2-3
+        - Arbres 2-3-4 (ou arbres 2-4)
+        - Arbres N-aires (K-aires, M-aires)
+        - Arbres B
+    - [Arbres k-D](#k-d-trees)
+    - [Listes Skip (listes à sauts)](#skip-lists)
+    - [Flots de réseau](#network-flows)
+    - [Mathématiques pour le traitement rapide](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
+    - [Programmation linéaire](#linear-programming)
+    - [Géométrie, enveloppe convexe](#geometry-convex-hull)
+    - [Mathématiques discrètes](#discrete-math)
+    - [Apprentissage automatique](#machine-learning)
     - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [Détails supplémentaires sur certains sujets](#additional-detail-on-some-subjects)
+- [Séries vidéo](#video-series)
+- [Cours d'informatique](#computer-science-courses)
+
 
 ---
 
@@ -171,7 +171,7 @@ J'utilise la typologie Markdown de GitHub, incluant les listes de tâches pour s
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Cochez toutes les cases avec un X après avoir terminé vos modifications
 
 `git add . `
 
@@ -183,13 +183,14 @@ J'utilise la typologie Markdown de GitHub, incluant les listes de tâches pour s
 
 [Plus sur Markdown à la sauce Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Get in a Googley Mood
+## Se mettre dans l'humeur Googley
 
-Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+Imprimez une affiche “[futur Googler](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)” (ou deux) et gardez les yeux sur l’objectif.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)
 
-## Comment j'ai eu le job ?
+
+## J’ai eu le job ?
 
 I'm in the queue right now. Hope to interview soon.
 

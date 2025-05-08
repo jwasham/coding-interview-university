@@ -30,19 +30,20 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Pourquoi l'utiliser?](#pourquoi-lutiliser)
 - [Comment s'en servir](#comment-sen-servir)
 - [Se mettre dans l'humeur Googley](#se-mettre-dans-lhumeur-googley)
-- [J’ai eu le job ?](#jai-eu-le-job)
+- [J'ai eu le job ?](#jai-eu-le-job)
 - [Follow moi ailleurs](#follow-moi-ailleurs)
 - [Ne vous sentez pas stupide](#ne-vous-sentez-pas-stupide)
-- [A propos de Google](#about-google)
-- [A propos des ressources vidéo](#about-video-resources)
-- [Déroulement de l'entretien & préparations générales à l'entretien](#interview-process--general-interview-prep)
-- [Choisir un langage pour l'entretien](#pick-one-language-for-the-interview)
-- [Liste de livres](#book-list)
-- [Avant de commencer](#before-you-get-started)
-- [Points qui ne seront pas couverts](#what-you-wont-see-covered)
-- [Prérequis](#prerequisite-knowledge)
-- [Plan quotidien](#the-daily-plan)
-- [Complexité algorithmique / Notation grand O / Analyse asymptotique](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [A propos de Google](#a-propos-de-google)
+- [Ressources video](#ressources-video)
+- [Entretien et preparation](#entretien-et-preparation)
+- [Choisis une langue pour l'entretien](#choisis-un-langage-pour-lentretien)
+- [Liste de livres](#liste-de-livres)
+- [Avant de commencer](#avant-de-commencer)
+- [Points qui ne seront pas couverts](#points-qui-ne-seront-pas-couverts)
+- [Condition requise](#condition-requise)
+- [Plan quotidien](#plan-quotidien)
+- [Complex algorithmique / Notation grand O / Analyse asymptotique](#complex-algorithmique--notation-grand-o--analyse-asymptotique)
+
 - [Structures de données](#data-structures)
     - [Tableau](#arrays)
     - [Liste chaînée](#linked-lists)
@@ -192,15 +193,15 @@ Imprimez une affiche “[futur Googler](https://github.com/jwasham/coding-interv
 
 ## J’ai eu le job ?
 
-I'm in the queue right now. Hope to interview soon.
+Je suis en actuellement en Queue, j'espere decrocher un entretient bientot.
 
     Thanks for the referral, JP.
 
 ## Follow moi ailleurs
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+Ma story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-I'm on the journey, too. Follow along:
+Je suis egalement sur cette voie, suivez moi sur:
 
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
@@ -211,11 +212,12 @@ I'm on the journey, too. Follow along:
 ![John Washam - Coding Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Ne vous sentez pas stupide
+
 - Les ingénieurs de Google sont intelligents, mais beaucoup ont comme insécurité qu'ils ne sont pas suffisamment intelligents, même s'ils travaillent pour Google.
 - [Le mythe du programmeur génie](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [C'est dangereux de rester seul: Combattre les monstres invisibles dans la Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## À propos de Google
+## A propos de Google
 
 - [ ] Pour les étudiants - [Carrières Google: Guide de développement technique](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [ ] Comment marche la recherche:
@@ -232,7 +234,7 @@ I'm on the journey, too. Follow along:
 - [ ] [Livre: Comment Google fonctionne](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 - [ ] [Annonce faite par Google - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## À propos des ressources vidéos
+## Ressources video
 
 Certaines vidéos sont disponibles uniquement en s'inscrivant à une classe Coursera, EdX ou Lynda.com. Ce sont des MOOC.
 Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mois, donc vous n'y avez pas accès. Les cours sur Lynda.com ne sont pas gratuits.
@@ -241,7 +243,7 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
     J'aime utiliser les cours universitaires.
 
 
-## Processus pour l'entrevue et Préparation
+## Entretien et preparation
 
 - [ ] Vidéos:
     - [ ] [Comment travailler à Google: Prépare pour une interview d'ingénieur (vidéo)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
@@ -273,7 +275,7 @@ Parfois, les cours ne sont pas en session, alors vous devez attendre quelques mo
         - [ ] ['Comment obtenir un emploi aux grandes quatre - Amazon, Facebook, Google & Microsoft' (vidéo)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Échouer à une entrevue de Google](http://alexbowe.com/failing-at-google-interviews/)
 
-## Choisis une langue pour l'Entrevue
+## Choisis un langage pour l'entretien
 
 Je l'ai écrit cet article à propos de cela : [Important: Choisis une langue pour l'entrevue Google](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
@@ -390,54 +392,50 @@ OU:
 
 ### Livres optionnels
 
-**Plusieurs personnes les recommandes, cependant je pense qu'ils vont trop loin, à moins que vous ayez plusieurs années dans le développement logiciel and que vous vous attendez à un entretien bien plus difficile**
+**Plusieurs personnes en recommandes, cependant je pense qu'ils vont trop loin, à moins que vous ayez plusieurs années dans le développement logiciel and que vous vous attendez à un entretien bien plus difficile**
 
-- [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - En tant qu'examen et reconnaissance de problème
-    - Le catalogue algorithmique est bien plus difficile que ce que vous aurez pendant l'entretien.
-    - Ce livre est divisé en deux parties :
-        - class textbook on data structures and algorithms
-            - pour:
-                - est une bonne critique comme n'importe quel manuel le serait
-                - des histoires intéressantes venant de son expérience dans la résolution de problèmes dans l'industriel et l'académique
-                - des exemples de code en C
-            - contre:
-                - peut être aussi dense ou impénétrable que CLRS, et dans plusieurs cas, CLRS peut être une meilleure alternative sur certains sujets
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - les chapitres 7, 8, 9 peuvent être difficiles à suivre, comme certains points ne sont pas bien expliqués ou requiert une plus grande concentration pour comprendre
-                - ne vous méprenez pas, J'aime bien Skiena, sa pédagogie et ses manières mais je ne suis pas fais pas Stony Brook
-        - algorithm catalog:
-            - this is the real reason you buy this book.
-            - about to get to this part. Will update here once I've made my way through it.
-    - To quote Yegge: "More than any other book it helped me understand just how astonishingly commonplace
-        (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
-        covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
-        of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
-        them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
-        great way to learn how to identify hundreds of problem types."
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
+- [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
+- En tant qu'examen et reconnaissance de problème  
+- Le catalogue algorithmique est bien plus difficile que ce que vous aurez pendant l'entretien.  
+- Ce livre est divisé en deux parties :  
+    - manuel classique sur les structures de données et les algorithmes  
+        - pour :  
+            - est une bonne critique comme n'importe quel manuel le serait  
+            - des histoires intéressantes venant de son expérience dans la résolution de problèmes dans l'industriel et l'académique  
+            - des exemples de code en C  
+        - contre :  
+            - peut être aussi dense ou impénétrable que CLRS, et dans plusieurs cas, CLRS peut être une meilleure alternative sur certains sujets  
+            - les chapitres 7, 8, 9 peuvent être pénibles à suivre, comme certains éléments ne sont pas bien expliqués ou nécessitent plus de réflexion que je n’en ai  
+            - les chapitres 7, 8, 9 peuvent être difficiles à suivre, comme certains points ne sont pas bien expliqués ou requièrent une plus grande concentration pour comprendre  
+            - ne vous méprenez pas, j'aime bien Skiena, sa pédagogie et ses manières mais je ne fais pas partie de Stony Brook  
+    - catalogue d’algorithmes :  
+        - c’est la vraie raison pour laquelle on achète ce livre.  
+        - je suis sur le point d’attaquer cette partie. Je mettrai à jour ici une fois que je l’aurai parcourue.  
+- Pour citer Yegge : "Plus que n'importe quel autre livre, il m'a aidé à comprendre à quel point les problèmes de graphes sont étonnamment courants (et importants) – ils devraient faire partie de la boîte à outils de tout programmeur. Le livre couvre aussi les structures de données de base et les algorithmes de tri, ce qui est un bon bonus. Mais le véritable trésor est la seconde moitié du livre, qui est une sorte d'encyclopédie de fiches d'une page sur des tas de problèmes utiles et différentes manières de les résoudre, sans trop de détails. Presque chaque fiche a une image simple, ce qui la rend facile à mémoriser. C’est une excellente manière d’apprendre à identifier des centaines de types de problèmes."  
+- Peut être loué sur Kindle  
+- Half.com est une excellente ressource pour des manuels à bon prix
+
+    - Reponses:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+    - **Important:** Lire ce livre n’aura qu’une valeur limitée. Ce livre est une excellente révision des algorithmes et des structures de données, mais ne vous apprendra pas à écrire du bon code. Vous devez être capable de coder une solution correcte efficacement.  
+    - Pour citer Yegge : "Mais si vous voulez arriver à vos entretiens *préparé*, alors envisagez de reporter votre candidature jusqu’à ce que vous ayez parcouru ce livre."  
+    - Half.com est une excellente ressource pour des manuels à bon prix.  
+    - aussi connu sous le nom de CLR, parfois CLRS, car Stein est arrivé en retard dans l’aventure
+
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+       - Les premiers chapitres présentent des solutions astucieuses à des problèmes de programmation (certains très anciens utilisant des bandes magnétiques), mais ce n’est qu’une introduction. Il s’agit d’un guide sur la conception de programmes et l’architecture logicielle, un peu comme *Code Complete*, mais beaucoup plus court.
+
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
+   - Un bon livre, mais après avoir travaillé sur plusieurs exercices, j’ai été frustré par le Pascal, les boucles *do while*, les tableaux indexés à partir de 1, et les résultats de post-conditions peu clairs.  
+    x- Je préfère passer du temps sur des problèmes de code issus d’un autre livre ou de plateformes en ligne.
 
-
-## Before you Get Started
+## Avant de commencer
 
 This list grew over many months, and yes, it kind of got out of hand.
 
@@ -483,7 +481,7 @@ Take a break from programming problems for a half hour and go through your flash
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
 
-## What you won't see covered
+## Points qui ne seront pas couverts
 
 This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
 technologies but were not mentioned in those notes:
@@ -492,72 +490,77 @@ technologies but were not mentioned in those notes:
 - Javascript
 - HTML, CSS, and other front-end technologies
 
-## The Daily Plan
+## Condition requise
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+- [ ] **Apprendre le C**  
+    - Le langage C est partout. Vous verrez des exemples dans les livres, les cours, les vidéos, *partout* pendant votre apprentissage.  
+    - [ ] [Langage de programmation C, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)  
+        - C’est un livre court, mais il vous donnera une excellente maîtrise du langage C, et avec un peu de pratique,  
+          vous deviendrez rapidement compétent. Comprendre le C vous aide à comprendre comment les programmes et la mémoire fonctionnent.  
+        - [réponses aux questions](https://github.com/lekkas/c-algorithms)  
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+- [ ] **Comment les ordinateurs traitent un programme :**  
+    - [ ] [Comment le processeur exécute un programme (vidéo)](https://www.youtube.com/watch?v=42KTvGYQYnA)  
+    - [ ] [Instructions en code machine (vidéo)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)  
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
 
-I may not have time to do all of these for every subject, but I'll try.
+## Plan quotidien
 
-You can see my code here:
+Certains sujets prennent une journée, d'autres prendront plusieurs jours. Certains consistent simplement à apprendre sans rien implémenter.
+
+Chaque jour, je prends un sujet de la liste ci-dessous, je regarde des vidéos sur ce sujet, puis j’écris une implémentation en :
+- C – en utilisant des structs et des fonctions qui prennent un struct * et autre chose comme arguments.
+- C++ – sans utiliser les types intégrés
+- C++ – en utilisant les types intégrés, comme std::list de la STL pour une liste chaînée
+- Python – en utilisant les types intégrés (pour continuer à pratiquer Python)
+- et j’écris des tests pour m’assurer que je fais les choses correctement, parfois juste avec des appels simples à assert()
+- Vous pouvez faire cela en Java ou dans un autre langage, c’est juste ma méthode.
+
+Vous n’avez pas besoin de tout cela. Vous n’avez besoin que d’[un seul langage pour l’entretien](#pick-one-language-for-the-interview).
+
+Pourquoi coder dans tous ces langages ?
+- Pratique, pratique, pratique, jusqu’à en être malade, et pouvoir le faire sans effort (certains sujets ont de nombreux cas particuliers et des détails à mémoriser)
+- Travailler dans des contraintes brutes (allocation/libération mémoire sans ramasse-miettes, sauf pour Python)
+- Utiliser les types intégrés pour avoir de l’expérience avec les outils natifs en conditions réelles (je ne vais pas réécrire une liste chaînée maison en production)
+
+Je n’aurai peut-être pas le temps de faire tout cela pour chaque sujet, mais je vais essayer.
+
+Vous pouvez voir mon code ici :
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Vous n’avez pas besoin de mémoriser les entrailles de chaque algorithme.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Écrivez le code sur un tableau ou sur papier, pas sur un ordinateur. Testez avec quelques exemples d’entrée. Ensuite, testez-le sur un ordinateur.
 
-## Prerequisite Knowledge
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+## Complex algorithmique / Notation grand O / Analyse asymptotique
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
-- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
-- [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
+- rien à implémenter  
+- [ ] [Harvard CS50 - Notation asymptotique (vidéo)](https://www.youtube.com/watch?v=iOq5kSKqeR4)  
+- [ ] [Notations Big O (tutoriel rapide général) (vidéo)](https://www.youtube.com/watch?v=V6mKVRU1evU)  
+- [ ] [Big O (et Omega et Theta) - meilleure explication mathématique (vidéo)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)  
+- [ ] Skiena :  
+    - [vidéo](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)  
+    - [diapositives](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)  
+- [ ] [Une introduction douce à l’analyse de complexité des algorithmes](http://discrete.gr/complexity/)  
+- [ ] [Ordres de croissance (vidéo)](https://class.coursera.org/algorithmicthink1-004/lecture/59)  
+- [ ] [Asymptotiques (vidéo)](https://class.coursera.org/algorithmicthink1-004/lecture/61)  
+- [ ] [UC Berkeley - Big O (vidéo)](https://youtu.be/VIS4YDpuP98)  
+- [ ] [UC Berkeley - Big Omega (vidéo)](https://youtu.be/ca3e7UVmeUc)  
+- [ ] [Analyse amortie (vidéo)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)  
+- [ ] [Illustration du "Big O" (vidéo)](https://class.coursera.org/algorithmicthink1-004/lecture/63)  
+- [ ] TopCoder (inclut les relations de récurrence et le théorème maître) :  
+    - [Complexité computationnelle : Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)  
+    - [Complexité computationnelle : Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)  
+- [ ] [Fiche mémo](http://bigocheatsheet.com/)  
+- [ ] [[Révision] Analyse d’algorithmes (playlist) en 18 minutes (vidéo)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)  
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+    Si certaines vidéos sont trop mathématiques, vous pouvez descendre tout en bas  
+    et regarder les vidéos sur les mathématiques discrètes pour acquérir les bases.
 
 ## Data Structures
 

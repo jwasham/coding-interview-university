@@ -43,47 +43,46 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
 - [Condition requise](#condition-requise)
 - [Plan quotidien](#plan-quotidien)
 - [Complex algorithmique / Notation grand O / Analyse asymptotique](#complex-algorithmique--notation-grand-o--analyse-asymptotique)
-
-- [Structures de données](#data-structures)
-    - [Tableau](#arrays)
-    - [Liste chaînée](#linked-lists)
-    - [Pile](#stack)
-    - [File](#queue)
-    - [Table de Hachage](#hash-table)
-- [Plus de Connaissance](#more-knowledge)
-    - [Recherche binaire](#binary-search)
-    - [Opérations bit à bit](#bitwise-operations)
-- [Arbres](#trees)
-    - [Arbres - Notes & Arrière plan](#trees---notes--background)
-    - [Arbres binaires de recherche: BST](#binary-search-trees-bsts)
-    - [Tas / File de Priorité / Tas binaire](#heap--priority-queue--binary-heap)
+- [Structures de donnee](#structures-de-donnees)
+    - [Tableau](#tableau)
+    - [Liste chainee](#liste-chainee)
+    - [Pile](#pile)
+    - [File](#file)
+    - [Table de hachage](#table-de-hachage)
+- [Plus de connaissance](#plus-de-connaissance)
+    - [Recherche binaire](#recherche-binaire)
+    - [Operations par bit](#operations-par-bit)
+- [Arbres](#arbres)
+    - [Arbres - Notes & Arriere plan](#arbres---notes--arriere-plan)
+    - [Arbres binaires de recherche](#arbres-binaires-de-recherche)
+    - [Tas / File de Priorite / Tas binaire](#tas--file-de-priorite--tas-binaire)
     - Arbre de recherche équilibré (concept general, non détaillé)
     - Parcours : Préfixe, infixe, postfixe, BFS, DFS
-- [Tri](#sorting)
+- [Tri](#tri)
     - sélection
     - insertion
-    - tri par tas
-    - tri rapide
-    - tri fusion
-- [Graphes](#graphs)
-    - orienté
-    - non orienté
-    - matrice d'adjacence
-    - liste d'adjacence
-    - parcours: BFS, DFS
-- [Encore plus de connaissance](#even-more-knowledge)
-    - [Récursivité](#recursion)
-    - [Programmation d'objets orientés](#object-oriented-programming)
-    - [Modèles de conception](#design-patterns)
-    - [Combinatoire (k parmi n) et probabilité](#combinatorics-n-choose-k--probability)
-    - [NP, NP-complet et les Algorithmes d'approximation](#np-np-complete-and-approximation-algorithms)
+    - tri-par-tas
+    - tri-rapide
+    - tri-fusion
+- [Graphes](#graphes)
+    - oriente
+    - non-oriente
+    - matrice-d-adjacence
+    - liste-d-adjacence
+    - parcours-bfs-dfs
+- [Encore plus de connaissance](#encore-plus-de-connaissance)
+    - [Recursivite](#recursivite)
+    - [Programation d'objet orriente](#programation-dobjet-oriente)
+    - [Modeles de conception](#modeles-de-conception)
+    - [Combinatoire-k-parmi-n-et-probabilite](#combinatoire-k-parmi-n-et-probabilite)
+    - [Np np complet et algorithmes-d'approximation](#np-np-complet-et-algorithmes-d-approximation)
     - [Caches](#caches)
-    - [Processus et Threads](#processes-and-threads)
-    - [Documents](#papers)
-    - [Tests](#testing)
-    - [Ordonnancement](#scheduling)
-    - [Implémentation des routines système](#implement-system-routines)
-    - [Recherche et manipulation de chaînes](#string-searching--manipulations)
+    - [Processus et threads](#processus-et-threads)
+    - [Documents](#documents)
+    - [Testes](#testes)
+    - [Ordonnancement](#ordonnancement)
+    - [Implementation des routines systeme](#implementation-des-routines-systeme)
+    - [Recherche et manipulation de chaines](#recherche-et-manipulation-de-chaines)
 - [Conception système, Scalabilité, Gestion des données](#system-design-scalability-data-handling) (si vous avez 4+ années d'expérience)
 - [Révision finale](#final-review)
 - [Exercices de codage](#coding-question-practice)
@@ -437,58 +436,58 @@ OU:
 
 ## Avant de commencer
 
-This list grew over many months, and yes, it kind of got out of hand.
+Cette liste s’est agrandie au fil de plusieurs mois, et oui, elle est un peu devenue incontrôlable.
 
-Here are some mistakes I made so you'll have a better experience.
+Voici quelques erreurs que j’ai faites pour que tu puisses avoir une meilleure expérience.
 
-### 1. You Won't Remember it All
+### 1. Vous n’allez pas tout retenir
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+J’ai regardé des heures de vidéos et pris énormément de notes, et des mois plus tard, il y avait beaucoup de choses que je ne me souvenais pas.  
+J’ai passé 3 jours à relire mes notes et à créer des fiches pour pouvoir réviser.
 
-Read please so you won't make my mistakes:
-
+Lisez ceci pour éviter mes erreurs :  
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Utilisez des fiches de révision (flashcards)
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Pour résoudre ce problème, j’ai créé un petit site de flashcards où je pouvais ajouter deux types de cartes : générales et code.  
+Chaque carte a un format différent.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+J’ai créé un site mobile-first pour pouvoir réviser sur mon téléphone et ma tablette, peu importe où je suis.
 
-Make your own for free:
+Créez le vôtre gratuitement :
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [Dépôt du site de flashcards](https://github.com/jwasham/computer-science-flash-cards)  
+- [Ma base de données de flashcards](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db) : Gardez à l’esprit que j’ai exagéré et que j’ai des cartes couvrant tout, du langage assembleur aux anecdotes Python, en passant par l’apprentissage automatique et les statistiques. C’est beaucoup trop pour ce qui est requis chez Google.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Remarque sur les flashcards :** La première fois que vous reconnaissez connaître la réponse, **ne la marquez pas comme acquise**.  
+Il faut voir la même carte et y répondre correctement plusieurs fois avant de vraiment la maîtriser. La répétition ancrera cette connaissance plus profondément dans votre cerveau.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Une alternative à mon site est [Anki](http://ankisrs.net/), qui m’a été recommandé plusieurs fois. Il utilise un système de répétition espacée pour aider à mémoriser.  
+Il est simple d’utilisation, disponible sur toutes les plateformes et possède une synchronisation cloud. Il coûte 25 $ sur iOS mais est gratuit sur les autres plateformes.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Ma base de cartes en format Anki : https://ankiweb.net/shared/info/25173560 (merci [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Réviser, réviser, réviser
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Je garde un ensemble de fiches mémo sur l’ASCII, la pile OSI, les notations Big-O, etc.  
+Je les étudie quand j’ai un moment de libre.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Faites une pause des problèmes de programmation pendant une demi-heure et passez en revue vos flashcards.
 
-### 4. Focus
+### 4. Se concentrer
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Il existe beaucoup de distractions qui peuvent vous faire perdre un temps précieux. La concentration est difficile à maintenir.
 
 ## Points qui ne seront pas couverts
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+Cette grande liste a commencé comme une to-do liste personnelle issue de notes de coaching d’entretien chez Google.  
+Ce sont des technologies courantes, mais qui **n’étaient pas mentionnées dans ces notes** :
 
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
+- SQL  
+- Javascript  
+- HTML, CSS et autres technologies front-end
+
 
 ## Condition requise
 
@@ -562,250 +561,263 @@ Vous n’avez pas besoin de mémoriser les entrailles de chaque algorithme.
     Si certaines vidéos sont trop mathématiques, vous pouvez descendre tout en bas  
     et regarder les vidéos sur les mathématiques discrètes pour acquérir les bases.
 
-## Data Structures
+## Structures de donnees
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+- ### Tableau
 
-- ### Linked Lists
-    - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
-        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+- Implémentez un vecteur redimensionnable automatiquement.
+- [ ] Description :
+    - [Tableaux (vidéo)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+    - [UCBerkley CS61B - Tableaux linéaires et multidimensionnels (vidéo)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+    - [Tableaux dynamiques (vidéo)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+    - [Tableaux irréguliers (vidéo)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+- [ ] Implémenter un vecteur (tableau mutable avec redimensionnement automatique) :
+    - [ ] S'exercer à coder avec des tableaux et des pointeurs, et utiliser des calculs de pointeur pour sauter à un index au lieu d'utiliser l'indexation.
+    - [ ] nouveau tableau de données brut avec mémoire allouée
+        - peut allouer un tableau d'entiers en arrière-plan, mais sans utiliser ses fonctionnalités
+        - commencer avec 16, ou si le nombre de départ est plus grand, utiliser une puissance de 2 - 16, 32, 64, 128
+    - [ ] size() - nombre d'éléments
+    - [ ] capacity() - nombre d'éléments qu'il peut contenir
+    - [ ] is_empty()
+    - [ ] at(index) - retourne l'élément à l'index donné, plante si l'index est hors limites
+    - [ ] push(item)
+    - [ ] insert(index, item) - insère l'élément à l'index, décale l'élément et les éléments suivants vers la droite
+    - [ ] prepend(item) - peut utiliser insert ci-dessus à l'index 0
+    - [ ] pop() - supprime le dernier élément, retourne la valeur
+    - [ ] delete(index) - supprime l'élément à l'index, décale les éléments suivants vers la gauche
+    - [ ] remove(item) - recherche la valeur et supprime l'index qui la contient (même si plusieurs occurrences)
+    - [ ] find(item) - recherche la valeur et retourne le premier index avec cette valeur, -1 si non trouvé
+    - [ ] resize(new_capacity) // fonction privée
+        - lorsqu'on atteint la capacité, redimensionner à deux fois la taille
+        - lors du retrait d'un élément, si la taille est 1/4 de la capacité, redimensionner à moitié
+- [ ] Temps
+    - O(1) pour ajouter/retirer à la fin (amorti pour les allocations), index ou mise à jour
+    - O(n) pour insérer/retirer ailleurs
+- [ ] Espace
+    - contiguë en mémoire, donc la proximité améliore les performances
+    - espace requis = (capacité du tableau, qui est >= n) * taille de l'élément, mais même si 2n, c'est toujours O(n)
 
-- ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Will not implement. Implementing with array is trivial.
+- ### Liste Chainee
 
-- ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+- [ ] Description :
+    - [ ] [Listes chaînées simples (vidéo)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+    - [ ] [CS 61B - Listes chaînées (vidéo)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+    - [ ] [[Révision] Listes chaînées en 4 minutes (vidéo)](https://youtu.be/F8AbOfQwl1c)
+- [ ] [Code C (vidéo)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+        - pas toute la vidéo, seulement les portions sur la struct Node et l’allocation mémoire.
+- [ ] Liste chaînée vs Tableaux :
+    - [Listes chaînées de base vs Tableaux (vidéo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+    - [Dans le monde réel : Listes chaînées vs Tableaux (vidéo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+- [ ] [Pourquoi éviter les listes chaînées (vidéo)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+- [ ] Attention : vous devez comprendre les pointeurs de pointeurs :
+    (pour quand vous passez un pointeur à une fonction qui pourrait changer l’adresse vers laquelle ce pointeur pointe)
+    Cette page sert juste à comprendre les pointeurs de pointeurs. Je ne recommande pas ce style de parcours de liste. La lisibilité et la maintenabilité en souffrent à cause de l'astuce.
+    - [Pointeurs de pointeurs](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+- [ ] implémenter (je l’ai fait avec et sans pointeur de fin) :
+    - [ ] size() - retourne le nombre d’éléments de données dans la liste
+    - [ ] empty() - booléen, retourne vrai si vide
+    - [ ] value_at(index) - retourne la valeur du nième élément (en commençant à 0)
+    - [ ] push_front(value) - ajoute un élément au début de la liste
+    - [ ] pop_front() - retire le premier élément et retourne sa valeur
+    - [ ] push_back(value) - ajoute un élément à la fin
+    - [ ] pop_back() - retire l’élément final et retourne sa valeur
+    - [ ] front() - obtient la valeur du premier élément
+    - [ ] back() - obtient la valeur du dernier élément
+    - [ ] insert(index, value) - insère une valeur à l'index, donc l’élément actuel à cet index est pointé par le nouvel élément
+    - [ ] erase(index) - supprime le nœud à l’index donné
+    - [ ] value_n_from_end(n) - retourne la valeur du nœud à la nième position depuis la fin
+    - [ ] reverse() - inverse la liste
+    - [ ] remove_value(value) - supprime le premier élément ayant cette valeur
+- [ ] Liste doublement chaînée
+    - [Description (vidéo)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+    - Pas besoin d’implémenter
 
-- ### Hash table
-    - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
+- ### Pile
 
-    - [ ] Online Courses:
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] distributed hash tables:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+- [ ] [Piles (vidéo)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+- [ ] [[Révision] Piles en 3 minutes (vidéo)](https://youtu.be/KcT3aVgrrpU)
+- [ ] Ne sera pas implémentée. L’implémentation avec un tableau est triviale.
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+- ### File
 
-## More Knowledge
+- [ ] [File (vidéo)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+- [ ] [Tampon circulaire/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+- [ ] [[Révision] Files en 3 minutes (vidéo)](https://youtu.be/D6gu-_tmEpQ)
+- [ ] Implémenter avec liste chaînée, avec pointeur de fin :
+    - enqueue(value) - ajoute la valeur en position de fin
+    - dequeue() - retourne la valeur et supprime l’élément le plus ancien (début)
+    - empty()
+- [ ] Implémenter avec tableau de taille fixe :
+    - enqueue(value) - ajoute l’élément à la fin de la zone de stockage disponible
+    - dequeue() - retourne la valeur et supprime l’élément le plus ancien
+    - empty()
+    - full()
+- [ ] Coût :
+    - une mauvaise implémentation utilisant une liste chaînée où vous enfilez à la tête et défilez à la queue serait O(n)
+        car vous auriez besoin de l’avant-dernier élément, ce qui provoquerait un parcours complet à chaque retrait
+    - enqueue : O(1) (amorti, liste chaînée et tableau [sondage])
+    - dequeue : O(1) (liste chaînée et tableau)
+    - empty : O(1) (liste chaînée et tableau)
 
-- ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+- ### Table de hachage
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-        - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
-        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
-        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] round to next power of 2:
-        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
-        - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
-        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+- [ ] Vidéos :
+    - [ ] [Hachage avec chaînage (vidéo)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+    - [ ] [Doublement de table, Karp-Rabin (vidéo)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [Adressage ouvert, hachage cryptographique (vidéo)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [PyCon 2010 : Le puissant dictionnaire (vidéo)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+    - [ ] [(Avancé) Randomisation : Hachage universel & parfait (vidéo)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+    - [ ] [(Avancé) Hachage parfait (vidéo)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+    - [ ] [[Révision] Tables de hachage en 4 minutes (vidéo)](https://youtu.be/knV86FlSXJ8)
 
-## Trees
+- [ ] Cours en ligne :
+    - [ ] [Tables de hachage de base (vidéo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+    - [ ] [Structures de données (vidéo)](https://www.coursera.org/learn/data-structures/home/week/3)
+    - [ ] [Problème du répertoire téléphonique (vidéo)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+    - [ ] Tables de hachage distribuées :
+        - [Téléversements instantanés et optimisation du stockage chez Dropbox (vidéo)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+        - [Tables de hachage distribuées (vidéo)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-- ### Trees - Notes & Background
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - BFS (breadth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-        - level order (BFS, using queue)
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
-    - DFS (depth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
-        - notes:
-            time complexity: O(n)
-            space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-        - inorder (DFS: left, self, right)
-        - postorder (DFS: left, right, self)
-        - preorder (DFS: self, left, right)
-    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
-    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
-    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
+- [ ] implémenter avec un tableau en utilisant le sondage linéaire
+    - hash(k, m) - m est la taille de la table de hachage
+    - add(key, value) - si la clé existe déjà, mettre à jour la valeur
+    - exists(key)
+    - get(key)
+    - remove(key)
 
-- ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - starts with symbol table and goes through BST applications
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
-    - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
-        - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
-        - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
-- ### Heap / Priority Queue / Binary Heap
-    - visualized as a tree, but is usually linear in storage (array, linked list)
-    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-    - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-    - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
-    - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
-    - [ ] Implement a max-heap:
+## Plus de connaissance
+
+- ### Recherche binaire
+
+- [ ] [Recherche binaire (vidéo)](https://www.youtube.com/watch?v=D5SrAga1pno)
+- [ ] [Recherche binaire (vidéo)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+- [ ] [détail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+- [ ] [[Révision] Recherche binaire en 4 minutes (vidéo)](https://youtu.be/fDKIpRe8GW4)
+- [ ] Implémenter :
+    - recherche binaire (sur un tableau trié d'entiers)
+    - recherche binaire en utilisant la récursion
+
+- ### Opérations par bit
+
+- [ ] [Fiche mémo sur les bits](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - vous devriez connaître plusieurs puissances de 2 de (2^1 à 2^16 et 2^32)
+- [ ] Bien comprendre la manipulation des bits avec : &, |, ^, ~, >>, <<
+    - [ ] [mots](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+    - [ ] Bonne introduction :
+        [Manipulation de bits (vidéo)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+    - [ ] [Tutoriel C Programmation 2-10 : Opérateurs bit à bit (vidéo)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+    - [ ] [Manipulation de bits](https://en.wikipedia.org/wiki/Bit_manipulation)
+    - [ ] [Opérations bit à bit](https://en.wikipedia.org/wiki/Bitwise_operation)
+    - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+    - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
+    - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
+- [ ] Complément à 2 et à 1
+    - [Binaire : plus et moins (Pourquoi on utilise le complément à deux) (vidéo)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+    - [Complément à 1](https://en.wikipedia.org/wiki/Ones%27_complement)
+    - [Complément à 2](https://en.wikipedia.org/wiki/Two%27s_complement)
+- [ ] compter les bits à 1
+    - [4 façons de compter les bits dans un octet (vidéo)](https://youtu.be/Hzuzo9NJrlc)
+    - [Compter les bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+    - [Comment compter le nombre de bits à 1 dans un entier 32 bits](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+- [ ] arrondir à la puissance de 2 suivante :
+    - [Arrondir à la prochaine puissance de deux](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+- [ ] échanger des valeurs :
+    - [Échanger](http://bits.stephan-brumme.com/swap.html)
+- [ ] valeur absolue :
+    - [Valeur absolue d’un entier](http://bits.stephan-brumme.com/absInteger.html)
+
+
+## Arbres
+
+- ### Arbres - Notes & arriere plan
+
+- [ ] [Série : Arbres (vidéo)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+- construction de base d’un arbre
+- parcours
+- algorithmes de manipulation
+- BFS (parcours en largeur)
+    - [MIT (vidéo)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+    - ordre par niveau (BFS, utilisant une file)
+        complexité temporelle : O(n)
+        complexité spatiale : meilleur cas : O(1), pire cas : O(n/2)=O(n)
+- DFS (parcours en profondeur)
+    - [MIT (vidéo)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+    - notes :
+        complexité temporelle : O(n)
+        complexité spatiale :
+            meilleur cas : O(log n) - hauteur moyenne de l’arbre
+            pire cas : O(n)
+    - inorder (DFS : gauche, racine, droite)
+    - postorder (DFS : gauche, droite, racine)
+    - preorder (DFS : racine, gauche, droite)
+- [ ] [[Révision] Parcours en largeur en 4 minutes (vidéo)](https://youtu.be/HZ5YTanv5QE)
+- [ ] [[Révision] Parcours en profondeur en 4 minutes (vidéo)](https://youtu.be/Urx87-NMm6c)
+- [ ] [[Révision] Parcours d’arbres (playlist) en 11 minutes (vidéo)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
+
+- ### Arbres binaires de recherche
+
+- [ ] [Révision BST (vidéo)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+- [ ] [Série (vidéo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+    - commence par les tables de symboles et applications du BST
+- [ ] [Introduction (vidéo)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+- [ ] [MIT (vidéo)](https://www.youtube.com/watch?v=9Jry5-82I68)
+- C/C++ :
+    - [ ] [Implémentation BST en C/C++ (vidéo)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+    - [ ] [Implémentation BST - allocation mémoire (vidéo)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+    - [ ] [Trouver min et max dans un BST (vidéo)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [Trouver la hauteur d’un arbre binaire (vidéo)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+    - [ ] [Parcours arbre binaire - BFS et DFS (vidéo)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+    - [ ] [Parcours niveau (vidéo)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [Parcours Pre/In/Postorder (vidéo)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [Vérifier si un arbre est un BST (vidéo)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [Supprimer un nœud dans un BST (vidéo)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+    - [ ] [Successeur inorder (vidéo)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+- [ ] Implémenter :
+    - [ ] insert // insérer une valeur dans l’arbre
+    - [ ] get_node_count // compter les valeurs stockées
+    - [ ] print_values // affiche les valeurs de min à max
+    - [ ] delete_tree
+    - [ ] is_in_tree // renvoie true si la valeur existe dans l’arbre
+    - [ ] get_height // renvoie la hauteur (un seul nœud a une hauteur de 1)
+    - [ ] get_min // valeur minimale stockée
+    - [ ] get_max // valeur maximale stockée
+    - [ ] is_binary_search_tree
+    - [ ] delete_value
+    - [ ] get_successor // renvoie la valeur suivante la plus haute, -1 si aucune
+
+- ### Tas / File de priorite / Tas binaire
+
+    - visualisé comme un arbre, mais souvent stocké de façon linéaire (tableau, liste chaînée)
+    - [ ] [Tas](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [Introduction (vidéo)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+    - [ ] [Implémentations naïves (vidéo)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+    - [ ] [Arbres binaires (vidéo)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Remarque sur la hauteur (vidéo)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+    - [ ] [Opérations de base (vidéo)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+    - [ ] [Arbres binaires complets (vidéo)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+    - [ ] [Pseudocode (vidéo)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Tri par tas - début (vidéo)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+    - [ ] [Tri par tas (vidéo)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [Construire un tas (vidéo)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [MIT : Heaps et tri par tas (vidéo)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [CS 61B Cours 24 : Files de priorité (vidéo)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
+    - [ ] [Construction linéaire d’un tas (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Révision] Tas (playlist) en 13 minutes (vidéo)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
+    - [ ] Implémenter un max-heap :
         - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+        - [ ] sift_up - nécessaire pour insert
+        - [ ] get_max - renvoie l’élément max sans le retirer
+        - [ ] get_size() - renvoie le nombre d’éléments
+        - [ ] is_empty() - true si aucun élément
+        - [ ] extract_max - renvoie et retire l’élément max
+        - [ ] sift_down - nécessaire pour extract_max
+        - [ ] remove(i) - retire l’élément à l’index i
+        - [ ] heapify - créer un tas à partir d’un tableau, utilisé pour heap_sort
+        - [ ] heap_sort() - trie un tableau non trié en place avec un max heap
+        - remarque : utiliser un min heap au lieu d’un max heap économiserait des opérations, mais doublerait la mémoire requise (pas possible en place)
 
-## Sorting
+
+## Tri
 
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:

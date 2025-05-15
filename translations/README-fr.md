@@ -22,6 +22,8 @@ D'après les informations reçues de la part des contacts travaillant à Google.
 Si vous avez plusieurs années d'expérience en développement web/logiciel, notez que google font une distinction entre le développement logiciel et l'ingénierie en génie civil.
 
 Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, suivez plus de cours de la liste optionnelle (Réseau, sécurité)
+
+
 ---
 
 ## Table des matières
@@ -84,15 +86,15 @@ Si vous souhaitez devenir ingénieur de fiabilité, ou ingénieur systèmes, sui
     - [Implementation des routines systeme](#implementation-des-routines-systeme)
     - [Recherche et manipulation de chaines](#recherche-et-manipulation-de-chaines)
 
-- [Conception système, Scalabilité, Gestion des données](#system-design-scalability-data-handling) (si vous avez 4+ années d'expérience)
-- [Révision finale](#final-review)
-- [Exercices de codage](#coding-question-practice)
-- [Défis/exercices de programmation](#coding-exerciseschallenges)
-- [Une fois que vous serez proche de l'entretien](#once-youre-closer-to-the-interview)
-- [Votre CV](#your-resume)
-- [À garder en tête pour l'entretien](#be-thinking-of-for-when-the-interview-comes)
-- [Préparez vos questions pour l'entretien](#have-questions-for-the-interviewer)
-- [Quand vous aurez obtenu le poste :](#once-youve-got-the-job)
+- [Conception systeme Scalabilite Gestion des donnees](#conception-systeme-scalabilite-gestion-des-donnees)
+- [Revision finale](#revision-finale)
+- [Exercices de codage](#exercices-de-codage)
+- [Defis exercices de programmation](#defis-exercices-de-programmation)
+- [Une fois que vous serez proche de l'entretien](#une-fois-que-vous-serez-proche-de-lentretien)
+- [Votre CV](#votre-cv)
+- [A garder en tete pour l'entretien](#a-garder-en-tete-pour-lentretien)
+- [Preparez vos questions pour l'entretien](#preparez-vos-questions-pour-lentretien)
+- [Quand vous aurez obtenu le poste](#quand-vous-aurez-obtenu-le-poste)
 
 ---------------- Tout ce qui suit est facultatif ----------------
 
@@ -1112,199 +1114,146 @@ Vous pratiquerez davantage avec les graphes dans le livre de Skiena (voir sectio
     Si vous avez besoin de plus de détails, consultez la section « Recherche de chaînes » dans [Détails supplémentaires sur certains sujets](#additional-detail-on-some-subjects)
 
 
-## System Design, Scalability, Data Handling
-- **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this.
-- Considerations from Yegge:
-    - scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - system design
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
-- [ ] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-- [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
-- [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
-- [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
-- [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
-- [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-- [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
-- [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
-- [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-- [ ] Paxos Consensus algorithm:
-    - [short video](https://www.youtube.com/watch?v=s8JqcZtvnsM)
-    - [extended video with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
-    - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+## Conception systeme Scalabilite Gestion des donnees
+## Conception systeme Scalabilite Gestion des donnees
+
+- **Vous pouvez vous attendre à des questions de conception de systèmes si vous avez plus de 4 ans d'expérience.**
+- La scalabilité et la conception de systèmes sont des sujets très vastes, comportant de nombreuses ressources, car il y a beaucoup d’aspects à considérer lorsqu’on conçoit un système logiciel/matériel pouvant évoluer à grande échelle. Attendez-vous à y consacrer beaucoup de temps.
+- Considérations selon Yegge :
+    - **Scalabilité** :
+        - Réduire de grands ensembles de données à une seule valeur
+        - Transformer un ensemble de données en un autre
+        - Gérer des quantités de données extrêmement volumineuses
+    - **Conception de systèmes** :
+        - Ensembles de fonctionnalités
+        - Interfaces
+        - Hiérarchies de classes
+        - Conception sous contraintes
+        - Simplicité et robustesse
+        - Compromis
+        - Analyse des performances et optimisation
+
+### Ressources clés :
+- [ ] **COMMENCER ICI** : [System Design de HiredInTech](http://www.hiredintech.com/system-design/)
+- [ ] [Comment se préparer aux questions de conception lors d’un entretien technique ? (Quora)](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
+- [ ] [8 choses à savoir avant un entretien de conception de systèmes](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
+- [ ] [Conception d'algorithmes](http://www.hiredintech.com/algorithm-design/)
+- [ ] [Normalisation des bases de données – 1NF, 2NF, 3NF et 4NF (vidéo)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
+- [ ] [System Design Interview – GitHub](https://github.com/checkcheckzz/system-design-interview) – Beaucoup de ressources utiles, incluant des articles et des exemples.
+- [ ] [Comment réussir un entretien de conception de systèmes](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+- [ ] [Les chiffres que tout le monde devrait connaître](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+- [ ] [Combien de temps prend un changement de contexte ?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
+- [ ] [Transactions entre centres de données (vidéo)](https://www.youtube.com/watch?v=srOgpXECblk)
+- [ ] [Introduction simple au théorème CAP](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+
+### Algorithme de consensus Paxos :
+- [vidéo courte](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+- [vidéo détaillée avec cas d’usage et multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
+- [article](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+
+### Concepts complémentaires :
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
-- [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
-- [ ] Scalability:
-    - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] Short series:
-        - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
-        - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
-        - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
-        - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-    - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
-    - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
-    - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
-        - [extra: Google Pregel Graph Processing](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
-    - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
-    - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
-    - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
-    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
-    - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
-    - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
-    - [ ] [Scale at Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
-    - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU)
-    - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
-    - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
-        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
-    - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
-    - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
-    - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
-    - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
-    - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
-    - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
-    - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
-    - [ ] [Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
-    - [ ] [Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
-    - [ ] [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
-    - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
-    - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
-    - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
-    - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
-    - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
-    - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
-    - [ ] [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
-    - [ ] [Does AMP Counter An Existential Threat To Google?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
-    - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
-    - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
-    - [ ] [Serverless (very long, just need the gist)](http://martinfowler.com/articles/serverless.html)
-    - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
-    - [ ] [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
-    - [ ] [Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
-    - [ ] [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
-    - [ ] [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
-    - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
-    - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
-    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
-    - [ ] Twitter:
-        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
-        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the Video Series section.
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - define the use cases, with interviewer's help
-            - suggest additional features
-            - remove items that interviewer deems out of scope
-            - assume high availability is required, add as a use case
-        2. Think about constraints:
-            - ask how many requests per month
-            - ask how many requests per second (they may volunteer it or make you do the math)
-            - estimate reads vs. writes percentage
-            - keep 80/20 rule in mind when estimating
-            - how much data written per second
-            - total storage required over 5 years
-            - how much data read per second
-        3. Abstract design:
-            - layers (service, data, caching)
-            - infrastructure: load balancing, messaging
-            - rough overview of any key algorithm that drives the service
-            - consider bottlenecks and determine solutions
-    - Exercises:
-        - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
-        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Design a function to return the top k requests during past time interval]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
-        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
-        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
-        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
-        - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
+- [ ] [Modèles NoSQL](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+
+### Scalabilité :
+- [ ] [Excellente présentation (vidéo)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+- [ ] Mini-série :
+    - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+    - [Base de données](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+    - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+    - [Asynchronisme](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+- [ ] [Architecture web scalable et systèmes distribués](http://www.aosabook.org/en/distsys.html)
+- [ ] [Les fausses idées de l’informatique distribuée](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+- [ ] [Techniques de programmation pragmatique](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
+    - [Google Pregel (traitement de graphes)](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
+- [ ] [Jeff Dean – Concevoir des systèmes logiciels chez Google (vidéo)](https://www.youtube.com/watch?v=modXC5IWTJI)
+- [ ] [Introduction à l’architecture de systèmes évolutifs](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+- [ ] [Jeux mobiles à grande échelle avec App Engine (vidéo)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
+- [ ] [Comment Google gère des systèmes à l’échelle planétaire (vidéo)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
+- [ ] [L’importance des algorithmes](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
+- [ ] [Sharding – Partitionnement horizontal](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+- [ ] [Scalabilité chez Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
+- [ ] [Scalabilité chez Facebook (2012), "1 milliard d'utilisateurs" (vidéo)](https://www.youtube.com/watch?v=oodS71YtkGU)
+- [ ] [Engineering for the Long Game – Astrid Atkinson (vidéo)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+- [ ] [7 ans de leçons de scalabilité de YouTube en 30 min](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
+    - [vidéo](https://www.youtube.com/watch?v=G-lGCC4KKok)
+- [ ] [Comment PayPal a atteint des milliards de transactions avec seulement 8 VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
+- [ ] [Comment supprimer les doublons dans de grands ensembles de données](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
+- [ ] [Culture d'ingénierie chez Etsy (vidéo)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
+- [ ] [Pourquoi Amazon est passé aux microservices](http://thenewstack.io/led-amazon-microservices-architecture/)
+- [ ] [Compression de données chez Uber](https://eng.uber.com/trip-data-squeeze/)
+- [ ] [Asyncio Tarantool Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
+- [ ] [Quand utiliser les requêtes approximatives ?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
+- [ ] [Évolution de l’architecture Google vers le multi-datacenter]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+- [ ] [Google Spanner – NoSQL remplacé par SQL distribué](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
+- [ ] [Leçons de l’architecture Egnyte (multi-pétaoctets)](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
+- [ ] [Programmation pilotée par le machine learning](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
+- [ ] [Technologie d’optimisation d’images à grande échelle](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
 
 ---
 
-## Final Review
+## Revision finale
 
-    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+Cette section propose des vidéos courtes à regarder rapidement pour revoir les concepts importants.
+Idéal pour des rafraîchissements fréquents.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (48 videos):
-    - [Videos](https://www.youtube.com/@MichaelSambol)
-    - [Code Examples](https://github.com/msambol/dsa)
+- [ ] Série de vidéos courtes de 2 à 3 minutes (23 vidéos)
+    - [Vidéos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Série de vidéos de 2 à 5 minutes – Michael Sambol (48 vidéos) :
+    - [Vidéos](https://www.youtube.com/@MichaelSambol)
+    - [Exemples de code](https://github.com/msambol/dsa)
 
 ---
 
-## Coding Question Practice
+## Exercices de codage
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+Maintenant que vous avez étudié les concepts ci-dessus, il est temps de vous entraîner à résoudre des problèmes de codage.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**S’entraîner à coder ne consiste pas à mémoriser des réponses.**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+Pourquoi pratiquer les problèmes de programmation :
+- Reconnaître le type de problème et choisir les bonnes structures de données / algorithmes
+- Bien comprendre les exigences
+- Expliquer votre raisonnement, comme en entretien
+- S’habituer à coder sur papier ou tableau (pas sur ordinateur)
+- Estimer la complexité temporelle et spatiale
+- Tester vos solutions
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+Voici une excellente ressource méthodique et communicative :
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-[My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
+[Ma méthode pour les exercices d’entretien technique (livre)](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+Pas de tableau blanc à la maison ? Achetez un grand bloc de dessin. C’est votre “tableau blanc de canapé”.
 
 ![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+Ressources supplémentaires :
+- [Mathématiques pour Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [Programmation dynamique – Du débutant à l’expert](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Matériel d’entretien du MIT](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-
-**Read and Do Programming Problems (in this order):**
+**Livres conseillés (à lire dans cet ordre) :**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - Réponses en C, C++ et Java
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - Réponses en Java
 
-See [Book List above](#book-list)
+Voir [liste de livres ci-dessus](#book-list)
 
-## Coding exercises/challenges
+## Defis exercices de programmation
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+Une fois vos connaissances acquises, mettez-les à l’épreuve.
+Faites des défis tous les jours si possible.
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [ ] [Comment trouver une solution ?](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- [ ] [Comment analyser un énoncé de problème Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Challenge sites:
+Sites de défis :
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
-- [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
+- [Project Euler (math)](https://projecteuler.net/index.php?section=problems)
 - [Codewars](http://www.codewars.com)
 - [HackerRank](https://www.hackerrank.com/)
 - [Codility](https://codility.com/programmers/)
@@ -1312,79 +1261,75 @@ Challenge sites:
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com)
 
-Maybe:
-- [Mock interviewers from big companies](http://www.gainlo.co/#!/)
+Éventuellement :
+- [Simulations d’entretien avec d’anciens recruteurs](http://www.gainlo.co/#!/)
 
-## Once you're closer to the interview
+## Une fois que vous serez proche de l'entretien
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
+- [ ] Cracking The Coding Interview Set 2 (vidéos) :
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
-    - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
+    - [Cracking the Coding Interview – Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
+    - [Ask Me Anything – Gayle Laakmann McDowell](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## Votre CV
 
-- [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
-- See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- [Dix conseils pour un CV un peu moins horrible](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- Voir aussi les sections sur le CV dans Cracking The Coding Interview et Programming Interviews Exposed
 
+## A garder en tete pour l'entretien
 
-## Be thinking of for when the interview comes
+Préparez-vous à 20 questions typiques d’entretien et ayez 2-3 réponses prêtes pour chacune. Racontez une histoire, pas seulement des faits.
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+- Pourquoi voulez-vous ce poste ?
+- Quel problème difficile avez-vous résolu ?
+- Quels défis avez-vous rencontrés ?
+- Meilleures/pires conceptions que vous avez vues ?
+- Idées pour améliorer un produit Google ?
+- Préférez-vous travailler seul ou en équipe ?
+- Quelles compétences ou expériences vous distinguent ?
+- Qu’avez-vous préféré dans [poste x / projet y] ?
+- Quel a été votre plus grand défi dans [poste x / projet y] ?
+- Quel bogue difficile avez-vous résolu ?
+- Qu’avez-vous appris dans [poste x / projet y] ?
+- Que referiez-vous différemment dans [poste x / projet y] ?
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+## Preparez vos questions pour l'entretien
 
-## Have questions for the interviewer
+Quelques-unes à poser, même si vous connaissez déjà les réponses — cela montre votre intérêt :
 
-    Some of mine (I already may know answer to but want their opinion or team perspective):
+- Quelle est la taille de votre équipe ?
+- Suivez-vous une méthodologie agile ? Sprints ? Waterfall ?
+- Y a-t-il souvent des délais serrés ?
+- Comment les décisions sont-elles prises dans l’équipe ?
+- Combien de réunions avez-vous par semaine ?
+- Est-ce que l’environnement favorise la concentration ?
+- Sur quoi travaillez-vous ?
+- Qu’est-ce que vous aimez dans votre travail ?
+- Comment est l’équilibre vie pro/perso ?
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
+## Preparez vos questions pour l'entretien
 
-## Once You've Got The Job
+Félicitations !
 
-Congratulations!
+- [10 choses que j’aurais aimé savoir avant mon 1er jour chez Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-- [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
+Continuez à apprendre.
 
-Keep learning.
-
-You're never really done.
+On n’a jamais vraiment fini.
 
 ---
 
-    *****************************************************************************************************
-    *****************************************************************************************************
+*****************************************************************************************************
+*****************************************************************************************************
 
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+Tout ce qui suit est optionnel. Ce sont mes recommandations personnelles, pas celles de Google.
+En les étudiant, vous serez exposé à plus de concepts en informatique et mieux préparé à n’importe quel poste d’ingénieur logiciel.
 
-    *****************************************************************************************************
-    *****************************************************************************************************
+*****************************************************************************************************
+*****************************************************************************************************
 
----
 
-## Additional Books
+## Quand vous aurez obtenu le poste
 
 - [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
     - an oldie but a goodie

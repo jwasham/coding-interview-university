@@ -1,0 +1,557 @@
+I. Arrays
+I.1 Về Arrays:
+- Arrays
+Mảng (Arrays) trong Java là một cấu trúc dữ liệu cơ bản, cho phép bạn lưu trữ một tập hợp các phần tử có cùng kiểu dữ liệu dưới một tên duy nhất. Mỗi phần tử trong mảng được gán một chỉ mục (index) riêng, bắt đầu từ 0, để bạn có thể truy cập trực tiếp.
+
+Đặc điểm chính của Mảng trong Java
+Kích thước cố định: Đây là đặc điểm quan trọng nhất của mảng thông thường trong Java. Khi bạn khai báo một mảng, bạn phải chỉ định kích thước của nó ngay lập tức, và kích thước này sẽ không thể thay đổi trong suốt vòng đời của mảng.
+Kiểu dữ liệu đồng nhất: Tất cả các phần tử trong một mảng phải có cùng kiểu dữ liệu (ví dụ: tất cả là số nguyên int, tất cả là chuỗi String, hoặc tất cả là đối tượng Object).
+Truy cập theo chỉ mục: Các phần tử trong mảng được truy cập bằng cách sử dụng chỉ mục (index). Chỉ mục đầu tiên là 0, chỉ mục cuối cùng là kích thước_mảng - 1.
+Là đối tượng (Object): Trong Java, mảng cũng là một kiểu đối tượng. Điều này có nghĩa là chúng được cấp phát bộ nhớ trên heap và có các thuộc tính nhất định, ví dụ như thuộc tính length để lấy kích thước của mảng.
+
+Khai báo và Khởi tạo Mảng
+Có một số cách để khai báo và khởi tạo mảng trong Java:
+1. Khai báo và Khởi tạo với Kích thước cố định
+Bạn xác định kích thước của mảng ngay khi tạo:
+Java
+// Khai báo một mảng số nguyên có kích thước là 5
+int[] soNguyen = new int[5];
+
+// Hoặc
+// Kiểu dữ liệu [] tên_mảng = new Kiểu dữ liệu[kích_thước];
+String[] tenHocSinh = new String[10];
+
+Khi bạn khai báo mảng theo cách này, các phần tử sẽ được khởi tạo với giá trị mặc định của kiểu dữ liệu tương ứng (ví dụ: 0 cho int, null cho String, false cho boolean).
+2. Khai báo và Khởi tạo với Giá trị ban đầu
+Bạn có thể khởi tạo mảng và gán giá trị cho các phần tử ngay lập tức:
+Java
+// Khai báo và khởi tạo mảng số nguyên với các giá trị cụ thể
+int[] diemThi = {85, 92, 78, 95, 88};
+
+// Hoặc
+String[] ngayTrongTuan = {"Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật"};
+
+Khi bạn sử dụng cách này, kích thước của mảng sẽ được xác định tự động dựa trên số lượng phần tử bạn cung cấp.
+
+Truy cập Phần tử Mảng
+Để truy cập một phần tử trong mảng, bạn sử dụng tên mảng theo sau là chỉ mục của phần tử đó trong dấu ngoặc vuông []:
+Java
+String[] hoaQua = {"Táo", "Cam", "Chuối"};
+
+// Truy cập phần tử đầu tiên (chỉ mục 0)
+System.out.println(hoaQua[0]); // Output: Táo
+
+// Truy cập phần tử thứ ba (chỉ mục 2)
+System.out.println(hoaQua[2]); // Output: Chuối
+
+// Thay đổi giá trị của một phần tử
+hoaQua[1] = "Xoài";
+System.out.println(hoaQua[1]); // Output: Xoài
+
+Lưu ý: Nếu bạn cố gắng truy cập một chỉ mục nằm ngoài phạm vi của mảng (ví dụ: chỉ mục âm hoặc chỉ mục lớn hơn hoặc bằng kích thước của mảng), Java sẽ ném ra lỗi ArrayIndexOutOfBoundsException.
+
+Thuộc tính length của Mảng
+Mỗi mảng trong Java có một thuộc tính length công khai, cho biết số lượng phần tử mà mảng có thể chứa:
+Java
+int[] numbers = {10, 20, 30, 40};
+System.out.println("Kích thước của mảng là: " + numbers.length); // Output: 4
+
+Thuộc tính này rất hữu ích khi bạn muốn duyệt qua tất cả các phần tử trong mảng.
+
+Duyệt qua Mảng
+Có nhiều cách để duyệt (lặp) qua các phần tử của một mảng:
+1. Sử dụng Vòng lặp for truyền thống
+Đây là cách phổ biến nhất khi bạn cần truy cập chỉ mục của từng phần tử.
+Java
+int[] diemSo = {75, 80, 90, 65, 88};
+
+System.out.println("Danh sách điểm số:");
+for (int i = 0; i < diemSo.length; i++) {
+    System.out.println("Điểm tại chỉ mục " + i + ": " + diemSo[i]);
+}
+
+2. Sử dụng Vòng lặp for-each (Enhanced for loop)
+Cách này đơn giản và dễ đọc hơn khi bạn chỉ cần truy cập giá trị của từng phần tử mà không cần biết chỉ mục của nó.
+Java
+String[] sanPham = {"Bánh mì", "Sữa", "Trứng"};
+
+System.out.println("Các sản phẩm trong giỏ hàng:");
+for (String item : sanPham) {
+    System.out.println("- " + item);
+}
+
+
+Mảng Đa Chiều (Multidimensional Arrays)
+Java cũng hỗ trợ mảng đa chiều, tức là mảng của các mảng. Phổ biến nhất là mảng hai chiều, thường được dùng để biểu diễn ma trận hoặc bảng:
+Java
+// Khai báo và khởi tạo một mảng 2 chiều (3 hàng, 3 cột)
+int[][] maTran = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+
+// Truy cập phần tử ở hàng 0, cột 1
+System.out.println("Phần tử ở (0,1): " + maTran[0][1]); // Output: 2
+
+// Duyệt qua mảng 2 chiều
+System.out.println("Ma trận:");
+for (int i = 0; i < maTran.length; i++) { // Duyệt qua hàng
+    for (int j = 0; j < maTran[i].length; j++) { // Duyệt qua cột
+        System.out.print(maTran[i][j] + " ");
+    }
+    System.out.println(); // Xuống dòng sau mỗi hàng
+}
+
+
+Ưu và Nhược điểm của Mảng
+Ưu điểm:
+Truy cập nhanh: Truy cập các phần tử theo chỉ mục là rất nhanh (thời gian O(1)) vì các phần tử được lưu trữ liên tiếp trong bộ nhớ.
+Dễ sử dụng: Cú pháp đơn giản và dễ hiểu.
+Hiệu quả bộ nhớ: Thường hiệu quả hơn về bộ nhớ so với một số cấu trúc dữ liệu khác cho các tập hợp nhỏ.
+Nhược điểm:
+Kích thước cố định: Nhược điểm lớn nhất là không thể thay đổi kích thước sau khi đã tạo. Nếu bạn cần thêm hoặc bớt phần tử, bạn phải tạo một mảng mới và sao chép dữ liệu.
+Thêm/xóa phần tử: Việc thêm hoặc xóa phần tử ở giữa mảng rất tốn kém vì đòi hỏi phải dịch chuyển các phần tử còn lại.
+Không linh hoạt: Không thích hợp cho các trường hợp mà số lượng phần tử thay đổi thường xuyên.
+
+Khi nào nên sử dụng Mảng?
+Bạn nên sử dụng mảng khi:
+Bạn biết chính xác hoặc có thể ước tính được số lượng phần tử sẽ lưu trữ.
+Bạn cần truy cập nhanh các phần tử theo chỉ mục.
+Các phần tử có cùng kiểu dữ liệu.
+Nếu bạn cần một cấu trúc dữ liệu có kích thước linh hoạt, hãy xem xét sử dụng ArrayList (được gọi là "Mảng tùy biến" hay "Dynamic Array" trong Java), mà tôi đã giải thích chi tiết trước đó. ArrayList giải quyết nhược điểm về kích thước cố định của mảng truyền thống bằng cách tự động quản lý việc thay đổi kích thước bên trong.
+Bạn có muốn đi sâu hơn vào một khía cạnh cụ thể nào của mảng không, ví dụ như cách sử dụng các lớp tiện ích như Arrays trong Java?
+
+Linear and Multi-Dim Arrays - Mảng tuyến tính và mảng đa chiều
+Bạn đã đặt ra một câu hỏi rất hay về hai loại mảng cơ bản trong Java: mảng tuyến tính (Linear Arrays) và mảng đa chiều (Multi-Dimensional Arrays). Cả hai đều là cách để lưu trữ nhiều giá trị cùng kiểu dữ liệu, nhưng chúng khác nhau về cách tổ chức dữ liệu.
+
+Mảng Tuyến Tính (Linear Arrays - Mảng 1 Chiều)
+Mảng tuyến tính, hay còn gọi là mảng một chiều, là cấu trúc dữ liệu đơn giản nhất để lưu trữ một chuỗi các phần tử cùng kiểu dữ liệu theo một trình tự liên tục. Bạn có thể hình dung nó như một hàng dài các ô nhớ, mỗi ô chứa một giá trị.
+Đặc điểm:
+Một chỉ mục: Mỗi phần tử được xác định và truy cập bằng một chỉ mục duy nhất, bắt đầu từ 0.
+Tổ chức tuần tự: Các phần tử được lưu trữ liên tiếp trong bộ nhớ, giúp việc truy cập theo chỉ mục rất nhanh.
+Kích thước cố định: Giống như tất cả các mảng cơ bản trong Java, kích thước của mảng tuyến tính được xác định khi khởi tạo và không thể thay đổi sau đó.
+Cú pháp:
+Java
+// Khai báo và khởi tạo mảng tuyến tính
+int[] diemSo = new int[5]; // Mảng 5 số nguyên
+String[] tenMonHoc = {"Toán", "Lý", "Hóa"}; // Mảng 3 chuỗi
+
+
+Ví dụ:
+Java
+public class LinearArrayExample {
+    public static void main(String[] args) {
+        // Khai báo và khởi tạo mảng điểm số của 4 học sinh
+        int[] scores = {85, 90, 78, 92};
+
+
+        System.out.println("Mảng điểm số:");
+        // Duyệt qua mảng và in ra từng phần tử
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println("Điểm của học sinh thứ " + (i + 1) + ": " + scores[i]);
+        }
+
+
+        // Truy cập và thay đổi một phần tử
+        scores[0] = 88; // Thay đổi điểm của học sinh đầu tiên
+        System.out.println("Điểm của học sinh đầu tiên sau khi cập nhật: " + scores[0]);
+    }
+}
+
+
+
+Mảng Đa Chiều (Multi-Dimensional Arrays)
+Mảng đa chiều là mảng chứa các mảng khác. Chúng được sử dụng để lưu trữ dữ liệu cần nhiều hơn một chỉ mục để xác định vị trí của một phần tử. Phổ biến nhất là mảng hai chiều, thường được dùng để biểu diễn bảng, lưới, hoặc ma trận.
+Đặc điểm:
+Nhiều chỉ mục: Để truy cập một phần tử, bạn cần cung cấp nhiều chỉ mục, mỗi chỉ mục tương ứng với một "chiều" của mảng. Ví dụ, mảng hai chiều cần hai chỉ mục: một cho hàng và một cho cột.
+Cấu trúc phân cấp: Mảng đa chiều có thể được hình dung là "mảng của các mảng". Ví dụ, một mảng hai chiều là một mảng mà mỗi phần tử của nó lại là một mảng một chiều.
+Kích thước cố định (từng chiều): Tương tự mảng một chiều, kích thước của mỗi chiều trong mảng đa chiều cũng cố định sau khi khởi tạo.
+Cú pháp:
+Java
+// Khai báo và khởi tạo mảng hai chiều (3 hàng, 4 cột)
+int[][] maTran = new int[3][4];
+
+
+// Khai báo và khởi tạo mảng hai chiều với giá trị ban đầu
+String[][] bangDiem = {
+    {"Toán", "Lý", "Hóa"}, // Hàng 0
+    {"9.0", "8.5", "7.0"}, // Hàng 1 (điểm của học sinh A)
+    {"7.5", "9.0", "8.0"}  // Hàng 2 (điểm của học sinh B)
+};
+
+
+Ví dụ:
+Java
+public class MultiDimensionalArrayExample {
+    public static void main(String[] args) {
+        // Khai báo và khởi tạo một ma trận 3x3
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+
+        System.out.println("Ma trận:");
+        // Duyệt qua mảng hai chiều
+        for (int i = 0; i < matrix.length; i++) { // Duyệt qua các hàng
+            for (int j = 0; j < matrix[i].length; j++) { // Duyệt qua các cột trong mỗi hàng
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println(); // Xuống dòng sau mỗi hàng
+        }
+
+
+        // Truy cập một phần tử cụ thể (hàng 1, cột 2)
+        System.out.println("Phần tử ở hàng 1, cột 2: " + matrix[1][2]); // Output: 6
+
+
+        // Thay đổi một phần tử
+        matrix[0][0] = 10; // Thay đổi phần tử ở hàng 0, cột 0
+        System.out.println("Phần tử ở hàng 0, cột 0 sau khi cập nhật: " + matrix[0][0]); // Output: 10
+    }
+}
+
+
+
+Mảng "Jagged" (Ragged Arrays)
+Trong Java, mảng đa chiều thực chất là "mảng của các mảng". Điều này có một ý nghĩa quan trọng: các "hàng" (hoặc các mảng con) trong một mảng đa chiều không nhất thiết phải có cùng kích thước. Đây được gọi là mảng lởm chởm (jagged arrays) hoặc ragged arrays.
+Java
+public class JaggedArrayExample {
+    public static void main(String[] args) {
+        // Khai báo một mảng 2 chiều với số cột không đều nhau
+        int[][] jaggedArray = new int[3][]; // Chỉ định số hàng, không chỉ định số cột
+
+
+        // Khởi tạo các hàng với số cột khác nhau
+        jaggedArray[0] = new int[]{1, 2, 3}; // Hàng 0 có 3 cột
+        jaggedArray[1] = new int[]{4, 5};     // Hàng 1 có 2 cột
+        jaggedArray[2] = new int[]{6, 7, 8, 9}; // Hàng 2 có 4 cột
+
+
+        System.out.println("Mảng Jagged:");
+        for (int i = 0; i < jaggedArray.length; i++) {
+            for (int j = 0; j < jaggedArray[i].length; j++) {
+                System.out.print(jaggedArray[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+
+So sánh Mảng Tuyến Tính và Mảng Đa Chiều
+Đặc điểm
+Mảng Tuyến Tính (1D)
+Mảng Đa Chiều (nD)
+Số lượng chỉ mục
+1
+Từ 2 trở lên
+Cấu trúc
+Chuỗi các phần tử liên tiếp
+Mảng của các mảng (phân cấp)
+Ứng dụng điển hình
+Danh sách, hàng đợi đơn giản
+Ma trận, bảng, lưới, tọa độ
+Độ phức tạp truy cập
+O(1) (rất nhanh)
+O(1) (vẫn rất nhanh, nhưng cần nhiều chỉ mục)
+Kích thước
+Cố định sau khi khởi tạo
+Cố định cho mỗi chiều (có thể tạo jagged arrays)
+
+
+Khi nào sử dụng loại mảng nào?
+Sử dụng mảng tuyến tính khi dữ liệu của bạn có thể được tổ chức theo một dòng hoặc một danh sách đơn giản, và bạn cần truy cập nhanh đến các phần tử bằng một chỉ mục duy nhất. Ví dụ: danh sách tên, tập hợp điểm số, chuỗi các ký tự.
+Sử dụng mảng đa chiều khi dữ liệu của bạn có cấu trúc giống như bảng, lưới, hoặc cần nhiều hơn một chiều để xác định vị trí của một phần tử. Ví dụ: biểu diễn ma trận trong đại số tuyến tính, bảng trò chơi (cờ vua, tic-tac-toe), dữ liệu hình ảnh (pixel).
+Việc hiểu rõ sự khác biệt và cách sử dụng của từng loại mảng là rất quan trọng để bạn có thể chọn cấu trúc dữ liệu phù hợp và hiệu quả nhất cho bài toán của mình trong Java.
+Bạn có câu hỏi nào khác về mảng hay muốn khám phá sâu hơn về một khía cạnh cụ thể nào không?
+
+
+
+Dynamic Arrays - Mảng tùy biến (video)
+Mảng tùy biến (Dynamic Arrays) trong Java, hay còn gọi là ArrayList, là một cấu trúc dữ liệu cho phép bạn lưu trữ một tập hợp các phần tử giống như mảng thông thường, nhưng với một lợi thế quan trọng: kích thước của nó có thể thay đổi linh hoạt trong quá trình chạy chương trình.
+
+Mảng thông thường (Static Arrays) vs. Mảng tùy biến (Dynamic Arrays)
+Để hiểu rõ hơn về mảng tùy biến, hãy so sánh nó với mảng thông thường:
+Mảng thông thường (Static Arrays): Khi bạn khai báo một mảng thông thường trong Java (ví dụ: int[] myArray = new int[5];), bạn phải chỉ định kích thước cố định của nó ngay từ đầu. Một khi đã được khai báo, kích thước này không thể thay đổi. Nếu bạn muốn thêm nhiều phần tử hơn số lượng đã định, bạn sẽ phải tạo một mảng mới với kích thước lớn hơn và sao chép tất cả các phần tử từ mảng cũ sang. Điều này có thể tốn kém về hiệu suất, đặc biệt là với các mảng lớn.
+Mảng tùy biến (Dynamic Arrays / ArrayList): Ngược lại, ArrayList cung cấp một giải pháp linh hoạt hơn. Bạn không cần phải biết trước kích thước chính xác mà bạn sẽ cần. Khi bạn thêm các phần tử vào ArrayList và nó đạt đến giới hạn dung lượng hiện tại, ArrayList sẽ tự động tăng kích thước của nó để chứa các phần tử mới. Tương tự, khi bạn xóa các phần tử, kích thước của nó cũng sẽ tự động giảm đi.
+
+Cách hoạt động của ArrayList
+Về cơ bản, ArrayList trong Java được xây dựng dựa trên một mảng thông thường bên trong. Khi bạn tạo một ArrayList, nó sẽ khởi tạo một mảng nội bộ với một kích thước ban đầu nhất định (thường là 10).
+Thêm phần tử: Khi bạn thêm một phần tử vào ArrayList, nó sẽ được đặt vào vị trí trống tiếp theo trong mảng nội bộ. Nếu mảng nội bộ bị đầy, ArrayList sẽ thực hiện các bước sau:
+Tạo một mảng mới lớn hơn (thường là gấp 1.5 lần kích thước hiện tại).
+Sao chép tất cả các phần tử từ mảng cũ sang mảng mới.
+Thêm phần tử mới vào mảng mới.
+Loại bỏ mảng cũ.
+Xóa phần tử: Khi bạn xóa một phần tử, các phần tử còn lại phía sau vị trí bị xóa sẽ được dịch chuyển lên để lấp đầy khoảng trống, đảm bảo rằng không có khoảng trống bị bỏ lại ở giữa mảng.
+
+Ưu điểm của ArrayList
+Kích thước linh hoạt: Đây là ưu điểm lớn nhất, giúp bạn không phải lo lắng về việc quản lý kích thước mảng thủ công.
+Dễ sử dụng: ArrayList cung cấp các phương thức tiện lợi để thêm, xóa, truy cập và quản lý các phần tử.
+Hiệu suất tốt cho truy cập ngẫu nhiên: Vì bên trong ArrayList vẫn là một mảng, việc truy cập các phần tử theo chỉ mục (ví dụ: myArrayList.get(index)) rất nhanh (thời gian O(1)).
+
+Nhược điểm của ArrayList
+Tốn kém khi thay đổi kích thước: Mặc dù tự động, quá trình tạo mảng mới và sao chép các phần tử khi thay đổi kích thước có thể tốn kém về thời gian và tài nguyên, đặc biệt nếu việc thay đổi kích thước diễn ra thường xuyên.
+Tốn kém khi thêm/xóa ở giữa: Việc thêm hoặc xóa một phần tử ở giữa ArrayList đòi hỏi phải dịch chuyển tất cả các phần tử phía sau, dẫn đến hiệu suất thấp (thời gian O(n), với n là số phần tử).
+Chỉ lưu trữ đối tượng (Objects): ArrayList chỉ có thể lưu trữ các đối tượng, không thể lưu trữ các kiểu dữ liệu nguyên thủy (như int, double, boolean) trực tiếp. Bạn sẽ cần sử dụng các lớp bao bọc (wrapper classes) như Integer, Double, Boolean để lưu trữ chúng.
+
+Ví dụ về sử dụng ArrayList trong Java
+Java
+import java.util.ArrayList;
+
+public class DynamicArrayExample {
+    public static void main(String[] args) {
+        // Khai báo một ArrayList để lưu trữ các chuỗi
+        ArrayList<String> tenSinhVien = new ArrayList<>();
+
+        // Thêm các phần tử vào ArrayList
+        tenSinhVien.add("Nguyen Van A");
+        tenSinhVien.add("Tran Thi B");
+        tenSinhVien.add("Le Van C");
+        tenSinhVien.add("Pham Thi D");
+
+        System.out.println("Danh sách sinh viên ban đầu: " + tenSinhVien);
+
+        // Truy cập một phần tử
+        System.out.println("Sinh viên thứ 2: " + tenSinhVien.get(1)); // Output: Tran Thi B
+
+        // Thay đổi một phần tử
+        tenSinhVien.set(0, "Hoang Van E");
+        System.out.println("Danh sách sau khi sửa đổi: " + tenSinhVien);
+
+        // Xóa một phần tử
+        tenSinhVien.remove(2); // Xóa "Le Van C"
+        System.out.println("Danh sách sau khi xóa: " + tenSinhVien);
+
+        // Lấy kích thước hiện tại của ArrayList
+        System.out.println("Số lượng sinh viên hiện tại: " + tenSinhVien.size());
+
+        // Kiểm tra xem ArrayList có trống không
+        System.out.println("ArrayList có trống không? " + tenSinhVien.isEmpty());
+
+        // Duyệt qua ArrayList
+        System.out.println("Duyệt qua danh sách:");
+        for (String ten : tenSinhVien) {
+            System.out.println("- " + ten);
+        }
+
+        // Xóa tất cả các phần tử
+        tenSinhVien.clear();
+        System.out.println("Danh sách sau khi xóa tất cả: " + tenSinhVien);
+        System.out.println("ArrayList có trống không? " + tenSinhVien.isEmpty());
+    }
+}
+
+
+Tóm lại, ArrayList là một công cụ mạnh mẽ và thường được sử dụng trong Java khi bạn cần một bộ sưu tập các phần tử mà kích thước của nó không cố định hoặc có thể thay đổi trong quá trình thực thi chương trình. Nó là một trong những lựa chọn phổ biến nhất trong Java Collections Framework.
+Bạn có muốn tìm hiểu sâu hơn về các phương thức cụ thể của ArrayList hay so sánh nó với các cấu trúc dữ liệu khác như LinkedList không?
+
+Jagged Arrays - Mảng trong mảng
+Trong Java, Jagged Arrays (hay còn gọi là Ragged Arrays) là một khái niệm rất thú vị và linh hoạt của mảng đa chiều. Đúng như tên gọi "mảng trong mảng", nó là một mảng mà mỗi hàng (hoặc mỗi mảng con) có thể có độ dài (số cột) khác nhau.
+
+Mảng Đa Chiều thông thường vs. Jagged Array
+Để dễ hình dung, hãy so sánh Jagged Array với mảng hai chiều "chuẩn":
+Mảng hai chiều thông thường (ví dụ: int[][] matrix = new int[3][4];):
+Bạn hình dung nó như một bảng chữ nhật hoặc hình vuông hoàn chỉnh.
+Tất cả các hàng đều có số cột như nhau (ví dụ: 3 hàng, mỗi hàng 4 cột).
+Cú pháp khởi tạo thường chỉ định cả số hàng và số cột ngay lập tức.
+Hàng 0: [o] [o] [o] [o]
+Hàng 1: [o] [o] [o] [o]
+Hàng 2: [o] [o] [o] [o]
+
+
+
+
+Jagged Array (ví dụ: int[][] jaggedArray = new int[3][];):
+Bạn hình dung nó như một bảng không đều, với các hàng có độ dài khác nhau.
+Mỗi hàng (tức là mỗi mảng con) có thể có số cột riêng biệt.
+Cú pháp khởi tạo ban đầu chỉ định số hàng, nhưng không chỉ định số cột cho từng hàng. Bạn sẽ khởi tạo từng hàng riêng lẻ sau đó.
+Hàng 0: [o] [o] [o]       (3 cột)
+Hàng 1: [o] [o]           (2 cột)
+Hàng 2: [o] [o] [o] [o]   (4 cột)
+
+
+
+
+
+Cách Hoạt Động của Jagged Arrays trong Java
+Trong Java, một mảng đa chiều thực chất là một mảng của các tham chiếu đến các mảng khác.
+Khi bạn khai báo int[][] jaggedArray = new int[3][];, bạn đang tạo một mảng chứa 3 "ô nhớ". Mỗi ô nhớ này ban đầu là null.
+Sau đó, bạn cấp phát bộ nhớ cho từng "ô" (tức là từng hàng) một cách riêng biệt, và mỗi lần cấp phát có thể có kích thước khác nhau.
+Java
+jaggedArray[0] = new int[3]; // Hàng 0 là một mảng int có 3 phần tử
+jaggedArray[1] = new int[2]; // Hàng 1 là một mảng int có 2 phần tử
+jaggedArray[2] = new int[4]; // Hàng 2 là một mảng int có 4 phần tử
+
+
+
+
+
+Cú pháp Khai báo và Khởi tạo Jagged Array
+Có hai cách chính:
+1. Khai báo số hàng, sau đó khởi tạo từng hàng riêng lẻ
+Đây là cách phổ biến khi bạn không biết trước kích thước của từng hàng.
+Java
+// Bước 1: Khai báo mảng 2 chiều, chỉ định số hàng (ví dụ: 3 hàng)
+int[][] jaggedArray = new int[3][];
+
+// Bước 2: Khởi tạo từng hàng với số lượng cột khác nhau
+jaggedArray[0] = new int[5];  // Hàng 0 có 5 cột
+jaggedArray[1] = new int[2];  // Hàng 1 có 2 cột
+jaggedArray[2] = new int[7];  // Hàng 2 có 7 cột
+
+// Sau đó bạn có thể gán giá trị:
+jaggedArray[0][0] = 10;
+jaggedArray[1][1] = 20;
+
+
+2. Khởi tạo trực tiếp với các giá trị ban đầu (tùy chọn)
+Nếu bạn biết trước tất cả các giá trị và cấu trúc của từng hàng, bạn có thể khởi tạo trực tiếp:
+Java
+int[][] coursesGrades = {
+    {90, 85, 92},          // Điểm Toán
+    {78, 88},              // Điểm Lý
+    {95, 80, 87, 91}       // Điểm Hóa
+};
+
+// Trong ví dụ này:
+// coursesGrades[0].length là 3
+// coursesGrades[1].length là 2
+// coursesGrades[2].length là 4
+
+
+
+Ví dụ Thực hành Jagged Array
+Java
+public class JaggedArrayExample {
+    public static void main(String[] args) {
+        // Khai báo một jagged array để lưu trữ số lượng ghế của từng hàng
+        // trong một rạp chiếu phim có các hàng ghế không đều
+        int[][] seatingCapacity = new int[4][]; // 4 hàng
+
+        // Khởi tạo số ghế cho từng hàng
+        seatingCapacity[0] = new int[]{5, 5, 5, 5, 5}; // Hàng 0 có 5 ghế
+        seatingCapacity[1] = new int[]{6, 6, 6, 6};    // Hàng 1 có 4 ghế
+        seatingCapacity[2] = new int[]{4, 4, 4, 4, 4, 4}; // Hàng 2 có 6 ghế
+        seatingCapacity[3] = new int[]{3, 3};          // Hàng 3 có 2 ghế
+
+        System.out.println("Sơ đồ ghế rạp chiếu phim (Jagged Array):");
+
+        // Duyệt qua jagged array để in ra số ghế mỗi hàng
+        for (int i = 0; i < seatingCapacity.length; i++) { // Duyệt qua các hàng
+            System.out.print("Hàng " + i + " có " + seatingCapacity[i].length + " ghế: ");
+            for (int j = 0; j < seatingCapacity[i].length; j++) { // Duyệt qua các ghế trong hàng
+                // In ra giá trị của ghế (ở đây là số 5, 6, 4, 3 tượng trưng cho giá trị ghế)
+                System.out.print(seatingCapacity[i][j] + " ");
+            }
+            System.out.println(); // Xuống dòng sau mỗi hàng
+        }
+
+        System.out.println("\nVí dụ truy cập một phần tử:");
+        // Truy cập ghế đầu tiên của hàng thứ 2 (chỉ mục 1)
+        System.out.println("Ghế đầu tiên của hàng 1 (chỉ mục 1): " + seatingCapacity[1][0]); // Output: 6
+    }
+}
+
+
+
+Ưu điểm của Jagged Arrays
+Tối ưu hóa bộ nhớ: Khi các hàng có kích thước khác nhau, Jagged Arrays giúp bạn sử dụng bộ nhớ hiệu quả hơn vì bạn chỉ cấp phát chính xác dung lượng cần thiết cho mỗi hàng, thay vì cấp phát một khối bộ nhớ hình chữ nhật lớn hơn mức cần thiết như mảng hai chiều thông thường.
+Linh hoạt: Cung cấp sự linh hoạt cao khi bạn làm việc với dữ liệu không có cấu trúc hình chữ nhật hoặc vuông đều.
+Thực tế: Phù hợp với nhiều tình huống thực tế hơn, ví dụ như lưu trữ dữ liệu điểm của học sinh (mỗi học sinh có số môn học khác nhau), hoặc dữ liệu ma trận thưa.
+
+Nhược điểm của Jagged Arrays
+Phức tạp hơn khi quản lý: Việc quản lý và duyệt qua Jagged Arrays có thể hơi phức tạp hơn một chút so với mảng hai chiều đều, vì bạn cần phải luôn kiểm tra .length của từng mảng con.
+Khả năng lỗi: Có thể dễ gây ra NullPointerException nếu bạn cố gắng truy cập một hàng chưa được khởi tạo.
+
+Khi nào nên sử dụng Jagged Arrays?
+Bạn nên cân nhắc sử dụng Jagged Arrays khi:
+Bạn cần một cấu trúc mảng đa chiều nhưng số lượng phần tử trong mỗi "hàng" hoặc "cột" không đồng nhất.
+Bạn muốn tiết kiệm bộ nhớ bằng cách tránh cấp phát quá mức cho các hàng có ít phần tử hơn.
+Dữ liệu của bạn có bản chất không đều, chẳng hạn như:
+Điểm thi của sinh viên, với mỗi sinh viên đăng ký số lượng môn học khác nhau.
+Danh sách các thành phố trong mỗi bang, với mỗi bang có số lượng thành phố khác nhau.
+Ma trận thưa (sparse matrix) nơi hầu hết các giá trị là 0 và bạn chỉ muốn lưu trữ các giá trị khác 0.
+Jagged Arrays là một công cụ mạnh mẽ trong Java, cho phép bạn mô hình hóa các tập dữ liệu phức tạp và không đồng nhất một cách hiệu quả.
+-Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
+Trong Java, khái niệm "vector" (mảng có thể thay đổi kích thước) thường được đề cập đến lớp java.util.Vector hoặc phổ biến hơn là java.util.ArrayList. Cả hai đều cung cấp chức năng của một mảng động, có thể tự động điều chỉnh kích thước khi bạn thêm hoặc xóa phần tử.
+1. java.util.Vector (Lớp cũ hơn)
+Lịch sử: Vector là một trong những lớp đầu tiên trong Java Collections Framework, ra đời từ JDK 1.0.
+Đồng bộ hóa (Synchronized): Điểm đặc trưng lớn nhất của Vector là nó được đồng bộ hóa (synchronized). Điều này có nghĩa là tất cả các phương thức của Vector đều được bảo vệ để chỉ một luồng có thể truy cập chúng tại một thời điểm. Điều này đảm bảo an toàn luồng (thread-safe) nhưng đổi lại là hiệu suất thấp hơn khi sử dụng trong môi trường đơn luồng hoặc khi bạn tự quản lý đồng bộ hóa.
+Cấp phát: Khi bạn tạo một Vector, bạn có thể chỉ định dung lượng ban đầu (initialCapacity) và mức tăng dung lượng (capacityIncrement).
+Nếu dung lượng hiện tại không đủ, Vector sẽ tự động tăng kích thước của mảng lưu trữ bên trong. Mặc định, nó sẽ tăng gấp đôi kích thước hoặc tăng theo capacityIncrement nếu được chỉ định.
+Quá trình cấp phát này thường bao gồm việc tạo một mảng mới lớn hơn và sao chép tất cả các phần tử từ mảng cũ sang mảng mới. Đây là một thao tác tốn kém về hiệu suất.
+Ví dụ về cấp phát Vector:
+Java
+import java.util.Vector;
+
+public class VectorExample {
+    public static void main(String[] args) {
+        // Tạo một Vector với dung lượng ban đầu là 5
+        Vector<String> names = new Vector<>(5);
+
+        // Thêm các phần tử vào Vector
+        names.add("Alice"); // size = 1, capacity = 5
+        names.add("Bob");   // size = 2, capacity = 5
+        names.add("Charlie"); // size = 3, capacity = 5
+        names.add("David");  // size = 4, capacity = 5
+        names.add("Eve");    // size = 5, capacity = 5
+
+        System.out.println("Size after 5 additions: " + names.size());
+        System.out.println("Capacity after 5 additions: " + names.capacity()); // Vẫn là 5 hoặc lớn hơn nếu Vector có logic tăng dung lượng khác
+
+        // Thêm một phần tử nữa, sẽ kích hoạt cơ chế tăng dung lượng
+        names.add("Frank"); // size = 6, capacity sẽ tự động tăng (thường gấp đôi lên 10)
+
+        System.out.println("Size after 6 additions: " + names.size());
+        System.out.println("Capacity after 6 additions: " + names.capacity());
+    }
+}
+
+2. java.util.ArrayList (Lớp hiện đại và phổ biến hơn)
+Phổ biến: ArrayList là lựa chọn phổ biến hơn trong hầu hết các trường hợp cần một mảng động trong Java.
+Không đồng bộ hóa (Non-synchronized): Không giống như Vector, ArrayList không được đồng bộ hóa. Điều này có nghĩa là nó không an toàn luồng (not thread-safe) theo mặc định, nhưng lại mang lại hiệu suất tốt hơn đáng kể trong các ứng dụng đơn luồng hoặc khi bạn tự quản lý đồng bộ hóa bên ngoài.
+Cấp phát:
+Khi bạn tạo một ArrayList mà không chỉ định dung lượng ban đầu, nó sẽ được khởi tạo với một mảng nội bộ có dung lượng mặc định (thường là 10).
+Khi số lượng phần tử đạt đến dung lượng hiện tại, ArrayList sẽ tự động tăng kích thước của mảng lưu trữ bên trong. Thông thường, nó sẽ tăng kích thước lên 1.5 lần dung lượng hiện tại.
+Tương tự Vector, quá trình này bao gồm việc cấp phát một mảng mới lớn hơn và sao chép các phần tử.
+Ví dụ về cấp phát ArrayList:
+Java
+import java.util.ArrayList;
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        // Tạo một ArrayList với dung lượng ban đầu mặc định (thường là 10)
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        // Thêm các phần tử
+        for (int i = 0; i < 15; i++) {
+            numbers.add(i * 10);
+        }
+
+        System.out.println("Size: " + numbers.size());
+        // ArrayList không có phương thức public để lấy capacity,
+        // nhưng bạn có thể hình dung nó đã tăng kích thước khi cần.
+
+        // Bạn có thể chỉ định dung lượng ban đầu
+        ArrayList<String> cities = new ArrayList<>(20);
+        cities.add("New York");
+        cities.add("London");
+        // ...
+        System.out.println("Size of cities: " + cities.size());
+    }
+}
+
+Tóm tắt về cấp phát mảng động trong Java (Vector/ArrayList):
+Tự động thay đổi kích cỡ: Đây là tính năng chính. Bạn không cần phải lo lắng về việc mảng đầy.
+Mảng nội bộ: Cả hai lớp đều sử dụng một mảng thông thường (static array) bên trong để lưu trữ các phần tử.
+Cơ chế tăng trưởng: Khi mảng nội bộ đầy, một mảng mới lớn hơn sẽ được tạo ra, và tất cả các phần tử từ mảng cũ sẽ được sao chép sang mảng mới.
+Chi phí hiệu suất: Việc sao chép toàn bộ mảng là một thao tác tốn kém. Để giảm thiểu việc này, các lớp này thường tăng dung lượng lên một lượng lớn hơn mức cần thiết ngay lập tức (ví dụ: gấp đôi hoặc 1.5 lần) để tránh phải thay đổi kích thước quá thường xuyên.
+Dung lượng (Capacity) vs Kích thước (Size):
+Size (kích thước) là số lượng phần tử thực tế đang có trong mảng động.
+Capacity (dung lượng) là tổng số vị trí mà mảng nội bộ có thể chứa mà không cần phải thay đổi kích thước.
+Trong hầu hết các trường hợp sử dụng mảng động trong Java, ArrayList là lựa chọn ưu tiên vì hiệu suất tốt hơn do không bị overhead của đồng bộ hóa, trừ khi bạn thực sự cần tính an toàn luồng sẵn có của Vector.
+Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.

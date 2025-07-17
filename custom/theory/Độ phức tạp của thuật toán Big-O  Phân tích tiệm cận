@@ -1,0 +1,189 @@
+*** Độ phức tạp của thuật toán / Big-O / Phân tích tiệm cận ***
+
+Bạn chỉ cần hiểu cách thể hiện độ phức tạp của một thuật toán bằng Big-O.
+
+1. O(1) - Độ phức tạp Hằng số (Constant Time)
+O(1) có nghĩa là thời gian thực thi không thay đổi, bất kể kích thước đầu vào.
+Java
+public class ConstantTimeExample {
+    public static int getFirstElement(int[] arr) {
+        // Kiểm tra mảng rỗng để tránh lỗi
+        if (arr.length == 0) {
+            return -1; // Hoặc ném ngoại lệ
+        }
+        return arr[0]; // Truy cập trực tiếp phần tử đầu tiên
+    }
+
+    public static void main(String[] args) {
+        int[] smallArray = {10, 20, 30};
+        int[] largeArray = new int[1000000]; // Mảng rất lớn
+
+        System.out.println("Phần tử đầu tiên của mảng nhỏ: " + getFirstElement(smallArray));
+        System.out.println("Phần tử đầu tiên của mảng lớn: " + getFirstElement(largeArray));
+    }
+}
+
+Trong ví dụ trên, hàm getFirstElement luôn thực hiện một số bước cố định: kiểm tra độ dài mảng và truy cập phần tử tại chỉ mục 0. Số lượng phần tử trong mảng (dù là 3 hay 1 triệu) không ảnh hưởng đến số bước này. Do đó, độ phức tạp của nó là O(1).
+
+2. O(n) - Độ phức tạp Tuyến tính (Linear Time)
+O(n) có nghĩa là thời gian thực thi tăng tỷ lệ thuận với kích thước đầu vào n.
+Java
+public class LinearTimeExample {
+    public static int sumArray(int[] arr) {
+        int sum = 0;
+        // Duyệt qua TẤT CẢ các phần tử trong mảng
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        return sum;
+    }
+
+    public static int findElement(int[] arr, int target) {
+        // Duyệt qua mảng cho đến khi tìm thấy phần tử hoặc hết mảng
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i; // Tìm thấy, trả về chỉ mục
+            }
+        }
+        return -1; // Không tìm thấy
+    }
+
+    public static void main(String[] args) {
+        int[] data = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println("Tổng các phần tử: " + sumArray(data)); // O(n)
+
+        int[] largeData = new int[100000]; // Mảng 100k phần tử
+        // (Giả sử điền dữ liệu vào largeData)
+        System.out.println("Tìm 99999 trong mảng lớn: " + findElement(largeData, 99999)); // Worst case O(n)
+    }
+}
+
+Hàm sumArray: Nó phải duyệt qua mọi phần tử của mảng một lần để tính tổng. Nếu mảng có n phần tử, nó sẽ thực hiện n phép cộng. Vì vậy, đây là O(n).
+Hàm findElement: Trong trường hợp xấu nhất (phần tử cần tìm nằm ở cuối mảng hoặc không có trong mảng), nó cũng phải duyệt qua tất cả n phần tử. Do đó, nó là O(n).
+
+3. O(n2) - Độ phức tạp Bình phương (Quadratic Time)
+O(n2) có nghĩa là thời gian thực thi tăng theo bình phương của kích thước đầu vào n. Thường xuất hiện với các vòng lặp lồng nhau.
+Java
+public class QuadraticTimeExample {
+    public static void printAllPairs(int[] arr) {
+        // Vòng lặp ngoài duyệt n phần tử
+        for (int i = 0; i < arr.length; i++) {
+            // Vòng lặp trong cũng duyệt n phần tử cho MỖI phần tử của vòng lặp ngoài
+            for (int j = 0; j < arr.length; j++) {
+                System.out.println("(" + arr[i] + ", " + arr[j] + ")");
+            }
+        }
+    }
+
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) { // Duyệt n-1 lần
+            for (int j = 0; j < n - i - 1; j++) { // Duyệt khoảng n lần
+                if (arr[j] > arr[j + 1]) {
+                    // Hoán đổi các phần tử
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] data = {1, 2, 3};
+        System.out.println("Các cặp số:");
+        printAllPairs(data); // O(n^2)
+
+        int[] unsortedData = {64, 34, 25, 12, 22, 11, 90};
+        System.out.println("\nMảng trước khi sắp xếp nổi bọt: " + java.util.Arrays.toString(unsortedData));
+        bubbleSort(unsortedData); // O(n^2)
+        System.out.println("Mảng sau khi sắp xếp nổi bọt: " + java.util.Arrays.toString(unsortedData));
+    }
+}
+
+Hàm printAllPairs: Có hai vòng lặp lồng nhau, mỗi vòng lặp chạy n lần. Tổng số phép in là ntimesn=n2. Do đó, nó là O(n2).
+Hàm bubbleSort: Thuật toán sắp xếp nổi bọt có hai vòng lặp lồng nhau. Vòng lặp ngoài chạy n−1 lần, và vòng lặp trong chạy khoảng n lần (giảm dần). Tổng số phép so sánh và hoán đổi tỷ lệ với ntimesn. Vì vậy, nó là O(n2).
+
+4. O(logn) - Độ phức tạp Logarit (Logarithmic Time)
+O(logn) có nghĩa là thời gian thực thi giảm đi đáng kể khi kích thước đầu vào tăng lên. Thường xuất hiện trong các thuật toán chia để trị, nơi vấn đề được giảm kích thước một cách đáng kể trong mỗi bước.
+Java
+public class LogarithmicTimeExample {
+    // Thuật toán tìm kiếm nhị phân (binary search)
+    public static int binarySearch(int[] sortedArr, int target) {
+        int low = 0;
+        int high = sortedArr.length - 1;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2; // Tránh tràn số với số nguyên lớn
+
+            if (sortedArr[mid] == target) {
+                return mid; // Tìm thấy
+            } else if (sortedArr[mid] < target) {
+                low = mid + 1; // Tìm ở nửa phải
+            } else {
+                high = mid - 1; // Tìm ở nửa trái
+            }
+        }
+        return -1; // Không tìm thấy
+    }
+
+    public static void main(String[] args) {
+        int[] sortedData = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        System.out.println("Tìm 30 ở chỉ mục: " + binarySearch(sortedData, 30)); // 2
+        System.out.println("Tìm 95 ở chỉ mục: " + binarySearch(sortedData, 95)); // -1
+
+        // Đối với một mảng 1 tỷ phần tử, binary search chỉ cần khoảng log2(1 tỷ) ~ 30 bước!
+    }
+}
+
+Trong thuật toán tìm kiếm nhị phân, ở mỗi bước, khoảng tìm kiếm được giảm đi một nửa. Điều này dẫn đến độ phức tạp O(logn). Ví dụ, để tìm kiếm trong 1024 phần tử, bạn chỉ cần tối đa log_2(1024)=10 bước.
+
+5. O(nlogn) - Độ phức tạp Tuyến tính-Logarit (Linearithmic Time)
+O(nlogn) thường được coi là rất hiệu quả đối với các thuật toán sắp xếp và một số thuật toán "chia để trị" khác.
+Java
+import java.util.Arrays;
+
+public class LinearithmicTimeExample {
+    // Merge Sort (Sắp xếp trộn) là một ví dụ điển hình của O(n log n)
+    public static void mergeSort(int[] arr) {
+        if (arr.length <= 1) {
+            return; // Trường hợp cơ sở: mảng rỗng hoặc 1 phần tử đã được sắp xếp
+        }
+
+        int mid = arr.length / 2;
+        int[] left = Arrays.copyOfRange(arr, 0, mid);
+        int[] right = Arrays.copyOfRange(arr, mid, arr.length);
+
+        mergeSort(left); // Đệ quy sắp xếp nửa trái
+        mergeSort(right); // Đệ quy sắp xếp nửa phải
+
+        merge(arr, left, right); // Hợp nhất hai nửa đã sắp xếp
+    }
+
+    private static void merge(int[] arr, int[] left, int[] right) {
+        int i = 0, j = 0, k = 0;
+        while (i < left.length && j < right.length) {
+            if (left[i] <= right[j]) {
+                arr[k++] = left[i++];
+            } else {
+                arr[k++] = right[j++];
+            }
+        }
+        while (i < left.length) {
+            arr[k++] = left[i++];
+        }
+        while (j < right.length) {
+            arr[k++] = right[j++];
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] data = {38, 27, 43, 3, 9, 82, 10};
+        System.out.println("Mảng trước khi sắp xếp trộn: " + Arrays.toString(data));
+        mergeSort(data); // O(n log n)
+        System.out.println("Mảng sau khi sắp xếp trộn: " + Arrays.toString(data));
+    }
+}
+
+Thuật toán Merge Sort chia mảng thành hai nửa (log n cấp độ đệ quy) và sau đó hợp nhất chúng lại (mỗi bước hợp nhất tốn O(n) thời gian). Do đó, tổng thời gian là O(nlogn). Các thuật toán sắp xếp hiệu quả khác như Quick Sort (trung bình) cũng có độ phức tạp này.
+Những ví dụ này minh họa cách Ký hiệu Big-O giúp chúng ta phân tích và hiểu hiệu suất của mã Java ở cấp độ cao. Bằng cách tập trung vào hành vi khi đầu vào lớn, chúng ta có thể đưa ra quyết định sáng suốt hơn về việc lựa chọn và thiết kế thuật toán.

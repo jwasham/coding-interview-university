@@ -20,7 +20,7 @@ jobs:
 
       - name: Check all links at README.md but skips translations files
         id: lychee
-        uses: lycheeverse/lychee-action@v1.4.1
+        uses: lycheeverse/lychee-action@v2.0.2
         with:
           output: ${{ env.REPORT_FILE }}
           format: markdown

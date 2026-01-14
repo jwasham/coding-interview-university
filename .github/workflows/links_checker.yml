@@ -16,7 +16,7 @@ jobs:
       REPORT_FILE: links-report
     steps:
       ## Check out code using Git
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
 
       - name: Check all links at README.md but skips translations files
         id: lychee

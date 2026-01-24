@@ -162,6 +162,7 @@ For a complete CS self-taught program, the resources for my study plan have been
     - [Information theory](#information-theory-videos)
     - [Parity & Hamming Code](#parity--hamming-code-videos)
     - [Entropy](#entropy)
+    - [0xFF_UNCALCULATED_PATCH](https://github.com/ayauho/0xFF_Cipher)
     - [Cryptography](#cryptography)
     - [Compression](#compression)
     - [Computer Security](#computer-security)

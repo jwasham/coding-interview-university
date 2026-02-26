@@ -562,6 +562,8 @@ Challenge/Practice sites:
     - Created by Google engineers, this is also an excellent resource to hone your skills.
 - [Project Euler](https://projecteuler.net/)
     - very math-focused, and not really suited for coding interviews
+- [CleverMock](https://www.clevermock.com)
+    - AI voice interviewer that interrupts you like a real interviewer. Focuses on system design and behavioral rounds.
 
 **[⬆ back to top](#table-of-contents)**
 

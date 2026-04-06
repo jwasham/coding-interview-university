@@ -52,6 +52,7 @@
 - [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for coding workflow orchestration, automated code review, and multi-agent development coordination. MIT licensed.
 </details>
 
 

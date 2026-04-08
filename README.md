@@ -2019,3 +2019,38 @@ Sit back and enjoy.
 ## LICENSE
 
 [CC-BY-SA-4.0](./LICENSE.txt)
+
+---
+
+## 🚀 Project Overview
+Enhanced README documentation for clarity, badges, and contribution guidance.
+
+## ✨ Features
+- Improved documentation structure
+- Repository metadata and badges
+- Automated activity insights
+- Contribution guidance
+
+## 🤝 Contributing
+Contributions are welcome.  
+Feel free to open issues or submit pull requests.
+
+## 📊 Repository Statistics
+![Stars](https://img.shields.io/github/stars/jwasham/coding-interview-university)
+![Forks](https://img.shields.io/github/forks/jwasham/coding-interview-university)
+![Issues](https://img.shields.io/github/issues/jwasham/coding-interview-university)
+![License](https://img.shields.io/github/license/jwasham/coding-interview-university)
+
+## 📜 Recent Repository Activity
+- 717298b Removed the sponsorship option from all README files. (Shaun Gunawardane, 2024-12-06)
+- 6f9e1db Update README.md (Shaun Gunawardane, 2024-12-06)
+- 1cea066 Update README.md (Shaun Gunawardane, 2024-12-06)
+- 7373869 Merge pull request #1550 from wiirios/main (Shaun Gunawardane, 2024-12-06)
+- a17f010 Merge pull request #1552 from sjtushi/main (Shaun Gunawardane, 2024-12-06)
+
+## 🕒 Last Updated
+Wed Apr  8 02:47:43 +04 2026
+
+---
+
+### 🤖 Automated Documentation Update

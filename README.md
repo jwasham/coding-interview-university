@@ -2019,3 +2019,34 @@ Sit back and enjoy.
 ## LICENSE
 
 [CC-BY-SA-4.0](./LICENSE.txt)
+
+---
+
+## 🚀 Project Overview
+Enhanced README documentation for clarity, badges, and contribution guidance.
+
+## ✨ Features
+- Improved documentation structure
+- Repository metadata and badges
+- Automated activity insights
+- Contribution guidance
+
+## 🤝 Contributing
+Contributions are welcome.  
+Feel free to open issues or submit pull requests.
+
+## 📊 Repository Statistics
+![Stars](https://shields.io)
+![Forks](https://shields.io)
+![Issues](https://shields.io)
+![License](https://shields.io)
+
+## 📜 Recent Repository Activity
+- 717298b Removed the sponsorship option from all README files. (Shaun Gunawardane, 2024-12-06)
+
+## 🕒 Last Updated
+Wed Apr  8 17:50:58 +04 2026
+
+---
+
+### 🤖 Automated Documentation Update

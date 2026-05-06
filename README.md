@@ -1,3 +1,10 @@
+Como Ser um Engenheiro de Software (Versão Brasileira)
+
+🇧🇷 Esta é uma tradução e adaptação não-oficial para a comunidade brasileira do excelente repositório original criado por [https://github.com/jwasham]. O objetivo aqui é democratizar o acesso a esses fundamentos para quem ainda não tem familiaridade com o inglês.
+
+🔗 [https://github.com/jwasham/coding-interview-university]
+
+
 # Coding Interview University
 
 > I originally created this as a short to-do list of study topics for becoming a software engineer,

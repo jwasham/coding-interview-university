@@ -192,6 +192,7 @@ For a complete CS self-taught program, the resources for my study plan have been
     - [Linear Programming](#linear-programming-videos)
     - [Geometry, Convex hull](#geometry-convex-hull-videos)
     - [Discrete math](#discrete-math)
+    - [Basic Machine Learning Algorithms](#basic-machine-learning-algorithms)
 - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 - [Video Series](#video-series)
 - [Computer Science Courses](#computer-science-courses)
@@ -1826,6 +1827,9 @@ You're never really done.
     - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
     - [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
+      
+- ### Basic Machine Learning Algorithms
+    - [Step-by-Step ML Algorithm Solvers](https://www.stepbystepml.com/) - Interactive calculators showing the manual math for core concepts like KNN, Naive Bayes, Decision Trees, and Alpha-Beta Pruning.
 
 ---
 

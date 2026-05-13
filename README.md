@@ -562,6 +562,8 @@ Challenge/Practice sites:
     - Created by Google engineers, this is also an excellent resource to hone your skills.
 - [Project Euler](https://projecteuler.net/)
     - very math-focused, and not really suited for coding interviews
+- [NeetCode](https://neetcode.io/)
+    - Organized roadmap of 150+ LeetCode problems by category, with free video solutions. A structured companion to blind 75 and NeetCode 150.
 
 **[⬆ back to top](#table-of-contents)**
 

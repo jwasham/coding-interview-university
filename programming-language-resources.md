@@ -97,7 +97,7 @@
   - [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
   - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
   - [Rust Tutorial by Doug Milford from Lambda Valley](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
-  - [Introduction - Easy Rust](https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
+  - [Introduction - Easy Rust](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkSg7qSHLEBPnQMdc2q1)
   - [Rust overview](https://learning-rust.github.io/docs/index.html)
   - [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
 

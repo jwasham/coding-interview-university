@@ -231,6 +231,16 @@ If you're open in a code editor that understands markdown, you'll see everything
 
 ![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
+### If you want to use a GitHub Gist
+
+You can keep a personal, browser-based copy of the checklist in a [GitHub Gist](https://gist.github.com).
+
+1. Create a new public or secret gist and paste the sections you want to track.
+1. Edit the gist as you complete items, changing `[ ]` to `[x]`.
+1. Keep the gist separate from this repository so your progress does not change the canonical guide.
+
+A gist is optional. For a version-controlled checklist that can receive upstream updates, use the fork-and-branch workflow below.
+
 ### If you're comfortable with git
 
 Create a new branch so you can check items like this, just put an x in the brackets: [x]

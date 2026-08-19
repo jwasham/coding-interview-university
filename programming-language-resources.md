@@ -55,20 +55,20 @@
 - Java
   - [Stanford CS106A - Programming Methodology (video)](https://see.stanford.edu/Course/CS106A)
   - [Java Cheat Sheet](https://www.interviewbit.com/java-cheat-sheet)
-  - [Introduction To Programming In Java](http://introcs.cs.princeton.edu/java/home/)
-  - [Algorithms 4th Ed - Algorithm Book In Java](http://algs4.cs.princeton.edu/home/)
+  - [Introduction To Programming In Java](https://introcs.cs.princeton.edu/java/home/)
+  - [Algorithms 4th Ed - Algorithm Book In Java](https://algs4.cs.princeton.edu/home/)
   - [Effective Java 3rd Edition](https://www.amazon.com/Effective-Java-Joshua-Bloch-ebook/dp/B078H61SCH)
   - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM&t=1744s)
   - [Top Java Interview Questions and Answers](https://www.interviewbit.com/java-interview-questions)
   - [Data Structures in Java](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
 - Go
   - [The Go programming Language](https://golang.org/)
-  - [The Go programming Language (book)](http://www.gopl.io/)
+  - [The Go programming Language (book)](https://www.gopl.io/)
   - [A Tour of Go](https://tour.golang.org/)
   - [Effective Go](https://golang.org/doc/effective_go.html)
   - [Go Wiki](https://golang.org/wiki)
   - [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
-  - [Go Proverbs](http://go-proverbs.github.io/)
+  - [Go Proverbs](https://go-proverbs.github.io/)
   - [Go Proverbs - Rob Pike (video)](https://www.youtube.com/watch?v=PAAkCSZUG1c)
   - [Gophercises - Free course on Coding Exercises in Go](https://gophercises.com)
 - HTML
@@ -106,7 +106,7 @@
   - [The Ruby Programming Language](https://book4you.org/book/1219034/7c9a4b)
   - [Polished Ruby Programming](https://book4you.org/book/16678106/f61159)
   - [Ruby Fu](https://rubyfu.net/)
-  - [Ruby Koans](http://rubykoans.com/)
+  - [Ruby Koans](https://rubykoans.com/)
 
 - Other Language 2
 - etc

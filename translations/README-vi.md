@@ -184,7 +184,7 @@ Có rất nhiều điều để học trong một chương trình Khoa học Má
 
 ---
 
-## Vì sao tôi cần tài liệu này?
+## Vì sao tôi cần tài liệu này? [x]
 
 Nếu bạn muốn làm kỹ sư phần mềm cho một công ty lớn, đây là những điều bạn phải biết.
 
@@ -196,7 +196,7 @@ Tất cả các cấu trúc dữ liệu tôi từng sử dụng đều được 
 
 Đây là một kế hoạch dài hơi, sẽ tốn của bạn vài tháng. Nếu bạn đã quen với nhiều nội dung trong này, bạn sẽ mất ít thời gian hơn.
 
-## Sử dụng tài liệu này như thế nào?
+## Sử dụng tài liệu này như thế nào? [x]
 
 Tất cả những gì dưới đây là một bản phác thảo, và bạn nên tiếp cận các mục theo thứ tự từ trên xuống dưới.
 
@@ -209,7 +209,7 @@ Nếu bạn chưa biết về [git](https://git-scm.com) thì vui lòng tham kh�
 - Tiếng Anh: [git - the simple guide](http://rogerdudler.github.io/git-guide/)
 - Tiếng Việt: [Sổ tay git cho người mới bắt đầu](http://rogerdudler.github.io/git-guide/index.vi.html) (Việt hóa từ nội dung với link trên)
 
-### Nếu bạn không muốn sử dụng git
+### Nếu bạn không muốn sử dụng git [x]
 
 Trên trang này, nhấp vào nút Code gần phía trên, sau đó nhấp vào "Download ZIP". Giải nén file và bạn có thể làm việc với các file văn bản.
 
@@ -217,7 +217,7 @@ Nếu bạn mở trong một trình soạn thảo code hiểu markdown, bạn s�
 
 ![Cách tải repo dưới dạng tệp zip](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
-### Nếu bạn muốn làm quen với git
+### Nếu bạn muốn làm quen với git [x]
 
 Tiếp theo, bạn cần biết cách gắp (fork) một repo trên github:
 

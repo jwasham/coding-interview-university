@@ -247,7 +247,7 @@ Tiếp theo, bạn cần biết cách gắp (fork) một repo trên github:
 - Đồng bộ thay đổi với bản fork trên Github của bạn bằng `git push origin main`.
 
 
-## Đừng nghĩ rằng bạn không đủ thông minh
+## Đừng nghĩ rằng bạn không đủ thông minh [x]
 
 - Các kỹ sư phần mềm thành công thì thông minh, nhưng nhiều người lại tự ti rằng họ không đủ thông minh.
 - Những video sau đây có thể giúp bạn vượt qua nỗi tự ti này:
@@ -256,7 +256,7 @@ Tiếp theo, bạn cần biết cách gắp (fork) một repo trên github:
     - [Hãy tin bạn có thể thay đổi](http://www.aaronsw.com/weblog/dweck)
 
 
-## Về nguồn video
+## Về nguồn video [x]
 
 Một vài video chỉ xem được khi bạn tham gia vào các lớp học online trên Coursera, EdX, hay Lynda.com. Các lớp đó được gọi là MOOC.
 Đôi khi các lớp chưa mở, và bạn phải đợi một vài tháng đến khi chúng được mở lại, do đó bạn không thể truy cập vào video được.
@@ -266,14 +266,14 @@ Tôi sẽ rất cảm kích sự hỗ trợ của các bạn trong việc thêm 
 Tôi cũng rất thích xem các bài giảng của các trường đại học.
 
 
-## Chọn ngôn ngữ lập trình cho cuộc phỏng vấn
+## Chọn ngôn ngữ lập trình cho cuộc phỏng vấn [x]
 
 Bạn sẽ cần phải chọn một ngôn ngữ lập trình cho các cuộc phỏng vấn lập trình mà bạn tham gia,
 nhưng bạn cũng cần tìm một ngôn ngữ mà bạn có thể sử dụng để nghiên cứu các khái niệm khoa học máy tính.
 
 Ưu tiên là ngôn ngữ đó sẽ giống nhau, để bạn chỉ cần thành thạo một ngôn ngữ.
 
-### Đối với Kế Hoạch Học Tập này
+### Đối với Kế Hoạch Học Tập này [x]
 
 Khi tôi thực hiện kế hoạch học tập, tôi đã sử dụng 2 ngôn ngữ cho hầu hết phần này: C và Python
 
@@ -295,7 +295,7 @@ Có thể bạn không cần, nhưng dưới đây là một số trang web đ�
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
 
-### Cho Cuộc Phỏng Vấn Lập Trình của bạn
+### Cho Cuộc Phỏng Vấn Lập Trình của bạn [x]
 
 Bạn có thể sử dụng một ngôn ngữ mà bạn quen thuộc để làm phần lập trình trong cuộc phỏng vấn, nhưng đối với các công ty lớn, những ngôn ngữ sau đây là thích hợp nhất:
 
@@ -320,7 +320,7 @@ Xem thêm về các sự lựa chọn:
 
 [Xem tài liệu về các ngôn ngữ ở đây](/programming-language-resources.md)
 
-## Sách về Cấu Trúc Dữ Liệu và Thuật Toán
+## Sách về Cấu Trúc Dữ Liệu và Thuật Toán [x]
 
 Cuốn sách này sẽ tạo nền tảng cho khoa học máy tính của bạn.
 
@@ -360,7 +360,7 @@ Lựa chọn ở bạn:
     - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
     - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-## Sách chuẩn bị phỏng vấn
+## Sách chuẩn bị phỏng vấn [x]
 
 Bạn không cần phải mua nhiều sách như thế này. Thực sự "Cracking the Coding Interview" có lẽ đã đủ,
 nhưng tôi đã mua thêm để tạo thêm cơ hội thực hành cho bản thân. Nhưng tôi luôn luôn làm quá mức.
@@ -542,7 +542,7 @@ Trang web Thử thách/Thực hành:
 - [Project Euler](https://projecteuler.net/)
     - Rất tập trung vào toán học và không thực sự phù hợp với các cuộc phỏng vấn viết code
 
-## Bắt Đầu Nào
+## Bắt Đầu Nào [x]
 
 Được rồi, nói đủ nhiều rồi, hãy cùng học nào!
 

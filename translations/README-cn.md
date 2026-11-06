@@ -1190,7 +1190,6 @@
       - LeetCode的速成课程。涵盖了从成千上万的问题中提炼出的所有模式。
 
 模拟面试：
-- [Gainlo.co：来自大公司的模拟面试官](http://www.gainlo.co/#!/) - 我用过这个，帮助我放松进行电话和现场面试。
 - [Pramp：与同行进行模拟面试](https://www.pramp.com/) - 同行模式的实践面试。
 - [interviewing.io：与资深工程师进行模拟面试 ](https://interviewing.io) - 匿名算法/系统设计面试，与FAANG公司的资深工程师进行。
 - [Meetapro：与顶级FAANG面试官进行模拟面试 ](https://meetapro.com/?utm_source=ciu) - 类似Airbnb的模拟面试/指导平台。

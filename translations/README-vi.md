@@ -1288,7 +1288,6 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
       - Khóa học tóm tắt cho LeetCode. Bao gồm tất cả các mô hình được tóm gọn từ hàng nghìn câu hỏi.
 
 Phỏng vấn mô phỏng:
-- [Gainlo.co: Người phỏng vấn mô phỏng từ các công ty lớn](http://www.gainlo.co/#!/) - Tôi đã sử dụng dịch vụ này và nó giúp tôi thư giãn cho phần phỏng vấn qua điện thoại và phỏng vấn trực tiếp
 - [Pramp: Phỏng vấn mô phỏng từ/ với đồng nghiệp](https://www.pramp.com/) - một mô hình ngang hàng để thực hành phỏng vấn
 - [interviewing.io: Thực hành phỏng vấn mô phỏng với các kỹ sư hàng đầu](https://interviewing.io) - phỏng vấn mô phỏng về thiết kế thuật toán/hệ thống với các kỹ sư hàng đầu từ FAANG một cách ẩn danh
 - [Meetapro: Phỏng vấn mô phỏng với những người phỏng vấn hàng đầu từ FAANG](https://meetapro.com/?utm_source=ciu) - một nền tảng phỏng vấn mô phỏng/phỏng vấn theo phong cách Airbnb.

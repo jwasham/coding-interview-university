@@ -1242,7 +1242,6 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
         - Baie kere is dit nie jou tegniese bevoegdheid wat jou terug hou van jou droom werk kry nie, dis hoe jy in die gedragsonderhoude voer.
 
 Spot Onderhoude:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - Ek het die gebruik en dit het my gehelp ontspan vir die foon skerm en on-site onderhoud.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model van onderhoudoefeninge.
 - [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anoniem algoritme/system design onderoude met senior ingeneurs van FAANG anoniem.
 
@@ -1380,7 +1379,6 @@ Jy is nooit regtig klaar nie.
 - [ ] **BEGIN HIER**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Interview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
 - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Daar is baie hulpbronne in hierdie een. Look deur die artikels en voorbeelde. Ek wys 'n paar hieronder
 - [ ] [How to ace a systems design interview](https://web.archive.org/web/20120716060051/http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)

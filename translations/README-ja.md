@@ -1144,7 +1144,6 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 		- LeetCode の短期集中コース。数千の質問から凝縮されたすべてのパターンを網羅。
 
 模擬面接:
-- [Gainlo.co: 大企業の面接官を模擬](http://www.gainlo.co/#!/) - これを使用したところ、電話での画面やオンサイトの面接に向けてリラックスするのに役立ちました
 - [Pramp: ピアとの模擬面接](https://www.pramp.com/) - 面接を練習するためのピアツーピア モデル
 - [interviewing.io: 上級エンジニアとの模擬面接の練習](https://interviewing.io) - FAANG の上級エンジニアとのアルゴリズム/システム設計匿名インタビュー
 - [Meetapro: FAANG トップ面接官との模擬面接](https://meetapro.com/?utm_source=ciu) - Airbnb スタイルの模擬面接/コーチング プラットフォーム。

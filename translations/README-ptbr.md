@@ -1196,7 +1196,6 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 - [ ] **COMEÇE AQUI**: [The System Design Primer]https://github.com/donnemartin/system-design-primer) (A Base de Design de Sistema)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/) (Design de Sistema, por HiredInTech)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023) (Como Eu Me Preparo Para Responder Questõs De Design De Sistemas Em Uma Entrevista Técnica)
-- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/) (8 Coisas Que Você Precisa Saber Antes De Uma Entrevista De Design De Sistema)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/) (Design de algoritmo)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM) (Normalização de Banco de Dados - 1NF, 2NF, 3NF e 4NF - vídeo)
 - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) (Entrevista de Design de Sistema) - Tem vários recursos nesse aqui. Olhe os artigos e exemplos. Eu coloquei alguns deles abaixo.
@@ -1384,7 +1383,6 @@ Repositórios de desafios:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges) (Desafios Interativos de Entrevista de Programação em Python)
 
 Entrevistas Simuladas:
-- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/#!/)
 - [Pramp: Entrevistas simuladas com colegas](https://www.pramp.com/)
 - [Refdash: Entrevistas simuladas](https://refdash.com/)
 

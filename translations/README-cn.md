@@ -1159,7 +1159,7 @@
 ## 更新你的简历
 
 - 在书籍《Cracking The Coding Interview》和《Programming Interviews Exposed》中查看简历准备信息。
-- [“这就是一个优秀简历的样子” by Gayle McDowell（《Cracking the Coding Interview》的作者）](https://www.careercup.com/resume), 
+- [“这就是一个优秀简历的样子” by Gayle McDowell（《Cracking the Coding Interview》的作者）](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume), 
     - 作者备注：“这是针对美国的简历。印度和其他国家的简历有不同的期望，尽管许多要点是相同的。”
 - [“逐步简历指南” by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - 详细指南，教您如何从零开始设置您的简历，编写有效的简历内容，优化它，并测试您的简历。

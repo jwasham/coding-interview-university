@@ -1206,7 +1206,7 @@ Grafieke kan gebruik word om baie problmeme in rekenaar wetenskap te verteenwoor
 - Sien Resume voorbereiding in die boeke: "Cracking The Coding Interview" en "Programming Interviews Exposed"
 - Ek weet nie hoe belangrik dit is nie (jy kan jou eie navorsing doen) maar hier is 'n artikel oor hoe om jou resume ATS versoenbaar te maak:
     - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
-- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
+- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume), 
     - Nota duer die outeur: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
 - ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Gedetailleerde gids oor hoe om jou resume op te stel van niks, hoe om effektiewe resume inhoud te skryf, dit te optimiseer, en jou resume te toets

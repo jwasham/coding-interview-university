@@ -1113,7 +1113,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 ## 履歴書を更新する
 
 - 書籍の履歴書準備情報を参照してください: 『コーディング面接の攻略』 「番組インタビュー暴露」
-- [「良い履歴書はこうあるべきだ」 Gayle McDowell (『Cracking thecoding Interview』の著者) 著](https://www.careercup.com/resume)、
+- [「良い履歴書はこうあるべきだ」 Gayle McDowell (『Cracking thecoding Interview』の著者) 著](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume)、
 	- 著者による注: 「これは米国に焦点を当てた履歴書用です。インドと他の国の履歴書では、多くの点は同じですが、期待される内容は異なります。」
 - [「ステップバイステップの履歴書ガイド」 by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
 	- 履歴書を最初から設定し、効果的な履歴書の内容を作成し、最適化し、履歴書をテストする方法に関する詳細なガイド

@@ -1188,7 +1188,7 @@ If you need more detail on this subject, see "Sorting" section in [Additional De
 
 - درج کتابوں میں ریزیومے کی تیاری کی معلومات دیکھیں:
 -  "کریکنگ دی کوڈنگ انٹرویو" اور "پروگرامنگ انٹرویوز بے نقاب"
-- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
+- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume), 
     - مصنف کی طرف سے نوٹ: "یہ یونائیٹڈ سٹیٹس امریکا فوکسڈ ریزیومے کے لیے ہے۔ ہندوستان اور دیگر ممالک کے لیے سی وی کی توقعات مختلف ہیں، حالانکہ بہت سے پوائنٹس ایک جیسے ہوں گے۔"
 - ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - اپنے ریزیومے کو شروع سے ترتیب دینے، موثر ریزیومے کا مواد لکھنے، اسے بہتر بنانے اور اپنے ریزیومے کی جانچ کرنے کے طریقے کے بارے میں تفصیلی گائیڈ

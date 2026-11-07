@@ -1190,7 +1190,7 @@ Choose one:
 - اطلاعات آماده سازی رزومه را در کتاب های زیر ببینید: "Cracking The Coding Interview" و "Programming Interviews Exposure"
 - من نمی دانم این چقدر مهم است (شما می توانید تحقیقات خود را انجام دهید) اما در اینجا مقاله ای در مورد سازگار کردن رزومه شما با ATS وجود دارد.:
     - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
-- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
+- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume), 
     - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
 
 

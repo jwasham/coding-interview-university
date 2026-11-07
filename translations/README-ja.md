@@ -1673,7 +1673,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - ### 離散数学
 	- [コンピューター サイエンス 70,001 - 2015 年春 - 離散数学と確率理論](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 	- [シャイ・サイモンソンによる離散数学 (19 ビデオ)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
-	- [IIT Ropar NPTEL による離散数学](https://nptel.ac.in/courses/106/106/106106183/)
+	- [IIT Ropar NPTEL による離散数学](https://nptel.ac.in/courses/106106183)
 
 ---
 

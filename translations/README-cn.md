@@ -1721,7 +1721,7 @@
 - ### 离散数学
     - [计算机科学70，001 - 2015年春季 - 离散数学与概率论](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [离散数学由Shai Simonson（19个视频）](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
-    - [离散数学由印度理工学院罗帕尔分校NPTEL提供](https://nptel.ac.in/courses/106/106/106106183/)
+    - [离散数学由印度理工学院罗帕尔分校NPTEL提供](https://nptel.ac.in/courses/106106183)
 
 ---
 

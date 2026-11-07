@@ -143,7 +143,6 @@ For a complete CS self-taught program, the resources for my study plan have been
 ### Getting the Job
 
 - [Update Your Resume](#update-your-resume)
-- [Find a Job](#find-a-job)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
@@ -158,7 +157,7 @@ For a complete CS self-taught program, the resources for my study plan have been
 - [Additional Learning](#additional-learning)
     - [Compilers](#compilers)
     - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
+    - [Unix command line tools](#unixlinux-command-line-tools)
     - [Information theory](#information-theory-videos)
     - [Parity & Hamming Code](#parity--hamming-code-videos)
     - [Entropy](#entropy)

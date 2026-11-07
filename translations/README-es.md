@@ -101,7 +101,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - [Montículo / Colas de Prioridad / Montículo binario](#montículo--colas-de-prioridad--montículo-binario)
     - Árboles de búsqueda balanceables (Concepto General, sin detallar)
     - Recorridos: preorder, inorder, postorder, BFS, DFS
-- [Ordenación](#ordenacion)
+- [Ordenamientos](#ordenamientos)
     - Selección
     - Inserción
     - Por montículos (heapsort)

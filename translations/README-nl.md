@@ -1115,7 +1115,7 @@ Backtracking-blauwdruk: [Java](https://leetcode.com/problems/combination-sum/dis
 - Zie voorbereidingsinformatie CV in de boeken: "Cracking The Coding Interview" en "Programming Interviews Exposed"
 - Ik weet niet hoe belangrijk dit is (je kunt je eigen onderzoek doen) maar hier is een artikel over het ATS-compatibel maken van je cv:
     - [Hoe maak je een CV aan of controleer je of je CV ATS-compatibel is](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for -Vrij)
-- ["Dit is hoe een GOED CV eruit zou moeten zien" door Gayle McDowell (auteur van Cracking the Coding Interview)](https://www.careercup.com/resume),
+- ["Dit is hoe een GOED CV eruit zou moeten zien" door Gayle McDowell (auteur van Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume),
     - Opmerking van de auteur: "Dit is voor een op de VS gericht cv. CV's voor India en andere landen hebben andere verwachtingen, hoewel veel van de punten hetzelfde zullen zijn."
 - ["Stap-voor-stap cv-gids" door Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Gedetailleerde gids over hoe u uw cv helemaal opnieuw kunt opzetten, effectieve cv-inhoud kunt schrijven, optimaliseren en uw cv kunt testen

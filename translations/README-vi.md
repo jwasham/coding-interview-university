@@ -1249,7 +1249,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 ## Lý lịch (Resume) của bạn
 
 - Xem thông tin chuẩn bị CV trong các sách: "Cracking The Coding Interview" và "Programming Interviews Exposed"
-- ["Đây là những gì một CV TỐT nên có" của Gayle McDowell (tác giả của Cracking the Coding Interview)](https://www.careercup.com/resume),
+- ["Đây là những gì một CV TỐT nên có" của Gayle McDowell (tác giả của Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume),
     - Lưu ý của tác giả: "Đây là cho một CV tập trung cho nước Mỹ. CV cho Ấn Độ và các quốc gia khác có những kỳ vọng khác nhau, mặc dù nhiều điểm sẽ giống nhau."
 - ["Hướng dẫn từng bước để tạo CV" của Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Hướng dẫn chi tiết về cách thiết lập CV của bạn từ đầu, viết nội dung CV hiệu quả, tối ưu hóa nó, và kiểm tra CV của bạn

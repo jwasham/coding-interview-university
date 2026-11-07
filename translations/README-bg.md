@@ -1216,7 +1216,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 -   See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
 -   Не знам колко важно е това (можете сами да си направите проучване), но ето една статия за това как да направим резюмето си ATS Compliant:
     -   [Как да проверим дали резюмето ни е ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
--   ["This Is What A GOOD Resume Should Look Like" от Gayle McDowell (авторът на Cracking the Coding Interview)](https://www.careercup.com/resume),
+-   ["This Is What A GOOD Resume Should Look Like" от Gayle McDowell (авторът на Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume),
     -   Бележка от автора: "Това се отнася към резюмета за САЩ. Към CV-тата за Индия и други държави има различни изисквания, но много от точките ще са същите."
 
 ## Намерете позиция

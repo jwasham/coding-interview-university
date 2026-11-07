@@ -1201,7 +1201,7 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 ## तुमचा रेझ्युम अपडेट करा
 
 - "Cracking The Coding Interview" आणि "Programming Interviews Exposed" हे पुस्तके पहा
-- ["चांगला रेझ्युम कसं दिसतं" गेल मॅकडॉनेल (Cracking the Coding Interview ची लेखिका)](https://www.careercup.com/resume),
+- ["चांगला रेझ्युम कसं दिसतं" गेल मॅकडॉनेल (Cracking the Coding Interview ची लेखिका)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume),
   - लेखिकेचा अभिप्राय: "हा संगणक संयंत्र युएस अँड अन्य देशांसाठी अनेक वेळा वेगवेगळ्या अपेक्षा असतात, हाताळणीच्या बाजूचे प्रमुख असतात, परंतु अनेक बिंदू सामान्य असतील."
 - ["चरणावरील रेझ्युम मार्गदर्शन" टेक इंटरव्ह्यू हँडबुक](https://www.techinterviewhandbook.org/resume/guide)
   - रेझ्युम सामग्री कसे तयार करायची, प्रभावी रेझ्युम सामग्री कसे लिहायची, ती ऑप्टिमाईझ कसे करायची, आणि तुमचा रेझ्युम कसं चाचणी करायचं हे मार्गदर्शित करणारं विस्तृत मार्गदर्शिका.
@@ -1233,7 +1233,6 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
 मॉक इंटरव्ह्यू:
 
-- [Gainlo.co: मोक इंटरव्ह्यूअर्स सह बड्याच्या कंपनीतून](http://www.gainlo.co/#!/) - मी हे वापरलं आणि हे माझ्याला फोन स्क्रीन आणि ऑन-साइट इंटरव्ह्यूसाठी थंड करण्यास मदत केलं
 - [Pramp: मोक इंटरव्ह्यूअर्स सह/सह करणार्](https://www.pramp.com/) - इंटरव्ह्यूचे सह/सह करण्यासाठी समुदायामध्ये पीर-पर-पीर मॉडेल
 - [interviewing.io: वरिष्ठ इंजिनिअर्ससह मोक इंटरव्ह्यू प्रॅक्टिस](https://interviewing.io) - FAANGमधील वरिष्ठ अभियंत्यांसोबत अनामिक अल्गोरिदमिक/सिस्टम डिझाईन इंटरव्ह्यू
 - [Meetapro: टॉप FAANG इंटरव्ह्यूअर्ससह मोक इंटरव्ह्यूस](https://meetapro.com/?utm_source=ciu) - एअरबीअनची अंतर्गत मोक इंटरव्ह्यू/कोचिंग प्लॅटफॉर्म.
@@ -1742,7 +1741,7 @@ Have a story, not just data, about something you accomplished.
 - ### विशेष गणित
   - [कॉम्प्युटर सायन्स 70, 001 - स्प्रिंग 2015 - विशेष गणित आणि प्रायद्विपकता सिद्धांत](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
   - [शाई सिमन्सन द्वारे विशेष गणित (19 व्हिडिओ)](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-  - [IIT रोपर NPTEL द्वारे विशेष गणित](https://nptel.ac.in/courses/106/106/106106183/)
+  - [IIT रोपर NPTEL द्वारे विशेष गणित](https://nptel.ac.in/courses/106106183)
 
 ## काही विषयांवर अधिक माहिती
 

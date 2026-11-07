@@ -1081,7 +1081,6 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
 - [ ] **MULAI DI SINI**: [Primer Desain Sistem](https://github.com/donnemartin/system-design-primer)
 - [ ] [Desain Sistem dari HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [Bagaimana Saya Mempersiapkan Untuk Menjawab Pertanyaan Desain Secara Teknis?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [8 Hal Yang Perlu Diketahui Sebelum Wawancara Desain Sistem](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Desain algoritme](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Normalisasi Basis Data - 1NF, 2NF, 3NF dan 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
 - [ ] [Wawancara Desain Sistem](https://github.com/checkcheckzz/system-design-interview) - Ada banyak sumber daya yang satu ini. Lihat artikel dan contoh. Saya taruh beberapa di bawah ini
@@ -1280,7 +1279,6 @@ Repo tantangan:
 - [Tantangan Interview Coding Interaktif dengan Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Wawancara Mock:
-- [Gainlo.co: Mock pewawancara dari perusahaan besar](http://www.gainlo.co/#!/) - Saya menggunakan ini dan itu membantu saya bersantai untuk layar ponsel dan wawancara di tempat
 - [Pramp: Wawancara mengejek dari / dengan teman sebaya](https://www.pramp.com/) - model wawancara praktik peer-to-peer
 - [Refdash: Wawancara tiruan dan wawancara yang dipercepat](https://refdash.com/) - juga membantu kandidat mempercepat dengan melewatkan beberapa wawancara dengan perusahaan teknologi
 - [interviewing.io: Berlatih wawancara tiruan dengan insinyur senior](https://interviewing.io) - wawancara desain algoritme / sistem tanpa nama dengan insinyur senior dari FAANG secara anonim.

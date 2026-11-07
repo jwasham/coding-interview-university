@@ -1115,7 +1115,7 @@ Backtracking-blauwdruk: [Java](https://leetcode.com/problems/combination-sum/dis
 - Zie voorbereidingsinformatie CV in de boeken: "Cracking The Coding Interview" en "Programming Interviews Exposed"
 - Ik weet niet hoe belangrijk dit is (je kunt je eigen onderzoek doen) maar hier is een artikel over het ATS-compatibel maken van je cv:
     - [Hoe maak je een CV aan of controleer je of je CV ATS-compatibel is](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for -Vrij)
-- ["Dit is hoe een GOED CV eruit zou moeten zien" door Gayle McDowell (auteur van Cracking the Coding Interview)](https://www.careercup.com/resume),
+- ["Dit is hoe een GOED CV eruit zou moeten zien" door Gayle McDowell (auteur van Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume),
     - Opmerking van de auteur: "Dit is voor een op de VS gericht cv. CV's voor India en andere landen hebben andere verwachtingen, hoewel veel van de punten hetzelfde zullen zijn."
 - ["Stap-voor-stap cv-gids" door Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Gedetailleerde gids over hoe u uw cv helemaal opnieuw kunt opzetten, effectieve cv-inhoud kunt schrijven, optimaliseren en uw cv kunt testen
@@ -1151,7 +1151,6 @@ Backtracking-blauwdruk: [Java](https://leetcode.com/problems/combination-sum/dis
         - Vaak is het niet je technische competentie die je ervan weerhoudt om je droombaan te vinden, het is hoe je presteert tijdens het gedragsinterview.
 
 Mock-interviews:
-- [Gainlo.co: nep-interviewers van grote bedrijven](http://www.gainlo.co/#!/) - Ik gebruikte dit en het hielp me te ontspannen voor het telefoonscherm en het interview op locatie
 - [Pramp: schijninterviews van/met leeftijdsgenoten](https://www.pramp.com/) - peer-to-peer model van oefeninterviews
 - [interviewing.io: oefeninterview met senior engineers](https://interviewing.io) - anoniem algoritmisch/systeemontwerp inter
 
@@ -1293,7 +1292,6 @@ Je bent nooit echt klaar.
 - [ ] **START HIER**: [De System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [Systeemontwerp van HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [Hoe bereid ik me voor op het beantwoorden van ontwerpvragen in een technisch interview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical -interview?redirected_qid=1500023)
-- [ ] [8 dingen die u moet weten voordat u een systeemontwerpgesprek voert](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before -systeem-ontwerp-interviews/)
 - [ ] [Databasenormalisatie - 1NF, 2NF, 3NF en 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
 - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Er zijn veel bronnen in deze. Bekijk de artikelen en voorbeelden. Ik heb er een paar hieronder gezet
 - [ ] [Hoe een systeemontwerpgesprek te halen](https://web.archive.org/web/20120716060051/http://www.palantir.com/2011/10/how-to-rock-a-systems -ontwerp-interview/)
@@ -1695,7 +1693,7 @@ Je bent nooit echt klaar.
 - ### Discrete wiskunde
     - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [Discrete wiskunde door Shai Simonson (19 video's)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
-    - [Discrete wiskunde door IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
+    - [Discrete wiskunde door IIT Ropar NPTEL](https://nptel.ac.in/courses/106106183)
 
 ---
 

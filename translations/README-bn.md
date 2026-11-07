@@ -1366,7 +1366,6 @@ https://github.com/jwasham/coding-interview-university
 - **এখানে শুরু করুন**: [সিস্টেম ডিজাইন প্রাইমার] (https://github.com/donnemartin/system-design-primer)
 -  [হায়ারডিনটেক থেকে সিস্টেম ডিজাইন] (http://www.hiredintech.com/system-design/)
 -  [আমি কীভাবে কোনও প্রযুক্তিগত ইনভারভিউতে নকশার প্রশ্নের উত্তর দিতে প্রস্তুত করব?] (Https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview? redirected_qid = 1500023)
--  [সিস্টেম ডিজাইনের সাক্ষাত্কারের আগে আপনার যে 8 টি বিষয়গুলি জানতে হবে]] (http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system ডিজাইন-সাক্ষাৎকার /)
 -  [অ্যালগরিদম নকশা] (http://www.hiredintech.com/algorithm-design/)
 -  [ডাটাবেস নরমালাইজেশন-1NF, 2NF, 3NF এবং 4NF (ভিডিও)] (https://www.youtube.com/watch?v=UYYLYV7WSHM)
 -  [সিস্টেম ডিজাইনের সাক্ষাত্কার] (https://github.com/checkcheckzz/system-design-interview)-এটির মধ্যে প্রচুর সংস্থান রয়েছে। নিবন্ধ এবং উদাহরণের মাধ্যমে দেখুন। আমি তাদের কিছু নীচে রাখলাম।
@@ -1571,7 +1570,6 @@ https://github.com/jwasham/coding-interview-university
 - [পাইথনে ইন্টারেক্টিভ কোডিং সাক্ষাত্কারের চ্যালেঞ্জগুলি] (https://github.com/donnemartin/interactive-coding-challenges)
  
 মক সাক্ষাত্কার:
-- [গেইনলোক.কম: বড় সংস্থাগুলির মক সাক্ষাত্কার]] (http://www.gainlo.co/#!/)-আমি এটি ব্যবহার করেছি এবং এটি আমাকে ফোনের স্ক্রিন এবং সাইটে সাক্ষাত্কারের জন্য শিথিল করতে সহায়তা করেছে।
 - [প্র্যাম্প: সহকর্মীদের কাছ থেকে / সাথে মক সাক্ষাত্কার] (https://www.pramp.com/)-অনুশীলন সাক্ষাত্কারগুলির পিয়ার-টু-পিয়ার মডেল
 - [রেফড্যাশ: মক সাক্ষাত্কার এবং তাত্ক্ষণিক সাক্ষাত্কার]] (https://refdash.com/)-প্রযুক্তিবিদদের সাথে একাধিক সাক্ষাত্কার এড়িয়ে প্রার্থীদের দ্রুত ট্র্যাক করতে সহায়তা করে।
  

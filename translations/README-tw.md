@@ -1112,7 +1112,6 @@
 - [ ] **從這裡開始**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF(影片)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
 - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - 這個裡面包含許多資源。把裡面的文章與例子都看過一遍，裡面有些我把他特別放在下面。
@@ -1301,7 +1300,6 @@ Coding面試題目影片:
 - [Python互動式coding面試解題](https://github.com/donnemartin/interactive-coding-challenges)
 
 更多面試:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - 點對點面試練習
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - 同樣能藉由跳過跟多家科技公司的面試，幫助你快速步上軌道，
 

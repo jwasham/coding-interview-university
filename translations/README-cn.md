@@ -1159,7 +1159,7 @@
 ## 更新你的简历
 
 - 在书籍《Cracking The Coding Interview》和《Programming Interviews Exposed》中查看简历准备信息。
-- [“这就是一个优秀简历的样子” by Gayle McDowell（《Cracking the Coding Interview》的作者）](https://www.careercup.com/resume), 
+- [“这就是一个优秀简历的样子” by Gayle McDowell（《Cracking the Coding Interview》的作者）](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume), 
     - 作者备注：“这是针对美国的简历。印度和其他国家的简历有不同的期望，尽管许多要点是相同的。”
 - [“逐步简历指南” by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - 详细指南，教您如何从零开始设置您的简历，编写有效的简历内容，优化它，并测试您的简历。
@@ -1190,7 +1190,6 @@
       - LeetCode的速成课程。涵盖了从成千上万的问题中提炼出的所有模式。
 
 模拟面试：
-- [Gainlo.co：来自大公司的模拟面试官](http://www.gainlo.co/#!/) - 我用过这个，帮助我放松进行电话和现场面试。
 - [Pramp：与同行进行模拟面试](https://www.pramp.com/) - 同行模式的实践面试。
 - [interviewing.io：与资深工程师进行模拟面试 ](https://interviewing.io) - 匿名算法/系统设计面试，与FAANG公司的资深工程师进行。
 - [Meetapro：与顶级FAANG面试官进行模拟面试 ](https://meetapro.com/?utm_source=ciu) - 类似Airbnb的模拟面试/指导平台。
@@ -1722,7 +1721,7 @@
 - ### 离散数学
     - [计算机科学70，001 - 2015年春季 - 离散数学与概率论](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [离散数学由Shai Simonson（19个视频）](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
-    - [离散数学由印度理工学院罗帕尔分校NPTEL提供](https://nptel.ac.in/courses/106/106/106106183/)
+    - [离散数学由印度理工学院罗帕尔分校NPTEL提供](https://nptel.ac.in/courses/106106183)
 
 ---
 

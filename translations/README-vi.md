@@ -1249,7 +1249,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 ## Lý lịch (Resume) của bạn
 
 - Xem thông tin chuẩn bị CV trong các sách: "Cracking The Coding Interview" và "Programming Interviews Exposed"
-- ["Đây là những gì một CV TỐT nên có" của Gayle McDowell (tác giả của Cracking the Coding Interview)](https://www.careercup.com/resume),
+- ["Đây là những gì một CV TỐT nên có" của Gayle McDowell (tác giả của Cracking the Coding Interview)](https://web.archive.org/web/20240515023235/https://www.careercup.com/resume),
     - Lưu ý của tác giả: "Đây là cho một CV tập trung cho nước Mỹ. CV cho Ấn Độ và các quốc gia khác có những kỳ vọng khác nhau, mặc dù nhiều điểm sẽ giống nhau."
 - ["Hướng dẫn từng bước để tạo CV" của Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Hướng dẫn chi tiết về cách thiết lập CV của bạn từ đầu, viết nội dung CV hiệu quả, tối ưu hóa nó, và kiểm tra CV của bạn
@@ -1288,7 +1288,6 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
       - Khóa học tóm tắt cho LeetCode. Bao gồm tất cả các mô hình được tóm gọn từ hàng nghìn câu hỏi.
 
 Phỏng vấn mô phỏng:
-- [Gainlo.co: Người phỏng vấn mô phỏng từ các công ty lớn](http://www.gainlo.co/#!/) - Tôi đã sử dụng dịch vụ này và nó giúp tôi thư giãn cho phần phỏng vấn qua điện thoại và phỏng vấn trực tiếp
 - [Pramp: Phỏng vấn mô phỏng từ/ với đồng nghiệp](https://www.pramp.com/) - một mô hình ngang hàng để thực hành phỏng vấn
 - [interviewing.io: Thực hành phỏng vấn mô phỏng với các kỹ sư hàng đầu](https://interviewing.io) - phỏng vấn mô phỏng về thiết kế thuật toán/hệ thống với các kỹ sư hàng đầu từ FAANG một cách ẩn danh
 - [Meetapro: Phỏng vấn mô phỏng với những người phỏng vấn hàng đầu từ FAANG](https://meetapro.com/?utm_source=ciu) - một nền tảng phỏng vấn mô phỏng/phỏng vấn theo phong cách Airbnb.
@@ -1805,7 +1804,7 @@ Bạn không bao giờ thực sự học xong!
 - ### Discrete math
     - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
-    - [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
+    - [Discrete Mathematics By IIT Ropar NPTEL](https://nptel.ac.in/courses/106106183)
 
 ---
 

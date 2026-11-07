@@ -1,0 +1,83 @@
+# Generative AI Cheat Sheet — 2025 Full Edition
+
+## 1. Overview
+Generative AI (GenAI) creates **new** text, images, code, audio, and video from patterns learned in data.  
+It’s used across **content creation, marketing, programming, research, and design**.
+
+## 2. Core Concepts
+
+| Term              | Meaning                                             | Example                       |
+|-------------------|-----------------------------------------------------|-------------------------------|
+| **LLM**           | Large Language Model. Generates human-like text.   | GPT-4, Claude 3, Gemini 1.5   |
+| **Multimodal AI**  | Understands/creates text, images, audio, etc. simultaneously. | GPT-4o, Gemini Pro, LLaVA      |
+| **Context Window** | How much text/data the AI can process at once.     | 128k–1M tokens                |
+| **Autonomous AI Agents** | AI that plans & performs complex tasks with minimal input. | AutoGPT, CrewAI, Devin        |
+| **Fine-tuning**    | Training a base model for a specific task/domain.   | Fine-tuning GPT-3.5 for legal writing |
+
+## 3. Top AI Tools in 2025
+
+### Text & Content
+
+| Tool              | Strength                        | Free Tier? | Paid Plans |
+|-------------------|--------------------------------|------------|------------|
+| ChatGPT (OpenAI)  | General-purpose text, reasoning, coding | Yes        | $20/mo+    |
+| Claude 3 (Anthropic) | Long-form reasoning & safe outputs | Yes        | $20/mo+    |
+| Copy.ai           | Marketing-focused content       | Yes        | $36/mo+    |
+| Jasper AI         | Team-oriented marketing & content | No         | $39/mo+    |
+
+### Code Generation
+
+| Tool              | Strength                | Languages | Notes               |
+|-------------------|-------------------------|-----------|---------------------|
+| GitHub Copilot    | In-IDE AI pair programmer | 30+       | Best for speed coding|
+| Replit Ghostwriter | Full-stack assistance    | Multi     | Built into cloud IDE |
+| Cursor            | AI-powered code editor   | Multi     | Free tier + $20/mo Pro |
+
+### Image Generation
+
+| Tool              | Style Strength          | Free Tier? | License               |
+|-------------------|-------------------------|------------|-----------------------|
+| Midjourney v6     | Artistic, photorealistic | No         | Commercial allowed    |
+| DALL·E 3          | Illustrations, design-friendly | Yes        | Commercial            |
+| Adobe Firefly     | Design-focused, brand-safe | Yes        | Built into Adobe CC    |
+
+### Video Generation
+
+| Tool              | Focus                   | Pricing    |
+|-------------------|-------------------------|------------|
+| Runway ML Gen-2/3 | Text-to-video           | $12/mo+    |
+| Pika Labs         | Stylized animations     | Freemium   |
+| Synthesia         | Talking-head AI avatars | $22/mo+    |
+
+### Audio & Music
+
+| Tool              | Use                     | Pricing    |
+|-------------------|-------------------------|------------|
+| ElevenLabs        | Realistic text-to-voice  | $5/mo+     |
+| Suno AI           | AI music composition     | Free+Pro   |
+| Voicemod          | Real-time AI voice changer | Freemium  |
+
+## 4. Prompting Best Practices
+- **Role Setup** — “You are a legal analyst…”  
+- **Task Clarity** — Define exactly what you want.  
+- **Constraints** — Tone, length, style, format.  
+- **Step-by-Step Reasoning** — Ask AI to break complex tasks into steps.  
+- **Multi-pass Editing** — Iterate prompts to improve output.  
+
+## 5. Example Prompts
+- **Marketing:** “Write a LinkedIn post in a friendly but authoritative tone announcing a product update for early adopters.”  
+- **Programming:** “Write a Python script that converts all PNG files in a folder to JPG.”  
+- **Research:** “Summarize the last 5 major papers on quantum error correction in plain English, 200 words each.”  
+
+## 6. Workflow Integration Pro Tips
+- Combine tools — e.g., use ChatGPT for script → Midjourney for visuals → Runway for video.  
+- Automate — Link AI to Zapier, Make, or LangChain for recurring tasks.  
+- Keep a prompt library — Reuse effective prompts.  
+- Fact-check — Always verify AI-generated information.  
+
+## 7. Trends & What’s Next (2025)
+- Massive context windows (1M+ tokens) enabling whole-book analysis.  
+- Real-time multimodal assistants with instant voice/video response.  
+- AI agents that run autonomously for hours to complete projects.  
+- Domain-specific tuned models replacing generic AI for many industries.
+

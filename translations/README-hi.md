@@ -1770,7 +1770,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 - ### डिस्क्रीट मैथ
     - [कंप्यूटर साइंस 70, 001 - स्प्रिंग 2015 - असतत गणित और संभाव्यता सिद्धांत](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [शाई सिमोंसन द्वारा असतत गणित (19 वीडियो)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
-    - [आईआईटी रोपड़ एनपीटीईएल द्वारा असतत गणित](https://nptel.ac.in/courses/106/106/106106183/)
+    - [आईआईटी रोपड़ एनपीटीईएल द्वारा असतत गणित](https://nptel.ac.in/courses/106106183)
 
 ---
 

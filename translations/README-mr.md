@@ -1741,7 +1741,7 @@ Have a story, not just data, about something you accomplished.
 - ### विशेष गणित
   - [कॉम्प्युटर सायन्स 70, 001 - स्प्रिंग 2015 - विशेष गणित आणि प्रायद्विपकता सिद्धांत](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
   - [शाई सिमन्सन द्वारे विशेष गणित (19 व्हिडिओ)](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-  - [IIT रोपर NPTEL द्वारे विशेष गणित](https://nptel.ac.in/courses/106/106/106106183/)
+  - [IIT रोपर NPTEL द्वारे विशेष गणित](https://nptel.ac.in/courses/106106183)
 
 ## काही विषयांवर अधिक माहिती
 

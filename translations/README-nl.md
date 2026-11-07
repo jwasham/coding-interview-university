@@ -1693,7 +1693,7 @@ Je bent nooit echt klaar.
 - ### Discrete wiskunde
     - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
     - [Discrete wiskunde door Shai Simonson (19 video's)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
-    - [Discrete wiskunde door IIT Ropar NPTEL](https://nptel.ac.in/courses/106/106/106106183/)
+    - [Discrete wiskunde door IIT Ropar NPTEL](https://nptel.ac.in/courses/106106183)
 
 ---
 

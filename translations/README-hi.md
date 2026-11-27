@@ -1585,7 +1585,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [जीआरपीसी] (http://www.grpc.io/)
         - [Java Developers के लिए gRPC 101 (वीडियो)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [रेडिस] (http://redis.io/)
-        - [ट्यूटोरियल] (http://try.redis.io/)
+        - [ट्यूटोरियल] (https://redis.io/learn/howtos/quick-start)
     - [अमेज़ॅन एसक्यूएस (कतार)] (https://aws.amazon.com/sqs/)
     - [अमेज़ॅन एसएनएस (पब-सब)](https://aws.amazon.com/sns/)
     - [RabbitMQ](https://www.rabbitmq.com/)

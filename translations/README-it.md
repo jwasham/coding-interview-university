@@ -1594,7 +1594,7 @@ You're never really done.
     - [gRPC](http://www.grpc.io/)
         - [gRPC 101 for Java Developers (Video in Inglese)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [Redis](http://redis.io/)
-        - [Tutorial](http://try.redis.io/)
+        - [Tutorial](https://redis.io/learn/howtos/quick-start)
     - [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
     - [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [RabbitMQ](https://www.rabbitmq.com/)

@@ -1526,7 +1526,7 @@ Coding面試題目影片:
     - [gRPC](http://www.grpc.io/)
         - [gRPC 101 for Java Developers (影片)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [Redis](http://redis.io/)
-        - [教學](http://try.redis.io/)
+        - [教學](https://redis.io/learn/howtos/quick-start)
     - [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
     - [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [RabbitMQ](https://www.rabbitmq.com/)
@@ -1569,7 +1569,7 @@ Coding面試題目影片:
 
 - ### van Emde Boas Trees
     - [Divide & Conquer: van Emde Boas Trees (影片)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-    - [MIT課程筆記](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+    - [MIT課程筆記](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/c02af0a02710642161276560ab21510d_MIT6_046JS12_lec15.pdf)
 
 - ### Augmented Data Structures
     - [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)

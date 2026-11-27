@@ -1536,7 +1536,7 @@
     - [gRPC](http://www.grpc.io/)
         - [gRPC 对于JAVA开发者的入门教程（视频）](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [Redis](http://redis.io/)
-        - [教程](http://try.redis.io/)
+        - [教程](https://redis.io/learn/howtos/quick-start)
     - [Amazon的 SQS 系统 (队列)](https://aws.amazon.com/sqs/)
     - [Amazon的 SNS 系统 (pub-sub)](https://aws.amazon.com/sns/)
     - [RabbitMQ](https://www.rabbitmq.com/)
@@ -1578,7 +1578,7 @@
 
 - ### van Emde Boas 树
     - [分而治之：van Emde Boas 树 (视频)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-    - [MIT课堂笔记](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+    - [MIT课堂笔记](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/c02af0a02710642161276560ab21510d_MIT6_046JS12_lec15.pdf)
 
 - ### 增强数据结构
     - [CS 61B 第 39 课: 增强数据结构](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)

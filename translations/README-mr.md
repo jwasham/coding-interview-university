@@ -1558,7 +1558,7 @@ Have a story, not just data, about something you accomplished.
   - [gRPC](http://www.grpc.io/)
     - [Java डेव्हलपर्स साठी gRPC 101 (व्हिडिओ)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
   - [Redis](http://redis.io/)
-    - [ट्यूटोरियल](http://try.redis.io/)
+    - [ट्यूटोरियल](https://redis.io/learn/howtos/quick-start)
   - [Amazon SQS (क्यू)](https://aws.amazon.com/sqs/)
   - [Amazon SNS (पब-सब)](https://aws.amazon.com/sns/)
   - [RabbitMQ](https://www.rabbitmq.com/)
@@ -1606,7 +1606,7 @@ Have a story, not just data, about something you accomplished.
 - ### व्हॅन एम्डे बोस झाडे
 
   - [विभाजन आणि विजेक्टर: व्हॅन एम्डे बोस झाडे (व्हिडिओ)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-  - [MIT लेक्चर नोट्स](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+  - [MIT लेक्चर नोट्स](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/c02af0a02710642161276560ab21510d_MIT6_046JS12_lec15.pdf)
 
 - ### अग्निवर्धनशील डेटा संरचना
 

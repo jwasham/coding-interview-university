@@ -1596,7 +1596,7 @@ Google не возьмёт тебя на работу.
     - [ ] [gRPC](http://www.grpc.io/)
         - [gRPC для Java разработчиков (видео)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [ ] [Redis — сетевое журналируемое хранилище данных](http://redis.io/)
-        - [Урок](http://try.redis.io/)
+        - [Урок](https://redis.io/learn/howtos/quick-start)
     - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [ ] [RabbitMQ - платформа для обмены сообщениями](https://www.rabbitmq.com/)
         - [Урок](https://www.rabbitmq.com/getstarted.html)
@@ -1633,7 +1633,7 @@ Google не возьмёт тебя на работу.
 
 - ### Деревья ван Эмде Боаса
     - [ ] [Разделяй и властвуй: Деревья ван Эмде Боаса (видео)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-    - [ ] [Конспект лекций МТИ(Массачусетский технологический институт)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+    - [ ] [Конспект лекций МТИ(Массачусетский технологический институт)](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/c02af0a02710642161276560ab21510d_MIT6_046JS12_lec15.pdf)
 
 - ### Расширенные структуры данных
     - [ ] [CS 61B Лекция 39: Расширение структур данных](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)

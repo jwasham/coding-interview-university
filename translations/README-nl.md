@@ -1507,7 +1507,7 @@ Je bent nooit echt klaar.
 
         kijken?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [Redis](http://redis.io/)
-        - [Tutorial](http://try.redis.io/)
+        - [Tutorial](https://redis.io/learn/howtos/quick-start)
     - [Amazon SQS (wachtrij)](https://aws.amazon.com/sqs/)
     - [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [RabbitMQ](https://www.rabbitmq.com/)

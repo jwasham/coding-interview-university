@@ -1602,7 +1602,7 @@ Mock интервюта:
     -   [gRPC](http://www.grpc.io/)
         -   [gRPC 101 за Java разработчици (клип)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     -   [Redis](http://redis.io/)
-        -   [Ръководство](http://try.redis.io/)
+        -   [Ръководство](https://redis.io/learn/howtos/quick-start)
     -   [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
     -   [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     -   [RabbitMQ](https://www.rabbitmq.com/)
@@ -1651,7 +1651,7 @@ Mock интервюта:
 -   ### van Emde Boas Trees
 
     -   [Разделяй и владей: van Emde Boas Trees (клип)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-    -   [Бележки от лекции към MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+    -   [Бележки от лекции към MIT](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/c02af0a02710642161276560ab21510d_MIT6_046JS12_lec15.pdf)
 
 -   ### Разширени структури от данни
 

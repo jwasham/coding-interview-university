@@ -1814,7 +1814,7 @@ https://github.com/jwasham/coding-interview-university
    -  [জিআরপিসি] (http://www.grpc.io/)
        - [জাভা ডেভেলপারদের (ভিডিও) জন্য জিআরপিসি 101] (https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJOL&index=1)
    -  [রেডিস] (http://redis.io/)
-       - [টিউটোরিয়াল] (http://try.redis.io/)
+       - [টিউটোরিয়াল] (https://redis.io/learn/howtos/quick-start)
    -  [আমাজন এসকিউএস (সারি)] (https://aws.amazon.com/sqs/)
    -  [অ্যামাজন এসএনএস (পাব সাব)] (https://aws.amazon.com/sns/)
    -  [র‌্যাবিট এমকিউ] (https://www.rabbitmq.com/)
